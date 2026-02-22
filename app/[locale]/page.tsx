@@ -5,6 +5,7 @@ import Footer from '../../components/Footer';
 import AnalysisForm from '../../components/AnalysisForm';
 import AdSense from '../../components/AdSense';
 import Link from 'next/link';
+import Image from 'next/image';
 
 interface Props {
   params: { locale: string };
@@ -153,6 +154,17 @@ export default async function HomePage({ params: { locale } }: Props) {
             <p className="text-yellow-200/70 text-lg mb-2">
               {t('home.heroDesc')}
             </p>
+
+            <div className="mt-4 mb-2 rounded-xl overflow-hidden">
+              <Image
+                src="/hero-banner.png"
+                alt={locale === 'ko' ? '사주팔자 종합 분석' : 'Korean Fortune Reading'}
+                width={800}
+                height={300}
+                className="w-full object-cover"
+                priority
+              />
+            </div>
 
             <div className="flex justify-center gap-6 my-8 text-sm">
               <div className="flex items-center gap-2 text-yellow-300">

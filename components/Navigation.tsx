@@ -29,8 +29,11 @@ export default function Navigation() {
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* 로고 */}
-          <Link href={`/${locale}`} className="hover:opacity-80 transition-opacity">
+          <Link href={`/${locale}`} className="flex items-center gap-2 hover:opacity-80 transition-opacity">
             <Image src="/logo.png" alt={t('logo')} width={40} height={40} className="rounded-md" />
+            <span className="text-xl font-bold text-yellow-400">
+              {locale === 'ko' ? '사주팔자' : 'SAJUPALZA'}
+            </span>
           </Link>
 
           {/* 데스크톱 네비게이션 */}
