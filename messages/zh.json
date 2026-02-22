@@ -45,6 +45,7 @@
     },
     "step2": {
       "title": "请输入您的出生日期",
+      "label": "生日",
       "solar": "阳历",
       "lunar": "阴历",
       "year": "年",
@@ -56,17 +57,22 @@
     },
     "step3": {
       "title": "请选择您的MBTI类型",
+      "label": "MBTI",
       "skip": "我不知道我的MBTI · 跳过 →",
-      "optional": "可选"
+      "optional": "可选",
+      "selected": "已选择"
     },
     "step4": {
       "title": "请选择您的出生时辰",
+      "label": "时间",
       "skip": "我不知道出生时间 · 跳过 →",
       "tip": "💡 知道出生时辰可以让四柱分析更加准确！",
-      "optional": "可选"
+      "optional": "可选",
+      "selected": "已选择"
     },
     "step5": {
       "title": "请上传面部照片",
+      "label": "照片",
       "camera": "拍照",
       "upload": "上传照片",
       "skip": "不上传照片进行免费分析 →",
@@ -76,10 +82,18 @@
       "accuracyWithPhoto": "100%",
       "privacy": "📷 您上传的照片仅在浏览器中分析，不会传输到服务器或被存储。分析完成后立即自动删除。",
       "faceNotFound": "未检测到人脸，请重试。",
-      "optional": "可选"
+      "optional": "可选",
+      "analyzing": "面相分析中...",
+      "removePhoto": "删除照片",
+      "noPhotoNote": "没有照片也可以分析",
+      "analysisDone": "✅ 面相分析完成・将反映在结果中",
+      "privacyNote": "🔒 照片分析后立即删除，不存储在服务器上。",
+      "analyzeWithPhoto": "用照片分析 →"
     },
     "next": "下一步",
     "prev": "上一步",
+    "nextStep": "下一步 →",
+    "prevStep": "← 上一步",
     "analyze": "开始免费分析"
   },
   "privacy": {

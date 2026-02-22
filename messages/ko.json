@@ -45,6 +45,7 @@
     },
     "step2": {
       "title": "생년월일을 입력해주세요",
+      "label": "생일",
       "solar": "양력",
       "lunar": "음력",
       "year": "년",
@@ -55,17 +56,22 @@
     },
     "step3": {
       "title": "MBTI를 선택해주세요",
+      "label": "MBTI",
       "skip": "MBTI를 모릅니다 · 건너뛰기 →",
-      "optional": "선택"
+      "optional": "선택",
+      "selected": "선택됨"
     },
     "step4": {
       "title": "태어난 시간을 선택해주세요",
+      "label": "시간",
       "skip": "시간을 모릅니다 · 건너뛰기 →",
       "tip": "💡 태어난 시간을 알면 사주 분석이 더 정확해요!",
-      "optional": "선택"
+      "optional": "선택",
+      "selected": "선택됨"
     },
     "step5": {
       "title": "얼굴 사진을 업로드해주세요",
+      "label": "사진",
       "camera": "카메라 촬영",
       "upload": "사진 업로드",
       "skip": "사진 없이 무료 분석 받기 →",
@@ -75,10 +81,18 @@
       "accuracyWithPhoto": "100%",
       "privacy": "📷 업로드하신 사진은 브라우저에서만 분석되며 서버로 전송되거나 저장되지 않습니다. 분석 완료 즉시 자동으로 삭제됩니다.",
       "faceNotFound": "얼굴을 찾을 수 없습니다. 다시 시도해주세요.",
-      "optional": "선택"
+      "optional": "선택",
+      "analyzing": "관상 분석 중...",
+      "removePhoto": "사진 삭제",
+      "noPhotoNote": "사진 없이도 분석 가능합니다",
+      "analysisDone": "✅ 관상 분석 완료 · 결과에 반영됩니다",
+      "privacyNote": "🔒 사진은 분석 즉시 자동 삭제됩니다. 서버에 저장되지 않습니다.",
+      "analyzeWithPhoto": "사진으로 분석 →"
     },
     "next": "다음",
     "prev": "이전",
+    "nextStep": "다음 단계 →",
+    "prevStep": "← 이전",
     "analyze": "무료 분석 시작"
   },
   "privacy": {

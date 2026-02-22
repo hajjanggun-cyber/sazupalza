@@ -45,6 +45,7 @@
     },
     "step2": {
       "title": "生年月日を入力してください",
+      "label": "誕生日",
       "solar": "新暦",
       "lunar": "旧暦",
       "year": "年",
@@ -56,17 +57,22 @@
     },
     "step3": {
       "title": "MBTIタイプを選択してください",
+      "label": "MBTI",
       "skip": "MBTIがわかりません・スキップ →",
-      "optional": "任意"
+      "optional": "任意",
+      "selected": "選択済"
     },
     "step4": {
       "title": "生まれた時間を選択してください",
+      "label": "時間",
       "skip": "時間がわかりません・スキップ →",
       "tip": "💡 生まれた時間がわかると、四柱分析がより正確になります！",
-      "optional": "任意"
+      "optional": "任意",
+      "selected": "選択済"
     },
     "step5": {
       "title": "顔写真をアップロードしてください",
+      "label": "写真",
       "camera": "写真撮影",
       "upload": "写真アップロード",
       "skip": "写真なしで無料分析を受ける →",
@@ -76,10 +82,18 @@
       "accuracyWithPhoto": "100%",
       "privacy": "📷 アップロードされた写真はブラウザ内でのみ分析され、サーバーには送信・保存されません。分析完了後、即座に自動削除されます。",
       "faceNotFound": "顔が検出できませんでした。もう一度お試しください。",
-      "optional": "任意"
+      "optional": "任意",
+      "analyzing": "顔相を分析中...",
+      "removePhoto": "写真を削除",
+      "noPhotoNote": "写真なしでも分析可能です",
+      "analysisDone": "✅ 顔相分析完了・結果に反映されます",
+      "privacyNote": "🔒 写真は分析後即座に削除され、サーバーには保存されません。",
+      "analyzeWithPhoto": "写真で分析 →"
     },
     "next": "次へ",
     "prev": "戻る",
+    "nextStep": "次のステップ →",
+    "prevStep": "← 戻る",
     "analyze": "無料分析を開始"
   },
   "privacy": {

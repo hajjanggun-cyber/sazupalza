@@ -10,7 +10,6 @@ import Step4Time from './steps/Step4Time';
 import Step5Photo from './steps/Step5Photo';
 
 const TOTAL_STEPS = 5;
-const stepLabels = ['이름', '생일', 'MBTI', '시간', '사진'];
 
 function encodeToBase64Url(data: object): string {
   const jsonStr = JSON.stringify(data);
@@ -27,6 +26,14 @@ export default function AnalysisForm() {
   const params = useParams();
   const locale = params.locale as string;
   const t = useTranslations();
+
+  const stepLabels = [
+    t('steps.step1.label'),
+    t('steps.step2.label'),
+    t('steps.step3.label'),
+    t('steps.step4.label'),
+    t('steps.step5.label'),
+  ];
 
   const [step, setStep] = useState(1);
   const [name, setName] = useState('');

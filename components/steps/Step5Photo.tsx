@@ -105,14 +105,14 @@ interface Props {
 }
 
 export default function Step5Photo({ onPhotoCapture, onSkip, onPrev }: Props) {
-  const t = useTranslations('steps.step5');
+  const t = useTranslations('steps');
   const fileInputRef = useRef<HTMLInputElement>(null);
   const [preview, setPreview]   = useState<string | null>(null);
   const [uploading, setUploading] = useState(false);
   const [analyzing, setAnalyzing] = useState(false);
   const [faceError, setFaceError] = useState(false);
 
-  const accuracy = preview ? parseInt(t('accuracyWithPhoto')) : parseInt(t('accuracyNoPhoto'));
+  const accuracy = preview ? parseInt(t('step5.accuracyWithPhoto')) : parseInt(t('step5.accuracyNoPhoto'));
 
   const handleFileChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
@@ -195,22 +195,22 @@ export default function Step5Photo({ onPhotoCapture, onSkip, onPrev }: Props) {
     <div className="fade-in space-y-6">
       <div className="text-center">
         <span className="inline-block bg-yellow-900/60 text-yellow-400 text-xs font-bold px-3 py-1 rounded-full mb-3 border border-yellow-600/30">
-          {t('optional')} ○
+          {t('step5.optional')} ○
         </span>
-        <h2 className="text-2xl font-bold text-yellow-100">{t('title')}</h2>
+        <h2 className="text-2xl font-bold text-yellow-100">{t('step5.title')}</h2>
       </div>
 
       {/* 분석 정확도 바 */}
       <div className="card-dark p-4">
         <div className="flex justify-between items-center mb-2">
-          <span className="text-yellow-200/80 text-sm">{t('accuracy')}</span>
+          <span className="text-yellow-200/80 text-sm">{t('step5.accuracy')}</span>
           <span className="text-yellow-400 font-bold">{accuracy}%</span>
         </div>
         <div className="score-bar">
           <div className="score-fill" style={{ width: `${accuracy}%` }} />
         </div>
         {!preview && (
-          <p className="text-yellow-200/50 text-xs mt-2 text-center">{t('noPhotoMsg')}</p>
+          <p className="text-yellow-200/50 text-xs mt-2 text-center">{t('step5.noPhotoMsg')}</p>
         )}
       </div>
 
@@ -226,14 +226,14 @@ export default function Step5Photo({ onPhotoCapture, onSkip, onPrev }: Props) {
           {analyzing && (
             <div className="absolute inset-0 bg-black/60 flex flex-col items-center justify-center rounded-xl">
               <div className="text-3xl mb-2 animate-pulse">👁️</div>
-              <p className="text-yellow-300 text-sm font-medium">관상 분석 중...</p>
+              <p className="text-yellow-300 text-sm font-medium">{t('step5.analyzing')}</p>
             </div>
           )}
           {!analyzing && (
             <button
               onClick={handleRemove}
               className="absolute top-2 right-2 bg-black/60 text-white rounded-full p-1.5 hover:bg-black/80 transition-colors"
-              aria-label="사진 삭제"
+              aria-label={t('step5.removePhoto')}
             >
               ✕
             </button>
@@ -244,15 +244,15 @@ export default function Step5Photo({ onPhotoCapture, onSkip, onPrev }: Props) {
       {/* 얼굴 미감지 에러 */}
       {faceError && (
         <div className="text-center text-yellow-400 text-sm bg-yellow-900/20 rounded-lg p-3">
-          {t('faceNotFound')}
-          <p className="text-yellow-200/60 text-xs mt-1">사진 없이도 분석 가능합니다</p>
+          {t('step5.faceNotFound')}
+          <p className="text-yellow-200/60 text-xs mt-1">{t('step5.noPhotoNote')}</p>
         </div>
       )}
 
       {/* 얼굴 감지 성공 */}
       {preview && !analyzing && !faceError && (
         <div className="text-center text-green-400 text-sm bg-green-900/20 rounded-lg p-3">
-          ✅ 관상 분석 완료 · 결과에 반영됩니다
+          {t('step5.analysisDone')}
         </div>
       )}
 
@@ -274,7 +274,7 @@ export default function Step5Photo({ onPhotoCapture, onSkip, onPrev }: Props) {
             disabled={uploading}
           >
             <span className="text-2xl">📷</span>
-            <span className="text-sm">{t('camera')}</span>
+            <span className="text-sm">{t('step5.camera')}</span>
           </button>
           <button
             className="btn-secondary flex flex-col items-center gap-2 py-5"
@@ -282,7 +282,7 @@ export default function Step5Photo({ onPhotoCapture, onSkip, onPrev }: Props) {
             disabled={uploading}
           >
             <span className="text-2xl">🖼️</span>
-            <span className="text-sm">{t('upload')}</span>
+            <span className="text-sm">{t('step5.upload')}</span>
           </button>
         </div>
       )}
@@ -290,7 +290,7 @@ export default function Step5Photo({ onPhotoCapture, onSkip, onPrev }: Props) {
       {/* 보안 안내 */}
       <div className="bg-green-900/20 border border-green-700/30 rounded-lg p-3">
         <p className="text-green-300/80 text-xs text-center leading-relaxed">
-          🔒 사진은 분석 즉시 자동 삭제됩니다. 서버에 저장되지 않습니다.
+          {t('step5.privacyNote')}
         </p>
       </div>
 
@@ -299,21 +299,21 @@ export default function Step5Photo({ onPhotoCapture, onSkip, onPrev }: Props) {
         className="w-full py-5 text-lg font-bold text-yellow-400 border-2 border-yellow-500/50 rounded-xl hover:bg-yellow-900/20 transition-colors"
         onClick={onSkip}
       >
-        {t('skip')}
+        {t('step5.skip')}
       </button>
 
       <div className="flex gap-3">
         <button className="btn-secondary flex-1" onClick={onPrev}>
-          ← 이전
+          {t('prevStep')}
         </button>
         {preview && !analyzing && (
           <button className="btn-primary flex-1" onClick={() => onPhotoCapture(preview)}>
-            사진으로 분석 →
+            {t('step5.analyzeWithPhoto')}
           </button>
         )}
         {analyzing && (
           <button className="btn-primary flex-1 opacity-50" disabled>
-            분석 중...
+            {t('step5.analyzing')}
           </button>
         )}
       </div>

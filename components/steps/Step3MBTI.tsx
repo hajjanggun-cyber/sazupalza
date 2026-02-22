@@ -19,15 +19,15 @@ interface Props {
 }
 
 export default function Step3MBTI({ value, onChange, onNext, onSkip, onPrev }: Props) {
-  const t = useTranslations('steps.step3');
+  const t = useTranslations('steps');
 
   return (
     <div className="fade-in space-y-6">
       <div className="text-center">
         <span className="inline-block bg-yellow-900/60 text-yellow-400 text-xs font-bold px-3 py-1 rounded-full mb-3 border border-yellow-600/30">
-          {t('optional')} ○
+          {t('step3.optional')} ○
         </span>
-        <h2 className="text-2xl font-bold text-yellow-100">{t('title')}</h2>
+        <h2 className="text-2xl font-bold text-yellow-100">{t('step3.title')}</h2>
       </div>
 
       {/* MBTI 4x4 그리드 */}
@@ -46,7 +46,7 @@ export default function Step3MBTI({ value, onChange, onNext, onSkip, onPrev }: P
       {value && (
         <div className="text-center">
           <span className="text-yellow-400 text-sm font-medium">
-            선택됨: {value}
+            {t('step3.selected')}: {value}
           </span>
         </div>
       )}
@@ -56,19 +56,19 @@ export default function Step3MBTI({ value, onChange, onNext, onSkip, onPrev }: P
         className="w-full py-4 text-yellow-300/70 hover:text-yellow-300 text-sm border border-dashed border-yellow-700/40 rounded-lg transition-colors"
         onClick={onSkip}
       >
-        {t('skip')}
+        {t('step3.skip')}
       </button>
 
       <div className="flex gap-3">
         <button className="btn-secondary flex-1" onClick={onPrev}>
-          ← 이전
+          {t('prevStep')}
         </button>
         <button
           className="btn-primary flex-1"
           onClick={onNext}
           disabled={!value}
         >
-          다음 단계 →
+          {t('nextStep')}
         </button>
       </div>
     </div>

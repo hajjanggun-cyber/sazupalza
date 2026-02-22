@@ -45,6 +45,7 @@
     },
     "step2": {
       "title": "Enter your date of birth",
+      "label": "Birthday",
       "solar": "Solar",
       "lunar": "Lunar",
       "year": "Year",
@@ -56,17 +57,22 @@
     },
     "step3": {
       "title": "Select your MBTI type",
+      "label": "MBTI",
       "skip": "I don't know my MBTI · Skip →",
-      "optional": "Optional"
+      "optional": "Optional",
+      "selected": "Selected"
     },
     "step4": {
       "title": "Select your birth hour",
+      "label": "Time",
       "skip": "I don't know my birth hour · Skip →",
       "tip": "💡 Knowing your birth hour makes the Four Pillars analysis more accurate!",
-      "optional": "Optional"
+      "optional": "Optional",
+      "selected": "Selected"
     },
     "step5": {
       "title": "Upload a face photo",
+      "label": "Photo",
       "camera": "Take Photo",
       "upload": "Upload Photo",
       "skip": "Get Free Analysis Without Photo →",
@@ -76,10 +82,18 @@
       "accuracyWithPhoto": "100%",
       "privacy": "📷 Your photo is analyzed only in your browser and is never sent to or stored on any server. It is automatically deleted immediately after analysis.",
       "faceNotFound": "Face not detected. Please try again.",
-      "optional": "Optional"
+      "optional": "Optional",
+      "analyzing": "Analyzing face...",
+      "removePhoto": "Remove photo",
+      "noPhotoNote": "Analysis possible without photo",
+      "analysisDone": "✅ Face analysis complete · Added to results",
+      "privacyNote": "🔒 Photos are deleted immediately after analysis and not stored on any server.",
+      "analyzeWithPhoto": "Analyze with photo →"
     },
     "next": "Next",
     "prev": "Previous",
+    "nextStep": "Next Step →",
+    "prevStep": "← Previous",
     "analyze": "Start Free Analysis"
   },
   "privacy": {

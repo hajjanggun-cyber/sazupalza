@@ -26,16 +26,16 @@ interface Props {
 }
 
 export default function Step4Time({ value, onChange, onNext, onSkip, onPrev }: Props) {
-  const t = useTranslations('steps.step4');
+  const t = useTranslations();
 
   return (
     <div className="fade-in space-y-6">
       <div className="text-center">
         <span className="inline-block bg-yellow-900/60 text-yellow-400 text-xs font-bold px-3 py-1 rounded-full mb-3 border border-yellow-600/30">
-          {t('optional')} ○
+          {t('steps.step4.optional')} ○
         </span>
-        <h2 className="text-2xl font-bold text-yellow-100">{t('title')}</h2>
-        <p className="text-yellow-300/70 text-sm mt-2">{t('tip')}</p>
+        <h2 className="text-2xl font-bold text-yellow-100">{t('steps.step4.title')}</h2>
+        <p className="text-yellow-300/70 text-sm mt-2">{t('steps.step4.tip')}</p>
       </div>
 
       {/* 시(時) 리스트 */}
@@ -52,7 +52,7 @@ export default function Step4Time({ value, onChange, onNext, onSkip, onPrev }: P
           >
             <div>
               <span className="font-bold">{time.hanja}</span>
-              <span className="ml-2 text-sm opacity-80">{time.label}</span>
+              <span className="ml-2 text-sm opacity-80">{t(`time.${time.key}`)}</span>
             </div>
             <span className="text-xs opacity-70">{time.range}</span>
           </button>
@@ -64,19 +64,19 @@ export default function Step4Time({ value, onChange, onNext, onSkip, onPrev }: P
         className="w-full py-4 text-yellow-300/70 hover:text-yellow-300 text-sm border border-dashed border-yellow-700/40 rounded-lg transition-colors"
         onClick={onSkip}
       >
-        {t('skip')}
+        {t('steps.step4.skip')}
       </button>
 
       <div className="flex gap-3">
         <button className="btn-secondary flex-1" onClick={onPrev}>
-          ← 이전
+          {t('steps.prevStep')}
         </button>
         <button
           className="btn-primary flex-1"
           onClick={onNext}
           disabled={value === null}
         >
-          다음 단계 →
+          {t('steps.nextStep')}
         </button>
       </div>
     </div>

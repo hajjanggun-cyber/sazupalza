@@ -26,7 +26,7 @@ function getDaysInMonth(year: number, month: number): number {
 }
 
 export default function Step2Birth({ value, onChange, onNext, onPrev }: Props) {
-  const t = useTranslations('steps.step2');
+  const t = useTranslations('steps');
   const locale = useLocale();
   const isKo = locale === 'ko';
 
@@ -54,9 +54,9 @@ export default function Step2Birth({ value, onChange, onNext, onPrev }: Props) {
     <div className="fade-in space-y-6">
       <div className="text-center">
         <span className="inline-block bg-yellow-500 text-black text-xs font-bold px-3 py-1 rounded-full mb-3">
-          {t('required')} ●
+          {t('step2.required')} ●
         </span>
-        <h2 className="text-2xl font-bold text-yellow-100">{t('title')}</h2>
+        <h2 className="text-2xl font-bold text-yellow-100">{t('step2.title')}</h2>
       </div>
 
       {/* 양력/음력 토글 (한국어만) */}
@@ -68,7 +68,7 @@ export default function Step2Birth({ value, onChange, onNext, onPrev }: Props) {
             }`}
             onClick={() => setIsLunar(false)}
           >
-            {t('solar')}
+            {t('step2.solar')}
           </button>
           <button
             className={`px-6 py-2 rounded-full font-medium text-sm transition-all ${
@@ -76,7 +76,7 @@ export default function Step2Birth({ value, onChange, onNext, onPrev }: Props) {
             }`}
             onClick={() => setIsLunar(true)}
           >
-            {t('lunar')}
+            {t('step2.lunar')}
           </button>
         </div>
       )}
@@ -84,14 +84,14 @@ export default function Step2Birth({ value, onChange, onNext, onPrev }: Props) {
       {/* 비한국어 안내 */}
       {!isKo && (
         <p className="text-center text-yellow-200/60 text-sm">
-          {t('gregorianNote')}
+          {t('step2.gregorianNote')}
         </p>
       )}
 
       {/* 날짜 선택 */}
       <div className="grid grid-cols-3 gap-3">
         <div>
-          <label className="block text-yellow-200/70 text-xs mb-1 text-center">{t('year')}</label>
+          <label className="block text-yellow-200/70 text-xs mb-1 text-center">{t('step2.year')}</label>
           <select
             className="input-dark text-center appearance-none"
             value={year}
@@ -106,7 +106,7 @@ export default function Step2Birth({ value, onChange, onNext, onPrev }: Props) {
           </select>
         </div>
         <div>
-          <label className="block text-yellow-200/70 text-xs mb-1 text-center">{t('month')}</label>
+          <label className="block text-yellow-200/70 text-xs mb-1 text-center">{t('step2.month')}</label>
           <select
             className="input-dark text-center appearance-none"
             value={month}
@@ -121,7 +121,7 @@ export default function Step2Birth({ value, onChange, onNext, onPrev }: Props) {
           </select>
         </div>
         <div>
-          <label className="block text-yellow-200/70 text-xs mb-1 text-center">{t('day')}</label>
+          <label className="block text-yellow-200/70 text-xs mb-1 text-center">{t('step2.day')}</label>
           <select
             className="input-dark text-center appearance-none"
             value={Math.min(day, maxDay)}
@@ -135,15 +135,15 @@ export default function Step2Birth({ value, onChange, onNext, onPrev }: Props) {
       </div>
 
       {hasError && (
-        <p className="text-red-400 text-sm text-center">{t('error')}</p>
+        <p className="text-red-400 text-sm text-center">{t('step2.error')}</p>
       )}
 
       <div className="flex gap-3">
         <button className="btn-secondary flex-1" onClick={onPrev}>
-          ← 이전
+          {t('prevStep')}
         </button>
         <button className="btn-primary flex-1" onClick={handleNext}>
-          다음 단계 →
+          {t('nextStep')}
         </button>
       </div>
     </div>
