@@ -14,12 +14,12 @@ export const mbtiPosts: BlogPost[] = [
     toc: [],
     faq: [],
     relatedPosts: [
-      { slug: 'saju-orhaeng', title: 'MBTI와 사주 오행', category: 'mbti' },
-      { slug: 'gunghap', title: 'MBTI 궁합 완전정복', category: 'mbti' },
+      { slug: 'saju-five-elements', title: 'MBTI와 사주 오행', category: 'mbti' },
+      { slug: 'mbti-compatibility', title: 'MBTI 궁합 완전정복', category: 'mbti' },
     ],
   },
   {
-    slug: 'saju-orhaeng',
+    slug: 'saju-five-elements',
     title: 'MBTI와 사주 오행: 16가지 성격 유형과 오행의 상관관계',
     seoTitle: 'MBTI 사주 오행 관계 분석 | 16유형 오행 매핑',
     description: 'MBTI 16가지 성격 유형과 사주 오행의 상관관계를 분석합니다. 내 MBTI가 어떤 오행과 연결되는지 알아보세요.',
@@ -32,11 +32,11 @@ export const mbtiPosts: BlogPost[] = [
     faq: [],
     relatedPosts: [
       { slug: 'intro', title: 'MBTI 유래', category: 'mbti' },
-      { slug: 'gunghap', title: 'MBTI 궁합 완전정복', category: 'mbti' },
+      { slug: 'mbti-compatibility', title: 'MBTI 궁합 완전정복', category: 'mbti' },
     ],
   },
   {
-    slug: 'gunghap',
+    slug: 'mbti-compatibility',
     title: 'MBTI 궁합 완전정복: 최악의 궁합을 오행으로 극복하는 법',
     seoTitle: 'MBTI 궁합 완전정복 | 상극 궁합 사주로 극복하기',
     description: 'MBTI 궁합을 완벽 분석하고 최악의 궁합도 사주 오행으로 극복하는 방법을 알아봅니다. 16유형 궁합표 포함.',
@@ -48,12 +48,12 @@ export const mbtiPosts: BlogPost[] = [
     toc: [],
     faq: [],
     relatedPosts: [
-      { slug: 'saju-orhaeng', title: 'MBTI와 사주 오행', category: 'mbti' },
-      { slug: 'gaeuneop', title: 'MBTI E·I 개운법', category: 'mbti' },
+      { slug: 'saju-five-elements', title: 'MBTI와 사주 오행', category: 'mbti' },
+      { slug: 'fortune-improvement', title: 'MBTI E·I 개운법', category: 'mbti' },
     ],
   },
   {
-    slug: 'gaeuneop',
+    slug: 'fortune-improvement',
     title: 'MBTI E·I 유형별 개운법: 성격 유형에 맞게 운 여는 법',
     seoTitle: 'MBTI E I 유형별 개운법 | 성격별 운 여는 실전법',
     description: 'MBTI E형과 I형의 성격 특성에 맞는 개운법을 알아봅니다. 내 성격 유형에 맞게 운을 여는 실전 방법을 소개합니다.',
@@ -65,12 +65,12 @@ export const mbtiPosts: BlogPost[] = [
     toc: [],
     faq: [],
     relatedPosts: [
-      { slug: 'gunghap', title: 'MBTI 궁합 완전정복', category: 'mbti' },
-      { slug: 'gunghap-table', title: 'MBTI별 사주 궁합표', category: 'mbti' },
+      { slug: 'mbti-compatibility', title: 'MBTI 궁합 완전정복', category: 'mbti' },
+      { slug: 'compatibility-table', title: 'MBTI별 사주 궁합표', category: 'mbti' },
     ],
   },
   {
-    slug: 'gunghap-table',
+    slug: 'compatibility-table',
     title: 'MBTI별 사주 궁합표: 16유형과 잘 맞는 일주 완전 정리',
     seoTitle: 'MBTI별 사주 궁합표 | 16유형 잘 맞는 일주 정리',
     description: 'MBTI 16유형과 사주 일주별 궁합을 완벽 정리한 표입니다. 내 MBTI에 가장 잘 맞는 사주 일주를 확인해보세요.',
@@ -82,8 +82,8 @@ export const mbtiPosts: BlogPost[] = [
     toc: [],
     faq: [],
     relatedPosts: [
-      { slug: 'gunghap', title: 'MBTI 궁합 완전정복', category: 'mbti' },
-      { slug: 'saju-orhaeng', title: 'MBTI와 사주 오행', category: 'mbti' },
+      { slug: 'mbti-compatibility', title: 'MBTI 궁합 완전정복', category: 'mbti' },
+      { slug: 'saju-five-elements', title: 'MBTI와 사주 오행', category: 'mbti' },
     ],
   },
 ];

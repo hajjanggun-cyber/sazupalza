@@ -8,7 +8,7 @@ export interface BlogPost {
   keywords: string[];     // 핵심 키워드 5개
   keywordsEn?: string[];  // English Keywords
   publishedAt: string;    // YYYY-MM-DD
-  category: 'saju' | 'seongmyeong' | 'gwansang' | 'mbti' | 'bokhap';
+  category: 'saju' | 'name-reading' | 'face-reading' | 'mbti' | 'compatibility';
   contentKo: string;      // 한국어 HTML 본문
   contentEn: string;      // 영어 HTML 본문
   toc: { id: string; title: string }[];

@@ -4,6 +4,7 @@ import Navigation from '../../../components/Navigation';
 import Footer from '../../../components/Footer';
 import AdSense from '../../../components/AdSense';
 import Link from 'next/link';
+import { gwansangPosts } from '@/lib/blog/gwansang-posts';
 
 interface Props {
   params: { locale: string };
@@ -170,6 +171,25 @@ export default async function FacePage({ params: { locale } }: Props) {
                 </div>
               ))}
             </div>
+          </div>
+        </section>
+
+        {/* Related Blog Posts */}
+        <section className="max-w-3xl mx-auto px-4 pb-12">
+          <h2 className="text-xl font-bold text-center text-yellow-400 mb-5">
+            {isKo ? '관상 자세히 알아보기' : 'Explore Face Reading Articles'}
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {gwansangPosts.map((post) => (
+              <Link
+                key={post.slug}
+                href={`/${locale}/face-reading/${post.slug}`}
+                className="card-dark p-4 flex items-center justify-between group border border-transparent hover:border-yellow-500/40 transition-colors"
+              >
+                <span className="text-yellow-200/80 text-sm leading-snug">{isKo ? post.title : (post.seoTitleEn || post.title)}</span>
+                <span className="text-yellow-500 ml-3 shrink-0 group-hover:translate-x-1 transition-transform">→</span>
+              </Link>
+            ))}
           </div>
         </section>
 
