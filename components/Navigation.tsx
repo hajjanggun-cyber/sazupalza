@@ -2,6 +2,7 @@
 
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 
 export default function Navigation() {
@@ -28,11 +29,8 @@ export default function Navigation() {
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* 로고 */}
-          <Link
-            href={`/${locale}`}
-            className="text-xl font-bold text-yellow-400 hover:text-yellow-300 transition-colors"
-          >
-            ✨ {t('logo')}
+          <Link href={`/${locale}`} className="hover:opacity-80 transition-opacity">
+            <Image src="/logo.png" alt={t('logo')} width={40} height={40} className="rounded-md" />
           </Link>
 
           {/* 데스크톱 네비게이션 */}
