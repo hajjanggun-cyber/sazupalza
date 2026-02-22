@@ -39,18 +39,19 @@ export default function RootLayout({
   return (
     <html>
       <head>
+        <meta name="google-adsense-account" content="ca-pub-2524681039359256">
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
           href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap"
           rel="stylesheet"
         />
-        {/* AdSense 스크립트 - 승인 후 publisher ID 교체 */}
-        {/* <script
+        {/* AdSense 스크립트 */}
+        <script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2524681039359256"
           crossOrigin="anonymous"
-        /> */}
+        />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
