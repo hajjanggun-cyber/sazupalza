@@ -1,0 +1,55 @@
+import { BlogPost } from './types';
+
+export const bokhapPosts: BlogPost[] = [
+  {
+    slug: 'sonkeum',
+    title: '손금 기초: 관상과 함께 보면 강력해지는 3대 손금선',
+    seoTitle: '손금 보는법 기초 | 생명선 감정선 두뇌선 완벽 정리',
+    description: '손금 보는법 기초부터 관상과 함께 활용하는 방법까지 알아봅니다. 생명선·감정선·두뇌선의 의미를 완벽 정리합니다.',
+    keywords: ['손금 보는법', '손금 뜻', '생명선', '감정선', '두뇌선'],
+    publishedAt: '2026-02-22',
+    category: 'bokhap',
+    contentKo: '',
+    contentEn: '',
+    toc: [],
+    faq: [],
+    relatedPosts: [
+      { slug: 'bigyo', title: '사주·관상·성명학·MBTI 비교', category: 'bokhap' },
+      { slug: 'intro', title: '관상학 입문', category: 'gwansang' },
+    ],
+  },
+  {
+    slug: 'bigyo',
+    title: '사주·관상·성명학·MBTI 비교: 네 가지 분석법의 공통점과 차이점',
+    seoTitle: '사주 관상 성명학 MBTI 비교 | 4가지 분석법 차이',
+    description: '사주팔자, 관상학, 성명학, MBTI 네 가지 분석법의 공통점과 차이점을 비교 분석합니다. 어떤 방법이 나에게 맞을까요?',
+    keywords: ['사주 관상 MBTI', '성명학 비교', '운세 분석법', '사주 MBTI 차이', '운명 분석'],
+    publishedAt: '2026-02-22',
+    category: 'bokhap',
+    contentKo: '',
+    contentEn: '',
+    toc: [],
+    faq: [],
+    relatedPosts: [
+      { slug: 'intro', title: '사주팔자란 무엇인가?', category: 'saju' },
+      { slug: 'intro', title: '관상학 입문', category: 'gwansang' },
+    ],
+  },
+  {
+    slug: 'sarang-unmyeong',
+    title: '사랑의 운명: 사주 일주와 MBTI로 보는 천생연분 찾기',
+    seoTitle: '천생연분 찾기 | 사주 일주 MBTI로 보는 사랑 운명',
+    description: '사주 일주와 MBTI를 결합하여 나의 천생연분을 찾는 방법을 알아봅니다. 사랑의 운명을 과학적으로 분석해보세요.',
+    keywords: ['천생연분', '사주 궁합', 'MBTI 궁합', '사랑 운명', '사주 연애운'],
+    publishedAt: '2026-02-22',
+    category: 'bokhap',
+    contentKo: '',
+    contentEn: '',
+    toc: [],
+    faq: [],
+    relatedPosts: [
+      { slug: 'iljoo', title: '사주 일주 완전정복', category: 'saju' },
+      { slug: 'gunghap', title: 'MBTI 궁합 완전정복', category: 'mbti' },
+    ],
+  },
+];
