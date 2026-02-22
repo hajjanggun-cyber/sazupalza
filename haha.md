@@ -1,4 +1,37 @@
 # 🚀 Saju Palza Project Progress Report (haha.md)
+1    │ saju-posts.ts        │ 사주팔자란 무엇인가?         │ intro                │
+  │ 2    │ saju-posts.ts        │ 음력과 양력, 생시의 중요성   │ lunar-solar-calendar │
+  │ 3    │ saju-posts.ts        │ 사주 일주 완전정복           │ day-pillar           │
+  │ 4    │ saju-posts.ts        │ 사주 신살 총정리             │ saju-spirits         │
+  │ 5    │ saju-posts.ts        │ 사주 용신 찾기               │ lucky-element        │
+  │ 6    │ saju-posts.ts        │ 사주 공망의 의미             │ void-luck            │
+  │ 7    │ saju-posts.ts        │ 사주 관성으로 보는 직업운    │ career-star          │
+  │ 8    │ saju-posts.ts        │ 띠별 2026년 운세             │ zodiac-2026          │
+  │ 9    │ saju-posts.ts        │ 운명은 바꿀 수 있는가?       │ destiny-change       │
+  │ 10   │ seongmyeong-posts.ts │ 성명학 비기 (한자 획수)      │ intro                │
+  │ 11   │ seongmyeong-posts.ts │ 작명의 기술                  │ name-creation        │
+  │ 12   │ seongmyeong-posts.ts │ 이름 오행 (소리 오행)        │ name-five-elements   │
+  │ 13   │ seongmyeong-posts.ts │ 개명 가이드                  │ name-change          │
+  │ 14   │ seongmyeong-posts.ts │ 자녀 작명 완벽 가이드        │ baby-naming          │
+  │ 15   │ seongmyeong-posts.ts │ 성명학 수리 81수 정리        │ numerology-81        │
+  │ 16   │ gwansang-posts.ts    │ 관상학 입문                  │ intro                │
+  │ 17   │ gwansang-posts.ts    │ 재물 관상 (코, 입, 귀)       │ wealth-face          │
+  │ 18   │ gwansang-posts.ts    │ 눈썹 관상                    │ eyebrow-reading      │
+  │ 19   │ gwansang-posts.ts    │ 관상과 건강                  │ health-face          │
+  │ 20   │ gwansang-posts.ts    │ 얼굴의 점 관상학             │ mole-reading         │
+  │ 21   │ gwansang-posts.ts    │ 관상 이마 완전정복           │ forehead-reading     │
+  │ 22   │ gwansang-posts.ts    │ 관상 자가진단                │ self-diagnosis       │
+  │ 23   │ mbti-posts.ts        │ MBTI 유래와 동양 철학        │ intro                │
+  │ 24   │ mbti-posts.ts        │ MBTI와 사주 오행 상관관계    │ saju-five-elements   │
+  │ 25   │ mbti-posts.ts        │ MBTI 궁합 (오행 극복법)      │ mbti-compatibility   │
+  │ 26   │ mbti-posts.ts        │ MBTI E·I 유형별 개운법       │ fortune-improvement  │
+  │ 27   │ mbti-posts.ts        │ MBTI별 사주 궁합표           │ compatibility-table  │
+  │ 28   │ bokhap-posts.ts      │ 손금 기초 (관상과 함께 보기) │ palmistry            │
+  │ 29   │ bokhap-posts.ts      │ 사주·관상·성명학·MBTI 비교   │ eastern-western      │
+  │ 30   │ bokhap-posts.ts      │ 사랑의 운명 (일주와 MBTI)    │ love-destiny         
+
+
+
 
 ---
 ## 💡 Claude에게 명령할 때 토큰 아끼는 방법 (항상 이렇게 해줘)
@@ -31,6 +64,49 @@
 8. 메타 정보 (글 맨 아래): [SEO 제목] / [메타 디스크립션] / [핵심 키워드 5개]
 9. 금지: 출처 없는 수치, 불확실한 표현, 단조로운 반복 구조
 출력: 마크다운, H1 1개, CTA→내부링크→FAQ→메타정보 순서
+
+------------------- 제미나이가 위의거 수정한 버젼  -----------------
+당신은 한국어 SEO 전문 콘텐츠 라이터이자 웹 데이터 설계자입니다. 
+아래 주제에 대해 블로그 콘텐츠를 작성하되, 반드시 [출력 형식]에 맞춰 데이터를 제공해주세요.
+
+## 주제
+[번호]번: [제목] (슬러그: [슬러그이름])
+
+## 작성 조건
+1. 분량: 한글 기준 최소 2,000자 이상 (전문적이면서 일반인이 읽기 쉬운 어조)
+2. 본문 구조: 
+   - H2 태그 최소 4개 이상 사용
+   - 각 H2 아래 H3 소제목 2~3개씩 구성
+   - 모든 본문은 마크다운이 아닌 HTML 태그(<h2>, <h3>, <p>, <ul>, <li> 등)로 작성
+3. 도입부 조건: 첫 문단(100자 이내)에 핵심 키워드를 자연스럽게 포함하고 독자의 공감을 유도
+4. 키워드: 핵심 키워드 최소 5회 이상 반복, 연관 키워드 활용, 밀도 1~2% 유지
+5. 다국어: 한국어(ko)와 영어(en) 본문을 동일한 구조로 동시 작성
+6. 핵심 장치:
+   - 본문 중간(절반 지점)에 <div class="cta-container"><button>[CTA 버튼: 무료 통합 컨설팅 받아보기]</button></div> 삽입
+   - 본문 내 연관 글로 연결되는 내부 링크 2~3곳 표시 (형식: [내부링크: 관련글 제목])
+7. FAQ 섹션: 글 하단에 실제 검색 의도를 반영한 FAQ 3개를 Q&A 형식으로 작성
+
+## 출력 형식 (반드시 아래 순서와 구조를 지켜주세요)
+
+### 1. [기본 정보]
+- Slug: [해당 슬러그]
+- Category: [saju / name / face / mbti / bokhap 중 선택]
+- PublishedAt: 2026-02-22
+
+### 2. [메타 정보]
+- SEO Title: (60자 이내)
+- Meta Description: (160자 이내)
+- Keywords: (쉼표로 구분된 5개 키워드)
+
+### 3. [데이터 리스트]
+- TOC (목차): [{ "id": "section1", "title": "1. 제목" }, ...] 형식으로 전체 구성
+- FAQ: [{ "q": "질문", "a": "답변" }, ...] 형식으로 3개 추출
+- Related Posts: 관련글 제목 2개
+
+### 4. [본문 - HTML 형식]
+- contentKo: (한국어 본문 전체를 HTML 태그로 작성)
+- contentEn: (영어 본문 전체를 HTML 태그로 작성)
+------------------
 ```
 
 ### 30개 주제 목록
@@ -41,7 +117,7 @@
 - 5번: 사주 용신 찾기: 내 사주에서 가장 필요한 기운과 활용법
 - 6번: 사주 공망: 비어있는 운의 의미와 공망을 채우는 실전법
 - 7번: 사주 관성으로 보는 직업운: 내게 맞는 직장과 직종 찾기
-- 8번: 띠별 2026년 운세: 사주 오행으로 보는 12띠 올해의 흐름
+- 8번: 띠별 2025년 운세: 사주 오행으로 보는 12띠 올해의 흐름
 - 9번: 운명의 변화: 사주는 정해져 있지만 운명은 바꿀 수 있는가?
 - 10번: 성명학 비기: 이름의 한자 획수가 인생에 미치는 영향
 - 11번: 작명의 기술: 태어난 계절에 부족한 기운을 이름으로 채우기
