@@ -8,8 +8,12 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
         disallow: ['/api/', '/_next/'],
       },
+      {
+        userAgent: 'Mediapartners-Google',
+        allow: '/',
+      },
     ],
-    sitemap: 'https://sajupalza.vercel.app/sitemap.xml',
-    host: 'https://sajupalza.vercel.app',
+    sitemap: 'https://sajupalza.cc/sitemap.xml',
+    host: 'https://sajupalza.cc',
   };
 }
