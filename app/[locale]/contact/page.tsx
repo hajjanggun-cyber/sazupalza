@@ -13,14 +13,28 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
   return {
     title: isKo ? '문의하기 | 사주팔자 종합 컨설팅' : 'Contact Us | SajuPalza',
     description: isKo
-      ? '사주팔자 종합 컨설팅 서비스에 문의하세요.'
-      : 'Contact SajuPalza fortune reading service.',
+      ? '사주팔자·관상·성명학·MBTI 무료 종합 분석 서비스 문의. 자주 묻는 질문과 이메일 문의 안내.'
+      : 'Contact SajuPalza - Free Korean fortune reading service. FAQ and email inquiry for Four Pillars, Face Reading, Name Numerology, and MBTI analysis.',
   };
 }
 
 export default async function ContactPage({ params: { locale } }: Props) {
   unstable_setRequestLocale(locale);
   const isKo = locale === 'ko';
+
+  const services = isKo
+    ? [
+        { icon: '🌟', title: '사주팔자', desc: '생년월일시 8글자로 타고난 기질, 직업 적성, 재물운, 연애운을 분석합니다.' },
+        { icon: '✍️', title: '성명학', desc: '이름의 획수와 소리오행으로 이름이 가진 기운과 상생·상극 관계를 분석합니다.' },
+        { icon: '👁️', title: '관상', desc: '얼굴 형태와 이목구비의 특징으로 타고난 성향과 운명의 흐름을 분석합니다.' },
+        { icon: '🧠', title: 'MBTI', desc: 'MBTI 유형과 사주 오행을 교차 분석하여 성격과 대인관계 패턴을 파악합니다.' },
+      ]
+    : [
+        { icon: '🌟', title: 'Four Pillars', desc: 'Analyzes innate nature, career aptitude, wealth, and romance through 8 characters of birth date and time.' },
+        { icon: '✍️', title: 'Name Reading', desc: 'Analyzes the energy and elemental relationships of your name through stroke count and sound elements.' },
+        { icon: '👁️', title: 'Face Reading', desc: 'Analyzes innate tendencies and life patterns through facial features and physiognomy.' },
+        { icon: '🧠', title: 'MBTI', desc: 'Cross-analyzes MBTI personality type with Four Pillars Five Elements to understand personality patterns.' },
+      ];
 
   const faqs = isKo
     ? [
@@ -33,22 +47,50 @@ export default async function ContactPage({ params: { locale } }: Props) {
           a: '얼굴이 정면으로 잘 보이는 사진을 사용해 주세요. 밝은 조명에서 찍은 사진이 잘 인식됩니다. 관상 분석은 선택사항이므로 건너뛰기도 가능합니다.',
         },
         {
-          q: '광고가 너무 많이 나와요',
-          a: '본 서비스는 완전 무료로 운영되며 광고 수익으로 유지됩니다. 광고 차단기를 비활성화해 주시면 서비스 유지에 도움이 됩니다.',
+          q: 'MBTI를 모르면 분석이 안 되나요?',
+          a: 'MBTI는 선택 사항입니다. 입력하지 않아도 사주, 성명학, 관상 분석은 정상적으로 진행됩니다. MBTI를 입력하면 성격 교차 분석이 추가됩니다.',
         },
         {
-          q: '다국어 번역이 어색해요',
-          a: '번역 개선을 위해 노력하고 있습니다. 불편하신 부분이 있으시면 알려주시면 개선하겠습니다.',
+          q: '사주 분석 결과는 얼마나 정확한가요?',
+          a: '본 서비스는 전통 동양철학(삼명통회, 자평진전, 적천수) 원리를 기반으로 합니다. 재미와 자기 이해를 위한 참고 자료로 활용하시기 바랍니다. 중요한 결정은 전문가와 상담하시길 권장합니다.',
+        },
+        {
+          q: '여러 번 분석하면 결과가 달라지나요?',
+          a: '아니요. 같은 생년월일시와 이름으로 분석하면 항상 동일한 결과가 나옵니다. 입력 데이터가 동일하면 결과도 동일합니다.',
+        },
+        {
+          q: '결과를 저장하거나 공유할 수 있나요?',
+          a: '결과 페이지의 URL을 복사하면 동일한 결과를 다시 볼 수 있습니다. 카카오톡 공유 기능도 지원합니다. 단, 서버에는 저장되지 않으므로 URL을 보관해 두시기 바랍니다.',
+        },
+        {
+          q: '광고가 너무 많이 나와요',
+          a: '본 서비스는 완전 무료로 운영되며 광고 수익으로 유지됩니다. 광고 차단기를 비활성화해 주시면 서비스 유지에 도움이 됩니다.',
         },
       ]
     : [
         {
           q: 'My analysis result seems incorrect',
-          a: 'Please double-check your date of birth entry. Make sure to select the correct calendar type. The same birth date and time will always produce the same result.',
+          a: 'Please double-check your date of birth entry. Make sure to select the correct calendar type (Solar/Lunar). The same birth date and time will always produce the same result.',
         },
         {
           q: 'My photo is not being recognized',
           a: 'Please use a photo where your face is clearly visible from the front. Photos taken in good lighting work best. Face reading is optional and can be skipped.',
+        },
+        {
+          q: 'Is MBTI required for analysis?',
+          a: 'No, MBTI is completely optional. Four Pillars, Name Reading, and Face Reading analyses will proceed normally without it. Adding MBTI enables an additional personality cross-analysis.',
+        },
+        {
+          q: 'How accurate is the analysis?',
+          a: 'This service is based on traditional Eastern philosophy principles. Please use the results as a reference for self-understanding and entertainment. For important life decisions, we recommend consulting a professional.',
+        },
+        {
+          q: 'Will results change if I analyze multiple times?',
+          a: 'No. The same name and birth date will always produce the same results. Results are deterministic based on your input data.',
+        },
+        {
+          q: 'Can I save or share my results?',
+          a: 'Yes! You can copy the result page URL to revisit the same results anytime. KakaoTalk sharing is also supported. Note that results are not stored on our servers, so please keep the URL.',
         },
         {
           q: 'There are too many ads',
@@ -65,9 +107,32 @@ export default async function ContactPage({ params: { locale } }: Props) {
         </h1>
         <p className="text-yellow-200/70 mb-8">
           {isKo
-            ? '서비스 이용 중 불편사항이나 개선 제안이 있으시면 알려주세요.'
-            : 'Please let us know if you have any issues or suggestions for improvement.'}
+            ? '사주팔자·관상·성명학·MBTI 무료 종합 분석 서비스입니다. 서비스 이용 중 불편사항이나 개선 제안이 있으시면 아래 FAQ를 먼저 확인해 주세요.'
+            : 'SajuPalza is a free comprehensive analysis service covering Four Pillars, Face Reading, Name Numerology, and MBTI. Please check the FAQ below before contacting us.'}
         </p>
+
+        {/* 서비스 소개 */}
+        <div className="card-dark p-6 mb-8">
+          <h2 className="text-xl font-bold text-yellow-300 mb-4">
+            {isKo ? '제공 서비스' : 'Our Services'}
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {services.map((s) => (
+              <div key={s.title} className="flex gap-3 p-3 bg-yellow-900/10 border border-yellow-900/30 rounded-lg">
+                <span className="text-2xl">{s.icon}</span>
+                <div>
+                  <p className="text-yellow-300 font-bold text-sm">{s.title}</p>
+                  <p className="text-yellow-200/60 text-xs mt-1 leading-relaxed">{s.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+          <p className="text-yellow-200/50 text-xs mt-4 text-center">
+            {isKo
+              ? '모든 서비스는 완전 무료 · 회원가입 없음 · 개인정보 수집 없음'
+              : 'All services are completely free · No sign-up · No personal data collected'}
+          </p>
+        </div>
 
         {/* FAQ 섹션 */}
         <div className="card-dark p-6 mb-8">
