@@ -1,0 +1,153 @@
+1    │ saju-posts.ts        │ 사주팔자란 무엇인가?         │ intro                │
+  │ 2    │ saju-posts.ts        │ 음력과 양력, 생시의 중요성   │ lunar-solar-calendar │
+  │ 3    │ saju-posts.ts        │ 사주 일주 완전정복           │ day-pillar           │
+  │ 4    │ saju-posts.ts        │ 사주 신살 총정리             │ saju-spirits         │
+  │ 5    │ saju-posts.ts        │ 사주 용신 찾기               │ lucky-element        │
+  │ 6    │ saju-posts.ts        │ 사주 공망의 의미             │ void-luck            │
+  │ 7    │ saju-posts.ts        │ 사주 관성으로 보는 직업운    │ career-star          │
+  │ 8    │ saju-posts.ts        │ 띠별 2026년 운세             │ zodiac-2026          │
+  │ 9    │ saju-posts.ts        │ 운명은 바꿀 수 있는가?       │ destiny-change       │
+  │ 10   │ seongmyeong-posts.ts │ 성명학 비기 (한자 획수)      │ intro                │
+  │ 11   │ seongmyeong-posts.ts │ 작명의 기술                  │ name-creation        │
+  │ 12   │ seongmyeong-posts.ts │ 이름 오행 (소리 오행)        │ name-five-elements   │
+  │ 13   │ seongmyeong-posts.ts │ 개명 가이드                  │ name-change          │
+  │ 14   │ seongmyeong-posts.ts │ 자녀 작명 완벽 가이드        │ baby-naming          │
+  │ 15   │ seongmyeong-posts.ts │ 성명학 수리 81수 정리        │ numerology-81        │
+  │ 16   │ gwansang-posts.ts    │ 관상학 입문                  │ intro                │
+  │ 17   │ gwansang-posts.ts    │ 재물 관상 (코, 입, 귀)       │ wealth-face          │
+  │ 18   │ gwansang-posts.ts    │ 눈썹 관상                    │ eyebrow-reading      │
+  │ 19   │ gwansang-posts.ts    │ 관상과 건강                  │ health-face          │
+  │ 20   │ gwansang-posts.ts    │ 얼굴의 점 관상학             │ mole-reading         │
+  │ 21   │ gwansang-posts.ts    │ 관상 이마 완전정복           │ forehead-reading     │
+  │ 22   │ gwansang-posts.ts    │ 관상 자가진단                │ self-diagnosis       │
+  │ 23   │ mbti-posts.ts        │ MBTI 유래와 동양 철학        │ intro                │
+  │ 24   │ mbti-posts.ts        │ MBTI와 사주 오행 상관관계    │ saju-five-elements   │
+  │ 25   │ mbti-posts.ts        │ MBTI 궁합 (오행 극복법)      │ mbti-compatibility   │
+  │ 26   │ mbti-posts.ts        │ MBTI E·I 유형별 개운법       │ fortune-improvement  │
+  │ 27   │ mbti-posts.ts        │ MBTI별 사주 궁합표           │ compatibility-table  │
+  │ 28   │ bokhap-posts.ts      │ 손금 기초 (관상과 함께 보기) │ palmistry            │
+  │ 29   │ bokhap-posts.ts      │ 사주·관상·성명학·MBTI 비교   │ eastern-western      │
+  │ 30   │ bokhap-posts.ts      │ 사랑의 운명 (일주와 MBTI)    │ love-destiny       
+
+- 주제 번호: 5번
+- 슬러그: yongshin
+- 카테고리: saju
+
+
+## 사주팔자 카테고리 (saju-posts.ts)
+
+1. 역학의 기초: 사주팔자란 무엇인가? 음양오행의 원리 완벽 해설
+   → 슬러그: intro (완)
+2. 음력과 양력: 사주 볼 때 정확한 생시(生時)를 알아야 하는 이유
+   → 슬러그: eumlyek-yanglyeok ㅇ(완) 
+3. 사주 일주(日柱) 완전정복: 나의 본질과 배우자 복을 읽는 법
+   → 슬러그: iljoo
+4. 사주 신살 총정리: 도화살·역마살이 현대 사회에서 장점이 되는 법
+   → 슬러그: sinsal
+5. 사주 용신 찾기: 내 사주에서 가장 필요한 기운과 활용법
+   → 슬러그: yongshin
+
+6. 사주 공망(空亡): 비어있는 운의 의미와 공망을 채우는 실전법
+   → 슬러그: gongmang
+7. 사주 관성(官星)으로 보는 직업운: 내게 맞는 직장과 직종 찾기
+   → 슬러그: gwanseong
+8. 띠별 2026년 운세: 사주 오행으로 보는 12띠 올해의 흐름
+   → 슬러그: ddibyeol-2026
+9. 운명의 변화: 사주는 정해져 있지만 운명은 바꿀 수 있는가?
+   → 슬러그: unmyeong-byeonhwa
+
+
+## 성명학 카테고리 (seongmyeong-posts.ts)
+
+1. 성명학 비기: 이름의 한자 획수가 인생에 미치는 영향
+   → 슬러그: intro
+2. 작명의 기술: 태어난 계절에 부족한 기운을 이름으로 채우기
+   → 슬러그: jakseong
+3. 이름 오행: 초성으로 보는 소리 오행의 상생·상극 완벽 정리
+   → 슬러그: orhaeng
+4. 개명 가이드: 개명을 고민할 때 반드시 체크해야 할 수리 길흉표
+   → 슬러그: gaemyeong
+5. 자녀 작명 완벽 가이드: 사주 오행과 성명학을 동시에 만족하는 이름 짓기
+   → 슬러그: janyeo-jakseong
+6. 성명학 수리 81수 핵심 정리: 좋은 획수 조합과 피해야 할 조합
+   → 슬러그: suri-81su
+
+
+## 관상학 카테고리 (gwansang-posts.ts)
+
+1. 관상학 입문: 이목구비로 보는 성격·재물·건강운 기초
+   → 슬러그: intro
+2. 재물 관상 완벽 정리: 코·입·귀로 보는 돈복 3요소
+   → 슬러그: jaeul
+3. 눈썹 관상: 눈썹 모양으로 읽는 리더십·형제운·수명의 비밀
+   → 슬러그: noonssep
+4. 관상과 건강: 얼굴색과 기색으로 보는 현재 기운과 건강 신호
+   → 슬러그: geongang
+5. 얼굴의 점 관상학: 빼야 할 점과 반드시 남겨야 할 점 구분법
+   → 슬러그: jeom
+6. 관상 이마 완전정복: 이마 넓이와 형태로 보는 초년운과 부모복
+   → 슬러그: ima
+7. 관상 자가진단: 거울 보며 확인하는 나의 5년 후 성공운
+   → 슬러그: jagajindan
+
+
+## MBTI 카테고리 (mbti-posts.ts)
+
+1. MBTI 유래: 칼 융의 분석심리학과 동양 철학의 놀라운 접점
+   → 슬러그: intro
+2. MBTI와 사주 오행: 16가지 성격 유형과 오행의 상관관계 분석
+   → 슬러그: saju-orhaeng
+3. MBTI 궁합 완전정복: 최악의 궁합을 사주 오행으로 극복하는 법
+   → 슬러그: gunghap
+4. MBTI E·I 유형별 개운법: 성격 유형에 맞게 운을 여는 실전 방법
+   → 슬러그: gaeuneop
+5. MBTI별 사주 궁합표: 16유형과 잘 맞는 일주(日柱) 완전 정리
+   → 슬러그: gunghap-table
+
+
+## 복합·심화 카테고리 (bokhap-posts.ts)
+
+1. 손금 기초: 관상과 함께 보면 강력해지는 생명선·감정선·두뇌선
+   → 슬러그: sonkeum
+2. 사주·관상·성명학·MBTI 비교: 네 가지 분석법의 공통점과 차이점
+   → 슬러그: bigyo
+3. 사랑의 운명: 사주 일주와 MBTI로 보는 나의 천생연분 찾기
+   → 슬러그: sarang-unmyeong
+
+  📌 30개 전체 글의 공식 슬러그(Slug) 리스트
+
+
+
+  ┌──────┬──────────────────────┬───────────────────────────────┬────────────────────┐
+  │ 번호 │ 카테고리 (파일명)    │ 주제 (제목 요약)              │ 공식 슬러그 (Slug) │
+  ├──────┼──────────────────────┼───────────────────────────────┼────────────────────┤
+  │ 1    │ saju-posts.ts        │ 사주팔자란 무엇인가?          │ `intro`              │
+  │ 2    │ saju-posts.ts        │ 음력과 양력, 생시의 중요성    │ `eumlyek-yanglyeok`  │
+  │ 3    │ saju-posts.ts        │ 사주 일주 완전정복            │ `iljoo`              │
+  │ 4    │ saju-posts.ts        │ 사주 신살 총정리              │ `sinsal`             │
+  │ 5    │ saju-posts.ts        │ 사주 용신 찾기                │ `yongshin`           │
+  │ 6    │ saju-posts.ts        │ 사주 공망의 의미              │ `gongmang`           │
+  │ 7    │ saju-posts.ts        │ 사주 관성으로 보는 직업운     │ `gwanseong`          │
+  │ 8    │ saju-posts.ts        │ 띠별 2025년 운세              │ `ddibyeol-2025`      │
+  │ 9    │ saju-posts.ts        │ 운명은 바꿀 수 있는가?        │ `unmyeong-byeonhwa`  │
+  │ 10   │ seongmyeong-posts.ts │ 성명학 비기 (한자 획수)       │ `intro`              │
+  │ 11   │ seongmyeong-posts.ts │ 작명의 기술                   │ `jakseong`           │
+  │ 12   │ seongmyeong-posts.ts │ 이름 오행 (소리 오행)         │ `orhaeng`            │
+  │ 13   │ seongmyeong-posts.ts │ 개명 가이드                   │ `gaemyeong`          │
+  │ 14   │ seongmyeong-posts.ts │ 자녀 작명 완벽 가이드         │ `janyeo-jakseong`    │
+  │ 15   │ seongmyeong-posts.ts │ 성명학 수리 81수 정리         │ `suri-81su`          │
+  │ 16   │ gwansang-posts.ts    │ 관상학 입문                   │ `intro`              │
+  │ 17   │ gwansang-posts.ts    │ 재물 관상 (코, 입, 귀)        │ `jaeul`              │
+  │ 18   │ gwansang-posts.ts    │ 눈썹 관상                     │ `noonssep`           │
+  │ 19   │ gwansang-posts.ts    │ 관상과 건강                   │ `geongang`           │
+  │ 20   │ gwansang-posts.ts    │ 얼굴의 점 관상학              │ `jeom`               │
+  │ 21   │ gwansang-posts.ts    │ 관상 이마 완전정복            │ `ima`                │
+  │ 22   │ gwansang-posts.ts    │ 관상 자가진단 (5년 후 성공운) │ `jagajindan`         │
+  │ 23   │ mbti-posts.ts        │ MBTI 유래와 동양 철학         │ `intro`              │
+  │ 24   │ mbti-posts.ts        │ MBTI와 사주 오행 상관관계     │ `saju-orhaeng`       │
+  │ 25   │ mbti-posts.ts        │ MBTI 궁합 (오행 극복법)       │ `gunghap`            │
+  │ 26   │ mbti-posts.ts        │ MBTI E·I 유형별 개운법        │ `gaeuneop`           │
+  │ 27   │ mbti-posts.ts        │ MBTI별 사주 궁합표            │ `gunghap-table`      │
+  │ 28   │ bokhap-posts.ts      │ 손금 기초 (관상과 함께 보기)  │ `sonkeum`            │
+  │ 29   │ bokhap-posts.ts      │ 사주·관상·성명학·MBTI 비교    │ `bigyo`              │
+  │ 30   │ bokhap-posts.ts      │ 사랑의 운명 (일주와 MBTI)     │ `sarang-unmyeong`  
