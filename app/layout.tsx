@@ -5,7 +5,7 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://sajupalza.vercel.app'),
+  metadataBase: new URL('https://sajupalza.cc'),
   title: {
     default: '사주팔자 무료 종합 분석 - 관상·성명학·MBTI',
     template: '%s | 사주팔자 무료 분석',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'ko_KR',
-    url: 'https://sajupalza.vercel.app',
+    url: 'https://sajupalza.cc',
     title: '사주팔자 무료 종합 분석',
     description: '사주팔자·관상·성명학·MBTI 완전 무료 종합 분석',
     siteName: '사주팔자 종합 컨설팅',

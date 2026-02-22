@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
 
-const BASE_URL = 'https://sajupalza.vercel.app';
+const BASE_URL = 'https://sajupalza.cc';
 const locales = ['ko', 'en', 'ja', 'zh'];
 
 const routes = ['', '/saju', '/name', '/face', '/mbti', '/privacy', '/terms', '/contact'];

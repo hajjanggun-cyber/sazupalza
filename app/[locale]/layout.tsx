@@ -15,10 +15,10 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
   const hreflangMap: Record<string, string> = {
-    ko: 'https://sajupalza.vercel.app/ko',
-    en: 'https://sajupalza.vercel.app/en',
-    ja: 'https://sajupalza.vercel.app/ja',
-    zh: 'https://sajupalza.vercel.app/zh',
+    ko: 'https://sajupalza.cc/ko',
+    en: 'https://sajupalza.cc/en',
+    ja: 'https://sajupalza.cc/ja',
+    zh: 'https://sajupalza.cc/zh',
   };
 
   return {

@@ -17,7 +17,7 @@ interface Props {
 
 export default function BlogPostPage({ post, locale }: Props) {
   const isKo = locale === 'ko';
-  const baseUrl = 'https://sajupalza.vercel.app';
+  const baseUrl = 'https://sajupalza.cc';
   const postUrl = `${baseUrl}/${locale}/${post.category}/${post.slug}`;
 
   // 언어별 메타데이터 선택
