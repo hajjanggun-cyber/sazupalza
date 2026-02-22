@@ -5,7 +5,17 @@
       "Bash(tail:*)",
       "Bash(head:*)",
       "Bash(cd \"/c/Users/홈_메인/Desktop/11  11 실전코딩/sajupalza\" && npx tsc --noEmit 2>&1)",
-      "Bash(cd \"/c/Users/홈_메인/Desktop/11  11 실전코딩/sajupalza\" && npm run build 2>&1)"
+      "Bash(cd \"/c/Users/홈_메인/Desktop/11  11 실전코딩/sajupalza\" && npm run build 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\홈_메인\\\\Desktop\\\\11  11 실전코딩\\\\sajupalza\" && npx tsc --noEmit 2>&1)",
+      "Bash(grep:*)",
+      "Bash(cd \"C:/Users/홈_메인/Desktop/11  11 실전코딩/sajupalza\" && npx tsc --noEmit 2>&1)",
+      "Bash(cd \"C:/Users/홈_메인/Desktop/11  11 실전코딩/sajupalza\" && git add app/[locale]/mbti/page.tsx app/[locale]/name/page.tsx app/[locale]/page.tsx app/[locale]/result/page.tsx app/[locale]/saju/page.tsx app/globals.css components/AnalysisForm.tsx components/steps/Step5Photo.tsx \"app/[locale]/result/[id]/\" public/ MEMORY.md && git status 2>&1)",
+      "Bash(cd \"C:/Users/홈_메인/Desktop/11  11 실전코딩/sajupalza\" && git commit -m \"$\\(cat <<'EOF'\nfeat: STRATEGY.md 구현 - 개인화 URL, 관상 분석, JSON-LD, Modern Mystic 테마\n\n- 개인화 URL: /result/[id] Base64 인코딩 \\(AnalysisForm, result/[id]/page\\)\n- 관상 분석: face-api.js 실제 연동 \\(Step5Photo, public/models\\)\n- OG 이미지: result/[id]/opengraph-image.tsx\n- JSON-LD: 메인/사주/성명학/MBTI 페이지 구조화 데이터\n- Modern Mystic 테마: globals.css progress-step 등 추가\n- 광고 게이팅 문구 제거 \\(AdSense 정책 준수\\)\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>\nEOF\n\\)\" 2>&1)",
+      "Bash(cd \"C:/Users/홈_메인/Desktop/11  11 실전코딩/sajupalza\" && git push origin main 2>&1)",
+      "Bash(cd \"C:/Users/홈_메인/Desktop/11  11 실전코딩/sajupalza\" && npm run build 2>&1)",
+      "Bash(cd \"C:/Users/홈_메인/Desktop/11  11 실전코딩/sajupalza\" && sed -i \"s/    content: '', \\\\/\\\\/ claude.ai 생성 후 붙여넣기/    contentKo: '',\\\\n    contentEn: '',/g; s/    content: '',$/    contentKo: '',\\\\n    contentEn: '',/g\" lib/blog/saju-posts.ts lib/blog/seongmyeong-posts.ts lib/blog/gwansang-posts.ts lib/blog/mbti-posts.ts lib/blog/bokhap-posts.ts 2>&1)",
+      "Bash(cd \"C:/Users/홈_메인/Desktop/11  11 실전코딩/sajupalza\" && git add lib/blog/ components/BlogPostPage.tsx app/[locale]/saju/[slug]/ app/[locale]/seongmyeong/ app/[locale]/gwansang/ app/[locale]/mbti/[slug]/ app/[locale]/bokhap/ app/globals.css haha.md && git status 2>&1)",
+      "Bash(cd \"C:/Users/홈_메인/Desktop/11  11 실전코딩/sajupalza\" && git commit -m \"$\\(cat <<'EOF'\nfeat: 블로그 템플릿 구조 구축 \\(30개 글 데이터 분리 방식\\)\n\n- lib/blog/types.ts: BlogPost 인터페이스 \\(contentKo/contentEn 이중 언어\\)\n- lib/blog/[category]-posts.ts: 사주9/성명학6/관상7/MBTI5/복합3 스텁\n- lib/blog/index.ts: 통합 export + getPostBySlug 유틸\n- components/BlogPostPage.tsx: SEO 완비 공통 템플릿\n  \\(JSON-LD Article/BreadcrumbList/FAQ, locale별 콘텐츠 자동 선택\\)\n- app/[locale]/[category]/[slug]/page.tsx: 5개 동적 라우트\n  \\(generateStaticParams, generateMetadata 포함\\)\n- app/globals.css: prose-blog 클래스 추가\n- haha.md: 블로그 워크플로우 및 SEO 프롬프트 기록\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>\nEOF\n\\)\" 2>&1)"
     ]
   }
 }

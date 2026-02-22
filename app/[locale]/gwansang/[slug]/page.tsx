@@ -17,11 +17,17 @@ export async function generateMetadata(
 ): Promise<Metadata> {
   const post = gwansangPosts.find(p => p.slug === params.slug);
   if (!post) return {};
+
+  const isKo = params.locale === 'ko';
+  const title = isKo ? post.seoTitle : (post.seoTitleEn || post.seoTitle);
+  const description = isKo ? post.description : (post.descriptionEn || post.description);
+  const keywords = isKo ? post.keywords.join(', ') : ((post.keywordsEn || post.keywords).join(', '));
+
   return {
-    title: post.seoTitle,
-    description: post.description,
-    keywords: post.keywords.join(', '),
-    openGraph: { title: post.seoTitle, description: post.description, type: 'article', publishedTime: post.publishedAt },
+    title,
+    description,
+    keywords,
+    openGraph: { title, description, type: 'article', publishedTime: post.publishedAt },
   };
 }
 

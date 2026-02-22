@@ -1,5 +1,23 @@
 # 사주팔자 프로젝트 (sajupalza) 메모리
 
+## [Gemini CLI Update] 2026-02-22: Blog Post Content Update (1~3번 완료)
+- **작업 내용**: 블로그 포스트 1, 2, 3번의 한국어 및 영어 본문 데이터 삽입 완료.
+  1. **1번 (`intro`)**: '역학의 기초: 사주팔자란 무엇인가?' (한/영 완료)
+  2. **2번 (`eumlyek-yanglyeok`)**: '음력과 양력: 생시의 중요성' (한/영 완료)
+  3. **3번 (`iljoo`)**: '사주 일주(日柱) 완전정복' (한/영 완료)
+- **주요 수정 사항**:
+  - **중복 제거**: 1번 글 영어 본문이 중복 삽입된 오류 수정 완료.
+  - **내부 링크 최적화**: 본문 내 `[내부링크: 제목]` 형식을 실제 작동하는 `<a href="/ko/saju/..." class="...">` 태그로 변환 삽입.
+  - **데이터 무결성**: 파일 전체 쓰기(`write_file`)를 통해 오타 및 구조적 결함 방지.
+
+## [Gemini CLI Update] 2026-02-22: Full Bilingual SEO Upgrade
+- **목적**: 한국어와 영어 페이지 각각에 최적화된 SEO 메타데이터(제목, 설명, 키워드)와 구조화 데이터(TOC, FAQ)를 제공하기 위한 시스템 업그레이드.
+- **주요 변경 사항**:
+  1. `lib/blog/types.ts`: `BlogPost` 인터페이스에 `seoTitleEn`, `descriptionEn`, `keywordsEn`, `tocEn`, `faqEn` 등 영어 전용 선택적 필드 추가.
+  2. `components/BlogPostPage.tsx`: 현재 `locale`에 따라 한국어 또는 영어 전용 메타데이터를 우선적으로 선택하여 렌더링하는 로직 구현.
+  3. `app/[locale]/[category]/[slug]/page.tsx`: 모든 카테고리(saju, name, face, mbti, bokhap)의 동적 라우트에서 `generateMetadata`가 언어별 메타데이터를 참조하도록 수정.
+- **효과**: 구글 영미권 검색 결과(SERP)에서 영어 제목과 설명이 정확하게 노출되어 글로벌 SEO 성능 극대화.
+
 ## 프로젝트 위치
 `C:\Users\홈_메인\Desktop\11  11 실전코딩\sajupalza`
 
