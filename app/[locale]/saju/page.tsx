@@ -74,8 +74,57 @@ export default async function SajuPage({ params: { locale } }: Props) {
         { q: "What if I don't know my birth time?", a: "You can still get an analysis without knowing your birth time. Without the time, we analyze using 6 characters (year, month, day), which is less detailed than the full 8-character analysis but still reveals key temperament and fortune." },
       ];
 
+  const baseUrl = 'https://sajupalza.com';
+  const canonicalUrl = `${baseUrl}/${locale}/saju`;
+
+  const articleJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: isKo ? '사주팔자 무료 분석 - 생년월일시로 알아보는 운명' : 'Free Korean Four Pillars of Destiny Analysis',
+    description: isKo
+      ? '사주팔자(四柱八字) 완전 무료 분석. 천간지지, 오행, 용신까지 정통 사주 분석.'
+      : 'Free Korean Four Pillars of Destiny analysis based on birth date and time.',
+    url: canonicalUrl,
+    inLanguage: locale,
+    author: { '@type': 'Organization', name: '사주팔자 종합 컨설팅' },
+    publisher: { '@type': 'Organization', name: '사주팔자 종합 컨설팅', url: baseUrl },
+  };
+
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((faq) => ({
+      '@type': 'Question',
+      name: faq.q,
+      acceptedAnswer: { '@type': 'Answer', text: faq.a },
+    })),
+  };
+
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: '홈', item: `${baseUrl}/${locale}` },
+      { '@type': 'ListItem', position: 2, name: isKo ? '사주팔자' : 'Four Pillars', item: canonicalUrl },
+    ],
+  };
+
   return (
     <div className="min-h-screen">
+      {/* JSON-LD 구조화 데이터 */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+
       <Navigation />
 
       <div className="flex justify-center py-3 bg-[#0d0502]">

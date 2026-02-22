@@ -1,0 +1,467 @@
+'use client';
+
+import { useParams, useRouter } from 'next/navigation';
+import { useMemo, useEffect, useState } from 'react';
+import { calculateSaju } from '../../../../lib/calculator/saju-calculator';
+import { calculateName } from '../../../../lib/calculator/name-calculator';
+import { generateResult, ComprehensiveResult, ResultSection } from '../../../../lib/calculator/result-generator';
+import { Guardian } from '../../../../lib/data/guardian';
+import Navigation from '../../../../components/Navigation';
+import Footer from '../../../../components/Footer';
+import AdSense from '../../../../components/AdSense';
+import AnalysisLoading from '../../../../components/AnalysisLoading';
+import type { FaceAnalysisResult } from '../../../../components/steps/Step5Photo';
+
+interface InputData {
+  name: string;
+  year: number;
+  month: number;
+  day: number;
+  lunar?: boolean;
+  hour?: number;
+  mbti?: string;
+  hasPhoto: boolean;
+}
+
+function decodeInputData(id: string): InputData | null {
+  try {
+    const base64 = id.replace(/-/g, '+').replace(/_/g, '/');
+    const padding = '='.repeat((4 - (base64.length % 4)) % 4);
+    const binStr = atob(base64 + padding);
+    const bytes = Uint8Array.from(binStr, (c) => c.charCodeAt(0));
+    const jsonStr = new TextDecoder().decode(bytes);
+    return JSON.parse(jsonStr) as InputData;
+  } catch {
+    return null;
+  }
+}
+
+// ===== 서브 컴포넌트 =====
+
+function SectionCard({ section }: { section: ResultSection }) {
+  return (
+    <div className="result-section">
+      <div className="result-section-title">
+        <span>{section.icon}</span>
+        {section.title}
+      </div>
+      <p>{section.content}</p>
+      {section.subItems && section.subItems.length > 0 && (
+        <div className="mt-4 space-y-2 border-t border-yellow-900/20 pt-3">
+          {section.subItems.map((item) => (
+            <div key={item.label} className="flex gap-2 text-sm flex-wrap">
+              <span
+                className="text-yellow-400/70 font-medium shrink-0"
+                style={{ minWidth: '110px' }}
+              >
+                {item.label}
+              </span>
+              <span className="text-purple-100/90">{item.value}</span>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function GuardianCard({ guardian }: { guardian: Guardian }) {
+  return (
+    <div className="guardian-card mb-6">
+      <div className="text-6xl mb-3">{guardian.emoji}</div>
+      <div className="flex justify-center mb-3">
+        <span className={`ohaeng-badge ohaeng-${guardian.key}`}>
+          {guardian.ohaeng} 오행
+        </span>
+      </div>
+      <h3 className="text-2xl font-bold text-yellow-200 mb-1">
+        나의 수호신: {guardian.nameKo}
+        <span className="text-sm font-normal text-yellow-200/60 ml-2">
+          ({guardian.nameEn})
+        </span>
+      </h3>
+      <div className="flex flex-wrap justify-center gap-1.5 mb-4">
+        {guardian.traits.map((trait) => (
+          <span
+            key={trait}
+            className="px-2 py-0.5 text-xs bg-yellow-900/30 text-yellow-300/80 rounded-full border border-yellow-700/30"
+          >
+            {trait}
+          </span>
+        ))}
+      </div>
+      <p className="text-purple-200/80 text-sm leading-relaxed mb-4">
+        {guardian.description}
+      </p>
+      <div className="bg-yellow-900/20 border border-yellow-700/30 rounded-lg p-3">
+        <p className="text-yellow-300 text-sm font-medium italic">
+          "{guardian.luckyMessage}"
+        </p>
+      </div>
+      <div className="mt-3 flex flex-wrap justify-center gap-4 text-xs text-purple-200/60">
+        <span>🎨 행운색: {guardian.luckyColor}</span>
+        <span>🧭 방향: {guardian.luckyDirection}</span>
+        <span>🔢 숫자: {guardian.luckyNumber.join(', ')}</span>
+      </div>
+    </div>
+  );
+}
+
+// ===== 메인 페이지 =====
+
+export default function ResultIdPage() {
+  const params = useParams();
+  const router = useRouter();
+  const locale = params.locale as string;
+  const id = params.id as string;
+
+  // URL에서 즉시 디코딩 (useMemo → 첫 렌더부터 사용 가능)
+  const inputData = useMemo(() => decodeInputData(id), [id]);
+
+  const [result, setResult] = useState<ComprehensiveResult | null>(null);
+  const [loadingDone, setLoadingDone] = useState(false);
+  const [copied, setCopied] = useState(false);
+
+  useEffect(() => {
+    if (!inputData) {
+      router.push(`/${locale}`);
+      return;
+    }
+
+    try {
+      const saju = calculateSaju({
+        year: inputData.year,
+        month: inputData.month,
+        day: inputData.day,
+        hour: inputData.hour,
+      });
+
+      const nameResult = calculateName(inputData.name);
+
+      const comprehensiveResult = generateResult({
+        saju,
+        name: nameResult,
+        face: (() => {
+          if (!inputData.hasPhoto) return undefined;
+          try {
+            const raw = sessionStorage.getItem('faceAnalysisResult');
+            if (!raw) return undefined;
+            const parsed = JSON.parse(raw) as FaceAnalysisResult;
+            // 분석 결과가 유효한지 최소 검증
+            if (!parsed.faceShape || typeof parsed.score !== 'number') return undefined;
+            return parsed;
+          } catch {
+            return undefined;
+          }
+        })(),
+        mbtiType: inputData.mbti,
+      });
+
+      setResult(comprehensiveResult);
+    } catch (err) {
+      console.error('결과 생성 오류:', err);
+    }
+  }, [inputData]);
+
+  const handleCopyLink = async () => {
+    try {
+      await navigator.clipboard.writeText(window.location.href);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2500);
+    } catch {
+      // 클립보드 접근 불가 시 무시
+    }
+  };
+
+  const handleKakaoShare = () => {
+    const win = window as any;
+    if (win.Kakao?.Share) {
+      win.Kakao.Share.sendDefault({
+        objectType: 'feed',
+        content: {
+          title: `${inputData?.name}님의 사주팔자 분석 결과`,
+          description: `종합 ${result?.scores.total}점 · 수호신 ${result?.guardian.nameKo}`,
+          imageUrl: `${window.location.origin}${window.location.pathname}/opengraph-image`,
+          link: {
+            mobileWebUrl: window.location.href,
+            webUrl: window.location.href,
+          },
+        },
+      });
+    } else {
+      // Kakao SDK 미적용 시 링크 복사로 대체
+      handleCopyLink();
+    }
+  };
+
+  // inputData 디코딩 실패 → 홈으로
+  if (!inputData) return null;
+
+  // 로딩 애니메이션
+  if (!loadingDone) {
+    return (
+      <AnalysisLoading
+        hasMbti={!!inputData.mbti}
+        hasPhoto={inputData.hasPhoto}
+        hasTime={inputData.hour !== undefined}
+        onComplete={() => setLoadingDone(true)}
+      />
+    );
+  }
+
+  // 계산 오류
+  if (!result) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center px-6">
+          <div className="text-4xl mb-4">⚠️</div>
+          <p className="text-yellow-200 mb-6">분석 중 오류가 발생했습니다.</p>
+          <button
+            className="btn-secondary"
+            onClick={() => router.push(`/${locale}`)}
+          >
+            처음으로 돌아가기
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  const ratingColor = (score: number) =>
+    score >= 80 ? 'text-yellow-400' : score >= 65 ? 'text-green-400' : 'text-blue-400';
+
+  const scoreLabel = (score: number) =>
+    score >= 85 ? '매우 좋음' : score >= 75 ? '좋음' : score >= 65 ? '보통' : '개선 여지';
+
+  return (
+    <div className="min-h-screen">
+      <Navigation />
+
+      {/* 상단 광고 */}
+      <div className="flex justify-center py-3 bg-black/20">
+        <AdSense slot="2233445566" format="horizontal" />
+      </div>
+
+      <main className="max-w-2xl mx-auto px-4 py-8">
+
+        {/* ── 제목 ── */}
+        <div className="text-center mb-8 fade-in-up">
+          <div className="text-5xl mb-3">🔮</div>
+          <h1 className="text-2xl md:text-3xl font-bold text-yellow-100 mb-2">
+            {inputData.name}님의 종합 분석 결과
+          </h1>
+          <p className="text-yellow-200/60 text-sm">
+            {inputData.year}년 {inputData.month}월 {inputData.day}일
+            {inputData.hour !== undefined && ` · ${inputData.hour}시생`}
+            {inputData.mbti && ` · ${inputData.mbti}`}
+          </p>
+        </div>
+
+        {/* ── 종합 점수 카드 ── */}
+        <div className="card-glow p-6 mb-6 text-center fade-in-up">
+          <p className="text-yellow-200/60 text-xs mb-1 tracking-widest">TOTAL SCORE</p>
+          <div className="text-7xl font-bold mb-1 shimmer">{result.scores.total}</div>
+          <p className={`text-sm font-semibold mb-6 ${ratingColor(result.scores.total)}`}>
+            {scoreLabel(result.scores.total)}
+          </p>
+
+          <div className="space-y-3 text-left">
+            {[
+              { label: '사주팔자', score: result.scores.saju, show: true },
+              { label: '성명학', score: result.scores.name, show: true },
+              { label: '관상', score: result.scores.face, show: inputData.hasPhoto },
+              { label: 'MBTI 오행', score: result.scores.mbti, show: !!inputData.mbti },
+            ]
+              .filter((item) => item.show)
+              .map((item) => (
+                <div key={item.label}>
+                  <div className="flex justify-between text-sm mb-1">
+                    <span className="text-yellow-200/70">{item.label}</span>
+                    <span className={`font-bold ${ratingColor(item.score)}`}>
+                      {item.score}점
+                    </span>
+                  </div>
+                  <div className="score-bar">
+                    <div className="score-fill" style={{ width: `${item.score}%` }} />
+                  </div>
+                </div>
+              ))}
+          </div>
+        </div>
+
+        {/* ── 수호신 카드 ── */}
+        <GuardianCard guardian={result.guardian} />
+
+        {/* ── 핵심 요약 ── */}
+        <div className="card-dark p-6 mb-6">
+          <h2 className="text-lg font-bold text-yellow-400 mb-4">📝 핵심 요약</h2>
+          <div className="space-y-3">
+            {result.summaryLines.map((line, i) => (
+              <div key={i} className="flex gap-3 items-start">
+                <span className="text-yellow-500 font-bold shrink-0 mt-0.5">{i + 1}.</span>
+                <p className="text-yellow-200/90 text-sm leading-relaxed">{line}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* ── 분석 근거 ── */}
+        <div className="mb-6 bg-purple-900/20 border border-purple-700/30 rounded-xl p-4">
+          <p className="text-purple-300/90 text-xs font-bold mb-2 tracking-wide">
+            📊 분석 근거
+          </p>
+          <div className="space-y-1 text-xs text-purple-200/70">
+            <p>{result.analysisBox.ilgan}</p>
+            <p>{result.analysisBox.wolji}</p>
+            <p>
+              수리: 원격 {result.analysisBox.wongyeok}수 / 형격{' '}
+              {result.analysisBox.hyeongyeok}수
+            </p>
+            <p>소리오행: {result.analysisBox.soundOhaeng}</p>
+            {result.analysisBox.mbtiOhaeng && (
+              <p>{result.analysisBox.mbtiOhaeng}</p>
+            )}
+          </div>
+        </div>
+
+        {/* ── 광고 ── */}
+        <div className="flex justify-center py-4 mb-2">
+          <AdSense slot="3344556677" format="rectangle" />
+        </div>
+
+        {/* ── 오행 균형 분석 ── */}
+        <SectionCard section={result.ohaengAnalysis} />
+
+        {/* ── 일간(日干) 분석 ── */}
+        <SectionCard section={result.ilganAnalysis} />
+
+        {/* ── 광고 ── */}
+        <div className="flex justify-center py-4 mb-2">
+          <AdSense slot="5566778800" format="rectangle" />
+        </div>
+
+        {/* ── 직업·재능 ── */}
+        <SectionCard section={result.careerSection} />
+
+        {/* ── 재물·경제 ── */}
+        <SectionCard section={result.wealthSection} />
+
+        {/* ── 연애·인연 ── */}
+        <SectionCard section={result.loveSection} />
+
+        {/* ── 광고 ── */}
+        <div className="flex justify-center py-4 mb-2">
+          <AdSense slot="6677889911" format="rectangle" />
+        </div>
+
+        {/* ── 건강·체질 ── */}
+        <SectionCard section={result.healthSection} />
+
+        {/* ── 개운법 ── */}
+        <SectionCard section={result.luckySection} />
+
+        {/* ── 성명학 상세 ── */}
+        <SectionCard section={result.nameDetailSection} />
+
+        {/* ── MBTI×사주 (입력 시에만) ── */}
+        {result.mbtiSajuSection && (
+          <SectionCard section={result.mbtiSajuSection} />
+        )}
+
+        {/* ── 더 정확한 분석 안내 ── */}
+        {(result.missingItems.mbti ||
+          result.missingItems.time ||
+          result.missingItems.photo) && (
+          <div className="card-dark p-5 mb-6">
+            <p className="text-yellow-300/90 text-sm font-bold mb-3">
+              💡 더 정확한 분석을 원하신다면
+            </p>
+            <div className="space-y-2">
+              {result.missingItems.mbti && (
+                <p className="text-yellow-200/60 text-sm">
+                  · MBTI를 입력하면 성격-운세 교차 분석이 추가됩니다
+                </p>
+              )}
+              {result.missingItems.time && (
+                <p className="text-yellow-200/60 text-sm">
+                  · 태어난 시간을 입력하면 시주(時柱) 세밀 분석이 가능합니다
+                </p>
+              )}
+              {result.missingItems.photo && (
+                <p className="text-yellow-200/60 text-sm">
+                  · 사진을 추가하면 관상 분석이 포함됩니다
+                </p>
+              )}
+              <button
+                className="btn-secondary w-full mt-3 text-sm"
+                onClick={() => router.push(`/${locale}`)}
+              >
+                다시 분석하기
+              </button>
+            </div>
+          </div>
+        )}
+
+        {/* ── 면책 문구 ── */}
+        <div className="bg-yellow-900/10 border border-yellow-900/20 rounded-xl p-4 mb-6">
+          <p className="text-yellow-200/40 text-xs leading-relaxed text-center">
+            본 분석은 전통 동양철학 이론을 기반으로 생성된 참고 자료입니다.
+            재미와 자기 이해를 위한 용도로 활용하시고, 중요한 결정은 전문가와
+            상담하시기 바랍니다. 같은 생년월일시로 분석하면 항상 동일한 결과가
+            나옵니다.
+          </p>
+        </div>
+
+        {/* ── 공유 버튼 ── */}
+        <div className="flex gap-3 mb-8">
+          <button
+            className="share-btn share-kakao flex-1 justify-center"
+            onClick={handleKakaoShare}
+          >
+            <span>💬</span>
+            <span>카카오톡 공유</span>
+          </button>
+          <button
+            className="share-btn share-link flex-1 justify-center"
+            onClick={handleCopyLink}
+          >
+            <span>{copied ? '✅' : '🔗'}</span>
+            <span>{copied ? '복사됨!' : '링크 복사'}</span>
+          </button>
+        </div>
+
+        {/* ── 관련 글 ── */}
+        <div className="mb-8">
+          <h2 className="text-xl font-bold text-yellow-100 mb-4">관련 글 더보기</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            {[
+              { title: '사주팔자 기초: 천간지지란 무엇인가', href: `/${locale}/saju` },
+              { title: '성명학으로 이름 운세 알아보기', href: `/${locale}/name` },
+              { title: '관상으로 보는 성격과 운명', href: `/${locale}/face` },
+              { title: 'MBTI와 사주의 신기한 연관성', href: `/${locale}/mbti` },
+              { title: '오행(五行) 완벽 이해 가이드', href: `/${locale}/saju` },
+              { title: '사주로 알아보는 직업 적성', href: `/${locale}/saju` },
+            ].map((post, i) => (
+              <a
+                key={i}
+                href={post.href}
+                className="card-dark p-4 hover:border-yellow-500/40 transition-all group"
+              >
+                <p className="text-yellow-200/80 text-sm group-hover:text-yellow-300 transition-colors">
+                  📄 {post.title}
+                </p>
+              </a>
+            ))}
+          </div>
+        </div>
+
+        {/* ── 하단 광고 ── */}
+        <div className="flex justify-center py-4">
+          <AdSense slot="4455667788" format="rectangle" />
+        </div>
+      </main>
+
+      <Footer />
+    </div>
+  );
+}

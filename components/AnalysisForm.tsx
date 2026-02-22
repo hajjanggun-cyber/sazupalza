@@ -10,8 +10,17 @@ import Step4Time from './steps/Step4Time';
 import Step5Photo from './steps/Step5Photo';
 
 const TOTAL_STEPS = 5;
-
 const stepLabels = ['이름', '생일', 'MBTI', '시간', '사진'];
+
+function encodeToBase64Url(data: object): string {
+  const jsonStr = JSON.stringify(data);
+  const bytes = new TextEncoder().encode(jsonStr);
+  const binStr = Array.from(bytes, (b) => String.fromCharCode(b)).join('');
+  return btoa(binStr)
+    .replace(/\+/g, '-')
+    .replace(/\//g, '_')
+    .replace(/=/g, '');
+}
 
 export default function AnalysisForm() {
   const router = useRouter();
@@ -33,19 +42,18 @@ export default function AnalysisForm() {
   const handleSubmit = () => {
     if (!name || !birth) return;
 
-    // URL 파라미터로 결과 페이지에 데이터 전달
-    const params = new URLSearchParams({
+    const data = {
       name,
-      year: String(birth.year),
-      month: String(birth.month),
-      day: String(birth.day),
-      lunar: String(birth.isLunar),
+      year: birth.year,
+      month: birth.month,
+      day: birth.day,
+      lunar: birth.isLunar,
       ...(mbti && { mbti }),
-      ...(birthHour !== null && { hour: String(birthHour) }),
-      ...(photo && { hasPhoto: '1' }),
-    });
+      ...(birthHour !== null && { hour: birthHour }),
+      hasPhoto: !!photo,
+    };
 
-    // 사진은 sessionStorage에 저장
+    // 사진은 sessionStorage에 저장 (URL에 포함하지 않음)
     if (photo) {
       try {
         sessionStorage.setItem('facePhoto', photo);
@@ -54,7 +62,9 @@ export default function AnalysisForm() {
       }
     }
 
-    router.push(`/${locale}/result?${params.toString()}`);
+    // Base64 URL-safe 인코딩 → 공유 가능한 개인화 URL
+    const encoded = encodeToBase64Url(data);
+    router.push(`/${locale}/result/${encoded}`);
   };
 
   return (
@@ -139,13 +149,8 @@ export default function AnalysisForm() {
       {/* 최종 분석 버튼 (Step 5에서 사진 업로드 후) */}
       {step === 5 && photo && (
         <div className="mt-4">
-          <p className="text-center text-yellow-200/70 text-sm mb-3">
-            ✅ 무료로 종합 분석 결과를 받아보세요
-            <br />
-            <span className="text-xs text-yellow-200/50">(광고 1회 시청 후 전체 리포트 공개)</span>
-          </p>
           <button className="btn-primary" onClick={handleSubmit}>
-            🎁 무료 분석 시작하기
+            🔮 종합 분석 시작하기
           </button>
         </div>
       )}

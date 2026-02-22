@@ -66,8 +66,69 @@ export default async function HomePage({ params: { locale } }: Props) {
     { name: '박○○', text: '평소 사주에 관심 있었는데 쉽게 볼 수 있어서 좋았어요.', rating: 4 },
   ];
 
+  const baseUrl = 'https://sajupalza.com';
+  const canonicalUrl = `${baseUrl}/${locale}`;
+
+  const webAppJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebApplication',
+    name: '사주팔자 종합 컨설팅',
+    url: canonicalUrl,
+    description: '사주팔자·관상·성명학·MBTI 완전 무료 종합 분석. 회원가입 없음, 개인정보 수집 없음.',
+    applicationCategory: 'LifestyleApplication',
+    operatingSystem: 'Web',
+    inLanguage: locale,
+    offers: { '@type': 'Offer', price: '0', priceCurrency: 'KRW' },
+    publisher: {
+      '@type': 'Organization',
+      name: '사주팔자 종합 컨설팅',
+      url: baseUrl,
+    },
+  };
+
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: '정말 무료인가요?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: '네, 완전히 무료입니다. 생년월일을 입력하면 전체 분석 결과가 즉시 공개됩니다. 회원가입이나 결제가 필요하지 않습니다.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: '개인정보는 안전한가요?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: '입력하신 모든 정보는 분석 후 즉시 삭제되며 서버에 저장되지 않습니다. 사진은 브라우저에서만 분석되고 서버로 전송되지 않습니다.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: '사주 분석이 얼마나 정확한가요?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: '본 서비스는 전통 동양철학(삼명통회, 자평진전, 적천수) 원리를 기반으로 합니다. 재미와 자기 이해를 위한 참고 자료로 활용하시기 바랍니다. 같은 생년월일시로 분석하면 항상 동일한 결과가 나옵니다.',
+        },
+      },
+    ],
+  };
+
   return (
     <div className="min-h-screen">
+      {/* JSON-LD 구조화 데이터 */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webAppJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
+
       <Navigation />
 
       {/* 상단 광고 */}
@@ -92,7 +153,7 @@ export default async function HomePage({ params: { locale } }: Props) {
             </h1>
 
             <p className="text-yellow-200/70 text-lg mb-2">
-              광고 1회 시청 후 상세 리포트 무료 공개
+              생년월일만 입력하면 즉시 전체 결과 공개
             </p>
 
             <div className="flex justify-center gap-6 my-8 text-sm">
@@ -166,16 +227,12 @@ export default async function HomePage({ params: { locale } }: Props) {
                 </div>
               ))}
             </div>
-            {/* 흐릿한 상세 내용 */}
-            <div className="locked-overlay mt-4 text-yellow-200/50 text-sm space-y-2">
+            {/* 분석 근거 샘플 */}
+            <div className="mt-4 text-yellow-200/70 text-sm space-y-2 border-t border-yellow-900/30 pt-4">
               <p>일간: 경금(庚金) | 월지: 계묘(癸卯)</p>
-              <p>수리: 원격28 / 형격15</p>
-              <p>소리오행: 목-금-수 (상생)</p>
-            </div>
-            {/* 잠금 안내 오버레이 */}
-            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#2d1810] to-transparent pt-16 pb-6 text-center">
-              <p className="text-yellow-400 font-bold mb-2">🎁 광고 1회만 보시면</p>
-              <p className="text-yellow-200/80 text-sm">전체 리포트를 무료로 받으실 수 있어요!</p>
+              <p>수리: 원격28수(길) / 형격15수(대길)</p>
+              <p>소리오행: 목-금-수 (상생) · 수호신: 백호 🐯</p>
+              <p className="text-yellow-400 font-medium">→ 결과는 즉시 전체 공개됩니다</p>
             </div>
           </div>
         </section>
@@ -214,7 +271,7 @@ export default async function HomePage({ params: { locale } }: Props) {
             {[
               {
                 q: '정말 무료인가요?',
-                a: '네, 완전히 무료입니다. 기본 분석은 즉시 제공되며, 광고 1회 시청 후 상세 리포트를 무료로 받으실 수 있습니다. 회원가입이나 결제가 필요하지 않습니다.',
+                a: '네, 완전히 무료입니다. 생년월일을 입력하면 전체 분석 결과가 즉시 공개됩니다. 회원가입이나 결제가 필요하지 않습니다.',
               },
               {
                 q: '개인정보는 안전한가요?',

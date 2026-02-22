@@ -80,8 +80,53 @@ export default async function MbtiPage({ params: { locale } }: Props) {
         { q: "What if I don't know my MBTI?", a: "MBTI analysis is optional. You can receive Four Pillars and Name analysis using just your name and birth date without MBTI. Knowing your MBTI provides richer personality analysis results." },
       ];
 
+  const baseUrl = 'https://sajupalza.com';
+  const canonicalUrl = `${baseUrl}/${locale}/mbti`;
+
+  const articleJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: isKo ? 'MBTI 사주 분석 - 16유형과 오행 연계' : 'MBTI & Korean Four Pillars Integration',
+    url: canonicalUrl,
+    inLanguage: locale,
+    author: { '@type': 'Organization', name: '사주팔자 종합 컨설팅' },
+    publisher: { '@type': 'Organization', name: '사주팔자 종합 컨설팅', url: baseUrl },
+  };
+
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((faq) => ({
+      '@type': 'Question',
+      name: faq.q,
+      acceptedAnswer: { '@type': 'Answer', text: faq.a },
+    })),
+  };
+
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: '홈', item: `${baseUrl}/${locale}` },
+      { '@type': 'ListItem', position: 2, name: 'MBTI', item: canonicalUrl },
+    ],
+  };
+
   return (
     <div className="min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+
       <Navigation />
 
       <div className="flex justify-center py-3 bg-[#0d0502]">
