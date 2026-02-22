@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(tail:*)",
+      "Bash(head:*)",
+      "Bash(cd \"/c/Users/홈_메인/Desktop/11  11 실전코딩/sajupalza\" && npx tsc --noEmit 2>&1)",
+      "Bash(cd \"/c/Users/홈_메인/Desktop/11  11 실전코딩/sajupalza\" && npm run build 2>&1)"
+    ]
+  }
+}

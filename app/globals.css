@@ -1,0 +1,295 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== Modern Mystic 테마 ===== */
+:root {
+  --gold:         #C8860A;
+  --gold-light:   #F5D77E;
+  --gold-mid:     #E8B84B;
+  --dark-bg:      #0F0C29;
+  --dark-mid:     #1a1650;
+  --card-bg:      #1C1848;
+  --card-border:  rgba(200, 134, 10, 0.25);
+  --navy-2:       #302B63;
+  --navy-3:       #24243E;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  background: linear-gradient(160deg, #0F0C29 0%, #302B63 50%, #24243E 100%);
+  background-attachment: fixed;
+  color: #f0eeff;
+  min-height: 100vh;
+}
+
+/* 스크롤바 */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0F0C29; }
+::-webkit-scrollbar-thumb { background: var(--gold); border-radius: 3px; }
+
+/* ===== 카드 ===== */
+.card-dark {
+  background: rgba(28, 24, 72, 0.85);
+  border: 1px solid var(--card-border);
+  border-radius: 14px;
+  backdrop-filter: blur(8px);
+}
+
+.card-glow {
+  background: rgba(28, 24, 72, 0.9);
+  border: 1px solid rgba(200, 134, 10, 0.4);
+  border-radius: 14px;
+  box-shadow: 0 0 20px rgba(200, 134, 10, 0.08);
+}
+
+/* ===== 버튼 ===== */
+.btn-primary {
+  background: linear-gradient(135deg, #C8860A, #F5D77E);
+  color: #0F0C29;
+  font-weight: 800;
+  padding: 14px 28px;
+  border-radius: 10px;
+  font-size: 16px;
+  min-height: 52px;
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: none;
+  letter-spacing: -0.01em;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(200, 134, 10, 0.45);
+}
+
+.btn-primary:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--gold-light);
+  border: 1px solid rgba(200, 134, 10, 0.4);
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-size: 15px;
+  min-height: 48px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-secondary:hover {
+  background: rgba(200, 134, 10, 0.12);
+  border-color: var(--gold);
+}
+
+.btn-gold {
+  display: inline-block;
+  background: linear-gradient(135deg, #C8860A, #F5D77E);
+  color: #0F0C29;
+  font-weight: 800;
+  padding: 12px 28px;
+  border-radius: 10px;
+  font-size: 15px;
+  min-height: 48px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.btn-gold:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(200, 134, 10, 0.4);
+}
+
+/* ===== 입력창 ===== */
+.input-dark {
+  background: rgba(15, 12, 41, 0.7);
+  border: 1px solid rgba(200, 134, 10, 0.3);
+  border-radius: 10px;
+  color: #f0eeff;
+  padding: 12px 16px;
+  font-size: 16px;
+  width: 100%;
+  min-height: 48px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.input-dark:focus {
+  outline: none;
+  border-color: var(--gold);
+  box-shadow: 0 0 0 3px rgba(200, 134, 10, 0.15);
+}
+
+.input-dark.error { border-color: #ef4444; }
+.input-dark::placeholder { color: rgba(240, 238, 255, 0.35); }
+
+/* ===== 점수 바 ===== */
+.score-bar {
+  height: 8px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.score-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #C8860A, #F5D77E);
+  border-radius: 4px;
+  transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ===== 결과 섹션 ===== */
+.result-section {
+  background: rgba(28, 24, 72, 0.7);
+  border: 1px solid rgba(200, 134, 10, 0.2);
+  border-radius: 14px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.result-section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--gold-light);
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.result-section p {
+  color: rgba(240, 238, 255, 0.82);
+  line-height: 1.75;
+  font-size: 0.95rem;
+}
+
+/* 오행 배지 */
+.ohaeng-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.ohaeng-mok  { background: rgba(34,197,94,0.15);  color: #4ade80; border: 1px solid rgba(34,197,94,0.3); }
+.ohaeng-hwa  { background: rgba(239,68,68,0.15);   color: #f87171; border: 1px solid rgba(239,68,68,0.3); }
+.ohaeng-to   { background: rgba(234,179,8,0.15);   color: #facc15; border: 1px solid rgba(234,179,8,0.3); }
+.ohaeng-geum { background: rgba(209,213,219,0.15); color: #e5e7eb; border: 1px solid rgba(209,213,219,0.3); }
+.ohaeng-su   { background: rgba(59,130,246,0.15);  color: #93c5fd; border: 1px solid rgba(59,130,246,0.3); }
+
+/* ===== 수호신 카드 ===== */
+.guardian-card {
+  background: linear-gradient(135deg, rgba(28,24,72,0.9), rgba(48,43,99,0.9));
+  border: 1px solid rgba(200, 134, 10, 0.5);
+  border-radius: 16px;
+  padding: 1.5rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.guardian-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #C8860A, transparent);
+}
+
+/* ===== 로딩 화면 ===== */
+.loading-screen {
+  min-height: 100vh;
+  background: linear-gradient(160deg, #0F0C29 0%, #302B63 50%, #24243E 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading-step {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 0;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: all 0.4s ease;
+}
+
+.loading-step.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.loading-step.done .step-icon { color: var(--gold-light); }
+.loading-step.active .step-icon { color: #a5b4fc; }
+
+/* ===== 공유 버튼 ===== */
+.share-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: none;
+}
+
+.share-kakao {
+  background: #FEE500;
+  color: #191919;
+}
+
+.share-kakao:hover { background: #ffd900; transform: translateY(-1px); }
+
+.share-link {
+  background: rgba(200, 134, 10, 0.15);
+  color: var(--gold-light);
+  border: 1px solid rgba(200, 134, 10, 0.35);
+}
+
+.share-link:hover { background: rgba(200, 134, 10, 0.25); transform: translateY(-1px); }
+
+/* ===== 별점 ===== */
+.star { color: var(--gold-mid); }
+
+/* ===== 반응형 ===== */
+@media (max-width: 768px) {
+  .btn-primary { font-size: 15px; min-height: 50px; }
+  .result-section { padding: 1.25rem; }
+}
+
+/* ===== 페이드인 애니메이션 ===== */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in-up { animation: fadeInUp 0.5s ease forwards; }
+
+@keyframes shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+.shimmer {
+  background: linear-gradient(90deg, var(--gold) 0%, var(--gold-light) 50%, var(--gold) 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 3s linear infinite;
+}
