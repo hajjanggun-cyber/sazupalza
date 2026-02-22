@@ -12,6 +12,24 @@
     "adNote": "Full report unlocked after watching 1 short ad",
     "cta": "Start Free Analysis Now"
   },
+  "home": {
+    "heroBadge": "Completely Free | No Sign-up",
+    "heroTitle": "Four Pillars · Face Reading · Name Numerology · MBTI",
+    "heroSub": "Comprehensive Analysis",
+    "heroDesc": "Enter your birthdate for instant full results",
+    "servicesTitle": "4 Comprehensive Analysis Services",
+    "previewTitle": "Result Preview",
+    "previewScore": "Overall Score",
+    "previewNote": "→ Full results are revealed instantly",
+    "reviewsTitle": "User Reviews",
+    "s1": { "title": "Four Pillars", "desc": "Discover your innate nature and destiny through 8 characters of birth date and time" },
+    "s2": { "title": "Name Reading", "desc": "Explore your name's energy through stroke count and sound elements" },
+    "s3": { "title": "Face Reading", "desc": "Understand your innate tendencies through facial features and complexion" },
+    "s4": { "title": "MBTI", "desc": "Personality analysis through cross-referencing MBTI types and Five Elements" },
+    "r1": { "name": "Kim○○", "text": "I didn't know saju and name reading could align so well. Amazing!" },
+    "r2": { "name": "Lee○○", "text": "I'm surprised such detailed analysis is free." },
+    "r3": { "name": "Park○○", "text": "I was always interested in saju and it was easy to check." }
+  },
   "trust": {
     "free": "Completely Free",
     "privacy": "No Personal Data",

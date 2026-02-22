@@ -32,38 +32,34 @@ export default async function HomePage({ params: { locale } }: Props) {
   const services = [
     {
       icon: '🌟',
-      title: '사주팔자',
-      en: 'Four Pillars of Destiny',
-      desc: '생년월일시 8글자로 알아보는 타고난 기질과 운명의 흐름',
+      title: t('home.s1.title'),
+      desc: t('home.s1.desc'),
       href: `/${locale}/saju`,
     },
     {
       icon: '✍️',
-      title: '성명학',
-      en: 'Name Reading & Numerology',
-      desc: '이름의 획수와 소리오행으로 알아보는 이름의 기운',
+      title: t('home.s2.title'),
+      desc: t('home.s2.desc'),
       href: `/${locale}/name`,
     },
     {
       icon: '👁️',
-      title: '관상',
-      en: 'Face Reading & Physiognomy',
-      desc: '얼굴의 형태와 기색으로 알아보는 타고난 성향',
+      title: t('home.s3.title'),
+      desc: t('home.s3.desc'),
       href: `/${locale}/face`,
     },
     {
       icon: '🧠',
-      title: 'MBTI',
-      en: 'Personality Analysis',
-      desc: 'MBTI 유형과 사주 오행의 교차 분석으로 알아보는 성격',
+      title: t('home.s4.title'),
+      desc: t('home.s4.desc'),
       href: `/${locale}/mbti`,
     },
   ];
 
   const reviews = [
-    { name: '김○○', text: '사주와 성명학이 이렇게 잘 맞는지 몰랐어요. 신기해요!', rating: 5 },
-    { name: '이○○', text: '무료인데 이렇게 자세한 분석이 나오다니 놀랍네요.', rating: 5 },
-    { name: '박○○', text: '평소 사주에 관심 있었는데 쉽게 볼 수 있어서 좋았어요.', rating: 4 },
+    { name: t('home.r1.name'), text: t('home.r1.text'), rating: 5 },
+    { name: t('home.r2.name'), text: t('home.r2.text'), rating: 5 },
+    { name: t('home.r3.name'), text: t('home.r3.text'), rating: 4 },
   ];
 
   const baseUrl = 'https://sajupalza.com';
@@ -72,16 +68,18 @@ export default async function HomePage({ params: { locale } }: Props) {
   const webAppJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'WebApplication',
-    name: '사주팔자 종합 컨설팅',
+    name: locale === 'ko' ? '사주팔자 종합 컨설팅' : 'Korean Fortune Reading',
     url: canonicalUrl,
-    description: '사주팔자·관상·성명학·MBTI 완전 무료 종합 분석. 회원가입 없음, 개인정보 수집 없음.',
+    description: locale === 'ko' 
+      ? '사주팔자·관상·성명학·MBTI 완전 무료 종합 분석. 회원가입 없음, 개인정보 수집 없음.'
+      : 'Free Korean Four Pillars, Face Reading, Name Numerology, and MBTI analysis.',
     applicationCategory: 'LifestyleApplication',
     operatingSystem: 'Web',
     inLanguage: locale,
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'KRW' },
     publisher: {
       '@type': 'Organization',
-      name: '사주팔자 종합 컨설팅',
+      name: locale === 'ko' ? '사주팔자 종합 컨설팅' : 'Korean Fortune Reading',
       url: baseUrl,
     },
   };
@@ -92,26 +90,26 @@ export default async function HomePage({ params: { locale } }: Props) {
     mainEntity: [
       {
         '@type': 'Question',
-        name: '정말 무료인가요?',
+        name: t('faq.q1'),
         acceptedAnswer: {
           '@type': 'Answer',
-          text: '네, 완전히 무료입니다. 생년월일을 입력하면 전체 분석 결과가 즉시 공개됩니다. 회원가입이나 결제가 필요하지 않습니다.',
+          text: t('faq.a1'),
         },
       },
       {
         '@type': 'Question',
-        name: '개인정보는 안전한가요?',
+        name: t('faq.q2'),
         acceptedAnswer: {
           '@type': 'Answer',
-          text: '입력하신 모든 정보는 분석 후 즉시 삭제되며 서버에 저장되지 않습니다. 사진은 브라우저에서만 분석되고 서버로 전송되지 않습니다.',
+          text: t('faq.a2'),
         },
       },
       {
         '@type': 'Question',
-        name: '사주 분석이 얼마나 정확한가요?',
+        name: t('faq.q3'),
         acceptedAnswer: {
           '@type': 'Answer',
-          text: '본 서비스는 전통 동양철학(삼명통회, 자평진전, 적천수) 원리를 기반으로 합니다. 재미와 자기 이해를 위한 참고 자료로 활용하시기 바랍니다. 같은 생년월일시로 분석하면 항상 동일한 결과가 나옵니다.',
+          text: t('faq.a3'),
         },
       },
     ],
@@ -143,31 +141,31 @@ export default async function HomePage({ params: { locale } }: Props) {
           <div className="max-w-3xl mx-auto relative">
             <div className="inline-flex items-center gap-2 bg-yellow-900/40 border border-yellow-600/30 rounded-full px-4 py-2 mb-6 text-sm text-yellow-300">
               <span>🎁</span>
-              <span>완전 무료 | 회원가입 없음</span>
+              <span>{t('home.heroBadge')}</span>
             </div>
 
             <h1 className="text-3xl md:text-5xl font-bold text-yellow-100 leading-tight mb-4">
-              사주·관상·성명학·MBTI
+              {t('home.heroTitle')}
               <br />
-              <span className="text-yellow-400">종합 컨설팅</span>
+              <span className="text-yellow-400">{t('home.heroSub')}</span>
             </h1>
 
             <p className="text-yellow-200/70 text-lg mb-2">
-              생년월일만 입력하면 즉시 전체 결과 공개
+              {t('home.heroDesc')}
             </p>
 
             <div className="flex justify-center gap-6 my-8 text-sm">
               <div className="flex items-center gap-2 text-yellow-300">
                 <span className="text-xl">🆓</span>
-                <span>완전 무료</span>
+                <span>{t('trust.free')}</span>
               </div>
               <div className="flex items-center gap-2 text-yellow-300">
                 <span className="text-xl">🔒</span>
-                <span>개인정보 없음</span>
+                <span>{t('trust.privacy')}</span>
               </div>
               <div className="flex items-center gap-2 text-yellow-300">
                 <span className="text-xl">⚡</span>
-                <span>즉시 결과</span>
+                <span>{t('trust.instant')}</span>
               </div>
             </div>
           </div>
@@ -188,7 +186,7 @@ export default async function HomePage({ params: { locale } }: Props) {
         {/* 서비스 소개 */}
         <section className="max-w-6xl mx-auto px-4 py-12">
           <h2 className="text-2xl font-bold text-center text-yellow-100 mb-8">
-            4가지 종합 분석 서비스
+            {t('home.servicesTitle')}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             {services.map((service) => (
@@ -196,7 +194,6 @@ export default async function HomePage({ params: { locale } }: Props) {
                 <div className="card-dark p-5 hover:border-yellow-500/50 transition-all hover:-translate-y-1 h-full">
                   <div className="text-3xl mb-3">{service.icon}</div>
                   <h3 className="text-yellow-400 font-bold text-lg mb-1">{service.title}</h3>
-                  <p className="text-yellow-200/50 text-xs mb-2">{service.en}</p>
                   <p className="text-yellow-200/70 text-sm">{service.desc}</p>
                 </div>
               </Link>
@@ -207,15 +204,15 @@ export default async function HomePage({ params: { locale } }: Props) {
         {/* 샘플 결과 미리보기 */}
         <section className="max-w-3xl mx-auto px-4 pb-12">
           <h2 className="text-2xl font-bold text-center text-yellow-100 mb-6">
-            결과 미리보기
+            {t('home.previewTitle')}
           </h2>
           <div className="card-dark p-6 relative overflow-hidden">
             <div className="mb-4">
               <div className="flex justify-between items-center mb-2">
-                <span className="text-yellow-200/80 text-sm">종합 점수</span>
+                <span className="text-yellow-200/80 text-sm">{t('home.previewScore')}</span>
                 <span className="text-yellow-400 font-bold text-2xl">82점</span>
               </div>
-              {['사주', '성명학', '관상', 'MBTI'].map((item, i) => (
+              {[t('result.saju'), t('result.name'), t('result.face'), 'MBTI'].map((item, i) => (
                 <div key={item} className="mb-2">
                   <div className="flex justify-between text-xs text-yellow-200/60 mb-1">
                     <span>{item}</span>
@@ -232,7 +229,7 @@ export default async function HomePage({ params: { locale } }: Props) {
               <p>일간: 경금(庚金) | 월지: 계묘(癸卯)</p>
               <p>수리: 원격28수(길) / 형격15수(대길)</p>
               <p>소리오행: 목-금-수 (상생) · 수호신: 백호 🐯</p>
-              <p className="text-yellow-400 font-medium">→ 결과는 즉시 전체 공개됩니다</p>
+              <p className="text-yellow-400 font-medium">{t('home.previewNote')}</p>
             </div>
           </div>
         </section>
@@ -240,7 +237,7 @@ export default async function HomePage({ params: { locale } }: Props) {
         {/* 사용자 후기 */}
         <section className="max-w-4xl mx-auto px-4 pb-12">
           <h2 className="text-2xl font-bold text-center text-yellow-100 mb-6">
-            이용자 후기
+            {t('home.reviewsTitle')}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {reviews.map((review, i) => (
@@ -265,21 +262,21 @@ export default async function HomePage({ params: { locale } }: Props) {
         {/* FAQ 섹션 */}
         <section className="max-w-3xl mx-auto px-4 py-12">
           <h2 className="text-2xl font-bold text-center text-yellow-100 mb-8">
-            자주 묻는 질문
+            {t('faq.title')}
           </h2>
           <div className="space-y-4">
             {[
               {
-                q: '정말 무료인가요?',
-                a: '네, 완전히 무료입니다. 생년월일을 입력하면 전체 분석 결과가 즉시 공개됩니다. 회원가입이나 결제가 필요하지 않습니다.',
+                q: t('faq.q1'),
+                a: t('faq.a1'),
               },
               {
-                q: '개인정보는 안전한가요?',
-                a: '입력하신 모든 정보는 분석 후 즉시 삭제되며 서버에 저장되지 않습니다. 사진은 브라우저에서만 분석되고 서버로 전송되지 않습니다.',
+                q: t('faq.q2'),
+                a: t('faq.a2'),
               },
               {
-                q: '사주 분석이 얼마나 정확한가요?',
-                a: '본 서비스는 전통 동양철학(삼명통회, 자평진전, 적천수) 원리를 기반으로 합니다. 재미와 자기 이해를 위한 참고 자료로 활용하시기 바랍니다. 같은 생년월일시로 분석하면 항상 동일한 결과가 나옵니다.',
+                q: t('faq.q3'),
+                a: t('faq.a3'),
               },
             ].map((faq, i) => (
               <details key={i} className="card-dark p-5 group cursor-pointer">
