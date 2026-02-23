@@ -404,7 +404,7 @@ export const gwansangPosts: BlogPost[] = [
 <section>
 <p>사람의 인상을 결정짓는 수많은 요소 중 <strong>눈썹</strong>은 단순한 미용적 장식을 넘어, 동양 관상학에서 ‘얼굴의 지붕’이자 ‘운명의 나침반’으로 해석됩니다. 눈이 그 사람의 정신과 의지를 직접적으로 투영하는 창이라면, 눈썹은 그 정신을 보호하고 감싸는 울타리이며 인생의 흐름을 조율하는 핵심적인 역할을 수행합니다. 관상학에서는 눈썹을 통해 그 사람의 리더십 스타일, 형제나 동료와의 유대 관계인 형제운, 그리고 타고난 기혈의 상태를 통해 짐작할 수 있는 수명까지 예측합니다. 얼굴 전체의 기운이 조화롭게 흐르기 위해서는 눈썹의 모양, 밀도, 길이, 그리고 결의 정돈 상태가 무엇보다 중요합니다. 오늘은 ‘보수궁’이라 불리는 눈썹 관상의 심오한 세계와 이를 통해 삶의 질을 높이는 실전 지혜를 전문적인 식견으로 상세히 정리해 드립니다.</p>
 
-<h2 id="significance-of-eyebrows">보수궁(保壽宮): 눈썹이 관상에서 가지는 의미</h2>
+<h2 id="significance-of-eyebrows">1. 보수궁(保壽宮): 눈썹이 관상에서 가지는 의미</h2>
 <p>관상학에서 눈썹은 <strong>'보수궁(保壽宮)'</strong>이라는 특별한 명칭을 가집니다. 이는 한자 뜻 그대로 ‘수명을 보존하고 지키는 집’이라는 의미로, 개인의 생명력과 지혜의 깊이를 상징합니다. 눈썹은 우리 몸의 기혈(氣血) 상태가 겉으로 드러난 결과물로 보기 때문에, 눈썹이 윤택하고 가지런한 것을 최상으로 칩니다. 이는 단순히 외적인 아름다움을 넘어, 내면의 생체 리듬이 안정되어 있고 정신적인 평정심을 유지하고 있다는 신호이기 때문입니다.</p>
 
 <h3>눈썹과 눈의 조화로운 배치</h3>
@@ -413,7 +413,7 @@ export const gwansangPosts: BlogPost[] = [
 <h3>수명과 지능을 상징하는 지표</h3>
 <p>눈썹 털의 결이 고르고 한 올 한 올에 윤기가 흐르는 사람은 총명한 지혜를 타고났으며 무병장수할 가능성이 높다고 해석합니다. 이는 한의학적으로 간(肝)의 기운이 왕성하고 혈액 순환이 원활함을 뜻하는 상징적 표현이기도 합니다. 만약 눈썹 털이 거칠거나 여기저기 삐죽하게 솟아 있다면, 이는 성격이 다소 급하고 감정 조절에 어려움을 겪을 수 있음을 암시합니다. 또한 양쪽 눈썹 사이의 간격인 ‘인당’이 적절히 트여 있으면 사고가 균형 잡혀 있고 사회적 포용력이 넓은 성향으로 봅니다. 반면 이 간격이 지나치게 좁으면 매사에 조급함을 느끼기 쉽고, 지나치게 넓으면 독립성은 강하나 자기중심적인 사고에 빠질 위험이 있습니다.</p>
 
-<h2 id="leadership-and-shapes">모양으로 읽는 리더십과 사회적 성공운</h2>
+<h2 id="leadership-and-shapes">2. 모양으로 읽는 리더십과 사회적 성공운</h2>
 <p>눈썹의 각도와 전체적인 곡선은 그 사람이 조직 내에서 어떤 방식으로 권위를 행사하고 목표를 달성하는지를 보여주는 척도가 됩니다. 눈썹 모양에 따른 성격 분석은 현대 사회에서도 리더십 스타일을 파악하는 유용한 도구로 활용될 수 있습니다.</p>
 
 <h3>강직한 추진력의 상징, 일자 및 직선형 눈썹</h3>
@@ -422,7 +422,7 @@ export const gwansangPosts: BlogPost[] = [
 <h3>화합과 소통의 리더십, 초승달 및 아치형 눈썹</h3>
 <p>부드러운 곡선을 그리는 <strong>초승달 눈썹</strong>은 감수성이 풍부하고 타인에 대한 공감 능력이 뛰어난 사람들의 전형적인 특징입니다. 주변 사람들과 갈등을 일으키지 않고 원만하게 화합하는 능력이 탁월하여, 현대 사회의 협업 중심 프로젝트 리더로서 최적의 관상이라 할 수 있습니다. 이러한 눈썹을 가진 이들은 주변의 지지를 얻어 자연스럽게 높은 위치에 오르는 경우가 많습니다. 반면 눈썹 끝이 아래로 살짝 처진 <strong>팔자 눈썹</strong>은 자비롭고 다정하지만, 재물운의 기복이 있을 수 있으니 철저한 자기 관리가 필요합니다. 특히 감정에 휘둘려 재정적 결정을 내리지 않도록 [내부링크: 재물 관상 완벽 정리: 코·입·귀로 보는 돈복 3요소]를 참고하여 이성적인 경제 관념을 기르는 것이 중요합니다.</p>
 
-<h2 id="sibling-and-human-relations">형제운과 대인관계의 척도, 눈썹의 밀도</h2>
+<h2 id="sibling-and-human-relations">3. 형제운과 대인관계의 척도, 눈썹의 밀도</h2>
 <p>관상학에서 눈썹은 <strong>'형제궁(兄弟宮)'</strong>이기도 합니다. 이는 단순히 친형제뿐만 아니라 사회에서 만나는 동료, 친구, 조력자들과의 인맥과 신뢰 관계를 의미합니다. 눈썹의 밀도는 곧 인간관계의 견고함을 보여주는 지표입니다.</p>
 
 <h3>든든한 조력자를 부르는 진하고 명확한 눈썹</h3>
@@ -431,7 +431,7 @@ export const gwansangPosts: BlogPost[] = [
 <h3>연하거나 끊어진 눈썹의 보완점</h3>
 <p>눈썹 숱이 너무 연하여 살결이 훤히 보이는 사람은 고독할 수 있으며, 타인의 도움보다는 스스로 모든 것을 일구어야 하는 자수성가형이 많습니다. 특히 눈썹 중간이 끊기거나 흉터가 있는 경우 동료와의 마찰이나 예상치 못한 좌절을 겪을 수 있으므로 주의가 필요합니다. 이러한 경우 관상학에서는 ‘비보(裨補)’의 원리를 적용합니다. 즉, 부족한 부분을 화장이나 문신으로 채워 시각적인 기운을 보완하는 것입니다. 이는 단순히 미용적인 변화가 아니라, 자신의 부족한 기운을 인위적으로라도 채워 넣어 심리적 안정감과 운의 흐름을 개선하는 실전적인 방법입니다.</p>
 
-<h2 id="eyebrow-care-for-fortune">운을 바꾸는 눈썹 관리법과 관상학적 조언</h2>
+<h2 id="eyebrow-care-for-fortune">4. 운을 바꾸는 눈썹 관리법과 관상학적 조언</h2>
 <p>관상은 고정된 것이 아니라 가꾸는 것입니다. 특히 눈썹은 얼굴 부위 중 가장 쉽게 형태를 바꿀 수 있는 곳으로, 이를 정리하는 것만으로도 운의 흐름을 개선할 수 있습니다. 작은 습관의 변화가 당신의 인상과 기운을 동시에 바꿀 수 있습니다.</p>
 
 <h3>명궁(인당)을 깨끗하게 관리하기</h3>
@@ -458,7 +458,7 @@ export const gwansangPosts: BlogPost[] = [
 <section>
 <p>Among the many elements that define a first impression, <strong>eyebrows</strong> are interpreted in Eastern physiognomy (Gwansang) as the "roof of the face" and the "compass of destiny." While the eyes act as windows reflecting spirit and will, the eyebrows serve as a protective fence and a regulator of life's flow. In Gwansang, eyebrows predict leadership qualities, sibling and social relationships, and even longevity based on the state of one's vital energy (Qi). For the energy of the entire face to flow harmoniously, the shape, density, length, and grooming of the eyebrows are paramount. Today, we explore the profound world of eyebrow reading—the Bosu-gung—and the practical wisdom to improve your life quality through them.</p>
 
-<h2 id="significance-of-eyebrows">Bosu-gung: The Meaning of Eyebrows in Gwansang</h2>
+<h2 id="significance-of-eyebrows">1. Bosu-gung: The Meaning of Eyebrows in Gwansang</h2>
 <p>In traditional face reading, the eyebrows are called <strong>'Bosu-gung' (保壽宮)</strong>, meaning the "palace that preserves and protects longevity." They symbolize an individual's life force and depth of wisdom. Since eyebrows are considered the outward manifestation of the body's internal Qi and blood, healthy, well-groomed eyebrows are highly valued. This is not just about aesthetics; it signals that one's internal biological rhythms are stable and that they maintain mental tranquility.</p>
 
 <h3>Harmony Between Eyebrows and Eyes</h3>
@@ -467,7 +467,7 @@ export const gwansangPosts: BlogPost[] = [
 <h3>Indicators of Longevity and Intelligence</h3>
 <p>People with smooth, lustrous eyebrow hairs are interpreted as having innate wisdom and a high potential for a long, healthy life. Symbolically, this represents strong liver energy and smooth blood circulation in Oriental medicine. If the eyebrow hair is coarse or grows in chaotic directions, it may suggest a difficult personality or challenges in emotional regulation. Furthermore, the space between the eyebrows—the 'Indang'—should be clean and wide enough for two fingers, signaling an open-minded nature and a broad capacity for social success.</p>
 
-<h2 id="leadership-and-shapes">Reading Leadership and Social Success Through Shape</h2>
+<h2 id="leadership-and-shapes">2. Reading Leadership and Social Success Through Shape</h2>
 <p>The angle and overall curve of the eyebrows reveal how an individual exercises authority and achieves goals within an organization. Leadership in Gwansang is not just about dominance; it is about how one leads and harmonizes with those around them.</p>
 
 <h3>The Straight and Linear Brow: Symbols of Firm Initiative</h3>
@@ -476,7 +476,7 @@ export const gwansangPosts: BlogPost[] = [
 <h3>Crescent and Arched Brows: Leadership Through Harmony</h3>
 <p>The <strong>crescent eyebrow</strong>, with its gentle curve, is characteristic of individuals with rich sensibility and excellent empathy. Their ability to harmonize with others without conflict makes them ideal leaders for collaborative modern projects. On the other hand, the <strong>'Eight-shape' brow (downward-slanting)</strong> belongs to compassionate and kind-hearted individuals who naturally attract people. However, because they may struggle to refuse requests or suffer financial losses due to emotional attachments, they should refer to <a href="/en/face-reading/wealth-face" class="text-yellow-400 underline">Wealth Luck Analysis: The 3 Keys to Financial Fortune</a> to cultivate financial independence and firmness.</p>
 
-<h2 id="sibling-and-human-relations">Density: The Measure of Sibling and Human Relations</h2>
+<h2 id="sibling-and-human-relations">3. Density: The Measure of Sibling and Human Relations</h2>
 <p>In Gwansang, eyebrows are also classified as the <strong>'Sibling Palace' (兄弟宮)</strong>. This refers not only to biological siblings but also to colleagues, friends, and supporters in society. The density and texture of the eyebrows serve as a gauge for the strength of one's human network.</p>
 
 <h3>Thick and Defined Brows: Attracting Strong Support</h3>
@@ -485,7 +485,7 @@ export const gwansangPosts: BlogPost[] = [
 <h3>Sparse or Broken Brows: The Self-Made Path and Solitude</h3>
 <p>Brows so sparse that the skin is clearly visible are associated with the <strong>'Self-made' type</strong>, where one must build everything through personal effort rather than ancestral or sibling help. This can carry an energy of solitude, making one prone to stress in social interactions or betrayal by others, necessitating caution when placing trust. Specifically, a break in the eyebrow due to a scar or lack of hair signifies interrupted progress or discord with colleagues. In such cases, using cosmetic tattooing or makeup to visually fill the gaps serves as a "remedial" (Bibo) measure in Gwansang, supplementing weak energy to stabilize the flow of fortune.</p>
 
-<h2 id="eyebrow-care-for-fortune">Eyebrow Grooming for Better Fortune: Practical Advice</h2>
+<h2 id="eyebrow-care-for-fortune">4. Eyebrow Grooming for Better Fortune: Practical Advice</h2>
 <p>Many believe Gwansang is fixed at birth, but it is actually a <strong>dynamic discipline</strong>. Eyebrows are the area where you can most dramatically change your energy with the least effort. A small change in grooming habits can be the key to opening your social and financial luck.</p>
 
 <h3>Keep the 'Indang' Wide and Clean</h3>
@@ -499,16 +499,16 @@ Eyebrows are a reliable roof supporting a person's life and a vessel containing 
 </section>
     `,
     toc: [
-      { id: 'significance-of-eyebrows', title: '보수궁(保壽宮): 눈썹이 관상에서 가지는 의미' },
-      { id: 'leadership-and-shapes', title: '모양으로 읽는 리더십과 사회적 성공운' },
-      { id: 'sibling-and-human-relations', title: '형제운과 대인관계의 척도, 눈썹의 밀도' },
-      { id: 'eyebrow-care-for-fortune', title: '운을 바꾸는 눈썹 관리법과 관상학적 조언' },
+      { id: 'significance-of-eyebrows', title: '1. 보수궁(保壽宮): 눈썹이 관상에서 가지는 의미' },
+      { id: 'leadership-and-shapes', title: '2. 모양으로 읽는 리더십과 사회적 성공운' },
+      { id: 'sibling-and-human-relations', title: '3. 형제운과 대인관계의 척도, 눈썹의 밀도' },
+      { id: 'eyebrow-care-for-fortune', title: '4. 운을 바꾸는 눈썹 관리법과 관상학적 조언' },
     ],
     tocEn: [
-      { id: 'significance-of-eyebrows', title: 'Bosu-gung: The Meaning of Eyebrows in Gwansang' },
-      { id: 'leadership-and-shapes', title: 'Reading Leadership and Social Success Through Shape' },
-      { id: 'sibling-and-human-relations', title: 'Density: The Measure of Sibling and Human Relations' },
-      { id: 'eyebrow-care-for-fortune', title: 'Eyebrow Grooming for Better Fortune: Practical Advice' },
+      { id: 'significance-of-eyebrows', title: '1. Bosu-gung: The Meaning of Eyebrows in Gwansang' },
+      { id: 'leadership-and-shapes', title: '2. Reading Leadership and Social Success Through Shape' },
+      { id: 'sibling-and-human-relations', title: '3. Density: The Measure of Sibling and Human Relations' },
+      { id: 'eyebrow-care-for-fortune', title: '4. Eyebrow Grooming for Better Fortune: Practical Advice' },
     ],
     faq: [
       {
@@ -663,16 +663,16 @@ Your facial color is an honest report card from your body and a preview of your 
 </section>
     `,
     toc: [
-      { id: 'concept-of-gisaek', title: '형태보다 중요한 기색(氣色): 현재의 기운을 읽는 법' },
-      { id: 'five-colors-diagnosis', title: '얼굴의 다섯 가지 색과 오장육부의 건강' },
-      { id: 'facial-zones-health', title: '부위별 색깔 변화로 보는 구체적인 질병 신호' },
-      { id: 'improving-fortune-through-skin', title: '기색을 맑게 하여 운을 바꾸는 관리법' },
+      { id: 'concept-of-gisaek', title: '1. 형태보다 중요한 기색(氣色): 현재의 기운을 읽는 법' },
+      { id: 'five-colors-diagnosis', title: '2. 얼굴의 다섯 가지 색과 오장육부의 건강' },
+      { id: 'facial-zones-health', title: '3. 부위별 색깔 변화로 보는 구체적인 질병 신호' },
+      { id: 'improving-fortune-through-skin', title: '4. 기색을 맑게 하여 운을 바꾸는 관리법' },
     ],
     tocEn: [
-      { id: 'concept-of-gisaek', title: 'Radiance vs. Form: Reading Current Energy' },
-      { id: 'five-colors-diagnosis', title: 'Five Colors and Internal Organ Health' },
-      { id: 'facial-zones-health', title: 'Mapping Facial Zones to Specific Health Signals' },
-      { id: 'improving-fortune-through-skin', title: 'Improving Fortune and Health through Skin Clarity' },
+      { id: 'concept-of-gisaek', title: '1. Radiance vs. Form: Reading Current Energy' },
+      { id: 'five-colors-diagnosis', title: '2. Five Colors and Internal Organ Health' },
+      { id: 'facial-zones-health', title: '3. Mapping Facial Zones to Specific Health Signals' },
+      { id: 'improving-fortune-through-skin', title: '4. Improving Fortune and Health through Skin Clarity' },
     ],
     faq: [
       {
@@ -720,7 +720,7 @@ Your facial color is an honest report card from your body and a preview of your 
     category: 'face-reading',
     contentKo: `
 <section>
-<p>사람의 얼굴에서 ‘점’은 아주 작은 흔적처럼 보이지만, 관상학에서는 그 작은 표식이 기운의 흐름을 바꾸는 ‘표지판’으로 해석됩니다. 같은 점이라도 어디에 자리했는지, 색과 윤기가 어떤지, 돌출이 되었는지, 주변 피부의 기색이 밝은지에 따라 의미가 크게 달라집니다. 그래서 “점은 무조건 빼야 한다”거나 “점은 무조건 복이다”처럼 단정할 수 없습니다. 관상에서 점은 <strong>얼굴이라는 산에 핀 꽃</strong>이 될 수도 있고, 반대로 좋은 길을 막아서는 <strong>바위</strong>가 될 수도 있습니다. 이 글에서는 복점(福痣)과 흉점(凶痣)을 구분하는 핵심 원리를 정리하고, 실제로 어떤 점은 남기는 것이 유리하며 어떤 점은 제거를 고려하는 것이 좋은지, 그리고 점 제거 이후 어떻게 관리해야 ‘개운(開운)’으로 이어지는지까지 현실적으로 안내합니다.</p>
+<p>사람의 얼굴에서 ‘점’은 아주 작은 흔적처럼 보이지만, 관상학에서는 그 작은 표식이 기운의 흐름을 바꾸는 ‘표지판’으로 해석됩니다. 같은 점이라도 어디에 자리했인지, 색과 윤기가 어떤지, 돌출이 되었는지, 주변 피부의 기색이 밝은지에 따라 의미가 크게 달라집니다. 그래서 “점은 무조건 빼야 한다”거나 “점은 무조건 복이다”처럼 단정할 수 없습니다. 관상에서 점은 <strong>얼굴이라는 산에 핀 꽃</strong>이 될 수도 있고, 반대로 좋은 길을 막아서는 <strong>바위</strong>가 될 수도 있습니다. 이 글에서는 복점(福痣)과 흉점(凶痣)을 구분하는 핵심 원리를 정리하고, 실제로 어떤 점은 남기는 것이 유리하며 어떤 점은 제거를 고려하는 것이 좋은지, 그리고 점 제거 이후 어떻게 관리해야 ‘개운(開運)’으로 이어지는지까지 현실적으로 안내합니다.</p>
 
 <h2 id="meaning-of-moles">점이 관상학에서 가지는 의미: 산의 바위와 꽃</h2>
 <p>관상학에서 점은 '얼굴이라는 산에 핀 꽃' 혹은 '길을 가로막는 바위'에 비유됩니다. 적절한 위치에 선명하게 자리 잡은 점은 운을 돋우는 꽃이 되지만, 기운의 흐름을 방해하는 곳에 탁하게 자리 잡은 점은 인생의 장애물이 될 수 있습니다. 여기서 중요한 핵심은 “점의 존재”가 아니라 <strong>점이 놓인 자리(궁위)</strong>와 <strong>점의 상태(기색)</strong>입니다. 얼굴은 부위마다 상징하는 의미가 다르고, 그 부위가 담당하는 운의 흐름이 존재한다고 보는데, 점은 그 흐름을 ‘강조’하거나 ‘가로막는’ 역할을 합니다. 따라서 같은 위치라도 생점이면 기회가 되고, 사점이면 장애가 될 수 있습니다.</p>
@@ -777,7 +777,7 @@ Your facial color is an honest report card from your body and a preview of your 
 <h3>심상(心相)이 최고의 관상이다</h3>
 <p>결국 점보다 중요한 것은 그 사람의 마음가짐과 표정입니다. 복점이 없다고 실망할 필요도, 흉점이 있다고 좌절할 필요도 없습니다. 관상학에서는 이를 <strong>심상(心相)</strong>이라 하여, 마음이 얼굴을 만든다고 봅니다. 같은 얼굴이라도 표정이 밝고 태도가 반듯하면 기색이 맑아지며, 그 기색이 다시 사람을 부르고 기회를 부른다는 논리입니다.</p>
 
-<p>흉점을 빼고 난 후 항상 웃는 낯으로 주변에 덕을 쌓는다면, 그것이 바로 점 하나가 줄 수 있는 복보다 훨씬 큰 운명을 바꾸는 힘이 될 것입니다. 그리고 복점이라 해도 본인이 스트레스를 크게 받는다면, ‘복’이라는 이름 때문에 억지로 안고 갈 필요는 없습니다. 관상은 결국 삶을 편하게 만들기 위한 지혜이므로, 나에게 맞는 선택이 곧 좋은 선택입니다.</p>
+<p>흉점을 빼고 난 후 항상 웃는 낯으로 주변에 덕을 쌓는다면, 그것이 바로 점 하나가 줄 수 있는 복보다 훨씬 큰 운명을 바꾸는 힘이 될 것입니다. 그리고 복점이라 해도 본인이 스트레스가 받는다면, ‘복’이라는 이름 때문에 억지로 안고 갈 필요는 없습니다. 관상은 결국 삶을 편하게 만들기 위한 지혜이므로, 나에게 맞는 선택이 곧 좋은 선택입니다.</p>
 
 <p><strong>결론</strong><br/>
 얼굴의 점은 작지만, 관상학에서는 기운의 흐름을 드러내는 중요한 표식으로 해석됩니다. 핵심은 “복점이냐 흉점이냐”를 단순 위치로만 판단하지 않고, <strong>점의 상태(생점/사점)</strong>와 <strong>얼굴 전체 기색</strong>까지 함께 보는 것입니다. 좋은 자리의 생점은 남겨서 운의 꽃으로 살리고, 막힘을 만드는 사점은 제거를 고려하되 흉터가 남지 않도록 철저히 관리하는 것이 관상학적 개운의 핵심입니다. 무엇보다도 점을 대하는 태도, 즉 심상(心相)이 가장 큰 관상임을 기억한다면, 점 하나로도 충분히 삶의 흐름을 더 밝고 유리하게 만들어 갈 수 있습니다.</p>
@@ -934,7 +934,7 @@ A facial mole is a subtle signal reading your personality, health, and fortune c
 
 <h3>관록과 직업운의 상징</h3>
 <p>이마의 정중앙인 '관록궁'은 사회적 지위와 명예를 나타냅니다. 이 부위가 함몰되지 않고 뼈가 잘 발달한 사람은 조직 내에서 윗사람의 인정을 받기 쉽고, 공직이나 대기업 등에서 성공할 가능성이 매우 높습니다. 관록궁이 단단하고 반듯하면 ‘규범을 이해하고, 체계를 활용하는 능력’이 강하다고 해석하는데, 이는 시험·승진·평가 같은 제도권 시스템에서 유리하게 작용할 수 있습니다.</p>
-<p>또한 관록궁은 ‘초년의 직업 방향성’과도 연결됩니다. 이마 중앙이 매끈하고 기색이 밝으면 사회적 성취의 기회가 비교적 빨리 찾아온다고 보며, 반대로 중앙이 탁하거나 상처가 잦으면 윗사람과의 마찰, 진로 변경, 목표의 지연 같은 변수가 생길 수 있다고 풀이합니다. 이런 경우 “운이 없다”로 결론내리기보다, <strong>관계 관리·기초 체력·수면 리듬</strong>을 점검하여 기색을 회복하는 실전 접근이 관상학적으로도 유리합니다.</p>
+<p>또한 관록궁은 ‘초년의 직업 방향성’과도 연결됩니다. 이마 중앙이 매끈하고 기색이 밝은면 사회적 성취의 기회가 비교적 빨리 찾아온다고 보며, 반대로 중앙이 탁하거나 상처가 잦으면 윗사람과의 마찰, 진로 변경, 목표의 지연 같은 변수가 생길 수 있다고 풀이합니다. 이런 경우 “운이 없다”로 결론내리기보다, <strong>관계 관리·기초 체력·수면 리듬</strong>을 점검하여 기색을 회복하는 실전 접근이 관상학적으로도 유리합니다.</p>
 
 <h2 id="forehead-shapes-analysis">2. 이마의 형태와 넓이에 따른 성격과 부모복</h2>
 <p>이마의 넓이와 형태는 그 사람의 사고방식과 성장 배경을 고스란히 드러냅니다. 관상학에서 ‘부모복’이란 단지 유산이나 경제적 지원만 뜻하지 않습니다. 정서적 지지, 교육 환경, 인맥 기반, 초기 기회의 제공처럼 “윗사람이 길을 열어주는 힘” 전반을 의미합니다. 따라서 같은 넓은 이마라도 어떤 형태로 발달했는지에 따라 해석이 달라집니다.</p>
@@ -1078,7 +1078,7 @@ The forehead is interpreted as the "Upper Zone" (Sam-jeong), the central stage f
       },
       {
         q: 'Are forehead wrinkles included in Gwansang?',
-        a: 'Yes, forehead wrinkles represent the traces of life's trials and efforts. Three clear, uninterrupted lines (representing Heaven, Earth, and Man) are considered highly auspicious signs.',
+        a: 'Yes, forehead wrinkles represent the traces of life\'s trials and efforts. Three clear, uninterrupted lines (representing Heaven, Earth, and Man) are considered highly auspicious signs.',
       },
     ],
     relatedPosts: [
@@ -1140,8 +1140,8 @@ The forehead is interpreted as the "Upper Zone" (Sam-jeong), the central stage f
 <h3>표정 근육이 운명을 조각한다</h3>
 <p>평소 자주 웃으면 입꼬리가 자연스럽게 위로 향하는 '앙월구(仰月口)'가 형성됩니다. 이는 노년의 복과 재물을 담는 그릇을 스스로 키우는 행위입니다. 거울을 보며 매일 1분씩 미소 짓는 연습을 하십시오. 긍정적인 표정은 뇌의 도파민 분비를 촉진하고, 이는 얼굴의 모세혈관을 자극하여 실제로 기색을 맑게 변화시킵니다. 밝은 인상은 주변에 긍정적인 파동을 전파하여, 5년 뒤 당신을 성공으로 이끌어줄 소중한 인연들을 저절로 불러모으게 됩니다.</p>
 
-<h3>심상(心相)의 관리가 관상의 완성이다</h3>
-<p>가장 강력하고 근본적인 관상 교정법은 바로 마음을 다스리는 <strong>'심상 관리'</strong>입니다. 마음이 편안하고 감사가 넘치면 얼굴 전체의 기색이 은은하게 밝아집니다. 맑은 기색은 탁한 운을 밀어내고 좋은 기회를 끌어당기는 힘이 있습니다. 관상 자가진단은 결국 자기 성찰과 관리의 시작점입니다. 오늘부터 거울 속 자신에게 긍정적인 확언을 건네며 성공의 기운을 매일 아침 채워 넣으시길 바랍니다.</p>
+<h3>심상(心상)의 관리가 관상의 완성이다</h3>
+<p>가장 강력하고 근본적인 관상 교정법은 바로 마음을 다스리는 <strong>'심상 관리'</strong>입니다. 마음이 편안하고 감사가 넘치면 얼굴 전체의 기색이 은은하게 밝아집니다. 맑은 기색은 탁한 운를 밀어내고 좋은 기회를 끌어당기는 힘이 있습니다. 관상 자가진단은 결국 자기 성찰과 관리의 시작점입니다. 오늘부터 거울 속 자신에게 긍정적인 확언을 건네며 성공의 기운을 매일 아침 채워 넣으시길 바랍니다.</p>
 
 <p><strong>결론</strong><br/>
 거울은 당신의 미래를 비추는 가장 정직하고 빠른 운세 도구입니다. 매일 아침 단 3분만 투자하여 삼정의 균형, 피부의 기색, 그리고 눈빛의 정기를 점검해 보십시오. 오늘의 작은 표정 변화와 마음가짐이 5년 뒤 당신의 사회적 지위와 재산의 크기를 결정짓는 큰 차이를 만듭니다. 관상은 고정된 형벌이 아니라, 현재의 나를 읽고 미래를 디자인하는 기술입니다. 오늘의 당신이 짓는 환한 미소가 미래의 가장 빛나는 성공 관상을 완성할 것입니다.</p>
