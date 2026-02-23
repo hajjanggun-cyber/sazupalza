@@ -1,54 +1,134 @@
+1    │ saju-posts.ts        │ 사주팔자란 무엇인가?         │ intro                │
+  │ 2    │ saju-posts.ts        │ 음력과 양력, 생시의 중요성   │ lunar-solar-calendar │
+  │ 3    │ saju-posts.ts        │ 사주 일주 완전정복           │ day-pillar           │
+  │ 4    │ saju-posts.ts        │ 사주 신살 총정리             │ saju-spirits         │
+  │ 5    │ saju-posts.ts        │ 사주 용신 찾기               │ lucky-element        │
+  │ 6    │ saju-posts.ts        │ 사주 공망의 의미             │ void-luck            │
+  │ 7    │ saju-posts.ts        │ 사주 관성으로 보는 직업운    │ career-star          │
+  │ 8    │ saju-posts.ts        │ 띠별 2026년 운세             │ zodiac-2026          │
+  │ 9    │ saju-posts.ts        │ 운명은 바꿀 수 있는가?       │ destiny-change       │
+  │ 10   │ seongmyeong-posts.ts │ 성명학 비기 (한자 획수)      │ intro                │
+  │ 11   │ seongmyeong-posts.ts │ 작명의 기술                  │ name-creation        │
+  │ 12   │ seongmyeong-posts.ts │ 이름 오행 (소리 오행)        │ name-five-elements   │
+  │ 13   │ seongmyeong-posts.ts │ 개명 가이드                  │ name-change          │
+  │ 14   │ seongmyeong-posts.ts │ 자녀 작명 완벽 가이드        │ baby-naming          │
+  │ 15   │ seongmyeong-posts.ts │ 성명학 수리 81수 정리        │ numerology-81        │
+  │ 16   │ gwansang-posts.ts    │ 관상학 입문                  │ intro                │
+  │ 17   │ gwansang-posts.ts    │ 재물 관상 (코, 입, 귀)       │ wealth-face          │
+  │ 18   │ gwansang-posts.ts    │ 눈썹 관상                    │ eyebrow-reading      │
+  │ 19   │ gwansang-posts.ts    │ 관상과 건강                  │ health-face          │
+  │ 20   │ gwansang-posts.ts    │ 얼굴의 점 관상학             │ mole-reading         │
+  │ 21   │ gwansang-posts.ts    │ 관상 이마 완전정복           │ forehead-reading     │
+  │ 22   │ gwansang-posts.ts    │ 관상 자가진단                │ self-diagnosis       │
+  │ 23   │ mbti-posts.ts        │ MBTI 유래와 동양 철학        │ intro                │
+  │ 24   │ mbti-posts.ts        │ MBTI와 사주 오행 상관관계    │ saju-five-elements   │
+  │ 25   │ mbti-posts.ts        │ MBTI 궁합 (오행 극복법)      │ mbti-compatibility   │
+  │ 26   │ mbti-posts.ts        │ MBTI E·I 유형별 개운법       │ fortune-improvement  │
+  │ 27   │ mbti-posts.ts        │ MBTI별 사주 궁합표           │ compatibility-table  │
+  │ 28   │ bokhap-posts.ts      │ 손금 기초 (관상과 함께 보기) │ palmistry            │
+  │ 29   │ bokhap-posts.ts      │ 사주·관상·성명학·MBTI 비교   │ eastern-western      │
+  │ 30   │ bokhap-posts.ts      │ 사랑의 운명 (일주와 MBTI)    │ love-destiny     
+
+
+================================
+클로드 명령어
 ==============================
-   제미나이(채팅창)용 블로그 생성 프롬프트 (복사해서 쓰세요)
-==============================
+
+## 1. 작성할 주제 정보
+- 주제 번호: [10번]
+- 제목: [성명학 비기: 이름의 한자 획수가 인생에 미치는 영향]
+- 슬러그(Slug): [intro]
+- 카테고리: seongmyeong
+- 발행일: 2026-02-22
+
+## 2. 작성 조건
+- 분량: 한국어 기준 공백 제외 2,000자 이상 (깊이 있고 전문적인 내용)
+- 구조: 도입부 -> 본문(H2 최소 4개, 각 H2 아래 H3 2개씩) -> 결론 -> FAQ 3개
+- HTML 태그 사용: 본문은 반드시 <h2>, <h3>, <p>, <ul>, <li>, <strong> 태그를 포함한 HTML 형식으로 출력할 것.
+- 다국어 처리: 한국어(contentKo)와 영어(contentEn) 두 버전을 작성할 것.
+- 내부 링크 처리:
+  * 한국어 본문(contentKo): [내부링크: 관련글 제목] 형식으로 2곳 삽입.
+  * 영어 본문(contentEn): [InternalLink: Related Title] 형식으로 동일한 위치에 삽입.
+
+## 2-1. 영문 버전 추가 작성 조건 (contentEn 전용)
+- 영문 본문은 한국 문화에 관심 있는 외국인 독자를 주요 타겟으로 작성할 것.
+- 아래 맥락을 자연스럽게 본문에 녹여서 작성할 것:
+  * K-pop 아이돌의 예명(stage name) 작명 사례 언급
+  * Korean naming culture가 K-drama, K-pop 팬들에게 흥미로운 이유 설명
+  * "Korean name meaning", "Hanja stroke count", "Korean naming tradition",
+    "K-pop stage name", "Korean numerology" 등 외국인이 실제로 검색하는 키워드를
+    본문과 소제목에 자연스럽게 포함
+  * 한국 이름의 한자(Hanja) 획수 문화가 서양의 numerology와 어떻게 다른지 비교
+
+## 3. 성명학 카테고리 전체 목차 (내부 링크 생성 시 참고)
+1. intro (성명학 비기: 이름의 한자 획수가 인생에 미치는 영향)
+2. name-creation (작명의 기술: 태어난 계절에 부족한 기운을 이름으로 채우기)
+3. name-five-elements (이름 오행: 초성으로 보는 소리 오행의 상생·상극 완벽 정리)
+4. name-change (개명 가이드: 개명을 고민할 때 반드시 체크해야 할 수리 길흉표)
+5. baby-naming (자녀 작명 완벽 가이드: 사주 오행과 성명학을 동시에 만족하는 이름 짓기)
+6. numerology-81 (성명학 수리 81수 핵심 정리: 좋은 획수 조합과 피해야 할 조합)
+
+## 4. 최종 출력 형식 (이 구조를 그대로 복사할 수 있게 출력하세요)
+
+[메타 정보]
+- SEO 제목 (한국어): (60자 이내)
+- SEO 제목 (영어): (60자 이내, 영문 SEO 최적화)
+- 디스크립션 (한국어): (160자 이내)
+- 디스크립션 (영어): (160자 이내, 외국인 검색 최적화)
+- 키워드 (한국어): (쉼표로 구분된 핵심 키워드 5개)
+- 키워드 (영어): (쉼표로 구분된 영문 핵심 키워드 5개)
+
+[데이터 리스트]
+- TOC: [{ id: "h2의-id", title: "목차제목" }, ...] (본문 H2 태그의 id와 일치시킬 것)
+- FAQ: [{ q: "질문", a: "답변" }, ...] (총 3개)
+- Related: [
+    { slug: "name-creation", title: "작명의 기술: 태어난 계절에 부족한 기운을 이름으로 채우기", category: "seongmyeong" },
+    { slug: "name-five-elements", title: "이름 오행: 초성으로 보는 소리 오행의 상생·상극 완벽 정리", category: "seongmyeong" },
+    { slug: "name-change", title: "개명 가이드: 개명을 고민할 때 반드시 체크해야 할 수리 길흉표", category: "seongmyeong" },
+    { slug: "baby-naming", title: "자녀 작명 완벽 가이드: 사주 오행과 성명학을 동시에 만족하는 이름 짓기", category: "seongmyeong" },
+    { slug: "numerology-81", title: "성명학 수리 81수 핵심 정리: 좋은 획수 조합과 피해야 할 조합", category: "seongmyeong" }
+  ]
+
+[본문 - contentKo]
+(HTML 태그를 포함한 한국어 본문 전체. 내부 링크는 [내부링크: 제목] 형식 유지)
+
+[본문 - contentEn]
+(HTML 태그를 포함한 영어 본문 전체. 내부 링크는 [InternalLink: Title] 형식 유지.
+K-pop/Korean culture 키워드를 자연스럽게 포함할 것)
 
 
-    1 당신은 한국어 SEO 전문 라이터이자 전문 명리학 칼럼니스트입니다.
-    2 아래 조건에 맞춰 블로그 글을 작성하고, 개발자가 코드에 바로 삽입할 수 있는 기술적 형식을 엄격히 지켜주세요. 
-    3
-    4 ## 1. 작성할 주제 정보
-    5 - 주제 번호: [8번]
-    6 - 제목: [운명의 변화: 사주는 정해져 있지만 운명은 바꿀 수 있는가?]
-    7 - 슬러그(Slug): [unmyeong-byeonhwa]
-    8 - 카테고리: saju
-    9 - 발행일: 2026-02-22
-   10
-   11 ## 2. 작성 조건
-   12 - 분량: 한국어 기준 공백 제외 2,000자 이상 (깊이 있고 전문적인 내용)
-   13 - 구조: 도입부 -> 본문(H2 최소 4개, 각 H2 아래 H3 2개씩) -> 결론 -> FAQ 3개
-   14 - HTML 태그 사용: 본문은 반드시 <h2>, <h3>, <p>, <ul>, <li>, <strong> 태그를 포함한 HTML 형식으로 출력할 것.
-   15 - 다국어 처리: 한국어(contentKo)와 영어(contentEn) 두 버전을 작성할 것.
-   16 - 내부 링크 처리:
-   17   * 한국어 본문(contentKo): [내부링크: 관련글 제목] 형식으로 2곳 삽입.
-   18   * 영어 본문(contentEn): [InternalLink: Related Title] 형식으로 동일한 위치에 삽입.
-   19
-   20 ## 3. 사주 카테고리 전체 목차 (내부 링크 생성 시 참고)
-   21 1. intro (사주팔자란 무엇인가?)
-   22 2. eumlyek-yanglyeok (음력과 양력, 생시의 중요성)
-   23 3. iljoo (사주 일주 완전정복)
-   24 4. sinsal (사주 신살 총정리)
-   25 5. yongshin (사주 용신 찾기)
-   26 6. gongmang (사주 공망의 의미)
-   27 7. gwanseong (사주 관성으로 보는 직업운)
-   28 8. ddibyeol-2026 (띠별 2026년 운세)
-   29 9. unmyeong-byeonhwa (운명은 바꿀 수 있는가?)
-   30
-   31 ## 4. 최종 출력 형식 (이 구조를 그대로 복사할 수 있게 출력하세요)
-   32
-   33 [메타 정보]
-   34 - SEO 제목: (60자 이내)
-   35 - 디스크립션: (160자 이내)
-   36 - 키워드: (쉼표로 구분된 핵심 키워드 5개)
-   37
-   38 [데이터 리스트]
-   39 - TOC: [{ id: "h2의-id", title: "목차제목" }, ...] (본문 H2 태그의 id와 일치시킬 것)
-   40 - FAQ: [{ q: "질문", a: "답변" }, ...] (총 3개)
-   41 - Related: [{ slug: "관련슬러그", title: "관련글제목", category: "saju" }, ...] (위 목차 참고하여 2개)
-   42
-   43 [본문 - contentKo]
-   44 (HTML 태그를 포함한 한국어 본문 전체. 내부 링크는 [내부링크: 제목] 형식 유지)
-   45
-   46 [본문 - contentEn]
-   47 (HTML 태그를 포함한 영어 본문 전체. 내부 링크는 [InternalLink: Title] 형식 유지)
 
- 
+
+------------------------------------
+✅ GPT에게 줘야 할 명령어 
+
+======================================
+이 글은 사주팔자 한국권, 영어권 사용자를 위한 블로그용이다.
+내가 제미나이가 작성한 초안을 주면 아래 규칙에 따라 작성하면 된다.
+
+1. 위 메타 / 데이터 / 구조는 절대 수정하지 마라.
+2. HTML 구조(h2, h3, id, ul 등) 절대 수정 금지.
+3. 내부링크 형식 절대 수정 금지.
+4. [본문 - contentKo] 또는 [Body - contentEn] 부분만 확장하라.
+5. 기존 문장은 삭제하지 말고, 문장 사이를 자연스럽게 보강하여 2,500자 이상으로 풍성하게 만들어라.
+6. 전체를 코드 블록(```)으로 출력하라.
+7. writing 블록 사용 금지.
+8. 확장한 본문 바로 위에 반드시 다음 문구를 그대로 삽입하라.
+   - 한글 글일 경우: [본문 - contentKo]
+   - 영어 글일 경우: [Body - contentEn]
+
+그리고 그 아래에
+
+제미나이 초안 전체
+메타/데이터 포함 전체
+
+그냥 그대로 붙여주면 된다.
+
+
+====== 아래는 본문을 안 붙여 넣었을때 ====== 
+
+니가 만든 본문 바로 위에다가 명령어에 있던 아래의 내용을 그대로 붙여 넣은 후 그 아래 본문을 만들면 된다. 니가 만든 확장한 본문 바로 위에다가 한글에서는 [본문 - contentKo]을 영어에서는 [Body - contentEn]을 넣어야 해. 다시 해봐
+
+다시 해봐. ## 1. 작성할 주제 정보 - 주제 번호: [17번] - 제목: [재물 관상 완벽 정리: 코·입·귀로 보는 돈복 3요소] - 슬러그(Slug): [wealth-face] - 카테고리: gwansang ## 2. 작성 조건 - 분량: 한국어 기준 공백 제외 2,500자 이상 (깊이 있고 전문적인 내용) -
+
+------------------------
