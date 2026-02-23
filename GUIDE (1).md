@@ -488,3 +488,43 @@ git push
 점검: "현재 프로젝트 SEO 점검하고 부족한 부분 수정해줘"
 처음: "GUIDE.md 읽고 처음부터 다시 만들어줘"
 ```
+
+---
+
+## 현재 프로젝트 상태 (2026-02-23 기준)
+
+### 배포 정보
+```
+도메인:       https://sajupalza.cc
+GitHub:       https://github.com/hajjanggun-cyber/sazupalza
+배포 플랫폼:  Vercel (git push 시 자동 배포)
+git 계정:     hajjanggun / hajjanggun@gmail.com
+```
+
+### 실제 적용된 언어
+```
+ko(한국어) / en(영어) / ja(일본어) / zh(중국어) - 4개 언어 완성
+총 161개 페이지 정상 생성 확인 (next build 통과)
+```
+
+### 광고/분석 연동
+```
+Google AdSense:   ca-pub-2524681039359256 (승인 준비 중)
+ads.txt:          /public/ads.txt 배포 완료, sajupalza.cc/ads.txt 접근 가능
+Google Analytics: G-HNNGML081Q (GA4, 향상된 측정 활성화)
+GA4 태그 위치:    app/layout.tsx - next/script afterInteractive
+```
+
+### 추가 적용된 컴포넌트
+```
+components/ScrollToTop.tsx - 페이지 이동 시 자동 스크롤 최상단
+app/layout.tsx - AdSense 스크립트, GA4 스크립트, ScrollToTop 포함
+```
+
+### 빌드 상태
+```
+next build: 정상 통과
+경고 2개(무시 가능):
+  - face-api.js fs 모듈 (브라우저 전용, 정상)
+  - node-fetch encoding 모듈 (무시 가능)
+```
