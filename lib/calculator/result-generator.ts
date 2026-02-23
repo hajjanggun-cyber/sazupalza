@@ -7,6 +7,7 @@ import { mbtiTypes } from '../data/mbti/types';
 import { ohaengSangsaeng, ohaengSanggeuk } from '../data/saju/ohaeng';
 import { guardians, getGuardianByOhaeng, Guardian } from '../data/guardian';
 import { cheonganData } from '../data/saju/cheongan';
+import { suriData } from '../data/name/suri81';
 
 export interface FaceAnalysisResult {
   faceShape?: string;
@@ -269,7 +270,7 @@ function buildIlganAnalysis(saju: SajuResult, locale: string): ResultSection {
       },
       { 
         label: locale === 'ko' ? '핵심 기운' : 'Core Energy', 
-        value: translateData(data.meaning, locale)
+        value: locale === 'ko' ? data.meaning : (data.meaningEn || translateData(data.meaning, locale))
       },
     ] : undefined,
   };
@@ -311,9 +312,16 @@ function buildCareerSection(ohaeng: string, locale: string, mbtiType?: string): 
   };
 
   const data = careerMap[ohaeng] || careerMap['토'];
-  const mbtiAdd = mbtiType ? (locale === 'ko' 
-    ? ` MBTI ${mbtiType}의 특성이 더해져 ${mbtiTypes[mbtiType]?.career?.slice(0, 2).join(', ')} 분야에서도 유리한 기운이 있습니다.`
-    : ` Combined with your MBTI ${mbtiType} characteristics, you also have favorable energy in fields such as ${mbtiTypes[mbtiType]?.career?.slice(0, 2).map(c => translateData(c, locale)).join(', ')}.`) : '';
+  
+  const mbtiCareerFields = locale === 'ko'
+    ? mbtiTypes[mbtiType || '']?.career?.slice(0, 2).join(', ')
+    : (mbtiTypes[mbtiType || '']?.careerEn?.slice(0, 2).join(', ') || mbtiTypes[mbtiType || '']?.career?.slice(0, 2).join(', '));
+
+  const mbtiAdd = mbtiType
+    ? locale === 'ko'
+      ? ` MBTI ${mbtiType}의 특성이 더해져 ${mbtiCareerFields} 분야에서도 유리한 기운이 있습니다.`
+      : ` Combined with your MBTI ${mbtiType} characteristics, you also have favorable energy in fields such as ${mbtiCareerFields}.`
+    : '';
 
   return {
     icon: '💼',
@@ -418,9 +426,11 @@ function buildLoveSection(ohaeng: string, locale: string, mbtiType?: string): Re
   };
 
   const data = loveMap[ohaeng] || loveMap['토'];
-  const mbtiLoveAdd = mbtiType ? (locale === 'ko'
-    ? ` MBTI ${mbtiType}의 특성상 ${mbtiTypes[mbtiType]?.relation || '진실한 관계를 소중히 여기는 경향이 있습니다'}.`
-    : ` Reflecting MBTI ${mbtiType} traits, ${translateData(mbtiTypes[mbtiType]?.relation || '', locale) || 'you value sincere and genuine relationships'}.`) : '';
+  const mbtiLoveAdd = mbtiType
+    ? locale === 'ko'
+      ? ` MBTI ${mbtiType}의 특성상 ${mbtiTypes[mbtiType]?.relation || '진실한 관계를 소중히 여기는 경향이 있습니다'}.`
+      : ` Reflecting MBTI ${mbtiType} traits, ${mbtiTypes[mbtiType]?.relationEn || mbtiTypes[mbtiType]?.relation || 'you tend to value genuine relationships'}.`
+    : '';
 
   return {
     icon: '❤️',
@@ -643,6 +653,10 @@ function buildNameDetailSection(name: NameAnalysisResult, locale: string): Resul
   const soundRelation = name.soundOhaengRelation || '중화';
   const soundKey = soundRelation.includes('상생') ? '상생' : soundRelation.includes('상극') ? '상극' : '중화';
 
+  const wonSummary = locale === 'ko'
+    ? (name.suriAnalysis?.wongyeok?.summary || '')
+    : (suriData[name.wongyeok]?.summaryEn || name.suriAnalysis?.wongyeok?.summary || '');
+
   const content = locale === 'ko'
     ? `이름 "${name.name}"의 성명학 분석 결과입니다. ` +
       `원격(성+이름 전체) ${name.wongyeok}수는 ${ratingText[wonRating] || ''}을 나타내며, ` +
@@ -652,10 +666,16 @@ function buildNameDetailSection(name: NameAnalysisResult, locale: string): Resul
       `${soundDesc[soundKey] || '이름의 기운을 분석합니다.'}`
     : `Here is the name analysis result for "${name.name}". ` +
       `The Won-Gyeok (Total) count of ${name.wongyeok} indicates ${ratingText[wonRating] || ''}, ` +
-      `showing that ${name.suriAnalysis?.wongyeok?.summary || ''}. ` +
+      `showing that ${wonSummary}. ` +
       `The Hyeong-Gyeok (Name) count of ${name.hyeongyeok} indicates ${ratingText[hyeongRating] || ''}. ` +
       `The sound elements are composed as ${name.soundOhaengList?.join('-') || ''}, ` +
       `${soundDesc[soundKey] || 'analyzing the name\'s energy.'}`;
+
+  const soundKeyEn: Record<string, string> = {
+    '상생': 'Mutual Generation',
+    '중화': 'Neutral',
+    '상극': 'Mutual Overcoming',
+  };
 
   return {
     icon: '✍️',
@@ -664,7 +684,10 @@ function buildNameDetailSection(name: NameAnalysisResult, locale: string): Resul
     subItems: [
       { label: locale === 'ko' ? '원격(원국)' : 'Won-Gyeok (Total)', value: `${name.wongyeok}수 - ${ratingText[wonRating] || ''}` },
       { label: locale === 'ko' ? '형격(성격)' : 'Hyeong-Gyeok (Name)', value: `${name.hyeongyeok}수 - ${ratingText[hyeongRating] || ''}` },
-      { label: locale === 'ko' ? '소리오행' : 'Sound Elements', value: `${name.soundOhaengList?.join(' → ') || ''} (${soundKey})` },
+      { 
+        label: locale === 'ko' ? '소리오행' : 'Sound Elements', 
+        value: `${name.soundOhaengList?.join(' → ') || ''} (${locale === 'ko' ? soundKey : (soundKeyEn[soundKey] || soundKey)})` 
+      },
       { label: locale === 'ko' ? '총 획수' : 'Total Strokes', value: `${name.totalStrokes}획` },
     ],
   };
@@ -715,17 +738,19 @@ function buildMbtiSajuSection(mbtiType: string, ohaeng: string, locale: string):
   const content = locale === 'ko'
     ? `MBTI ${mbtiType}(${mbtiInfo.nickname})의 특성과 사주 ${ohaeng} 기운의 교차 분석입니다. ${combDesc} ` +
       `${mbtiInfo.strengths?.[0] || ''} ${mbtiInfo.growthPoints?.[0] || ''}`
-    : `This is a cross-analysis of MBTI ${mbtiType} (${mbtiInfo.nickname}) traits and your ${ohaeng} energy. ${combDesc} ` +
-      `${mbtiInfo.strengths?.[0] || ''} ${mbtiInfo.growthPoints?.[0] || ''}`;
+    : `This is a fusion analysis of MBTI ${mbtiType} (${mbtiInfo.nicknameEn || mbtiInfo.nickname}) traits and the ${ohaeng} energy from your Four Pillars. ${combDesc}`;
 
   return {
     icon: '🧠',
     title: locale === 'ko' ? `MBTI·사주 융합 분석 (${mbtiType} × ${ohaeng})` : `MBTI & Four Pillars Fusion Analysis (${mbtiType} × ${ohaeng})`,
     content,
     subItems: [
-      { label: locale === 'ko' ? 'MBTI 유형' : 'MBTI Type', value: `${mbtiType} - ${mbtiInfo.nickname}` },
-      { label: locale === 'ko' ? 'MBTI 오행' : 'MBTI Element', value: mbtiInfo.ohaeng },
-      { label: locale === 'ko' ? '사주 일간 오행' : 'Day Stem Element', value: ohaeng },
+      { 
+        label: locale === 'ko' ? 'MBTI 유형' : 'MBTI Type', 
+        value: `${mbtiType} - ${locale === 'ko' ? mbtiInfo.nickname : (mbtiInfo.nicknameEn || mbtiInfo.nickname)}` 
+      },
+      { label: locale === 'ko' ? 'MBTI 오행' : 'MBTI Element', value: translateData(mbtiInfo.ohaeng, locale) },
+      { label: locale === 'ko' ? '사주 일간 오행' : 'Day Stem Element', value: translateData(ohaeng, locale) },
       { label: locale === 'ko' ? '조합 특성' : 'Combination Trait', value: combDesc.split('.')[0] },
     ],
   };

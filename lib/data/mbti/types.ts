@@ -5,11 +5,14 @@ export interface MbtiType {
   type: string;
   ohaeng: string;      // 대응하는 오행
   nickname: string;    // 별명
+  nicknameEn?: string; // 영문 별명
   traits: string[];    // 핵심 특성
   strengths: string[]; // 강점
   growthPoints: string[]; // 성장 포인트
   career: string[];    // 유리한 직업군
+  careerEn?: string[]; // 영문 유리한 직업군
   relation: string;    // 인간관계 특성
+  relationEn?: string; // 영문 인간관계 특성
   sajuNote: string;    // 사주 오행과의 연결 설명
 }
 
@@ -19,6 +22,7 @@ export const mbtiTypes: Record<string, MbtiType> = {
     type: 'INTJ',
     ohaeng: '금',
     nickname: '용의주도한 전략가',
+    nicknameEn: 'The Architect',
     traits: ['독립적', '전략적', '목표지향적', '분석적'],
     strengths: [
       '장기적 관점에서 계획을 수립하는 경향이 있습니다',
@@ -30,13 +34,16 @@ export const mbtiTypes: Record<string, MbtiType> = {
       '완벽주의가 때로 스트레스를 줄 수 있어 유연성을 키우면 좋습니다',
     ],
     career: ['전략기획', '연구개발', '건축설계', 'IT개발', '법조'],
+    careerEn: ['Strategic Planning', 'R&D', 'Architectural Design', 'IT Development', 'Law'],
     relation: '소수의 깊은 관계를 선호하는 경향이 있습니다',
+    relationEn: 'You tend to prefer a few deep relationships',
     sajuNote: '금(金) 오행처럼 원칙과 결단력을 중시하는 경향이 있습니다',
   },
   INTP: {
     type: 'INTP',
     ohaeng: '금',
     nickname: '논리적인 사색가',
+    nicknameEn: 'The Logician',
     traits: ['논리적', '창의적', '호기심 많음', '객관적'],
     strengths: [
       '독창적인 아이디어와 이론을 구축하는 경향이 있습니다',
@@ -48,13 +55,16 @@ export const mbtiTypes: Record<string, MbtiType> = {
       '사회적 교류를 늘리면 새로운 영감을 얻을 수 있습니다',
     ],
     career: ['학문연구', '철학', '프로그래밍', '수학', '과학'],
+    careerEn: ['Academic Research', 'Philosophy', 'Programming', 'Mathematics', 'Science'],
     relation: '지적 자극을 주는 관계를 소중히 여기는 경향이 있습니다',
+    relationEn: 'You tend to value relationships that provide intellectual stimulation',
     sajuNote: '금(金) 오행의 날카로운 분석력과 통하는 경향이 있습니다',
   },
   ENTJ: {
     type: 'ENTJ',
     ohaeng: '금',
     nickname: '대담한 통솔자',
+    nicknameEn: 'The Commander',
     traits: ['리더십', '결단력', '추진력', '자신감'],
     strengths: [
       '조직을 이끌고 목표를 향해 나아가는 경향이 있습니다',
@@ -66,13 +76,16 @@ export const mbtiTypes: Record<string, MbtiType> = {
       '휴식과 여유를 통해 장기적으로 지속 가능한 에너지를 유지하면 좋습니다',
     ],
     career: ['경영', '법조', '금융', '컨설팅', '정치'],
+    careerEn: ['Management', 'Law', 'Finance', 'Consulting', 'Politics'],
     relation: '직접적이고 솔직한 소통을 선호하는 경향이 있습니다',
+    relationEn: 'You tend to prefer direct and honest communication',
     sajuNote: '금(金) 오행의 강한 추진력과 결단력과 통하는 경향이 있습니다',
   },
   ENTP: {
     type: 'ENTP',
     ohaeng: '금',
     nickname: '뜨거운 논쟁가',
+    nicknameEn: 'The Debater',
     traits: ['창의적', '논쟁적', '유연함', '도전적'],
     strengths: [
       '새로운 아이디어와 가능성을 탐색하는 것을 즐기는 경향이 있습니다',
@@ -84,7 +97,9 @@ export const mbtiTypes: Record<string, MbtiType> = {
       '상대방의 감정을 고려한 소통 방식을 연습하면 관계가 더 좋아질 수 있습니다',
     ],
     career: ['기업가', '변호사', '마케팅', '발명', '미디어'],
+    careerEn: ['Entrepreneurship', 'Law', 'Marketing', 'Invention', 'Media'],
     relation: '지적이고 활발한 교류를 즐기는 경향이 있습니다',
+    relationEn: 'You tend to enjoy intellectual and active interactions',
     sajuNote: '금(金)의 날카로움과 변화를 추구하는 기운을 함께 가진 경향이 있습니다',
   },
 
@@ -93,6 +108,7 @@ export const mbtiTypes: Record<string, MbtiType> = {
     type: 'INFJ',
     ohaeng: '목',
     nickname: '선의의 옹호자',
+    nicknameEn: 'The Advocate',
     traits: ['통찰력', '이상주의', '공감능력', '창의성'],
     strengths: [
       '깊은 통찰력으로 사람과 상황을 이해하는 경향이 있습니다',
@@ -104,13 +120,16 @@ export const mbtiTypes: Record<string, MbtiType> = {
       '완벽한 이상과 현실 사이의 간극을 유연하게 받아들이면 좋습니다',
     ],
     career: ['상담', '교육', '작가', '심리학', '사회복지'],
+    careerEn: ['Counseling', 'Education', 'Writing', 'Psychology', 'Social Work'],
     relation: '깊고 의미 있는 관계를 소중히 여기는 경향이 있습니다',
+    relationEn: 'You tend to value deep and meaningful relationships',
     sajuNote: '목(木) 오행처럼 성장과 조화를 추구하는 경향이 있습니다',
   },
   INFP: {
     type: 'INFP',
     ohaeng: '목',
     nickname: '열정적인 중재자',
+    nicknameEn: 'The Mediator',
     traits: ['이상주의', '감수성', '창의성', '공감'],
     strengths: [
       '예술적이고 창의적인 표현에 뛰어난 경향이 있습니다',
@@ -122,13 +141,16 @@ export const mbtiTypes: Record<string, MbtiType> = {
       '자기비판을 줄이고 자신에게 친절하게 대하면 좋습니다',
     ],
     career: ['작가', '예술가', '상담사', '교사', '사진작가'],
+    careerEn: ['Writing', 'Art', 'Counseling', 'Teaching', 'Photography'],
     relation: '진실하고 깊은 연결을 추구하는 경향이 있습니다',
+    relationEn: 'You tend to seek sincere and deep connections',
     sajuNote: '목(木) 오행의 따뜻하고 창의적인 기운과 통하는 경향이 있습니다',
   },
   ENFJ: {
     type: 'ENFJ',
     ohaeng: '목',
     nickname: '정의로운 사회운동가',
+    nicknameEn: 'The Protagonist',
     traits: ['카리스마', '이타적', '공감능력', '리더십'],
     strengths: [
       '사람들의 잠재력을 발견하고 이끌어내는 경향이 있습니다',
@@ -140,13 +162,16 @@ export const mbtiTypes: Record<string, MbtiType> = {
       '거절하는 연습을 통해 건강한 경계를 유지하면 도움이 됩니다',
     ],
     career: ['교사', '코치', 'HR', '사회복지사', '상담사'],
+    careerEn: ['Teaching', 'Coaching', 'HR', 'Social Work', 'Counseling'],
     relation: '따뜻하고 적극적으로 관계를 가꾸는 경향이 있습니다',
+    relationEn: 'You tend to nurture relationships warmly and actively',
     sajuNote: '목(木) 오행의 성장과 돌봄의 기운이 강한 경향이 있습니다',
   },
   ENFP: {
     type: 'ENFP',
     ohaeng: '목',
     nickname: '재기발랄한 활동가',
+    nicknameEn: 'The Campaigner',
     traits: ['열정적', '창의적', '사교적', '자유분방'],
     strengths: [
       '새로운 가능성과 아이디어를 발견하는 것을 즐기는 경향이 있습니다',
@@ -158,7 +183,9 @@ export const mbtiTypes: Record<string, MbtiType> = {
       '세부 사항과 일상적인 업무에도 꾸준히 집중하는 연습이 도움이 됩니다',
     ],
     career: ['마케팅', '저널리즘', '예술', '코칭', '기업가'],
+    careerEn: ['Marketing', 'Journalism', 'Art', 'Coaching', 'Entrepreneurship'],
     relation: '활발하고 다양한 관계를 즐기는 경향이 있습니다',
+    relationEn: 'You tend to enjoy active and diverse relationships',
     sajuNote: '목(木) 오행의 생명력과 확장하는 기운과 통하는 경향이 있습니다',
   },
 
@@ -167,6 +194,7 @@ export const mbtiTypes: Record<string, MbtiType> = {
     type: 'ISTJ',
     ohaeng: '토',
     nickname: '청렴결백한 논리주의자',
+    nicknameEn: 'The Logistician',
     traits: ['책임감', '신중함', '충실함', '현실적'],
     strengths: [
       '맡은 일을 끝까지 완수하는 책임감이 뛰어난 경향이 있습니다',
@@ -178,13 +206,16 @@ export const mbtiTypes: Record<string, MbtiType> = {
       '감정 표현을 통해 가까운 사람들과의 유대감을 높일 수 있습니다',
     ],
     career: ['회계사', '법조', '행정', '군경', '의료'],
+    careerEn: ['Accounting', 'Law', 'Administration', 'Military/Police', 'Healthcare'],
     relation: '믿음직하고 성실한 관계를 이어가는 경향이 있습니다',
+    relationEn: 'You tend to maintain reliable and sincere relationships',
     sajuNote: '토(土) 오행의 안정과 신뢰의 기운과 통하는 경향이 있습니다',
   },
   ISFJ: {
     type: 'ISFJ',
     ohaeng: '토',
     nickname: '용감한 수호자',
+    nicknameEn: 'The Defender',
     traits: ['헌신적', '배려심', '성실함', '실용적'],
     strengths: [
       '세심한 배려로 주변 사람들을 돌보는 경향이 있습니다',
@@ -196,13 +227,16 @@ export const mbtiTypes: Record<string, MbtiType> = {
       '변화를 두려워하지 않고 새로운 도전을 시도해보면 성장할 수 있습니다',
     ],
     career: ['간호사', '교사', '사회복지사', '행정', '의료'],
+    careerEn: ['Nursing', 'Teaching', 'Social Work', 'Administration', 'Healthcare'],
     relation: '조용하지만 깊은 신뢰로 관계를 유지하는 경향이 있습니다',
+    relationEn: 'You tend to maintain relationships with quiet but deep trust',
     sajuNote: '토(土) 오행의 포용과 안정의 기운이 강한 경향이 있습니다',
   },
   ESTJ: {
     type: 'ESTJ',
     ohaeng: '토',
     nickname: '엄격한 관리자',
+    nicknameEn: 'The Executive',
     traits: ['조직적', '결단력', '성실함', '현실적'],
     strengths: [
       '명확한 기준과 규칙으로 조직을 이끄는 경향이 있습니다',
@@ -214,13 +248,16 @@ export const mbtiTypes: Record<string, MbtiType> = {
       '타인의 감정적 필요에도 귀 기울이면 더 좋은 리더가 될 수 있습니다',
     ],
     career: ['경영자', '군경', '법조', '행정', '금융'],
+    careerEn: ['Management', 'Military/Police', 'Law', 'Administration', 'Finance'],
     relation: '직접적이고 책임감 있는 관계를 선호하는 경향이 있습니다',
+    relationEn: 'You tend to prefer direct and responsible relationships',
     sajuNote: '토(土) 오행의 중심을 잡는 기운과 통하는 경향이 있습니다',
   },
   ESFJ: {
     type: 'ESFJ',
     ohaeng: '토',
     nickname: '사교적인 외교관',
+    nicknameEn: 'The Consul',
     traits: ['사교적', '배려심', '협력적', '충실함'],
     strengths: [
       '사람들과 쉽게 어울리고 화합을 이끄는 경향이 있습니다',
@@ -232,7 +269,9 @@ export const mbtiTypes: Record<string, MbtiType> = {
       '타인의 인정 없이도 자신의 가치를 인식하는 것이 중요합니다',
     ],
     career: ['간호사', '교사', '행정', 'HR', '서비스업'],
+    careerEn: ['Nursing', 'Teaching', 'Administration', 'HR', 'Service Industry'],
     relation: '따뜻하고 사교적인 관계를 중시하는 경향이 있습니다',
+    relationEn: 'You tend to value warm and social relationships',
     sajuNote: '토(土) 오행의 조화와 포용의 기운과 통하는 경향이 있습니다',
   },
 
@@ -241,6 +280,7 @@ export const mbtiTypes: Record<string, MbtiType> = {
     type: 'ISTP',
     ohaeng: '수',
     nickname: '만능 재주꾼',
+    nicknameEn: 'The Virtuoso',
     traits: ['실용적', '분석적', '유연함', '독립적'],
     strengths: [
       '손으로 직접 만들고 수리하는 것에 능숙한 경향이 있습니다',
@@ -252,13 +292,16 @@ export const mbtiTypes: Record<string, MbtiType> = {
       '감정을 더 개방적으로 표현하면 깊은 관계 형성에 도움이 됩니다',
     ],
     career: ['엔지니어', '기계공', '파일럿', 'IT', '과학자'],
+    careerEn: ['Engineering', 'Machinery', 'Pilot', 'IT', 'Science'],
     relation: '독립적이지만 신뢰하는 사람과 깊은 유대를 맺는 경향이 있습니다',
+    relationEn: 'You tend to be independent but form deep bonds with trusted people',
     sajuNote: '수(水) 오행의 유연하고 깊은 사고력과 통하는 경향이 있습니다',
   },
   ISFP: {
     type: 'ISFP',
     ohaeng: '화',
     nickname: '호기심 많은 예술가',
+    nicknameEn: 'The Adventurer',
     traits: ['예술적', '감수성', '친절함', '자유분방'],
     strengths: [
       '아름다움을 발견하고 창의적으로 표현하는 경향이 있습니다',
@@ -270,13 +313,16 @@ export const mbtiTypes: Record<string, MbtiType> = {
       '갈등 상황에서 자신의 의견을 더 적극적으로 표현하면 도움이 됩니다',
     ],
     career: ['예술가', '디자이너', '음악가', '요리사', '패션'],
+    careerEn: ['Art', 'Design', 'Music', 'Cooking', 'Fashion'],
     relation: '조용하지만 진심 어린 방식으로 사랑을 표현하는 경향이 있습니다',
+    relationEn: 'You tend to express love in quiet but sincere ways',
     sajuNote: '화(火) 오행의 따뜻한 감성과 창의적 기운과 통하는 경향이 있습니다',
   },
   ESTP: {
     type: 'ESTP',
     ohaeng: '화',
     nickname: '모험을 즐기는 사업가',
+    nicknameEn: 'The Entrepreneur',
     traits: ['행동지향적', '사교적', '현실적', '대담함'],
     strengths: [
       '빠른 상황 파악과 즉각적인 행동으로 문제를 해결하는 경향이 있습니다',
@@ -288,13 +334,16 @@ export const mbtiTypes: Record<string, MbtiType> = {
       '감정적인 측면에 조금 더 주의를 기울이면 관계가 깊어질 수 있습니다',
     ],
     career: ['영업', '기업가', '스포츠', '응급의료', '엔터테인먼트'],
+    careerEn: ['Sales', 'Entrepreneurship', 'Sports', 'Emergency Services', 'Entertainment'],
     relation: '활발하고 즐거운 관계를 선호하는 경향이 있습니다',
+    relationEn: 'You tend to enjoy exciting and active relationships',
     sajuNote: '화(火) 오행의 활동적이고 열정적인 기운과 통하는 경향이 있습니다',
   },
   ESFP: {
     type: 'ESFP',
     ohaeng: '화',
     nickname: '자유로운 연예인',
+    nicknameEn: 'The Entertainer',
     traits: ['활발함', '사교적', '즉흥적', '긍정적'],
     strengths: [
       '주변 사람들에게 기쁨과 활기를 가져다주는 경향이 있습니다',
@@ -302,11 +351,13 @@ export const mbtiTypes: Record<string, MbtiType> = {
       '사람들과 빠르게 친해지는 뛰어난 사교성이 있습니다',
     ],
     growthPoints: [
-      '미래를 위한 계획과 준비를 조금 더 챙기면 좋습니다',
+      '미래 위한 계획과 준비를 조금 더 챙기면 좋습니다',
       '장기적인 목표를 세우고 꾸준히 나아가는 습관을 기르면 도움이 됩니다',
     ],
     career: ['연예인', '이벤트플래너', '교사', '영업', '관광'],
+    careerEn: ['Entertainment', 'Event Planning', 'Teaching', 'Sales', 'Tourism'],
     relation: '활발하고 즐거운 에너지로 관계를 풍요롭게 만드는 경향이 있습니다',
+    relationEn: 'You tend to enrich relationships with active and joyful energy',
     sajuNote: '화(火) 오행의 밝고 활발한 기운이 강한 경향이 있습니다',
   },
 };
