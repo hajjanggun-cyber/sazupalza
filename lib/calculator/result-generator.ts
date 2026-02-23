@@ -60,6 +60,49 @@ export interface ComprehensiveResult {
 
 // ===== 헬퍼 함수들 =====
 
+// 영문 번역 헬퍼 함수 (외부 데이터를 수정하지 않고 파일 내에서 처리)
+function translateData(text: string, locale: string): string {
+  if (locale === 'ko') return text;
+  
+  const dict: Record<string, string> = {
+    // 오행
+    '목': 'Wood', '화': 'Fire', '토': 'Earth', '금': 'Metal', '수': 'Water',
+    // 천간 의미
+    '양목(陽木) - 큰 나무, 성장의 기운': 'Yang Wood (陽木) - Great Tree, Energy of Growth',
+    '음목(陰木) - 풀과 꽃, 유연함의 기운': 'Yin Wood (陰木) - Grass & Flowers, Energy of Flexibility',
+    '양화(陽火) - 태양, 밝음의 기운': 'Yang Fire (丙火) - The Sun, Energy of Brightness',
+    '음화(陰火) - 촛불, 따뜻함의 기운': 'Yin Fire (丁火) - Candle, Energy of Warmth',
+    '양토(陽土) - 큰 산, 안정의 기운': 'Yang Earth (戊토) - Great Mountain, Energy of Stability',
+    '음토(陰土) - 밭, 포용의 기운': 'Yin Earth (己土) - Farmland, Energy of Embrace',
+    '양금(陽金) - 원석, 결단의 기운': 'Yang Metal (庚金) - Raw Ore, Energy of Decisiveness',
+    '음금(陰金) - 보석, 섬세함의 기운': 'Yin Metal (辛金) - Jewel, Energy of Refinement',
+    '양수(陽水) - 강과 바다, 통찰의 기운': 'Yang Water (壬水) - River & Ocean, Energy of Insight',
+    '음수(陰수) - 이슬과 샘물, 감성의 기운': 'Yin Water (癸水) - Dew & Spring, Energy of Sensitivity',
+    // 직업군 및 키워드
+    '경영': 'Management', '교육': 'Education', '개척이 필요한 분야': 'Pioneering Fields',
+    '예술': 'Arts', '서비스업': 'Service Industry', '상담': 'Counseling',
+    '연예': 'Entertainment', '마케팅': 'Marketing', '서비스': 'Service',
+    '의료': 'Healthcare', '연구': 'Research', '금융': 'Finance', '부동산': 'Real Estate',
+    '행정': 'Administration', '기술': 'Technology', '기계': 'Machinery', '전략': 'Strategy',
+    'IT': 'IT', '디자인': 'Design', '철학': 'Philosophy', '문학': 'Literature',
+    '교사': 'Teacher', '코치': 'Coach',
+    // 대인관계 및 특성 (mbti/types.ts 및 cheongan.ts 기반)
+    '솔직하고 직접적인 소통을 선호하는 경향이 있습니다': 'You tend to prefer honest and direct communication',
+    '배려심이 깊고 공감 능력이 뛰어난 경향이 있습니다': 'You tend to have deep consideration and excellent empathy',
+    '밝고 활발한 에너지로 주변을 즐겁게 하는 경향이 있습니다': 'You tend to brighten your surroundings with bright and active energy',
+    '섬세하고 예의 바른 소통을 중시하는 경향이 있습니다': 'You tend to value delicate and courteous communication',
+    '듬직하고 포용력 있는 소통 방식을 가진 경향이 있습니다': 'You tend to have a reliable and inclusive communication style',
+    '꼼꼼하고 세심하게 상대방을 배려하는 경향이 있습니다': 'You tend to be meticulous and careful in considering others',
+    '의리가 있고 원칙을 중시하는 소통을 선호하는 경향이 있습니다': 'You tend to prefer communication that values loyalty and principles',
+    '세련되고 명확한 소통 방식을 가진 경향이 있습니다': 'You tend to have a refined and clear communication style',
+    '깊이 있는 통찰을 바탕으로 지혜로운 소통을 하는 경향이 있습니다': 'You tend to engage in wise communication based on deep insight',
+    '감수성이 풍부하고 공감 능력이 뛰어나 깊은 유대감을 형성하는 경향이 있습니다': 'You tend to be sensitive and empathetic, forming deep bonds',
+    '따뜻하고 적극적으로 관계를 가꾸는 경향이 있습니다': 'You tend to nurture relationships warmly and actively',
+  };
+
+  return dict[text] || text;
+}
+
 function getStrongestOhaeng(balance: Record<string, number>): string {
   return Object.entries(balance).sort((a, b) => b[1] - a[1])[0]?.[0] || '토';
 }
@@ -207,8 +250,8 @@ function buildIlganAnalysis(saju: SajuResult, locale: string): ResultSection {
   };
 
   const desc = ilganDeep[ilgan] || (locale === 'ko' ? `${ilgan} 일간의 기운을 가지고 있습니다.` : `You possess the energy of ${ilgan} Day Stem.`);
-  const careerHint = data?.career?.join(', ') || (locale === 'ko' ? '다양한 분야' : 'Various fields');
-  const relationHint = data?.relationship || (locale === 'ko' ? '진실한 소통을 중시하는 경향이 있습니다' : 'You tend to value sincere communication');
+  const careerHint = data?.career?.map(c => translateData(c, locale)).join(', ') || (locale === 'ko' ? '다양한 분야' : 'Various fields');
+  const relationHint = translateData(data?.relationship || '', locale) || (locale === 'ko' ? '진실한 소통을 중시하는 경향이 있습니다' : 'You tend to value sincere communication');
 
   const content = locale === 'ko'
     ? `${desc} 직업적으로는 ${careerHint} 분야에서 본연의 기운을 잘 발휘하는 경향이 있습니다. 대인관계에서는 ${relationHint}.`
@@ -222,11 +265,11 @@ function buildIlganAnalysis(saju: SajuResult, locale: string): ResultSection {
     subItems: data ? [
       { 
         label: locale === 'ko' ? '오행 속성' : 'Element', 
-        value: locale === 'ko' ? (data.ohaeng + (data.eumsang === 'yang' ? ' 양(陽)' : ' 음(陰)')) : data.ohaeng 
+        value: locale === 'ko' ? (data.ohaeng + (data.eumsang === 'yang' ? ' 양(陽)' : ' 음(陰)')) : translateData(data.ohaeng, locale)
       },
       { 
         label: locale === 'ko' ? '핵심 기운' : 'Core Energy', 
-        value: data.meaning 
+        value: translateData(data.meaning, locale)
       },
     ] : undefined,
   };
@@ -270,7 +313,7 @@ function buildCareerSection(ohaeng: string, locale: string, mbtiType?: string): 
   const data = careerMap[ohaeng] || careerMap['토'];
   const mbtiAdd = mbtiType ? (locale === 'ko' 
     ? ` MBTI ${mbtiType}의 특성이 더해져 ${mbtiTypes[mbtiType]?.career?.slice(0, 2).join(', ')} 분야에서도 유리한 기운이 있습니다.`
-    : ` Combined with your MBTI ${mbtiType} characteristics, you also have favorable energy in fields such as ${mbtiTypes[mbtiType]?.career?.slice(0, 2).join(', ')}.`) : '';
+    : ` Combined with your MBTI ${mbtiType} characteristics, you also have favorable energy in fields such as ${mbtiTypes[mbtiType]?.career?.slice(0, 2).map(c => translateData(c, locale)).join(', ')}.`) : '';
 
   return {
     icon: '💼',
@@ -377,7 +420,7 @@ function buildLoveSection(ohaeng: string, locale: string, mbtiType?: string): Re
   const data = loveMap[ohaeng] || loveMap['토'];
   const mbtiLoveAdd = mbtiType ? (locale === 'ko'
     ? ` MBTI ${mbtiType}의 특성상 ${mbtiTypes[mbtiType]?.relation || '진실한 관계를 소중히 여기는 경향이 있습니다'}.`
-    : ` Reflecting MBTI ${mbtiType} traits, ${mbtiTypes[mbtiType]?.relation || 'you value sincere and genuine relationships'}.`) : '';
+    : ` Reflecting MBTI ${mbtiType} traits, ${translateData(mbtiTypes[mbtiType]?.relation || '', locale) || 'you value sincere and genuine relationships'}.`) : '';
 
   return {
     icon: '❤️',
