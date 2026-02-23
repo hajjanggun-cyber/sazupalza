@@ -1,4 +1,595 @@
 # 🚀 Saju Palza Project Progress Report (haha.md)
+------------------------------------
+
+대규모 작업이라면은 제미나이에 시킬테니까 니가 검토까지만 하고 아주 정확한 세부내역은 제미나에게               
+  지시하는것까지만 해줘                                                                                          
+                                                                                                                 
+
+● 전체 구조 파악 마무리할게요.
+
+● Read 1 file (ctrl+o to expand)
+
+● 나머지 함수들도 빠르게 확인:
+
+● Searched for 1 pattern, read 1 file (ctrl+o to expand)
+
+● guardian.ts와 mbti/types.ts도 확인:
+
+● Searched for 2 patterns (ctrl+o to expand)
+
+● 전체 구조 파악 완료. 제미나이 프롬프트 작성할게요:
+
+  ---
+  Gemini 프롬프트
+
+  파일 수정 작업이야. Edit만 사용, 구조 변경 금지, 기존 로직 유지.
+
+  ## 목적
+  result-generator.ts의 모든 한글 텍스트를 locale에 따라 영어로도 출력되도록 수정
+
+  ## 수정할 파일 4개
+  1. lib/calculator/result-generator.ts (624줄)
+  2. app/[locale]/result/[id]/page.tsx (467줄)
+  3. lib/data/guardian.ts
+  4. lib/data/mbti/types.ts
+
+  ---
+
+  ## 수정 1: lib/data/guardian.ts
+  각 guardian 항목에 luckyMessageEn 필드 추가
+
+  인터페이스에 추가:
+    luckyMessageEn: string;
+
+  각 guardian 데이터:
+  - Azure Dragon: luckyMessageEn: "Don't fear new beginnings. The Azure Dragon is with you."
+  - Phoenix: luckyMessageEn: "The flame within you will illuminate the world."
+  - Golden Dragon: luckyMessageEn: "An unwavering center is your strength."
+  - White Tiger: luckyMessageEn: "Move forward fearlessly with the courage of the White Tiger."
+  - Black Tortoise: luckyMessageEn: "Like deep, still water, there is great power within you."
+
+  ---
+
+  ## 수정 2: lib/data/mbti/types.ts
+  MbtiType 인터페이스에 영문 필드 추가:
+    nicknameEn: string;
+    careerEn: string[];
+    relationEn: string;
+    strengthsEn: string[];
+    growthPointsEn: string[];
+
+  각 MBTI 타입에 영문 데이터 추가 (16개):
+  INTJ: nicknameEn: 'Strategic Mastermind', careerEn: ['Strategic Planning', 'R&D', 'Architecture', 'IT
+  Development', 'Law'], relationEn: 'tends to prefer a small number of deep relationships', strengthsEn:
+  ['Excellent long-term strategic thinking', 'Independent and self-directed'], growthPointsEn: ['Express emotions   more openly', 'Be more flexible with others']
+  INTP: nicknameEn: 'Logical Thinker', careerEn: ['Academic Research', 'Philosophy', 'Programming',
+  'Mathematics', 'Science'], relationEn: 'tends to value intellectually stimulating relationships', strengthsEn: 
+  ['Exceptional analytical and logical ability', 'Creative problem-solving'], growthPointsEn: ['Follow through on   ideas with action', 'Pay attention to emotional needs of others']
+  ENTJ: nicknameEn: 'Bold Commander', careerEn: ['Management', 'Law', 'Finance', 'Consulting', 'Politics'],      
+  relationEn: 'tends to prefer direct and honest communication', strengthsEn: ['Strong leadership and
+  decision-making', 'Goal-oriented execution'], growthPointsEn: ['Listen to others more', 'Develop emotional     
+  sensitivity']
+  ENTP: nicknameEn: 'Debater', careerEn: ['Entrepreneurship', 'Marketing', 'Law', 'Consulting', 'Media'],        
+  relationEn: 'tends to enjoy stimulating debates and diverse connections', strengthsEn: ['Creative innovation', 
+  'Quick thinking and adaptability'], growthPointsEn: ['Follow through to completion', 'Be considerate of others 
+  feelings']
+  INFJ: nicknameEn: 'Insightful Advocate', careerEn: ['Counseling', 'Writing', 'Education', 'Social Work',       
+  'Healthcare'], relationEn: 'tends to seek deep and meaningful connections', strengthsEn: ['Deep empathy and    
+  insight', 'Strong sense of vision and values'], growthPointsEn: ['Set boundaries and care for yourself',       
+  'Accept imperfection']
+  INFP: nicknameEn: 'Idealistic Mediator', careerEn: ['Writing', 'Art', 'Counseling', 'Education', 'Social       
+  Welfare'], relationEn: 'tends to value authentic and sincere relationships', strengthsEn: ['Rich creativity and   empathy', 'Strong personal values'], growthPointsEn: ['Take more decisive action', 'Engage more with the real 
+  world']
+  ENFJ: nicknameEn: 'Charismatic Leader', careerEn: ['Education', 'Counseling', 'PR', 'Social Work',
+  'Management'], relationEn: 'tends to lead and harmonize others naturally', strengthsEn: ['Outstanding
+  leadership and communication', 'Empathy and ability to inspire others'], growthPointsEn: ['Prioritize your own 
+  needs', 'Set clear boundaries']
+  ENFP: nicknameEn: 'Enthusiastic Campaigner', careerEn: ['Media', 'Art', 'Education', 'Entrepreneurship',       
+  'Counseling'], relationEn: 'tends to enjoy energetic and diverse social connections', strengthsEn: ['Infectious   positive energy', 'Creative and free-spirited thinking'], growthPointsEn: ['Improve focus and follow-through',   'Build more consistent routines']
+  ISTJ: nicknameEn: 'Responsible Inspector', careerEn: ['Administration', 'Finance', 'Law', 'Military',
+  'Engineering'], relationEn: 'tends to value loyalty and responsibility in relationships', strengthsEn:
+  ['Thorough and reliable', 'Strong sense of duty'], growthPointsEn: ['Be more open to change', 'Express emotions   more warmly']
+  ISFJ: nicknameEn: 'Devoted Protector', careerEn: ['Healthcare', 'Education', 'Social Work', 'Administration',  
+  'Counseling'], relationEn: 'tends to be caring and dedicated to those close to them', strengthsEn:
+  ['Warm-hearted and detail-oriented', 'Highly reliable and supportive'], growthPointsEn: ['Assert your needs    
+  more clearly', 'Embrace new challenges']
+  ESTJ: nicknameEn: 'Strict Manager', careerEn: ['Management', 'Military/Police', 'Finance', 'Administration',   
+  'Law'], relationEn: 'tends to prefer direct and responsible relationships', strengthsEn: ['Strong
+  organizational and leadership skills', 'Practical and results-oriented'], growthPointsEn: ['Be more flexible', 
+  'Acknowledge emotions alongside logic']
+  ESFJ: nicknameEn: 'Caring Consul', careerEn: ['Healthcare', 'Education', 'Social Work', 'HR', 'Hospitality'],  
+  relationEn: 'tends to be warm and attentive to others needs', strengthsEn: ['Outstanding interpersonal skills',   'Highly cooperative and supportive'], growthPointsEn: ['Reduce people-pleasing tendencies', 'Handle criticism 
+  more calmly']
+  ISTP: nicknameEn: 'Bold Virtuoso', careerEn: ['Engineering', 'IT', 'Military', 'Sports', 'Mechanics'],
+  relationEn: 'tends to respect independence and practicality in relationships', strengthsEn: ['Excellent        
+  problem-solving and technical skills', 'Calm under pressure'], growthPointsEn: ['Express emotions and
+  commitments more openly', 'Improve long-term planning']
+  ISFP: nicknameEn: 'Adventurous Artist', careerEn: ['Art', 'Music', 'Design', 'Healthcare', 'Nature-related'],  
+  relationEn: 'tends to value gentle and sincere connections', strengthsEn: ['Rich sensitivity and artistic
+  sense', 'Flexible and open-minded'], growthPointsEn: ['Express opinions and assert yourself more', 'Plan more  
+  for the future']
+  ESTP: nicknameEn: 'Energetic Entrepreneur', careerEn: ['Sales', 'Sports', 'Military', 'Entrepreneurship',      
+  'Entertainment'], relationEn: 'tends to enjoy energetic and active relationships', strengthsEn: ['Bold action  
+  and problem-solving ability', 'High adaptability'], growthPointsEn: ['Think before acting impulsively', 'Be    
+  more considerate of others feelings']
+  ESFP: nicknameEn: 'Spontaneous Entertainer', careerEn: ['Entertainment', 'Hospitality', 'Education', 'Sales',  
+  'Art'], relationEn: 'tends to enjoy lively and joyful social connections', strengthsEn: ['Positive energy and  
+  strong social skills', 'Spontaneous and fun'], growthPointsEn: ['Improve focus and planning', 'Think more about   long-term consequences']
+
+  ---
+
+  ## 수정 3: lib/calculator/result-generator.ts
+
+  ### 핵심 패턴
+  모든 helper 함수에 `isEn: boolean` 파라미터 추가.
+  isEn ? '영문' : '한글' 형태로 텍스트 분기.
+
+  ### generateResult() 수정
+  params에 locale 추가:
+  ```typescript
+  export function generateResult(params: {
+    saju: SajuResult;
+    name: NameAnalysisResult;
+    face?: FaceAnalysisResult;
+    mbtiType?: string;
+    locale?: string; // 추가
+  }): ComprehensiveResult {
+    const { saju, name, face, mbtiType, locale } = params;
+    const isEn = locale !== 'ko';
+    // 이후 모든 helper 함수에 isEn 전달
+
+  analysisBox 수정 (generateResult 내부)
+
+  const analysisBox = {
+    ilgan: isEn
+      ? `Day Stem: ${saju.ilgan}(${getIlganHanja(saju.ilgan)})`
+      : `일간: ${saju.ilgan}(${getIlganHanja(saju.ilgan)})`,
+    wolji: isEn
+      ? `Month Branch: ${saju.month.jiji}(${getJijiHanja(saju.month.jiji)})`
+      : `월지: ${saju.month.jiji}(${getJijiHanja(saju.month.jiji)})`,
+    // wongyeok, hyeongyeok, soundOhaeng은 유지
+    soundOhaeng: (name.soundOhaengList?.join('-') || '') +
+      (name.soundOhaengRelation?.includes('상생')
+        ? isEn ? ' (Harmonious)' : ' (상생)'
+        : name.soundOhaengRelation?.includes('중화')
+        ? isEn ? ' (Balanced)' : ' (중화)'
+        : isEn ? ' (Conflicting)' : ' (상극)'),
+    mbtiOhaeng: mbtiType
+      ? isEn
+        ? `MBTI: ${mbtiType} → Element ${mbtiToOhaeng(mbtiType)}`
+        : `MBTI: ${mbtiType} → 오행 ${mbtiToOhaeng(mbtiType)} 매핑`
+      : undefined,
+  };
+
+  summaryLines 수정
+
+  const summaryLines = isEn ? [
+    `${saju.ilgan} Day Stem with strong ${strongOhaeng} energy`,
+    `Your name energy works in a ${wonRating === 'great' || wonRating === 'good' ? 'favorable' : 'neutral'}      
+  direction`,
+    `Guardian ${guardian.nameEn}(${guardian.emoji}) is with you. ${guardian.luckyMessageEn}`,
+  ] : [
+    // 기존 한국어 유지
+  ];
+
+  buildOhaengAnalysis(saju, isEn) 수정
+
+  ohaengDesc 영문:
+  목: 'Wood(木) Energy - Growth, Creativity, Benevolence'
+  화: 'Fire(火) Energy - Passion, Expression, Courtesy'
+  토: 'Earth(土) Energy - Balance, Trust, Acceptance'
+  금: 'Metal(金) Energy - Principle, Decisiveness, Loyalty'
+  수: 'Water(水) Energy - Wisdom, Flexibility, Learning'
+  yongshinDesc 영문:
+  목: { 용신: 'Water(水)', 설명: 'Water energy nourishes Wood and replenishes your energy' }
+  화: { 용신: 'Wood(木)', 설명: 'Wood energy feeds Fire and elevates your vitality' }
+  토: { 용신: 'Fire(火)', 설명: 'Fire energy solidifies Earth and strengthens your foundation' }
+  금: { 용신: 'Earth(土)', 설명: 'Earth energy generates Metal and supports stable growth' }
+  수: { 용신: 'Metal(金)', 설명: 'Metal energy generates Water and deepens your insight' }
+  title: isEn ? 'Five Elements Balance Analysis' : '오행 균형 분석'
+  content template (English):
+  Five Elements analysis shows ${ohaengDescEn[strong]} is your dominant tendency. This energy tends to influence 
+  your overall life direction. Meanwhile, ${ohaengDescEn[weak]} is relatively weak, so utilizing ${yongEn.용신}  
+  energy as your beneficial element helps restore balance. ${yongEn.설명}. Incorporating colors, directions, and 
+  foods associated with your beneficial element into daily life can help harmonize your energy.
+
+  buildIlganAnalysis(saju, isEn) 수정
+
+  ilganDeep 영문 (10개):
+  갑: 'Gapwood(甲木) represents Yang Wood energy, growing straight like bamboo or a tall tree. There is a strong 
+  drive to move directly toward goals and a tendency to enjoy pioneering new fields. Leadership is outstanding   
+  with a kind heart, though when stubbornness surfaces, maintaining open communication with others becomes       
+  important. Like spring energy, there is always a tendency to seek new beginnings.'
+  을: 'Eulwood(乙木) represents Yin Wood energy with a flexible, adaptive nature like grass or flowers. There is 
+  a tendency toward delicate sensitivity and excellent adaptability, showing warmth and consideration in
+  relationships. Artistic sensibility tends to be developed, with a vitality to survive gently even in difficult 
+  situations.'
+  병: 'Byungfire(丙火) represents Yang Fire energy with bright and warm energy like the sun. Social skills and   
+  expressive ability tend to be outstanding, and there is a tendency to become the center wherever you go.       
+  Positive and passionate energy tends to energize others, though occasional impulsiveness is worth moderating.' 
+  정: 'Jeongfire(丁火) represents Yin Fire energy with the gentle, continuous nature of candlelight or a lantern.   There tends to be a refined and courteous character with outstanding artistic and literary sensibility. Inner 
+  warmth tends to provide steady comfort and light to those around.'
+  무: 'Mooearth(戊土) represents Yang Earth energy, solid and stable like a great mountain. There is great       
+  acceptance and a tendency to give trustworthiness, with the ability to maintain stability in any situation.    
+  Leadership to lead organizations and embrace people tends to be strong, though occasionally being open to      
+  change helps growth.'
+  기: 'Giearth(己土) represents Yin Earth energy with the nurturing nature of fertile farmland. There is a       
+  tendency toward careful and diligent character, excelling at caring for people and leading harmony. Practical  
+  and realistic judgment tends to be present, with a tendency to build a solid foundation through steady effort.'  경: 'Gyeongmetal(庚金) represents Yang Metal energy, strong and straightforward like solid rock or raw ore.    
+  Principles are valued, loyalty is strong, and there tends to be strong decisiveness and drive. A sense of      
+  justice is strong, though sometimes exercising flexibility brings better results.'
+  신: 'Sinmetal(辛金) represents Yin Metal energy with the precise and delicate nature of jewels or a sharp      
+  blade. There tends to be keen analytical ability and perfectionist tendencies, with high standards maintained. 
+  Aesthetic sensibility tends to be developed, and there is a tendency to enjoy building one unique world.'      
+  임: 'Imwater(壬水) represents Yang Water energy, broad and deep like a great river or sea. There tends to be   
+  outstanding insight and strategic thinking with the ability to see the big picture. Deep interest in knowledge 
+  and learning tends to be present, with creative solutions found through rich imagination.'
+  계: 'Gyewater(癸水) represents Yin Water energy with the clear, pure nature of dew or spring water. Delicate   
+  sensitivity and intuition tend to be outstanding with a tendency toward a deep inner world. Academic curiosity 
+  tends to be strong with abundant intellectual curiosity, with a tendency to produce deep results quietly in one   unique way.'
+  title: isEn ? Day Stem(日干) Analysis - ${saju.ilgan}(${getIlganHanja(saju.ilgan)}) : (기존)
+  content template (English):
+  {descEn} Professionally, there is a tendency to express innate energy well in {careerHint} fields. In
+  relationships, {relationHint}.
+  subItems: label 영문: isEn ? 'Element Attribute' : '오행 속성', isEn ? 'Core Energy' : '핵심 기운'
+
+  buildCareerSection(ohaeng, mbtiType, isEn) 수정
+
+  careerMap 각 오행에 영문 필드 추가 (main/talent/advice/fields 영문):
+  목(Wood):
+    mainEn: 'There is a tendency to excel in careers centered on growth and creativity.'
+    fieldsEn: ['Education & Lecturing', 'Publishing & Writing', 'Environment & Ecology', 'Healthcare & Healing', 
+  'Consulting']
+    talentEn: 'There is a strong tendency for creative execution that turns new ideas into reality. A tendency to   stand out in roles that develop and lead people, with the ability to set and pursue long-term visions.'       
+    adviceEn: 'Building a solid foundation early is important. Rather than rushing, steadily developing expertise   tends to yield stable results from your late 30s. Collaborating with a Water(水) energy partner or mentor     
+  tends to create synergy.'
+
+  화(Fire):
+    mainEn: 'There is a tendency to excel in fields where communication and influence are central.'
+    fieldsEn: ['Media & Entertainment', 'Marketing & PR', 'Service Industry', 'Food & Beverage', 'Speaking &     
+  Coaching']
+    talentEn: 'There is an ability to move people through outstanding expressiveness and energy. There is a      
+  tendency to command presence before crowds and create new opportunities by quickly catching trends.'
+    adviceEn: 'A planned approach tends to be more advantageous than impulsive decisions. Having a Wood(木)      
+  energy advisor nearby helps with finding direction. Paying special attention to financial management is        
+  advisable.'
+
+  토(Earth):
+    mainEn: 'There is a tendency to achieve outstanding results in stability and trust-based careers.'
+    fieldsEn: ['Real Estate & Finance', 'Administration & Civil Service', 'Construction & Interior', 'Agriculture   & Food', 'HR & Administration']
+    talentEn: 'There is a strong tendency for diligence in completing assigned tasks and acceptance that gives   
+  people trust. There is a tendency to steadily accumulate stable results over time as the anchor of
+  organizations.'
+    adviceEn: 'Taking a slightly more open attitude toward new changes and challenges can lead to greater        
+  results. Encountering Fire(火) energy tends to provide vitality.'
+
+  금(Metal):
+    mainEn: 'There is a tendency to demonstrate outstanding capabilities in fields requiring precision and       
+  principle.'
+    fieldsEn: ['Law & Legal', 'Military & Security', 'Manufacturing & Engineering', 'IT & Development', 'Finance 
+  & Investment']
+    talentEn: 'There tends to be cool judgment and strong execution. There is a tendency to shine in important   
+  moments with decisiveness that remains unshaken in any situation, handling work according to principles.'      
+    adviceEn: 'Excessive perfectionism can become stressful. Collaborating with an Earth(土) energy partner tends   to yield balanced results.'
+
+  수(Water):
+    mainEn: 'There is a tendency to stand out in careers based on knowledge and insight.'
+    fieldsEn: ['Academia & Research', 'Philosophy & Psychology', 'Strategic Planning', 'Writing & Authorship',   
+  'Diplomacy & International']
+    talentEn: 'There is a tendency to discover what others cannot see through deep contemplation and insight. The   ability to establish long-term strategies and solve complex problems tends to be exceptional.'
+    adviceEn: 'Developing the drive to connect ideas to execution is important. Partnering with a decisive       
+  Metal(金) energy person tends to lead to great achievements.'
+  title: isEn ? 'Career & Talent Fortune' : '직업·재능 운세'
+  mbtiAdd (English): isEn ?  Adding MBTI ${mbtiType} characteristics, there is also favorable energy in
+  ${(mbtiTypes[mbtiType]?.careerEn || mbtiTypes[mbtiType]?.career)?.slice(0,2).join(', ')} fields. : (기존)      
+  subItems: label isEn ? 'Favorable Career Fields' : '유리한 직업군'
+
+  buildWealthSection(saju, ohaeng, isEn) 수정
+
+  wealthMap 영문:
+  high:
+    levelEn: 'Stable wealth energy'
+    detailEn: 'Metal(金) and Earth(土) energies are sufficient, creating favorable conditions for accumulating   
+  wealth. Diligent effort tends to bear fruit, and steady accumulation suits this energy.'
+    adviceEn: 'Long-term stable investment tends to be more advantageous than short-term speculation. Stable     
+  financial instruments like real estate, savings, and funds tend to suit this constitution. Wealth tends to     
+  stabilize further after your 40s.'
+  mid:
+    levelEn: 'Moderate wealth energy'
+    detailEn: 'Wealth energy is balanced. There is a tendency for rewards to follow effort, and maintaining      
+  stability is possible without excessive greed.'
+    adviceEn: 'Paying special attention to expense management is advisable. Reducing impulsive spending and      
+  securing emergency funds helps with stability. Business with a Metal(金) energy partner tends to be
+  advantageous.'
+  low:
+    levelEn: 'Energy favorable for honor/learning'
+    detailEn: 'There tends to be stronger energy toward honor or academic achievement than wealth. There is a    
+  tendency for prosperity to follow when focusing on work you love rather than working for money.'
+    adviceEn: 'Enhancing expertise tends to connect to wealth in the long term. Supplementing Earth(土) energy   
+  can increase wealth energy. Supplementing wealth energy through partnership is also a good approach.'
+  ohaengMoneyTip 영문:
+  목: 'Wealth energy tends to be high in eastward businesses or projects started in spring.'
+  화: 'Wealth energy tends to be active in service industries or work involving many people.'
+  토: 'Stable returns can be expected from real estate or physical assets.'
+  금: 'Wealth energy tends to be strongly expressed in IT, manufacturing, and finance.'
+  수: 'Long-term wealth tends to accumulate from knowledge-based income (lectures, writing, consulting).'        
+  title: isEn ? 'Wealth & Financial Fortune' : '재물·경제 운세'
+  subItems: label isEn ? 'Wealth Energy' : '재물 기운'
+
+  buildLoveSection(ohaeng, mbtiType, isEn) 수정
+
+  loveMap 영문:
+  목(Wood):
+    styleEn: 'There is a tendency to value relationships that pursue growth together, wanting a partnership where   both develop each other.'
+    idealEn: 'Tends to be compatible with intellectual and progressive partners. Someone who can pursue dreams   
+  together can be a good connection.'
+    tipEn: 'Honest expression deepens relationships. It is better not to hold emotions in and to communicate at  
+  the right time.'
+    challengeEn: 'Excessive desire for growth can be burdensome for a partner, so respecting their pace is       
+  important.'
+  화(Fire):
+    styleEn: 'There is a tendency toward a passionate and expressive love style, valuing honest sharing of       
+  emotions.'
+    idealEn: 'Tends to be compatible with active, positive energy partners. Someone who can enjoy new experiences   together is a good match.'
+    tipEn: 'Recognize differences in emotional temperature, and consideration in giving space when a partner     
+  needs rest is needed.'
+    challengeEn: 'Emotional fluctuations can affect relationships. Effort to build a stable foundation is        
+  important for long-term relationships.'
+  토(Earth):
+    styleEn: 'There is a tendency to seek stable, trust-based relationships, cherishing deep connections built   
+  slowly.'
+    idealEn: 'Tends to be compatible with sincere, responsible partners. Someone who can share small daily joys  
+  is a good match.'
+    tipEn: 'Expressing emotions a little more actively can make relationships warmer.'
+    challengeEn: 'Fear of change can cause relationships to stagnate. Sometimes trying new things together is    
+  beneficial.'
+  금(Metal):
+    styleEn: 'There is a tendency to seek serious, loyal relationships, forming deep and unchanging bonds once   
+  the heart opens.'
+    idealEn: 'Tends to be compatible with trustworthy partners who have principles. A relationship where each    
+  respects the others space works well.'
+    tipEn: 'Expressing emotions a bit more flexibly can warm the relationship. Enjoy the process of growing      
+  together rather than seeking a perfect partner.'
+    challengeEn: 'High standards can sometimes be burdensome for a partner. Flexibility to accept differences is 
+  needed.'
+  수(Water):
+    styleEn: 'There is a tendency to want deep relationships where intellectual empathy can be shared, seeking   
+  authentic connections over superficial ones.'
+    idealEn: 'Tends to be compatible with intellectually curious partners who can hold meaningful conversations. 
+  Someone who understands your inner world is a good match.'
+    tipEn: 'There may be a tendency to prioritize rational judgment over emotion. Listening to partners emotional   needs deepens the relationship.'
+    challengeEn: 'A tendency not to reveal the inner self can cause misunderstandings. Showing emotions a little 
+  more openly to trusted people is helpful.'
+  title: isEn ? 'Love & Relationship Fortune' : '연애·인연 운세'
+  mbtiLoveAdd (English): isEn ?  With MBTI ${mbtiType} characteristics, ${mbtiTypes[mbtiType]?.relationEn ||     
+  'there is a tendency to value sincere relationships'}. : (기존)
+  subItems: label isEn ? 'Love Style' : '연애 스타일'
+
+  buildHealthSection(ohaeng, isEn) 수정
+
+  healthMap 영문:
+  목(Wood):
+    organEn: 'Liver·Gallbladder·Muscles·Eyes'
+    riskEn: 'Attention to liver function, eye fatigue, and muscle stiffness is advisable. Accumulated stress can 
+  affect liver function.'
+    tipEn: 'Regular exercise and sufficient sleep helps maintain healthy Wood energy. Frequent consumption of    
+  green vegetables is beneficial.'
+    foodEn: 'Green foods like broccoli, spinach, green tea, and kiwi are beneficial.'
+    exerciseEn: 'Exercises that keep the body flexible such as yoga, stretching, hiking, and walking are good.'  
+  화(Fire):
+    organEn: 'Heart·Small Intestine·Blood Circulation·Tongue'
+    riskEn: 'Attention to the heart and circulatory system is needed. Excessive excitement or stress can burden  
+  the heart.'
+    tipEn: 'Cooling the mind through adequate rest and meditation is advisable. Red foods benefit heart energy.' 
+    foodEn: 'Tomatoes, strawberries, pomegranates, and red peppers are beneficial.'
+    exerciseEn: 'Swimming, light aerobic exercise, meditation, and breathing exercises are good.'
+  토(Earth):
+    organEn: 'Stomach·Spleen·Digestive System·Mouth'
+    riskEn: 'Attention to digestive function and the stomach is advisable. Stress can affect digestion, and      
+  avoiding overeating is beneficial.'
+    tipEn: 'Regular meal times and a balanced diet are important. Yellow foods support spleen energy.'
+    foodEn: 'Brown rice, sweet potato, pumpkin, and ginger are beneficial for the digestive system.'
+    exerciseEn: 'Balanced exercises such as walking, tai chi, and pilates are good.'
+  금(Metal):
+    organEn: 'Lungs·Large Intestine·Respiratory System·Skin·Nose'
+    riskEn: 'Attention to the lungs, respiratory system, and skin is needed. Managing respiratory health is      
+  important in dry environments.'
+    tipEn: 'Fresh air and regular breathing exercises benefit Metal energy. White foods strengthen lung energy.' 
+    foodEn: 'Garlic, onion, pear, lotus root, and bellflower root are beneficial for the respiratory system.'    
+    exerciseEn: 'Running, swimming, breathing exercises, and aerobic exercise are good.'
+  수(Water):
+    organEn: 'Kidneys·Bladder·Bones·Ears·Reproductive System'
+    riskEn: 'Attention to kidneys, bladder, and bone health is needed. Overwork and dehydration can affect the   
+  kidneys.'
+    tipEn: 'Sufficient hydration and adequate rest maintains healthy Water energy. Black foods benefit kidney    
+  energy.'
+    foodEn: 'Black beans, black rice, blueberries, black sesame, and seaweed are beneficial.'
+    exerciseEn: 'Swimming, yoga, meditation, and stretching are good.'
+  title: isEn ? 'Health & Constitution Analysis' : '건강·체질 분석'
+  subItems labels: isEn ? ['Body Parts to Watch', 'Beneficial Foods', 'Recommended Exercise'] : ['유의 신체      
+  부위', '도움이 되는 식품', '추천 운동']
+
+  buildLuckySection(ohaeng, guardian, isEn) 수정
+
+  luckyMap 영문:
+  목(Wood):
+    colorEn: 'Green, Teal, Blue'
+    directionEn: 'East'
+    seasonEn: 'Spring (March~May)'
+    tipEn: ['Placing green items or plants on your desk or in the living room tends to elevate your energy',     
+  'Sleeping with your head pointing east or receiving morning sunlight through an east-facing window is
+  beneficial', 'New beginnings (business, moving, new projects) tend to have favorable energy when started in    
+  spring', 'Wood-related activities (woodworking, gardening, hiking) help bring peace of mind']
+    itemEn: 'Green plants, wooden items, emerald-toned accessories'
+  화(Fire):
+    colorEn: 'Red, Orange, Purple'
+    directionEn: 'South'
+    seasonEn: 'Summer (June~August)'
+    tipEn: ['Bright-colored interiors tend to enhance vitality and positive energy', 'Placing bright lighting in 
+  the south direction tends to activate your energy', 'Important presentations or meetings tend to be favorable  
+  between 10am and 2pm', 'Warm-colored clothing tends to create a good impression on people']
+    itemEn: 'Red items, candles, warm-toned accessories'
+  토(Earth):
+    colorEn: 'Gold, Yellow, Beige, Brown'
+    directionEn: 'Center'
+    seasonEn: 'Seasonal transitions (March, June, September, December)'
+    tipEn: ['Organizing your space with yellow or beige items tends to increase stability', 'Earth-related       
+  hobbies (pottery, gardening, vegetable growing) help stabilize mind and body', 'Keeping the center of your home   tidy tends to spread energy evenly', 'A regular daily rhythm tends to strengthen Earth energy']
+    itemEn: 'Terracotta ceramics, crystals, golden-toned items'
+  금(Metal):
+    colorEn: 'White, Silver, Gold'
+    directionEn: 'West'
+    seasonEn: 'Autumn (September~November)'
+    tipEn: ['Clean and minimal space arrangement tends to enhance Metal energy', 'Placing metal items or a mirror   in the west direction is beneficial', 'Autumn tends to be a good time for important decisions and planning',  
+  'White clothing gives a clean and trustworthy image']
+    itemEn: 'White or silver items, metal accessories, crystal-type items'
+  수(Water):
+    colorEn: 'Black, Dark Navy, Deep Blue'
+    directionEn: 'North'
+    seasonEn: 'Winter (December~February)'
+    tipEn: ['Water-related items (fish tank, fountain, water paintings) tend to enhance Water energy', 'Placing a   study or library in the north direction tends to improve concentration', 'Meditation or reading tends to      
+  deepen Water energy', 'Keeping a gratitude journal or having time for self-reflection is helpful']
+    itemEn: 'Black or navy items, water-related items, lapis lazuli-type'
+  title: isEn ? 'Lucky Charms & Fortune Items' : '개운법 & 행운 아이템'
+  content (English): Receiving the energy of Guardian ${guardian.nameEn}(${guardian.emoji}),
+  ${guardian.luckyMessageEn} ${data.tipEn.join(' ')}
+  subItems labels (English): 'Lucky Colors', 'Lucky Direction', 'Lucky Season', 'Recommended Items', 'Lucky      
+  Numbers'
+
+  buildNameDetailSection(name, isEn) 수정
+
+  ratingText 영문:
+  great: 'Very auspicious energy (Great Fortune)'
+  good: 'Auspicious energy (Fortune)'
+  neutral: 'Neutral energy (Average)'
+  caution: 'Energy requiring caution (Caution)'
+  avoid: 'Energy better avoided (Inauspicious)'
+  soundDesc 영문:
+  상생: 'The sound elements have a mutually generating relationship (harmonious), with the name energy flowing   
+  harmoniously.'
+  중화: 'The sound elements form a balanced, neutral relationship, with the name having stable energy.'
+  상극: 'There is a conflicting relationship among sound elements, which can create tension in name energy. Using   colors or items associated with favorable elements can help compensate.'
+  title: isEn ? 'Name Reading Detailed Analysis' : '성명학 상세 분석'
+  content template (English):
+  This is the name reading analysis result for "${name.name}". Won-gyeok (full name) number ${name.wongyeok}     
+  indicates ${ratingTextEn[wonRating] || ''}, ${name.suriAnalysis?.wongyeok?.summary || ''}. Hyeong-gyeok (given 
+  name only) number ${name.hyeongyeok} indicates ${ratingTextEn[hyeongRating] || ''}. The sound elements are     
+  ${name.soundOhaengList?.join('-') || ''}, ${soundDescEn[soundKey] || ''}
+  subItems labels (English): 'Won-gyeok (Full Name)', 'Hyeong-gyeok (Given Name)', 'Sound Elements', 'Total      
+  Strokes'
+  subItems value: replace '획' with isEn ? ' strokes' : '획'
+
+  buildMbtiSajuSection(mbtiType, ohaeng, isEn) 수정
+
+  combinationDesc 영문 (25개 조합):
+  금-금: 'Sharp analytical ability and strong principles tend to create synergy. There is powerful energy for    
+  achieving goals, but developing flexibility is advisable.'
+  금-목: 'Sharp Metal energy and creative Wood energy tend to form a unique balance. There is a tendency to      
+  achieve great results when analytical ability and creativity are expressed together.'
+  금-화: 'Decisive Metal energy and passionate Fire energy combine for strong drive. Managing this energy well   
+  can lead to great achievement.'
+  금-토: 'Principled Metal energy and stable Earth energy harmonize to create trustworthiness. There tends to be 
+  a strong ability to handle things systematically and practically.'
+  금-수: 'Sharp Metal energy and deep Water energy tend to create outstanding insight. There is a tendency to    
+  particularly stand out in academic or research fields.'
+  목-목: 'Growth-oriented energy tends to be further enhanced. There is abundant creativity and humanity, though 
+  practical judgment is sometimes important.'
+  목-화: 'Creative Wood energy and passionate Fire energy meet, creating strong expressiveness. There is a       
+  tendency to shine in art, education, and communication fields.'
+  목-토: 'Growing Wood energy and stable Earth energy tend to create balance. The best results come when
+  creativity and practicality are harmoniously expressed.'
+  목-수: 'Creative Wood energy tends to be strengthened with Water energy support. Learning ability and
+  creativity tend to develop together.'
+  목-금: 'The tension between free Wood energy and principled Metal energy tends to create a unique
+  individuality.'
+  화-화: 'Passion and expressiveness tend to be maximized. There is strong charisma that attracts people, but    
+  managing energy is important.'
+  화-목: 'Passionate Fire energy tends to develop further with the growth energy of Wood. There is overflowing   
+  positive and growth-oriented energy.'
+  화-토: 'Passionate Fire energy and stable Earth energy meet, tending to express balanced energy.'
+  화-금: 'Passionate Fire energy meets principled Metal energy, tending to express goal-oriented drive.'
+  화-수: 'Passionate Fire energy and thoughtful Water energy create balance, tending to express unique charm.'   
+  토-토: 'Stability and trust tend to be further strengthened. There is a tendency to become indispensable in    
+  organizations.'
+  토-목: 'Stable Earth energy meeting creative Wood energy tends to express practical creativity.'
+  토-화: 'Stable Earth energy receiving active Fire energy tends to express warm and accepting energy.'
+  토-금: 'Stable Earth energy and principled Metal energy meet, tending to express trustworthy leadership.'      
+  토-수: 'Stable Earth energy and wise Water energy harmonize, tending to express practical wisdom.'
+  수-수: 'Wisdom and academic energy tend to be further strengthened. Insight tends to be exceptional, but       
+  developing execution ability is important.'
+  수-목: 'Wise Water energy meeting growing Wood energy tends toward an idealistic scholarly type.'
+  수-화: 'Deep Water energy and passionate Fire energy meet, tending to have both inner depth and outer
+  vitality.'
+  수-토: 'Wise Water energy and stable Earth energy harmonize, tending to express wise judgment.'
+  수-금: 'Wise Water energy tends to become sharper with Metal energy support.'
+  title: isEn ? MBTI·Saju Fusion Analysis (${mbtiType} × ${ohaeng}) : (기존)
+  content template (English):
+  Cross-analysis of MBTI ${mbtiType}(${mbtiInfo.nicknameEn || mbtiInfo.nickname}) characteristics with Four      
+  Pillars ${ohaeng} energy. ${combDescEn} ${mbtiInfo.strengthsEn?.[0] || ''} ${mbtiInfo.growthPointsEn?.[0] ||   
+  ''}
+  subItems labels (English): 'MBTI Type', 'MBTI Element', 'Four Pillars Day Stem Element', 'Combination
+  Characteristics'
+  subItems value: MBTI Type → ${mbtiType} - ${mbtiInfo.nicknameEn || mbtiInfo.nickname}
+
+  ---
+  수정 4: app/[locale]/result/[id]/page.tsx
+
+  generateResult 호출에 locale 추가
+
+  현재:
+  const comprehensiveResult = generateResult({
+    saju,
+    name: nameResult,
+    face: ...,
+    mbtiType: inputData.mbti,
+  });
+  수정 후:
+  const comprehensiveResult = generateResult({
+    saju,
+    name: nameResult,
+    face: ...,
+    mbtiType: inputData.mbti,
+    locale,
+  });
+
+  GuardianCard 컴포넌트 내 한글 텍스트
+
+  line 102~104:
+  🎨 행운색: → isEn ? '🎨 Lucky Color: ' : '🎨 행운색: '
+  🧭  방향: → isEn ? '🧭  Direction: ' : '🧭  방향: '
+  🔢 숫자: → isEn ? '🔢 Number: ' : '🔢 숫자: '
+  GuardianCard에 locale prop 추가해서 isEn 처리
+
+  결과 페이지 나머지 UI 텍스트
+
+  locale를 사용해 isEn 선언 후 아래 텍스트들 분기:
+  - '종합 분석 결과' → isEn ? 'Comprehensive Analysis Results' : '종합 분석 결과'
+  - '님의 종합 분석 결과' → isEn ? 's Comprehensive Analysis : '님의 종합 분석 결과'
+  - 날짜 표시 텍스트 (년, 월, 일, 시생) → isEn ? 영문 포맷 : 한글 포맷
+  - '3줄 요약' → isEn ? '3-Line Summary' : '3줄 요약'
+  - 점수 라벨 (사주/성명학/관상) → isEn ? ('Four Pillars'/'Name Reading'/'Face Reading') : 한글
+  - '· 사진을 추가하면 관상 분석이 포함됩니다' 등 missingItems 안내 텍스트
+  - '다시 분석하기' → isEn ? 'Analyze Again' : '다시 분석하기'
+  - 면책 문구
+  - '관련 글 더보기' → isEn ? 'Related Articles' : '관련 글 더보기'
+  - '카카오톡 공유', '링크 복사' 버튼
+
+  ---
+  주의사항
+
+  - 기존 한국어 텍스트는 그대로 유지, isEn=false일 때 동일하게 동작
+  - TypeScript 타입 오류 없도록 (guardian.ts, mbti/types.ts 인터페이스 수정 후 구현 추가)
+  - 빌드 에러 없도록
+  - className, 스타일, JSX 구조 변경 금지
+  - Edit만 사용 (파일 전체 재작성 금지)
+  - 수정 순서: guardian.ts → mbti/types.ts → result-generator.ts → result/[id]/page.tsx
+
+  ---
+
+  이 프롬프트대로 제미나이에게 시키면 됩니다. 수정 순서(guardian → mbti → generator → page)를 꼭 지키도록        
+  강조하세요.
+
+-----------------------------------
 1    │ saju-posts.ts        │ 사주팔자란 무엇인가?         │ intro                │
   │ 2    │ saju-posts.ts        │ 음력과 양력, 생시의 중요성   │ lunar-solar-calendar │
   │ 3    │ saju-posts.ts        │ 사주 일주 완전정복           │ day-pillar           │
