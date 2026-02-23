@@ -2,12 +2,12 @@ import Link from 'next/link';
 import AdSense from './AdSense';
 import { BlogPost } from '@/lib/blog/types';
 
-const categoryName: Record<string, string> = {
-  saju: '사주팔자',
-  seongmyeong: '성명학',
-  gwansang: '관상학',
-  mbti: 'MBTI',
-  bokhap: '복합분석',
+const categoryName: Record<string, Record<string, string>> = {
+  saju: { ko: '사주팔자', en: 'Four Pillars' },
+  seongmyeong: { ko: '성명학', en: 'Name Reading' },
+  gwansang: { ko: '관상학', en: 'Face Reading' },
+  mbti: { ko: 'MBTI', en: 'MBTI' },
+  bokhap: { ko: '복합분석', en: 'Compatibility' },
 };
 
 interface Props {
@@ -17,8 +17,12 @@ interface Props {
 
 export default function BlogPostPage({ post, locale }: Props) {
   const isKo = locale === 'ko';
+  const displayLocale = isKo ? 'ko' : 'en';
   const baseUrl = 'https://sajupalza.cc';
   const postUrl = `${baseUrl}/${locale}/${post.category}/${post.slug}`;
+
+  // 언어별 제목 선택 (본문용)
+  const displayTitle = isKo ? post.title : (post.seoTitleEn || post.title);
 
   // 언어별 메타데이터 선택
   const seoTitle = (isKo ? post.seoTitle : (post.seoTitleEn || post.seoTitle));
@@ -33,8 +37,8 @@ export default function BlogPostPage({ post, locale }: Props) {
     headline: seoTitle,
     description: description,
     datePublished: post.publishedAt,
-    author: { '@type': 'Organization', name: '사주팔자닷컴' },
-    publisher: { '@type': 'Organization', name: '사주팔자닷컴' },
+    author: { '@type': 'Organization', name: isKo ? '사주팔자닷컴' : 'SajuPalza.cc' },
+    publisher: { '@type': 'Organization', name: isKo ? '사주팔자닷컴' : 'SajuPalza.cc' },
     url: postUrl,
     keywords: keywords.join(', '),
   };
@@ -44,8 +48,8 @@ export default function BlogPostPage({ post, locale }: Props) {
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: isKo ? '홈' : 'Home', item: `${baseUrl}/${locale}` },
-      { '@type': 'ListItem', position: 2, name: categoryName[post.category], item: `${baseUrl}/${locale}/${post.category}` },
-      { '@type': 'ListItem', position: 3, name: post.title, item: postUrl },
+      { '@type': 'ListItem', position: 2, name: categoryName[post.category][displayLocale], item: `${baseUrl}/${locale}/${post.category}` },
+      { '@type': 'ListItem', position: 3, name: displayTitle, item: postUrl },
     ],
   };
 
@@ -81,14 +85,14 @@ export default function BlogPostPage({ post, locale }: Props) {
         <nav className="text-sm text-white/50 mb-4 flex gap-2">
           <Link href={`/${locale}`} className="hover:text-yellow-300">{isKo ? '홈' : 'Home'}</Link>
           <span>/</span>
-          <Link href={`/${locale}/${post.category}`} className="hover:text-yellow-300">{categoryName[post.category]}</Link>
+          <Link href={`/${locale}/${post.category}`} className="hover:text-yellow-300">{categoryName[post.category][displayLocale]}</Link>
           <span>/</span>
-          <span className="text-yellow-300/80">{post.title}</span>
+          <span className="text-yellow-300/80">{displayTitle}</span>
         </nav>
 
-        {/* 제목 + 날짜 */}
-        <h1 className="text-2xl md:text-3xl font-bold text-white mb-2 leading-snug">{post.title}</h1>
-        <p className="text-white/40 text-xs mb-8">{post.publishedAt} · {categoryName[post.category]}</p>
+        {/* 제목 (날짜 제거됨) */}
+        <h1 className="text-2xl md:text-3xl font-bold text-white mb-2 leading-snug">{displayTitle}</h1>
+        <p className="text-white/40 text-xs mb-8">{categoryName[post.category][displayLocale]}</p>
 
         {/* 목차 */}
         {toc.length > 0 && (
