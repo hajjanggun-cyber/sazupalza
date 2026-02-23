@@ -214,7 +214,9 @@ export default async function MbtiPage({ params: { locale } }: Props) {
                 href={`/${locale}/mbti/${post.slug}`}
                 className="card-dark p-4 flex items-center justify-between group border border-transparent hover:border-yellow-500/40 transition-colors"
               >
-                <span className="text-yellow-200/80 text-sm leading-snug">{isKo ? post.title : (post.seoTitleEn || post.title)}</span>
+                <span className="text-yellow-200/80 text-sm leading-snug">
+                  {isKo ? post.title : (post.seoTitleEn || post.title || 'MBTI Analysis')}
+                </span>
                 <span className="text-yellow-500 ml-3 shrink-0 group-hover:translate-x-1 transition-transform">→</span>
               </Link>
             ))}
