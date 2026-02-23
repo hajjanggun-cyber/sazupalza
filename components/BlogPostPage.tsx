@@ -17,12 +17,15 @@ interface Props {
 
 export default function BlogPostPage({ post, locale }: Props) {
   const isKo = locale === 'ko';
-  const displayLocale = isKo ? 'ko' : 'en';
   const baseUrl = 'https://sajupalza.cc';
   const postUrl = `${baseUrl}/${locale}/${post.category}/${post.slug}`;
 
   // 언어별 제목 선택 (본문용)
-  const displayTitle = isKo ? post.title : (post.seoTitleEn || post.title);
+  // 영문 모드일 때 seoTitleEn이 없으면 최소한 영문 텍스트를 출력하도록 보강
+  const displayTitle = isKo ? post.title : (post.seoTitleEn || 'Detailed Analysis Report');
+
+  // 언어별 카테고리명 선택
+  const displayCategory = isKo ? categoryName[post.category].ko : categoryName[post.category].en;
 
   // 언어별 메타데이터 선택
   const seoTitle = (isKo ? post.seoTitle : (post.seoTitleEn || post.seoTitle));
@@ -48,7 +51,7 @@ export default function BlogPostPage({ post, locale }: Props) {
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: isKo ? '홈' : 'Home', item: `${baseUrl}/${locale}` },
-      { '@type': 'ListItem', position: 2, name: categoryName[post.category][displayLocale], item: `${baseUrl}/${locale}/${post.category}` },
+      { '@type': 'ListItem', position: 2, name: displayCategory, item: `${baseUrl}/${locale}/${post.category}` },
       { '@type': 'ListItem', position: 3, name: displayTitle, item: postUrl },
     ],
   };
@@ -85,14 +88,15 @@ export default function BlogPostPage({ post, locale }: Props) {
         <nav className="text-sm text-white/50 mb-4 flex gap-2">
           <Link href={`/${locale}`} className="hover:text-yellow-300">{isKo ? '홈' : 'Home'}</Link>
           <span>/</span>
-          <Link href={`/${locale}/${post.category}`} className="hover:text-yellow-300">{categoryName[post.category][displayLocale]}</Link>
+          <Link href={`/${locale}/${post.category}`} className="hover:text-yellow-300">
+            {displayCategory}
+          </Link>
           <span>/</span>
           <span className="text-yellow-300/80">{displayTitle}</span>
         </nav>
 
-        {/* 제목 (날짜 제거됨) */}
-        <h1 className="text-2xl md:text-3xl font-bold text-white mb-2 leading-snug">{displayTitle}</h1>
-        <p className="text-white/40 text-xs mb-8">{categoryName[post.category][displayLocale]}</p>
+        {/* 제목 (날짜 정보가 완전히 삭제됨) */}
+        <h1 className="text-2xl md:text-3xl font-bold text-white mb-10 leading-snug">{displayTitle}</h1>
 
         {/* 목차 */}
         {toc.length > 0 && (
