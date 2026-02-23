@@ -171,6 +171,7 @@ export default function BlogPostPage({ post, locale }: Props) {
                   href={`/${locale}/${related.category}/${related.slug}`}
                   className="block card-dark p-3 hover:border-yellow-600/60 transition-colors text-white/70 hover:text-yellow-300 text-sm"
                 >
+                  {/* 데이터의 title 필드가 이미 영문 모드 대응을 위해 보강되었으므로 그대로 사용 */}
                   → {related.title}
                 </Link>
               ))}
