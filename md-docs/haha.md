@@ -228,3 +228,63 @@ sajupalza/
 
 ---
 **보고서 끝.** 이 파일을 참고하여 다음 Claude 세션에서 작업을 이어서 진행하세요.
+
+---
+
+## 🗂️ 추가 작업 목록 (2026-02-23 추가)
+
+### 🔴 우선순위 1 - 데이터가 있지만 화면에 안 나오는 것 (코드 연결만 하면 됨)
+
+| 작업 | 파일 | 내용 |
+|---|---|---|
+| MBTI 궁합 결과 연결 | `lib/data/mbti/gunghap.ts` → `result-generator.ts` | 16x16 궁합 데이터가 있지만 결과 화면에 출력 안 됨 |
+| 신살 결과 연결 | `lib/data/saju/sinsal.ts` → `result-generator.ts` | 15개 신살 데이터 있지만 결과에 미출력 |
+| 십성 결과 연결 | `lib/data/saju/sipseong.ts` → `result-generator.ts` | 10개 십성 데이터 있지만 결과에 미출력 |
+| 일주 결과 연결 | `lib/data/saju/iljoo.ts` → `result-generator.ts` | 일주 분석 데이터 있지만 결과에 미출력 |
+
+---
+
+### 🟠 우선순위 2 - 데이터 자체가 너무 빈약한 것 (데이터 보강 필요)
+
+| 작업 | 파일 | 현황 | 목표 |
+|---|---|---|---|
+| 일주 60갑자 완성 | `lib/data/saju/iljoo.ts` | 60개 중 8개만 있음 | 60갑자 전체 작성 |
+| 신살 내용 보강 | `lib/data/saju/sinsal.ts` | 각 신살 한 줄 설명만 | 실제 계산 로직 + 풍부한 설명 |
+| 십성 내용 보강 | `lib/data/saju/sipseong.ts` | 각 항목 두 줄짜리 | 더 풍부한 해석 텍스트 |
+
+---
+
+### 🟡 우선순위 3 - 아예 없는 것 (신규 데이터 파일 생성)
+
+| 작업 | 새 파일 | 내용 | 기대 효과 |
+|---|---|---|---|
+| 12운성 추가 | `lib/data/saju/sibiunseong.ts` | 장생·목욕·관대 등 12단계 에너지 강도 | 사주 정확도 대폭 향상 |
+| 대운/세운 추가 | `lib/data/saju/daeun.ts` | 올해/이번달 운세 계산 | 재방문 유도 핵심 기능 |
+| 도화살 계산 로직 | `lib/calculator/sinsal-calculator.ts` | 생년월일로 실제 신살 계산 | 개인화 분석 강화 |
+
+---
+
+### 🟢 우선순위 4 - 다국어 완성 (제미나이 작업 진행 중)
+
+| 작업 | 파일 | 내용 | 상태 |
+|---|---|---|---|
+| result-generator.ts 영문화 | `lib/calculator/result-generator.ts` | 1차 완료, 2차·3차 작업 지시서 전달됨 | 🔄 진행 중 |
+| cheongan.ts 영문 필드 추가 | `lib/data/saju/cheongan.ts` | meaningEn, careerEn, relationshipEn | 🔄 진행 중 |
+| mbti/types.ts 영문 필드 추가 | `lib/data/mbti/types.ts` | nicknameEn, careerEn, relationEn | 🔄 진행 중 |
+| suri81.ts 영문 필드 추가 | `lib/data/name/suri81.ts` | summaryEn 81개 | 🔄 진행 중 |
+| 일본어(ja) 전체 번역 | `result-generator.ts` 외 | 영문 완성 후 다음 단계 | ⏳ 대기 |
+| 중국어(zh) 전체 번역 | `result-generator.ts` 외 | 영문 완성 후 다음 단계 | ⏳ 대기 |
+
+---
+
+### 📋 제미나이 작업 지시서 위치
+
+| 파일 | 내용 |
+|---|---|
+| `md-docs/GEMINI_TASK.md` | 1차 지시서 - result-generator.ts locale 파라미터 추가 |
+| `md-docs/GEMINI_TASK_2.md` | 2차 지시서 - cheongan.ts, mbti/types.ts 영문 필드 추가 |
+| `md-docs/GEMINI_TASK_3.md` | 3차 지시서 - 잔존 한국어 8곳 정밀 수정 (suri81.ts 포함) |
+
+---
+
+## 📅 마지막 업데이트: 2026-02-23
