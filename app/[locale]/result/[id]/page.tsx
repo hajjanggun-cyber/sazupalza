@@ -65,19 +65,19 @@ function SectionCard({ section }: { section: ResultSection }) {
   );
 }
 
-function GuardianCard({ guardian }: { guardian: Guardian }) {
+function GuardianCard({ guardian, locale }: { guardian: Guardian; locale: string }) {
   return (
     <div className="guardian-card mb-6">
       <div className="text-6xl mb-3">{guardian.emoji}</div>
       <div className="flex justify-center mb-3">
         <span className={`ohaeng-badge ohaeng-${guardian.key}`}>
-          {guardian.ohaeng} 오행
+          {locale === 'ko' ? `${guardian.ohaeng} 오행` : `${guardian.ohaeng} Element`}
         </span>
       </div>
       <h3 className="text-2xl font-bold text-yellow-200 mb-1">
-        나의 수호신: {guardian.nameKo}
+        {locale === 'ko' ? `나의 수호신: ${guardian.nameKo}` : `My Guardian: ${guardian.nameEn}`}
         <span className="text-sm font-normal text-yellow-200/60 ml-2">
-          ({guardian.nameEn})
+          ({locale === 'ko' ? guardian.nameEn : guardian.nameKo})
         </span>
       </h3>
       <div className="flex flex-wrap justify-center gap-1.5 mb-4">
@@ -91,17 +91,17 @@ function GuardianCard({ guardian }: { guardian: Guardian }) {
         ))}
       </div>
       <p className="text-purple-200/80 text-sm leading-relaxed mb-4">
-        {guardian.description}
+        {locale === 'ko' ? guardian.description : guardian.descriptionEn || guardian.description}
       </p>
       <div className="bg-yellow-900/20 border border-yellow-700/30 rounded-lg p-3">
         <p className="text-yellow-300 text-sm font-medium italic">
-          "{guardian.luckyMessage}"
+          "{locale === 'ko' ? guardian.luckyMessage : (guardian.luckyMessageEn || guardian.luckyMessage)}"
         </p>
       </div>
       <div className="mt-3 flex flex-wrap justify-center gap-4 text-xs text-purple-200/60">
-        <span>🎨 행운색: {guardian.luckyColor}</span>
-        <span>🧭 방향: {guardian.luckyDirection}</span>
-        <span>🔢 숫자: {guardian.luckyNumber.join(', ')}</span>
+        <span>🎨 {locale === 'ko' ? '행운색' : 'Color'}: {locale === 'ko' ? guardian.luckyColor : guardian.luckyColorEn || guardian.luckyColor}</span>
+        <span>🧭 {locale === 'ko' ? '방향' : 'Dir'}: {locale === 'ko' ? guardian.luckyDirection : guardian.luckyDirectionEn || guardian.luckyDirection}</span>
+        <span>🔢 {locale === 'ko' ? '숫자' : 'Num'}: {guardian.luckyNumber.join(', ')}</span>
       </div>
     </div>
   );
@@ -112,7 +112,7 @@ function GuardianCard({ guardian }: { guardian: Guardian }) {
 export default function ResultIdPage() {
   const params = useParams();
   const router = useRouter();
-  const locale = params.locale as string;
+  const locale = (params.locale as string) || 'ko';
   const id = params.id as string;
 
   // URL에서 즉시 디코딩 (useMemo → 첫 렌더부터 사용 가능)
@@ -155,13 +155,14 @@ export default function ResultIdPage() {
           }
         })(),
         mbtiType: inputData.mbti,
+        locale,
       });
 
       setResult(comprehensiveResult);
     } catch (err) {
       console.error('결과 생성 오류:', err);
     }
-  }, [inputData]);
+  }, [inputData, locale]);
 
   const handleCopyLink = async () => {
     try {
@@ -179,8 +180,10 @@ export default function ResultIdPage() {
       win.Kakao.Share.sendDefault({
         objectType: 'feed',
         content: {
-          title: `${inputData?.name}님의 사주팔자 분석 결과`,
-          description: `종합 ${result?.scores.total}점 · 수호신 ${result?.guardian.nameKo}`,
+          title: locale === 'ko' ? `${inputData?.name}님의 사주팔자 분석 결과` : `Analysis Result for ${inputData?.name}`,
+          description: locale === 'ko' 
+            ? `종합 ${result?.scores.total}점 · 수호신 ${result?.guardian.nameKo}`
+            : `Total Score: ${result?.scores.total} · Guardian: ${result?.guardian.nameEn}`,
           imageUrl: `${window.location.origin}${window.location.pathname}/opengraph-image`,
           link: {
             mobileWebUrl: window.location.href,
@@ -215,12 +218,12 @@ export default function ResultIdPage() {
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center px-6">
           <div className="text-4xl mb-4">⚠️</div>
-          <p className="text-yellow-200 mb-6">분석 중 오류가 발생했습니다.</p>
+          <p className="text-yellow-200 mb-6">{locale === 'ko' ? '분석 중 오류가 발생했습니다.' : 'Error during analysis.'}</p>
           <button
             className="btn-secondary"
             onClick={() => router.push(`/${locale}`)}
           >
-            처음으로 돌아가기
+            {locale === 'ko' ? '처음으로 돌아가기' : 'Back to Home'}
           </button>
         </div>
       </div>
@@ -230,8 +233,24 @@ export default function ResultIdPage() {
   const ratingColor = (score: number) =>
     score >= 80 ? 'text-yellow-400' : score >= 65 ? 'text-green-400' : 'text-blue-400';
 
-  const scoreLabel = (score: number) =>
-    score >= 85 ? '매우 좋음' : score >= 75 ? '좋음' : score >= 65 ? '보통' : '개선 여지';
+  const scoreLabel = (score: number) => {
+    if (locale === 'ko') {
+      return score >= 85 ? '매우 좋음' : score >= 75 ? '좋음' : score >= 65 ? '보통' : '개선 여지';
+    } else {
+      return score >= 85 ? 'Excellent' : score >= 75 ? 'Great' : score >= 65 ? 'Good' : 'Needs Improvement';
+    }
+  };
+
+  const getSajuLabel = (label: string) => {
+    if (locale === 'ko') return label;
+    const map: Record<string, string> = {
+      '사주팔자': 'Four Pillars',
+      '성명학': 'Name Analysis',
+      '관상': 'Face Reading',
+      'MBTI 오행': 'MBTI Element'
+    };
+    return map[label] || label;
+  };
 
   return (
     <div className="min-h-screen">
@@ -248,11 +267,13 @@ export default function ResultIdPage() {
         <div className="text-center mb-8 fade-in-up">
           <div className="text-5xl mb-3">🔮</div>
           <h1 className="text-2xl md:text-3xl font-bold text-yellow-100 mb-2">
-            {inputData.name}님의 종합 분석 결과
+            {locale === 'ko' ? `${inputData.name}님의 종합 분석 결과` : `Comprehensive Analysis for ${inputData.name}`}
           </h1>
           <p className="text-yellow-200/60 text-sm">
-            {inputData.year}년 {inputData.month}월 {inputData.day}일
-            {inputData.hour !== undefined && ` · ${inputData.hour}시생`}
+            {locale === 'ko' 
+              ? `${inputData.year}년 ${inputData.month}월 ${inputData.day}일`
+              : `${inputData.month}/${inputData.day}/${inputData.year}`}
+            {inputData.hour !== undefined && (locale === 'ko' ? ` · ${inputData.hour}시생` : ` · ${inputData.hour}:00`)}
             {inputData.mbti && ` · ${inputData.mbti}`}
           </p>
         </div>
@@ -276,9 +297,9 @@ export default function ResultIdPage() {
               .map((item) => (
                 <div key={item.label}>
                   <div className="flex justify-between text-sm mb-1">
-                    <span className="text-yellow-200/70">{item.label}</span>
+                    <span className="text-yellow-200/70">{getSajuLabel(item.label)}</span>
                     <span className={`font-bold ${ratingColor(item.score)}`}>
-                      {item.score}점
+                      {item.score}{locale === 'ko' ? '점' : ' pts'}
                     </span>
                   </div>
                   <div className="score-bar">
@@ -290,11 +311,13 @@ export default function ResultIdPage() {
         </div>
 
         {/* ── 수호신 카드 ── */}
-        <GuardianCard guardian={result.guardian} />
+        <GuardianCard guardian={result.guardian} locale={locale} />
 
         {/* ── 핵심 요약 ── */}
         <div className="card-dark p-6 mb-6">
-          <h2 className="text-lg font-bold text-yellow-400 mb-4">📝 핵심 요약</h2>
+          <h2 className="text-lg font-bold text-yellow-400 mb-4">
+            {locale === 'ko' ? '📝 핵심 요약' : '📝 Core Summary'}
+          </h2>
           <div className="space-y-3">
             {result.summaryLines.map((line, i) => (
               <div key={i} className="flex gap-3 items-start">
@@ -308,16 +331,17 @@ export default function ResultIdPage() {
         {/* ── 분석 근거 ── */}
         <div className="mb-6 bg-purple-900/20 border border-purple-700/30 rounded-xl p-4">
           <p className="text-purple-300/90 text-xs font-bold mb-2 tracking-wide">
-            📊 분석 근거
+            {locale === 'ko' ? '📊 분석 근거' : '📊 Analysis Basis'}
           </p>
           <div className="space-y-1 text-xs text-purple-200/70">
             <p>{result.analysisBox.ilgan}</p>
             <p>{result.analysisBox.wolji}</p>
             <p>
-              수리: 원격 {result.analysisBox.wongyeok}수 / 형격{' '}
-              {result.analysisBox.hyeongyeok}수
+              {locale === 'ko' 
+                ? `수리: 원격 ${result.analysisBox.wongyeok}수 / 형격 ${result.analysisBox.hyeongyeok}수`
+                : `Suri: Won-Gyeok ${result.analysisBox.wongyeok} / Hyeong-Gyeok ${result.analysisBox.hyeongyeok}`}
             </p>
-            <p>소리오행: {result.analysisBox.soundOhaeng}</p>
+            <p>{locale === 'ko' ? '소리오행: ' : 'Sound Elements: '}{result.analysisBox.soundOhaeng}</p>
             {result.analysisBox.mbtiOhaeng && (
               <p>{result.analysisBox.mbtiOhaeng}</p>
             )}
@@ -374,29 +398,35 @@ export default function ResultIdPage() {
           result.missingItems.photo) && (
           <div className="card-dark p-5 mb-6">
             <p className="text-yellow-300/90 text-sm font-bold mb-3">
-              💡 더 정확한 분석을 원하신다면
+              {locale === 'ko' ? '💡 더 정확한 분석을 원하신다면' : '💡 For More Precise Analysis'}
             </p>
             <div className="space-y-2">
               {result.missingItems.mbti && (
                 <p className="text-yellow-200/60 text-sm">
-                  · MBTI를 입력하면 성격-운세 교차 분석이 추가됩니다
+                  {locale === 'ko' 
+                    ? '· MBTI를 입력하면 성격-운세 교차 분석이 추가됩니다'
+                    : '· Enter MBTI for personality-fortune cross analysis'}
                 </p>
               )}
               {result.missingItems.time && (
                 <p className="text-yellow-200/60 text-sm">
-                  · 태어난 시간을 입력하면 시주(時柱) 세밀 분석이 가능합니다
+                  {locale === 'ko'
+                    ? '· 태어난 시간을 입력하면 시주(時柱) 세밀 분석이 가능합니다'
+                    : '· Enter birth time for detailed Pillar analysis'}
                 </p>
               )}
               {result.missingItems.photo && (
                 <p className="text-yellow-200/60 text-sm">
-                  · 사진을 추가하면 관상 분석이 포함됩니다
+                  {locale === 'ko'
+                    ? '· 사진을 추가하면 관상 분석이 포함됩니다'
+                    : '· Add a photo for face reading analysis'}
                 </p>
               )}
               <button
                 className="btn-secondary w-full mt-3 text-sm"
                 onClick={() => router.push(`/${locale}`)}
               >
-                다시 분석하기
+                {locale === 'ko' ? '다시 분석하기' : 'Analyze Again'}
               </button>
             </div>
           </div>
@@ -405,10 +435,9 @@ export default function ResultIdPage() {
         {/* ── 면책 문구 ── */}
         <div className="bg-yellow-900/10 border border-yellow-900/20 rounded-xl p-4 mb-6">
           <p className="text-yellow-200/40 text-xs leading-relaxed text-center">
-            본 분석은 전통 동양철학 이론을 기반으로 생성된 참고 자료입니다.
-            재미와 자기 이해를 위한 용도로 활용하시고, 중요한 결정은 전문가와
-            상담하시기 바랍니다. 같은 생년월일시로 분석하면 항상 동일한 결과가
-            나옵니다.
+            {locale === 'ko' 
+              ? '본 분석은 전통 동양철학 이론을 기반으로 생성된 참고 자료입니다. 재미와 자기 이해를 위한 용도로 활용하시고, 중요한 결정은 전문가와 상담하시기 바랍니다. 같은 생년월일시로 분석하면 항상 동일한 결과가 나옵니다.'
+              : 'This analysis is based on traditional Eastern philosophy. Please use it for entertainment and self-understanding. Consult a professional for important decisions. Same birth data always yields the same results.'}
           </p>
         </div>
 
@@ -419,28 +448,54 @@ export default function ResultIdPage() {
             onClick={handleKakaoShare}
           >
             <span>💬</span>
-            <span>카카오톡 공유</span>
+            <span>{locale === 'ko' ? '카카오톡 공유' : 'Share Kakao'}</span>
           </button>
           <button
             className="share-btn share-link flex-1 justify-center"
             onClick={handleCopyLink}
           >
             <span>{copied ? '✅' : '🔗'}</span>
-            <span>{copied ? '복사됨!' : '링크 복사'}</span>
+            <span>{copied ? (locale === 'ko' ? '복사됨!' : 'Copied!') : (locale === 'ko' ? '링크 복사' : 'Copy Link')}</span>
           </button>
         </div>
 
         {/* ── 관련 글 ── */}
         <div className="mb-8">
-          <h2 className="text-xl font-bold text-yellow-100 mb-4">관련 글 더보기</h2>
+          <h2 className="text-xl font-bold text-yellow-100 mb-4">
+            {locale === 'ko' ? '관련 글 더보기' : 'More Related Articles'}
+          </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             {[
-              { title: '사주팔자 기초: 천간지지란 무엇인가', href: `/${locale}/saju` },
-              { title: '성명학으로 이름 운세 알아보기', href: `/${locale}/name` },
-              { title: '관상으로 보는 성격과 운명', href: `/${locale}/face` },
-              { title: 'MBTI와 사주의 신기한 연관성', href: `/${locale}/mbti` },
-              { title: '오행(五行) 완벽 이해 가이드', href: `/${locale}/saju` },
-              { title: '사주로 알아보는 직업 적성', href: `/${locale}/saju` },
+              { 
+                titleKo: '사주팔자 기초: 천간지지란 무엇인가', 
+                titleEn: 'Four Pillars Basics: What is Cheongan Jiji?',
+                href: `/${locale}/saju` 
+              },
+              { 
+                titleKo: '성명학으로 이름 운세 알아보기', 
+                titleEn: 'Learn Fortune through Name Analysis',
+                href: `/${locale}/name` 
+              },
+              { 
+                titleKo: '관상으로 보는 성격과 운명', 
+                titleEn: 'Personality and Fate via Face Reading',
+                href: `/${locale}/face` 
+              },
+              { 
+                titleKo: 'MBTI와 사주의 신기한 연관성', 
+                titleEn: 'Mysterious Link between MBTI and Saju',
+                href: `/${locale}/mbti` 
+              },
+              { 
+                titleKo: '오행(五行) 완벽 이해 가이드', 
+                titleEn: 'Perfect Guide to the Five Elements',
+                href: `/${locale}/saju` 
+              },
+              { 
+                titleKo: '사주로 알아보는 직업 적성', 
+                titleEn: 'Career Aptitude via Four Pillars',
+                href: `/${locale}/saju` 
+              },
             ].map((post, i) => (
               <a
                 key={i}
@@ -448,7 +503,7 @@ export default function ResultIdPage() {
                 className="card-dark p-4 hover:border-yellow-500/40 transition-all group"
               >
                 <p className="text-yellow-200/80 text-sm group-hover:text-yellow-300 transition-colors">
-                  📄 {post.title}
+                  📄 {locale === 'ko' ? post.titleKo : post.titleEn}
                 </p>
               </a>
             ))}
@@ -465,3 +520,4 @@ export default function ResultIdPage() {
     </div>
   );
 }
+
