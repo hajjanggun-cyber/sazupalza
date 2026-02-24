@@ -31,17 +31,17 @@ export default async function NamePage({ params: { locale } }: Props) {
 
   const nameElements = isKo
     ? [
-        { icon: '🔢', title: '수리(數理) 분석', desc: '이름 획수의 합산으로 알아보는 81가지 운세 수리. 원격·형격·이격·정격의 4가지 수리를 분석합니다.' },
-        { icon: '🎵', title: '소리오행 분석', desc: '이름 자음의 소리가 나타내는 오행(木火土金水)의 기운과 상생·상극 관계를 분석합니다.' },
-        { icon: '⚡', title: '획수 오행', desc: '이름 획수의 홀짝에 따른 음양 분류와 오행 속성을 분석합니다.' },
-        { icon: '🔗', title: '사주 연계', desc: '사주 일간의 오행과 이름 오행의 조화를 분석하여 시너지를 확인합니다.' },
-      ]
+      { icon: '🔢', title: '수리(數理) 분석', desc: '이름 획수의 합산으로 알아보는 81가지 운세 수리. 원격·형격·이격·정격의 4가지 수리를 분석합니다.' },
+      { icon: '🎵', title: '소리오행 분석', desc: '이름 자음의 소리가 나타내는 오행(木火土金水)의 기운과 상생·상극 관계를 분석합니다.' },
+      { icon: '⚡', title: '획수 오행', desc: '이름 획수의 홀짝에 따른 음양 분류와 오행 속성을 분석합니다.' },
+      { icon: '🔗', title: '사주 연계', desc: '사주 일간의 오행과 이름 오행의 조화를 분석하여 시너지를 확인합니다.' },
+    ]
     : [
-        { icon: '🔢', title: 'Numerology Analysis', desc: 'Analyzes 81 types of fortune through the sum of name strokes: Won, Hyeong, I, and Jeong patterns.' },
-        { icon: '🎵', title: 'Sound Element Analysis', desc: 'Analyzes the Five Elements energy from the consonant sounds of the name and their mutual relationships.' },
-        { icon: '⚡', title: 'Stroke Elements', desc: 'Analyzes Yin-Yang classification and Five Element attributes based on stroke count.' },
-        { icon: '🔗', title: 'Four Pillars Integration', desc: 'Analyzes harmony between the Day Stem element and name elements.' },
-      ];
+      { icon: '🔢', title: 'Numerology Analysis', desc: 'Analyzes 81 types of fortune through the sum of name strokes: Won, Hyeong, I, and Jeong patterns.' },
+      { icon: '🎵', title: 'Sound Element Analysis', desc: 'Analyzes the Five Elements energy from the consonant sounds of the name and their mutual relationships.' },
+      { icon: '⚡', title: 'Stroke Elements', desc: 'Analyzes Yin-Yang classification and Five Element attributes based on stroke count.' },
+      { icon: '🔗', title: 'Four Pillars Integration', desc: 'Analyzes harmony between the Day Stem element and name elements.' },
+    ];
 
   const suriExamples = [
     { num: 1, name: isKo ? '태초수' : 'Beginning', rating: isKo ? '대길' : 'Very Good', color: 'text-yellow-400' },
@@ -53,15 +53,15 @@ export default async function NamePage({ params: { locale } }: Props) {
 
   const faqs = isKo
     ? [
-        { q: '성명학이란 무엇인가요?', a: '성명학(姓名學)은 이름의 획수, 소리, 한자 자원 등을 분석하여 이름이 가진 기운과 의미를 알아보는 전통 학문입니다. 한국, 중국, 일본에서 오랫동안 이름을 지을 때 참고해온 방법론입니다.' },
-        { q: '외국 이름도 분석이 되나요?', a: '본 서비스는 한글 이름을 중심으로 분석합니다. 한글로 표기된 이름이라면 소리오행 분석이 가능합니다. 외국 이름의 경우 분석 정확도가 제한될 수 있습니다.' },
-        { q: '이름을 바꾸면 운이 바뀌나요?', a: '성명학은 이름이 가진 기운을 분석하는 참고 자료입니다. 중요한 결정은 전문가와 상담하시기 바랍니다. 본 서비스는 재미와 자기 이해를 위한 용도로만 활용해 주세요.' },
-      ]
+      { q: '성명학이란 무엇인가요?', a: '성명학(姓名學)은 이름의 획수, 소리, 한자 자원 등을 분석하여 이름이 가진 기운과 의미를 알아보는 전통 학문입니다. 한국, 중국, 일본에서 오랫동안 이름을 지을 때 참고해온 방법론입니다.' },
+      { q: '외국 이름도 분석이 되나요?', a: '본 서비스는 한글 이름을 중심으로 분석합니다. 한글로 표기된 이름이라면 소리오행 분석이 가능합니다. 외국 이름의 경우 분석 정확도가 제한될 수 있습니다.' },
+      { q: '이름을 바꾸면 운이 바뀌나요?', a: '성명학은 이름이 가진 기운을 분석하는 참고 자료입니다. 중요한 결정은 전문가와 상담하시기 바랍니다. 본 서비스는 재미와 자기 이해를 위한 용도로만 활용해 주세요.' },
+    ]
     : [
-        { q: 'What is Korean Name Reading?', a: 'Korean Name Reading (Seongmyeonghak) is a traditional discipline that analyzes the energy and meaning of names through stroke count, sound, and Chinese character origins. It has been referenced for naming in Korea, China, and Japan.' },
-        { q: 'Can foreign names be analyzed?', a: 'This service primarily analyzes Korean names. Names written in Korean script (Hangul) can be analyzed for sound elements. Analysis accuracy may be limited for foreign names.' },
-        { q: 'Will changing my name change my fortune?', a: 'Name reading provides reference information about the energy contained in names. For important decisions, please consult with a professional. Use this service only for entertainment and self-understanding purposes.' },
-      ];
+      { q: 'What is Korean Name Reading?', a: 'Korean Name Reading (Seongmyeonghak) is a traditional discipline that analyzes the energy and meaning of names through stroke count, sound, and Chinese character origins. It has been referenced for naming in Korea, China, and Japan.' },
+      { q: 'Can foreign names be analyzed?', a: 'This service primarily analyzes Korean names. Names written in Korean script (Hangul) can be analyzed for sound elements. Analysis accuracy may be limited for foreign names.' },
+      { q: 'Will changing my name change my fortune?', a: 'Name reading provides reference information about the energy contained in names. For important decisions, please consult with a professional. Use this service only for entertainment and self-understanding purposes.' },
+    ];
 
   const baseUrl = 'https://sajupalza.com';
   const canonicalUrl = `${baseUrl}/${locale}/name`;
@@ -196,7 +196,7 @@ export default async function NamePage({ params: { locale } }: Props) {
                 href={`/${locale}/name-reading/${post.slug}`}
                 className="card-dark p-4 flex items-center justify-between group border border-transparent hover:border-yellow-500/40 transition-colors"
               >
-                <span className="text-yellow-200/80 text-sm leading-snug">{isKo ? post.title : (post.seoTitleEn || post.title)}</span>
+                <span className="text-yellow-200/80 text-sm leading-snug">{isKo ? (post.seoTitle || post.title) : (post.seoTitleEn || post.title)}</span>
                 <span className="text-yellow-500 ml-3 shrink-0 group-hover:translate-x-1 transition-transform">→</span>
               </Link>
             ))}

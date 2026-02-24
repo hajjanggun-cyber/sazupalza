@@ -25,7 +25,7 @@ export default function BlogPostPage({ post, locale }: Props) {
 
   // 언어별 제목 선택 (본문용)
   // 영문 모드일 때 seoTitleEn이 없으면 최소한 영문 텍스트를 출력하도록 보강
-  const displayTitle = isKo ? post.title : (post.seoTitleEn || 'Detailed Analysis Report');
+  const displayTitle = isKo ? (post.seoTitle || post.title) : (post.seoTitleEn || post.title);
 
   // 언어별 카테고리명 선택
   const displayCategory = isKo
