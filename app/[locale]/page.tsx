@@ -238,9 +238,15 @@ export default async function HomePage({ params: { locale } }: Props) {
             </div>
             {/* 분석 근거 샘플 */}
             <div className="mt-4 text-yellow-200/70 text-sm space-y-2 border-t border-yellow-900/30 pt-4">
-              <p>일간: 경금(庚金) | 월지: 계묘(癸卯)</p>
-              <p>수리: 원격28수(길) / 형격15수(대길)</p>
-              <p>소리오행: 목-금-수 (상생) · 수호신: 백호 🐯</p>
+              <p>
+                {locale === 'ko' ? '일간: 경금(庚金) | 월지: 계묘(癸卯)' : 'Day Stem: Gyeong-Metal(庚金) | Month: Gye-Myo(癸卯)'}
+              </p>
+              <p>
+                {locale === 'ko' ? '수리: 원격28수(길) / 형격15수(대길)' : 'Suri: Won-Gyeok 28(Good) / Hyeong-Gyeok 15(Great)'}
+              </p>
+              <p>
+                {locale === 'ko' ? '소리오행: 목-금-수 (상생) · 수호신: 백호 🐯' : 'Elements: Wood-Metal-Water (Harmonious) · Guardian: White Tiger 🐯'}
+              </p>
               <p className="text-yellow-400 font-medium">{t('home.previewNote')}</p>
             </div>
           </div>

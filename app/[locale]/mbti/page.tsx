@@ -134,6 +134,7 @@ export default async function MbtiPage({ params: { locale } }: Props) {
         <AdSense slot="1122334455" format="horizontal" className="max-w-full" />
       </div>
 
+
       <main>
         {/* 히어로 섹션 */}
         <section className="relative py-14 px-4 text-center">

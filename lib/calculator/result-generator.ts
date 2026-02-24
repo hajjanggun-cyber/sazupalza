@@ -789,17 +789,17 @@ export function generateResult(params: {
   const guardian = getGuardianByOhaeng(strongOhaeng);
 
   const analysisBox = {
-    ilgan: `일간: ${saju.ilgan}(${getIlganHanja(saju.ilgan)})`,
-    wolji: `월지: ${saju.month.jiji}(${getJijiHanja(saju.month.jiji)})`,
+    ilgan: locale === 'ko' ? `일간: ${saju.ilgan}(${getIlganHanja(saju.ilgan)})` : `Day Stem: ${saju.ilgan}(${getIlganHanja(saju.ilgan)})`,
+    wolji: locale === 'ko' ? `월지: ${saju.month.jiji}(${getJijiHanja(saju.month.jiji)})` : `Month Branch: ${saju.month.jiji}(${getJijiHanja(saju.month.jiji)})`,
     wongyeok: name.wongyeok,
     hyeongyeok: name.hyeongyeok,
     soundOhaeng: (name.soundOhaengList?.join('-') || '') +
       (locale === 'ko' 
         ? (name.soundOhaengRelation?.includes('상생') ? ' (상생)' :
            name.soundOhaengRelation?.includes('중화') ? ' (중화)' : ' (상극)')
-        : (name.soundOhaengRelation?.includes('상생') ? ' (Mutual Gen.)' :
-           name.soundOhaengRelation?.includes('중화') ? ' (Neutral)' : ' (Mutual Over.)')),
-    mbtiOhaeng: mbtiType ? `MBTI: ${mbtiType} → ${locale === 'ko' ? '오행' : 'Element'} ${mbtiToOhaeng(mbtiType)} ${locale === 'ko' ? '매핑' : 'Mapping'}` : undefined,
+        : (name.soundOhaengRelation?.includes('상생') ? ' (Harmonious)' :
+           name.soundOhaengRelation?.includes('중화') ? ' (Balanced)' : ' (Conflicting)')),
+    mbtiOhaeng: mbtiType ? `MBTI: ${mbtiType} → ${locale === 'ko' ? '오행' : 'Element'} ${translateData(mbtiToOhaeng(mbtiType), locale)} ${locale === 'ko' ? '매핑' : 'Mapping'}` : undefined,
   };
 
   const wonRating = name.suriAnalysis?.wongyeok?.rating || 'neutral';
@@ -808,7 +808,7 @@ export function generateResult(params: {
     `성명의 기운이 ${wonRating === 'great' || wonRating === 'good' ? '좋은' : '중립적인'} 방향으로 작용하는 경향이 있습니다`,
     `수호신 ${guardian.nameKo}(${guardian.emoji})의 기운이 함께합니다. ${guardian.luckyMessage}`,
   ] : [
-    `Your Day Stem is ${saju.ilgan}, with a strong tendency toward ${strongOhaeng} energy`,
+    `${saju.ilgan} Day Stem with a strong tendency toward ${translateData(strongOhaeng, locale)} energy`,
     `The energy of your name tends to work in a ${wonRating === 'great' || wonRating === 'good' ? 'positive' : 'neutral'} direction`,
     `Guardian ${guardian.nameEn} (${guardian.emoji}) is with you. ${guardian.luckyMessageEn ?? guardian.luckyMessage}`,
   ];

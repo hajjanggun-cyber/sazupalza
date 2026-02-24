@@ -25,11 +25,11 @@ function calcFaceShape(pts: { x: number; y: number }[]): string {
   const faceHeight    = pts[8].y - (pts[19].y + pts[24].y) / 2;
   const ratio         = faceHeight / jawWidth;
 
-  if (ratio > 1.4)                      return '계란형';
-  if (jawWidth > cheekWidth * 0.95)     return '각진형';
-  if (foreheadWidth > jawWidth * 1.15)  return '역삼각형';
-  if (ratio < 1.0)                      return '둥근형';
-  return '타원형';
+  if (ratio > 1.4)                      return 'oval_long';
+  if (jawWidth > cheekWidth * 0.95)     return 'square';
+  if (foreheadWidth > jawWidth * 1.15)  return 'triangle_inv';
+  if (ratio < 1.0)                      return 'round';
+  return 'oval';
 }
 
 // ── 좌우 대칭도 → 점수(60~95) ──
@@ -50,42 +50,51 @@ function calcSymmetryScore(pts: { x: number; y: number }[]): number {
 // ── 얼굴형 + 지배 표정 → 관상 특징 & 요약 ──
 function buildFaceFeatures(
   shape: string,
-  expressions: Record<string, number>
+  expressions: Record<string, number>,
+  isEn: boolean
 ): { mainFeatures: string[]; summary: string } {
   const shapeFeatures: Record<string, string[]> = {
-    타원형:   ['균형 잡힌 이목구비', '우아한 인상'],
-    둥근형:   ['온화한 인상', '친근감 있는 얼굴'],
-    각진형:   ['의지 있는 인상', '강인한 이미지'],
-    역삼각형: ['지적인 인상', '날카로운 이목구비'],
-    계란형:   ['세련된 인상', '이상적인 비율'],
+    oval:      isEn ? ['Balanced features', 'Elegant impression'] : ['균형 잡힌 이목구비', '우아한 인상'],
+    round:     isEn ? ['Gentle impression', 'Friendly face'] : ['온화한 인상', '친근감 있는 얼굴'],
+    square:    isEn ? ['Strong-willed', 'Powerful image'] : ['의지 있는 인상', '강인한 이미지'],
+    triangle_inv: isEn ? ['Intellectual impression', 'Sharp features'] : ['지적인 인상', '날카로운 이목구비'],
+    oval_long: isEn ? ['Sophisticated look', 'Ideal proportions'] : ['세련된 인상', '이상적인 비율'],
+  };
+
+  const shapeNames: Record<string, string> = {
+    oval: isEn ? 'Oval' : '타원형',
+    round: isEn ? 'Round' : '둥근형',
+    square: isEn ? 'Square' : '각진형',
+    triangle_inv: isEn ? 'Heart-shaped' : '역삼각형',
+    oval_long: isEn ? 'Long Oval' : '계란형',
   };
 
   const shapeDesc: Record<string, string> = {
-    타원형:   '균형 잡힌 관상으로 대인관계에 유리한 기운이 있습니다',
-    둥근형:   '온화하고 원만한 인상으로 주변에 좋은 기운을 주는 경향이 있습니다',
-    각진형:   '결단력과 의지력이 강하게 드러나는 관상입니다',
-    역삼각형: '총명하고 예리한 기운이 강한 지적 인상입니다',
-    계란형:   '전반적으로 균형 잡힌 기운을 가진 이상적인 관상입니다',
+    oval:      isEn ? 'A balanced face shape that favors interpersonal relationships.' : '균형 잡힌 관상으로 대인관계에 유리한 기운이 있습니다',
+    round:     isEn ? 'A gentle and rounded impression that tends to bring good energy to others.' : '온화하고 원만한 인상으로 주변에 좋은 기운을 주는 경향이 있습니다',
+    square:    isEn ? 'A physiognomy where determination and willpower are strongly revealed.' : '결단력과 의지력이 강하게 드러나는 관상입니다',
+    triangle_inv: isEn ? 'An intellectual impression with strong intelligence and sharp energy.' : '총명하고 예리한 기운이 강한 지적 인상입니다',
+    oval_long: isEn ? 'An ideal physiognomy with overall well-balanced energy.' : '전반적으로 균형 잡힌 기운을 가진 이상적인 관상입니다',
   };
 
   const expressionFeature: Record<string, string> = {
-    happy:     '밝고 긍정적인 에너지',
-    neutral:   '차분하고 신뢰감 있는 인상',
-    surprised: '생기 있고 호기심 넘치는 눈빛',
-    sad:       '감수성이 풍부한 섬세한 인상',
-    angry:     '강한 카리스마와 존재감',
-    fearful:   '예민한 감각과 직관력',
-    disgusted: '뚜렷한 자기 기준과 원칙',
+    happy:     isEn ? 'Bright and positive energy' : '밝고 긍정적인 에너지',
+    neutral:   isEn ? 'Calm and trustworthy impression' : '차분하고 신뢰감 있는 인상',
+    surprised: isEn ? 'Lively and curious eyes' : '생기 있고 호기심 넘치는 눈빛',
+    sad:       isEn ? 'Sensitive and delicate impression' : '감수성이 풍부한 섬세한 인상',
+    angry:     isEn ? 'Strong charisma and presence' : '강한 카리스마와 존재감',
+    fearful:   isEn ? 'Acute senses and intuition' : '예민한 감각과 직관력',
+    disgusted: isEn ? 'Clear self-standards and principles' : '뚜렷한 자기 기준과 원칙',
   };
 
   const dominant = Object.entries(expressions).sort((a, b) => b[1] - a[1])[0]?.[0] ?? 'neutral';
 
   return {
     mainFeatures: [
-      ...(shapeFeatures[shape] ?? ['균형 잡힌 이목구비']),
-      expressionFeature[dominant] ?? '안정적인 인상',
+      ...(shapeFeatures[shape] ?? [isEn ? 'Balanced features' : '균형 잡힌 이목구비']),
+      expressionFeature[dominant] ?? (isEn ? 'Stable impression' : '안정적인 인상'),
     ],
-    summary: shapeDesc[shape] ?? '균형 잡힌 관상으로 대인관계에 유리한 기운이 있습니다',
+    summary: shapeDesc[shape] ?? (isEn ? 'Balanced energy' : '균형 잡힌 기운'),
   };
 }
 
@@ -106,6 +115,9 @@ interface Props {
 
 export default function Step5Photo({ onPhotoCapture, onSkip, onPrev }: Props) {
   const t = useTranslations('steps');
+  const navT = useTranslations('nav');
+  const isEn = navT('logo') === 'SajuPalza';
+  
   const fileInputRef = useRef<HTMLInputElement>(null);
   const [preview, setPreview]   = useState<string | null>(null);
   const [uploading, setUploading] = useState(false);
@@ -149,14 +161,17 @@ export default function Step5Photo({ onPhotoCapture, onSkip, onPrev }: Props) {
           sessionStorage.removeItem('faceAnalysisResult');
         } else {
           const pts   = detection.landmarks.positions;
-          const shape = calcFaceShape(pts);
+          const shapeKey = calcFaceShape(pts);
           const score = calcSymmetryScore(pts);
+          
+          // 여기서 isEn 전달
           const { mainFeatures, summary } = buildFaceFeatures(
-            shape,
-            detection.expressions as unknown as Record<string, number>
+            shapeKey,
+            detection.expressions as unknown as Record<string, number>,
+            isEn
           );
 
-          const result: FaceAnalysisResult = { faceShape: shape, mainFeatures, score, summary };
+          const result: FaceAnalysisResult = { faceShape: shapeKey, mainFeatures, score, summary };
           sessionStorage.setItem('faceAnalysisResult', JSON.stringify(result));
         }
       } catch (err) {

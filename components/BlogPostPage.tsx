@@ -95,7 +95,7 @@ export default function BlogPostPage({ post, locale }: Props) {
           <span className="text-yellow-300/80">{displayTitle}</span>
         </nav>
 
-        {/* 제목 (날짜 정보가 완전히 삭제됨) */}
+        {/* 제목 */}
         <h1 className="text-2xl md:text-3xl font-bold text-white mb-10 leading-snug">{displayTitle}</h1>
 
         {/* 목차 */}
@@ -119,12 +119,16 @@ export default function BlogPostPage({ post, locale }: Props) {
 
         {/* 본문 */}
         {(() => {
-          const content = isKo ? post.contentKo : (post.contentEn || post.contentKo);
+          // 데이터 유실 방지를 위한 3중 필터
+          const content = isKo 
+            ? (post.contentKo || (post as any).content || (post as any).contentKo) 
+            : (post.contentEn || post.contentKo || (post as any).content);
+            
           return content ? (
             <div className="prose-blog mb-8" dangerouslySetInnerHTML={{ __html: content }} />
           ) : (
             <div className="card-dark p-8 mb-8 text-center text-white/40">
-              {isKo ? '📝 콘텐츠 준비 중입니다.' : '📝 Content is being prepared.'}
+              {isKo ? '📝 콘텐츠 데이터를 불러오는 중입니다...' : '📝 Loading content data...'}
             </div>
           );
         })()}
