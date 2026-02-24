@@ -32,23 +32,23 @@ const MBTI_LIST = [
   'ISTP', 'ISFP', 'ESTP', 'ESFP',
 ];
 
-const MBTI_OHAENG: Record<string, { ohaeng: string; color: string }> = {
-  INTJ: { ohaeng: '금(金)', color: 'text-gray-300' },
-  INTP: { ohaeng: '금(金)', color: 'text-gray-300' },
-  ENTJ: { ohaeng: '금(金)', color: 'text-gray-300' },
-  ENTP: { ohaeng: '금(金)', color: 'text-gray-300' },
-  INFJ: { ohaeng: '목(木)', color: 'text-green-400' },
-  INFP: { ohaeng: '목(木)', color: 'text-green-400' },
-  ENFJ: { ohaeng: '목(木)', color: 'text-green-400' },
-  ENFP: { ohaeng: '목(木)', color: 'text-green-400' },
-  ISTJ: { ohaeng: '토(土)', color: 'text-yellow-500' },
-  ISFJ: { ohaeng: '토(土)', color: 'text-yellow-500' },
-  ESTJ: { ohaeng: '토(土)', color: 'text-yellow-500' },
-  ESFJ: { ohaeng: '토(土)', color: 'text-yellow-500' },
-  ISTP: { ohaeng: '수(水)', color: 'text-blue-400' },
-  ISFP: { ohaeng: '화(火)', color: 'text-red-400' },
-  ESTP: { ohaeng: '화(火)', color: 'text-red-400' },
-  ESFP: { ohaeng: '화(火)', color: 'text-red-400' },
+const MBTI_OHAENG: Record<string, { ohaeng: string; ohaengEn: string; color: string }> = {
+  INTJ: { ohaeng: '금(金)', ohaengEn: 'Metal (金)', color: 'text-gray-300' },
+  INTP: { ohaeng: '금(金)', ohaengEn: 'Metal (金)', color: 'text-gray-300' },
+  ENTJ: { ohaeng: '금(金)', ohaengEn: 'Metal (金)', color: 'text-gray-300' },
+  ENTP: { ohaeng: '금(金)', ohaengEn: 'Metal (金)', color: 'text-gray-300' },
+  INFJ: { ohaeng: '목(木)', ohaengEn: 'Wood (木)', color: 'text-green-400' },
+  INFP: { ohaeng: '목(木)', ohaengEn: 'Wood (木)', color: 'text-green-400' },
+  ENFJ: { ohaeng: '목(木)', ohaengEn: 'Wood (木)', color: 'text-green-400' },
+  ENFP: { ohaeng: '목(木)', ohaengEn: 'Wood (木)', color: 'text-green-400' },
+  ISTJ: { ohaeng: '토(土)', ohaengEn: 'Earth (土)', color: 'text-yellow-500' },
+  ISFJ: { ohaeng: '토(土)', ohaengEn: 'Earth (土)', color: 'text-yellow-500' },
+  ESTJ: { ohaeng: '토(土)', ohaengEn: 'Earth (土)', color: 'text-yellow-500' },
+  ESFJ: { ohaeng: '토(土)', ohaengEn: 'Earth (土)', color: 'text-yellow-500' },
+  ISTP: { ohaeng: '수(水)', ohaengEn: 'Water (水)', color: 'text-blue-400' },
+  ISFP: { ohaeng: '화(火)', ohaengEn: 'Fire (火)', color: 'text-red-400' },
+  ESTP: { ohaeng: '화(火)', ohaengEn: 'Fire (火)', color: 'text-red-400' },
+  ESFP: { ohaeng: '화(火)', ohaengEn: 'Fire (火)', color: 'text-red-400' },
 };
 
 export default async function MbtiPage({ params: { locale } }: Props) {
@@ -57,31 +57,31 @@ export default async function MbtiPage({ params: { locale } }: Props) {
 
   const groups = isKo
     ? [
-        { name: 'NT 분석가형', types: ['INTJ', 'INTP', 'ENTJ', 'ENTP'], ohaeng: '금(金)', color: 'text-gray-300', desc: '논리적 사고와 전략적 분석을 즐기는 경향이 있습니다' },
-        { name: 'NF 외교관형', types: ['INFJ', 'INFP', 'ENFJ', 'ENFP'], ohaeng: '목(木)', color: 'text-green-400', desc: '공감 능력과 이상을 추구하는 경향이 있습니다' },
-        { name: 'SJ 관리자형', types: ['ISTJ', 'ISFJ', 'ESTJ', 'ESFJ'], ohaeng: '토(土)', color: 'text-yellow-500', desc: '안정과 질서를 중시하는 경향이 있습니다' },
-        { name: 'SP 탐험가형', types: ['ISTP', 'ISFP', 'ESTP', 'ESFP'], ohaeng: '화(火)/수(水)', color: 'text-red-400', desc: '현재를 즐기고 유연하게 행동하는 경향이 있습니다' },
-      ]
+      { name: 'NT 분석가형', types: ['INTJ', 'INTP', 'ENTJ', 'ENTP'], ohaeng: '금(金)', color: 'text-gray-300', desc: '논리적 사고와 전략적 분석을 즐기는 경향이 있습니다' },
+      { name: 'NF 외교관형', types: ['INFJ', 'INFP', 'ENFJ', 'ENFP'], ohaeng: '목(木)', color: 'text-green-400', desc: '공감 능력과 이상을 추구하는 경향이 있습니다' },
+      { name: 'SJ 관리자형', types: ['ISTJ', 'ISFJ', 'ESTJ', 'ESFJ'], ohaeng: '토(土)', color: 'text-yellow-500', desc: '안정과 질서를 중시하는 경향이 있습니다' },
+      { name: 'SP 탐험가형', types: ['ISTP', 'ISFP', 'ESTP', 'ESFP'], ohaeng: '화(火)/수(水)', color: 'text-red-400', desc: '현재를 즐기고 유연하게 행동하는 경향이 있습니다' },
+    ]
     : [
-        { name: 'NT Analyst', types: ['INTJ', 'INTP', 'ENTJ', 'ENTP'], ohaeng: 'Metal (金)', color: 'text-gray-300', desc: 'Tends to enjoy logical thinking and strategic analysis' },
-        { name: 'NF Diplomat', types: ['INFJ', 'INFP', 'ENFJ', 'ENFP'], ohaeng: 'Wood (木)', color: 'text-green-400', desc: 'Tends to have empathy and pursue ideals' },
-        { name: 'SJ Sentinel', types: ['ISTJ', 'ISFJ', 'ESTJ', 'ESFJ'], ohaeng: 'Earth (土)', color: 'text-yellow-500', desc: 'Tends to value stability and order' },
-        { name: 'SP Explorer', types: ['ISTP', 'ISFP', 'ESTP', 'ESFP'], ohaeng: 'Fire (火)/Water (水)', color: 'text-red-400', desc: 'Tends to enjoy the present and act flexibly' },
-      ];
+      { name: 'NT Analyst', types: ['INTJ', 'INTP', 'ENTJ', 'ENTP'], ohaeng: 'Metal (金)', color: 'text-gray-300', desc: 'Tends to enjoy logical thinking and strategic analysis' },
+      { name: 'NF Diplomat', types: ['INFJ', 'INFP', 'ENFJ', 'ENFP'], ohaeng: 'Wood (木)', color: 'text-green-400', desc: 'Tends to have empathy and pursue ideals' },
+      { name: 'SJ Sentinel', types: ['ISTJ', 'ISFJ', 'ESTJ', 'ESFJ'], ohaeng: 'Earth (土)', color: 'text-yellow-500', desc: 'Tends to value stability and order' },
+      { name: 'SP Explorer', types: ['ISTP', 'ISFP', 'ESTP', 'ESFP'], ohaeng: 'Fire (火)/Water (水)', color: 'text-red-400', desc: 'Tends to enjoy the present and act flexibly' },
+    ];
 
   const faqs = isKo
     ? [
-        { q: 'MBTI와 사주는 어떻게 연결되나요?', a: 'MBTI의 사고 패턴과 행동 방식은 전통 동양철학의 오행(五行)과 흥미로운 연결점이 있습니다. NT형(분석가)은 금(金)의 날카로운 판단력, NF형(외교관)은 목(木)의 성장 추구, SJ형(관리자)은 토(土)의 안정성, SP형(탐험가)은 화(火)/수(水)의 활동성과 유연함에 대응하는 경향이 있습니다.' },
-        { q: '어떤 MBTI가 가장 좋은가요?', a: '모든 MBTI 유형에는 장점과 성장 포인트가 있으며, 우월한 유형은 없습니다. 사주와 마찬가지로 각 유형의 특성을 잘 이해하고 자신의 강점을 발휘하는 것이 중요합니다. 상황에 따라 모든 유형이 다른 가치를 발휘할 수 있습니다.' },
-        { q: 'MBTI를 모르면 어떻게 하나요?', a: 'MBTI 분석은 선택사항입니다. MBTI 없이도 이름과 생년월일만으로 사주팔자·성명학 분석을 받으실 수 있습니다. MBTI를 아시는 경우 더 풍부한 성격 분석 결과를 받으실 수 있습니다.' },
-      ]
+      { q: 'MBTI와 사주는 어떻게 연결되나요?', a: 'MBTI의 사고 패턴과 행동 방식은 전통 동양철학의 오행(五行)과 흥미로운 연결점이 있습니다. NT형(분석가)은 금(金)의 날카로운 판단력, NF형(외교관)은 목(木)의 성장 추구, SJ형(관리자)은 토(土)의 안정성, SP형(탐험가)은 화(火)/수(水)의 활동성과 유연함에 대응하는 경향이 있습니다.' },
+      { q: '어떤 MBTI가 가장 좋은가요?', a: '모든 MBTI 유형에는 장점과 성장 포인트가 있으며, 우월한 유형은 없습니다. 사주와 마찬가지로 각 유형의 특성을 잘 이해하고 자신의 강점을 발휘하는 것이 중요합니다. 상황에 따라 모든 유형이 다른 가치를 발휘할 수 있습니다.' },
+      { q: 'MBTI를 모르면 어떻게 하나요?', a: 'MBTI 분석은 선택사항입니다. MBTI 없이도 이름과 생년월일만으로 사주팔자·성명학 분석을 받으실 수 있습니다. MBTI를 아시는 경우 더 풍부한 성격 분석 결과를 받으실 수 있습니다.' },
+    ]
     : [
-        { q: 'How is MBTI connected to Four Pillars?', a: "MBTI's thinking patterns and behavioral tendencies have interesting connections with the Five Elements of traditional Eastern philosophy. NT (Analyst) types correspond to Metal's sharp judgment, NF (Diplomat) to Wood's growth pursuit, SJ (Sentinel) to Earth's stability, and SP (Explorer) to Fire/Water's activity and flexibility." },
-        { q: 'Which MBTI type is best?', a: 'All MBTI types have strengths and growth points - no type is superior. Just like Four Pillars, understanding your type characteristics and utilizing your strengths is key. All types can provide different value depending on the situation.' },
-        { q: "What if I don't know my MBTI?", a: "MBTI analysis is optional. You can receive Four Pillars and Name analysis using just your name and birth date without MBTI. Knowing your MBTI provides richer personality analysis results." },
-      ];
+      { q: 'How is MBTI connected to Four Pillars?', a: "MBTI's thinking patterns and behavioral tendencies have interesting connections with the Five Elements of traditional Eastern philosophy. NT (Analyst) types correspond to Metal's sharp judgment, NF (Diplomat) to Wood's growth pursuit, SJ (Sentinel) to Earth's stability, and SP (Explorer) to Fire/Water's activity and flexibility." },
+      { q: 'Which MBTI type is best?', a: 'All MBTI types have strengths and growth points - no type is superior. Just like Four Pillars, understanding your type characteristics and utilizing your strengths is key. All types can provide different value depending on the situation.' },
+      { q: "What if I don't know my MBTI?", a: "MBTI analysis is optional. You can receive Four Pillars and Name analysis using just your name and birth date without MBTI. Knowing your MBTI provides richer personality analysis results." },
+    ];
 
-  const baseUrl = 'https://sajupalza.com';
+  const baseUrl = 'https://sajupalza.cc';
   const canonicalUrl = `${baseUrl}/${locale}/mbti`;
 
   const articleJsonLd = {
@@ -161,11 +161,11 @@ export default async function MbtiPage({ params: { locale } }: Props) {
           </h2>
           <div className="grid grid-cols-4 gap-2 mb-6">
             {MBTI_LIST.map((type) => {
-              const { ohaeng, color } = MBTI_OHAENG[type];
+              const { ohaeng, ohaengEn, color } = MBTI_OHAENG[type];
               return (
                 <div key={type} className="card-dark p-3 text-center">
                   <div className="font-bold text-yellow-200 mb-1">{type}</div>
-                  <div className={`text-xs ${color}`}>{ohaeng}</div>
+                  <div className={`text-xs ${color}`}>{isKo ? ohaeng : ohaengEn}</div>
                 </div>
               );
             })}

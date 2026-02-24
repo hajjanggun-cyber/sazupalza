@@ -246,14 +246,21 @@ export const mbtiPosts: BlogPost[] = [
 <p>Before a blind date, asking for an MBTI type is now common courtesy. But what if the charts say you are a "disastrous match"? While MBTI describes your communication style, Saju (Five Elements) describes the engine that drives you. Even if your styles differ, you can be a perfect match if your energies harmonize. This guide provides magical solutions to overcome MBTI clashes using Saju principles.</p>
 
 <h2 id="compatibility-myth">1. The Myth of MBTI Charts and the Truth of Elements</h2>
-<p>Standard MBTI compatibility charts only compare cognitive functions. For example, the realistic ISTJ and the dreamy ENFP are often labeled as a "bad match," yet they are frequently drawn to each other’s opposing strengths.</p>
+<p>Standard MBTI compatibility charts only compare cognitive functions. For example, the realistic ISTJ and the dreamy ENFP are often labeled as a "bad match," yet they are frequently drawn to each other's opposing strengths.</p>
+<h3>Energetic Complement: The Principle of Mutual Nourishment (相生)</h3>
+<p>In Saju, if you lack Water energy and your partner is full of it, you will feel an instinctive pull toward them—even if your MBTI types seem incompatible. This is the "elemental compatibility" that transcends personality type differences.</p>
 
 <h2 id="solving-clashes">2. Saju Remedies for MBTI Clashes</h2>
 <h3>T vs F: The Metal and Wood Dynamic</h3>
 <p>Logical T types carry Metal energy, while empathetic F types carry Wood energy. Metal cuts Wood, but Wood can also blunt Metal. To harmonize, you need the energy of Fire or Earth. Sharing a warm meal (Fire) or taking a walk (Earth) can regulate the "temperature" of your communication.</p>
+<h3>N vs S: The Water and Fire Balance</h3>
+<p>Intuitive N types carry deep Water energy that looks inward and forward, while grounded S types carry the bright Fire energy of the present moment. When conversations lose focus, the key is to establish a shared Earth-element goal. Practicing together—blending grand visions into concrete, realistic plans—creates a powerful energetic synergy between these two types.</p>
 
-<h2 id="conclusion">3. Conclusion: Destiny is in Your Hands</h2>
-<p>MBTI is the map, and Saju is the compass. With both, you can navigate any relationship. Don't let a simple chart define your love life; instead, use these elemental secrets to build a fated connection.</p>
+<h2 id="practical-tips">3. Three-Step Strategy for Better Relationships</h2>
+<p>First, accept your partner's MBTI type as "different," not "wrong." Second, use Saju analysis to discover which Five Element you and your partner each lack. Third, fill that elemental gap together—share lucky colors, places, and hobbies aligned with the missing element as date ideas. This is the modern art of "Gaewun" (opening your fortune) applied to love.</p>
+
+<h2 id="conclusion">4. Conclusion: Destiny is in Your Hands</h2>
+<p>MBTI is the map, and Saju is the compass. With both, you can navigate any relationship. Don't let a simple chart define your love life; instead, use these elemental secrets to build a fated connection that grows stronger over time.</p>
 </section>
     `,
     toc: [
@@ -265,7 +272,8 @@ export const mbtiPosts: BlogPost[] = [
     tocEn: [
       { id: 'compatibility-myth', title: '1. Myth of MBTI Charts' },
       { id: 'solving-clashes', title: '2. Elemental Remedies' },
-      { id: 'conclusion', title: '3. Conclusion' },
+      { id: 'practical-tips', title: '3. Three-Step Strategy' },
+      { id: 'conclusion', title: '4. Conclusion' },
     ],
     faq: [
       { q: '최악의 MBTI 궁합도 바뀔 수 있나요?', a: '네, 서로의 사주 오행이 보완 관계라면 성격 차이를 극복하고 아주 잘 살 수 있습니다.' },
@@ -323,16 +331,23 @@ export const mbtiPosts: BlogPost[] = [
     `,
     contentEn: `
 <section>
-<p>Luck is not something you just wait for; it’s an environment you build for yourself to function at your best. In Eastern philosophy, this is called "Gaeun" (Opening Fortune). Interestingly, the way you attract luck differs greatly based on your MBTI. This article suggests tailored daily rituals for Introverts (I) and Extroverts (E) based on Saju and psychological insights.</p>
+<p>Luck is not something you just wait for; it's an environment you build for yourself to function at your best. In Eastern philosophy, this is called "Gaeun" (Opening Fortune). Interestingly, the way you attract luck differs greatly based on your MBTI. This article suggests tailored daily rituals for Introverts (I) and Extroverts (E) based on Saju and psychological insights.</p>
 
 <h2 id="introvert-luck">1. For Introverts (I): The Power of Stillness</h2>
-<p>Introverts carry strong Yin (陰) energy, focusing inward. For them, bad luck is often caused by excessive external noise. To open fortune, they must purify their space and mind through journaling or meditation, which harmonizes the Water element within.</p>
+<p>Introverts carry strong Yin (陰) energy, focusing inward. For them, bad luck is often caused by excessive external noise. To open fortune, they must purify their space and mind.</p>
+<h3>Purifying Your Personal Space</h3>
+<p>For introverts, their personal space is an extension of themselves. Decluttering and applying minimalism is equivalent to removing stagnant energy in Saju. Introverts with strong Water energy particularly benefit from journaling or meditation to keep their inner world clear—this harmonizes both their wealth and reputation luck.</p>
 
 <h2 id="extrovert-luck">2. For Extroverts (E): The Energy of Connection</h2>
-<p>Extroverts are driven by Yang (陽) energy. Their luck flows through movement and social connection. For those with strong Fire energy, staying active and sharing ideas with others is the key to unlocking wealth and opportunities.</p>
+<p>Extroverts are driven by Yang (陽) energy. Their luck flows through movement and social connection. The signals of blocked fortune for extroverts are isolation and stagnation.</p>
+<h3>Circulating Energy Through Action</h3>
+<p>For extroverts, luck channels open when they meet people and explore new environments. Those with strong Fire energy find that releasing stress through exercise or group activities also strengthens their fortune. Actively sharing ideas with others is the moment when financial opportunities begin to appear.</p>
 
-<h2 id="conclusion">3. Conclusion: Self-Knowledge is the Key to Luck</h2>
-<p>The ultimate luck ritual is knowing yourself. When you understand your temperament and act accordingly, the universe begins to align in your favor. Start your small luck routine today.</p>
+<h2 id="common-rituals">3. Universal Luck Routines: Elemental Harmony</h2>
+<p>Regardless of MBTI type, starting each morning with a warm cup of tea is an excellent ritual that harmonizes Water and Fire energy. Using your lucky color as a fashion accent is also recommended: NF types benefit from green (Wood), NT types from white (Metal), SJ types from yellow (Earth), and SP types from red (Fire) or blue (Water) tones.</p>
+
+<h2 id="conclusion">4. Conclusion: Self-Knowledge is the Key to Luck</h2>
+<p>The ultimate luck ritual is knowing yourself. When you understand whether you are an I or E, and which elemental energy dominates your Saju, and act accordingly, the universe begins to align in your favor. Start your small, personalized luck routine today.</p>
 </section>
     `,
     toc: [
@@ -344,7 +359,8 @@ export const mbtiPosts: BlogPost[] = [
     tocEn: [
       { id: 'introvert-luck', title: '1. Rituals for Introverts' },
       { id: 'extrovert-luck', title: '2. Rituals for Extroverts' },
-      { id: 'conclusion', title: '3. Conclusion' },
+      { id: 'common-rituals', title: '3. Universal Luck Routines' },
+      { id: 'conclusion', title: '4. Conclusion' },
     ],
     faq: [
       { q: '개운법을 하면 바로 효과가 있나요?', a: '작은 루틴이라도 21일 이상 꾸준히 하면 기운의 흐름이 바뀌는 것을 느낄 수 있습니다.' },
@@ -406,11 +422,17 @@ export const mbtiPosts: BlogPost[] = [
 <h2 id="mbti-vs-ilju">1. MBTI is the Surface, Ilju is the Depth</h2>
 <p>MBTI shows how we socialize, while the Day Pillar reveals the core element (Wood, Fire, Earth, Metal, Water) of our existence. The best relationships occur when MBTI communication is comfortable and Saju energies are complementary.</p>
 
-<h2 id="hap-power">2. The Power of "Hap" (Harmony)</h2>
-<p>Sometimes attraction overrides logic because of "Hap"—energetic bonds between Day Pillars. These cosmic connections can help couples overcome even the most challenging personality differences.</p>
+<h2 id="match-examples">2. Perfect Day Pillar Matches by MBTI Type</h2>
+<h3>INFJ / INFP (Wood Energy) + Muto (戊土) or Gito (己土) Day Pillar</h3>
+<p>Creative and emotionally rich NF types find deep stability alongside those who carry Earth energy. The broad acceptance of the Muto Day Pillar wraps around the INFJ's complex inner world, while the Gito's sensitivity transforms the INFP's artistic vision into tangible, real-world results.</p>
+<h3>ESTJ / ENTJ (Metal Energy) + Imsu (壬水) or Gyesu (癸水) Day Pillar</h3>
+<p>Driven by strong logic and forward momentum, NT and ST types pair beautifully with Water energy that cools and softens their sharp Metal edges. The vast wisdom of the Imsu Day Pillar broadens the leader-type's perspective, while the flexibility of Gyesu harmonizes their rigid principles into more adaptive strategies.</p>
 
-<h2 id="conclusion">3. Conclusion: A Map for Fated Connections</h2>
-<p>Using MBTI and Saju together is not about boxing people in; it’s a strategic map for deep understanding. By respecting both the way a person speaks and the energy they carry, you can find your true soulmate.</p>
+<h2 id="hap-power">3. The Power of "Hap" (Cosmic Harmony)</h2>
+<p>Sometimes attraction overrides all logic because of "Hap"—energetic bonds formed between Day Pillars, such as the Gapgi-Hap (甲己合) or Jachuk-Hap (子丑合). These cosmic connections act as a powerful gravitational pull that helps couples overcome even the most challenging personality differences. This is the mystery of fated connections described in Saju.</p>
+
+<h2 id="conclusion">4. Conclusion: A Map for Fated Connections</h2>
+<p>Using MBTI and Saju together is not about boxing people in; it's a strategic map for deep understanding. By respecting both the way a person speaks (MBTI) and the primal energy they carry (Day Pillar), you can find your true soulmate.</p>
 </section>
     `,
     toc: [
