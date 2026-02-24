@@ -519,68 +519,83 @@ export const sajuPosts: BlogPost[] = [
     category: 'saju',
     contentKo: `
 <section>
-<p>사주 명리학의 꽃이자 끝은 바로 ‘용신(用神)’을 찾는 것입니다. 용신이란 내 사주의 불균형을 바로잡아주고, 인생을 성공으로 이끄는 결정적인 행운의 기운을 의미합니다. 내가 금(金)이 너무 많아 날카롭다면 이를 부드럽게 해줄 물(水)이나 불(火)이 용신이 될 수 있습니다. 용신을 아는 것은 인생의 치트키를 얻는 것과 같습니다. 3,000자 전문 해설로 당신의 행운의 열쇠를 찾아 드립니다.</p>
+<p>"내가 이 일을 계속해야 할까?", "언제쯤 더 좋은 기회가 올까?"—인생을 살면서 누구나 한 번쯤 이런 질문을 합니다. 사주 명리학은 이 질문에 놀랍도록 구체적인 답을 줄 수 있습니다. 관성(官星)이라는 개념을 통해 내가 어떤 형태의 일에서 두각을 나타내는지, 그리고 언제 커리어의 전환점이 찾아오는지를 읽어낼 수 있기 때문입니다.</p>
 
-<h2 id="yongshin-concept">1. 용신(用神)의 개념: 운명의 해결사</h2>
-<p>사주팔자는 여덟 글자의 힘겨루기입니다. 어떤 기운은 너무 강해 나를 억누르고, 어떤 기운은 너무 약해 제 역할을 못 합니다. 이때 사주의 전체적인 조화(중화)를 이루게 해주는 핵심 글자가 바로 용신입니다. 용신이 대운이나 세운에서 들어올 때 우리는 인생의 전성기를 맞이하게 됩니다.</p>
+<h2 id="gwanseong-meaning">1. 관성(官星)이란 — 직업운의 핵심 코드</h2>
+<p>관성은 나를 제어하는 기운이자, 사회가 나를 인정하는 방식입니다. 일간(나)을 극(剋)하는 오행이 관성이 되며, 이것이 음양에 따라 정관(正官)과 편관(偏官)으로 나뉩니다.</p>
+<h3>정관(正官) — 신뢰와 원칙의 리더</h3>
+<p>정관은 규칙과 질서를 중시하는 기운입니다. 정관이 발달한 사람은 공무원, 대기업 간부, 법조인, 교사처럼 사회적으로 인정받는 안정된 구조 안에서 탁월한 능력을 발휘합니다. 신뢰를 기반으로 천천히 그러나 확실하게 올라가는 커리어 패턴을 가집니다. 이 사람들에게 '정도(正道)'를 걷는 것은 원칙이 아니라 본능입니다.</p>
+<h3>편관(偏官) — 도전과 카리스마의 전문가</h3>
+<p>편관은 강렬하고 날카롭습니다. 경찰·군인·소방관·외과의사·특수 엔지니어처럼 긴장감 높고 결단력이 필요한 직군에서 자신의 진가를 발휘합니다. 또한 CEO, 프리랜서, 선구적인 창업가처럼 자신만의 규칙을 만드는 역할에서도 두각을 나타냅니다. 편관이 강한 사람이 일반 사무직에 배치되면 이 에너지가 어긋나 조직 내 마찰을 일으킬 수 있습니다.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">💎 내 사주의 용신과 행운의 색상 확인하기 →</a>
+  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">💼 내 사주로 천직 무료 분석받기 →</a>
 </div>
 
-<h2 id="types-of-yongshin">2. 사주 유형별 용신 찾는 법</h2>
-<h3>억부용신: 강한 것은 누르고 약한 것은 돕는다</h3>
-<p>사주가 너무 강하면(신강) 그 기운을 설기(빼주거나)하거나 극(제어)하는 글자를 용신으로 잡습니다. 반대로 사주가 너무 약하면(신약) 나를 돕는 인성이나 비겁을 용신으로 삼습니다.</p>
-<h3>조후용신: 계절의 온도를 맞춘다</h3>
-<p>한겨울에 태어나 사주가 너무 차갑다면 뜨거운 화(火)가 용신이고, 한여름에 태어나 너무 뜨겁다면 시원한 수(水)가 용신입니다. 조후가 맞지 않으면 아무리 재물이 많아도 삶이 고달플 수 있습니다.</p>
+<h2 id="ohaeng-career">2. 오행별 천직 가이드</h2>
+<p>관성만이 아니라 일간의 오행 자체도 직업 적성을 결정합니다.</p>
+<ul>
+  <li><strong>목(木) 기운:</strong> 성장·교육·의료·환경·스타트업. 무언가를 키우고 자라게 하는 일이 천직입니다.</li>
+  <li><strong>화(火) 기운:</strong> IT·미디어·마케팅·엔터테인먼트·강연. 에너지와 전파력을 직업으로 삼습니다.</li>
+  <li><strong>토(土) 기운:</strong> 부동산·금융·요식업·농업·인사관리. 안정과 신뢰를 기반으로 한 분야에서 진가를 발휘합니다.</li>
+  <li><strong>금(金) 기운:</strong> 법조·경찰·군대·제조·금융분석·외과. 날카로운 판단력이 빛나는 곳이 최적입니다.</li>
+  <li><strong>수(水) 기운:</strong> 기획·연구·철학·예술·컨설팅·IT 개발. 깊은 사유와 아이디어가 무기입니다.</li>
+</ul>
 
-<h2 id="practical-usage">3. 용신을 활용한 실전 개운법</h2>
-<p>용신이 무엇인지 알았다면 생활 속에서 그 기운을 채워야 합니다. 용신이 목(木)이라면 초록색 옷을 입고 동쪽으로 머리를 두고 자는 것이 좋습니다. 용신이 화(火)라면 밝은 조명을 사용하고 열정적인 활동을 늘려야 합니다. 또한 자신의 용신 기운을 가진 사람과 파트너가 되는 것도 훌륭한 전략입니다.</p>
+<h2 id="success-timing">3. 취업·승진·이직의 최적 타이밍</h2>
+<p>실력은 준비이고, 타이밍은 기회입니다. 아무리 능력이 있어도 운의 흐름이 닫혀 있을 때 억지로 나서면 소진됩니다. 반대로 운이 열리는 시기에는 작은 시도도 큰 결과로 이어집니다.</p>
+<p>관성이 용신(用神)인 사람은 10년 대운에서 관성 운이 들어올 때 커리어의 최전성기를 맞습니다. 또한 매년 세운(歲運)에서 일간과 합(合)을 이루는 해에는 이직·승진·인정의 기회가 찾아옵니다. 이 시기를 미리 파악하고 역량을 집중 준비하는 것이 성공 확률을 극적으로 높입니다.</p>
 
-<h2 id="conclusion">4. 결론: 용신은 당신 안의 잠재력을 깨우는 힘입니다</h2>
-<p>용신은 외부에서 찾는 것이 아니라, 내 사주 원국 안에 이미 씨앗으로 존재합니다. 그 씨앗이 잘 자랄 수 있도록 환경을 조성해 주는 것이 개운의 핵심입니다. 당신의 용신을 믿고 그 방향으로 나아갈 때, 세상의 모든 운세가 당신을 돕기 시작할 것입니다.</p>
+<h2 id="conclusion">4. 결론 — 나에게 맞는 무대를 선택하라</h2>
+<p>가장 고통스러운 직장생활은 내 에너지와 전혀 맞지 않는 환경에서 억지로 버티는 것입니다. 사주는 단순히 어떤 직업이 좋다고 지정해 주는 도구가 아닙니다. 내가 어떤 환경에서 자연스럽게 빛나는지, 어떤 방식으로 일할 때 지속 가능한 에너지가 나오는지를 알려주는 나침반입니다. 그 나침반이 가리키는 방향으로 한 발 내딛어 보세요.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/ko/saju/intro" style="text-decoration: underline; color: #f9d976;">[관련글] 사주팔자 입문 - 음양오행 원리 가이드</a></p>
-  <p><a href="/ko/saju/destiny-change" style="text-decoration: underline; color: #f9d976;">[관련글] 운명은 정해져 있는가? 사주로 운을 바꾸는 법</a></p>
+  <p><a href="/ko/saju/day-pillar" style="text-decoration: underline; color: #f9d976;">[관련글] 일주 완전정복 — 일간 기질로 보는 나의 핵심 재능</a></p>
+  <p><a href="/ko/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[관련글] 사주 용신 찾기 — 성공 시기를 앞당기는 행운의 에너지</a></p>
 </div>
 </section>
+
     `,
     contentEn: `
 <section>
-<p>The ultimate goal of Saju interpretation is to find your <strong>"Yongshin" (Beneficial Element)</strong>. This element acts as a medicine that cures the imbalances in your chart. If your chart is too cold, Fire is your Yongshin. If it is too rigid, Water is your Yongshin. Identifying this element gives you the "Cheat Code" to your life, allowing you to attract wealth, health, and happiness.</p>
+<p>Most career advice is generic because it has to be. "Follow your passion." "Play to your strengths." "Network relentlessly." These aren't wrong—they're just incomplete. They don't account for the specific energetic configuration you were born with, or the particular timing windows when your effort is most likely to compound into results.</p>
+<p>Korean astrology offers a more precise lens: the <strong>Gwanseong</strong> (官星), or Career Star. Understanding it doesn't tell you exactly which job to take. It tells you something considerably more useful—the shape of work that naturally suits your energy, and when the universe is most likely to respond to your moves.</p>
 
-<h2 id="yongshin-concept">1. What is Yongshin? The Savior of Destiny</h2>
-<p>Saju is a tug-of-war between energies. Some are too strong, suppressing you; others are too weak to help. Yongshin is the specific element that restores <strong>Harmony (Junghwa)</strong> to your chart. When your Yongshin arrives in your 10-year Time Cycle (Daewun), you will experience the golden era of your life.</p>
+<h2 id="gwanseong-meaning">1. What Gwanseong Actually Means</h2>
+<p>Gwanseong is the elemental force that regulates your Day Master. It represents external authority, social recognition, and the structures through which the world acknowledges your contribution. It divides into two expressions:</p>
+<h3>Direct Officer (Jeonggwan) — The Institutional Builder</h3>
+<p>Jeonggwan people are natural insiders. They understand and respect the logic of institutions—why rules exist, how hierarchies function, what it takes to build durable organizations. Government service, law, education, corporate management: these environments reward the Jeonggwan temperament because they value exactly what Jeonggwan does well: consistency, principle, and the long game. Their career arcs are usually slower but more stable—each step earned, each position held.</p>
+<h3>Seven Killings (Pyeongwan) — The Edge Specialist</h3>
+<p>Pyeongwan energy is more combustible. It doesn't do well within rigid structures that weren't designed with its intensity in mind. But in the right context—high-stakes, high-consequence, results-oriented environments—it's extraordinary. Elite surgeons, military officers, prosecutors, emergency responders, and certain categories of founders all frequently show strong Pyeongwan. The energy doesn't tolerate mediocrity in itself or others, which is both its power and its friction point.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">💎 Identify Your Yongshin and Lucky Colors →</a>
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">💼 Get Your Career Path Analysis →</a>
 </div>
 
-<h2 id="types-of-yongshin">2. How to Find Your Lucky Element</h2>
-<h3>The Balance of Strength (Eokbu)</h3>
-<p>If your energy is too strong, you need an element to drain or control it. If you are too weak, you need an element to support and nourish you. This is the basic principle of balancing strength.</p>
-<h3>The Balance of Temperature (Johu)</h3>
-<p>Temperature is crucial. If you were born in the freezing winter, no amount of money can make you happy if you are "frozen." You desperately need Fire (Warmth) as your Yongshin. Conversely, if born in the scorching summer, you need Water (Cooling) to achieve emotional and physical peace.</p>
-
-<h2 id="practical-usage">3. Living with Your Yongshin: Practical Cures</h2>
-<p>Once you know your Yongshin, you can use it to boost your luck:</p>
+<h2 id="ohaeng-career">2. Career Fit by Five Elements</h2>
+<p>Beyond Gwanseong, your Day Master's element points toward industries where your energy is most likely to find its natural expression:</p>
 <ul>
-    <li><strong>Wood:</strong> Wear green, exercise in forests, sleep facing East.</li>
-    <li><strong>Fire:</strong> Use bright lighting, engage in social activities, sleep facing South.</li>
-    <li><strong>Earth:</strong> Hiking, gardening, living in central areas or lower floors.</li>
-    <li><strong>Metal:</strong> Wearing jewelry, organizing/decluttering, sleeping facing West.</li>
-    <li><strong>Water:</strong> Swimming, drinking tea, thinking deeply, sleeping facing North.</li>
+  <li><strong>Wood:</strong> Education, healthcare, sustainability, early-stage startups, coaching. You grow things.</li>
+  <li><strong>Fire:</strong> Media, marketing, entertainment, technology, public speaking. You energize and illuminate.</li>
+  <li><strong>Earth:</strong> Real estate, finance, hospitality, supply chain, human resources. You stabilize and sustain.</li>
+  <li><strong>Metal:</strong> Law, engineering, quality assurance, surgery, finance. You cut through complexity with precision.</li>
+  <li><strong>Water:</strong> Research, strategy, writing, consulting, software development. You think in depth and generate flow.</li>
 </ul>
 
-<h2 id="conclusion">4. Conclusion: Awakening Your Potential</h2>
-<p>Yongshin is not something you find externally; its seed already exists within your Pillars. By creating an environment where that seed can flourish—through your clothes, habits, and mindset—you align yourself with the universe's flow. Trust in your beneficial element and watch your fortune grow.</p>
+<h2 id="success-timing">3. When to Make Your Move</h2>
+<p>Timing in career, as in most things, is underrated. The same action taken at different points in a luck cycle produces dramatically different results. In Saju, the 10-year major cycles (Daewun) and annual luck years (Saewun) create windows when career opportunities become unusually accessible—and other periods when pushing hard against a closed door only depletes you.</p>
+<p>If Gwanseong is your beneficial element, the years when that element dominates your chart are the ones to act boldly: apply for the ambitious role, launch the project, make the ask. If Gwanseong is your pressure point rather than your ally, those same years require careful navigation—being strategic rather than aggressive, building foundations rather than seeking immediate recognition.</p>
+
+<h2 id="conclusion">4. The Right Stage for Your Energy</h2>
+<p>The worst professional suffering usually comes not from lack of ability but from fundamental misalignment—when someone with Pyeongwan energy has been trapped in a Jeonggwan world for a decade, or when a genuinely institutional person has been pressured into the chaos of entrepreneurship before they were ready.</p>
+<p>Understanding your Gwanseong and elemental profile doesn't guarantee career success. But it dramatically improves your odds of choosing environments where your specific kind of effort is actually rewarded—which is the closest thing to a genuine career advantage that self-knowledge provides.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/en/saju/intro" style="text-decoration: underline; color: #f9d976;">[Read More] Understanding Yin-Yang and Five Elements</a></p>
-  <p><a href="/en/saju/destiny-change" style="text-decoration: underline; color: #f9d976;">[Read More] Can You Change Your Destiny? The Saju Guide</a></p>
+  <p><a href="/en/saju/day-pillar" style="text-decoration: underline; color: #f9d976;">[Read Next] The Day Pillar — Understanding Your Core Talent and Energy</a></p>
+  <p><a href="/en/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[Read Next] Finding Your Yongshin — Timing Your Career Peak</a></p>
 </div>
 </section>
+
     `,
     toc: [
       { id: 'yongshin-concept', title: '1. 용신의 정의와 중요성' },
@@ -620,47 +635,86 @@ export const sajuPosts: BlogPost[] = [
     category: 'saju',
     contentKo: `
 <section>
-<p>사주를 보다 보면 "재물운이 공망이다", "부부궁이 공망이다"라는 말을 듣고 가슴이 철렁할 때가 있습니다. 공망(空亡)이란 '비어 있다' 또는 '망했다'는 무시무시한 한자를 쓰지만, 명리학적 진실은 조금 다릅니다. 공망은 단순히 없다는 뜻이 아니라, 채워지지 않는 갈증이자 더 큰 정신적 성장을 요구하는 우주의 공간입니다. 공망을 복으로 바꾸는 3,000자 전문 비책을 공개합니다.</p>
+<p>'운명은 정해진 것인가, 아니면 바꿀 수 있는 것인가?' 이 질문은 인류가 철학과 종교, 과학을 통해 수천 년간 씨름해온 주제입니다. 사주 명리학의 세계에서도 이 질문은 뜨겁습니다. 사주를 안다고 해서 운명에서 벗어날 수 있는 걸까요? 아니면 이미 정해진 길을 확인하는 것에 불과할까요? 명리학의 가장 깊은 층위를 탐구합니다.</p>
 
-<h2 id="gongmang-concept">1. 공망(空亡)이란 무엇인가? 채워지지 않는 빈자리</h2>
-<p>공망은 천간(10개)과 지지(12개)가 짝을 짓다 보면 남게 되는 두 개의 지지를 말합니다. 사주에서 공망에 해당하는 글자는 그 힘이 100% 발휘되지 못하거나, 마치 밑 빠진 독에 물 붓기처럼 성과가 더디게 나타나는 경향이 있습니다. 하지만 이는 역설적으로 그 분야에 대한 강렬한 갈구와 특별한 재능을 부여하기도 합니다.</p>
+<h2 id="fate-vs-free">1. 운명과 자유의지 — 명리학의 답변</h2>
+<p>명리학은 완전한 결정론도, 완전한 자유의지론도 아닌 <strong>제3의 입장</strong>을 취합니다. 사주팔자는 내가 태어날 때 가지고 온 에너지의 형태입니다. 이 에너지의 패턴은 바뀌지 않습니다. 그러나 그 에너지를 어떻게 사용하느냐는 전적으로 나의 선택입니다.</p>
+<p>비유를 들자면 이렇습니다. 같은 씨앗이라도 어떤 땅에 심기느냐, 얼마나 물을 주느냐, 햇빛을 받느냐에 따라 자라나는 나무가 달라집니다. 씨앗의 DNA(사주)는 바뀌지 않지만, 그 씨앗이 맺는 열매(인생)는 환경과 의지에 따라 크게 달라질 수 있습니다.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔍 내 사주의 공망 위치와 의미 확인하기 →</a>
+  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🌟 내 사주와 운명의 흐름 무료 확인 →</a>
 </div>
 
-<h2 id="types-of-gongmang">2. 위치별 공망의 해석과 대처</h2>
-<h3>재성공망: 재물에 대한 끝없는 갈증</h3>
-<p>재물이 공망이면 돈을 벌어도 허탈함을 느끼거나 큰돈을 쫓다 손해를 보기 쉽습니다. 이럴 때는 결과보다 과정을 즐기고, 기부나 봉사를 통해 기운을 비워내면 오히려 큰 재물이 머무르게 됩니다.</p>
-<h3>관성공망: 명예와 조직에 대한 집착 내려놓기</h3>
-<p>직장운이나 명예가 공망이면 일반적인 조직생활에서 답답함을 느낄 수 있습니다. 대신 자유로운 전문직이나 창의적인 분야에서는 누구도 따라올 수 없는 독보적인 경지에 오를 수 있습니다.</p>
+<h2 id="what-changes">2. 바꿀 수 있는 것과 없는 것</h2>
+<h3>바꾸기 어려운 것들</h3>
+<p>사주 원국에 새겨진 기본 기질은 쉽게 바뀌지 않습니다. 갑목(甲木) 일간이 계수(癸水) 일간의 성품을 갖기는 어렵습니다. 큰 대운(大運)의 흐름—10년 단위의 에너지 파도—도 개인의 의지로 거스르기 힘든 영역입니다.</p>
+<h3>바꿀 수 있는 것들</h3>
+<p>그러나 같은 사주를 가진 두 사람의 인생이 전혀 다른 이유가 있습니다. 첫째, <strong>환경 선택</strong>입니다. 내 에너지가 빛나는 직업·거주지·인간관계를 선택하는 것은 순전히 나의 몫입니다. 둘째, <strong>수양(修養)</strong>입니다. 사주가 지시하는 약점을 인식하고 의식적으로 보완하면, 그 글자가 나를 지배하는 것이 아니라 내가 그 글자를 다루는 수준에 이르게 됩니다. 셋째, <strong>개운(開運)</strong>입니다. 이름, 색깔, 방향, 직업변경, 이사—이런 환경적 요인들이 운의 흐름에 실질적인 영향을 줄 수 있습니다.</p>
 
-<h2 id="remedies">3. 비어있는 운을 채우는 공망 개운법</h2>
-<p>공망은 '비움'으로써 채워지는 역설적인 기운입니다. 욕심을 내려놓고 정신적인 가치나 종교, 예술에 몰입할 때 공망의 흉조는 사라지고 '천공(天空)'의 지혜가 찾아옵니다. 또한 공망에 해당하는 오행을 상징하는 환경을 의도적으로 피하거나 보완하는 것도 실전적인 방법입니다.</p>
+<h2 id="three-lucks">3. 삼재론(三才論): 천운·지운·인운</h2>
+<p>전통 명리학에는 <strong>삼재론(三才論)</strong>이 있습니다. 천운(天運)·지운(地運)·인운(人運)—하늘의 운, 땅의 운, 사람의 운—이 세 가지가 합쳐져 한 사람의 실제 운명을 결정한다는 이론입니다.</p>
+<p>천운은 타고난 사주팔자, 즉 우주의 씨앗입니다. 지운은 내가 사는 시대·나라·지역의 환경입니다. 인운은 나 자신의 노력과 선택입니다. 명리학의 선현들은 이 셋이 균등하게 각 33%씩 인생에 영향을 미친다고 보았습니다. 즉, 타고난 운명(천운)은 전체의 3분의 1에 불과합니다. 나머지 3분의 2는 내가 어떻게 살아가느냐에 달려 있다는 뜻입니다.</p>
 
-<h2 id="conclusion">4. 결론: 공망은 채워야 할 숙제가 아니라 당신만의 공간입니다</h2>
-<p>사주에 공망이 있다는 것은 남들이 갖지 못한 특별한 ‘여백’을 가졌다는 뜻입니다. 그 여백에 무엇을 그려 넣느냐에 따라 당신의 인생은 훨씬 더 깊고 풍요로워질 수 있습니다. 비어 있음을 두려워하지 말고, 그 공간을 지혜와 사랑으로 채워가시길 바랍니다.</p>
+<h2 id="practical-guide">4. 운명을 활용하는 실전 전략</h2>
+<p>운명을 '바꾼다'는 표현보다 <strong>'활용한다'</strong>는 표현이 더 정확합니다. 사주가 그린 에너지 지도를 제대로 읽고, 그 지형을 가장 유리하게 활용하는 것—이것이 명리학을 배우는 진짜 목적입니다.</p>
+<ul>
+  <li>힘든 대운이 오고 있다면: 무리한 확장을 자제하고 기초를 다지세요. 겨울이 오고 있음을 알면 땔감을 준비합니다.</li>
+  <li>좋은 대운이 오고 있다면: 그 시기 전에 충분히 준비하여 기회가 왔을 때 전력으로 임하세요. 씨앗을 심어두지 않으면 봄비도 소용없습니다.</li>
+  <li>어떤 시기든 용신(用神) 에너지를 일상에 통합하면, 운의 흐름이 내 편이 됩니다.</li>
+</ul>
+
+<h2 id="conclusion">5. 결론 — 사주는 지도, 인생은 여행</h2>
+<p>사주는 지도입니다. 지도는 지형을 보여주지만, 그 길을 걷는 것은 당신입니다. 지도가 있다고 목적지에 저절로 도달하지 않습니다. 그러나 지도 없이 걷는 것보다는 훨씬 적게 헤매고, 더 빠르게 원하는 곳에 닿을 수 있습니다. 사주를 통해 자신의 에너지 지형을 이해하고, 그 지형을 가장 아름답게 여행하는 방법을 찾으세요.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p>[내부링크: 5번: 사주 용신 찾는 법 - 부족한 기운 채우기]</p>
-  <p>[내부링크: 10번: 성명학 비기 - 이름으로 운명 보완하기]</p>
+  <p><a href="/ko/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[관련글] 사주 용신 찾기 — 운명의 흐름을 내 편으로 만드는 법</a></p>
+  <p><a href="/ko/saju/intro" style="text-decoration: underline; color: #f9d976;">[관련글] 사주팔자 입문 — 음양오행과 사주의 기본 원리</a></p>
 </div>
 </section>
+
     `,
     contentEn: `
 <section>
-<p>In Saju, hearing that your "Wealth" or "Marriage Palace" is in "Gongmang" (Void) can be unsettling. However, the spiritual truth is that Gongmang is not just "emptiness"—it is a space for profound growth and intense longing that can lead to extraordinary talent. This 3,000-character guide explores how to transform the Saju Void into a source of wisdom and fortune.</p>
+<p>The question of whether fate is fixed or malleable sits at the philosophical heart of every divination tradition that has ever existed. Korean astrology is no exception. Saju practitioners have been arguing about this question for centuries—and the answer they've arrived at is, characteristically, more nuanced than either extreme.</p>
 
-<h2 id="gongmang-concept">1. What is Gongmang? The Unfilled Space</h2>
-<p>Gongmang occurs when the 10 Heavenly Stems and 12 Earthly Branches pair up, leaving two branches unmatched. Features in your chart affected by this "Void" may take longer to yield results or feel unsatisfying. Yet, this very emptiness often drives individuals toward unique mastery in their field.</p>
+<h2 id="fate-vs-free">1. What Korean Astrology Actually Claims About Fate</h2>
+<p>The Saju system doesn't say your life is predetermined. It says you were born with a specific configuration of elemental energies that creates certain tendencies, certain natural affinities, certain recurring patterns. These tendencies are real and significant. But they are not destiny in the sense of an inescapable script.</p>
+<p>Think of it this way: two people can be given the exact same set of musical instruments. The instruments don't change. But one musician might spend twenty years developing mastery, find the right bandmates, and play to standing-room-only audiences—while another leaves them in the case. Same instruments, different lives. Your Saju chart is the instruments. What you do with them is your story.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔍 Identify Your Saju Void and Its Meaning →</a>
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🌟 Explore Your Saju Destiny Map →</a>
 </div>
 
-<h2 id="conclusion">2. Conclusion: A Space for Your Unique Story</h2>
-<p>Having a Void in your Saju means you possess a unique "blank space" that others do not. What you choose to draw in that space determines the depth of your life. Do not fear the emptiness; fill it with wisdom, art, and purpose.</p>
+<h2 id="what-changes">2. What You Can and Cannot Change</h2>
+<h3>The Fixed Layer</h3>
+<p>Your core elemental temperament—the Day Master and its fundamental expression—doesn't meaningfully change across a lifetime. A strong Metal Day Master is not going to naturally develop the flowing, adaptive qualities of Water. This isn't a limitation; it's information. Fighting your elemental nature consistently produces friction and exhaustion. Working with it produces leverage.</p>
+<p>The broad shape of your major luck cycles (Daewun)—the 10-year periods during which specific energies dominate your chart—also unfolds largely independent of personal will. You can navigate them skillfully or poorly, but you can't simply opt out of the period.</p>
+<h3>The Fluid Layer</h3>
+<p>What remains genuinely open: which environments you choose to inhabit, which relationships you cultivate, how you respond to the challenges your chart's difficult configurations bring, and whether you develop the self-awareness to convert your weaknesses into understanding. These choices compound over decades into dramatically different life outcomes—even for people with nearly identical birth charts.</p>
+
+<h2 id="three-lucks">3. The Three Fortunes Framework</h2>
+<p>Traditional East Asian philosophy offers a useful model here: <em>Seong-Myeong-Pung-Su</em> (三才論)—the Three Fortunes of Heaven, Earth, and Human. Heaven Fortune is what you were born with: your chart, your inherited tendencies, the broad shape of your luck cycles. Earth Fortune is your environment: the era, country, economy, and social context you navigate. Human Fortune is your own effort, wisdom, and ethical development.</p>
+<p>The classical view: each of these factors contributes roughly one-third to your actual life outcomes. Which means the fixed, predetermined portion—your birth chart—accounts for approximately a third of what happens to you. The other two-thirds are in play. That's a remarkable statement from a tradition often misunderstood as fatalistic.</p>
+
+<h2 id="practical-guide">4. Navigating Rather Than Escaping</h2>
+<p>The most practically useful reframe: stop trying to escape your chart and start learning to navigate it. The question isn't "How do I override my fate?" but rather "Given this specific configuration of strengths and challenges, what's the most intelligent path through this terrain?"</p>
+<ul>
+  <li>When a difficult luck cycle is approaching: reduce exposure, build reserves, deepen roots. Knowing winter is coming means you gather firewood before the first snow.</li>
+  <li>When a favorable period is on the horizon: prepare aggressively in advance so you can move decisively when the window opens. A seed planted before spring arrives captures the full benefit of the growing season.</li>
+  <li>In any period: aligning your environment, relationships, and daily habits with your beneficial element (Yongshin) creates a steady current that works in your favor rather than against you.</li>
+</ul>
+
+<h2 id="conclusion">5. The Map and the Journey</h2>
+<p>Your Saju chart is a map of your inner terrain—the elevations and valleys, the rivers that want to run in particular directions, the places where the path is naturally clear and the places where it requires more work.</p>
+<p>A map doesn't walk itself. You still have to cover the ground. But the traveler with an accurate map makes different decisions than the one navigating blind—and those decisions, compounded over years, produce a genuinely different destination.</p>
+<p>The promise of Saju isn't that it will unlock a predetermined good fate. It's that it will help you stop accidentally working against your own nature, and start making choices that align with the specific kind of person you actually are.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[Read Next] Your Yongshin — The Element That Unlocks Your Chart's Potential</a></p>
+  <p><a href="/en/saju/intro" style="text-decoration: underline; color: #f9d976;">[Read Next] Saju-Palja 101 — Everything Beginners Need to Know</a></p>
+</div>
 </section>
+
     `,
     toc: [
       { id: 'gongmang-concept', title: '1. 공망의 정의와 역설' },
@@ -779,48 +833,100 @@ export const sajuPosts: BlogPost[] = [
     category: 'saju',
     contentKo: `
 <section>
-<p>2026년은 육십갑자 중 43번째인 ‘병오년(丙午年)’으로, 하늘에는 붉은 태양이 뜨고 땅에는 정열적인 말이 달리는 ‘붉은 말띠의 해’입니다. 화(火)의 기운이 매우 강력한 이 해는 변화와 혁신, 그리고 폭발적인 에너지가 세상을 주도할 것입니다. 각 띠별로 이 뜨거운 에너지를 어떻게 활용하여 행운으로 만들 수 있을지, 3,000자 전문 데이터로 완벽하게 가이드해 드립니다.</p>
+<p>2026년은 병오년(丙午年)입니다. 병화(丙火)의 태양 에너지와 오화(午火)가 겹치는 '불 위의 태양'의 해입니다. 오행으로 보면 화(火) 기운이 극도로 강해지는 해로, 드라마틱한 변화·폭발적 성장·강렬한 감정의 소용돌이가 예고됩니다. 12띠별로 이 병오의 기운이 어떻게 작용하는지 살펴봅니다.</p>
 
-<h2 id="year-energy">1. 병오년(丙午年)의 우주적 기운: 열정과 혁신의 시대</h2>
-<p>천간의 병화(丙火)와 지지의 오화(午火)가 만나 위아래가 모두 뜨거운 불로 이루어진 해입니다. 이는 숨겨져 있던 진실이 드러나고, 정체되었던 일들이 빠르게 추진되는 힘을 가집니다. 사주에 수(水)가 부족한 분들은 다소 급해질 수 있으니 차분함이 필요하고, 금(金)이나 토(土)가 용신인 분들에게는 결실을 맺는 최고의 기회가 될 수 있습니다.</p>
+<h2 id="year-energy">1. 2026년 병오년(丙午年)의 기운</h2>
+<p>병화는 태양처럼 밝고 강렬합니다. 숨겨진 것들이 드러나고, 약한 것들은 무너지며, 강한 것들은 더욱 빛을 발합니다. 오(午)는 12지지 중 화(火)가 가장 강한 자리입니다. 두 힘이 합쳐진 병오년은 날카롭게 양면성이 드러나는 해입니다. 잘 되는 사람은 더욱 잘 되고, 방향 없이 흘러가는 사람은 그 대가를 치르는 해입니다. 준비된 자에게는 도약의 해, 관성에 젖은 자에게는 각성의 해가 됩니다.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🐎 2026년 나의 상세 운세 무료로 리포트 받기 →</a>
+  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🐉 내 사주로 2026년 개인 운세 보기 →</a>
 </div>
 
-<h2 id="zodiac-fortune">2. 12띠별 핵심 운세 요약</h2>
-<h3>쥐·용·원숭이띠 (신자진 삼합): 변화와 이동의 시기</h3>
-<p>강력한 화 기운과 충돌하거나 조화하며 새로운 거주지나 직장으로의 이동수가 강하게 들어옵니다. 변화를 두려워하지 말고 파도를 타듯 나아가세요.</p>
-<h3>범·말·개띠 (인오술 삼합): 전성기와 확장의 시기</h3>
-<p>본인들의 계절을 만난 듯 에너지가 넘칩니다. 사업 확장이나 승진의 기회가 많으나, 너무 과하면 건강을 해칠 수 있으니 완급 조절이 필수입니다.</p>
-<h3>토끼·양·돼지띠 (해묘미 삼합): 협력과 조화의 시기</h3>
-<p>주변의 도움을 받아 어려운 문제를 해결하는 해입니다. 독단적인 결정보다는 전문가나 선배의 조언을 따를 때 재물운이 상승합니다.</p>
-<h3>소·뱀·닭띠 (사유축 삼합): 결실과 정리의 시기</h3>
-<p>지난 몇 년간 노력했던 일들이 결과로 나타납니다. 불필요한 인연이나 습관을 정리하고 새로운 도약을 준비하기에 최적의 시기입니다.</p>
+<h2 id="zodiac-forecast">2. 12띠별 2026년 핵심 운세</h2>
+<h3>🐭 쥐띠 (자, 子) — 충(沖)의 해, 변화를 두려워 말라</h3>
+<p>오(午)와 자(子)는 정충(正沖) 관계입니다. 쥐띠에게 2026년은 안정보다 변화가 강요되는 해입니다. 이직·이사·인간관계 재편이 생길 수 있으나, 이를 자연스럽게 받아들이면 오히려 더 나은 곳으로 도약할 수 있습니다. 억지로 현상 유지를 고집하면 오히려 더 큰 충격이 옵니다.</p>
+<h3>🐮 소띠 (축, 丑) — 재물과 인내의 수확기</h3>
+<p>축(丑)토가 오(午)화의 생(生)을 받는 구조입니다. 2026년 소띠는 묵묵히 쌓아온 노력의 결실이 나타나는 해입니다. 급하게 욕심 내지 않고 실력을 보여주는 방식으로 임하면 예상보다 좋은 인정과 수확이 따릅니다.</p>
+<h3>🐯 호랑이띠 (인, 寅) — 화(火)의 지원, 에너지 폭발</h3>
+<p>인(寅)목이 오(午)화를 생(生)해주는 상생 구조입니다. 2026년 호랑이띠는 하고 싶은 일에 에너지가 넘치는 최고의 도전 타이밍입니다. 사업 확장, 새로운 프로젝트, 공부 시작에 최적의 해입니다. 다만 넘치는 자신감이 경솔함으로 이어지지 않도록 주의하세요.</p>
+<h3>🐰 토끼띠 (묘, 卯) — 실력 다지는 내실의 해</h3>
+<p>화(火)의 에너지가 강해지면 목(木)인 묘(卯)는 빠르게 소진될 수 있습니다. 2026년 토끼띠는 외부 확장보다 내실을 다지는 해로 삼아야 합니다. 건강 관리와 에너지 비축에 집중하고, 큰 투자나 무리한 도전보다 탄탄한 기초 다지기가 현명합니다.</p>
+<h3>🐉 용띠 (진, 辰) — 화(火)와 토(土)의 교점, 기회의 문</h3>
+<p>진(辰)토는 화기(火氣)를 잘 흡수하는 역할을 합니다. 용띠는 병오년의 강렬한 에너지를 가장 안정적으로 수용하는 띠 중 하나입니다. 새로운 인맥 형성, 커리어 도약, 투자 기회가 찾아옵니다. 이 해에 만나는 귀인을 놓치지 마세요.</p>
+<h3>🐍 뱀띠 (사, 巳) — 같은 화(火), 폭발적 에너지 주의</h3>
+<p>사(巳)는 오(午)와 같은 화 기운입니다. 과잉 에너지로 건강과 감정 관리가 특히 중요한 해입니다. 서두르다 마찰을 일으키거나 소진되기 쉽습니다. 에너지를 한 곳에 집중하되, 충분한 휴식을 병행하는 전략이 필요합니다.</p>
+<h3>🐴 말띠 (오, 午) — 본명년, 자기 혁신의 원년</h3>
+<p>말띠에게 2026년은 본인 띠의 해인 본명년(本命年)입니다. 자충(自沖)의 기운으로 변화와 갈등이 많을 수 있지만, 동시에 가장 강렬한 자기 인식과 혁신이 일어나는 해입니다. 외부보다 내면의 변화에 집중하면 인생의 터닝포인트가 될 수 있습니다.</p>
+<h3>🐏 양띠 (미, 未) — 화(火)의 지원으로 따뜻한 기운 흐름</h3>
+<p>미(未)토는 오화(午火)와 같은 방향의 기운입니다. 2026년 양띠는 인간관계와 감정적 풍요가 풍성해지는 해입니다. 연애·결혼·임신에 좋은 신호가 올 수 있으며, 대인관계에서 예상치 못한 귀인을 만나게 됩니다.</p>
+<h3>🐵 원숭이띠 (신, 申) — 화극금(火剋金), 압박과 단련</h3>
+<p>오화가 신금을 극(剋)하는 구조입니다. 원숭이띠에게 2026년은 외부 압박과 도전이 강해지는 해입니다. 직장·사업에서 경쟁과 마찰이 있을 수 있지만, 이 과정이 결국 실력을 다지는 단련의 기회입니다. 화를 자제하고 전략적으로 움직이세요.</p>
+<h3>🐓 닭띠 (유, 酉) — 화극금(火剋金), 건강과 감정 조심</h3>
+<p>원숭이띠와 마찬가지로 닭띠도 화(火)의 압박을 받는 해입니다. 특히 건강(심폐, 피부)과 감정 소진에 주의가 필요합니다. 불필요한 갈등을 피하고, 몸을 돌보는 데 우선순위를 두세요. 수(水)의 기운을 보완하면 도움이 됩니다.</p>
+<h3>🐶 개띠 (술, 戌) — 화生토(火生土), 성과가 뿌리를 내리는 해</h3>
+<p>술(戌)토는 화(火)의 생(生)을 받아 강해집니다. 개띠에게 2026년은 그동안의 노력이 실질적인 성과와 자산으로 굳어지는 해입니다. 부동산·투자·자기 사업의 안정화에 특히 좋은 기운이 흐릅니다.</p>
+<h3>🐷 돼지띠 (해, 亥) — 수(水)가 화(火)를 만나는 긴장감</h3>
+<p>해수(亥水)는 강한 화(火) 기운과 긴장 관계를 형성합니다. 2026년 돼지띠는 큰 도전보다는 내면을 정리하고 다음 도약을 준비하는 축적의 해로 삼는 것이 지혜롭습니다. 재정 관리와 건강 유지에 신경 쓰세요.</p>
 
-<h2 id="conclusion">3. 결론: 병오년, 당신의 열정을 복으로 만드세요</h2>
-<p>2026년은 누구에게나 뜨거운 기운이 전달되는 해입니다. 사주 오행의 균형을 맞추며 이 에너지를 건설적인 방향으로 쏟는다면, 인생에서 잊지 못할 큰 성취를 이룰 수 있을 것입니다. 붉은 말처럼 힘차게 도약하는 한 해가 되시길 바랍니다.</p>
+<h2 id="conclusion">3. 2026년을 잘 보내는 공통 전략</h2>
+<p>병오년의 강한 화(火) 기운은 모든 사람에게 영향을 미칩니다. 화 기운이 과잉인 시기에는 감정 조절, 과도한 열정 자제, 충분한 수면과 수분 보충이 공통적으로 중요합니다. 충(沖)을 받는 띠는 변화를 자연스럽게 수용하고, 화(火)의 지원을 받는 띠는 과감하게 도전하세요. 어떤 띠든 자신의 대운(大運)과 함께 봐야 더 정확한 운세를 알 수 있습니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p>[내부링크: 2번: 음력 양력 차이와 정확한 생년월일시 확인법]</p>
-  <p>[내부링크: 5번: 나에게 필요한 행운의 색상(용신) 가이드]</p>
+  <p><a href="/ko/saju/destiny-change" style="text-decoration: underline; color: #f9d976;">[관련글] 운명은 바꿀 수 있는가 — 사주와 자유의지의 관계</a></p>
+  <p><a href="/ko/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[관련글] 용신 찾기 — 2026년 나에게 필요한 에너지는?</a></p>
 </div>
 </section>
+
     `,
     contentEn: `
 <section>
-<p>2026 is the "Byeong-oh" (丙午) year, the Year of the Fire Horse. This year is characterized by intense Fire energy, symbolizing innovation, passion, and rapid transformation. This 3,000-character guide explores how each of the 12 zodiac signs can harness this fiery energy for prosperity and success.</p>
+<p>2026 is the Year of the Fire Horse — Byeong-O (丙午) in the traditional calendar. Two Fire energies stack: Byeong (丙), the open Sun, and O (午), the most Fire-charged of the twelve Earthly Branches. The result is one of the most intense annual energies in the sixty-year cycle: dramatic, illuminating, volatile, and deeply clarifying.</p>
+<p>In a Byeong-O year, things that were hidden come into light—whether you're ready for them or not. People who've been quietly building tend to see that work recognized. People who've been drifting get a sharp wake-up call. This isn't punishment; it's the natural consequence of concentrated Fire energy burning away what isn't real.</p>
 
-<h2 id="year-energy">1. The Energy of 2026: A Time for Passion</h2>
-<p>With Fire dominating both the sky and the earth, 2026 is a year where hidden truths emerge and stagnant projects find sudden momentum. For those with Wood or Fire as beneficial elements, this could be a once-in-a-decade opportunity for expansion.</p>
+<h2 id="year-energy">1. Understanding 2026's Byeong-O Energy</h2>
+<p>Fire in the Saju system governs visibility, passion, social energy, and the courage to act. A double-Fire year amplifies all of these—which means both the highs and the friction points tend to be more pronounced than usual. Relationships that have been under strain are likely to reach a breaking point or a breakthrough. Ambitions that have been held quietly may finally get expressed—for better or worse.</p>
+<p>The key insight for navigating a Fire year: this energy rewards directness and penalizes avoidance. Playing it safe out of fear tends to backfire; moving forward with honest intention, even imperfectly, tends to produce better outcomes than expected.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🐎 Get Your Detailed 2026 Fortune Report Free →</a>
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🐉 Get Your Personal 2026 Saju Forecast →</a>
 </div>
 
-<h2 id="conclusion">2. Conclusion: Turn Your Passion into Fortune</h2>
-<p>The Year of the Fire Horse offers a surge of vitality to everyone. By balancing your Five Elements and focusing this energy on constructive goals, you can achieve unforgettable success. May you leap forward like a powerful red horse in 2026.</p>
+<h2 id="zodiac-forecast">2. The Twelve Signs in 2026</h2>
+<h3>🐭 Rat (Ja/子) — Year of Productive Disruption</h3>
+<p>Rat faces a direct clash with Horse year energy—the Ja-O Clash (子午沖). This tends to mean involuntary change: unexpected moves, relationship shifts, career transitions. Resistance makes it worse; fluid adaptation makes it transformative. Many Rats who lean into the disruption find themselves significantly better positioned by year's end.</p>
+<h3>🐮 Ox (Chuk/丑) — Patient Effort Pays Off</h3>
+<p>Earth signs generally benefit from the Fire-generates-Earth dynamic. Oxen who have been grinding steadily are likely to see meaningful recognition in 2026. Stay methodical, avoid shortcuts, and let results speak.</p>
+<h3>🐯 Tiger (In/寅) — Full Throttle</h3>
+<p>Wood feeds Fire, and Tiger is Wood. 2026 offers Tigers exceptional fuel for ambitious projects. The energy is there—the question is focus. Channel it into one significant commitment rather than scattering across too many fronts.</p>
+<h3>🐰 Rabbit (Myo/卯) — Conserve and Consolidate</h3>
+<p>Strong Fire can exhaust Wood. Rabbits in 2026 are better served by building foundations than by expanding aggressively. Health, especially energy levels, deserves attention. The investments made now will pay off in 2027 and beyond.</p>
+<h3>🐉 Dragon (Jin/辰) — Gateway Year</h3>
+<p>Earth effectively channels Fire without being burned by it. Dragons are well-positioned to absorb 2026's intensity productively. New connections, professional opportunities, and unexpected good luck in the second half of the year are all in play.</p>
+<h3>🐍 Snake (Sa/巳) — High Energy, Manage the Heat</h3>
+<p>Snake shares Fire energy with the Horse year. The risk is overextension—burning bright and then burning out. Ruthless prioritization and intentional rest are essential. Focus the intensity on one or two key domains rather than diffusing it everywhere.</p>
+<h3>🐴 Horse (O/午) — Your Year, Your Reckoning</h3>
+<p>Ben Ming Nian—your own zodiac year—is traditionally a year of significant personal significance. The Horse-Horse dynamic amplifies both strengths and vulnerabilities. Internal clarity matters more than external achievement in 2026. The changes that happen this year tend to echo for years to come.</p>
+<h3>🐏 Goat (Mi/未) — Warmth and Connection</h3>
+<p>Goat's Earth energy harmonizes with the year's Fire. Emotionally, 2026 is one of the warmer years for Goats—relationships deepen, new connections form. If you've been thinking about formalizing a relationship, this is a favorable year to act.</p>
+<h3>🐵 Monkey (Sin/申) — Tested and Refined</h3>
+<p>Fire controls Metal, and Monkey is Metal. 2026 brings pressure: competitive friction, higher expectations, situations that demand your best when you're already tired. But Metal is refined by fire. The Monkeys who hold their ground this year emerge demonstrably sharper.</p>
+<h3>🐓 Rooster (Yu/酉) — Watch Your Health</h3>
+<p>Similar Fire-over-Metal dynamic as Monkey. For Roosters, the priority is physical and emotional resilience. Avoid unnecessary confrontations and protect your energy reserves. Water element activities and environments are particularly restorative.</p>
+<h3>🐶 Dog (Sul/戌) — Roots Deepen</h3>
+<p>Fire strengthens Earth, and Dog's Earth foundation gets solidified in 2026. This is an excellent year for practical consolidation—property, investments, business stability. What you build or secure in 2026 tends to be durable.</p>
+<h3>🐷 Pig (Hae/亥) — Strategic Retreat</h3>
+<p>Water and heavy Fire create tension. The wisest move for Pigs in 2026 is deliberate preparation rather than aggressive expansion. Financial caution, health attention, and clearing old obligations create the foundation for a strong 2027.</p>
+
+<h2 id="conclusion">3. Universal Themes for 2026</h2>
+<p>Regardless of sign, Byeong-O year rewards honesty, initiative, and visible contribution—and penalizes passivity, deception, and half-measures. The amplified Fire energy makes everything more transparent. It's a difficult year to pretend, to delay, or to stay in situations that no longer fit.</p>
+<p>The most important reminder: your birth chart's 10-year luck cycle (Daewun) interacts with the annual energy to produce your specific experience of 2026. Two people of the same sign in very different Daewun periods may have dramatically different years. For a complete picture, always read the annual energy against your individual chart.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/saju/destiny-change" style="text-decoration: underline; color: #f9d976;">[Read Next] Can You Change Your Destiny? Saju and the Question of Free Will</a></p>
+  <p><a href="/en/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[Read Next] Your Lucky Element — What 2026 Needs From You</a></p>
+</div>
 </section>
+
     `,
     toc: [
       { id: 'year-energy', title: '1. 병오년의 기운과 오행 분석' },
