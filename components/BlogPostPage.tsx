@@ -5,9 +5,12 @@ import { BlogPost } from '@/lib/blog/types';
 const categoryName: Record<string, Record<string, string>> = {
   saju: { ko: '사주팔자', en: 'Four Pillars' },
   seongmyeong: { ko: '성명학', en: 'Name Reading' },
+  'name-reading': { ko: '성명학', en: 'Name Reading' },
   gwansang: { ko: '관상학', en: 'Face Reading' },
+  'face-reading': { ko: '관상학', en: 'Face Reading' },
   mbti: { ko: 'MBTI', en: 'MBTI' },
   bokhap: { ko: '복합분석', en: 'Compatibility' },
+  compatibility: { ko: '궁합분석', en: 'Compatibility' },
 };
 
 interface Props {
@@ -25,7 +28,9 @@ export default function BlogPostPage({ post, locale }: Props) {
   const displayTitle = isKo ? post.title : (post.seoTitleEn || 'Detailed Analysis Report');
 
   // 언어별 카테고리명 선택
-  const displayCategory = isKo ? categoryName[post.category].ko : categoryName[post.category].en;
+  const displayCategory = isKo
+    ? (categoryName[post.category]?.ko ?? post.category)
+    : (categoryName[post.category]?.en ?? post.category);
 
   // 언어별 메타데이터 선택
   const seoTitle = (isKo ? post.seoTitle : (post.seoTitleEn || post.seoTitle));
@@ -120,10 +125,10 @@ export default function BlogPostPage({ post, locale }: Props) {
         {/* 본문 */}
         {(() => {
           // 데이터 유실 방지를 위한 3중 필터
-          const content = isKo 
-            ? (post.contentKo || (post as any).content || (post as any).contentKo) 
+          const content = isKo
+            ? (post.contentKo || (post as any).content || (post as any).contentKo)
             : (post.contentEn || post.contentKo || (post as any).content);
-            
+
           return content ? (
             <div className="prose-blog mb-8" dangerouslySetInnerHTML={{ __html: content }} />
           ) : (
