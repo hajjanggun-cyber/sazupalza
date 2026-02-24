@@ -3,13 +3,13 @@ import { BlogPost } from './types';
 export const sajuPosts: BlogPost[] = [
   {
     slug: 'intro',
-    title: 'The Foundations of Saju: Understanding the Four Pillars of Destiny',
+    title: 'What is Saju-Palja? The Comprehensive Guide to Korean Astrology',
     seoTitle: '사주팔자란 무엇인가? 음양오행 원리와 인생 운명론 완벽 가이드',
-    seoTitleEn: 'What is Saju-Palja? A Complete Guide to Yin-Yang & Five Elements',
+    seoTitleEn: 'What is Saju-Palja? Ultimate Guide to Korean Astrology & Destiny',
     description: '사주팔자의 정의부터 음양오행의 심오한 상생상극 원리까지, 3,000자 이상의 전문 해설을 통해 당신의 타고난 운명 지도를 해석하는 법을 상세히 알려드립니다.',
-    descriptionEn: 'From the definition of Saju to the profound principles of Yin-Yang and the Five Elements, this 3,000-character expert analysis reveals how to interpret your innate destiny map.',
+    descriptionEn: 'Discover the secrets of Saju-Palja, the ancient Korean art of destiny analysis. Learn how your Four Pillars and Five Elements reveal your life path, personality, and future in this expert guide.',
     keywords: ['사주팔자', '음양오행', '명리학기초', '운세풀이', '인생운명론'],
-    keywordsEn: ['Saju-Palja', 'Yin-Yang Five Elements', 'Myeonglihak Basics', 'Fortune Telling', 'Destiny Theory'],
+    keywordsEn: ['Korean Astrology', 'Saju Palja', 'Four Pillars of Destiny', 'Five Elements Theory', 'Birth Chart Analysis'],
     publishedAt: '2026-02-22',
     category: 'saju',
     contentKo: `
@@ -37,24 +37,45 @@ export const sajuPosts: BlogPost[] = [
 <p>사주팔자는 당신의 과거를 비추는 거울이자 미래를 안내하는 나침반입니다. 타고난 팔자는 바꿀 수 없지만, 그 팔자를 어떻게 운용하느냐에 따라 삶의 질은 완전히 달라질 수 있습니다. 자신의 고유한 리듬을 이해하고 우주의 흐름과 조화를 이룰 때, 당신의 인생은 비로소 완성될 것입니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p>[내부링크: 3번: 사주 일주 완전정복 - 나의 본질과 배우자 복 읽는 법]</p>
-  <p>[내부링크: 5번: 내 사주에서 가장 필요한 행운의 기운(용신) 찾는 법]</p>
+  <p><a href="/ko/saju/day-pillar" style="text-decoration: underline; color: #f9d976;">[관련글] 사주 일주 완전정복 - 나의 본질과 배우자 복 읽는 법</a></p>
+  <p><a href="/ko/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[관련글] 내 사주에서 가장 필요한 행운의 기운(용신) 찾는 법</a></p>
 </div>
 </section>
     `,
     contentEn: `
 <section>
-<p>When standing at a major crossroads in life, we often ask the fundamental question, "What is my destiny?" Saju-Palja, the essence of Eastern philosophy, is a sophisticated destiny analysis system that sets up columns of cosmic energy from the moment of birth. Beyond simple fortune-telling, it is a humanistic tool that combines astronomical observation with statistical wisdom. This guide explores everything from the definition of Saju to the harmony of the Five Elements in a 3,000-character expert analysis.</p>
+<p>At pivotal moments in life, we often ask the fundamental question, "What is my destiny?" While Western astrology looks at the stars, <strong>Saju-Palja (Four Pillars of Destiny)</strong> analyzes the cosmic energy of the very moment you were born. It is not merely fortune-telling; it is a sophisticated system of "atmospheric statistics" developed over thousands of years in East Asia. This guide will walk you through the profound principles of Saju, from the definition of the Four Pillars to the harmony of the Five Elements.</p>
 
-<h2 id="saju-definition">1. Definition and Structure: The Four Pillars</h2>
-<p>Saju (四柱) refers to the four pillars of the year, month, day, and hour of birth. Each pillar contains a Heavenly Stem and an Earthly Branch, totaling eight characters known as "Palja." These represent your genetic energetic blueprint—a cosmic barcode of your life.</p>
+<h2 id="saju-definition">1. What is Saju-Palja? The Four Pillars of Life</h2>
+<p>"Saju" translates to "Four Pillars," representing the <strong>Year, Month, Day, and Hour</strong> of your birth. "Palja" means "Eight Characters," referring to the two characters (one Heavenly Stem and one Earthly Branch) that make up each pillar. Together, these eight characters form a unique <strong>"Cosmic Barcode"</strong> that defines your potential, personality, and life path.</p>
+<h3>The Structure of Your Destiny</h3>
+<ul>
+    <li><strong>Year Pillar (Root):</strong> Represents your ancestors, early childhood (0-15 years), and your fundamental background.</li>
+    <li><strong>Month Pillar (Stem):</strong> Represents your parents, growing environment, and young adulthood (16-30 years). It is the strongest indicator of your career aptitude.</li>
+    <li><strong>Day Pillar (Flower):</strong> Represents <strong>"You" (The Self)</strong> and your spouse/partner. This is the core of Saju analysis, governing your prime years (31-45 years).</li>
+    <li><strong>Hour Pillar (Fruit):</strong> Represents your children, later years (46+ years), and your inner thoughts or hidden desires.</li>
+</ul>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 Get Your Comprehensive Saju Analysis Free →</a>
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 Analyze Your Four Pillars for Free →</a>
 </div>
 
-<h2 id="conclusion">2. Conclusion: Saju is the Key to Your Future</h2>
-<p>Saju-Palja is a mirror reflecting your past and a compass guiding your future. While you cannot change your innate Pillars, how you utilize them can completely transform the quality of your life. By understanding your unique rhythm and harmonizing with the universe, you can achieve true success and balance.</p>
+<h2 id="yin-yang-five-elements">2. Yin-Yang and the Five Elements: The Energy of the Universe</h2>
+<p>The engine that drives Saju is the interaction of <strong>Yin-Yang</strong> and the <strong>Five Elements (Wood, Fire, Earth, Metal, Water)</strong>. Your life's fortune is determined by how these elements interact within your chart.</p>
+<h3>The Cycle of Generation and Control</h3>
+<p>Elements don't just exist; they interact. Water feeds Wood (Growth), Wood fuels Fire (Passion), Fire creates Earth (Ash/Stability), Earth bears Metal (Mineral), and Metal condenses Water (Life). Understanding which elements are abundant or missing in your chart is the key to unlocking your potential. For example, if you have too much "Fire" (passion) but no "Water" (wisdom/control), your life might be brilliant but unstable. Saju teaches you how to bring balance.</p>
+
+<h2 id="destiny-analysis">3. Why Study Saju? Wisdom to Navigate Life</h2>
+<p>Saju is not about fatalism. It does not say, "You will be rich" or "You will fail." Instead, it provides a weather forecast for your life. If Saju predicts "rain" (hardship), you can bring an umbrella (preparation). If it predicts "sunshine" (opportunity), you can plant seeds.</p>
+<p>Knowing your Saju means understanding your <strong>"Day Master"</strong> (your core element). Are you a sturdy Tree? A burning Candle? A vast Ocean? Knowing your nature allows you to choose the right environment (career, partner, lifestyle) where you can thrive.</p>
+
+<h2 id="modern-usage">4. Conclusion: You Are the Driver of Your Destiny</h2>
+<p>Saju-Palja is a mirror reflecting your innate traits and a compass guiding your future. While you cannot change your birth date (your vehicle), you can choose how to drive it (your free will). By understanding the rhythm of the universe and aligning yourself with it, you can turn even a rough road into a journey of growth and success.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/saju/day-pillar" style="text-decoration: underline; color: #f9d976;">[Read More] Mastering the Day Pillar: Discovering Your True Self</a></p>
+  <p><a href="/en/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[Read More] Finding Your Yongshin: The Secret to Changing Your Luck</a></p>
+</div>
 </section>
     `,
     toc: [
@@ -64,9 +85,9 @@ export const sajuPosts: BlogPost[] = [
       { id: 'modern-usage', title: '4. 결론: 운명을 여는 지혜' },
     ],
     tocEn: [
-      { id: 'saju-definition', title: '1. Definition of Saju-Palja' },
-      { id: 'yin-yang-five-elements', title: '2. Principles of Five Elements' },
-      { id: 'destiny-analysis', title: '3. Modern Value of Saju' },
+      { id: 'saju-definition', title: '1. What is Saju-Palja?' },
+      { id: 'yin-yang-five-elements', title: '2. Yin-Yang & Five Elements' },
+      { id: 'destiny-analysis', title: '3. Why Study Saju?' },
       { id: 'modern-usage', title: '4. Conclusion' },
     ],
     faq: [
@@ -74,23 +95,23 @@ export const sajuPosts: BlogPost[] = [
       { q: '사주가 안 좋으면 어떡하나요?', a: '세상에 나쁜 사주는 없습니다. 자신의 특성을 알고 부족한 기운을 채우는 개운법을 통해 얼마든지 행복한 삶을 살 수 있습니다.' },
     ],
     faqEn: [
-      { q: 'Is Saju the same as luck?', a: 'Saju is your innate blueprint, while luck (Wun) is the flow of how that blueprint operates over time.' },
-      { q: 'What if my Saju is bad?', a: 'There is no such thing as a "bad" Saju. By understanding your traits and utilizing remedies to balance your energy, you can live a fulfilling life.' },
+      { q: 'Is Saju the same as Western Astrology?', a: 'While both analyze destiny based on birth time, Western Astrology focuses on planetary positions, whereas Saju focuses on the flow of solar time and elemental energy (Qi).' },
+      { q: 'What if my Saju is "bad"?', a: 'There is no inherently "bad" Saju. A chart with imbalances simply requires specific remedies (lifestyle, colors, mindset) to achieve harmony. Saju helps you find those remedies.' },
     ],
     relatedPosts: [
-      { slug: 'day-pillar', title: 'Mastering the Day Pillar: The Protagonist of Your Destiny', category: 'saju' },
-      { slug: 'lucky-element', title: 'Finding Your Yongshin: The Key to Luck', category: 'saju' },
+      { slug: 'day-pillar', title: 'Mastering the Day Pillar: Your True Identity', category: 'saju' },
+      { slug: 'lucky-element', title: 'Finding Your Lucky Element (Yongshin)', category: 'saju' },
     ],
   },
   {
     slug: 'lunar-solar-calendar',
-    title: 'Lunar vs Solar Calendar: Why Accurate Birth Time is Vital for Saju',
+    title: 'Lunar vs Solar Calendar in Saju: Why Accurate Birth Time Matters',
     seoTitle: '음력 양력 차이와 사주 생시의 중요성: 정확한 운세 풀이 가이드',
-    seoTitleEn: 'Lunar vs Solar Calendar in Saju: Why Birth Time Matters',
+    seoTitleEn: 'Lunar vs Solar Calendar: Why Exact Birth Time is Crucial for Saju',
     description: '사주팔자를 볼 때 음력과 양력의 차이, 그리고 정확한 태어난 시간(생시)이 왜 중요한지 3,000자 이상의 전문 해설을 통해 상세히 설명합니다.',
-    descriptionEn: 'Learn the difference between lunar and solar calendars in Saju and why knowing your exact birth time is crucial for an accurate reading in this 3,000-character guide.',
+    descriptionEn: 'Confused about Lunar vs. Solar dates for Saju? Learn why the 24 Solar Terms and your exact birth hour determine 25% of your destiny in this expert analysis.',
     keywords: ['음력양력차이', '사주생시', '생년월일시', '명리학기초', '정확한사주'],
-    keywordsEn: ['Lunar vs Solar Calendar', 'Saju Birth Time', 'Korean Fortune Basics', 'Accurate Saju', 'Astrology Calibration'],
+    keywordsEn: ['Saju Birth Time', 'Lunar vs Solar Calendar', '24 Solar Terms', 'Hour Pillar', 'Korean Fortune Telling'],
     publishedAt: '2026-02-22',
     category: 'saju',
     contentKo: `
@@ -114,24 +135,43 @@ export const sajuPosts: BlogPost[] = [
 <p>자신의 생년월일시를 정확히 아는 것은 자신을 이해하기 위한 가장 기본적이면서도 중요한 준비물입니다. 만약 시간을 정확히 모른다면, 과거의 큰 사건들을 통해 시간을 추적하는 '시 추정' 과정을 거칠 수도 있습니다. 정확한 시간 정보와 함께 당신의 숨겨진 운명적 에너지를 완벽하게 찾아내시길 바랍니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p>[내부링크: 1번: 사주팔자의 기본 구조와 의미 완벽 해설]</p>
-  <p>[내부링크: 8번: 2026년 띠별 운세와 사주 오행 흐름 분석]</p>
+  <p><a href="/ko/saju/intro" style="text-decoration: underline; color: #f9d976;">[관련글] 사주팔자의 기본 구조와 의미 완벽 해설</a></p>
+  <p><a href="/ko/saju/zodiac-2026" style="text-decoration: underline; color: #f9d976;">[관련글] 2026년 띠별 운세와 사주 오행 흐름 분석</a></p>
 </div>
 </section>
     `,
     contentEn: `
 <section>
-<p>The first question in any Saju consultation is "What is your birth date and time?" However, many are confused between lunar and solar calendars or don't know their exact birth time. Saju means "Four Pillars," and without the birth time, the last pillar is missing. This 3,000-character guide explains why accurate birth data is critical for understanding your destiny.</p>
+<p>The first question in any Saju consultation is "What is your birth date and time?" While Western astrology relies on the solar calendar, many people assume Saju uses the lunar calendar. The truth is more complex. Saju Myeonglihak relies on the <strong>24 Solar Terms (Jeolgi)</strong>, which track the sun's position. This guide explains why distinguishing between lunar and solar dates is vital and why your birth hour holds the key to your final destiny.</p>
 
-<h2 id="lunar-solar-calendar">1. Solar vs Lunar: The 24 Solar Terms</h2>
-<p>In Myeonglihak, the standard is not just the lunar calendar, but the 24 solar terms. The year officially begins at "Ipchun" (Start of Spring), regardless of the Lunar New Year date. Accurate calibration between these calendars is the first step in Saju analysis.</p>
+<h2 id="lunar-solar-calendar">1. Solar vs. Lunar: The 24 Solar Terms</h2>
+<p>Many are surprised to learn that Saju is not strictly lunar. The Saju New Year does not begin on January 1st or the Lunar New Year. Instead, it begins at <strong>"Ipchun" (Start of Spring)</strong>, which typically falls around February 4th (Solar). This means if you were born on January 20th, 2024, you still belong to the Year of the Rabbit (2023), not the Dragon (2024).</p>
+<p>Accurate Saju analysis requires converting your birth date into these solar terms. Using a standard calendar without this adjustment can lead to a completely wrong reading of your Year and Month Pillars.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
   <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">⏰ Check Your Exact Saju with Time Calibration →</a>
 </div>
 
-<h2 id="conclusion">2. Conclusion: Precise Data for a Precise Future</h2>
-<p>Knowing your exact birth data is essential for accurate self-discovery. Professional Saju analysis requires adjusting for standard time differences and daylight savings to ensure your Pillars are correctly identified. Start your journey with the right data.</p>
+<h2 id="birth-time-importance">2. The Hour Pillar: The Fruit of Your Life</h2>
+<p>The <strong>Hour Pillar (Siju)</strong> is the final pillar of your destiny. Without it, you are only reading 75% of your life map. The Hour Pillar represents:</p>
+<ul>
+    <li><strong>Late Life Fortune (Age 50+):</strong> How your life concludes. Will it be lonely or surrounded by loved ones? Will you be wealthy or struggling?</li>
+    <li><strong>Children Luck:</strong> Your relationship with your offspring and their success.</li>
+    <li><strong>Hidden Self:</strong> Your deepest desires and sexual energy that you don't show to the public.</li>
+</ul>
+<p>Knowing your birth hour is essential to predict the final outcome of your career and relationships.</p>
+
+<h2 id="time-correction">3. The Trap of "Standard Time" and Daylight Savings</h2>
+<p>Saju uses "True Solar Time," not the time on your clock. For example, South Korea uses a standard time based on 135°E longitude, but geographically it is located around 127°E. This creates a roughly <strong>30-minute difference</strong>. If you were born at 11:10 AM, the clock says it's "Horse Time" (11:00-13:00), but True Solar Time might say it's still "Snake Time" (09:00-11:00).</p>
+<p>Additionally, historical <strong>Daylight Savings Time (Summer Time)</strong> must be subtracted. Professional Saju analysis always corrects for these factors to pinpoint the exact celestial energy at your birth.</p>
+
+<h2 id="conclusion">4. Conclusion: Precision leads to Clarity</h2>
+<p>In Saju, a difference of two minutes can change an entire destiny. If you are unsure of your birth time, try to narrow it down to a two-hour window (e.g., between 5 PM and 7 PM). Analyzing past major life events can also help reverse-engineer your correct birth time. Start your journey of self-discovery with the most accurate data possible.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/saju/intro" style="text-decoration: underline; color: #f9d976;">[Read More] Saju Basics: Understanding the Structure of Four Pillars</a></p>
+  <p><a href="/en/saju/zodiac-2026" style="text-decoration: underline; color: #f9d976;">[Read More] 2026 Zodiac Fortune: What the Year of the Horse Holds</a></p>
+</div>
 </section>
     `,
     toc: [
@@ -141,9 +181,9 @@ export const sajuPosts: BlogPost[] = [
       { id: 'conclusion', title: '4. 결론: 정확한 데이터의 중요성' },
     ],
     tocEn: [
-      { id: 'lunar-solar-calendar', title: '1. Meaning of Solar Terms' },
-      { id: 'birth-time-importance', title: '2. Impact of Birth Time' },
-      { id: 'time-correction', title: '3. Time Calibration' },
+      { id: 'lunar-solar-calendar', title: '1. Solar vs. Lunar Terms' },
+      { id: 'birth-time-importance', title: '2. Importance of Hour Pillar' },
+      { id: 'time-correction', title: '3. Standard Time & Corrections' },
       { id: 'conclusion', title: '4. Conclusion' },
     ],
     faq: [
@@ -151,8 +191,8 @@ export const sajuPosts: BlogPost[] = [
       { q: '새벽에 태어났는데 날짜가 언제인가요?', a: '사주에서 하루의 시작은 자시(23:30)부터입니다. 자정 이전이라도 자시라면 다음 날 사주로 볼 수 있습니다.' },
     ],
     faqEn: [
-      { q: 'Can I see Saju without a birth time?', a: 'Yes, but it will be a "Three Pillar" analysis. For a full reading, we recommend time estimation based on past life events.' },
-      { q: 'I was born at dawn; which day is it?', a: 'In Saju, the day transitions at Jasi (approx. 23:30). If you were born after 23:30, your Pillars may follow the next day.' },
+      { q: 'Can I do Saju without a birth time?', a: 'Yes, we can analyze the "Three Pillars" (Year, Month, Day). However, for career endings and late-life luck, we recommend estimating the time based on your life history.' },
+      { q: 'I was born at 11:45 PM. Is it the next day?', a: 'In Saju, the new day starts at "Ja-si" (Rat Time), which begins at 11:30 PM. So, if you were born after 11:30 PM, you technically belong to the next day.' },
     ],
     relatedPosts: [
       { slug: 'intro', title: 'Understanding Saju Basics', category: 'saju' },
@@ -161,13 +201,13 @@ export const sajuPosts: BlogPost[] = [
   },
   {
     slug: 'day-pillar',
-    title: 'Mastering the Day Pillar: The Core of Your Personality and Relationship Fortune',
+    title: 'The Day Pillar (Ilju): Discovering Your True Self and Spouse Luck',
     seoTitle: '사주 일주 완전정복: 나의 본질(일간)과 배우자 복을 읽는 법',
-    seoTitleEn: 'Mastering Saju Day Pillar: Your Identity and Relationship Fate',
+    seoTitleEn: 'Mastering the Day Pillar: Your Identity and Relationship Fate',
     description: '사주팔자의 주인공, 일주(日柱)를 통해 당신의 핵심 기질과 배우자운을 3,000자 전문 해설로 완벽하게 분석합니다. 육십갑자 일주론의 핵심을 확인하세요.',
-    descriptionEn: 'Explore the protagonist of your Saju: the Day Pillar (Ilju). This 3,000-character expert guide reveals your core identity and marriage prospects based on the 60 pillars.',
+    descriptionEn: 'Your Day Pillar (Ilju) is the most critical part of your Saju chart. It reveals your core personality, your "Day Master," and your marriage luck. Dive into this 3,000-character expert guide.',
     keywords: ['사주일주', '일간분석', '배우자운', '육십갑자', '나의기질'],
-    keywordsEn: ['Day Pillar Saju', 'Ilju Interpretation', 'Marriage Fortune', 'Korean Astrology Identity', 'Personality Core'],
+    keywordsEn: ['Day Pillar', 'Ilju', 'Day Master', 'Korean Astrology Identity', 'Marriage Luck Saju'],
     publishedAt: '2026-02-22',
     category: 'saju',
     contentKo: `
@@ -191,24 +231,43 @@ export const sajuPosts: BlogPost[] = [
 <p>당신의 일주는 당신이 이 세상에 올 때 가져온 가장 소중한 이름표입니다. 자신의 일주가 가진 강점을 사랑하고 부족한 점을 수양으로 채워갈 때, 당신은 운명에 끌려다니는 사람이 아니라 운명을 이끄는 주인공이 될 것입니다. 당신의 일주가 가진 무한한 잠재력을 믿으세요.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p>[내부링크: 27번: MBTI 유형별 찰떡궁합 사주 일주 매칭표]</p>
-  <p>[내부링크: 1번: 사주팔자란 무엇인가? 기초 원리 가이드]</p>
+  <p><a href="/ko/mbti/compatibility-table" style="text-decoration: underline; color: #f9d976;">[관련글] MBTI 유형별 찰떡궁합 사주 일주 매칭표</a></p>
+  <p><a href="/ko/saju/intro" style="text-decoration: underline; color: #f9d976;">[관련글] 사주팔자란 무엇인가? 기초 원리 가이드</a></p>
 </div>
 </section>
     `,
     contentEn: `
 <section>
-<p>If you had to pick just one pillar from your Saju, it would undoubtedly be the Day Pillar (Ilju). This pillar represents your core self (Day Stem) and your marriage palace (Day Branch). It's the protagonist of your life story. This 3,000-character guide explores your identity and relationship fortune based on the unique interactions of the 60 Day Pillars.</p>
+<p>If you had to pick just one pillar from your Saju chart, it would undoubtedly be the <strong>Day Pillar (Ilju)</strong>. This pillar represents your core self (Day Master) and your marriage palace (Day Branch). It is the protagonist of your life's movie. Understanding your Day Pillar is the fastest way to understand your true personality, your strengths, and your romantic destiny.</p>
 
-<h2 id="ilju-core">1. The Day Pillar: Your Unique Spiritual Brand</h2>
-<p>The Day Stem reflects your conscious ego, while the Day Branch represents your immediate environment and spouse. Whether you are a tall tree (Gap-wood) or a precise jewel (Sin-metal), your Day Pillar defines how you interact with the world and what kind of internal resilience you possess.</p>
+<h2 id="ilju-core">1. The Day Master: Your Spiritual DNA</h2>
+<p>The heavenly character of your Day Pillar is called the <strong>"Day Master" (Ilgan)</strong>. This single character defines your fundamental nature. Are you a towering tree (Gap-Wood), a burning candle (Jeong-Fire), or a precious jewel (Sin-Metal)?</p>
+<ul>
+    <li><strong>Wood (Gap/Eul):</strong> Growth, benevolence, upward mobility.</li>
+    <li><strong>Fire (Byeong/Jeong):</strong> Passion, expression, politeness.</li>
+    <li><strong>Earth (Mu/Gi):</strong> Stability, trust, neutrality.</li>
+    <li><strong>Metal (Gyeong/Sin):</strong> Justice, decision-making, precision.</li>
+    <li><strong>Water (Im/Gye):</strong> Wisdom, flexibility, adaptability.</li>
+</ul>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🦁 Discover Your Day Pillar and Marriage Fortune →</a>
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🦁 Discover Your Day Pillar Personality & Love Luck →</a>
 </div>
 
-<h2 id="conclusion">2. Conclusion: You are the Hero of Your Own Drama</h2>
-<p>Your Day Pillar is the most precious name tag you brought into this world. By loving its strengths and cultivating its weaknesses, you move from being a victim of fate to a master of destiny. Trust in the infinite potential your Day Pillar holds.</p>
+<h2 id="spouse-luck">2. The Day Branch: Your Marriage Palace</h2>
+<p>The earthly character of your Day Pillar is the <strong>"Day Branch" (Ilji)</strong>. It represents your physical body, your home, and most importantly, your <strong>spouse</strong>. The relationship between your Day Master (You) and Day Branch (Spouse) predicts your marriage dynamics.</p>
+<p>For example, if your Day Branch "supports" your Day Master, you are likely to have a supportive and helpful partner. If they "clash," your marriage may require more effort and understanding to bridge differences. Knowing this helps you choose a partner who complements your energy rather than conflicting with it.</p>
+
+<h2 id="daily-life">3. The 60 Pillars: Which One Are You?</h2>
+<p>There are 60 possible combinations of Day Pillars (e.g., Gap-Ja, Eul-Chuk). Each combination creates a unique personality archetype. A "Gap-In" pillar (Wood over Wood) indicates a strong, independent leader who might struggle with flexibility. A "Gye-Sa" pillar (Water over Fire) suggests a sensitive, intuitive person with hidden talents.</p>
+
+<h2 id="conclusion">4. Conclusion: Be the Hero of Your Own Drama</h2>
+<p>Your Day Pillar is the name tag your soul chose before coming to this world. By embracing the strengths of your Ilju and cultivating its weaknesses, you move from being a victim of fate to a master of destiny. Trust in the unique potential your Day Pillar holds.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/mbti/compatibility-table" style="text-decoration: underline; color: #f9d976;">[Read More] MBTI and Saju Match Table: Find Your Perfect Partner</a></p>
+  <p><a href="/en/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[Read More] Finding Your Yongshin: Your Beneficial Element</a></p>
+</div>
 </section>
     `,
     toc: [
@@ -218,9 +277,9 @@ export const sajuPosts: BlogPost[] = [
       { id: 'conclusion', title: '4. 결론: 운명의 주인공이 되는 법' },
     ],
     tocEn: [
-      { id: 'ilju-core', title: '1. Definition of Day Pillar' },
-      { id: 'spouse-luck', title: '2. Marriage Fortune Analysis' },
-      { id: 'daily-life', title: '3. Modern Application' },
+      { id: 'ilju-core', title: '1. The Day Master: Your DNA' },
+      { id: 'spouse-luck', title: '2. Marriage Palace Analysis' },
+      { id: 'daily-life', title: '3. The 60 Pillars Archetypes' },
       { id: 'conclusion', title: '4. Conclusion' },
     ],
     faq: [
@@ -228,8 +287,8 @@ export const sajuPosts: BlogPost[] = [
       { q: '배우자 자리에 나쁜 글자가 있으면 결혼을 못 하나요?', a: '절대 아닙니다. 서로의 일주가 보완 관계인 상대를 만나거나, 업상대체(직업으로 액운을 푸는 법)를 통해 행복하게 살 수 있습니다.' },
     ],
     faqEn: [
-      { q: 'Is a good Day Pillar enough for a good life?', a: 'While central, the Day Pillar must be balanced with the Month and Year pillars, and considered alongside the larger Time Cycles (Daewun).' },
-      { q: 'Can a bad Marriage Palace mean no marriage?', a: 'No. It simply means you need a partner whose energy complements yours, or you can mitigate challenges through specific career choices or lifestyle adjustments.' },
+      { q: 'Is a good Day Pillar enough for a good life?', a: 'While central, the Day Pillar is just the protagonist. The supporting cast (Year, Month, Hour) and the stage (Time Cycles) determine the plot of your life.' },
+      { q: 'Does a bad Marriage Palace mean divorce?', a: 'No. It often means you need a partner with a specific elemental energy to balance you, or you should pursue a career that uses that "clashing" energy productively.' },
     ],
     relatedPosts: [
       { slug: 'intro', title: 'Saju Basics: The Four Pillars Explained', category: 'saju' },
@@ -238,13 +297,13 @@ export const sajuPosts: BlogPost[] = [
   },
   {
     slug: 'saju-spirits',
-    title: 'Saju Spirits and Stars: Turning Dowa and Yeokma into Modern Success',
+    title: 'Saju Spirits and Stars: Transforming "Bad Luck" into Modern Success',
     seoTitle: '사주 신살 총정리: 도화살·역마살·백호살의 현대적 해석과 성공 비법',
-    seoTitleEn: 'Saju Sinsal Guide: Modern Interpretation of Dowa, Yeokma, and more',
+    seoTitleEn: 'Saju Stars Guide: Modern Meaning of Dowa (Peach Blossom) & Yeokma',
     description: '사주에 도화살이나 역마살이 있으면 나쁜 건가요? 15개 핵심 신살의 의미를 현대적 관점에서 재해석하고, 이를 장점으로 승화시키는 3,000자 비책을 공개합니다.',
-    descriptionEn: 'Are "Spirits and Stars" like Dowa or Yeokma bad for you? Discover the modern interpretation of 15 key Saju stars and how to turn them into your greatest strengths in this 3,000-character guide.',
+    descriptionEn: 'Are "Spirits" like Peach Blossom (Dowa) or Traveling Horse (Yeokma) bad? Discover how to turn these Saju stars into superpowers for career and fame in this expert guide.',
     keywords: ['사주신살', '도화살뜻', '역마살의미', '백호살성공', '살풀이'],
-    keywordsEn: ['Saju Sinsal', 'Dowa-sal Meaning', 'Yeokma-sal Success', 'Korean Astrology Stars', 'Fate Remedies'],
+    keywordsEn: ['Saju Spirits', 'Peach Blossom Star', 'Dowa Sal', 'Yeokma Sal', 'Korean Astrology Stars'],
     publishedAt: '2026-02-22',
     category: 'saju',
     contentKo: `
@@ -272,25 +331,35 @@ export const sajuPosts: BlogPost[] = [
 <p>모든 신살은 양날의 검과 같습니다. 어떻게 사용하느냐에 따라 나를 해치는 흉기가 될 수도, 세상을 정복하는 보검이 될 수도 있습니다. 자신의 신살을 긍정적인 방향으로 발산하여 당신만의 독보적인 가치를 만들어가시길 바랍니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p>[내부링크: 4번: 도화살과 홍염살의 차이 - 이성을 끄는 매력의 비밀]</p>
-  <p>[내부링크: 7번: 사주 관성(官星)으로 보는 나의 성공운과 직업운]</p>
+  <p><a href="/ko/saju/career-star" style="text-decoration: underline; color: #f9d976;">[관련글] 사주 관성(官星)으로 보는 나의 성공운과 직업운</a></p>
+  <p><a href="/ko/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[관련글] 사주 용신 찾기: 내 사주에서 가장 필요한 기운</a></p>
 </div>
 </section>
     `,
     contentEn: `
 <section>
-<p>In traditional Saju, words like "Sal" (killing energy) sounded terrifying. However, in modern society, these "Spirits and Stars" are re-evaluated as unique charms and competitive edges. Dowa-sal becomes marketing talent, and Yeokma-sal becomes global mobility. This 3,000-character guide reveals the truth behind 15 key Saju stars and how to utilize them for success.</p>
+<p>In traditional Saju, words like "Sal" (meaning 'killing energy') sounded terrifying. People feared stars like "Dowa" (Peach Blossom) or "Yeokma" (Traveling Horse). However, in modern society, these specific energy patterns are re-evaluated as unique talents and competitive edges. What was once considered "instability" is now "global mobility." This guide reveals the truth behind 15 key Saju stars and how to turn them into your greatest assets.</p>
 
-<h2 id="popular-spirits">1. The Three Luck Stars for Modern Success</h2>
-<h3>Dowa-sal: The Irresistible Star Power</h3>
-<p>Once feared as a sign of instability, Dowa is now the ultimate asset for influencers, marketers, and performers. Embracing your natural charisma turns this energy into a ladder for fame and wealth.</p>
+<h2 id="popular-spirits">1. The "Celebrity" Stars: Dowa and Yeokma</h2>
+<h3>Dowa-sal (Peach Blossom Star): The Irresistible Charm</h3>
+<p>Historically, Dowa meant "lust" or scandal. Today, it is the <strong>"Star of Popularity."</strong> It signifies charisma, attractiveness, and the ability to draw attention. For influencers, actors, and salespeople, having a Dowa star is a blessing, not a curse. It is the energy of being loved by the public.</p>
+<h3>Yeokma-sal (Traveling Horse Star): The Global Nomad</h3>
+<p>In the past, this meant a life of wandering without a home. Today, it represents <strong>international success, tourism, and digital connectivity.</strong> People with strong Yeokma energy thrive in jobs that require travel, change, and dynamism. They become wealthy by moving, not by staying still.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🌟 Discover the Hidden Powerful Stars in Your Saju →</a>
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🌟 Discover Your Hidden Powerful Stars →</a>
 </div>
 
-<h2 id="conclusion">2. Conclusion: "Sal" is Medicine, Not Poison</h2>
-<p>Every star is a double-edged sword. Depending on how you use it, it can be a weapon that hurts or a treasure that conquers. Redirect your Saju energy toward positive growth and create your own unique value.</p>
+<h2 id="powerful-spirits">2. The "Power" Stars: Baekho and Goegang</h2>
+<p><strong>Baekho (White Tiger)</strong> and <strong>Goegang (Extreme Leader)</strong> stars represent explosive energy. While they can manifest as accidents or temper issues if uncontrolled, they are the stars of <strong>professionals and experts.</strong> Surgeons, prosecutors, athletes, and CEOs often possess these stars. Using this intense energy for professional mastery is called "Up-sang-dae-che" (replacing bad karma with career success).</p>
+
+<h2 id="conclusion">3. Conclusion: "Sal" is Medicine, Not Poison</h2>
+<p>Every star is a double-edged sword. Depending on how you use it, it can be a weapon that hurts you or a tool that conquers the world. Don't be afraid of your stars; learn to wield them. Redirect your Saju energy toward positive growth and create your own unique value.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/saju/career-star" style="text-decoration: underline; color: #f9d976;">[Read More] Career Luck in Saju: Finding Your Professional Path</a></p>
+  <p><a href="/en/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[Read More] Finding Your Yongshin: The Key to Wealth</a></p>
+</div>
 </section>
     `,
     toc: [
@@ -300,8 +369,8 @@ export const sajuPosts: BlogPost[] = [
       { id: 'conclusion', title: '4. 결론: 신살의 현대적 재해석' },
     ],
     tocEn: [
-      { id: 'popular-spirits', title: '1. Modern Luck: Dowa & Yeokma' },
-      { id: 'powerful-spirits', title: '2. Power Stars: Baekho & Goegang' },
+      { id: 'popular-spirits', title: '1. Dowa & Yeokma Stars' },
+      { id: 'powerful-spirits', title: '2. Baekho & Goegang Stars' },
       { id: 'conclusion', title: '3. Conclusion' },
     ],
     faq: [
@@ -309,8 +378,8 @@ export const sajuPosts: BlogPost[] = [
       { q: '신살이 너무 많으면 안 좋나요?', a: '살이 많다는 것은 그만큼 에너지가 역동적이라는 뜻입니다. 이를 전문적인 직업으로 승화시키면 대성할 수 있습니다.' },
     ],
     faqEn: [
-      { q: 'Does Dowa-sal mean unfaithfulness?', a: 'No. In a modern context, it translates to being loved by the public and having a magnetic social presence.' },
-      { q: 'Are too many "Sal" bad?', a: 'A high density of these stars indicates dynamic energy. By channeling this into a professional career, one can achieve great success.' },
+      { q: 'Does the Peach Blossom Star mean I will cheat?', a: 'No. In a modern context, it translates to social magnetism and popularity. It makes you attractive, which is an asset, not a moral failing.' },
+      { q: 'Is it bad to have many "Sal" in my chart?', a: 'A high density of these stars indicates a very dynamic and energetic life. If you channel this energy into a specialized career, you can achieve extraordinary success.' },
     ],
     relatedPosts: [
       { slug: 'intro', title: 'Foundations of Saju-Palja', category: 'saju' },
@@ -319,13 +388,13 @@ export const sajuPosts: BlogPost[] = [
   },
   {
     slug: 'lucky-element',
-    title: 'Finding Your Yongshin: The Ultimate Key to Wealth and Balance',
+    title: 'Finding Your Yongshin: The Secret Key to Wealth and Balance',
     seoTitle: '사주 용신 찾기: 내 사주에서 가장 필요한 기운과 행운의 개운법',
-    seoTitleEn: 'Finding Your Lucky Element (Yongshin): Saju Balance Guide',
+    seoTitleEn: 'Finding Your Lucky Element (Yongshin): The Key to Saju Balance',
     description: '사주에서 가장 중요한 ‘용신’을 찾는 법을 아시나요? 부족한 오행을 채우고 대운을 잡는 핵심 비책을 3,000자 전문 해설로 상세히 설명합니다.',
-    descriptionEn: 'Learn how to identify your "Yongshin"—the most critical element in your Saju. Discover how to balance your Five Elements and seize great fortune in this 3,000-character guide.',
+    descriptionEn: 'Learn how to identify your "Yongshin" (Beneficial Element). This is the secret key to balancing your chart, improving your luck, and finding your lucky colors and directions.',
     keywords: ['사주용신', '용신찾는법', '희신용신', '오행균형', '행운의색상'],
-    keywordsEn: ['Saju Yongshin', 'Lucky Element', 'Beneficial Element', 'Saju Balance', 'Fortune Improvement'],
+    keywordsEn: ['Saju Yongshin', 'Lucky Element', 'Beneficial Element', 'Saju Balance', 'Lucky Colors'],
     publishedAt: '2026-02-22',
     category: 'saju',
     contentKo: `
@@ -352,24 +421,45 @@ export const sajuPosts: BlogPost[] = [
 <p>용신은 외부에서 찾는 것이 아니라, 내 사주 원국 안에 이미 씨앗으로 존재합니다. 그 씨앗이 잘 자랄 수 있도록 환경을 조성해 주는 것이 개운의 핵심입니다. 당신의 용신을 믿고 그 방향으로 나아갈 때, 세상의 모든 운세가 당신을 돕기 시작할 것입니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p>[내부링크: 1번: 사주팔자 입문 - 음양오행 원리 가이드]</p>
-  <p>[내부링크: 9번: 운명은 정해져 있는가? 사주로 운을 바꾸는 법]</p>
+  <p><a href="/ko/saju/intro" style="text-decoration: underline; color: #f9d976;">[관련글] 사주팔자 입문 - 음양오행 원리 가이드</a></p>
+  <p><a href="/ko/saju/destiny-change" style="text-decoration: underline; color: #f9d976;">[관련글] 운명은 정해져 있는가? 사주로 운을 바꾸는 법</a></p>
 </div>
 </section>
     `,
     contentEn: `
 <section>
-<p>The ultimate goal of Saju interpretation is to find your "Yongshin"—the Beneficial Element. This element acts as a problem solver that restores balance to your Eight Characters and leads you to success. Knowing your Yongshin is like having a cheat code for life. This 3,000-character expert guide helps you find the key to your fortune.</p>
+<p>The ultimate goal of Saju interpretation is to find your <strong>"Yongshin" (Beneficial Element)</strong>. This element acts as a medicine that cures the imbalances in your chart. If your chart is too cold, Fire is your Yongshin. If it is too rigid, Water is your Yongshin. Identifying this element gives you the "Cheat Code" to your life, allowing you to attract wealth, health, and happiness.</p>
 
 <h2 id="yongshin-concept">1. What is Yongshin? The Savior of Destiny</h2>
-<p>Saju is a tug-of-war between energies. Yongshin is the specific element that creates harmony. When this element appears in your Time Cycles (Daewun), you experience your golden age. Identifying it allows you to proactively attract luck through colors, directions, and lifestyle choices.</p>
+<p>Saju is a tug-of-war between energies. Some are too strong, suppressing you; others are too weak to help. Yongshin is the specific element that restores <strong>Harmony (Junghwa)</strong> to your chart. When your Yongshin arrives in your 10-year Time Cycle (Daewun), you will experience the golden era of your life.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
   <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">💎 Identify Your Yongshin and Lucky Colors →</a>
 </div>
 
-<h2 id="conclusion">2. Conclusion: Awakening Your Potential</h2>
-<p>Yongshin is not something to find externally; its seed already exists within your Pillars. By creating an environment where that seed can flourish, you align yourself with the universe's flow. Trust in your beneficial element and watch your fortune grow.</p>
+<h2 id="types-of-yongshin">2. How to Find Your Lucky Element</h2>
+<h3>The Balance of Strength (Eokbu)</h3>
+<p>If your energy is too strong, you need an element to drain or control it. If you are too weak, you need an element to support and nourish you. This is the basic principle of balancing strength.</p>
+<h3>The Balance of Temperature (Johu)</h3>
+<p>Temperature is crucial. If you were born in the freezing winter, no amount of money can make you happy if you are "frozen." You desperately need Fire (Warmth) as your Yongshin. Conversely, if born in the scorching summer, you need Water (Cooling) to achieve emotional and physical peace.</p>
+
+<h2 id="practical-usage">3. Living with Your Yongshin: Practical Cures</h2>
+<p>Once you know your Yongshin, you can use it to boost your luck:</p>
+<ul>
+    <li><strong>Wood:</strong> Wear green, exercise in forests, sleep facing East.</li>
+    <li><strong>Fire:</strong> Use bright lighting, engage in social activities, sleep facing South.</li>
+    <li><strong>Earth:</strong> Hiking, gardening, living in central areas or lower floors.</li>
+    <li><strong>Metal:</strong> Wearing jewelry, organizing/decluttering, sleeping facing West.</li>
+    <li><strong>Water:</strong> Swimming, drinking tea, thinking deeply, sleeping facing North.</li>
+</ul>
+
+<h2 id="conclusion">4. Conclusion: Awakening Your Potential</h2>
+<p>Yongshin is not something you find externally; its seed already exists within your Pillars. By creating an environment where that seed can flourish—through your clothes, habits, and mindset—you align yourself with the universe's flow. Trust in your beneficial element and watch your fortune grow.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/saju/intro" style="text-decoration: underline; color: #f9d976;">[Read More] Understanding Yin-Yang and Five Elements</a></p>
+  <p><a href="/en/saju/destiny-change" style="text-decoration: underline; color: #f9d976;">[Read More] Can You Change Your Destiny? The Saju Guide</a></p>
+</div>
 </section>
     `,
     toc: [
@@ -379,16 +469,17 @@ export const sajuPosts: BlogPost[] = [
       { id: 'conclusion', title: '4. 결론: 행운의 열쇠를 쥐는 법' },
     ],
     tocEn: [
-      { id: 'yongshin-concept', title: '1. Definition of Yongshin' },
-      { id: 'types-of-yongshin', title: '2. Techniques for Finding It' },
-      { id: 'conclusion', title: '3. Conclusion' },
+      { id: 'yongshin-concept', title: '1. What is Yongshin?' },
+      { id: 'types-of-yongshin', title: '2. Finding Your Lucky Element' },
+      { id: 'practical-usage', title: '3. Practical Luck Cures' },
+      { id: 'conclusion', title: '4. Conclusion' },
     ],
     faq: [
       { q: '용신은 평생 안 바뀌나요?', a: '사주 원국의 용신은 바뀌지 않지만, 대운의 흐름에 따라 가장 시급하게 필요한 기운(희신)은 변할 수 있습니다.' },
       { q: '내 사주에 없는 오행이 용신이 될 수 있나요?', a: '네, 오히려 없는 오행이 사주의 극심한 불균형을 해결해 주는 결정적인 용신이 되는 경우가 많습니다.' },
     ],
     faqEn: [
-      { q: 'Does Yongshin change over time?', a: 'Your core Yongshin is fixed, but the "Most Needed Element" (Heeshin) can shift depending on your current 10-year Time Cycle.' },
+      { q: 'Does my Yongshin change over time?', a: 'Your core beneficial element remains the same, but the "medicine" you need most can shift depending on your current 10-year luck cycle.' },
       { q: 'Can a missing element be my Yongshin?', a: 'Yes. Often, the element entirely missing from your chart is the exact key needed to resolve a severe imbalance.' },
     ],
     relatedPosts: [
