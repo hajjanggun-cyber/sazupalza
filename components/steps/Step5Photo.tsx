@@ -1,6 +1,6 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { useRef, useState } from 'react';
 import * as faceapi from 'face-api.js';
 
@@ -19,31 +19,31 @@ async function loadFaceModels() {
 
 // ── 랜드마크로 얼굴형 분류 ──
 function calcFaceShape(pts: { x: number; y: number }[]): string {
-  const jawWidth      = Math.abs(pts[16].x - pts[0].x);
-  const cheekWidth    = Math.abs(pts[14].x - pts[2].x);
+  const jawWidth = Math.abs(pts[16].x - pts[0].x);
+  const cheekWidth = Math.abs(pts[14].x - pts[2].x);
   const foreheadWidth = Math.abs(pts[26].x - pts[17].x);
-  const faceHeight    = pts[8].y - (pts[19].y + pts[24].y) / 2;
-  const ratio         = faceHeight / jawWidth;
+  const faceHeight = pts[8].y - (pts[19].y + pts[24].y) / 2;
+  const ratio = faceHeight / jawWidth;
 
-  if (ratio > 1.4)                      return 'oval_long';
-  if (jawWidth > cheekWidth * 0.95)     return 'square';
-  if (foreheadWidth > jawWidth * 1.15)  return 'triangle_inv';
-  if (ratio < 1.0)                      return 'round';
+  if (ratio > 1.4) return 'oval_long';
+  if (jawWidth > cheekWidth * 0.95) return 'square';
+  if (foreheadWidth > jawWidth * 1.15) return 'triangle_inv';
+  if (ratio < 1.0) return 'round';
   return 'oval';
 }
 
 // ── 좌우 대칭도 → 점수(60~95) ──
 function calcSymmetryScore(pts: { x: number; y: number }[]): number {
   const centerX = (pts[0].x + pts[16].x) / 2;
-  const pairs: [number, number][] = [[1,15],[2,14],[3,13],[4,12],[5,11],[6,10]];
+  const pairs: [number, number][] = [[1, 15], [2, 14], [3, 13], [4, 12], [5, 11], [6, 10]];
   let totalAsym = 0;
   pairs.forEach(([l, r]) => {
     totalAsym += Math.abs(
       Math.abs(pts[l].x - centerX) - Math.abs(pts[r].x - centerX)
     );
   });
-  const faceWidth  = Math.abs(pts[16].x - pts[0].x);
-  const asymRatio  = totalAsym / (faceWidth * pairs.length);
+  const faceWidth = Math.abs(pts[16].x - pts[0].x);
+  const asymRatio = totalAsym / (faceWidth * pairs.length);
   return Math.round(Math.max(60, Math.min(95, 95 - asymRatio * 200)));
 }
 
@@ -54,9 +54,9 @@ function buildFaceFeatures(
   isEn: boolean
 ): { mainFeatures: string[]; summary: string } {
   const shapeFeatures: Record<string, string[]> = {
-    oval:      isEn ? ['Balanced features', 'Elegant impression'] : ['균형 잡힌 이목구비', '우아한 인상'],
-    round:     isEn ? ['Gentle impression', 'Friendly face'] : ['온화한 인상', '친근감 있는 얼굴'],
-    square:    isEn ? ['Strong-willed', 'Powerful image'] : ['의지 있는 인상', '강인한 이미지'],
+    oval: isEn ? ['Balanced features', 'Elegant impression'] : ['균형 잡힌 이목구비', '우아한 인상'],
+    round: isEn ? ['Gentle impression', 'Friendly face'] : ['온화한 인상', '친근감 있는 얼굴'],
+    square: isEn ? ['Strong-willed', 'Powerful image'] : ['의지 있는 인상', '강인한 이미지'],
     triangle_inv: isEn ? ['Intellectual impression', 'Sharp features'] : ['지적인 인상', '날카로운 이목구비'],
     oval_long: isEn ? ['Sophisticated look', 'Ideal proportions'] : ['세련된 인상', '이상적인 비율'],
   };
@@ -70,20 +70,20 @@ function buildFaceFeatures(
   };
 
   const shapeDesc: Record<string, string> = {
-    oval:      isEn ? 'A balanced face shape that favors interpersonal relationships.' : '균형 잡힌 관상으로 대인관계에 유리한 기운이 있습니다',
-    round:     isEn ? 'A gentle and rounded impression that tends to bring good energy to others.' : '온화하고 원만한 인상으로 주변에 좋은 기운을 주는 경향이 있습니다',
-    square:    isEn ? 'A physiognomy where determination and willpower are strongly revealed.' : '결단력과 의지력이 강하게 드러나는 관상입니다',
+    oval: isEn ? 'A balanced face shape that favors interpersonal relationships.' : '균형 잡힌 관상으로 대인관계에 유리한 기운이 있습니다',
+    round: isEn ? 'A gentle and rounded impression that tends to bring good energy to others.' : '온화하고 원만한 인상으로 주변에 좋은 기운을 주는 경향이 있습니다',
+    square: isEn ? 'A physiognomy where determination and willpower are strongly revealed.' : '결단력과 의지력이 강하게 드러나는 관상입니다',
     triangle_inv: isEn ? 'An intellectual impression with strong intelligence and sharp energy.' : '총명하고 예리한 기운이 강한 지적 인상입니다',
     oval_long: isEn ? 'An ideal physiognomy with overall well-balanced energy.' : '전반적으로 균형 잡힌 기운을 가진 이상적인 관상입니다',
   };
 
   const expressionFeature: Record<string, string> = {
-    happy:     isEn ? 'Bright and positive energy' : '밝고 긍정적인 에너지',
-    neutral:   isEn ? 'Calm and trustworthy impression' : '차분하고 신뢰감 있는 인상',
+    happy: isEn ? 'Bright and positive energy' : '밝고 긍정적인 에너지',
+    neutral: isEn ? 'Calm and trustworthy impression' : '차분하고 신뢰감 있는 인상',
     surprised: isEn ? 'Lively and curious eyes' : '생기 있고 호기심 넘치는 눈빛',
-    sad:       isEn ? 'Sensitive and delicate impression' : '감수성이 풍부한 섬세한 인상',
-    angry:     isEn ? 'Strong charisma and presence' : '강한 카리스마와 존재감',
-    fearful:   isEn ? 'Acute senses and intuition' : '예민한 감각과 직관력',
+    sad: isEn ? 'Sensitive and delicate impression' : '감수성이 풍부한 섬세한 인상',
+    angry: isEn ? 'Strong charisma and presence' : '강한 카리스마와 존재감',
+    fearful: isEn ? 'Acute senses and intuition' : '예민한 감각과 직관력',
     disgusted: isEn ? 'Clear self-standards and principles' : '뚜렷한 자기 기준과 원칙',
   };
 
@@ -115,11 +115,11 @@ interface Props {
 
 export default function Step5Photo({ onPhotoCapture, onSkip, onPrev }: Props) {
   const t = useTranslations('steps');
-  const navT = useTranslations('nav');
-  const isEn = navT('logo') === 'SajuPalza';
-  
+  const locale = useLocale();
+  const isEn = locale !== 'ko';
+
   const fileInputRef = useRef<HTMLInputElement>(null);
-  const [preview, setPreview]   = useState<string | null>(null);
+  const [preview, setPreview] = useState<string | null>(null);
   const [uploading, setUploading] = useState(false);
   const [analyzing, setAnalyzing] = useState(false);
   const [faceError, setFaceError] = useState(false);
@@ -160,10 +160,10 @@ export default function Step5Photo({ onPhotoCapture, onSkip, onPrev }: Props) {
           setFaceError(true);
           sessionStorage.removeItem('faceAnalysisResult');
         } else {
-          const pts   = detection.landmarks.positions;
+          const pts = detection.landmarks.positions;
           const shapeKey = calcFaceShape(pts);
           const score = calcSymmetryScore(pts);
-          
+
           // 여기서 isEn 전달
           const { mainFeatures, summary } = buildFaceFeatures(
             shapeKey,
