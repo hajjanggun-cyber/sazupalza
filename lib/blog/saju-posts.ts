@@ -152,106 +152,98 @@ export const sajuPosts: BlogPost[] = [
     category: 'saju',
     contentKo: `
 <section>
-<p>사주 상담실에서 가장 먼저 오가는 대화는 언제나 같습니다. "생년월일시가 어떻게 되세요?" 그런데 이 간단한 질문 하나에 많은 분들이 당황합니다. 음력인지 양력인지부터 헷갈리고, 태어난 시간을 정확히 모르는 경우도 많습니다. 사주팔자는 문자 그대로 '내 삶의 네 기둥'을 세우는 작업인데, 정보가 틀리거나 부족하면 기둥 자체가 흔들립니다. 이 글에서는 음력·양력의 올바른 이해, 절기(節氣)의 역할, 그리고 정확한 생시(生時)가 운명 분석에 미치는 결정적 영향을 3,000자 이상의 전문 해설로 낱낱이 분석합니다.</p>
+<p>명리학을 깊이 공부하다 보면 어느 순간 가장 중요한 질문 하나에 도달합니다. "내 사주에서 가장 필요한 기운은 무엇인가?" 그 대답이 바로 용신(用神)입니다. 용신은 사주의 불균형을 바로잡아주는 핵심 오행이며, 인생의 전성기를 만들어주는 결정적인 에너지입니다. 용신을 알면 직업, 색깔, 방향, 음식, 인간관계까지—삶의 거의 모든 선택에서 "나에게 유리한 방향"이 무엇인지 파악할 수 있습니다.</p>
 
-<h2 id="lunar-solar-calendar">1. 사주 명리학은 음력도 양력도 아닌 '절기력(節氣曆)'을 사용한다</h2>
-<p>많은 분들이 사주는 음력으로 보는 것이라고 생각합니다. 하지만 이것은 반은 맞고 반은 틀립니다. 명리학에서 사용하는 기준은 달의 위상 변화를 추적하는 음력 달력이 아니라, <strong>태양의 황도(黃道) 상 위치를 기준으로 1년을 24등분한 '이십사절기(二十四節氣)'</strong>입니다.</p>
-<h3>사주 명리학의 새해는 '입춘(立春)'이다</h3>
-<p>양력으로 1월 1일, 음력으로 설날이 아닙니다. 명리학에서 한 해의 시작은 매년 양력 2월 4일 전후로 찾아오는 <strong>입춘(立春)</strong>으로 정합니다. 즉, 2024년 양력 1월 10일에 태어났다면 명리학적으로는 아직 2023년(癸卯年)에 속하고, 2월 4일 이후에 태어나야 비로소 2024년(甲辰年)에 속하게 됩니다. 이를 모르고 양력이나 음력 1월을 그대로 대입하면 년주(年柱)가 아예 잘못 세워집니다.</p>
-<h3>월주(月柱)도 절기로 결정된다</h3>
-<p>월 역시 마찬가지입니다. 예를 들어 양력 3월에 태어났더라도, <strong>경칩(驚蟄, 보통 3월 5~6일)</strong>이 지나야 3월에 해당하는 월주가 세워집니다. 경칩 이전이라면 2월(인월·寅月)이 아니라 1월(축월·丑月)로 보아야 합니다. 이렇게 24절기의 전환점인 '절입 시각'이 기준이 되기 때문에, 정확한 사주 분석을 위해서는 자신이 태어난 날이 어느 절기에 속하는지를 반드시 확인해야 합니다.</p>
+<h2 id="yongshin-concept">1. 용신이란 무엇인가 — 사주 균형의 해결사</h2>
+<p>사주팔자는 여덟 글자가 서로 힘을 겨루는 역동적인 시스템입니다. 어떤 오행은 너무 많아서 과잉이 되고, 어떤 오행은 너무 적어서 제 역할을 못 합니다. 이때 사주 전체를 중화(中和)로 이끄는 핵심 글자가 용신입니다.</p>
+<p>비유하자면 이렇습니다. 사주가 너무 뜨거운 여름날 같다면, 시원한 水(물)가 용신입니다. 사주가 너무 차갑고 축축한 겨울 늪 같다면, 따뜻한 火(불)와 건조한 土(흙)가 용신이 됩니다. 사주가 금속으로만 가득 차 날카롭고 차갑다면, 이를 녹여줄 火(불) 또는 물 흘려보낼 水(물)가 용신의 역할을 합니다.</p>
+<p>용신이 대운(大運)이나 세운(歲運)에서 들어올 때, 우리는 인생의 상승기를 경험합니다. 반대로 용신을 억누르는 기운이 들어오면 침체기가 옵니다. 이것이 명리학자들이 "10년 대운의 흐름을 보라"고 강조하는 이유입니다.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">⏰ 나의 정확한 절기 기준 사주 무료로 확인하기 →</a>
+  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">💎 내 용신과 행운의 색상 무료 확인 →</a>
 </div>
 
-<h2 id="birth-time-importance">2. 생시(生時)는 사주팔자의 마지막 퍼즐 조각</h2>
-<p>시주(時柱)는 네 기둥 중 마지막 기둥으로, 인생의 결실에 해당합니다. 생시를 모른다는 것은 당신의 인생 지도에서 4분의 1을 아예 제거한 채 읽는 것과 같습니다. 시주가 담고 있는 정보는 생각보다 훨씬 많습니다.</p>
-<h3>시주가 담고 있는 4가지 비밀</h3>
+<h2 id="types-of-yongshin">2. 용신의 종류 — 억부·조후·통관·병약</h2>
+<p>용신을 찾는 방법은 하나가 아닙니다. 사주의 성격에 따라 다양한 접근법이 있습니다.</p>
+<h3>억부용신(抑扶用神): 힘의 균형을 맞춘다</h3>
+<p>사주가 너무 강하면(신강) 그 에너지를 설기(泄氣)하거나 극(剋)하는 오행이 용신입니다. 반대로 사주가 너무 허약하면(신약) 나를 도와주는 인성(印星)이나 비겁(比劫)이 용신이 됩니다. 명리학 입문에서 가장 먼저 배우는 용신론이 바로 억부용신입니다.</p>
+<h3>조후용신(調候用神): 온도를 조절한다</h3>
+<p>겨울 한가운데 태어난 사람의 사주는 얼어붙은 강처럼 차갑습니다. 아무리 재물운이 좋아 보여도, 온도(조후)가 맞지 않으면 그 재물을 온전히 누리기 어렵습니다. 이때는 따뜻하게 녹여줄 화(火)와 토(土)가 조후용신입니다. 반대로 한여름의 뜨거운 사주에는 수(水)와 금(金)이 조후를 조절해 줍니다.</p>
+<h3>통관용신(通關用神): 막힌 기운을 뚫는다</h3>
+<p>두 기운이 서로 충돌하거나 대립해서 사주 전체가 막혀있을 때, 그 사이를 중재하여 기운이 흐르게 만드는 오행이 통관용신입니다. 예를 들어 목(木)과 금(金)이 심하게 충돌하는 사주라면, 그 사이를 흘러주는 수(水)나 화(火)가 통관의 역할을 할 수 있습니다.</p>
+<h3>병약용신(病藥用神): 독을 약으로 다스린다</h3>
+<p>사주에 특정 오행이 지나치게 과잉되어 '병(病)'이 되었을 때, 그 과잉을 직접 제어하는 오행이 '약(藥)', 즉 용신이 됩니다. 이 구조를 가진 사주는 병이 있는 만큼 용신이 들어왔을 때의 효과가 극적으로 나타납니다.</p>
+
+<h2 id="practical-usage">3. 용신으로 개운하는 실전법</h2>
+<p>용신이 무엇인지 알았다면, 그 에너지를 일상에 녹여 넣는 것이 개운의 시작입니다.</p>
 <ul>
-  <li><strong>인생 후반(50대 이후)의 결말:</strong> 노년에 복이 있는지, 외롭게 마무리되는지의 단서가 시주에 있습니다.</li>
-  <li><strong>자녀운(子女運):</strong> 자녀가 있을지, 자녀와의 관계가 어떨지를 판단합니다.</li>
-  <li><strong>숨겨진 내면의 욕구:</strong> 남에게 보여주지 않는 진짜 내 욕망과 직관이 담겨 있습니다.</li>
-  <li><strong>직업의 완성:</strong> 직장의 최종 성취와 퇴직 후 삶의 방향이 시주에서 결정됩니다.</li>
+  <li><strong>목(木) 용신:</strong> 초록색 옷, 식물이 가득한 공간, 동쪽을 향한 책상. 숲에서 산책하는 것이 최고의 충전법.</li>
+  <li><strong>화(火) 용신:</strong> 밝고 따뜻한 조명, 붉은색·주황색 포인트 소품. 사람이 많은 곳에 있는 것이 에너지를 끌어올린다.</li>
+  <li><strong>토(土) 용신:</strong> 황토색·베이지 계열, 등산과 텃밭 가꾸기. 안정적이고 규칙적인 생활 루틴이 행운을 부른다.</li>
+  <li><strong>금(金) 용신:</strong> 흰색·실버 계열, 금속 소품. 공간 정리와 미니멀 라이프가 기운을 정돈해 준다.</li>
+  <li><strong>수(水) 용신:</strong> 검정·네이비 계열, 수族관·분수가 있는 공간. 깊이 사색하는 시간과 충분한 수분 섭취가 도움이 된다.</li>
 </ul>
-<h3>12지지 시(時) 구분법: 2시간 단위로 나뉜다</h3>
-<p>명리학에서 하루는 12지지로 나뉩니다. 자시(子時)는 23:30~01:30, 축시(丑時)는 01:30~03:30…이런 식으로 2시간 간격으로 구분됩니다. 주의할 점은 자시가 <strong>23시 30분</strong>에 시작한다는 것입니다. 23시 29분에 태어났다면 해시(亥時), 23시 31분에 태어났다면 자시로 다음 날 사주에 해당합니다. 밤 11시 전후에 태어난 분들은 특히 이 부분을 주의해야 합니다.</p>
+<p>또한 용신 오행을 자연스럽게 지닌 파트너, 친구, 멘토와 가까이 지내는 것도 매우 효과적인 개운법입니다.</p>
 
-<h2 id="time-correction">3. 표준시 보정과 썸머타임: 전문가도 놓치기 쉬운 함정</h2>
-<p>시주를 세울 때 또 하나의 중요한 변수는 <strong>진태양시(眞太陽時)</strong>와 우리가 사용하는 시계 시각의 차이입니다.</p>
-<h3>30분의 오차가 시주를 바꾼다</h3>
-<p>대한민국은 동경 135도를 기준으로 하는 표준시(KST)를 사용합니다. 그러나 한반도의 실제 경도는 약 126~129도에 위치합니다. 태양이 서울 하늘의 정남쪽에 위치하는 실제 정오는 시계상 12시가 아니라 약 12시 27~32분입니다. 이 시차를 보정하지 않으면 <strong>약 30분의 오차</strong>가 발생하고, 11시 30분~12시 30분대에 태어난 사람의 시지(時支)가 오(午)인지 사(巳)인지가 바뀔 수 있습니다.</p>
-<h3>역대 썸머타임 기간 (반드시 확인)</h3>
-<p>과거 한국에서 실시된 썸머타임(일광절약시간) 기간에 태어난 경우 반드시 1시간을 빼야 합니다. 대표적인 기간은 아래와 같습니다.</p>
-<ul>
-  <li>1948~1960년: 매년 봄~여름 적용</li>
-  <li>1987~1988년 서울올림픽 기간: 5월~10월 적용</li>
-</ul>
-<p>이 기간에 태어났다면 출생신고서나 가족관계증명서의 출생 시각에서 1시간을 빼서 사용해야 정확한 시주가 나옵니다.</p>
-
-<h2 id="time-estimation">4. 태어난 시간을 모를 때의 해결책: 시 추정법</h2>
-<p>"분만기록을 분실했다" "병원이 오래전에 폐업했다" 등의 이유로 생시를 전혀 모르는 경우, 전문가들이 쓰는 방법이 바로 <strong>시 추정(時推定)</strong>입니다. 과거의 중요한 인생 사건들(입학, 결혼, 이직, 큰 사고 등)이 어느 대운·세운과 맞아떨어지는지를 역산하여 가장 합리적인 시주를 추정하는 방법입니다. 완벽하지는 않지만, 광범위한 가능성을 좁혀 나가는 데 매우 효과적입니다.</p>
-
-<h2 id="conclusion">5. 결론: 정확한 데이터 위에서만 정확한 사주가 완성됩니다</h2>
-<p>의사가 정확한 MRI 데이터 없이 수술할 수 없듯, 명리학자도 정확한 생년월일시 없이 완벽한 사주를 볼 수 없습니다. 자신의 생년월일시를 절기 기준으로 검증하고, 표준시와 썸머타임을 보정하며, 태어난 시각을 최대한 정확히 확인하는 것—이것이 사주 분석의 첫 번째이자 가장 중요한 준비입니다. 정확한 시간 정보와 함께라면 당신만의 고유한 운명적 에너지를 낱낱이 읽어낼 수 있습니다.</p>
+<h2 id="conclusion">4. 용신은 찾는 것이 아니라 이미 씨앗으로 존재한다</h2>
+<p>용신은 외부에서 수입해 오는 것이 아닙니다. 당신의 사주 원국 안에 이미 그 씨앗이 들어있습니다. 다만 환경이 맞지 않아 발아하지 못하고 있을 뿐입니다. 용신에 맞는 색깔, 방향, 직업, 관계를 선택하는 것은 그 씨앗에 물을 주는 행위입니다.</p>
+<p>사주를 공부하는 궁극적인 목적은 운명에 순응하는 것이 아니라, 내가 가진 에너지를 가장 잘 활용하는 방식으로 삶을 설계하는 것입니다. 용신을 안다는 것은 그 설계의 가장 강력한 레버를 손에 쥐는 것입니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/ko/saju/intro" style="text-decoration: underline; color: #f9d976;">[관련글] 사주팔자의 기본 구조와 음양오행 완벽 해설</a></p>
-  <p><a href="/ko/saju/day-pillar" style="text-decoration: underline; color: #f9d976;">[관련글] 사주 일주 완전정복 - 나의 본질과 배우자 복 읽는 법</a></p>
+  <p><a href="/ko/saju/day-pillar" style="text-decoration: underline; color: #f9d976;">[관련글] 일주 완전정복 — 나라는 사람의 본질을 읽는 법</a></p>
+  <p><a href="/ko/saju/intro" style="text-decoration: underline; color: #f9d976;">[관련글] 사주팔자 입문 — 음양오행과 사주의 구조 완벽 해설</a></p>
 </div>
 </section>
+
     `,
     contentEn: `
 <section>
-<p>Every Saju consultation starts with the same question: <em>"What is your birth date and time?"</em> Yet this seemingly simple question trips people up constantly. Is it the lunar date or solar date? And what if you don't know the exact birth hour? These are not minor technicalities—they are the foundation of the entire analysis. A wrong or missing piece of birth data can produce an entirely incorrect chart. This expert guide clarifies the role of the <strong>24 Solar Terms</strong>, the critical importance of the <strong>Hour Pillar</strong>, and the often-overlooked corrections for Standard Time and Daylight Saving Time.</p>
+<p>There's a moment in every serious student of Korean astrology when the question shifts from <em>"what does my chart say?"</em> to <em>"what should I do about it?"</em> That's the moment you're ready to understand <strong>Yongshin</strong> (用神)—the beneficial element.</p>
 
-<h2 id="lunar-solar-calendar">1. Saju Uses Neither Lunar Nor Solar Calendar—It Uses the Solar Term Calendar</h2>
-<p>The most common misconception is that Saju is based on the lunar calendar. In fact, Korean astrology (Myeonglihak) uses a system called the <strong>24 Solar Terms (二十四節気, Isibsa Jeolgi)</strong>—a solar calendar that divides the year into 24 equal segments based on the sun's position on the ecliptic, not the moon's phases.</p>
-<h3>The Saju New Year Starts at Ipchun (Start of Spring)</h3>
-<p>The Saju year does not begin on January 1st (Solar New Year) or on the first day of the Lunar New Year. It begins at <strong>Ipchun (立春)</strong>—"Start of Spring"—which falls around <strong>February 4th each year</strong>. This means:</p>
-<ul>
-  <li>If you were born on January 25th, 2024, you belong to the Year of the Rabbit (2023) in Saju, not the Year of the Dragon (2024).</li>
-  <li>Only those born after Ipchun on February 4th, 2024 truly belong to the Year of the Dragon.</li>
-</ul>
-<p>Misidentifying the year pillar is one of the most common—and most consequential—errors in self-analysis.</p>
-<h3>Month Pillars Are Also Determined by Solar Terms</h3>
-<p>The same principle applies to months. Even if you were born in March (solar calendar), if you were born before <strong>Gyeongchip (驚蛰, "Awakening of Insects," around March 5–6)</strong>, your Month Pillar belongs to the second lunar month (Yin-month / 寅月), not the third. Professional astrologers always check the exact "term entry time" (Jeori-ip 時刻) to determine which solar term you fall under.</p>
+<p>Yongshin is the single element—Wood, Fire, Earth, Metal, or Water—that your chart most needs in order to find balance. Not the element you like, or the one that sounds good to you. The one the chart itself is reaching for. When that element enters your life—through your environment, your career, your relationships, your 10-year luck cycle—things start to work. When the opposing element floods in, things stall.</p>
+
+<h2 id="yongshin-concept">1. Why Balance Matters More Than Strength</h2>
+<p>A common misconception: having more of a powerful element makes you luckier. It doesn't. A chart dominated by Metal, with no Water to channel its sharpness or Wood to give it purpose, produces rigidity, conflict, and exhaustion—regardless of how impressive those Metal qualities might look on paper.</p>
+<p>What Saju practitioners are actually looking for is <em>Junghwa</em> (中和)—dynamic equilibrium. Not a flat, boring balance, but an active one where each element has room to express itself without suppressing the others. Yongshin is the keystone that holds this equilibrium. When your Yongshin is present and active, everything else in the chart performs better.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">⏰ Check Your Exact Solar-Term Adjusted Saju →</a>
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">💎 Identify Your Lucky Element Now →</a>
 </div>
 
-<h2 id="birth-time-importance">2. The Hour Pillar: The Missing 25% of Your Destiny</h2>
-<p>The Hour Pillar (時柱, Siju) is determined by your birth hour. Without it, you are reading only 75% of your life map. Here is what the Hour Pillar reveals:</p>
+<h2 id="types-of-yongshin">2. Four Ways to Find Your Beneficial Element</h2>
+<h3>Strength Balancing (Eokbu)</h3>
+<p>This is the foundational approach. If your chart is strong—packed with elements supporting your Day Master—you need something to drain or control that excess. If your chart is weak—your Day Master is isolated and depleted—you need elements that feed and support you. Simple in principle, nuanced in practice, because strength is measured not just by quantity but by seasonal context, the positions of heavenly stems and earthly branches, and hidden stems within each pillar.</p>
+
+<h3>Temperature Calibration (Johu)</h3>
+<p>This approach says: before anything else, a person needs to be thermally comfortable. A chart born in the coldest month of winter, piled with Water and Metal, is functionally frozen—no matter how intelligent or capable the person is, the cold prevents them from fully expressing their potential. Fire and Earth (warmth and dryness) become the priority. A scorching summer chart needs Water and Metal to cool and sharpen it. Temperature calibration often supersedes strength balancing in importance, particularly for charts born in extreme seasonal conditions.</p>
+
+<h3>Bridge Building (Tongwan)</h3>
+<p>Some charts are locked in an elemental standoff: Metal and Wood clashing relentlessly, or Fire and Water in perpetual opposition, leaving the Day Master stuck between two warring factions. The Bridge element doesn't take sides—it mediates, connecting the opposing forces and allowing energy to flow again. This is a sophisticated diagnosis and one of the reasons experienced practitioners often recommend professional consultation rather than self-analysis.</p>
+
+<h3>Antidote Approach (Byeongnyak)</h3>
+<p>When one element is so dominant that it becomes a <em>disease</em> in the chart—overwhelming everything else—the cure is a targeted antidote. Charts with this structure often have colorful, intense life stories. The disease makes everything more extreme. But when the right antidote enters through a luck cycle or annual influence, the transformation can be dramatic and fast.</p>
+
+<h2 id="practical-usage">3. Living With Your Yongshin: Practical Adjustments</h2>
+<p>Once you know your beneficial element, you can make intentional, low-effort shifts that keep your chart's energy aligned:</p>
 <ul>
-  <li><strong>Late-Life Fortune (Age 50+):</strong> Whether your final decades are prosperous and surrounded by love, or isolated and financially strained.</li>
-  <li><strong>Children and Offspring:</strong> The quality of your relationship with your children, and whether they will be a source of support or worry.</li>
-  <li><strong>Hidden Inner World:</strong> Your true, private desires—ambitions and instincts you keep beneath the surface.</li>
-  <li><strong>Career Completion:</strong> The final outcome and legacy of your professional life.</li>
+  <li><strong>Wood Yongshin:</strong> Surround yourself with living plants. Spend time in forests. Wear green. Face East. Choose careers in growth industries—startups, education, healthcare, sustainability.</li>
+  <li><strong>Fire Yongshin:</strong> Maximize natural light. Cultivate a warm social life. Wear red, orange, and coral. Face South. Gravitate toward visibility—leadership, performance, brand-facing roles.</li>
+  <li><strong>Earth Yongshin:</strong> Develop regularity and routine. Spend time in gardens or mountains. Wear earth tones. Choose stable, trust-based industries—real estate, finance, hospitality.</li>
+  <li><strong>Metal Yongshin:</strong> Practice minimalism—clear space creates clear thinking. Wear white and silver. Face West. Choose precision-based careers—law, medicine, engineering, finance.</li>
+  <li><strong>Water Yongshin:</strong> Protect your thinking time. Be near water—rivers, oceans, rain. Wear navy and black. Face North. Thrive in knowledge-intensive or creative work that rewards depth.</li>
 </ul>
-<h3>The 12 Two-Hour Time Slots</h3>
-<p>A Saju day is divided into 12 two-hour slots corresponding to the 12 Earthly Branches. A critical detail: the first slot, <strong>Ja-si (子時, Rat Hour)</strong>, begins at <strong>11:30 PM</strong>, not midnight. If you were born at 11:29 PM, you belong to Hae-si (亥時, Pig Hour) of the current day. If you were born at 11:31 PM, you belong to Ja-si of the <em>next</em> day's chart. This 2-minute difference can change your Day Pillar entirely.</p>
+<p>Perhaps more powerful than any physical adjustment: surrounding yourself with people who naturally embody your Yongshin element. The right collaborator, partner, or mentor can functionally supply what your chart is missing.</p>
 
-<h2 id="time-correction">3. Standard Time Offset and Daylight Saving Time: The Hidden Traps</h2>
-<p>Saju uses <strong>True Solar Time (真太陽時)</strong>, not clock time. South Korea currently uses KST (UTC+9), based on the 135°E meridian. However, the Korean peninsula is physically located at approximately 126–129°E. This geographic mismatch creates a roughly <strong>27–32 minute offset</strong>. For someone born at 11:15 AM in Seoul, their True Solar Time is approximately 10:43–48 AM—potentially placing them in a different two-hour slot (Saji / Snake Hour vs. Osi / Horse Hour).</p>
-<h3>Historical Daylight Saving Time in Korea</h3>
-<p>Anyone born during the following periods must subtract 1 hour from clock time before calculating the Hour Pillar:</p>
-<ul>
-  <li><strong>1948–1960:</strong> Annual summer time applied each spring and summer.</li>
-  <li><strong>1987–1988 (Seoul Olympics):</strong> May through October each year.</li>
-</ul>
-
-<h2 id="time-estimation">4. What to Do When You Don't Know Your Birth Time</h2>
-<p>Lost your birth record? The hospital closed decades ago? Professional astrologers use a technique called <strong>Time Rectification (時推定)</strong>. By mapping your major life events—school entry, marriage, career changes, accidents, relocations—against the 10-year Major Cycles (Daewun) and Annual Cycles (Sae-un), a skilled analyst can reverse-engineer which Hour Pillar best fits your life history. It narrows the possibilities from 12 to typically 2–3 candidate hours, giving you a workable and surprisingly accurate chart.</p>
-
-<h2 id="conclusion">5. Conclusion: Precision is the Foundation of Great Saju</h2>
-<p>In Saju analysis, an error of two minutes in birth time can permanently shift the Hour Pillar, and an error of a single day can misidentify the entire Month Pillar. Just as a surgeon needs accurate imaging before operating, a Saju analyst needs verified birth data before reading. Validate your birth date against the 24 Solar Terms, apply the Standard Time offset, subtract Daylight Saving Time if applicable, and confirm your birth hour as precisely as possible. With that foundation in place, the full portrait of your destiny—all four pillars, all eight characters—comes into perfect focus.</p>
+<h2 id="conclusion">4. The Bigger Picture</h2>
+<p>Yongshin is not a magic solution. It's a diagnostic framework that helps you understand where your energy wants to go and where it gets blocked. The goal isn't to manufacture luck from scratch. It's to stop unconsciously working against your own chart—choosing environments, relationships, and careers that drain your specific elemental needs rather than feeding them.</p>
+<p>When you align your life with your Yongshin, you don't suddenly become invincible. You become more <em>coherent</em>. Your strengths start pointing in the same direction. The right opportunities begin to feel obvious rather than elusive. That's the real promise of understanding your beneficial element.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/en/saju/intro" style="text-decoration: underline; color: #f9d976;">[Read More] Saju Basics: The Four Pillars and Five Elements Explained</a></p>
-  <p><a href="/en/saju/day-pillar" style="text-decoration: underline; color: #f9d976;">[Read More] Mastering the Day Pillar: Your True Identity in Saju</a></p>
+  <p><a href="/en/saju/day-pillar" style="text-decoration: underline; color: #f9d976;">[Read Next] The Day Pillar Explained — Your Identity, Your Marriage, Your Blueprint</a></p>
+  <p><a href="/en/saju/intro" style="text-decoration: underline; color: #f9d976;">[Read Next] Saju-Palja 101 — A Complete Beginner's Guide to Korean Astrology</a></p>
 </div>
 </section>
+
     `,
     toc: [
       { id: 'lunar-solar-calendar', title: '1. 절기력: 음력도 양력도 아닌 제3의 달력' },
@@ -295,73 +287,101 @@ export const sajuPosts: BlogPost[] = [
 <section>
 <p>사주팔자 여덟 글자 중 단 하나만 꼽으라면 단연 ‘일주(日柱)’입니다. 일주는 내가 태어난 날의 기둥으로, 나 자신을 상징하는 ‘일간(日干)’과 내가 딛고 있는 땅이자 배우자 자리를 의미하는 ‘일지(日支)’로 구성됩니다. 사주의 주인공이 누구인지, 그리고 어떤 배우자를 만나 어떤 삶의 터전을 일궈갈지가 이 두 글자에 집약되어 있습니다. 3,000자 전문 해설을 통해 당신의 본질을 파헤쳐 봅니다.</p>
 
-<h2 id="ilju-core">1. 일주(日柱): 당신이라는 사람의 고유한 브랜드</h2>
-<p>일간은 당신의 의식적인 자아와 성격을 나타냅니다. 예를 들어 ‘갑목(甲木)’ 일간이라면 우두머리 기질과 성장 욕구가 강하고, ‘정화(丁火)’ 일간이라면 따뜻한 예술가적 감성을 지닙니다. 일주는 이러한 일간이 지지의 환경(일지)과 어떻게 상호작용하느냐에 따라 60가지의 독특한 ‘육십갑자 일주’로 완성됩니다.</p>
+<h2 id="ilju-core">1. 일간(日干): 10가지 본질 에너지와 기질 분석</h2>
+<p>일간은 당신의 의식적인 자아이자 핵심 기질입니다. 10천간이 각각 어떤 에너지를 품고 있는지를 알면 자신을 완전히 다른 시각으로 이해하게 됩니다.</p>
+<ul>
+  <li><strong>갑목(甲木):</strong> 거목처럼 곧고 강한 리더십. 자존심이 강하고 선두를 달리길 좋아하지만 고집이 세다.</li>
+  <li><strong>을목(乙木):</strong> 덩굴처럼 유연하게 환경에 적응하는 전략가. 아름다움과 예술 감각이 뛰어나다.</li>
+  <li><strong>병화(丙火):</strong> 태양처럼 밝고 에너지 넘치는 활동가. 사교성이 강하고 분위기를 주도한다.</li>
+  <li><strong>정화(丁火):</strong> 촛불처럼 섬세하고 따뜻한 예술가. 집중력과 전문성이 뛰어나고 충성심이 깊다.</li>
+  <li><strong>무토(戊土):</strong> 산처럼 든든하고 묵직한 중재자. 신뢰감을 주지만 변화를 싫어하는 경향이 있다.</li>
+  <li><strong>기토(己土):</strong> 논밭처럼 모든 것을 수용하는 포용력의 소유자. 디테일 처리에 능하고 섬세하다.</li>
+  <li><strong>경금(庚金):</strong> 원석처럼 강직하고 결단력 있는 추진가. 정의감이 강하고 원칙을 중시한다.</li>
+  <li><strong>신금(辛金):</strong> 보석처럼 날카롭고 세련된 완벽주의자. 미적 감각이 탁월하고 예민하다.</li>
+  <li><strong>임수(壬水):</strong> 강처럼 활동적이고 아이디어가 넘치는 기획자. 재치 있고 유연하지만 변덕스러울 수 있다.</li>
+  <li><strong>계수(癸水):</strong> 빗물처럼 조용하고 깊은 사색가. 직관력과 감수성이 뛰어나고 내면이 풍요롭다.</li>
+</ul>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
   <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🦁 나의 일주 분석과 배우자운 확인하기 →</a>
 </div>
 
-<h2 id="spouse-luck">2. 일지와 배우자운: 내가 만날 인연의 모습</h2>
-<p>일지는 나의 내밀한 공간이자 배우자의 자리를 뜻합니다. 일지에 어떤 글자가 있느냐에 따라 내가 바라는 배우자의 상과 실제로 만나게 될 인연의 특징이 결정됩니다. 일지가 일간을 돕는 ‘희신’이라면 배우자 덕이 크고 화목한 가정을 꾸릴 가능성이 높으며, 충(沖)이나 형(刑)이 있다면 서로의 다름을 인정하는 특별한 지혜가 필요합니다.</p>
+<h2 id="spouse-luck">2. 일지(日支): 배우자궁과 인연의 패턴</h2>
+<p>일지는 나의 가장 내밀한 공간이자 배우자의 자리입니다. 일간 기준으로 일지가 <strong>정재(正財) 또는 정관(正官)</strong>이라면 안정적이고 신뢰할 수 있는 파트너를 만나는 경향이 강합니다. 반면 <strong>상관(傷官) 또는 편관(偏官)</strong>이라면 관계에 강렬한 에너지와 긴장감이 있어 특별한 성숙함이 요구됩니다.</p>
+<h3>형충파해(刑沖破害): 배우자와의 관계 신호</h3>
+<p>일지가 년지·월지·시지와 충(沖) 관계라면 배우자와 충돌이 잦거나 인연이 여러 번 바뀌는 패턴이 나타납니다. 형(刑) 관계라면 배우자와의 갈등이나 건강 문제로 이어질 수 있습니다. 그러나 이는 피할 수 없는 운명이 아니라, 미리 알고 소통을 더 깊이 기울이라는 신호입니다.</p>
 
-<h2 id="daily-life">3. 일주론의 현대적 활용: 자기 객관화와 관계의 기술</h2>
-<p>일주를 아는 것은 나를 객관적으로 바라보는 가장 빠른 길입니다. 내가 왜 특정 상황에서 그렇게 반응하는지, 왜 어떤 사람에게 끌리는지를 일주를 통해 이해할 수 있습니다. 이는 단순히 운세를 보는 것을 넘어, 직업 선택이나 대인관계에서 전략적으로 자신을 운용할 수 있는 강력한 무기가 됩니다.</p>
+<h2 id="sixty-pillars">3. 육십갑자 일주: 60가지 인생 아키타입</h2>
+<p>10천간 × 12지지 조합으로 만들어지는 60가지 일주는 각각 독보적인 기질과 삶의 핵심 테마를 가집니다. <strong>갑자일주(甲子)</strong>는 '물 위의 큰 나무'로 지성과 창의력이 탁월하지만 고집이 세고, <strong>정사일주(丁巳)</strong>는 '불 속의 촛불'로 타오르는 열정이 강점이지만 번아웃에 주의해야 합니다. <strong>경신일주(庚申)</strong>는 강력한 추진력과 결단력을 지닌 대신 마찰이 잦고, <strong>임자일주(壬子)</strong>는 뛰어난 직관과 창의성을 갖추었지만 감정 기복이 클 수 있습니다.</p>
 
-<h2 id="conclusion">4. 결론: 일주는 인생이라는 드라마의 주인공입니다</h2>
+<h2 id="daily-life">4. 일주론의 현대적 활용: 직업과 파트너 선택 전략</h2>
+<p>일간이 양(陽)의 에너지—갑목·병화·무토·경금·임수—라면 창업·리더십·독립 전문직에서 빛을 발합니다. 음(陰)의 일간—을목·정화·기토·신금·계수—이라면 컨설팅·예술·의료·연구 분야에서 강점을 발휘합니다. 파트너 선택에서는 자신의 일간 기준 정재(남성) 또는 정관(여성)에 해당하는 오행을 가진 상대를 만날 때 가장 안정적이고 지속 가능한 관계가 됩니다.</p>
+
+<h2 id="conclusion">5. 결론: 일주는 인생이라는 드라마의 주인공입니다</h2>
 <p>당신의 일주는 당신이 이 세상에 올 때 가져온 가장 소중한 이름표입니다. 자신의 일주가 가진 강점을 사랑하고 부족한 점을 수양으로 채워갈 때, 당신은 운명에 끌려다니는 사람이 아니라 운명을 이끄는 주인공이 될 것입니다. 당신의 일주가 가진 무한한 잠재력을 믿으세요.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/ko/mbti/compatibility-table" style="text-decoration: underline; color: #f9d976;">[관련글] MBTI 유형별 찰떡궁합 사주 일주 매칭표</a></p>
-  <p><a href="/ko/saju/intro" style="text-decoration: underline; color: #f9d976;">[관련글] 사주팔자란 무엇인가? 기초 원리 가이드</a></p>
+  <p><a href="/ko/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[관련글] 사주 용신 찾기: 내 사주에서 가장 필요한 행운의 기운</a></p>
+  <p><a href="/ko/saju/intro" style="text-decoration: underline; color: #f9d976;">[관련글] 사주팔자란 무엇인가? 음양오행 기초 원리 완벽 가이드</a></p>
 </div>
 </section>
     `,
     contentEn: `
 <section>
-<p>If you had to pick just one pillar from your Saju chart, it would undoubtedly be the <strong>Day Pillar (Ilju)</strong>. This pillar represents your core self (Day Master) and your marriage palace (Day Branch). It is the protagonist of your life's movie. Understanding your Day Pillar is the fastest way to understand your true personality, your strengths, and your romantic destiny.</p>
+<p>If you had to pick just one pillar from your Saju chart, it would undoubtedly be the <strong>Day Pillar (日柱, Ilju)</strong>. It consists of two characters: the <strong>Day Master (日干, Ilgan)</strong>—your conscious self and core personality—and the <strong>Day Branch (日支, Ilji)</strong>—your marriage palace and inner emotional landscape. Together, they are the protagonist and home of your life's drama. This guide dives deep into all ten Day Master archetypes, the marriage palace analysis, Clash and Punishment dynamics, and the 60 Pillar archetypes.</p>
 
-<h2 id="ilju-core">1. The Day Master: Your Spiritual DNA</h2>
-<p>The heavenly character of your Day Pillar is called the <strong>"Day Master" (Ilgan)</strong>. This single character defines your fundamental nature. Are you a towering tree (Gap-Wood), a burning candle (Jeong-Fire), or a precious jewel (Sin-Metal)?</p>
+<h2 id="ilju-core">1. The Ten Day Masters: Your Core Elemental Identity</h2>
+<p>There are ten possible Day Masters, each embodying a unique elemental archetype:</p>
 <ul>
-    <li><strong>Wood (Gap/Eul):</strong> Growth, benevolence, upward mobility.</li>
-    <li><strong>Fire (Byeong/Jeong):</strong> Passion, expression, politeness.</li>
-    <li><strong>Earth (Mu/Gi):</strong> Stability, trust, neutrality.</li>
-    <li><strong>Metal (Gyeong/Sin):</strong> Justice, decision-making, precision.</li>
-    <li><strong>Water (Im/Gye):</strong> Wisdom, flexibility, adaptability.</li>
+  <li><strong>Gap-Wood (甲):</strong> The Great Tree. Natural leader, strong-willed, growth-oriented. Weakness: rigidity.</li>
+  <li><strong>Eul-Wood (乙):</strong> The Vine. Adaptable strategist with artistic sensibility. Strength: resilience.</li>
+  <li><strong>Byeong-Fire (丙):</strong> The Sun. Radiant, social, energizing. Weakness: difficulty hiding feelings.</li>
+  <li><strong>Jeong-Fire (丁):</strong> The Candle. Focused artist, deeply loyal, highly specialized. Strength: precision.</li>
+  <li><strong>Mu-Earth (戊):</strong> The Mountain. Steady mediator, deeply trustworthy. Weakness: resistance to change.</li>
+  <li><strong>Gi-Earth (己):</strong> The Farmland. Nurturing and receptive, excellent at details. Strength: inclusivity.</li>
+  <li><strong>Gyeong-Metal (庚):</strong> The Raw Ore. Decisive, principled, justice-driven. Strength: courage.</li>
+  <li><strong>Sin-Metal (辛):</strong> The Jewel. Perfectionist with refined aesthetics. Weakness: hypersensitivity.</li>
+  <li><strong>Im-Water (壬):</strong> The River. Creative planner, witty and flexible. Weakness: inconsistency.</li>
+  <li><strong>Gye-Water (癸):</strong> The Rain. Deep thinker with powerful intuition. Strength: emotional intelligence.</li>
 </ul>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🦁 Discover Your Day Pillar Personality & Love Luck →</a>
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🦁 Discover Your Day Pillar & Love Luck →</a>
 </div>
 
 <h2 id="spouse-luck">2. The Day Branch: Your Marriage Palace</h2>
-<p>The earthly character of your Day Pillar is the <strong>"Day Branch" (Ilji)</strong>. It represents your physical body, your home, and most importantly, your <strong>spouse</strong>. The relationship between your Day Master (You) and Day Branch (Spouse) predicts your marriage dynamics.</p>
-<p>For example, if your Day Branch "supports" your Day Master, you are likely to have a supportive and helpful partner. If they "clash," your marriage may require more effort and understanding to bridge differences. Knowing this helps you choose a partner who complements your energy rather than conflicting with it.</p>
+<p>The Earthly Branch of your Day Pillar is the <strong>Marriage Palace</strong>. The Ten God relationship between your Day Master and Day Branch reveals your romantic patterns. If the Day Branch is a <strong>Proper Wealth (正財) or Direct Officer (正官)</strong> for your Day Master, you tend to attract stable, traditional partners. If it is a <strong>Hurting Officer (傷官) or Seven Killings (七殺)</strong>, your relationships carry intense chemistry and tension—requiring emotional maturity to sustain.</p>
+<h3>Clash, Punishment, Harm (刑沖破害)</h3>
+<p>If your Day Branch is in a <strong>Clash (沖)</strong> relationship with another pillar, romantic turbulence or multiple partnerships are common. A <strong>Punishment (刑)</strong> relationship may signal health friction or power struggles with a spouse. These are not curses—they are early warning signals urging you to invest more deeply in communication and mutual understanding.</p>
 
-<h2 id="daily-life">3. The 60 Pillars: Which One Are You?</h2>
-<p>There are 60 possible combinations of Day Pillars (e.g., Gap-Ja, Eul-Chuk). Each combination creates a unique personality archetype. A "Gap-In" pillar (Wood over Wood) indicates a strong, independent leader who might struggle with flexibility. A "Gye-Sa" pillar (Water over Fire) suggests a sensitive, intuitive person with hidden talents.</p>
+<h2 id="sixty-pillars">3. The 60 Pillar Archetypes: Which One Are You?</h2>
+<p>The 10 Heavenly Stems × 12 Earthly Branches produce 60 unique Day Pillars, each a distinct life archetype. <strong>Gap-Ja (甲子)</strong>—"The Great Tree above Water"—signals exceptional intellect and creativity, with a weakness in inflexibility. <strong>Jeong-Sa (丁巳)</strong>—"Candle within Fire"—gives burning passion and laser focus, but risks burnout. Knowing your specific pillar reveals the central theme and karmic challenge of your life.</p>
 
-<h2 id="conclusion">4. Conclusion: Be the Hero of Your Own Drama</h2>
-<p>Your Day Pillar is the name tag your soul chose before coming to this world. By embracing the strengths of your Ilju and cultivating its weaknesses, you move from being a victim of fate to a master of destiny. Trust in the unique potential your Day Pillar holds.</p>
+<h2 id="daily-life">4. Career & Partner Strategy by Day Master</h2>
+<p>Yang Day Masters (Gap, Byeong, Mu, Gyeong, Im) thrive when leading—entrepreneurship, management, independent practice. Yin Day Masters (Eul, Jeong, Gi, Sin, Gye) excel in supporting, refining, and specializing—consulting, arts, medicine, research. For partnerships, seek someone whose elemental profile registers as <em>Proper Wealth</em> (for men) or <em>Direct Officer</em> (for women) relative to your Day Master—this elemental complement creates the most sustainable long-term bond.</p>
+
+<h2 id="conclusion">5. Conclusion: The Hero of Your Own Drama</h2>
+<p>Your Day Pillar is the cosmic blueprint your soul selected before birth. By embracing your Day Master's core strengths, understanding the patterns written in your Marriage Palace, and treating Clash-Punishment dynamics as growth invitations rather than verdicts, you transform from a passenger of fate into a conscious architect of your destiny. Trust the unique potential encoded in your 60-pillar archetype.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/en/mbti/compatibility-table" style="text-decoration: underline; color: #f9d976;">[Read More] MBTI and Saju Match Table: Find Your Perfect Partner</a></p>
-  <p><a href="/en/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[Read More] Finding Your Yongshin: Your Beneficial Element</a></p>
+  <p><a href="/en/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[Read More] Finding Your Yongshin: The Key to Saju Balance</a></p>
+  <p><a href="/en/saju/intro" style="text-decoration: underline; color: #f9d976;">[Read More] Saju Basics: Four Pillars & Five Elements Explained</a></p>
 </div>
 </section>
     `,
     toc: [
-      { id: 'ilju-core', title: '1. 일주의 정의와 나 자신의 본질' },
-      { id: 'spouse-luck', title: '2. 일지와 배우자운 분석' },
-      { id: 'daily-life', title: '3. 일주론의 현대적 활용법' },
-      { id: 'conclusion', title: '4. 결론: 운명의 주인공이 되는 법' },
+      { id: 'ilju-core', title: '1. 10천간 기질 분석: 나는 어떤 에너지인가' },
+      { id: 'spouse-luck', title: '2. 일지·배우자궁과 형충파해 해석' },
+      { id: 'sixty-pillars', title: '3. 육십갑자 60가지 인생 아키타입' },
+      { id: 'daily-life', title: '4. 직업과 파트너 선택 전략' },
+      { id: 'conclusion', title: '5. 결론: 운명의 주인공이 되는 법' },
     ],
     tocEn: [
-      { id: 'ilju-core', title: '1. The Day Master: Your DNA' },
-      { id: 'spouse-luck', title: '2. Marriage Palace Analysis' },
-      { id: 'daily-life', title: '3. The 60 Pillars Archetypes' },
-      { id: 'conclusion', title: '4. Conclusion' },
+      { id: 'ilju-core', title: '1. Ten Day Masters Explained' },
+      { id: 'spouse-luck', title: '2. Marriage Palace & Clash Dynamics' },
+      { id: 'sixty-pillars', title: '3. The 60 Pillar Archetypes' },
+      { id: 'daily-life', title: '4. Career & Partner Strategy' },
+      { id: 'conclusion', title: '5. Conclusion: Hero of Your Drama' },
     ],
     faq: [
       { q: '일주만 좋으면 모든 사주가 다 좋은 건가요?', a: '아니요, 일주는 핵심이지만 주변의 월지, 년지 등과의 조화와 대운의 흐름을 함께 보아야 전체적인 길흉을 알 수 있습니다.' },
@@ -389,62 +409,81 @@ export const sajuPosts: BlogPost[] = [
     category: 'saju',
     contentKo: `
 <section>
-<p>사주 상담을 받다 보면 “도화살이 있다”, “역마살이 끼었다”는 무서운(?) 말을 듣기도 합니다. 과거에는 이러한 ‘살(殺)’들을 부정적인 흉살로만 여겼지만, 현대 사회에서 신살은 개인의 독특한 매력이자 강력한 경쟁력으로 재평가받고 있습니다. 도화살은 연예인적 끼와 마케팅 능력이 되고, 역마살은 글로벌한 활동성과 추진력이 됩니다. 15가지 핵심 신살의 진실을 3,000자 전문 데이터로 파헤칩니다.</p>
+<p>사주 상담을 받고 돌아오는 사람들 중 상당수는 고개를 갸우뚱합니다. "도화살이 있다는데 제가 그렇게 바람기가 있나요?", "역마살이 있어서 평생 떠돌아야 한다고요?" 사실 이 질문들은 아직 '살(殺)'의 진짜 의미를 오해하고 있다는 증거입니다. 현대 명리학에서 살은 흉기가 아닙니다. 방향을 알려주는 나침반입니다.</p>
 
-<h2 id="popular-spirits">1. 현대인에게 꼭 필요한 3대 행운의 살</h2>
-<h3>도화살(桃花殺): 만인을 매료시키는 치명적 매력</h3>
-<p>과거에는 음탕함의 상징이었으나, 현대에는 타인의 시선을 사로잡는 강력한 스타성입니다. 방송, 마케팅, 영업직군에서 도화살은 최고의 자산입니다. 자신의 매력을 당당하게 드러낼 때 도화의 기운은 성공의 발판이 됩니다.</p>
-<h3>역마살(驛馬殺): 세상을 무대로 달리는 추진력</h3>
-<p>한곳에 정착하지 못한다는 부정적 의미를 넘어, 이제는 해외 운, 무역, 여행, 온라인 소통 등 광범위한 활동성을 의미합니다. 역마살이 있는 사람은 변화를 두려워하지 않을 때 큰 부를 거머쥡니다.</p>
+<h2 id="popular-spirits">1. 도화살(桃花殺) — 인기의 씨앗</h2>
+<p>도화살은 복숭아꽃처럼 아름다움으로 사람을 끌어당기는 기운입니다. 과거에는 이를 '이성에 흔들리는 음란한 기운'으로 해석했습니다. 그 해석이 틀린 것은 아닙니다. 단지 불완전합니다.</p>
+<p>도화살의 본질은 <strong>매력과 사랑받는 능력</strong>입니다. 연예인·인플루언서·세일즈 챔피언·마케터 중 도화살을 가진 사람의 비율이 유독 높은 것은 우연이 아닙니다. 대중의 시선을 끌고, 처음 만난 사람도 편안하게 만들며, 기억에 오래 남는 인상을 주는 것—그것이 도화살이 현대 사회에서 발휘하는 힘입니다.</p>
+<p>다만 도화살이 지나치게 강하거나 흉신(凶神)과 결합하면 이성 문제나 스캔들로 이어질 수 있습니다. 핵심은 이 에너지를 <em>전문성과 결합</em>하는 것입니다. 매력을 직업으로 승화시킨 사람들이 도화살을 가장 잘 쓰는 사람들입니다.</p>
+
+<h2 id="travel-spirits">2. 역마살(驛馬殺) — 세상을 무대로 삼는 에너지</h2>
+<p>역마(驛馬)는 역참을 달리는 말, 즉 빠르고 끊임없이 이동하는 존재입니다. 조선시대라면 "한곳에 정착하지 못하고 평생 떠돈다"는 말이 불운이었겠지만, 글로벌 시대에 역마살은 <strong>최고의 비즈니스 자산</strong>이 됩니다.</p>
+<p>해외영업·무역·항공·디지털 노마드·유튜브 여행 채널—이 모든 직업군에서 역마살은 성공의 엔진입니다. 역마살을 가진 사람이 한 도시, 한 회사, 한 루틴에 억지로 묶여 있으면 몸은 멀쩡해도 정신이 서서히 시들어갑니다. 반대로 움직임과 변화를 삶의 구조로 받아들이면, 에너지가 폭발적으로 살아납니다.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🌟 내 사주에 숨겨진 복(福)이 되는 살 찾기 →</a>
+  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🌟 내 사주에 숨겨진 신살 분석받기 →</a>
 </div>
 
-<h2 id="powerful-spirits">2. 주의와 수양이 필요한 강한 신살</h2>
-<h3>백호살(白虎殺) & 괴강살(魁罡殺)</h3>
-<p>호랑이에게 물려간다는 무서운 뜻을 가진 백호살이나 우두머리의 기운인 괴강살은 에너지가 매우 강력함을 뜻합니다. 이 기운이 잘못 풀리면 사고나 고립이 될 수 있지만, 전문직(의사, 군검경, 엔지니어)으로 승화시키면 누구도 범접할 수 없는 카리스마를 발휘합니다. 이를 '업상대체'라고 합니다.</p>
+<h2 id="powerful-spirits">3. 백호살·괴강살 — 강한 자의 특권</h2>
+<p>백호살(白虎殺)은 맹호(猛虎)의 기운, 괴강살(魁罡殺)은 하늘의 우두머리 별자리에서 온 기운입니다. 둘 다 에너지의 밀도가 보통 사주의 몇 배에 달합니다.</p>
+<p>이 살들이 잘못 풀리면—즉, 적절한 출구 없이 억눌리면—사고, 폭발적 감정, 고립으로 나타납니다. 그러나 <strong>전문 직업(업상대체, 業上代替)</strong>으로 이 기운을 쓰면 이야기가 달라집니다. 외과의사, 검사, 소방관, 특수부대원, 격투기 선수, 위기 관리 전문가—이런 직업에서 백호·괴강의 기운은 누구도 못 따라올 경쟁력이 됩니다. 이 살이 있다면 "내가 왜 이렇게 강렬하게 살아야 하지?"라고 탓하지 마세요. 그 강도를 수용할 수 있는 직업과 환경을 설계하는 것이 답입니다.</p>
 
-<h2 id="modern-application">3. 신살을 활용하는 개운의 기술</h2>
-<p>내 사주에 어떤 살이 있는지를 아는 것은 내 칼이 어떤 모양인지를 아는 것과 같습니다. 무서워할 것이 아니라, 그 기운에 맞는 환경을 선택하면 됩니다. 화개살이 있다면 예술과 철학의 깊이를 더하고, 귀인(貴人)의 살이 있다면 인덕을 쌓는 데 집중하세요.</p>
+<h2 id="modern-application">4. 화개살·귀인살 — 내면의 깊이와 인복</h2>
+<p>화개살(華蓋殺)은 종교·철학·예술과 깊이 연결된 살입니다. 화개살이 있는 사람은 세상의 소란에서 벗어나 혼자 있는 시간을 필요로 합니다. 이 시간이 충분히 주어질 때 천재적인 창조성이 발휘됩니다. 작가, 음악가, 수도자, 명상 지도자 중 화개살이 많은 것은 이 때문입니다.</p>
+<p>귀인살(귀인의 기운)은 '어디를 가나 도와주는 사람을 만나는 복'입니다. 이 기운이 있는 사람은 의식적으로 인덕을 쌓는 노력—봉사, 베풀기, 먼저 다가가기—을 기울일 때 그 효과가 배가됩니다. 귀인의 기운은 받는 것이 아니라 먼저 주는 사람에게 더 강하게 작동합니다.</p>
 
-<h2 id="conclusion">4. 결론: 살(殺)은 독이 아니라 약입니다</h2>
-<p>모든 신살은 양날의 검과 같습니다. 어떻게 사용하느냐에 따라 나를 해치는 흉기가 될 수도, 세상을 정복하는 보검이 될 수도 있습니다. 자신의 신살을 긍정적인 방향으로 발산하여 당신만의 독보적인 가치를 만들어가시길 바랍니다.</p>
+<h2 id="conclusion">5. 살(殺)은 운명이 아니라 도구입니다</h2>
+<p>신살을 이해하는 가장 성숙한 태도는 이것입니다: "이 에너지가 나에게 있다면, 나는 그것을 어떻게 설계할 것인가?" 도화살이 있으면 매력을 직업으로 만드세요. 역마살이 있으면 이동을 삶의 구조에 포함시키세요. 백호·괴강이 있으면 강도 높은 전문성이 요구되는 분야로 진입하세요. 화개살이 있으면 혼자 있는 시간을 죄책감 없이 가지세요.</p>
+<p>사주의 살은 내 안에 있는 날카로운 도구입니다. 두려워하면 베이고, 숙련되면 세상을 조각합니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/ko/saju/career-star" style="text-decoration: underline; color: #f9d976;">[관련글] 사주 관성(官星)으로 보는 나의 성공운과 직업운</a></p>
-  <p><a href="/ko/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[관련글] 사주 용신 찾기: 내 사주에서 가장 필요한 기운</a></p>
+  <p><a href="/ko/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[관련글] 사주 용신 찾기 — 내 행운의 열쇠를 찾는 법</a></p>
+  <p><a href="/ko/saju/day-pillar" style="text-decoration: underline; color: #f9d976;">[관련글] 일주 완전정복 — 나라는 사람의 설계도를 읽어라</a></p>
 </div>
 </section>
+
     `,
     contentEn: `
 <section>
-<p>In traditional Saju, words like "Sal" (meaning 'killing energy') sounded terrifying. People feared stars like "Dowa" (Peach Blossom) or "Yeokma" (Traveling Horse). However, in modern society, these specific energy patterns are re-evaluated as unique talents and competitive edges. What was once considered "instability" is now "global mobility." This guide reveals the truth behind 15 key Saju stars and how to turn them into your greatest assets.</p>
+<p>The first time most Westerners encounter the concept of <em>Sal</em> (살) in Korean astrology, the reaction is usually the same: mild alarm. <em>"Peach Blossom Star? That sounds like a curse."</em> It isn't. The history of how these stars were interpreted—and misinterpreted—over centuries says more about social anxieties than it does about the actual energetic patterns these stars represent.</p>
 
-<h2 id="popular-spirits">1. The "Celebrity" Stars: Dowa and Yeokma</h2>
-<h3>Dowa-sal (Peach Blossom Star): The Irresistible Charm</h3>
-<p>Historically, Dowa meant "lust" or scandal. Today, it is the <strong>"Star of Popularity."</strong> It signifies charisma, attractiveness, and the ability to draw attention. For influencers, actors, and salespeople, having a Dowa star is a blessing, not a curse. It is the energy of being loved by the public.</p>
-<h3>Yeokma-sal (Traveling Horse Star): The Global Nomad</h3>
-<p>In the past, this meant a life of wandering without a home. Today, it represents <strong>international success, tourism, and digital connectivity.</strong> People with strong Yeokma energy thrive in jobs that require travel, change, and dynamism. They become wealthy by moving, not by staying still.</p>
+<p>Here's the reframe that changes everything: <strong>every Sal is a description of concentrated energy, not a moral verdict.</strong> What you do with that energy is the story of your life.</p>
+
+<h2 id="popular-spirits">1. The Peach Blossom Star (Dowa-Sal) — The Popularity Engine</h2>
+<p>Dowa-Sal carries the energy of the peach blossom: beautiful, magnetic, impossible to ignore. Historically, it was associated with romantic recklessness. Today, it maps almost perfectly onto what modern culture calls <em>personal brand</em> and <em>charisma</em>.</p>
+<p>Look at the careers of top influencers, television personalities, star salespeople, and brand ambassadors. An disproportionate number carry Dowa energy in their charts. The ability to walk into a room and change its temperature, to make strangers feel immediately at ease, to be remembered long after you've left—this is Dowa-Sal at work.</p>
+<p>The traditional warning about romantic trouble isn't wrong. But it's incomplete. When Dowa energy is expressed through a professional channel—entertainment, marketing, public speaking, community building—the romantic volatility tends to stabilize. The energy finds its proper outlet.</p>
+
+<h2 id="travel-spirits">2. The Traveling Horse Star (Yeokma-Sal) — Built for the Global Era</h2>
+<p>In dynastic Korea, a life of constant travel was a hardship. Yeokma-Sal meant you couldn't put down roots, couldn't hold a stable position, couldn't be reliably present for your family. That framing made sense then. It makes almost no sense now.</p>
+<p>In 2025, Yeokma energy describes the person who thrives in international business, remote work across time zones, frequent relocation, and constant environmental stimulation. Digital nomads, international salespeople, travel content creators, import-export specialists—these are Yeokma's modern champions. The "curse" of not being able to stay still is, in the right context, the superpower of being able to go anywhere.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🌟 Discover Your Hidden Powerful Stars →</a>
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🌟 Discover Your Hidden Saju Stars →</a>
 </div>
 
-<h2 id="powerful-spirits">2. The "Power" Stars: Baekho and Goegang</h2>
-<p><strong>Baekho (White Tiger)</strong> and <strong>Goegang (Extreme Leader)</strong> stars represent explosive energy. While they can manifest as accidents or temper issues if uncontrolled, they are the stars of <strong>professionals and experts.</strong> Surgeons, prosecutors, athletes, and CEOs often possess these stars. Using this intense energy for professional mastery is called "Up-sang-dae-che" (replacing bad karma with career success).</p>
+<h2 id="powerful-spirits">3. The White Tiger & Extreme Commander Stars — Power That Demands a Worthy Container</h2>
+<p>Baekho-Sal (White Tiger) and Goegang-Sal (Extreme Commander) are the high-voltage stars of the Saju system. They don't do anything halfway. When this energy is expressed without a proper channel, it can manifest as accidents, explosive conflict, or self-destructive intensity.</p>
+<p>But look at where this energy thrives: elite surgeons, prosecutors, special forces soldiers, competitive athletes, crisis managers, explosive growth entrepreneurs. The concept of <em>Eopsang-Daeche</em> (業上代替)—channeling dangerous energy through professional mastery—explains why so many high-performers in demanding fields carry these stars. The danger doesn't disappear. It becomes precision.</p>
 
-<h2 id="conclusion">3. Conclusion: "Sal" is Medicine, Not Poison</h2>
-<p>Every star is a double-edged sword. Depending on how you use it, it can be a weapon that hurts you or a tool that conquers the world. Don't be afraid of your stars; learn to wield them. Redirect your Saju energy toward positive growth and create your own unique value.</p>
+<h2 id="modern-application">4. The Hidden Canopy & Noble Star — Depth and Invisible Support</h2>
+<p>Hwagae-Sal (Hidden Canopy) is the star of solitude and spiritual depth. People who carry it need extended periods of privacy and reflection to do their best work. When this need is denied—by a busy social schedule, an open-plan office, constant demands—Hwagae energy turns inward and creates depression or creative paralysis. When honored, it produces extraordinary depth: novelists, composers, spiritual teachers, philosophers, therapists.</p>
+<p>The Noble Star energy (Gwiin) describes a person who consistently attracts help, mentorship, and fortunate encounters. One insight that experienced practitioners share: this energy amplifies when you lead with generosity. The people with the strongest Noble Star in their chart are almost always those who habitually give first—advice, time, connections, joy—without keeping score.</p>
+
+<h2 id="conclusion">5. The Final Word on Sal</h2>
+<p>The most useful question when you learn you carry a particular Sal isn't <em>"Is this bad?"</em> It's <em>"What environment lets this energy work for me instead of against me?"</em></p>
+<p>Dowa-Sal? Build a career that rewards your magnetism. Yeokma-Sal? Design a life with movement at its center. Baekho-Goegang? Enter a field that respects—and productively uses—raw intensity. Hwagae-Sal? Protect your solitude unapologetically and make the world richer with what you discover there.</p>
+<p>Your Saju stars tell you the shape of your blade. You decide what you carve.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/en/saju/career-star" style="text-decoration: underline; color: #f9d976;">[Read More] Career Luck in Saju: Finding Your Professional Path</a></p>
-  <p><a href="/en/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[Read More] Finding Your Yongshin: The Key to Wealth</a></p>
+  <p><a href="/en/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[Read Next] Finding Your Yongshin — The Element That Tips Your Chart Toward Fortune</a></p>
+  <p><a href="/en/saju/day-pillar" style="text-decoration: underline; color: #f9d976;">[Read Next] The Day Pillar Decoded — Understanding Your Core Identity in Saju</a></p>
 </div>
 </section>
+
     `,
     toc: [
-      { id: 'popular-spirits', title: '1. 현대의 행운: 도화와 역마' },
+      { id: 'popular-spirits', title: '1. 현대인에게 꼽 필요한 5대 대표 신젬' },
       { id: 'powerful-spirits', title: '2. 강력한 기운: 백호와 괴강' },
       { id: 'modern-application', title: '3. 신살 활용과 개운 전략' },
       { id: 'conclusion', title: '4. 결론: 신살의 현대적 재해석' },
