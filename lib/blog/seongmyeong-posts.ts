@@ -14,55 +14,77 @@ export const seongmyeongPosts: BlogPost[] = [
     category: 'seongmyeong',
     contentKo: `
 <section>
-<p>우리는 태어나면서 부모님으로부터 ‘이름’이라는 첫 번째 선물을 받습니다. 동양 철학에서는 이름이 단순한 호칭을 넘어, 한 사람의 운명과 기운을 담는 그릇이라고 믿습니다. 성명학(姓名學)은 바로 이 이름의 소리와 획수가 가진 에너지를 분석하여, 타고난 사주를 보완하고 복을 불러오는 학문입니다. 이 글에서는 성명학의 근본 원리와 이름이 우리 삶에 미치는 영향력을 심도 있게 파헤칩니다.</p>
+<p>우리는 태어나면서 부모님으로부터 첫 번째 선물을 받습니다. 바로 이름입니다. 동양 철학에서 이름은 단순한 호칭이 아닙니다. 그 사람의 에너지를 담는 그릇이고, 평생 수천 번 불리며 주인의 무의식에 파동을 보내는 일종의 만트라(mantra)입니다. 성명학(姓名學)은 이 이름의 소리와 글자 구조가 가진 기운을 체계적으로 분석하여, 사주팔자가 가진 불균형을 보완하고 삶의 흐름을 더 유리한 방향으로 설계하는 학문입니다.</p>
 
-<h2 id="concept-of-name">1. 성명학의 정의: 이름은 왜 운명을 좌우하는가?</h2>
-<p>성명학은 우주의 삼라만상이 소리와 수(數)로 이루어져 있다는 사상에 근거합니다. 이름이 불릴 때 발생하는 소리의 파동(소리오행)과 이름을 쓸 때 형성되는 글자의 에너지(수리획수)가 개인의 무의식과 환경에 지속적인 영향을 준다고 봅니다.</p>
-<h3>이름은 후천적 운명의 보완책</h3>
-<p>사주팔자가 태어날 때 결정되어 바꿀 수 없는 ‘선천운’이라면, 이름은 그 부족함을 채워주는 ‘후천운’입니다. 사주에 화(火)의 기운이 부족하다면 이름에 불의 기운을 가진 소리나 한자를 넣어 균형을 맞출 수 있습니다. 이는 마치 부족한 영양소를 영양제로 보충하는 것과 같은 원리입니다.</p>
+<p>많은 사람들이 성명학을 미신이라고 생각합니다. 그러나 한글은 세종대왕이 음양오행의 원리를 담아 창제한 문자이며, 발음 기관의 위치에 따라 오행이 분류된다는 점은 철학적으로 정교한 체계입니다. 수천 년간 통계적으로 검증된 수리81수 역시 단순한 미신이 아닌, 이름과 삶의 패턴을 연결하는 동양적 데이터 과학입니다.</p>
+
+<h2 id="concept-of-name">1. 성명학의 정의 — 이름은 왜 운명에 영향을 미치는가</h2>
+<p>성명학의 핵심 전제는 하나입니다: <strong>소리와 수(數)는 에너지를 가진다.</strong> 이름이 불릴 때마다 발생하는 소리의 파동(발음오행)과 한자를 구성하는 획수의 에너지(수리81수)가 그 사람의 기운 장(場)에 지속적으로 영향을 준다고 봅니다.</p>
+<p>사주팔자가 타고나는 '선천운(先天運)'이라면, 이름은 후천적으로 그 운을 보완하는 '후천운(後天運)'입니다. 즉 사주에 화(火) 기운이 부족하다면 이름에 화의 발음과 한자를 넣어 균형을 맞추는 것이 가능합니다. 이는 마치 비타민이 결핍된 식단을 영양제로 보완하는 것과 같은 원리입니다.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
   <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">✨ 나의 이름 점수 무료로 확인하기 →</a>
 </div>
 
 <h2 id="core-principles">2. 성명학의 3대 핵심 원리</h2>
-<p>좋은 이름을 짓기 위해서는 크게 세 가지 원리를 반드시 고려해야 합니다. 이 원리들이 조화를 이룰 때 비로소 운을 여는 ‘명품 이름’이 탄생합니다.</p>
-<h3>소리오행(발음오행): 부르는 소리의 에너지</h3>
-<p>이름을 부를 때 들리는 자음 소리는 각각 목·화·토·금·수 오행의 기운을 가집니다. 성(姓)과 이름이 서로 상생하는 소리 구조를 가졌을 때, 주변 사람들과의 관계가 원만해지고 사회적인 발복이 빨라집니다. 예를 들어 ‘ㄱ, ㅋ’은 목(木), ‘ㄴ, ㄷ, ㄹ, ㅌ’은 화(火)의 기운을 상징합니다.</p>
-<h3>수리81수: 획수의 길흉화복</h3>
-<p>한자의 획수를 합산하여 인생의 네 단계(원·형·이·정)를 분석하는 기법입니다. 유년기, 청년기, 중년기, 말년의 운세를 결정짓는 수리 조합이 길수(吉數)여야 인생의 굴곡을 줄일 수 있습니다.</p>
-<h3>자원오행: 한자의 부수와 의미</h3>
-<p>한자가 가진 근본적인 뜻과 부수가 사주에 부족한 기운을 직접적으로 보충해 주어야 합니다. 물이 필요한 사주라면 삼수변(氵)이 들어간 글자를 선택하는 식입니다.</p>
+<p>좋은 이름 한 글자에는 최소 세 가지 원리가 조화를 이루어야 합니다. 이 세 원리 중 하나라도 어긋나면 이름의 기운이 온전히 발휘되지 못합니다.</p>
+<h3>① 소리오행(발음오행) — 부르는 소리의 기운</h3>
+<p>한글 자음은 각각 목·화·토·금·수 오행의 기운을 품고 있습니다. 성(姓)과 이름 첫 글자, 끝 글자의 발음이 서로 상생하는 흐름을 이룰 때 인복(人福)이 트이고 사회적 발복이 빨라집니다. 반대로 상극 구조라면 재능은 있어도 결실이 늦고 인간관계에서 마찰이 잦아집니다. '<strong>ㄱ·ㅋ(목)</strong>→<strong>ㄴ·ㄷ·ㄹ·ㅌ(화)</strong>→<strong>ㅁ·ㅂ·ㅍ(토)</strong>→<strong>ㅅ·ㅈ·ㅊ(금)</strong>→<strong>ㅇ·ㅎ(수)</strong>'의 순환이 상생의 기본 축입니다.</p>
+<h3>② 수리81수(획수) — 숫자에 담긴 운명의 리듬</h3>
+<p>한자의 획수를 합산하여 원격(元格)·형격(亨格)·이격(利格)·정격(貞格) 네 가지 시기로 인생을 분석합니다. 초년·청년·중년·말년 각각의 운세가 길수(吉數)로 구성될 때 삶의 굴곡이 줄어들고 성취가 단단해집니다.</p>
+<h3>③ 자원오행(한자의 부수와 의미) — 글자가 담는 에너지</h3>
+<p>한자의 부수와 의미가 사주에 부족한 오행을 직접 보충합니다. 수(水)가 필요한 사주라면 삼수변(氵)이나 비 우(雨)처럼 물의 기운이 담긴 글자를 선택합니다. 이름을 쓸 때마다 그 에너지가 활성화됩니다.</p>
 
-<h2 id="impact-of-name">3. 좋은 이름이 가져오는 실제적인 변화</h2>
-<p>좋은 이름은 자신감을 불어넣고 타인에게 긍정적인 이미지를 심어줍니다. 심리학적으로도 세련되고 좋은 뜻을 가진 이름을 가진 사람이 사회적 성취도가 높다는 연구 결과가 있듯이, 성명학적 가치가 높은 이름은 개인의 잠재력을 끌어올리는 촉매제가 됩니다.</p>
+<h2 id="impact-of-name">3. 이름이 인생에 미치는 실증적 영향</h2>
+<p>좋은 이름의 효과는 단순히 철학적 주장에 그치지 않습니다. 심리학 연구에서도 이름이 사회적 첫인상, 직업 선택, 심지어 연봉에까지 영향을 미친다는 결과가 반복적으로 도출되고 있습니다. 발음하기 편하고 뜻이 좋은 이름을 가진 사람이 취업 면접에서 더 높은 평가를 받는 현상, 이름의 어감이 브랜드 인식에 영향을 주는 현상은 이미 마케팅 분야에서도 검증된 사실입니다.</p>
+<p>성명학은 여기에 더해 소리의 파동과 획수의 수리적 에너지가 무의식과 환경에 영향을 준다는 동양 철학적 관점을 더합니다. 자신의 이름을 부를 때마다 자신감이 생기고, 상대방이 부를 때마다 긍정적인 인상을 남기는 이름—그것이 성명학이 추구하는 '명품 이름'입니다.</p>
 
-<h2 id="conclusion">4. 결론: 이름은 인생의 나침반입니다</h2>
-<p>성명학은 미신이 아니라, 통계와 철학이 결합된 자기 경영의 한 방법입니다. 자신의 이름을 이해하고, 필요하다면 보완하는 과정은 곧 자신의 삶을 소중히 여기는 태도에서 시작됩니다. 당신의 이름이 당신의 앞날을 밝히는 등불이 되길 바랍니다.</p>
+<h2 id="conclusion">4. 결론 — 이름을 이해하는 것이 자기 이해의 시작</h2>
+<p>성명학을 공부하는 것은 단순히 이름의 길흉을 판단하는 것이 아닙니다. 내 이름이 가진 에너지 구조를 이해하고, 그것이 나의 기질 및 사주와 어떻게 상호작용하는지를 파악하는 과정입니다. 이름이 나를 설명하고, 나는 이름을 완성합니다. 오늘 자신의 이름을 한번 다시 들여다보세요. 그 안에 숨겨진 운명의 코드가 보일 것입니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p>[내부링크: 12번: 소리로 보는 이름 오행 상생상극 완벽 정리]</p>
-  <p>[내부링크: 15번: 성명학 수리 81수 핵심 길흉표 총정리]</p>
+  <p><a href="/ko/seongmyeong/name-five-elements" style="text-decoration: underline; color: #f9d976;">[관련글] 소리오행 완전정복 — 이름 자음의 오행 상생상극 분석</a></p>
+  <p><a href="/ko/seongmyeong/numerology-81" style="text-decoration: underline; color: #f9d976;">[관련글] 수리81수 총정리 — 획수로 읽는 인생의 길흉화복</a></p>
 </div>
 </section>
+
     `,
     contentEn: `
 <section>
-<p>Your name is more than just a label; it is the first gift you receive at birth and a vessel for your destiny. In Eastern philosophy, Seongmyeonghak (the study of names) analyzes how the sounds and stroke counts of a name interact with one's innate cosmic energy (Saju). This guide explores the foundational principles of Korean name reading and how a balanced name can enhance your life's success and harmony.</p>
+<p>Every culture has naming traditions. Korean naming culture—rooted in a discipline called <strong>Seongmyeonghak</strong> (姓名學, the study of names)—is one of the most systematically developed in the world. It's built on a foundational premise that most Westerners initially find surprising: the sounds and structural composition of your name carry energy that interacts with your personal cosmic configuration (Saju) over the course of your entire life.</p>
 
-<h2 id="concept-of-name">1. Why a Name Matters: The Destiny Vessel</h2>
-<p>Seongmyeonghak is based on the belief that everything in the universe consists of vibrations and numbers. The vibrations of a name when spoken (Sound Elements) and the energy of the characters when written (Stroke Counts) continuously influence your subconscious and your environment.</p>
+<p>This isn't mysticism for its own sake. Hangul, the Korean alphabet, was deliberately constructed around the principles of Yin-Yang and the Five Elements—its consonants organized by the position in the mouth they're produced, each position corresponding to a specific elemental energy. Layer onto this a numerological system (the 81-pattern stroke count) with centuries of observational data, and you have something that deserves to be taken seriously, even by skeptics.</p>
+
+<h2 id="concept-of-name">1. The Core Claim: Your Name is a Living Vibration</h2>
+<p>In Seongmyeonghak, your name is called dozens of times every day—by colleagues, family, strangers. Each utterance sends a specific vibrational pattern into your environment. The consonant sounds of your name map to the Five Elements (Wood, Fire, Earth, Metal, Water), and the elemental relationships between those sounds—whether they support or conflict with each other—shape the social and energetic atmosphere around you.</p>
+<p>Beyond sound, the stroke counts of the Chinese characters (Hanja) in your name carry numerical energy. Specific totals correlate with patterns of success, challenge, wealth, and longevity observed across generations of practice. The name you carry isn't neutral. It's actively shaping the field around you.</p>
+<p>Think of your birth chart (Saju) as your hardware—fixed at birth, unchangeable. Your name is software that runs on that hardware. A well-designed name doesn't override your nature; it amplifies your strengths and compensates for your gaps. A poorly constructed one adds friction that doesn't need to be there.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">✨ Get Your Name Analysis for Free →</a>
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">✨ Analyze Your Name for Free →</a>
 </div>
 
-<h2 id="core-principles">2. The Three Pillars of Seongmyeonghak</h2>
-<p>To create a truly auspicious name, three core principles must be harmonized: Sound Elements (vibrations of consonants), Numerology (sum of stroke counts), and Resource Elements (the intrinsic energy of the characters' meanings).</p>
+<h2 id="core-principles">2. The Three Pillars of a Great Name</h2>
+<h3>Sound Elements (Paleum Ohaeng)</h3>
+<p>The initial consonant of each syllable in your name carries an elemental energy: ㄱ/ㅋ = Wood, ㄴ/ㄷ/ㄹ/ㅌ = Fire, ㅁ/ㅂ/ㅍ = Earth, ㅅ/ㅈ/ㅊ = Metal, ㅇ/ㅎ = Water. When these flow in a generative sequence—Wood feeding Fire, Fire feeding Earth—your name supports social harmony and accelerating fortune. When they conflict, friction quietly accumulates in relationships and opportunities.</p>
+<h3>Stroke Count Numerology (Suri 81-Su)</h3>
+<p>The total stroke counts of the Chinese characters forming your name are analyzed across four life stages: early life (Won-gyeok), primary success period (Hyeong-gyeok), middle age (I-gyeok), and overall/later life (Jeong-gyeok). When auspicious numbers align across all four stages, the name provides structural support for lifelong development. Inauspicious combinations don't doom a person—but they do create unnecessary headwinds.</p>
+<h3>Character Resource Energy (Jawon Ohaeng)</h3>
+<p>The radical (root component) and meaning of each Chinese character in your name carries elemental energy that directly supplements your Saju. Someone whose birth chart runs cold and dry benefits from characters containing water radicals (氵) or wood elements (木). This layer is the most direct form of elemental supplementation a name can provide.</p>
 
-<h2 id="conclusion">3. Conclusion: Your Name, Your Compass</h2>
-<p>Understanding the value of your name is the first step toward self-improvement. Whether through birth naming or a name change, aligning your name with your energy leads to a more fulfilling life path.</p>
+<h2 id="impact-of-name">3. Does This Actually Work?</h2>
+<p>The question worth asking directly. The practice rests on observable patterns across large populations over centuries—a form of pre-modern empiricism. Modern behavioral science corroborates some of the mechanisms: research consistently shows that name sounds affect social perception, job interview outcomes, brand recognition, and even academic assessment. The elements of a name that Seongmyeonghak focuses on—sound, rhythm, meaning—are precisely the elements that behavioral research confirms matter.</p>
+<p>Whether you accept the metaphysical framework or not, designing a name with intentional attention to sound harmony, numerical balance, and meaningful characters produces a name that works better in the world. That much is not in dispute.</p>
+
+<h2 id="conclusion">4. Understanding Your Name Is Understanding Yourself</h2>
+<p>You didn't choose your name. But now that you understand what it carries, you have a choice about how to use that knowledge. Whether you're considering a name for a new child, contemplating a change for yourself, or simply curious about the energy structure of the name you've been living with—Seongmyeonghak offers a precise, considered framework for these questions.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/seongmyeong/name-five-elements" style="text-decoration: underline; color: #f9d976;">[Read Next] Sound Elements in Names — How Your Name's Consonants Shape Your Luck</a></p>
+  <p><a href="/en/seongmyeong/numerology-81" style="text-decoration: underline; color: #f9d976;">[Read Next] Numerology 81 — Reading Life's Rhythm Through Stroke Counts</a></p>
+</div>
 </section>
+
     `,
     toc: [
       { id: 'concept-of-name', title: '1. 성명학의 정의와 의미' },
@@ -101,53 +123,102 @@ export const seongmyeongPosts: BlogPost[] = [
     category: 'seongmyeong',
     contentKo: `
 <section>
-<p>이름을 짓는다는 것은 한 사람의 인생에 가장 아름답고 견고한 집을 지어주는 것과 같습니다. 특히 사주 명리학의 관점에서 작명은 타고난 사주의 불균형을 바로잡는 최고의 ‘처방법’입니다. 어떤 이에게는 불(火)의 따뜻함이 필요하고, 어떤 이에게는 물(水)의 유연함이 필요합니다. 이 글에서는 태어난 계절과 사주 구성을 바탕으로 부족한 기운을 이름에 담는 전문적인 작명의 기술을 다룹니다.</p>
+<p>성명학의 세 가지 핵심 원리 중에서 가장 수치적이고 통계적인 분야가 바로 수리81수(數理81數)입니다. 이름을 구성하는 한자의 획수를 합산한 수치가 1부터 81까지 각각 고유한 기운과 길흉 패턴을 가진다는 이 이론은, 수천 년간 수많은 인생 사례를 통해 통계적으로 검증되어 온 동양의 수리 체계입니다. 이름의 어떤 숫자가 성공을 불러오고, 어떤 숫자가 조심을 요구하는지 상세히 알아봅니다.</p>
 
-<h2 id="saju-analysis">1. 작명의 시작: 사주 원국 정밀 분석</h2>
-<p>좋은 이름을 짓기 위해 가장 먼저 해야 할 일은 그 사람의 사주를 철저히 분석하는 것입니다. 사주에 있는 여덟 글자의 상생상극을 살펴, 어떤 기운이 강하고 어떤 기운이 메말라 있는지를 파악해야 합니다.</p>
-<h3>계절별 조후(調候) 고려</h3>
-<p>추운 겨울에 태어난 아이라면 이름에 따뜻한 햇살과 같은 화(火)의 기운을 넣어주어야 하고, 무더운 한여름에 태어난 아이라면 시원한 그늘과 물(水)의 기운이 필수적입니다. 이를 ‘조후를 맞춘다’고 하며, 이는 건강과 정서적 안정에 큰 영향을 미칩니다.</p>
+<h2 id="four-stages">1. 인생의 4개 시기 — 원·형·이·정격</h2>
+<p>수리81수는 이름을 단순히 전체 획수 하나로 보는 것이 아니라, 성과 이름의 조합 방식에 따라 네 가지 격(格)으로 인생 시기를 나누어 분석합니다.</p>
+<ul>
+  <li><strong>원격(元格) — 초년운 (0~20세):</strong> 이름의 두 번째 글자와 세 번째 글자의 획수 합. 유년기와 청소년기의 성장 환경, 선천적 재능과 성향을 나타냅니다. 원격이 좋으면 유년기에 건강하고 학습 능력이 뛰어납니다.</li>
+  <li><strong>형격(亨格) — 청년운/핵심운 (20~40세):</strong> 성(姓)의 획수와 이름 첫 글자의 획수 합. 인생에서 가장 왕성하게 사회적 성취를 이루는 시기의 운세를 결정합니다. 성명학에서 가장 중요하게 보는 격으로, 직장운·사업운·명예운이 여기에 집약됩니다.</li>
+  <li><strong>이격(利格) — 중년운 (40~60세):</strong> 성(姓)의 획수와 이름 마지막 글자의 획수 합. 가정을 이루고 사회적 지위를 굳히는 시기의 운세입니다. 재물 성취와 가정의 안정이 이격에 담겨 있습니다.</li>
+  <li><strong>정격(貞格) — 총운/말년운 (60세~):</strong> 이름 전체(성+이름) 획수의 합. 인생 전체의 결실와 노년의 안락함을 상징합니다. 정격이 좋으면 노년에 주변의 존경을 받고 편안한 삶을 누립니다.</li>
+</ul>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🍀 나에게 필요한 행운의 이름 기운 찾기 →</a>
+  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">📊 내 이름의 수리 4격 분석하기 →</a>
 </div>
 
-<h2 id="element-balancing">2. 오행을 채우는 실전 작명 기법</h2>
-<p>사주 분석이 끝났다면, 이제 실제로 어떤 오행을 이름에 넣을지 결정해야 합니다. 이때 활용되는 것이 바로 ‘자원오행’과 ‘소리오행’입니다.</p>
-<h3>자원오행을 통한 직접 보완</h3>
-<p>한자의 부수와 뜻을 이용합니다. 목(木)이 부족하다면 나무 목(木) 변이 들어간 글자를, 금(金)이 부족하다면 쇠 금(金) 변이 들어간 글자를 선택하여 사주의 빈 공간을 물리적으로 채워줍니다.</p>
-<h3>용신(用神)과 희신(喜神)의 활용</h3>
-<p>단순히 없는 것을 채우는 것이 아니라, 사주에서 나를 돕고 성공으로 이끄는 핵심 기운인 ‘용신’을 이름의 중심에 두어야 합니다. 용신이 이름에 잘 녹아들 때 비로소 사회적 성취와 재물운이 크게 열립니다.</p>
+<h2 id="lucky-numbers">2. 대표적인 길수(吉數) 상세 분석</h2>
+<p>81가지 수리 중 특히 강력한 성공과 행복의 기운을 가진 길수들입니다.</p>
+<ul>
+  <li><strong>1획 — 태초격(太初格):</strong> 만물의 시작을 상징. 강한 리더십과 개척 정신. 새로운 분야를 열어가는 힘이 있습니다.</li>
+  <li><strong>11획 — 갱신격(更新格):</strong> 봄의 새싹처럼 끊임없이 새로운 가능성이 열립니다. 사업 확장, 새로운 시작에 최고의 수리. 창의적인 직군에 특히 좋습니다.</li>
+  <li><strong>15획 — 통솔격(統率格):</strong> 덕망 있는 리더를 상징. 많은 사람의 존경을 받으며 원만한 대인관계를 구축합니다. 조직의 리더나 공직에 어울리는 수리입니다.</li>
+  <li><strong>21획 — 두령격(頭領格):</strong> 집단을 이끄는 위에 서는 수리. 사업가·정치인·전문직 리더에게 이상적인 수리로, 권위와 성취를 동시에 상징합니다.</li>
+  <li><strong>24획 — 입신격(立身格):</strong> 자수성가의 상징. 타고난 재능과 노력으로 사회적 성공을 쟁취하는 강한 수리. 재물과 명예를 함께 누립니다.</li>
+  <li><strong>31획 — 성덕격(盛德格):</strong> 덕망으로 사람을 이끄는 군자의 수리. 학문과 예술에서 탁월한 성취를 이루며 후대에 이름을 남깁니다.</li>
+  <li><strong>32획 — 요행격(僥倖格):</strong> 뜻밖의 행운이 찾아오는 수리. 귀인의 도움을 자주 받아 순풍에 돛을 단 듯 인생이 흘러갑니다.</li>
+</ul>
 
-<h2 id="modern-naming">3. 현대적 감각과 전통의 조화</h2>
-<p>과거에는 무조건 어려운 한자나 무거운 뜻을 선호했지만, 현대 작명은 부르기 쉽고 세련된 느낌을 주는 것도 중요합니다. 아무리 성명학적으로 완벽해도 불리기 어색하거나 놀림감이 될 수 있는 이름은 좋은 이름이라 할 수 없습니다. 소리오행의 리듬감과 현대적인 세련미를 동시에 잡는 것이 진정한 작명의 기술입니다.</p>
+<h2 id="caution-numbers">3. 주의해야 할 흉수(凶數)와 대처법</h2>
+<p>아래 수리들이 형격이나 정격에 등장한다면, 전문가와 상담하여 개명 등의 대안을 검토하는 것이 좋습니다.</p>
+<ul>
+  <li><strong>4획 — 파괴격(破壞格):</strong> 노력에 비해 결실이 부족. 건강 문제와 갑작스러운 손실을 조심해야 합니다.</li>
+  <li><strong>9획 — 궁박격(窮迫格):</strong> 재능은 뛰어나지만 인정받기 어렵고 고독한 삶의 경향이 있습니다.</li>
+  <li><strong>10획 — 공허격(空虛格):</strong> 아무리 쌓아도 무너지는 사상누각. 재물이 손에 잡히지 않는 경향이 있습니다.</li>
+  <li><strong>19획 — 고난격(苦難格):</strong> 건강 문제와 환경적 어려움이 반복되기 쉽습니다. 의지와 끈기가 특히 필요한 수리입니다.</li>
+  <li><strong>34획 — 파란격(波瀾格):</strong> 인생의 굴곡이 심하고 갑작스러운 변화가 많습니다.</li>
+</ul>
 
-<h2 id="conclusion">4. 결론: 평생의 복을 부르는 이름</h2>
-<p>정성을 다해 지은 이름은 평생 동안 주인을 따라다니며 긍정적인 에너지를 발산합니다. 작명은 단순히 글자를 조합하는 행위가 아니라, 한 사람의 인생이 순탄하게 흐르도록 기운의 물길을 터주는 숭고한 작업입니다.</p>
+<h2 id="conclusion">4. 결론 — 이름 속 숫자는 인생의 리듬이다</h2>
+<p>수리81수는 이름 아래에 깔린 보이지 않는 구조입니다. 좋은 수리 조합을 가진 이름은 주인이 노력할 때 그 노력이 배가 되도록 받쳐주고, 어려운 시기엔 버팀목이 됩니다. 자신의 이름이 어떤 수리 구조를 갖고 있는지 이해하는 것—그것이 자신의 인생 리듬을 이해하는 첫걸음입니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p>[내부링크: 11번: 이름 한자 획수로 보는 인생의 길흉화복 분석]</p>
-  <p>[내부링크: 5번: 내 사주에서 가장 필요한 기운(용신) 찾는 법]</p>
+  <p><a href="/ko/seongmyeong/name-creation" style="text-decoration: underline; color: #f9d976;">[관련글] 작명의 기술 — 수리와 소리와 한자의 삼위일체 작명법</a></p>
+  <p><a href="/ko/seongmyeong/name-change" style="text-decoration: underline; color: #f9d976;">[관련글] 개명 가이드 — 흉수 이름을 바꿔 운을 리셋하는 법</a></p>
 </div>
 </section>
+
     `,
     contentEn: `
 <section>
-<p>Naming a child is like building a beautiful and sturdy home for their soul. From the perspective of Saju, naming is the ultimate "remedy" to correct innate imbalances. Whether one needs the warmth of Fire or the flexibility of Water, this guide covers the professional techniques of filling Saju voids through the perfect name.</p>
+<p>Numbers are perhaps the most universal human symbol system—present in every culture, every era, every domain of inquiry. The Seongmyeonghak approach to numbers isn't numerology in the Western sense, though the surface similarities might suggest otherwise. It's a pattern-recognition system built from centuries of observational data: specific stroke count totals in names correlate, across large populations, with specific patterns in career, relationships, health, and longevity.</p>
+<p>The system—known as Suri 81-Su (數理81數)—maps every number from 1 to 81 and assigns each a characteristic energetic signature based on this accumulated statistical observation. Combined with Saju analysis and sound element assessment, it provides the structural numeric foundation for a complete name analysis.</p>
 
-<h2 id="saju-analysis">1. The First Step: Saju Analysis</h2>
-<p>A great name starts with a deep dive into the Eight Characters (Saju). We must identify which elements are dominant and which are lacking to find the "Yongshin" (Beneficial Element) that will lead the person to success.</p>
+<h2 id="four-stages">1. The Four Stages: Reading a Name's Architecture</h2>
+<p>The cleverness of the system is in how it analyzes the same name across multiple time windows simultaneously. Rather than looking at a single total, practitioners calculate four distinct stroke count combinations that map to four periods of life.</p>
+<ul>
+  <li><strong>Won-gyeok (元格) — Early Life (birth to ~20):</strong> The sum of the given name's two characters. Governs childhood environment, innate temperament, and early educational trajectory. A strong Won-gyeok creates a stable, curious foundation for development.</li>
+  <li><strong>Hyeong-gyeok (亨格) — Primary Success Period (~20 to 40):</strong> Family name plus first character of given name. This is the most important stage—it governs career launch, social recognition, and the primary working-life arc. Most practitioners prioritize this number above all others when optimization requires trade-offs.</li>
+  <li><strong>I-gyeok (利格) — Middle Life (~40 to 60):</strong> Family name plus last character of given name. Governs family stability, wealth consolidation, and the deepening of professional reputation.</li>
+  <li><strong>Jeong-gyeok (貞格) — Overall and Later Life (60+):</strong> The total of all characters. Represents the net trajectory—the overall quality of the life arc, and the conditions of the later years. A strong Jeong-gyeok suggests a respected, comfortable later life with meaningful legacy.</li>
+</ul>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🍀 Find Your Lucky Name Elements →</a>
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">📊 Analyze Your Name's Four Stages →</a>
 </div>
 
-<h2 id="modern-naming">2. Harmonizing Tradition and Modern Style</h2>
-<p>Modern naming isn't just about stroke counts; it's about finding a name that is easy to call, sounds sophisticated, and carries deep spiritual meaning. Balancing vibrations with modern aesthetics is the true art of naming.</p>
+<h2 id="lucky-numbers">2. The Most Powerful Auspicious Numbers</h2>
+<p>Across the 81 possible totals, certain numbers have consistently demonstrated favorable patterns. The most prized include:</p>
+<ul>
+  <li><strong>1 — Origin:</strong> Leadership, independence, the pioneer's spirit. First in everything.</li>
+  <li><strong>11 — Renewal:</strong> Continuous new beginnings, expanding creative possibility, entrepreneurial success. One of the most sought-after numbers for Hyeong-gyeok.</li>
+  <li><strong>15 — Leadership through Virtue:</strong> The number of the admired leader—not through force but through character. Excellent for social harmony and sustained professional respect.</li>
+  <li><strong>21 — Authority:</strong> The number of the person whom groups naturally look to. Ideal for executives, political leaders, senior professionals, and anyone whose work involves directing others.</li>
+  <li><strong>24 — Self-Made Achievement:</strong> The self-made success archetype. Combines innate talent with disciplined effort to produce outcomes that often surprise even the bearer. Strong for both financial and reputational success.</li>
+  <li><strong>31 — Virtuous Success:</strong> The scholar-leader's number. Associated with academic and artistic distinction, wisdom that earns lasting respect, and legacy that outlasts the individual.</li>
+  <li><strong>32 — Fortunate Assistance:</strong> The number of the person who seems to always find help when needed. Characterized by timely encounters with supportive figures and opportunities that appear unexpectedly.</li>
+</ul>
 
-<h2 id="conclusion">3. Conclusion: A Lifelong Blessing</h2>
-<p>A name crafted with care acts as a lifelong charm, radiating positive energy. It is not just about combining characters but about clearing the path for a person's life to flow smoothly.</p>
+<h2 id="caution-numbers">3. Numbers That Warrant Careful Attention</h2>
+<p>These numbers appearing in core positions—particularly Hyeong-gyeok or Jeong-gyeok—suggest patterns worth examining through professional consultation:</p>
+<ul>
+  <li><strong>4, 9, 10:</strong> Patterns of frustrated effort, difficulty gaining recognition despite capability, a sense that results consistently disappoint expectations.</li>
+  <li><strong>19, 20:</strong> Health sensitivities and environmental adversity as recurrent themes; periods of apparent progress followed by significant setbacks.</li>
+  <li><strong>34:</strong> High volatility—dramatic swings in fortune that make stability difficult to maintain. Significant capability alongside persistent instability.</li>
+</ul>
+<p>An important caveat: no number should be read in isolation. A chart with a strong Saju that provides elemental support can partially compensate for an inauspicious numerological position. The system is always integrative, never deterministic.</p>
+
+<h2 id="conclusion">4. What the Numbers Can and Can't Tell You</h2>
+<p>Numerology 81 is a structural lens—it reveals the underlying architecture that a name imposes on the life it accompanies. Like the foundation of a building, you can't usually see it, but it shapes everything that happens above it. When the foundation is solid, everything built on top of it is easier. When it has structural weaknesses, they show up in patterns that are hard to explain by surface-level factors alone.</p>
+<p>What it can't tell you: how hard you'll work, what choices you'll make, what you'll encounter. Those layers of agency remain genuinely open. What it does tell you: the energetic pattern your name contributes to every day of your life, and whether that contribution is working for you or asking you to compensate for it constantly. That's worth knowing.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/seongmyeong/name-creation" style="text-decoration: underline; color: #f9d976;">[Read Next] The Art of Naming — Sound, Numerology, and Character Energy Combined</a></p>
+  <p><a href="/en/seongmyeong/name-change" style="text-decoration: underline; color: #f9d976;">[Read Next] Name Change Guide — When and How to Reset Your Luck</a></p>
+</div>
 </section>
+
     `,
     toc: [
       { id: 'saju-analysis', title: '1. 작명의 시작: 사주 분석' },
@@ -280,55 +351,81 @@ export const seongmyeongPosts: BlogPost[] = [
     category: 'seongmyeong',
     contentKo: `
 <section>
-<p>살다 보면 아무리 노력해도 일이 풀리지 않거나, 건강이 예전 같지 않을 때 우리는 ‘이름을 바꿔볼까?’라는 생각을 한 번쯤 하게 됩니다. 개명은 단순히 이름의 글자를 바꾸는 행위가 아니라, 자신을 둘러싼 에너지의 흐름을 바꾸고 새로운 인생의 막을 여는 중대한 결단입니다. 성명학적으로 볼 때 개명이 필요한 시점은 언제인지, 그리고 어떤 과정을 통해 운을 바꿀 수 있는지 상세히 알아봅니다.</p>
+<p>살다 보면 '내 이름이 나를 막고 있는 건 아닐까?'라는 생각이 드는 순간이 있습니다. 하는 일마다 꼬이고, 건강이 예전 같지 않고, 좋은 기회가 왔다 싶으면 놓치고—이런 패턴이 반복될 때 개명(改名)은 한 번쯤 진지하게 고려할 만한 선택입니다. 성명학적으로 잘못 설계된 이름은 사주의 좋은 기운을 억누르고, 불필요한 장애물을 만들어냅니다. 반대로 올바른 이름으로 개명하면 심리적 자신감이 높아지고, 에너지의 흐름이 달라집니다.</p>
 
-<h2 id="when-to-change">1. 개명을 진지하게 고민해야 할 3가지 징후</h2>
-<p>모든 불운이 이름 때문은 아니지만, 성명학적 분석 결과 다음과 같은 문제가 있다면 개명을 통해 개운(開運)을 시도해 볼 만합니다.</p>
-<ul>
-  <li><strong>사주와 이름의 상극:</strong> 이름이 사주에서 꼭 필요한 기운(용신)을 억제하고 있는 경우, 날개를 달아도 날지 못하는 형국이 됩니다.</li>
-  <li><strong>불길한 수리 조합:</strong> 수리81수 분석에서 4격(원·형·이·정) 중 중복으로 흉수가 들어있어 인생의 굴곡이 지나치게 심한 경우입니다.</li>
-  <li><strong>부르기 힘들거나 놀림감이 되는 이름:</strong> 사회적 자신감을 떨어뜨리고 무의식중에 스트레스를 주는 이름은 기운을 위축시킵니다.</li>
-</ul>
+<h2 id="when-to-change">1. 개명을 진지하게 고려해야 할 3가지 징후</h2>
+<p>모든 불운이 이름 때문은 아닙니다. 하지만 성명학 분석에서 다음 세 가지가 확인된다면 개명을 통한 개운(開運)이 실질적으로 도움이 됩니다.</p>
+<h3>① 이름이 사주의 용신을 극(剋)하고 있을 때</h3>
+<p>사주에서 가장 필요한 기운인 용신이 이름의 소리오행이나 한자 자원오행에 의해 억눌리고 있다면, 아무리 노력해도 결실이 반감됩니다. 예를 들어 용신이 목(木)인데 이름에 금(金) 기운이 강하면 금극목(金剋木)의 구조가 되어 이름이 운을 막는 형국이 됩니다.</p>
+<h3>② 수리81수에서 핵심 격(格)이 흉수일 때</h3>
+<p>이름의 핵심인 형격(亨格, 사회적 성공의 토대)이나 총운인 정격(貞格)이 지속적인 좌절이나 건강 문제를 상징하는 흉수라면, 이름 자체가 삶의 흐름에 저항을 만들어내고 있을 가능성이 높습니다. 9, 10, 19, 20, 34 등은 특히 주의가 필요한 수리입니다.</p>
+<h3>③ 심리적·사회적으로 이름이 걸림돌이 될 때</h3>
+<p>이름으로 인해 무의식적으로 자신감이 낮아지거나, 첫인상에서 손해를 보거나, 발음이 어려워 자꾸 틀리게 불리는 경우—이름이 심리적으로 에너지를 위축시킵니다. 자신감과 첫인상은 성공의 핵심 요소이므로, 이 부분을 가볍게 봐서는 안 됩니다.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">💎 개명이 필요한지 이름 정밀 진단 받아보기 →</a>
+  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">💎 개명 전 이름 정밀 진단받기 →</a>
 </div>
 
-<h2 id="naming-process">2. 운을 바꾸는 개명, 어떻게 해야 할까?</h2>
-<p>개명할 이름을 지을 때는 기존 사주의 부족함을 채우는 것은 물론, 앞으로 살아가고자 하는 방향성까지 담아야 합니다.</p>
-<h3>선천운을 보완하는 후천운의 설계</h3>
-<p>개명은 사주라는 설계도 위에 더 나은 자재를 사용하여 리모델링하는 것과 같습니다. 재물운이 부족하다면 수리에 재물 길수를 넣고, 건강이 걱정된다면 생명력이 강한 오행을 선택합니다. 중요한 것은 전문가의 정밀한 분석을 통해 사주와의 ‘합(合)’을 맞추는 것입니다.</p>
+<h2 id="naming-process">2. 운을 바꾸는 개명 — 어떻게 준비해야 할까</h2>
+<p>개명은 단순히 마음에 드는 이름을 선택하는 것이 아닙니다. 현재 사주에서 부족한 기운을 정밀 분석한 뒤, 소리오행·수리획수·자원오행이 모두 사주와 조화를 이루는 이름을 새롭게 설계하는 과정입니다.</p>
+<h3>전문가 분석 → 후보 이름 선정 → 검증</h3>
+<p>먼저 사주 분석으로 용신과 희신을 확정합니다. 그 기운을 소리와 획수와 한자 의미로 동시에 담아낼 후보군을 만들고, 최종적으로 소리오행 상생, 4격 길수, 의미의 깊이를 모두 검증한 이름을 확정합니다.</p>
+<h3>내면 정착 기간</h3>
+<p>새 이름의 기운이 내 몸과 마음에 스며드는 데는 시간이 필요합니다. 법적 개명 전이라도 새 이름으로 불리는 연습을 하고, 스스로도 새 이름으로 부르는 환경을 만드세요. 이름에 익숙해질수록 그 진동이 실제 운에 미치는 영향은 커집니다.</p>
 
-<h2 id="after-change">3. 개명 후, 운을 내 것으로 만드는 법</h2>
-<p>이름을 바꿨다고 해서 하루아침에 모든 것이 변하지는 않습니다. 새로운 이름의 기운이 내 몸과 마음에 스며들 시간이 필요합니다. 주변 사람들에게 적극적으로 새 이름을 알리고, 스스로도 새 이름으로 불리는 것에 익숙해질 때 그 이름의 진동이 운명을 바꾸기 시작합니다.</p>
+<h2 id="after-change">3. 개명 후 운을 내 것으로 만드는 법</h2>
+<p>개명 후 운이 바뀌기를 수동적으로 기다리는 것은 반쪽짜리 개운입니다. 새 이름의 기운과 일치하는 삶의 방식을 능동적으로 선택해야 합니다.</p>
+<ul>
+  <li>새 이름이 목(木) 기운을 담고 있다면 — 성장·교육·창의적 활동에 에너지를 투자하세요.</li>
+  <li>화(火) 기운의 이름이라면 — 사람들과 적극적으로 소통하고 자신을 표현하는 기회를 늘리세요.</li>
+  <li>금(金) 기운의 이름이라면 — 원칙과 기준을 명확히 하고, 전문성을 쌓는 데 집중하세요.</li>
+</ul>
+<p>이름의 기운과 삶의 방향이 일치할 때, 개명의 효과는 두 배 이상으로 증폭됩니다.</p>
 
-<h2 id="conclusion">4. 결론: 이름은 바꿀 수 있는 운명입니다</h2>
-<p>사주는 바꿀 수 없지만, 이름은 우리가 선택할 수 있습니다. 개명은 당신이 당신의 삶을 얼마나 사랑하고 변화시키고 싶어 하는지를 보여주는 적극적인 행동입니다. 더 나은 이름과 함께 당신의 인생 2막이 화려하게 펼쳐지길 응원합니다.</p>
+<h2 id="conclusion">4. 결론 — 이름은 바꿀 수 있는 운명이다</h2>
+<p>사주는 바꿀 수 없지만 이름은 선택할 수 있습니다. 개명은 당신이 자신의 삶을 더 적극적으로 설계하겠다는 선언입니다. 단 충동적인 결정보다는 사주 분석과 성명학 전문 진단을 바탕으로 한 신중한 결정을 권합니다. 제대로 지어진 새 이름은 당신 인생의 2막을 여는 가장 강력한 도구가 될 수 있습니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p>[내부링크: 15번: 개명 전 필독! 성명학 수리 81수 총정리]</p>
-  <p>[내부링크: 13번: 개명 법적 절차 및 서류 준비 가이드]</p>
+  <p><a href="/ko/seongmyeong/numerology-81" style="text-decoration: underline; color: #f9d976;">[관련글] 개명 전 필독! 수리81수 총정리 — 이름의 길수와 흉수</a></p>
+  <p><a href="/ko/seongmyeong/name-creation" style="text-decoration: underline; color: #f9d976;">[관련글] 작명의 기술 — 사주 용신을 이름에 담는 전문 작명법</a></p>
 </div>
 </section>
+
     `,
     contentEn: `
 <section>
-<p>There are times in life when effort alone isn't enough, leading many to consider a name change. Changing your name isn't just about changing letters; it's about resetting your energetic flow and opening a new chapter in your life. This guide explores when you should consider a name change from a Seongmyeonghak perspective and how it can act as a catalyst for better luck.</p>
+<p>There's a particular kind of professional frustration that's hard to explain. You're competent. You work hard. The opportunities come and somehow don't quite materialize. The connections feel slightly more effortful than they should. You can't point to a single cause, but the pattern is consistent. Korean name analysis (Seongmyeonghak) offers one possible explanation that most Western frameworks don't consider: your name itself might be generating friction.</p>
+<p>This isn't superstition. It's a systematic analysis of whether the elemental energies embedded in your name's sounds and stroke counts are aligned with—or actively working against—the elemental configuration you were born with. When they're misaligned, the result is a constant low-level headwind that compounds over years. A well-executed name change removes that headwind.</p>
 
-<h2 id="when-to-change">1. Signs You Might Need a Name Change</h2>
-<ul>
-  <li><strong>Conflict with Saju:</strong> When your current name suppresses your beneficial Saju elements.</li>
-  <li><strong>Inauspicious Numerology:</strong> If your name's stroke count patterns consistently predict hardship.</li>
-  <li><strong>Psychological Weight:</strong> If your name causes stress or lacks professional confidence.</li>
-</ul>
+<h2 id="when-to-change">1. Three Indicators That a Name Change Is Worth Considering</h2>
+<h3>Your Name Suppresses Your Beneficial Element</h3>
+<p>Every Saju chart has a Yongshin—the specific elemental force that most powerfully tips the chart toward favorable outcomes. If the sound elements in your name carry energy that controls or exhausts your Yongshin, the name is actively working against your chart's potential. The metaphor practitioners use: wings attached backward. The effort goes in, but the lift doesn't come. This is the most important contraindication in name analysis.</p>
+<h3>Core Numerological Patterns Are Inauspicious</h3>
+<p>The Hyeong-gyeok (the stroke total governing your primary success period) and Jeong-gyeok (your overall life total) are the two most significant numerological positions. Numbers like 9, 10, 19, 20, and 34 in these positions are associated—across generations of statistical observation—with patterns of frustrated effort, health disruptions, and recurring loss just before completion. If these appear in both positions simultaneously, the name's structural foundation warrants serious examination.</p>
+<h3>Psychological and Social Friction</h3>
+<p>Names affect how we feel about ourselves and how others respond to us. Research is clear on this. A name that creates persistent mispronunciation, carries unwanted associations, or simply doesn't feel like an accurate representation of who you've become erodes confidence at the margins—in every introduction, every professional context. That marginal erosion accumulates. It's not a small thing.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
   <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">💎 Get a Detailed Name Change Consultation →</a>
 </div>
 
-<h2 id="conclusion">2. Conclusion: Choosing Your Destiny</h2>
-<p>While you cannot change your birth date, you can choose your name. A name change is a proactive step toward the life you desire. Let your new name be the key that opens doors to a brighter future.</p>
+<h2 id="naming-process">2. Designing a Better Name</h2>
+<p>A name change done carelessly is no better than the original problem. The process should follow the same rigorous analysis as a birth naming: start with the Saju chart, identify the Yongshin and supporting elements, then design a name that embeds those energies across all three channels—sound, stroke count, and character meaning—simultaneously.</p>
+<p>The benchmark: after analysis, you should be able to explain precisely why each character was chosen, what elemental energy it contributes, which numerological pattern it creates, and how the sound sequence flows. If the practitioner can't explain this in specific terms, the naming hasn't been done rigorously.</p>
+
+<h2 id="after-change">3. Making the New Name Work</h2>
+<p>The energy of a new name doesn't activate instantly. It needs to be inhabited. Start using the new name in informal contexts before legal registration—introduce yourself with it, sign emails with it, ask close friends to use it. The more frequently the new name is spoken and heard, the faster its energetic pattern becomes your energetic pattern. Passively waiting for luck to change after a name change is a fundamental misunderstanding of how this works.</p>
+<p>Align your choices with the name's energy. If the new name carries Wood energy, invest in growth-oriented activities—education, new projects, mentoring. If it carries Metal, work on developing precision and technical mastery. You're not just changing a label; you're committing to a direction.</p>
+
+<h2 id="conclusion">4. The Name You Choose, the Life You Build</h2>
+<p>You didn't choose the name you were given at birth. But you can choose what you carry forward. A thoughtfully executed name change, grounded in rigorous Saju and Seongmyeonghak analysis, is one of the most deliberate acts of self-determination available. It won't fix everything—no name can do that. But it removes a specific category of friction that has no business being there. That's worth a great deal.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/seongmyeong/numerology-81" style="text-decoration: underline; color: #f9d976;">[Read Next] Numerology 81 — Understanding the Stroke Count System Before Your Name Change</a></p>
+  <p><a href="/en/seongmyeong/name-creation" style="text-decoration: underline; color: #f9d976;">[Read Next] The Art of Naming — How to Design a Name That Works</a></p>
+</div>
 </section>
+
     `,
     toc: [
       { id: 'when-to-change', title: '1. 개명이 필요한 징후' },
@@ -367,50 +464,85 @@ export const seongmyeongPosts: BlogPost[] = [
     category: 'seongmyeong',
     contentKo: `
 <section>
-<p>아이의 탄생은 한 가문의 가장 큰 경사이자 축복입니다. 부모가 아이에게 줄 수 있는 가장 위대한 유산은 바로 ‘좋은 이름’입니다. 한 번 지어지면 평생 동안 불리며 아이의 정체성과 운명에 영향을 미치기 때문입니다. 사주 오행의 조화는 물론, 현대적인 세련미와 깊은 뜻을 모두 갖춘 아기 이름을 짓기 위해 부모님이 반드시 알아야 할 모든 것을 3,000자 전문 가이드로 정리해 드립니다.</p>
+<p>아이가 태어나는 순간, 부모의 마음속에서 가장 중요한 일 중 하나가 시작됩니다. 바로 이름 짓기입니다. 이름은 평생 동안 아이와 함께하며, 아이의 자아 인식, 사회적 인상, 그리고 명리학적 기운의 흐름에 영향을 미칩니다. 좋은 이름 하나가 사주의 약점을 보완하고, 아이가 자신의 잠재력을 최대한 발휘하도록 돕습니다. 사랑하는 아이에게 줄 수 있는 최고의 첫 번째 선물, 작명의 모든 것을 알려드립니다.</p>
 
-<h2 id="saju-first">1. 아이의 사주 분석: 타고난 기운의 지도를 먼저 보라</h2>
-<p>작명의 기본은 아이가 태어난 연·월·일·시, 즉 사주팔자를 정확히 파악하는 것입니다. 아이가 어떤 에너지를 풍부하게 갖고 태어났는지, 혹은 어떤 에너지가 부족한지를 아는 것이 작명의 첫걸음입니다.</p>
-<h3>선천적 단점 보완하기</h3>
-<p>사주에 화(火)가 너무 많아 성격이 급해질 우려가 있다면 이름에 수(水)나 토(土)의 기운을 넣어 차분함을 길러주어야 합니다. 반대로 사주가 너무 차갑다면 따뜻한 목(木)과 화(火)의 기운으로 아이의 생동감을 북돋아 주어야 합니다.</p>
+<h2 id="saju-first">1. 아이의 사주 분석 — 이름보다 사주를 먼저 읽어라</h2>
+<p>좋은 이름은 아이의 사주를 정밀하게 이해하는 것에서 시작됩니다. 태어난 연·월·일·시(사주팔자)를 기반으로 아이가 타고난 기운의 강점과 약점을 먼저 파악해야 합니다.</p>
+<h3>계절별 조후(調候) — 온도가 맞아야 아이가 산다</h3>
+<p>겨울(10~12월)에 태어난 아이는 사주가 차갑고 습한 경향이 있습니다. 이 아이의 이름에는 따뜻한 화(火)나 목(木)의 기운을 넣어 사주의 온도를 높여주어야 합니다. 반대로 여름 한더위(6~8월)에 태어난 아이는 사주가 뜨거운 경우가 많아, 시원한 수(水)와 금(金)의 기운으로 균형을 잡아주어야 합니다. 이 조후가 맞지 않으면 아이가 잘 아프거나 예민해지는 경향이 나타날 수 있습니다.</p>
+<h3>용신(用神) 파악 — 아이의 성공을 이끄는 핵심 기운</h3>
+<p>사주에서 가장 필요하고 도움이 되는 기운인 용신을 이름의 중심에 두어야 합니다. 용신이 이름에 담긴 아이는 자신의 강점이 자연스럽게 발휘되는 환경 속에서 성장합니다. 용신을 이름에 배치하는 것은 아이에게 평생의 나침반을 선물하는 것과 같습니다.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">👶 우리 아기에게 가장 잘 맞는 이름 추천받기 →</a>
+  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">👶 우리 아이의 이름 기운 분석하기 →</a>
 </div>
 
-<h2 id="numerology-check">2. 수리81수와 소리오행: 건강과 성공의 기초 쌓기</h2>
-<p>아기의 이름은 성명학적 원칙에 어긋남이 없어야 합니다. 이는 아이의 앞날에 닥칠 장애물을 제거해 주는 것과 같습니다.</p>
-<h3>성공을 부르는 수리 4격</h3>
-<p>성명학의 수리81수 중에서도 길수(吉數)만을 골라 원격, 형격, 이격, 정격의 4격을 완성해야 합니다. 이는 아이의 초년운부터 말년운까지를 견고하게 지탱하는 뼈대가 됩니다.</p>
-<h3>부르기 편한 소리 오행</h3>
-<p>이름이 불릴 때의 리듬감과 발음의 명확성도 중요합니다. 소리오행이 상생을 이루는 이름은 아이가 사회에 나갔을 때 많은 사람들의 도움을 받는 인복(人福)을 부릅니다.</p>
+<h2 id="numerology-check">2. 수리81수와 소리오행 — 이름의 뼈대를 견고하게</h2>
+<p>사주 분석이 끝나면 이름의 구조적 뼈대를 설계합니다.</p>
+<h3>수리 4격을 모두 길수로</h3>
+<p>원격(초년운)·형격(청년~사회운)·이격(중년운)·정격(총운/말년운) 네 가지 모두 길수(吉數)여야 합니다. 특히 사회적 성공을 결정하는 형격이 가장 중요합니다. 11(갱신격)·15(통솔격)·21(두령격)·24(입신격)·31(성덕격) 등이 대표적인 길수입니다.</p>
+<h3>소리오행 상생 흐름 확인</h3>
+<p>성(姓)부터 이름 끝 글자까지 소리오행이 상생(相生)의 흐름을 이루도록 합니다. 상생 구조의 이름은 아이가 커서 사회에 나갔을 때 인복(人福)이 풍성해집니다. 주변 사람들이 자연스럽게 도와주고 싶어지는 이름이 됩니다.</p>
 
-<h2 id="meaning-and-style">3. 깊은 뜻과 세련된 감각의 조화</h2>
-<p>최근에는 지나치게 어렵거나 흔한 한자보다는 뜻이 깊으면서도 세련된 느낌을 주는 이름을 선호합니다. 아이가 자라서 자신의 이름에 자부심을 느낄 수 있도록 좋은 의미의 한자를 선택하고, 글로벌 시대에 외국인도 발음하기 편한 이름을 고려하는 것이 좋습니다.</p>
+<h2 id="meaning-and-style">3. 의미의 깊이와 현대적 세련미</h2>
+<p>성명학 원칙을 다 충족했더라도, 이름 자체가 아름다워야 완성입니다.</p>
+<ul>
+  <li><strong>뜻의 아름다움:</strong> 아이가 커서 자신의 이름 뜻을 들었을 때 자랑스러움과 감동을 느끼는 이름이어야 합니다.</li>
+  <li><strong>발음의 자연스러움:</strong> 성과 이름이 함께 불렸을 때 리듬이 있고, 발음하기 편해야 합니다.</li>
+  <li><strong>글로벌 통용:</strong> 외국인도 발음할 수 있는 이름은 글로벌 시대에 경쟁력입니다. 2~3음절의 명확한 발음이 이상적입니다.</li>
+  <li><strong>돌림자와의 조화:</strong> 돌림자가 있다면 그것을 중심으로 나머지 기운을 조율합니다. 돌림자가 사주와 충돌한다면 전문가 상담을 통해 유연하게 해법을 찾는 것이 좋습니다.</li>
+</ul>
 
-<h2 id="conclusion">4. 결론: 부모의 사랑을 담은 최고의 선물</h2>
-<p>좋은 이름은 부모가 아이에게 줄 수 있는 평생의 수호신과 같습니다. 성명학적 원칙을 지키면서도 부모님의 따뜻한 소망이 담긴 이름은 아이의 인생을 더욱 빛나게 할 것입니다. 정성을 다해 지은 이름과 함께 아이가 건강하고 행복하게 자라길 기원합니다.</p>
+<h2 id="conclusion">4. 결론 — 이름은 평생의 수호신이다</h2>
+<p>정성 들여 지은 이름은 아이와 평생을 함께합니다. 매일 수십 번 불리며 아이의 잠재의식에 긍정적인 파동을 보내고, 만나는 사람들에게 좋은 첫인상을 남기며, 사주의 부족한 기운을 채워줍니다. 부모님의 사랑과 철학이 담긴 이름—그것이 아이에게 줄 수 있는 가장 오래가는 선물입니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p>[내부링크: 10번: 성명학 비기 - 한자 획수의 비밀]</p>
-  <p>[내부링크: 12번: 이름 소리로 보는 우리 아이 성격 분석]</p>
+  <p><a href="/ko/seongmyeong/numerology-81" style="text-decoration: underline; color: #f9d976;">[관련글] 수리81수 완전정복 — 이름 획수로 보는 인생의 굴곡</a></p>
+  <p><a href="/ko/seongmyeong/name-five-elements" style="text-decoration: underline; color: #f9d976;">[관련글] 소리오행 분석 — 이름 자음이 만드는 기운의 흐름</a></p>
 </div>
 </section>
+
     `,
     contentEn: `
 <section>
-<p>The birth of a child is a family's greatest blessing. The best inheritance a parent can give is a "good name," as it acts as a lifelong vessel for the child's identity and fortune. This guide covers everything parents need to know about balancing Saju elements, numerology, and modern style for a perfect baby name.</p>
+<p>The most important naming decision you'll ever make happens within days of a momentous event, when you're sleep-deprived, overwhelmed with emotion, and navigating a hundred practical concerns simultaneously. No wonder so many parents later wonder whether they chose well. In Korean naming culture, the weight given to this decision reflects its genuine importance: a name crafted with care and rigor is one of the most meaningful things you can give a child. A name chosen carelessly is a gift that causes quiet friction for decades.</p>
+<p>This guide walks through the complete Seongmyeonghak approach to baby naming—from birth chart analysis through sound harmony, numerological structure, character selection, and the modern considerations that matter in a connected world.</p>
 
-<h2 id="saju-first">1. Start with Saju Analysis</h2>
-<p>Understanding the child's birth chart is crucial. Identify which energies are abundant and which are lacking to choose a name that acts as a corrective measure, ensuring emotional and physical balance.</p>
+<h2 id="saju-first">1. Why the Birth Chart Comes Before the Name</h2>
+<p>The foundational principle of Saju-integrated naming: the name serves the chart, not the other way around. A name that sounds beautiful and carries auspicious numerology can still work against a child if it amplifies energies already excessive in their chart, or suppresses the elemental force they most need.</p>
+<h3>Seasonal Calibration (Johu)</h3>
+<p>A child born on the coldest day of January has a chart weighted heavily toward Water and Metal. That chart needs warmth—Fire and Wood energies introduced through the name's sounds and characters. A child born at the height of summer heat needs the opposite: cooling Water and grounding Earth. Getting this temperature calibration right is the non-negotiable first step. When it's wrong, children often show patterns of physical sensitivity, emotional volatility, or persistent restlessness that are hard to trace to a single source.</p>
+<h3>The Beneficial Element (Yongshin)</h3>
+<p>Beyond temperature, every chart has a pivotal element—the Yongshin—that most powerfully tips the balance toward favorable outcomes. When this element is embedded in the name's sound energy, stroke count patterns, and character radicals simultaneously, each utterance of the name reinforces the child's most important energetic advantage. This is the craft at its most precise.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
   <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">👶 Get Personalized Baby Name Recommendations →</a>
 </div>
 
-<h2 id="conclusion">2. Conclusion: A Gift of Love</h2>
-<p>A well-crafted name is a lifelong guardian. By following Seongmyeonghak principles and infusing the name with love, you set your child on a path toward a bright and successful future.</p>
+<h2 id="numerology-check">2. Building a Structurally Sound Name</h2>
+<p>Once the chart is analyzed, attention turns to the name's numerical architecture.</p>
+<p>The Four Stages system (Won-gyeok, Hyeong-gyeok, I-gyeok, Jeong-gyeok) maps the stroke count totals to four periods of life: early childhood, primary working life, middle age, and overall trajectory. Ideally, all four stages hit auspicious numbers. In practice, the Hyeong-gyeok (primary social success) and Jeong-gyeok (overall life total) are prioritized when optimization requires trade-offs. Classic lucky numbers include 11 (renewal), 15 (leadership), 21 (authority), 24 (achievement), and 31 (virtue).</p>
+<p>Sound harmony runs parallel to this: the sequence of consonant elements across the family name and both syllables of the given name should flow generatively. This isn't just about luck—it's about the social quality the name projects. Names with harmonious sound element sequences tend to read as warm, approachable, and trustworthy to people encountering them for the first time.</p>
+
+<h2 id="meaning-and-style">3. Beauty That Doesn't Compromise Substance</h2>
+<p>A name that satisfies every classical criterion but sounds clunky or carries unavoidable negative associations isn't a complete success. The final layer of good contemporary naming combines elemental rigor with aesthetic intelligence:</p>
+<ul>
+  <li><strong>Meaning depth:</strong> The child will someday ask what their name means. The answer should create pride, not embarrassment.</li>
+  <li><strong>Phonetic flow:</strong> The full name—family name plus given name—should have natural rhythm when spoken aloud.</li>
+  <li><strong>Global accessibility:</strong> Names that are pronounceable in English and other major languages carry practical advantages in an interconnected world. Two to three syllables with clear consonant-vowel structure is generally ideal.</li>
+  <li><strong>Generational name integration:</strong> Many Korean families use generational characters (Dolimja). If the generational character clashes with the child's elemental needs, the solution isn't to discard family tradition—it's to build the remaining characters in ways that compensate for the conflict.</li>
+</ul>
+
+<h2 id="conclusion">4. The First Gift That Lasts a Lifetime</h2>
+<p>Parents give children many things over the years—education, experiences, love, resources. All of these matter. But few gifts are quite as persistent as the name. It goes everywhere. It opens every introduction. It shapes the first impression before personality has a chance to fill in the gaps.</p>
+<p>A name crafted with rigor and love is a quiet act of advocacy for your child—a declaration of who you believe they have the potential to become, encoded in the most durable form available. Take the time to get it right.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/seongmyeong/numerology-81" style="text-decoration: underline; color: #f9d976;">[Read Next] Numerology 81 — Understanding Lucky and Unlucky Stroke Counts</a></p>
+  <p><a href="/en/seongmyeong/name-five-elements" style="text-decoration: underline; color: #f9d976;">[Read Next] Sound Elements — How Your Baby's Name Consonants Shape Their Energy</a></p>
+</div>
 </section>
+
     `,
     toc: [
       { id: 'saju-first', title: '1. 사주 분석의 중요성' },
