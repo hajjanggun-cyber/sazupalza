@@ -14,27 +14,45 @@ export const sajuPosts: BlogPost[] = [
     category: 'saju',
     contentKo: `
 <section>
-<p>인생의 중대한 기로에 섰을 때, 우리는 종종 “나의 운명은 무엇인가?”라는 근원적인 질문을 던집니다. 동양 철학의 정수인 사주팔자(四柱八字)는 사람이 태어난 순간의 우주적 기운을 시간의 기둥으로 세워 분석하는 정교한 운명 분석 시스템입니다. 이는 단순한 점술을 넘어, 천문학적 관찰과 통계적 지혜가 결합된 인문학적 도구입니다. 이 글에서는 사주팔자의 정의부터 음양오행의 조화까지, 당신의 인생 설계도를 읽는 법을 3,000자 전문 해설로 상세히 설명합니다.</p>
+<p>인생의 중대한 기로에 섰을 때, 우리는 종종 "나의 운명은 무엇인가?"라는 근원적인 질문을 던집니다. 동양 철학의 정수인 사주팔자(四柱八字)는 사람이 태어난 순간의 우주적 기운을 시간의 기둥으로 세워 분석하는 정교한 운명 분석 시스템입니다. 이는 단순한 점술을 넘어, 수천 년에 걸친 천문학적 관찰과 인간 통계가 결합된 동양 인문학의 결정체입니다. 이 글에서는 사주팔자의 정의부터 음양오행의 조화, 십성(十星) 체계, 그리고 대운의 타이밍까지, 당신의 인생 설계도를 읽는 법을 깊이 있게 다룹니다.</p>
 
 <h2 id="saju-definition">1. 사주팔자의 정의와 구조: 인생의 네 기둥</h2>
-<p>사주(四柱)는 태어난 년(年), 월(月), 일(日), 시(時)의 네 가지 기둥을 의미합니다. 각 기둥에는 하늘의 기운인 천간(天干)과 땅의 기운인 지지(地支)가 하나씩 배치되어 총 여덟 글자가 됩니다. 이것이 바로 우리가 흔히 말하는 ‘팔자(八字)’입니다.</p>
-<h3>사주팔자는 인생의 시간적 좌표</h3>
-<p>우리가 태어나는 순간, 우주의 행성 배열과 계절의 기운은 고유한 에너지 패턴을 형성합니다. 사주는 바로 그 순간의 기(氣)의 상태를 기록한 ‘운명의 바코드’와 같습니다. 년주는 뿌리(조상), 월주는 싹(부모/성장환경), 일주는 꽃(나 자신/배우자), 시주는 열매(결과/자녀)를 상징하며 인생의 전체적인 흐름을 보여줍니다.</p>
+<p>사주(四柱)는 태어난 년(年), 월(月), 일(日), 시(時)의 네 가지 기둥을 의미합니다. 각 기둥에는 하늘의 기운인 천간(天干)과 땅의 기운인 지지(地支)가 하나씩 배치되어 총 여덟 글자가 됩니다. 이것이 바로 우리가 흔히 말하는 '팔자(八字)'입니다. 동양에서는 사람이 태어나는 순간, 그 시점의 우주 에너지가 고스란히 그 사람의 기질과 삶의 경향성으로 각인된다고 봅니다.</p>
+<h3>네 기둥이 상징하는 인생의 영역</h3>
+<p>년주(年柱)는 뿌리이자 조상과 어린 시절의 환경(0~15세)을, 월주(月柱)는 줄기이자 부모와 청년기의 성장 환경(16~30세)을, 일주(日柱)는 꽃이자 나 자신과 배우자 인연(31~45세)을, 시주(時柱)는 열매이자 자녀운과 노년의 결실(46세 이후)을 상징합니다. 이 네 기둥이 서로 어우러져 한 인간의 전체적인 삶의 흐름을 완성합니다.</p>
+<h3>천간(天干)과 지지(地支)의 체계</h3>
+<p>천간은 갑(甲), 을(乙), 병(丙), 정(丁), 무(戊), 기(己), 경(庚), 신(辛), 임(壬), 계(癸)의 10가지로 이루어집니다. 지지는 자(子), 축(丑), 인(寅), 묘(卯), 진(辰), 사(巳), 오(午), 미(未), 신(申), 유(酉), 술(戌), 해(亥)의 12가지입니다. 이 10천간과 12지지가 순서대로 짝을 이뤄 '육십갑자(六十甲子)'를 형성하며, 이것이 사주 분석의 기초 단위입니다. 60년을 주기로 반복되는 이 체계는 동양의 시간철학 그 자체입니다.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
   <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 나의 타고난 사주팔자 무료로 분석하기 →</a>
 </div>
 
 <h2 id="yin-yang-five-elements">2. 음양오행의 원리: 우주를 구성하는 다섯 가지 에너지</h2>
-<p>사주 분석의 핵심은 음양(陰陽)의 균형과 오행(五行)의 상생상극을 파악하는 데 있습니다. 목(木), 화(火), 토(土), 금(金), 수(水) 다섯 가지 원소는 서로를 돕기도 하고(상생), 서로를 제어하기도 하며(상극) 운명의 물길을 만듭니다.</p>
-<h3>나의 본질, 일간(日干) 찾기</h3>
-<p>사주 여덟 글자 중 가장 중요한 것은 태어난 날의 천간인 ‘일간’입니다. 일간은 사주의 주인공이자 당신의 핵심 기질입니다. 내가 따뜻한 태양(병화)인지, 유연한 물(계수)인지, 단단한 바위(경금)인지를 아는 것에서부터 모든 운명 분석이 시작됩니다.</p>
+<p>사주 분석의 가장 핵심적인 기초는 음양(陰陽)의 균형과 오행(五行)의 상생상극(相生相剋) 원리입니다. 목(木), 화(火), 토(土), 금(金), 수(水) 다섯 가지 원소는 이 우주의 모든 현상을 분류하는 기본 코드입니다.</p>
+<h3>상생(相生): 서로 돕는 순환의 원리</h3>
+<p>목생화(木生火)—나무가 불을 키우고, 화생토(火生土)—불이 다 타면 재가 되어 흙이 되고, 토생금(土剋金)—흙 속에서 광물이 생기고, 금생수(金生水)—차가운 쇠에서 물이 맺히며, 수생목(水生木)—물이 나무를 자라게 합니다. 이 상생의 흐름을 알면 내 사주 안에서 어느 기운이 나를 돕고, 어느 기운이 나를 소모시키는지 이해할 수 있습니다.</p>
+<h3>상극(相剋): 서로 제어하는 균형의 원리</h3>
+<p>목극토(木剋土)—나무뿌리가 흙을 파고들고, 토극수(土剋水)—흙이 물을 막으며, 수극화(水剋火)—물이 불을 끄고, 화극금(火剋金)—불이 쇠를 녹이며, 금극목(金剋木)—도끼가 나무를 찍습니다. 상극은 단순히 나쁜 관계가 아닙니다. 과도한 기운을 조절하고 사주 전체의 균형을 유지하는 필수적인 원리입니다.</p>
+<h3>나의 본질, 일간(日干)이 모든 분석의 출발점</h3>
+<p>사주 여덟 글자 중 가장 중요한 것은 태어난 날의 천간인 '일간(日干)'입니다. 일간은 사주의 주인공이자 당신의 핵심 기질입니다. 내가 따뜻한 태양(병화·丙火)인지, 유연하게 흐르는 물(계수·癸水)인지, 단단하게 서 있는 바위(경금·庚金)인지를 아는 것에서부터 모든 분석이 시작됩니다. 일간에 따라 나에게 어울리는 직업, 삶의 환경, 파트너의 유형이 달라집니다.</p>
 
-<h2 id="destiny-analysis">3. 사주를 공부해야 하는 이유: 지명(知命)의 지혜</h2>
-<p>공자는 “천명을 알지 못하면 군자가 될 수 없다”고 했습니다. 사주를 본다는 것은 정해진 운명에 굴복하는 것이 아니라, 내가 어떤 환경에서 가장 아름답게 꽃필 수 있는 씨앗인지를 깨닫는 과정입니다. 자신의 강점은 살리고 부족한 기운은 보완(개운)함으로써, 우리는 삶의 주도권을 쥘 수 있습니다.</p>
+<h2 id="sipseong">3. 십성(十星): 인간관계와 사회적 역할의 코드</h2>
+<p>사주가 단순한 운세 풀이를 넘어 인간을 깊이 이해하는 도구가 되는 이유는 바로 '십성(十星)' 체계 덕분입니다. 십성은 일간과 다른 일곱 글자들 사이의 오행 관계를 규정하는 10가지 코드입니다.</p>
+<ul>
+  <li><strong>비겁(比劫):</strong> 나와 같은 오행. 형제자매, 친구, 경쟁자를 의미하며 자아 의식과 독립심을 나타냅니다.</li>
+  <li><strong>식상(食傷):</strong> 내가 만들어내는 오행. 자녀, 표현력, 창의성을 상징하며 재능을 세상에 드러내는 통로입니다.</li>
+  <li><strong>재성(財星):</strong> 내가 다루는 오행. 재물, 아버지(남자 기준), 이성을 상징합니다.</li>
+  <li><strong>관성(官星):</strong> 나를 제어하는 오행. 직장, 명예, 사회적 책임을 나타냅니다.</li>
+  <li><strong>인성(印星):</strong> 나를 생(生)해주는 오행. 어머니, 학문, 문서·자격증을 상징합니다.</li>
+</ul>
+<p>이 다섯 성분이 내 사주에서 어떤 균형을 이루느냐에 따라 직업적 성향, 가족관계, 재물을 다루는 방식이 완전히 달라집니다. 예를 들어 재성이 풍부하면 재물욕이 강하고 현실 감각이 뛰어나지만, 인성은 약해져 배움이나 어머니와의 관계에서 아쉬움이 생기기 쉽습니다.</p>
 
-<h2 id="modern-usage">4. 결론: 사주는 미래를 여는 열쇠입니다</h2>
-<p>사주팔자는 당신의 과거를 비추는 거울이자 미래를 안내하는 나침반입니다. 타고난 팔자는 바꿀 수 없지만, 그 팔자를 어떻게 운용하느냐에 따라 삶의 질은 완전히 달라질 수 있습니다. 자신의 고유한 리듬을 이해하고 우주의 흐름과 조화를 이룰 때, 당신의 인생은 비로소 완성될 것입니다.</p>
+<h2 id="destiny-analysis">4. 대운(大運)과 세운(歲運): 운명의 타이밍</h2>
+<p>사주 원국이 타고난 '씨앗'이라면, 대운(大運)과 세운(歲運)은 그 씨앗이 자라는 '계절과 날씨'입니다. 대운은 약 10년 단위로 바뀌는 큰 흐름이며, 세운은 매년 새롭게 찾아오는 연간 에너지입니다. 아무리 좋은 원국을 타고났더라도 대운이 불리한 시기에는 고전하게 되고, 아무리 사주가 험하더라도 좋은 대운을 만나면 인생의 전성기를 맞이합니다.</p>
+<p>가장 중요한 것은 내 사주의 용신(用神)이 들어오는 대운과 세운을 포착하는 것입니다. 이 시기에 과감한 결정을 내리면 인생이 반전되는 경험을 합니다. 반대로 기신(忌神)이 들어오는 시기에는 보수적으로 움직이고 내실을 다지는 것이 더 현명한 전략입니다.</p>
+
+<h2 id="modern-usage">5. 결론: 사주는 미래를 여는 지혜입니다</h2>
+<p>공자는 "천명을 알지 못하면 군자가 될 수 없다(不知命 無以爲君子也)"고 했습니다. 사주를 공부한다는 것은 정해진 운명에 굴복하는 것이 아니라, 내가 어떤 환경에서 가장 찬란하게 꽃필 수 있는 씨앗인지를 깨닫는 과정입니다. 자신의 강점은 살리고 부족한 기운은 개운(開運)으로 보완함으로써, 삶의 주도권을 쥘 수 있습니다. 사주팔자는 당신의 과거를 비추는 거울이자, 미래를 안내하는 나침반입니다. 자신의 고유한 리듬을 이해하고 우주의 흐름과 조화를 이룰 때, 당신의 인생은 비로소 완성됩니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
   <p><a href="/ko/saju/day-pillar" style="text-decoration: underline; color: #f9d976;">[관련글] 사주 일주 완전정복 - 나의 본질과 배우자 복 읽는 법</a></p>
@@ -44,33 +62,49 @@ export const sajuPosts: BlogPost[] = [
     `,
     contentEn: `
 <section>
-<p>At pivotal moments in life, we often ask the fundamental question, "What is my destiny?" While Western astrology looks at the stars, <strong>Saju-Palja (Four Pillars of Destiny)</strong> analyzes the cosmic energy of the very moment you were born. It is not merely fortune-telling; it is a sophisticated system of "atmospheric statistics" developed over thousands of years in East Asia. This guide will walk you through the profound principles of Saju, from the definition of the Four Pillars to the harmony of the Five Elements.</p>
+<p>At the most pivotal crossroads of life—career changes, relationship crises, moments of self-doubt—people across cultures have always asked: <em>"Is there a pattern to all of this?"</em> For more than two millennia, East Asian civilizations answered that question with <strong>Saju-Palja (四柱八字)</strong>, or the Four Pillars of Destiny. Unlike Western horoscopes that map planetary positions, Saju captures the precise flow of cosmic <em>Qi</em> (energy) at your exact moment of birth and translates it into a lifelong map of potential, timing, and purpose. This comprehensive guide walks you through every layer of the system—from the basic structure of the Four Pillars to the advanced concepts of the Ten Gods and Time Cycles.</p>
 
-<h2 id="saju-definition">1. What is Saju-Palja? The Four Pillars of Life</h2>
-<p>"Saju" translates to "Four Pillars," representing the <strong>Year, Month, Day, and Hour</strong> of your birth. "Palja" means "Eight Characters," referring to the two characters (one Heavenly Stem and one Earthly Branch) that make up each pillar. Together, these eight characters form a unique <strong>"Cosmic Barcode"</strong> that defines your potential, personality, and life path.</p>
-<h3>The Structure of Your Destiny</h3>
+<h2 id="saju-definition">1. The Four Pillars: Your Cosmic Blueprint</h2>
+<p>"Saju" (四柱) means "Four Pillars," and "Palja" (八字) means "Eight Characters." Each of the four pillars—Year, Month, Day, and Hour of birth—contains two characters: one <strong>Heavenly Stem</strong> (天干, Cheon-gan) representing sky energy, and one <strong>Earthly Branch</strong> (地支, Ji-ji) representing earth energy. Together, these eight characters form what practitioners call your <em>"cosmic barcode"</em>—a unique imprint of the universal energy field at your birth.</p>
+<h3>What Each Pillar Reveals</h3>
 <ul>
-    <li><strong>Year Pillar (Root):</strong> Represents your ancestors, early childhood (0-15 years), and your fundamental background.</li>
-    <li><strong>Month Pillar (Stem):</strong> Represents your parents, growing environment, and young adulthood (16-30 years). It is the strongest indicator of your career aptitude.</li>
-    <li><strong>Day Pillar (Flower):</strong> Represents <strong>"You" (The Self)</strong> and your spouse/partner. This is the core of Saju analysis, governing your prime years (31-45 years).</li>
-    <li><strong>Hour Pillar (Fruit):</strong> Represents your children, later years (46+ years), and your inner thoughts or hidden desires.</li>
+  <li><strong>Year Pillar (年柱 — Root):</strong> Ancestral karma, early childhood environment (ages 0–15), and your outward social image. It is the foundation on which your tree grows.</li>
+  <li><strong>Month Pillar (月柱 — Stem):</strong> Parental influence, formative years (ages 16–30), and career aptitude. This pillar is often the single strongest indicator of professional success.</li>
+  <li><strong>Day Pillar (日柱 — Flower):</strong> <strong>Your true self.</strong> The Heavenly Stem of this pillar, called the "Day Master" (日干, Ilgan), is the protagonist of your entire chart. It also represents your spouse and intimate relationships (ages 31–45).</li>
+  <li><strong>Hour Pillar (時柱 — Fruit):</strong> Children, late-life fate (ages 46+), and your hidden inner world—your secret desires and ambitions that you rarely show others.</li>
 </ul>
+<p>Together, these four pillars span your entire lifespan and create a 360-degree portrait of who you are, what drives you, and when fortune will favor you.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
   <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 Analyze Your Four Pillars for Free →</a>
 </div>
 
-<h2 id="yin-yang-five-elements">2. Yin-Yang and the Five Elements: The Energy of the Universe</h2>
-<p>The engine that drives Saju is the interaction of <strong>Yin-Yang</strong> and the <strong>Five Elements (Wood, Fire, Earth, Metal, Water)</strong>. Your life's fortune is determined by how these elements interact within your chart.</p>
-<h3>The Cycle of Generation and Control</h3>
-<p>Elements don't just exist; they interact. Water feeds Wood (Growth), Wood fuels Fire (Passion), Fire creates Earth (Ash/Stability), Earth bears Metal (Mineral), and Metal condenses Water (Life). Understanding which elements are abundant or missing in your chart is the key to unlocking your potential. For example, if you have too much "Fire" (passion) but no "Water" (wisdom/control), your life might be brilliant but unstable. Saju teaches you how to bring balance.</p>
+<h2 id="yin-yang-five-elements">2. Yin-Yang and the Five Elements: The Grammar of Destiny</h2>
+<p>The deeper language of Saju is written in <strong>Yin-Yang (陰陽)</strong> and <strong>Five Elements (五行, Ohaeng): Wood, Fire, Earth, Metal, and Water.</strong> These are not merely symbols—they are dynamic energy states that interact in two fundamental ways.</p>
+<h3>Generation Cycle (相生, Sang-saeng): Nurturing Relationships</h3>
+<p>Wood feeds Fire → Fire creates Earth (ash) → Earth bears Metal (ore) → Metal collects Water (condensation) → Water nourishes Wood. When the elements in your chart flow in this nurturing cycle, life feels supported and purposeful. Talents emerge naturally, and opportunities compound over time.</p>
+<h3>Control Cycle (相剋, Sang-geuk): Regulating Relationships</h3>
+<p>Wood breaks through Earth → Earth dams Water → Water extinguishes Fire → Fire melts Metal → Metal chops Wood. This cycle is not inherently negative; it is the immune system of the universe. A chart with healthy Control relationships has self-discipline, professional authority, and clear boundaries. Problems arise only when Control becomes excessive—like a dam that floods rather than regulates.</p>
+<h3>Your Day Master: The Protagonist of Your Chart</h3>
+<p>Of all eight characters, the Heavenly Stem of the Day Pillar—your <strong>Day Master (日干)</strong>—is the most critical. There are ten possible Day Masters (Gab-Wood, Eul-Wood, Byeong-Fire, Jeong-Fire, Mu-Earth, Gi-Earth, Gyeong-Metal, Sin-Metal, Im-Water, Gye-Water), each with distinct personality traits, strengths, and vulnerabilities. Knowing your Day Master is Step One of Saju—it determines how every other character in your chart affects you.</p>
 
-<h2 id="destiny-analysis">3. Why Study Saju? Wisdom to Navigate Life</h2>
-<p>Saju is not about fatalism. It does not say, "You will be rich" or "You will fail." Instead, it provides a weather forecast for your life. If Saju predicts "rain" (hardship), you can bring an umbrella (preparation). If it predicts "sunshine" (opportunity), you can plant seeds.</p>
-<p>Knowing your Saju means understanding your <strong>"Day Master"</strong> (your core element). Are you a sturdy Tree? A burning Candle? A vast Ocean? Knowing your nature allows you to choose the right environment (career, partner, lifestyle) where you can thrive.</p>
+<h2 id="sipseong">3. The Ten Gods (十星): A Map of Your Relationships and Roles</h2>
+<p>What elevates Saju beyond simple elemental analysis is the <strong>Ten Gods (十星, Sipseong)</strong> system. By measuring the elemental relationship between your Day Master and every other character in your chart, you generate ten distinct "role codes" that describe your relationships, career, wealth, and inner psychology.</p>
+<ul>
+  <li><strong>Parallel (比肩) / Rob Wealth (劫財):</strong> Siblings, peers, rivals. These govern self-reliance and competitive drive.</li>
+  <li><strong>Eating God (食神) / Hurting Officer (傷官):</strong> Creative output, skills, and children. These reveal how you express talent to the world.</li>
+  <li><strong>Wealth (偏財) / Direct Wealth (正財):</strong> Material resources and your father (for men). These show how you generate and manage money.</li>
+  <li><strong>Seven Killings (七殺) / Direct Officer (正官):</strong> Authority, career, and pressure. These reveal your relationship with power structures and social recognition.</li>
+  <li><strong>Indirect Resource (偏印) / Direct Resource (正印):</strong> Your mother, education, and protective support. These govern wisdom, credentials, and your spiritual foundation.</li>
+</ul>
+<p>The balance—or imbalance—of these ten codes within your chart explains why some people attract money effortlessly while struggling in relationships, why some excel in organizations while others thrive only as entrepreneurs, and why some people are natural teachers while others are natural disruptors.</p>
 
-<h2 id="modern-usage">4. Conclusion: You Are the Driver of Your Destiny</h2>
-<p>Saju-Palja is a mirror reflecting your innate traits and a compass guiding your future. While you cannot change your birth date (your vehicle), you can choose how to drive it (your free will). By understanding the rhythm of the universe and aligning yourself with it, you can turn even a rough road into a journey of growth and success.</p>
+<h2 id="destiny-analysis">4. Time Cycles (大運·歲運): The Seasons of Your Life</h2>
+<p>Your birth chart (原局, Won-guk) is the seed. But seeds grow only in the right season. <strong>Major Cycles (大運, Daewun)</strong> are ten-year phases of energy that overlay your birth chart, shifting the elemental balance every decade. <strong>Annual Cycles (歲運, Sae-un)</strong> provide a year-by-year energetic weather report.</p>
+<p>The most transformative insight in Saju is this: <em>timing matters more than the chart itself.</em> A person born with an "average" chart who enters a favorable Major Cycle can achieve extraordinary results. Conversely, even the most gifted chart can struggle when the current cycle conflicts with the birth energy. Learning to read your cycles is how Saju moves from a personality tool to a strategic life planner.</p>
+
+<h2 id="modern-usage">5. Conclusion: Saju as a Compass, Not a Cage</h2>
+<p>Confucius wrote: <em>"Without knowing the will of Heaven, it is impossible to be a virtuous person."</em> Saju is the East Asian tradition's answer to that challenge—not a cage of fate, but a compass of self-knowledge. Your birth chart does not trap you; it illuminates the terrain. When you know whether you are a mountain (Earth), a river (Water), a forest (Wood), a flame (Fire), or a blade (Metal), you can choose the right environment, career, partner, and timing to let your truest nature flourish. This is not fatalism—it is the highest form of self-literacy.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
   <p><a href="/en/saju/day-pillar" style="text-decoration: underline; color: #f9d976;">[Read More] Mastering the Day Pillar: Discovering Your True Self</a></p>
@@ -80,15 +114,17 @@ export const sajuPosts: BlogPost[] = [
     `,
     toc: [
       { id: 'saju-definition', title: '1. 사주팔자의 정의와 구조' },
-      { id: 'yin-yang-five-elements', title: '2. 음양오행의 원리와 상생상극' },
-      { id: 'destiny-analysis', title: '3. 사주 분석의 현대적 가치' },
-      { id: 'modern-usage', title: '4. 결론: 운명을 여는 지혜' },
+      { id: 'yin-yang-five-elements', title: '2. 음양오행의 상생상극 원리' },
+      { id: 'sipseong', title: '3. 십성(十星): 관계와 역할의 코드' },
+      { id: 'destiny-analysis', title: '4. 대운·세운: 운명의 타이밍' },
+      { id: 'modern-usage', title: '5. 결론: 나침반으로서의 사주' },
     ],
     tocEn: [
-      { id: 'saju-definition', title: '1. What is Saju-Palja?' },
-      { id: 'yin-yang-five-elements', title: '2. Yin-Yang & Five Elements' },
-      { id: 'destiny-analysis', title: '3. Why Study Saju?' },
-      { id: 'modern-usage', title: '4. Conclusion' },
+      { id: 'saju-definition', title: '1. The Four Pillars Explained' },
+      { id: 'yin-yang-five-elements', title: '2. Five Elements & Their Cycles' },
+      { id: 'sipseong', title: '3. The Ten Gods System' },
+      { id: 'destiny-analysis', title: '4. Major & Annual Time Cycles' },
+      { id: 'modern-usage', title: '5. Conclusion: Compass, Not a Cage' },
     ],
     faq: [
       { q: '사주와 운세는 같은 건가요?', a: '사주는 타고난 설계도이고, 운세는 그 설계도가 시간에 따라 어떻게 작동하는지를 보여주는 흐름입니다.' },
@@ -116,75 +152,120 @@ export const sajuPosts: BlogPost[] = [
     category: 'saju',
     contentKo: `
 <section>
-<p>사주 상담을 받을 때 가장 먼저 묻는 질문은 "생년월일시가 어떻게 되나요?"입니다. 하지만 많은 분들이 음력인지 양력인지 헷갈려 하거나, 특히 태어난 시간을 정확히 몰라 어려움을 겪습니다. 사주팔자는 말 그대로 '네 개의 기둥'으로 이루어지는데, 시간을 모르면 마지막 기둥인 '시주(時柱)'가 비어버리게 됩니다. 이 글에서는 음력과 양력의 정확한 이해와 생시(生時)가 운명 분석에 미치는 결정적인 영향을 3,000자 전문 데이터로 파헤칩니다.</p>
+<p>사주 상담실에서 가장 먼저 오가는 대화는 언제나 같습니다. "생년월일시가 어떻게 되세요?" 그런데 이 간단한 질문 하나에 많은 분들이 당황합니다. 음력인지 양력인지부터 헷갈리고, 태어난 시간을 정확히 모르는 경우도 많습니다. 사주팔자는 문자 그대로 '내 삶의 네 기둥'을 세우는 작업인데, 정보가 틀리거나 부족하면 기둥 자체가 흔들립니다. 이 글에서는 음력·양력의 올바른 이해, 절기(節氣)의 역할, 그리고 정확한 생시(生時)가 운명 분석에 미치는 결정적 영향을 3,000자 이상의 전문 해설로 낱낱이 분석합니다.</p>
 
-<h2 id="lunar-solar-calendar">1. 사주에서 음력과 양력이 가지는 의미</h2>
-<p>명리학은 우리가 흔히 쓰는 음력 달력을 그대로 사용하지 않습니다. 정확히는 태양의 위치에 따른 기절의 변화를 담은 '절기(節氣)'를 기준으로 합니다. 따라서 양력 2월 4일경인 ‘입춘(立春)’이 지나야 비로소 새로운 해가 시작된 것으로 봅니다. 음력과 양력 중 무엇으로 사주를 보느냐보다, 자신이 태어난 날의 절기상 위치를 정확히 파악하는 것이 중요합니다.</p>
+<h2 id="lunar-solar-calendar">1. 사주 명리학은 음력도 양력도 아닌 '절기력(節氣曆)'을 사용한다</h2>
+<p>많은 분들이 사주는 음력으로 보는 것이라고 생각합니다. 하지만 이것은 반은 맞고 반은 틀립니다. 명리학에서 사용하는 기준은 달의 위상 변화를 추적하는 음력 달력이 아니라, <strong>태양의 황도(黃道) 상 위치를 기준으로 1년을 24등분한 '이십사절기(二十四節氣)'</strong>입니다.</p>
+<h3>사주 명리학의 새해는 '입춘(立春)'이다</h3>
+<p>양력으로 1월 1일, 음력으로 설날이 아닙니다. 명리학에서 한 해의 시작은 매년 양력 2월 4일 전후로 찾아오는 <strong>입춘(立春)</strong>으로 정합니다. 즉, 2024년 양력 1월 10일에 태어났다면 명리학적으로는 아직 2023년(癸卯年)에 속하고, 2월 4일 이후에 태어나야 비로소 2024년(甲辰年)에 속하게 됩니다. 이를 모르고 양력이나 음력 1월을 그대로 대입하면 년주(年柱)가 아예 잘못 세워집니다.</p>
+<h3>월주(月柱)도 절기로 결정된다</h3>
+<p>월 역시 마찬가지입니다. 예를 들어 양력 3월에 태어났더라도, <strong>경칩(驚蟄, 보통 3월 5~6일)</strong>이 지나야 3월에 해당하는 월주가 세워집니다. 경칩 이전이라면 2월(인월·寅月)이 아니라 1월(축월·丑月)로 보아야 합니다. 이렇게 24절기의 전환점인 '절입 시각'이 기준이 되기 때문에, 정확한 사주 분석을 위해서는 자신이 태어난 날이 어느 절기에 속하는지를 반드시 확인해야 합니다.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">⏰ 나의 정확한 태어난 시간으로 사주 보기 →</a>
+  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">⏰ 나의 정확한 절기 기준 사주 무료로 확인하기 →</a>
 </div>
 
-<h2 id="birth-time-importance">2. 생시(生時)가 사주팔자의 완성인 이유</h2>
-<p>시주는 인생의 후반부(50대 이후)와 인생의 최종적인 결실을 상징합니다. 또한 본인만이 아는 깊은 내면의 욕구, 자녀운, 그리고 비밀스러운 사적인 영역이 모두 생시 속에 담겨 있습니다. 생시를 모른다는 것은 인생의 4분의 1을 보지 못하는 것과 같으며, 특히 직업적인 성취의 마무리를 예측하는 데 한계가 있습니다.</p>
+<h2 id="birth-time-importance">2. 생시(生時)는 사주팔자의 마지막 퍼즐 조각</h2>
+<p>시주(時柱)는 네 기둥 중 마지막 기둥으로, 인생의 결실에 해당합니다. 생시를 모른다는 것은 당신의 인생 지도에서 4분의 1을 아예 제거한 채 읽는 것과 같습니다. 시주가 담고 있는 정보는 생각보다 훨씬 많습니다.</p>
+<h3>시주가 담고 있는 4가지 비밀</h3>
+<ul>
+  <li><strong>인생 후반(50대 이후)의 결말:</strong> 노년에 복이 있는지, 외롭게 마무리되는지의 단서가 시주에 있습니다.</li>
+  <li><strong>자녀운(子女運):</strong> 자녀가 있을지, 자녀와의 관계가 어떨지를 판단합니다.</li>
+  <li><strong>숨겨진 내면의 욕구:</strong> 남에게 보여주지 않는 진짜 내 욕망과 직관이 담겨 있습니다.</li>
+  <li><strong>직업의 완성:</strong> 직장의 최종 성취와 퇴직 후 삶의 방향이 시주에서 결정됩니다.</li>
+</ul>
+<h3>12지지 시(時) 구분법: 2시간 단위로 나뉜다</h3>
+<p>명리학에서 하루는 12지지로 나뉩니다. 자시(子時)는 23:30~01:30, 축시(丑時)는 01:30~03:30…이런 식으로 2시간 간격으로 구분됩니다. 주의할 점은 자시가 <strong>23시 30분</strong>에 시작한다는 것입니다. 23시 29분에 태어났다면 해시(亥時), 23시 31분에 태어났다면 자시로 다음 날 사주에 해당합니다. 밤 11시 전후에 태어난 분들은 특히 이 부분을 주의해야 합니다.</p>
 
-<h2 id="time-correction">3. 썸머타임과 표준시 보정의 필요성</h2>
-<p>한국의 사주를 볼 때 반드시 체크해야 할 것이 '표준시'와 '썸머타임'입니다. 한국은 동경 135도 표준시를 사용하지만, 실제 태양의 위치는 약 30분의 시차가 있습니다. 또한 과거 특정 기간에 실시된 썸머타임을 고려하지 않으면 일간이나 시주가 바뀌어 전혀 다른 사주가 될 수 있습니다. 전문적인 사주 분석에서는 이러한 미세한 시차를 반드시 보정해야 합니다.</p>
+<h2 id="time-correction">3. 표준시 보정과 썸머타임: 전문가도 놓치기 쉬운 함정</h2>
+<p>시주를 세울 때 또 하나의 중요한 변수는 <strong>진태양시(眞太陽時)</strong>와 우리가 사용하는 시계 시각의 차이입니다.</p>
+<h3>30분의 오차가 시주를 바꾼다</h3>
+<p>대한민국은 동경 135도를 기준으로 하는 표준시(KST)를 사용합니다. 그러나 한반도의 실제 경도는 약 126~129도에 위치합니다. 태양이 서울 하늘의 정남쪽에 위치하는 실제 정오는 시계상 12시가 아니라 약 12시 27~32분입니다. 이 시차를 보정하지 않으면 <strong>약 30분의 오차</strong>가 발생하고, 11시 30분~12시 30분대에 태어난 사람의 시지(時支)가 오(午)인지 사(巳)인지가 바뀔 수 있습니다.</p>
+<h3>역대 썸머타임 기간 (반드시 확인)</h3>
+<p>과거 한국에서 실시된 썸머타임(일광절약시간) 기간에 태어난 경우 반드시 1시간을 빼야 합니다. 대표적인 기간은 아래와 같습니다.</p>
+<ul>
+  <li>1948~1960년: 매년 봄~여름 적용</li>
+  <li>1987~1988년 서울올림픽 기간: 5월~10월 적용</li>
+</ul>
+<p>이 기간에 태어났다면 출생신고서나 가족관계증명서의 출생 시각에서 1시간을 빼서 사용해야 정확한 시주가 나옵니다.</p>
 
-<h2 id="conclusion">4. 결론: 정확한 데이터가 정확한 미래를 만듭니다</h2>
-<p>자신의 생년월일시를 정확히 아는 것은 자신을 이해하기 위한 가장 기본적이면서도 중요한 준비물입니다. 만약 시간을 정확히 모른다면, 과거의 큰 사건들을 통해 시간을 추적하는 '시 추정' 과정을 거칠 수도 있습니다. 정확한 시간 정보와 함께 당신의 숨겨진 운명적 에너지를 완벽하게 찾아내시길 바랍니다.</p>
+<h2 id="time-estimation">4. 태어난 시간을 모를 때의 해결책: 시 추정법</h2>
+<p>"분만기록을 분실했다" "병원이 오래전에 폐업했다" 등의 이유로 생시를 전혀 모르는 경우, 전문가들이 쓰는 방법이 바로 <strong>시 추정(時推定)</strong>입니다. 과거의 중요한 인생 사건들(입학, 결혼, 이직, 큰 사고 등)이 어느 대운·세운과 맞아떨어지는지를 역산하여 가장 합리적인 시주를 추정하는 방법입니다. 완벽하지는 않지만, 광범위한 가능성을 좁혀 나가는 데 매우 효과적입니다.</p>
+
+<h2 id="conclusion">5. 결론: 정확한 데이터 위에서만 정확한 사주가 완성됩니다</h2>
+<p>의사가 정확한 MRI 데이터 없이 수술할 수 없듯, 명리학자도 정확한 생년월일시 없이 완벽한 사주를 볼 수 없습니다. 자신의 생년월일시를 절기 기준으로 검증하고, 표준시와 썸머타임을 보정하며, 태어난 시각을 최대한 정확히 확인하는 것—이것이 사주 분석의 첫 번째이자 가장 중요한 준비입니다. 정확한 시간 정보와 함께라면 당신만의 고유한 운명적 에너지를 낱낱이 읽어낼 수 있습니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/ko/saju/intro" style="text-decoration: underline; color: #f9d976;">[관련글] 사주팔자의 기본 구조와 의미 완벽 해설</a></p>
-  <p><a href="/ko/saju/zodiac-2026" style="text-decoration: underline; color: #f9d976;">[관련글] 2026년 띠별 운세와 사주 오행 흐름 분석</a></p>
+  <p><a href="/ko/saju/intro" style="text-decoration: underline; color: #f9d976;">[관련글] 사주팔자의 기본 구조와 음양오행 완벽 해설</a></p>
+  <p><a href="/ko/saju/day-pillar" style="text-decoration: underline; color: #f9d976;">[관련글] 사주 일주 완전정복 - 나의 본질과 배우자 복 읽는 법</a></p>
 </div>
 </section>
     `,
     contentEn: `
 <section>
-<p>The first question in any Saju consultation is "What is your birth date and time?" While Western astrology relies on the solar calendar, many people assume Saju uses the lunar calendar. The truth is more complex. Saju Myeonglihak relies on the <strong>24 Solar Terms (Jeolgi)</strong>, which track the sun's position. This guide explains why distinguishing between lunar and solar dates is vital and why your birth hour holds the key to your final destiny.</p>
+<p>Every Saju consultation starts with the same question: <em>"What is your birth date and time?"</em> Yet this seemingly simple question trips people up constantly. Is it the lunar date or solar date? And what if you don't know the exact birth hour? These are not minor technicalities—they are the foundation of the entire analysis. A wrong or missing piece of birth data can produce an entirely incorrect chart. This expert guide clarifies the role of the <strong>24 Solar Terms</strong>, the critical importance of the <strong>Hour Pillar</strong>, and the often-overlooked corrections for Standard Time and Daylight Saving Time.</p>
 
-<h2 id="lunar-solar-calendar">1. Solar vs. Lunar: The 24 Solar Terms</h2>
-<p>Many are surprised to learn that Saju is not strictly lunar. The Saju New Year does not begin on January 1st or the Lunar New Year. Instead, it begins at <strong>"Ipchun" (Start of Spring)</strong>, which typically falls around February 4th (Solar). This means if you were born on January 20th, 2024, you still belong to the Year of the Rabbit (2023), not the Dragon (2024).</p>
-<p>Accurate Saju analysis requires converting your birth date into these solar terms. Using a standard calendar without this adjustment can lead to a completely wrong reading of your Year and Month Pillars.</p>
+<h2 id="lunar-solar-calendar">1. Saju Uses Neither Lunar Nor Solar Calendar—It Uses the Solar Term Calendar</h2>
+<p>The most common misconception is that Saju is based on the lunar calendar. In fact, Korean astrology (Myeonglihak) uses a system called the <strong>24 Solar Terms (二十四節気, Isibsa Jeolgi)</strong>—a solar calendar that divides the year into 24 equal segments based on the sun's position on the ecliptic, not the moon's phases.</p>
+<h3>The Saju New Year Starts at Ipchun (Start of Spring)</h3>
+<p>The Saju year does not begin on January 1st (Solar New Year) or on the first day of the Lunar New Year. It begins at <strong>Ipchun (立春)</strong>—"Start of Spring"—which falls around <strong>February 4th each year</strong>. This means:</p>
+<ul>
+  <li>If you were born on January 25th, 2024, you belong to the Year of the Rabbit (2023) in Saju, not the Year of the Dragon (2024).</li>
+  <li>Only those born after Ipchun on February 4th, 2024 truly belong to the Year of the Dragon.</li>
+</ul>
+<p>Misidentifying the year pillar is one of the most common—and most consequential—errors in self-analysis.</p>
+<h3>Month Pillars Are Also Determined by Solar Terms</h3>
+<p>The same principle applies to months. Even if you were born in March (solar calendar), if you were born before <strong>Gyeongchip (驚蛰, "Awakening of Insects," around March 5–6)</strong>, your Month Pillar belongs to the second lunar month (Yin-month / 寅月), not the third. Professional astrologers always check the exact "term entry time" (Jeori-ip 時刻) to determine which solar term you fall under.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">⏰ Check Your Exact Saju with Time Calibration →</a>
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">⏰ Check Your Exact Solar-Term Adjusted Saju →</a>
 </div>
 
-<h2 id="birth-time-importance">2. The Hour Pillar: The Fruit of Your Life</h2>
-<p>The <strong>Hour Pillar (Siju)</strong> is the final pillar of your destiny. Without it, you are only reading 75% of your life map. The Hour Pillar represents:</p>
+<h2 id="birth-time-importance">2. The Hour Pillar: The Missing 25% of Your Destiny</h2>
+<p>The Hour Pillar (時柱, Siju) is determined by your birth hour. Without it, you are reading only 75% of your life map. Here is what the Hour Pillar reveals:</p>
 <ul>
-    <li><strong>Late Life Fortune (Age 50+):</strong> How your life concludes. Will it be lonely or surrounded by loved ones? Will you be wealthy or struggling?</li>
-    <li><strong>Children Luck:</strong> Your relationship with your offspring and their success.</li>
-    <li><strong>Hidden Self:</strong> Your deepest desires and sexual energy that you don't show to the public.</li>
+  <li><strong>Late-Life Fortune (Age 50+):</strong> Whether your final decades are prosperous and surrounded by love, or isolated and financially strained.</li>
+  <li><strong>Children and Offspring:</strong> The quality of your relationship with your children, and whether they will be a source of support or worry.</li>
+  <li><strong>Hidden Inner World:</strong> Your true, private desires—ambitions and instincts you keep beneath the surface.</li>
+  <li><strong>Career Completion:</strong> The final outcome and legacy of your professional life.</li>
 </ul>
-<p>Knowing your birth hour is essential to predict the final outcome of your career and relationships.</p>
+<h3>The 12 Two-Hour Time Slots</h3>
+<p>A Saju day is divided into 12 two-hour slots corresponding to the 12 Earthly Branches. A critical detail: the first slot, <strong>Ja-si (子時, Rat Hour)</strong>, begins at <strong>11:30 PM</strong>, not midnight. If you were born at 11:29 PM, you belong to Hae-si (亥時, Pig Hour) of the current day. If you were born at 11:31 PM, you belong to Ja-si of the <em>next</em> day's chart. This 2-minute difference can change your Day Pillar entirely.</p>
 
-<h2 id="time-correction">3. The Trap of "Standard Time" and Daylight Savings</h2>
-<p>Saju uses "True Solar Time," not the time on your clock. For example, South Korea uses a standard time based on 135°E longitude, but geographically it is located around 127°E. This creates a roughly <strong>30-minute difference</strong>. If you were born at 11:10 AM, the clock says it's "Horse Time" (11:00-13:00), but True Solar Time might say it's still "Snake Time" (09:00-11:00).</p>
-<p>Additionally, historical <strong>Daylight Savings Time (Summer Time)</strong> must be subtracted. Professional Saju analysis always corrects for these factors to pinpoint the exact celestial energy at your birth.</p>
+<h2 id="time-correction">3. Standard Time Offset and Daylight Saving Time: The Hidden Traps</h2>
+<p>Saju uses <strong>True Solar Time (真太陽時)</strong>, not clock time. South Korea currently uses KST (UTC+9), based on the 135°E meridian. However, the Korean peninsula is physically located at approximately 126–129°E. This geographic mismatch creates a roughly <strong>27–32 minute offset</strong>. For someone born at 11:15 AM in Seoul, their True Solar Time is approximately 10:43–48 AM—potentially placing them in a different two-hour slot (Saji / Snake Hour vs. Osi / Horse Hour).</p>
+<h3>Historical Daylight Saving Time in Korea</h3>
+<p>Anyone born during the following periods must subtract 1 hour from clock time before calculating the Hour Pillar:</p>
+<ul>
+  <li><strong>1948–1960:</strong> Annual summer time applied each spring and summer.</li>
+  <li><strong>1987–1988 (Seoul Olympics):</strong> May through October each year.</li>
+</ul>
 
-<h2 id="conclusion">4. Conclusion: Precision leads to Clarity</h2>
-<p>In Saju, a difference of two minutes can change an entire destiny. If you are unsure of your birth time, try to narrow it down to a two-hour window (e.g., between 5 PM and 7 PM). Analyzing past major life events can also help reverse-engineer your correct birth time. Start your journey of self-discovery with the most accurate data possible.</p>
+<h2 id="time-estimation">4. What to Do When You Don't Know Your Birth Time</h2>
+<p>Lost your birth record? The hospital closed decades ago? Professional astrologers use a technique called <strong>Time Rectification (時推定)</strong>. By mapping your major life events—school entry, marriage, career changes, accidents, relocations—against the 10-year Major Cycles (Daewun) and Annual Cycles (Sae-un), a skilled analyst can reverse-engineer which Hour Pillar best fits your life history. It narrows the possibilities from 12 to typically 2–3 candidate hours, giving you a workable and surprisingly accurate chart.</p>
+
+<h2 id="conclusion">5. Conclusion: Precision is the Foundation of Great Saju</h2>
+<p>In Saju analysis, an error of two minutes in birth time can permanently shift the Hour Pillar, and an error of a single day can misidentify the entire Month Pillar. Just as a surgeon needs accurate imaging before operating, a Saju analyst needs verified birth data before reading. Validate your birth date against the 24 Solar Terms, apply the Standard Time offset, subtract Daylight Saving Time if applicable, and confirm your birth hour as precisely as possible. With that foundation in place, the full portrait of your destiny—all four pillars, all eight characters—comes into perfect focus.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/en/saju/intro" style="text-decoration: underline; color: #f9d976;">[Read More] Saju Basics: Understanding the Structure of Four Pillars</a></p>
-  <p><a href="/en/saju/zodiac-2026" style="text-decoration: underline; color: #f9d976;">[Read More] 2026 Zodiac Fortune: What the Year of the Horse Holds</a></p>
+  <p><a href="/en/saju/intro" style="text-decoration: underline; color: #f9d976;">[Read More] Saju Basics: The Four Pillars and Five Elements Explained</a></p>
+  <p><a href="/en/saju/day-pillar" style="text-decoration: underline; color: #f9d976;">[Read More] Mastering the Day Pillar: Your True Identity in Saju</a></p>
 </div>
 </section>
     `,
     toc: [
-      { id: 'lunar-solar-calendar', title: '1. 사주에서 절기의 의미' },
-      { id: 'birth-time-importance', title: '2. 생시가 운명에 미치는 영향' },
-      { id: 'time-correction', title: '3. 표준시와 썸머타임 보정' },
-      { id: 'conclusion', title: '4. 결론: 정확한 데이터의 중요성' },
+      { id: 'lunar-solar-calendar', title: '1. 절기력: 음력도 양력도 아닌 제3의 달력' },
+      { id: 'birth-time-importance', title: '2. 생시의 4가지 비밀과 12지지 시간 구분' },
+      { id: 'time-correction', title: '3. 표준시 보정과 썸머타임 함정' },
+      { id: 'time-estimation', title: '4. 생시 모를 때의 시 추정법' },
+      { id: 'conclusion', title: '5. 결론: 정확한 데이터가 완벽한 사주를 만든다' },
     ],
     tocEn: [
-      { id: 'lunar-solar-calendar', title: '1. Solar vs. Lunar Terms' },
-      { id: 'birth-time-importance', title: '2. Importance of Hour Pillar' },
-      { id: 'time-correction', title: '3. Standard Time & Corrections' },
-      { id: 'conclusion', title: '4. Conclusion' },
+      { id: 'lunar-solar-calendar', title: '1. The 24 Solar Terms System' },
+      { id: 'birth-time-importance', title: '2. The Hour Pillar: Missing 25%' },
+      { id: 'time-correction', title: '3. Standard Time & DST Corrections' },
+      { id: 'time-estimation', title: '4. Time Rectification: No Birth Time?' },
+      { id: 'conclusion', title: '5. Conclusion: Precision = Clarity' },
     ],
     faq: [
       { q: '태어난 시간을 모르면 사주를 못 보나요?', a: '볼 수 있습니다. 다만 시주를 제외한 삼주(三柱)로만 분석하며, 더 정확한 결과를 위해 과거 사건을 통한 시 추정을 권장합니다.' },
