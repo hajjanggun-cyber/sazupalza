@@ -8,6 +8,7 @@ export interface BirthData {
   month: number;
   day: number;
   isLunar: boolean;
+  isLeapMonth: boolean; // 음력 윤달 여부
 }
 
 interface Props {
@@ -25,12 +26,21 @@ function getDaysInMonth(year: number, month: number): number {
   return new Date(year, month, 0).getDate();
 }
 
+// 음력 타입: 'solar' | 'lunar' | 'lunar-leap'
+type CalendarType = 'solar' | 'lunar' | 'lunar-leap';
+
 export default function Step2Birth({ value, onChange, onNext, onPrev }: Props) {
   const t = useTranslations('steps');
   const locale = useLocale();
   const isKo = locale === 'ko';
 
-  const [isLunar, setIsLunar] = useState(value?.isLunar ?? false);
+  const initCalType = (): CalendarType => {
+    if (!value?.isLunar) return 'solar';
+    if (value?.isLeapMonth) return 'lunar-leap';
+    return 'lunar';
+  };
+
+  const [calType, setCalType] = useState<CalendarType>(initCalType());
   const [year, setYear] = useState(value?.year ?? 1990);
   const [month, setMonth] = useState(value?.month ?? 1);
   const [day, setDay] = useState(value?.day ?? 1);
@@ -45,10 +55,22 @@ export default function Step2Birth({ value, onChange, onNext, onPrev }: Props) {
   const handleNext = () => {
     setTouched(true);
     if (isValid) {
-      onChange({ year, month, day: Math.min(day, maxDay), isLunar: isKo ? isLunar : false });
+      onChange({
+        year,
+        month,
+        day: Math.min(day, maxDay),
+        isLunar: isKo ? calType !== 'solar' : false,
+        isLeapMonth: isKo ? calType === 'lunar-leap' : false,
+      });
       onNext();
     }
   };
+
+  const calendarOptions: { type: CalendarType; labelKo: string; labelEn: string }[] = [
+    { type: 'solar', labelKo: '양력', labelEn: 'Solar' },
+    { type: 'lunar', labelKo: '음력 (평달)', labelEn: 'Lunar' },
+    { type: 'lunar-leap', labelKo: '음력 (윤달)', labelEn: 'Lunar Leap' },
+  ];
 
   return (
     <div className="fade-in space-y-6">
@@ -59,36 +81,44 @@ export default function Step2Birth({ value, onChange, onNext, onPrev }: Props) {
         <h2 className="text-2xl font-bold text-yellow-100">{t('step2.title')}</h2>
       </div>
 
-      {/* 양력/음력 토글 (한국어만) */}
+      {/* 양력/음력(평달)/음력(윤달) 토글 — 한국어만 표시 */}
       {isKo && (
-        <div className="flex gap-2 justify-center">
-          <button
-            className={`px-6 py-2 rounded-full font-medium text-sm transition-all ${
-              !isLunar ? 'bg-yellow-500 text-black' : 'bg-transparent border border-yellow-600/40 text-yellow-300'
-            }`}
-            onClick={() => setIsLunar(false)}
-          >
-            {t('step2.solar')}
-          </button>
-          <button
-            className={`px-6 py-2 rounded-full font-medium text-sm transition-all ${
-              isLunar ? 'bg-yellow-500 text-black' : 'bg-transparent border border-yellow-600/40 text-yellow-300'
-            }`}
-            onClick={() => setIsLunar(true)}
-          >
-            {t('step2.lunar')}
-          </button>
+        <div className="flex gap-2 justify-center flex-wrap">
+          {calendarOptions.map((opt) => (
+            <button
+              key={opt.type}
+              type="button"
+              className={`px-5 py-2 rounded-full font-medium text-sm transition-all ${calType === opt.type
+                  ? 'bg-yellow-500 text-black shadow-md shadow-yellow-900/30'
+                  : 'bg-transparent border border-yellow-600/40 text-yellow-300 hover:border-yellow-500/70 hover:text-yellow-200'
+                }`}
+              onClick={() => setCalType(opt.type)}
+            >
+              {opt.labelKo}
+            </button>
+          ))}
         </div>
       )}
 
-      {/* 비한국어 안내 */}
+      {/* 영어권 안내: 양력만 지원 */}
       {!isKo && (
         <p className="text-center text-yellow-200/60 text-sm">
           {t('step2.gregorianNote')}
         </p>
       )}
 
-      {/* 날짜 선택 */}
+      {/* 음력 선택 시 안내 문구 */}
+      {isKo && calType !== 'solar' && (
+        <div className="bg-amber-900/20 border border-amber-700/30 rounded-lg px-4 py-2 text-center">
+          <p className="text-amber-300/80 text-xs">
+            {calType === 'lunar-leap'
+              ? '🌕 음력 윤달로 입력합니다. 윤달은 특정 해에만 존재합니다.'
+              : '🌙 음력 평달로 입력합니다.'}
+          </p>
+        </div>
+      )}
+
+      {/* 날짜 선택 (연/월/일) */}
       <div className="grid grid-cols-3 gap-3">
         <div>
           <label className="block text-yellow-200/70 text-xs mb-1 text-center">{t('step2.year')}</label>

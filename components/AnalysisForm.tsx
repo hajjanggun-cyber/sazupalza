@@ -55,6 +55,7 @@ export default function AnalysisForm() {
       month: birth.month,
       day: birth.day,
       lunar: birth.isLunar,
+      leapMonth: birth.isLeapMonth,
       ...(mbti && { mbti }),
       ...(birthHour !== null && { hour: birthHour }),
       hasPhoto: !!photo,

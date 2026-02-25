@@ -468,3 +468,153 @@ saju-posts.ts 배열에서 slug === 'intro' 찾기
 
 *작성: Antigravity (Claude Sonnet 4.6) | 2026-02-25*  
 *코드 직접 열람 확인 파일: middleware.ts, app/[locale]/page.tsx, app/[locale]/result/page.tsx, lib/blog/index.ts, lib/calculator/ 3개 파일, components/ 전체 목록, messages/ 폴더*
+
+---
+---
+
+# 📋 2026-02-25 작업 세션 기록
+> 작성: 2026-02-25 19:27 | 상태: **완료 (TSC 오류 없음)**
+
+---
+
+## ✅ 완료된 작업 목록
+
+### 1. 성명학 입력 폼 (SeongmyeongForm.tsx) 생성
+- **파일**: `components/SeongmyeongForm.tsx` (신규)
+- **내용**: locale('ko'/'en')에 따라 폼 완전 분기
+  - **한국어**: 성씨+이름 → 소리오행 실시간 계산, 한자+획수 입력(선택), 생년월일(양/음력), 개명 희망 옵션(보완오행, 추구이미지)
+  - **영어**: Full Birth Name → 피타고라스 수비학 실시간 계산(Expression/Soul Urge/Personality), 생년월일, Current Name(선택)
+- 제출 시 `/${locale}/seongmyeong-result/${encoded}` 로 이동
+
+### 2. 성명학 분석 입력 페이지 생성
+- **파일**: `app/[locale]/seongmyeong-analysis/page.tsx` (신규)
+- **내용**: SEO 메타데이터, JSON-LD, SeongmyeongForm 탑재, 특징 카드, 블로그 링크, 통합 분석 유도 배너
+
+### 3. 메인 페이지 서비스 카드 링크 수정
+- **파일**: `app/[locale]/page.tsx`
+- **변경**: 성명학 카드 href → `/seongmyeong-analysis` (기존 `/combined`에서 변경)
+
+### 4. 사주 전용 결과 생성기 구축
+- **파일**: `lib/calculator/saju-result-generator.ts` (신규)
+- **내용**:
+  - 일간(日干) 10개 천간별 성격 프로파일 (바넘효과 + 구체성 조합)
+  - 오행별 직업/재물/연애/건강 텍스트 (5×4 = 20가지 콘텐츠)
+  - `determineYongsin()`: 오행 균형에서 용신/기신 자동 산출
+  - `determineSinsal()`: 지지 기반 신살(도화/역마/화개/귀인) 자동 감별
+  - `generateDaewoon()`: 10년 단위 대운 6개 생성
+  - 세운(2025년 을사년, 2026년 병오년): 일간별 개인화 텍스트
+  - 용신 기반 개운법 (방향/색/숫자/소재)
+  - 희소성 % 계산 (상위 X%)
+  - 총점 계산 (오행균형도 + 일간기본점 + 신살보너스)
+
+### 5. 사주 전용 결과 페이지 생성
+- **파일**: `app/[locale]/saju-result/[id]/page.tsx` (신규)
+- **적용된 전략 (8가지)**:
+  - ✅ **3초 로딩 애니메이션** (7단계: 사주산출→오행균형→용신→신살→대운→세운→개운법)
+  - ✅ **희소성 뱃지** ("전체 유형 중 상위 X%")
+  - ✅ **핵심 키워드 뱃지** (최대 6개, 공유 욕구 자극)
+  - ✅ **사주 4주 시각화** (오행별 색상 天干/地支 카드)
+  - ✅ **오행 5개 게이지 시각화**
+  - ✅ **총점 + 세부 점수 게이지**
+  - ✅ **대운 타임라인** (10년 단위 가로 스크롤 카드)
+  - ✅ **세운 2025~2026** (사이드바이사이드 카드)
+  - ✅ **신살 분석** 섹션
+  - ✅ **행운 요소 4가지** 카드 (색/방향/숫자/소재)
+
+### 6. 성명학 전용 결과 페이지 생성
+- **파일**: `app/[locale]/seongmyeong-result/[id]/page.tsx` (신규)
+- **한국어 섹션**:
+  - 총점 카드 + 소리오행 관계 배지
+  - 소리오행 흐름 다이어그램 (글자별 오행 색상 + 화살표)
+  - 4격 수리 배치 시각화 (원격/형격/이격/정격 각각 카드)
+  - 원격 상세 해설 (81수리 명칭+의미+개인화 문장)
+  - 형격 해설, 직업/재물/연애운, 개운법
+  - **개명 가이드** (wantsRename인 경우 보완오행 방법 + 추구이미지별 추천 수리)
+- **영어 섹션**:
+  - 핵심 4수 카드 (Life Path / Expression / Soul Urge / Personality)
+  - 각 숫자별 상세 해설 (title, desc, career, love)
+  - Personal Year 2025 자동 계산
+  - Current Name Energy 비교 (currentName 입력 시)
+- **공통**: 3초 로딩 애니메이션 (5단계)
+
+### 7. 라우팅 변경
+- `SajuForm.tsx`: `router.push` → `/saju-result/${encoded}` (기존 `/result/`)
+- `SeongmyeongForm.tsx`: `router.push` → `/seongmyeong-result/${encoded}` (기존 `/result/`)
+- `AnalysisForm.tsx`: `/result/` 그대로 유지 (통합 분석 전용)
+
+---
+
+## 📁 현재 URL 라우팅 구조 (최종)
+
+```
+/{locale}/                         → 메인 허브 (서비스 선택)
+/{locale}/saju-analysis            → 사주 단독 입력 (SajuForm)
+/{locale}/saju-result/[id]         → 사주 단독 결과 ← NEW
+/{locale}/seongmyeong-analysis     → 성명학 단독 입력 (SeongmyeongForm)
+/{locale}/seongmyeong-result/[id]  → 성명학 단독 결과 ← NEW
+/{locale}/combined                 → 통합 분석 입력 (AnalysisForm)
+/{locale}/result/[id]              → 통합 분석 결과 (기존 유지)
+```
+
+---
+
+## 🔜 집에서 이어서 할 작업
+
+### 우선순위 1: 사주 결과 검증 및 보완
+```
+- 브라우저에서 /ko/saju-analysis 접속
+- 이름/생년월일 입력 후 결과 확인
+- 로딩 애니메이션 3초 확인
+- 4주 카드, 대운 타임라인, 세운 표시 확인
+- 텍스트 품질 점검 (바넘 효과 잘 적용됐는지)
+```
+
+### 우선순위 2: 성명학 결과 검증 및 보완
+```
+- /ko/seongmyeong-analysis 접속
+- "김민준" 등 실제 이름 입력 후 결과 확인
+- 소리오행 다이어그램 시각화 확인
+- 4격 수리 카드 표시 확인
+- 영어(/en/seongmyeong-analysis) 수비학 결과도 확인
+```
+
+### 우선순위 3: 관상 단독 분석 페이지
+```
+- 현재 /combined 로 연결된 관상 서비스 카드
+- gwansang-analysis 페이지 + gwansang-result 페이지 생성
+- 사진 업로드 → 결과 표시 플로우
+```
+
+### 우선순위 4: 사주 결과 추가 보완
+```
+- 12운성 (장생/목욕/관대/건록/제왕/쇠/병/사/묘/절/태/양) 섹션 추가
+- 월간(이달의 운세) 섹션 추가
+- 결과 공유용 이미지 카드 생성 (Canvas API)
+```
+
+### 우선순위 5: 통합 분석 결과 리팩토링
+```
+- app/[locale]/result/[id]/page.tsx도 새 전략 적용
+  (로딩 애니메이션 강화, 키워드 뱃지, 섹션 추가)
+- 현재 /result/[id]는 통합 전용이므로 성명학+사주 교차 분석 섹션 추가
+```
+
+---
+
+## 🔧 작업 시 참고할 파일 체계
+
+| 목적 | 수정 파일 |
+|---|---|
+| 사주 결과 텍스트 수정 | `lib/calculator/saju-result-generator.ts` |
+| 사주 결과 UI 수정 | `app/[locale]/saju-result/[id]/page.tsx` |
+| 성명학 결과 텍스트/UI | `app/[locale]/seongmyeong-result/[id]/page.tsx` |
+| 성명학 입력 폼 수정 | `components/SeongmyeongForm.tsx` |
+| 사주 입력 폼 수정 | `components/SajuForm.tsx` |
+| 통합 결과 수정 | `app/[locale]/result/[id]/page.tsx` |
+| 81수리 데이터 | `lib/data/name/suri81.ts` |
+| 소리오행 데이터 | `lib/data/name/orhaeng-sound.ts` |
+| 사주 계산 로직 | `lib/calculator/saju-calculator.ts` |
+
+---
+
+*세션 종료: 2026-02-25 19:27*

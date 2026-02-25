@@ -100,7 +100,7 @@ export default async function HomePage({ params: { locale } }: Props) {
       titleEn: 'Name Numerology',
       descKo: '이름 획수와 소리 오행으로 보는 운',
       descEn: 'Fortune encoded in your name\'s strokes & sound',
-      href: `/${locale}/combined`,
+      href: `/${locale}/seongmyeong-analysis`,
       color: 'from-green-900/40 to-emerald-900/20',
       border: 'border-green-600/30 hover:border-green-500/60',
       badge: null,
