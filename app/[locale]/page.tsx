@@ -78,7 +78,7 @@ export default async function HomePage({ params: { locale } }: Props) {
       titleEn: 'Four Pillars Reading',
       descKo: '생년월일로 보는 오행과 운명의 흐름',
       descEn: 'Elemental constitution from your birth data',
-      href: `/${locale}/combined`,
+      href: `/${locale}/saju-analysis`,
       color: 'from-amber-900/40 to-yellow-900/20',
       border: 'border-amber-600/30 hover:border-amber-500/60',
       badge: null,
