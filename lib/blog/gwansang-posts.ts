@@ -616,17 +616,41 @@ export const gwansangPosts: BlogPost[] = [
     `,
     contentEn: `
 <section>
-<p>In Gwansang, the forehead is known as the "Heavenly Court," the place where you receive cosmic blessings. It governs your early life (ages 15-30), career prospects, and relationship with your parents. A well-proportioned forehead suggests strong intellectual capacity and the potential for high social status. This guide analyzes how the shape and size of your forehead dictate your path to success.</p>
+<p>In Gwansang, the forehead is called the <strong>Cheonjeong (天庭)</strong>—the Heavenly Court. It governs your early life fortune (roughly ages 15–30), your relationship with authority figures and parents, and your capacity for intelligence and public recognition. The forehead is the first thing most people register when they see your face, and for Gwansang practitioners, it is the first chapter in your life story. This guide breaks down forehead shape, proportion, and color to reveal what your early fortune looked like—and what it still predicts for your career and social trajectory.</p>
 
-<h2 id="forehead-shape">1. The Ideal Forehead: Wide, Clean, and Glowing</h2>
-<p>An ideal forehead is wide, slightly convex, and free of deep scars or dark spots. The center represents your career luck—if it glows and is well-fleshed, success in large organizations or public service is likely.</p>
+<h2 id="forehead-shape">1. The Ideal Forehead: Three Dimensions That Matter</h2>
+<p>A favorable forehead in Gwansang is broad (spanning at least the width between your eyebrows outward), slightly convex (gently domed rather than flat or concave), and luminous in Gi-saek. Each zone within the forehead corresponds to a specific life domain:</p>
+<ul>
+  <li><strong>Center crown (highest point):</strong> Career fortune and relationship with supervisors. A full, glowing crown area signals strong professional recognition and upward mobility.</li>
+  <li><strong>Mid-forehead:</strong> Direct social fortune in your 20s. Clear, unmarked mid-forehead skin indicates smooth progress during the most socially formative decade.</li>
+  <li><strong>Temples (lateral edges):</strong> Parental support and inherited advantages. Filled-out temples signal a nurturing early environment; hollow or shadowed temples indicate early self-reliance.</li>
+</ul>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🏛️ Predict Your Success via Forehead Analysis →</a>
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🏛️ Analyze Your Forehead Fortune via AI →</a>
 </div>
 
-<h2 id="conclusion">2. Conclusion: Facing the World with Confidence</h2>
-<p>While you cannot change the physical width of your forehead, keeping it clear and exposing it to light (by not covering it with hair) is a simple way to improve your professional aura. Face the world with a clear brow and an open mind.</p>
+<h2 id="forehead-types">2. Forehead Shapes and What Each Signals</h2>
+<h3>Wide, Domed Forehead: The Scholar-Leader Shape</h3>
+<p>Broad and gently convex with good skin quality. The classic Gwansang success forehead. Indicates high intellectual capacity, natural authority, and the kind of early experiences that build confident decision-making. Common among those who excel in organizations, academia, and public service.</p>
+<h3>M-Shaped Hairline Forehead: The Creative Specialist</h3>
+<p>A prominent widow's peak creates angular forehead zones. Associated with deep analytical and artistic thinking. Individuals with this forehead tend to excel within niche expertise rather than broad public roles. Often found among writers, researchers, architects, and engineers.</p>
+<h3>Narrow Forehead: The Self-Made Path</h3>
+<p>A narrower forehead doesn't indicate low intelligence—it indicates a self-built foundation. Early parental support may have been limited, pushing independent development. When the Gi-saek is clear and the nose and mouth are strong, a narrow forehead person typically achieves exceptional mid-life success through pure persistence.</p>
+<h3>Angular, Square Forehead: The Principled Achiever</h3>
+<p>Defined, geometric edges indicate strong self-discipline and ethical consistency. This type excels in finance, administration, and law—fields where integrity builds slow, durable success. Trust is the primary career asset.</p>
+
+<h2 id="hairline-luck">3. The Hairline and Fortune: Why Covering Your Forehead Matters</h2>
+<p>In Gwansang, covering the forehead with hair is equivalent to blocking the sky channel—the entry point of positive cosmic energy for career and social fortune. Practitioners consistently note that clients who shift from heavy bangs to exposed-forehead styles report improved professional opportunities and social confidence within weeks. This isn't magic; it's the combination of improved facial proportion presentation and the subtle psychological signal of openness. When fortune is stalled, a forehead-exposing hairstyle is the single most immediately actionable Gwansang intervention.</p>
+<p>Three horizontal lines across the forehead—if unbroken and well-defined—are called the <em>Samjae Mun</em> (Triple Lines) and are considered one of the most auspicious signs in Gwansang: the harmony of Heaven, Earth, and Humanity inscribed on the face.</p>
+
+<h2 id="conclusion">4. Conclusion: Your Forehead Is Your Opening Statement</h2>
+<p>You cannot change the skeletal width of your forehead. But you can optimize its presentation—through hairstyle, skin care, and the habitual expression you carry. A clear, luminous, uncovered forehead communicates openness, competence, and vitality in every social context. In Gwansang terms: when the Heavenly Court is bright, heaven responds.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/gwansang/intro" style="text-decoration: underline; color: #f9d976;">[Read Next] Gwansang 101: The Complete Beginner's Guide to Korean Face Reading</a></p>
+  <p><a href="/en/gwansang/wealth-face" style="text-decoration: underline; color: #f9d976;">[Read Next] Wealth Face: What Nose, Mouth, and Ears Say About Money Luck</a></p>
+</div>
 </section>
     `,
     toc: [
@@ -701,23 +725,54 @@ export const gwansangPosts: BlogPost[] = [
     `,
     contentEn: `
 <section>
-<p>Gwansang is not fixed; it’s a dynamic flow of destiny. Checking your reflection in the morning is a vital ritual to see where your energy is headed. By learning how to diagnose your own features, you can avoid risks and seize opportunities. This guide teaches you how to predict your 5-year success fortune just by looking in the mirror.</p>
+<p>Gwansang is not a fixed reading—it's a dynamic flow that changes with how you live. Your morning mirror is the most honest real-time diagnostic available: before you've applied makeup, before expressions settle into social mode, your face broadcasts the exact state of your current energy. Learning to read it takes about 30 seconds and yields information no horoscope app can match. This guide teaches you to self-diagnose your Gi-saek, assess your current fortune trajectory, and make targeted adjustments that shift your reading within days.</p>
 
-<h2 id="morning-check">1. The 30-Second Morning Diagnostic</h2>
-<p>Your face before washing in the morning provides the most accurate read on your current Gi-saek (energy). Check the luster of your Myung-gung (the space between your brows)—if it’s bright and clear, your current plans are highly likely to succeed.</p>
+<h2 id="morning-check">1. The 30-Second Pre-Wash Morning Diagnostic</h2>
+<p>The window before face-washing is the most accurate reading time. The face has been regenerating for 7–8 hours, free of product manipulation. Check these three zones in order:</p>
+<h3>Step 1: Myung-gung (Interocular Space)</h3>
+<p>Look directly at the space between your brows. Is it clear, slightly luminous, and free of prominent lines? This signals your current planning and decision-making energy is strong—proceed with projects and commitments. Is it shadowed, lined, or dull? Delay major decisions by 1–2 weeks while restoring Gi-saek through sleep and stress reduction.</p>
+<h3>Step 2: Eye Vitality (Angang)</h3>
+<p>Hold eye contact with your reflection for three seconds. Are the whites clear? Are the pupils defined? Do the eyes feel like they're projecting something? Bright, focused eyes indicate strong willpower and active fortune. Bloodshot, unfocused, or flat eyes signal energy depletion—rest before making significant moves.</p>
+<h3>Step 3: Complexion Zone Scan</h3>
+<p>Quickly assess the nose tip, cheeks, and chin. A warm, even glow across all three zones indicates the five organ systems are in balance and fortune is actively flowing. Any gray or bluish overlay on a specific zone points to the corresponding organ system needing attention.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔍 Diagnose Your 5-Year Fortune in the Mirror →</a>
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔍 Get Your AI Gwansang Self-Analysis →</a>
 </div>
 
-<h2 id="conclusion">2. Conclusion: The Mirror Reflects Your Future</h2>
-<p>By using positive affirmations while looking in the mirror and maintaining a healthy facial glow, you can actively shift your destiny. Your future success is already being shaped by the expression you hold today.</p>
+<h2 id="success-indicators">2. The Five Signs Your 5-Year Fortune Is Rising</h2>
+<p>When Gwansang practitioners observe these specific changes occurring simultaneously, they call it a "fortune convergence period"—typically 3–6 months before a significant positive life event:</p>
+<ul>
+  <li><strong>Nose tip glow:</strong> The Jundu develops a clear golden-pink luminosity. Financial and career opportunities are accumulating.</li>
+  <li><strong>Upward mouth corners:</strong> Your resting expression naturally shifts upward at the corners. Social fortune and influential relationships are approaching.</li>
+  <li><strong>Clear forehead expansion:</strong> The skin appears cleaner, more transparent, and slightly broader-looking. Career recognition and public fortune are opening.</li>
+  <li><strong>Eye brightness:</strong> The irises appear more defined, the whites clearer. Mental energy and decision-making acuity are at a peak.</li>
+  <li><strong>Ear luminosity:</strong> Ear color appears slightly lighter than usual. Inherited or foundational luck is strengthening the base.</li>
+</ul>
+
+<h2 id="improving-luck">3. Targeted Gwansang Corrections You Can Do Today</h2>
+<p>Once you've completed the diagnostic, specific adjustments target the readings you want to shift:</p>
+<ul>
+  <li><strong>Dull Myung-gung:</strong> Clear stray hairs, apply lightweight moisturizer, practice 5 minutes of conscious facial relaxation (release brow tension).</li>
+  <li><strong>Flat eye energy:</strong> 8 hours sleep, cold water eye splash, 10-minute outdoor morning walk to stimulate retinal light exposure.</li>
+  <li><strong>Gray complexion:</strong> Increase hydration, add fermented foods, start aerobic exercise (any form, 20 minutes daily).</li>
+  <li><strong>Downturned mouth:</strong> 21-day upward smile practice. Set a phone reminder 3x daily to consciously lift the corners for 60 seconds.</li>
+  <li><strong>Dull nose tip:</strong> Gentle daily massage of the nose tip area (60 seconds) improves local circulation and luminosity within 2–3 weeks.</li>
+</ul>
+
+<h2 id="conclusion">4. Conclusion: You Are Your Own Best Gwansang Reader</h2>
+<p>The 30-second morning mirror check, done consistently, builds pattern recognition about your own energy cycles. You'll start to notice: which days your eyes are bright correlate with productive afternoon sessions; which weeks your complexion dulls correlate with overcommitment or poor sleep. Gwansang self-diagnosis is ultimately the practice of using your face as real-time biofeedback—and making the life adjustments that keep the reading favorable. The mirror reflects your present. The choices you make today in response to it determine what it shows in five years.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/gwansang/health-face" style="text-decoration: underline; color: #f9d976;">[Read Next] Reading Health from Your Face: The Korean Gi-saek Diagnostic</a></p>
+  <p><a href="/en/gwansang/mole-reading" style="text-decoration: underline; color: #f9d976;">[Read Next] Moles and Fortune: A Gwansang Guide to Facial Moles</a></p>
+</div>
 </section>
     `,
     toc: [
       { id: 'morning-check', title: '1. 아침 30초 기색 진단법' },
       { id: 'success-indicators', title: '2. 5년 후 성공 지표' },
-      { id: 'improving-luck', title: '3. 관상 스스로 교정하기' },
+      { id: 'improving-luck', title: '3. 관상을 스스로 교정하는 개운법' },
       { id: 'conclusion', title: '4. 결론: 거울이 미래다' },
     ],
     tocEn: [
