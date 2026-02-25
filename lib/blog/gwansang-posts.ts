@@ -14,49 +14,78 @@ export const gwansangPosts: BlogPost[] = [
     category: 'face-reading',
     contentKo: `
 <section>
-<p>“얼굴은 마음의 거울이다”라는 말이 있듯이, 동양의 관상학(觀相學)은 사람의 외모를 통해 그 내면의 기질과 운명의 흐름을 읽어내는 깊은 통찰의 학문입니다. 관상은 단순히 잘생기고 못생김을 따지는 미학적 기준이 아니라, 수천 년간 쌓여온 인간 통계와 철학이 결합된 결과물입니다. 이 글에서는 관상학의 기초 원리와 우리 얼굴의 각 부위가 상징하는 운명적 의미를 3,000자 전문 해설로 상세히 다룹니다.</p>
+<p>"얼굴은 마음의 거울이다"라는 말처럼, 동양의 관상학(觀相學)은 사람의 외모를 통해 내면의 기질과 운명의 흐름을 읽어내는 정밀한 학문입니다. 관상은 미학적 판단이 아니라, 수천 년간 쌓인 인간 관찰과 동양 철학이 결합된 체계입니다. 얼굴 부위가 오장육부(五臟六腑)와 연결된다는 한의학적 관점, 음양오행(陰陽五行)이 인간 형상에 투영된다는 철학이 관상학의 뿌리입니다. 관상학 고전 《마의상법(麻衣相法)》과 《유장상법(柳莊相法)》은 수백 년의 임상 관찰로 쌓인 지혜입니다. 이 글에서는 관상학의 기초 원리와 이목구비가 상징하는 운명적 의미를 전문 칼럼으로 상세히 풀어드립니다.</p>
 
 <h2 id="concept-of-gwansang">1. 관상학의 정의: 얼굴에 새겨진 인생의 지도</h2>
-<p>관상학은 인간의 형상과 기색(氣色)을 통해 건강, 재물, 명예, 그리고 수명을 판단하는 학문입니다. 동양 철학에서는 하늘의 기운이 땅에 형상을 만들 듯, 마음의 상태가 얼굴이라는 형상을 빚어낸다고 봅니다.</p>
-<h3>선천적 기질과 후천적 변화</h3>
-<p>타고난 골격은 바꿀 수 없는 선천적 운명을 나타내지만, 찰색(얼굴빛)과 근육의 움직임은 후천적인 노력과 마음가짐에 따라 끊임없이 변화합니다. 그래서 “40대 이후의 얼굴은 자신의 책임이다”라는 말은 관상학적으로도 매우 타당한 통찰입니다. 좋은 관상을 만드는 것은 결국 긍정적인 마음과 바른 습관에서 시작됩니다.</p>
+<p>관상학은 인간의 형상과 기색(氣色)을 통해 건강·재물·명예·수명을 판단하는 학문입니다. 마음의 상태가 얼굴을 빚어낸다는 동양 철학의 원리가 핵심입니다. "40대 이후의 얼굴은 자신의 책임"이라는 말은 관상학적으로도 매우 타당합니다.</p>
+<h3>관상 분석의 세 가지 층위</h3>
+<p>관상은 <strong>골격(骨格)·기색(氣色)·신정(神情)</strong> 세 층위로 읽힙니다. 골격은 이마·코·턱이 만드는 선천적 기운이고, 기색은 피부 속에서 우러나오는 빛깔로 현재 에너지를 보여줍니다. 신정은 눈빛과 표정에서 드러나는 내면의 정신력입니다. 세 층위가 조화를 이룰 때 상생(相生)의 관상이 완성됩니다.</p>
+<p>기색은 마음가짐에 따라 수개월 내 극적으로 변합니다. 꾸준한 봉사 활동을 한 사람들의 얼굴에 공통적으로 '복스러운 광택'이 생기는 현상이 이를 증명합니다. 반대로 만성 스트레스와 불규칙한 생활은 얼굴에 탁한 기운을 만들어 운세를 어둡게 합니다.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">📸 AI 관상 분석기로 나의 관상 확인하기 →</a>
+  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">📸 AI 관상 분석기로 나의 관상 무료로 확인하기 →</a>
 </div>
 
-<h2 id="five-parts">2. 관상 분석의 핵심: 오관(五官)과 십이궁(十二宮)</h2>
-<p>관상을 읽을 때 가장 먼저 주목하는 것은 눈, 코, 귀, 입, 눈썹의 다섯 부위, 즉 '오관'입니다.</p>
-<h3>눈(眼): 정신과 지혜의 통로</h3>
-<p>관상에서 눈은 80% 이상의 비중을 차지할 만큼 중요합니다. 눈동자가 맑고 흑백이 분명하며, 안광(眼光)이 서려 있는 눈은 총명함과 강력한 운을 상징합니다. 눈은 그 사람의 정신 상태를 가장 정직하게 보여주는 창문입니다.</p>
-<h3>코(鼻): 재물과 자아의 상징</h3>
-<p>코는 '재백궁'이라 불리며 재물운의 핵심입니다. 코끝(준두)이 도톰하고 콧구멍이 정면에서 보이지 않는 코는 재물을 모으는 힘이 강합니다. 또한 코는 자기 자신을 상징하므로, 콧대가 곧게 뻗은 사람은 자존감과 추진력이 뛰어납니다.</p>
+<h2 id="five-parts">2. 오관(五官) 완전 분석: 이목구비에 숨겨진 운명의 코드</h2>
+<p>관상 분석의 핵심은 눈·코·귀·입·눈썹 다섯 부위인 오관(五官)입니다. 각 부위는 특정 인생 영역과 오행의 기운을 담고 있습니다.</p>
+<h3>눈(眼): 재물과 인복의 80%를 결정</h3>
+<p>관상에서 눈이 차지하는 비중은 80% 이상입니다. 눈동자가 맑고 흑백이 선명하며 안광(眼光)이 깊은 눈은 총명함과 강한 운을 상징합니다. 날카롭고 생기 넘치는 눈빛은 운이 상승 중이라는 신호이며, 흐리고 초점이 없는 눈빛은 에너지 소진 상태를 의미합니다. 눈꺼풀이 두껍고 눈이 반쯤 덮인 경우는 느리지만 끈기 있는 기질을 나타냅니다.</p>
+<h3>코(鼻): 재물을 담는 창고, 재백궁</h3>
+<p>코는 '재백궁(財帛宮)'으로 재물운의 핵심 부위입니다. 코끝(준두)이 도톰하고 콧망울이 양옆으로 뚜렷하면 재물을 모으는 힘이 강합니다. 콧구멍이 정면에서 훤히 보이는 들창코는 재물이 새나가는 관상입니다. 코는 자기 자신을 상징하므로, 콧대가 곧고 흠이 없는 사람은 자존감과 추진력이 뛰어납니다.</p>
+<h3>귀(耳): 수명과 선천적 복의 지표</h3>
+<p>귀는 '수명궁(壽命宮)'으로 타고난 생명력과 가문의 배경을 상징합니다. 귀 위치가 눈썹 위로 올라올수록 귀한 상이며, 귓불(수주)이 두툼하고 풍성할수록 부귀를 누릴 관상입니다. 귀 색이 얼굴보다 밝고 윤기가 나면 현재 운의 흐름이 좋다는 길조입니다.</p>
+<h3>입(口): 복의 출납구, 말운의 통로</h3>
+<p>입은 복이 들어오고 나가는 문입니다. 입술 윤곽이 선명하고 입꼬리가 위로 향한 '앙월구(仰月口)'가 가장 복스럽습니다. 아랫입술이 윗입술보다 도톰한 사람은 말년의 재산 관리 능력이 뛰어납니다. 항상 입꼬리가 아래로 처진 습관적 표정은 복이 나가는 관상으로 이어지므로, 의식적인 미소 훈련이 필요합니다.</p>
+<h3>눈썹(眉): 인간관계와 귀인복</h3>
+<p>눈썹은 '형제궁(兄弟宮)'으로 사회적 인복을 담습니다. 눈썹이 눈보다 길고 결이 가지런할수록 귀인을 많이 만나는 인복이 풍성합니다. 미간(명궁) 사이가 넓고 잔털 없이 깨끗할수록 사고가 유연하고 사회적 발복이 빠릅니다.</p>
 
-<h2 id="modern-usage">3. 현대적 관상학의 활용: 소통과 비즈니스</h2>
-<p>과거의 관상학이 길흉화복을 점치는 용도였다면, 현대의 관상학은 대인관계와 비즈니스에서 상대를 이해하는 '커뮤니케이션 도구'로 진화했습니다. 첫인상을 결정짓는 기색을 좋게 관리하는 것은 현대 사회에서 강력한 경쟁력이 됩니다. 미소 짓는 근육을 발달시키면 인복(人福)이 따르는 관상으로 변모할 수 있습니다.</p>
+<h2 id="twelve-palaces">3. 십이궁(十二宮): 얼굴이 품은 열두 인생 영역</h2>
+<p>관상학은 얼굴을 열두 영역으로 나눕니다. <strong>명궁(사업·계획운)·관록궁(직업·명예운)·복덕궁(전반적 복지)·재백궁(재물운)·부부궁(배우자운)·자녀궁·전택궁(부동산운)·이동궁·노복궁(부하운)·질액궁(건강운)·형제궁·상모궁(부모운)</strong>이 그것입니다. 각 궁이 밝고 살집이 넉넉할 때 해당 운이 좋은 상태이며, 어둡거나 함몰되면 해당 분야에 주의가 필요합니다.</p>
 
-<h2 id="conclusion">4. 결론: 관상을 넘어 심상(心相)으로</h2>
-<p>관상보다 중요한 것은 '심상(心相)'입니다. 아무리 이목구비가 완벽해도 마음이 바르지 못하면 그 기운은 오래가지 못합니다. 반대로 이목구비에 부족함이 있어도 밝은 마음과 덕을 쌓는다면 관상은 복스럽게 변합니다. 자신의 얼굴을 사랑하고 가꾸는 과정이 곧 당신의 운명을 가꾸는 길임을 잊지 마세요.</p>
+<h2 id="modern-usage">4. 현대적 관상학: 비즈니스 첫인상 경영</h2>
+<p>과거의 관상학이 길흉을 예언하는 용도였다면, 현대 관상학은 대인관계와 비즈니스의 커뮤니케이션 도구로 진화했습니다. 채용 면접에서 면접관이 3초 안에 내리는 '신뢰 첫인상'이 결과에 상당한 영향을 미친다는 연구는 관상학적 직관의 근거를 과학적으로 뒷받침합니다. 미소 짓는 습관으로 입꼬리를 올리고, 충분한 수면으로 눈빛에 생기를 더하고, 미간 관리로 명궁을 맑게 유지하는 것이 현대판 관상 경영의 핵심입니다.</p>
+
+<h2 id="conclusion">5. 결론: 관상을 넘어 심상(心相)으로</h2>
+<p>관상보다 중요한 것은 '심상(心相)'입니다. 이목구비가 완벽해도 마음이 바르지 못하면 기운은 오래가지 못합니다. 부족한 이목구비라도 밝은 마음과 덕을 쌓으면 관상은 복스럽게 변합니다. 관상학의 진정한 가르침은 얼굴을 읽는 것이 아니라, 더 나은 얼굴을 위해 더 나은 삶을 사는 것에 있습니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p>[내부링크: 17번: 재물 관상 완벽 정리 - 부자가 되는 코와 입의 비밀]</p>
-  <p>[내부링크: 19번: 얼굴색으로 보는 현재의 건강과 운의 흐름]</p>
+  <p><a href="/ko/gwansang/wealth-face" style="text-decoration: underline; color: #f9d976;">[내부링크: 재물 관상 완벽 정리 - 부자가 되는 코와 입의 비밀]</a></p>
+  <p><a href="/ko/gwansang/health-face" style="text-decoration: underline; color: #f9d976;">[내부링크: 얼굴색으로 보는 현재의 건강과 운의 흐름]</a></p>
 </div>
 </section>
     `,
     contentEn: `
 <section>
-<p>As the saying goes, "The face is the mirror of the soul." Gwansang, the traditional Korean art of face reading, is a profound discipline that interprets a person's inner character and destiny through their physical appearance. It is not just about aesthetics but a combination of ancient statistics and philosophy. This guide explores the foundational principles of Gwansang and what your facial features reveal about your life path.</p>
+<p>You've heard that first impressions form in seconds. But what if that's not just psychology—what if your face is broadcasting something measurable about your energy, character, and fortune? Korean face reading, or <strong>Gwansang (觀相學)</strong>, is a 2,000-year-old discipline that reads facial structure, skin luminosity, and expression to reveal personality and life trajectory. It's not carnival fortune-telling. It's an empirically developed system built on centuries of clinical observation—and it's increasingly relevant in a world where first impressions determine outcomes in hiring, dating, and business.</p>
 
-<h2 id="concept-of-gwansang">1. What is Gwansang? A Map of Destiny</h2>
-<p>Gwansang is the study of facial features and skin tone to determine health, wealth, honor, and longevity. In Eastern philosophy, it is believed that the mind shapes the face, and thus your current state of being is reflected in your expression and features.</p>
+<h2 id="concept-of-gwansang">1. What Is Gwansang? The Science Behind the Art</h2>
+<p>Gwansang is the systematic study of facial features and skin quality to assess a person's current energy state and long-term fortune potential. Its foundational text, the <strong>Maui Sangbeop (麻衣相法)</strong>, compiled centuries of observation into a diagnostic framework. The logic is simple: your face is the output of your internal operating system. Health, emotional state, lifestyle habits, and mental energy all leave visible marks on the face over time.</p>
+<h3>Three Layers Every Practitioner Reads</h3>
+<p>Advanced Gwansang analysis works through three layers. <strong>Bone structure (骨格)</strong> represents innate fortune—the breadth of the forehead, the nose's proportions, the jaw's definition. <strong>Gi-saek (氣色)</strong>—the quality of light under the skin—shifts monthly based on how you live. <strong>Shin-jeong (神情)</strong>—the quality of the gaze and habitual expression—reveals will and current mental state. When all three align, the reading is auspicious.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">📸 Get AI Face Reading Analysis Now →</a>
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">📸 Try AI Gwansang Analysis Free →</a>
 </div>
 
-<h2 id="conclusion">2. Conclusion: Beyond Appearance to Inner Spirit</h2>
-<p>While features are important, your "inner spirit" (Sim-sang) is the most critical factor. By maintaining a positive mindset and kind heart, you can improve your Gwansang over time, attracting better fortune and relationships.</p>
+<h2 id="five-parts">2. The Five Pillars: What Each Feature Reveals</h2>
+<ul>
+  <li><strong>Eyes (眼):</strong> The mirrors of intelligence and fortune. Clear, bright eyes with well-defined pupils indicate strong mental energy and rising luck. Cloudy or unfocused eyes signal depletion.</li>
+  <li><strong>Nose (鼻):</strong> The wealth palace. A rounded nose tip with contained nostrils indicates strong money-accumulation capacity. The nose also represents self—a straight, unflawed bridge correlates with high self-directedness.</li>
+  <li><strong>Ears (耳):</strong> Longevity and ancestral fortune. Ears set high, at or above the eyebrow line, with thick earlobes indicate robust life energy.</li>
+  <li><strong>Mouth (口):</strong> The door of fortune. Upturned corners and clearly defined lip edges indicate consistent good luck. Habitually downturned corners signal fortune leaking out.</li>
+  <li><strong>Eyebrows (眉):</strong> Social capital. Long, smooth eyebrows extending beyond the eye corners indicate strong support networks and timely mentors.</li>
+</ul>
+
+<h2 id="modern-usage">3. Why Gwansang Is a Modern Competitive Advantage</h2>
+<p>In a world where LinkedIn profiles and Zoom calls create instant impressions, Gwansang offers a surprisingly practical diagnostic. Research documents that hiring decisions are heavily influenced by trustworthiness impressions formed within seconds. What Gwansang does is systematize precisely what those impressions register—and more importantly, what is adjustable. Bone structure is fixed. Your Gi-saek is entirely within your control: sleep, nutrition, stress management, and the habitual expression you carry all determine whether your face broadcasts energy or depletion. This is why developing a genuine smile habit, maintaining bright eyes through adequate rest, and keeping your Myung-gung (the space between the brows) clean and uncluttered are the foundational acts of what modern practitioners call "face management."</p>
+
+<h2 id="conclusion">4. The Inner Face Is the Real Face</h2>
+<p>Every seasoned Gwansang practitioner reaches the same conclusion: the Korean concept of <em>Simsang</em> (心相)—inner face—matters more than the outer. Perfect symmetry with cold, closed energy reads poorly. Unconventional features with warmth and presence read beautifully. The practice of Gwansang, properly understood, is not about reading fate from your face. It's about using your face as a real-time diagnostic of how you're living—and adjusting accordingly.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/gwansang/wealth-face" style="text-decoration: underline; color: #f9d976;">[Read Next] The Wealth Face: What Your Nose, Mouth, and Ears Reveal About Money Luck</a></p>
+  <p><a href="/en/gwansang/health-face" style="text-decoration: underline; color: #f9d976;">[Read Next] Reading Health from Your Face: The Korean Gi-saek Diagnostic</a></p>
+</div>
 </section>
     `,
     toc: [
@@ -96,47 +125,69 @@ export const gwansangPosts: BlogPost[] = [
     category: 'face-reading',
     contentKo: `
 <section>
-<p>부자가 되는 얼굴은 정말 따로 있을까요? 한국의 전통 관상학에서는 재물운을 상징하는 특정 부위들이 존재합니다. 흔히 "코가 잘생겨야 돈복이 있다"거나 "귓불이 두툼해야 부자로 산다"는 말들은 오랜 관상학적 통계에 근거한 이야기입니다. 이 글에서는 재물운의 3대 핵심인 코, 입, 귀를 통해 당신의 잠재된 부의 지도를 3,000자 전문 해설로 분석해 드립니다.</p>
+<p>부자가 되는 얼굴이 정말 따로 있을까요? 한국 전통 관상학의 대답은 분명합니다. "코가 좋아야 돈복이 있다", "귓불이 두툼해야 부자로 산다"는 속담들은 수백 년의 관상학적 통계에서 나온 이야기입니다. 이 글에서는 재물운의 3가지 핵심 부위인 코·입·귀를 집중 분석하고, 나아가 재물운을 높이는 눈과 이마의 역할까지 전문 칼럼으로 풀어드립니다.</p>
 
-<h2 id="nose-wealth">1. 코(鼻): 재물을 담는 창고, 재백궁</h2>
-<p>관상학에서 코는 재물운의 처음과 끝입니다. 얼굴의 정중앙에 위치하여 중년의 운세를 결정짓는 코는 어떻게 생겨야 부자가 될까요?</p>
-<h3>준두와 콧망울의 조화</h3>
-<p>코끝인 준두(準頭)는 둥글고 살집이 넉넉해야 합니다. 이는 금고에 돈이 가득 차 있는 형상입니다. 또한 콧망울(난대, 정위)이 양옆으로 뚜렷하게 자리를 잡고 있어야 재물이 밖으로 새나가지 않습니다. 콧구멍이 정면에서 훤히 보이는 '들창코'는 재물을 모으기 힘든 관상으로 보아 주의가 필요합니다.</p>
+<h2 id="nose-wealth">1. 코(鼻): 재물을 담는 금고, 재백궁(財帛宮)</h2>
+<p>관상학에서 코는 재물운의 핵심 부위입니다. 얼굴 정중앙에 위치하여 중년(35~55세)의 운세를 결정짓습니다.</p>
+<h3>준두(코끝)와 콧망울의 비밀</h3>
+<p>코끝인 준두(準頭)가 둥글고 살집이 넉넉해야 합니다. 이는 금고에 돈이 가득 찬 형상입니다. 콧망울(난대·정위)이 양옆으로 뚜렷하게 자리잡아야 재물이 새나가지 않습니다. 콧구멍이 정면에서 훤히 보이는 들창코는 재물을 모으기 어려운 관상입니다. 콧대 중간이 오뚝하게 솟은 '로마 코'는 추진력이 강해 사업가형 관상으로 봅니다.</p>
+<h3>코 기색(氣色): 형태보다 더 중요한 빛</h3>
+<p>코 형태가 좋더라도 코끝 기색이 어둡고 탁하면 재물이 나가는 시기입니다. 반대로 코 형태가 다소 아쉽더라도 코끝에 맑은 황금빛 윤기가 흐르면 재물운이 강하게 상승 중이라는 신호입니다. 코에 뾰루지가 잦으면 소화기 계통의 과부하와 재물 분쟁이 겹치는 시기이므로 과욕을 조심해야 합니다.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">💰 나의 재물운 관상 점수 확인하기 →</a>
+  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">💰 나의 재물운 관상 점수 무료 확인하기 →</a>
 </div>
 
-<h2 id="mouth-wealth">2. 입(口): 복을 받아들이는 문, 출납관</h2>
-<p>입은 복을 받아들이고 나가는 문과 같습니다. 입의 모양은 노년의 재물운과 자녀운을 결정짓는 중요한 요소입니다.</p>
-<h3>뚜렷한 입술선과 입꼬리의 방향</h3>
-<p>입술의 윤곽이 뚜렷하고 입꼬리가 위로 향해 있는 '앙월구' 형태는 항상 복을 담고 있는 형상으로 봅니다. 반대로 입꼬리가 아래로 처진 '복선구'는 들어온 복이 쏟아지는 형상이라 하여, 평소 미소 짓는 습관을 통해 보완하는 것이 좋습니다. 또한 아랫입술이 도톰한 사람은 말년의 주거 안정과 재산 관리에 능합니다.</p>
+<h2 id="mouth-wealth">2. 입(口): 복의 출납구, 노년 재물운의 열쇠</h2>
+<p>입은 복이 들어오고 나가는 문입니다. 입의 형태는 노년기(60세 이후) 재물운과 자녀운을 결정짓습니다.</p>
+<h3>앙월구(仰月口): 가장 복스러운 입 모양</h3>
+<p>입술 윤곽이 선명하고 입꼬리가 위로 향한 '앙월구'는 항상 복을 담고 있는 형상입니다. 아랫입술이 윗입술보다 도톰한 사람은 말년의 주거 안정과 재산 관리 능력이 뛰어납니다.</p>
+<h3>입꼬리 교정이 개운법</h3>
+<p>입꼬리가 아래로 처진 '복선구(覆船口)'는 들어온 복이 쏟아지는 형상입니다. 의식적으로 입꼬리를 올리는 미소 습관을 21일 이상 꾸준히 실천하면 관상이 개선되고 실제 대인 관계와 재물운도 함께 상승합니다. 입술이 건조하고 색이 어두운 상태는 현재 기운이 소진 중이라는 신호이므로 충분한 수분 섭취와 휴식이 필요합니다.</p>
 
-<h2 id="ear-wealth">3. 귀(耳): 지혜와 수명, 그리고 근본적인 부(富)</h2>
-<p>귀는 그 사람의 수명과 지혜, 그리고 가문의 배경을 나타냅니다. 귓불(수주)이 도톰하고 어깨 쪽을 향해 늘어진 귀는 '부귀를 누릴 상'으로 꼽힙니다. 귀의 색이 얼굴보다 밝고 윤기가 나면 현재 운의 흐름이 매우 좋다는 신호입니다.</p>
+<h2 id="ear-wealth">3. 귀(耳): 선천적 부(富)의 크기와 수명의 그릇</h2>
+<p>귀는 수명과 선천적 복, 그리고 가문의 배경을 나타냅니다. 귓불(수주)이 도톰하고 아래로 늘어진 귀는 '부귀상'으로 꼽힙니다. 귀 전체에 살집이 풍성하고 색이 얼굴보다 밝으면 현재 운의 흐름이 매우 좋다는 신호입니다. 귀가 작고 귓불이 얇아도 기색이 맑고 귀 전체가 단단하게 느껴지면 성실한 자수성가형입니다.</p>
 
-<h2 id="conclusion">4. 결론: 재물운을 부르는 마음가짐</h2>
-<p>재물 관상은 타고난 형태도 중요하지만, 그 부위의 기색(빛깔)이 더 중요합니다. 코에 윤기가 흐르고 입가가 맑으면 재물운이 상승하고 있다는 증거입니다. 규칙적인 생활과 바른 마음으로 얼굴의 빛을 관리하는 것, 그것이 가장 확실한 재물운 개운법입니다.</p>
+<h2 id="eye-forehead-wealth">4. 눈과 이마: 재물운을 완성하는 두 부위</h2>
+<p>재물 관상은 코·입·귀만으로 완성되지 않습니다. 눈의 안광(眼光)이 맑고 강하면 재물을 끌어당기는 집중력과 판단력이 뛰어나다는 신호입니다. 이마가 넓고 깨끗하면 초년에 좋은 환경과 사회적 지지를 받아 재물 축적의 기반이 탄탄해집니다. 재물운이 강한 사람들의 공통점은 이마·코·입이 모두 기색이 맑고 균형 잡혀 있다는 것입니다.</p>
+
+<h2 id="conclusion">5. 결론: 재물운은 기색으로 부른다</h2>
+<p>재물 관상에서 형태보다 중요한 것이 기색입니다. 코에 윤기가 흐르고 입가가 맑으며 귀 색이 밝으면 재물운이 상승하는 확실한 신호입니다. 규칙적인 수면·균형 잡힌 식단·미소 습관이 얼굴의 기색을 개선하는 가장 확실한 방법이자 재물운 개운법입니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p>[내부링크: 22번: 거울로 보는 나의 5년 후 성공운 자가진단 가이드]</p>
-  <p>[내부링크: 21번: 이마 모양으로 보는 초년 재물운과 부모복]</p>
+  <p><a href="/ko/gwansang/self-diagnosis" style="text-decoration: underline; color: #f9d976;">[내부링크: 거울로 보는 나의 5년 후 성공운 자가진단 가이드]</a></p>
+  <p><a href="/ko/gwansang/forehead-reading" style="text-decoration: underline; color: #f9d976;">[내부링크: 이마 관상 완전정복 - 초년운과 부모복의 비밀]</a></p>
 </div>
 </section>
     `,
     contentEn: `
 <section>
-<p>Is there really a face that attracts wealth? In traditional Korean Gwansang, specific features are strong indicators of financial luck. The nose, mouth, and ears are the three pillars of your "wealth map." This expert guide analyzes how these features predict your potential for prosperity and long-term financial stability.</p>
+<p>Can your face actually predict wealth? Korean Gwansang has been arguing yes for two millennia—and the logic holds up better than you might expect. Wealth, in Gwansang's framework, isn't stored in bank accounts first; it collects in specific facial zones, each corresponding to a different financial mechanism: accumulation capacity, retention ability, and generational foundation. This guide breaks down the nose, mouth, ears, and two often-overlooked features that complete the wealth picture.</p>
 
-<h2 id="nose-wealth">1. The Nose: The Treasure House of the Face</h2>
-<p>The nose represents your mid-life fortune and ability to accumulate wealth. A rounded tip (Jundu) with fleshy nostrils indicates a full safe, while nostrils that aren't visible from the front suggest the ability to retain money.</p>
+<h2 id="nose-wealth">1. The Nose: Your Personal Wealth Vault</h2>
+<p>The nose occupies the center of the face and governs mid-life fortune (roughly ages 35–55). In Gwansang, it's called the <strong>Jaebaekkung (財帛宮)</strong>—the treasury palace. A rounded nose tip (Jundu) with well-developed flanges (the nostrils' outer walls) indicates strong accumulation capacity. If the nostrils open visibly when viewed from the front—the "upturned" nose—the treasury has no bottom: money flows in but doesn't stay. Conversely, nostrils that tuck inward and downward suggest strong retention. The bridge matters too: a straight, unflawed bridge indicates self-directedness and resistance to financial manipulation.</p>
+<p>Critically, the nose's color overrides its shape in real-time readings. A rounded nose tip with a dull, grayish tone signals a currently blocked wealth cycle. A less-than-ideal shape with a clear, slightly golden glow indicates actively rising fortune. Practitioners watch this glow as a near-term financial forecast.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">💰 Check Your Wealth Luck Score via AI →</a>
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">💰 Check Your Wealth Fortune via AI →</a>
 </div>
 
-<h2 id="conclusion">2. Conclusion: Cultivating a Wealth-Attracting Energy</h2>
-<p>While the physical shape provides a baseline, the "luster" or skin tone of these areas indicates current luck. Keeping your nose clear and your smile bright are the best ways to activate your inherent wealth energy.</p>
+<h2 id="mouth-wealth">2. The Mouth: Where Fortune Enters and Exits</h2>
+<p>The mouth governs late-life wealth (60+) and social fortune. The ideal wealth mouth has clearly defined lip edges and upturned corners—what Gwansang calls the <strong>Angwolgu (仰月口)</strong>, or crescent moon mouth. This shape "holds" incoming fortune rather than letting it spill. A fuller lower lip indicates strong late-life real estate and asset management ability. Habitually downturned corners—the "overturned boat" mouth—suggest a pattern of fortune that arrives but doesn't consolidate. The good news: this is one of the most changeable features. Consistent practice of a genuine upward smile literally reshapes the musculature over 3–6 months, and practitioners report corresponding shifts in social fortune alongside the physical change.</p>
+
+<h2 id="ear-wealth">3. The Ears: Ancestral Wealth Foundation</h2>
+<p>Ears represent the <em>scale of the container</em>—the size of the fortune your constitution can hold. Ears set high (at or above the eyebrow line), with thick, fleshy earlobes that point slightly toward the shoulder, indicate what Gwansang calls a "wealthy constitution." Ear color lighter than the face tone signals current good fortune. Small, thin-lobed ears don't indicate poverty—they indicate a self-made path where wealth is built through diligence rather than inherited or gifted easily.</p>
+
+<h2 id="eye-forehead-wealth">4. The Eyes and Forehead: Completing the Wealth Picture</h2>
+<p>The wealth face requires two more elements. <strong>Eye clarity</strong>—the brightness and sharpness of the gaze—determines whether you can spot and seize opportunities when they appear. Dull eyes miss openings; bright eyes capitalize on them. The <strong>forehead</strong> governs career and social foundation in early life (15–30), which determines the wealth-accumulation runway you enter adulthood with. A broad, clear, scar-free forehead indicates strong early support and a favorable starting position for long-term wealth building.</p>
+
+<h2 id="conclusion">5. Conclusion: Glow Is the Wealth Signal</h2>
+<p>Across all five features, the consistent wealth indicator in Gwansang is not shape—it's the quality of the glow. A clear, slightly warm luminosity across the nose, mouth, and ear areas signals actively rising financial energy. The life practices that produce this glow—adequate sleep, regular nutrition, stress management, and genuine positive expression—are the definitive wealth practices, because they are the ones that improve the face's energy output most directly.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/gwansang/self-diagnosis" style="text-decoration: underline; color: #f9d976;">[Read Next] Mirror Diagnosis: Read Your 5-Year Success Fortune at Home</a></p>
+  <p><a href="/en/gwansang/forehead-reading" style="text-decoration: underline; color: #f9d976;">[Read Next] Forehead Reading: Career Luck and the Early Fortune Map</a></p>
+</div>
 </section>
     `,
     toc: [
@@ -177,52 +228,77 @@ export const gwansangPosts: BlogPost[] = [
     category: 'face-reading',
     contentKo: `
 <section>
-<p>관상학에서 눈썹은 '보수궁(保壽宮)'이라 하여 수명과 지혜를 상징하고, '형제궁(兄弟宮)'이라 하여 인간관계와 대인운을 나타냅니다. 눈썹은 얼굴의 인상을 결정짓는 지붕과 같은 역할을 하며, 그 모양과 숱에 따라 한 사람의 리더십과 사회적 위치를 읽어낼 수 있습니다. 이 글에서는 당신의 눈썹 속에 숨겨진 운명적 코드를 3,000자 전문 해설로 파헤칩니다.</p>
+<p>관상학에서 눈썹은 '보수궁(保壽宮)'이라 하여 수명과 지혜를 상징하고, '형제궁(兄弟宮)'이라 하여 인간관계와 대인운을 나타냅니다. 예로부터 동양의 군주들은 신하를 들일 때 눈썹을 먼저 살폈다고 전해집니다. 눈썹의 모양·숱·기색은 그 사람의 현재 에너지 상태와 향후 10년의 매운요를 담고 있습니다. 이 글에서는 눈썹 형태 분석과 리더십, 신뢰, 인복의 상관관계를 전문 칼럼으로 상세히 풀어드립니다.</p>
 
-<h2 id="eyebrow-meaning">1. 눈썹의 길이와 숱: 기운의 강도와 인복</h2>
-<p>눈썹은 눈보다 길어야 하며, 털의 결이 가지런해야 좋은 관상으로 칩니다.</p>
-<h3>눈보다 긴 눈썹: 인복과 지혜</h3>
-<p>눈썹이 눈보다 길게 뻗어 있으면 형제간의 우애가 깊고 사회에서 나를 돕는 귀인을 많이 만나게 됩니다. 또한 이는 지혜가 깊어 학문적 성취나 명예운이 높음을 의미합니다.</p>
-<h3>적당한 숱과 결: 성격의 안정성</h3>
-<p>눈썹 털이 한 방향으로 가지런히 누워 있어야 성격이 원만하고 일처리가 매끄럽습니다. 눈썹 털이 거칠거나 사방으로 뻗쳐 있으면 성격이 급하고 인간관계에서 마찰이 잦을 수 있으니, 평소 눈썹을 잘 다듬어 결을 정돈하는 것만으로도 운세 개선에 도움이 됩니다.</p>
+<h2 id="eyebrow-meaning">1. 눈썹의 길이와 숱: 사회적 자본의 크기</h2>
+<p>눈썹이 눈꼬리 바깥만큼 또는 그 이상 뻗어 있는 눈썹은 귀인(貴人)을 많이 만나는 사회적 인복의 상징입니다. 눈썹이 눈꼬리까지 닿지 않는 짧은 눈썹은 혼자 힘으로 성공하는 독립 자수성가형과 관련이 있습니다.</p>
+<h3>눈썹 결의 방향과 성격</h3>
+<p>눈썹 털이 한 방향으로 가지런히 눕혀 있는 경우는 평온한 성품과 포용력을 나타냅니다. 눈썹 털이 명성에 따라 일어서거나 사방으로 뻗쳐 있으면 독립적 성향이 강한 언덕형 인물로 혼자 일할 때 성과를 냅니다. 눈썹이 너무 짙어 눈두덩이를 덮을 정도라면 30~40대에 직업적 스트레스나 건강 이슈가 겹치는 시기가 올 수 있으니 주의가 필요합니다.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">👁️ 나의 눈썹 관상 분석 결과 보기 →</a>
+  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">👁️ AI로 나의 눈썹 관상 무료 분석하기 →</a>
 </div>
 
-<h2 id="eyebrow-shapes">2. 눈썹 모양별 성격과 운세</h2>
-<h3>일자 눈썹: 정직함과 리더십</h3>
-<p>강직하고 솔직한 성품으로 맡은 바 책임을 다하는 유형입니다. 추진력이 뛰어나 리더의 위치에 오르는 경우가 많으나, 때로는 융통성이 부족해 보일 수 있습니다.</p>
-<h3>초승달 눈썹: 예술성과 인덕</h3>
-<p>부드러운 곡선을 그리는 눈썹은 감수성이 풍부하고 대인관계가 매우 유연합니다. 인기가 많은 연예인이나 예술가들에게서 자주 보이며, 주변의 도움으로 자수성가하는 관상입니다.</p>
-<h3>위로 치솟은 눈썹(검썹): 투지와 결단력</h3>
-<p>강한 투지와 에너지를 상징합니다. 경쟁이 치열한 분야에서 승리하는 기운이 강하며, 불의를 참지 못하는 정의로운 성격이 특징입니다.</p>
+<h2 id="eyebrow-shapes">2. 눈썹 모양별 성격과 운세 분석</h2>
+<h3>황제 눈썹(왕자미): 리더 중의 리더</h3>
+<p>수평으로 뻗다가 끝이 살짝 올라가는 형태입니다. 어느 조직에서도 자연스럽게 리더로 인정받는 관상이며, 판단력과 평정심을 함께 갖추어 명예운이 강합니다.</p>
+<h3>서수 눈썹(서수미): 의지와 추진력</h3>
+<p>앞쪽으로 끝이 꺾이며 올라가는 형태입니다. 사업가 기질로 경쟁 환경에서 존재감을 발휘하지만, 고집스러운 면이 있어 대인관계에서 유연성이 필요합니다.</p>
+<h3>주형 눈썹(주형미): 예술성과 공감 능력</h3>
+<p>활처럼 둥글게 굽은 형태입니다. 감수성이 풍부하고 창의적인 직업과 인간 중심적 환경에서 개화합니다. 다만 갈등을 내면화하는 경향이 있어 적극적 소통이 필요합니다.</p>
+<h3>일자 눈썹: 원칙과 신뢰</h3>
+<p>수평으로 일직선인 형태입니다. 원칙과 신념이 뚜렷하고 공식적인 업무에 능합니다. 유연성이 다소 부족하여 대인관계에서 마찰이 생길 수 있습니다.</p>
 
-<h2 id="grooming-luck">3. 눈썹 관리를 통한 개운법</h2>
-<p>눈썹은 관상학적으로 '인위적인 교정'이 가장 효과적인 부위입니다. 미간 사이의 잔털을 정리하여 '명궁(운이 들어오는 통로)'을 깨끗하게 하는 것만으로도 막혔던 운이 풀리기 시작합니다. 자신의 사주나 직업에 맞는 눈썹 모양으로 다듬는 것은 현대적인 관상 개운법의 핵심입니다.</p>
+<h2 id="grooming-luck">3. 눈썹 관리를 통한 개운법: 명궁(明宮) 정리</h2>
+<p>관상학에서 눈썹은 '인위적 교정'이 가장 효과적인 부위입니다. 미간 잔털을 정리하여 '명궁(明宮, 밝은 기운이 들어오는 통로)'을 깨끗하게 하는 것만으로도 막혔던 운이 풀리기 시작합니다. 좁은 미간은 스트레스와 폐쇄적 인상을 주므로, 미간 잔털 제거만으로도 대인 관계에서 훨씬 열린 인상을 만들 수 있습니다.</p>
+<p>눈썹을 정리할 때는 자신에게 잘 맞는 형태를 찾는 것이 중요합니다. 눈썹 아치를 살리면 친근하고 따뜻한 인상을, 일자에 가깝게 다듬으면 신뢰감이 강조됩니다. 자신의 사주(四柱)와 직업적 목표에 맞는 눈썹 형태를 선택하는 것이 현대 관상 경영의 핵심입니다.</p>
 
-<h2 id="conclusion">4. 결론: 눈썹은 인생의 지붕입니다</h2>
-<p>눈썹은 당신의 감정과 에너지를 보호하는 지붕입니다. 깨끗하고 단정하게 관리된 눈썹은 타인에게 신뢰감을 주고 당신의 기운을 안정시킵니다. 거울을 보고 당신의 눈썹을 정성껏 보듬어 보세요. 당신의 인간관계와 운세가 새롭게 열릴 것입니다.</p>
+<h2 id="eyebrow-gisaek">4. 눈썹 기색: 현재 운세를 읽는 실시간 지표</h2>
+<p>눈썹 부위가 회색빛으로 어두워지면 직장 내 갈등과 형제·동료 마찰에 주의가 필요합니다. 눈썹 부위에 밝고 명랑한 윤기가 흐르면 주변의 강력한 귀인과 지지가 다가오고 있다는 신호입니다. 눈썹 아래 눈두덩이가 부어 있거나 어둡게 보이면 과로와 수면 부족 상태로, 이 시기는 새로운 도전보다 회복에 집중하는 것이 현명합니다.</p>
+
+<h2 id="conclusion">5. 결론: 눈썹은 인생의 지붕이자 운의 다리</h2>
+<p>눈썹은 당신의 감정과 에너지를 보호하는 지붕입니다. 깨끗하고 단정하게 관리된 눈썹은 타인에게 신뢰감을 주고 당신의 기운을 안정시킵니다. 눈썹을 다듬는 5분이 그날의 첫인상과 대인 관계를 결정짓는 관상 경영의 시작입니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p>[내부링크: 20번: 얼굴의 점 관상 - 복점과 흉점 구분하는 법]</p>
-  <p>[내부링크: 16번: 관상학 입문 - 이목구비 기초 가이드]</p>
+  <p><a href="/ko/gwansang/mole-reading" style="text-decoration: underline; color: #f9d976;">[내부링크: 얼굴의 점 관상 - 복점과 흉점 구분하는 법]</a></p>
+  <p><a href="/ko/gwansang/intro" style="text-decoration: underline; color: #f9d976;">[내부링크: 관상학 입문 - 이목구비 기초 가이드]</a></p>
 </div>
 </section>
     `,
     contentEn: `
 <section>
-<p>In Korean Gwansang, eyebrows are known as the "Palace of Longevity" and the "Palace of Siblings." They act as the roof of the face, protecting the energy of the eyes and indicating your social standing and leadership potential. This expert guide explores how the shape, thickness, and length of your eyebrows reveal your destiny.</p>
+<p>In Korean Gwansang, eyebrows are called the "Palace of Longevity" and the "Palace of Siblings." They act as the roof of the face, governing social fortune, leadership potential, and the quality of support you receive from others. Eastern court advisors reportedly read eyebrows before accepting subordinates. This guide decodes eyebrow types, density, and the critical space between the brows to reveal what your face broadcasts about your leadership, trustworthiness, and fortune trajectory.</p>
 
-<h2 id="eyebrow-meaning">1. Length and Texture: Indicators of Social Luck</h2>
-<p>Ideally, eyebrows should be longer than the eyes and have a smooth texture. Long eyebrows suggest wisdom and strong support from friends and family, while a smooth texture indicates emotional stability and smooth social interactions.</p>
+<h2 id="eyebrow-meaning">1. Length and Texture: The Social Capital Indicators</h2>
+<p>Eyebrows extending beyond the outer corner of the eye indicate strong social capital — a network of supporters and timely mentors arriving at key moments. Brows that stop short of the eye corner suggest a more self-reliant path, where success comes through individual effort rather than collaborative support. Brow hairs lying flat and aligned signal emotional stability. Hairs standing upright indicate an independent, contrarian personality that excels alone but generates friction in teams.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">👁️ Analyze Your Eyebrow Luck via AI →</a>
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">👁️ Analyze Your Eyebrow Fortune via AI →</a>
 </div>
 
-<h2 id="conclusion">2. Conclusion: Grooming Your Fortune</h2>
-<p>Eyebrows are one of the few features you can easily modify to improve your luck. Keeping the space between your brows (the Myung-gung) clean allows positive energy to flow into your life.</p>
+<h2 id="eyebrow-shapes">2. The Four Core Eyebrow Types</h2>
+<h3>The Soaring Wing (展翼型): The Leader's Brow</h3>
+<p>Horizontal at the medial end, gently tapering upward toward the temple. The most auspicious leadership brow — recognized as a natural authority figure across contexts. Strong honor and career fortune, combining decisive judgment with composure.</p>
+<h3>The Ascending Warrior (上昇型): The Entrepreneur's Brow</h3>
+<p>Rising steeply toward the outer corner with a sharp terminus. Strong-willed, competitive, and highly effective in independent or entrepreneurial work. Can create friction through stubbornness in collaborative settings.</p>
+<h3>The Crescent (弓形型): The Artist's Brow</h3>
+<p>A rounded, bow-like curve. Emotionally intelligent, artistically inclined, and naturally popular. Thrives in human-centered, creative professions. May internalize conflict rather than addressing it directly.</p>
+<h3>The Straight Line (一字型): The Principled Brow</h3>
+<p>Level and horizontal with minimal arch. Reliable, principled, and rule-oriented. Excellent in formal structures but can be perceived as inflexible in fluid interpersonal dynamics.</p>
+
+<h2 id="grooming-luck">3. The Myung-gung (明宮): Your Most Adjustable Fortune Variable</h2>
+<p>The interocular space — the Myung-gung, or "palace of brightness" — is the single most adjustable feature in Gwansang. A wide, clean, wrinkle-free Myung-gung signals open-minded receptivity and active positive energy flow. A narrow, furrowed Myung-gung signals high stress load and compressed thinking. Clearing stray hairs from the bridge, practicing facial relaxation exercises, and consciously releasing brow tension are the most direct ways to improve your Gwansang in the near term — and to project a more approachable energy immediately.</p>
+
+<h2 id="eyebrow-gisaek">4. Brow Color: The Real-Time Fortune Reading</h2>
+<p>In short-term fortune readings, brow color takes precedence over shape. A grayish, dull brow area signals current professional friction and potential conflicts with colleagues or siblings. A bright, clear luminosity signals incoming strong support — a mentor or strategic ally is approaching. A swollen or shadowed under-brow area indicates overwork and inadequate rest; Gwansang practitioners read this as a consolidation period rather than a time for new ventures.</p>
+
+<h2 id="conclusion">5. The Takeaway: Five Minutes That Shape Your Day</h2>
+<p>Defined brow lines, a cleared Myung-gung, and a habitually relaxed brow expression consistently produce better first impressions — in job interviews, business pitches, and first dates alike. Gwansang documented this centuries before social psychology confirmed the same findings through experiment. Your eyebrows are the most modifiable element of your fortune face. Start there.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/gwansang/mole-reading" style="text-decoration: underline; color: #f9d976;">[Read Next] Moles and Fortune: Korean Face Reading's Guide to Facial Moles</a></p>
+  <p><a href="/en/gwansang/intro" style="text-decoration: underline; color: #f9d976;">[Read Next] Korean Face Reading 101: The Complete Beginner's Guide to Gwansang</a></p>
+</div>
 </section>
     `,
     toc: [
@@ -262,7 +338,7 @@ export const gwansangPosts: BlogPost[] = [
     category: 'face-reading',
     contentKo: `
 <section>
-<p>관상학에서 가장 변화무쌍하면서도 중요한 요소는 바로 '기색(氣色)'입니다. 이목구비의 형태가 집의 구조라면, 기색은 그 집안을 채우고 있는 공기와 조명과 같습니다. 얼굴색이 맑고 윤기가 나면 운이 트이고 건강하다는 신호이고, 어둡고 탁하면 운이 막히고 질병이 올 수 있다는 예보입니다. 이 글에서는 얼굴의 부위별 색깔을 통해 내 몸의 건강과 현재의 운세를 진단하는 3,000자 전문 찰색법을 소개합니다.</p>
+<p>관상학에서 가장 변화무쌍하면서도 중요한 요소는 바로 '기색(氣色)'입니다. 이목구비의 형태가 집의 구조라면, 기색은 그 집안을 채우고 있는 공기와 빛입니다. 얼굴색이 맑고 윤기가 나면 운이 트이고 건강하다는 신호이고, 어둡고 탁하면 운이 막히고 질병이 올 수 있다는 예보입니다. 관상학 고전에서는 "형태가 좋은 것은 색이 좋은 것만 못하다"라고 할 정도로 기색을 중시했습니다. 이 글에서는 얼굴의 부위별 색깔을 통해 내 몸의 건강과 현재의 운세를 진단하는 전문 찰색법(察色法)을 상세히 소개합니다.</p>
 
 <h2 id="vitality-glow">1. 기색(氣色)이란 무엇인가? 운명의 일기예보</h2>
 <p>기색은 피부 속에서 우러나오는 빛깔을 말합니다. 관상학의 고전에서는 "형태가 좋은 것은 색이 좋은 것만 못하다"라고 할 정도로 기색을 중시했습니다.</p>
@@ -284,31 +360,71 @@ export const gwansangPosts: BlogPost[] = [
   <li><strong>턱과 인중(신장):</strong> 이 부위가 어둡고 탁하면 호르몬 균형이나 신장 기능이 약해졌을 가능성이 큽니다.</li>
 </ul>
 
-<h2 id="improving-glow">3. 기색을 살려 운을 바꾸는 습관</h2>
-<p>나쁜 기색을 바꾸는 가장 빠른 방법은 충분한 수면과 균형 잡힌 식단입니다. 하지만 심리적인 안정 역시 매우 중요합니다. 자주 웃고 긍정적인 생각을 하면 안면 근육이 이완되면서 미세혈관의 흐름이 좋아져 얼굴에 '복스러운 광택'이 살아납니다. 이것이 바로 관상학에서 말하는 최고의 화장법이자 개운법입니다.</p>
+<h2 id="improving-glow">3. 기색을 살려 운을 바꾸는 7가지 습관</h2>
+<p>나쁜 기색을 개선하는 가장 확실한 방법들을 정리합니다.</p>
+<ul>
+  <li><strong>수면 7~8시간 확보:</strong> 기색이 가장 극적으로 개선되는 첫 번째 방법입니다. 수면 부족은 눈 주변 다크서클과 전반적인 회색 기운의 주요 원인입니다.</li>
+  <li><strong>충분한 수분 섭취:</strong> 하루 1.5~2L의 물 섭취는 피부 속 혈액 순환을 원활하게 하여 기색을 밝게 합니다.</li>
+  <li><strong>미소 습관:</strong> 웃는 표정을 유지하면 안면 근육이 이완되고 미세혈관 혈류가 개선되어 얼굴에 생기가 돌기 시작합니다.</li>
+  <li><strong>규칙적인 유산소 운동:</strong> 달리기·수영·자전거 등으로 심폐 기능을 강화하면 안색이 2~3주 안에 눈에 띄게 밝아집니다.</li>
+  <li><strong>균형 잡힌 식단:</strong> 녹황색 채소와 발효식품을 늘리면 장건강과 피부 기색이 동시에 개선됩니다.</li>
+  <li><strong>스트레스 관리:</strong> 명상 또는 복식호흡을 10분씩 실천하면 코르티솔 수치가 낮아지고 기색이 안정됩니다.</li>
+  <li><strong>명궁·이마 관리:</strong> 미간 부위를 깨끗하게 유지하고 이마가 막히지 않도록 과도한 앞머리를 피하면 운의 통로가 열립니다.</li>
+</ul>
 
-<h2 id="conclusion">4. 결론: 빛나는 얼굴이 행운을 부릅니다</h2>
-<p>당신의 얼굴색은 지금 당신이 어떤 삶을 살고 있는지 보여주는 가장 정직한 지표입니다. 매일 아침 거울을 보며 자신의 기색을 살피는 습관을 들여보세요. 맑고 투명한 얼굴빛을 유지하려 노력하는 과정에서 당신의 건강과 운명은 자연스럽게 행운의 궤도에 진입하게 될 것입니다.</p>
+<h2 id="five-element-colors">4. 오행(五行)으로 보는 이상적인 기색</h2>
+<p>관상 고전에서는 다섯 가지 기색을 오행에 대응시킵니다. <strong>청(靑·목기운)</strong>은 간과 눈 건강, <strong>적(赤·화기운)</strong>은 심장과 이마·혈색, <strong>황(黃·토기운)</strong>은 비위와 코 주변, <strong>백(白·금기운)</strong>은 폐와 양 볼, <strong>흑(黑·수기운)</strong>은 신장과 인중·턱과 연결됩니다. 이 다섯 부위의 색이 모두 맑고 조화로우면 오장이 건강하고 오행이 균형 잡힌 최상의 운세 상태입니다.</p>
+
+<h2 id="conclusion">5. 결론: 매일 아침 거울이 보내는 건강·운세 신호</h2>
+<p>당신의 얼굴색은 지금 당신이 어떤 삶을 살고 있는지 보여주는 가장 정직한 지표입니다. 매일 아침 거울을 보며 자신의 기색을 살피는 습관을 들이세요. 맑고 투명한 얼굴빛을 유지하려 노력하는 과정에서 당신의 건강과 운명은 자연스럽게 행운의 궤도에 진입하게 될 것입니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p>[내부링크: 22번: 5년 후 나의 성공운 자가진단법]</p>
-  <p>[내부링크: 16번: 관상학 기초 - 얼굴 부위별 명칭과 의미]</p>
+  <p><a href="/ko/gwansang/self-diagnosis" style="text-decoration: underline; color: #f9d976;">[내부링크: 5년 후 나의 성공운 자가진단법]</a></p>
+  <p><a href="/ko/gwansang/intro" style="text-decoration: underline; color: #f9d976;">[내부링크: 관상학 기초 - 얼굴 부위별 명칭과 의미]</a></p>
 </div>
 </section>
     `,
     contentEn: `
 <section>
-<p>The most dynamic element of Gwansang is "Gi-saek" (Skin Tone and Energy). If facial features are the structure of a house, Gi-saek is the light and atmosphere within. A clear, glowing complexion indicates rising fortune and health, while a dull, dark tone warns of obstacles and illness. This guide teaches you how to read your body's health and current luck through the glow of your face.</p>
+<p>Of all the elements that Gwansang tracks, Gi-saek — the luminous quality radiating from beneath the skin — is both the most variable and the most revealing. Features like bone structure are fixed. Gi-saek changes week by week, reflecting your current health, stress load, emotional state, and the direction your fortune is moving. This guide teaches you to read your face's real-time health and fortune signal through the lens of Korean Gi-saek diagnostics.</p>
 
-<h2 id="vitality-glow">1. What is Gi-saek? The Weather Forecast of Destiny</h2>
-<p>Gi-saek refers to the subtle light emanating from beneath the skin. A healthy golden or pinkish glow suggests success and abundance, reflecting a harmonious flow of vital energy throughout the body.</p>
+<h2 id="vitality-glow">1. What Is Gi-saek? Your Face's Operational Status Report</h2>
+<p>Gi-saek is not makeup. It's not skin texture. It's the quality of light that seems to come from within — what photographers call inner luminosity and what Korean medicine has mapped diagnostically for centuries. A warm golden-pink glow across the face indicates that the five organ systems are balanced, blood circulation is strong, and the fortune trajectory is rising. A gray-black or bluish-gray overlay signals organ fatigue, energy depletion, and a fortune period where consolidation is wiser than expansion.</p>
+<h3>The Golden Glow: The Most Auspicious Signal</h3>
+<p>A subtle golden-yellow luminosity — not jaundiced yellow, but warm honey-gold — indicates peak vitality and actively rising financial fortune in Gwansang. When this appears across the nose, cheeks, and forehead simultaneously, practitioners call it the "three-zone accord," a reading associated with major positive life events within three to six months.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🩺 Diagnose Your Health via Face Reading →</a>
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🩺 Get Your Face Health Reading via AI →</a>
 </div>
 
-<h2 id="conclusion">2. Conclusion: A Glowing Face Attracts Fortune</h2>
-<p>Your skin tone is an honest indicator of your current lifestyle and mindset. By maintaining internal health and emotional peace, you can cultivate a "lucky glow" that attracts opportunities and well-being.</p>
+<h2 id="organ-health">2. Zone-by-Zone Health Diagnostics</h2>
+<p>Korean medicine and Gwansang share the same organ-face mapping system:</p>
+<ul>
+  <li><strong>Forehead (Heart/Small Intestine):</strong> Persistent redness or heat in the forehead indicates cardiovascular stress or emotional overload. A clear, moderately bright forehead indicates good circulatory health.</li>
+  <li><strong>Nose Tip (Spleen/Stomach):</strong> Redness, pimples, or enlarged pores on the nose tip signal digestive system overload. This is the face's most direct indicator of dietary imbalance.</li>
+  <li><strong>Eye Surrounds (Liver/Gallbladder):</strong> Bluish tone or deep dark circles around the eyes indicate liver fatigue and impaired blood detoxification — often linked to alcohol, late nights, and excessive screen time.</li>
+  <li><strong>Cheeks (Lung/Large Intestine):</strong> Patchy redness or persistent dullness in the cheek zone relates to respiratory function and gut health.</li>
+  <li><strong>Chin and Philtrum (Kidney/Reproductive):</strong> A dark, grayish chin area indicates hormonal imbalance or kidney energy depletion — particularly relevant for those experiencing chronic fatigue or reproductive health issues.</li>
+</ul>
+
+<h2 id="improving-glow">3. Seven Practices That Restore Your Gi-saek</h2>
+<ul>
+  <li><strong>7–8 Hours Sleep:</strong> The single highest-impact intervention. Sleep is when the face regenerates its luminosity most rapidly.</li>
+  <li><strong>Hydration (1.5–2L daily):</strong> Directly improves microcirculation and the skin's light-transmission quality.</li>
+  <li><strong>Genuine Smiling:</strong> Relaxes facial musculature, improves microvascular flow, and brightens the overall complexion within days of consistent practice.</li>
+  <li><strong>Aerobic Exercise:</strong> Running, swimming, and cycling improve cardiovascular output, visibly brightening complexion within 2–3 weeks.</li>
+  <li><strong>Fermented foods and greens:</strong> Gut microbiome improvements translate directly to skin luminosity improvements.</li>
+  <li><strong>Stress management:</strong> Chronic cortisol production suppresses skin cell regeneration. Ten minutes of diaphragmatic breathing daily measurably reduces cortisol output.</li>
+  <li><strong>Myung-gung management:</strong> Keeping the interocular space clear of hair and habitual tension allows the face's energy channel to remain open — the practical implementation of the Gwansang principle.</li>
+</ul>
+
+<h2 id="conclusion">4. Conclusion: Your Mirror Is Your Daily Fortune Report</h2>
+<p>Every morning, your face is sending a diagnostic signal. Learning to read Gi-saek gives you a daily, real-time health and fortune status update that no calendar or horoscope can match. The practices that produce excellent Gi-saek — adequate sleep, movement, nutrition, stress management, and genuine positive expression — are not metaphysical. They're the most direct evidence-based path to both improved health and a more favorable fortune presentation.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/gwansang/self-diagnosis" style="text-decoration: underline; color: #f9d976;">[Read Next] DIY Gwansang: 5-Year Fortune Self-Diagnosis Guide</a></p>
+  <p><a href="/en/gwansang/intro" style="text-decoration: underline; color: #f9d976;">[Read Next] Gwansang 101: Complete Beginner's Guide to Korean Face Reading</a></p>
+</div>
 </section>
     `,
     toc: [
@@ -348,51 +464,84 @@ export const gwansangPosts: BlogPost[] = [
     category: 'face-reading',
     contentKo: `
 <section>
-<p>얼굴에 있는 점 하나를 두고 “빼야 할까, 말아야 할까?” 고민해 본 적 있으신가요? 관상학에서 점은 '대지의 산 위에 솟은 바위'나 '하늘의 별'에 비유됩니다. 적절한 위치에 맑고 뚜렷하게 박힌 점은 인생의 행운을 극대화하는 '복점'이 되지만, 탁하고 지저분한 위치의 점은 운의 흐름을 방해하는 '흉점'이 되기도 합니다. 이 글에서는 얼굴 부위별 점의 의미와 개운을 위한 점 관리법을 3,000자 전문 해설로 다룹니다.</p>
+<p>얼굴의 점 하나를 두고 "빼야 할까, 말아야 할까?" 고민해 본 적 있으신가요? 관상학에서 점은 '대지의 바위'이자 '하늘의 별'에 비유됩니다. 적절한 위치에 칠흑처럼 맑고 뚜렷하게 박힌 점은 인생의 행운을 극대화하는 '복점(福點)'이 되지만, 탁하고 흐릿한 점은 운의 흐름을 방해하는 '흉점(凶點)'이 되기도 합니다. 이 글에서는 얼굴 부위별 점의 관상학적 의미와 개운을 위한 점 관리법을 전문 칼럼으로 상세히 다룹니다.</p>
 
-<h2 id="good-moles">1. 인생을 빛나게 하는 대표적인 복점(福點)</h2>
-<p>좋은 점은 색깔이 칠흑처럼 검거나 아주 붉어야 하며, 윤기가 흐르고 형태가 뚜렷해야 합니다.</p>
+<h2 id="good-moles">1. 인생을 빛나게 하는 대표 복점(福點)</h2>
+<p>복점의 핵심 조건은 <strong>①색이 칠흑처럼 검거나 선명히 붉을 것, ②윤기가 흐를 것, ③형태가 뚜렷하게 솟아 있을 것</strong>입니다. 흐릿하거나 평평한 점은 같은 위치라도 복점보다는 흉점에 가깝습니다.</p>
 <h3>코끝의 점: 재물운의 정점</h3>
-<p>콧망울이나 코끝에 있는 점은 강력한 재물운을 상징합니다. 특히 중년 이후에 큰 부를 거머쥘 수 있는 관상으로 봅니다. 다만, 코의 기색이 나쁜 상태에서 점만 있다면 재물이 나가는 신호일 수 있으니 주의 깊게 살펴야 합니다.</p>
-<h3>입술 주변의 점: 식복과 인덕</h3>
-<p>입술 주변, 특히 인중 근처나 입꼬리에 있는 점은 평생 먹을 복이 끊이지 않고 주변 사람들에게 대접받는 관상입니다. 화술이 뛰어나 인기를 얻는 연예인이나 강사들에게서 자주 발견됩니다.</p>
+<p>콧망울이나 코끝(준두)에 있는 점은 강력한 재물운을 상징합니다. 특히 중년 이후에 큰 부를 거머쥘 수 있는 관상으로 봅니다. 코의 기색이 맑은 상태에서 점까지 있으면 금상첨화지만, 코끝 기색 자체가 어두운 상태에서 점만 있다면 재물이 나가는 위험 신호일 수 있습니다.</p>
+<h3>입술 주변·인중의 점: 식복과 인덕</h3>
+<p>입술 주변, 특히 인중 근처나 입꼬리에 있는 점은 평생 먹을 복이 끊이지 않고 주변에 지지자가 많은 관상입니다. 화술이 뛰어나 인기를 얻는 연예인·강연가·영업전문가에게서 자주 발견됩니다. 입꼬리 위쪽의 점은 특히 이성 매력과 연애운을 높이는 '연정점'으로도 불립니다.</p>
+<h3>눈썹 끝의 점: 귀인과 형제운</h3>
+<p>눈썹 꼬리 부분에 있는 점은 귀인(貴人)의 도움과 형제·동료와의 좋은 관계를 상징합니다. 특히 직장인이나 사업가에게는 상사나 파트너의 강력한 지지를 받는 행운의 점으로 봅니다.</p>
+<h3>귀 안쪽 또는 귓불의 점: 수명과 복덕</h3>
+<p>귀 안쪽이나 귓불에 있는 점은 수명이 길고 말년에 복록이 넉넉한 상징입니다. 쉽게 보이지 않는 위치에 있는 점은 남에게 드러내지 않는 깊은 복을 나타낸다고 봅니다.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🌑 내 얼굴의 점이 복점일까? 무료 확인하기 →</a>
+  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🌑 내 얼굴의 점이 복점인지 무료 확인하기 →</a>
 </div>
 
 <h2 id="bad-moles">2. 주의와 관리가 필요한 흉점(凶點)</h2>
-<p>흉점은 주로 눈물점(눈 밑), 미간 사이, 혹은 뺨 중앙에 흩어져 있는 흐릿한 점들을 말합니다.</p>
-<h3>눈 밑의 점: 이별과 슬픔의 눈물점</h3>
-<p>눈 아래 부위인 '와잠'에 있는 점은 자녀운이 약하거나 부부 관계에서 갈등이 생길 수 있음을 암시합니다. 감수성이 풍부하여 눈물이 많다는 의미도 있으나, 관상학적으로는 깨끗하게 제거하는 것이 감정의 기복을 줄이고 운을 안정시키는 데 도움이 됩니다.</p>
-<h3>미간 사이의 점: 운로의 장애물</h3>
-<p>미간(명궁)은 운이 들어오는 통로입니다. 이곳에 점이 있으면 인생의 중요한 순간에 장애물이 생기거나 판단력이 흐려질 수 있다고 봅니다. 미간은 항상 깨끗하고 밝게 유지하는 것이 최고의 개운법입니다.</p>
+<p>흉점은 주로 탁하고 흐릿하며 피부와 경계가 불분명한 것들입니다. 같은 위치라도 점의 상태에 따라 복점과 흉점이 바뀔 수 있습니다.</p>
+<h3>눈 밑의 점: 이별과 눈물의 점</h3>
+<p>눈 아래 부위인 '와잠(臥蠶)'에 있는 점은 자녀운이 약하거나 부부 관계에서 갈등이 생길 수 있음을 암시합니다. '눈물점'이라고도 불리는 이 점은 감수성이 풍부하고 이별을 경험할 가능성이 높다는 의미이기도 합니다. 관상학적으로는 깨끗하게 제거하면 감정의 기복이 줄고 가족 운이 안정되는 경우가 많습니다.</p>
+<h3>미간(명궁)의 점: 운로의 장애물</h3>
+<p>미간은 '명궁(明宮)'이라 하여 운이 들어오는 핵심 통로입니다. 이곳에 점이 있으면 인생의 중요한 분기점에서 예상치 못한 장애물이 생기거나 판단력이 흐려질 수 있습니다. 미간은 항상 깨끗하고 밝게 유지하는 것이 최고의 개운법입니다.</p>
+<h3>코끝 정중앙의 점: 재물 분산</h3>
+<p>코끝 정중앙에 있는 점은 재물이 모아지지 않고 지속적으로 분산될 수 있음을 의미합니다. 투자나 창업보다 안정적인 저축과 절약이 필요한 유형입니다.</p>
+<h3>이마의 점: 초년의 고충</h3>
+<p>이마 정중앙이나 관록궁(눈썹 위)에 있는 점은 초년의 어려움이나 직업 변동이 잦음을 암시합니다. 그러나 이마 측면의 점은 초년에 강력한 지지자나 귀인을 만나는 복점으로도 해석합니다.</p>
 
-<h2 id="mole-removal">3. 점 빼기와 관상 개운</h2>
-<p>흉점을 뺀다고 해서 모든 문제가 해결되는 것은 아니지만, 심리적인 자신감을 얻고 얼굴의 전체적인 기색을 밝게 하는 효과는 분명히 있습니다. 특히 나쁜 위치의 점을 제거한 뒤 긍정적인 마음가짐으로 생활하면, 실제로 운의 흐름이 긍정적으로 바뀌는 것을 경험할 수 있습니다.</p>
+<h2 id="mole-removal">3. 점 빼기와 관상 개운: 과학과 관상의 만남</h2>
+<p>흉점을 뺀다고 해서 모든 문제가 해결되는 것은 아닙니다. 하지만 심리적 자신감을 얻고 얼굴의 전체적인 기색을 밝게 하는 효과는 분명히 있습니다. 특히 눈 밑 눈물점이나 미간 점을 제거한 뒤 긍정적인 마음가짐으로 생활하면, 실제로 운의 흐름이 긍정적으로 변화하는 것을 경험하는 사례가 많습니다.</p>
+<p>점을 뺄 때는 전문 피부과에서 레이저 시술을 받는 것이 가장 안전합니다. 관상학적으로 점을 제거하기 좋은 시기는 운세가 상승하는 시기, 즉 기색이 맑고 생기 있을 때입니다. 운세가 내려가는 시기에 점을 빼면 오히려 자신감이 떨어질 수 있으니 주의가 필요합니다.</p>
 
-<h2 id="conclusion">4. 결론: 점은 당신의 개성입니다</h2>
-<p>모든 점을 뺄 필요는 없습니다. 당신의 매력을 돋보이게 하는 점은 그 자체로 훌륭한 복점입니다. 자신의 점이 어떤 의미인지 이해하고, 흉점은 다스리고 복점은 살리는 지혜로운 관리로 당신의 운명을 밝게 가꾸어 보세요.</p>
+<h2 id="conclusion">4. 결론: 점은 당신의 독특한 코드입니다</h2>
+<p>모든 점을 뺄 필요는 없습니다. 당신의 매력을 돋보이게 하는 점은 그 자체로 훌륭한 복점입니다. 자신의 점이 어떤 의미인지 이해하고, 흉점은 제거·관리하고 복점은 살리는 지혜로운 관리로 당신의 운명을 밝게 가꾸어 보세요. 관상학은 당신의 점 하나를 통해 삶 전체를 더 깊이 읽어내는 인생의 나침반입니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p>[내부링크: 17번: 부자가 되는 관상 - 재물운의 모든 것]</p>
-  <p>[내부링크: 18번: 눈썹 관상 - 리더십과 인간관계 분석]</p>
+  <p><a href="/ko/gwansang/wealth-face" style="text-decoration: underline; color: #f9d976;">[내부링크: 부자가 되는 관상 - 재물운의 모든 것]</a></p>
+  <p><a href="/ko/gwansang/eyebrow-reading" style="text-decoration: underline; color: #f9d976;">[내부링크: 눈썹 관상 - 리더십과 인간관계 분석]</a></p>
 </div>
 </section>
     `,
     contentEn: `
 <section>
-<p>Have you ever wondered if the mole on your face is bringing you luck or holding you back? In Gwansang, moles are compared to stars in the sky—their position and color tell a story of your destiny. A clear, well-placed mole can be a "Lucky Mole" (Bok-jeom), while a dull or misplaced one may be an "Obstacle Mole" (Hyung-jeom). This guide explores the meanings of facial moles and how managing them can improve your fortune.</p>
+<p>Have you ever looked at a mole on your face and wondered: is this thing helping me or hurting me? In Korean Gwansang, moles are treated the way astronomers treat stars — their position, color, and clarity tell a specific story. A well-placed, jet-black, defined mole is a "Bok-jeom" (Fortune Mole), amplifying the luck of the zone it sits in. A dull, flat, or poorly positioned mole is a "Hyung-jeom" (Obstacle Mole), disrupting energy flow in that life domain. This guide maps the most significant mole positions on the face and what they mean for wealth, love, health, and longevity.</p>
 
-<h2 id="good-moles">1. Lucky Moles: Attracting Success and Wealth</h2>
-<p>Moles on the tip of the nose or near the lips are traditionally associated with wealth and social abundance. A mole on the nose tip indicates a natural flair for financial gain, while moles near the mouth suggest a lifelong gift for food and conversation.</p>
+<h2 id="good-moles">1. Fortune Moles: The Positions That Amplify Luck</h2>
+<p>A mole qualifies as a "Bok-jeom" when it satisfies three conditions: it is jet-black or vivid red, it has visible surface sheen, and it has a clearly raised, defined edge. Flat, grayish, or indistinct moles in the same positions lean toward obstacle classification.</p>
+<h3>Nose Tip Mole: The Wealth Amplifier</h3>
+<p>A mole on the nose tip or flanges (the wealth palace) is one of the most valued fortune moles in Gwansang. It indicates a natural flair for financial gain, particularly amplifying mid-life wealth accumulation. Caveat: if the nose area's overall Gi-saek is dull, the mole may be signaling financial outflow rather than inflow. The zone must glow to activate the mole's positive reading.</p>
+<h3>Mouth Corner and Philtrum Mole: The Social Magnet</h3>
+<p>A mole near the mouth corners or philtrum indicates lifelong food fortune and strong social magnetism. These individuals attract generous, supportive people throughout their lives. A mole at the upper lip corner is specifically called a "love mole" — associated with strong romantic appeal and attraction.</p>
+<h3>Eyebrow Tail Mole: The Mentor Attractor</h3>
+<p>A mole at the outer edge of the eyebrow signals strong support from mentors, siblings, and colleagues. Particularly favorable for careers in corporate or collaborative environments where senior support drives advancement.</p>
+<h3>Ear and Earlobe Mole: Longevity and Hidden Wealth</h3>
+<p>Moles inside the ear or on the earlobe indicate long life and late-life prosperity. Gwansang practitioners note that moles in difficult-to-see locations represent "hidden fortune" — blessings that accumulate quietly over time.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🌑 Check Your Mole Luck via AI Analysis →</a>
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🌑 Check Your Mole Fortune via AI Analysis →</a>
 </div>
 
-<h2 id="conclusion">2. Conclusion: Your Moles, Your Identity</h2>
-<p>Not every mole needs to be removed. Some enhance your charm and energy. By understanding their meanings, you can choose to keep the ones that represent your strengths and manage the ones that might hinder your path.</p>
+<h2 id="bad-moles">2. Obstacle Moles: Positions That Disrupt Energy Flow</h2>
+<h3>Under-Eye Mole: The "Tear Mole"</h3>
+<p>A mole in the Wa-jam zone (under the eye) is called the "tear mole" in Gwansang. It signals susceptibility to family grief, separation, and emotionally turbulent relationships. Practitioners commonly recommend removal, noting that individuals who remove this mole report reduced emotional turbulence and more stable domestic relationships over the following years.</p>
+<h3>Myung-gung (Interocular) Mole: The Fortune Blocker</h3>
+<p>The space between the brows is the primary entry channel for fortune energy. A mole here signals recurring obstacles at major life decision points — the kind that arrive right at a critical moment and redirect the path unexpectedly. Keeping this zone clear (no moles, minimal wrinkles, no stray hairs) is the most universally recommended Gwansang intervention.</p>
+<h3>Nose-Center Mole: The Wealth Disperser</h3>
+<p>A mole dead-center on the nose tip indicates financial energy that accumulates but never consolidates. The pattern is one of consistent earning with equally consistent spending or loss. Stable savings strategies and conservative financial planning are strongly indicated for those with this reading.</p>
+
+<h2 id="mole-removal">3. When and How to Remove Obstacle Moles</h2>
+<p>Gwansang does not prescribe blanket mole removal. The reasoning is practical: removing a mole triggers a psychological reset — it changes how you see yourself, which changes how you present to others. That cascade is genuinely real. Optimal timing for removal, from a Gwansang perspective, is during a period of rising fortune when your Gi-saek is already clear and vital. Removing a mole during a low-energy period may not produce the psychological uplift that makes the intervention most effective.</p>
+
+<h2 id="conclusion">4. Conclusion: Your Moles Are a Personal Fortune Map</h2>
+<p>Not every mole needs removing. Beauty marks that enhance your natural appeal and sit in fortunate positions are exactly what they sound like — assets. The practice is discernment: understand which moles amplify your strengths, which ones sit in positions that deserve attention, and engage with that knowledge consciously. Gwansang reads your face as a map. Your moles are specific coordinates on that map — each one marking something worth paying attention to.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/gwansang/wealth-face" style="text-decoration: underline; color: #f9d976;">[Read Next] The Wealth Face: Reading Financial Fortune from Korean Gwansang</a></p>
+  <p><a href="/en/gwansang/eyebrow-reading" style="text-decoration: underline; color: #f9d976;">[Read Next] Eyebrow Reading: Leadership, Social Fortune, and the Brow Type Guide</a></p>
+</div>
 </section>
     `,
     toc: [

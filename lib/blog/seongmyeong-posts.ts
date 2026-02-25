@@ -258,84 +258,134 @@ export const seongmyeongPosts: BlogPost[] = [
     category: 'seongmyeong',
     contentKo: `
 <section>
-<p>누군가 당신의 이름을 부를 때, 그 소리는 단순한 공기의 진동이 아닙니다. 성명학에서는 이름의 첫 자음 소리가 가진 고유한 오행의 기운이 상대방과 자신에게 전달된다고 봅니다. 이를 ‘소리오행’ 또는 ‘발음오행’이라고 합니다. 이름의 소리가 상생(相生)의 흐름을 타면 인간관계가 순조롭고 사회적 평판이 좋아지지만, 상극(相剋)의 흐름을 타면 불필요한 마찰과 구설수가 따를 수 있습니다. 이 글에서는 한글 자음에 숨겨진 오행의 비밀을 파헤칩니다.</p>
+<p>누군가 당신의 이름을 부를 때, 그 소리는 단순한 공기의 진동이 아닙니다. 수천 년 동안 동양 철학의 정수를 담아온 성명학(姓名學)에서, 이름의 초성이 지닌 고유한 오행의 파동은 음성을 매개로 세상에 퍼져나가며 그 사람의 기운장(氣運場)을 형성합니다. 이를 <strong>소리 오행(음령오행, 音靈五行)</strong>이라 부릅니다. 이름이 불릴 때마다 목(木)·화(火)·토(土)·금(金)·수(水)의 에너지가 주위 환경과 무의식에 파동을 보내고, 그 파동의 조화가 인생의 흐름에 실제로 영향을 미친다는 것이 성명학의 핵심 전제입니다.</p>
+<p>단순한 미신으로 치부하기 어려운 이유가 있습니다. 세종대왕이 훈민정음을 창제할 때, 자음은 발성 기관(어금니·혀·입술·이·목구멍)의 위치와 형태를 본떠 만들었습니다. 이 발성 부위는 동양 의학의 오행 배속과 정확히 일치합니다. 즉, 한글은 탄생부터 오행의 원리를 내포한 과학적 문자임을 뜻합니다. 이 글에서는 소리 오행의 이론적 토대부터 실전 이름 분석법까지, 성명학 전문가의 시각으로 상세히 해설합니다.</p>
 
-<h2 id="consonant-elements">1. 한글 자음별 오행 분류: 내 이름은 어떤 기운일까?</h2>
-<p>한글은 세종대왕이 창제할 당시부터 음양오행의 원리를 담아 만든 과학적인 문자입니다. 성명학에서는 자음의 발음 부위에 따라 오행을 다음과 같이 구분합니다.</p>
+<h2 id="intro-five-elements">소리 오행이란 무엇인가?</h2>
+<p>소리 오행이란 이름을 구성하는 각 음절의 <strong>초성(첫 자음)</strong>이 목·화·토·금·수 가운데 어느 기운에 속하는지를 분류하고, 그 기운들이 서로 상생(相生)·상극(相剋) 관계를 이루는지를 분석하는 이론입니다. 한글의 초성이 발성 기관의 위치에 따라 오행으로 나뉜다는 사실은, 훈민정음 해례본(解例本)에서도 명확히 언급됩니다. 성명학은 바로 이 원리를 이름 분석에 적용한 것입니다.</p>
+<p>중요한 것은 소리 오행이 단순히 '좋은 글자 배합'의 문제가 아니라는 점입니다. 이름이 불릴 때마다 주인의 귀에 반복적으로 들어오는 그 소리는, 무의식적으로 자신감과 정체성에 영향을 줍니다. 심리학에서도 이름 발음의 유창성(name-letter effect)이 자아 인식과 사회적 성과에 영향을 미친다는 연구가 축적되어 있습니다. 동양의 소리 오행 이론은 이보다 훨씬 앞서 이 원리를 직관적으로 파악했던 것입니다.</p>
+
+<h2 id="consonant-classification">한글 초성에 따른 오행 분류</h2>
+<p>성명학에서의 자음 오행 분류는 발성 부위를 기준으로 합니다. 각 오행이 상징하는 기운과 인생 영역도 함께 이해하면 이름 분석이 훨씬 입체적으로 보입니다.</p>
 <ul>
-  <li><strong>목(木) - 어금니소리:</strong> ㄱ, ㅋ (성장, 창의, 인자함)</li>
-  <li><strong>화(火) - 혓소리:</strong> ㄴ, ㄷ, ㄹ, ㅌ (열정, 발산, 예의)</li>
-  <li><strong>토(土) - 입술소리:</strong> ㅁ, ㅂ, ㅍ (안정, 신뢰, 포용)</li>
-  <li><strong>금(金) - 잇소리:</strong> ㅅ, ㅈ, ㅊ (결단, 정의, 날카로움)</li>
-  <li><strong>수(水) - 목구멍소리:</strong> ㅇ, ㅎ (지혜, 유연함, 저장)</li>
+  <li><strong>목(木) — 어금니소리 (아음, 牙音): ㄱ, ㅋ</strong><br>목 기운은 봄의 새싹처럼 성장과 창의성을 상징합니다. 인자함(仁)의 덕목과 연결되며, 학문·교육·창업·예술 분야에서 두각을 나타내는 기운입니다. ㄱ으로 시작하는 이름은 도전 정신과 선구적 리더십을 내포합니다.</li>
+  <li><strong>화(火) — 혓소리 (설음, 舌音): ㄴ, ㄷ, ㄹ, ㅌ</strong><br>화 기운은 여름의 열정 같은 발산과 표현의 에너지입니다. 예(禮)의 덕목과 연결되며, 언변·연예·마케팅·강의 등 사람을 이끌고 영향력을 발휘하는 분야와 어울립니다. ㄹ로 시작하는 이름은 특히 유연하면서도 뜨거운 에너지를 지닙니다.</li>
+  <li><strong>토(土) — 입술소리 (순음, 脣音): ㅁ, ㅂ, ㅍ</strong><br>토 기운은 대지처럼 묵직하고 신뢰를 주는 에너지입니다. 신(信)의 덕목과 연결되며, 부동산·금융·행정·서비스업에서 안정적인 성취를 이룹니다. ㅂ으로 시작하는 이름은 포용력과 끈기를 상징합니다.</li>
+  <li><strong>금(金) — 잇소리 (치음, 齒音): ㅅ, ㅈ, ㅊ</strong><br>금 기운은 가을의 서늘함처럼 결단력과 정의로움을 상징합니다. 의(義)의 덕목과 연결되며, 법조·군경·제조·분석·외과 분야에서 탁월한 능력을 발휘합니다. ㅈ으로 시작하는 이름은 원칙주의적 성향을 강화합니다.</li>
+  <li><strong>수(水) — 목구멍소리 (후음, 喉音): ㅇ, ㅎ</strong><br>수 기운은 깊은 바다처럼 지혜와 유연함을 상징합니다. 지(智)의 덕목과 연결되며, 연구·철학·컨설팅·기획·IT 개발 등 사유와 전략이 핵심인 분야와 잘 맞습니다. ㅎ으로 시작하는 이름은 내면의 깊이와 통찰력을 키웁니다.</li>
 </ul>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">📣 내 이름의 소리 기운 분석하기 →</a>
+  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">📣 내 이름의 소리 기운 무료 분석하기 →</a>
 </div>
 
-<h2 id="harmony-check">2. 상생과 상극: 조화로운 이름의 리듬</h2>
-<p>이름의 성(姓)과 이름 첫 자, 이름 끝 자의 오행이 서로 돕는 관계인지 확인해야 합니다.</p>
-<h3>길(吉)한 조합: 상생의 흐름</h3>
-<p>‘목-화-토’, ‘토-금-수’와 같이 에너지가 순차적으로 흐르는 이름은 삶의 발전 속도가 빠르고 인복이 많습니다. 예를 들어 ‘김(목)나(화)윤(수)’과 같은 이름은 수생목, 목생화의 흐름을 타서 매우 안정적인 기운을 형성합니다.</p>
-<h3>흉(凶)한 조합: 상극의 흐름</h3>
-<p>‘수-화-금’처럼 기운이 서로 부딪히는 이름은 재능은 많으나 결실이 부족하거나, 주변의 시샘을 받기 쉽습니다. 하지만 이런 경우에도 사주 원국에서 해당 기운이 필요하다면 전략적으로 활용하기도 합니다.</p>
+<h2 id="harmony-principles">오행의 상생과 상극 관계</h2>
+<p>소리 오행 분석의 핵심은 성(姓)의 초성 → 이름 첫 글자 초성 → 이름 끝 글자 초성의 흐름이 상생인지, 상극인지를 파악하는 것입니다.</p>
+<h3>상생(相生) — 에너지가 서로를 키운다</h3>
+<p>목생화(木生火) → 화생토(火生土) → 토생금(土生金) → 금생수(金生水) → 수생목(水生木)의 순환이 상생입니다. 이 흐름을 타는 이름은 인복(人福)이 풍성하고 사회적 발복이 빠릅니다. 예를 들어 성씨가 '김(金·목)'이고 이름이 '나(화)윤(수)'이라면, 목→화→수로 이어지는 구조입니다. 목생화까지는 상생이지만, 화→수는 수극화(水剋火)가 아닌 비교적 중립적인 흐름으로 봅니다. 가장 이상적인 구조는 세 글자 모두 순차 상생을 이루는 경우입니다.</p>
+<p>실제 길한 조합 예시:</p>
+<ul>
+  <li><strong>목→화→토:</strong> 창의적 성장의 에너지가 열정으로 발산되고, 안정적인 토대로 결실을 맺습니다. 사업가나 리더에게 이상적입니다.</li>
+  <li><strong>화→토→금:</strong> 뜨거운 에너지가 신뢰로 다져지고, 날카로운 판단력으로 완성됩니다. 법조인·전문직에 어울립니다.</li>
+  <li><strong>수→목→화:</strong> 깊은 사유가 창의적 성장으로 이어지고, 강한 발산력으로 세상에 영향을 미칩니다. 학자·예술가·강연가에 최적입니다.</li>
+</ul>
+<h3>상극(相剋) — 에너지가 서로 부딪힌다</h3>
+<p>목극토(木剋土) → 토극수(土剋水) → 수극화(水剋火) → 화극금(火剋金) → 금극목(金剋木)이 상극 관계입니다. 이름에 상극 구조가 있다고 해서 반드시 나쁜 것은 아닙니다. 사주 원국에서 해당 기운을 억제할 필요가 있는 경우, 오히려 전략적 상극 배치가 균형을 이루기도 합니다. 그러나 일반적으로 상극 이름은 재능은 뛰어나지만 결실이 늦고, 갈등이 잦으며, 인복이 약한 경향이 있습니다.</p>
+<p>주의해야 할 상극 조합:</p>
+<ul>
+  <li><strong>금→목(금극목):</strong> 강한 개성끼리 충돌하는 구조. 리더십은 있으나 주변과의 마찰이 잦습니다.</li>
+  <li><strong>수→화(수극화):</strong> 감성과 이성이 충돌하는 구조. 재능이 많으나 방향을 잡기 어립습니다.</li>
+  <li><strong>화→금(화극금):</strong> 열정이 원칙과 충돌하는 구조. 성취욕이 강하나 소진이 빠릅니다.</li>
+</ul>
 
-<h2 id="modern-application">3. 현대 성명학에서의 소리오행 활용</h2>
-<p>최근에는 글로벌 시대에 맞춰 외국인이 부르기 쉬운 발음이면서도 소리오행이 좋은 이름을 선호합니다. 또한, 연예인이나 정치인처럼 이름이 자주 불리는 직업일수록 소리오행의 파급력이 더욱 커집니다. 이름이 불릴 때마다 긍정적인 파동이 퍼져나가는 것, 그것이 소리오행 작명의 핵심입니다.</p>
+<h2 id="practical-analysis">성명학적 이름 분석의 실제</h2>
+<p>소리 오행은 이름 분석의 출발점입니다. 실전에서는 소리 오행 + 수리81수 + 자원오행(한자 부수)을 종합적으로 검토해야 완전한 성명학 분석이 됩니다. 여기서는 소리 오행에 집중하여 실제 이름으로 분석 과정을 보여드립니다.</p>
+<h3>분석 예시 1: '이수진(李秀珍)'</h3>
+<p>이(李) → 이(ㅇ, 수), 수(秀) → 수(ㅅ, 금), 진(珍) → 진(ㅈ, 금). 흐름: 수→금→금. 수생금(水生金)의 상생으로 시작하지만, 금이 두 번 반복되어 에너지가 한곳에 쏠립니다. 분석 결과: 결단력과 정밀함이 뛰어나고 전문성을 쌓는 데 유리하지만, 수 기운이 과잉되면 지나치게 차갑고 비타협적인 이미지를 줄 수 있습니다. 화(火)나 목(木) 기운의 취미·환경 보완을 권장합니다.</p>
+<h3>분석 예시 2: '박도현(朴道賢)'</h3>
+<p>박(朴) → 박(ㅂ, 토), 도(道) → 도(ㄷ, 화), 현(賢) → 현(ㅎ, 수). 흐름: 토→화→수. 화생토(火生土)가 역방향이고, 화→수는 수극화 구조. 분석 결과: 개성이 강하고 추진력이 있으나 내적 에너지가 충돌할 수 있습니다. 그러나 이 이름이 사주에서 토가 과잉이고 수가 용신인 경우라면, 오히려 균형을 잡아주는 전략적 조합이 됩니다. 이처럼 소리 오행은 반드시 사주와 연계하여 해석해야 합니다.</p>
+<h3>성씨별 상생 이름 찾는 실전 팁</h3>
+<p>성씨의 오행을 먼저 파악한 뒤, 그 다음 흐름을 이어갈 이름을 설계합니다. 예를 들어 성씨가 '최(崔, 금)'라면, 이름 첫 글자는 수(ㅇ·ㅎ) 기운으로 금생수의 흐름을 잡고, 이름 끝 글자는 목(ㄱ·ㅋ)으로 수생목의 순환을 완성합니다. 이 구조가 사주의 용신과도 일치한다면 최고의 이름 구조가 완성됩니다.</p>
 
-<h2 id="conclusion">4. 결론: 이름의 소리가 당신의 길을 만듭니다</h2>
-<p>이름은 매일 수십 번씩 불리는 당신만의 주문(Mantra)과 같습니다. 자신의 이름 속에 어떤 소리의 조화가 담겨 있는지 이해하고, 그 긍정적인 에너지를 믿고 나아갈 때 운명은 더 밝은 곳으로 당신을 안내할 것입니다.</p>
+<h2 id="conclusion">결론: 이름의 소리는 평생의 주문이다</h2>
+<p>이름은 하루에도 수십 번씩 불립니다. 그때마다 오행의 파동이 주인의 무의식과 주변 환경에 스며듭니다. 소리 오행이 상생의 구조를 이룰 때, 그 이름은 주인에게 힘을 주고 주변 사람들에게 긍정적인 첫인상을 만들어냅니다. 반대로 상극 구조가 반복되면, 재능이 있어도 결실이 늦고 불필요한 마찰이 따릅니다.</p>
+<p>오늘 자신의 이름을 소리 오행의 시각으로 다시 들여다보세요. 성씨의 초성에서 시작해 이름의 두 글자가 어떤 오행 흐름을 만드는지 확인하는 것—그것이 성명학적 자기 이해의 첫걸음입니다. 만약 소리 오행에 아쉬운 점이 있다면, 용신이 담긴 색상·방향·직업 환경으로 보완하는 개운법도 병행하면 효과적입니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p>[내부링크: 10번: 성명학 입문 - 이름이 인생에 미치는 영향]</p>
-  <p>[내부링크: 12번: 이름 오행 상생상극 표 보기]</p>
+  <p><a href="/ko/seongmyeong/intro" style="text-decoration: underline; color: #f9d976;">[내부링크: 작명의 기술: 태어난 계절에 부족한 기운을 이름으로 채우기]</a></p>
+  <p><a href="/ko/seongmyeong/baby-naming" style="text-decoration: underline; color: #f9d976;">[내부링크: 자녀 작명 완벽 가이드: 사주 오행과 성명학을 동시에 만족하는 이름 짓기]</a></p>
 </div>
 </section>
     `,
     contentEn: `
 <section>
-<p>When someone calls your name, it's more than just a sound; it's a vibration of energy. In Seongmyeonghak, the first consonant of each syllable in your name carries a specific elemental energy. If these sounds harmonize, your social life and reputation flourish. This guide reveals the secrets of "Sound Elements" hidden in the Korean alphabet.</p>
+<p>Your name is called dozens of times every single day—by coworkers, family members, strangers at the coffee shop. Most people never stop to ask: <em>what is that sound actually doing?</em> In Korean name analysis (Seongmyeonghak), the answer is specific and measurable. The initial consonant of each syllable in your name corresponds to one of five elemental energies—Wood, Fire, Earth, Metal, or Water—and the sequence in which those energies interact determines whether your name generates harmony or friction in your life. This practice, called <strong>Sound Element Theory (Soori Ohaeng)</strong>, is one of the most ancient and systematically developed branches of Korean metaphysics.</p>
 
-<h2 id="consonant-elements">1. Mapping Consonants to the Five Elements</h2>
+<h2 id="intro-five-elements">What Is Sound Element Theory?</h2>
+<p>King Sejong designed Hangul in the 15th century not just as a phonetic writing system, but as one grounded in the same Five Element framework that underlies Korean medicine, astronomy, and cosmology. Each consonant group was shaped after a specific articulation point in the mouth—and each articulation point maps directly to one of the five elemental energies. This wasn't coincidence. It was intentional design.</p>
+<p>Sound Element Theory takes this mapping and applies it to name analysis. When the elemental sequence of a name's syllables flows in a generative direction—Wood feeding Fire, Fire nourishing Earth—the name creates an energetic field around its bearer that social researchers would describe in terms of warmth, approachability, and trust. When the sequence creates a controlling or exhausting dynamic—Water extinguishing Fire, Metal chopping Wood—the name generates what practitioners describe as subtle but persistent friction: talent that doesn't fully land, opportunities that disappear at the threshold.</p>
+
+<h2 id="consonant-classification">How Korean Consonants Map to the Five Elements</h2>
+<p>The classification is based on where in the mouth each consonant is articulated:</p>
 <ul>
-  <li><strong>Wood (木):</strong> ㄱ, ㅋ (Growth, Creativity)</li>
-  <li><strong>Fire (火):</strong> ㄴ, ㄷ, ㄹ, ㅌ (Passion, Expression)</li>
-  <li><strong>Earth (土):</strong> ㅁ, ㅂ, ㅍ (Stability, Trust)</li>
-  <li><strong>Metal (金):</strong> ㅅ, ㅈ, ㅊ (Decision, Justice)</li>
-  <li><strong>Water (水):</strong> ㅇ, ㅎ (Wisdom, Flexibility)</li>
+  <li><strong>Wood (木) — Velar Sounds: ㄱ, ㅋ</strong><br>Produced at the back of the mouth. Wood energy carries the qualities of growth, creativity, and benevolence (仁). Names beginning with these consonants tend to convey forward momentum, intellectual drive, and pioneering spirit. Associated industries: education, entrepreneurship, healthcare, sustainability.</li>
+  <li><strong>Fire (火) — Alveolar Sounds: ㄴ, ㄷ, ㄹ, ㅌ</strong><br>Produced with the tongue touching the upper palate. Fire energy carries passion, expressiveness, and courtesy (禮). These consonants in a name suggest social charisma, communicative power, and visibility. Associated industries: media, marketing, entertainment, speaking, and service.</li>
+  <li><strong>Earth (土) — Bilabial Sounds: ㅁ, ㅂ, ㅍ</strong><br>Produced with both lips. Earth energy carries stability, reliability, and receptivity (信). Names with these sounds project groundedness, trustworthiness, and quiet authority. Associated industries: finance, real estate, hospitality, supply chain, administration.</li>
+  <li><strong>Metal (金) — Sibilant Sounds: ㅅ, ㅈ, ㅊ</strong><br>Produced between the teeth. Metal energy carries precision, justice, and decisiveness (義). These consonants project sharpness, analytical rigor, and principled leadership. Associated industries: law, engineering, medicine, military, quality assurance.</li>
+  <li><strong>Water (水) — Glottal Sounds: ㅇ, ㅎ</strong><br>Produced in the throat. Water energy carries wisdom, depth, and adaptability (智). Names beginning with these sounds suggest inner depth, intellectual sophistication, and strategic thinking. Associated industries: research, consulting, philosophy, writing, software development.</li>
 </ul>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">📣 Analyze Your Name’s Sound Energy →</a>
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">📣 Analyze Your Name's Elemental Energy →</a>
 </div>
 
-<h2 id="conclusion">2. Conclusion: Your Name is Your Personal Mantra</h2>
-<p>Your name is a mantra that is repeated dozens of times a day. Understanding its sound harmony helps you utilize its positive vibrations to navigate your life more effectively.</p>
+<h2 id="harmony-principles">Generative vs. Controlling Cycles: The Core Diagnostic</h2>
+<p>The sequence runs: family name initial → first syllable initial → second syllable initial. What matters is how those three elemental energies interact.</p>
+<h3>The Generative Cycle (Sang-saeng): Names That Amplify</h3>
+<p>Wood → Fire → Earth → Metal → Water → Wood. When the consonant sequence follows this pattern (or any segment of it), each element feeds the next. The name generates a self-reinforcing energetic momentum. Socially, this manifests as a name that people remember favorably, that opens rather than closes doors, and that seems to reflect rather than contradict the bearer's best qualities. High-performing names in sectors built on relationship and reputation—consulting, service, leadership—frequently show generative sequences.</p>
+<h3>The Controlling Cycle (Sang-geuk): Names That Create Headwind</h3>
+<p>Wood → Earth, Earth → Water, Water → Fire, Fire → Metal, Metal → Wood. A name whose consonant sequence follows this pattern introduces an ongoing energetic tension. This doesn't doom the bearer—many successful people carry controlling-cycle names, often compensating through enormous drive or supportive Saju configurations. But the tension is real. It shows up as: talent that gets recognition belatedly, interpersonal friction that seems disproportionate to the actual conflict, and a chronic sense of having to work harder than the results justify.</p>
+
+<h2 id="practical-analysis">Reading a Real Name: Step-by-Step</h2>
+<p>The process for analyzing any Korean name through Sound Element Theory follows a clear sequence. First, identify the initial consonant of each syllable. Second, assign each to its elemental category. Third, trace the generative or controlling relationship between consecutive elements. Fourth—and critically—cross-reference with the person's Saju chart to determine whether the name's elemental pattern supports or conflicts with the chart's beneficial element (Yongshin).</p>
+<p>A name that creates a controlling sequence in isolation might actually be constructive for someone whose Saju has a specific excess that needs regulation. Conversely, a generative-sequence name can inadvertently amplify an already excessive element, creating its own imbalance. This is why Sound Element Theory is a starting point for name analysis, not the complete picture—and why rigorous name analysis requires simultaneous Saju consultation.</p>
+<p>What you can do immediately: look up the initial consonants of your family name and each syllable of your given name. Identify their elemental categories using the table above. Trace the sequence. If it's generative, notice how that aligns with your social experience. If it's controlling, you've just identified one possible source of friction that most diagnostic frameworks would miss entirely.</p>
+
+<h2 id="conclusion">The Name You Carry Is Working—With You or Against You</h2>
+<p>The insight at the heart of Sound Element Theory is deceptively simple: your name is not neutral. Every time it's spoken—and it's spoken constantly—it activates a specific elemental vibration that interacts with your personal energy field, your social environment, and the impressions you make on others. When that vibration is aligned with your nature and your chart, the name amplifies your best qualities with minimal effort. When it conflicts, it creates resistance that compounds invisibly across every introduction, every first impression, every professional context where your name precedes you.</p>
+<p>Understanding the elemental structure of your name doesn't guarantee anything. But it gives you a vocabulary for something that has always been happening anyway—and a framework for addressing it if adjustment turns out to be warranted.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/seongmyeong/name-creation" style="text-decoration: underline; color: #f9d976;">[Read Next] The Art of Naming: Balancing Saju Voids Through Sound and Numerology</a></p>
+  <p><a href="/en/seongmyeong/baby-naming" style="text-decoration: underline; color: #f9d976;">[Read Next] The Complete Baby Naming Guide: Saju, Five Elements, and Modern Style</a></p>
+</div>
 </section>
     `,
     toc: [
-      { id: 'consonant-elements', title: '1. 자음별 오행 분류' },
-      { id: 'harmony-check', title: '2. 상생과 상극의 원리' },
-      { id: 'modern-application', title: '3. 현대적 활용법' },
-      { id: 'conclusion', title: '4. 결론: 이름은 주문이다' },
+      { id: 'intro-five-elements', title: '1. 소리 오행이란 무엇인가?' },
+      { id: 'consonant-classification', title: '2. 한글 초성에 따른 오행 분류' },
+      { id: 'harmony-principles', title: '3. 오행의 상생과 상극 관계' },
+      { id: 'practical-analysis', title: '4. 성명학적 이름 분석의 실제' },
     ],
     tocEn: [
-      { id: 'consonant-elements', title: '1. Consonants and Elements' },
-      { id: 'harmony-check', title: '2. Harmony and Clashes' },
-      { id: 'conclusion', title: '3. Conclusion' },
+      { id: 'intro-five-elements', title: '1. What Is Sound Element Theory?' },
+      { id: 'consonant-classification', title: '2. Consonant-to-Element Mapping' },
+      { id: 'harmony-principles', title: '3. Generative vs. Controlling Cycles' },
+      { id: 'practical-analysis', title: '4. How to Analyze a Real Name' },
     ],
     faq: [
-      { q: '성(姓)의 오행이 안 좋으면 어떡하나요?', a: '성은 바꿀 수 없으므로, 이름의 두 글자를 통해 성과 상생하도록 징검다리 역할을 해주는 것이 중요합니다.' },
-      { q: '받침 소리도 오행에 포함되나요?', a: '전통 성명학에서는 주로 첫 자음을 기준으로 하지만, 일부 학파에서는 종성(받침)도 함께 고려합니다.' },
+      { q: '초성만 중요한가요, 아니면 종성(받침)도 중요한가요?', a: '전통 성명학에서는 주로 초성을 기준으로 소리 오행을 따지지만, 최근에는 종성까지 포함하여 기운의 흐름을 더욱 세밀하게 분석하는 추세입니다.' },
+      { q: '이름에 상극이 있으면 무조건 안 좋은가요?', a: '상극이 있다고 해서 반드시 나쁜 것은 아닙니다. 사주에 부족한 기운을 보완하는 쪽으로 상생 구조를 갖추는 것이 이상적이나, 사주의 용신 방향과 맞는다면 상극이 오히려 균형을 이루기도 합니다.' },
+      { q: '성씨(姓)와 이름의 조화도 보나요?', a: '네, 성씨의 초성과 이름 첫 글자, 그리고 이름 두 글자 사이의 연결성이 모두 상생 관계일 때 가장 길한 이름으로 평가합니다.' },
     ],
     faqEn: [
-      { q: 'What if my last name element is bad?', a: 'You cannot change your last name, but you can choose given name elements that act as a bridge to create overall harmony.' },
-      { q: 'Do ending consonants (batchim) count?', a: 'Traditional views focus on the initial consonant, but some modern schools analyze the ending sound as well.' },
+      { q: 'Do only initial consonants matter, or do final consonants count too?', a: 'Traditional Seongmyeonghak focuses primarily on initial consonants (choseong). However, modern practitioners increasingly analyze final consonants (batchim) as well for a more nuanced elemental picture.' },
+      { q: 'Is a controlling-cycle name always bad?', a: 'Not necessarily. If your Saju chart has an excess element that needs regulation, a name with a controlling relationship toward that excess can actually create useful balance. Always cross-reference with the birth chart.' },
+      { q: 'Does the family name\'s element matter for the overall analysis?', a: 'Yes, critically. The ideal name flows generatively from the family name initial through both syllables of the given name. The family name sets the elemental starting point for the entire sequence.' },
     ],
     relatedPosts: [
-      { slug: 'intro', title: 'The Power of Names: An Introduction', category: 'seongmyeong' },
-      { slug: 'name-creation', title: 'The Art of Creating a Perfect Name', category: 'seongmyeong' },
+      { slug: 'name-creation', title: 'The Art of Naming: Filling Your Saju Voids', category: 'seongmyeong' },
+      { slug: 'baby-naming', title: 'A Complete Guide to Baby Naming', category: 'seongmyeong' },
     ],
   },
   {
