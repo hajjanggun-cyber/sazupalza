@@ -111,7 +111,7 @@ export default async function HomePage({ params: { locale } }: Props) {
       titleEn: 'Personality Type',
       descKo: '동양 오행과 연결된 나의 심리 유형',
       descEn: 'Your cognitive type mapped to Eastern elements',
-      href: `/${locale}/combined`,
+      href: `/${locale}/personality-analysis`,
       color: 'from-purple-900/40 to-violet-900/20',
       border: 'border-purple-600/30 hover:border-purple-500/60',
       badge: null,
