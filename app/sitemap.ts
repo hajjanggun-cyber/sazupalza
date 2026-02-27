@@ -3,7 +3,10 @@ import { MetadataRoute } from 'next';
 const BASE_URL = 'https://sajupalza.cc';
 const locales = ['ko', 'en', 'ja', 'zh'];
 
-const routes = ['', '/saju', '/name', '/face', '/mbti', '/privacy', '/terms', '/contact'];
+const routes = [
+  '', '/saju', '/name', '/face', '/mbti', '/privacy', '/terms', '/contact',
+  '/saju-analysis', '/gwansang-analysis', '/seongmyeong-analysis', '/personality-analysis', '/combined'
+];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
