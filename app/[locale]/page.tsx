@@ -89,7 +89,7 @@ export default async function HomePage({ params: { locale } }: Props) {
       titleEn: 'Face Reading',
       descKo: '얼굴에 새겨진 재물·건강·성격의 기운',
       descEn: 'Fortune written in your facial features',
-      href: `/${locale}/combined`,
+      href: `/${locale}/gwansang-analysis`,
       color: 'from-blue-900/40 to-indigo-900/20',
       border: 'border-blue-600/30 hover:border-blue-500/60',
       badge: null,
