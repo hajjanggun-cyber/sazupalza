@@ -204,12 +204,16 @@ export default function GwansangForm() {
             const img = new Image();
             img.src = dataUrl;
             await new Promise<void>((res) => { img.onload = () => res(); });
+
+            // Tiny Face Detector의 scoreThreshold 를 조금 더 유연하게 설정 (기본 0.5 -> 0.4)
+            const options = new faceapi.TinyFaceDetectorOptions({ inputSize: 416, scoreThreshold: 0.4 });
             const detection = await faceapi
-                .detectSingleFace(img, new faceapi.TinyFaceDetectorOptions())
+                .detectSingleFace(img, options)
                 .withFaceLandmarks(true)
                 .withFaceExpressions();
 
             if (!detection) {
+                // 얼굴이라고 판단하기 힘든 경우
                 setError(true);
                 setOk(false);
             } else {
