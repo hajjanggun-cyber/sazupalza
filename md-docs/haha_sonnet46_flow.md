@@ -593,11 +593,11 @@ saju-posts.ts 배열에서 slug === 'intro' 찾기
 - 영어(/en/seongmyeong-analysis) 수비학 결과도 확인
 ```
 
-### 우선순위 3: 관상 단독 분석 페이지
+### 우선순위 3: 관상 단독 분석 페이지 (✅ 완료)
 ```
-- 현재 /combined 로 연결된 관상 서비스 카드
-- gwansang-analysis 페이지 + gwansang-result 페이지 생성
-- 사진 업로드 → 결과 표시 플로우
+- 현재 /combined 로 연결된 관상 서비스 카드 변경 완료
+- gwansang-analysis 페이지 + gwansang-result 페이지 생성 완료
+- 사진 업로드 → 결과 표시 플로우 (face-api.js) 최적화 완료
 ```
 
 ### 우선순위 4: 사주 결과 추가 보완
