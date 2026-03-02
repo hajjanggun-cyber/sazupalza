@@ -12,9 +12,10 @@ export default function Navigation() {
 
   const navLinks = [
     { href: `/${locale}/saju`, label: t('saju') },
-    { href: `/${locale}/name`, label: t('name') },
-    { href: `/${locale}/face`, label: t('face') },
+    { href: `/${locale}/name-reading`, label: t('name') },
+    { href: `/${locale}/face-reading`, label: t('face') },
     { href: `/${locale}/mbti`, label: t('mbti') },
+    { href: `/${locale}/compatibility`, label: t('compatibility') },
   ];
 
   const localeLinks = [
