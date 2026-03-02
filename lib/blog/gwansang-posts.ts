@@ -1551,4 +1551,171 @@ export const gwansangPosts: BlogPost[] = [
       { slug: 'health-face', category: 'face-reading', title: '관상과 건강: 얼굴색으로 보는 운세 신호' },
     ],
   },
+  {
+    slug: 'ears-reading',
+    title: '귀 관상 가이드: 귓불과 모양으로 보는 나의 수명과 선천적 복',
+    seoTitle: '귀 관상: 부처님 귀, 칼귀, 귓불 두께 등 귀 모양으로 보는 재물운과 수명',
+    seoTitleEn: 'Korean Ear Reading: Longevity, Wealth, and Ancestral Luck',
+    description: '부처님 귀를 가지면 정말 부자로 살까요? 귀의 위치, 귓불의 두께, 귀의 색깔로 파악하는 선천적 재물운과 수명의 비밀을 3,000자 전문 해설로 분석합니다.',
+    descriptionEn: 'Ears reveal your deep ancestral luck and physical longevity in Gwansang. Learn how earlobes and ear placement predict your foundational fortune.',
+    keywords: ['귀 관상', '부처님 귀', '칼귀 관상', '귓불 관상', '수명 관상'],
+    keywordsEn: ['Ear Reading', 'Gwansang Ears', 'Earlobes Fortune', 'Korean Face Reading', 'Longevity Face'],
+    publishedAt: '2026-03-02',
+    category: 'face-reading',
+    toc: [
+      { id: 'foundation-of-fortune', title: '1. 귀(耳): 선천적 복과 수명의 뿌리' },
+      { id: 'ear-lobes', title: '2. 귓불(수주) 두께로 보는 재물운' },
+      { id: 'ear-position', title: '3. 운명을 가르는 귀의 위치와 각도' },
+      { id: 'ear-color', title: '4. 기색(氣色)으로 읽는 현재의 건강과 운' },
+      { id: 'conclusion', title: '5. 결론: 귀는 듣는 만큼 복이 쌓인다' },
+    ],
+    tocEn: [
+      { id: 'foundation-of-fortune', title: '1. Ears: The Roots of Your Fortune' },
+      { id: 'ear-lobes', title: '2. Earlobes and Wealth Capacity' },
+      { id: 'ear-position', title: '3. The Crucial Placement of Ears' },
+      { id: 'ear-color', title: '4. Reading Ear Color (Gi-saek)' },
+      { id: 'conclusion', title: '5. Conclusion: The Art of Listening' },
+    ],
+    contentKo: `
+<section>
+<p>관상학에서 눈, 코, 입이 살아가면서 만들어가는 '후천적인 운명(개인의 노력)'을 보여준다면, 귀는 조상으로부터 물려받은 <strong>'선천적인 운명(유전자와 가문의 복)'</strong>을 가장 정직하게 보여주는 부위입니다. 씨앗이 튼튼해야 큰 나무로 자라듯, 귀가 잘생긴 사람은 기초 체력이 뛰어나고 어려움이 닥쳐도 주변의 도움이나 타고난 운으로 쉽게 위기를 극복하는 경향이 있습니다.</p>
+
+<p>특히 귀는 한의학적으로 신장(腎臟, 생명력의 근원)과 직결되어 있어 <strong>'수명궁(壽命宮)'</strong>으로 불리며, 건강과 장수를 예측하는 절대적인 지표가 됩니다. 또한 타인의 말을 듣는 기관이므로, 그 사람의 지혜로움, 포용력, 그리고 정보를 수용하는 태도를 반영합니다. "귀가 크고 귓불이 두툼하면 부자로 산다"는 옛말이 과연 사실인지, 다양한 귀의 형태와 기색에 담긴 운명의 비밀을 지금부터 상세히 해설해 드립니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/face-reading/wealth-face" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">재물 관상 완벽 정리: 코와 입, 귀가 결정하는 부의 크기</a></li>
+    <li style="margin-bottom: 4px;"><a href="/face-reading/health-face" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">관상과 건강: 얼굴색(기색)으로 체크하는 내 몸의 신호</a></li>
+  </ul>
+</div>
+
+<h2 id="foundation-of-fortune">1. 귀(耳): 선천적 복과 수명의 뿌리</h2>
+<p>관상학에서 이상적인 귀는 <strong>"색이 얼굴보다 밝고, 윤곽이 뚜렷하며, 단단하고 두툼하며, 귓불이 입을 향해 살짝 굽어 있는 귀"</strong>입니다. 귀가 얇고 흐물흐물하면 잔병치레가 많고 선천적인 에너지가 부족하다고 봅니다.</p>
+
+<p>귀는 초년운(1세~14세)을 지배합니다. 귀의 상단, 중단, 하단(귓불)의 발달 정도를 통해 어린 시절의 성장 환경과 부모님의 보살핌을 유추할 수 있습니다. 귀의 윤곽(이륜)이 둥글고 예쁘면 부모의 사랑을 듬뿍 받고 자란 것이며, 윤곽이 뒤집히거나 찌그러져 있으면 초년에 고생을 하거나 독립적으로 자수성가해야 할 운명임을 암시합니다.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">👂 내 귀 관상에 담긴 재물과 수명 알아보기 →</a>
+</div>
+
+<h2 id="ear-lobes">2. 귓불(수주) 두께로 보는 재물운과 성향</h2>
+<p>귀의 가장 아래쪽, 즉 귀걸이를 하는 부위를 '수주(垂珠)'라고 합니다. 수주는 말년의 재물운과 타인에 대한 포용력을 보여줍니다.</p>
+
+<h3>부처님 귀 (두툼하고 길게 늘어진 귓불)</h3>
+<p>수주가 두툼하게 살이 쪄서 어깨 쪽으로 길게 늘어지고, 끝이 살짝 입 쪽으로 향해 있는 귀입니다. 이는 <strong>관상학 최고의 재물 귀이자 장수 귀</strong>입니다. 성품이 여유롭고 남을 배려하는 덕이 깊어 주변에 사람이 따르며, 젊은 시절 고생하더라도 말년에는 반드시 거대한 부와 명예를 누리게 됩니다.</p>
+
+<h3>칼귀 (귓불 없이 일직선으로 떨어지는 귀)</h3>
+<p>귓불(수주)이 거의 없이 귀의 윤곽이 턱선으로 날카롭게 뻗어 내려가는 귀입니다. 시원시원하고 민첩하며 재물에 대한 감각이 뛰어납니다. 실용적이고 이성적이어서 비즈니스나 투자에서 두각을 나타냅니다. 단, 인내심이 부족하거나 계산이 너무 빨라 인간관계에서 차갑다는 인상을 줄 수 있으므로, 재물을 크게 모은 뒤에는 베푸는 삶을 살아야 말년이 고독하지 않습니다.</p>
+
+<h3>작고 얇은 귀</h3>
+<p>예술적 감수성이 뛰어나고 섬세한 성격입니다. 학자, 예술가, 연구원 등 자신만의 전문 분야에서 성과를 냅니다. 다만 체력이 다소 약하고 큰 조직을 이끄는 리더십보다는 개인적인 활동에 적합합니다. 재물을 크게 벌이기보다는 알뜰하게 모으는 안정적인 재무 관리가 필요합니다.</p>
+
+<h2 id="ear-position">3. 운명을 가르는 귀의 위치와 각도</h2>
+<p>귀의 크기 못지않게 중요한 것이 귀가 달린 <strong>'위치'</strong>입니다. 눈썹의 연장선을 기준으로 귀의 상단이 어디에 있는지를 살핍니다.</p>
+
+<h3>높게 달린 귀 (눈썹보다 위에 위치)</h3>
+<p>귀의 상단이 눈썹 선보다 높이 올라가 있는 사람은 <strong>지능이 높고 직관력이 뛰어나며, 리더십을 타고난 관상</strong>입니다. 정보 습득이 빠르고 판단력이 탁월하여 일찍부터 사회적으로 인정받고 높은 지위에 오를 확률이 매우 큽니다. 정치인이나 고위 경영자에게서 많이 보입니다.</p>
+
+<h3>낮게 달린 귀 (눈보다 아래에 위치)</h3>
+<p>학구적이고 이상적인 성향보다 현실적이고 실무적인 능력이 강합니다. 남의 밑에서 꾸준히 기술을 배우고 묵묵히 실적을 쌓아올리는 성실한 대기만성형입니다.</p>
+
+<h3>정면에서 잘 보이지 않는 귀 (첩뇌이 貼腦耳)</h3>
+<p>귀가 머리 뒤쪽으로 바짝 붙어 있어서 정면에서 보았을 때 귀가 잘 보이지 않는 형태입니다. 이는 <strong>고급 정보를 잘 수집하고 자신의 속내를 함부로 드러내지 않는 고도의 전략가 상</strong>입니다. 재물을 남몰래 크게 모으는 자수성가형 부자들에게서 아주 흔하게 발견되는 길상(吉相)입니다.</p>
+
+<h2 id="ear-color">4. 기색(氣色)으로 읽는 현재의 건강과 운</h2>
+<p>귀의 형태는 선천적이지만, 귀의 색깔(기색)은 현재의 운과 건강을 실시간으로 보여줍니다. 귀 관상을 볼 때는 항상 얼굴 피부색과 비교하여 판단합니다.</p>
+<ul>
+  <li><strong>얼굴보다 흰 귀 (최고의 길조):</strong> 귀가 얼굴색보다 눈에 띄게 밝고 희며 윤기가 난다면, 현재 명예가 올라가고 뜻밖의 행운이 찾아오며 건강이 최상이라는 신호입니다.</li>
+  <li><strong>붉고 열이 나는 귀:</strong> 혈압이 높거나 심리적으로 크게 흥분·스트레스 상태에 있음을 의미합니다. 무리한 투자를 피하고 안정을 취해야 합니다.</li>
+  <li><strong>어둡고 검은 귀:</strong> 신장(콩팥) 기능이 극도로 저하되었거나 만성 피로에 시달리고 있다는 적신호입니다. 운세도 심각하게 막혀 있으므로, 모든 확장을 멈추고 뼈와 신장 건강을 챙겨야 합니다.</li>
+</ul>
+
+<h2 id="conclusion">5. 결론: 귀는 듣는 만큼 복이 쌓인다</h2>
+<p>귀는 우리 몸에서 유일하게 자라면서 모양이 변하고(나이가 들수록 귓불이 처짐), 죽는 순간까지 평생 커지는 기관입니다. 이는 인간이 나이를 먹을수록 남의 말을 경청하고 수용하는 <strong>'포용력(귓불)'</strong>을 길러야 함을 관상학적으로 보여주는 자연의 이치입니다.</p>
+<p>자신의 귀가 부처님 귀가 아니라고 실망할 필요는 없습니다. 타인의 조언에 진심으로 귀를 기울이고, 건강을 잘 관리하여 귀의 기색을 맑고 밝게 유지한다면, 당신의 귓불은 세월과 함께 두툼해지며 당신의 말년 창고를 가득 채워줄 것입니다. <strong>좋은 관상은 타고나는 것이 아니라, 잘 듣고 수용하는 지혜로 만들어가는 것입니다.</strong></p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/face-reading/nose-reading" style="text-decoration: underline; color: #f9d976;">[관련글] 코 관상 가이드: 내 얼굴의 기둥, 재물운의 상징</a></p>
+  <p><a href="/face-reading/self-diagnosis" style="text-decoration: underline; color: #f9d976;">[관련글] 거울로 보는 관상 자가진단: 내 얼굴 기색 읽기</a></p>
+</div>
+</section>
+    `,
+    contentEn: `
+<section>
+<p>In Korean Gwansang (face reading), while your eyes and mouth reveal your present decisions and future trajectory, your <strong>Ears</strong> reveal your past. They are the undeniable physical record of your <strong>Ancestral Luck (genetic vitality)</strong> and your early childhood environment. Just as a mighty tree requires deep, healthy roots to withstand a storm, a person with highly auspicious ears possesses a foundational resilience that allows them to recover rapidly from life's inevitable setbacks.</p>
+
+<p>In Eastern medicine, the ears are directly linked to the Kidneys—the organ system that governs core life force, hormonal balance, and aging. Consequently, Gwansang considers the ears the <strong>Palace of Longevity (壽命宮)</strong>. They are the ultimate indicator of physical stamina and lifespan. Furthermore, as the organs of hearing, they reflect a person's receptivity, wisdom, and capacity to accept advice. Is it true that "thick earlobes make you rich"? Let's decode the profound secrets written in the cartilage and flesh of your ears.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/face-reading/wealth-face" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">The Wealth Face: How the Nose, Mouth, and Ears Build Fortune</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/face-reading/health-face" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Face Reading for Health: Checking Your Inner Vitality</a></li>
+  </ul>
+</div>
+
+<h2 id="foundation-of-fortune">1. Ears: The Roots of Your Fortune</h2>
+<p>The classical Gwansang ideal for ears is highly specific: <strong>"Lighter in color than the face, clearly defined contours, firm cartilage, and fleshy earlobes that curve slightly toward the mouth."</strong> Thin, overly soft, or poorly defined ears suggest fragile early health and a lack of inherited energetic support.</p>
+
+<p>The ears govern the first 14 years of life. A smooth, round outer helix (the rim of the ear) indicates a stable, nurturing childhood. If the inner cartilage protrudes sharply past the outer rim, it indicates a rebellious, highly independent spirit that likely faced early adversity and had to forge their own path without significant parental help.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">👂 Discover Your Ancestral Luck and Longevity →</a>
+</div>
+
+<h2 id="ear-lobes">2. Earlobes and Wealth Capacity</h2>
+<p>The lowest part of the ear—the earlobe (Suju)—is intensely analyzed in Gwansang because it represents your <strong>Late-Life Wealth</strong> and your capacity for empathy.</p>
+
+<h3>The "Buddha Ear" (Thick, Long, and Pendulous)</h3>
+<p>If your earlobes are thick, fleshy, hang low, and slightly curve forward as if trying to reach your mouth, you possess the <strong>ultimate ear of wealth and longevity</strong>. This shape indicates a generous, forgiving nature. People are naturally drawn to this energy. Even if they struggle in youth, individuals with Buddha ears are virtually guaranteed to accumulate massive social and financial capital by their later years.</p>
+
+<h3>The "Knife Ear" (Attached, Straight, or No Earlobe)</h3>
+<p>The ear connects directly to the jawline with little to no hanging lobe. This indicates a sharp, pragmatic, and highly efficient personality. They have an excellent, almost surgical instinct for making money and business deals. However, because they are deeply logical, they can sometimes appear cold or calculating. Their life lesson is to actively practice charity; otherwise, they may amass wealth but find themselves isolated in old age.</p>
+
+<h3>Small and Thin Ears</h3>
+<p>These individuals are highly sensitive, refined, and often artistically or academically gifted. They excel in specialized roles where brutal corporate politics are absent. Because their physical stamina may be lower, they should focus on stable, consistent financial planning rather than high-risk, high-stress ventures.</p>
+
+<h2 id="ear-position">3. The Crucial Placement: Where Do Your Ears Sit?</h2>
+<p>In Gwansang, the <em>position</em> of the ear on the head is often considered more important than its size. We measure this by comparing the top of the ear to the eyebrow line.</p>
+
+<h3>High-Set Ears (Above the Eyebrows)</h3>
+<p>When the top of the ear sits higher than the eyebrow, it is a marker of <strong>exceptional intelligence, early fame, and natural leadership</strong>. These individuals process information incredibly fast and possess high intuitive intelligence. They often achieve significant success and recognition much earlier in life than their peers. This trait is frequently found in top-tier politicians and visionary CEOs.</p>
+
+<h3>Ears Set Flush Against the Head</h3>
+<p>If your ears lie flat against the skull, making them difficult to see when viewed directly from the front, you possess the "Attached Ear." This is an incredibly auspicious sign. It indicates a master strategist—someone who gathers intelligence quietly, keeps their ego in check, and does not reveal their hand until it's time to win. It is the classic marker of the "hidden billionaire" who builds immense wealth without attracting envy or danger.</p>
+
+<h2 id="ear-color">4. Reading Ear Color (Gi-saek) for Immediate Luck</h2>
+<p>While the shape of your ear is genetic, its color (Gi-saek) changes rapidly and serves as a real-time monitor of your luck and health.</p>
+<ul>
+  <li><strong>Ears Whiter/Brighter Than the Face:</strong> This is the ultimate good omen in ear reading. It indicates peak physical vitality, a sudden rise in reputation, and imminent good news or financial windfall.</li>
+  <li><strong>Red, Hot Ears:</strong> Beyond mere embarrassment, chronically red ears indicate high blood pressure, extreme stress, or an overworked nervous system. It is a warning to avoid impulsive financial decisions.</li>
+  <li><strong>Dark or Grayish Ears:</strong> A severe warning sign in Eastern medicine. It indicates profound exhaustion of the Kidneys (core life force). When the ears turn dark, fortune stagnates. Immediate, deep rest and health check-ups are required; all aggressive business expansions should be halted.</li>
+</ul>
+
+<h2 id="conclusion">5. Conclusion: The Art of Listening Builds Fortune</h2>
+<p>The ear is a fascinating organ—it never stops growing. As we age, gravity and continued cartilage growth cause the earlobes to lengthen. In Gwansang philosophy, this physical change symbolizes a profound truth: as we mature, our capacity to listen, forgive, and accommodate others (represented by the fleshy earlobe) must also grow.</p>
+<p>You do not need to be born with perfect Buddha ears to be wealthy. The truest way to "improve" your ear fortune is to practice the art of deep listening. When you genuinely listen to others, you gather vital intelligence, build unshakeable trust, and naturally draw people to you. Keep your health strong so your ears shine brightly, and keep your mind open to the advice of others. That is how you build a fortune that lasts a lifetime.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/face-reading/nose-reading" style="text-decoration: underline; color: #f9d976;">[Related] Nose Reading: The Pillar of Wealth and Ego</a></p>
+  <p><a href="/en/face-reading/self-diagnosis" style="text-decoration: underline; color: #f9d976;">[Related] Self-Diagnosis: Check Your 5-Year Fortune in the Mirror</a></p>
+</div>
+</section>
+    `,
+    faq: [
+      { q: '귀를 뚫으면 관상학적으로 복이 나가나요?', a: '과거에는 신체를 훼손하는 것을 꺼려 귀를 뚫으면 복이 샌다고 보았으나, 현대 관상학에서는 적절한 귀걸이가 귀의 기색을 밝게 해주고 자신감을 높여주어 오히려 긍정적인 개운(開運) 효과를 준다고 해석합니다. 단, 귓불을 심하게 찢거나 훼손하는 확장은 피하는 것이 좋습니다.' },
+      { q: '짝귀(양쪽 귀의 모양이나 크기가 다름)는 운세에 어떤 영향을 미치나요?', a: '짝눈과 마찬가지로 두 가지 상반된 성향을 동시에 가짐을 의미합니다. 부모님의 유전적 기질 중 상반된 부분을 물려받았거나, 초년의 성장 환경에 큰 변화가 있었음을 암시합니다. 임기응변에 강한 장점이 있습니다.' },
+      { q: '수술로 귓불을 두툼하게 만들면 재물운이 좋아질까요?', a: '미용 시술로 귓불을 키워 인상이 부드러워지고 타인에게 호감을 주게 된다면 대인관계 운이 상승합니다. 하지만 진정한 재물운은 남의 말을 수용하고 베푸는 내면의 여유(진짜 귓불의 의미)에서 나오므로, 심상(心相)의 수양이 반드시 병행되어야 합니다.' },
+    ],
+    faqEn: [
+      { q: 'Does piercing my ears ruin my fortune?', a: 'While ancient texts warned against altering the body, modern Gwansang recognizes that tasteful earrings can actually brighten the face\'s aura (Gi-saek) and boost confidence, serving as a positive fortune enhancer. However, extreme stretching or tearing of the earlobe (the wealth center) is still advised against.' },
+      { q: 'What does it mean if my ears are asymmetrical?', a: 'Similar to asymmetric eyes, it indicates a dualistic nature. It often suggests you inherited vastly different traits from each parent or experienced a major shift in your early childhood environment. These individuals are highly adaptable and quick-thinkers.' },
+      { q: 'Will getting dermal fillers to make my earlobes thicker increase my wealth?', a: 'Enhancing thin earlobes can soften your appearance, making you look more approachable, which improves social luck. However, Gwansang teaches that the physical earlobe represents the internal capacity for empathy and generosity. Without cultivating that inner generous mindset, physical fillers alone will not magically manifest wealth.' },
+    ],
+    relatedPosts: [
+      { slug: 'wealth-face', category: 'face-reading', title: '재물 관상: 코와 입에 숨겨진 부의 비밀' },
+      { slug: 'health-face', category: 'face-reading', title: '관상과 건강: 얼굴색으로 보는 운세 신호' },
+    ],
+  },
 ];
