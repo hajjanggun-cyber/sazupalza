@@ -55,7 +55,7 @@ export const mbtiPosts: BlogPost[] = [
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
   <p><a href="/ko/mbti/saju-five-elements" style="text-decoration: underline; color: #f9d976;">[관련글] MBTI 16유형과 사주 오행 상관관계</a></p>
-  <p><a href="/ko/bokhap/love-destiny" style="text-decoration: underline; color: #f9d976;">[관련글] 사랑의 운명: 일주와 MBTI로 찾는 천생연분</a></p>
+  <p><a href="/ko/compatibility/love-destiny" style="text-decoration: underline; color: #f9d976;">[관련글] 사랑의 운명: 일주와 MBTI로 찾는 천생연분</a></p>
 </div>
 </section>
     `,
@@ -294,7 +294,7 @@ export const mbtiPosts: BlogPost[] = [
 <p>MBTI는 서로를 이해하기 위한 지도이고, 사주는 그 길을 안전하게 안내하는 나침반입니다. 지도와 나침반이 있다면 어떤 험한 길도 함께 걸어갈 수 있습니다. 궁합 점수에 연연하지 말고, 서로의 기운을 보완하며 아름다운 인연을 만들어가시길 바랍니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/ko/bokhap/love-destiny" style="text-decoration: underline; color: #f9d976;">[관련글] 사랑의 운명: 일주와 MBTI로 찾는 천생연분</a></p>
+  <p><a href="/ko/compatibility/love-destiny" style="text-decoration: underline; color: #f9d976;">[관련글] 사랑의 운명: 일주와 MBTI로 찾는 천생연분</a></p>
   <p><a href="/ko/mbti/compatibility-table" style="text-decoration: underline; color: #f9d976;">[관련글] MBTI별 사주 일주 궁합표 완전분석</a></p>
 </div>
 </section>
@@ -410,7 +410,7 @@ export const mbtiPosts: BlogPost[] = [
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
   <p><a href="/ko/mbti/saju-five-elements" style="text-decoration: underline; color: #f9d976;">[관련글] MBTI 16유형과 사주 오행 상관관계</a></p>
-  <p><a href="/ko/gwansang/health-face" style="text-decoration: underline; color: #f9d976;">[관련글] 얼굴색과 기색으로 보는 건강운</a></p>
+  <p><a href="/ko/face-reading/health-face" style="text-decoration: underline; color: #f9d976;">[관련글] 얼굴색과 기색으로 보는 건강운</a></p>
 </div>
 </section>
     `,
@@ -454,7 +454,7 @@ export const mbtiPosts: BlogPost[] = [
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
   <p><a href="/en/mbti/saju-five-elements" style="text-decoration: underline; color: #f9d976;">[Read Next] MBTI and the Five Elements: Which Element Powers Your Type?</a></p>
-  <p><a href="/en/gwansang/health-face" style="text-decoration: underline; color: #f9d976;">[Read Next] Reading Your Current Fortune from Your Face: The Gi-saek Guide</a></p>
+  <p><a href="/en/face-reading/health-face" style="text-decoration: underline; color: #f9d976;">[Read Next] Reading Your Current Fortune from Your Face: The Gi-saek Guide</a></p>
 </div>
 </section>
     `,

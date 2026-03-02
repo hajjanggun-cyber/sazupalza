@@ -51,8 +51,8 @@ export const seongmyeongPosts: BlogPost[] = [
 <p>성명학을 공부하는 것은 단순히 이름의 길흉을 판단하는 것이 아닙니다. 내 이름이 가진 에너지 구조를 이해하고, 그것이 나의 기질 및 사주와 어떻게 상호작용하는지를 파악하는 과정입니다. 이름이 나를 설명하고, 나는 이름을 완성합니다. 오늘 자신의 이름을 한번 다시 들여다보세요. 그 안에 숨겨진 운명의 코드가 보일 것입니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/ko/seongmyeong/name-five-elements" style="text-decoration: underline; color: #f9d976;">[관련글] 소리오행 완전정복 — 이름 자음의 오행 상생상극 분석</a></p>
-  <p><a href="/ko/seongmyeong/numerology-81" style="text-decoration: underline; color: #f9d976;">[관련글] 수리81수 총정리 — 획수로 읽는 인생의 길흉화복</a></p>
+  <p><a href="/ko/name-reading/name-five-elements" style="text-decoration: underline; color: #f9d976;">[관련글] 소리오행 완전정복 — 이름 자음의 오행 상생상극 분석</a></p>
+  <p><a href="/ko/name-reading/numerology-81" style="text-decoration: underline; color: #f9d976;">[관련글] 수리81수 총정리 — 획수로 읽는 인생의 길흉화복</a></p>
 </div>
 </section>
 
@@ -96,8 +96,8 @@ export const seongmyeongPosts: BlogPost[] = [
 <p>You didn't choose your name. But now that you understand what it carries, you have a choice about how to use that knowledge. Whether you're considering a name for a new child, contemplating a change for yourself, or simply curious about the energy structure of the name you've been living with—Seongmyeonghak offers a precise, considered framework for these questions.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/en/seongmyeong/name-five-elements" style="text-decoration: underline; color: #f9d976;">[Read Next] Sound Elements in Names — How Your Name's Consonants Shape Your Luck</a></p>
-  <p><a href="/en/seongmyeong/numerology-81" style="text-decoration: underline; color: #f9d976;">[Read Next] Numerology 81 — Reading Life's Rhythm Through Stroke Counts</a></p>
+  <p><a href="/en/name-reading/name-five-elements" style="text-decoration: underline; color: #f9d976;">[Read Next] Sound Elements in Names — How Your Name's Consonants Shape Your Luck</a></p>
+  <p><a href="/en/name-reading/numerology-81" style="text-decoration: underline; color: #f9d976;">[Read Next] Numerology 81 — Reading Life's Rhythm Through Stroke Counts</a></p>
 </div>
 </section>
 
@@ -188,8 +188,8 @@ export const seongmyeongPosts: BlogPost[] = [
 <p>수리81수는 이름 아래에 깔린 보이지 않는 구조입니다. 좋은 수리 조합을 가진 이름은 주인이 노력할 때 그 노력이 배가 되도록 받쳐주고, 어려운 시기엔 버팀목이 됩니다. 자신의 이름이 어떤 수리 구조를 갖고 있는지 이해하는 것—그것이 자신의 인생 리듬을 이해하는 첫걸음입니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/ko/seongmyeong/name-creation" style="text-decoration: underline; color: #f9d976;">[관련글] 작명의 기술 — 수리와 소리와 한자의 삼위일체 작명법</a></p>
-  <p><a href="/ko/seongmyeong/name-change" style="text-decoration: underline; color: #f9d976;">[관련글] 개명 가이드 — 흉수 이름을 바꿔 운을 리셋하는 법</a></p>
+  <p><a href="/ko/name-reading/name-creation" style="text-decoration: underline; color: #f9d976;">[관련글] 작명의 기술 — 수리와 소리와 한자의 삼위일체 작명법</a></p>
+  <p><a href="/ko/name-reading/name-change" style="text-decoration: underline; color: #f9d976;">[관련글] 개명 가이드 — 흉수 이름을 바꿔 운을 리셋하는 법</a></p>
 </div>
 </section>
 
@@ -247,8 +247,8 @@ export const seongmyeongPosts: BlogPost[] = [
 <p>What it can't tell you: how hard you'll work, what choices you'll make, what you'll encounter. Those layers of agency remain genuinely open. What it does tell you: the energetic pattern your name contributes to every day of your life, and whether that contribution is working for you or asking you to compensate for it constantly. That's worth knowing.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/en/seongmyeong/name-creation" style="text-decoration: underline; color: #f9d976;">[Read Next] The Art of Naming — Sound, Numerology, and Character Energy Combined</a></p>
-  <p><a href="/en/seongmyeong/name-change" style="text-decoration: underline; color: #f9d976;">[Read Next] Name Change Guide — When and How to Reset Your Luck</a></p>
+  <p><a href="/en/name-reading/name-creation" style="text-decoration: underline; color: #f9d976;">[Read Next] The Art of Naming — Sound, Numerology, and Character Energy Combined</a></p>
+  <p><a href="/en/name-reading/name-change" style="text-decoration: underline; color: #f9d976;">[Read Next] Name Change Guide — When and How to Reset Your Luck</a></p>
 </div>
 </section>
 
@@ -354,8 +354,8 @@ export const seongmyeongPosts: BlogPost[] = [
 <p>오늘 자신의 이름을 소리 오행의 시각으로 다시 들여다보세요. 성씨의 초성에서 시작해 이름의 두 글자가 어떤 오행 흐름을 만드는지 확인하는 것—그것이 성명학적 자기 이해의 첫걸음입니다. 만약 소리 오행에 아쉬운 점이 있다면, 용신이 담긴 색상·방향·직업 환경으로 보완하는 개운법도 병행하면 효과적입니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/ko/seongmyeong/intro" style="text-decoration: underline; color: #f9d976;">[관련글] 성명학 비기: 한자 획수로 보는 이름의 운명</a></p>
-  <p><a href="/ko/seongmyeong/baby-naming" style="text-decoration: underline; color: #f9d976;">[관련글] 자녀 작명 완벽 가이드: 사주와 성명학 통합</a></p>
+  <p><a href="/ko/name-reading/intro" style="text-decoration: underline; color: #f9d976;">[관련글] 성명학 비기: 한자 획수로 보는 이름의 운명</a></p>
+  <p><a href="/ko/name-reading/baby-naming" style="text-decoration: underline; color: #f9d976;">[관련글] 자녀 작명 완벽 가이드: 사주와 성명학 통합</a></p>
 </div>
 </section>
     `,
@@ -406,8 +406,8 @@ export const seongmyeongPosts: BlogPost[] = [
 <p>Understanding the elemental structure of your name doesn't guarantee anything. But it gives you a vocabulary for something that has always been happening anyway—and a framework for addressing it if adjustment turns out to be warranted.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/en/seongmyeong/name-creation" style="text-decoration: underline; color: #f9d976;">[Read Next] The Art of Naming: Balancing Saju Voids Through Sound and Numerology</a></p>
-  <p><a href="/en/seongmyeong/baby-naming" style="text-decoration: underline; color: #f9d976;">[Read Next] The Complete Baby Naming Guide: Saju, Five Elements, and Modern Style</a></p>
+  <p><a href="/en/name-reading/name-creation" style="text-decoration: underline; color: #f9d976;">[Read Next] The Art of Naming: Balancing Saju Voids Through Sound and Numerology</a></p>
+  <p><a href="/en/name-reading/baby-naming" style="text-decoration: underline; color: #f9d976;">[Read Next] The Complete Baby Naming Guide: Saju, Five Elements, and Modern Style</a></p>
 </div>
 </section>
     `,
@@ -494,8 +494,8 @@ export const seongmyeongPosts: BlogPost[] = [
 <p>사주는 바꿀 수 없지만 이름은 선택할 수 있습니다. 개명은 당신이 자신의 삶을 더 적극적으로 설계하겠다는 선언입니다. 단 충동적인 결정보다는 사주 분석과 성명학 전문 진단을 바탕으로 한 신중한 결정을 권합니다. 제대로 지어진 새 이름은 당신 인생의 2막을 여는 가장 강력한 도구가 될 수 있습니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/ko/seongmyeong/numerology-81" style="text-decoration: underline; color: #f9d976;">[관련글] 개명 전 필독! 수리81수 총정리 — 이름의 길수와 흉수</a></p>
-  <p><a href="/ko/seongmyeong/name-creation" style="text-decoration: underline; color: #f9d976;">[관련글] 작명의 기술 — 사주 용신을 이름에 담는 전문 작명법</a></p>
+  <p><a href="/ko/name-reading/numerology-81" style="text-decoration: underline; color: #f9d976;">[관련글] 개명 전 필독! 수리81수 총정리 — 이름의 길수와 흉수</a></p>
+  <p><a href="/ko/name-reading/name-creation" style="text-decoration: underline; color: #f9d976;">[관련글] 작명의 기술 — 사주 용신을 이름에 담는 전문 작명법</a></p>
 </div>
 </section>
 
@@ -538,8 +538,8 @@ export const seongmyeongPosts: BlogPost[] = [
 <p>You didn't choose the name you were given at birth. But you can choose what you carry forward. A thoughtfully executed name change, grounded in rigorous Saju and Seongmyeonghak analysis, is one of the most deliberate acts of self-determination available. It won't fix everything—no name can do that. But it removes a specific category of friction that has no business being there. That's worth a great deal.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/en/seongmyeong/numerology-81" style="text-decoration: underline; color: #f9d976;">[Read Next] Numerology 81 — Understanding the Stroke Count System Before Your Name Change</a></p>
-  <p><a href="/en/seongmyeong/name-creation" style="text-decoration: underline; color: #f9d976;">[Read Next] The Art of Naming — How to Design a Name That Works</a></p>
+  <p><a href="/en/name-reading/numerology-81" style="text-decoration: underline; color: #f9d976;">[Read Next] Numerology 81 — Understanding the Stroke Count System Before Your Name Change</a></p>
+  <p><a href="/en/name-reading/name-creation" style="text-decoration: underline; color: #f9d976;">[Read Next] The Art of Naming — How to Design a Name That Works</a></p>
 </div>
 </section>
 
@@ -622,8 +622,8 @@ export const seongmyeongPosts: BlogPost[] = [
 <p>정성 들여 지은 이름은 아이와 평생을 함께합니다. 매일 수십 번 불리며 아이의 잠재의식에 긍정적인 파동을 보내고, 만나는 사람들에게 좋은 첫인상을 남기며, 사주의 부족한 기운을 채워줍니다. 부모님의 사랑과 철학이 담긴 이름—그것이 아이에게 줄 수 있는 가장 오래가는 선물입니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/ko/seongmyeong/numerology-81" style="text-decoration: underline; color: #f9d976;">[관련글] 수리81수 완전정복 — 이름 획수로 보는 인생의 굴곡</a></p>
-  <p><a href="/ko/seongmyeong/name-five-elements" style="text-decoration: underline; color: #f9d976;">[관련글] 소리오행 분석 — 이름 자음이 만드는 기운의 흐름</a></p>
+  <p><a href="/ko/name-reading/numerology-81" style="text-decoration: underline; color: #f9d976;">[관련글] 수리81수 완전정복 — 이름 획수로 보는 인생의 굴곡</a></p>
+  <p><a href="/ko/name-reading/name-five-elements" style="text-decoration: underline; color: #f9d976;">[관련글] 소리오행 분석 — 이름 자음이 만드는 기운의 흐름</a></p>
 </div>
 </section>
 
@@ -672,8 +672,8 @@ export const seongmyeongPosts: BlogPost[] = [
 <p>A name crafted with rigor and love is a quiet act of advocacy for your child—a declaration of who you believe they have the potential to become, encoded in the most durable form available. Take the time to get it right.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/en/seongmyeong/numerology-81" style="text-decoration: underline; color: #f9d976;">[Read Next] Numerology 81 — Understanding Lucky and Unlucky Stroke Counts</a></p>
-  <p><a href="/en/seongmyeong/name-five-elements" style="text-decoration: underline; color: #f9d976;">[Read Next] Sound Elements — How Your Baby's Name Consonants Shape Their Energy</a></p>
+  <p><a href="/en/name-reading/numerology-81" style="text-decoration: underline; color: #f9d976;">[Read Next] Numerology 81 — Understanding Lucky and Unlucky Stroke Counts</a></p>
+  <p><a href="/en/name-reading/name-five-elements" style="text-decoration: underline; color: #f9d976;">[Read Next] Sound Elements — How Your Baby's Name Consonants Shape Their Energy</a></p>
 </div>
 </section>
 
@@ -754,8 +754,8 @@ export const seongmyeongPosts: BlogPost[] = [
 <p>수리81수는 당신의 인생이 어떤 리듬으로 흘러갈지를 보여주는 지도와 같습니다. 하지만 숫자는 도구일 뿐, 그 숫자의 기운을 어떻게 활용하여 운명을 개척하느냐는 당신의 의지에 달려 있습니다. 자신의 수리를 알고 전략적으로 인생을 설계해 보세요.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/ko/seongmyeong/name-creation" style="text-decoration: underline; color: #f9d976;">[관련글] 작명의 기술: 태어난 계절에 맞는 이름 짓기</a></p>
-  <p><a href="/ko/seongmyeong/name-change" style="text-decoration: underline; color: #f9d976;">[관련글] 개명 가이드: 이름을 바꾸면 운명도 바뀐다</a></p>
+  <p><a href="/ko/name-reading/name-creation" style="text-decoration: underline; color: #f9d976;">[관련글] 작명의 기술: 태어난 계절에 맞는 이름 짓기</a></p>
+  <p><a href="/ko/name-reading/name-change" style="text-decoration: underline; color: #f9d976;">[관련글] 개명 가이드: 이름을 바꾸면 운명도 바뀐다</a></p>
 </div>
 </section>
     `,

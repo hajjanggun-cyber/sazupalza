@@ -882,7 +882,7 @@ export const sajuPosts: BlogPost[] = [
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
   <p><a href="/ko/saju/day-pillar" style="text-decoration: underline; color: #f9d976;">[관련글] 사주 일주 완전정복: 나의 본질과 배우자 복을 읽는 법</a></p>
-  <p><a href="/ko/seongmyeong/name-creation" style="text-decoration: underline; color: #f9d976;">[관련글] 작명의 기술: 태어난 계절에 맞는 이름 짓기</a></p>
+  <p><a href="/ko/name-reading/name-creation" style="text-decoration: underline; color: #f9d976;">[관련글] 작명의 기술: 태어난 계절에 맞는 이름 짓기</a></p>
 </div>
 </section>
     `,
@@ -1125,7 +1125,7 @@ export const sajuPosts: BlogPost[] = [
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
   <p><a href="/ko/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[관련글] 사주 용신 찾기: 내 인생을 바꾸는 오행</a></p>
-  <p><a href="/ko/gwansang/self-diagnosis" style="text-decoration: underline; color: #f9d976;">[관련글] 거울로 보는 성공 관상 자가진단</a></p>
+  <p><a href="/ko/face-reading/self-diagnosis" style="text-decoration: underline; color: #f9d976;">[관련글] 거울로 보는 성공 관상 자가진단</a></p>
 </div>
 </section>
     `,

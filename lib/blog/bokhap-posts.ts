@@ -39,8 +39,8 @@ export const bokhapPosts: BlogPost[] = [
 <p>손금은 고정된 낙인이 아니라, 당신의 노력과 마음가짐에 따라 수개월 안에도 변하는 역동적인 에너지의 기록입니다. 나쁜 손금에 실망할 것이 아니라, 좋은 습관으로 손금을 가꾸어 보세요. 당신의 손바닥 안에 찬란한 미래가 이미 쥐어져 있습니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/ko/gwansang/intro" style="text-decoration: underline; color: #f9d976;">[관련글] 관상학 입문: 얼굴로 보는 운명 완전 가이드</a></p>
-  <p><a href="/ko/gwansang/self-diagnosis" style="text-decoration: underline; color: #f9d976;">[관련글] 거울로 보는 성공 관상 자가진단</a></p>
+  <p><a href="/ko/face-reading/intro" style="text-decoration: underline; color: #f9d976;">[관련글] 관상학 입문: 얼굴로 보는 운명 완전 가이드</a></p>
+  <p><a href="/ko/face-reading/self-diagnosis" style="text-decoration: underline; color: #f9d976;">[관련글] 거울로 보는 성공 관상 자가진단</a></p>
 </div>
 </section>
     `,
@@ -72,8 +72,8 @@ export const bokhapPosts: BlogPost[] = [
 <p>Hand lines measurably change with health, mindset, and lifestyle over periods as short as six months to two years. The lines are your energy's current record, not your fate's final judgment. Improve your health, cultivate positive emotional habits, and your palm will reflect those changes. The future visible in your hand today is the most probable future given how you are living now—change how you live, and the lines change.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/en/gwansang/intro" style="text-decoration: underline; color: #f9d976;">[Read Next] Korean Face Reading (Gwansang): The Complete Beginner's Guide</a></p>
-  <p><a href="/en/gwansang/self-diagnosis" style="text-decoration: underline; color: #f9d976;">[Read Next] Mirror Self-Diagnosis: Reading Success Signs in Your Own Face</a></p>
+  <p><a href="/en/face-reading/intro" style="text-decoration: underline; color: #f9d976;">[Read Next] Korean Face Reading (Gwansang): The Complete Beginner's Guide</a></p>
+  <p><a href="/en/face-reading/self-diagnosis" style="text-decoration: underline; color: #f9d976;">[Read Next] Mirror Self-Diagnosis: Reading Success Signs in Your Own Face</a></p>
 </div>
 </section>
     `,
@@ -139,7 +139,7 @@ export const bokhapPosts: BlogPost[] = [
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
   <p><a href="/ko/mbti/saju-five-elements" style="text-decoration: underline; color: #f9d976;">[관련글] MBTI 16유형과 사주 오행 상관관계</a></p>
-  <p><a href="/ko/bokhap/eastern-western" style="text-decoration: underline; color: #f9d976;">[관련글] 사주·관상·성명학·MBTI 완벽 통합 비교 가이드</a></p>
+  <p><a href="/ko/compatibility/eastern-western" style="text-decoration: underline; color: #f9d976;">[관련글] 사주·관상·성명학·MBTI 완벽 통합 비교 가이드</a></p>
 </div>
 </section>
     `,
@@ -175,7 +175,7 @@ export const bokhapPosts: BlogPost[] = [
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
   <p><a href="/en/mbti/saju-five-elements" style="text-decoration: underline; color: #f9d976;">[Read Next] MBTI and the Five Elements: Which Element Powers Your Type?</a></p>
-  <p><a href="/en/bokhap/love-destiny" style="text-decoration: underline; color: #f9d976;">[Read Next] Finding Your Soulmate: Saju Day Pillar + MBTI Integration</a></p>
+  <p><a href="/en/compatibility/love-destiny" style="text-decoration: underline; color: #f9d976;">[Read Next] Finding Your Soulmate: Saju Day Pillar + MBTI Integration</a></p>
 </div>
 </section>
     `,

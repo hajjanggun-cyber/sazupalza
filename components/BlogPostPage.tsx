@@ -20,10 +20,20 @@ interface Props {
   locale: string;
 }
 
+function getCategoryPath(category: string): string {
+  const map: Record<string, string> = {
+    gwansang: 'face-reading',
+    seongmyeong: 'name-reading',
+    bokhap: 'compatibility',
+  };
+  return map[category] || category;
+}
+
 export default function BlogPostPage({ post, locale }: Props) {
   const isKo = locale === 'ko';
   const baseUrl = 'https://sajupalza.cc';
-  const postUrl = `${baseUrl}/${locale}/${post.category}/${post.slug}`;
+  const categoryPath = getCategoryPath(post.category);
+  const postUrl = `${baseUrl}/${locale}/${categoryPath}/${post.slug}`;
 
   // 언어별 제목 선택 (본문용)
   // 영문 모드일 때 seoTitleEn이 없으면 최소한 영문 텍스트를 출력하도록 보강
@@ -181,7 +191,7 @@ export default function BlogPostPage({ post, locale }: Props) {
               {post.relatedPosts.map(related => (
                 <Link
                   key={`${related.category}-${related.slug}`}
-                  href={`/${locale}/${related.category}/${related.slug}`}
+                  href={`/${locale}/${getCategoryPath(related.category)}/${related.slug}`}
                   className="block card-dark p-3 hover:border-yellow-600/60 transition-colors text-white/70 hover:text-yellow-300 text-sm"
                 >
                   {/* 데이터의 title 필드가 이미 영문 모드 대응을 위해 보강되었으므로 그대로 사용 */}
