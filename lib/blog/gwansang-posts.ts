@@ -1219,4 +1219,168 @@ export const gwansangPosts: BlogPost[] = [
       { slug: 'health-face', category: 'face-reading', title: '관상과 건강: 얼굴색으로 보는 운세 신호' },
     ],
   },
+  {
+    slug: 'nose-reading',
+    title: '코 관상 가이드: 내 얼굴의 기둥, 재물운과 자존심의 상징',
+    seoTitle: '코 관상: 매부리코, 복코, 들창코 등 코 모양으로 보는 재물운과 성격',
+    seoTitleEn: 'Korean Nose Reading: Wealth, Ego, and Life Path in Gwansang',
+    description: '코는 재물을 담는 금고이자 내 자존심의 상징입니다! 매부리코, 주먹코, 휜 코 등 다양한 코 모양에 담긴 재물운과 중년운의 비밀을 3,000자 전문 해설로 분석합니다.',
+    descriptionEn: 'In Korean face reading, the nose is the wealth palace. Discover what your nose shape reveals about your financial future, ego, and mid-life success.',
+    keywords: ['코 관상', '재물 관상', '복코 관상', '들창코 관상', '매부리코 관상'],
+    keywordsEn: ['Nose Reading', 'Gwansang Nose', 'Wealth Face', 'Korean Fortune', 'Face Reading Wealth'],
+    publishedAt: '2026-03-02',
+    category: 'face-reading',
+    toc: [
+      { id: 'pillar-of-face', title: '1. 코: 내 얼굴의 기둥이자 재물 금고' },
+      { id: 'nose-shapes', title: '2. 코 모양별 재물운과 성격 분석' },
+      { id: 'nose-bridge-tip', title: '3. 콧대(산근)와 코끝(준두)의 조화' },
+      { id: 'improving-nose-luck', title: '4. 코 관상을 살리는 개운법' },
+      { id: 'conclusion', title: '5. 결론: 단단한 기둥이 큰 부를 담는다' },
+    ],
+    tocEn: [
+      { id: 'pillar-of-face', title: '1. The Nose: The Pillar of the Face' },
+      { id: 'nose-shapes', title: '2. Nose Shapes and Wealth' },
+      { id: 'nose-bridge-tip', title: '3. The Bridge and the Tip' },
+      { id: 'improving-nose-luck', title: '4. How to Improve Your Nose Fortune' },
+      { id: 'conclusion', title: '5. Conclusion: The Foundation of Fortune' },
+    ],
+    contentKo: `
+<section>
+<p>동양 관상학(觀相學)에서 이마가 조상과 초년의 운을, 턱이 자식과 말년의 운을 상징한다면, 얼굴의 정중앙에 우뚝 솟은 <strong>'코(鼻)'</strong>는 바로 <strong>'나 자신(自我)'</strong>이자 인생의 황금기인 <strong>'중년운(40대~50대)'</strong>을 상징합니다. 집을 지을 때 대들보가 튼튼해야 지붕이 무너지지 않듯, 얼굴의 대들보인 코가 바르고 튼튼해야 인생의 중반기를 흔들림 없이 돌파할 수 있습니다.</p>
+
+<p>특히 코는 관상학에서 <strong>'재백궁(財帛宮)'</strong>이라 불리며, 평생의 재물운을 결정짓는 가장 중요한 부위입니다. 눈이 아무리 맑고 이마가 아무리 넓어도, 코가 빈약하거나 흉이 있으면 재물이 들어오더라도 밑빠진 독에 물 붓기처럼 새어나가고 맙니다. 코의 높이와 길이, 콧망울의 크기, 그리고 코끝의 모양은 당신이 부를 축적하는 방식과 돈을 대하는 태도를 정확하게 보여줍니다. 이 글에서는 다양한 코 모양에 숨겨진 재물운과 성격의 비밀을 파헤쳐 드립니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/face-reading/wealth-face" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">재물 관상 완벽 정리: 돈복 있는 코와 입의 특징</a></li>
+    <li style="margin-bottom: 4px;"><a href="/face-reading/face-shape" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">얼굴형 관상 가이드: 내 얼굴형에 숨겨진 성격과 직업운</a></li>
+  </ul>
+</div>
+
+<h2 id="pillar-of-face">1. 코: 내 얼굴의 기둥이자 재물을 담는 금고</h2>
+<p>관상학에서 코를 분석할 때는 크게 세 부분으로 나누어 살핍니다. 눈과 눈 사이의 콧대 시작점인 <strong>산근(山根)</strong>, 콧대 전체를 아우르는 <strong>연상(年上)과 수상(壽上)</strong>, 그리고 코끝인 <strong>준두(準頭)</strong>와 양옆의 콧망울인 <strong>난대(蘭臺), 정위(廷尉)</strong>입니다.</p>
+
+<p>코끝(준두)은 재물을 모아두는 <strong>'금고'</strong> 자체를 의미하며, 양옆의 콧망울은 그 금고를 든든하게 지켜주는 <strong>'자물쇠'</strong> 역할을 합니다. 산근에서 코끝까지 이어지는 콧대는 재물이 들어오는 <strong>'통로'</strong>이자 개인의 자존심, 추진력을 상징합니다. 따라서 완벽한 재물운을 가진 코는 통로가 곧고 막힘이 없으며, 금고가 두툼하고, 자물쇠가 탄탄하게 조여진 형태입니다.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">💰 내 코에 담긴 재물운 무료 진단하기 →</a>
+</div>
+
+<h2 id="nose-shapes">2. 코 모양별 재물운과 성격 분석</h2>
+
+<h3>현담비 (쓸개를 매달아 놓은 듯한 코) - 최고의 부자 관상</h3>
+<p>콧대가 곧게 뻗어 내려오면서 코끝(준두)에 둥글고 풍성한 살집이 맺혀 마치 돼지 쓸개를 매달아 놓은 듯한 형태입니다. <strong>관상학에서 꼽는 최고의 재물 코</strong>로, 양옆 콧망울의 윤곽이 뚜렷하고 콧구멍이 보이지 않습니다. 초년의 고생을 이겨내고 중년 이후 거대한 부를 이루는 자수성가형 사업가들에게서 가장 많이 발견됩니다.</p>
+
+<h3>매부리코 - 탁월한 수완과 강한 승부욕</h3>
+<p>콧대 중간이 볼록하게 솟아 있고 코끝이 매의 부리처럼 아래로 날카롭게 구부러진 형태입니다. 재물을 모으는 수완이 매우 뛰어나며, 한번 목표로 삼은 것은 절대 놓치지 않는 집념과 승부욕을 가졌습니다. 비즈니스 능력이 탁월하여 자수성가할 확률이 높습니다. 하지만 이기적인 성향으로 비춰져 주변의 적을 만들 수 있으니, 타인을 향한 베풂(기부, 봉사)을 실천해야 말년의 재물을 지킬 수 있습니다.</p>
+
+<h3>들창코 - 재물이 새어나가는 깔때기</h3>
+<p>정면에서 보았을 때 콧구멍이 훤히 들여다보이는 코입니다. 콧구멍은 재물 창고의 문과 같은데, 문이 활짝 열려 있으니 돈이 들어와도 계획 없이 새어나가기 쉽습니다. 낙천적이고 씀씀이가 커서 대인 관계는 좋지만, 저축보다는 소비를 즐깁니다. 이런 관상은 현금보다는 부동산이나 쉽게 해지할 수 없는 장기 금융 상품으로 재산을 묶어두는 것이 필수적입니다.</p>
+
+<h3>사자코 (복코/주먹코) - 강인한 체력과 대기만성</h3>
+<p>콧대가 다소 낮고 뭉툭하며, 콧망울이 좌우로 널찍하게 퍼져 전체적으로 크고 듬직한 느낌을 주는 코입니다. 미학적으로는 세련되지 않아 보일 수 있으나, 관상학적으로는 <strong>매우 건강하고 재물운이 두터운 '복코'</strong>입니다. 체력이 뛰어나고 성격이 호탕하여 주변에 따르는 사람이 많습니다. 젊은 시절 묵묵히 땀 흘려 일한 대가로 중년 이후 큰 재산을 형성합니다.</p>
+
+<h2 id="nose-bridge-tip">3. 콧대(산근)와 휜 코의 비밀</h2>
+
+<h3>산근(눈 사이 콧대)의 높이와 자존심</h3>
+<p>눈과 눈 사이의 콧대인 산근이 높이 솟은 사람은 자존심이 하늘을 찌르고 주관이 매우 뚜렷합니다. 추진력이 강해 리더의 자리에 잘 어울리지만, 남의 밑에서 지시를 받는 것을 견디지 못합니다. 반대로 산근이 푹 꺼져 있거나 낮은 사람은 성격이 순응적이고 유연하여 조직 생활에 잘 적응하지만, 자신감이 부족하여 큰 결단을 내릴 때 망설이는 경향이 있습니다.</p>
+
+<h3>휜 코 (좌우로 치우친 코)</h3>
+<p>콧대가 똑바르지 않고 좌나 우로 휜 코는 인생의 중반기(40대)에 예상치 못한 큰 시련이나 재물의 손실, 혹은 부부 관계의 갈등을 겪을 확률이 높다고 봅니다. 척추나 관절 등 체형의 불균형이 코로 나타나는 경우가 많으므로, 평소 바른 자세를 유지하고 체형 교정을 통해 기운을 바로잡는 것이 중요합니다.</p>
+
+<h2 id="improving-nose-luck">4. 코 관상을 살리는 개운법 (氣色 관리)</h2>
+<p>코의 형태(모양)는 수술을 하지 않는 이상 바꾸기 어렵지만, 코의 <strong>기색(氣色, 피부의 윤기와 색깔)</strong>은 노력에 따라 얼마든지 바꿀 수 있으며, 운의 흐름은 형태보다 기색의 영향을 더 크고 즉각적으로 받습니다.</p>
+<ul>
+  <li><strong>코끝을 항상 맑고 윤기 나게:</strong> 코끝(준두)에 은은한 황금빛이나 맑은 광택이 돌면 재물이 쏟아져 들어올 징조입니다. 콧등이나 코끝에 블랙헤드가 가득하거나 피지가 껴서 탁해 보인다면 들어오던 재물도 막힙니다. 세안 시 코 주변을 가장 꼼꼼히 관리하십시오.</li>
+  <li><strong>코의 뾰루지는 위험 신호:</strong> 코끝이나 콧망울에 붉은 뾰루지가 나면 예상치 못한 지출이나 금전적 손실, 혹은 위장 질환의 신호입니다. 이때는 무리한 투자를 삼가고 지갑을 닫아야 합니다.</li>
+  <li><strong>콧속 잔털 정리:</strong> 콧구멍 밖으로 삐져나온 코털은 '재물이 새어 나가는 철조망'으로 해석됩니다. 외관상으로도 좋지 않지만, 관상학적으로 금전운을 깎아먹는 주범이므로 항상 깔끔하게 정리해야 합니다.</li>
+</ul>
+
+<h2 id="conclusion">5. 결론: 단단한 기둥이 큰 부를 담는다</h2>
+<p>코는 당신의 얼굴에 세워진 자존심의 탑이자, 평생의 땀방울을 담아내는 재물의 금고입니다. 텔레비전에 나오는 연예인들처럼 오뚝하고 날렵한 서구적인 코가 관상학적으로 반드시 좋은 코는 아닙니다. 약간 뭉툭하고 둥글더라도 살집이 넉넉하고 기색이 맑은 '복코'가 동양 관상학이 말하는 진정한 부자의 코입니다. 오늘 거울을 보며 당신의 코가 깨끗하게 빛나고 있는지 확인해 보십시오. 코끝의 맑은 윤기가 당신의 중년을 화려하게 밝혀줄 것입니다.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/face-reading/health-face" style="text-decoration: underline; color: #f9d976;">[관련글] 관상과 건강: 코와 뺨의 색깔로 보는 위장 건강</a></p>
+  <p><a href="/face-reading/eye-reading" style="text-decoration: underline; color: #f9d976;">[관련글] 눈 관상 가이드: 관상의 80%를 결정하는 눈빛의 비밀</a></p>
+</div>
+</section>
+    `,
+    contentEn: `
+<section>
+<p>In Eastern Face Reading (Gwansang), if your forehead represents your early life and ancestors, and your chin represents your later years and subordinates, the <strong>Nose</strong> stands proudly in the center as the symbol of <strong>"Self" (Ego)</strong> and the crucial <strong>Mid-life Fortune (ages 40-50)</strong>. Just as a house cannot stand without a solid central pillar, your mid-life—the prime years of career and wealth building—cannot be stable without a strong, well-formed nose.</p>
+
+<p>Above all, the nose is universally recognized in Gwansang as the <strong>Jaebaek-gung (財帛宮)</strong>, the <strong>Palace of Wealth</strong>. You may possess the brilliant eyes of a scholar or the broad forehead of a politician, but if your nose is weak, flawed, or exposed, any wealth you accumulate will slip through your fingers like sand. The length of the bridge, the fleshiness of the tip, and the shape of the nostrils reveal a profound mathematical blueprint of how you attract, manage, and ultimately protect money. This guide decodes the hidden financial and psychological messages embedded in your nose shape.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/face-reading/wealth-face" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">The Wealth Face: How to Spot Money Luck in Features</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/face-reading/face-shape" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Face Shape Reading: Finding Your Best Career Path</a></li>
+  </ul>
+</div>
+
+<h2 id="pillar-of-face">1. The Nose: The Pillar of Self and the Vault of Wealth</h2>
+<p>To accurately read a nose, a master practitioner divides it into three distinct zones: the <strong>San-geun (Mountain Root)</strong> between the eyes, the bridge, and the <strong>Jun-du (Nose Tip)</strong> along with the nostrils.</p>
+
+<p>Think of the nose as a financial banking system. The tip (Jun-du) is the actual <strong>vault</strong> where cash is stored. It must be fleshy, round, and substantial. The two nostrils flanking the tip are the <strong>locks</strong> on the vault; they must be thick and securely tuck inward. Finally, the bridge descending from between the eyes is the <strong>conduit</strong> through which energy and wealth flow. Therefore, the perfect wealth nose features a straight, unbroken conduit leading to a massive, securely locked vault.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">💰 Get a Free Analysis of Your Wealth Nose →</a>
+</div>
+
+<h2 id="nose-shapes">2. Decoding Nose Shapes and Wealth Potential</h2>
+
+<h3>The "Suspended Gallbladder" Nose: The Billionaire's Mark</h3>
+<p>The bridge is straight and robust, descending into a perfectly round, incredibly fleshy, and bulbous tip—often compared to a suspended gallbladder. The nostrils are thick and do not show from the front. In classical Gwansang, this is the <strong>absolute pinnacle of the wealth face</strong>. It is overwhelmingly common among self-made billionaires and legendary merchants. It signifies immense capacity to not only generate cash but to hoard it safely and multiply it steadily through mid-life.</p>
+
+<h3>The Aquiline (Eagle Beak) Nose: The Ruthless Negotiator</h3>
+<p>The bridge has a distinct bump or convex curve, and the tip hooks sharply downward like a bird of prey. This nose belongs to a master of commerce. They possess a razor-sharp instinct for profit, terrifying negotiation skills, and a competitive drive that borders on the aggressive. They are highly likely to achieve immense financial success. However, their perceived selfishness can alienate allies. Gwansang advises that they must consciously practice philanthropy to protect their wealth from sudden downfall caused by enemies.</p>
+
+<h3>The Upturned Nose: The Leaky Funnel</h3>
+<p>When viewed straight on, the nostrils are clearly visible. In the banking analogy, this means the vault doors are wide open. People with upturned noses are generally optimistic, incredibly generous, and fun to be around. They have no problem making money, but they suffer from chronic financial leakage—impulse buying, trusting the wrong investments, or simply giving it all away. To survive, they absolutely must automate their savings, invest in illiquid assets like real estate, and have a trusted partner manage their cash.</p>
+
+<h3>The Lion Nose (Bulbous Nose): The Late Bloomer</h3>
+<p>The bridge may be slightly low, but the tip and the nostrils are exceptionally wide, fleshy, and thick. While it may not fit modern Western beauty standards, in Gwansang, this is an incredibly powerful <strong>"Bok-ko" (Fortune Nose)</strong>. It indicates massive physical stamina, a hearty and magnanimous personality, and a destiny of "Dae-gi-man-seong" (Great Success Late in Life). They build unshakeable empires through sweat equity and a massive network of loyal followers.</p>
+
+<h2 id="nose-bridge-tip">3. The Bridge (San-geun) and the Crooked Nose</h2>
+
+<h3>The Height of the San-geun (Root)</h3>
+<p>The starting point of the nose between the eyes represents your ego, pride, and starting momentum. A very high, prominent San-geun indicates extreme self-confidence, strong leadership potential, and an inability to tolerate micromanagement. A flat or low San-geun indicates a highly adaptable, cooperative personality who excels in team environments but may struggle with indecision when forced to take sole command.</p>
+
+<h3>The Crooked or Deviated Nose</h3>
+<p>If the bridge is noticeably bent to the left or right, it serves as a stark warning in Gwansang. It predicts a major period of turbulence or sudden financial loss during the person's 40s. It is also closely associated with spinal imbalances. Correcting one's physical posture and ensuring extreme financial conservatism during mid-life are the prescribed remedies.</p>
+
+<h2 id="improving-nose-luck">4. How to Actively Improve Your Nose Fortune (Gi-saek)</h2>
+<p>While you cannot easily change your bone structure without surgery, you have absolute daily control over your nose's <strong>Gi-saek (Energy Glow)</strong>. In real-time fortune reading, Gi-saek is actually more critical than shape.</p>
+<ul>
+  <li><strong>Cultivate the Golden Glow:</strong> A nose tip that radiates a clear, luminous, slightly golden or pinkish glow is the ultimate signal that a massive influx of cash is imminent. Conversely, a nose covered in blackheads, dull skin, or excess oil indicates that your financial channels are severely clogged. Impeccable skincare on your nose is literal wealth management.</li>
+  <li><strong>Beware the Red Pimple:</strong> A sudden red pimple directly on the nose tip or nostril is a famous Gwansang red flag. It predicts an immediate, unexpected financial expense or a sudden dispute over money. Close your wallet tightly when this appears.</li>
+  <li><strong>Trim Nose Hair:</strong> Nose hair protruding from the nostrils is interpreted as "barbed wire tangling your wealth." It actively repels financial luck and damages your professional aura. Keep it meticulously trimmed.</li>
+</ul>
+
+<h2 id="conclusion">5. Conclusion: The Foundation of Fortune</h2>
+<p>Your nose is the monument of your ego and the vault of your life's labor. The modern obsession with shaving down fleshy noses to achieve a sharp, Westernized point is, in the eyes of a Gwansang master, a tragic destruction of natural wealth capacity. A slightly wider, fleshy, glowing "Fortune Nose" is the true mark of the elite. Look in the mirror today. Is the pillar of your face shining with clear, healthy vitality? Maintain its glow, and it will faithfully guard your empire.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/face-reading/health-face" style="text-decoration: underline; color: #f9d976;">[Related] Face Reading for Health: What Your Nose Reveals About Digestion</a></p>
+  <p><a href="/en/face-reading/eye-reading" style="text-decoration: underline; color: #f9d976;">[Related] Eye Reading: How Your Gaze Controls 80% of Your Destiny</a></p>
+</div>
+</section>
+    `,
+    faq: [
+      { q: '재물운을 높이려고 코 성형수술을 하면 효과가 있나요?', a: '지나치게 낮거나 들창코여서 심리적으로 위축된다면, 수술을 통해 자신감을 회복하는 것이 운세에 큰 도움이 됩니다. 하지만 관상학적으로 가장 좋은 복코(살집이 넉넉한 둥근 코)를 미용 목적으로 뾰족하게 깎아내는 것은 오히려 재물운을 약화시킬 수 있으니 신중해야 합니다.' },
+      { q: '코끝이 항상 빨갛다면 어떻게 해야 하나요?', a: '관상학에서 코끝이 붉은 것은 \'화소중당(火燒中堂)\'이라 하여 금고에 불이 난 형국으로 봅니다. 재물이 마르거나 위장 건강이 나쁘다는 신호이므로, 음주를 줄이고 위장을 편안하게 하는 식습관 개선이 최우선 개운법입니다.' },
+      { q: '코에 있는 점은 복점인가요?', a: '코끝(준두)이나 콧망울에 있는 까맣고 선명한 점은 재물이 모이는 복점입니다. 하지만 콧대 중간에 있는 점이나 색이 탁한 흉점은 중년의 재물 손실이나 사고를 암시할 수 있어 제거하는 것을 권장합니다.' },
+    ],
+    faqEn: [
+      { q: 'Will a nose job (rhinoplasty) make me richer?', a: 'If correcting a severe upturned nose or a flat bridge significantly boosts your self-confidence, the psychological shift will positively impact your fortune. However, shaving down a naturally fleshy, wealthy "Bok-ko" just to achieve a sharp, trendy point is strongly advised against in Gwansang, as it mathematically reduces your wealth capacity.' },
+      { q: 'My nose tip is always red. Is that a bad sign?', a: 'Yes. In Gwansang, a chronically red nose tip is called "Fire burning the Central Hall." It indicates that your wealth is constantly evaporating and is a direct medical sign of digestive or liver stress. Reducing alcohol and healing your gut is your best financial strategy.' },
+      { q: 'Is a mole on my nose lucky or unlucky?', a: 'A prominent, jet-black mole on the fleshy tip or nostril is a major Fortune Mole, acting as a magnet for wealth. However, a dull or grayish mole situated on the bridge of the nose is an Obstacle Mole, predicting mid-life setbacks and is often recommended for removal.' },
+    ],
+    relatedPosts: [
+      { slug: 'wealth-face', category: 'face-reading', title: '재물 관상: 코와 입에 숨겨진 부의 비밀' },
+      { slug: 'health-face', category: 'face-reading', title: '관상과 건강: 얼굴색으로 보는 운세 신호' },
+    ],
+  },
 ];
