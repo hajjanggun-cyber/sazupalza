@@ -39,9 +39,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: isMain ? 'weekly' : 'monthly',
         priority: isMain ? 1.0 : locale === 'ko' ? 0.8 : 0.6,
         alternates: {
-          languages: Object.fromEntries(
-            locales.map((l) => [l, getLocaleUrl(l, route)])
-          ),
+          languages: {
+            ...Object.fromEntries(locales.map((l) => [l, getLocaleUrl(l, route)])),
+            'x-default': getLocaleUrl('ko', route),
+          },
         },
       });
     }
@@ -60,9 +61,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: 'weekly',
         priority: locale === 'ko' ? 0.7 : 0.5,
         alternates: {
-          languages: Object.fromEntries(
-            blogLocales.map((l) => [l, getLocaleUrl(l, postRoute)])
-          ),
+          languages: {
+            ...Object.fromEntries(blogLocales.map((l) => [l, getLocaleUrl(l, postRoute)])),
+            'x-default': getLocaleUrl('ko', postRoute),
+          },
         },
       });
     }

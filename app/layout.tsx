@@ -1,10 +1,5 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-import Script from 'next/script';
-import ScrollToTop from '@/components/ScrollToTop';
 import './globals.css';
-
-const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://sajupalza.cc'),
@@ -33,45 +28,11 @@ export const metadata: Metadata = {
   },
 };
 
+// html/body는 app/[locale]/layout.tsx에서 lang={locale}로 동적 렌더링
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
-}) {
-  return (
-    <html lang="ko" suppressHydrationWarning>
-      <head>
-        <meta name="google-adsense-account" content="ca-pub-2524681039359256" />
-        <meta name="google-site-verification" content="M51gxp94qS8Cyah_8hlOXcVA3I43jilBE05x2IYNVd8" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap"
-          rel="stylesheet"
-        />
-        {/* AdSense 스크립트 */}
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2524681039359256"
-          crossOrigin="anonymous"
-        />
-      </head>
-      <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-HNNGML081Q"
-        strategy="afterInteractive"
-      />
-      <Script id="gtag-init" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-HNNGML081Q');
-        `}
-      </Script>
-      <body className={inter.className}>
-        <ScrollToTop />
-        {children}
-      </body>
-    </html>
-  );
+}): React.ReactNode {
+  return children;
 }

@@ -1,8 +1,13 @@
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, getTranslations } from 'next-intl/server';
+import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import Script from 'next/script';
+import ScrollToTop from '@/components/ScrollToTop';
 import { locales } from '../../i18n';
+
+const inter = Inter({ subsets: ['latin'] });
 
 interface Props {
   children: React.ReactNode;
@@ -14,10 +19,9 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
-  const langMap: Record<string, string> = { ko: 'ko', en: 'en', ja: 'ja', zh: 'zh' };
   return {
     other: {
-      'content-language': langMap[locale] ?? 'ko',
+      'content-language': locale,
     },
   };
 }
@@ -30,8 +34,40 @@ export default async function LocaleLayout({ children, params: { locale } }: Pro
   const messages = await getMessages();
 
   return (
-    <NextIntlClientProvider locale={locale} messages={messages}>
-      {children}
-    </NextIntlClientProvider>
+    <html lang={locale} suppressHydrationWarning>
+      <head>
+        <meta name="google-adsense-account" content="ca-pub-2524681039359256" />
+        <meta name="google-site-verification" content="M51gxp94qS8Cyah_8hlOXcVA3I43jilBE05x2IYNVd8" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap"
+          rel="stylesheet"
+        />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2524681039359256"
+          crossOrigin="anonymous"
+        />
+      </head>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-HNNGML081Q"
+        strategy="afterInteractive"
+      />
+      <Script id="gtag-init" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-HNNGML081Q');
+        `}
+      </Script>
+      <body className={inter.className}>
+        <ScrollToTop />
+        <NextIntlClientProvider locale={locale} messages={messages}>
+          {children}
+        </NextIntlClientProvider>
+      </body>
+    </html>
   );
 }

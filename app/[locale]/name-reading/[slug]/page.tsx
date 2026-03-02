@@ -38,9 +38,10 @@ export async function generateMetadata(
     keywords,
     alternates: {
       canonical,
-      languages: Object.fromEntries(
-        blogLocales.map((l) => [l, getPostUrl(l, params.slug)])
-      ),
+      languages: {
+        ...Object.fromEntries(blogLocales.map((l) => [l, getPostUrl(l, params.slug)])),
+        'x-default': getPostUrl('ko', params.slug),
+      },
     },
     openGraph: { title, description, type: 'article', publishedTime: post.publishedAt, url: canonical },
   };
