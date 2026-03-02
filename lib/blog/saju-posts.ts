@@ -1637,7 +1637,7 @@ export const sajuPosts: BlogPost[] = [
       { slug: 'wealth-luck', category: 'saju', title: '사주 재물운: 위기를 기회로 바꾸기' },
     ],
     },
-    ];
+  {
     slug: 'year-pillar',
     title: '년주(年柱) 완전 해설: 나의 뿌리와 조상, 그리고 초년운의 비밀',
     seoTitle: '사주 년주(年柱) 보는 법: 조상운과 나의 뿌리, 초년 환경 분석',
