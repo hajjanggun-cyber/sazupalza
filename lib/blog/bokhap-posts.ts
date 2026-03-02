@@ -463,4 +463,166 @@ export const bokhapPosts: BlogPost[] = [
       { slug: 'friendship-compatibility', category: 'compatibility', title: '동성 친구 궁합: 나의 귀인 찾기' },
     ],
   },
+  {
+    slug: 'friendship-compatibility',
+    title: '동성 친구 궁합: 내 인생을 끌어올려 줄 진짜 ‘귀인(貴人)’ 찾는 법',
+    seoTitle: '친구 궁합 보는 법: 동성 친구와의 사주 상생, MBTI 조화, 그리고 귀인(貴人) 찾기',
+    seoTitleEn: 'Korean Friendship Compatibility: Finding Your Nobleman (Gwi-in)',
+    description: '연인보다 더 중요한 동성 친구 궁합! 사주 명리학의 귀인(貴人) 찾기와 MBTI 성격 조화를 통해 내 인생을 상승시킬 진짜 친구를 구별하는 3,000자 전문 해설입니다.',
+    descriptionEn: 'Discover how to find your true "Nobleman" (Gwi-in) friend. Learn the secrets of friendship compatibility using Saju and MBTI to attract lifelong allies.',
+    keywords: ['친구궁합', '동성궁합', '귀인사주', '천을귀인', 'MBTI친구'],
+    keywordsEn: ['Friendship Compatibility', 'Gwi-in Saju', 'Nobleman Luck', 'MBTI Friends', 'Korean Friendship Match'],
+    publishedAt: '2026-03-02',
+    category: 'compatibility',
+    toc: [
+      { id: 'importance-of-friends', title: '1. 동성 친구: 내 인생의 가장 강력한 환경' },
+      { id: 'finding-gwiin', title: '2. 사주로 찾는 내 인생의 치트키, 귀인(貴人)' },
+      { id: 'mbti-friendship', title: '3. MBTI로 보는 절친의 조건' },
+      { id: 'toxic-friends', title: '4. 반드시 피해야 할 악연(惡緣)의 특징' },
+      { id: 'conclusion', title: '5. 결론: 좋은 친구는 내가 만드는 운명' },
+    ],
+    tocEn: [
+      { id: 'importance-of-friends', title: '1. Friends: Your Strongest Environment' },
+      { id: 'finding-gwiin', title: '2. Finding Your Gwi-in (Nobleman)' },
+      { id: 'mbti-friendship', title: '3. The MBTI Best Friend Formula' },
+      { id: 'toxic-friends', title: '4. Identifying Toxic Friendships' },
+      { id: 'conclusion', title: '5. Conclusion: Friendship is Destiny' },
+    ],
+    contentKo: `
+<section>
+<p>우리는 보통 '궁합(宮合)'이라고 하면 남녀 간의 연애나 결혼만을 떠올립니다. 하지만 우리 인생에 실질적으로 가장 큰 영향을 미치는 것은 매일 연락하고, 고민을 나누며, 함께 시간을 보내는 <strong>'동성 친구'</strong>입니다. "친구가 네 명이면, 그 네 명의 연봉 평균이 곧 내 연봉이다"라는 말이 있듯, 동성 친구는 내 인생의 파동을 함께 만들어가는 가장 강력한 '환경(Environment)'입니다.</p>
+
+<p>명리학에서 가장 중요하게 다루는 개념 중 하나가 바로 <strong>'귀인(貴人)'</strong>입니다. 귀인이란 하늘이 내게 보낸 조력자로, 내가 위기에 처했을 때 아무런 조건 없이 나를 끌어올려 주는 사람을 뜻합니다. 반대로 만나면 만날수록 내 기운을 빼앗아가고 불행으로 이끄는 '악연(惡緣)'도 존재합니다. 이 글에서는 사주 명리학의 귀인 이론과 MBTI의 성격 역학을 결합하여, 평생을 함께할 진짜 '절친'을 찾는 방법을 전문적으로 분석해 드립니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/compatibility/couple-saju" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">연인 궁합의 모든 것: 사주 일주로 보는 커플의 미래</a></li>
+    <li style="margin-bottom: 4px;"><a href="/mbti/mbti-career" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">MBTI와 사주로 찾는 천직: 내 성격에 맞는 직업운</a></li>
+  </ul>
+</div>
+
+<h2 id="importance-of-friends">1. 동성 친구: 내 인생의 가장 강력한 개운법(開運法)</h2>
+<p>사주를 보러 가서 "올해는 운이 매우 나쁘니(기신운) 조심하라"는 말을 들었을 때, 이를 극복할 수 있는 가장 확실하고 빠른 방법은 바로 <strong>'운이 좋은 친구' 옆에 찰싹 붙어 있는 것</strong>입니다. 이를 명리학에서는 '종재(從財)' 혹은 기운을 빌려 쓴다고 표현합니다.</p>
+<p>나의 오행이 수(水)로 가득 차서 차갑고 우울한 시기를 지날 때, 사주에 화(火)와 토(土)가 가득하여 양기(陽氣)가 넘치고 매사에 긍정적인 친구를 만나면 내 사주의 한기가 녹아내립니다. 이것이 바로 친구를 통한 '인연 개운법'입니다. 좋은 친구는 그 어떤 값비싼 부적보다 강력한 운명의 방패가 되어줍니다.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">👥 나와 가장 잘 맞는 귀인(친구) 사주 무료 확인하기 →</a>
+</div>
+
+<h2 id="finding-gwiin">2. 사주로 찾는 내 인생의 치트키, 귀인(貴人)</h2>
+<p>내 사주를 분석하면 나에게 '귀인' 역할을 해주는 사람의 띠(태어난 해)를 정확히 알 수 있습니다. 가장 대표적인 귀인이 바로 <strong>'천을귀인(天乙貴人)'</strong>입니다.</p>
+<p>천을귀인은 모든 살(殺)을 막아주고 재난을 행운으로 바꿔주는 최고의 수호천사입니다. 내 사주 일간(태어난 날의 윗글자)을 기준으로 아래와 같은 띠를 가진 친구가 내 인생의 천을귀인입니다.</p>
+
+<ul>
+  <li><strong>갑(甲), 무(戊), 경(庚) 일간:</strong> 소띠, 양띠 친구</li>
+  <li><strong>을(乙), 기(己) 일간:</strong> 쥐띠, 원숭이띠 친구</li>
+  <li><strong>병(丙), 정(丁) 일간:</strong> 돼지띠, 닭띠 친구</li>
+  <li><strong>신(辛) 일간:</strong> 호랑이띠, 말띠 친구</li>
+  <li><strong>임(壬), 계(癸) 일간:</strong> 뱀띠, 토끼띠 친구</li>
+</ul>
+<p>만약 당신의 오랜 절친이 이 띠에 해당한다면, 그 사람은 당신이 큰 위기에 처했을 때 결정적인 해결책을 제시하거나 무조건적인 지지를 보내줄 진짜 은인입니다. 이들과의 인연은 평생에 걸쳐 가장 소중히 여겨야 합니다.</p>
+
+<h2 id="mbti-friendship">3. MBTI로 보는 절친의 조건 (상호 보완의 미학)</h2>
+<p>연인 관계에서는 서로 다름에 끌리지만, 동성 친구 관계에서는 <strong>인식 체계(S/N)</strong>가 같을 때 가장 깊은 소통이 일어납니다.</p>
+
+<h3>S와 N: 대화의 주파수 맞추기</h3>
+<p>현실적이고 구체적인 이야기를 즐기는 S유형과, 상상과 추상적인 개념을 즐기는 N유형은 동성 친구로 깊어지기 어렵습니다. S친구가 "어제 먹은 마라탕 진짜 맛있더라" 할 때, N친구가 "외계인이 지구를 침공하면 어떡할 거야?"라고 묻는다면 대화는 겉돌기 마련입니다. S는 S끼리, N은 N끼리 만났을 때 대화의 티키타카가 터지며 밤을 새워도 지루하지 않은 절친이 됩니다.</p>
+
+<h3>F와 T: 위로와 조언의 밸런스</h3>
+<p>친구 관계에서 감정(F)과 사고(T)는 <strong>다를 때 더 큰 시너지</strong>를 냅니다. 내가 깊은 슬픔에 빠져(F) 감정을 주체하지 못할 때, 흔들리지 않고 이성적인 해결책을 제시해 주는 T 친구는 든든한 닻이 됩니다. 반대로 T 친구가 차가운 현실에 지쳐 있을 때, F 친구의 따뜻한 공감 한마디가 그들을 구원합니다. 서로의 다름을 존중하는 성숙한 F와 T는 최고의 콤비가 됩니다.</p>
+
+<h2 id="toxic-friends">4. 반드시 피해야 할 악연(惡緣)의 특징</h2>
+<p>나를 성장시키는 귀인이 있다면, 나의 에너지를 뱀파이어처럼 빨아먹는 악연도 있습니다. 사주와 심리학이 공통으로 경고하는 악연의 특징은 다음과 같습니다.</p>
+<ul>
+  <li><strong>겁재(劫財)가 강하게 발현되는 친구:</strong> 사주에서 '겁재'는 내 재물을 빼앗아가는 흉한 기운입니다. 내 성취를 진심으로 축하해 주지 못하고 은근히 질투하거나, 항상 나를 경쟁 상대로 여기며 깎아내리려는(가스라이팅) 친구는 내 운을 갉아먹는 대표적인 겁재의 발현입니다.</li>
+  <li><strong>극단적인 편인(偏印) 성향:</strong> 매사를 비관적으로 보고 의심하며, 만나기만 하면 세상에 대한 불평불만을 쏟아내는 친구입니다. 부정적인 파동은 전염성이 매우 강하므로, 이런 친구를 구제하려 애쓰다 보면 내 영혼의 기운까지 탁해지고 맙니다. 단호하게 거리를 두는 것이 나를 지키는 개운법입니다.</li>
+</ul>
+
+<h2 id="conclusion">5. 결론: 좋은 친구는 내가 뿜어내는 파동의 결과물이다</h2>
+<p>명리학에는 <strong>"유유상종(類類相從)"</strong> 즉, 비슷한 기운을 가진 사람끼리 모인다는 불변의 법칙이 있습니다. 내가 매일 불평불만으로 가득 찬 탁한 기운(기신운)을 뿜어내고 있다면, 내 곁에는 똑같이 남을 탓하는 악연들만 꼬일 수밖에 없습니다.</p>
+<p>내 인생을 끌어올려 줄 귀인(절친)을 만나고 싶다면, 먼저 내 스스로가 누군가에게 귀인이 될 수 있도록 내면을 맑고 밝게(용신운) 가꾸어야 합니다. 내가 긍정적이고 따뜻한 파동을 발산할 때, 우주는 반드시 그 주파수에 맞는 눈부신 인연들을 당신의 삶에 가득 채워줄 것입니다.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/compatibility/business-partner" style="text-decoration: underline; color: #f9d976;">[관련글] 사업 파트너 궁합: 성공을 부르는 동업자 사주 찾기</a></p>
+  <p><a href="/mbti/fortune-improvement" style="text-decoration: underline; color: #f9d976;">[관련글] MBTI E·I 유형별 맞춤 개운법: 나만의 운 트는 법</a></p>
+</div>
+</section>
+    `,
+    contentEn: `
+<section>
+<p>When people hear "compatibility" (Gunghap in Korean), they immediately think of romance and marriage. However, the relationships that fundamentally shape your daily reality, your financial mindset, and your mental health are your <strong>Same-Sex Friendships</strong>. There is a saying: "You are the average of the five people you spend the most time with." In Saju (Four Pillars of Destiny), this is considered literal energetic truth. Your close friends are the most powerful environmental factor influencing the trajectory of your fortune.</p>
+
+<p>One of the most highly sought-after concepts in Eastern astrology is the <strong>"Gwi-in" (Nobleman or Benefactor)</strong>. A Gwi-in is someone sent by the universe to elevate you, offer unconditional support during crises, and magically clear obstacles from your path. Conversely, there are "Energetic Vampires" (Agyun) who subconsciously drain your luck. This guide integrates the Saju concept of the Nobleman with MBTI psychological dynamics to show you exactly how to identify your true lifelong allies.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/compatibility/couple-saju" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Couple Saju: Reading Your Romantic Future</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/mbti/mbti-career" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">MBTI Career Guide: Finding Your Vocation with Saju</a></li>
+  </ul>
+</div>
+
+<h2 id="importance-of-friends">1. Friends: Your Ultimate Luck Modification Tool (Gaewun)</h2>
+<p>If you receive a Saju reading that says, "You are entering a 10-year period of extreme bad luck (Gisin-un)," what is the fastest remedy? <strong>Attach yourself to a friend who is currently in a period of explosive good luck (Yongsin-un).</strong> In Saju, this is known as "borrowing energy."</p>
+<p>If your chart is flooded with freezing, depressive Water energy, and you befriend someone whose chart is blazing with optimistic, expansive Fire and Earth energy, their presence literally melts your cosmic freeze. Good friends act as a thermal blanket for your soul. They are infinitely more powerful than any talisman or lucky charm you could ever purchase.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">👥 Discover Who Your Saju Nobleman Is →</a>
+</div>
+
+<h2 id="finding-gwiin">2. Finding Your Cheat Code: The Heavenly Nobleman (Cheoneul Gwi-in)</h2>
+<p>By analyzing your Saju chart, you can pinpoint the exact zodiac sign (birth year) of the person destined to act as your "Nobleman" (Gwi-in). The most powerful of these is the <strong>Cheoneul Gwi-in (Heavenly Nobleman)</strong>.</p>
+<p>This Nobleman acts as a cosmic shield against disaster. Based on your Day Stem (the top character of the day you were born), the following zodiac signs are your fated protectors:</p>
+
+<ul>
+  <li><strong>Gap (甲), Mu (戊), Gyeong (庚) Day Stems:</strong> Your Noblemen are born in the Year of the <strong>Ox</strong> or <strong>Goat</strong>.</li>
+  <li><strong>Eul (乙), Gi (己) Day Stems:</strong> Your Noblemen are born in the Year of the <strong>Rat</strong> or <strong>Monkey</strong>.</li>
+  <li><strong>Byeong (丙), Jeong (丁) Day Stems:</strong> Your Noblemen are born in the Year of the <strong>Pig</strong> or <strong>Rooster</strong>.</li>
+  <li><strong>Sin (辛) Day Stem:</strong> Your Noblemen are born in the Year of the <strong>Tiger</strong> or <strong>Horse</strong>.</li>
+  <li><strong>Im (壬), Gye (癸) Day Stems:</strong> Your Noblemen are born in the Year of the <strong>Snake</strong> or <strong>Rabbit</strong>.</li>
+</ul>
+<p>If your best friend happens to fall under your Nobleman zodiac sign, cherish that relationship deeply. When your life hits absolute rock bottom, this is the person who will inexplicably possess the exact key, resource, or emotional support you need to survive.</p>
+
+<h2 id="mbti-friendship">3. The MBTI Best Friend Formula: Syncing Frequencies</h2>
+<p>While opposites attract in romance, deeply enduring same-sex friendships require a shared frequency—specifically, matching on the <strong>Sensing (S) vs. Intuition (N)</strong> axis.</p>
+
+<h3>The S/N Divide: Are We Speaking the Same Language?</h3>
+<p>Sensors (S) live in concrete reality. Intuitives (N) live in abstract concepts. If an S-type friend wants to talk about the exact flavor of a new restaurant, and the N-type friend wants to discuss the simulation theory of the universe, both will walk away feeling unheard. For a best friendship to effortlessly flow into the late hours of the night without exhaustion, S must pair with S, and N must pair with N. Sharing this cognitive language is crucial for deep platonic bonding.</p>
+
+<h3>The T/F Synergy: Balancing Logic and Empathy</h3>
+<p>Interestingly, mixing Thinkers (T) and Feelers (F) in friendship creates massive synergy. When an F-type is drowning in an emotional crisis, another F-type might just drown with them. A T-type friend acts as a sturdy anchor, offering a cool, rational exit strategy. Conversely, when the T-type is burned out by the harsh reality of corporate life, the warm, unconditional empathy of the F-type reminds them they are human. Mature T's and F's make the ultimate survival team.</p>
+
+<h2 id="toxic-friends">4. Identifying the Toxic "Agyun" (Bad Karma) Friend</h2>
+<p>Just as Noblemen elevate you, toxic friends (Agyun) act as black holes for your luck. Saju and psychology warn against these specific traits:</p>
+<ul>
+  <li><strong>The "Geop-jae" (Wealth Robber) Energy:</strong> In Saju, "Geop-jae" is an aggressive energy that steals your wealth and peace. A friend who cannot genuinely celebrate your success, who constantly belittles your achievements (gaslighting), or who views every interaction as a covert competition is manifesting Geop-jae energy. They will literally drag your fortune down. Cut them off.</li>
+  <li><strong>The Extreme "Pyeon-in" (Pessimistic Scholar):</strong> This is the friend who complains about everything. They view the world through a deeply paranoid, cynical lens. Because energetic vibrations are highly contagious, constantly listening to their gloom will physically alter your brain chemistry and "pollute" your own Saju luck. Walking away from them is an act of self-preservation.</li>
+</ul>
+
+<h2 id="conclusion">5. Conclusion: You Attract What You Broadcast</h2>
+<p>In Eastern philosophy, there is an absolute law: <strong>"Like Attracts Like" (Yuyu-sangjong)</strong>. If you are constantly broadcasting bitter, resentful energy, you will magnetically attract toxic friends who mirror that exact frequency.</p>
+<p>If you want to meet the "Nobleman" who will elevate your life, you must first clear your own energy (Yongsin-un). Cultivate gratitude, speak positively, and become a Nobleman to someone else. When you broadcast a bright, high-frequency aura, the universe has no choice but to surround you with the brilliant, lifelong allies you deserve.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/compatibility/business-partner" style="text-decoration: underline; color: #f9d976;">[Read Next] Business Partner Saju: Finding the Perfect Co-Founder</a></p>
+  <p><a href="/en/mbti/fortune-improvement" style="text-decoration: underline; color: #f9d976;">[Read Next] MBTI Luck Improvement: Daily Rituals for I and E Types</a></p>
+</div>
+</section>
+    `,
+    faq: [
+      { q: '내 사주에 귀인(천을귀인)이 없으면 인복이 없는 건가요?', a: '내 사주 원국에 귀인 글자가 없더라도 실망할 필요 없습니다. 내가 태어난 날을 기준으로 한 "귀인 띠"를 가진 친구를 사귀면 그 기운을 완벽하게 채울 수 있습니다. 이것이 사주를 활용하는 지혜입니다.' },
+      { q: 'MBTI가 완전히 정반대인 친구와도 절친이 될 수 있나요?', a: '물론입니다. MBTI가 정반대(예: ESTJ와 INFP)라도 사주 오행이 완벽하게 상생하는 구조라면, 서로가 가지지 못한 매력에 깊이 끌려 소울메이트처럼 지낼 수 있습니다.' },
+      { q: '오래된 친구가 자꾸 나를 깎아내리는데 정 때문에 못 끊겠어요.', a: '명리학적으로 이는 당신의 운(運)이 빠져나가고 있다는 명백한 신호입니다. 정에 이끌려 나쁜 기운(겁재)을 곁에 두는 것은 내 인생의 그릇을 깨는 행위입니다. 거리를 두는 것이 진정한 개운법입니다.' },
+    ],
+    faqEn: [
+      { q: 'If my Saju chart doesn\'t have a "Nobleman" star, am I doomed to have no friends?', a: 'Not at all. If you lack the star natively, you can "borrow" it by befriending people who were born under your specific Nobleman Zodiac Sign. This is the entire point of practical Saju application.' },
+      { q: 'Can I be best friends with someone whose MBTI is the exact opposite of mine?', a: 'Absolutely. If an ESTJ and INFP (total opposites) have deeply complementary Saju elements (e.g., strong Metal and strong Wood), their energetic bond will override the MBTI communication gap, making them an incredible, balanced team.' },
+      { q: 'An old friend constantly belittles me, but I keep them around out of loyalty. Is this bad?', a: 'In Saju terms, this is a catastrophic leakage of your luck. Keeping "Wealth Robbing" (Geop-jae) energy close out of guilt shatters your own fortune container. Distancing yourself is not cruel; it is a required survival tactic to protect your destiny.' },
+    ],
+    relatedPosts: [
+      { slug: 'couple-saju', category: 'compatibility', title: '연인 궁합: 일주와 일지로 보는 미래' },
+      { slug: 'business-partner', category: 'compatibility', title: '동업자 궁합: 성공을 부르는 파트너 찾기' },
+    ],
+  },
 ];
