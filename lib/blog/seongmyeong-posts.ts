@@ -974,4 +974,181 @@ export const seongmyeongPosts: BlogPost[] = [
       { slug: 'intro', category: 'seongmyeong', title: '성명학이란 무엇인가? 운명적 에너지 가이드' },
     ],
   },
+  {
+    slug: 'surname-naming',
+    title: '성씨별 이름 짓기 가이드: 내 성씨에 맞는 찰떡궁합 이름 찾기',
+    seoTitle: '성씨별 이름 짓기 가이드: 김씨 이씨 박씨 최씨 등 성씨별 완벽한 획수와 오행 조합',
+    seoTitleEn: 'Korean Surname Guide: Choosing Characters That Complement Your Family Name',
+    description: '작명의 시작은 성씨 분석부터! 내 성씨의 오행과 획수에 완벽하게 부합하여 운명을 대길(大吉)하게 만드는 작명 비법을 상세히 알려드립니다.',
+    descriptionEn: 'Your family name sets your destiny\'s foundation. Learn how to choose the perfect given name that energetically complements your Korean surname for maximum luck.',
+    keywords: ['성씨별이름', '김씨이름', '이씨이름', '박씨이름', '최씨이름', '작명가이드'],
+    keywordsEn: ['Korean Surnames', 'Kim Lee Park', 'Family Name Energy', 'Korean Naming Guide', 'Name Harmony'],
+    publishedAt: '2026-03-02',
+    category: 'seongmyeong',
+    toc: [
+      { id: 'foundation-of-surname', title: '1. 성씨(姓氏)는 운명의 주춧돌' },
+      { id: 'kim-lee-park', title: '2. 대표 성씨(김·이·박)의 특징과 작명법' },
+      { id: 'choi-jung-kang', title: '3. 주요 성씨(최·정·강)의 오행과 수리 조합' },
+      { id: 'conclusion', title: '4. 결론: 성과 이름의 완벽한 하모니' },
+    ],
+    tocEn: [
+      { id: 'foundation-of-surname', title: '1. Your Surname: The Foundation of Destiny' },
+      { id: 'kim-lee-park', title: '2. Naming Strategies for Kim, Lee, and Park' },
+      { id: 'choi-jung-kang', title: '3. Naming Strategies for Choi, Jung, and Kang' },
+      { id: 'conclusion', title: '4. Conclusion: The Perfect Harmony' },
+    ],
+    contentKo: `
+<section>
+<p>건물을 지을 때 가장 중요한 것은 화려한 지붕이나 외벽이 아니라, 건물의 무게를 묵묵히 버텨내는 튼튼한 '주춧돌'입니다. 성명학(姓名學)에서 우리가 물려받은 <strong>성씨(姓氏)</strong>는 바로 이 주춧돌과 같습니다. 아무리 좋은 뜻과 아름다운 소리를 가진 이름(이름 자)이라도, 바탕이 되는 성씨와 기운이 충돌하거나 획수의 배합이 어긋난다면 그 이름은 모래 위에 지은 성처럼 위태로워집니다.</p>
+
+<p>성씨는 조상 대대로 내려오는 고유한 혈통의 에너지이자, 내가 세상을 살아갈 때 가장 먼저 앞에 내세우는 나침반의 방향입니다. 김(金)씨, 이(李)씨, 박(朴)씨, 최(崔)씨 등 각 성씨는 저마다 고유한 소리 오행(음령오행)과 한자 획수(원획법 기준)를 가지고 있습니다. 따라서 완벽한 이름을 짓기 위해서는 내가 가진 성씨의 오행과 획수를 먼저 정확히 분석하고, 그에 맞추어 상생(相生)하는 오행과 길수(吉數)를 만들어내는 이름 글자들을 퍼즐처럼 끼워 맞춰야 합니다. 이 글에서는 대한민국 대표 성씨들이 가지고 있는 성명학적 특징과, 각 성씨별로 어떤 획수와 발음을 조합해야 가장 좋은 기운을 끌어낼 수 있는지 상세히 해설해 드립니다.</p>
+
+<h2 id="foundation-of-surname">1. 성씨(姓氏)는 운명의 주춧돌</h2>
+<p>작명이나 개명을 할 때 흔히 범하는 오류는, 예쁘고 트렌디한 이름 두 글자를 먼저 고른 다음 성씨를 앞에 붙여보는 것입니다. 그러나 진정한 성명학적 작명은 그 반대 순서로 이루어져야 합니다. 성씨라는 주어진 조건(상수)을 바탕으로, 거기에 가장 잘 맞는 이름(변수)을 찾아내는 <strong>역산(逆算) 과정</strong>이 필수적입니다.</p>
+
+<h3>성씨가 결정하는 두 가지 핵심 요소</h3>
+<ul>
+  <li><strong>소리 오행의 출발점:</strong> 성씨의 초성 발음은 전체 이름 소리 오행의 첫 단추를 끼웁니다. 예를 들어, 김(ㄱ-목)씨라면 이름 첫 글자는 목(木)과 상생하는 수(水)나 화(火), 혹은 같은 목(木) 기운이 와야 합니다. 만약 금(金) 기운인 'ㅅ, ㅈ, ㅊ' 발음이 오면 금극목(金剋木)으로 소리의 충돌이 발생합니다.</li>
+  <li><strong>수리 4격의 기준점:</strong> 이름의 초년운, 청년운, 중년운, 말년운을 결정하는 수리 81수(數理81數) 계산에서 성씨의 한자 획수는 모든 계산의 기준점이 됩니다. 성씨 획수에 이름 첫 글자 획수를 더해 형격(청년/중심운)을 만들고, 이름 끝 글자 획수를 더해 이격(중년운)을 만듭니다. 즉, 성씨의 획수를 모르면 길수 조합을 아예 시작조차 할 수 없습니다.</li>
+</ul>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 내 성씨에 맞는 무료 이름 분석 받기 →</a>
+</div>
+
+<h2 id="kim-lee-park">2. 대표 성씨(김·이·박)의 특징과 작명법</h2>
+<p>대한민국 인구의 가장 큰 비율을 차지하는 김(金), 이(李), 박(朴)씨의 성명학적 특성과 추천하는 이름 배합 원리를 알아보겠습니다. (※ 한자 획수는 성명학 원획법을 기준으로 합니다.)</p>
+
+<h3>① 김(金)씨 — 목(木)의 소리, 8획의 묵직함</h3>
+<p>김씨는 한자로 쇠 금(金)을 쓰지만, 소리 오행(초성 'ㄱ')으로는 <strong>목(木)</strong>에 해당하며, 원획법으로는 <strong>8획</strong>입니다.</p>
+<ul>
+  <li><strong>소리 오행 배합:</strong> 첫소리가 목(木)이므로, 이름의 첫 글자는 수를 상징하는 ㅇ·ㅎ(수생목)이 오거나, 화를 상징하는 ㄴ·ㄷ·ㄹ·ㅌ(목생화), 또는 같은 목 기운인 ㄱ·ㅋ이 오는 것이 좋습니다. (예: 김연아(목-수-수), 김도윤(목-화-수)). 반면 서·지·채 같은 금(金) 기운의 글자가 오면 발음상 마찰이 생깁니다.</li>
+  <li><strong>수리 획수 배합 (8획):</strong> 김씨(8획)는 청년운(형격)과 중년운(이격)을 길수로 만들기 위해 이름 첫 글자로 <strong>3획, 7획, 13획, 16획</strong> 한자를 많이 사용합니다. 예를 들어 8획(김) + 7획 = 15획(통솔격/대길수), 8획(김) + 13획 = 21획(두령격/대길수)이 완성됩니다.</li>
+</ul>
+
+<h3>② 이(李)씨 — 수(水)의 소리, 7획의 부드러움</h3>
+<p>이씨(초성 'ㅇ')의 소리 오행은 <strong>수(水)</strong>이며, 한자 오얏 리(李)의 원획법은 나무 목(木, 4획)과 아들 자(子, 3획)가 합쳐진 <strong>7획</strong>입니다.</p>
+<ul>
+  <li><strong>소리 오행 배합:</strong> 수(水) 기운을 타고났으므로, 이름 첫 글자로 목(木) 기운인 ㄱ·ㅋ이나 금(金) 기운인 ㅅ·ㅈ·ㅊ이 올 때 가장 부드럽고 유연한 상생의 흐름을 보입니다. (예: 이서준(수-금-금), 이경민(수-목-수)). 토(土) 기운인 ㅁ·ㅂ·ㅍ이 오면 토극수(土剋水)가 되어 흐름이 탁해질 수 있으니 주의해야 합니다.</li>
+  <li><strong>수리 획수 배합 (7획):</strong> 7획 성씨는 <strong>8획, 14획, 17획</strong>의 한자와 만날 때 대길수를 이룹니다. 7획(이) + 8획 = 15획(통솔격), 7획(이) + 14획 = 21획(두령격), 7획(이) + 17획 = 24획(입신격) 등 화려하고 크게 성공하는 수리 배합을 짜기에 매우 유리한 성씨입니다.</li>
+</ul>
+
+<h3>③ 박(朴)씨 — 토(土)의 소리, 6획의 굳건함</h3>
+<p>박씨(초성 'ㅂ')의 소리 오행은 <strong>토(土)</strong>이며, 순박할 박(朴)은 나무 목(木, 4획)과 점 복(卜, 2획)이 합쳐져 원획법으로 <strong>6획</strong>입니다.</p>
+<ul>
+  <li><strong>소리 오행 배합:</strong> 토(土) 기운은 금(金) 기운인 ㅅ·ㅈ·ㅊ(토생금)이나 화(火) 기운인 ㄴ·ㄷ·ㄹ·ㅌ(화생토)과 만날 때 가장 크게 발복합니다. (예: 박지훈(토-금-수), 박도현(토-화-수)). 그러나 목(木) 기운인 ㄱ·ㅋ과 만나면 목극토(木剋土)의 강한 압박을 받을 수 있습니다.</li>
+  <li><strong>수리 획수 배합 (6획):</strong> 박씨는 <strong>9획, 15획, 18획</strong>의 한자와 결합할 때 좋습니다. 6획(박) + 9획 = 15획(통솔격), 6획(박) + 15획 = 21획(두령격), 6획(박) + 18획 = 24획(입신격)을 만들어 안정적이고 재물운이 넘치는 이름을 설계할 수 있습니다.</li>
+</ul>
+
+<h2 id="choi-jung-kang">3. 주요 성씨(최·정·강)의 오행과 수리 조합</h2>
+<p>그 외에 대한민국에서 큰 비중을 차지하는 최, 정, 강씨의 작명 포인트입니다.</p>
+
+<h3>④ 최(崔)씨 — 금(金)의 소리, 11획의 날카로움</h3>
+<p>최씨(초성 'ㅊ')는 소리 오행으로 <strong>금(金)</strong>이며, 높을 최(崔)는 뫼 산(山, 3획)과 새 추(隹, 8획)가 합쳐진 <strong>11획</strong>입니다.</p>
+<ul>
+  <li><strong>소리 오행 배합:</strong> 금 기운의 날카로움을 부드럽게 감싸주는 수(水) 기운인 ㅇ·ㅎ이나, 금을 단단하게 받쳐주는 토(土) 기운인 ㅁ·ㅂ·ㅍ과 잘 어울립니다. (예: 최우식(금-수-금), 최민호(금-토-수)).</li>
+  <li><strong>수리 획수 배합 (11획):</strong> 11획 성씨는 <strong>4획, 10획, 13획, 20획</strong>과 만나 15획, 21획, 24획, 31획의 길수를 형성합니다. 11획 자체의 기운이 크므로 이름 글자의 획수 선택폭이 넓은 편입니다.</li>
+</ul>
+
+<h3>⑤ 정(鄭)씨 — 금(金)의 소리, 19획의 묵직함</h3>
+<p>정씨(초성 'ㅈ') 역시 <strong>금(金)</strong>의 발음이며, 나라 정(鄭)은 원획법으로 무려 <strong>19획</strong>(우부방 阝을 邑 7획으로 계산)을 가집니다.</p>
+<ul>
+  <li><strong>수리 획수 배합 (19획):</strong> 정씨는 성씨 자체의 획수가 매우 크기 때문에 수리 배합이 까다로운 편입니다. 이름 첫 글자로 <strong>2획, 5획, 12획</strong>의 한자를 사용하여 21획, 24획, 31획의 길수를 만들어내는 전략이 주로 쓰입니다.</li>
+</ul>
+
+<h3>⑥ 강(姜)씨 — 목(木)의 소리, 9획의 끈기</h3>
+<p>강씨(초성 'ㄱ')는 <strong>목(木)</strong>의 발음이며, 성 강(姜)은 <strong>9획</strong>입니다.</p>
+<ul>
+  <li><strong>수리 획수 배합 (9획):</strong> 9획 성씨는 <strong>6획, 12획, 15획, 22획</strong>과 결합하여 15획(통솔), 21획(두령), 24획(입신), 31획(성덕)의 훌륭한 격을 만들어냅니다. 특히 강씨에 15획 한자를 붙여 형격을 24획으로 만들면 사업과 재물운이 크게 일어납니다.</li>
+</ul>
+
+<h2 id="conclusion">4. 결론: 성과 이름의 완벽한 하모니</h2>
+<p>아무리 비싸고 좋은 옷도 내 몸에 맞지 않으면 우스꽝스러워 보입니다. 이름 역시 마찬가지입니다. 인터넷에서 '부자가 되는 획수', '성공하는 한자'를 찾아 아무리 조합해 보아도, 그것이 내가 물려받은 '성씨'의 소리 및 획수와 화학적으로 결합하지 못하면 성명학적으로 아무런 효과를 내지 못합니다.</p>
+
+<p>성씨별 작명은 고도의 수학적 퍼즐을 푸는 것과 같습니다. 내 성씨의 획수를 기준점으로 삼아, 초년·청년·중년·말년의 4격 수리가 모두 길수(吉數)로 맞아떨어지도록 수학 공식을 짜맞춰야 합니다. 그와 동시에 첫소리부터 끝소리까지 부드럽게 물 흐르듯 흘러가는 상생의 발음을 찾아내야 하며, 최종적으로는 내 사주팔자(四柱八字)에 부족한 오행까지 한자의 뜻(자원오행)으로 보충해야 비로소 '명품 이름'이 탄생합니다. 당신의 성씨가 가진 고유한 에너지의 결을 깊이 이해하고, 그 든든한 주춧돌 위에 흔들리지 않는 찬란한 운명의 성을 세우시길 바랍니다.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/name-reading/stroke-count" style="text-decoration: underline; color: #f9d976;">[관련] 이름 획수 완전 해설: 수리로 보는 내 이름의 운명</a></p>
+  <p><a href="/name-reading/name-five-elements" style="text-decoration: underline; color: #f9d976;">[관련] 소리오행 분석: 초성으로 보는 발음의 상생상극</a></p>
+</div>
+</section>
+    `,
+    contentEn: `
+<section>
+<p>When an architect builds a skyscraper, they do not begin by choosing the color of the penthouse curtains. They begin by pouring an unshakeable concrete foundation. In the esoteric science of <strong>Seongmyeonghak (Korean Name Numerology)</strong>, your <strong>Family Name (Surname)</strong> is that exact foundation. You may choose a given name with the most beautiful meaning or the most powerful Chinese characters, but if those characters energetically clash with your inherited surname, the entire structure of your destiny becomes highly unstable. The flow of luck is disrupted before it even begins.</p>
+
+<p>Your surname is not merely a marker of your ancestry; it is a permanent cosmic anchor. In the Korean naming system, every surname—whether it is Kim, Lee, Park, or Choi—possesses a highly specific acoustic vibration (Sound Element) and a fixed mathematical weight (Stroke Count). The ultimate art of <strong>Korean Name Reading</strong> is the meticulous process of calculating which specific given names will perfectly lock into the puzzle pieces of your surname, generating explosive <strong>Lucky Numbers</strong> and a seamless flow of elemental harmony. This guide will unveil the hidden energetic properties of major Korean surnames and show you the professional strategies used to design names that guarantee maximum success.</p>
+
+<h2 id="foundation-of-surname">1. Your Surname: The Foundation of Destiny</h2>
+<p>The most common and devastating mistake amateurs make in <strong>Korean Name Reading</strong> is falling in love with a given name first, and then simply attaching their family name to it. Professional Destiny Arts practitioners work in exact reverse. The surname is an unchangeable constant. We must perform reverse-engineering to discover the exact "variables" (given name characters) that perfectly satisfy the mathematical and acoustic equations demanded by that specific surname.</p>
+
+<h3>The Dual Function of the Family Name</h3>
+<ul>
+  <li><strong>The Acoustic Starting Line:</strong> The initial consonant of your surname determines the elemental starting point of your name's acoustic wave. If your surname is Wood (like Kim/ㄱ), your given name must seamlessly continue that flow with Water or Fire. If you follow Wood directly with a Metal consonant, you create severe acoustic friction known as a "Controlling Cycle," which often manifests as social awkwardness or constant professional misunderstandings.</li>
+  <li><strong>The Mathematical Anchor:</strong> In <strong>Name Numerology</strong>, the stroke count of your surname acts as the anchor point for calculating the 4 Pillars of your life (Youth, Prime Career, Middle Age, and Legacy). The all-important Prime Career Pillar (Hyeong-gyeok) is calculated by adding your surname's stroke count to your first given name's stroke count. Without knowing the exact weight of your surname, constructing a sequence of <strong>Lucky Numbers</strong> is mathematically impossible.</li>
+</ul>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 Get a Free Surname Compatibility Analysis →</a>
+</div>
+
+<h2 id="kim-lee-park">2. Naming Strategies for Kim, Lee, and Park</h2>
+<p>Let’s analyze the "Big Three" Korean surnames, which make up roughly half the population. <em>(Note: Stroke counts strictly use the ancient Original Stroke Method, which may differ from modern dictionaries.)</em></p>
+
+<h3>① The Surname Kim (金) — The Sound of Wood, The Weight of 8</h3>
+<p>Although the Hanja character for Kim literally translates to "Gold/Metal," its actual pronunciation starts with a "G/K" sound, making its acoustic property strictly <strong>Wood</strong>. Mathematically, it carries a weight of <strong>8 strokes</strong>.</p>
+<ul>
+  <li><strong>Acoustic Strategy:</strong> Because Kim is a Wood sound, the first syllable of the given name should ideally be Water (starting with ng/h) or Fire (starting with n/d/r/t) to create a generative, nourishing flow. Names like "Kim Yeon-ah" or "Kim Do-yoon" flow beautifully.</li>
+  <li><strong>Numerological Strategy:</strong> To generate elite <strong>Lucky Numbers</strong> in the critical Prime Career Pillar, an 8-stroke Kim must be paired with a first given name character of <strong>3, 7, 13, or 16 strokes</strong>. For instance, 8 (Kim) + 7 = 15 (A universally admired leader number). 8 (Kim) + 13 = 21 (An untouchable authority number).</li>
+</ul>
+
+<h3>② The Surname Lee (李) — The Sound of Water, The Weight of 7</h3>
+<p>Pronounced with an initial "ng/y" sound, Lee possesses the deep, flexible acoustic property of <strong>Water</strong>. Etymologically composed of the radicals for 'tree' and 'child', it holds a mathematical weight of <strong>7 strokes</strong>.</p>
+<ul>
+  <li><strong>Acoustic Strategy:</strong> As a Water sound, Lee thrives when followed by Wood sounds (g/k) or Metal sounds (s/j/ch). Examples like "Lee Seo-jun" or "Lee Kyung-min" create a highly intelligent and adaptable energetic aura.</li>
+  <li><strong>Numerological Strategy:</strong> A 7-stroke Lee pairs spectacularly with first given name characters of <strong>8, 14, or 17 strokes</strong>. For example, 7 (Lee) + 17 = 24 (The ultimate archetype of explosive self-made wealth). The Lee surname is structurally very forgiving when building millionaire-status names.</li>
+</ul>
+
+<h3>③ The Surname Park (朴) — The Sound of Earth, The Weight of 6</h3>
+<p>Starting with a "B/P" sound, Park represents the stable, grounded energy of <strong>Earth</strong>. Its ancient Hanja root dictates a weight of exactly <strong>6 strokes</strong>.</p>
+<ul>
+  <li><strong>Acoustic Strategy:</strong> Earth sounds (Park) generate massive success when supported by Fire sounds (n/d/r/t) or when they themselves nourish Metal sounds (s/j/ch). Avoid following a Park surname immediately with a Wood sound (g/k), as Wood aggressively breaks through Earth.</li>
+  <li><strong>Numerological Strategy:</strong> To construct an empire-building name, a 6-stroke Park should be matched with first given name characters of <strong>9, 15, or 18 strokes</strong>. 6 (Park) + 15 = 21 (Supreme dominance), ensuring a career defined by high-level executive authority.</li>
+</ul>
+
+<h2 id="choi-jung-kang">3. Naming Strategies for Choi, Jung, and Kang</h2>
+<p>For those with slightly less common but equally powerful surnames, the architectural rules remain just as strict.</p>
+
+<h3>④ The Surname Choi (崔) — 11 Strokes</h3>
+<p>Choi (ch- sound) is an intensely sharp <strong>Metal</strong> sound with a heavy mathematical anchor of <strong>11 strokes</strong>. Because 11 is naturally a <strong>Lucky Number</strong>, it is highly versatile. It pairs brilliantly with first given name characters of <strong>4, 10, or 13 strokes</strong> (e.g., 11 + 13 = 24, maximizing financial success). It demands the soothing presence of Water sounds to temper its metallic edge.</p>
+
+<h3>⑤ The Surname Jung (鄭) — 19 Strokes</h3>
+<p>Jung (j- sound) is also a <strong>Metal</strong> sound, but structurally, it is a heavyweight behemoth. Using the ancient stroke method (where its radical counts as 7, not 3), Jung weighs in at a massive <strong>19 strokes</strong>. This makes it mathematically very challenging. Master practitioners typically pair Jung with very light first name characters—such as <strong>2, 5, or 12 strokes</strong>—to gracefully reach the elite numbers of 21, 24, and 31 without tipping into chaotic, overly heavy numbers.</p>
+
+<h2 id="conclusion">4. Conclusion: The Perfect Harmony</h2>
+<p>A bespoke Italian suit looks ridiculous if tailored to the wrong measurements. A name is exactly the same. You cannot blindly search the internet for "wealth-attracting Chinese characters" and slap them onto your surname. If the mathematics do not align, the magic does not activate.</p>
+
+<p>Designing a name based on your surname is akin to solving a high-stakes cosmic sudoku puzzle. You must use the surname's stroke count as the immovable anchor, and meticulously calculate the remaining characters so that all four temporal pillars (Youth, Prime, Mid-life, Legacy) lock into universally recognized <strong>Lucky Numbers</strong>. Simultaneously, the acoustic wave from the surname to the final syllable must flow like a serene river, avoiding all elemental clashes. Finally, the literal meaning of those characters must actively inject the exact missing energy (Yongshin) required by your birth chart (Saju). When all these complex vectors align perfectly with your inherited surname, you have not merely chosen a name—you have engineered a masterpiece of destiny. Understand your foundation, respect your surname, and build your empire upon it.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/name-reading/stroke-count" style="text-decoration: underline; color: #f9d976;">[Related] Korean Name Stroke Count: How to Calculate Power</a></p>
+  <p><a href="/en/name-reading/name-five-elements" style="text-decoration: underline; color: #f9d976;">[Related] Sound Elements: How Consonants Shape Your Luck</a></p>
+</div>
+</section>
+    `,
+    faq: [
+      { q: '제 한자 성씨의 획수를 인터넷 옥편에서 찾아 그대로 쓰면 되나요?', a: '아닙니다. 성명학에서는 한자의 본래 부수 모양을 기준으로 하는 원획법(原劃法)을 따르기 때문에, 일반 옥편이나 한자사전의 획수와 다를 수 있으니 반드시 성명학 전문 사전을 참고해야 합니다.' },
+      { q: '성씨의 소리오행이 너무 강해서 사주에 안 좋은 영향을 주면 어떡하나요?', a: '성씨는 바꿀 수 없으므로, 이름의 첫 글자와 끝 글자에 성씨의 기운을 부드럽게 빼주거나(설기) 상생하는 오행을 배치하여 전체적인 조화를 맞추는 것이 작명의 핵심 기술입니다.' },
+      { q: '부모님 성을 함께 쓰는 \'양성쓰기\'를 할 때 획수 계산은 어떻게 하나요?', a: '전통 성명학에서는 부계 성씨 하나만을 기준으로 4격을 계산하는 것이 원칙입니다. 양성을 모두 수리에 반영하면 기존의 수리 체계가 성립되지 않아 길흉 판단이 매우 어려워집니다.' },
+    ],
+    faqEn: [
+      { q: 'Can I just use an online dictionary to find my surname\'s stroke count?', a: 'No. Professional Name Numerology uses the Original Stroke Method (Won-hoek), which traces characters back to their ancient roots, often resulting in a different stroke count than modern dictionaries.' },
+      { q: 'What if the natural element of my surname clashes with what my Saju needs?', a: 'Since you cannot change your surname, a master practitioner will strategically choose given name characters that act as a "bridge" element, neutralizing the clash and re-routing the energy favorably.' },
+      { q: 'If I use a hyphenated surname (both parents), how is it calculated?', a: 'Traditional Korean Name Reading calculates the numerology and elements based strictly on the single, primary inherited surname. Combining both mathematically breaks the 4-Pillar calculation system.' },
+    ],
+    relatedPosts: [
+      { slug: 'stroke-count', category: 'seongmyeong', title: '이름 획수 완전 해설: 내 이름의 수리 파악하기' },
+      { slug: 'name-five-elements', category: 'seongmyeong', title: '이름 오행 분석: 소리 상생상극 가이드' },
+    ],
+  },
 ];
