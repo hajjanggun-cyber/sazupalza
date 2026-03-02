@@ -1,4 +1,5 @@
 import { MetadataRoute } from 'next';
+import { allPosts } from '@/lib/blog';
 
 const BASE_URL = 'https://sajupalza.cc';
 const locales = ['ko', 'en', 'ja', 'zh'];
@@ -7,6 +8,17 @@ const routes = [
   '', '/saju', '/name', '/face', '/mbti', '/privacy', '/terms', '/contact',
   '/saju-analysis', '/gwansang-analysis', '/seongmyeong-analysis', '/personality-analysis', '/combined'
 ];
+
+function getPostRoutePrefix(category: string): string {
+  switch (category) {
+    case 'saju': return '/saju';
+    case 'face-reading': return '/face-reading';
+    case 'seongmyeong': return '/name-reading';
+    case 'mbti': return '/mbti';
+    case 'bokhap': return '/compatibility';
+    default: return `/${category}`;
+  }
+}
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
@@ -22,6 +34,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
         alternates: {
           languages: Object.fromEntries(
             locales.map((l) => [l, `${BASE_URL}/${l}${route}`])
+          ),
+        },
+      });
+    }
+  }
+
+  for (const post of allPosts) {
+    const routePrefix = getPostRoutePrefix(post.category);
+    const postRoute = `${routePrefix}/${post.slug}`;
+    
+    // Only generate blog post sitemaps for 'ko' and 'en' for now
+    const blogLocales = ['ko', 'en'];
+    
+    for (const locale of blogLocales) {
+      entries.push({
+        url: `${BASE_URL}/${locale}${postRoute}`,
+        lastModified: new Date(post.publishedAt || new Date()),
+        changeFrequency: 'weekly',
+        priority: locale === 'ko' ? 0.7 : 0.5,
+        alternates: {
+          languages: Object.fromEntries(
+            blogLocales.map((l) => [l, `${BASE_URL}/${l}${postRoute}`])
           ),
         },
       });

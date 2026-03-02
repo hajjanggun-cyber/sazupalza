@@ -14,24 +14,7 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
-  const hreflangMap: Record<string, string> = {
-    ko: 'https://sajupalza.cc/ko',
-    en: 'https://sajupalza.cc/en',
-    ja: 'https://sajupalza.cc/ja',
-    zh: 'https://sajupalza.cc/zh',
-  };
-
-  return {
-    alternates: {
-      canonical: hreflangMap[locale],
-      languages: {
-        'ko': hreflangMap.ko,
-        'en': hreflangMap.en,
-        'ja': hreflangMap.ja,
-        'zh': hreflangMap.zh,
-      },
-    },
-  };
+  return {};
 }
 
 export default async function LocaleLayout({ children, params: { locale } }: Props) {

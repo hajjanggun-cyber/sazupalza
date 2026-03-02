@@ -430,7 +430,7 @@ export default function SeongmyeongResultPage() {
                                         <p className="text-sm leading-relaxed">{m.desc}</p>
                                         <p className="text-yellow-200/70 text-sm mt-3 leading-relaxed">
                                             As a Life Path {inputData.lifePath}, {inputData.birthFullName?.split(' ')[0]} is here to embody the energy of the <strong className={m.color}>{m.title}</strong>.
-                                            This doesn't mean your path is fixed — it means your greatest fulfillment comes when you align with this core energy.
+                                            This doesn&apos;t mean your path is fixed — it means your greatest fulfillment comes when you align with this core energy.
                                         </p>
                                     </div>
                                     <div className="result-section mb-4">
@@ -491,9 +491,9 @@ export default function SeongmyeongResultPage() {
                         {/* Current name */}
                         {inputData.currentName && inputData.currentExpression && NUMBER_MEANINGS[inputData.currentExpression] && (
                             <div className="result-section mb-6">
-                                <div className="result-section-title"><span>🔄</span>Current Name Energy: "{inputData.currentName}"</div>
+                                <div className="result-section-title"><span>🔄</span>Current Name Energy: &quot;{inputData.currentName}&quot;</div>
                                 <p className="text-sm leading-relaxed">
-                                    Your current name "{inputData.currentName}" carries an Expression Number of <strong className={NUMBER_MEANINGS[inputData.currentExpression].color}>{inputData.currentExpression} ({NUMBER_MEANINGS[inputData.currentExpression].title})</strong>.
+                                    Your current name &quot;{inputData.currentName}&quot; carries an Expression Number of <strong className={NUMBER_MEANINGS[inputData.currentExpression].color}>{inputData.currentExpression} ({NUMBER_MEANINGS[inputData.currentExpression].title})</strong>.
                                     This is the social energy you project every time someone calls your name.
                                     {inputData.currentExpression === inputData.expressionNumber
                                         ? ' Great news — it aligns with your birth name energy, creating a cohesive personal brand.'

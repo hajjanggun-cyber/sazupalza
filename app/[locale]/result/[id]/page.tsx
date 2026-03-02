@@ -95,7 +95,7 @@ function GuardianCard({ guardian, locale }: { guardian: Guardian; locale: string
       </p>
       <div className="bg-yellow-900/20 border border-yellow-700/30 rounded-lg p-3">
         <p className="text-yellow-300 text-sm font-medium italic">
-          "{locale === 'ko' ? guardian.luckyMessage : (guardian.luckyMessageEn || guardian.luckyMessage)}"
+          &quot;{locale === 'ko' ? guardian.luckyMessage : (guardian.luckyMessageEn || guardian.luckyMessage)}&quot;
         </p>
       </div>
       <div className="mt-3 flex flex-wrap justify-center gap-4 text-xs text-purple-200/60">
