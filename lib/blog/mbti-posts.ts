@@ -583,4 +583,158 @@ export const mbtiPosts: BlogPost[] = [
       { slug: 'mbti-compatibility', title: 'Solving MBTI Clashes via Saju', category: 'mbti' },
     ],
   },
+  {
+    slug: 'mbti-saju',
+    title: 'MBTI와 사주팔자의 평행이론: 동서양 성격 분석의 완벽한 만남',
+    seoTitle: 'MBTI 사주팔자 평행이론: 칼 융의 심리학과 동양 명리학의 놀라운 공통점',
+    seoTitleEn: 'MBTI vs Saju: The Ultimate Guide to Eastern and Western Typology',
+    description: 'MBTI와 사주팔자는 어떻게 다르고 또 어떻게 같을까요? 서양의 MBTI와 동양의 사주 명리학이 보여주는 평행이론과 상호 보완적인 자아 탐구법을 3,000자 전문 해설로 분석합니다.',
+    descriptionEn: 'Discover the fascinating parallels between MBTI and Korean Saju (Four Pillars). Learn how combining Eastern and Western typology offers the ultimate personality insight.',
+    keywords: ['MBTI 사주', '사주팔자 평행이론', 'MBTI 명리학', '성격유형 비교', '사주 MBTI 차이점'],
+    keywordsEn: ['MBTI and Saju', 'Korean Astrology', 'Four Pillars vs MBTI', 'Personality Typology', 'Eastern vs Western Psychology'],
+    publishedAt: '2026-03-02',
+    category: 'mbti',
+    toc: [
+      { id: 'two-systems', title: '1. 자아를 비추는 두 개의 거울' },
+      { id: 'parallels', title: '2. MBTI와 사주팔자의 놀라운 평행이론' },
+      { id: 'differences', title: '3. 타고난 명(命) vs 선택하는 성향' },
+      { id: 'integration', title: '4. 두 시스템의 완벽한 통합 활용법' },
+      { id: 'conclusion', title: '5. 결론: 나를 찾아가는 지도' },
+    ],
+    tocEn: [
+      { id: 'two-systems', title: '1. Two Mirrors of the Soul' },
+      { id: 'parallels', title: '2. Parallels Between MBTI and Saju' },
+      { id: 'differences', title: '3. Innate Fate vs Chosen Preference' },
+      { id: 'integration', title: '4. Integrating Both Systems' },
+      { id: 'conclusion', title: '5. Conclusion: The Map to Self' },
+    ],
+    contentKo: `
+<section>
+<p>우리는 "나는 누구인가?"라는 영원한 질문에 답을 찾기 위해 끊임없이 노력합니다. 현대인들은 MBTI(Myers-Briggs Type Indicator)라는 서양의 심리학적 렌즈를 통해 자신을 설명하는 데 익숙해졌습니다. 반면, 수천 년 전 동양에서는 사주 명리학(四柱命理學)이라는 우주적 렌즈를 통해 인간의 기질과 운명을 분석해 왔습니다. 언뜻 보기에 서양의 과학적 테스트와 동양의 철학적 통계학은 전혀 다른 길을 걷는 것 같지만, 깊이 들여다보면 이 두 시스템은 소름 돋을 정도로 정교한 <strong>'평행이론'</strong>을 이루고 있습니다.</p>
+
+<p>MBTI가 우리의 뇌가 정보를 처리하고 결정을 내리는 '소프트웨어'를 분석한다면, 사주팔자는 우리가 태어날 때 부여받은 에너지의 '하드웨어'를 분석합니다. 이 글에서는 이 두 가지 위대한 자아 탐구 시스템이 어떻게 서로를 보완하며, 우리가 스스로를 더 깊이 이해하는 데 어떤 완벽한 시너지를 내는지 전문적인 시각에서 파헤쳐 봅니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/mbti/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">MBTI 유래와 칼 융의 심리학: 동양 철학과의 상관관계</a></li>
+    <li style="margin-bottom: 4px;"><a href="/mbti/saju-five-elements" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">MBTI와 사주 오행 상관관계: 16유형 성격을 오행으로 해석하기</a></li>
+  </ul>
+</div>
+
+<h2 id="two-systems">1. 자아를 비추는 두 개의 거울: MBTI와 사주팔자</h2>
+<p>MBTI는 스위스의 정신의학자 칼 융(Carl Jung)의 심리 유형론을 바탕으로 만들어졌습니다. 흥미로운 사실은 칼 융이 동양의 고전인 《주역(I Ching)》을 평생에 걸쳐 깊이 연구했으며, 우주의 모든 현상이 음과 양의 에너지로 이루어져 있다는 동양의 음양론에 큰 영감을 받았다는 점입니다. 즉, <strong>MBTI의 뿌리 깊은 곳에는 이미 동양 철학의 DNA가 흐르고 있습니다.</strong></p>
+
+<p>사주팔자는 태어난 연, 월, 일, 시라는 네 개의 기둥(사주)과 여덟 개의 글자(팔자)를 통해 우주의 오행(목, 화, 토, 금, 수) 에너지가 개인에게 어떻게 배치되었는지를 분석하는 학문입니다. MBTI가 인간을 16가지 유형으로 나누듯, 사주 명리학 역시 10개의 천간과 12개의 지지를 조합하여 인간의 유형을 수만 가지의 정밀한 그리드로 나누어 설명합니다.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 나의 MBTI와 사주팔자 통합 분석 받기 →</a>
+</div>
+
+<h2 id="parallels">2. MBTI와 사주팔자의 놀라운 평행이론</h2>
+<p>두 시스템은 겉보기엔 다르지만, 인간의 기질을 분류하는 기준에 있어서 놀라운 평행선을 달립니다.</p>
+
+<h3>외향(E)과 내향(I) = 양(陽)과 음(陰)</h3>
+<p>MBTI에서 에너지를 밖으로 발산하는 외향성(E)은 사주에서 위로 솟구치고 밖으로 뻗어나가는 양(陽)의 기운(목, 화)과 완벽하게 일치합니다. 반대로 에너지를 안으로 수렴하고 혼자만의 시간에서 에너지를 얻는 내향성(I)은 차분하게 가라앉고 응축되는 음(陰)의 기운(금, 수)과 맞닿아 있습니다.</p>
+
+<h3>감각(S)과 직관(N) = 현실의 토(土)와 이상의 목화(木火)</h3>
+<p>오감을 통해 현실적이고 구체적인 정보를 받아들이는 S유형은 사주에서 대지에 발을 굳게 딛고 있는 토(土)나 현실적인 결실을 상징하는 금(金)의 기운과 흡사합니다. 반면, 보이지 않는 이면의 의미와 가능성을 좇는 N유형은 아직 형태가 없는 것을 상상하는 화(火)의 불꽃이나 뻗어나가는 목(木)의 창의성과 닮았습니다.</p>
+
+<h3>사고(T)와 감정(F) = 금(金)의 이성과 목(木)의 감성</h3>
+<p>객관적 논리와 원칙을 중시하는 T유형은 사사로운 감정에 흔들리지 않는 냉철한 쇠(金)의 기운입니다. 반면 타인과의 조화와 인간적인 가치를 중시하는 F유형은 따뜻하게 만물을 품어 안는 봄의 나무(木)나 부드러운 물(水)의 기운과 통합니다.</p>
+
+<h2 id="differences">3. 타고난 명(命) vs 선택하는 성향</h2>
+<p>그렇다면 이 두 시스템은 무엇이 다를까요? 가장 결정적인 차이는 <strong>'변화의 가능성'</strong>에 대한 관점입니다.</p>
+
+<p><strong>사주팔자는 '선천성'입니다.</strong> 태어난 시간은 결코 바꿀 수 없습니다. 이는 내가 평생 타고 다녀야 할 자동차의 기본 프레임이나 엔진의 성능과 같습니다. 사주는 내가 수(水)의 기운이 부족하게 태어났다는 것, 즉 평생에 걸쳐 물의 유연함이 결핍될 수 있음을 미리 경고해 줍니다.</p>
+
+<p><strong>반면 MBTI는 '후천적 선호도'입니다.</strong> MBTI는 나이를 먹고 환경이 바뀌면서 J가 P가 되기도 하고, E가 I로 바뀌기도 합니다. 이는 내가 주어진 자동차(사주)를 어떻게 운전하고 있는지(MBTI)를 보여주는 핸들의 방향과 같습니다. 따라서 사주가 내면의 깊은 무의식이라면, MBTI는 현재 내가 사회적으로 적응하기 위해 가장 편안하게 꺼내 쓰는 의식의 도구입니다.</p>
+
+<h2 id="integration">4. 두 시스템의 완벽한 통합 활용법</h2>
+<p>MBTI와 사주팔자를 함께 활용할 때, 우리는 비로소 입체적인 자아 탐구가 가능해집니다.</p>
+<ul>
+  <li><strong>모순의 이해:</strong> "나는 MBTI는 내향형(I)인데, 왜 화가 나면 불처럼 폭발할까?" 사주를 보면 그 이유가 명확해집니다. 사회적 페르소나인 MBTI는 I를 선택했지만, 내면의 사주에는 폭발적인 화(火) 기운이 가득 차 있기 때문입니다. 이를 이해하면 자신을 탓하지 않고 감정을 다스릴 수 있습니다.</li>
+  <li><strong>약점의 능동적 보완 (개운법):</strong> MBTI에서 P(인식형)가 강해 마무리가 약한 사람이, 사주에서도 맺고 끊음을 의미하는 금(金) 기운이 부족하다면? 이는 치명적인 약점이 될 수 있습니다. 이때는 의식적으로 스케줄러를 쓰고 규칙적인 생활(금의 에너지)을 강제하는 훈련을 통해 운의 누수를 막아야 합니다.</li>
+</ul>
+
+<h2 id="conclusion">5. 결론: 나를 찾아가는 가장 정밀한 지도</h2>
+<p>MBTI만으로는 설명되지 않는 내 안의 모순, 사주만으로는 다 담아낼 수 없는 나의 현재 모습. 이 두 가지를 하나로 합칠 때 우리는 '나'라는 복잡한 우주의 지도를 가장 선명하게 그려낼 수 있습니다. 서양의 렌즈로 현재의 나를 진단하고, 동양의 렌즈로 타고난 그릇의 크기를 가늠해 보십시오. 두 거울을 맞대어 볼 때, 비로소 진짜 내 모습이 환하게 빛날 것입니다.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/mbti/compatibility-table" style="text-decoration: underline; color: #f9d976;">[관련글] MBTI별 사주 궁합표: 16유형과 찰떡궁합인 일주 분석</a></p>
+  <p><a href="/saju/intro" style="text-decoration: underline; color: #f9d976;">[관련글] 사주팔자 입문: 음양오행으로 읽는 운명의 기본</a></p>
+</div>
+</section>
+    `,
+    contentEn: `
+<section>
+<p>In our modern quest for self-discovery, Western psychology offers us the MBTI (Myers-Briggs Type Indicator) to map our minds, while Eastern philosophy offers Saju (Four Pillars of Destiny) to map our energetic fate. At first glance, a 20th-century psychological questionnaire and a 2,000-year-old astrological system seem to exist in entirely different universes. However, when analyzed by experts in both fields, a stunning <strong>"Parallel Theory"</strong> emerges. They are not opposing systems; they are two different languages describing the exact same human operating system.</p>
+
+<p>If MBTI describes the "software" algorithms of how you process data and make decisions, Saju describes the "hardware" and the elemental fuel you were born with. This guide explores the profound intersections between Carl Jung’s typology and ancient Asian cosmology, revealing how combining both systems provides the ultimate framework for understanding yourself and mastering your destiny.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/mbti/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">The Origins of MBTI: Jung and Eastern Philosophy</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/mbti/saju-five-elements" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">MBTI & Korean Five Elements: 16 Types Mapping Guide</a></li>
+  </ul>
+</div>
+
+<h2 id="two-systems">1. Two Mirrors of the Soul: Jung and the I Ching</h2>
+<p>To understand the parallel, we must look at the origin. MBTI is built entirely on the theories of Carl Jung. Jung was a voracious student of Eastern philosophy, particularly the ancient Chinese text, the <em>I Ching (Book of Changes)</em>. He was deeply influenced by the Eastern concept that the universe is governed by the dynamic balance of opposites (Yin and Yang). Therefore, the DNA of Eastern elemental theory is already woven into the very fabric of MBTI.</p>
+
+<p>Saju (Four Pillars) analyzes how the Five Elements (Wood, Fire, Earth, Metal, Water) were distributed in the cosmos at the exact moment of your birth. Just as MBTI uses four dichotomies to create 16 personality grids, Saju uses 10 Heavenly Stems and 12 Earthly Branches to create a highly sophisticated, mathematically precise grid of human archetypes.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 Get Your Integrated MBTI and Saju Reading →</a>
+</div>
+
+<h2 id="parallels">2. The Stunning Parallels: Mapping MBTI to Elements</h2>
+<p>When we align the two systems, the structural similarities are impossible to ignore.</p>
+
+<h3>Extraversion (E) vs Introversion (I) = Yang (陽) vs Yin (陰)</h3>
+<p>In MBTI, Extraversion (E) directs energy outward into the world. In Saju, this is pure <strong>Yang</strong> energy—like Fire radiating heat or Wood pushing upward into the sky. Introversion (I) gathers and consolidates energy internally. This perfectly mirrors <strong>Yin</strong> energy—like Water sinking deep into the earth or Metal condensing under pressure.</p>
+
+<h3>Sensing (S) vs Intuition (N) = Earth/Metal vs Wood/Fire</h3>
+<p>Sensors (S) rely on concrete data, the five senses, and proven reality. This is the grounded stability of <strong>Earth (土)</strong> and the rigid realism of <strong>Metal (金)</strong>. Intuitives (N) seek hidden meanings, future possibilities, and abstract concepts. This aligns with the visionary, formless energy of <strong>Fire (火)</strong> and the expansive creativity of <strong>Wood (木)</strong>.</p>
+
+<h3>Thinking (T) vs Feeling (F) = Metal vs Wood/Water</h3>
+<p>Thinkers (T) prioritize objective logic and truth over harmony, acting with the decisive, cold precision of a <strong>Metal (金)</strong> blade. Feelers (F) prioritize human values, empathy, and social cohesion, flowing like adaptable <strong>Water (水)</strong> or nurturing like spring <strong>Wood (木)</strong>.</p>
+
+<h2 id="differences">3. Innate Fate vs Chosen Preference</h2>
+<p>If they describe the same thing, why do we need both? Because they measure different timelines of your existence.</p>
+
+<p><strong>Saju is your Innate Fate (Nature).</strong> You cannot change your birth time. Saju reveals your fundamental energetic constitution—the unchangeable "engine" you were given. It shows what you are naturally abundant in and what you critically lack at a biological and cosmic level.</p>
+
+<p><strong>MBTI is your Developed Preference (Nurture/Software).</strong> Your MBTI type can shift as you age, experience trauma, or adapt to a new career. MBTI shows how you have <em>learned</em> to steer your engine to survive in society. Saju is the unconscious baseline; MBTI is the conscious coping mechanism.</p>
+
+<h2 id="integration">4. Integrating Both Systems for Mastery</h2>
+<p>The true magic happens when you overlay your MBTI on top of your Saju chart. This resolves the internal contradictions that neither system can explain alone.</p>
+<ul>
+  <li><strong>Resolving Contradictions:</strong> "I am an Introvert (I) in MBTI, but I have explosive anger issues and a deep desire to be on stage. Why?" Your Saju chart likely reveals a chart dominated by intense Fire (Yang) energy. Your social conditioning made you an Introvert, but your biological fuel is explosive Fire. Understanding this prevents self-blame and allows you to find healthy outlets for that hidden Fire.</li>
+  <li><strong>Active Luck Remediation (Gaewun):</strong> If you are a strong Perceiver (P) in MBTI (struggling with deadlines and structure), and your Saju chart shows zero Metal (the element of discipline and conclusion), you have identified a critical life-threat. You cannot just laugh it off as "I'm just a P type." You must actively inject "Metal" into your life—through strict routines, wearing white/silver, or partnering with strong "J" (Metal) types to save your career.</li>
+</ul>
+
+<h2 id="conclusion">5. Conclusion: The Ultimate Map to Self</h2>
+<p>MBTI gives you the vocabulary to understand your current psychological habits. Saju gives you the cosmic blueprint of your soul’s capacity. Do not limit yourself to just the Western psychological lens or just the Eastern mystical lens. By integrating the Parallel Theory of both, you acquire the most high-definition, multi-dimensional map of your existence possible. You stop fighting your nature, and you start mastering your destiny.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/mbti/compatibility-table" style="text-decoration: underline; color: #f9d976;">[Read Next] MBTI & Saju Match Table: Finding Your Perfect Day Pillar</a></p>
+  <p><a href="/en/saju/intro" style="text-decoration: underline; color: #f9d976;">[Read Next] Saju 101: Understanding Your Four Pillars of Destiny</a></p>
+</div>
+</section>
+    `,
+    faq: [
+      { q: 'MBTI가 변하면 사주도 변하나요?', a: '아니요, 사주(태어난 시간)는 변하지 않는 고정값입니다. MBTI가 변한다는 것은 변하지 않는 사주의 기운을 바탕으로, 당신이 환경에 맞춰 적응하는 방식(소프트웨어)이 성장하고 변화했음을 의미합니다.' },
+      { q: 'MBTI와 사주 오행이 전혀 다르게 나올 수도 있나요?', a: '네, 매우 흔합니다. 사주에는 불(외향성)이 많은데 MBTI는 철저한 I(내향형)로 나오는 경우, 선천적 기질을 억누르고 사회적 환경에 맞춰 후천적으로 성격을 형성했음을 의미합니다. 이 간극을 이해하는 것이 자기 치유의 시작입니다.' },
+    ],
+    faqEn: [
+      { q: 'If my MBTI changes, does my Saju change?', a: 'No, Saju is fixed at birth. If your MBTI changes, it means your conscious coping mechanisms and social preferences have evolved, but your underlying energetic engine (Saju) remains exactly the same.' },
+      { q: 'Can my MBTI and Saju contradict each other?', a: 'Yes, frequently. If your Saju is full of loud Fire energy but you test as a quiet Introvert (I), it means you have subconsciously suppressed your innate nature due to your upbringing or environment. Reconciling this gap is the key to deep healing.' },
+    ],
+    relatedPosts: [
+      { slug: 'saju-five-elements', category: 'mbti', title: 'MBTI와 사주 오행 상관관계' },
+      { slug: 'compatibility-table', category: 'mbti', title: 'MBTI별 찰떡궁합 사주 일주' },
+    ],
+  },
 ];
