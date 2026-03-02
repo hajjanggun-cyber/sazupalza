@@ -1383,4 +1383,172 @@ export const gwansangPosts: BlogPost[] = [
       { slug: 'health-face', category: 'face-reading', title: '관상과 건강: 얼굴색으로 보는 운세 신호' },
     ],
   },
+  {
+    slug: 'mouth-lips',
+    title: '입 관상 가이드: 입꼬리와 입술 두께로 보는 나의 말년운과 애정운',
+    seoTitle: '입 관상: 입꼬리 처진 입, 두꺼운 입술 등 모양으로 보는 말년운과 애정운',
+    seoTitleEn: 'Korean Mouth Reading: Lips, Luck, and Late-Life Fortune',
+    description: '입은 복이 들어오고 나가는 문입니다! 입꼬리의 방향, 입술의 두께, 인중의 깊이로 보는 말년운, 애정운, 그리고 건강의 비밀을 3,000자 전문 해설로 분석합니다.',
+    descriptionEn: 'In Gwansang, the mouth governs your late-life fortune and relationships. Discover what your lip shape and smile reveal about your hidden luck.',
+    keywords: ['입 관상', '입술 두께 관상', '입꼬리 관상', '말년운 관상', '애정운 관상'],
+    keywordsEn: ['Mouth Reading', 'Lip Shape Personality', 'Gwansang Mouth', 'Late Life Fortune', 'Korean Face Reading'],
+    publishedAt: '2026-03-02',
+    category: 'face-reading',
+    toc: [
+      { id: 'gate-of-fortune', title: '1. 입(口): 복(福)이 출입하는 문' },
+      { id: 'lip-thickness', title: '2. 입술 두께로 보는 애정운과 성격' },
+      { id: 'mouth-corners', title: '3. 운명을 결정짓는 입꼬리의 방향' },
+      { id: 'philtrum-reading', title: '4. 수명과 자식운의 비밀통로, 인중' },
+      { id: 'conclusion', title: '5. 결론: 미소로 운명을 경영하라' },
+    ],
+    tocEn: [
+      { id: 'gate-of-fortune', title: '1. The Mouth: The Gate of Fortune' },
+      { id: 'lip-thickness', title: '2. Lip Thickness and Love Luck' },
+      { id: 'mouth-corners', title: '3. The Crucial Angle of the Corners' },
+      { id: 'philtrum-reading', title: '4. The Philtrum: Lifespan and Legacy' },
+      { id: 'conclusion', title: '5. Conclusion: Smiling is Destiny Management' },
+    ],
+    contentKo: `
+<section>
+<p>동양 관상학에서 얼굴을 세 부분으로 나눌 때, 코 아래부터 턱까지의 하관은 인생의 수확기인 <strong>말년운(60세 이후)</strong>을 지배합니다. 그리고 이 하관의 중심에 자리 잡고 있는 <strong>'입(口)'</strong>은 그 사람의 식복(食福), 애정운, 자식운, 그리고 건강의 총결산이 담겨 있는 매우 중요한 부위입니다. 이마가 선천적으로 물려받은 하늘의 복이라면, 입은 살아가면서 스스로 지은 덕(德)과 수양의 결과물이 쌓이는 바다와 같습니다.</p>
+
+<p>우리는 흔히 "입방정을 떤다"거나 "입이 무겁다"는 말로 사람의 품격을 평가합니다. 입은 음식을 먹어 생명을 유지하는 곳이자, 언어(말)를 통해 타인과 에너지를 교환하고 자신의 의사를 세상에 내보내는 출구입니다. 따라서 관상학에서는 입의 형태와 움직임을 통해 그 사람의 본능적인 욕구(식욕, 성욕)의 크기와 남을 배려하는 마음의 깊이를 측정합니다. 특히 다른 부위와 달리 입은 <strong>'표정'</strong>에 따라 그 형태가 가장 극적으로 변하기 때문에, 후천적인 노력으로 운명을 바꿀 수 있는 가장 확실한 개운(開運)의 부위이기도 합니다. 당신의 입술에는 어떤 운명이 그려져 있는지 상세히 분석해 드립니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/face-reading/wealth-face" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">재물 관상 완벽 정리: 코와 입이 결정하는 부의 크기</a></li>
+    <li style="margin-bottom: 4px;"><a href="/face-reading/health-face" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">관상과 건강: 입술 색깔로 보는 비위(소화기) 건강</a></li>
+  </ul>
+</div>
+
+<h2 id="gate-of-fortune">1. 입(口): 복(福)이 출입하는 생명의 문</h2>
+<p>관상학의 고전에서 이상적으로 꼽는 입은 <strong>"다물었을 때는 작고 단정하며, 벌렸을 때는 커서 주먹이 들어갈 만한 입"</strong>입니다. 또한 입술의 윤곽선(입술선)이 칼로 베어낸 듯 또렷하고, 색깔은 연꽃처럼 붉고 윤기가 나야 최고로 칩니다. 입술선이 뚜렷하다는 것은 공과 사를 명확히 구분하고 맺고 끊음이 확실하다는 뜻이며, 붉고 윤기 나는 입술은 심장과 비위(소화기)가 건강하여 생명력이 넘친다는 증거입니다.</p>
+
+<p>입이 큰 사람은 스케일이 크고 통솔력이 있어 큰 조직의 리더가 되기에 적합합니다. 포용력이 넓고 호탕하여 따르는 사람이 많습니다. 반면 입이 작은 사람은 치밀하고 섬세하며 신중한 성격입니다. 큰 사업을 벌이기보다는 기획, 연구, 기술직 등 세밀함이 요구되는 분야에서 안정적인 성취를 이루는 데 유리합니다.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">💋 내 입 관상에 숨겨진 애정운 알아보기 →</a>
+</div>
+
+<h2 id="lip-thickness">2. 입술 두께로 보는 애정운과 성격</h2>
+<p>윗입술은 '주는 사랑(타인에 대한 배려)'을, 아랫입술은 '받는 사랑(자기애와 소유욕)'을 상징합니다. 두 입술의 비율을 통해 그 사람의 연애 스타일과 인간관계를 엿볼 수 있습니다.</p>
+
+<h3>위아래가 모두 두툼한 입술 (정열과 포용력)</h3>
+<p>인정이 많고 감수성이 풍부하며 따뜻한 성품을 지녔습니다. 타인을 돕는 것을 좋아하고, 연애를 할 때도 매우 헌신적이고 정열적입니다. 식복이 타고나 평생 굶을 걱정은 없습니다. 다만, 정에 너무 이끌려 손해를 보거나, 이성 관계가 복잡해질 우려가 있으니 냉철한 이성을 기르는 것이 필요합니다.</p>
+
+<h3>위아래가 모두 얇은 입술 (이성과 냉철함)</h3>
+<p>논리적이고 이성적이며 계산이 빠릅니다. 감정에 휩쓸리기보다는 철저하게 득실을 따져 행동하므로 비즈니스나 학문 분야에서 두각을 나타냅니다. 맺고 끊음이 차가울 정도로 확실하여 타인에게 차갑고 정이 없다는 오해를 받을 수 있으니, 평소 의식적으로 부드러운 언어를 사용하는 연습이 필요합니다.</p>
+
+<h3>윗입술이 더 두꺼운 사람 (헌신적 이타주의)</h3>
+<p>받기보다는 주는 것에 행복을 느끼는 희생적인 성향입니다. 모성애/부성애가 강하며, 연애나 결혼 생활에서 상대방을 헌신적으로 보살핍니다. 하지만 자신의 속마음을 잘 표현하지 않고 꾹 참는 경향이 있어 마음에 병(화병)이 생기기 쉬우므로, 스스로를 돌보는 이기주의도 어느 정도 필요합니다.</p>
+
+<h3>아랫입술이 더 두꺼운 사람 (강한 소유욕과 자기애)</h3>
+<p>자신을 사랑하는 마음이 강하고 타인에게 사랑받기를 간절히 원합니다. 개성이 뚜렷하고 자기 주장이 강해 매력적으로 보이지만, 이기적이고 소유욕이 강하다는 평가를 받을 수 있습니다. 물질적 안정에 대한 욕구가 커서 말년 재물운(부동산 등)을 관리하는 능력이 탁월합니다.</p>
+
+<h2 id="mouth-corners">3. 운명을 결정짓는 입꼬리의 방향</h2>
+<p>입 관상에서 가장 극적인 영향을 미치는 것이 바로 <strong>'입꼬리(구각)'</strong>입니다. 입꼬리는 한 사람의 평소 마음가짐이 고스란히 근육의 형태로 굳어진 결과물입니다.</p>
+
+<h3>앙월구(仰月口): 초승달처럼 올라간 입꼬리</h3>
+<p>입꼬리가 위로 싹 올라가 있어 가만히 있어도 미소 짓는 듯한 입입니다. 관상학 최고의 길상(吉相) 중 하나로, <strong>평생 복이 떨어지지 않는 재물과 인복의 창고</strong>입니다. 긍정적이고 밝은 에너지로 항상 주변에 좋은 사람들을 끌어모으며, 늙어서도 자식 효도를 받고 부유하게 사는 완벽한 말년운을 상징합니다.</p>
+
+<h3>복선구(覆船口): 뒤집어진 배처럼 처진 입꼬리</h3>
+<p>입꼬리가 아래로 툭 처져 있어 항상 우울하거나 화가 난 듯한 입입니다. 이는 <strong>들어온 복도 쏟아버리는 대표적인 흉상(凶相)</strong>입니다. 매사를 부정적이고 비판적으로 바라보는 습관이 수십 년간 쌓여 근육이 굳어진 결과입니다. 대인관계에서 잦은 마찰을 빚고 고독한 말년을 보낼 확률이 매우 높으므로, 즉각적인 표정 교정이 필요합니다.</p>
+
+<h2 id="philtrum-reading">4. 수명과 자식운의 비밀통로, 인중(人中)</h2>
+<p>코와 입술 사이의 오목하게 파인 길을 '인중'이라고 합니다. 인중은 얼굴 상단(초중년)의 기운이 하단(말년)으로 흘러 들어가는 생명의 수로입니다.</p>
+<ul>
+  <li><strong>길고 골이 깊은 인중:</strong> 최고의 길상입니다. 생명력이 강해 장수(長壽)를 누리며, 자녀운이 좋아 훌륭한 자손을 두고 화목한 가정을 이룹니다. 마음이 넓고 참을성이 강합니다.</li>
+  <li><strong>짧고 얕거나 흉터가 있는 인중:</strong> 성격이 급하고 인내심이 부족하여 일을 그르치기 쉽습니다. 건강상 잔병치레가 많거나 자녀와의 인연이 약할 수 있으니, 매사에 한 박자 쉬어가는 여유를 가져야 합니다.</li>
+</ul>
+
+<h2 id="conclusion">5. 결론: 미소로 운명을 경영하라</h2>
+<p>뼈의 모양(얼굴형, 코, 이마)은 타고나는 것이지만, <strong>입의 모양은 오롯이 당신이 살아온 태도의 결과물입니다.</strong> 평생 원망과 불평을 입에 달고 산 사람은 입꼬리가 처지고 입술이 비틀리게 되며, 감사와 칭찬을 나눈 사람은 아름다운 앙월구를 갖게 됩니다.</p>
+
+<p>지금 당장 운명을 바꾸고 싶다면 값비싼 부적을 사거나 성형외과를 찾기 전에 <strong>거울을 보고 입꼬리를 올려 웃어 보십시오.</strong> 입꼬리가 올라가는 순간 뇌는 긍정적인 호르몬을 분비하고, 당신의 얼굴에는 운을 끌어당기는 환한 기색이 돕니다. 관상학의 가장 위대한 비법은 멀리 있지 않습니다. 밝은 말과 다정한 미소가 바로 최고의 개운(開運)입니다.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/face-reading/eye-reading" style="text-decoration: underline; color: #f9d976;">[관련글] 눈 관상 가이드: 눈빛으로 읽어내는 나의 진짜 성격</a></p>
+  <p><a href="/face-reading/self-diagnosis" style="text-decoration: underline; color: #f9d976;">[관련글] 거울로 보는 성공 관상 자가진단법</a></p>
+</div>
+</section>
+    `,
+    contentEn: `
+<section>
+<p>In the map of Korean Face Reading (Gwansang), if the forehead reveals the sky of your youth and the nose stands as the central pillar of your mid-life, the lower third of your face—centered entirely around your <strong>Mouth</strong>—is the ultimate harvest. It governs your <strong>Late-Life Fortune (ages 60+)</strong>, your romantic relationships, your hidden desires, and your physical vitality. While the bone structure of your upper face is gifted by your ancestors, the shape of your mouth is the sum total of how you have chosen to live your life.</p>
+
+<p>We unconsciously judge people by their mouths every day. A tight, compressed lip line screams tension or secrecy; a relaxed, full mouth signals warmth and generosity. The mouth is the literal gate through which food enters to sustain life and words exit to create reality. In Gwansang, observing the thickness of the lips, the exact angle of the corners, and the depth of the philtrum (the groove above the lip) provides a brutally honest psychological profile of how a person gives and receives love, and whether their late years will be surrounded by family or spent in isolation. Here is the master code to reading the lips.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/face-reading/wealth-face" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">The Wealth Face: Reading Money Luck in the Nose and Mouth</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/face-reading/health-face" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Face Reading for Health: Checking Inner Vitality</a></li>
+  </ul>
+</div>
+
+<h2 id="gate-of-fortune">1. The Mouth: The Gate of Fortune and Energy</h2>
+<p>The classical Gwansang ideal for a mouth is profound: <strong>"Small and neat when closed, yet large enough to fit a fist when open."</strong> A mouth that opens wide during laughter or speech indicates a person with massive social capacity, courage, and the ability to command large organizations. A mouth that remains small even when speaking indicates a cautious, detail-oriented personality best suited for specialized, technical, or research roles where precision is valued over public charisma.</p>
+<p>Equally important is the clarity of the lip line. A sharply defined lip border indicates a person who maintains clear boundaries between professional and personal life, and who speaks with decisive clarity. Blurry or undefined lip lines often indicate someone who is easily swayed, struggles with commitments, or lacks follow-through.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en" style="display: inline-block; background: background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">💋 Discover Your Love and Late-Life Fortune →</a>
+</div>
+
+<h2 id="lip-thickness">2. Lip Thickness: The Metrics of Love and Desire</h2>
+<p>In Gwansang psychology, the upper lip represents <strong>"Giving Love" (altruism, empathy, fatherly/motherly affection)</strong>, while the lower lip represents <strong>"Receiving Love" (ego, desire, material attachment)</strong>. Their ratio tells a powerful story.</p>
+
+<h3>Both Lips Full and Thick</h3>
+<p>This is the mark of a deeply passionate, affectionate, and generous individual. They possess massive emotional capacity and love wholeheartedly. They enjoy the sensual pleasures of life (good food, comfort, romance). Their flaw is that their intense empathy can cloud their judgment, making them vulnerable to financial scams or emotionally draining relationships.</p>
+
+<h3>Both Lips Thin and Narrow</h3>
+<p>These individuals are ruled by logic, not emotion. They are cool-headed, analytical, and incredibly pragmatic. In a crisis, they are the ones who stay calm and calculate the exit strategy. However, their strict rationality can make them appear cold, unfeeling, or overly transactional in romantic relationships. They must actively practice expressing warmth.</p>
+
+<h3>Thicker Upper Lip</h3>
+<p>The quintessential caregiver. They find more joy in providing for others than in receiving. In relationships, they are deeply devoted and sacrificing. However, they tend to suppress their own needs until they explode from resentment. They need to learn the art of healthy selfishness.</p>
+
+<h3>Thicker Lower Lip</h3>
+<p>This indicates a strong ego and a high demand for affection and attention from partners. They are very independent, highly persuasive, and have excellent instincts for accumulating real estate and late-life wealth. However, their strong self-interest can sometimes manifest as stubbornness or a lack of empathy for their partner's sacrifices.</p>
+
+<h2 id="mouth-corners">3. The Crucial Angle: The Corners of Destiny</h2>
+<p>The single most predictive feature of the mouth is the resting angle of the corners (the commissures). This is the physical manifestation of your lifelong mental attitude.</p>
+
+<h3>The Angwolgu (Crescent Moon Mouth)</h3>
+<p>The corners curl naturally upward, making the person look like they carry a secret, pleasant thought even when silent. This is one of the <strong>ultimate lucky features</strong> in Gwansang. It acts as a basin that catches and holds good fortune. These people attract massive social support, age beautifully, and are virtually guaranteed a comfortable, respected, and joyful retirement.</p>
+
+<h3>The Overturned Boat Mouth</h3>
+<p>The corners pull downward, projecting a permanent scowl, cynicism, or fatigue. In Gwansang, this is a severe warning sign. It acts as a slide where all accumulated fortune pours out. It is the physical scar of decades of negative thinking and complaining. It repels benefactors and predicts an isolated, bitter late life. The remedy? Intense, conscious facial exercises to retrain the muscles into a smile.</p>
+
+<h2 id="philtrum-reading">4. The Philtrum (Injung): The River of Life</h2>
+<p>The vertical groove connecting the nose to the upper lip is called the <strong>Injung (人中)</strong>. It is the vital canal where the energetic momentum of your youth/mid-life (nose) flows into your late-life (mouth).</p>
+<ul>
+  <li><strong>Deep, Long, and Clear:</strong> A premier indicator of strong vitality, robust reproductive health, and a long lifespan. It also signals excellent luck with children, predicting that offspring will be successful and supportive in your old age.</li>
+  <li><strong>Short, Shallow, or Scarred:</strong> Indicates an impatient nature and a tendency to rush decisions, leading to mid-life crises. It suggests weaker physical stamina and potential emotional distance or difficulties regarding children. Practicing extreme patience is their life lesson.</li>
+</ul>
+
+<h2 id="conclusion">5. Conclusion: Smiling is Destiny Management</h2>
+<p>You cannot change the width of your forehead or the length of your nose without surgery. But the shape of your mouth is entirely within your control. Your mouth is neuro-plastically connected to your brain. When you consciously lift the corners of your lips, you not only change your aesthetic appeal, but you also alter your biochemistry and shift the energetic signal you broadcast to the universe.</p>
+<p>Gwansang is brutally fair: if you complain constantly, your face will morph into a tragedy that repels luck. If you practice gratitude, your mouth will form the Crescent Moon, becoming a magnet for wealth and love. Do not wait for fortune to make you smile; smile, and fortune will follow.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/face-reading/eye-reading" style="text-decoration: underline; color: #f9d976;">[Related] Eye Reading: How Your Gaze Controls Your Destiny</a></p>
+  <p><a href="/en/face-reading/self-diagnosis" style="text-decoration: underline; color: #f9d976;">[Related] Self-Diagnosis: Check Your 5-Year Fortune in the Mirror</a></p>
+</div>
+</section>
+    `,
+    faq: [
+      { q: '입술에 필러를 맞아서 도톰하게 하면 애정운이 좋아지나요?', a: '지나치게 얇아 차가워 보이던 인상이 필러를 통해 부드러워지고 본인의 자신감이 상승한다면 긍정적인 운의 흐름을 탈 수 있습니다. 단, 얼굴 전체의 균형을 깨뜨릴 정도로 과도한 시술은 오히려 재물운과 구설수를 부를 수 있습니다.' },
+      { q: '나이가 들면서 입꼬리가 자꾸 처지는데 어떡하죠?', a: '노화로 인한 자연스러운 현상이기도 하지만, 평소의 우울한 감정과 스트레스가 근육을 아래로 당긴 결과입니다. 매일 아침 거울을 보며 의식적으로 "개구리 뒷다리~" 하듯 입꼬리를 올리는 훈련을 3개월만 꾸준히 하면 근육이 재배치되어 관상이 바뀝니다.' },
+      { q: '입 주변에 난 점은 좋은 건가요?', a: '대체로 좋은 복점입니다. 입 주변(특히 인중 옆이나 입꼬리)의 맑고 검은 점은 평생 먹을 복이 있고 주변에 돕는 사람이 많음을 의미하는 \'식복점\'입니다.' },
+    ],
+    faqEn: [
+      { q: 'Will getting lip fillers to make my lips thicker improve my love life?', a: 'If very thin lips made you look unapproachable, subtly softening them with filler can improve your social aura and boost your confidence, which naturally attracts better relationships. However, exaggerated, unnatural fillers disrupt facial harmony and, in Gwansang, invite gossip and sudden financial loss.' },
+      { q: 'My mouth corners are naturally turning down as I age. Is my luck fading?', a: 'While skin elasticity drops with age, drooping corners are primarily the result of habitual stress and negative resting expressions. You can literally physically reverse this. Practice holding a subtle smile for 5 minutes a day. Within months, the muscles will lift, and your late-life fortune reading will improve.' },
+      { q: 'I have a mole near my mouth. Is that a good sign?', a: 'Usually, yes. A distinct, dark mole near the mouth corners or the philtrum is considered a "Food Fortune Mole." It indicates that you will never go hungry in life and possess a natural charm that draws supportive people to you.' },
+    ],
+    relatedPosts: [
+      { slug: 'wealth-face', category: 'face-reading', title: '재물 관상: 코와 입에 숨겨진 부의 비밀' },
+      { slug: 'health-face', category: 'face-reading', title: '관상과 건강: 얼굴색으로 보는 운세 신호' },
+    ],
+  },
 ];
