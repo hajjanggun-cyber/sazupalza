@@ -1201,11 +1201,443 @@ export const sajuPosts: BlogPost[] = [
       { q: 'What is the first thing to do when luck is bad?', a: 'Declutter your environment, avoid negative speech, and increase activities associated with your beneficial Saju elements (Yongshin).' },
     ],
     relatedPosts: [
-      { slug: 'lucky-element', title: 'Finding Your Yongshin for Better Luck', category: 'saju' },
-      { slug: 'intro', title: 'Basic Principles of Saju-Palja', category: 'saju' },
+      { slug: 'love-marriage', category: 'saju', title: '사주로 보는 연애와 결혼운' },
+      { slug: 'major-fortune', category: 'saju', title: '대운(大運) 완전 해설: 10년의 파도' },
     ],
-  },
-  {
+    },
+    {
+    slug: 'major-fortune',
+    title: '대운(大運) 완전 해설: 10년 단위로 바뀌는 인생의 거대한 파도',
+    seoTitle: '사주 대운(大運) 보는 법: 10년 주기 운세 흐름과 교체기 징조',
+    seoTitleEn: 'Major Fortune Cycles (Daewoon): Your Decade-by-Decade Roadmap',
+    description: '사주 원국보다 중요하다는 대운(大運)! 10년마다 바뀌는 내 인생의 계절을 읽고, 대운 교체기에 일어나는 현상과 완벽한 대비책을 3,000자 전문 해설로 분석합니다.',
+    descriptionEn: 'Discover the power of Daewoon (10-Year Luck Cycles) in Saju. Learn how to navigate the massive energetic shifts that dictate your wealth, career, and marriage opportunities.',
+    keywords: ['사주대운', '대운보는법', '대운교체기', '10년운세', '명리학대운', '좋은대운'],
+    keywordsEn: ['Daewoon', 'Saju Luck Cycles', '10 Year Fortune', 'Korean Astrology Timing', 'Fate and Destiny', 'Luck Pillars'],
+    publishedAt: '2026-03-02',
+    category: 'saju',
+    toc: [
+      { id: 'daewoon-meaning', title: '1. 대운(大運)의 진짜 의미: 운명은 고정되어 있지 않다' },
+      { id: 'environmental-shift', title: '2. 대운은 내게 주어지는 10년짜리 무대와 계절' },
+      { id: 'daewoon-change', title: '3. 대운 교체기: 운이 바뀔 때 나타나는 3가지 징조' },
+      { id: 'good-vs-bad', title: '4. 호운(好運)과 기운(忌運)을 맞이하는 자세' },
+      { id: 'conclusion', title: '5. 결론: 원국은 배, 대운은 바다' },
+    ],
+    tocEn: [
+      { id: 'daewoon-meaning', title: '1. The True Meaning of Daewoon: Fate is Fluid' },
+      { id: 'environmental-shift', title: '2. Your 10-Year Stage: Seasons of the Soul' },
+      { id: 'daewoon-change', title: '3. The Transition Phase: 3 Signs Your Luck is Shifting' },
+      { id: 'good-vs-bad', title: '4. Strategic Navigation: Favorable vs. Unfavorable Cycles' },
+      { id: 'conclusion', title: '5. Conclusion: The Ship and the Ocean' },
+    ],
+    contentKo: `<section>
+    <p>명리학을 처음 접하는 분들은 종종 자신의 '사주팔자 8글자'에만 집착합니다. 내 사주에 재물운이 있는지, 배우자운이 나쁜 것은 아닌지 묻습니다. 하지만 노련한 명리학자들은 사주 원국(原局)을 스캔한 직후, 반드시 <strong>대운(大運)</strong>의 흐름을 확인합니다. "사주 원국이 불리해도 대운이 좋으면 성공하고, 사주 원국이 아무리 뛰어나도 대운이 나쁘면 뜻을 펴기 어렵다"는 옛말이 있습니다. 대운은 당신의 인생에 10년 단위로 찾아오는 거대한 계절이자 파도입니다. 지금 당신의 삶이 유독 춥고 막막하다면, 그것은 당신의 능력이 부족해서가 아니라 단지 지금 지나고 있는 대운의 계절이 '겨울'이기 때문일 수 있습니다.</p>
+
+    <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+    <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+    <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/saju/annual-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">세운(歲運) 완전 해설: 올해 나에게 일어날 일 예측하기</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/lucky-element" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 용신 찾기: 대운을 내 편으로 만드는 행운의 기운</a></li>
+    </ul>
+    </div>
+
+    <h2 id="daewoon-meaning">1. 대운(大運)의 진짜 의미: 운명은 고정되어 있지 않다</h2>
+    <p>흔히 일상에서 "나한테 대운이 들어왔어!"라고 할 때의 대운은 '큰 행운(Great Luck)'을 뜻합니다. 하지만 사주 명리학에서 말하는 대운(大運)의 '대(大)'는 '크다'는 뜻이 아니라, <strong>'10년 단위의 긴 시간(大)'</strong>을 의미합니다. 즉, 좋은 운이든 나쁜 운이든 10년간 지속되는 운의 흐름 전체를 대운이라고 부릅니다.</p>
+
+    <h3>시간이 빚어내는 마법</h3>
+    <p>사주팔자(생년월일시)가 당신이 태어날 때 부여받은 '바꿀 수 없는 유전자'라면, 대운은 시간이 흐름에 따라 계속해서 변화하는 '환경'입니다. 인간은 고정된 존재가 아닙니다. 20대의 당신과 40대의 당신은 생각하는 방식, 만나는 사람, 사회적 위치가 완전히 다릅니다. 이 거대한 심리적, 환경적 변화를 주도하는 것이 바로 10년마다 천간(天干)과 지지(地支)의 글자가 바뀌며 들어오는 대운의 기운입니다. 사주는 운명이 고정되어 있다고 말하지 않습니다. 10년마다 새로운 기회가 오고, 새로운 과제가 주어진다고 말합니다.</p>
+
+    <div class="cta-container" style="text-align: center; margin: 40px 0;">
+    <a href="/" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🌊 내 인생의 대운 흐름 무료로 확인하기 →</a>
+    </div>
+
+    <h2 id="environmental-shift">2. 대운은 내게 주어지는 10년짜리 무대와 계절</h2>
+    <p>대운은 당신이 10년 동안 활동해야 할 '무대 세트장'이자 '계절'입니다. 아무리 뛰어난 수영 선수라도 물이 없는 사막(대운)에 떨어지면 실력을 발휘할 수 없습니다. 반대로 실력이 평범한 서퍼라도, 자신을 밀어주는 거대한 파도(대운)를 만나면 세계 챔피언을 이길 수 있습니다.</p>
+
+    <h3>계절의 변화와 조후(調候)</h3>
+    <p>내 사주가 불(火)이 너무 많아 조급하고 메말라 있는 상태(여름의 사주)라고 가정해 봅시다. 이때 대운에서 시원한 물(水)의 기운, 즉 '겨울의 10년'이 들어오면 사주의 온도가 완벽한 균형을 이룹니다. 이때를 명리학에서는 '발복(發福)한다'고 표현합니다. 막혔던 일들이 기적처럼 풀리고, 귀인을 만나며, 재물이 쌓입니다. 반대로 불이 많은 사주에 또다시 불의 대운(여름의 10년)이 들어오면, 무리한 투자로 인한 파재, 건강 악화, 극심한 스트레스 등을 겪게 됩니다. 내가 지금 인생의 봄, 여름, 가을, 겨울 중 어디를 지나고 있는지를 아는 것은 생존과 직결된 문제입니다.</p>
+
+    <h2 id="daewoon-change">3. 대운 교체기: 운이 바뀔 때 나타나는 3가지 징조</h2>
+    <p>대운은 어느 날 갑자기 무 칼 자르듯 바뀌지 않습니다. 보통 대운이 바뀌기 1~2년 전부터 서서히 기운의 교체가 일어나며, 이 시기를 <strong>'대운 교체기(접목운)'</strong>라고 합니다. 봄에서 여름으로 넘어갈 때 환절기의 몸살을 앓듯, 인생의 거대한 파도가 바뀔 때 우리 삶에는 반드시 3가지 강력한 징조가 나타납니다.</p>
+
+    <ul>
+    <li><strong>인간관계의 대대적인 물갈이:</strong> 예전에는 죽고 못 살던 친구나 동료와 알 수 없는 이유로 멀어지고, 전혀 새로운 부류의 사람들이 내 인생에 등장합니다. 이는 내 주파수가 바뀌면서 끌어당기는 인연이 달라졌기 때문입니다.</li>
+    <li><strong>환경의 변화와 이동수:</strong> 이사, 이직, 부서 이동 등 물리적인 공간의 변화가 강제적으로 혹은 자발적으로 일어납니다. 지금까지 머물던 공간이 답답하게 느껴집니다.</li>
+    <li><strong>가치관과 관심사의 극적인 변화:</strong> 평생 돈만 좇던 사람이 갑자기 철학이나 종교에 관심을 가지거나, 조용히 살던 사람이 갑자기 사업을 하겠다고 나서는 등 생각의 뿌리가 송두리째 흔들립니다.</li>
+    </ul>
+    <p>대운 교체기에는 기운이 혼란스럽기 때문에 섣부른 대규모 투자나 극단적인 결정은 미루고, 몸을 낮추며 새롭게 다가올 10년의 에너지를 관찰하는 것이 지혜롭습니다.</p>
+
+    <h2 id="good-vs-bad">4. 호운(好運)과 기운(忌運)을 맞이하는 자세</h2>
+    <p>우리는 누구나 살면서 나에게 유리한 호운(용신운)과 불리한 기운(기신운)을 번갈아 맞이하게 됩니다.</p>
+
+    <h3>호운을 맞이할 때의 전략</h3>
+    <p>나를 돕는 대운이 들어왔을 때는 겸손할 필요가 없습니다. 과감하게 투자하고, 영역을 확장하며, 적극적으로 자신을 세상에 드러내야 합니다. 이 시기에 쟁취한 결과물은 다음의 힘든 대운을 버텨낼 수 있는 든든한 식량이 됩니다.</p>
+
+    <h3>기운을 맞이할 때의 전략</h3>
+    <p>나를 치는 대운(겨울)이 왔을 때는 '성장'이 아닌 '생존과 유지'가 목표여야 합니다. 무리한 확장이나 새로운 사업은 십중팔구 실패로 돌아갑니다. 이 시기는 책을 읽고, 자격증을 따며, 건강을 돌보고 내실을 다지는 '겨울잠'의 시간입니다. 기운의 10년 동안 공부하고 준비한 자만이, 그다음 다가올 호운의 10년에서 압도적인 성공을 거머쥘 수 있습니다.</p>
+
+    <h2 id="conclusion">5. 결론: 원국은 배, 대운은 바다</h2>
+    <p>사주 원국(팔자)이 당신에게 주어진 '배'라면, 대운은 당신이 항해해야 할 '바다'입니다. 당신이 아무리 작고 초라한 나룻배(평범한 사주)를 타고 태어났더라도, 바람과 해류가 당신을 밀어주는 대운을 만나면 거대한 항공모함보다 더 빨리 목적지에 도착할 수 있습니다.</p>
+    <p>당신의 인생이 지금 폭풍우 치는 바다 한가운데 있다면, 자책하지 마십시오. 단지 계절이 험난할 뿐, 당신의 배가 고장 난 것이 아닙니다. 다가올 10년의 날씨(대운)를 미리 읽고 대비한다면, 우리는 어떤 파도 속에서도 결국 우리가 원하는 목적지에 도달할 수 있습니다. 그것이 명리학이 우리에게 주는 가장 위대한 위로이자 전략입니다.</p>
+
+    <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+    <p><a href="/saju/annual-fortune" style="text-decoration: underline; color: #f9d976;">[관련] 세운(歲運) 완전 해설: 1년 단위의 디테일한 운세 읽기</a></p>
+    <p><a href="/saju/clash-harmony" style="text-decoration: underline; color: #f9d976;">[관련] 천간충과 지지충: 내 사주가 대운과 충돌할 때 벌어지는 일</a></p>
+    </div>
+    </section>`,
+    contentEn: `<section>
+    <p>When Western clients first encounter Korean fortune telling, their obsession almost exclusively revolves around their fixed birth chart: <em>"Am I born lucky? Will I be rich? Is my chart ruined because I lack Fire?"</em> While the Four Pillars of Destiny (Saju-Palja) absolutely dictate your baseline potential, focusing only on the birth chart is like analyzing the aerodynamics of an airplane without ever checking the weather forecast. Master practitioners know that the true secret to monumental success lies not in the fixed chart, but in the dynamic, ever-changing timeline known as <strong>Daewoon (大運)</strong>—the Major Fortune Cycles. Daewoon represents the massive, 10-year energetic tides that wash over your life, fundamentally altering your environment, psychology, and luck trajectory. This comprehensive SEO guide will decode the architecture of the 10-Year Luck Cycles, teaching you how to surf the cosmic waves rather than drown in them.</p>
+
+    <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+    <p><a href="/en/saju/annual-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Annual Fortune (Sewoon): Navigating Year-by-Year Changes</a></p>
+    <p><a href="/en/saju/lucky-element" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Finding Your Lucky Element (Yongshin) to Maximize Daewoon</a></p>
+    </div>
+
+    <h2 id="daewoon-meaning">1. The True Meaning of Daewoon: Fate is Fluid</h2>
+    <p>In colloquial Korean, people often exclaim, <em>"Daewoon has arrived!"</em> when someone suddenly wins the lottery or achieves massive fame, incorrectly translating the term as "Great Luck." In the rigorous science of Korean astrology, "Dae" (大) simply means "Large" in the context of <em>time</em>. Daewoon refers to a <strong>10-Year Fortune Cycle</strong>. It can bring a decade of unprecedented prosperity, or a decade of excruciating, relentless pressure.</p>
+
+    <h3>The Architecture of Change</h3>
+    <p>If your birth chart (Saju) is your genetic code, your Daewoon is epigenetics—the environmental factors that determine which of your genes actually turn on or off. Every human being's timeline is sliced into precise 10-year increments, starting from a specific age (e.g., ages 3 to 12, 13 to 22, etc.). For each decade, a new Heavenly Stem and Earthly Branch pair "dock" with your birth chart. This new pair injects massive amounts of new elemental energy into your life. You are not a static entity; the 25-year-old version of you was operating under a completely different cosmic operating system than the 35-year-old you.</p>
+
+    <div class="cta-container" style="text-align: center; margin: 40px 0;">
+    <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🌊 Discover Your Current 10-Year Daewoon Cycle →</a>
+    </div>
+
+    <h2 id="environmental-shift">2. Your 10-Year Stage: Seasons of the Soul</h2>
+    <p>A Daewoon is essentially the physical "stage set" you are forced to act upon for a decade. Imagine the greatest surfer in the world. If their 10-year cycle places them in the middle of the Sahara Desert, their immense talent is useless; they will struggle simply to survive. Conversely, an average surfer who is suddenly blessed with a Daewoon that provides the perfect ocean wave can ride it to a world championship.</p>
+
+    <h3>Elemental Calibration</h3>
+    <p>Success in Saju is determined by balance. If your birth chart is metaphorically "freezing"—dominated by cold Water and heavy Metal—your life will feel sluggish and isolated. However, if your newly arriving Daewoon brings 10 years of blazing Fire and warm Earth, your chart suddenly thaws. This is the moment of <em>Balbok (發福)</em>—the explosion of fortune. Opportunities you chased for years will suddenly land in your lap effortlessly. But if your freezing chart encounters a Daewoon of even more Water, you face a "Winter Decade," requiring extreme caution, consolidation, and spiritual endurance.</p>
+
+    <h2 id="daewoon-change">3. The Transition Phase: 3 Signs Your Luck is Shifting</h2>
+    <p>A massive 10-year cycle does not change overnight. There is a chaotic 1-to-2-year transition period, known in Korean as <em>Jeopmok-woon</em> (the grafting period). Much like the turbulent weather when Winter violently shifts into Spring, a Daewoon transition is highly destabilizing. Master practitioners look for three definitive symptoms that your luck is turning:</p>
+
+    <ul>
+    <li><strong>Radical Social Cleansing:</strong> Friendships, business partnerships, or marriages that survived for a decade suddenly end for inexplicable reasons. Simultaneously, entirely new archetypes of people enter your life. As your cosmic frequency changes, the people tethered to your old frequency naturally fall away.</li>
+    <li><strong>Geographic and Professional Upheaval:</strong> You experience an overwhelming, physical urge to move. This manifests as sudden relocations to new cities, buying or selling homes, or drastically pivoting your career path. The old "stage" feels suffocating.</li>
+    <li><strong>Psychological Paradigm Shifts:</strong> Your core values invert. A person who spent ten years ruthlessly chasing corporate money may suddenly quit to study philosophy. A quiet introvert may suddenly desire public fame. The software of your mind is being rewritten.</li>
+    </ul>
+    <p>During this 1-to-2-year transition, Saju experts strictly advise against making highly leveraged investments. The energy is too volatile; one must wait for the new decade's frequency to fully lock in.</p>
+
+    <h2 id="good-vs-bad">4. Strategic Navigation: Favorable vs. Unfavorable Cycles</h2>
+    <p>Every human will experience both favorable cycles (Yongshin-woon) and unfavorable cycles (Gisin-woon). The purpose of birth chart reading is not to cry about the bad times, but to deploy exact strategies for both.</p>
+
+    <h3>Surfing the Favorable Decade</h3>
+    <p>When you enter a 10-year period that supports your chart, modesty is a strategic error. This is the time to leverage up, launch the company, aggressively network, and take calculated risks. The universe is providing a massive tailwind. The wealth and reputation you accumulate during this decade must be stockpiled to feed you during the inevitable winter cycles.</p>
+
+    <h3>Surviving the Unfavorable Decade</h3>
+    <p>When an unfavorable Daewoon arrives, the objective shifts from "Expansion" to "Preservation." Aggressive moves during a hostile decade almost always result in financial ruin or burnout. This is the time to lay low, study, earn new qualifications, optimize your physical health, and quietly endure. The individuals who survive a harsh Daewoon without destroying their baseline capital are the ones who inevitably conquer the world when their favorable cycle returns.</p>
+
+    <h2 id="conclusion">5. Conclusion: The Ship and the Ocean</h2>
+    <p>If your Saju birth chart is the ship you were given at birth, your Daewoon is the ocean you must sail. You may be navigating life in a tiny, fragile wooden boat, but if you catch the 10-year current of a perfect Daewoon, you will reach the shores of wealth faster than a luxury yacht fighting a hostile storm. If you are currently experiencing a period of intense professional or personal failure, release your guilt. Your ship is not broken; you are simply sailing through a winter cycle. By consulting Korean astrology, you can map exactly when the ice will melt and the wind will return to your sails, allowing you to navigate your destiny with absolute, unshakeable strategic confidence.</p>
+
+    <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+    <p><a href="/en/saju/annual-fortune" style="text-decoration: underline; color: #f9d976;">[Related] Annual Fortune: Zooming In on Yearly Energy Shifts</a></p>
+    <p><a href="/en/saju/clash-harmony" style="text-decoration: underline; color: #f9d976;">[Related] Saju Clashes: What Happens When Your Cycles Collide</a></p>
+    </div>
+    </section>`,
+    faq: [
+      { q: '대운은 몇 살부터 시작되나요?', a: '사람마다 대운이 바뀌는 나이(대운수)가 다릅니다. 1대운인 사람은 매 1세, 11세, 21세에 운이 바뀌고, 7대운인 사람은 7세, 17세, 27세에 운이 바뀝니다.' },
+      { q: '대운이 나쁠 때 개운(開運)하는 방법이 있나요?', a: '나쁜 대운(기신운)에는 현금을 부동산이나 문서로 묶어두어 파재를 막고, 자기계발과 공부(인성)에 집중하며 활동 반경을 줄이는 것이 최고의 방어이자 개운법입니다.' },
+      { q: '사주 원국과 대운 중 어느 것이 더 중요한가요?', a: '원국은 그 사람의 근본적인 그릇(자동차)이고, 대운은 그 사람이 달려야 할 도로(고속도로인지 비포장도로인지)입니다. 현실적인 체감 성패는 대운이 압도적으로 더 큰 영향을 미칩니다.' },
+    ],
+    faqEn: [
+      { q: 'At what age does a Daewoon cycle change?', a: 'It is mathematically unique to every individual based on their birth time. Your "Daewoon Number" dictates the shift. If your number is 3, your cycles change at ages 3, 13, 23, 33, and so on.' },
+      { q: 'What is the best remedy if I am entering a bad 10-year cycle?', a: 'During a hostile Daewoon, the ultimate strategy is defensive preservation. Convert liquid cash into illiquid assets (like real estate) to prevent loss, avoid aggressive business expansion, and focus heavily on education, health, and personal refinement.' },
+      { q: 'Which is more important: my birth chart or my Daewoon?', a: 'Your birth chart is your vehicle; your Daewoon is the road. While you cannot change the vehicle, whether you are driving on a freshly paved highway or a muddy, potholed trail dictates your actual speed. In practical, everyday life, the Daewoon has a far more profound impact on your tangible success.' },
+    ],
+    relatedPosts: [
+      { slug: 'annual-fortune', category: 'saju', title: '세운(歲運) 완전 해설: 1년의 운세' },
+      { slug: 'clash-harmony', category: 'saju', title: '천간충·지지충: 내 사주가 충돌할 때' },
+    ],
+    },
+    {
+    slug: 'annual-fortune',
+    title: '세운(歲運) 완전 해설: 올해 나에게 일어날 구체적인 사건 예측하기',
+    seoTitle: '사주 세운(歲運) 보는 법: 1년 운세 흐름과 올해의 길흉화복 분석',
+    seoTitleEn: 'Annual Fortune (Sewoon): What 2026 Holds for Your Saju',
+    description: '10년의 대운 속에서 1년 단위로 찾아오는 세운(歲運)의 디테일! 올해 취업, 이사, 연애, 재물운이 어떻게 풀릴지 사주 세운을 통해 3,000자 전문 해설로 예측합니다.',
+    descriptionEn: 'While Daewoon sets the decade\'s theme, Sewoon dictates the specific events of the year. Learn how to read your annual Korean astrology fortune for career, money, and love.',
+    keywords: ['사주세운', '1년운세', '올해운세', '신년운세', '대운세운', '명리학운세'],
+    keywordsEn: ['Sewoon', 'Annual Fortune Saju', 'Korean New Year Luck', '2026 Fortune', 'Yearly Horoscope', 'Birth Chart Transit'],
+    publishedAt: '2026-03-02',
+    category: 'saju',
+    toc: [
+      { id: 'sewoon-meaning', title: '1. 세운(歲運)의 정의: 1년짜리 디테일한 날씨' },
+      { id: 'daewoon-vs-sewoon', title: '2. 대운(10년)과 세운(1년)의 관계성' },
+      { id: 'event-prediction', title: '3. 세운으로 보는 구체적인 사건 예측 (취업, 연애, 이사)' },
+      { id: 'sewoon-clash', title: '4. 세운에서 형충파해(刑沖破害)를 만날 때' },
+      { id: 'conclusion', title: '5. 결론: 일기예보를 아는 자가 우산을 챙긴다' },
+    ],
+    tocEn: [
+      { id: 'sewoon-meaning', title: '1. Defining Sewoon: The 1-Year Weather Forecast' },
+      { id: 'daewoon-vs-sewoon', title: '2. The Dance Between Daewoon (10-Yr) and Sewoon (1-Yr)' },
+      { id: 'event-prediction', title: '3. Predicting Specific Events: Jobs, Love, and Moves' },
+      { id: 'sewoon-clash', title: '4. When the Year Clashes with Your Chart (Chung/Hyeong)' },
+      { id: 'conclusion', title: '5. Conclusion: Checking the Radar Before You Sail' },
+    ],
+    contentKo: `<section>
+    <p>매년 연말연시가 되면 사람들은 "내년에는 돈 좀 벌 수 있을까?", "내년에는 취업이 될까?"라는 질문을 안고 사주 상담소를 찾습니다. 명리학에서 특정 1년 동안의 운세를 뜻하는 단어가 바로 <strong>세운(歲運)</strong>, 또는 태세(太歲)입니다. 10년 단위의 거대한 흐름을 의미하는 대운(大運)이 우리 인생의 '계절'이라면, 1년 단위의 세운은 그 계절 안에서 매일매일 바뀌는 '그날의 날씨'와 같습니다. 대운이 아무리 좋아도 세운에서 폭우가 쏟아지면 그 해에는 외출을 삼가야 하고, 대운이 혹독한 겨울이라도 세운에서 따뜻한 햇살이 비치면 얼어붙었던 땅에서 잠시나마 수확을 얻을 수 있습니다. 이 글에서는 세운을 통해 올해 나에게 일어날 구체적인 사건을 예측하는 명리학의 디테일한 기술을 공개합니다.</p>
+
+    <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+    <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+    <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/saju/major-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">대운(大運) 완전 해설: 10년 단위로 바뀌는 인생의 거대한 파도</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/zodiac-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">2026년 병오년 운세: 붉은 말띠 해, 나의 띠별 운세 흐름</a></li>
+    </ul>
+    </div>
+
+    <h2 id="sewoon-meaning">1. 세운(歲運)의 정의: 1년짜리 디테일한 날씨</h2>
+    <p>세운은 매년 바뀌는 육십갑자(六十甲子)의 간지(干支)를 말합니다. 예를 들어 2024년은 갑진(甲辰)년 세운이었고, 2025년은 을사(乙巳)년 세운, 2026년은 병오(丙午)년 세운입니다. 이 세운은 지구상의 모든 사람에게 공통적으로 들어오는 우주의 기운이지만, 나의 사주 원국 8글자와 어떻게 반응하느냐에 따라 나에게는 '로또 당첨의 해'가 될 수도 있고, '치명적인 사고의 해'가 될 수도 있습니다.</p>
+
+    <h3>사건의 '발현'을 담당하는 세운</h3>
+    <p>명리학에서 대운(10년)은 주로 사람의 심리 상태, 거시적인 환경, 그 사람의 사회적 그릇 크기를 결정합니다. 반면 세운(1년)은 <strong>'체감할 수 있는 구체적인 사건'</strong>을 격발시킵니다. 취업 합격 통보, 갑작스러운 이별, 부동산 계약, 교통사고, 이사 등 내 삶에 명확한 도장을 찍는 사건들은 모두 세운의 글자가 내 사주를 건드릴 때 일어납니다. 따라서 족집게처럼 "올해 가을에 이직하겠네"라고 맞추는 술사들은 모두 이 세운의 작용력을 예리하게 읽어내는 것입니다.</p>
+
+    <div class="cta-container" style="text-align: center; margin: 40px 0;">
+    <a href="/" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">📅 나의 올해 세운(1년 운세) 상세 분석 받기 →</a>
+    </div>
+
+    <h2 id="daewoon-vs-sewoon">2. 대운(10년)과 세운(1년)의 관계성</h2>
+    <p>대운과 세운을 독립적으로 보면 운세의 절반밖에 읽지 못합니다. 이 둘은 철저한 상하 관계와 시너지를 가집니다. 이를 이해하기 위한 4가지 핵심 패턴은 다음과 같습니다.</p>
+    <ul>
+    <li><strong>대운 ⭕ + 세운 ⭕ (태평성대):</strong> 인생의 황금기입니다. 거대한 해류도 나를 밀어주고, 오늘의 날씨까지 화창한 상황입니다. 무엇을 해도 예상보다 더 큰 성과를 얻습니다. 주저 없이 도전해야 할 때입니다.</li>
+    <li><strong>대운 ⭕ + 세운 ❌ (비 온 뒤 맑음):</strong> 10년의 전체적인 흐름은 좋으나, 올해 잠깐 악재가 끼인 형국입니다. 투자 손실이나 구설수가 있을 수 있지만, 대운의 든든한 백그라운드가 방어막이 되어주어 치명상으로 이어지지는 않습니다. 금세 회복됩니다.</li>
+    <li><strong>대운 ❌ + 세운 ⭕ (가뭄 속 단비):</strong> 10년의 힘든 고난 중에 잠시 숨을 돌릴 수 있는 좋은 1년이 찾아왔습니다. 이때 들어온 현금을 섣불리 재투자하지 말고, 빚을 갚거나 내실을 다지며 남은 기신대운(나쁜 대운)을 버틸 비상식량으로 저장해야 합니다.</li>
+    <li><strong>대운 ❌ + 세운 ❌ (사면초가):</strong> 가장 조심해야 할 시기입니다. 험난한 겨울 대운 속에 눈보라(흉한 세운)까지 몰아치는 해입니다. 이 시기에는 절대 새로운 사업을 벌이거나 무리한 확장을 해서는 안 됩니다. 철저하게 현금을 지키고, 건강을 챙기며, '아무 일 없이 조용히 지나가는 것'을 그 해의 최고 목표로 삼아야 합니다.</li>
+    </ul>
+
+    <h2 id="event-prediction">3. 세운으로 보는 구체적인 사건 예측</h2>
+    <p>올해 세운의 십성(十星)이 나의 일간(나의 본질)과 어떤 관계를 맺느냐에 따라 올해 일어날 핵심 테마가 결정됩니다.</p>
+    <ul>
+    <li><strong>비견/겁재 세운이 올 때:</strong> 독립심과 경쟁심이 극도에 달합니다. 나와 동업하려는 사람, 혹은 내 재물을 탐내는 경쟁자가 나타납니다. 재물 지출이 많아지지만, 프리랜서나 자영업자는 자기 영역을 굳건히 다질 수 있습니다.</li>
+    <li><strong>식신/상관 세운이 올 때:</strong> 새로운 것을 배우거나 창작, 투자, 새로운 사업을 벌이고 싶은 욕구가 폭발합니다. 표현력이 좋아지지만 (특히 상관 운에는) 직장 상사나 조직의 규칙과 충돌하여 이직이나 퇴사를 감행할 확률이 높습니다.</li>
+    <li><strong>정재/편재 세운이 올 때:</strong> 현실 감각이 예리해지고 돈에 대한 욕심이 강해집니다. 실제적인 재물 획득이나 투자 수익이 일어나기 쉽습니다. 남성의 경우 이 시기에 연애를 시작하거나 결혼할 인연을 만나게 됩니다.</li>
+    <li><strong>정관/편관 세운이 올 때:</strong> 승진, 취업, 시험 합격 등 명예와 관련된 문서운이 강력하게 들어옵니다. 사회적 타이틀이 업그레이드되는 시기입니다. 여성의 경우 이 시기에 좋은 인연(남자)을 만나 결혼할 확률이 큽니다. 단, 편관 세운에는 과로로 인한 건강 악화나 심한 스트레스를 동반한 성공이 찾아옵니다.</li>
+    <li><strong>정인/편인 세운이 올 때:</strong> 활동성을 줄이고 안으로 에너지를 갈무리하는 해입니다. 부동산 취득, 상속, 학위 취득 등 문서(계약)와 관련된 경사가 있습니다. 반면 기존에 하던 사업이 답답하게 막히거나 잠시 휴식기를 가져야 할 수도 있습니다.</li>
+    </ul>
+
+    <h2 id="sewoon-clash">4. 세운에서 형충파해(刑沖破害)를 만날 때</h2>
+    <p>많은 분들이 올해 운세에서 '충(沖)'이나 '삼재(三災)'라는 말을 들으면 겁부터 먹습니다. 세운의 글자가 내 사주의 글자와 부딪혀 충돌을 일으키는 것을 말합니다.</p>
+    <h3>충(沖)은 파괴가 아니라 '분리'와 '새 출발'</h3>
+    <p>세운에서 충이 오면 반드시 물리적인 이동이나 환경의 단절이 일어납니다. 직장을 그만두거나, 오래된 연인과 헤어지거나, 강제로 이사를 가게 됩니다. 하지만 명리학에서 충은 무조건적인 흉(凶)이 아닙니다. 고인 물을 강제로 퍼내어 새로운 물을 채우는 과정입니다. 썩은 이빨(맞지 않는 직장이나 인연)을 빼내는 과정은 고통스럽지만, 그 충이 지나가고 나면 삶은 훨씬 건강해지고 새로운 차원으로 진입하게 됩니다. 충을 두려워하지 말고, 변화를 수용할 마음의 준비를 하는 것이 정답입니다.</p>
+
+    <h2 id="conclusion">5. 결론: 일기예보를 아는 자가 우산을 챙긴다</h2>
+    <p>1년의 운세인 세운을 미리 본다는 것은, 아침에 집을 나서기 전 일기예보를 확인하는 것과 완벽히 동일합니다. 오늘 비가 온다는 예보(기신 세운)를 들었다면, 비를 막을 수는 없어도 튼튼한 우산을 챙기고 젖지 않을 장화를 신을 수는 있습니다. 그것이 바로 명리학이 지향하는 개운(開運)의 본질입니다.</p>
+    <p>올해 당신에게 어떤 세운의 바람이 불어오고 있습니까? 취업의 바람이라면 돛을 활짝 펴야 하고, 건강 악화의 칼바람이라면 닻을 내리고 항구에 정박해야 합니다. 내 사주와 세운이 빚어내는 파도의 타이밍을 읽어낼 때, 당신은 불필요한 고생을 줄이고 인생의 효율을 극대화할 수 있을 것입니다.</p>
+
+    <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+    <p><a href="/saju/clash-harmony" style="text-decoration: underline; color: #f9d976;">[관련] 천간충·지지충: 내 사주가 운과 부딪힐 때 생기는 진짜 변화</a></p>
+    <p><a href="/saju/wealth-luck" style="text-decoration: underline; color: #f9d976;">[관련] 재성(財星)으로 보는 재물운: 나는 언제 부자가 될까?</a></p>
+    </div>
+    </section>`,
+    contentEn: `<section>
+    <p>Every December, millions of people worldwide seek out astrologers with the exact same urgent questions: <em>"Will I get promoted next year?"</em> <em>"Will 2026 be the year I finally meet my soulmate?"</em> <em>"Is this the right time to quit my job and start a business?"</em> In the profound system of Saju-Palja (Korean Astrology), the answers to these highly specific, time-sensitive questions are found by analyzing your <strong>Sewoon (歲運)</strong>—the Annual Fortune Cycle. If your 10-year Major Cycle (Daewoon) sets the macro "season" of your life (e.g., a decade of winter), the Sewoon represents the highly specific "daily weather" within that season. Even in the harshest winter decade, an auspicious Annual Fortune can bring a beautiful, sunny week where you can finally make tangible progress. This comprehensive SEO guide will decode the mechanics of the Sewoon, teaching you how to predict specific events in your year and strategically time your biggest life decisions.</p>
+
+    <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+    <p><a href="/en/saju/major-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Major Fortune Cycles (Daewoon): The 10-Year Waves of Destiny</a></p>
+    <p><a href="/en/saju/zodiac-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">2026 Zodiac Fortune: What the Fire Horse Year Means for You</a></p>
+    </div>
+
+    <h2 id="sewoon-meaning">1. Defining Sewoon: The 1-Year Weather Forecast</h2>
+    <p>A Sewoon is the specific cosmic energy that governs a single calendar year, defined by its Heavenly Stem and Earthly Branch. For example, 2024 was the Year of the Wood Dragon (Gap-Jin), and 2026 is the Year of the Fire Horse (Byeong-O). This universal energy rains down equally on every human being on the planet. However, how that universal "rain" affects you depends entirely on the topography of your personal birth chart. For a Saju chart desperate for Fire, the 2026 Fire Horse year will act like miraculous medicine, triggering massive growth. For a chart already suffering from catastrophic heat, 2026 will act like a match dropped in a powder keg.</p>
+
+    <h3>The Trigger for Tangible Events</h3>
+    <p>While the 10-year Daewoon governs your overarching psychological state and general luck capacity, the 1-year Sewoon acts as the <strong>trigger mechanism</strong>. The Daewoon sets the stage, but the Sewoon introduces the actors and forces the plot to move forward. Specific, visceral events—getting a job offer letter, signing a mortgage, experiencing a sudden breakup, or suffering a bone fracture—are almost exclusively triggered when the characters of the Sewoon violently clash or harmoniously combine with the characters in your birth chart.</p>
+
+    <div class="cta-container" style="text-align: center; margin: 40px 0;">
+    <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">📅 Get Your Highly Detailed 1-Year Saju Forecast Now →</a>
+    </div>
+
+    <h2 id="daewoon-vs-sewoon">2. The Dance Between Daewoon (10-Yr) and Sewoon (1-Yr)</h2>
+    <p>You cannot read an Annual Fortune in a vacuum; it must always be read in the context of the ruling 10-year Daewoon. Master practitioners evaluate this relationship using four distinct patterns:</p>
+    <ul>
+    <li><strong>Good Daewoon + Good Sewoon (The Golden Era):</strong> You have the wind at your back, and the sun is shining brightly. The universe is practically begging you to succeed. This is the year to launch the startup, ask for the massive promotion, and take bold, aggressive risks. Your returns will far exceed your effort.</li>
+    <li><strong>Good Daewoon + Bad Sewoon (A Speed Bump):</strong> The overarching 10-year trend is excellent, but you hit a pothole this specific year. You may experience a bad investment, a workplace betrayal, or a brief illness. However, because your 10-year foundation is strong, this bad year will not destroy you. It is merely a frustrating delay.</li>
+    <li><strong>Bad Daewoon + Good Sewoon (The Oasis):</strong> You are navigating a brutal 10-year winter cycle, but you suddenly encounter a fantastic, lucky year. <em>Warning: Do not get arrogant.</em> Do not use the sudden cash or success of this year to aggressively expand. Use this oasis year to pay off debt, hoard cash, and rest before the winter cycle resumes.</li>
+    <li><strong>Bad Daewoon + Bad Sewoon (The Perfect Storm):</strong> The 10-year trend is hostile, and the current year is a blizzard. This is when catastrophic failures occur. The only viable strategy during this year is extreme defense. Do not invest. Do not quit your job in a rage. Focus strictly on maintaining your physical health and protecting your baseline capital. Your only goal is survival.</li>
+    </ul>
+
+    <h2 id="event-prediction">3. Predicting Specific Events: Jobs, Love, and Moves</h2>
+    <p>By analyzing the "Ten Gods" (Sipseong) that the incoming Sewoon brings to your Day Master, an expert can predict exactly what theme will dominate your year:</p>
+    <ul>
+    <li><strong>The Authority Star Year (Gwanseong):</strong> This is the year of institutional recognition. You are highly likely to pass government exams, secure a corporate promotion, or land a prestigious job. For heterosexual women, this transit frequently triggers the arrival of a serious marriage partner.</li>
+    <li><strong>The Wealth Star Year (Jaeseong):</strong> Your pragmatic, financial instincts sharpen intensely. This year triggers opportunities for increased cash flow, successful real estate transactions, or business profits. For heterosexual men, this is the prime year to meet a romantic partner.</li>
+    <li><strong>The Expression Star Year (Siksang):</strong> You will feel a sudden, burning desire to create, invest, or rebel against authority. This is a brilliant year for artists and entrepreneurs launching new products. However, if you are a corporate employee, this rebellious energy often triggers a sudden resignation or severe friction with your boss.</li>
+    <li><strong>The Academic/Document Star Year (Inseong):</strong> This is a year of inward contraction and legal ink. You are highly likely to sign a major real estate contract, receive an inheritance, or enter a period of deep academic study. It is not a favorable year for aggressive, front-line business expansion.</li>
+    </ul>
+
+    <h2 id="sewoon-clash">4. When the Year Clashes with Your Chart (Chung/Hyeong)</h2>
+    <p>In Saju, when the animal of the incoming year is diametrically opposed to an animal in your birth chart, it creates a <strong>Clash (Chung - 沖)</strong>. Many clients are terrified of Clashes, assuming they mean tragedy. In reality, a Clash simply means <em>forced separation and sudden kinetic energy</em>.</p>
+    <p>If the Sewoon clashes with your Month Pillar (your career palace), you will almost certainly experience a sudden job transfer, a corporate restructuring, or you will pack up your desk and quit. If it clashes with your Day Branch (your marriage palace), you may experience a volatile breakup, a divorce, or—if single—a sudden, lightning-fast marriage that completely alters your living situation. A Clash is the universe taking a bulldozer to a stagnant area of your life. It is often painful in the moment, but it is necessary to clear the land so you can build something entirely new and structurally sound.</p>
+
+    <h2 id="conclusion">5. Conclusion: Checking the Radar Before You Sail</h2>
+    <p>To navigate life without checking your Annual Fortune (Sewoon) is like taking a sailboat out onto the open ocean without ever looking at the weather radar. Saju-Palja is not a tool designed to paralyze you with fear; it is an elite intelligence-gathering system designed to maximize your efficiency. If the astrological radar indicates a hurricane of wealth loss this year, you simply lock down your investments and focus on studying. If the radar indicates a massive tailwind of career success, you raise your sails and demand what you are worth. By aligning your personal actions with the specific timing of the cosmic weather, you stop struggling against the universe and start letting it do the heavy lifting for you.</p>
+
+    <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+    <p><a href="/en/saju/clash-harmony" style="text-decoration: underline; color: #f9d976;">[Related] Heavenly Stem Clashes: When Fate Collides in Your Chart</a></p>
+    <p><a href="/en/saju/wealth-luck" style="text-decoration: underline; color: #f9d976;">[Related] Wealth Star (Jaeseong): Reading Money Fortune in Saju</a></p>
+    </div>
+    </section>`,
+    faq: [
+      { q: '신년 운세(세운)는 양력 1월 1일부터 시작되나요?', a: '아닙니다. 명리학에서 새로운 한 해의 기운(세운)이 시작되는 정확한 기점은 24절기 중 첫 번째인 입춘(立春, 보통 양력 2월 4일경)입니다. 입춘이 지나야 진짜 새해의 기운이 적용됩니다.' },
+      { q: '올해 운세가 나쁘면 아무것도 하지 말아야 하나요?', a: '무조건 쉬라는 뜻이 아닙니다. 운이 나쁠 때(기신운)는 사업 확장이나 주식 투자 등 "결과를 바라고 외부로 뻗어나가는 일"을 멈추고, 독서, 자격증 취득, 운동 등 "나를 내부로 채우는 일"에 전력을 다해야 합니다.' },
+      { q: '세운에서 도화살이 들어오면 바람을 피우게 되나요?', a: '과거에는 그렇게 해석하기도 했으나, 현대에는 도화살 세운을 "나를 세상에 어필하고 인기를 얻는 최고의 타이밍"으로 봅니다. 이 시기에 적극적으로 영업, 마케팅, 방송 활동을 하면 큰 성과를 얻습니다.' },
+    ],
+    faqEn: [
+      { q: 'Does my new Annual Fortune start on January 1st?', a: 'No. In Korean astrology, the universal energy of the new year shifts precisely at the moment of "Ipchun" (Onset of Spring), which typically falls around February 4th. The solar terms dictate the energy, not the Gregorian calendar.' },
+      { q: 'If my Sewoon is bad this year, should I just do nothing?', a: 'Absolutely not. A "bad" year simply means external, high-risk expansions (like starting a business or day trading) will fail. You should pivot your energy entirely into internal growth: studying, getting certifications, and improving your health. It is a year of preparation, not paralysis.' },
+      { q: 'If a "Peach Blossom Star" (Dowa-sal) enters my Sewoon, does it mean romantic scandal?', a: 'While it can indicate sudden romantic entanglements, modern practitioners view a Peach Blossom transit as the ultimate year for popularity and charisma. It is the best year to launch a personal brand, do aggressive marketing, or step into a leadership role where you need people to like you.' },
+    ],
+    relatedPosts: [
+      { slug: 'clash-harmony', category: 'saju', title: '천간충·지지충 완전 해설' },
+      { slug: 'wealth-luck', category: 'saju', title: '사주로 보는 재물운 분석' },
+    ],
+    },
+    {
+    slug: 'clash-harmony',
+    title: '천간충(天干沖)과 지지충(地支沖) 완전 해설: 내 사주가 운과 부딪힐 때 벌어지는 일',
+    seoTitle: '사주 형충파해(刑沖破害): 천간충 지지충의 의미와 이동수, 이별수 분석',
+    seoTitleEn: 'Heavenly Stem Clashes: When Fate Collides in Saju (Chung/Hyeong)',
+    description: '사주에서 가장 두려워하는 글자의 충돌, 충(沖)! 이혼, 퇴사, 사고를 부른다는 충의 진짜 의미를 해부하고, 이를 긍정적인 삶의 변화로 바꾸는 3,000자 전문 해설.',
+    descriptionEn: 'Terrified of a "Clash" (Chung) in your Saju reading? Learn why cosmic collisions in your chart bring necessary destruction, career pivots, and life-changing growth.',
+    keywords: ['천간충', '지지충', '사주충', '형충파해', '이동수', '명리학'],
+    keywordsEn: ['Saju Clash', 'Chung in Saju', 'Heavenly Stems', 'Earthly Branches', 'Korean Astrology Clashes', 'Fate Collision'],
+    publishedAt: '2026-03-02',
+    category: 'saju',
+    toc: [
+      { id: 'clash-meaning', title: '1. 충(沖)의 본질: 파괴가 아닌 \'강제적 리셋\'' },
+      { id: 'heavenly-stem-clash', title: '2. 천간충(天干沖): 생각과 명예, 방향성의 충돌' },
+      { id: 'earthly-branch-clash', title: '3. 지지충(地支沖): 현실적 환경과 육신의 격변' },
+      { id: 'hyeong-sal', title: '4. 형(刑)살: 수술, 관재구설, 그리고 권력의 양면성' },
+      { id: 'conclusion', title: '5. 결론: 부딪혀야만 열리는 운명의 문이 있다' },
+    ],
+    tocEn: [
+      { id: 'clash-meaning', title: '1. The Essence of Chung (Clash): Forced Reset, Not Destruction' },
+      { id: 'heavenly-stem-clash', title: '2. Heavenly Stem Clashes: Ideological and Reputational Warfare' },
+      { id: 'earthly-branch-clash', title: '3. Earthly Branch Clashes: Physical and Environmental Upheaval' },
+      { id: 'hyeong-sal', title: '4. Hyeong (Punishment): Surgery, Legal Friction, and Raw Power' },
+      { id: 'conclusion', title: '5. Conclusion: Breaking the Shell to Grow' },
+    ],
+    contentKo: `<section>
+    <p>철학관이나 점집에서 사주를 보고 온 사람들이 가장 깊은 근심에 빠지는 순간이 있습니다. 술사가 심각한 표정으로 <em>"올해 일지가 깨지는 '충(沖)'이 들어와서 이혼수가 있네"</em>, 혹은 <em>"천간이 부딪히니 관재구설을 조심해"</em>라고 경고할 때입니다. 명리학을 잘 모르는 대중에게 '충돌'을 의미하는 <strong>충(沖)</strong>이나 '형벌'을 뜻하는 <strong>형(刑)</strong>은 그 자체로 공포의 대상입니다. 무언가 부서지고 찢어지는 흉악한 운명으로 들리기 때문입니다. 하지만 명리학의 정수를 깨달은 학자들은 충(沖)을 결코 나쁘게만 보지 않습니다. 고인 물은 썩기 마련이며, 우리 삶에 정체된 썩은 물을 강제로 엎어버리고 새로운 길을 열어주는 우주의 극약 처방이 바로 충(沖)이기 때문입니다. 이 글에서는 사주명리학의 다이내믹스를 만드는 핵심 엔진, '형충파해(刑沖破害)'의 진짜 비밀을 해부합니다.</p>
+
+    <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+    <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+    <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/saju/annual-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">세운(歲運) 완전 해설: 올해 나에게 일어날 구체적인 사건 예측</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/love-marriage" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주로 보는 연애와 결혼운: 나의 운명의 짝 찾기</a></li>
+    </ul>
+    </div>
+
+    <h2 id="clash-meaning">1. 충(沖)의 본질: 파괴가 아닌 '강제적 리셋'</h2>
+    <p>충(沖)은 한자 뜻 그대로 서로 마주 보고 돌진하여 부딪히는 현상을 말합니다. 오행의 상극(相剋) 관계 중에서도 음양이 같아 타협 없이 정면충돌하는 가장 맹렬한 에너지입니다. 내 사주 원국 안에 이미 충이 있을 수도 있고, 10년 대운이나 1년 세운에서 들어오는 글자가 내 사주를 때릴 때 충이 발생하기도 합니다.</p>
+
+    <h3>변화와 역동성의 스위치</h3>
+    <p>인간은 본능적으로 안정을 추구하기 때문에, 현재의 상황이 조금 불만족스럽더라도 꾹 참고 견디려는 관성이 있습니다. 발전 없는 직장에 수년째 머물거나, 애정이 식어버린 연인과 억지로 관계를 끌고 가는 식입니다. 이때 대운이나 세운에서 강력한 충(沖)이 들어오면, 우주는 당신의 안일한 멱살을 잡고 흔들어 강제로 그 환경에서 튕겨져 나오게 만듭니다. 해고를 당하거나, 심한 다툼 끝에 이별을 통보받습니다. 당장 그 순간에는 인생이 무너지는 것 같은 절망감을 느끼지만, 1~2년이 지나 뒤돌아보면 그 '충(沖)' 사건 덕분에 더 좋은 직장으로 이직하고, 내게 진짜 맞는 새로운 인연을 만나게 된 것을 깨닫게 됩니다. 충은 파괴가 아니라, 새로운 삶으로 진입하기 위한 <strong>강제적 리셋(Reset) 버튼</strong>입니다.</p>
+
+    <div class="cta-container" style="text-align: center; margin: 40px 0;">
+    <a href="/" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">⚡ 내 사주의 형충파해(위기와 기회) 정밀 분석받기 →</a>
+    </div>
+
+    <h2 id="heavenly-stem-clash">2. 천간충(天干沖): 생각과 명예, 방향성의 충돌</h2>
+    <p>천간(하늘의 기운)끼리 부딪히는 것을 천간충이라 합니다. 갑경충(甲庚沖), 을신충(乙辛沖), 병임충(丙壬沖), 정계충(丁癸沖) 등이 있습니다.</p>
+
+    <h3>이념과 타이틀의 교체</h3>
+    <p>천간은 겉으로 드러나는 명예, 나의 이상, 생각, 사회적 간판을 상징합니다. 따라서 천간에 충이 발생하면 주로 <strong>정신적 스트레스와 사회적 직함의 변화</strong>가 일어납니다. 오랫동안 믿어왔던 가치관이 뒤집히는 경험을 하거나, 직장에서 부서가 통폐합되어 내 명함(타이틀)이 바뀌는 일이 발생합니다. 특히 나의 본질을 뜻하는 일간(日干)이 외부의 운과 충돌할 때는 인생의 진로를 송두리째 바꾸고 싶은 강렬한 심리적 동요를 겪게 됩니다.</p>
+
+    <h2 id="earthly-branch-clash">3. 지지충(地支沖): 현실적 환경과 육신의 격변</h2>
+    <p>지지(땅의 기운)끼리 정면으로 부딪히는 것을 지지충이라 합니다. 자오충(子午沖), 인신충(寅申沖), 묘유충(卯酉沖) 등 총 6가지가 있어 '육충(六沖)'이라고도 부릅니다.</p>
+
+    <h3>실질적인 이동수와 이별수</h3>
+    <p>천간충이 머릿속의 지진이라면, 지지충은 내가 발 딛고 서 있는 땅의 지진입니다. 훨씬 더 현실적이고 육체적인 사건으로 발현됩니다. 지지가 깨지면 그 자리에 담겨 있던 물리적 환경이 요동칩니다. <strong>강력한 이동수</strong>가 발생하여 이사를 가거나 타지로 발령이 나고, 교통사고 등 육체적 타상을 입기도 합니다. 어느 자리가 충을 당하느냐에 따라 사건의 위치가 다릅니다.</p>
+    <ul>
+    <li><strong>년지 충:</strong> 태어난 고향을 떠나거나, 조부모 세대의 물리적 단절을 의미합니다.</li>
+    <li><strong>월지 충:</strong> 직장 환경의 거대한 변화, 이직, 혹은 부모님과의 독립/단절을 뜻합니다. (가장 사회적 변화가 큰 충)</li>
+    <li><strong>일지 충:</strong> 나의 안방이자 배우자 자리가 박살 나는 형국입니다. 부부간의 극심한 갈등, 이혼수, 혹은 심각한 수술수(건강 악화)를 조심해야 합니다. 싱글이라면 갑작스럽게 동거를 하거나 연인이 생기는 등 일상 공간의 변화로도 나타납니다.</li>
+    </ul>
+
+    <h2 id="hyeong-sal">4. 형(刑)살: 수술, 관재구설, 그리고 권력의 양면성</h2>
+    <p>충(沖)이 '서로 때리고 끝나는 단발성 타격'이라면, 형(刑)은 '지속적으로 깎고 다듬고 수정해야 하는 피곤한 압박'입니다. 대표적으로 인사신(寅巳申) 삼형살, 축술미(丑戌未) 삼형살이 있습니다.</p>
+
+    <h3>업상대체(業上代替)의 절대 법칙</h3>
+    <p>형살이 사주에 있거나 운에서 강하게 들어오면 관재구설(법적 분쟁, 소송)에 휘말리거나, 몸에 칼을 대는 수술을 받거나, 사람들과의 지독한 권력 투쟁에 놓이게 됩니다. 예전에는 이를 감옥에 갈 팔자라며 극도로 꺼렸습니다. 하지만 현대 명리학에서는 형살을 <strong>'권력과 전문성의 칼'</strong>로 해석합니다.</p>
+    <p>형살의 기운을 다스리는 완벽한 해법은 '업상대체(직업으로 기운을 때우는 것)'입니다. 남을 형벌하고 심판하는 직업(판사, 검사, 경찰)을 가지거나, 칼을 쥐고 사람의 몸을 째고 고치는 직업(외과 의사, 한의사), 혹은 금속이나 생명을 날카롭게 자르고 조립하는 직업(미용사, 정육업, 기계공학자)을 가지면 형살의 흉운이 완벽하게 긍정적인 전문성으로 승화됩니다. 이들은 오히려 형살 대운이 올 때 남들이 범접할 수 없는 권력을 쥐고 대성합니다.</p>
+
+    <h2 id="conclusion">5. 결론: 부딪혀야만 열리는 운명의 문이 있다</h2>
+    <p>우리는 누구나 고통을 피하고 평온하게 살기를 원합니다. 하지만 우주의 이치는 충돌과 마찰 속에서만 새로운 에너지를 잉태하도록 설계되어 있습니다. 씨앗은 딱딱한 껍질이 깨지는 충(沖)의 고통을 겪어야만 새싹을 틔울 수 있고, 날카로운 칼은 돌에 갈리고 깎이는 형(刑)의 과정을 거쳐야만 명검으로 태어납니다.</p>
+    <p>올해 당신의 사주에 매서운 충돌의 기운이 들어와 있습니까? 두려워하며 숨지 마십시오. 당신의 삶에서 유통기한이 지난 낡은 껍질이 깨지고 있는 중입니다. 불필요한 인연과 억압된 환경에서 풀려나, 진짜 당신의 운명으로 나아가기 위한 아프지만 위대한 통과의례를 기꺼이 받아들이시길 바랍니다.</p>
+
+    <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+    <p><a href="/saju/health-saju" style="text-decoration: underline; color: #f9d976;">[관련] 사주로 보는 건강과 질병: 충(沖)이 올 때 조심해야 할 장기</a></p>
+    <p><a href="/saju/wealth-luck" style="text-decoration: underline; color: #f9d976;">[관련] 재성(財星)으로 보는 재물운: 돈그릇이 깨질 때 방어하는 법</a></p>
+    </div>
+    </section>`,
+    contentEn: `<section>
+    <p>If you ask a Western client what they fear most in an astrological reading, they might say "Mercury Retrograde." If you ask a Korean Saju client, they will undoubtedly whisper a single, terrifying word: <strong>Chung (沖 - Clash)</strong>. In the popular imagination, a "Clash" in your Saju-Palja (Four Pillars of Destiny) is synonymous with unmitigated disaster: sudden divorce, catastrophic job loss, lawsuits, or terrible accidents. As an expert who has analyzed thousands of destiny charts, I am here to completely dismantle this fear. In the highly sophisticated architectural system of Korean metaphysics, a Clash is not a curse of destruction. It is a precise, mechanical mechanism designed to forcefully reset stagnant areas of your life. Without cosmic friction, there is absolutely no growth. This guide will deconstruct the terrifying mechanics of Heavenly Clashes, Earthly Punishments, and reveal how these violent cosmic collisions are actually the secret catalysts behind your greatest life breakthroughs.</p>
+
+    <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+    <p><a href="/en/saju/annual-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Annual Fortune (Sewoon): Decoding the Events of 2026</a></p>
+    <p><a href="/en/saju/love-marriage" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Love & Marriage in Saju: Timing Your Romantic Destiny</a></p>
+    </div>
+
+    <h2 id="clash-meaning">1. The Essence of Chung (Clash): Forced Reset, Not Destruction</h2>
+    <p>The character <em>Chung (沖)</em> literally translates to "collision" or "clashing." In the Five Elements theory, it occurs when two diametrically opposed energies of the same polarity face off—for example, Yang Water violently colliding with Yang Fire. This is not a gentle negotiation; it is a head-on collision at 100 miles per hour.</p>
+
+    <h3>The Cosmic Bulldozer</h3>
+    <p>Human beings are biologically wired to crave comfort and stability. We stay in dead-end jobs because the paycheck is familiar, and we remain in toxic relationships because we fear loneliness. The universe, however, does not care about your comfort; it cares about your evolution. When a major Clash enters your chart via a 10-year Daewoon or a 1-year Sewoon, it acts as a cosmic bulldozer. It forcibly uproots you from environments where you have stopped growing. You may get fired, or a romantic partner may suddenly walk out. In the immediate aftermath, it feels like trauma. But objectively, 90% of clients look back on their "Clash Years" 36 months later and realize it was the greatest turning point of their lives. A Clash forces you to evacuate a burning building you were too stubborn to leave.</p>
+
+    <div class="cta-container" style="text-align: center; margin: 40px 0;">
+    <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">⚡ Check Your Chart for Upcoming Clashes and Punishments →</a>
+    </div>
+
+    <h2 id="heavenly-stem-clash">2. Heavenly Stem Clashes: Ideological and Reputational Warfare</h2>
+    <p>When the collision occurs in the top row of your chart (the Heavenly Stems), we call it a <em>Cheon-gan Chung</em>. The Heavenly Stems represent your mind, your ideals, your visible social reputation, and your official title.</p>
+
+    <h3>The Earthquake of the Mind</h3>
+    <p>Because the Stems govern the intangible, a Heavenly Stem clash primarily manifests as severe psychological and ideological turbulence. Your core value system is thrown into chaos. A lifelong atheist may suddenly experience a profound spiritual awakening; a dedicated corporate lawyer may decide the legal system is corrupt and pivot to nonprofit work. Socially, it often triggers a change in your "label." Your department might be dissolved, changing your job title, or you may face public criticism that forces you to defend your reputation. It is a war of ideas and social standing, rather than physical trauma.</p>
+
+    <h2 id="earthly-branch-clash">3. Earthly Branch Clashes: Physical and Environmental Upheaval</h2>
+    <p>When the collision happens in the bottom row of your chart (the Earthly Branches), the stakes become highly tangible. We call this a <em>Ji-ji Chung</em>. The Earthly Branches dictate the physical reality you walk upon: your home, your physical office, your spouse, and your literal body.</p>
+
+    <h3>Moving, Breaking, and Rebuilding</h3>
+    <p>An Earthly Branch clash almost guarantees physical movement. The specific area of your life that gets hit depends entirely on which of the Four Pillars receives the impact:</p>
+    <ul>
+    <li><strong>Year Pillar Clash:</strong> Forces a break from your ancestral roots. You may emigrate to a foreign country, or experience the passing of a grandparent.</li>
+    <li><strong>Month Pillar Clash:</strong> The most socially disruptive. It indicates a massive upheaval in your professional environment. A forced career pivot, a company bankruptcy, or moving out of your parents' house.</li>
+    <li><strong>Day Pillar Clash:</strong> This strikes your "Marriage Palace." If you are married, this is a year of explosive domestic conflict, potential infidelity, or divorce. If you are single, paradoxically, the kinetic energy of this clash often knocks a new partner directly into your life. It can also indicate physical surgery or accidents.</li>
+    </ul>
+
+    <h2 id="hyeong-sal">4. Hyeong (Punishment): Surgery, Legal Friction, and Raw Power</h2>
+    <p>While a Clash (Chung) is a sudden, one-time explosion, a <strong>Punishment (Hyeong - 刑)</strong> is a prolonged, agonizing friction. It is the energy of grinding, cutting, arresting, and restricting. In ancient times, having a Hyeong in your chart meant you were destined for prison or torture.</p>
+
+    <h3>The Ultimate Hack: Eopsang-Daeche (業上代替)</h3>
+    <p>Modern Saju practitioners view Hyeong entirely differently. Hyeong is the energy of life-and-death power. It is a scalpel. If you hold the scalpel by the blade, your hand will bleed (illness, lawsuits, accidents). The secret is to learn to hold the scalpel by the handle. This is achieved through the Korean metaphysical concept of <em>Eopsang-Daeche</em>, which means "Karmic Professional Substitution."</p>
+    <p>If your chart is heavy with Punishment energy, you must choose a career that wields authority over life, death, or restriction. Elite surgeons, criminal prosecutors, police officers, military generals, and even butchers naturally possess massive Hyeong energy. Because they are legally "cutting" flesh or "locking up" criminals every day at work, they burn through the dangerous karma of the star. Instead of going to jail, they become the judge. This is destiny engineering at its absolute finest.</p>
+
+    <h2 id="conclusion">5. Conclusion: Breaking the Shell to Grow</h2>
+    <p>A seed cannot become a mighty oak tree without violently bursting through its hard outer shell. A diamond cannot achieve its brilliance without being subjected to agonizing friction and being cut by a harder stone. Do not cower in fear when a Saju reader tells you that a Clash or Punishment is arriving in your luck cycle. They are merely informing you that the universe has scheduled a demolition of the obsolete structures in your life. Embrace the friction. Let the dead wood burn, let the stagnant relationships break, and prepare to step into the vast, open space the destruction leaves behind. That empty space is where your true destiny finally begins.</p>
+
+    <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+    <p><a href="/en/saju/health-saju" style="text-decoration: underline; color: #f9d976;">[Related] Health & Constitution in Saju: Predicting Physical Vulnerabilities</a></p>
+    <p><a href="/en/saju/wealth-luck" style="text-decoration: underline; color: #f9d976;">[Related] Wealth Star (Jaeseong): Protecting Your Assets During a Clash</a></p>
+    </div>
+    </section>`,
+    faq: [
+      { q: '내 사주에 충(沖)이 많으면 평생 불행하게 사나요?', a: '절대 아닙니다. 사주에 충이 많을수록 삶의 굴곡이 많은 것은 사실이나, 그만큼 위기를 극복하는 맷집이 강하고 거대한 혁신을 이루어냅니다. 자수성가한 억만장자나 위대한 예술가의 사주에는 맹렬한 충이 흔하게 발견됩니다.' },
+      { q: '올해 일지충(부부궁 충)이 들어오면 무조건 이혼하나요?', a: '아닙니다. 물리적인 환경 변화를 요구하는 운이므로, 이 시기에 주말부부를 하거나, 집안 인테리어를 크게 바꾸거나, 함께 이사를 가는 등 "긍정적인 물리적 변화(액땜)"를 주면 이별의 기운을 무사히 넘길 수 있습니다.' },
+      { q: '형살(刑殺) 대운에는 소송이나 수술을 피할 수 없나요?', a: '형살은 칼이나 법과 관련된 기운입니다. 이를 피하기 위해 미루고 있던 스케일링, 시력 교정, 미용 시술 등 자발적인 병원 치료를 받아 "가벼운 피"를 스스로 흘리거나(물상대체), 기부와 봉사활동을 빡세게 하여 나쁜 기운을 상쇄시킬 수 있습니다.' },
+    ],
+    faqEn: [
+      { q: 'If my birth chart is full of Clashes, am I doomed to a miserable life?', a: 'Absolutely not. While multiple Clashes indicate a turbulent life, they also produce incredibly resilient, dynamic, and revolutionary individuals. Most self-made billionaires and paradigm-shifting artists possess charts filled with violent Clashes. It is the signature of a disruptor.' },
+      { q: 'If my Day Branch (Marriage Palace) clashes this year, is divorce inevitable?', a: 'No. The Clash demands a physical change in your domestic environment. To satisfy this cosmic demand without divorcing, use "Gaewoon" (luck remedies): temporarily live apart for work, completely renovate your house, move to a new city, or simply give each other extreme amounts of personal space until the year passes.' },
+      { q: 'Can I avoid surgeries or lawsuits during a Punishment (Hyeong) cycle?', a: 'The Hyeong cycle demands that blood be drawn or legal boundaries be tested. To trick the universe, masters advise "voluntary submission." Voluntarily schedule a minor surgery, get a tattoo, donate blood, or rigorously review all legal contracts before someone else does. You fulfill the prophecy on your own terms.' },
+    ],
+    relatedPosts: [
+      { slug: 'health-saju', category: 'saju', title: '사주로 보는 건강: 충이 부르는 질병' },
+      { slug: 'wealth-luck', category: 'saju', title: '사주 재물운: 위기를 기회로 바꾸기' },
+    ],
+    },
+    ];
     slug: 'year-pillar',
     title: '년주(年柱) 완전 해설: 나의 뿌리와 조상, 그리고 초년운의 비밀',
     seoTitle: '사주 년주(年柱) 보는 법: 조상운과 나의 뿌리, 초년 환경 분석',
@@ -1600,6 +2032,346 @@ export const sajuPosts: BlogPost[] = [
     relatedPosts: [
       { slug: 'love-marriage', category: 'saju', title: '사주로 보는 연애와 결혼운' },
       { slug: 'major-fortune', category: 'saju', title: '대운(大運) 완전 해설: 10년의 파도' },
+    ],
+  },
+  {
+    slug: 'love-marriage',
+    title: '사주로 보는 연애와 결혼운',
+    seoTitle: '사주 연애운·결혼운 완전 해설 | 재성·관성으로 배우자 찾기',
+    seoTitleEn: 'Love & Marriage in Saju: Find Your Destined Partner',
+    description: '사주팔자로 연애운과 결혼운을 보는 법을 완전 해설합니다. 재성과 관성, 배우자 궁, 결혼 시기까지 전문가가 풀어드립니다.',
+    descriptionEn: 'Discover how Korean Saju astrology reveals your love destiny. Learn how the Wealth Star, Officer Star, and Spouse Palace predict your perfect partner and marriage timing.',
+    keywords: ['사주 연애운', '사주 결혼운', '재성 관성', '배우자 궁', '사주 이성운', '결혼 시기 사주'],
+    keywordsEn: ['saju love reading', 'korean marriage astrology', 'four pillars love compatibility', 'spouse palace saju', 'marriage timing korean astrology', 'korean fortune telling love'],
+    publishedAt: '2026-03-02',
+    category: 'saju',
+    toc: [
+      { id: 'romance-basics', title: '사주에서 연애운을 보는 기초' },
+      { id: 'romance-stars', title: '재성·관성: 이성을 끄는 별' },
+      { id: 'spouse-palace', title: '배우자 궁과 결혼 시기' },
+      { id: 'love-tips', title: '연애·결혼운 개운법' },
+    ],
+    tocEn: [
+      { id: 'romance-basics', title: 'The Fundamentals of Love in Saju' },
+      { id: 'romance-stars', title: 'The Romance Stars: Wealth and Officer' },
+      { id: 'spouse-palace', title: 'The Spouse Palace & Marriage Timing' },
+      { id: 'love-tips', title: 'How to Improve Your Love Destiny' },
+    ],
+    contentKo: `<section>
+<h2 id="romance-basics">사주에서 연애운을 보는 기초</h2>
+<p>사주팔자(四柱八字)에서 연애와 결혼은 단순히 '좋은 인연이 오는가'의 문제가 아닙니다. 타고난 여덟 글자 안에는 내가 어떤 이성에게 끌리는지, 어떤 방식으로 사랑을 주고받는지, 언제 결혼 인연이 찾아오는지가 모두 새겨져 있습니다. 명리학은 이 여덟 글자를 해독해 연애 패턴과 결혼 시기를 읽어냅니다.</p>
+<h3>연애운의 출발점: 일간(日干)</h3>
+<p>사주 분석의 모든 중심은 나를 상징하는 <strong>일간(日干)</strong>에서 시작됩니다. 일간이 무엇이냐에 따라 내가 어떤 유형의 이성에게 매력을 느끼고, 연애에서 어떤 역할을 주로 맡는지가 달라집니다. 甲木(갑목) 일간은 안정적이고 지지해주는 파트너를 원하고, 丙火(병화) 일간은 자신의 열정을 함께 불태울 역동적인 이성을 추구합니다. 壬水(임수) 일간은 지적 교감이 되는 파트너를 선호하는 경향이 뚜렷합니다.</p>
+<h3>음양과 이성의 원리</h3>
+<p>사주에서 이성은 일간의 <strong>음양이 반대인 오행</strong>에서 나타납니다. 양일간(甲·丙·戊·庚·壬)을 가진 사람은 음의 기운을 가진 이성에게 끌리고, 음일간(乙·丁·己·辛·癸)을 가진 사람은 양의 기운을 가진 이성에게 끌립니다. 이 원리를 이해하면 내가 왜 특정 유형의 사람에게 반복적으로 이끌리는지를 훨씬 명확하게 알 수 있습니다.</p>
+<h2 id="romance-stars">재성·관성: 이성을 끄는 별</h2>
+<p>사주에서 이성운의 핵심은 <strong>재성(財星)</strong>과 <strong>관성(官星)</strong>입니다. 남성에게는 재성이 이성(여성)을 상징하고, 여성에게는 관성이 이성(남성)을 상징합니다. 이 두 가지 십성(十星)의 강약과 배치에 따라 연애 스타일과 결혼 인연의 깊이가 결정됩니다.</p>
+<h3>남성의 재성과 연애운</h3>
+<p>남성 사주에서 재성이 뿌리 깊게 자리잡고 있으면 이성에게 자연스럽게 매력을 발산하며 연애 경험이 풍부한 경향이 있습니다. <strong>정재(正財)</strong>가 강한 남성은 한 사람에게 충실하고 안정적인 연애를 추구하며, <strong>편재(偏財)</strong>가 강한 남성은 자유롭고 다양한 연애를 즐기는 경향이 있습니다. 재성이 너무 많으면 이성 관계에서 갈등이 생길 수 있고, 재성이 전혀 없으면 이성 인연이 늦게 찾아오거나 소극적인 연애 패턴을 보입니다.</p>
+<h3>여성의 관성과 연애운</h3>
+<p>여성 사주에서는 관성이 남성(이성)을 상징합니다. <strong>정관(正官)</strong>이 강한 여성은 책임감 있고 사회적으로 안정된 파트너를 원하며, <strong>편관(偏官)</strong>이 강한 여성은 카리스마 있고 강렬한 남성에게 끌리는 경향이 있습니다. 여성 사주에서 관성이 일지(日支, 배우자 궁)에 자리하면 결혼운이 매우 강하다고 해석합니다.</p>
+<h3>도화살(桃花殺)의 역할</h3>
+<p>도화살은 흔히 '꽃살' 또는 '매력의 별'이라 불리며, 이성에게 강한 매력을 발산하는 신살입니다. 도화살이 강한 사주는 자연스럽게 이성의 시선을 끌고 연애 기회가 많습니다. 단, 도화살이 충(冲)이나 형(刑)을 받으면 매력은 있지만 인연이 오래 지속되지 않는 문제가 생길 수 있습니다.</p>
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 내 사주로 연애·결혼운 무료 분석 받기 →</a>
+</div>
+<h2 id="spouse-palace">배우자 궁과 결혼 시기</h2>
+<p>사주에서 <strong>배우자 궁(配偶者 宮)</strong>은 일지(日支)를 말합니다. 내 사주의 네 기둥 중 일간 바로 아래에 있는 이 자리는 배우자의 성격과 현재 결혼 생활의 질을 보여주는 가장 중요한 자리입니다.</p>
+<h3>일지로 보는 배우자 성격</h3>
+<p>일지에 子水(자수)나 亥水(해수)가 있으면 배우자가 지적이고 차분한 성향일 가능성이 높고, 午火(오화)나 寅木(인목)이 있으면 활발하고 카리스마 넘치는 배우자와 인연이 될 확률이 높다고 해석합니다. 일지에 형충파해(刑冲破害)가 심하게 걸려 있으면 부부 사이에 갈등이 잦거나 결혼 생활이 불안정할 수 있으므로 개운이 필요합니다.</p>
+<h3>결혼 시기: 대운과 세운의 교차점</h3>
+<p>결혼 시기는 사주 원국의 구조와 함께 <strong>대운(大運)</strong>과 <strong>세운(歲運)</strong>의 흐름을 동시에 봐야 합니다. 재성운(남성) 또는 관성운(여성)의 대운이나 세운이 들어오는 시점에 결혼 인연이 강하게 찾아옵니다. 특히 대운과 세운이 같은 방향의 이성 별로 겹칠 때를 '결혼의 절호기'라고 부릅니다. 역마살(驛馬殺)이나 공망(空亡)이 배우자 궁을 치는 해에는 결혼을 서두르지 않는 것이 좋습니다.</p>
+<h3>합(合)이 가져오는 인연</h3>
+<p>사주에서 합(合)은 두 오행이 서로 끌어당기는 현상입니다. 대운이나 세운에서 내 일지 또는 이성 별과 합이 이루어지는 시점에는 강한 인연의 기운이 흐릅니다. 예를 들어 일지가 午火인 사람에게 未土 대운이나 세운이 들어오면 午未합이 이루어져 결혼 인연이 강하게 움직이는 시기가 됩니다.</p>
+<h2 id="love-tips">연애·결혼운 개운법</h2>
+<p>사주가 타고난 틀이라면, 개운(開運)은 그 틀 안에서 최선의 흐름을 만들어내는 기술입니다. 연애·결혼운을 높이는 구체적인 방법을 소개합니다.</p>
+<h3>용신 방위와 색상 활용</h3>
+<p>내 사주의 용신(用神, 가장 필요한 오행)에 해당하는 방위와 색상을 일상에 활용하는 것이 기본적인 개운법입니다. 용신이 水(수)라면 북쪽 방향의 모임에 적극적으로 참여하거나 검정·파랑 계열의 옷을 즐겨 입는 것이 이성 인연을 끌어당기는 데 도움이 됩니다.</p>
+<h3>결혼 시기 선택의 지혜</h3>
+<p>좋은 사주도 잘못된 시기에 결혼하면 어려움이 생길 수 있습니다. 반드시 피해야 할 결혼 시기는 배우자 궁이 공망(空亡)에 들어가는 해, 이성 별이 충(冲)을 받는 해, 삼재(三災) 기간입니다. 반대로 재성운·관성운이 강하게 들어오고 길신(吉神)이 배우자 궁을 생(生)해주는 해는 결혼의 최적기입니다.</p>
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/saju/wealth-luck" style="text-decoration: underline; color: #f9d976;">[관련] 사주 재물운: 재성(財星)으로 돈복 읽기</a></p>
+  <p><a href="/saju/destiny-change" style="text-decoration: underline; color: #f9d976;">[관련] 개운(改運)의 철학: 내 운명을 바꿀 수 있는가</a></p>
+</div>
+</section>`,
+    contentEn: `<section>
+<h2 id="romance-basics">The Fundamentals of Love in Saju</h2>
+<p>In Korean fortune telling, love and marriage are not left to chance — they are inscribed in the eight characters of your birth chart. Saju-Palja (Four Pillars of Destiny) reveals not only who your destined partner is, but also how you love, when marriage will arrive, and whether your union will be harmonious or turbulent. For anyone exploring Korean astrology, understanding love through Saju opens an entirely new dimension of self-awareness.</p>
+<h3>Everything Begins with the Day Stem</h3>
+<p>In any Saju love reading, analysis begins with the <strong>Day Stem (Ilgan)</strong> — the character representing your core self. Your Day Stem determines which romantic partner type you instinctively pursue and how you express affection. A Gapwood (甲) Day Stem craves a stable, supportive partner. A Byeong-fire (丙) person desires a passionate companion who matches their energy. This is the foundation of all four pillars of destiny love analysis.</p>
+<h3>The Yin-Yang Law of Attraction</h3>
+<p>Korean astrology operates on the principle that opposites attract. A Yang Day Stem person (甲·丙·戊·庚·壬) is naturally drawn to a partner with Yin energy, and vice versa. This explains why many people are repeatedly attracted to the same personality type across multiple relationships — your Saju birth chart encodes this gravitational pull from birth.</p>
+<h2 id="romance-stars">The Romance Stars: Wealth and Officer</h2>
+<p>The two most critical elements in a Saju love reading are the <strong>Wealth Star (Jaeseong, 財星)</strong> and the <strong>Officer Star (Gwanseong, 官星)</strong>. In Korean four pillars of destiny analysis, the Wealth Star represents romantic partners in a man's chart, while the Officer Star represents partners in a woman's chart.</p>
+<h3>For Men: Reading the Wealth Star</h3>
+<p>A man with a deeply rooted Wealth Star naturally radiates romantic magnetism. The <strong>Direct Wealth Star (Jeongjae)</strong> indicates loyalty and preference for committed relationships. The <strong>Indirect Wealth Star (Pyeonjae)</strong> suggests a free-spirited approach to romance. When the Wealth Star is excessive in Korean birth chart reading, relationship conflicts multiply. When completely absent, romantic opportunities arrive late.</p>
+<h3>For Women: Reading the Officer Star</h3>
+<p>In a woman's Saju chart, the Officer Star defines her ideal romantic partner. The <strong>Direct Officer Star (Jeonggwan)</strong> indicates desire for a responsible, socially established man. The <strong>Indirect Officer Star (Pyeongwan)</strong> signals attraction to charismatic, intense men. When the Officer Star sits in the Day Branch — the Spouse Palace — it is one of the strongest indicators of powerful marriage destiny in Korean astrology.</p>
+<h3>The Peach Blossom Star: Natural Magnetism</h3>
+<p>The <strong>Dohwa (桃花)</strong>, or Peach Blossom Star, is the charm indicator in Korean fortune telling. Those born with strong Dohwa energy effortlessly attract romantic attention. However, if Dohwa suffers a Clash (冲) or Punishment (刑), the magnetism creates opportunities that fail to stabilize into lasting bonds.</p>
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 Get Your Free Saju Love Reading →</a>
+</div>
+<h2 id="spouse-palace">The Spouse Palace & Marriage Timing</h2>
+<p>In Korean birth chart reading, the <strong>Spouse Palace (배우자 궁)</strong> is the Day Branch — the character directly beneath your Day Stem. This single position in your four pillars reveals the personality of your future spouse and the quality of your marriage more accurately than any other element in the chart.</p>
+<h3>Reading Your Spouse's Personality</h3>
+<p>A Day Branch of Ja-water (子) or Hae-water (亥) suggests an intellectual, calm partner. A Day Branch of Oh-fire (午) or In-wood (寅) indicates a vibrant, charismatic spouse. When the Spouse Palace suffers repeated Clashes or Punishments from other pillars, marital conflict becomes a recurring theme that must be consciously managed through Gaewoon (destiny improvement) practices.</p>
+<h3>Marriage Timing: When the Stars Align</h3>
+<p>Pinpointing marriage timing in Korean astrology requires reading the <strong>Major Fortune Cycle (Daewoon)</strong> and the <strong>Annual Fortune (Sewoon)</strong> simultaneously. The optimal marriage window opens when the Wealth Star (for men) or Officer Star (for women) activates in both cycles simultaneously. Korean Saju masters call this double activation "the supreme marriage window." Years when Void Luck (Gongmang) strikes the Spouse Palace are considered poor timing for marriage decisions.</p>
+<h3>The Power of Harmonious Combinations</h3>
+<p>In Korean four pillars analysis, a Combination (합, Hap) occurs when two branches magnetically attract each other. When a fortune cycle creates a Combination with your Day Branch or romance star, a powerful window of romantic destiny opens — often when unexpected encounters become life-changing relationships.</p>
+<h2 id="love-tips">How to Improve Your Love Destiny</h2>
+<p>If your Saju reveals challenging love patterns, Korean astrology offers practical <strong>Gaewoon (開運)</strong> — destiny improvement strategies. Saju is not a sentence; it is a strategic map for navigating your relational life.</p>
+<h3>Activate Your Lucky Direction and Color</h3>
+<p>Your <strong>Yongshin (用神)</strong> — the most needed element in your chart — corresponds to specific directions and colors. If your Yongshin is Water, attending social events in the northern area of your city and wearing deep blue or black is believed to amplify romantic magnetism in Korean astrology practice.</p>
+<h3>Choosing the Right Year to Marry</h3>
+<p>Even a strong love destiny can be disrupted by poor timing. In Korean fortune telling, years to avoid for marriage include when Gongmang strikes the Spouse Palace, when romance stars suffer direct Clashes, and the three-year Samjae cycle. The ideal marriage year combines an active romance star with an auspicious Deity blessing the Spouse Palace simultaneously.</p>
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/saju/wealth-luck" style="text-decoration: underline; color: #f9d976;">[Related] Wealth Star in Saju: Money Fortune in Korean Astrology</a></p>
+  <p><a href="/en/saju/destiny-change" style="text-decoration: underline; color: #f9d976;">[Related] Can You Change Your Destiny? The Philosophy of Gaewoon</a></p>
+</div>
+</section>`,
+    faq: [
+      { q: '사주에서 결혼 시기를 정확히 알 수 있나요?', a: '정확한 연도를 특정하기는 어렵지만, 재성·관성이 강하게 들어오는 대운과 세운이 겹치는 시기를 결혼의 절호기로 봅니다. 전문가와 상담하면 2~3년 범위로 좁힐 수 있습니다.' },
+      { q: '재성이 없는 남성은 결혼하기 어렵나요?', a: '재성이 없어도 대운에서 재성이 들어오는 시기에 강한 인연이 찾아옵니다. 오히려 재성이 없는 남성은 결혼 후 더 헌신적이고 안정적인 가정을 꾸리는 경우도 많습니다.' },
+      { q: '도화살이 있으면 바람기가 있나요?', a: '도화살은 바람기의 별이 아니라 매력의 별입니다. 충·형을 받지 않는 건강한 도화살은 이성에게 자연스럽게 호감을 주는 긍정적인 작용을 합니다.' },
+    ],
+    faqEn: [
+      { q: 'Can Saju predict the exact year I will get married?', a: 'While pinpointing a single year is difficult, Saju experts typically narrow the marriage window to a 2-3 year range by identifying when the Wealth or Officer Star activates in both the Major Fortune Cycle and Annual Fortune simultaneously.' },
+      { q: 'Does having no Wealth Star mean a man cannot find love?', a: 'Not at all. When the Major Fortune Cycle delivers Wealth Star energy, powerful romantic connections arrive. Men with no natal Wealth Star often become exceptionally devoted and stable partners once married.' },
+      { q: 'Does the Peach Blossom Star (Dohwa) mean someone is unfaithful?', a: 'No. The Dohwa is a charm star, not an infidelity indicator. A healthy, unafflicted Dohwa simply means you radiate natural magnetism that draws romantic interest without conscious effort.' },
+    ],
+    relatedPosts: [
+      { slug: 'wealth-luck', category: 'saju', title: '사주 재물운: 재성(財星)으로 돈복 읽기' },
+      { slug: 'destiny-change', category: 'saju', title: '개운(改運)의 철학: 내 운명을 바꿀 수 있는가' },
+    ],
+  },
+  {
+    slug: 'wealth-luck',
+    title: '사주로 보는 재물운: 재성(財星) 완전 해설',
+    seoTitle: '사주 재물운 완전 해설 | 재성으로 돈복·부자 사주 읽기',
+    seoTitleEn: 'Wealth Star in Saju: Money Fortune in Korean Astrology',
+    description: '사주팔자에서 재물운을 보는 법을 완전 해설합니다. 재성(財星)의 의미, 부자 사주의 특징, 재물 개운법까지 전문가가 알려드립니다.',
+    descriptionEn: 'Learn how Korean Saju astrology reveals your money destiny. Discover what the Wealth Star (Jaeseong) means, what makes a wealthy birth chart, and how to improve your financial fortune.',
+    keywords: ['사주 재물운', '부자 사주', '재성 사주', '사주 돈복', '재물운 개운', '사주 재물 분석'],
+    keywordsEn: ['saju wealth reading', 'korean money astrology', 'wealth star four pillars', 'rich saju chart', 'financial fortune korean astrology', 'korean fortune telling money'],
+    publishedAt: '2026-03-02',
+    category: 'saju',
+    toc: [
+      { id: 'what-is-wealth-star', title: '재성(財星)이란 무엇인가' },
+      { id: 'wealthy-chart', title: '재물운이 강한 사주의 특징' },
+      { id: 'wealth-timing', title: '재물 흐름의 시기: 대운과 세운' },
+      { id: 'wealth-tips', title: '재물운 개운법' },
+    ],
+    tocEn: [
+      { id: 'what-is-wealth-star', title: 'What Is the Wealth Star (Jaeseong)?' },
+      { id: 'wealthy-chart', title: 'Characteristics of a Wealthy Saju Chart' },
+      { id: 'wealth-timing', title: 'Wealth Timing: Fortune Cycles & Annual Luck' },
+      { id: 'wealth-tips', title: 'How to Improve Your Financial Destiny' },
+    ],
+    contentKo: `<section>
+<h2 id="what-is-wealth-star">재성(財星)이란 무엇인가</h2>
+<p>사주팔자(四柱八字)에서 재물운의 핵심은 <strong>재성(財星)</strong>입니다. 재성은 십성(十星) 중 내가 극(克)하는 오행, 즉 내가 통제하고 다룰 수 있는 에너지를 의미합니다. 단순히 돈만을 뜻하는 것이 아니라, 재물·부동산·사업 이익·유형 자산 전반을 상징합니다. 명리학에서는 재성을 두 가지로 나눕니다.</p>
+<h3>정재(正財)와 편재(偏財)의 차이</h3>
+<p><strong>정재(正財)</strong>는 음양이 다른 재성으로, 월급·부동산 임대료처럼 꾸준하고 안정적인 수입을 상징합니다. 정재가 강한 사주는 절약하고 착실하게 자산을 축적하는 능력이 탁월합니다. 반면 <strong>편재(偏財)</strong>는 음양이 같은 재성으로, 사업·투자·무역처럼 큰 돈이 한꺼번에 들어오고 나가는 역동적인 재물을 상징합니다. 편재가 강한 사주는 사업적 감각이 뛰어나고 큰 그림을 그리는 데 능하지만, 씀씀이도 크고 재물이 머물지 않는 특성도 있습니다.</p>
+<h3>재성이 없는 사주</h3>
+<p>재성이 전혀 없는 사주를 '무재(無財) 사주'라고 합니다. 이를 단순히 가난한 사주라고 오해하는 경우가 많지만, 실제로는 재물에 집착하지 않고 자신의 능력(비겁·식상)으로 돈을 버는 유형입니다. 무재 사주라도 대운에서 재성이 들어오는 시기에는 강한 재물운이 따릅니다.</p>
+<h2 id="wealthy-chart">재물운이 강한 사주의 특징</h2>
+<p>명리학에서 흔히 '부자 사주'라고 부르는 차트들은 공통된 구조적 특징을 지닙니다. 단순히 재성이 많다고 부자가 되는 것이 아니라, 재성을 감당하고 지킬 수 있는 <strong>일간의 힘(신강/신약 구분)</strong>과 재성을 보호하는 <strong>구조</strong>가 핵심입니다.</p>
+<h3>신강한 일간 + 재성의 조화</h3>
+<p>일간이 강한(신강) 사주에서 재성이 뿌리를 가지고 자리잡고 있으면 재물을 주도적으로 다루는 능력이 탁월합니다. 비유하자면 튼튼한 그릇(강한 일간)에 물(재성)이 가득 담긴 형국입니다. 반대로 일간이 약한(신약) 사주에서 재성이 과도하게 많으면 재물이 오히려 짐이 되어 건강·관계·스트레스 문제로 이어지는 경우가 많습니다.</p>
+<h3>식신생재(食神生財) 구조</h3>
+<p>명리학에서 가장 이상적인 재물 구조 중 하나가 <strong>식신생재(食神生財)</strong>입니다. 식신(食神)이 재성을 생(生)해주는 구조로, 자신의 재능과 노력(식신)이 자연스럽게 재물(재성)을 만들어내는 흐름입니다. 이 구조를 가진 사주는 자신이 좋아하는 일을 하면서 돈도 잘 버는 이상적인 재물 패턴을 보입니다. 역대 성공한 예술가, 작가, 요리사, 크리에이터 중 이 구조를 가진 경우가 많습니다.</p>
+<h3>인수용재 구조와 주의점</h3>
+<p>인수(印綬)가 강하고 일간이 왕성한 사주에서 재성을 용신으로 쓰는 경우도 강한 재물운을 나타냅니다. 단, 재성을 충(冲)하거나 극(克)하는 오행이 대운이나 세운에서 들어올 때 재물 손실이 발생하므로 주의가 필요합니다.</p>
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 내 사주 재물운 무료 분석 받기 →</a>
+</div>
+<h2 id="wealth-timing">재물 흐름의 시기: 대운과 세운</h2>
+<p>재물운은 사주 원국의 구조만이 아니라 <strong>대운(大運)</strong>과 <strong>세운(歲運)</strong>의 흐름에 따라 크게 달라집니다. 타고난 재성이 약해도 재성 대운이 들어오면 강한 재물의 기회가 찾아오고, 반대로 타고난 재성이 강해도 재성을 극하는 대운이 들어오면 재물 손실이 발생합니다.</p>
+<h3>재물운이 강해지는 시기</h3>
+<p>다음과 같은 조건이 겹칠 때 재물운이 극대화됩니다: ① 재성 또는 식신·상관 대운이 들어오는 시기, ② 재성 세운(년운)이 함께 들어올 때, ③ 재성이 일간이나 월간과 합(合)을 이루는 해. 이 세 가지가 겹치는 시기는 사업 확장, 투자, 이직 등 중요한 결정을 내리기에 최적의 시기입니다.</p>
+<h3>재물 손실 위험이 높은 시기</h3>
+<p>반대로 다음 시기에는 재물 관리를 보수적으로 해야 합니다: ① 재성을 극하는 비겁(比劫) 대운이나 세운, ② 재성이 공망(空亡)에 들어가는 해, ③ 재성이 충(冲)을 받는 해. 이 시기에 무리한 투자나 사업 확장은 큰 손실로 이어질 수 있으므로 현금 유동성을 확보하고 안전 자산 위주로 운용하는 것이 현명합니다.</p>
+<h2 id="wealth-tips">재물운 개운법</h2>
+<p>사주 재물운이 약하거나 현재 재물 흐름이 좋지 않다면, 명리학적 개운(開運)을 통해 상황을 개선할 수 있습니다.</p>
+<h3>용신 오행 강화</h3>
+<p>재물운 개운의 첫 번째 원칙은 용신(用神) 강화입니다. 용신이 木(목)이라면 동쪽 방위를 활용하고, 초록색 계열을 생활에 도입하며, 나무를 가꾸거나 식물을 키우는 활동이 도움이 됩니다. 용신이 火(화)라면 남쪽, 붉은색, 밝은 조명 환경이 재물 기운을 활성화합니다.</p>
+<h3>재물운에 좋은 성명학 적용</h3>
+<p>성명학(姓名學)에서는 이름의 획수 합계가 재물과 관련된 길수(吉數)에 해당하면 재물운이 강화된다고 봅니다. 획수 합이 81수리 기준으로 15·16·23·24·29·31·32수에 해당하면 재물운이 강하게 작용합니다. 사업자 상호나 브랜드명에 이 원리를 적용하는 것도 효과적입니다.</p>
+<h3>재물 손실 방어 전략</h3>
+<p>재물 손실이 예상되는 대운·세운에는 방어적 전략이 최선입니다. 현금을 묶인 자산(부동산, 연금, 정기예금)으로 전환해두면 비겁운(比劫運)에서 사람을 통한 재물 손실을 최소화할 수 있습니다. 명리학은 운명을 바꾸는 것이 아니라 운명을 알고 최선의 선택을 하는 지혜입니다.</p>
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/saju/career-star" style="text-decoration: underline; color: #f9d976;">[관련] 관성(官星)으로 보는 직업운: 나에게 맞는 직업 찾기</a></p>
+  <p><a href="/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[관련] 용신(用神) 완전 해설: 내 사주의 핵심 기운 찾기</a></p>
+</div>
+</section>`,
+    contentEn: `<section>
+<h2 id="what-is-wealth-star">What Is the Wealth Star (Jaeseong)?</h2>
+<p>In Korean fortune telling, the <strong>Wealth Star (Jaeseong, 財星)</strong> is the central indicator of financial destiny within your Saju birth chart. Unlike Western astrology's generalized prosperity signs, the Wealth Star in Korean four pillars of destiny analysis is a precisely defined structural element — specifically, the Five Element that your Day Stem controls and overcomes. It represents not just cash, but all tangible assets: real estate, business profits, and material wealth in its broadest sense.</p>
+<h3>Direct Wealth vs. Indirect Wealth</h3>
+<p>Korean astrology distinguishes two types of Wealth Stars. The <strong>Direct Wealth Star (Jeongjae, 正財)</strong> represents stable, predictable income — salaries, rental income, and methodical savings. People with strong Jeongjae are disciplined wealth builders who accumulate assets steadily. The <strong>Indirect Wealth Star (Pyeonjae, 偏財)</strong> represents dynamic, large-scale wealth — business revenue, investment returns, and trading profits. Strong Pyeonjae people have exceptional entrepreneurial instincts but also tend to spend lavishly, meaning wealth flows in and out rapidly.</p>
+<h3>Charts with No Wealth Star</h3>
+<p>A Saju chart with no Wealth Star is called a "Mujae (無財) chart." This does not mean poverty — it means the person generates income through their own capabilities and talents rather than through wealth accumulation instincts. Even Mujae charts experience powerful financial opportunity windows when Wealth Star energy enters through the Major Fortune Cycle in Korean birth chart reading.</p>
+<h2 id="wealthy-chart">Characteristics of a Wealthy Saju Chart</h2>
+<p>What Korean astrology masters call a "wealthy chart" shares consistent structural traits. Having many Wealth Stars alone does not create wealth — it is the <strong>Day Stem's strength</strong> and the chart's structural harmony that determine whether financial abundance flows or overwhelms.</p>
+<h3>Strong Day Stem + Well-Rooted Wealth Star</h3>
+<p>When a robust Day Stem (Singang — a chart where the self is strong) pairs with a deeply rooted Wealth Star, the individual possesses exceptional capacity to acquire and manage money. This is analogous to a large, sturdy vessel holding vast amounts of water without spilling. Conversely, a weak Day Stem overwhelmed by excessive Wealth Stars often experiences money as a burden, leading to health collapse and relationship stress from responsibilities the self cannot carry.</p>
+<h3>The Food God Generates Wealth Structure</h3>
+<p>One of the most admired wealth configurations in Korean four pillars of destiny is <strong>Siksinjingae (食神生財)</strong> — where the Food God Star (Sikshin) naturally generates the Wealth Star. This represents talent and creative effort producing financial reward organically. Many successful artists, writers, chefs, and content creators throughout Korean history have carried this configuration, earning money by doing what they love.</p>
+<h3>The Balanced Wealth Structure</h3>
+<p>A well-balanced Saju chart is one where the Wealth Star is present but not overwhelming, where it has roots in the Branch pillars, and where no destructive Clash or Punishment disrupts it. This structural stability in Korean astrology is the hallmark of consistent, long-term financial fortune rather than volatile boom-and-bust cycles.</p>
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 Get Your Free Saju Wealth Reading →</a>
+</div>
+<h2 id="wealth-timing">Wealth Timing: Fortune Cycles & Annual Luck</h2>
+<p>Financial fortune in Korean astrology is never static. Your natal Wealth Star provides the blueprint, but the <strong>Major Fortune Cycle (Daewoon)</strong> and <strong>Annual Fortune (Sewoon)</strong> determine when that blueprint activates into real-world opportunity or loss.</p>
+<h3>When Wealth Fortune Peaks</h3>
+<p>In Korean birth chart reading, financial fortune peaks when these conditions align: ① A Wealth Star or Expression Star decade cycle is running; ② The Annual Fortune also delivers Wealth Star energy; ③ The Wealth Star forms a harmonious Combination (합) with your Day Stem or Month Stem. When all three converge, it marks the optimal window for business expansion, major investments, and career advancement in Korean four pillars of destiny practice.</p>
+<h3>When to Be Financially Conservative</h3>
+<p>Korean fortune telling identifies specific danger periods for wealth: ① When a Sibling/Rob Wealth decade cycle (Bigeop) enters — indicating others will take from your resources; ② Years when the Wealth Star falls into Void Luck (Gongmang); ③ Years when the Wealth Star suffers a direct Clash. During these windows, converting liquid cash into illiquid assets such as real estate or fixed deposits is a classic Gaewoon strategy to protect accumulated wealth.</p>
+<h2 id="wealth-tips">How to Improve Your Financial Destiny</h2>
+<p>Even a challenging wealth chart can be strategically managed. Korean astrology's <strong>Gaewoon (開運)</strong> practice offers concrete tools for financial improvement.</p>
+<h3>Strengthen Your Yongshin Element</h3>
+<p>Your <strong>Yongshin (用神)</strong> — the most needed element in your chart — is the master key to all Gaewoon including financial improvement. If your Yongshin is Wood, positioning yourself in the eastern sector of your city, incorporating green into your workspace, and working in growth-oriented industries strengthens your financial life force in Korean astrology practice.</p>
+<h3>Business Name Numerology</h3>
+<p>Korean Seongmyeonghak (name numerology) teaches that a business name whose stroke count total aligns with auspicious wealth numbers — 15, 16, 23, 24, 29, 31, or 32 in the 81-number system — magnifies financial fortune for the enterprise. This principle is widely applied by Korean entrepreneurs when naming companies and brands.</p>
+<h3>The Strategic Defense of Wealth</h3>
+<p>When a destructive financial cycle is predicted, the wisest move is defense over offense. Moving liquid assets into bonds, real estate trusts, or long-term deposits during Bigeop years makes wealth inaccessible to the energy patterns — whether manifesting as bad investments, theft, or partnership betrayals — that the cycle tends to attract in Korean fortune telling interpretation.</p>
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/saju/career-star" style="text-decoration: underline; color: #f9d976;">[Related] Career Star in Saju: Finding Your Ideal Job via Korean Astrology</a></p>
+  <p><a href="/en/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[Related] Finding Your Lucky Element (Yongshin) in Korean Astrology</a></p>
+</div>
+</section>`,
+    faq: [
+      { q: '재성이 많으면 무조건 부자가 되나요?', a: '아닙니다. 재성이 많아도 일간이 약하면 재물을 감당하지 못해 오히려 건강과 관계가 무너지는 경우가 많습니다. 재물운은 재성의 양보다 일간과 재성의 균형이 핵심입니다.' },
+      { q: '편재와 정재 중 어느 쪽이 더 좋나요?', a: '우열이 없습니다. 정재는 안정적인 자산 축적에, 편재는 사업과 투자에 유리합니다. 자신의 성향과 직업에 맞는 재성이 용신으로 작용할 때 가장 좋은 재물운이 펼쳐집니다.' },
+      { q: '재물운이 나쁜 시기에 투자하면 무조건 손실이 나나요?', a: '반드시 그렇지는 않지만, 위험도가 높아집니다. 재물 손실이 예상되는 대운·세운에는 공격적 투자보다 자산 방어와 현금 유동성 확보를 우선하는 전략이 현명합니다.' },
+    ],
+    faqEn: [
+      { q: 'Does having many Wealth Stars in Saju guarantee becoming rich?', a: 'Not necessarily. A chart with excessive Wealth Stars but a weak Day Stem often collapses under the weight of responsibility. Balance between the Day Stem and Wealth Star is the true key in Korean four pillars of destiny analysis.' },
+      { q: 'Which is better: Direct Wealth Star or Indirect Wealth Star?', a: 'Neither is superior. Jeongjae (Direct Wealth) favors steady asset accumulation and salaried careers. Pyeonjae (Indirect Wealth) favors entrepreneurship and investment. The best outcome occurs when whichever type you have aligns with your Yongshin.' },
+      { q: 'Does a bad wealth cycle in Saju guarantee financial loss?', a: 'Not guaranteed, but risk is elevated. During Bigeop or Clash-heavy years, converting liquid assets to fixed holdings and avoiding high-risk ventures dramatically reduces exposure in Korean fortune telling analysis.' },
+    ],
+    relatedPosts: [
+      { slug: 'career-star', category: 'saju', title: '관성(官星)으로 보는 직업운' },
+      { slug: 'lucky-element', category: 'saju', title: '용신(用神): 내 사주의 핵심 기운' },
+    ],
+  },
+  {
+    slug: 'health-saju',
+    title: '사주로 보는 건강과 체질: 오행 건강 분석',
+    seoTitle: '사주 건강 분석 | 오행으로 보는 체질과 건강 위험 시기',
+    seoTitleEn: 'Health & Constitution in Saju: Korean Astrology Body Analysis',
+    description: '사주팔자로 건강과 체질을 분석하는 방법을 완전 해설합니다. 오행과 신체 부위의 관계, 건강 위험 시기, 체질별 개운법을 전문가가 알려드립니다.',
+    descriptionEn: 'Discover how Korean Saju astrology reveals your body constitution and health vulnerabilities. Learn the Five Elements body map, when health risks peak, and how to protect your wellbeing through Korean fortune telling.',
+    keywords: ['사주 건강', '사주 체질', '오행 건강', '사주 질병', '체질 분석 사주', '사주 건강운'],
+    keywordsEn: ['saju health reading', 'korean astrology body constitution', 'five elements health', 'four pillars health analysis', 'korean fortune telling health', 'saju body type'],
+    publishedAt: '2026-03-02',
+    category: 'saju',
+    toc: [
+      { id: 'five-elements-body', title: '오행(五行)과 인체: 신체 부위 지도' },
+      { id: 'constitution-type', title: '일간으로 보는 체질 유형' },
+      { id: 'health-risk-timing', title: '건강 위험 시기 파악법' },
+      { id: 'health-tips', title: '체질별 건강 개운법' },
+    ],
+    tocEn: [
+      { id: 'five-elements-body', title: 'The Five Elements Body Map' },
+      { id: 'constitution-type', title: 'Body Constitution by Day Stem' },
+      { id: 'health-risk-timing', title: 'Identifying Health Risk Periods' },
+      { id: 'health-tips', title: 'Health Improvement by Constitution Type' },
+    ],
+    contentKo: `<section>
+<h2 id="five-elements-body">오행(五行)과 인체: 신체 부위 지도</h2>
+<p>사주팔자(四柱八字)는 단순한 운세 도구가 아닙니다. 동양 의학과 명리학의 교차점에서 오행(五行)은 인체의 각 기관과 신체 부위에 직접 대응됩니다. 내 사주에서 어떤 오행이 과다하거나 부족한지를 파악하면, 내가 평생 취약하게 가져갈 신체 부위와 주의해야 할 질병 패턴을 미리 알 수 있습니다.</p>
+<h3>오행별 신체 부위 대응</h3>
+<p><strong>木(목) — 간·담·눈·근육·신경계:</strong> 木 기운이 과다하거나 충(冲)을 받으면 간 기능 저하, 눈 피로, 근육통, 신경 과민이 나타나기 쉽습니다. 木이 부족하면 근력 저하, 집중력 감소, 혈액 순환 문제가 동반될 수 있습니다.</p>
+<p><strong>火(화) — 심장·소장·혈관·정신:</strong> 火 기운이 과다하면 심계항진, 불안, 불면증, 고혈압 위험이 높아집니다. 부족하면 순환계 기능 저하, 우울감, 손발 냉증이 자주 나타납니다.</p>
+<p><strong>土(토) — 비장·위장·췌장·피부:</strong> 土 기운이 과다하면 소화 장애, 비만, 당뇨 위험이 증가합니다. 부족하면 위장이 예민해지고 면역력 저하, 알레르기 체질로 나타납니다.</p>
+<p><strong>金(금) — 폐·대장·코·피부·뼈:</strong> 金 기운이 과다하거나 충을 받으면 호흡기 질환, 대장 문제, 피부 트러블이 잦습니다. 부족하면 폐 기능이 약해져 감기·기관지염에 취약한 체질이 됩니다.</p>
+<p><strong>水(수) — 신장·방광·귀·생식기·뼈:</strong> 水 기운이 과다하면 신장 부담, 부종, 냉증이 나타납니다. 부족하면 신장 기능 저하, 탈모, 뼈 관절 문제가 따르기 쉽습니다.</p>
+<h2 id="constitution-type">일간으로 보는 체질 유형</h2>
+<p>사주에서 나를 상징하는 <strong>일간(日干)</strong>은 단순히 성격만 결정하는 것이 아닙니다. 일간의 오행이 무엇이냐에 따라 기본 체질, 에너지 소비 패턴, 취약한 신체 기관이 달라집니다.</p>
+<h3>木 일간 (甲·乙): 신경성·근골격형 체질</h3>
+<p>甲木·乙木 일간은 에너지 넘치고 활동적이지만, 스트레스가 쌓이면 가장 먼저 간과 신경계에 부담이 옵니다. 과로와 음주에 취약하며, 눈 피로와 어깨 근육 긴장이 만성화되기 쉽습니다. 규칙적인 수면과 간 해독 관리가 평생 건강의 핵심입니다.</p>
+<h3>火 일간 (丙·丁): 순환기·정신형 체질</h3>
+<p>丙火·丁火 일간은 정열적이고 빠른 사고가 특징이지만, 심장과 혈관 계통에 주의가 필요합니다. 감정 기복이 심하면 심계항진, 불면증, 혈압 문제로 이어질 수 있습니다. 명상과 규칙적인 유산소 운동이 이 체질에 가장 효과적인 건강 관리법입니다.</p>
+<h3>土 일간 (戊·己): 소화기·면역형 체질</h3>
+<p>戊土·己土 일간은 안정적이고 꾸준한 체력을 가지고 있지만, 위장과 췌장 기능이 예민한 편입니다. 스트레스를 받으면 가장 먼저 소화 기능이 무너지는 패턴을 보입니다. 식이 조절과 규칙적인 식사 시간 관리가 이 체질의 건강 핵심입니다.</p>
+<h3>金·水 일간 체질</h3>
+<p>庚金·辛金 일간은 폐와 대장, 피부 계통이 취약합니다. 건조한 환경이나 미세먼지에 민감하며 스트레스가 피부 트러블로 나타나는 경우가 많습니다. 壬水·癸水 일간은 신장과 생식기 계통, 뼈와 관절이 취약하며 냉기에 노출되면 쉽게 체력이 떨어집니다. 보온과 충분한 수면이 이 체질의 최우선 건강 수칙입니다.</p>
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 내 사주 체질·건강운 무료 분석 받기 →</a>
+</div>
+<h2 id="health-risk-timing">건강 위험 시기 파악법</h2>
+<p>사주 건강 분석에서 가장 실용적인 부분은 <strong>건강 위험 시기</strong>를 미리 파악하는 것입니다. 타고난 체질의 약점이 대운이나 세운의 흐름과 맞물릴 때 질병이 발현됩니다.</p>
+<h3>충(冲)이 가져오는 건강 위기</h3>
+<p>사주에서 충(冲)은 두 오행이 정면으로 충돌하는 현상입니다. 대운이나 세운에서 내 일간 또는 주요 오행을 충하는 기운이 들어오면 해당 오행이 지배하는 신체 부위에 이상이 생기는 경향이 있습니다. 예를 들어 木이 강한 사주에 金 충(冲) 대운이 들어오면 간 기능 저하, 눈 건강 악화, 근골격 부상 등의 위험이 높아집니다.</p>
+<h3>공망(空亡)과 신체 허약</h3>
+<p>공망(空亡)에 해당하는 오행이 지배하는 신체 부위는 해당 공망 시기에 에너지 공급이 끊겨 허약해지는 경향이 있습니다. 공망 기간에는 무리한 운동이나 수술을 피하고, 해당 신체 부위의 정기 검진을 강화하는 것이 현명합니다.</p>
+<h3>삼재(三災)와 건강 관리</h3>
+<p>삼재 기간은 전통적으로 건강, 재물, 관재(官災)의 세 가지 어려움이 찾아오는 시기로 알려져 있습니다. 삼재 중 특히 들삼재와 날삼재에는 면역력이 떨어지고 사고 위험이 높아지므로 과로를 피하고 정기 건강 검진을 받는 것이 좋습니다.</p>
+<h2 id="health-tips">체질별 건강 개운법</h2>
+<p>사주 체질 분석을 바탕으로 한 건강 개운법은 현대 한의학과도 깊이 연결됩니다. 자신의 일간 오행과 부족한 기운을 파악해 생활 습관에 반영하는 것이 핵심입니다.</p>
+<h3>오행별 식이 요법</h3>
+<p>木 기운이 부족하면 신맛(식초, 레몬, 매실)이 도움이 되고, 火가 부족하면 쓴맛(쑥, 씀바귀, 커피)이 심장을 강화합니다. 土가 부족하면 단맛(고구마, 대추, 꿀)이 위장을 돕고, 金이 부족하면 매운맛(마늘, 생강, 고추)이 폐를 강화합니다. 水가 부족하면 짠맛(해산물, 다시마, 된장)이 신장에 도움이 됩니다.</p>
+<h3>건강 위험 시기 대비 전략</h3>
+<p>건강 위험이 예상되는 대운·세운에는 사전 정밀 검진을 받고, 수술이 필요하다면 충(冲)이나 공망이 없는 시기를 골라 진행하는 것이 회복 속도와 예후에 유리합니다. 사주 건강 분석은 운명론적 체념이 아니라 미래를 준비하는 지혜입니다.</p>
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[관련] 용신(用神) 완전 해설: 내 사주의 핵심 기운 찾기</a></p>
+  <p><a href="/saju/destiny-change" style="text-decoration: underline; color: #f9d976;">[관련] 개운(改運)의 철학: 내 운명을 바꿀 수 있는가</a></p>
+</div>
+</section>`,
+    contentEn: `<section>
+<h2 id="five-elements-body">The Five Elements Body Map</h2>
+<p>In Korean fortune telling, Saju-Palja (Four Pillars of Destiny) functions as more than a personality tool — it is a comprehensive health map. At the intersection of Korean astrology and traditional Eastern medicine, the <strong>Five Elements (Ohaeng, 五行)</strong> correspond directly to specific organs, body systems, and health vulnerabilities. By identifying which elements are excessive, deficient, or under attack in your birth chart, a practitioner can outline your lifetime health blueprint with remarkable precision.</p>
+<h3>Wood, Fire, Earth: The Upper Body Systems</h3>
+<p><strong>Wood (木)</strong> governs the liver, gallbladder, eyes, muscles, and nervous system. Wood imbalance manifests as liver strain, eye fatigue, muscular tension, and nervous hypersensitivity — the most common health complaints among Wood-dominant Saju types in Korean astrology practice. <strong>Fire (火)</strong> governs the heart, small intestine, blood vessels, and mental health. Excessive Fire in Korean birth chart reading indicates elevated cardiovascular and anxiety risk. <strong>Earth (土)</strong> governs digestion, immunity, the spleen, and pancreas. Earth imbalance is the most common root of gastrointestinal and metabolic vulnerability in four pillars of destiny health analysis.</p>
+<h3>Metal and Water: The Lower Body Systems</h3>
+<p><strong>Metal (金)</strong> rules the lungs, large intestine, skin, and respiratory health — Metal-weak individuals are consistently vulnerable to bronchitis, skin conditions, and large intestine disorders in Korean fortune telling health readings. <strong>Water (水)</strong> governs the kidneys, bladder, reproductive system, and bone density — making this the constitution type most sensitive to cold exposure and overwork in Saju body analysis.</p>
+<h2 id="constitution-type">Body Constitution by Day Stem</h2>
+<p>Your <strong>Day Stem (Ilgan)</strong> in Saju not only defines your personality — it establishes your fundamental body constitution, energy metabolism pattern, and primary organ vulnerabilities. Korean fortune telling practitioners use this as the starting point for all health-related chart analysis.</p>
+<h3>Wood Day Stems (甲·乙): Nervous-Musculoskeletal Type</h3>
+<p>Gapwood and Eulwood Day Stem individuals carry abundant energy but accumulate stress directly in the liver and nervous system. They are highly susceptible to burnout, eye fatigue, shoulder tension, and alcohol-related liver strain. Consistent sleep discipline and liver support are lifetime health priorities for this Korean astrology constitution type.</p>
+<h3>Fire Day Stems (丙·丁): Cardiovascular-Mental Type</h3>
+<p>Byeong-fire and Jeong-fire Day Stem individuals are passionate and quick-thinking, but their hearts and blood vessels bear the brunt of emotional intensity. Emotional dysregulation in this constitution type directly manifests as palpitations, insomnia, and blood pressure instability. Meditation and aerobic exercise are the most effective health interventions for this Saju body type.</p>
+<h3>Earth, Metal, and Water Day Stem Types</h3>
+<p>Earth Day Stems (戊·己) carry sensitive digestive systems — stress immediately disrupts gastrointestinal function. Metal Day Stems (庚·辛) are vulnerable to respiratory illness, skin conditions, and large intestine disorders, requiring careful air quality management. Water Day Stems (壬·癸) must protect the kidneys, joints, and reproductive system, with cold exposure and overwork being primary health threats in Korean four pillars of destiny health analysis.</p>
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 Get Your Free Saju Health Analysis →</a>
+</div>
+<h2 id="health-risk-timing">Identifying Health Risk Periods</h2>
+<p>The most practically valuable aspect of Saju health analysis is the ability to identify <strong>peak health risk windows</strong> before they arrive. In Korean astrology, illness does not emerge randomly — it manifests when constitutional vulnerabilities align with destructive fortune cycle energies.</p>
+<h3>The Clash (冲): When Health Crises Erupt</h3>
+<p>A Clash (冲) in Korean birth chart reading occurs when two opposing Branches directly collide. When a running fortune cycle delivers a Clash against your dominant element or Day Stem, the body system governed by that element faces acute stress. A strongly Wood-dominant person entering a Metal Clash decade cycle faces elevated risk of liver disorders, eye problems, and musculoskeletal injuries — a pattern Korean fortune telling practitioners recognize consistently across thousands of case studies.</p>
+<h3>Void Luck (Gongmang) and Physical Vulnerability</h3>
+<p>The <strong>Void Luck (Gongmang, 空亡)</strong> periods in Korean astrology represent phases where specific energies go "offline." When the element governing a critical organ system enters Void Luck, that organ loses its energetic support and becomes vulnerable. During such periods, Korean fortune telling tradition advises against elective surgeries and emphasizes preventive health screening for the affected body system.</p>
+<h3>The Three Hardship Years (Samjae)</h3>
+<p>The traditional <strong>Samjae (三災)</strong> cycle — a recurring three-year period in Korean astrology — is historically associated with elevated risks across health, finances, and legal matters. The first year (entry) and final year (exit) of Samjae carry the highest accident and illness risk, making these periods particularly important for health monitoring in Korean four pillars of destiny practice.</p>
+<h2 id="health-tips">Health Improvement by Constitution Type</h2>
+<p>Saju health analysis integrates seamlessly with traditional Korean medicine. Once your elemental constitution is identified, targeted lifestyle interventions can strengthen weaknesses and protect against predicted vulnerabilities.</p>
+<h3>Five Elements Dietary Therapy</h3>
+<p>Korean fortune telling health practice prescribes taste-based dietary support aligned with each element: sour flavors (vinegar, lemon, plum) strengthen Wood/liver systems; bitter flavors (mugwort, dandelion, coffee) support Fire/heart systems; sweet flavors (sweet potato, jujube, honey) reinforce Earth/digestive systems; pungent flavors (garlic, ginger, chili) fortify Metal/lung systems; and salty flavors (seafood, kelp, miso) nourish Water/kidney systems.</p>
+<h3>Strategic Health Defense</h3>
+<p>When a high-risk health window is identified in your Saju chart, the strategic response is prevention: schedule comprehensive medical screenings before the period begins, defer elective procedures to chart-clear windows, and eliminate lifestyle factors — overwork, alcohol, poor sleep — that amplify the constitutional vulnerability your Korean birth chart has already identified. Saju health analysis is not fatalism — it is advanced preparation for a longer, healthier life.</p>
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[Related] Finding Your Lucky Element (Yongshin) in Korean Astrology</a></p>
+  <p><a href="/en/saju/destiny-change" style="text-decoration: underline; color: #f9d976;">[Related] Can You Change Your Destiny? The Philosophy of Gaewoon</a></p>
+</div>
+</section>`,
+    faq: [
+      { q: '사주로 내가 걸릴 질병을 정확히 알 수 있나요?', a: '특정 병명을 진단하는 것이 아니라, 취약한 신체 부위와 건강 위험이 높아지는 시기를 예측하는 것입니다. 의료적 진단은 반드시 전문 의료기관을 통해 받으셔야 합니다.' },
+      { q: '오행이 불균형하면 반드시 그 부위가 아픈가요?', a: '반드시는 아닙니다. 오행 불균형은 취약성을 나타내는 것이지 확정적 질병 예측이 아닙니다. 생활 습관 관리와 개운을 통해 충분히 건강을 유지할 수 있습니다.' },
+      { q: '삼재 기간에 수술을 받으면 안 되나요?', a: '삼재 기간에는 가급적 큰 수술을 피하는 것이 좋다고 봅니다. 하지만 긴급한 의료 상황이라면 당연히 치료를 최우선해야 합니다. 삼재는 참고 지표이지 절대 금기가 아닙니다.' },
+    ],
+    faqEn: [
+      { q: 'Can Saju predict exactly what disease I will get?', a: 'No. Saju health analysis identifies vulnerable body systems and elevated risk periods, not specific diagnoses. All health concerns must be addressed through qualified medical professionals. Korean fortune telling serves as a preventive awareness tool, not a medical diagnostic system.' },
+      { q: 'Does an elemental imbalance in my chart guarantee illness in that body area?', a: 'Not necessarily. Elemental imbalance indicates vulnerability, not a predetermined condition. Proactive lifestyle management — diet, sleep, stress reduction — can significantly offset the constitutional weaknesses identified in Korean four pillars of destiny health analysis.' },
+      { q: 'Should I avoid surgery during the Samjae three-year cycle?', a: 'Korean astrology advises against elective surgeries during Samjae when possible. However, medically necessary procedures should never be delayed for astrological reasons. Samjae is a heightened-awareness indicator, not an absolute prohibition.' },
+    ],
+    relatedPosts: [
+      { slug: 'lucky-element', category: 'saju', title: '용신(用神): 내 사주의 핵심 기운' },
+      { slug: 'destiny-change', category: 'saju', title: '개운(改運)의 철학: 내 운명을 바꿀 수 있는가' },
     ],
   },
 ];
