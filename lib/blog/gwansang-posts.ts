@@ -905,4 +905,158 @@ export const gwansangPosts: BlogPost[] = [
       { slug: 'wealth-face', title: 'Wealth Luck in Your Features', category: 'face-reading' },
     ],
   },
+  {
+    slug: 'face-shape',
+    title: '얼굴형 관상 가이드: 내 얼굴형에 숨겨진 성격과 직업운',
+    seoTitle: '얼굴형 관상: 둥근형, 각진형, 계란형 등 얼굴 모양으로 보는 성격과 운세',
+    seoTitleEn: 'Face Shape Reading in Gwansang: Personality and Career Luck',
+    description: '얼굴의 전체적인 윤곽은 운명의 뼈대입니다! 둥근형, 네모형, 역삼각형 등 다양한 얼굴형에 담긴 성향, 직업운, 대인관계의 비밀을 3,000자 전문 해설로 분석합니다.',
+    descriptionEn: 'Discover what your face shape reveals about your destiny in Korean Gwansang. Learn how round, square, and oval faces predict career paths and personality traits.',
+    keywords: ['얼굴형 관상', '둥근 얼굴 관상', '각진 얼굴 관상', '성격 관상', '직업운 관상'],
+    keywordsEn: ['Face Shape Reading', 'Korean Physiognomy', 'Gwansang Destiny', 'Career Luck Face', 'Personality Face'],
+    publishedAt: '2026-03-02',
+    category: 'face-reading',
+    toc: [
+      { id: 'foundation-of-face', title: '1. 얼굴형은 관상의 뼈대' },
+      { id: 'round-face', title: '2. 둥근 얼굴형 (수형, 水形)' },
+      { id: 'square-face', title: '3. 각진 얼굴형 (금형, 金形)' },
+      { id: 'oval-long-face', title: '4. 계란형 및 긴 얼굴형 (목형, 木形)' },
+      { id: 'conclusion', title: '5. 결론: 얼굴형에 맞는 삶의 방식' },
+    ],
+    tocEn: [
+      { id: 'foundation-of-face', title: '1. The Foundation of Face Reading' },
+      { id: 'round-face', title: '2. The Round Face (Water Type)' },
+      { id: 'square-face', title: '3. The Square Face (Metal Type)' },
+      { id: 'oval-long-face', title: '4. The Oval and Long Face (Wood Type)' },
+      { id: 'conclusion', title: '5. Conclusion' },
+    ],
+    contentKo: `
+<section>
+<p>관상학에서 눈, 코, 입 같은 개별 이목구비를 분석하기 전에 가장 먼저 살피는 것이 있습니다. 바로 얼굴의 전체적인 윤곽, 즉 <strong>'얼굴형(Face Shape)'</strong>입니다. 이목구비가 집의 인테리어와 가구라면, 얼굴형은 그 집을 지탱하는 기초 뼈대이자 대지의 형태와 같습니다. 아무리 이목구비가 화려해도 얼굴형이 자신의 사주 기운과 맞지 않거나 균형이 깨져 있다면, 그 복을 온전히 담아내기 어렵습니다.</p>
+
+<p>전통적인 동양 관상학에서는 얼굴형을 음양오행(목, 화, 토, 금, 수)의 형태에 빗대어 분석하거나, 동양의 고전적인 분류법인 '동물형(상상)' 또는 기하학적 형태로 나누어 판단합니다. 얼굴형은 선천적으로 타고난 기질, 평생을 관통하는 직업적 적성, 그리고 타인과 관계를 맺는 방식을 가장 직관적으로 보여주는 지표입니다. 이 글에서는 현대인들에게 가장 많이 나타나는 대표적인 얼굴형들의 관상학적 특징과, 각 얼굴형이 성공하기 위해 반드시 알아야 할 운명적 조언을 상세히 해설합니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/face-reading/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">관상학 입문: 얼굴로 보는 성격과 운세의 기초</a></li>
+    <li style="margin-bottom: 4px;"><a href="/face-reading/wealth-face" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">재물 관상 완벽 정리: 코와 입이 결정하는 부의 크기</a></li>
+  </ul>
+</div>
+
+<h2 id="foundation-of-face">1. 얼굴형은 관상의 뼈대이자 에너지의 그릇</h2>
+<p>관상학 고전인 《마의상법(麻衣相法)》에서는 사람의 얼굴형을 크게 10가지(갑, 유, 전, 목 등 한자 모양에 빗댐)로 분류합니다. 현대적으로 이를 단순화하면 결국 골격(뼈)과 살(육)의 비율, 그리고 턱과 이마의 너비에 따른 기하학적 형태로 나눌 수 있습니다.</p>
+<p>얼굴에 뼈가 두드러진 사람은 추진력과 결단력이 강한 반면(양의 기운), 살집이 둥글고 풍만한 사람은 포용력과 유연성이 뛰어납니다(음의 기운). 이마가 넓은 역삼각형 얼굴은 사고력과 기획력이 뛰어나고, 하관이 넓은 삼각형 얼굴은 현실 감각과 실천력이 탁월합니다. 자신의 얼굴형이 어떤 에너지를 담고 있는지 이해하는 것은 진로 선택과 대인관계의 첫걸음입니다.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">👤 내 얼굴형에 숨겨진 직업운 무료 확인하기 →</a>
+</div>
+
+<h2 id="round-face">2. 둥근 얼굴형 (원자형/수형 水形): 인복과 유연성의 상징</h2>
+<p>얼굴의 가로와 세로 비율이 비슷하고, 턱선이 각지지 않고 부드러운 곡선을 그리는 형태입니다. 관상학에서는 물(水)의 기운을 담고 있다고 봅니다.</p>
+
+<h3>성격과 기질: 탁월한 사교성과 적응력</h3>
+<p>둥근 얼굴을 가진 사람은 물처럼 어떤 그릇에 담아도 그 모양에 맞춰내는 유연함과 친화력을 지니고 있습니다. 낙천적이고 사교적이며, 처음 보는 사람과도 금세 금방 벽을 허물고 친해집니다. 주변에 적을 만들지 않아 인복(人福)이 매우 두터운 것이 가장 큰 장점입니다.</p>
+<h3>직업운과 주의점</h3>
+<p>서비스업, 영업, 인사관리(HR), 요식업, PR 분야에서 발군의 능력을 발휘합니다. 여러 사람의 의견을 조율하는 중재자 역할에 최적화되어 있습니다. 다만, 정에 약하고 맺고 끊음이 불분명하여 금전적인 손해를 보거나 보증 등의 문제에 휘말릴 수 있으니, 공과 사를 명확히 구분하는 냉철함을 기르는 것이 성공의 핵심입니다.</p>
+
+<h2 id="square-face">3. 각진 네모 얼굴형 (전자형/금형 金形): 강한 의지와 리더십</h2>
+<p>이마, 광대, 턱의 너비가 비슷하며 특히 하관(턱)의 각이 뚜렷하게 발달한 형태입니다. 쇠(金)의 단단함과 땅(土)의 안정감을 상징합니다.</p>
+
+<h3>성격과 기질: 불굴의 의지와 책임감</h3>
+<p>각진 얼굴은 한 번 마음먹은 일은 끝까지 밀어붙이는 엄청난 추진력과 인내심을 가졌습니다. 원칙과 규율을 중시하며, 자신이 맡은 일에 대한 책임감이 남다릅니다. 어떤 난관이 닥쳐도 쉽게 흔들리지 않는 대기만성형(大器晩成) 기질을 지녔으며, 조직 내에서 든든한 기둥 역할을 합니다.</p>
+<h3>직업운과 주의점</h3>
+<p>군인, 경찰, 법조인, 금융인, 건축가, 대기업의 실무형 리더 등 원칙과 체계가 확실한 분야에서 크게 성공합니다. 위기 상황일수록 이들의 진가가 빛을 발합니다. 하지만 자기주장이 너무 강해 타협을 모르는 융통성 부족이 단점으로 꼽힙니다. 독단적인 결정으로 인해 주변 사람들과의 마찰(특히 부부 관계나 동업)이 잦을 수 있으므로, 타인의 의견을 수용하는 '부드러운 카리스마'를 장착해야 합니다.</p>
+
+<h2 id="oval-long-face">4. 계란형 및 긴 얼굴형 (갑자형/목형 木形): 지성과 창의성</h2>
+<p>가로 폭보다 세로 길이가 길고, 이마가 넓으며 턱으로 갈수록 부드럽게 좁아지는 형태입니다. 나무(木)가 위로 곧게 뻗어 올라가는 성장의 에너지를 담고 있습니다.</p>
+
+<h3>성격과 기질: 이상주의와 깊은 사유</h3>
+<p>지적 호기심이 많고 분석력이 뛰어납니다. 육체적인 노동보다는 정신적인 사유와 감각을 사용하는 일에 능합니다. 자존심이 강하고 우아함을 추구하며, 남들과 다른 독창적인 아이디어로 승부하는 것을 즐깁니다.</p>
+<h3>직업운과 주의점</h3>
+<p>학자, 연구원, 작가, 기획자, 예술가, 교육자 등 창의성과 전문 지식을 요구하는 분야에서 최고의 역량을 뽐냅니다. 상상력이 풍부하여 기획 단계에서는 누구도 따라올 수 없는 능력을 보입니다. 그러나 현실 감각이 다소 떨어지거나, 생각만 많고 실천력이 부족한 경우가 종종 있습니다. 이상을 현실로 구체화해 줄 수 있는 실무적인 파트너(네모형 얼굴 등)와 협력할 때 가장 큰 시너지를 냅니다.</p>
+
+<h2 id="conclusion">5. 결론: 얼굴형에 맞는 삶의 방식이 운을 결정한다</h2>
+<p>관상에서 "나쁜 얼굴형"은 존재하지 않습니다. 오직 '자신의 얼굴형에 맞지 않는 길을 걷는 것'이 불행을 자초할 뿐입니다. 둥근 얼굴의 사교가가 골방에서 연구만 하거나, 각진 얼굴의 행동가가 감성적인 서비스업에 매달린다면 성공하기 어렵습니다.</p>
+<p>자신의 얼굴형이 가진 선천적인 에너지와 장점을 정확히 이해하고, 그 기운이 가장 자연스럽게 발휘될 수 있는 환경과 직업을 선택하십시오. 그리고 자신의 얼굴형이 가진 단점(둥근형의 우유부단함, 각진형의 고집, 긴 얼굴의 비현실성)을 인지하고 의식적으로 보완하려 노력할 때, 비로소 얼굴에 담긴 진정한 '대박의 운'이 열리게 될 것입니다.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/face-reading/health-face" style="text-decoration: underline; color: #f9d976;">[관련글] 기색(얼굴색)으로 보는 건강과 운세의 변화</a></p>
+  <p><a href="/face-reading/eyebrow-reading" style="text-decoration: underline; color: #f9d976;">[관련글] 눈썹 관상: 얼굴의 지붕이 결정하는 리더십</a></p>
+</div>
+</section>
+    `,
+    contentEn: `
+<section>
+<p>Before a master practitioner of <strong>Korean Face Reading (Gwansang)</strong> looks at your eyes, nose, or mouth, they look at the canvas on which these features are painted: your <strong>Face Shape</strong>. In Eastern Destiny Arts, if individual facial features are the furniture of a house, the face shape is the foundational architecture and the plot of land itself. It dictates your baseline temperament, your optimal career environment, and the default manner in which you process stress and interact with the world.</p>
+
+<p>Traditional Gwansang classifies face shapes according to the Five Elements (Wood, Fire, Earth, Metal, Water) and ancient geometric forms. A face defined by prominent bone structure carries aggressive, active Yang energy, while a fleshy, rounded face carries receptive, flexible Yin energy. Understanding the geometric structure of your face is the crucial first step in discovering your path of least resistance to success. This guide decodes the three most common face shapes and reveals the specific career paths and life strategies that align with their innate energetic blueprints.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/face-reading/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Intro to Gwansang: The Art of Korean Face Reading</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/face-reading/wealth-face" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">The Wealth Face: Spotting Money Luck in Features</a></li>
+  </ul>
+</div>
+
+<h2 id="foundation-of-face">1. The Foundation: Architecture of Destiny</h2>
+<p>The classical text <em>Maui Sangbeop</em> categorizes faces into ten character shapes. In modern application, this simplifies to evaluating the ratio of bone to flesh and the width of the forehead versus the jaw. A wide forehead (inverted triangle) indicates a life driven by intellect and planning. A wide jaw (triangle) indicates a life driven by physical execution and deep-rooted endurance. When you align your career choice with the architectural reality of your face, you stop swimming against the current of your own destiny.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">👤 Uncover Your Face Shape's Career Potential →</a>
+</div>
+
+<h2 id="round-face">2. The Round Face (Water Element): The Master of Flow</h2>
+<p>Characterized by equal width and length, with soft, curved jawlines and fleshy cheeks. This shape embodies the <strong>Water (水)</strong> element in Gwansang.</p>
+
+<h3>Temperament and Personality</h3>
+<p>Like water, people with round faces possess supreme adaptability. They naturally fit into whatever "container" or social group they are placed in. They are generally optimistic, highly sociable, and possess a warm, approachable aura that instantly disarms strangers. Their greatest asset is their "In-bok" (Human Luck)—they naturally attract a massive network of supporters and allies who are eager to help them.</p>
+
+<h3>Career Luck and Vulnerabilities</h3>
+<p>The Round Face thrives in human-centric fields: public relations, sales, hospitality, human resources, and diplomacy. They are the ultimate mediators. However, water lacks rigid boundaries. Their profound empathy can lead to severe boundary issues. They are highly susceptible to being taken advantage of financially or getting dragged into other people's dramas. The key to their success is learning to say "no" with absolute firmness when business is involved.</p>
+
+<h2 id="square-face">3. The Square Face (Metal/Earth Element): The Unshakeable Pillar</h2>
+<p>Defined by a broad forehead, prominent cheekbones, and a distinctly wide, angular jaw. This shape represents the cutting edge of <strong>Metal (金)</strong> combined with the stability of <strong>Earth (土)</strong>.</p>
+
+<h3>Temperament and Personality</h3>
+<p>The Square Face is the archetype of the relentless executor. They possess terrifying willpower, discipline, and a strong moral code. When everyone else panics, the Square Face remains stoic and focuses on solutions. They are practical, loyal, and possess a "late-bloomer" (Dae-gi-man-seong) energy—their consistent, grinding effort guarantees massive success later in life.</p>
+
+<h3>Career Luck and Vulnerabilities</h3>
+<p>They are born leaders for structured environments: military, law enforcement, finance, engineering, corporate management, and politics. They execute flawlessly. However, their unshakeable nature often manifests as extreme stubbornness. They can be perceived as authoritarian or inflexible, leading to severe clashes with partners or spouses. Their ultimate life lesson is to develop the "soft charisma" of yielding to others' ideas without feeling like they are losing control.</p>
+
+<h2 id="oval-long-face">4. The Oval and Long Face (Wood Element): The Visionary Thinker</h2>
+<p>Longer than it is wide, typically featuring a broad, prominent forehead that gently tapers down to a narrower chin. This upward-reaching shape is governed by the <strong>Wood (木)</strong> element.</p>
+
+<h3>Temperament and Personality</h3>
+<p>This is the face of the aristocrat and the intellectual. They are deeply analytical, endlessly curious, and driven by high ideals rather than pure material gain. They possess refined tastes and operate best in the realm of ideas, theories, and creative concepts. They abhor brute physical labor and aggressive, chaotic environments.</p>
+
+<h3>Career Luck and Vulnerabilities</h3>
+<p>The Wood Face excels in academia, research, writing, design, strategic planning, and the arts. They are the visionaries who can see ten years into the future. However, because their energy is concentrated in the head (forehead) rather than the ground (jaw), they often lack the practical, gritty execution skills needed to materialize their brilliant ideas. They frequently overthink and under-act. To achieve massive success, the Long Face must partner with a Square Face—someone who can take their visionary blueprints and actually build the building.</p>
+
+<h2 id="conclusion">5. Conclusion: Aligning Shape and Strategy</h2>
+<p>In Gwansang, there is no such thing as a "bad" face shape. Failure only occurs when you force your specific geometry into an incompatible environment. If a highly empathetic Round Face isolates themselves in a solitary research lab, they will wilt. If a visionary Long Face tries to run a gritty, high-pressure logistics warehouse, they will break.</p>
+<p>By understanding the elemental reality of your face shape, you stop fighting your own nature. Embrace your innate advantages, consciously mitigate your structural blind spots, and place yourself in the exact career environment where your specific geometry is designed to thrive.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/face-reading/health-face" style="text-decoration: underline; color: #f9d976;">[Related] Face Reading for Health: Checking Your Inner Vitality</a></p>
+  <p><a href="/en/face-reading/eyebrow-reading" style="text-decoration: underline; color: #f9d976;">[Related] Eyebrow Reading: Unlocking Leadership and Sibling Luck</a></p>
+</div>
+</section>
+    `,
+    faq: [
+      { q: '살이 쪄서 얼굴이 둥글어졌는데, 이것도 둥근 얼굴형으로 보나요?', a: '타고난 골격이 각진 형태라면 기본적으로 금형(각진형)의 기질을 가집니다. 하지만 살이 붙어 둥근 형태가 되면, 성격이 예전보다 부드러워지고 타인과의 타협점(수형의 기질)을 찾게 되는 후천적인 운의 변화로 해석합니다.' },
+      { q: '양악 수술로 각진 턱을 깎으면 관상도 변하나요?', a: '턱은 말년운과 책임감을 상징합니다. 뼈를 깎아내면 인상은 부드러워져 초중년의 대인관계는 유리해질 수 있으나, 관상학적으로는 끈기와 말년의 안정감(재물 창고)이 약해질 수 있다고 봅니다.' },
+      { q: '제 얼굴형은 두 가지가 섞인 것 같은데 어떻게 해석하나요?', a: '대부분의 사람은 복합형입니다. 예를 들어 긴 얼굴(목형)에 하관이 각진(금형) 형태라면, 뛰어난 기획력(목)과 강력한 실천력(금)을 동시에 갖춘 매우 우수한 리더형 관상으로 종합하여 해석합니다.' },
+    ],
+    faqEn: [
+      { q: 'If I gained weight and my face became round, do I now have a Water Face?', a: 'Your underlying bone structure dictates your primary element. However, gaining flesh adds Water element traits—you likely become more patient, sociable, and compromising than you were when your face was angular.' },
+      { q: 'Does jaw reduction surgery (shaving the jaw) ruin my fortune?', a: 'The jaw represents endurance and late-life stability. Shaving it may soften your appearance and boost short-term social luck, but Gwansang warns it can reduce your grit and financial stability in your later years.' },
+      { q: 'My face seems to be a mix of two shapes. How do I read that?', a: 'Most people are a blend. If you have a long face (Wood/Ideas) but a strong, square jaw (Metal/Execution), it is highly auspicious. It means you possess both the visionary intelligence to plan and the relentless drive to execute.' },
+    ],
+    relatedPosts: [
+      { slug: 'wealth-face', category: 'face-reading', title: '재물 관상: 코와 입에 숨겨진 부의 비밀' },
+      { slug: 'intro', category: 'face-reading', title: '관상학 입문: 내 얼굴이 곧 내 운명이다' },
+    ],
+  },
 ];
