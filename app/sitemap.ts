@@ -9,6 +9,13 @@ const routes = [
   '/saju-analysis', '/gwansang-analysis', '/seongmyeong-analysis', '/personality-analysis', '/combined'
 ];
 
+// localePrefix: 'as-needed' 설정으로 인해 기본 로케일(ko)은 prefix 없이 접근됨
+// /ko/... → /... 로 리다이렉트되므로 실제 URL에는 /ko/ 없음
+function getLocaleUrl(locale: string, path: string): string {
+  const prefix = locale === 'ko' ? '' : `/${locale}`;
+  return `${BASE_URL}${prefix}${path}`;
+}
+
 function getPostRoutePrefix(category: string): string {
   switch (category) {
     case 'saju': return '/saju';
@@ -27,13 +34,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const route of routes) {
       const isMain = route === '';
       entries.push({
-        url: `${BASE_URL}/${locale}${route}`,
+        url: getLocaleUrl(locale, route),
         lastModified: new Date(),
         changeFrequency: isMain ? 'weekly' : 'monthly',
         priority: isMain ? 1.0 : locale === 'ko' ? 0.8 : 0.6,
         alternates: {
           languages: Object.fromEntries(
-            locales.map((l) => [l, `${BASE_URL}/${l}${route}`])
+            locales.map((l) => [l, getLocaleUrl(l, route)])
           ),
         },
       });
@@ -43,19 +50,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const post of allPosts) {
     const routePrefix = getPostRoutePrefix(post.category);
     const postRoute = `${routePrefix}/${post.slug}`;
-    
-    // Only generate blog post sitemaps for 'ko' and 'en' for now
+
     const blogLocales = ['ko', 'en'];
-    
+
     for (const locale of blogLocales) {
       entries.push({
-        url: `${BASE_URL}/${locale}${postRoute}`,
+        url: getLocaleUrl(locale, postRoute),
         lastModified: new Date(post.publishedAt || new Date()),
         changeFrequency: 'weekly',
         priority: locale === 'ko' ? 0.7 : 0.5,
         alternates: {
           languages: Object.fromEntries(
-            blogLocales.map((l) => [l, `${BASE_URL}/${l}${postRoute}`])
+            blogLocales.map((l) => [l, getLocaleUrl(l, postRoute)])
           ),
         },
       });

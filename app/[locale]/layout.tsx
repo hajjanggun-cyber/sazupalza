@@ -14,7 +14,12 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
-  return {};
+  const langMap: Record<string, string> = { ko: 'ko', en: 'en', ja: 'ja', zh: 'zh' };
+  return {
+    other: {
+      'content-language': langMap[locale] ?? 'ko',
+    },
+  };
 }
 
 export default async function LocaleLayout({ children, params: { locale } }: Props) {

@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import AdSense from './AdSense';
+import Navigation from './Navigation';
+import Footer from './Footer';
 import { BlogPost } from '@/lib/blog/types';
 
 const categoryName: Record<string, Record<string, string>> = {
@@ -76,6 +78,8 @@ export default function BlogPostPage({ post, locale }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       {faqJsonLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />}
+
+      <Navigation />
 
       <div className="max-w-3xl mx-auto px-4 py-8">
 
@@ -200,6 +204,8 @@ export default function BlogPostPage({ post, locale }: Props) {
         </div>
 
       </div>
+
+      <Footer />
     </>
   );
 }

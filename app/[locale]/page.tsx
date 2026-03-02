@@ -38,7 +38,7 @@ export default async function HomePage({ params: { locale } }: Props) {
   const isKo = locale === 'ko';
 
   /* ── SEO 구조화 데이터 ── */
-  const baseUrl = 'https://sajupalza.com';
+  const baseUrl = 'https://sajupalza.cc';
   const canonicalUrl = `${baseUrl}/${locale}`;
 
   const webAppJsonLd = {

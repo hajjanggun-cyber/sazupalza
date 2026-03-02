@@ -39,7 +39,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html>
+    <html lang="ko" suppressHydrationWarning>
       <head>
         <meta name="google-adsense-account" content="ca-pub-2524681039359256" />
         <meta name="google-site-verification" content="M51gxp94qS8Cyah_8hlOXcVA3I43jilBE05x2IYNVd8" />
