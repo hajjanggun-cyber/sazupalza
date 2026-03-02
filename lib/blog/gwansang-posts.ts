@@ -1059,4 +1059,164 @@ export const gwansangPosts: BlogPost[] = [
       { slug: 'intro', category: 'face-reading', title: '관상학 입문: 내 얼굴이 곧 내 운명이다' },
     ],
   },
+  {
+    slug: 'eye-reading',
+    title: '눈 관상 가이드: 눈빛과 모양으로 읽어내는 나의 운명과 성격',
+    seoTitle: '눈 관상: 쌍꺼풀, 짝눈, 꼬리 올라간 눈 등 모양과 눈빛으로 보는 운세',
+    seoTitleEn: 'Korean Eye Reading: Fortune, Personality, and the Power of Gaze',
+    description: '관상의 80%는 눈이 결정한다! 눈의 크기, 쌍꺼풀 유무, 눈꼬리 방향, 그리고 가장 중요한 "눈빛"에 담긴 성격과 운명의 비밀을 3,000자 전문 해설로 파헤칩니다.',
+    descriptionEn: 'In Gwansang, the eyes determine 80% of your destiny. Decode the secrets of eye shape, size, and gaze to understand your personality and future success.',
+    keywords: ['눈 관상', '눈빛 관상', '짝눈 관상', '쌍꺼풀 관상', '눈꼬리 관상'],
+    keywordsEn: ['Eye Reading', 'Gwansang Eyes', 'Face Reading Eyes', 'Korean Fortune Eyes', 'Eye Shape Personality'],
+    publishedAt: '2026-03-02',
+    category: 'face-reading',
+    toc: [
+      { id: 'power-of-eyes', title: '1. 눈: 관상의 80%를 결정하는 창(窓)' },
+      { id: 'eye-shapes', title: '2. 눈 모양별 성격과 기질 분석' },
+      { id: 'asymmetric-eyes', title: '3. 짝눈(음양안)과 도화안의 비밀' },
+      { id: 'eye-gaze', title: '4. 핵심은 눈빛(眼光)이다' },
+      { id: 'conclusion', title: '5. 결론: 맑은 눈빛을 가꾸는 개운법' },
+    ],
+    tocEn: [
+      { id: 'power-of-eyes', title: '1. The Eyes: 80% of Your Destiny' },
+      { id: 'eye-shapes', title: '2. Eye Shapes and Personality' },
+      { id: 'asymmetric-eyes', title: '3. Asymmetric Eyes and Peach Blossom Eyes' },
+      { id: 'eye-gaze', title: '4. The Ultimate Key: Your Gaze (Angwang)' },
+      { id: 'conclusion', title: '5. Conclusion: Cultivating Clear Eyes' },
+    ],
+    contentKo: `
+<section>
+<p>관상학 고전 《마의상법》에는 "얼굴 전체의 관상이 100점이라면, 그중 80점은 눈에 있다"는 유명한 구절이 있습니다. 이마가 하늘이고 턱이 땅이라면, 눈은 그 사이를 흐르는 해와 달입니다. 눈은 단순히 사물을 보는 시각 기관을 넘어, 인간의 정신(神)이 머물고 에너지가 뿜어져 나오는 유일한 통로입니다. 아무리 코가 높고 턱이 잘생겼다 한들, 눈빛이 탁하고 흔들리면 그 좋은 기운들을 결코 자신의 것으로 만들 수 없습니다.</p>
+
+<p>우리는 일상생활에서도 무의식적으로 상대방의 눈을 보며 거짓말을 하는지, 자신감이 넘치는지, 슬픔에 잠겨 있는지를 단박에 알아챕니다. 관상학은 바로 이 직관을 고도로 체계화한 학문입니다. 눈의 크기, 눈꼬리의 방향, 쌍꺼풀의 유무 같은 물리적인 '형태(形態)'는 그 사람의 타고난 성향과 대인 관계 방식을 보여주며, 눈동자의 맑음과 흔들림 없는 '눈빛(眼光)'은 현재 운세의 강력함과 멘탈의 크기를 증명합니다. 이 글에서는 당신의 눈에 담긴 운명의 암호를 해독해 드립니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/face-reading/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">관상학 입문: 이목구비가 결정하는 인생의 흐름</a></li>
+    <li style="margin-bottom: 4px;"><a href="/face-reading/wealth-face" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">재물 관상 완벽 정리: 돈복 있는 코와 입의 특징</a></li>
+  </ul>
+</div>
+
+<h2 id="power-of-eyes">1. 눈: 관상의 80%를 결정하는 마음의 창(窓)</h2>
+<p>동양 관상학에서 이상적으로 꼽는 최고의 눈은 <strong>'가늘고 길며(細長), 흑백이 분명하고, 안광(眼光)이 쏘는 듯 빛나는 눈'</strong>입니다. (이를 흔히 용의 눈 '용안'이나 봉황의 눈 '봉안'이라 부릅니다.)</p>
+<p>서양 미의 기준처럼 무조건 크고 동그란 눈을 최고로 치지 않는 이유는, 눈이 크면 감정이 쉽게 밖으로 노출되어 에너지가 분산된다고 보기 때문입니다. 반면 가늘고 긴 눈은 자신의 감정과 속내를 깊숙이 감추고 때를 기다릴 줄 아는 고도의 지략과 인내심을 상징합니다. 또한 흰자위와 검은자위의 경계가 뚜렷해야 공과 사를 명확히 구분하고 결단력이 있다고 봅니다.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">👁️ 내 눈 관상에 담긴 재물운/연애운 알아보기 →</a>
+</div>
+
+<h2 id="eye-shapes">2. 눈 모양별 성격과 기질 분석</h2>
+
+<h3>눈이 크고 둥근 사람 (외향성과 감수성)</h3>
+<p>감정 표현이 솔직하고 개방적입니다. 타인에 대한 공감 능력이 뛰어나고 호기심이 많아 주변에 항상 사람이 끊이지 않습니다. 연예, 예술, 서비스업에 아주 적합합니다. 다만 귀가 얇고 감정 기복이 심해 충동적인 결정을 내리거나 타인에게 속기 쉬운 면이 있으니, 중요한 결정 앞에서는 이성적인 조언자의 도움을 받는 것이 좋습니다.</p>
+
+<h3>눈이 작고 가는 사람 (내향성과 치밀함)</h3>
+<p>경계심이 강하고 매사를 논리적으로 분석하는 타입입니다. 한 번 시작한 일은 끝을 보는 집념이 있으며, 쉽게 속내를 드러내지 않아 협상이나 비즈니스 테이블에서 강점을 발휘합니다. 학자, 연구원, 재무, 법조계에서 대기만성형으로 크게 성공할 관상입니다.</p>
+
+<h3>눈꼬리가 올라간 사람 (추진력과 승부욕)</h3>
+<p>야심이 큽니다. 성취욕과 승부욕이 강해 경쟁이 치열한 환경(영업, 사업, 정치)에서 살아남는 전투력이 탁월합니다. 다만 지기 싫어하는 성격 탓에 대인 관계에서 잦은 마찰을 빚을 수 있습니다. 자신을 낮추는 겸손함을 기르면 더 큰 리더로 성장합니다.</p>
+
+<h3>눈꼬리가 처진 사람 (포용력과 수동성)</h3>
+<p>순둥이 같은 인상으로, 타인을 배려하고 양보하는 성향이 강합니다. 적을 만들지 않아 인복이 좋고 평탄한 삶을 살 확률이 높습니다. 하지만 부탁을 거절하지 못해 곤란을 겪거나, 결단력이 부족해 중요한 기회를 놓칠 수 있으니 때로는 단호해지는 연습이 필요합니다.</p>
+
+<h2 id="asymmetric-eyes">3. 특별한 눈: 짝눈(음양안)과 도화안의 비밀</h2>
+
+<h3>짝눈 (음양안 陰陽眼): 이중성과 천재성</h3>
+<p>양쪽 눈의 크기나 쌍꺼풀 유무가 확연히 다른 눈을 '음양안'이라고 합니다. 이들은 겉과 속이 다르거나 두 가지 이상의 상반된 기질을 동시에 지니고 있습니다. 세상을 입체적으로 보는 통찰력이 뛰어나며 상황 대처 능력이 뱀처럼 유연합니다. 뛰어난 사업가나 고도의 전략가, 혹은 다재다능한 예술가들에게서 자주 발견되는 관상입니다. (다만 지나친 계산으로 인해 주변의 신뢰를 잃지 않도록 주의해야 합니다.)</p>
+
+<h3>도화안 (桃花眼): 치명적인 매력과 스캔들</h3>
+<p>눈가에 붉은 기운이 맴돌고, 눈물이 고인 듯 항상 촉촉하게 반짝이며 눈웃음이 매력적인 눈입니다. '복숭아꽃'이라는 이름처럼 가만히 있어도 이성을 끌어당기는 강력한 자력을 발휘합니다. 연예인이나 인플루언서에게는 대중의 사랑을 받는 최고의 무기가 되지만, 일반인의 경우 복잡한 이성 문제나 구설수에 휘말릴 수 있으니 철저한 자기 관리가 생명입니다.</p>
+
+<h2 id="eye-gaze">4. 형상보다 중요한 핵심: 눈빛(眼光, 안광)이다</h2>
+<p>관상의 대가들은 입을 모아 말합니다. "눈의 모양은 바꿀 수 없어도, 눈빛은 스스로 만들 수 있다." 아무리 훌륭한 '봉황의 눈'을 타고났어도, 밤새워 술을 마시고 무기력하게 살아 눈빛이 탁하게 풀려 있다면 그 관상은 흉상(凶相)으로 전락합니다.</p>
+<ul>
+  <li><strong>선명하고 흔들림 없는 안광:</strong> 내면의 에너지가 가득 차 있고 강한 신념이 있음을 뜻합니다. 운세가 강하게 상승하고 있는 시기이며, 주변 사람과 재물을 압도하여 끌어당깁니다.</li>
+  <li><strong>흐릿하고 초점 없는 안광:</strong> 정신이 분산되어 있고 에너지가 고갈된 상태입니다. 이때는 사기를 당하거나 사고가 날 확률이 높으므로, 새로운 일을 벌이기보다는 무조건 휴식하며 기운을 채워야 합니다.</li>
+</ul>
+
+<h2 id="conclusion">5. 결론: 맑은 눈빛을 가꾸는 것이 최고의 개운법</h2>
+<p>눈은 내 영혼의 컨디션을 실시간으로 중계하는 스크린입니다. 좋은 눈 관상을 갖고 싶다면 성형외과를 찾기 전에 먼저 내면을 정화해야 합니다. 독서와 명상으로 지혜를 채우고, 충분한 수면으로 간의 피로를 풀어주며, 타인을 긍정적으로 바라보는 마음을 가지십시오. 당신의 마음이 맑아질 때 비로소 안광이 별빛처럼 살아나며, 그 눈빛이 당신의 인생에 빛나는 기회들을 쉼 없이 물어다 줄 것입니다.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/face-reading/health-face" style="text-decoration: underline; color: #f9d976;">[관련글] 관상과 건강: 눈 주변 기색으로 보는 간(肝) 건강</a></p>
+  <p><a href="/face-reading/eyebrow-reading" style="text-decoration: underline; color: #f9d976;">[관련글] 눈썹 관상: 눈과 눈썹의 조화가 결정하는 사회적 인복</a></p>
+</div>
+</section>
+    `,
+    contentEn: `
+<section>
+<p>In the ancient text <em>Maui Sangbeop (The Book of Master Maui)</em>, there is an absolute rule: "If the face is worth 100 points, the eyes are worth 80." In Korean Gwansang (face reading), if your forehead is the sky and your jaw is the earth, your eyes are the sun and the moon. They are not merely organs for seeing the world; they are the ultimate portals through which your spirit (Shin) and internal energy radiate outward. You could possess the perfect wealth nose and the flawless jawline of an emperor, but if your eyes are dull, cloudy, or unstable, you will never hold onto the fortune that comes your way.</p>
+
+<p>Subconsciously, we all practice eye reading daily. We look into someone’s eyes to detect confidence, deceit, or exhaustion. Gwansang elevates this biological intuition into a highly precise diagnostic system. The physical shape of your eyes—their size, the angle of the corners, the depth of the lids—reveals your innate personality and how you navigate relationships. However, the true secret of eye reading lies not in the shape, but in the <strong>Angwang (眼光)</strong>—the luminous gaze or "spirit light" of the eye, which predicts your immediate success and mental resilience. This guide decodes the hidden messages your eyes are broadcasting to the world.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/face-reading/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Intro to Gwansang: The Art of Face Reading Explained</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/face-reading/wealth-face" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">The Wealth Face: How to Spot Money Luck in Features</a></li>
+  </ul>
+</div>
+
+<h2 id="power-of-eyes">1. The Eyes: 80% of Your Destiny</h2>
+<p>Contrary to modern Western beauty standards that prize large, round eyes, classical Eastern Gwansang reveres the "Dragon" or "Phoenix" eye: <strong>long, narrow, with a razor-sharp distinction between the black iris and the white sclera, projecting a piercing, steady light.</strong></p>
+<p>Why are large eyes not considered the ultimate ideal? In Gwansang, large eyes mean your emotions and energy easily spill out into the world. You are an open book. Narrow, elongated eyes, however, represent containment. They belong to individuals who can conceal their true intentions, strategize deeply, and wait patiently for the perfect moment to strike. The stark contrast between the iris and sclera signifies a person who possesses immense clarity, moral decisiveness, and the ability to ruthlessly separate business from personal emotions.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">👁️ Discover What Your Eyes Reveal About Your Fortune →</a>
+</div>
+
+<h2 id="eye-shapes">2. Decoding Eye Shapes and Personality</h2>
+
+<h3>Large and Round Eyes: The Empathic Expressor</h3>
+<p>People with large, round eyes are emotionally transparent, open-minded, and highly curious. They possess immense empathy, making them naturally popular and excellent in fields like entertainment, hospitality, and sales. Their vulnerability lies in their emotional volatility; they are easily swayed by others' words and can make impulsive, emotion-driven decisions. They thrive when partnered with grounded, logical advisors.</p>
+
+<h3>Small and Narrow Eyes: The Analytical Strategist</h3>
+<p>These eyes belong to the observers. They do not easily reveal their inner thoughts. They process the world logically, possess tremendous concentration, and execute plans with relentless persistence. This is the archetype of the late-bloomer who achieves massive success in specialized fields like research, law, finance, and backend corporate strategy. They are formidable negotiators.</p>
+
+<h3>Upturned Outer Corners: The Ambitious Warrior</h3>
+<p>Eyes that slant upward at the outer corners (often called "cat eyes") indicate fierce ambition, competitiveness, and a profound desire to win. These individuals possess the raw combat energy required to survive in cutthroat environments like politics or high-stakes entrepreneurship. However, their aggressive aura can alienate people. Learning humility and the art of compromise is their key to long-term leadership.</p>
+
+<h3>Downturned Outer Corners: The Peacemaker</h3>
+<p>Eyes that slope downward project a gentle, accommodating aura. These individuals are naturally yielding, empathetic, and prioritize harmony over winning. They attract immense "In-bok" (luck through people) because they rarely make enemies. Their challenge is overcoming passivity; they must learn to draw firm boundaries so they aren't taken advantage of in business.</p>
+
+<h2 id="asymmetric-eyes">3. Special Eyes: Asymmetry and Peach Blossoms</h2>
+
+<h3>Asymmetric Eyes (Yin-Yang Eyes): The Brilliant Chameleon</h3>
+<p>When one eye is noticeably larger, or one has a double eyelid while the other does not, it is called a "Yin-Yang Eye." This indicates a dualistic nature. These individuals can see situations from multiple, conflicting perspectives simultaneously. They are highly adaptable, quick-witted, and often possess genius-level strategic or artistic abilities. Many top-tier CEOs and legendary actors possess Yin-Yang eyes. The danger lies in being perceived as calculating or untrustworthy by those seeking simple transparency.</p>
+
+<h3>Dohwa-an (Peach Blossom Eyes): The Fatal Attraction</h3>
+<p>These eyes appear slightly flushed at the corners, constantly moist, and seem to be smiling even when the face is at rest. In Gwansang, this is the "Peach Blossom" energy—an overwhelming, almost magnetic sexual and social charisma. For celebrities and influencers, it is the ultimate weapon for mass appeal. For everyday individuals, it guarantees popularity but requires strict self-discipline, as it frequently attracts complicated romantic scandals and unwanted drama.</p>
+
+<h2 id="eye-gaze">4. The Ultimate Key: Your Gaze (Angwang)</h2>
+<p>Master face readers constantly reiterate: "You cannot easily change the shape of your eyes, but you have absolute control over your Angwang (Eye Light)." You could have the perfect Phoenix eyes, but if you are chronically exhausted, cynical, or hungover, the light dies, and your fortune plummets immediately.</p>
+<ul>
+  <li><strong>The Sharp, Steady Gaze:</strong> The eyes shine like polished obsidian. The gaze does not dart around nervously. This indicates a spirit filled with conviction and vital energy. When your Angwang is strong, your fortune is actively rising. You naturally command respect and attract high-level opportunities.</li>
+  <li><strong>The Cloudy, Unfocused Gaze:</strong> The eyes look sleepy, the whites are dull or bloodshot, and the gaze drifts. This is a critical warning sign in Gwansang. It means your internal energy is depleted and your "defensive shields" are down. During these periods, you are highly susceptible to bad investments, accidents, and manipulation. Do not start new ventures; prioritize deep rest.</li>
+</ul>
+
+<h2 id="conclusion">5. Conclusion: Cultivating Clear Eyes is Cultivating Luck</h2>
+<p>Your eyes are the real-time monitors of your soul's condition. If you want to improve your face reading, do not start at the plastic surgeon’s clinic; start with your lifestyle. Deep, restorative sleep (to heal the liver, which governs eye health in Eastern medicine), meditation to calm a scattered mind, and cultivating a positive, confident inner dialogue will physically change the light emitting from your eyes. When your spirit is clear, your eyes will shine like stars, and that light alone is enough to illuminate the path to your greatest success.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/face-reading/health-face" style="text-decoration: underline; color: #f9d976;">[Related] Face Reading for Health: What Your Eye Area Reveals About Your Liver</a></p>
+  <p><a href="/en/face-reading/eyebrow-reading" style="text-decoration: underline; color: #f9d976;">[Related] Eyebrow Reading: How Brows Frame Your Eyes for Leadership</a></p>
+</div>
+</section>
+    `,
+    faq: [
+      { q: '쌍꺼풀 수술을 하면 관상이 좋아지나요?', a: '작은 눈을 크게 뜨게 하여 답답한 인상을 개선하고 자신감을 얻는다면 긍정적입니다. 하지만 본래의 치밀한 분석력이 필요한 직업(연구직 등)이라면 무조건 큰 눈이 유리한 것은 아닙니다. 자신의 직업과 기질에 맞게 선택해야 합니다.' },
+      { q: '짝눈은 무조건 나쁜 관상인가요?', a: '절대 아닙니다. 짝눈(음양안)은 이중적인 매력과 탁월한 두뇌 회전을 의미하여, 오히려 현대 사회에서는 사업가나 예술가로서 대성할 수 있는 매우 유능한 관상으로 평가받습니다.' },
+      { q: '눈빛(안광)을 맑게 하려면 어떻게 해야 하나요?', a: '한의학적으로 눈은 간(肝)의 건강과 직결됩니다. 충분한 수면, 금주, 스마트폰 사용 줄이기 등 간을 쉬게 하는 것이 첫 번째이며, 명상과 독서를 통해 마음의 번뇌를 비워낼 때 눈빛이 가장 맑아집니다.' },
+    ],
+    faqEn: [
+      { q: 'Does double eyelid surgery improve my fortune?', a: 'If it brightens a heavy expression and significantly boosts your self-confidence, the energetic shift is positive. However, if your career requires intense focus and negotiation (like law or research), the original "hidden" nature of your monolids might actually be an advantage. Altering them changes your social aura.' },
+      { q: 'Are asymmetric eyes (one larger than the other) bad luck?', a: 'Not at all. In Gwansang, asymmetric eyes (Yin-Yang eyes) indicate a highly adaptable, multi-dimensional thinker. They are frequently found among highly successful entrepreneurs, strategists, and artists who can navigate complex situations brilliantly.' },
+      { q: 'How can I improve my "Angwang" (Eye Light)?', a: 'In Eastern medicine, the eyes are directly connected to the liver. The most practical way to brighten your gaze is deep sleep, reducing alcohol, and limiting screen time to let the liver rest. Spiritually, clearing your mind of anxiety through meditation naturally restores the piercing light in your eyes.' },
+    ],
+    relatedPosts: [
+      { slug: 'wealth-face', category: 'face-reading', title: '재물 관상: 코와 입에 숨겨진 부의 비밀' },
+      { slug: 'health-face', category: 'face-reading', title: '관상과 건강: 얼굴색으로 보는 운세 신호' },
+    ],
+  },
 ];
