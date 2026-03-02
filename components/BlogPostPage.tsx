@@ -68,7 +68,7 @@ export default function BlogPostPage({ post, locale }: Props) {
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: isKo ? '홈' : 'Home', item: `${baseUrl}/${locale}` },
-      { '@type': 'ListItem', position: 2, name: displayCategory, item: `${baseUrl}/${locale}/${post.category}` },
+      { '@type': 'ListItem', position: 2, name: displayCategory, item: `${baseUrl}/${locale}/${categoryPath}` },
       { '@type': 'ListItem', position: 3, name: displayTitle, item: postUrl },
     ],
   };
@@ -107,7 +107,7 @@ export default function BlogPostPage({ post, locale }: Props) {
         <nav className="text-sm text-white/50 mb-4 flex gap-2">
           <Link href={`/${locale}`} className="hover:text-yellow-300">{isKo ? '홈' : 'Home'}</Link>
           <span>/</span>
-          <Link href={`/${locale}/${post.category}`} className="hover:text-yellow-300">
+          <Link href={`/${locale}/${categoryPath}`} className="hover:text-yellow-300">
             {displayCategory}
           </Link>
           <span>/</span>

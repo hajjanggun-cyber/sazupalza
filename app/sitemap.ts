@@ -6,7 +6,8 @@ const locales = ['ko', 'en'];
 
 const routes = [
   '', '/saju', '/name', '/face', '/mbti', '/privacy', '/terms', '/contact',
-  '/saju-analysis', '/gwansang-analysis', '/seongmyeong-analysis', '/personality-analysis', '/combined'
+  '/saju-analysis', '/gwansang-analysis', '/seongmyeong-analysis', '/personality-analysis', '/combined',
+  '/face-reading', '/name-reading', '/compatibility'
 ];
 
 // localePrefix: 'as-needed' 설정으로 인해 기본 로케일(ko)은 prefix 없이 접근됨
