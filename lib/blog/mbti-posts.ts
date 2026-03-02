@@ -1044,4 +1044,168 @@ export const mbtiPosts: BlogPost[] = [
       { slug: 'infj-saju', category: 'mbti', title: 'INFJ 사주 분석: 희귀 성격의 비밀' },
     ],
   },
+  {
+    slug: 'mbti-love',
+    title: 'MBTI와 사주 연애운: 내 성격에 맞는 완벽한 짝 찾기',
+    seoTitle: 'MBTI 연애 궁합: 사주 일지(배우자궁)와 성격 유형으로 보는 연애운 완벽 가이드',
+    seoTitleEn: 'MBTI Love Guide: Romance and Compatibility in Korean Saju',
+    description: '나는 왜 매번 비슷한 사람과 연애할까요? MBTI 연애 스타일과 사주 명리학의 일지(배우자궁)를 결합하여 나에게 완벽하게 맞는 천생연분을 찾는 3,000자 전문 해설입니다.',
+    descriptionEn: 'Discover your relationship patterns by combining MBTI romance styles with the Saju Spouse Palace (Ilji). Find your perfect match with Eastern and Western wisdom.',
+    keywords: ['MBTI 연애', '사주 연애운', '일지 궁합', '배우자운', '성격 궁합'],
+    keywordsEn: ['MBTI Romance', 'Saju Love Luck', 'Spouse Palace', 'Korean Relationship Compatibility', 'Love Saju'],
+    publishedAt: '2026-03-02',
+    category: 'mbti',
+    toc: [
+      { id: 'love-patterns', title: '1. 반복되는 연애 패턴의 비밀' },
+      { id: 'mbti-love-style', title: '2. MBTI 4그룹의 연애 지향점' },
+      { id: 'saju-spouse-palace', title: '3. 사주 일지(日支): 내 무의식의 이상형' },
+      { id: 'perfect-match', title: '4. MBTI와 일지로 찾는 완벽한 궁합' },
+      { id: 'conclusion', title: '5. 결론: 나를 아는 것이 사랑의 시작' },
+    ],
+    tocEn: [
+      { id: 'love-patterns', title: '1. The Secret of Repetitive Romance Patterns' },
+      { id: 'mbti-love-style', title: '2. Love Styles of the 4 MBTI Groups' },
+      { id: 'saju-spouse-palace', title: '3. Saju Spouse Palace (Ilji)' },
+      { id: 'perfect-match', title: '4. Finding the Perfect Match' },
+      { id: 'conclusion', title: '5. Conclusion: Knowing Self is Knowing Love' },
+    ],
+    contentKo: `
+<section>
+<p>우리는 흔히 "이번에는 절대 예전 같은 사람 안 만날 거야!"라고 다짐하지만, 정신을 차려보면 과거와 똑같은 패턴의 사람과 연애를 하고 있는 자신을 발견하곤 합니다. 왜 우리는 이성적으로는(MBTI) 나에게 안 맞는다는 것을 알면서도, 본능적으로는(사주) 특정한 기운을 가진 사람에게 강렬하게 끌리는 것일까요?</p>
+
+<p>MBTI가 우리가 의식적으로 선호하는 <strong>'연애의 방식(데이트 스타일, 연락 빈도, 애정 표현)'</strong>을 보여준다면, 사주 명리학에서 태어난 날의 지지(地支)인 일지(日支), 즉 <strong>'배우자궁'</strong>은 우리가 무의식적으로 갈망하는 <strong>'영혼의 결핍과 이상형'</strong>을 보여줍니다. 이 두 가지를 결합하면 내가 왜 특정 유형의 사람에게만 심장이 뛰는지, 그리고 나와 진짜 평생을 함께할 수 있는 '진짜 짝'은 어떤 사람인지 정확히 해독할 수 있습니다. 지금부터 MBTI와 사주 일지로 당신의 연애 세포를 완벽하게 분석해 드립니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/mbti/compatibility-table" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">MBTI별 사주 일주 궁합표: 16유형과 찰떡궁합 찾기</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 일주(日柱) 완전정복: 내 사주의 배우자복 읽는 법</a></li>
+  </ul>
+</div>
+
+<h2 id="love-patterns">1. 반복되는 연애 패턴의 비밀: 의식과 무의식의 충돌</h2>
+<p>머리로는 다정하고 세심한 사람(ISFJ)을 원하면서, 막상 심장이 뛰는 상대는 항상 통제 불능의 나쁜 남자/여자(ESTP)인 경우가 있습니다. 이는 MBTI의 의식적 선호도와 사주 배우자궁의 무의식적 끌림이 충돌하기 때문입니다. 성공적인 연애를 위해서는 내가 '원한다고 생각하는 사람'이 아니라, 내 영혼의 구조가 '진짜로 필요로 하는 사람'이 누구인지 먼저 파악해야 합니다.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">💖 나의 사주 배우자궁(일지) 무료 확인하기 →</a>
+</div>
+
+<h2 id="mbti-love-style">2. MBTI 4그룹의 연애 지향점 (내가 원하는 연애 방식)</h2>
+
+<h3>NF 외교관형 (INFJ, INFP, ENFJ, ENFP): 영혼의 교감</h3>
+<p>NF 유형에게 연애는 단순한 일상의 공유를 넘어선 '영혼의 결합'입니다. 이들은 가벼운 만남을 극도로 싫어하며, 나의 깊은 내면과 철학을 이해해 줄 소울메이트를 찾습니다. 물질적인 선물보다는 진심이 담긴 긴 편지 한 장에 눈물을 흘리는 로맨티스트들입니다.</p>
+
+<h3>NT 분석가형 (INTJ, INTP, ENTJ, ENTP): 지적 자극과 성장</h3>
+<p>NT 유형은 사랑에 빠질 때도 상대방의 '지성'에 가장 먼저 반합니다. 감정적인 징징거림이나 비논리적인 갈등을 매우 힘들어하며, 자신에게 지적인 자극을 주고 함께 성장할 수 있는 똑똑한 파트너를 원합니다. 연인인 동시에 최고의 토론 파트너가 되어야 합니다.</p>
+
+<h3>SJ 관리자형 (ISTJ, ISFJ, ESTJ, ESFJ): 안정과 책임감</h3>
+<p>SJ 유형에게 사랑은 곧 '책임과 헌신'입니다. 불같이 타오르는 드라마틱한 로맨스보다는, 매일 같은 시간에 연락하고 주말마다 함께 장을 보는 평온한 일상을 원합니다. 이들에게 최고의 애정 표현은 변함없는 신뢰와 경제적/정서적 안정감입니다.</p>
+
+<h3>SP 탐험가형 (ISTP, ISFP, ESTP, ESFP): 현재의 즐거움과 자유</h3>
+<p>SP 유형은 '지금 이 순간' 나와 가장 즐겁게 놀 수 있는 사람에게 끌립니다. 심각한 미래 계획이나 구속을 싫어하며, 함께 맛집을 탐방하고 즉흥적인 여행을 떠나는 액티비티가 연애의 핵심입니다. 각자의 자유를 철저히 존중해 주어야 관계가 유지됩니다.</p>
+
+<h2 id="saju-spouse-palace">3. 사주 일지(日支): 내 무의식이 끌리는 십성(배우자궁)</h2>
+<p>사주의 태어난 날(일주)의 아래 글자인 '일지'는 <strong>배우자궁</strong>을 의미합니다. 이곳에 어떤 십성(十星)이 자리 잡고 있느냐에 따라 내가 본능적으로 끌리는 이성의 타입이 결정됩니다.</p>
+
+<ul>
+  <li><strong>일지가 정관/편관(관성)인 사람:</strong> <strong>"나를 이끌어줄 존경할 수 있는 사람."</strong> 자신보다 능력이 뛰어나거나 사회적 지위가 있어 자신이 기댈 수 있는 리더형(SJ, NT)에게 본능적으로 끌립니다.</li>
+  <li><strong>일지가 정재/편재(재성)인 사람:</strong> <strong>"나를 즐겁게 해주고 현실적인 능력이 있는 사람."</strong> 유머 감각이 뛰어나고 센스가 있으며, 경제적인 감각이 좋은 현실주의자(SP, SJ)에게 매력을 느낍니다.</li>
+  <li><strong>일지가 식신/상관(식상)인 사람:</strong> <strong>"내가 돌봐주고 키워주고 싶은 사람."</strong> 모성애/부성애가 강해 상대방이 다소 철이 없거나 자유로운 영혼(NF, SP)이더라도 귀엽게 여기고 헌신적으로 보살핍니다.</li>
+  <li><strong>일지가 정인/편인(인성)인 사람:</strong> <strong>"나를 다정하게 감싸안아줄 엄마 같은 사람."</strong> 나의 투정이나 감정 기복을 묵묵히 받아주고 정신적인 지주가 되어주는 포용력 넓은 사람(NF)을 무의식적으로 갈망합니다.</li>
+</ul>
+
+<h2 id="perfect-match">4. MBTI와 일지로 찾는 완벽한 궁합의 예시</h2>
+
+<h3>갈등 해결의 마스터키</h3>
+<p>만약 당신이 <strong>ENFP(자유로운 영혼)</strong>인데, 사주 일지에 <strong>정관(바른 규칙)</strong>이 있다면 어떨까요? 당신은 평소에는 자유분방하게 행동하지만, 연애를 할 때만큼은 자신을 꽉 잡아주고 통제해 줄 수 있는 ISTJ나 ESTJ 같은 '엄격한 관리자'에게 치명적으로 끌립니다. MBTI상으로는 상극이지만, 사주 일지의 무의식적 요구가 충족되기 때문에 오히려 안정적인 연애를 이어가게 됩니다.</p>
+
+<h3>악연을 피하는 개운법</h3>
+<p>자신이 <strong>일지 식상(내가 돌봐줘야 하는 팔자)</strong>을 가졌는데 <strong>ISFJ(헌신적인 성격)</strong>라면? 이 사람은 평생 '나쁜 남자/여자'나 '능력 없는 사람'만 만나 모든 것을 다 퍼주고 상처받는 패턴을 반복할 확률이 100%입니다. 이 끊임없는 헌신의 굴레를 끊기 위해서는, 봉사나 반려동물 키우기 등 다른 곳으로 헌신(식상)의 기운을 빼내고, 연애 상대를 고를 때는 철저하게 조건을 따지는 이성적인 노력(T의 활성화)이 필수적입니다.</p>
+
+<h2 id="conclusion">5. 결론: 나를 아는 것이 사랑의 시작</h2>
+<p>우주에 완벽한 인간은 없듯, 완벽한 궁합도 없습니다. 사랑의 실패는 상대방이 나빠서가 아니라, 내 안에 있는 <strong>'의식적 바람(MBTI)'과 '무의식적 결핍(사주 일지)'</strong>의 불일치를 내가 알지 못했기 때문입니다. 이제 당신의 마음의 소리와 운명의 지도를 나란히 펼쳐 보십시오. 내가 진정으로 원하는 사랑의 모습이 명확해질 때, 당신의 영혼을 채워줄 진짜 인연이 당신 앞에 나타날 것입니다.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/saju/day-pillar" style="text-decoration: underline; color: #f9d976;">[관련글] 사주 일주(日柱) 완전정복: 내 사주의 배우자복 읽는 법</a></p>
+  <p><a href="/mbti/mbti-compatibility" style="text-decoration: underline; color: #f9d976;">[관련글] MBTI 궁합 완전정복: 최악의 관계를 사주로 푸는 솔루션</a></p>
+</div>
+</section>
+    `,
+    contentEn: `
+<section>
+<p>We often tell ourselves, "I will never date someone like my ex again," only to wake up six months later dating someone with the exact same energetic profile. Why do we consciously know what we want (MBTI), yet repeatedly fall for people who provide what we subconsciously crave (Saju)?</p>
+
+<p>In the realm of relationships, your MBTI type describes your <strong>"Conscious Romance Style"</strong>—how you prefer to text, date, and express affection. But in Korean Saju, the Day Branch (the bottom character of your birth day) is the <strong>Spouse Palace (Ilji)</strong>. It reveals your deep <strong>"Unconscious Voids"</strong>—the exact energetic frequency you biologically and spiritually crave to feel whole. When your MBTI preferences clash with your Spouse Palace cravings, you experience the classic "my head says no, but my heart says yes" dilemma. This guide fuses Western typology with Eastern fate analysis to help you break your toxic cycles and decode your true romantic destiny.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/mbti/compatibility-table" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">MBTI & Saju Match Table: Find Your Perfect Day Pillar</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Saju Day Pillar Guide: Reading Your Spouse Luck</a></li>
+  </ul>
+</div>
+
+<h2 id="love-patterns">1. The Secret of Repetitive Romance Patterns</h2>
+<p>You might consciously want a gentle, emotionally available partner (ISFJ), but your heart only races for chaotic, unpredictable rebels (ESTP). This is not stupidity; this is an elemental collision. Your MBTI mind is seeking safety, but your Saju Spouse Palace is starving for Fire and Wood (excitement and unpredictability). To achieve lasting love, you must stop shopping for the partner your ego <em>thinks</em> it wants, and start understanding the elemental nourishment your soul <em>actually</em> requires.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">💖 Discover Your Saju Spouse Palace for Free →</a>
+</div>
+
+<h2 id="mbti-love-style">2. The Conscious Checklists: MBTI Love Styles</h2>
+
+<h3>NF Idealists (INFJ, INFP, ENFJ, ENFP): Soul Deep Connection</h3>
+<p>For NFs, romance is a spiritual merger, not a casual hobby. They loathe superficial dating and seek a "Soulmate" who can understand their complex inner philosophy. They are extreme romantics who value a deeply written letter far more than an expensive luxury gift.</p>
+
+<h3>NT Analysts (INTJ, INTP, ENTJ, ENTP): Intellectual Stimulation</h3>
+<p>NTs fall in love through the brain. They are profoundly allergic to emotional manipulation and illogical drama. They seek an intellectual equal—a partner who challenges their ideas, debates fiercely, and grows alongside them. For an NT, the highest form of romance is mutual competence.</p>
+
+<h3>SJ Sentinels (ISTJ, ISFJ, ESTJ, ESFJ): Reliability and Loyalty</h3>
+<p>For SJs, love equals responsibility. They aren't looking for a cinematic, turbulent romance; they want a co-pilot for life. Their love language is consistency—showing up on time, paying the bills, and building a secure foundation. Trust and predictability are their ultimate aphrodisiacs.</p>
+
+<h3>SP Explorers (ISTP, ISFP, ESTP, ESFP): Present-Moment Joy</h3>
+<p>SPs live in the absolute present. They are attracted to partners who can drop everything for a spontaneous road trip or a night out. They resent heavy, suffocating conversations about the distant future. To keep an SP in love, you must keep the relationship fun, physically engaging, and free of unnecessary restrictions.</p>
+
+<h2 id="saju-spouse-palace">3. The Spouse Palace (Ilji): Your Unconscious Craving</h2>
+<p>The bottom character of your Saju Day Pillar (Ilji) is your Spouse Palace. The "Ten Gods" energy sitting in this palace dictates the exact psychological dynamic you will constantly attract.</p>
+
+<ul>
+  <li><strong>Authority Star (Gwan-seong) in the Palace:</strong> <strong>"I crave someone to look up to."</strong> You are biologically wired to be attracted to powerful, highly competent, or slightly dominating figures (often NT or SJ types). You want a leader who provides strict boundaries and social status.</li>
+  <li><strong>Wealth Star (Jae-seong) in the Palace:</strong> <strong>"I crave fun and practical capability."</strong> You are drawn to people with great aesthetic sense, humor, and a sharp instinct for making money (often SP or SJ types). You want a partner who makes reality comfortable and enjoyable.</li>
+  <li><strong>Expression Star (Sik-sang) in the Palace:</strong> <strong>"I crave someone I can nurture."</strong> You possess immense parental energy in romance. You are helplessly attracted to free spirits, wounded birds, or people who seem slightly irresponsible (often NF or SP types) because your soul demands someone to take care of.</li>
+  <li><strong>Knowledge Star (In-seong) in the Palace:</strong> <strong>"I crave a parental figure."</strong> You subconsciously seek a partner who acts like a nurturing mother or a protective father. You want endless patience, emotional absorption, and someone (often NF types) who will tolerate your emotional fluctuations without judging.</li>
+</ul>
+
+<h2 id="perfect-match">4. Fusing MBTI and Saju for the Perfect Match</h2>
+
+<h3>The Paradox Resolution</h3>
+<p>Imagine you are an <strong>ENFP (Free Spirit)</strong>, but your Saju Spouse Palace holds the <strong>Authority Star (Strict Rules)</strong>. You act wild and independent, but in relationships, you are fatally attracted to rigid, highly disciplined "Managers" like an ISTJ. MBTI compatibility says this is a nightmare clash. Saju explains that it is actually a perfect match: your chaotic outer energy desperately requires the heavy anchor of their authority to feel safe.</p>
+
+<h3>Breaking Toxic Cycles (Gaewun)</h3>
+<p>What if you are an <strong>ISFJ (The Ultimate Giver)</strong> and your Spouse Palace holds the <strong>Expression Star (The Urge to Nurture the Weak)</strong>? You are doomed to attract completely useless, toxic partners who drain you dry. To break this Saju curse, you must "exhaust" that nurturing energy elsewhere—adopt a rescue dog, volunteer aggressively, or mentor juniors at work. By redirecting that energy, you can finally use your MBTI logic (S and J) to choose a healthy, competent partner instead of another charity case.</p>
+
+<h2 id="conclusion">5. Conclusion: Knowing Self is Knowing Love</h2>
+<p>There is no flawless partner in the universe, just as there is no flawless astrological chart. Romantic tragedy occurs when we fail to understand the vast gap between our conscious preferences (MBTI) and our unconscious cosmic cravings (Saju). Lay both maps on the table. When you finally understand what your soul is truly searching for, you will stop chasing illusions and finally recognize the real love standing right in front of you.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/saju/day-pillar" style="text-decoration: underline; color: #f9d976;">[Read Next] Saju Day Pillar Guide: Reading Your Destiny Protagonist</a></p>
+  <p><a href="/en/mbti/mbti-compatibility" style="text-decoration: underline; color: #f9d976;">[Read Next] MBTI Compatibility + Saju Remedies for Relationship Friction</a></p>
+</div>
+</section>
+    `,
+    faq: [
+      { q: 'MBTI 궁합과 사주 궁합이 다르게 나오면 어떤 걸 믿어야 하나요?', a: 'MBTI는 연애 초기의 소통 방식에 중요하고, 사주 일지 궁합은 결혼이나 장기적인 동거 등 삶을 공유할 때의 근본적인 만족감을 결정합니다. 장기적인 관계에서는 사주 궁합의 영향력이 훨씬 강하게 나타납니다.' },
+      { q: '제 사주 배우자궁에 기운이 안 좋다고 하는데 평생 혼자 살아야 하나요?', a: '절대 아닙니다. 배우자궁이 불안정하다는 것은 남들처럼 평범한 형태(가부장제 등)의 결혼이 안 맞는다는 뜻입니다. 주말 부부, 사내 연애, 혹은 딩크족 등 서로의 자유를 존중하는 현대적인 연애 방식을 택하면 오히려 아주 행복하게 살 수 있습니다.' },
+      { q: '저와 똑같은 MBTI를 가진 사람과 연애하면 잘 맞을까요?', a: '처음에는 거울을 보듯 편안하지만, 사주 오행마저 똑같다면 둘 다 같은 결핍을 가지게 되어 위기 상황에서 함께 무너질 수 있습니다. MBTI는 같더라도 사주 오행은 서로 상호 보완되는(목화와 금수) 관계가 가장 이상적입니다.' },
+    ],
+    faqEn: [
+      { q: 'If my MBTI compatibility is great but Saju compatibility is bad, which do I trust?', a: 'MBTI dictates the honeymoon phase and daily communication. Saju dictates long-term survival, stress management, and marriage dynamics. For a lifelong partnership, Saju compatibility is ultimately the heavier, more decisive factor.' },
+      { q: 'My Saju reading says my Spouse Palace is "broken." Will I die alone?', a: 'Absolutely not. A "broken" or unstable Spouse Palace simply means traditional, suffocating marriage models will destroy you. You are destined for non-traditional setups: long-distance relationships, DINK (Double Income No Kids), or maintaining highly independent lives while legally married. Embrace the unconventional.' },
+      { q: 'Should I date someone with the exact same MBTI as me?', a: 'At first, it feels like dating your clone—easy and effortless. However, if your Saju elemental charts are also identical, you will share the exact same weaknesses. In a crisis, you will both crash. The best match is someone with a similar MBTI communication style, but a totally opposite, complementary Saju elemental chart.' },
+    ],
+    relatedPosts: [
+      { slug: 'mbti-compatibility', category: 'mbti', title: 'MBTI 궁합 완전정복: 사주로 극복하기' },
+      { slug: 'compatibility-table', category: 'mbti', title: 'MBTI별 찰떡궁합 사주 일주 매칭' },
+    ],
+  },
 ];
