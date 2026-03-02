@@ -625,4 +625,156 @@ export const bokhapPosts: BlogPost[] = [
       { slug: 'business-partner', category: 'compatibility', title: '동업자 궁합: 성공을 부르는 파트너 찾기' },
     ],
   },
+  {
+    slug: 'business-partner',
+    title: '동업자 궁합: 돈 버는 파트너십을 완성하는 사주와 MBTI의 비밀',
+    seoTitle: '사업 파트너 동업자 궁합: 사주 재물운과 MBTI로 보는 성공하는 비즈니스 궁합',
+    seoTitleEn: 'Business Partner Saju: Finding Your Wealth Co-Founder',
+    description: '동업하면 진짜 망할까? 성공적인 사업을 위해 반드시 피해야 할 상극 사주와, 내 사업의 부족한 운을 채워줄 최고의 MBTI 파트너십을 3,000자 전문 해설로 분석합니다.',
+    descriptionEn: 'Thinking of starting a business with someone? Discover how to find the perfect co-founder and avoid toxic partnerships using Saju and MBTI in this expert guide.',
+    keywords: ['동업자궁합', '사업파트너궁합', '사주동업', 'MBTI비즈니스', '재물운궁합'],
+    keywordsEn: ['Business Compatibility', 'Co-founder Saju', 'MBTI Business Partner', 'Korean Wealth Luck', 'Startup Astrology'],
+    publishedAt: '2026-03-02',
+    category: 'compatibility',
+    toc: [
+      { id: 'business-reality', title: '1. 동업: 연애보다 냉혹한 생존의 궁합' },
+      { id: 'saju-partnership', title: '2. 사주 십성으로 보는 환상의 동업 조화' },
+      { id: 'mbti-business', title: '3. MBTI로 보는 완벽한 코파운더(Co-founder)' },
+      { id: 'toxic-business', title: '4. 무조건 피해야 할 파국(破局)의 동업자' },
+      { id: 'conclusion', title: '5. 결론: 계약서는 머리로, 파트너는 운명으로' },
+    ],
+    tocEn: [
+      { id: 'business-reality', title: '1. Business: The Most Brutal Compatibility' },
+      { id: 'saju-partnership', title: '2. Saju Ten Gods in Partnerships' },
+      { id: 'mbti-business', title: '3. The Perfect MBTI Co-Founder' },
+      { id: 'toxic-business', title: '4. Toxic Partnerships to Avoid' },
+      { id: 'conclusion', title: '5. Conclusion: Contracts and Destiny' },
+    ],
+    contentKo: `
+<section>
+<p>흔히 어른들은 "가족하고도 동업은 하는 게 아니다"라고 말씀하십니다. 연애는 마음이 식으면 헤어지면 그만이지만, 동업은 감정이 상하는 순간 곧바로 '막대한 금전적 손실'과 '법적 분쟁'으로 이어지기 때문입니다. 사업 파트너를 고르는 것은 내 재산과 인생의 미래를 걸고 배에 함께 타는 것과 같습니다.</p>
+
+<p>성공적인 동업은 단순히 "우리는 친하니까 잘 맞을 거야"라는 막연한 기대감으로는 절대 이루어지지 않습니다. 동양의 사주 명리학과 서양의 MBTI는 비즈니스 환경에서 두 사람의 역할 분담과 위기관리 능력을 가장 정확하게 예측해 주는 훌륭한 도구입니다. 나와 똑같은 재능을 가진 사람은 동업자가 아니라 경쟁자일 뿐입니다. 진정한 동업의 시너지는 '내가 못하는 것을 완벽하게 해내는 기운'을 만났을 때 폭발합니다. 이 글에서는 돈을 부르는 최강의 비즈니스 궁합 공식을 낱낱이 파헤칩니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/saju/ten-gods" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 십성(十星) 가이드: 내 사주에는 돈복(재성)이 있을까?</a></li>
+    <li style="margin-bottom: 4px;"><a href="/mbti/mbti-career" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">MBTI와 사주로 찾는 천직: 내 성격에 맞는 직업운</a></li>
+  </ul>
+</div>
+
+<h2 id="business-reality">1. 동업: 연애보다 냉혹한 생존의 궁합</h2>
+<p>비즈니스 궁합이 연애 궁합과 가장 다른 점은 <strong>'목적성'</strong>입니다. 연애는 '정서적 안정'이 목표라면, 동업은 '수익 창출'이 유일한 목표입니다. 따라서 사주 궁합을 볼 때도 감정적 교류를 뜻하는 일간(日干)의 합보다는, 각자가 가진 <strong>십성(十星, 사회적 무기)</strong>의 조화가 압도적으로 중요합니다. 내가 아이디어가 뛰어나다면, 상대방은 그 아이디어를 돈으로 바꾸는 추진력이 있어야 합니다. 두 명 다 아이디어만 내거나 두 명 다 관리만 하려 든다면 그 사업은 반드시 망합니다.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🤝 우리 동업해도 될까? 무료 비즈니스 궁합 보기 →</a>
+</div>
+
+<h2 id="saju-partnership">2. 사주 십성으로 보는 환상의 동업 조화</h2>
+<p>명리학의 십성(十星) 이론을 활용하면, 비즈니스에서 각자의 역할(Role)을 완벽하게 분담할 수 있습니다. 가장 성공 확률이 높은 조합은 다음과 같습니다.</p>
+
+<h3>식상(아이디어)과 재성(실행력)의 만남: 폭발적인 성장</h3>
+<p>사주에 <strong>식상(食傷)</strong>이 발달한 사람은 번뜩이는 아이디어와 뛰어난 화술, 그리고 제품을 기획하는 능력이 탁월합니다. 하지만 마무리 능력이 부족합니다. 이때 사주에 <strong>재성(財星)</strong>이 강한 파트너가 결합하면 기적이 일어납니다. 재성은 결과를 도출하고 시장의 흐름(돈 냄새)을 읽어내는 능력이기 때문입니다. 식상이 만들고 재성이 팔아치우는 완벽한 창업 콤비가 탄생합니다.</p>
+
+<h3>관성(관리)과 식상(영업)의 만남: 안정적인 시스템</h3>
+<p>사주에 <strong>관성(官星)</strong>이 발달한 사람은 원칙을 준수하고 조직의 기틀을 잡는 '내부 관리자'의 역할을 완벽하게 수행합니다. 이들은 회사의 자금을 지키고 리스크를 관리합니다. 반면 <strong>식상(食傷)</strong>이 발달한 사람은 밖으로 나돌며 인맥을 넓히고 계약을 따내는 '외부 영업자'의 역할을 맡습니다. 이 두 기운이 만나면 회사는 절대 망하지 않는 단단한 성이 됩니다.</p>
+
+<h2 id="mbti-business">3. MBTI로 보는 완벽한 코파운더(Co-founder)</h2>
+<p>실리콘밸리의 많은 스타트업 투자자들은 창업자들의 MBTI를 확인합니다. 팀 내에 다양한 인지 기능이 섞여 있어야 위기 상황에서 다각도로 대응할 수 있기 때문입니다.</p>
+
+<h3>NT (전략가) + SJ (관리자)의 결합</h3>
+<p>스타트업 씬에서 가장 이상적으로 꼽히는 조합 중 하나입니다. <strong>NT 유형(INTJ, ENTJ 등)</strong>은 5년 뒤의 시장을 내다보고 비전과 전략을 짜는 CEO의 역할을 맡습니다. 하지만 이들은 종종 세부적인 디테일을 놓칩니다. 이때 <strong>SJ 유형(ISTJ, ESTJ 등)</strong>의 COO가 파트너로 나서면, NT의 비현실적인 아이디어를 현실적인 엑셀 표로 정리하고 매일의 업무를 통제하여 사업을 궤도에 올려놓습니다.</p>
+
+<h3>NF (영감) + ST (실용성)의 결합</h3>
+<p><strong>NF 유형(ENFP, INFJ 등)</strong>은 사람들의 마음을 움직이는 마케팅과 브랜딩의 천재들입니다. 이들은 회사의 문화를 만들고 고객의 충성도를 이끌어냅니다. 하지만 멘탈이 약하고 숫자에 약합니다. 이때 피도 눈물도 없는 이성과 철저한 계산 능력을 갖춘 <strong>ST 유형(ISTP, ESTP 등)</strong>이 파트너가 되면, NF가 흔들릴 때마다 든든한 방패 역할을 하며 회사의 수익 모델을 사수합니다.</p>
+
+<h2 id="toxic-business">4. 무조건 피해야 할 파국(破局)의 동업자</h2>
+<p>비즈니스에서 동업을 피해야 하는 치명적인 흉상(凶相) 조합이 있습니다.</p>
+<ul>
+  <li><strong>비겁(比劫)이 너무 강한 자들의 동업:</strong> 사주에 나와 같은 기운인 '비겁'이 너무 많은 사람들은 자존심과 고집이 하늘을 찌릅니다. 이런 사람 둘이 동업을 하면 처음엔 의기투합하지만, 결국 사사건건 주도권 싸움을 벌이다가 원수가 되어 갈라섭니다.</li>
+  <li><strong>MBTI P(인식형)와 P의 결합:</strong> 융통성 있고 변화에 강한 P 유형은 스타트업 초기에 유리하지만, P와 P가 동업을 하면 결정적인 순간에 마무리가 되지 않습니다. 아이디어 회의만 주구장창 하다가 데드라인을 놓치고 사업이 흐지부지될 확률이 높습니다. 반드시 J(판단형) 유형의 직원을 고용해야 합니다.</li>
+</ul>
+
+<h2 id="conclusion">5. 결론: 계약서는 머리로, 파트너는 운명으로 고르라</h2>
+<p>비즈니스 파트너는 연인이나 가족보다 더 많은 시간을 함께 보내며 나의 현실적 삶을 좌우하는 사람들입니다. 동업을 고려하고 있다면, 그 사람이 나와 '얼마나 친한가'를 보지 말고, 그 사람의 사주와 MBTI가 '나의 결핍을 채워줄 수 있는가'를 철저히 계산하십시오.</p>
+<p>가장 좋은 동업자는 나를 편안하게 해주는 사람이 아니라, 나와 다른 시각으로 시장을 바라보며 나를 긴장시키고 보완해 주는 사람입니다. 운명의 화학반응(궁합)을 이해하고 서로의 역할을 정확히 세팅할 때, 당신의 비즈니스는 상상할 수 없는 부(富)의 시너지를 폭발시킬 것입니다.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/compatibility/friendship-compatibility" style="text-decoration: underline; color: #f9d976;">[관련글] 동성 친구 궁합: 내 인생을 끌어올려 줄 귀인 찾기</a></p>
+  <p><a href="/mbti/compatibility-table" style="text-decoration: underline; color: #f9d976;">[관련글] MBTI별 사주 일주 궁합표: 완벽한 매칭 가이드</a></p>
+</div>
+</section>
+    `,
+    contentEn: `
+<section>
+<p>There is an old Korean saying: "Never start a business with family or close friends." In romance, a breakup leaves you with a broken heart; in business, a bad partnership leaves you with a broken heart, crushing debt, and a lawsuit. Choosing a business partner or co-founder is the ultimate high-stakes gamble. You are tying your financial destiny and daily mental health to another human being's psychological and energetic blueprint.</p>
+
+<p>A successful partnership is never built on the fragile foundation of "We get along well." Korean Saju (Four Pillars) and Western MBTI are arguably the two most powerful diagnostic tools available for predicting exactly how a partnership will function under the brutal pressure of a startup environment. If you partner with someone who has the exact same Saju elements and MBTI functions as you, you haven't found a co-founder; you've found a competitor. True business synergy explodes when you find the exact elemental energy that your own constitution lacks. This guide reveals the formula for engineering a highly lucrative business partnership.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/saju/ten-gods" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">The Ten Gods: Mapping Your Talents and Wealth Luck</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/mbti/mbti-career" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">MBTI Career Guide: Find Your True Calling</a></li>
+  </ul>
+</div>
+
+<h2 id="business-reality">1. Business: The Most Brutal Compatibility Test</h2>
+<p>The primary difference between romantic Gunghap (compatibility) and business Gunghap is <strong>Objective Focus</strong>. Romance seeks emotional stability; business seeks aggressive profit generation. Therefore, when analyzing Saju for business, we care less about romantic Stem combinations and infinitely more about the balance of the <strong>Ten Gods (Sibseong)</strong>—the archetypes of social and functional power. If you are brilliant at generating ideas, your partner must possess the ruthless execution energy to monetize them. If both partners only want to brainstorm, or both only want to manage the accounting, the company will collapse.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🤝 Get Your Free Co-Founder Compatibility Analysis →</a>
+</div>
+
+<h2 id="saju-partnership">2. Saju Ten Gods: Engineering the Ultimate Synergy</h2>
+<p>By mapping the Ten Gods, we can engineer perfect role divisions. The most historically successful business combinations in Saju are:</p>
+
+<h3>Sik-sang (Ideas/Sales) + Jae-seong (Results/Wealth)</h3>
+<p>A person with strong <strong>Sik-sang (Expression Star)</strong> is a visionary. They have brilliant ideas, unparalleled networking charisma, and the ability to pitch products to anyone. However, they lack the patience to close the deal. Enter the partner with strong <strong>Jae-seong (Wealth Star)</strong>. The Wealth Star possesses a shark-like instinct for market value and operational efficiency. The Sik-sang partner creates the hype and brings in the leads; the Jae-seong partner structures the contracts and locks in the revenue. It is the ultimate Maker/Seller combo.</p>
+
+<h3>Gwan-seong (Authority/Structure) + Sik-sang (Innovation)</h3>
+<p>A person dominant in <strong>Gwan-seong (Authority Star)</strong> is a natural COO. They enforce rules, manage risk meticulously, and build the internal corporate structure. They keep the company from flying off a cliff. But they are not innovators. They must partner with a <strong>Sik-sang</strong> dominant individual who acts as the external disruptor, breaking rules and finding new markets. The innovator attacks the market, while the authority figure defends the castle. Together, they are indestructible.</p>
+
+<h2 id="mbti-business">3. The Perfect MBTI Co-Founder Combinations</h2>
+<p>Venture capitalists actively look for cognitive diversity in founding teams. A team of identical MBTI types has massive blind spots that the market will eventually exploit.</p>
+
+<h3>The NT (Strategist) + SJ (Operator) Formula</h3>
+<p>This is arguably the most coveted combination in the startup world. The <strong>NT type (INTJ, ENTJ)</strong> serves as the visionary CEO. They can see the industry landscape five years ahead and devise brilliant, high-level strategies. However, they despise mundane operational details. The <strong>SJ type (ISTJ, ESTJ)</strong> steps in as the pragmatic COO. They take the NT's abstract vision, build the massive Excel spreadsheets required to execute it, enforce the deadlines, and ensure payroll is met. The NT builds the map; the SJ drives the car.</p>
+
+<h3>The NF (Branding/Culture) + ST (Logic/Survival) Formula</h3>
+<p><strong>NF types (ENFP, INFJ)</strong> are the absolute masters of branding, community building, and customer evangelism. They give the company a "soul." However, their deep empathy makes them highly vulnerable to stress, and they often ignore profit margins in favor of ideals. They require a cold-blooded, fiercely logical <strong>ST type (ESTP, ISTP)</strong> partner. The ST acts as the company's bodyguard, ruthlessly cutting costs, negotiating hard contracts, and protecting the fragile NF from the brutal realities of the market.</p>
+
+<h2 id="toxic-business">4. Toxic Partnerships: The Guaranteed Failures</h2>
+<p>Saju and MBTI both warn against specific combinations that almost inevitably lead to corporate warfare or bankruptcy.</p>
+<ul>
+  <li><strong>The Clash of Extreme Bi-geob (Independence Stars):</strong> In Saju, "Bi-geob" represents extreme ego, competitiveness, and stubborn independence. If two people with dominant Bi-geob try to co-found a company, they will initially respect each other's alpha energy. However, within months, their inability to compromise or share the spotlight will result in a vicious, ego-driven civil war that destroys the business.</li>
+  <li><strong>The Double P (Perceiver) Nightmare:</strong> MBTI "P" types are highly adaptable, open-minded, and creative—essential traits for a startup pivot. But if both co-founders are P types, they will spend 90% of their time brainstorming and pivoting, and 10% actually executing. Deadlines will be treated as mere suggestions. A double-P team must immediately hire a strong "J" (Judging) operator to force them to finalize products and launch.</li>
+</ul>
+
+<h2 id="conclusion">5. Conclusion: Contracts from the Head, Partners from Destiny</h2>
+<p>When selecting a business partner, do not look for a clone of yourself, and do not prioritize how much fun you have grabbing drinks together. Look at their Saju chart and their MBTI stack and ask: <strong>"Do they possess the exact psychological armor and elemental weapons that I lack?"</strong></p>
+<p>The best co-founder is rarely the one who makes you feel the most comfortable. It is the one who views the market from a completely alien perspective, challenges your assumptions, and physically manages the areas of the business that drain your soul. When you align your cosmic voids through precise compatibility engineering, your partnership transcends friendship—it becomes a wealth-generating machine.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/compatibility/friendship-compatibility" style="text-decoration: underline; color: #f9d976;">[Read Next] Friendship Compatibility: Finding Your Nobleman</a></p>
+  <p><a href="/en/mbti/compatibility-table" style="text-decoration: underline; color: #f9d976;">[Read Next] MBTI & Saju Match Table: Your Ultimate Network Guide</a></p>
+</div>
+</section>
+    `,
+    faq: [
+      { q: '친구와 동업을 하려는데 궁합이 상극으로 나옵니다. 포기해야 하나요?', a: '아닙니다. 비즈니스에서 상극(예: 금과 목)은 오히려 일의 효율성을 극대화할 수 있습니다. 단, 친구로서의 감정적 기대를 버리고, 철저하게 업무를 분담(기획과 관리)하며, 이익 분배 계약서를 완벽하게 작성한다면 오히려 시너지가 납니다.' },
+      { q: '사주에 둘 다 재물운(재성)이 없으면 동업하면 안 되나요?', a: '둘 다 재성이 없다면 돈 관리가 안 되어 흑자 부도가 날 확률이 높습니다. 이 경우, 동업은 유지하되 회계와 자금 관리를 전담할 재무 책임자(재성과 관성이 강한 J유형)를 반드시 외부에서 영입해야 안전합니다.' },
+      { q: 'MBTI가 똑같은 사람끼리 동업하면 잘 맞지 않을까요?', a: '가장 위험한 생각입니다. MBTI가 똑같다는 것은 둘 다 "동일한 약점"을 가지고 있다는 뜻입니다. 위기 상황이 닥쳤을 때 누구 하나 보완해 줄 수 없어 한꺼번에 무너집니다. 동업은 나를 보완해 줄 정반대의 유형과 하는 것이 정석입니다.' },
+    ],
+    faqEn: [
+      { q: 'My best friend and I want to start a business, but our Saju reading says we are an "Opposite Clash." Should we stop?', a: 'Not necessarily. In business, a clash (like Metal chopping Wood) can actually drive massive productivity and efficiency. However, you must stop acting like "best friends" at work, establish ruthlessly clear role divisions, and sign a flawless legal operating agreement. Rely on contracts, not friendship.' },
+      { q: 'Neither of us has the "Wealth Star" (Jae-seong) in our Saju. Is our business doomed?', a: 'If neither founder has the Wealth Star, your financial management will likely be chaotic, risking bankruptcy even if sales are good. The remedy is mandatory: you must immediately hire a CFO or accountant who possesses strong Wealth and Authority stars (and is an SJ type) to lock down your cash flow.' },
+      { q: 'We have the exact same MBTI type. Won\'t that make us the perfect team?', a: 'This is the most dangerous misconception in startups. Having the exact same MBTI means you share the exact same catastrophic blind spots. When a crisis hits your blind spot, neither of you will see it coming, and you will crash together. Co-founders must have complementary, opposing strengths.' },
+    ],
+    relatedPosts: [
+      { slug: 'friendship-compatibility', category: 'compatibility', title: '동성 친구 궁합: 내 인생의 귀인 찾기' },
+      { slug: 'compatibility-table', category: 'mbti', title: 'MBTI별 찰떡궁합 사주 일주 매칭' },
+    ],
+  },
 ];
