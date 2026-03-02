@@ -30,7 +30,7 @@ export default async function CombinedPage({ params: { locale } }: Props) {
     const t = await getTranslations({ locale });
     const isKo = locale === 'ko';
 
-    const baseUrl = 'https://sajupalza.com';
+    const baseUrl = 'https://sajupalza.cc';
     const webAppJsonLd = {
         '@context': 'https://schema.org',
         '@type': 'WebApplication',

@@ -75,7 +75,7 @@ export default async function SajuPage({ params: { locale } }: Props) {
       { q: "What if I don't know my birth time?", a: "You can still get an analysis without knowing your birth time. Without the time, we analyze using 6 characters (year, month, day), which is less detailed than the full 8-character analysis but still reveals key temperament and fortune." },
     ];
 
-  const baseUrl = 'https://sajupalza.com';
+  const baseUrl = 'https://sajupalza.cc';
   const canonicalUrl = `${baseUrl}/${locale}/saju`;
 
   const articleJsonLd = {

@@ -63,7 +63,7 @@ export default async function NamePage({ params: { locale } }: Props) {
       { q: 'Will changing my name change my fortune?', a: 'Name reading provides reference information about the energy contained in names. For important decisions, please consult with a professional. Use this service only for entertainment and self-understanding purposes.' },
     ];
 
-  const baseUrl = 'https://sajupalza.com';
+  const baseUrl = 'https://sajupalza.cc';
   const canonicalUrl = `${baseUrl}/${locale}/name`;
 
   const articleJsonLd = {

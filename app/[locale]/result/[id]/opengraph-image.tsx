@@ -169,7 +169,7 @@ export default function OGImage({ params }: Props) {
             letterSpacing: '0.1em',
           }}
         >
-          sajupalza.com
+          sajupalza.cc
         </div>
       </div>
     ),

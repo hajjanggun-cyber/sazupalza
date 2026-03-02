@@ -30,7 +30,7 @@ export default async function SajuAnalysisPage({ params: { locale } }: Props) {
     unstable_setRequestLocale(locale);
     const isKo = locale === 'ko';
 
-    const baseUrl = 'https://sajupalza.com';
+    const baseUrl = 'https://sajupalza.cc';
     const jsonLd = {
         '@context': 'https://schema.org',
         '@type': 'WebApplication',

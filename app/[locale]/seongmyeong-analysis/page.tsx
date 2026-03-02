@@ -29,7 +29,7 @@ export default async function SeongmyeongAnalysisPage({ params: { locale } }: Pr
     unstable_setRequestLocale(locale);
     const isKo = locale === 'ko';
 
-    const baseUrl = 'https://sajupalza.com';
+    const baseUrl = 'https://sajupalza.cc';
     const jsonLd = {
         '@context': 'https://schema.org',
         '@type': 'WebApplication',
