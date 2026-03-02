@@ -354,8 +354,8 @@ export const seongmyeongPosts: BlogPost[] = [
 <p>오늘 자신의 이름을 소리 오행의 시각으로 다시 들여다보세요. 성씨의 초성에서 시작해 이름의 두 글자가 어떤 오행 흐름을 만드는지 확인하는 것—그것이 성명학적 자기 이해의 첫걸음입니다. 만약 소리 오행에 아쉬운 점이 있다면, 용신이 담긴 색상·방향·직업 환경으로 보완하는 개운법도 병행하면 효과적입니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/ko/seongmyeong/intro" style="text-decoration: underline; color: #f9d976;">[내부링크: 작명의 기술: 태어난 계절에 부족한 기운을 이름으로 채우기]</a></p>
-  <p><a href="/ko/seongmyeong/baby-naming" style="text-decoration: underline; color: #f9d976;">[내부링크: 자녀 작명 완벽 가이드: 사주 오행과 성명학을 동시에 만족하는 이름 짓기]</a></p>
+  <p><a href="/ko/seongmyeong/intro" style="text-decoration: underline; color: #f9d976;">[관련글] 성명학 비기: 한자 획수로 보는 이름의 운명</a></p>
+  <p><a href="/ko/seongmyeong/baby-naming" style="text-decoration: underline; color: #f9d976;">[관련글] 자녀 작명 완벽 가이드: 사주와 성명학 통합</a></p>
 </div>
 </section>
     `,
@@ -754,8 +754,8 @@ export const seongmyeongPosts: BlogPost[] = [
 <p>수리81수는 당신의 인생이 어떤 리듬으로 흘러갈지를 보여주는 지도와 같습니다. 하지만 숫자는 도구일 뿐, 그 숫자의 기운을 어떻게 활용하여 운명을 개척하느냐는 당신의 의지에 달려 있습니다. 자신의 수리를 알고 전략적으로 인생을 설계해 보세요.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p>[내부링크: 11번: 작명의 기술 - 부족한 사주 기운 채우기]</p>
-  <p>[내부링크: 13번: 개명 가이드 - 운을 리셋하는 법]</p>
+  <p><a href="/ko/seongmyeong/name-creation" style="text-decoration: underline; color: #f9d976;">[관련글] 작명의 기술: 태어난 계절에 맞는 이름 짓기</a></p>
+  <p><a href="/ko/seongmyeong/name-change" style="text-decoration: underline; color: #f9d976;">[관련글] 개명 가이드: 이름을 바꾸면 운명도 바뀐다</a></p>
 </div>
 </section>
     `,

@@ -57,8 +57,8 @@ export const gwansangPosts: BlogPost[] = [
 <p>관상보다 중요한 것은 '심상(心相)'입니다. 이목구비가 완벽해도 마음이 바르지 못하면 기운은 오래가지 못합니다. 부족한 이목구비라도 밝은 마음과 덕을 쌓으면 관상은 복스럽게 변합니다. 관상학의 진정한 가르침은 얼굴을 읽는 것이 아니라, 더 나은 얼굴을 위해 더 나은 삶을 사는 것에 있습니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/ko/gwansang/wealth-face" style="text-decoration: underline; color: #f9d976;">[내부링크: 재물 관상 완벽 정리 - 부자가 되는 코와 입의 비밀]</a></p>
-  <p><a href="/ko/gwansang/health-face" style="text-decoration: underline; color: #f9d976;">[내부링크: 얼굴색으로 보는 현재의 건강과 운의 흐름]</a></p>
+  <p><a href="/ko/gwansang/wealth-face" style="text-decoration: underline; color: #f9d976;">[관련글] 재물 관상: 코·입·귀로 보는 부자 얼굴의 비밀</a></p>
+  <p><a href="/ko/gwansang/health-face" style="text-decoration: underline; color: #f9d976;">[관련글] 얼굴색과 기색으로 보는 건강운</a></p>
 </div>
 </section>
     `,
@@ -179,8 +179,8 @@ export const gwansangPosts: BlogPost[] = [
 <p>재물 관상에서 형태보다 중요한 것이 기색입니다. 코에 윤기가 흐르고 입가가 맑으며 귀 색이 밝으면 재물운이 상승하는 확실한 신호입니다. 규칙적인 수면·균형 잡힌 식단·미소 습관이 얼굴의 기색을 개선하는 가장 확실한 방법이자 재물운 개운법입니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/ko/gwansang/self-diagnosis" style="text-decoration: underline; color: #f9d976;">[내부링크: 거울로 보는 나의 5년 후 성공운 자가진단 가이드]</a></p>
-  <p><a href="/ko/gwansang/forehead-reading" style="text-decoration: underline; color: #f9d976;">[내부링크: 이마 관상 완전정복 - 초년운과 부모복의 비밀]</a></p>
+  <p><a href="/ko/gwansang/self-diagnosis" style="text-decoration: underline; color: #f9d976;">[관련글] 거울로 보는 성공 관상 자가진단</a></p>
+  <p><a href="/ko/gwansang/forehead-reading" style="text-decoration: underline; color: #f9d976;">[관련글] 이마 관상 완전정복</a></p>
 </div>
 </section>
     `,
@@ -300,8 +300,8 @@ export const gwansangPosts: BlogPost[] = [
 <p>눈썹은 당신의 감정과 에너지를 보호하는 지붕입니다. 깨끗하고 단정하게 관리된 눈썹은 타인에게 신뢰감을 주고 당신의 기운을 안정시킵니다. 눈썹을 다듬는 5분이 그날의 첫인상과 대인 관계를 결정짓는 관상 경영의 시작입니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/ko/gwansang/mole-reading" style="text-decoration: underline; color: #f9d976;">[내부링크: 얼굴의 점 관상 - 복점과 흉점 구분하는 법]</a></p>
-  <p><a href="/ko/gwansang/intro" style="text-decoration: underline; color: #f9d976;">[내부링크: 관상학 입문 - 이목구비 기초 가이드]</a></p>
+  <p><a href="/ko/gwansang/mole-reading" style="text-decoration: underline; color: #f9d976;">[관련글] 점 관상: 길한 점과 흉한 점의 비밀</a></p>
+  <p><a href="/ko/gwansang/intro" style="text-decoration: underline; color: #f9d976;">[관련글] 관상학 입문: 얼굴로 보는 운명 완전 가이드</a></p>
 </div>
 </section>
     `,
@@ -435,8 +435,8 @@ export const gwansangPosts: BlogPost[] = [
 <p>당신의 얼굴색은 지금 당신이 어떤 삶을 살고 있는지 보여주는 가장 정직한 지표입니다. 매일 아침 거울을 보며 자신의 기색을 살피는 습관을 들이세요. 맑고 투명한 얼굴빛을 유지하려 노력하는 과정에서 당신의 건강과 운명은 자연스럽게 행운의 궤도에 진입하게 될 것입니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/ko/gwansang/self-diagnosis" style="text-decoration: underline; color: #f9d976;">[내부링크: 5년 후 나의 성공운 자가진단법]</a></p>
-  <p><a href="/ko/gwansang/intro" style="text-decoration: underline; color: #f9d976;">[내부링크: 관상학 기초 - 얼굴 부위별 명칭과 의미]</a></p>
+  <p><a href="/ko/gwansang/self-diagnosis" style="text-decoration: underline; color: #f9d976;">[관련글] 거울로 보는 성공 관상 자가진단</a></p>
+  <p><a href="/ko/gwansang/intro" style="text-decoration: underline; color: #f9d976;">[관련글] 관상학 입문: 얼굴로 보는 운명 완전 가이드</a></p>
 </div>
 </section>
     `,
@@ -572,8 +572,8 @@ export const gwansangPosts: BlogPost[] = [
 <p>모든 점을 뺄 필요는 없습니다. 당신의 매력을 돋보이게 하는 점은 그 자체로 훌륭한 복점입니다. 자신의 점이 어떤 의미인지 이해하고, 흉점은 제거·관리하고 복점은 살리는 지혜로운 관리로 당신의 운명을 밝게 가꾸어 보세요. 관상학은 당신의 점 하나를 통해 삶 전체를 더 깊이 읽어내는 인생의 나침반입니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/ko/gwansang/wealth-face" style="text-decoration: underline; color: #f9d976;">[내부링크: 부자가 되는 관상 - 재물운의 모든 것]</a></p>
-  <p><a href="/ko/gwansang/eyebrow-reading" style="text-decoration: underline; color: #f9d976;">[내부링크: 눈썹 관상 - 리더십과 인간관계 분석]</a></p>
+  <p><a href="/ko/gwansang/wealth-face" style="text-decoration: underline; color: #f9d976;">[관련글] 재물 관상: 코·입·귀로 보는 부자 얼굴의 비밀</a></p>
+  <p><a href="/ko/gwansang/eyebrow-reading" style="text-decoration: underline; color: #f9d976;">[관련글] 눈썹 관상: 눈썹으로 보는 직업운과 인간관계</a></p>
 </div>
 </section>
     `,
@@ -697,8 +697,8 @@ export const gwansangPosts: BlogPost[] = [
 <p>이마는 당신이 세상을 향해 내미는 명함과 같습니다. 비록 타고난 이마의 넓이는 바꿀 수 없지만, 그곳을 밝고 깨끗하게 유지하는 당신의 태도가 하늘의 복을 불러옵니다. 당당하게 이마를 펴고 세상을 마주하세요. 성공의 문이 당신을 향해 열릴 것입니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p>[내부링크: 16번: 관상학 입문 - 얼굴의 주요 12궁 이해하기]</p>
-  <p>[내부링크: 17번: 재물운 관상 - 돈을 부르는 부위 분석]</p>
+  <p><a href="/ko/gwansang/intro" style="text-decoration: underline; color: #f9d976;">[관련글] 관상학 입문: 얼굴로 보는 운명 완전 가이드</a></p>
+  <p><a href="/ko/gwansang/wealth-face" style="text-decoration: underline; color: #f9d976;">[관련글] 재물 관상: 코·입·귀로 보는 부자 얼굴의 비밀</a></p>
 </div>
 </section>
     `,
@@ -822,8 +822,8 @@ export const gwansangPosts: BlogPost[] = [
 <p>거울 속 당신의 얼굴에 대고 긍정적인 확언을 들려주세요. "오늘 내 기색이 정말 좋구나, 모든 일이 잘될 거야." 이러한 자기 암시는 실제로 뇌를 자극하고 호르몬 변화를 일으켜 얼굴의 기색을 극적으로 변화시킵니다. 당신의 손에 들린 거울 속에 당신의 찬란한 5년 후가 이미 담겨 있습니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p>[내부링크: 19번: 관상으로 체크하는 내 몸의 건강 신호 총정리]</p>
-  <p>[내부링크: 20번: 빼면 대박 나는 흉점과 남겨야 할 복점 구분법]</p>
+  <p><a href="/ko/gwansang/health-face" style="text-decoration: underline; color: #f9d976;">[관련글] 얼굴색과 기색으로 보는 건강운</a></p>
+  <p><a href="/ko/gwansang/mole-reading" style="text-decoration: underline; color: #f9d976;">[관련글] 점 관상: 길한 점과 흉한 점의 비밀</a></p>
 </div>
 </section>
     `,

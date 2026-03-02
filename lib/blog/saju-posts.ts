@@ -881,8 +881,8 @@ export const sajuPosts: BlogPost[] = [
 <p>남들이 좋다는 직업이 나에게는 독이 될 수 있고, 남들이 힘들다는 일이 나에게는 최고의 천직일 수 있습니다. 사주를 통해 자신의 그릇을 이해하고 그에 맞는 환경을 선택하세요. 당신의 사주가 안내하는 방향을 따라갈 때, 직장생활은 고통이 아닌 자아실현의 장이 될 것입니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p>[내부링크: 3번: 사주 일주로 보는 나의 핵심 재능 분석]</p>
-  <p>[내부링크: 11번: 성공을 부르는 이름의 획수와 작명 비법]</p>
+  <p><a href="/ko/saju/day-pillar" style="text-decoration: underline; color: #f9d976;">[관련글] 사주 일주 완전정복: 나의 본질과 배우자 복을 읽는 법</a></p>
+  <p><a href="/ko/seongmyeong/name-creation" style="text-decoration: underline; color: #f9d976;">[관련글] 작명의 기술: 태어난 계절에 맞는 이름 짓기</a></p>
 </div>
 </section>
     `,
@@ -1124,8 +1124,8 @@ export const sajuPosts: BlogPost[] = [
 <p>사주는 당신의 가능성을 보여주는 지도일 뿐, 실제로 그 길을 걷는 것은 당신의 발입니다. 오늘부터 작은 습관 하나, 생각 하나를 바꾸는 것에서부터 운명의 변화는 시작됩니다. 당신이 믿는 만큼, 그리고 노력하는 만큼 당신의 팔자는 반드시 바뀝니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p>[내부링크: 5번: 사주 용신 찾기 - 행운의 치트키]</p>
-  <p>[내부링크: 22번: 거울로 확인하는 나의 관상 자가진단법]</p>
+  <p><a href="/ko/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[관련글] 사주 용신 찾기: 내 인생을 바꾸는 오행</a></p>
+  <p><a href="/ko/gwansang/self-diagnosis" style="text-decoration: underline; color: #f9d976;">[관련글] 거울로 보는 성공 관상 자가진단</a></p>
 </div>
 </section>
     `,

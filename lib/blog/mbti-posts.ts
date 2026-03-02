@@ -54,8 +54,8 @@ export const mbtiPosts: BlogPost[] = [
 <p>사주팔자가 하늘이 준 명(命)이라면, MBTI는 그 명을 살아내는 마음의 결(理)입니다. 이 두 가지를 조화롭게 이해할 때, 우리는 비로소 진정한 운명의 주인이 될 수 있습니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p>[내부링크: 24번: MBTI와 사주 오행의 놀라운 상관관계 분석]</p>
-  <p>[내부링크: 30번: 사주 일주와 MBTI로 보는 나의 천생연분 찾기]</p>
+  <p><a href="/ko/mbti/saju-five-elements" style="text-decoration: underline; color: #f9d976;">[관련글] MBTI 16유형과 사주 오행 상관관계</a></p>
+  <p><a href="/ko/bokhap/love-destiny" style="text-decoration: underline; color: #f9d976;">[관련글] 사랑의 운명: 일주와 MBTI로 찾는 천생연분</a></p>
 </div>
 </section>
     `,
@@ -178,8 +178,8 @@ export const mbtiPosts: BlogPost[] = [
 <p>MBTI와 오행은 모두 우리가 세상을 살아가는 ‘도구’일 뿐입니다. 내가 어떤 원소로 이루어졌는지 아는 것은, 내가 어떤 환경에서 가장 아름답게 꽃필 수 있는지를 아는 것과 같습니다. 이 조화로운 분석을 통해 당신의 삶이 더욱 풍요로워지길 바랍니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p>[내부링크: 25번: MBTI 궁합 완전정복 - 최악의 궁합을 오행으로 푸는 법]</p>
-  <p>[내부링크: 1번: 사주팔자란 무엇인가? 음양오행 원리 가이드]</p>
+  <p><a href="/ko/mbti/mbti-compatibility" style="text-decoration: underline; color: #f9d976;">[관련글] MBTI 궁합 완전정복: 오행으로 극복하는 법</a></p>
+  <p><a href="/ko/saju/intro" style="text-decoration: underline; color: #f9d976;">[관련글] 사주팔자란 무엇인가? 음양오행 원리 가이드</a></p>
 </div>
 </section>
     `,
@@ -294,8 +294,8 @@ export const mbtiPosts: BlogPost[] = [
 <p>MBTI는 서로를 이해하기 위한 지도이고, 사주는 그 길을 안전하게 안내하는 나침반입니다. 지도와 나침반이 있다면 어떤 험한 길도 함께 걸어갈 수 있습니다. 궁합 점수에 연연하지 말고, 서로의 기운을 보완하며 아름다운 인연을 만들어가시길 바랍니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p>[내부링크: 30번: 사주 일주와 MBTI로 보는 나의 천생연분 찾기]</p>
-  <p>[내부링크: 27번: 16유형과 잘 맞는 사주 일주 궁합표]</p>
+  <p><a href="/ko/bokhap/love-destiny" style="text-decoration: underline; color: #f9d976;">[관련글] 사랑의 운명: 일주와 MBTI로 찾는 천생연분</a></p>
+  <p><a href="/ko/mbti/compatibility-table" style="text-decoration: underline; color: #f9d976;">[관련글] MBTI별 사주 일주 궁합표 완전분석</a></p>
 </div>
 </section>
     `,
@@ -409,8 +409,8 @@ export const mbtiPosts: BlogPost[] = [
 <p>최고의 개운법은 결국 ‘자신을 아는 것’입니다. 내가 I인지 E인지, 내 사주에 어떤 기운이 강한지 이해하고 그에 맞춰 행동할 때 세상의 운은 비로소 당신의 편이 됩니다. 오늘부터 당신만의 작은 행운 루틴을 시작해 보세요.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p>[내부링크: 24번: MBTI 16유형과 사주 오행 상관관계 분석]</p>
-  <p>[내부링크: 19번: 얼굴색으로 보는 현재 기운과 건강 신호]</p>
+  <p><a href="/ko/mbti/saju-five-elements" style="text-decoration: underline; color: #f9d976;">[관련글] MBTI 16유형과 사주 오행 상관관계</a></p>
+  <p><a href="/ko/gwansang/health-face" style="text-decoration: underline; color: #f9d976;">[관련글] 얼굴색과 기색으로 보는 건강운</a></p>
 </div>
 </section>
     `,
@@ -518,8 +518,8 @@ export const mbtiPosts: BlogPost[] = [
 <p>MBTI와 일주를 함께 보는 것은 상대를 가두는 틀이 아니라, 상대를 더 깊이 이해하기 위한 ‘전략 지도’입니다. 상대의 말투를 이해하고(MBTI), 상대의 깊은 기운을 존중할 때(일주), 비로소 우리는 진정한 천생연분을 발견할 수 있습니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p>[내부링크: 3번: 사주 일주 완전정복 - 나의 본질 읽는 법]</p>
-  <p>[내부링크: 25번: MBTI 궁합 - 최악의 관계 극복법]</p>
+  <p><a href="/ko/saju/day-pillar" style="text-decoration: underline; color: #f9d976;">[관련글] 사주 일주 완전정복: 나의 본질과 배우자 복을 읽는 법</a></p>
+  <p><a href="/ko/mbti/mbti-compatibility" style="text-decoration: underline; color: #f9d976;">[관련글] MBTI 궁합 완전정복: 오행으로 극복하는 법</a></p>
 </div>
 </section>
     `,

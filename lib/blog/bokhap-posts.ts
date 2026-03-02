@@ -39,8 +39,8 @@ export const bokhapPosts: BlogPost[] = [
 <p>손금은 고정된 낙인이 아니라, 당신의 노력과 마음가짐에 따라 수개월 안에도 변하는 역동적인 에너지의 기록입니다. 나쁜 손금에 실망할 것이 아니라, 좋은 습관으로 손금을 가꾸어 보세요. 당신의 손바닥 안에 찬란한 미래가 이미 쥐어져 있습니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p>[내부링크: 16번: 관상학 입문 - 얼굴로 보는 운명 가이드]</p>
-  <p>[내부링크: 22번: 거울로 확인하는 성공 관상 자가진단]</p>
+  <p><a href="/ko/gwansang/intro" style="text-decoration: underline; color: #f9d976;">[관련글] 관상학 입문: 얼굴로 보는 운명 완전 가이드</a></p>
+  <p><a href="/ko/gwansang/self-diagnosis" style="text-decoration: underline; color: #f9d976;">[관련글] 거울로 보는 성공 관상 자가진단</a></p>
 </div>
 </section>
     `,
@@ -138,8 +138,8 @@ export const bokhapPosts: BlogPost[] = [
 <p>사주, 관상, 성명학, MBTI는 모두 당신이라는 거대한 우주를 설명하기 위한 각기 다른 언어일 뿐입니다. 어떤 분석법에 의존하기보다, 이 모든 데이터를 참고하여 더 나은 선택을 내리는 주체는 바로 당신임을 잊지 마세요. 이 도구들이 당신의 삶을 더욱 풍요롭고 명확하게 만들어주는 등불이 되길 바랍니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p>[내부링크: 24번: MBTI 16유형과 사주 오행의 놀라운 연결고리]</p>
-  <p>[내부링크: 29번: 사주와 관상 - 어느 쪽이 더 정확할까?]</p>
+  <p><a href="/ko/mbti/saju-five-elements" style="text-decoration: underline; color: #f9d976;">[관련글] MBTI 16유형과 사주 오행 상관관계</a></p>
+  <p><a href="/ko/bokhap/eastern-western" style="text-decoration: underline; color: #f9d976;">[관련글] 사주·관상·성명학·MBTI 완벽 통합 비교 가이드</a></p>
 </div>
 </section>
     `,
@@ -235,8 +235,8 @@ export const bokhapPosts: BlogPost[] = [
 <p>사주와 MBTI를 보는 목적은 상대를 평가하기 위함이 아니라, 상대의 고유한 세계를 '이해'하기 위함입니다. 상대가 왜 그렇게 행동하는지, 어떤 기운을 가졌는지 알 때 진정한 사랑의 소통이 시작됩니다. 당신의 일주와 MBTI가 안내하는 그 길 끝에서, 당신만의 진정한 인연을 만나시길 바랍니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p>[내부링크: 25번: MBTI 궁합 완전정복 - 파국 궁합 극복법]</p>
-  <p>[내부링크: 3번: 사주 일주로 보는 배우자 복과 연애 스타일]</p>
+  <p><a href="/ko/mbti/mbti-compatibility" style="text-decoration: underline; color: #f9d976;">[관련글] MBTI 궁합 완전정복: 오행으로 극복하는 법</a></p>
+  <p><a href="/ko/saju/day-pillar" style="text-decoration: underline; color: #f9d976;">[관련글] 사주 일주 완전정복: 나의 운명의 주인공</a></p>
 </div>
 </section>
     `,
