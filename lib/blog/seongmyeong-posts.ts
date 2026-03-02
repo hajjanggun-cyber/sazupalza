@@ -1151,4 +1151,187 @@ export const seongmyeongPosts: BlogPost[] = [
       { slug: 'name-five-elements', category: 'seongmyeong', title: '이름 오행 분석: 소리 상생상극 가이드' },
     ],
   },
+  {
+    slug: 'business-name',
+    title: '사업자 상호 작명법: 돈을 부르는 대박 상호의 비밀',
+    seoTitle: '사업자 상호 작명법: 성명학과 사주로 보는 돈 버는 대박 상호 짓기',
+    seoTitleEn: 'Korean Business Name Numerology: Fortune for Entrepreneurs',
+    description: '대표자의 사주와 사업 아이템에 딱 맞는 상호 짓기! 재물운을 극대화하는 성명학적 상호 작명의 원리와 피해야 할 흉수 상호를 상세히 알려드립니다.',
+    descriptionEn: 'Discover how to choose a lucky business name in Korea. Learn the numerology and elemental strategies that attract wealth, clients, and long-term corporate success.',
+    keywords: ['상호작명', '사업자이름', '가게이름짓기', '회사명작명', '재물운상호', '대박상호'],
+    keywordsEn: ['Business Name Numerology', 'Korean Company Name', 'Lucky Business Name', 'Wealth Attraction', 'Entrepreneur Luck'],
+    publishedAt: '2026-03-02',
+    category: 'seongmyeong',
+    toc: [
+      { id: 'ceo-saju', title: '1. 상호 작명의 핵심: 대표자의 사주' },
+      { id: 'business-element', title: '2. 업종별로 어울리는 오행(五行)' },
+      { id: 'lucky-business-numbers', title: '3. 재물운을 폭발시키는 상호 수리' },
+      { id: 'conclusion', title: '4. 결론: 이름표가 곧 간판이다' },
+    ],
+    tocEn: [
+      { id: 'ceo-saju', title: '1. The Core: The CEO\'s Saju' },
+      { id: 'business-element', title: '2. Elements by Business Type' },
+      { id: 'lucky-business-numbers', title: '3. Numbers That Explode Wealth' },
+      { id: 'conclusion', title: '4. Conclusion: The Signboard is Destiny' },
+    ],
+    contentKo: `
+<section>
+<p>수많은 창업가들이 밤을 새워 사업 아이템을 구상하고 마케팅 전략을 세웁니다. 그러나 그 모든 노력의 결실을 담아낼 그릇, 즉 <strong>'상호(商號, Business Name)'</strong>를 지을 때는 단순히 '부르기 좋고 예쁜 이름'이나 '트렌디한 외래어'를 대충 선택하는 경우가 많습니다. 성명학(姓名學)적 관점에서 상호는 단순한 간판 글씨가 아닙니다. 상호는 법인 혹은 가게가 세상에 내뿜는 <strong>독자적인 주파수이자, 재물(돈)을 끌어당기는 거대한 자석</strong>입니다.</p>
+
+<p>개인의 이름이 그 사람의 평생 운로를 돕는 방패라면, 사업체의 이름은 <strong>'이익 창출과 생존'</strong>이라는 매우 뚜렷하고 공격적인 목적을 가집니다. 따라서 일반적인 개인 작명과는 그 접근 방식이 완전히 달라야 합니다. 아무리 좋은 뜻의 상호라도 대표자의 사주팔자(四柱八字)와 기운이 충돌하거나, 해당 업종의 본질적인 오행(五行)과 맞지 않는다면, 마치 성능 좋은 자동차에 규격이 맞지 않는 타이어를 끼운 것처럼 덜컹거리다 결국 멈춰 서게 됩니다. 이 글에서는 성명학과 명리학의 정수를 결합하여, 사업을 번창시키고 쉴 새 없이 손님을 끌어모으는 <strong>'대박 상호 작명의 3대 비밀'</strong>을 상세히 파헤쳐 보겠습니다.</p>
+
+<h2 id="ceo-saju">1. 상호 작명의 핵심: 대표자의 사주(四柱)가 먼저다</h2>
+<p>상호 작명에서 가장 흔히 저지르는 치명적인 실수는 '업종'에만 맞추어 이름을 짓는 것입니다. 식당이니까 무조건 불 화(火) 기운을 넣거나, 무역업이니까 무조건 물 수(水) 기운을 넣는 식입니다. 그러나 사업을 실질적으로 이끌고 책임을 지는 주체는 바로 <strong>대표자(CEO)</strong>입니다. 상호는 반드시 대표자의 사주팔자에서 가장 절실하게 필요한 기운, 즉 <strong>용신(用神)</strong>이나 <strong>희신(喜神)</strong>을 보완하는 방향으로 지어져야 합니다.</p>
+
+<h3>대표자의 사주와 상호의 궁합</h3>
+<p>만약 대표자의 사주에 물(水) 기운이 너무 많아 불(火)과 흙(土)의 기운이 절실히 필요한 상황(조후 용신)이라고 가정해 봅시다. 이 대표자가 아무리 수산업이나 카페(水 기운의 업종)를 한다고 해도, 상호에 또다시 물을 상징하는 글자(예: '바다', '블루', 한자 氵부수)나 수(水)의 발음(ㅇ, ㅎ)을 과도하게 배치하면 사업이 익사해 버리는 형국이 됩니다. 직원들이 자주 속을 썩이고, 예상치 못한 금전 누수가 발생합니다. 이 경우 대표자의 사주를 살리기 위해 상호에는 밝고 따뜻한 불의 발음(ㄴ, ㄷ, ㄹ, ㅌ)이나 단단한 흙의 의미를 지닌 글자를 전면에 내세워 밸런스를 잡아주어야 합니다. 대표자의 기운이 살아나야 사업체가 살아납니다.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 내 사주에 딱 맞는 상호 기운 확인하기 →</a>
+</div>
+
+<h2 id="business-element">2. 업종별로 어울리는 오행(五行)의 비밀</h2>
+<p>대표자의 사주를 보완하는 큰 틀을 잡았다면, 그다음은 <strong>사업 아이템(업종) 고유의 오행</strong>을 상호의 소리와 한자에 녹여내는 작업입니다. 업종과 상호의 기운이 맞아떨어지면 시너지 효과가 발생하여 고객이 매장에 들어섰을 때 무의식적인 편안함과 신뢰를 느끼게 됩니다.</p>
+
+<h3>① 목(木) 기운의 업종 — 교육, 출판, 의류, 가구, 기획</h3>
+<p>목(木)은 위로 뻗어 나가는 성장과 창조의 에너지입니다. 무언가를 가르치고(학원), 기획하며(마케팅/디자인), 직물이나 나무를 다루는 업종에 해당합니다.
+<br><strong>추천 발음:</strong> ㄱ, ㅋ (목) / ㅇ, ㅎ (수 - 수생목으로 성장을 도움)
+<br><strong>특징:</strong> 상호가 너무 날카롭거나(금 기운) 정체되어 있으면(토 기운) 성장이 둔화됩니다.</p>
+
+<h3>② 화(火) 기운의 업종 — 요식업, 미용, 엔터테인먼트, IT/방송, 화학</h3>
+<p>화(火)는 화려하게 발산하고 사람들의 시선을 사로잡는 에너지입니다. 불을 직접 다루는 식당이나, 아름다움을 꾸미는 뷰티업계, 빛과 전기를 다루는 IT 업종이 여기에 속합니다.
+<br><strong>추천 발음:</strong> ㄴ, ㄷ, ㄹ, ㅌ (화) / ㄱ, ㅋ (목 - 목생화로 불길을 키움)
+<br><strong>특징:</strong> 열정과 트렌드를 선도해야 하므로 상호의 어감이 밝고 톡톡 튀어야 합니다.</p>
+
+<h3>③ 토(土) 기운의 업종 — 부동산, 건축/토목, 농업, 숙박업, 종교</h3>
+<p>토(土)는 모든 것을 포용하고 안정감을 주는 신뢰의 에너지입니다. 큰 자산이 오가는 부동산이나 묵묵히 자리를 지키는 숙박업에 필수적입니다.
+<br><strong>추천 발음:</strong> ㅁ, ㅂ, ㅍ (토) / ㄴ, ㄷ, ㄹ, ㅌ (화 - 화생토로 기반을 단단하게 함)
+<br><strong>특징:</strong> 상호가 가볍거나 너무 통통 튀면(수 기운) 고객이 안정감을 느끼지 못하고 이탈합니다.</p>
+
+<h3>④ 금(金) 기운의 업종 — 금융/증권, 귀금속, 기계/자동차, 법률/컨설팅</h3>
+<p>금(金)은 정확하고 날카로우며 결실을 맺는 수렴의 에너지입니다. 돈을 직접 다루는 금융권이나, 정밀한 기술을 요하는 제조업, 냉철한 판단이 필요한 법률 사무소에 맞습니다.
+<br><strong>추천 발음:</strong> ㅅ, ㅈ, ㅊ (금) / ㅁ, ㅂ, ㅍ (토 - 토생금으로 금을 캐냄)
+<br><strong>특징:</strong> 단호하고 전문적인 느낌을 주어야 하며, 신뢰감이 생명입니다.</p>
+
+<h3>⑤ 수(水) 기운의 업종 — 유통, 무역, 해운, 유흥, 수산업, 카페(음료)</h3>
+<p>수(水)는 경계 없이 흘러가고 변화에 유연하게 대처하는 에너지입니다. 물건이 활발하게 오가는 유통업이나 밤에 이루어지는 유흥업, 음료를 파는 카페 등이 해당됩니다.
+<br><strong>추천 발음:</strong> ㅇ, ㅎ (수) / ㅅ, ㅈ, ㅊ (금 - 금생수로 마르지 않는 샘물을 만듦)
+<br><strong>특징:</strong> 융통성과 부드러움이 중요하며, 너무 딱딱한 어감은 흐름을 방해합니다.</p>
+
+<h2 id="lucky-business-numbers">3. 재물운을 폭발시키는 상호 수리(數理) 81수</h2>
+<p>상호 작명에서 개인 작명과 가장 크게 차별화되는 부분은 바로 <strong>'수리(획수)'의 우선순위</strong>입니다. 개인의 이름은 건강(초년운)과 부부운(중년운) 등 삶의 다방면을 고려하여 4격(원/형/이/정격)을 골고루 분배해야 합니다. 그러나 상호는 오직 <strong>'정격(총 획수)'</strong>에 모든 에너지를 집중시킵니다. 사업의 궁극적인 목표는 이윤 창출과 지속적인 발전이기 때문에, 상호의 전체 획수 합(합자 수리)이 무조건 최고의 재물운과 번창운을 상징하는 대길수(大吉數)가 되어야 합니다. (한자 상호는 원획법 기준, 한글/영문 상호는 별도의 획수 산정법 적용)</p>
+
+<h3>사업을 반드시 성공으로 이끄는 최고의 대길수</h3>
+<ul>
+  <li><strong>11획 (신성격):</strong> 새로운 아이디어로 시작하는 스타트업이나 벤처기업에 최고입니다. 무에서 유를 창조하는 에너지가 강합니다.</li>
+  <li><strong>15획 (통솔격):</strong> 여러 직원을 거느리고 큰 조직을 운영하는 중소기업, 프랜차이즈 본사에 어울립니다. 귀인의 도움을 받아 순탄하게 성장합니다.</li>
+  <li><strong>24획 (입신격):</strong> <strong>상호 수리 중 최고의 재물운을 자랑하는 '돈 버는 숫자'</strong>입니다. 빈손으로 시작해 거대한 부를 일구는 자수성가형 수리로, 식당, 소매업 등 현금 회전이 중요한 업종에 절대적으로 유리합니다.</li>
+  <li><strong>31획 (성덕격):</strong> 지적 자산을 바탕으로 하는 컨설팅, 법률, 출판, 학원 업종에 좋습니다. 명예를 바탕으로 안정적인 성장을 이룹니다.</li>
+  <li><strong>32획 (요행격):</strong> 뜻밖의 행운이 따르고 인적 네트워크가 폭발적으로 넓어집니다. 유통업, 무역업, 영업직에 날개를 달아주는 수리입니다.</li>
+</ul>
+
+<h3>사업을 망치게 하는 무서운 흉수 (반드시 피할 것)</h3>
+<ul>
+  <li><strong>10획 (공허격):</strong> 아무리 열심히 일해도 밑빠진 독에 물 붓기입니다. 돈이 모일 만하면 사고가 터져 나갑니다.</li>
+  <li><strong>14획 (이산격):</strong> 동업자와 반드시 불화가 생기고, 직원들이 자주 그만둡니다. 조직이 모래알처럼 흩어집니다.</li>
+  <li><strong>20획 (허망격):</strong> 일시적으로 크게 성공하는 듯 보이나 결국에는 부도나 관재구설에 휘말려 모든 것을 잃게 되는 극흉수입니다.</li>
+</ul>
+
+<h2 id="conclusion">4. 결론: 이름표가 곧 간판이고, 간판이 곧 매출이다</h2>
+<p>사업은 실력과 노력만으로는 100% 성공을 장담할 수 없는 냉혹한 전쟁터입니다. 때로는 설명할 수 없는 '운(運)'이 승패를 가르기도 합니다. 완벽하게 계산된 성명학적 상호는 대표자에게 부족한 기운을 실시간으로 수혈해 주고, 업종의 본질과 공명하며, 수학적으로 계산된 강력한 재물운의 파동을 24시간 내뿜습니다.</p>
+<p>지금 내 사업장의 간판을 올려다보십시오. 그 이름이 단순히 유행을 타서, 혹은 발음이 예뻐서 지은 이름이라면, 지금이라도 전문가의 진단을 받아볼 필요가 있습니다. 사업이 정체되어 있다면, 인테리어나 메뉴를 바꾸기 전에 상호의 기운부터 점검하는 것이 돈이 들어오는 진짜 혈(穴)을 뚫는 비결입니다. 좋은 상호는 그 자체로 최고의 영업 사원이자, 든든한 금고 지킴이가 되어 줄 것입니다.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/name-reading/numerology-81" style="text-decoration: underline; color: #f9d976;">[관련] 성명학 수리 81수 총정리: 획수가 운명을 바꾼다</a></p>
+  <p><a href="/name-reading/name-five-elements" style="text-decoration: underline; color: #f9d976;">[관련] 소리 오행 분석: 발음이 사람을 끌어당기는 원리</a></p>
+</div>
+</section>
+    `,
+    contentEn: `
+<section>
+<p>Countless entrepreneurs spend sleepless nights meticulously crafting their business plans, agonizing over logo designs, and perfecting their marketing funnels. Yet, when it comes to the most crucial element—the <strong>Business Name (Sangho)</strong>—they often make a hasty decision based on what sounds "catchy" or trendy. In the profound Eastern science of <strong>Seongmyeonghak (Name Numerology)</strong>, a company’s name is not merely a legal label; it is a continuously broadcasting energetic frequency. It acts as a massive, invisible magnet that either irresistibly attracts wealth and loyal clients, or violently repels them.</p>
+
+<p>Naming a business is fundamentally different from naming a human being. While a personal name is designed to provide holistic protection across health, marriage, and personal happiness, a business name has an aggressively singular, ruthless objective: <strong>Survival, Growth, and Profit Maximization</strong>. No matter how brilliant your product is, if your company’s name energetically clashes with your personal birth chart (Saju) or contradicts the elemental nature of your industry, you are essentially driving a sports car with the parking brake securely engaged. In this expert guide, we will fuse classical Destiny Arts with modern business strategy to reveal the three absolute secrets of designing a <strong>Korean Business Name</strong> that practically guarantees explosive financial success.</p>
+
+<h2 id="ceo-saju">1. The Core Secret: The CEO's Saju Must Rule the Name</h2>
+<p>The single most catastrophic mistake in <strong>Business Name Numerology</strong> is naming a company solely based on the industry it operates in, completely ignoring the founder. Some amateurs assume that because they are opening a restaurant, they must aggressively use Fire-element words. This is dangerous. The business is an extension of its leader. The entity that bears the ultimate legal and energetic responsibility is the <strong>CEO</strong>. Therefore, the business name must primarily act as a "Yongshin" (Beneficial Energy) supplement for the CEO's specific astrological weaknesses.</p>
+
+<h3>The CEO vs. The Corporate Entity</h3>
+<p>Imagine a CEO whose Saju (Four Pillars of Destiny) is dangerously flooded with freezing Water, desperately requiring the warmth of Fire and the stability of dry Earth to prevent emotional and financial collapse. Even if this CEO opens a seafood distribution company (an industry naturally aligned with Water), putting more Water-element sounds (like ng/h) or characters into the business name will drown the CEO's personal luck. Employees will rebel, and unexpected legal fines will drain the accounts. A master practitioner will instead design a name utilizing bright Fire sounds (n/d/r/t) and Earth stability to save the CEO's energy. When the commander is energetically secure, the corporate army thrives.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 Analyze Your Business Name's Wealth Potential →</a>
+</div>
+
+<h2 id="business-element">2. Aligning the Five Elements by Industry Type</h2>
+<p>Once the CEO's energetic needs are addressed, the second layer of design is infusing the name with the <strong>Five Elements (Wood, Fire, Earth, Metal, Water)</strong> that naturally govern the specific industry. When a client encounters a brand name that perfectly matches the elemental vibration of the service they seek, it triggers immediate subconscious trust.</p>
+
+<h3>① Wood (木) Industries: Education, Fashion, Design, Planning</h3>
+<p>Wood represents upward growth, rapid expansion, and creativity.
+<br><strong>Ideal Sounds:</strong> G/K (Wood) combined with Ng/H (Water — because Water nourishes Wood).
+<br><strong>Strategy:</strong> The name must sound progressive and forward-moving. Heavy Earth or sharp Metal sounds will stunt the creative flow.</p>
+
+<h3>② Fire (火) Industries: Restaurants, Beauty, IT/Tech, Entertainment</h3>
+<p>Fire is the energy of brilliant visibility, passion, and rapid transformation.
+<br><strong>Ideal Sounds:</strong> N/D/R/T (Fire) combined with G/K (Wood — because Wood feeds the Fire).
+<br><strong>Strategy:</strong> The name must "pop." It needs to sound dynamic, warm, and highly visible to capture immediate public attention.</p>
+
+<h3>③ Earth (土) Industries: Real Estate, Construction, Hotels, Agriculture</h3>
+<p>Earth is the vibration of absolute reliability, containment, and immense physical scale.
+<br><strong>Ideal Sounds:</strong> M/B/P (Earth) combined with N/D/R/T (Fire — because Fire creates ash/Earth).
+<br><strong>Strategy:</strong> The name must project unshakeable gravity. Frivolous, flighty Water sounds will make clients feel the company is unstable.</p>
+
+<h3>④ Metal (金) Industries: Finance, Law, Automotive, Precision Manufacturing</h3>
+<p>Metal represents cold precision, sharp justice, and the harvesting of wealth.
+<br><strong>Ideal Sounds:</strong> S/J/Ch (Metal) combined with M/B/P (Earth — because Metal is mined from Earth).
+<br><strong>Strategy:</strong> The brand must sound authoritative, surgical, and impeccably professional. There is no room for ambiguity here.</p>
+
+<h3>⑤ Water (水) Industries: Trade, Logistics, Cafes, Nightlife, Maritime</h3>
+<p>Water is the element of borderless circulation, high adaptability, and liquidity.
+<br><strong>Ideal Sounds:</strong> Ng/H (Water) combined with S/J/Ch (Metal — because Metal condenses to create Water).
+<br><strong>Strategy:</strong> The name must sound fluid and smooth, reflecting the seamless exchange of goods, currency, or social interaction.</p>
+
+<h2 id="lucky-business-numbers">3. The 81-Stroke Numerology That Explodes Wealth</h2>
+<p>The most profound difference between human naming and corporate naming lies in the <strong>Stroke Count Numerology (Suri 81-Su)</strong>. For a human, we balance four different stages of life. For a business, there is only one number that truly dictates survival: the <strong>Total Stroke Count (Jeong-gyeok)</strong> of the entire name. This final number must be an absolute powerhouse of wealth generation. (Note: Foreign loanwords and English letters also have specific stroke calculation methods in modern Seongmyeonghak).</p>
+
+<h3>The Ultimate Fortune-Building Numbers</h3>
+<ul>
+  <li><strong>11 Strokes (The Pioneer):</strong> Perfect for tech startups and disruptive innovators. It carries the energy of spring—relentless new beginnings and the ability to create something massive out of nothing.</li>
+  <li><strong>15 Strokes (The Beloved Leader):</strong> Ideal for franchise headquarters or mid-sized corporations. It guarantees excellent employee relations and natural expansion through word-of-mouth and powerful mentors.</li>
+  <li><strong>24 Strokes (The Cash Magnet):</strong> <strong>This is the undisputed king of business numerology.</strong> Number 24 is the archetype of self-made, explosive financial success. If you are opening a retail store, a restaurant, or an e-commerce brand where daily cash flow is king, you must engineer your name to total 24 strokes.</li>
+  <li><strong>31 Strokes (The Respected Authority):</strong> Highly recommended for B2B consulting firms, law offices, and private clinics. It builds a slow, indestructible reputation that allows you to charge premium prices.</li>
+</ul>
+
+<h3>The Business Killers (Numbers to Avoid at All Costs)</h3>
+<ul>
+  <li><strong>10 Strokes (The Void):</strong> The ultimate energetic leak. You will work 100 hours a week, but the profits will mysteriously vanish through sudden lawsuits, broken equipment, or employee theft.</li>
+  <li><strong>14 Strokes (The Shattered Team):</strong> A cursed number for partnerships. It virtually guarantees that co-founders will eventually sue each other and key talent will constantly resign.</li>
+  <li><strong>20 Strokes (The House of Cards):</strong> This number often provides a terrifying illusion of early success, only to orchestrate a sudden, catastrophic bankruptcy or scandal that wipes the company off the map.</li>
+</ul>
+
+<h2 id="conclusion">4. Conclusion: The Signboard is Destiny</h2>
+<p>In the brutal arena of business, hard work and a good product are merely the price of entry; they do not guarantee victory. Unseen forces of timing, perception, and energetic flow (Luck) often decide who builds an empire and who files for bankruptcy. A meticulously engineered <strong>Korean Business Name</strong> acts as a permanent energetic IV drip for the CEO, harmonizes flawlessly with the psychological expectations of the industry, and broadcasts a mathematical frequency that commands wealth to enter the door.</p>
+<p>Look at your current company name. If you chose it simply because the domain name was available or because it sounded "cool," you are leaving your destiny to chance. Before you spend another dollar on marketing or interior redesign, have an expert audit the numerology of your signboard. Fixing a fractured business name is often the single most powerful strategy to shatter a glass ceiling and unlock the massive financial harvest you deserve.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/name-reading/numerology-81" style="text-decoration: underline; color: #f9d976;">[Related] Numerology 81: Reading Name Stroke Counts</a></p>
+  <p><a href="/en/name-reading/name-five-elements" style="text-decoration: underline; color: #f9d976;">[Related] Sound Elements: How Consonants Influence Luck</a></p>
+</div>
+</section>
+    `,
+    faq: [
+      { q: '한글이나 영문 상호도 획수를 계산할 수 있나요?', a: '네, 현대 성명학에서는 한글 자모음의 획수와 알파벳 고유의 획수를 성명학적 기준에 맞춰 산정하여 수리 길흉을 완벽하게 분석합니다.' },
+      { q: '동업일 경우 누구의 사주를 기준으로 상호를 지어야 하나요?', a: '법적 대표자(사업자등록증 상의 명의자)의 사주를 1순위로 하되, 실질적으로 경영과 자본을 통제하는 사람의 사주를 반드시 함께 고려하여 두 사람 모두에게 흉하지 않은 타협점을 찾아야 합니다.' },
+      { q: '이미 상호 등록을 마쳤는데 흉수라면 어떻게 해야 하나요?', a: '법인명(서류상 이름)을 당장 바꾸기 어렵다면, 고객에게 노출되는 브랜드명(간판 이름)이나 BI/CI 텍스트를 길수로 새로 지어 일상적으로 강력하게 사용하는 \'브랜드 네이밍 개운법\'을 추천합니다.' },
+    ],
+    faqEn: [
+      { q: 'Can English business names be calculated in Name Numerology?', a: 'Yes. Modern Destiny Arts have adapted specific stroke-counting methodologies for the English alphabet to accurately calculate the numerological power of global brand names.' },
+      { q: 'If I have a co-founder, whose birth chart (Saju) dictates the name?', a: 'The name must primarily align with the legal CEO (the registered owner). However, a master practitioner will check both charts to ensure the name doesn\'t accidentally act as "poison" to the major investor or key operator.' },
+      { q: 'My registered corporation name has a bad number. Am I doomed?', a: 'Not necessarily. While changing the legal name is ideal, you can create a DBA (Doing Business As) or a specific consumer-facing "Brand Name" engineered with Lucky Numbers. The name the public speaks most often holds the most power.' },
+    ],
+    relatedPosts: [
+      { slug: 'numerology-81', category: 'seongmyeong', title: '81수리: 상호 획수로 보는 재물운' },
+      { slug: 'name-creation', category: 'seongmyeong', title: '작명의 기술: 사주와 상호의 결합' },
+    ],
+  },
 ];
