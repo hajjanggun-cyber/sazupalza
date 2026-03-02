@@ -1205,4 +1205,401 @@ export const sajuPosts: BlogPost[] = [
       { slug: 'intro', title: 'Basic Principles of Saju-Palja', category: 'saju' },
     ],
   },
+  {
+    slug: 'year-pillar',
+    title: '년주(年柱) 완전 해설: 나의 뿌리와 조상, 그리고 초년운의 비밀',
+    seoTitle: '사주 년주(年柱) 보는 법: 조상운과 나의 뿌리, 초년 환경 분석',
+    seoTitleEn: 'Year Pillar (Nyeonju): Your Destiny\'s Foundation in Saju',
+    description: '사주의 첫 번째 기둥인 년주(年柱)가 인생 전체에 미치는 영향을 분석합니다. 나의 뿌리, 유년기 환경, 그리고 조상으로부터 물려받은 무의식적 기질을 3,000자 전문 해설로 파헤칩니다.',
+    descriptionEn: 'Discover the profound meaning of the Year Pillar in Korean astrology. Learn how your ancestral roots, early childhood, and foundational energy shape your entire life path.',
+    keywords: ['사주년주', '년주보는법', '초년운', '조상운', '띠별성격', '명리학기초'],
+    keywordsEn: ['Year Pillar', 'Korean Zodiac', 'Saju Foundation', 'Ancestral Karma', 'Four Pillars of Destiny', 'Birth Chart Reading'],
+    publishedAt: '2026-03-02',
+    category: 'saju',
+    toc: [
+      { id: 'year-pillar-meaning', title: '1. 년주(年柱)의 정의와 근본적 의미' },
+      { id: 'ancestral-karma', title: '2. 조상궁: 내가 물려받은 무의식의 유산' },
+      { id: 'early-childhood', title: '3. 초년운(0~19세)과 형성되는 기질' },
+      { id: 'zodiac-animal', title: '4. 띠(태세)가 가지는 사회적 페르소나' },
+      { id: 'conclusion', title: '5. 결론: 튼튼한 뿌리가 거목을 만든다' },
+    ],
+    tocEn: [
+      { id: 'year-pillar-meaning', title: '1. The Root of the Tree: Defining the Year Pillar' },
+      { id: 'ancestral-karma', title: '2. Ancestral Karma and Inherited Traits' },
+      { id: 'early-childhood', title: '3. Early Childhood (Ages 0-19): The Formative Years' },
+      { id: 'zodiac-animal', title: '4. Your Zodiac Animal: The Social Persona' },
+      { id: 'conclusion', title: '5. Conclusion: Honoring Your Foundations' },
+    ],
+    contentKo: `<section>
+<p>한 그루의 나무를 떠올려 보십시오. 잎이 무성하고 꽃이 화려해도, 땅속 깊이 박힌 뿌리가 튼튼하지 않으면 작은 비바람에도 흔들리고 맙니다. 사주팔자(四柱八字)의 네 기둥 중에서 바로 이 '뿌리'에 해당하는 것이 첫 번째 기둥인 <strong>년주(年柱)</strong>입니다. 많은 사람들이 자신이 태어난 일(日)을 상징하는 일주(日柱)에만 관심을 가지지만, 명리학의 고수들은 사주를 열자마자 년주의 상태부터 살핍니다. 년주가 온전해야 그 사람의 인생이 흔들림 없는 토대 위에서 시작될 수 있기 때문입니다. 이 글에서는 나의 근원과 조상, 그리고 삶의 첫 단추를 의미하는 년주의 모든 것을 깊이 있게 분석합니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/saju/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주팔자란 무엇인가? 인생의 네 기둥과 운명론 완벽 가이드</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 일주 완전정복: 나의 본질과 배우자 복을 읽는 법</a></li>
+  </ul>
+</div>
+
+<h2 id="year-pillar-meaning">1. 년주(年柱)의 정의와 근본적 의미</h2>
+<p>년주는 당신이 태어난 해의 간지(干支)를 의미합니다. 2024년에 태어났다면 갑진(甲辰)이 년주가 되고, 2026년에 태어난다면 병오(丙午)가 년주가 됩니다. 년주는 사주의 가장 바깥쪽에 위치하며, 나와 세상을 연결하는 첫 번째 관문입니다.</p>
+
+<h3>국가, 사회, 그리고 가장 거대한 환경</h3>
+<p>년주는 개인을 넘어선 거시적인 환경을 상징합니다. 내가 태어난 국가, 내가 속한 시대의 분위기, 사회적 관습과 법률이 모두 년주의 영역에 속합니다. 년주에 강력한 길신(정관, 정인 등)이 자리 잡고 있으면, 국가 고위직에 오르거나 사회적으로 큰 혜택을 받는 환경에서 자랄 확률이 높습니다. 반대로 년주가 심하게 충(沖)을 받거나 흉신이 자리하면, 시대적 혼란기나 어려운 국가적 환경 속에서 척박하게 삶을 시작해야 함을 암시합니다. 하지만 척박한 환경이 반드시 나쁜 것은 아닙니다. 난세의 영웅들은 대부분 거친 년주를 딛고 일어난 사람들입니다.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 무료 사주 분석으로 내 초년운 확인하기 →</a>
+</div>
+
+<h2 id="ancestral-karma">2. 조상궁: 내가 물려받은 무의식의 유산</h2>
+<p>동양 철학에서는 한 개인의 삶이 당대에 끝나는 것이 아니라 조상으로부터 이어지는 거대한 흐름의 일부라고 봅니다. 년주는 명리학에서 '조상궁(祖上宮)'이자 '조부모궁'으로 불립니다.</p>
+
+<h3>가풍과 유전자적 기질</h3>
+<p>년주의 천간(년간)은 겉으로 드러난 조상의 명예와 가풍을 나타내고, 년주의 지지(년지)는 실제적인 조상의 재력이나 숨겨진 유전적 기질을 나타냅니다. 년주에 재성(財星)이 뚜렷하다면 조상 대에 부를 일군 집안의 자손일 가능성이 높고, 인성(印星)이 아름답게 자리하고 있다면 학자나 덕망 있는 교육자 집안의 영향을 받았음을 의미합니다. 만약 자신의 삶이 자꾸만 알 수 없는 패턴으로 흘러간다면, 그것은 년주에 각인된 조상의 무의식적 습관(Karma)이 발현되는 것일 수 있습니다. 년주를 분석하면 내가 이 집안에 태어나 완수해야 할 영적인 과제가 무엇인지 힌트를 얻을 수 있습니다.</p>
+
+<h2 id="early-childhood">3. 초년운(0~19세)과 형성되는 기질</h2>
+<p>시간의 흐름으로 볼 때 년주는 태어나서부터 대략 15세에서 19세까지의 '초년운'을 관장합니다. 이 시기는 인간의 뇌와 심리가 폭발적으로 발달하며 세상을 바라보는 프레임이 완성되는 결정적인 시기입니다.</p>
+
+<h3>유년기의 트라우마와 자존감</h3>
+<p>년주가 주변 월주나 일주와 상생(相生)하여 아름답게 흐르면, 부모와 조부모의 사랑을 듬뿍 받으며 안정적인 유년기를 보냅니다. 이런 사람은 세상에 대한 기본적 신뢰와 높은 자존감을 갖추게 됩니다. 반면, 년주가 극(剋)이나 충(沖)을 당하고 있다면 부모님의 이혼, 경제적 몰락, 잦은 이사 등 불안정한 유년기를 겪었을 가능성이 큽니다. 성인이 되어 겪는 대인관계의 문제나 무의식적 불안의 80%는 이 년주의 시기(초년)에 형성된 상처에서 비롯됩니다. 명리 상담에서 년주를 깊이 파고드는 이유는, 현재의 고통을 치유하려면 그 뿌리인 유년기의 환경을 객관적으로 마주해야 하기 때문입니다.</p>
+
+<h2 id="zodiac-animal">4. 띠(태세)가 가지는 사회적 페르소나</h2>
+<p>우리가 흔히 "무슨 띠입니까?"라고 묻는 것은 년주 중에서도 '년지(年支)'를 묻는 것입니다. 이 띠를 명리학에서는 태세(太歲)라고 부릅니다.</p>
+
+<h3>대외적인 나와 첫인상</h3>
+<p>띠는 일간(나의 본질)과는 달리, 내가 처음 사회에 나갔을 때 남들에게 보여지는 '페르소나(가면)'이자 첫인상입니다. 호랑이띠(寅)는 겉보기에 당당하고 카리스마 넘쳐 보이며, 토끼띠(卯)는 부드럽고 싹싹해 보이고, 뱀띠(巳)는 예리하고 세련된 인상을 줍니다. 실제 내면의 성격(일주)이 아주 소심한 사람이라도, 용띠(辰)나 말띠(午) 등 강렬한 띠를 가지고 있다면 사회생활을 할 때 묘한 위엄과 에너지를 뿜어내어 무리를 이끄는 위치에 서곤 합니다.</p>
+<p>또한 띠는 12년 주기로 돌아오는 거대한 세대적 특성을 반영합니다. 같은 띠를 가진 사람들은 동시대를 살아오며 비슷한 사회적 경험과 트렌드를 공유하기 때문에, 특유의 연대감과 공통된 시대정신을 지니게 됩니다.</p>
+
+<h2 id="conclusion">5. 결론: 튼튼한 뿌리가 거목을 만든다</h2>
+<p>년주는 내가 선택할 수 없는 영역입니다. 우리는 부모를 고르거나, 태어날 국가를 지정하거나, 유년기의 환경을 스스로 세팅할 수 없습니다. 때문에 년주가 흉한 사람들은 종종 자신의 불운한 출발을 원망합니다.</p>
+<p>하지만 기억하십시오. 가장 비싼 난초는 온실 속에서 자라지만, 천 년을 버티는 거목은 척박한 바위틈에서 시작됩니다. 년주가 험난하다는 것은 그만큼 당신이 이 생에서 극복하고 깨달아야 할 에너지가 강렬하다는 뜻입니다. 년주에 새겨진 나의 출발점과 조상의 흔적을 있는 그대로 수용하고 이해할 때, 비로소 당신은 운명이라는 이름의 나무를 하늘 높이 성장시킬 진정한 힘을 얻게 될 것입니다. 당신의 뿌리를 아는 것이 모든 개운(開運)의 첫걸음입니다.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/saju/month-pillar" style="text-decoration: underline; color: #f9d976;">[관련] 월주(月柱) 완전 해설: 직업운과 청년기의 비밀</a></p>
+  <p><a href="/saju/destiny-change" style="text-decoration: underline; color: #f9d976;">[관련] 운명은 정해져 있는가? 사주로 운을 바꾸는 실전 개운법</a></p>
+</div>
+</section>`,
+    contentEn: `<section>
+<p>Imagine a magnificent, towering tree. No matter how brilliantly its leaves catch the sunlight or how sweet its fruit may taste, if its roots are shallow, diseased, or planted in toxic soil, the entire structure will collapse during the first severe storm. In the intricate, structural science of Korean astrology—Saju-Palja (Four Pillars of Destiny)—the absolute foundation of your life is known as the <strong>Year Pillar (Nyeonju)</strong>. While modern pop astrology fixates almost exclusively on your Day Pillar (your personal identity) or your Monthly sun sign, true masters of East Asian fortune telling never begin a birth chart reading without first excavating the deep, hidden architecture of the Year Pillar. It represents your ancestral karma, your early childhood conditioning, and the macroscopic social environment into which you were thrown. This comprehensive guide will decode the psychological and spiritual weight of your Year Pillar and explain how understanding your roots is the ultimate prerequisite for global success.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p><a href="/en/saju/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">What is Saju-Palja? The Ultimate Guide to Korean Astrology</a></p>
+  <p><a href="/en/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Mastering the Day Pillar: Your Identity and Relationship Fate</a></p>
+</div>
+
+<h2 id="year-pillar-meaning">1. The Root of the Tree: Defining the Year Pillar</h2>
+<p>The Four Pillars of Destiny are read from right to left in traditional texts, meaning the Year Pillar is the very first column. It is composed of the Heavenly Stem and Earthly Branch of the specific year you were born (for example, the Year of the Wood Dragon). Metaphysically, the Year Pillar acts as your outermost boundary—the interface between your personal soul and the massive, collective energy of the world.</p>
+
+<h3>The Macro-Environment: Nation and Society</h3>
+<p>Before you are an individual, you are a citizen of a specific era. The Year Pillar governs your relationship with the macro-environment: your country, the legal system, societal norms, and massive generational shifts. If your Year Pillar contains highly auspicious elements (like the Direct Officer star, representing orthodox authority), you are statistically more likely to benefit from institutional protection, thrive in government or corporate hierarchies, and feel inherently aligned with the rules of your society. Conversely, a fractured or severely clashing Year Pillar often indicates a person born into a time of political upheaval, economic depression, or someone who will fundamentally reject the mainstream systems of their era. They are the rebels, the outcasts, and often, the revolutionary innovators.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 Analyze Your Complete Saju Birth Chart Now →</a>
+</div>
+
+<h2 id="ancestral-karma">2. Ancestral Karma and Inherited Traits</h2>
+<p>Western psychology emphasizes the nuclear family, but traditional Korean fortune telling operates on a much longer timeline. The Year Pillar is explicitly designated as the "Palace of Ancestors" and the "Palace of Grandparents." It reveals the energetic inheritance you received long before you took your first breath.</p>
+
+<h3>The Subconscious Family Blueprint</h3>
+<p>The Heavenly Stem of your Year Pillar reflects the visible reputation and social standing of your ancestors. Were they scholars, merchants, or soldiers? The Earthly Branch reveals their hidden financial status and deeply ingrained psychological habits. If you possess a prominent Wealth Star in this pillar, you likely inherited strong financial instincts (and potentially generational wealth) from your lineage. If the pillar is dominated by the Academic Star, you were born into a bloodline that prioritizes education and philosophy above all else. However, if your Year Pillar is afflicted by harsh "Killing Stars," you may be unconsciously playing out unresolved ancestral trauma. A profound birth chart reading allows you to objectively view these inherited patterns, giving you the power to break toxic generational cycles and harness the hidden strengths of your bloodline.</p>
+
+<h2 id="early-childhood">3. Early Childhood (Ages 0-19): The Formative Years</h2>
+<p>In the chronological timeline of Saju-Palja, the Year Pillar strictly governs the first phase of your life, from birth until roughly 15 to 19 years of age. This is the period when your brain is most plastic, and your core worldview is permanently forged.</p>
+
+<h3>The Psychological Imprint</h3>
+<p>When an expert analyzes your Year Pillar, they are looking for the root cause of your adult psychology. If the elements in this pillar flow smoothly and support your Day Master (your core self), it indicates a childhood filled with unconditional love, economic stability, and strong parental protection. These individuals grow up with an unshakable baseline of self-esteem. However, if the Year Pillar is chaotic, entirely devoid of your beneficial elements, or clashing violently with other pillars, it points to a turbulent, stressful youth. This could mean poverty, the divorce of parents, severe illness, or emotional neglect. It is crucial to understand that Saju does not view a difficult Year Pillar as a permanent curse. Over 80% of hyper-successful entrepreneurs possess difficult early pillars; the intense pressure of their youth forged the relentless drive they used to conquer the world in adulthood.</p>
+
+<h2 id="zodiac-animal">4. Your Zodiac Animal: The Social Persona</h2>
+<p>When someone asks, "What is your Korean zodiac sign?" they are specifically asking for the Earthly Branch of your Year Pillar (e.g., Rat, Tiger, Dragon). While Westerners often reduce this to a fun trivia fact, in Saju, your zodiac animal serves a very specific, strategic function.</p>
+
+<h3>The First Impression</h3>
+<p>Your Year Branch is your outermost layer of armor. It is the very first thing strangers subconsciously perceive when you walk into a room. You might possess the deeply sensitive, introverted soul of a Water Day Master, but if you were born in the Year of the Tiger, society will initially perceive you as fierce, dominant, and authoritative. If you were born in the Year of the Rabbit, people will instinctively trust you and view you as diplomatic and gentle. Understanding the specific frequency of your zodiac animal allows you to consciously manipulate your "first impression" in business negotiations and social networking.</p>
+
+<h2 id="conclusion">5. Conclusion: Honoring Your Foundations</h2>
+<p>You did not choose your Year Pillar. You did not select your country of birth, the economic status of your grandparents, or the environment of your early childhood. For many clients, analyzing the Year Pillar brings up deep grief regarding a difficult past. However, the ultimate lesson of the Four Pillars of Destiny is one of radical acceptance and strategic leverage. You cannot rewrite the beginning of your story, but by dragging those subconscious ancestral patterns and childhood conditioning into the light of awareness, you strip them of their power to blindly control you. Only when you fully understand the exact nature of the soil you were planted in can you determine the best way to grow toward the sun. Honor your roots, understand your foundational code, and use it as the launchpad for your ultimate destiny.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/saju/month-pillar" style="text-decoration: underline; color: #f9d976;">[Related] Month Pillar (Wolju): Career & Family Decoded</a></p>
+  <p><a href="/en/saju/major-fortune" style="text-decoration: underline; color: #f9d976;">[Related] Major Fortune Cycles: Your Decade-by-Decade Roadmap</a></p>
+</div>
+</section>`,
+    faq: [
+      { q: '년주가 안 좋으면 평생 불행한가요?', a: '절대 아닙니다. 년주는 20세 이전의 초년 환경을 의미할 뿐입니다. 초년의 고생이 중년(일주)과 말년(시주)의 큰 성공을 위한 강력한 자양분이 되는 경우가 명리학에서는 훨씬 흔합니다.' },
+      { q: '띠(년지)가 성격의 전부인가요?', a: '아닙니다. 띠는 겉으로 보여지는 사회적 첫인상이자 거시적 환경입니다. 진짜 나의 내면 성격과 기질은 태어난 날을 의미하는 일간(日干)과 일주(日柱)가 결정합니다.' },
+      { q: '조상의 업보가 저에게도 영향을 미치나요?', a: '명리학에서는 유전적 기질과 가풍의 흐름을 인정합니다. 년주를 분석하면 조상 대에서 해결하지 못한 과제나 물려받은 특별한 재능을 파악하여 현재 삶의 방향타로 삼을 수 있습니다.' },
+    ],
+    faqEn: [
+      { q: 'If my Year Pillar is bad, is my whole life ruined?', a: 'Absolutely not. The Year Pillar primarily governs your first 20 years. In Saju-Palja, extreme hardship in the Year Pillar is often the exact catalyst that creates massive wealth and success in the later pillars.' },
+      { q: 'Does my Zodiac animal define my entire personality?', a: 'No. Your Zodiac animal (Year Branch) is merely your outermost social persona and first impression. Your true, core psychological identity is determined by your Day Pillar.' },
+      { q: 'Do I carry the karma of my ancestors?', a: 'Korean astrology recognizes generational inheritance, both genetic and behavioral. Your Year Pillar reveals these deep, subconscious family patterns so you can consciously choose to heal them or leverage them.' },
+    ],
+    relatedPosts: [
+      { slug: 'month-pillar', category: 'saju', title: '월주(月柱) 완전 해설: 직업운과 청년기' },
+      { slug: 'day-pillar', category: 'saju', title: '일주(日柱) 완전 해설: 나의 본질' },
+    ],
+  },
+  {
+    slug: 'month-pillar',
+    title: '월주(月柱) 완전 해설: 내 직업운과 청년기, 그리고 사회적 성취의 핵심',
+    seoTitle: '사주 월주(月柱) 보는 법: 부모운, 직업 적성, 청년기 성취 분석',
+    seoTitleEn: 'Month Pillar (Wolju): Career & Family Decoded in Saju',
+    description: '사주에서 가장 강력한 영향력을 행사하는 월주(月柱)의 비밀. 나의 부모 환경, 20~30대의 청년운, 그리고 평생의 직업 적성을 3,000자 전문 해설로 분석합니다.',
+    descriptionEn: 'The Month Pillar is the engine of your Saju chart. Learn how it dictates your career aptitude, relationship with parents, and success during your 20s and 30s.',
+    keywords: ['사주월주', '월주보는법', '청년운', '직업운', '사주적성', '부모운'],
+    keywordsEn: ['Month Pillar', 'Saju Career', 'Korean Fortune Telling', 'Birth Chart Reading', 'Four Pillars of Destiny', 'Professional Destiny'],
+    publishedAt: '2026-03-02',
+    category: 'saju',
+    toc: [
+      { id: 'month-pillar-meaning', title: '1. 월주(月柱): 사주팔자의 엔진이자 계절' },
+      { id: 'parental-palace', title: '2. 부모궁: 성장 환경과 부모와의 인연' },
+      { id: 'career-aptitude', title: '3. 사회궁: 나의 천직과 사회적 위치' },
+      { id: 'youth-fortune', title: '4. 청년운(20~39세): 인생의 가장 치열한 전장' },
+      { id: 'conclusion', title: '5. 결론: 월지를 장악하는 자가 운명을 지배한다' },
+    ],
+    tocEn: [
+      { id: 'month-pillar-meaning', title: '1. The Engine of Destiny: Understanding the Month Pillar' },
+      { id: 'parental-palace', title: '2. The Parental Palace: Your Foundational Support' },
+      { id: 'career-aptitude', title: '3. The Society Palace: Decoding Your True Vocation' },
+      { id: 'youth-fortune', title: '4. The Prime Years (Ages 20-39): The Battlefield of Youth' },
+      { id: 'conclusion', title: '5. Conclusion: Mastering Your Social Destiny' },
+    ],
+    contentKo: `<section>
+<p>사주팔자 8글자 중에서 단 하나의 글자만 선택해 사람의 운명을 판단해야 한다면, 명리학자들은 주저 없이 <strong>월지(月支)</strong>, 즉 당신이 태어난 달을 선택할 것입니다. 월주(月柱)는 사주라는 자동차의 배기량을 결정하는 거대한 엔진입니다. 일주(日柱)가 '나'라는 씨앗이라면, 월주는 그 씨앗이 심어진 '계절과 환경'입니다. 여름에 태어난 나무와 겨울에 태어난 나무의 운명이 완전히 다르듯, 월주는 당신의 직업적 성공, 사회적 스케일, 그리고 20~30대의 치열한 청년기를 지배합니다. 내 사주의 월주가 어떤 기운을 품고 있는지 아는 것은, 곧 내가 세상과 어떻게 싸우고 승리할 것인지 그 방식을 깨닫는 과정입니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/saju/year-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">년주(年柱) 완전 해설: 나의 뿌리와 조상, 초년운의 비밀</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/career-star" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 관성으로 보는 직업운: 나에게 맞는 직종 찾기</a></li>
+  </ul>
+</div>
+
+<h2 id="month-pillar-meaning">1. 월주(月柱): 사주팔자의 엔진이자 계절</h2>
+<p>월주는 당신이 태어난 달(Month)의 천간과 지지를 말합니다. 월주는 사주 전체의 온도를 결정하는 '조후(調候)'의 핵심이며, 한 사람의 성패를 가늠하는 '격국(格局, 사주의 그릇)'을 정하는 기준점입니다.</p>
+
+<h3>계절이 모든 것을 결정한다</h3>
+<p>명리학은 본질적으로 계절학입니다. 태어난 달이 봄(인묘진), 여름(사오미), 가을(신유술), 겨울(해자축) 중 어디에 속하느냐에 따라 내 사주의 절대적인 에너지량이 정해집니다. 예를 들어, 본질이 불(火)인 사람이 한여름인 오월(午月)에 태어났다면 그 에너지는 폭발적으로 강해져 세상을 주도하려 할 것입니다. 반면 한겨울인 자월(子月)에 태어났다면, 그 불은 주변을 따뜻하게 덥히는 헌신적이고 지적인 에너지로 쓰이게 됩니다. 월주는 내가 가진 능력을 사회에서 어느 정도의 크기로, 어떤 방식으로 발휘할 수 있는지를 알려주는 가장 정확한 지표입니다.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">💼 내 월주로 정확한 직업 적성 분석받기 →</a>
+</div>
+
+<h2 id="parental-palace">2. 부모궁: 성장 환경과 부모와의 인연</h2>
+<p>년주가 조부모를 상징한다면, 월주는 나를 직접 낳고 길러준 <strong>부모궁(父母宮)</strong>, 특히 어머니와 아버지의 자리입니다. 월주와 일주(나의 자리)의 관계를 보면 부모님과의 인연과 갈등 양상을 정확히 짚어낼 수 있습니다.</p>
+
+<h3>부모의 혜택과 정신적 독립</h3>
+<p>월주에 정인(正印)이나 정관(正官) 같은 안정적인 길신이 자리하고 일주와 상생(相生)한다면, 경제적·정신적으로 부모의 든든한 지원을 받으며 모범적으로 성장했을 가능성이 큽니다. 유산 상속이나 학업 지원의 혜택도 따릅니다. 그러나 월주가 일주를 강하게 극(剋)하거나 형충(刑沖)이 발생한다면, 부모와의 가치관 충돌이 심하거나 일찍 고향을 떠나 자수성가해야 하는 팔자입니다. 명리학에서 부모궁이 흔들리는 것을 무조건 나쁘게 보지 않습니다. 부모의 그늘이 없는 호랑이는 더 일찍 독립하여 자신만의 광활한 영토를 개척하는 법입니다.</p>
+
+<h2 id="career-aptitude">3. 사회궁: 나의 천직과 사회적 위치</h2>
+<p>월주를 <strong>사회궁(社會宮)</strong>이라고도 부릅니다. 가정이라는 울타리를 벗어나 직장, 조직, 사회 속에서 내가 어떤 역할을 맡게 될지가 월주에 고스란히 새겨져 있습니다.</p>
+
+<h3>직업 선택의 나침반</h3>
+<p>월지의 십성(十星)을 보면 그 사람의 천직이 보입니다. 월지에 '관성(官星)'이 뿌리내리고 있다면 공직, 대기업, 법조계 등 거대한 조직의 톱니바퀴로서 최고의 능력을 발휘합니다. 월지에 '식상(食傷)'이 있다면 틀에 박힌 직장생활을 견디지 못하며, 프리랜서, 예술가, 교육자, IT 개발자 등 자신의 창의력을 마음껏 발산하는 직업을 가져야 성공합니다. 월지에 '재성(財星)'이 강하다면 뛰어난 현실 감각을 무기로 금융, 무역, 사업 경영에서 두각을 나타냅니다. 취업 준비나 이직으로 방황하고 있다면, 자신의 월주가 지시하는 방향을 다시 한번 점검해야 합니다. 세상의 잣대가 아닌 내 월주의 잣대를 따를 때 직업적 스트레스가 성취감으로 바뀝니다.</p>
+
+<h2 id="youth-fortune">4. 청년운(20~39세): 인생의 가장 치열한 전장</h2>
+<p>년주가 10대까지의 초년운이었다면, 월주는 대략 20세부터 39세까지의 <strong>청년운</strong>을 관장합니다. 대학 진학, 첫 취업, 결혼, 사회적 기반 확립 등 인생을 결정짓는 가장 무겁고 치열한 이벤트들이 모두 이 시기에 몰려 있습니다.</p>
+
+<h3>사회적 기반을 다지는 골든타임</h3>
+<p>이 시기에 월주의 에너지가 사주 전체와 조화를 이룬다면, 사회 진출이 순조롭고 빠른 승진과 성공을 거머쥐게 됩니다. 반면 월주의 기운이 내 본질(일간)을 심하게 공격하거나 대운(大運)과 충돌한다면, 이 20년 동안 잦은 이직, 직장 내 갈등, 사업 실패, 경제적 고난 등 매서운 담금질을 겪게 됩니다. 하지만 월주 시기의 고난은 헛된 것이 아닙니다. 40대 이후(일주 시기)의 진짜 내 인생을 단단하게 만들기 위해 근육을 찢고 키우는 트레이닝 과정으로 이해해야 합니다.</p>
+
+<h2 id="conclusion">5. 결론: 월지를 장악하는 자가 운명을 지배한다</h2>
+<p>사주 명리학의 위대한 고전인 『연해자평(淵海子平)』이나 『적천수(滴天髓)』 모두 사주 해석의 최우선 순위로 월지(月支)를 꼽습니다. 월주는 당신의 사회적 그릇(격국)이자, 당신이 세상과 소통하는 메인 주파수입니다.</p>
+<p>부모의 기대를 만족시키기 위해, 혹은 남들이 좋다고 하는 유망 직종을 좇기 위해 내 월주의 본성을 억누르고 있지는 않습니까? 호랑이로 태어났으면 산으로 가야 하고, 돌고래로 태어났으면 바다로 가야 합니다. 월주를 정확히 해독한다는 것은, 남의 옷을 벗어 던지고 나에게 가장 잘 맞는 전투복으로 갈아입는 것입니다. 당신의 월주가 지시하는 길로 과감하게 발걸음을 내디딜 때, 인생의 진짜 황금기가 시작될 것입니다.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/saju/hour-pillar" style="text-decoration: underline; color: #f9d976;">[관련] 시주(時柱) 완전 해설: 나의 숨겨진 내면과 말년의 결실</a></p>
+  <p><a href="/saju/wealth-luck" style="text-decoration: underline; color: #f9d976;">[관련] 사주로 보는 재물운: 내 사주의 돈그릇 사이즈는?</a></p>
+</div>
+</section>`,
+    contentEn: `<section>
+<p>If a master of Korean fortune telling were forced to analyze your entire life trajectory using only one out of the eight characters in your birth chart, they would unhesitatingly point to the Earthly Branch of your <strong>Month Pillar (Wolju)</strong>. While modern astrology obsessively focuses on your "Day Master" (your personal identity), traditional Saju-Palja (Four Pillars of Destiny) recognizes the Month Pillar as the undisputed engine of your cosmic vehicle. If your Day Pillar is the seed, the Month Pillar is the climate, the soil, and the season into which that seed was planted. It governs your relationship with your parents, your absolute peak working years (your 20s and 30s), and serves as the ultimate diagnostic tool for finding your true professional calling. This expert guide will deconstruct the Month Pillar, showing you how to harness its formidable energy to conquer the professional world.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p><a href="/en/saju/year-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Year Pillar (Nyeonju): Your Destiny's Foundation</a></p>
+  <p><a href="/en/saju/career-star" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Career Luck in Saju: Navigating Success via Gwanseong</a></p>
+</div>
+
+<h2 id="month-pillar-meaning">1. The Engine of Destiny: Understanding the Month Pillar</h2>
+<p>In the architecture of a Saju chart, the Month Pillar represents the season in which you were born. Why is this so crucial? Because East Asian metaphysics is, at its core, a science of climatology and cosmic energy. The temperature and elemental dominance of the month you were born permanently dictate the "scale" and "style" of your life's work.</p>
+
+<h3>The Dictator of Your Chart's "Capacity" (Gyeok-guk)</h3>
+<p>Consider a person whose core identity (Day Master) is Fire. If they are born in the dead of winter (a Water-dominant month), that Fire is constantly struggling to survive the cold; their life will likely revolve around intellectual depth, endurance, and quiet service. However, if that same Fire person is born in the peak of summer (a Fire-dominant month), their energy is explosive and undeniable; they are destined for the spotlight, fierce competition, and massive visible leadership. The Month Pillar establishes your <strong>Gyeok-guk (格局)</strong>—your chart's fundamental structure and capacity. It tells us whether you are built to be a specialist playing a nuanced role, or an aggressive general conquering vast territories.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">💼 Discover Your True Career Calling via Saju →</a>
+</div>
+
+<h2 id="parental-palace">2. The Parental Palace: Your Foundational Support</h2>
+<p>Structurally, the Month Pillar is designated as the "Palace of Parents." While the Year Pillar represents your ancient lineage and grandparents, the Month Pillar directly details your relationship with your mother and father, and the psychological environment inside your childhood home.</p>
+
+<h3>Inheritance and Independence</h3>
+<p>When an expert performs a birth chart reading, they closely analyze how the Month Pillar interacts with your Day Pillar (You). If the Month Pillar naturally generates and supports your Day Pillar (e.g., a Water month supporting a Wood Day Master), you likely received immense financial, educational, and emotional support from your parents. You grew up in a stable environment. However, if the Month Pillar violently clashes with your Day Pillar, it indicates profound ideological conflicts with your parents, a chaotic household, or a sudden loss of family support. In Saju theory, this clash is not viewed as a tragedy. Rather, it is the cosmic signature of the self-made individual. A clashing Parental Palace forces you to leave the nest early, stripping away comfortable safety nets so you can build your own empire from the ground up.</p>
+
+<h2 id="career-aptitude">3. The Society Palace: Decoding Your True Vocation</h2>
+<p>Beyond family, the Month Pillar is heavily referred to as the <strong>Society Palace</strong>. Once you graduate from school and enter the brutal arena of the professional world, you stop operating from your childhood conditioning and begin operating from your Month Pillar.</p>
+
+<h3>Finding Your Native Professional Environment</h3>
+<p>The specific "Ten Gods" (Sipseong) located in your Month Pillar serve as an unerring compass for your ultimate career path. If your Month Pillar is dominated by the <em>Career Star (Gwanseong)</em>, you are genetically wired for the corporate ladder. You possess the political acumen and stamina to thrive in large corporations, government agencies, or the military. Conversely, if your Month Pillar is filled with the <em>Expression Star (Siksang)</em>, a traditional 9-to-5 desk job will slowly kill your spirit. You must be an entrepreneur, an artist, a consultant, or a tech developer—someone who creates output and rejects strict hierarchy. If you are currently experiencing deep professional burnout, it is almost certainly because the job you are doing violates the core elemental demands of your Month Pillar.</p>
+
+<h2 id="youth-fortune">4. The Prime Years (Ages 20-39): The Battlefield of Youth</h2>
+<p>In the timeline of a Saju reading, the Month Pillar governs the most critical, high-stakes decades of your life: your 20s and 30s. This is the era when you are expected to secure your career, find a spouse, and establish your financial baseline.</p>
+
+<h3>Navigating the Most Intense Decades</h3>
+<p>Because these years are dictated by the massive energy of the Month Pillar, this period is rarely peaceful. If the elements in your Month Pillar are balanced, these two decades will feature a rapid, smooth ascent in your career and social status. If the Month Pillar is turbulent or contains your negative elements, your 20s and 30s will feel like a relentless battlefield. You may experience sudden career pivots, severe workplace politics, and financial volatility. However, this is precisely the crucible required to forge your skills. A master Saju practitioner will advise you to view the struggles of this specific timeline not as failures, but as essential resistance training preparing you for the lasting stability of your 40s (governed by the Day Pillar).</p>
+
+<h2 id="conclusion">5. Conclusion: Mastering Your Social Destiny</h2>
+<p>To misunderstand your Month Pillar is to fight a war against the universe with the wrong weapons. You cannot force a highly creative, rebellious chart to succeed in a rigid bureaucratic system, just as you cannot force a deeply conservative, system-building chart to thrive in the chaotic volatility of an early-stage startup. The Four Pillars of Destiny do not exist to limit your choices; they exist to reveal the specific battlefield where your victory is statistically guaranteed. Stop measuring yourself against societal expectations that contradict your core design. By decoding and embracing the profound elemental truth of your Month Pillar, you align your daily grind with the cosmic current. That is the moment your career stops feeling like a struggle for survival, and becomes the effortless expression of your destiny.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/saju/hour-pillar" style="text-decoration: underline; color: #f9d976;">[Related] Hour Pillar (Siju): Your Hidden Self & Late Fortune</a></p>
+  <p><a href="/en/saju/wealth-luck" style="text-decoration: underline; color: #f9d976;">[Related] Wealth Star: Reading Money Fortune in Korean Astrology</a></p>
+</div>
+</section>`,
+    faq: [
+      { q: '월주가 일주를 극(剋)하면 무조건 부모와 연이 없나요?', a: '상극이라고 해서 부모와 원수가 되는 것은 아닙니다. 오히려 부모의 지나친 간섭을 벗어나 일찍 독립하여 자수성가하는 강한 에너지로 발현되는 경우가 훨씬 많습니다.' },
+      { q: '직업을 선택할 때 일주와 월주 중 무엇이 더 중요한가요?', a: '일주는 내가 "좋아하는 것(개인적 성향)"에 가깝다면, 월주는 내가 사회에서 "잘할 수 있는 것(사회적 적성)"을 뜻합니다. 직업적 성공은 월주의 기운을 따를 때 훨씬 유리합니다.' },
+      { q: '청년기(20~30대)가 너무 힘들었는데, 월주 때문인가요?', a: '월주에 흉신이 있거나 대운과 충돌할 때 청년기에 매서운 시련을 겪습니다. 하지만 명리학에서 이 시기의 시련은 40대 이후의 안정된 삶을 위한 필수적인 단련 과정으로 해석합니다.' },
+    ],
+    faqEn: [
+      { q: 'If my Month Pillar clashes with my Day Pillar, does it mean I hate my parents?', a: 'Not necessarily. A clash often indicates an ideological difference or early physical separation, which pushes you toward rapid independence and becoming a self-made success.' },
+      { q: 'For career choices, is the Day Pillar or Month Pillar more important?', a: 'The Day Pillar shows what you personally *like*, but the Month Pillar dictates what society will actively *reward* you for. For professional success, you must follow the Month Pillar.' },
+      { q: 'My 20s and 30s were incredibly difficult. Is my Month Pillar to blame?', a: 'If your Month Pillar contains challenging elements or clashes with your 10-year luck cycle, those decades act as a crucible. In Saju, this intense pressure is viewed as the necessary training to guarantee your success in later life.' },
+    ],
+    relatedPosts: [
+      { slug: 'hour-pillar', category: 'saju', title: '시주(時柱) 완전 해설: 나의 말년운' },
+      { slug: 'career-star', category: 'saju', title: '사주 관성으로 보는 직업운' },
+    ],
+  },
+  {
+    slug: 'hour-pillar',
+    title: '시주(時柱) 완전 해설: 인생의 마침표, 자녀운, 그리고 은밀한 내면의 욕망',
+    seoTitle: '사주 시주(時柱) 보는 법: 말년운, 자녀운, 숨겨진 나의 무의식 분석',
+    seoTitleEn: 'Hour Pillar (Siju): Your Hidden Self & Late Fortune in Saju',
+    description: '사주의 마지막 기둥인 시주(時柱)가 품고 있는 말년의 결실, 자녀와의 인연, 그리고 남들에게 절대 보여주지 않는 비밀스러운 무의식을 3,000자 전문 해설로 파헤칩니다.',
+    descriptionEn: 'The Hour Pillar is the final destination of your Saju chart. Uncover what your birth time reveals about your children, your retirement fortune, and your secret inner desires.',
+    keywords: ['사주시주', '시주보는법', '말년운', '자녀운', '비밀의궁', '생년월일시'],
+    keywordsEn: ['Hour Pillar', 'Late Life Fortune', 'Children in Saju', 'Korean Astrology', 'Birth Time Destiny', 'Four Pillars of Destiny'],
+    publishedAt: '2026-03-02',
+    category: 'saju',
+    toc: [
+      { id: 'hour-pillar-meaning', title: '1. 시주(時柱)의 정의: 내 인생이 맺을 최종 열매' },
+      { id: 'children-palace', title: '2. 자식궁과 아랫사람: 내가 남길 유산' },
+      { id: 'late-fortune', title: '3. 말년운(50세 이후): 인생 2막의 풍요와 고독' },
+      { id: 'hidden-desire', title: '4. 비밀의 궁: 가장 은밀한 나의 본능과 무의식' },
+      { id: 'conclusion', title: '5. 결론: 시작이 반이라면, 마무리는 전부다' },
+    ],
+    tocEn: [
+      { id: 'hour-pillar-meaning', title: '1. The Fruit of Life: Defining the Hour Pillar' },
+      { id: 'children-palace', title: '2. The Children\'s Palace: Your Legacy and Subordinates' },
+      { id: 'late-fortune', title: '3. Late-Life Fortune (Age 50+): The Final Harvest' },
+      { id: 'hidden-desire', title: '4. The Secret Palace: Your Hidden Instincts and Desires' },
+      { id: 'conclusion', title: '5. Conclusion: It\'s How You Finish That Counts' },
+    ],
+    contentKo: `<section>
+<p>명리학 상담을 하다 보면, 자신이 태어난 시간을 정확히 모르는 분들을 종종 만납니다. "년월일만 알아도 대충 볼 수 있지 않나요?"라고 묻습니다. 절반은 맞고 절반은 틀립니다. 사주(四柱)의 마지막 기둥인 <strong>시주(時柱)</strong>가 빠진 사주는, 화려하게 시작된 영화의 결말을 보지 못하고 극장을 나서는 것과 같습니다. 년주가 인생의 뿌리, 월주가 줄기, 일주가 꽃이라면, 시주는 당신의 삶이 궁극적으로 맺게 될 '마지막 열매'이기 때문입니다. 50대 이후의 삶의 질, 내 유전자를 물려받은 자식과의 인연, 그리고 타인에게 절대 들키고 싶지 않은 나의 가장 깊은 심연이 모두 시주에 기록되어 있습니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/saju/month-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">월주(月柱) 완전 해설: 직업운과 청년기 성취의 핵심</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/lunar-solar-calendar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">음력 양력 차이와 사주 생시가 중요한 진짜 이유</a></li>
+  </ul>
+</div>
+
+<h2 id="hour-pillar-meaning">1. 시주(時柱)의 정의: 내 인생이 맺을 최종 열매</h2>
+<p>시주는 당신이 태어난 시간의 간지(干支)를 말합니다. 사주 여덟 글자 중 가장 안쪽, 마지막을 장식하는 글자들입니다. 시주는 사주 원국의 25%를 차지하지만, 그 비중은 결코 4분의 1로 끝나지 않습니다. 인생의 방향을 최종적으로 결정짓는 조타수 역할을 하기 때문입니다.</p>
+
+<h3>결과물과 완성의 공간</h3>
+<p>초년과 중년에 아무리 큰 돈을 벌고 명예를 얻었더라도, 시주가 깨져 있다면 그 성취를 끝까지 지켜내기 어렵습니다. 반대로 초년(년주)과 청년기(월주)가 척박하고 가난했더라도 시주에 용신(用神, 나에게 꼭 필요한 기운)이 아름답게 자리하고 있다면, 대기만성형으로 인생의 후반부에 화려한 꽃을 피우고 평온을 누리게 됩니다. 명리학의 고수들은 사주를 볼 때 항상 시주부터 확인하여 이 사람의 인생이 결국 해피엔딩일지, 새드엔딩일지를 가장 먼저 가늠합니다.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🕒 내 생시로 나의 말년운과 자녀운 분석하기 →</a>
+</div>
+
+<h2 id="children-palace">2. 자식궁과 아랫사람: 내가 남길 유산</h2>
+<p>전통적으로 시주는 <strong>자식궁(子息宮)</strong>을 의미합니다. 내가 세상을 떠난 후에도 내 유전자를 세상에 남겨줄 존재들의 자리입니다. 현대 사회에서는 물리적인 자녀뿐만 아니라, 회사에서의 부하 직원, 내가 길러낸 제자, 혹은 내가 창작해낸 작품이나 프로젝트라는 '사회적 유산'으로도 폭넓게 해석합니다.</p>
+
+<h3>자녀와의 인연과 노년의 봉양</h3>
+<p>시주에 길신(정관, 정인, 식신 등)이 안정적으로 위치하면, 자녀가 훌륭하게 성장하여 부모의 자랑이 되고 노년의 나를 살뜰히 챙겨주는 깊은 인연을 맺게 됩니다. 반면 시주에 흉신이 가득하거나 일주(나의 자리)와 강하게 형충(刑沖)을 일으킨다면, 자녀로 인해 속을 썩거나 자녀와 일찍 떨어져 살게 될 확률이 높습니다. 직장인의 경우, 시주가 좋으면 유능하고 충성스러운 부하 직원을 만나 편안하게 리더의 역할을 수행하지만, 시주가 불안정하면 아랫사람의 하극상이나 배신을 조심해야 합니다.</p>
+
+<h2 id="late-fortune">3. 말년운(50세 이후): 인생 2막의 풍요와 고독</h2>
+<p>시간적 관점에서 시주는 50대 중반부터 죽음에 이르기까지의 <strong>말년운</strong>을 지배합니다. 의학의 발달로 100세 시대가 열린 지금, 인생의 절반 가까이를 차지하는 이 시기의 중요성은 과거와 비교할 수 없을 만큼 커졌습니다.</p>
+
+<h3>재물과 건강의 최종 수비수</h3>
+<p>은퇴 후의 삶은 어떤 기운을 띠고 있을까요? 시주에 재성(財星)이 튼튼하게 자리하고 있다면, 평생 모은 재산이 마르지 않고 임대 수익이나 이자 등 안정적인 현금 흐름을 통해 풍요로운 노후를 보장받습니다. 반면 시주에 비겁(比劫, 내 재물을 빼앗는 기운)이 강하다면, 노년에 자식이나 주변 사람들에게 재산을 뺏기거나 잘못된 투자로 노후 자금을 잃을 위험을 강력히 경고하는 것입니다. 또한, 시주의 상태는 노년기의 건강 질환(치매, 중풍, 거동 불편 등)을 암시하는 중요한 의학적 지표가 되기도 합니다.</p>
+
+<h2 id="hidden-desire">4. 비밀의 궁: 가장 은밀한 나의 본능과 무의식</h2>
+<p>심리학적 관점에서 시주는 <strong>비밀의 궁(Secret Palace)</strong>입니다. 남들에게 보여지는 사회적 가면이 월주라면, 시주는 혼자 있을 때만 드러나는 지극히 사적이고 은밀한 나의 맨얼굴입니다.</p>
+
+<h3>타인은 모르는 나의 본능</h3>
+<p>아무리 사회(월주)에서 점잖고 규율을 잘 지키는 학자(정관/정인)로 살아가는 사람이라도, 시주에 편관(칠살)이나 상관 같은 거칠고 자유분방한 에너지가 숨어있다면, 그의 내면 깊은 곳에는 세상을 뒤엎고 싶은 일탈의 욕망이나 은밀한 취미가 끓어오르고 있습니다. 개인의 숨겨진 성적(Sexual) 취향, 은밀한 부동산이나 비자금 조성의 욕구, 혹은 누구에게도 말하지 못하는 고독감이 모두 이 시주에 똬리를 틀고 있습니다. 그래서 진짜 뛰어난 명리학자는 시주를 통해 그 사람이 절대 입 밖으로 꺼내지 않은 비밀을 읽어냅니다.</p>
+
+<h2 id="conclusion">5. 결론: 시작이 반이라면, 마무리는 전부다</h2>
+<p>많은 사람들이 젊은 시절의 성공을 위해 달리지만, 결국 우리 모두가 바라는 것은 평온하고 존경받는 노후입니다. 사주의 시주가 불길하다고 해서 절망할 필요는 없습니다. 명리학이 시주의 비밀을 미리 알려주는 이유는, 젊을 때부터 그 결말을 대비하라는 우주의 경고이기 때문입니다.</p>
+<p>시주에 재물이 깨질 운이 있다면 젊을 때부터 연금과 부동산으로 돈을 묶어두는 지혜를 발휘해야 합니다. 자식궁이 불안정하다면 자식에 대한 집착을 버리고 각자의 삶을 존중하는 독립적인 관계를 미리 연습해야 합니다. 당신의 태어난 시간은 당신 인생의 마지막 챕터가 어떻게 쓰일지를 알려주는 스포일러입니다. 그 결말을 미리 안다면, 우리는 오늘 하루의 대본을 더 현명하게 수정할 수 있습니다.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/saju/love-marriage" style="text-decoration: underline; color: #f9d976;">[관련] 사주로 보는 연애와 결혼운: 나의 운명의 짝은 언제 나타날까?</a></p>
+  <p><a href="/saju/major-fortune" style="text-decoration: underline; color: #f9d976;">[관련] 대운(大運) 완전 해설: 10년 단위로 바뀌는 인생의 거대한 파도</a></p>
+</div>
+</section>`,
+    contentEn: `<section>
+<p>In the consulting room of a Saju master, one of the most common statements from clients is, <em>"I know the day I was born, but I have no idea what time it was. You can still read my chart, right?"</em> The honest answer is: yes, we can read the beginning and the middle of the movie, but we will have absolutely no idea how it ends. In the profound structural system of Saju-Palja (Four Pillars of Destiny), the <strong>Hour Pillar (Siju)</strong> is the final destination. If the Year Pillar is your roots and the Month Pillar is your trunk, the Hour Pillar is the final <em>fruit</em> your life will bear. It governs your retirement years, your relationship with your children, and the deepest, darkest secrets of your subconscious mind. Without an accurate birth time, a massive 25% of your cosmic DNA remains permanently locked. This expert guide will reveal why the Hour Pillar is the ultimate determinant of whether your life story ends in triumph or tragedy.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p><a href="/en/saju/lunar-solar-calendar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Lunar vs. Solar: The Crucial Importance of Exact Birth Time</a></p>
+  <p><a href="/en/saju/month-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Month Pillar (Wolju): Career & Family Decoded</a></p>
+</div>
+
+<h2 id="hour-pillar-meaning">1. The Fruit of Life: Defining the Hour Pillar</h2>
+<p>The Hour Pillar is constructed from the Heavenly Stem and Earthly Branch that corresponded to the exact two-hour cosmic window in which you took your first breath. Geographically, it sits at the very end of your Saju chart, acting as the final filter through which all your life's energy must pass. It is the ultimate measure of <em>retention</em>.</p>
+
+<h3>The Measure of True Success</h3>
+<p>In traditional Korean astrology, early success is considered hollow if it cannot be maintained. A person may possess a brilliant Month Pillar, propelling them to massive corporate success and wealth in their 30s. However, if their Hour Pillar is severely compromised or clashing with the rest of the chart, they are statistically prone to losing that wealth through bad investments, betrayal, or legal trouble in their later years. Conversely, a person born into extreme poverty (a harsh Year Pillar) who possesses a radiant, highly supportive Hour Pillar is the classic "late bloomer." Their life is a steady upward trajectory, culminating in deep respect, peace, and financial abundance in their twilight years. The Hour Pillar determines if your life's labor actually bears edible fruit.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🕒 Discover Your Late-Life Fortune with a Birth Time Analysis →</a>
+</div>
+
+<h2 id="children-palace">2. The Children's Palace: Your Legacy and Subordinates</h2>
+<p>Metaphorically and literally, the Hour Pillar is designated as the "Palace of Children." It represents the physical and spiritual legacy you leave behind when you exit the world stage.</p>
+
+<h3>Your Biological and Professional Offspring</h3>
+<p>If the Hour Pillar contains favorable "Ten Gods" (such as a healthy Expression Star or Direct Officer), it strongly indicates that your children will be successful, healthy, and a source of immense pride. They will likely be present to care for you in your old age. If the pillar is afflicted by destructive forces, it is a cosmic warning: you may struggle with fertility, or your children may become a source of profound stress and financial drain. In the modern corporate world, the Hour Pillar also represents your subordinates. A strong Hour Pillar means you will naturally attract loyal, highly competent employees who amplify your leadership. A broken Hour Pillar warns of constant staff turnover, insubordination, or betrayal by those you mentored.</p>
+
+<h2 id="late-fortune">3. Late-Life Fortune (Age 50+): The Final Harvest</h2>
+<p>Chronologically, the Hour Pillar takes complete command of your life's narrative from roughly age 50 until your passing. In an era where life expectancy regularly exceeds 85 years, understanding this pillar is more critical than at any point in human history.</p>
+
+<h3>Retirement and Physical Decline</h3>
+<p>The elemental condition of the Hour Pillar provides a shockingly accurate forecast of your retirement reality. A robust Wealth Star (Jaeseong) anchored here guarantees that your cash flow will not dry up; you will enjoy a luxurious, secure late life through passive income or real estate. However, if your Hour Pillar is dominated by "Rob Wealth" (Gyeopjae) energy, you are at high risk of losing your retirement savings to scams, greedy relatives, or bad business ventures. Medically, the Hour Pillar also points to the specific organs that will fail you in old age. A dry, scorched Hour Pillar with no Water energy often predicts cardiovascular or cognitive (dementia) issues late in life, allowing you to take preventative medical action decades in advance.</p>
+
+<h2 id="hidden-desire">4. The Secret Palace: Your Hidden Instincts and Desires</h2>
+<p>From a psychological standpoint, the Hour Pillar is your "Secret Palace." If your Month Pillar is the professional mask you wear to survive in society, your Hour Pillar is what you do at 2:00 AM when absolutely no one is watching.</p>
+
+<h3>The Shadow Self</h3>
+<p>This pillar houses your most deeply buried instincts, your hidden sexual psychology, and your private ambitions that you are too ashamed or afraid to share with the public. You may present as a rigid, law-abiding accountant to the world (strong Direct Officer in the Month Pillar), but if you harbor wild, rebellious "Hurting Officer" energy in your Hour Pillar, you possess a burning, secret desire to break all the rules—perhaps manifesting as a secret artistic life, or a hidden penchant for extreme risk. Master Saju practitioners look directly at the Hour Pillar to understand a client's shadow self. It is the vault of your deepest truths.</p>
+
+<h2 id="conclusion">5. Conclusion: It's How You Finish That Counts</h2>
+<p>Life is not a sprint; it is an ultramarathon, and the Hour Pillar is the finish line. Do not despair if your Hour Pillar contains difficult or destructive energy. Korean fortune telling (Saju) is not about surrendering to a doomed fate; it is about gathering intelligence for strategic destiny management (Gaewoon). If your chart predicts a loss of wealth in your later years, the remedy is to lock your assets into illiquid trusts or real estate while you are still young. If it predicts conflict with your children, you must consciously cultivate emotional independence rather than demanding their devotion. Your birth time hands you the script for the final act of your life. By reading it now, you gain the supreme power to rewrite the ending.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/saju/major-fortune" style="text-decoration: underline; color: #f9d976;">[Related] Major Fortune Cycles (Daewoon): Your Decade-by-Decade Guide</a></p>
+  <p><a href="/en/saju/love-marriage" style="text-decoration: underline; color: #f9d976;">[Related] Love & Marriage in Saju: Finding Your Destined Partner</a></p>
+</div>
+</section>`,
+    faq: [
+      { q: '태어난 시간을 모르면 사주를 전혀 볼 수 없나요?', a: '년월일 6글자(삼주)만으로도 타고난 성향과 청년기까지의 운세는 70% 정도 파악할 수 있습니다. 하지만 말년운과 숨겨진 본성은 정확히 알기 어렵습니다. 전문가들은 과거의 중대 사건을 역추적하여 생시를 찾아내는 시추정(時推定) 기법을 사용합니다.' },
+      { q: '시주가 나쁘면 말년에 무조건 가난해지나요?', a: '아닙니다. 시주에 재물이 빠져나가는 기운이 있다면, 젊을 때 현금을 부동산이나 연금 등 묶인 자산으로 바꿔두는 개운(開運) 전략을 통해 충분히 방어할 수 있습니다.' },
+      { q: '시주로 자녀가 성공할지 알 수 있나요?', a: '시주에 용신이나 길신이 아름답게 자리하면 자녀가 사회적으로 크게 성공하고 부모와 좋은 관계를 유지할 확률이 높다고 해석합니다.' },
+    ],
+    faqEn: [
+      { q: 'Can I get a Saju reading if I absolutely do not know my birth time?', a: 'Yes, reading the Year, Month, and Day pillars provides about 70% of the picture, primarily focusing on your personality and career. However, to see your retirement and true inner self, experts use "Time Rectification" to deduce your birth time based on your past life events.' },
+      { q: 'If my Hour Pillar is unlucky, am I destined to be poor in old age?', a: 'No. Saju is a strategic tool. If your chart indicates late-life financial loss, the remedy is to intentionally tie up your cash in illiquid assets like real estate or trusts during your 30s and 40s to protect it from yourself.' },
+      { q: 'Can my Hour Pillar really predict if my children will be successful?', a: 'In Saju theory, a highly auspicious Hour Pillar is one of the strongest indicators that your children will achieve significant social success and maintain a loving, supportive relationship with you.' },
+    ],
+    relatedPosts: [
+      { slug: 'love-marriage', category: 'saju', title: '사주로 보는 연애와 결혼운' },
+      { slug: 'major-fortune', category: 'saju', title: '대운(大運) 완전 해설: 10년의 파도' },
+    ],
+  },
 ];
