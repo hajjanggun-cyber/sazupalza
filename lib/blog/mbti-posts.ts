@@ -887,4 +887,161 @@ export const mbtiPosts: BlogPost[] = [
       { slug: 'fortune-improvement', category: 'mbti', title: '내향형(I)을 위한 개운법' },
     ],
   },
+  {
+    slug: 'mbti-career',
+    title: 'MBTI와 사주로 찾는 천직: 내 성격에 딱 맞는 직업운 분석',
+    seoTitle: 'MBTI 직업 추천: 사주 적성(십성)과 성격 유형으로 찾는 나의 천직',
+    seoTitleEn: 'MBTI Career Guide: Find Your Vocation with Korean Saju',
+    description: '나에게 맞는 진짜 직업은 무엇일까요? MBTI 16유형의 직업적 특성과 사주 명리학의 십성(十星)을 결합하여 완벽한 천직과 성공운을 3,000자 전문 해설로 찾아드립니다.',
+    descriptionEn: 'Discover your true calling by combining MBTI career traits with Korean Saju (Ten Gods). Find the perfect job that aligns with your personality and destiny.',
+    keywords: ['MBTI 직업', '사주 적성', '천직 찾기', '십성 분석', '성격유형 진로'],
+    keywordsEn: ['MBTI Career', 'Saju Vocation', 'Ten Gods Astrology', 'Career Luck', 'Korean Destiny'],
+    publishedAt: '2026-03-02',
+    category: 'mbti',
+    toc: [
+      { id: 'mbti-saju-career', title: '1. 진로 선택의 두 축: 방식과 재능' },
+      { id: 'nf-nt-careers', title: '2. 직관형(N)의 천직: 식상과 인성' },
+      { id: 'sj-sp-careers', title: '3. 감각형(S)의 천직: 관성과 재성' },
+      { id: 'job-satisfaction', title: '4. 직업 만족도를 높이는 사주 개운법' },
+      { id: 'conclusion', title: '5. 결론: 나만의 타이밍을 믿어라' },
+    ],
+    tocEn: [
+      { id: 'mbti-saju-career', title: '1. Two Axes of Career Choice' },
+      { id: 'nf-nt-careers', title: '2. Careers for N-Types (Intuitive)' },
+      { id: 'sj-sp-careers', title: '3. Careers for S-Types (Sensing)' },
+      { id: 'job-satisfaction', title: '4. Saju Remedies for Job Satisfaction' },
+      { id: 'conclusion', title: '5. Conclusion: Trust Your Timing' },
+    ],
+    contentKo: `
+<section>
+<p>평생 직장의 개념이 사라진 시대, 수많은 사람들이 "내가 진짜 좋아하는 일은 무엇일까?", "나는 어떤 일을 해야 성공할 수 있을까?"를 고민하며 방황합니다. 서양의 MBTI 검사가 내가 '어떤 환경에서 일할 때 가장 편안함을 느끼는지(Work Style)'를 알려준다면, 동양의 사주 명리학은 내가 '어떤 무기(재능)를 쥐고 태어났는지(Innate Talent)'를 정확하게 짚어냅니다.</p>
+
+<p>아무리 MBTI에 맞는 직업(예: INFP-작가)을 선택했다 하더라도, 사주에 글을 쓰는 기운(인성이나 식상)이 부족하다면 직업적 성취를 이루는 데 엄청난 고통이 따릅니다. 반대로 사주에 돈을 만지는 재물운(재성)이 강하더라도, 사람을 만나는 것을 극도로 꺼리는 내향형(I)이 대면 영업직을 택한다면 스트레스로 무너지고 맙니다. 이 글에서는 MBTI의 4가지 기질(NF, NT, SJ, SP)과 사주 명리학의 핵심인 <strong>'십성(十星)'</strong>을 결합하여, 절대로 실패하지 않는 당신만의 천직(Vocation)을 찾는 법을 공개합니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/saju/ten-gods" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">십성(十星) 완전정복: 내 사주의 직업운과 재물운 무기 찾기</a></li>
+    <li style="margin-bottom: 4px;"><a href="/mbti/saju-five-elements" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">MBTI와 사주 오행: 16유형 성격을 오행으로 해석하기</a></li>
+  </ul>
+</div>
+
+<h2 id="mbti-saju-career">1. 진로 선택의 두 축: '일하는 방식'과 '타고난 재능'</h2>
+<p>성공적인 커리어를 구축하기 위해서는 두 가지 퍼즐이 완벽하게 맞물려야 합니다.</p>
+<ul>
+  <li><strong>MBTI (일하는 방식):</strong> 혼자 일하는 게 좋은가, 팀으로 일하는 게 좋은가? 아이디어를 짜는 게 좋은가, 정해진 매뉴얼을 따르는 게 좋은가? 이는 직장의 <strong>'업무 환경'</strong>을 결정합니다.</li>
+  <li><strong>사주 십성 (타고난 재능):</strong> 사주에서 나를 중심으로 형성되는 10가지 기운입니다. <strong>비겁</strong>(경쟁력, 독립심), <strong>식상</strong>(표현력, 예술성), <strong>재성</strong>(공간지각력, 재물 감각), <strong>관성</strong>(통제력, 조직 적응력), <strong>인성</strong>(수용력, 학문적 깊이)으로 나뉩니다. 이는 나의 <strong>'핵심 역량'</strong>을 결정합니다.</li>
+</ul>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">💼 나의 MBTI와 사주 직업운 무료 확인하기 →</a>
+</div>
+
+<h2 id="nf-nt-careers">2. 직관형(N)의 천직: 식상(표현)과 인성(학문)의 세계</h2>
+<p>눈에 보이지 않는 가능성과 미래의 가치를 좇는 직관형(N)은 매일 똑같은 서류를 정리하는 단순 반복 업무에서 생기를 잃습니다. 이들은 사주에 <strong>'식상(食傷)'</strong>이나 <strong>'인성(印星)'</strong>이 잘 발달해 있을 때 최고의 역량을 발휘합니다.</p>
+
+<h3>NF 외교관형 (INFJ, INFP, ENFJ, ENFP) + 인성(印星)</h3>
+<p>사람의 마음을 치유하고 영감을 주는 NF 유형은 사주에 지식을 흡수하고 깊이 사유하는 '인성'이 발달했을 때 대성합니다. <strong>추천 직업: 심리 상담가, 교육자, 종교인, 인문학 연구원.</strong> 타인의 아픔을 공감하는 능력(NF)과 학문적 깊이(인성)가 만나면 누구도 대체할 수 없는 정신적 멘토가 됩니다.</p>
+
+<h3>NT 분석가형 (INTJ, INTP, ENTJ, ENTP) + 식상(食傷)</h3>
+<p>논리적인 시스템을 설계하고 혁신을 추구하는 NT 유형은 자신의 천재적인 아이디어를 세상에 표출하는 '식상'이 뒷받침되어야 합니다. 식상이 부족하면 아이디어가 머릿속에만 머뭅니다. <strong>추천 직업: IT 개발자, 전략 컨설턴트, 벤처 창업가, 과학자.</strong> 철저한 논리력(NT)과 창조적 표현력(식상)이 결합하면 세상을 바꾸는 혁신가가 됩니다.</p>
+
+<h2 id="sj-sp-careers">3. 감각형(S)의 천직: 관성(조직)과 재성(재물)의 세계</h2>
+<p>현실에 단단히 발을 딛고 경험과 실용성을 중시하는 감각형(S)은 모호한 비전보다는 명확한 결과물이 주어지는 환경에서 빛을 발합니다. 이들은 사주에 <strong>'관성(官星)'</strong>이나 <strong>'재성(財星)'</strong>이 발달할 때 큰 사회적 성공을 거둡니다.</p>
+
+<h3>SJ 관리자형 (ISTJ, ISFJ, ESTJ, ESFJ) + 관성(官星)</h3>
+<p>규칙을 준수하고 조직의 안정을 책임지는 SJ 유형은 나를 통제하고 명예를 지키는 '관성'의 기운과 완벽한 시너지를 냅니다. 관성이 튼튼한 SJ는 거대한 조직의 핵심 인재로 성장합니다. <strong>추천 직업: 공무원, 경찰/군인, 은행원, 대기업 회계/인사팀.</strong> 책임감(SJ)과 조직에 대한 충성도(관성)는 이들을 가장 신뢰받는 리더로 만듭니다.</p>
+
+<h3>SP 탐험가형 (ISTP, ISFP, ESTP, ESFP) + 재성(財星)</h3>
+<p>뛰어난 순발력과 오감을 활용해 현재의 즐거움을 극대화하는 SP 유형은 공간지각력과 재물 창출 능력을 뜻하는 '재성'이 발달했을 때 대박을 터뜨립니다. 지루한 사무실보다는 몸을 움직이거나 감각을 사용하는 일이 맞습니다. <strong>추천 직업: 셰프, 디자이너, 스포츠 선수, 전문 프리랜서, 예체능계열.</strong> 유연한 적응력(SP)과 현실적인 이익 감각(재성)은 이들을 트렌드 세터로 만듭니다.</p>
+
+<h2 id="job-satisfaction">4. 직업 만족도를 높이는 사주 개운법</h2>
+<p>만약 내 MBTI 성향과 사주의 기운이 정반대라면 어떻게 해야 할까요? (예: 자유로운 영혼인 ENFP인데 사주는 규칙을 강요하는 관성밭인 경우). 이때는 직업을 즉흥적으로 바꾸기보다는 <strong>일과 취미를 철저히 분리</strong>하는 개운법이 필요합니다.</p>
+<ul>
+  <li><strong>생계는 사주(재능)를 따르고, 취미는 MBTI(성향)를 따르라:</strong> 사주에 공무원(관성) 기운이 강하다면 생계는 안정적인 직장으로 해결하되, ENFP의 억눌린 자유로움은 주말 동호회나 유튜브 운영 등 부캐(취미)를 통해 해소해야 정신 건강을 지킬 수 있습니다.</li>
+  <li><strong>운의 흐름(대운) 활용하기:</strong> 사주에는 10년마다 바뀌는 큰 운의 흐름인 '대운(大運)'이 있습니다. 이직이나 창업을 고민한다면 내 MBTI 성향이 발동하는 시기보다는, 사주에서 나를 돕는 유리한 대운이 들어왔을 때 실행에 옮기는 것이 실패를 줄이는 비결입니다.</li>
+</ul>
+
+<h2 id="conclusion">5. 결론: 나만의 무기를 갈고닦아라</h2>
+<p>가장 불행한 직장인은 남들이 좋다고 하는 직업(의사, 변호사, 공무원 등)에 자신의 성격과 재능을 억지로 욱여넣는 사람입니다. 세상에 완벽하게 좋은 직업은 없습니다. <strong>나의 기질(MBTI)이 가장 편안하게 숨 쉴 수 있는 환경에서, 하늘이 내린 나의 무기(사주 십성)를 꺼내들 때 비로소 그 일이 '천직'이 됩니다.</strong></p>
+<p>지금 하고 있는 일이 당신을 매일 갉아먹고 있다면, 서양의 나침반(MBTI)과 동양의 지도(사주)를 펼쳐놓고 당신의 진짜 목적지를 다시 점검해 보십시오. 당신의 고유한 능력은 아직 제대로 된 무대를 만나지 못했을 뿐입니다.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/saju/ten-gods" style="text-decoration: underline; color: #f9d976;">[관련글] 사주 십성(十星) 가이드: 내 사주에는 돈복이 있을까?</a></p>
+  <p><a href="/mbti/infj-saju" style="text-decoration: underline; color: #f9d976;">[관련글] INFJ 사주 분석: 희귀한 성격 유형의 직업과 운명</a></p>
+</div>
+</section>
+    `,
+    contentEn: `
+<section>
+<p>In an era where the concept of a "lifelong job" has vanished, millions are searching for their true vocation. Western psychology’s MBTI tells us <em>how</em> we like to work (our optimal environment and communication style). Eastern philosophy’s Saju (Four Pillars of Destiny) reveals <em>what</em> innate weapons we were born to wield (our cosmic talents). If you only use MBTI to choose a career, you might find a job you enjoy talking about but struggle to actually execute. If you only use Saju, you might become highly successful but deeply miserable. This guide merges MBTI with Saju’s <strong>Ten Gods (십성)</strong> system to help you pinpoint the exact career path where your personality matches your destiny.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/saju/ten-gods" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">The Ten Gods of Saju: Mapping Your Talents and Wealth</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/mbti/saju-five-elements" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">MBTI & Five Elements: Discover Your Energy</a></li>
+  </ul>
+</div>
+
+<h2 id="mbti-saju-career">1. Two Axes of Vocation: Work Style vs Innate Talent</h2>
+<p>A truly fulfilling career requires the perfect alignment of two distinct puzzle pieces:</p>
+<ul>
+  <li><strong>MBTI (Work Environment):</strong> Do you thrive in isolation or a bustling team? Do you prefer rigid schedules or creative chaos? MBTI predicts the workplace culture that will either energize or drain your nervous system.</li>
+  <li><strong>Saju Ten Gods (Core Competency):</strong> The Ten Gods represent the ten dynamic forces interacting with your Day Master (Self). They include <strong>Bi-geob</strong> (Independence/Competition), <strong>Sik-sang</strong> (Expression/Creativity), <strong>Jae-seong</strong> (Wealth/Spatial Awareness), <strong>Gwan-seong</strong> (Authority/Discipline), and <strong>In-seong</strong> (Knowledge/Receptivity). These dictate your fundamental talents.</li>
+</ul>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">💼 Get Your Free MBTI + Saju Career Analysis →</a>
+</div>
+
+<h2 id="nf-nt-careers">2. Careers for N-Types: The Realm of Knowledge and Expression</h2>
+<p>Intuitive (N) types wither in environments that demand mindless repetition. They require meaning, innovation, and long-term vision. In Saju, they reach the pinnacle of their potential when their charts feature strong <strong>In-seong (Knowledge/Stamina)</strong> or <strong>Sik-sang (Creative Expression)</strong>.</p>
+
+<h3>NF Idealists (INFJ, INFP, ENFJ, ENFP) + In-seong (Knowledge)</h3>
+<p>NF types are naturally drawn to healing, counseling, and inspiring others. When paired with strong "In-seong" (the energy of absorbing deep wisdom and academic endurance), they become unstoppable thought leaders. <strong>Ideal Careers: Psychologists, Professors, Writers, Spiritual Leaders.</strong> Their profound empathy (MBTI) grounded by academic authority (Saju) makes them irreplaceable.</p>
+
+<h3>NT Analysts (INTJ, INTP, ENTJ, ENTP) + Sik-sang (Expression)</h3>
+<p>NT types are the architects of the future, constantly devising logical systems. However, brilliant ideas are useless without the ability to manifest them. They desperately need "Sik-sang" (the energy of producing, speaking, and making things). <strong>Ideal Careers: Software Architects, Strategy Consultants, Tech Entrepreneurs, Scientists.</strong> The fusion of relentless logic (NT) and the drive to create (Sik-sang) births industry-disrupting innovators.</p>
+
+<h2 id="sj-sp-careers">3. Careers for S-Types: The Realm of Authority and Wealth</h2>
+<p>Sensing (S) types are grounded in reality, practicality, and the five senses. They excel in environments with clear metrics, tangible rewards, and structured hierarchies. They achieve massive success when their Saju features strong <strong>Gwan-seong (Authority/Discipline)</strong> or <strong>Jae-seong (Wealth/Results)</strong>.</p>
+
+<h3>SJ Sentinels (ISTJ, ISFJ, ESTJ, ESFJ) + Gwan-seong (Authority)</h3>
+<p>SJ types are the backbone of society, honoring tradition, rules, and responsibility. They synergize perfectly with "Gwan-seong" (the star of obedience to law, honor, and public service). An SJ with strong Gwan-seong naturally rises to the top of massive bureaucracies. <strong>Ideal Careers: Government Officials, Military/Police Officers, Corporate Executives, Healthcare Administrators.</strong> Their inherent reliability makes them the ultimate trusted leaders.</p>
+
+<h3>SP Explorers (ISTP, ISFP, ESTP, ESFP) + Jae-seong (Wealth)</h3>
+<p>SP types live in the moment, possessing incredible tactical agility and aesthetic awareness. They suffocate in cubicles but shine when reacting to immediate stimuli. They need "Jae-seong" (the star of financial instinct, space, and immediate results). <strong>Ideal Careers: Master Chefs, Surgeons, Pro Athletes, Designers, Elite Freelancers.</strong> Their physical adaptability (SP) paired with a ruthless instinct for value (Jae-seong) makes them wealthy trendsetters.</p>
+
+<h2 id="job-satisfaction">4. Saju Remedies for Career Dissatisfaction</h2>
+<p>What if your MBTI deeply contradicts your Saju? For example, you are a free-spirited ENFP, but your Saju is overwhelmingly dominated by Gwan-seong (strict, bureaucratic authority energy). You will feel constantly torn. The solution is not to recklessly quit your job, but to <strong>compartmentalize your life.</strong></p>
+<ul>
+  <li><strong>Pay Bills with Saju; Play with MBTI:</strong> If your Saju dictates you are built for a stable, bureaucratic job (Gwan-seong), use that to secure your financial baseline. Then, relentlessly pursue your ENFP desire for freedom through a passionate side-hustle or weekend hobby. Satisfy the universe's demand during the day, and your psychological demand at night.</li>
+  <li><strong>Ride the Daewun (10-Year Luck Pillar):</strong> Saju operates on 10-year macro-cycles called Daewun. If you are planning a massive career change or startup, do not jump just because your MBTI "feels" like it. Wait until your Saju Daewun shifts into a favorable wind that supports your specific endeavor. Timing is everything.</li>
+</ul>
+
+<h2 id="conclusion">5. Conclusion: Wield Your Unique Weapon</h2>
+<p>The most miserable professionals are those who force themselves into "prestigious" careers (like law or medicine) that fundamentally violate both their psychological wiring and their cosmic blueprint. There is no universally "best" job. <strong>Your true vocation is found in the exact intersection where your preferred environment (MBTI) allows you to effortlessly swing the weapon the universe handed you at birth (Saju Ten Gods).</strong> If you feel stuck, step back and examine both maps. Your genius hasn't failed; it just hasn't found the right battlefield yet.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/saju/ten-gods" style="text-decoration: underline; color: #f9d976;">[Read Next] The Ten Gods Guide: Unlocking Your Hidden Talents</a></p>
+  <p><a href="/en/mbti/infj-saju" style="text-decoration: underline; color: #f9d976;">[Read Next] INFJ Saju: The Astrological Blueprint of the Rarest Type</a></p>
+</div>
+</section>
+    `,
+    faq: [
+      { q: 'MBTI는 예술가형인데 사주에는 돈 버는 기운만 있으면 어떻게 하죠?', a: '매우 훌륭한 조합입니다! 예술적 감각(MBTI)을 바탕으로 상업적으로 크게 성공할 수 있는 상업 예술가나 기획자가 될 수 있습니다. 순수 예술보다는 대중의 니즈를 파악하는 디자이너나 아트 디렉터가 어울립니다.' },
+      { q: '이직을 하려는데 MBTI와 사주 중 무엇을 더 믿어야 할까요?', a: '직무의 \'내용\'은 사주(십성)를 따르고, 직장의 \'분위기\'는 MBTI를 따르는 것이 좋습니다. 예를 들어 사주에 관성(규칙)이 강하고 MBTI가 E(외향)라면, 안정적인 큰 조직(관성) 안에서 사람들과 활발히 소통하는 부서(영업/기획)로 가는 것이 최적입니다.' },
+      { q: '사주에 직업운(관성)이 아예 없으면 백수로 살아야 하나요?', a: '절대 아닙니다. 관성(조직운)이 없다면 남의 밑에서 일하는 직장인보다는, 내 기술(식상)을 활용하는 프리랜서나 전문직으로 살면 오히려 일반 직장인보다 훨씬 큰 성공을 거둘 수 있습니다.' },
+    ],
+    faqEn: [
+      { q: 'My MBTI says I am an artist, but my Saju says I am all about making money. What do I do?', a: 'This is an excellent combination! You are wired to be a highly successful commercial artist or art director. Instead of starving for pure art, use your aesthetic sense (MBTI) to create products or designs that the mass market fiercely desires (Saju Wealth Star).' },
+      { q: 'If I want to change jobs, should I follow my MBTI or my Saju?', a: 'Follow Saju for the *nature* of the work, and MBTI for the *culture* of the workplace. If your Saju demands structure but your MBTI is highly extroverted, find a stable, massive corporation (Saju) but maneuver yourself into their highly social PR or sales department (MBTI).' },
+      { q: 'My Saju chart has zero "Career/Authority" stars. Will I be unemployed forever?', a: 'Absolutely not. Lacking the Authority Star (Gwan-seong) simply means you are highly allergic to traditional corporate hierarchies and micromanagement. It is the universe telling you to become a highly specialized freelancer, consultant, or independent creator where you answer only to yourself.' },
+    ],
+    relatedPosts: [
+      { slug: 'mbti-saju', category: 'mbti', title: 'MBTI와 사주팔자의 평행이론' },
+      { slug: 'infj-saju', category: 'mbti', title: 'INFJ 사주 분석: 희귀 성격의 비밀' },
+    ],
+  },
 ];
