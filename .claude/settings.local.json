@@ -18,7 +18,10 @@
       "Bash(cd \"C:/Users/홈_메인/Desktop/11  11 실전코딩/sajupalza\" && git commit -m \"$\\(cat <<'EOF'\nfeat: 블로그 템플릿 구조 구축 \\(30개 글 데이터 분리 방식\\)\n\n- lib/blog/types.ts: BlogPost 인터페이스 \\(contentKo/contentEn 이중 언어\\)\n- lib/blog/[category]-posts.ts: 사주9/성명학6/관상7/MBTI5/복합3 스텁\n- lib/blog/index.ts: 통합 export + getPostBySlug 유틸\n- components/BlogPostPage.tsx: SEO 완비 공통 템플릿\n  \\(JSON-LD Article/BreadcrumbList/FAQ, locale별 콘텐츠 자동 선택\\)\n- app/[locale]/[category]/[slug]/page.tsx: 5개 동적 라우트\n  \\(generateStaticParams, generateMetadata 포함\\)\n- app/globals.css: prose-blog 클래스 추가\n- haha.md: 블로그 워크플로우 및 SEO 프롬프트 기록\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>\nEOF\n\\)\" 2>&1)",
       "Bash(cd:*)",
       "Bash(powershell:*)",
-      "Bash(cd C:\\\\Users\\\\홈_메인\\\\Desktop\\\\11  11 실전코딩\\\\sajupalza:*)"
+      "Bash(cd C:\\\\Users\\\\홈_메인\\\\Desktop\\\\11  11 실전코딩\\\\sajupalza:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx next:*)",
+      "Bash(node:*)"
     ]
   }
 }

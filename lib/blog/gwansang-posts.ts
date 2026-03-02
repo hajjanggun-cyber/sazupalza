@@ -16,6 +16,14 @@ export const gwansangPosts: BlogPost[] = [
 <section>
 <p>"얼굴은 마음의 거울이다"라는 말처럼, 동양의 관상학(觀相學)은 사람의 외모를 통해 내면의 기질과 운명의 흐름을 읽어내는 정밀한 학문입니다. 관상은 미학적 판단이 아니라, 수천 년간 쌓인 인간 관찰과 동양 철학이 결합된 체계입니다. 얼굴 부위가 오장육부(五臟六腑)와 연결된다는 한의학적 관점, 음양오행(陰陽五行)이 인간 형상에 투영된다는 철학이 관상학의 뿌리입니다. 관상학 고전 《마의상법(麻衣相法)》과 《유장상법(柳莊相法)》은 수백 년의 임상 관찰로 쌓인 지혜입니다. 이 글에서는 관상학의 기초 원리와 이목구비가 상징하는 운명적 의미를 전문 칼럼으로 상세히 풀어드립니다.</p>
 
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/face-reading/wealth-face" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">재물 관상 완벽 정리: 부자가 되는 코·입·귀의 비밀</a></li>
+    <li style="margin-bottom: 4px;"><a href="/face-reading/eyebrow-reading" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">눈썹 관상 가이드: 리더십과 인간관계의 비밀</a></li>
+  </ul>
+</div>
+
 <h2 id="concept-of-gwansang">1. 관상학의 정의: 얼굴에 새겨진 인생의 지도</h2>
 <p>관상학은 인간의 형상과 기색(氣色)을 통해 건강·재물·명예·수명을 판단하는 학문입니다. 마음의 상태가 얼굴을 빚어낸다는 동양 철학의 원리가 핵심입니다. "40대 이후의 얼굴은 자신의 책임"이라는 말은 관상학적으로도 매우 타당합니다.</p>
 <h3>관상 분석의 세 가지 층위</h3>
@@ -57,6 +65,14 @@ export const gwansangPosts: BlogPost[] = [
     contentEn: `
 <section>
 <p>You've heard that first impressions form in seconds. But what if that's not just psychology—what if your face is broadcasting something measurable about your energy, character, and fortune? Korean face reading, or <strong>Gwansang (觀相學)</strong>, is a 2,000-year-old discipline that reads facial structure, skin luminosity, and expression to reveal personality and life trajectory. It's not carnival fortune-telling. It's an empirically developed system built on centuries of clinical observation—and it's increasingly relevant in a world where first impressions determine outcomes in hiring, dating, and business.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/face-reading/wealth-face" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Korean Wealth Face Guide: How to Spot Success in Features</a></li>
+    <li style="margin-bottom: 4px;"><a href="/face-reading/eyebrow-reading" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Korean Eyebrow Reading: Secrets of Leadership and Fortune</a></li>
+  </ul>
+</div>
 
 <h2 id="concept-of-gwansang">1. What Is Gwansang? The Science Behind the Art</h2>
 <p>Gwansang is the systematic study of facial features and skin quality to assess a person's current energy state and long-term fortune potential. Its foundational text, the <strong>Maui Sangbeop (麻衣相法)</strong>, compiled centuries of observation into a diagnostic framework. The logic is simple: your face is the output of your internal operating system. Health, emotional state, lifestyle habits, and mental energy all leave visible marks on the face over time.</p>
@@ -127,6 +143,14 @@ export const gwansangPosts: BlogPost[] = [
 <section>
 <p>부자가 되는 얼굴이 정말 따로 있을까요? 한국 전통 관상학의 대답은 분명합니다. "코가 좋아야 돈복이 있다", "귓불이 두툼해야 부자로 산다"는 속담들은 수백 년의 관상학적 통계에서 나온 이야기입니다. 이 글에서는 재물운의 3가지 핵심 부위인 코·입·귀를 집중 분석하고, 나아가 재물운을 높이는 눈과 이마의 역할까지 전문 칼럼으로 풀어드립니다.</p>
 
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/face-reading/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">관상학 입문: 얼굴로 보는 성격·재물·건강운 기초 가이드</a></li>
+    <li style="margin-bottom: 4px;"><a href="/face-reading/forehead-reading" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">관상 이마 완전정복: 이마 모양으로 보는 초년운과 사회적 명예</a></li>
+  </ul>
+</div>
+
 <h2 id="nose-wealth">1. 코(鼻): 재물을 담는 금고, 재백궁(財帛宮)</h2>
 <p>관상학에서 코는 재물운의 핵심 부위입니다. 얼굴 정중앙에 위치하여 중년(35~55세)의 운세를 결정짓습니다.</p>
 <h3>준두(코끝)와 콧망울의 비밀</h3>
@@ -163,6 +187,14 @@ export const gwansangPosts: BlogPost[] = [
     contentEn: `
 <section>
 <p>Can your face actually predict wealth? Korean Gwansang has been arguing yes for two millennia—and the logic holds up better than you might expect. Wealth, in Gwansang's framework, isn't stored in bank accounts first; it collects in specific facial zones, each corresponding to a different financial mechanism: accumulation capacity, retention ability, and generational foundation. This guide breaks down the nose, mouth, ears, and two often-overlooked features that complete the wealth picture.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/face-reading/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Intro to Korean Face Reading: The Art of Gwansang Explained</a></li>
+    <li style="margin-bottom: 4px;"><a href="/face-reading/forehead-reading" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Korean Forehead Reading: Success, Honor, and Early Fortune</a></li>
+  </ul>
+</div>
 
 <h2 id="nose-wealth">1. The Nose: Your Personal Wealth Vault</h2>
 <p>The nose occupies the center of the face and governs mid-life fortune (roughly ages 35–55). In Gwansang, it's called the <strong>Jaebaekkung (財帛宮)</strong>—the treasury palace. A rounded nose tip (Jundu) with well-developed flanges (the nostrils' outer walls) indicates strong accumulation capacity. If the nostrils open visibly when viewed from the front—the "upturned" nose—the treasury has no bottom: money flows in but doesn't stay. Conversely, nostrils that tuck inward and downward suggest strong retention. The bridge matters too: a straight, unflawed bridge indicates self-directedness and resistance to financial manipulation.</p>
@@ -230,6 +262,14 @@ export const gwansangPosts: BlogPost[] = [
 <section>
 <p>관상학에서 눈썹은 '보수궁(保壽宮)'이라 하여 수명과 지혜를 상징하고, '형제궁(兄弟宮)'이라 하여 인간관계와 대인운을 나타냅니다. 예로부터 동양의 군주들은 신하를 들일 때 눈썹을 먼저 살폈다고 전해집니다. 눈썹의 모양·숱·기색은 그 사람의 현재 에너지 상태와 향후 10년의 매운요를 담고 있습니다. 이 글에서는 눈썹 형태 분석과 리더십, 신뢰, 인복의 상관관계를 전문 칼럼으로 상세히 풀어드립니다.</p>
 
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/face-reading/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">관상학 입문: 얼굴로 보는 성격·재물·건강운 기초 가이드</a></li>
+    <li style="margin-bottom: 4px;"><a href="/face-reading/wealth-face" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">재물 관상 완벽 정리: 부자가 되는 코·입·귀의 비밀</a></li>
+  </ul>
+</div>
+
 <h2 id="eyebrow-meaning">1. 눈썹의 길이와 숱: 사회적 자본의 크기</h2>
 <p>눈썹이 눈꼬리 바깥만큼 또는 그 이상 뻗어 있는 눈썹은 귀인(貴人)을 많이 만나는 사회적 인복의 상징입니다. 눈썹이 눈꼬리까지 닿지 않는 짧은 눈썹은 혼자 힘으로 성공하는 독립 자수성가형과 관련이 있습니다.</p>
 <h3>눈썹 결의 방향과 성격</h3>
@@ -268,6 +308,14 @@ export const gwansangPosts: BlogPost[] = [
     contentEn: `
 <section>
 <p>In Korean Gwansang, eyebrows are called the "Palace of Longevity" and the "Palace of Siblings." They act as the roof of the face, governing social fortune, leadership potential, and the quality of support you receive from others. Eastern court advisors reportedly read eyebrows before accepting subordinates. This guide decodes eyebrow types, density, and the critical space between the brows to reveal what your face broadcasts about your leadership, trustworthiness, and fortune trajectory.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/face-reading/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Intro to Korean Face Reading: The Art of Gwansang Explained</a></li>
+    <li style="margin-bottom: 4px;"><a href="/face-reading/wealth-face" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Korean Wealth Face Guide: How to Spot Success in Features</a></li>
+  </ul>
+</div>
 
 <h2 id="eyebrow-meaning">1. Length and Texture: The Social Capital Indicators</h2>
 <p>Eyebrows extending beyond the outer corner of the eye indicate strong social capital — a network of supporters and timely mentors arriving at key moments. Brows that stop short of the eye corner suggest a more self-reliant path, where success comes through individual effort rather than collaborative support. Brow hairs lying flat and aligned signal emotional stability. Hairs standing upright indicate an independent, contrarian personality that excels alone but generates friction in teams.</p>
@@ -340,6 +388,14 @@ export const gwansangPosts: BlogPost[] = [
 <section>
 <p>관상학에서 가장 변화무쌍하면서도 중요한 요소는 바로 '기색(氣色)'입니다. 이목구비의 형태가 집의 구조라면, 기색은 그 집안을 채우고 있는 공기와 빛입니다. 얼굴색이 맑고 윤기가 나면 운이 트이고 건강하다는 신호이고, 어둡고 탁하면 운이 막히고 질병이 올 수 있다는 예보입니다. 관상학 고전에서는 "형태가 좋은 것은 색이 좋은 것만 못하다"라고 할 정도로 기색을 중시했습니다. 이 글에서는 얼굴의 부위별 색깔을 통해 내 몸의 건강과 현재의 운세를 진단하는 전문 찰색법(察色法)을 상세히 소개합니다.</p>
 
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/face-reading/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">관상학 입문: 얼굴로 보는 성격·재물·건강운 기초 가이드</a></li>
+    <li style="margin-bottom: 4px;"><a href="/face-reading/self-diagnosis" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">관상 자가진단: 거울로 보는 5년 후 성공운과 운세 흐름</a></li>
+  </ul>
+</div>
+
 <h2 id="vitality-glow">1. 기색(氣色)이란 무엇인가? 운명의 일기예보</h2>
 <p>기색은 피부 속에서 우러나오는 빛깔을 말합니다. 관상학의 고전에서는 "형태가 좋은 것은 색이 좋은 것만 못하다"라고 할 정도로 기색을 중시했습니다.</p>
 <h3>맑은 윤기: 상승하는 운의 신호</h3>
@@ -387,6 +443,14 @@ export const gwansangPosts: BlogPost[] = [
     contentEn: `
 <section>
 <p>Of all the elements that Gwansang tracks, Gi-saek — the luminous quality radiating from beneath the skin — is both the most variable and the most revealing. Features like bone structure are fixed. Gi-saek changes week by week, reflecting your current health, stress load, emotional state, and the direction your fortune is moving. This guide teaches you to read your face's real-time health and fortune signal through the lens of Korean Gi-saek diagnostics.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/face-reading/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Intro to Korean Face Reading: The Art of Gwansang Explained</a></li>
+    <li style="margin-bottom: 4px;"><a href="/face-reading/self-diagnosis" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Self-Diagnosis: Predict Your 5-Year Success in the Mirror</a></li>
+  </ul>
+</div>
 
 <h2 id="vitality-glow">1. What Is Gi-saek? Your Face's Operational Status Report</h2>
 <p>Gi-saek is not makeup. It's not skin texture. It's the quality of light that seems to come from within — what photographers call inner luminosity and what Korean medicine has mapped diagnostically for centuries. A warm golden-pink glow across the face indicates that the five organ systems are balanced, blood circulation is strong, and the fortune trajectory is rising. A gray-black or bluish-gray overlay signals organ fatigue, energy depletion, and a fortune period where consolidation is wiser than expansion.</p>
@@ -466,6 +530,14 @@ export const gwansangPosts: BlogPost[] = [
 <section>
 <p>얼굴의 점 하나를 두고 "빼야 할까, 말아야 할까?" 고민해 본 적 있으신가요? 관상학에서 점은 '대지의 바위'이자 '하늘의 별'에 비유됩니다. 적절한 위치에 칠흑처럼 맑고 뚜렷하게 박힌 점은 인생의 행운을 극대화하는 '복점(福點)'이 되지만, 탁하고 흐릿한 점은 운의 흐름을 방해하는 '흉점(凶點)'이 되기도 합니다. 이 글에서는 얼굴 부위별 점의 관상학적 의미와 개운을 위한 점 관리법을 전문 칼럼으로 상세히 다룹니다.</p>
 
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/face-reading/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">관상학 입문: 얼굴로 보는 성격·재물·건강운 기초 가이드</a></li>
+    <li style="margin-bottom: 4px;"><a href="/face-reading/health-face" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">관상과 건강: 얼굴색(기색)으로 체크하는 건강 신호</a></li>
+  </ul>
+</div>
+
 <h2 id="good-moles">1. 인생을 빛나게 하는 대표 복점(福點)</h2>
 <p>복점의 핵심 조건은 <strong>①색이 칠흑처럼 검거나 선명히 붉을 것, ②윤기가 흐를 것, ③형태가 뚜렷하게 솟아 있을 것</strong>입니다. 흐릿하거나 평평한 점은 같은 위치라도 복점보다는 흉점에 가깝습니다.</p>
 <h3>코끝의 점: 재물운의 정점</h3>
@@ -508,6 +580,14 @@ export const gwansangPosts: BlogPost[] = [
     contentEn: `
 <section>
 <p>Have you ever looked at a mole on your face and wondered: is this thing helping me or hurting me? In Korean Gwansang, moles are treated the way astronomers treat stars — their position, color, and clarity tell a specific story. A well-placed, jet-black, defined mole is a "Bok-jeom" (Fortune Mole), amplifying the luck of the zone it sits in. A dull, flat, or poorly positioned mole is a "Hyung-jeom" (Obstacle Mole), disrupting energy flow in that life domain. This guide maps the most significant mole positions on the face and what they mean for wealth, love, health, and longevity.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/face-reading/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Intro to Korean Face Reading: The Art of Gwansang Explained</a></li>
+    <li style="margin-bottom: 4px;"><a href="/face-reading/health-face" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Korean Face Reading for Health: Reading Vitality via Glow</a></li>
+  </ul>
+</div>
 
 <h2 id="good-moles">1. Fortune Moles: The Positions That Amplify Luck</h2>
 <p>A mole qualifies as a "Bok-jeom" when it satisfies three conditions: it is jet-black or vivid red, it has visible surface sheen, and it has a clearly raised, defined edge. Flat, grayish, or indistinct moles in the same positions lean toward obstacle classification.</p>
@@ -583,6 +663,14 @@ export const gwansangPosts: BlogPost[] = [
 <section>
 <p>관상학에서 이마는 '천정(天庭)'이라 하여 하늘의 복을 받는 곳입니다. 인생의 시작인 초년운(15세~30세)을 관장하며, 부모님의 덕망과 본인의 사회적 명예, 그리고 관직운(직업운)이 이곳에 담겨 있습니다. 이마가 잘생긴 사람은 부모의 지원을 잘 받고 사회생활을 높은 위치에서 시작할 가능성이 큽니다. 이 글에서는 성공의 지표가 되는 이마 관상의 모든 것을 3,000자 전문 해설로 정리합니다.</p>
 
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/face-reading/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">관상학 입문: 얼굴로 보는 성격·재물·건강운 기초 가이드</a></li>
+    <li style="margin-bottom: 4px;"><a href="/face-reading/eyebrow-reading" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">눈썹 관상 가이드: 리더십과 인간관계의 비밀</a></li>
+  </ul>
+</div>
+
 <h2 id="forehead-shape">1. 이상적인 이마: 넓고 깨끗한 '간을 엎어놓은 듯한' 모양</h2>
 <p>좋은 이마는 좌우가 넓고 위아래가 적당히 솟아 있으며, 흉터나 주름 없이 깨끗하고 윤기가 나야 합니다.</p>
 <h3>관직운과 명예: 관록궁의 비밀</h3>
@@ -617,6 +705,14 @@ export const gwansangPosts: BlogPost[] = [
     contentEn: `
 <section>
 <p>In Gwansang, the forehead is called the <strong>Cheonjeong (天庭)</strong>—the Heavenly Court. It governs your early life fortune (roughly ages 15–30), your relationship with authority figures and parents, and your capacity for intelligence and public recognition. The forehead is the first thing most people register when they see your face, and for Gwansang practitioners, it is the first chapter in your life story. This guide breaks down forehead shape, proportion, and color to reveal what your early fortune looked like—and what it still predicts for your career and social trajectory.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/face-reading/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Intro to Korean Face Reading: The Art of Gwansang Explained</a></li>
+    <li style="margin-bottom: 4px;"><a href="/face-reading/eyebrow-reading" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Korean Eyebrow Reading: Secrets of Leadership and Fortune</a></li>
+  </ul>
+</div>
 
 <h2 id="forehead-shape">1. The Ideal Forehead: Three Dimensions That Matter</h2>
 <p>A favorable forehead in Gwansang is broad (spanning at least the width between your eyebrows outward), slightly convex (gently domed rather than flat or concave), and luminous in Gi-saek. Each zone within the forehead corresponds to a specific life domain:</p>
@@ -692,7 +788,15 @@ export const gwansangPosts: BlogPost[] = [
 <section>
 <p>관상은 고정된 것이 아니라 끊임없이 변화하는 운명의 흐름입니다. 매일 아침 거울을 보는 시간은 단순히 외모를 단장하는 시간이 아니라, 내 인생의 기운이 어디로 흐르고 있는지 체크하는 가장 중요한 시간이어야 합니다. “요즘 얼굴 좋아졌네”라는 인사가 실제 운세의 변화를 의미하듯, 스스로 관상을 진단할 수 있다면 위기를 피하고 기회를 잡을 수 있습니다. 거울을 통해 5년 후의 성공운을 점쳐보는 3,000자 전문 자가진단법을 공개합니다.</p>
 
-<h2 id="morning-check">1. 아침 거울 속 30초 기색 진단법</h2>
+<div class=”related-posts-inline” style=”background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;”>
+  <p style=”color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;”>📚 함께 읽으면 좋은 글</p>
+  <ul style=”margin: 0; padding-left: 16px;”>
+    <li style=”margin-bottom: 4px;”><a href=”/face-reading/intro” style=”color: #F5D77E; text-decoration: underline; font-size: 13px;”>관상학 입문: 얼굴로 보는 성격·재물·건강운 기초 가이드</a></li>
+    <li style=”margin-bottom: 4px;”><a href=”/face-reading/wealth-face” style=”color: #F5D77E; text-decoration: underline; font-size: 13px;”>재물 관상 완벽 정리: 부자가 되는 코·입·귀의 비밀</a></li>
+  </ul>
+</div>
+
+<h2 id=”morning-check”>1. 아침 거울 속 30초 기색 진단법</h2>
 <p>잠에서 깨어나 세안하기 전의 얼굴이 가장 정확한 자신의 기운을 보여줍니다.</p>
 <h3>명궁(미간)의 광택 확인</h3>
 <p>가장 먼저 미간을 보세요. 미간이 밝고 거울처럼 빛이 난다면 현재 계획하고 있는 일이 성공할 확률이 90% 이상입니다. 만약 미간에 어두운 그림자가 있거나 붉은 뾰루지가 났다면 새로운 투자나 계약을 잠시 미루는 것이 좋습니다.</p>
@@ -726,6 +830,14 @@ export const gwansangPosts: BlogPost[] = [
     contentEn: `
 <section>
 <p>Gwansang is not a fixed reading—it's a dynamic flow that changes with how you live. Your morning mirror is the most honest real-time diagnostic available: before you've applied makeup, before expressions settle into social mode, your face broadcasts the exact state of your current energy. Learning to read it takes about 30 seconds and yields information no horoscope app can match. This guide teaches you to self-diagnose your Gi-saek, assess your current fortune trajectory, and make targeted adjustments that shift your reading within days.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/face-reading/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Intro to Korean Face Reading: The Art of Gwansang Explained</a></li>
+    <li style="margin-bottom: 4px;"><a href="/face-reading/wealth-face" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Korean Wealth Face Guide: How to Spot Success in Features</a></li>
+  </ul>
+</div>
 
 <h2 id="morning-check">1. The 30-Second Pre-Wash Morning Diagnostic</h2>
 <p>The window before face-washing is the most accurate reading time. The face has been regenerating for 7–8 hours, free of product manipulation. Check these three zones in order:</p>

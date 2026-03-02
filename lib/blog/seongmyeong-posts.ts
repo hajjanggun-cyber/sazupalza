@@ -16,6 +16,14 @@ export const seongmyeongPosts: BlogPost[] = [
 <section>
 <p>우리는 태어나면서 부모님으로부터 첫 번째 선물을 받습니다. 바로 이름입니다. 동양 철학에서 이름은 단순한 호칭이 아닙니다. 그 사람의 에너지를 담는 그릇이고, 평생 수천 번 불리며 주인의 무의식에 파동을 보내는 일종의 만트라(mantra)입니다. 성명학(姓名學)은 이 이름의 소리와 글자 구조가 가진 기운을 체계적으로 분석하여, 사주팔자가 가진 불균형을 보완하고 삶의 흐름을 더 유리한 방향으로 설계하는 학문입니다.</p>
 
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/name-reading/name-five-elements" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">이름 오행 분석: 초성으로 보는 소리 오행의 상생·상극</a></li>
+    <li style="margin-bottom: 4px;"><a href="/name-reading/numerology-81" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">성명학 수리 81수 총정리: 이름 획수로 보는 성공의 비밀</a></li>
+  </ul>
+</div>
+
 <p>많은 사람들이 성명학을 미신이라고 생각합니다. 그러나 한글은 세종대왕이 음양오행의 원리를 담아 창제한 문자이며, 발음 기관의 위치에 따라 오행이 분류된다는 점은 철학적으로 정교한 체계입니다. 수천 년간 통계적으로 검증된 수리81수 역시 단순한 미신이 아닌, 이름과 삶의 패턴을 연결하는 동양적 데이터 과학입니다.</p>
 
 <h2 id="concept-of-name">1. 성명학의 정의 — 이름은 왜 운명에 영향을 미치는가</h2>
@@ -52,6 +60,14 @@ export const seongmyeongPosts: BlogPost[] = [
     contentEn: `
 <section>
 <p>Every culture has naming traditions. Korean naming culture—rooted in a discipline called <strong>Seongmyeonghak</strong> (姓名學, the study of names)—is one of the most systematically developed in the world. It's built on a foundational premise that most Westerners initially find surprising: the sounds and structural composition of your name carry energy that interacts with your personal cosmic configuration (Saju) over the course of your entire life.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/name-reading/name-five-elements" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Sound Harmony: The Five Elements in Name Pronunciation</a></li>
+    <li style="margin-bottom: 4px;"><a href="/name-reading/numerology-81" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Numerology 81: Reading Success via Name Stroke Counts</a></li>
+  </ul>
+</div>
 
 <p>This isn't mysticism for its own sake. Hangul, the Korean alphabet, was deliberately constructed around the principles of Yin-Yang and the Five Elements—its consonants organized by the position in the mouth they're produced, each position corresponding to a specific elemental energy. Layer onto this a numerological system (the 81-pattern stroke count) with centuries of observational data, and you have something that deserves to be taken seriously, even by skeptics.</p>
 
@@ -125,6 +141,14 @@ export const seongmyeongPosts: BlogPost[] = [
 <section>
 <p>성명학의 세 가지 핵심 원리 중에서 가장 수치적이고 통계적인 분야가 바로 수리81수(數理81數)입니다. 이름을 구성하는 한자의 획수를 합산한 수치가 1부터 81까지 각각 고유한 기운과 길흉 패턴을 가진다는 이 이론은, 수천 년간 수많은 인생 사례를 통해 통계적으로 검증되어 온 동양의 수리 체계입니다. 이름의 어떤 숫자가 성공을 불러오고, 어떤 숫자가 조심을 요구하는지 상세히 알아봅니다.</p>
 
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/name-reading/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">성명학이란 무엇인가? 이름의 획수와 소리가 가진 운명적 에너지</a></li>
+    <li style="margin-bottom: 4px;"><a href="/name-reading/name-five-elements" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">이름 오행 분석: 초성으로 보는 소리 오행의 상생·상극</a></li>
+  </ul>
+</div>
+
 <h2 id="four-stages">1. 인생의 4개 시기 — 원·형·이·정격</h2>
 <p>수리81수는 이름을 단순히 전체 획수 하나로 보는 것이 아니라, 성과 이름의 조합 방식에 따라 네 가지 격(格)으로 인생 시기를 나누어 분석합니다.</p>
 <ul>
@@ -173,6 +197,15 @@ export const seongmyeongPosts: BlogPost[] = [
     contentEn: `
 <section>
 <p>Numbers are perhaps the most universal human symbol system—present in every culture, every era, every domain of inquiry. The Seongmyeonghak approach to numbers isn't numerology in the Western sense, though the surface similarities might suggest otherwise. It's a pattern-recognition system built from centuries of observational data: specific stroke count totals in names correlate, across large populations, with specific patterns in career, relationships, health, and longevity.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/name-reading/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">What is Seongmyeonghak? The Power of Names in Korean Culture</a></li>
+    <li style="margin-bottom: 4px;"><a href="/name-reading/name-five-elements" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Sound Harmony: The Five Elements in Name Pronunciation</a></li>
+  </ul>
+</div>
+
 <p>The system—known as Suri 81-Su (數理81數)—maps every number from 1 to 81 and assigns each a characteristic energetic signature based on this accumulated statistical observation. Combined with Saju analysis and sound element assessment, it provides the structural numeric foundation for a complete name analysis.</p>
 
 <h2 id="four-stages">1. The Four Stages: Reading a Name's Architecture</h2>
@@ -259,6 +292,15 @@ export const seongmyeongPosts: BlogPost[] = [
     contentKo: `
 <section>
 <p>누군가 당신의 이름을 부를 때, 그 소리는 단순한 공기의 진동이 아닙니다. 수천 년 동안 동양 철학의 정수를 담아온 성명학(姓名學)에서, 이름의 초성이 지닌 고유한 오행의 파동은 음성을 매개로 세상에 퍼져나가며 그 사람의 기운장(氣運場)을 형성합니다. 이를 <strong>소리 오행(음령오행, 音靈五行)</strong>이라 부릅니다. 이름이 불릴 때마다 목(木)·화(火)·토(土)·금(金)·수(水)의 에너지가 주위 환경과 무의식에 파동을 보내고, 그 파동의 조화가 인생의 흐름에 실제로 영향을 미친다는 것이 성명학의 핵심 전제입니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/name-reading/name-creation" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">작명의 기술: 사주에 부족한 기운을 이름으로 채우는 가이드</a></li>
+    <li style="margin-bottom: 4px;"><a href="/name-reading/baby-naming" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">자녀 작명 완벽 가이드: 사주 오행과 성명학을 동시에 잡는 법</a></li>
+  </ul>
+</div>
+
 <p>단순한 미신으로 치부하기 어려운 이유가 있습니다. 세종대왕이 훈민정음을 창제할 때, 자음은 발성 기관(어금니·혀·입술·이·목구멍)의 위치와 형태를 본떠 만들었습니다. 이 발성 부위는 동양 의학의 오행 배속과 정확히 일치합니다. 즉, 한글은 탄생부터 오행의 원리를 내포한 과학적 문자임을 뜻합니다. 이 글에서는 소리 오행의 이론적 토대부터 실전 이름 분석법까지, 성명학 전문가의 시각으로 상세히 해설합니다.</p>
 
 <h2 id="intro-five-elements">소리 오행이란 무엇인가?</h2>
@@ -320,6 +362,14 @@ export const seongmyeongPosts: BlogPost[] = [
     contentEn: `
 <section>
 <p>Your name is called dozens of times every single day—by coworkers, family members, strangers at the coffee shop. Most people never stop to ask: <em>what is that sound actually doing?</em> In Korean name analysis (Seongmyeonghak), the answer is specific and measurable. The initial consonant of each syllable in your name corresponds to one of five elemental energies—Wood, Fire, Earth, Metal, or Water—and the sequence in which those energies interact determines whether your name generates harmony or friction in your life. This practice, called <strong>Sound Element Theory (Soori Ohaeng)</strong>, is one of the most ancient and systematically developed branches of Korean metaphysics.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/name-reading/name-creation" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">The Art of Naming: Balancing Destiny via Saju and Elements</a></li>
+    <li style="margin-bottom: 4px;"><a href="/name-reading/baby-naming" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">The Ultimate Baby Naming Guide: Saju and Success Numerology</a></li>
+  </ul>
+</div>
 
 <h2 id="intro-five-elements">What Is Sound Element Theory?</h2>
 <p>King Sejong designed Hangul in the 15th century not just as a phonetic writing system, but as one grounded in the same Five Element framework that underlies Korean medicine, astronomy, and cosmology. Each consonant group was shaped after a specific articulation point in the mouth—and each articulation point maps directly to one of the five elemental energies. This wasn't coincidence. It was intentional design.</p>
@@ -403,6 +453,14 @@ export const seongmyeongPosts: BlogPost[] = [
 <section>
 <p>살다 보면 '내 이름이 나를 막고 있는 건 아닐까?'라는 생각이 드는 순간이 있습니다. 하는 일마다 꼬이고, 건강이 예전 같지 않고, 좋은 기회가 왔다 싶으면 놓치고—이런 패턴이 반복될 때 개명(改名)은 한 번쯤 진지하게 고려할 만한 선택입니다. 성명학적으로 잘못 설계된 이름은 사주의 좋은 기운을 억누르고, 불필요한 장애물을 만들어냅니다. 반대로 올바른 이름으로 개명하면 심리적 자신감이 높아지고, 에너지의 흐름이 달라집니다.</p>
 
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/name-reading/numerology-81" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">성명학 수리 81수 총정리: 이름 획수로 보는 성공의 비밀</a></li>
+    <li style="margin-bottom: 4px;"><a href="/name-reading/name-creation" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">작명의 기술: 사주에 부족한 기운을 이름으로 채우는 가이드</a></li>
+  </ul>
+</div>
+
 <h2 id="when-to-change">1. 개명을 진지하게 고려해야 할 3가지 징후</h2>
 <p>모든 불운이 이름 때문은 아닙니다. 하지만 성명학 분석에서 다음 세 가지가 확인된다면 개명을 통한 개운(開運)이 실질적으로 도움이 됩니다.</p>
 <h3>① 이름이 사주의 용신을 극(剋)하고 있을 때</h3>
@@ -445,6 +503,15 @@ export const seongmyeongPosts: BlogPost[] = [
     contentEn: `
 <section>
 <p>There's a particular kind of professional frustration that's hard to explain. You're competent. You work hard. The opportunities come and somehow don't quite materialize. The connections feel slightly more effortful than they should. You can't point to a single cause, but the pattern is consistent. Korean name analysis (Seongmyeonghak) offers one possible explanation that most Western frameworks don't consider: your name itself might be generating friction.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/name-reading/numerology-81" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Numerology 81: Reading Success via Name Stroke Counts</a></li>
+    <li style="margin-bottom: 4px;"><a href="/name-reading/name-creation" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">The Art of Naming: Balancing Destiny via Saju and Elements</a></li>
+  </ul>
+</div>
+
 <p>This isn't superstition. It's a systematic analysis of whether the elemental energies embedded in your name's sounds and stroke counts are aligned with—or actively working against—the elemental configuration you were born with. When they're misaligned, the result is a constant low-level headwind that compounds over years. A well-executed name change removes that headwind.</p>
 
 <h2 id="when-to-change">1. Three Indicators That a Name Change Is Worth Considering</h2>
@@ -516,6 +583,14 @@ export const seongmyeongPosts: BlogPost[] = [
 <section>
 <p>아이가 태어나는 순간, 부모의 마음속에서 가장 중요한 일 중 하나가 시작됩니다. 바로 이름 짓기입니다. 이름은 평생 동안 아이와 함께하며, 아이의 자아 인식, 사회적 인상, 그리고 명리학적 기운의 흐름에 영향을 미칩니다. 좋은 이름 하나가 사주의 약점을 보완하고, 아이가 자신의 잠재력을 최대한 발휘하도록 돕습니다. 사랑하는 아이에게 줄 수 있는 최고의 첫 번째 선물, 작명의 모든 것을 알려드립니다.</p>
 
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/name-reading/name-creation" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">작명의 기술: 사주에 부족한 기운을 이름으로 채우는 가이드</a></li>
+    <li style="margin-bottom: 4px;"><a href="/name-reading/numerology-81" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">성명학 수리 81수 총정리: 이름 획수로 보는 성공의 비밀</a></li>
+  </ul>
+</div>
+
 <h2 id="saju-first">1. 아이의 사주 분석 — 이름보다 사주를 먼저 읽어라</h2>
 <p>좋은 이름은 아이의 사주를 정밀하게 이해하는 것에서 시작됩니다. 태어난 연·월·일·시(사주팔자)를 기반으로 아이가 타고난 기운의 강점과 약점을 먼저 파악해야 합니다.</p>
 <h3>계절별 조후(調候) — 온도가 맞아야 아이가 산다</h3>
@@ -556,6 +631,15 @@ export const seongmyeongPosts: BlogPost[] = [
     contentEn: `
 <section>
 <p>The most important naming decision you'll ever make happens within days of a momentous event, when you're sleep-deprived, overwhelmed with emotion, and navigating a hundred practical concerns simultaneously. No wonder so many parents later wonder whether they chose well. In Korean naming culture, the weight given to this decision reflects its genuine importance: a name crafted with care and rigor is one of the most meaningful things you can give a child. A name chosen carelessly is a gift that causes quiet friction for decades.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/name-reading/name-creation" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">The Art of Naming: Balancing Destiny via Saju and Elements</a></li>
+    <li style="margin-bottom: 4px;"><a href="/name-reading/numerology-81" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Numerology 81: Reading Success via Name Stroke Counts</a></li>
+  </ul>
+</div>
+
 <p>This guide walks through the complete Seongmyeonghak approach to baby naming—from birth chart analysis through sound harmony, numerological structure, character selection, and the modern considerations that matter in a connected world.</p>
 
 <h2 id="saju-first">1. Why the Birth Chart Comes Before the Name</h2>
@@ -633,6 +717,14 @@ export const seongmyeongPosts: BlogPost[] = [
 <section>
 <p>성명학에서 가장 과학적이고 통계적인 분야를 꼽으라면 단연 ‘수리81수(數)’입니다. 이는 이름 한자의 획수를 더한 수치가 1부터 81까지 각각 고유한 기운과 길흉을 가지고 있다는 이론입니다. 이름의 전체 획수뿐만 아니라 성과 이름의 조합으로 만들어지는 4격(원·형·이·정)이 어떤 수리로 이루어졌느냐에 따라 인생의 흐름이 완전히 달라집니다. 이 글에서는 성공을 부르는 길수와 주의해야 할 흉수를 상세히 분석합니다.</p>
 
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/name-reading/name-creation" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">작명의 기술: 사주에 부족한 기운을 이름으로 채우는 가이드</a></li>
+    <li style="margin-bottom: 4px;"><a href="/name-reading/name-five-elements" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">이름 오행 분석: 초성으로 보는 소리 오행의 상생·상극</a></li>
+  </ul>
+</div>
+
 <h2 id="four-stages">1. 인생의 4개 시기: 원격·형격·이격·정격</h2>
 <p>수리81수를 분석할 때는 이름을 네 가지 시기로 나누어 획수를 합산합니다.</p>
 <ul>
@@ -670,6 +762,14 @@ export const seongmyeongPosts: BlogPost[] = [
     contentEn: `
 <section>
 <p>In Seongmyeonghak, Numerology 81 is the most statistical field, analyzing how the sum of name strokes correlates with life outcomes. Each number from 1 to 81 carries a unique vibration. By analyzing the "Four Stages" of your name, you can predict your fortune from childhood to old age. This guide explores the lucky numbers that bring success and the cautionary ones that suggest a need for adjustment.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/name-reading/name-creation" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">The Art of Naming: Balancing Destiny via Saju and Elements</a></li>
+    <li style="margin-bottom: 4px;"><a href="/name-reading/name-five-elements" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Sound Harmony: The Five Elements in Name Pronunciation</a></li>
+  </ul>
+</div>
 
 <h2 id="four-stages">1. The Four Stages of Life in Numerology</h2>
 <p>Numerology divides a person's life into four stages based on specific stroke count combinations: Won-gyeok (Early Life), Hyeong-gyeok (Primary Success), I-gyeok (Middle Age), and Jeong-gyeok (Total Fortune).</p>

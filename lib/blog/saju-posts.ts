@@ -16,6 +16,14 @@ export const sajuPosts: BlogPost[] = [
 <section>
 <p>인생의 중대한 기로에 섰을 때, 우리는 종종 "나의 운명은 무엇인가?"라는 근원적인 질문을 던집니다. 동양 철학의 정수인 사주팔자(四柱八字)는 사람이 태어난 순간의 우주적 기운을 시간의 기둥으로 세워 분석하는 정교한 운명 분석 시스템입니다. 이는 단순한 점술을 넘어, 수천 년에 걸친 천문학적 관찰과 인간 통계가 결합된 동양 인문학의 결정체입니다. 이 글에서는 사주팔자의 정의부터 음양오행의 조화, 십성(十星) 체계, 그리고 대운의 타이밍까지, 당신의 인생 설계도를 읽는 법을 깊이 있게 다룹니다.</p>
 
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 일주 완전정복: 나의 본질과 배우자 복을 읽는 법</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/lucky-element" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 용신 찾기: 내 사주에서 가장 필요한 행운의 기운</a></li>
+  </ul>
+</div>
+
 <h2 id="saju-definition">1. 사주팔자의 정의와 구조: 인생의 네 기둥</h2>
 <p>사주(四柱)는 태어난 년(年), 월(月), 일(日), 시(時)의 네 가지 기둥을 의미합니다. 각 기둥에는 하늘의 기운인 천간(天干)과 땅의 기운인 지지(地支)가 하나씩 배치되어 총 여덟 글자가 됩니다. 이것이 바로 우리가 흔히 말하는 '팔자(八字)'입니다. 동양에서는 사람이 태어나는 순간, 그 시점의 우주 에너지가 고스란히 그 사람의 기질과 삶의 경향성으로 각인된다고 봅니다.</p>
 <h3>네 기둥이 상징하는 인생의 영역</h3>
@@ -63,6 +71,14 @@ export const sajuPosts: BlogPost[] = [
     contentEn: `
 <section>
 <p>At the most pivotal crossroads of life—career changes, relationship crises, moments of self-doubt—people across cultures have always asked: <em>"Is there a pattern to all of this?"</em> For more than two millennia, East Asian civilizations answered that question with <strong>Saju-Palja (四柱八字)</strong>, or the Four Pillars of Destiny. Unlike Western horoscopes that map planetary positions, Saju captures the precise flow of cosmic <em>Qi</em> (energy) at your exact moment of birth and translates it into a lifelong map of potential, timing, and purpose. This comprehensive guide walks you through every layer of the system—from the basic structure of the Four Pillars to the advanced concepts of the Ten Gods and Time Cycles.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Mastering the Day Pillar: Your Identity and Relationship Fate</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/lucky-element" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Finding Your Lucky Element (Yongshin): The Key to Saju Balance</a></li>
+  </ul>
+</div>
 
 <h2 id="saju-definition">1. The Four Pillars: Your Cosmic Blueprint</h2>
 <p>"Saju" (四柱) means "Four Pillars," and "Palja" (八字) means "Eight Characters." Each of the four pillars—Year, Month, Day, and Hour of birth—contains two characters: one <strong>Heavenly Stem</strong> (天干, Cheon-gan) representing sky energy, and one <strong>Earthly Branch</strong> (地支, Ji-ji) representing earth energy. Together, these eight characters form what practitioners call your <em>"cosmic barcode"</em>—a unique imprint of the universal energy field at your birth.</p>
@@ -154,6 +170,14 @@ export const sajuPosts: BlogPost[] = [
 <section>
 <p>명리학을 깊이 공부하다 보면 어느 순간 가장 중요한 질문 하나에 도달합니다. "내 사주에서 가장 필요한 기운은 무엇인가?" 그 대답이 바로 용신(用神)입니다. 용신은 사주의 불균형을 바로잡아주는 핵심 오행이며, 인생의 전성기를 만들어주는 결정적인 에너지입니다. 용신을 알면 직업, 색깔, 방향, 음식, 인간관계까지—삶의 거의 모든 선택에서 "나에게 유리한 방향"이 무엇인지 파악할 수 있습니다.</p>
 
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/saju/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주팔자란 무엇인가? 음양오행 원리와 인생 운명론 완벽 가이드</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 일주 완전정복: 나의 본질과 배우자 복을 읽는 법</a></li>
+  </ul>
+</div>
+
 <h2 id="yongshin-concept">1. 용신이란 무엇인가 — 사주 균형의 해결사</h2>
 <p>사주팔자는 여덟 글자가 서로 힘을 겨루는 역동적인 시스템입니다. 어떤 오행은 너무 많아서 과잉이 되고, 어떤 오행은 너무 적어서 제 역할을 못 합니다. 이때 사주 전체를 중화(中和)로 이끄는 핵심 글자가 용신입니다.</p>
 <p>비유하자면 이렇습니다. 사주가 너무 뜨거운 여름날 같다면, 시원한 水(물)가 용신입니다. 사주가 너무 차갑고 축축한 겨울 늪 같다면, 따뜻한 火(불)와 건조한 土(흙)가 용신이 됩니다. 사주가 금속으로만 가득 차 날카롭고 차갑다면, 이를 녹여줄 火(불) 또는 물 흘려보낼 水(물)가 용신의 역할을 합니다.</p>
@@ -199,6 +223,14 @@ export const sajuPosts: BlogPost[] = [
     contentEn: `
 <section>
 <p>There's a moment in every serious student of Korean astrology when the question shifts from <em>"what does my chart say?"</em> to <em>"what should I do about it?"</em> That's the moment you're ready to understand <strong>Yongshin</strong> (用神)—the beneficial element.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/saju/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">What is Saju-Palja? Ultimate Guide to Korean Astrology & Destiny</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Mastering the Day Pillar: Your Identity and Relationship Fate</a></li>
+  </ul>
+</div>
 
 <p>Yongshin is the single element—Wood, Fire, Earth, Metal, or Water—that your chart most needs in order to find balance. Not the element you like, or the one that sounds good to you. The one the chart itself is reaching for. When that element enters your life—through your environment, your career, your relationships, your 10-year luck cycle—things start to work. When the opposing element floods in, things stall.</p>
 
@@ -287,6 +319,14 @@ export const sajuPosts: BlogPost[] = [
 <section>
 <p>사주팔자 여덟 글자 중 단 하나만 꼽으라면 단연 ‘일주(日柱)’입니다. 일주는 내가 태어난 날의 기둥으로, 나 자신을 상징하는 ‘일간(日干)’과 내가 딛고 있는 땅이자 배우자 자리를 의미하는 ‘일지(日支)’로 구성됩니다. 사주의 주인공이 누구인지, 그리고 어떤 배우자를 만나 어떤 삶의 터전을 일궈갈지가 이 두 글자에 집약되어 있습니다. 3,000자 전문 해설을 통해 당신의 본질을 파헤쳐 봅니다.</p>
 
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/saju/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주팔자란 무엇인가? 음양오행 원리와 인생 운명론 완벽 가이드</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/lucky-element" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 용신 찾기: 내 사주에서 가장 필요한 행운의 기운</a></li>
+  </ul>
+</div>
+
 <h2 id="ilju-core">1. 일간(日干): 10가지 본질 에너지와 기질 분석</h2>
 <p>일간은 당신의 의식적인 자아이자 핵심 기질입니다. 10천간이 각각 어떤 에너지를 품고 있는지를 알면 자신을 완전히 다른 시각으로 이해하게 됩니다.</p>
 <ul>
@@ -329,6 +369,14 @@ export const sajuPosts: BlogPost[] = [
     contentEn: `
 <section>
 <p>If you had to pick just one pillar from your Saju chart, it would undoubtedly be the <strong>Day Pillar (日柱, Ilju)</strong>. It consists of two characters: the <strong>Day Master (日干, Ilgan)</strong>—your conscious self and core personality—and the <strong>Day Branch (日支, Ilji)</strong>—your marriage palace and inner emotional landscape. Together, they are the protagonist and home of your life's drama. This guide dives deep into all ten Day Master archetypes, the marriage palace analysis, Clash and Punishment dynamics, and the 60 Pillar archetypes.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/saju/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">What is Saju-Palja? Ultimate Guide to Korean Astrology & Destiny</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/lucky-element" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Finding Your Lucky Element (Yongshin): The Key to Saju Balance</a></li>
+  </ul>
+</div>
 
 <h2 id="ilju-core">1. The Ten Day Masters: Your Core Elemental Identity</h2>
 <p>There are ten possible Day Masters, each embodying a unique elemental archetype:</p>
@@ -411,6 +459,14 @@ export const sajuPosts: BlogPost[] = [
 <section>
 <p>사주 상담을 받고 돌아오는 사람들 중 상당수는 고개를 갸우뚱합니다. "도화살이 있다는데 제가 그렇게 바람기가 있나요?", "역마살이 있어서 평생 떠돌아야 한다고요?" 사실 이 질문들은 아직 '살(殺)'의 진짜 의미를 오해하고 있다는 증거입니다. 현대 명리학에서 살은 흉기가 아닙니다. 방향을 알려주는 나침반입니다.</p>
 
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/saju/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주팔자란 무엇인가? 음양오행 원리와 인생 운명론 완벽 가이드</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/career-star" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 관성으로 보는 직업운: 나에게 맞는 직종과 성공 시기 분석</a></li>
+  </ul>
+</div>
+
 <h2 id="popular-spirits">1. 도화살(桃花殺) — 인기의 씨앗</h2>
 <p>도화살은 복숭아꽃처럼 아름다움으로 사람을 끌어당기는 기운입니다. 과거에는 이를 '이성에 흔들리는 음란한 기운'으로 해석했습니다. 그 해석이 틀린 것은 아닙니다. 단지 불완전합니다.</p>
 <p>도화살의 본질은 <strong>매력과 사랑받는 능력</strong>입니다. 연예인·인플루언서·세일즈 챔피언·마케터 중 도화살을 가진 사람의 비율이 유독 높은 것은 우연이 아닙니다. 대중의 시선을 끌고, 처음 만난 사람도 편안하게 만들며, 기억에 오래 남는 인상을 주는 것—그것이 도화살이 현대 사회에서 발휘하는 힘입니다.</p>
@@ -446,6 +502,14 @@ export const sajuPosts: BlogPost[] = [
     contentEn: `
 <section>
 <p>The first time most Westerners encounter the concept of <em>Sal</em> (살) in Korean astrology, the reaction is usually the same: mild alarm. <em>"Peach Blossom Star? That sounds like a curse."</em> It isn't. The history of how these stars were interpreted—and misinterpreted—over centuries says more about social anxieties than it does about the actual energetic patterns these stars represent.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/saju/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">What is Saju-Palja? Ultimate Guide to Korean Astrology & Destiny</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/career-star" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Career Luck in Saju: Navigating Success via Gwanseong and Energy</a></li>
+  </ul>
+</div>
 
 <p>Here's the reframe that changes everything: <strong>every Sal is a description of concentrated energy, not a moral verdict.</strong> What you do with that energy is the story of your life.</p>
 
@@ -521,6 +585,14 @@ export const sajuPosts: BlogPost[] = [
 <section>
 <p>"내가 이 일을 계속해야 할까?", "언제쯤 더 좋은 기회가 올까?"—인생을 살면서 누구나 한 번쯤 이런 질문을 합니다. 사주 명리학은 이 질문에 놀랍도록 구체적인 답을 줄 수 있습니다. 관성(官星)이라는 개념을 통해 내가 어떤 형태의 일에서 두각을 나타내는지, 그리고 언제 커리어의 전환점이 찾아오는지를 읽어낼 수 있기 때문입니다.</p>
 
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/saju/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주팔자란 무엇인가? 음양오행 원리와 인생 운명론 완벽 가이드</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/destiny-change" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">운명은 정해져 있는가? 사주로 운을 바꾸고 개운하는 실전 방법</a></li>
+  </ul>
+</div>
+
 <h2 id="gwanseong-meaning">1. 관성(官星)이란 — 직업운의 핵심 코드</h2>
 <p>관성은 나를 제어하는 기운이자, 사회가 나를 인정하는 방식입니다. 일간(나)을 극(剋)하는 오행이 관성이 되며, 이것이 음양에 따라 정관(正官)과 편관(偏官)으로 나뉩니다.</p>
 <h3>정관(正官) — 신뢰와 원칙의 리더</h3>
@@ -559,6 +631,15 @@ export const sajuPosts: BlogPost[] = [
     contentEn: `
 <section>
 <p>Most career advice is generic because it has to be. "Follow your passion." "Play to your strengths." "Network relentlessly." These aren't wrong—they're just incomplete. They don't account for the specific energetic configuration you were born with, or the particular timing windows when your effort is most likely to compound into results.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/saju/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">What is Saju-Palja? Ultimate Guide to Korean Astrology & Destiny</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/destiny-change" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Is Destiny Fixed? How to Change Your Fate via Saju Remedies</a></li>
+  </ul>
+</div>
+
 <p>Korean astrology offers a more precise lens: the <strong>Gwanseong</strong> (官星), or Career Star. Understanding it doesn't tell you exactly which job to take. It tells you something considerably more useful—the shape of work that naturally suits your energy, and when the universe is most likely to respond to your moves.</p>
 
 <h2 id="gwanseong-meaning">1. What Gwanseong Actually Means</h2>
@@ -637,6 +718,14 @@ export const sajuPosts: BlogPost[] = [
 <section>
 <p>'운명은 정해진 것인가, 아니면 바꿀 수 있는 것인가?' 이 질문은 인류가 철학과 종교, 과학을 통해 수천 년간 씨름해온 주제입니다. 사주 명리학의 세계에서도 이 질문은 뜨겁습니다. 사주를 안다고 해서 운명에서 벗어날 수 있는 걸까요? 아니면 이미 정해진 길을 확인하는 것에 불과할까요? 명리학의 가장 깊은 층위를 탐구합니다.</p>
 
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/saju/lucky-element" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 용신 찾기: 내 사주에서 가장 필요한 행운의 기운</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/destiny-change" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">운명은 정해져 있는가? 사주로 운을 바꾸고 개운하는 실전 방법</a></li>
+  </ul>
+</div>
+
 <h2 id="fate-vs-free">1. 운명과 자유의지 — 명리학의 답변</h2>
 <p>명리학은 완전한 결정론도, 완전한 자유의지론도 아닌 <strong>제3의 입장</strong>을 취합니다. 사주팔자는 내가 태어날 때 가지고 온 에너지의 형태입니다. 이 에너지의 패턴은 바뀌지 않습니다. 그러나 그 에너지를 어떻게 사용하느냐는 전적으로 나의 선택입니다.</p>
 <p>비유를 들자면 이렇습니다. 같은 씨앗이라도 어떤 땅에 심기느냐, 얼마나 물을 주느냐, 햇빛을 받느냐에 따라 자라나는 나무가 달라집니다. 씨앗의 DNA(사주)는 바뀌지 않지만, 그 씨앗이 맺는 열매(인생)는 환경과 의지에 따라 크게 달라질 수 있습니다.</p>
@@ -676,6 +765,14 @@ export const sajuPosts: BlogPost[] = [
     contentEn: `
 <section>
 <p>The question of whether fate is fixed or malleable sits at the philosophical heart of every divination tradition that has ever existed. Korean astrology is no exception. Saju practitioners have been arguing about this question for centuries—and the answer they've arrived at is, characteristically, more nuanced than either extreme.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/saju/lucky-element" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Finding Your Lucky Element (Yongshin): The Key to Saju Balance</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/destiny-change" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Is Destiny Fixed? How to Change Your Fate via Saju Remedies</a></li>
+  </ul>
+</div>
 
 <h2 id="fate-vs-free">1. What Korean Astrology Actually Claims About Fate</h2>
 <p>The Saju system doesn't say your life is predetermined. It says you were born with a specific configuration of elemental energies that creates certain tendencies, certain natural affinities, certain recurring patterns. These tendencies are real and significant. But they are not destiny in the sense of an inescapable script.</p>
@@ -755,6 +852,14 @@ export const sajuPosts: BlogPost[] = [
 <section>
 <p>인생의 절반 이상을 보내는 ‘직업’은 우리의 행복과 직결됩니다. 사주 명리학에서는 ‘관성(官星)’이라는 기운을 통해 그 사람의 사회적 위치와 직업적 성향을 읽어냅니다. 내가 조직에 적합한 사람인지, 아니면 나만의 길을 가야 하는 사람인지, 그리고 언제쯤 승진이나 취업의 기회가 올지를 사주 오행은 이미 알고 있습니다. 당신의 천직을 찾아줄 3,000자 전문 직업운 가이드를 확인하세요.</p>
 
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 일주 완전정복: 나의 본질과 배우자 복을 읽는 법</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/lucky-element" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 용신 찾기: 내 사주에서 가장 필요한 행운의 기운</a></li>
+  </ul>
+</div>
+
 <h2 id="gwanseong-meaning">1. 관성(官星)이란 무엇인가? 사회적 나를 증명하는 별</h2>
 <p>관성은 나를 제어하고 규율하는 힘이자, 타인에게 인정받는 명예를 상징합니다. 크게 ‘정관’과 ‘편관’으로 나뉩니다.</p>
 <h3>정관(正官): 안정적인 조직의 핵심</h3>
@@ -784,6 +889,14 @@ export const sajuPosts: BlogPost[] = [
     contentEn: `
 <section>
 <p>Your career, which occupies more than half of your life, is directly linked to your happiness. Saju Myeonglihak reads your social position and professional temperament through the energy of "Gwanseong" (The Career Star). This 3,000-character guide explores whether you are a natural-born leader, a dedicated organization man, or a creative freelancer.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Mastering the Day Pillar: Your Identity and Relationship Fate</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/lucky-element" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Finding Your Lucky Element (Yongshin): The Key to Saju Balance</a></li>
+  </ul>
+</div>
 
 <h2 id="gwanseong-meaning">1. What is Gwanseong? Your Social Identity</h2>
 <p>Gwanseong represents the force that regulates you and the honor you receive from others. "Jeong-gwan" is suited for stable organizations like government or large corporations, while "Pyeon-gwan" thrives in high-stakes professional fields or leadership roles that require charisma.</p>
@@ -835,6 +948,14 @@ export const sajuPosts: BlogPost[] = [
 <section>
 <p>2026년은 병오년(丙午年)입니다. 병화(丙火)의 태양 에너지와 오화(午火)가 겹치는 '불 위의 태양'의 해입니다. 오행으로 보면 화(火) 기운이 극도로 강해지는 해로, 드라마틱한 변화·폭발적 성장·강렬한 감정의 소용돌이가 예고됩니다. 12띠별로 이 병오의 기운이 어떻게 작용하는지 살펴봅니다.</p>
 
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/saju/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주팔자란 무엇인가? 음양오행 원리와 인생 운명론 완벽 가이드</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/lucky-element" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 용신 찾기: 내 사주에서 가장 필요한 행운의 기운</a></li>
+  </ul>
+</div>
+
 <h2 id="year-energy">1. 2026년 병오년(丙午年)의 기운</h2>
 <p>병화는 태양처럼 밝고 강렬합니다. 숨겨진 것들이 드러나고, 약한 것들은 무너지며, 강한 것들은 더욱 빛을 발합니다. 오(午)는 12지지 중 화(火)가 가장 강한 자리입니다. 두 힘이 합쳐진 병오년은 날카롭게 양면성이 드러나는 해입니다. 잘 되는 사람은 더욱 잘 되고, 방향 없이 흘러가는 사람은 그 대가를 치르는 해입니다. 준비된 자에게는 도약의 해, 관성에 젖은 자에게는 각성의 해가 됩니다.</p>
 
@@ -881,6 +1002,15 @@ export const sajuPosts: BlogPost[] = [
     contentEn: `
 <section>
 <p>2026 is the Year of the Fire Horse — Byeong-O (丙午) in the traditional calendar. Two Fire energies stack: Byeong (丙), the open Sun, and O (午), the most Fire-charged of the twelve Earthly Branches. The result is one of the most intense annual energies in the sixty-year cycle: dramatic, illuminating, volatile, and deeply clarifying.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/saju/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">What is Saju-Palja? Ultimate Guide to Korean Astrology & Destiny</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/lucky-element" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Finding Your Lucky Element (Yongshin): The Key to Saju Balance</a></li>
+  </ul>
+</div>
+
 <p>In a Byeong-O year, things that were hidden come into light—whether you're ready for them or not. People who've been quietly building tend to see that work recognized. People who've been drifting get a sharp wake-up call. This isn't punishment; it's the natural consequence of concentrated Fire energy burning away what isn't real.</p>
 
 <h2 id="year-energy">1. Understanding 2026's Byeong-O Energy</h2>
@@ -964,9 +1094,17 @@ export const sajuPosts: BlogPost[] = [
     category: 'saju',
     contentKo: `
 <section>
-<p>“내 팔자가 왜 이럴까?”라는 한탄은 그만두셔도 좋습니다. 사주 명리학의 근본 목적은 정해진 운명에 순응하는 것이 아니라, 운명의 흐름을 알고 나쁜 것은 피하며 좋은 것은 극대화하는 ‘개운(開運)’에 있기 때문입니다. 사주라는 설계도는 바꿀 수 없지만, 그 위에 짓는 건물은 당신의 의지에 따라 얼마든지 달라질 수 있습니다. 운명을 바꾸는 3,000자 실전 비책을 지금 공개합니다.</p>
+<p>”내 팔자가 왜 이럴까?”라는 한탄은 그만두셔도 좋습니다. 사주 명리학의 근본 목적은 정해진 운명에 순응하는 것이 아니라, 운명의 흐름을 알고 나쁜 것은 피하며 좋은 것은 극대화하는 ‘개운(開運)’에 있기 때문입니다. 사주라는 설계도는 바꿀 수 없지만, 그 위에 짓는 건물은 당신의 의지에 따라 얼마든지 달라질 수 있습니다. 운명을 바꾸는 3,000자 실전 비책을 지금 공개합니다.</p>
 
-<h2 id="fixed-vs-variable">1. 사주는 숙명인가, 운명인가?</h2>
+<div class=”related-posts-inline” style=”background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;”>
+  <p style=”color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;”>📚 함께 읽으면 좋은 글</p>
+  <ul style=”margin: 0; padding-left: 16px;”>
+    <li style=”margin-bottom: 4px;”><a href=”/saju/lucky-element” style=”color: #F5D77E; text-decoration: underline; font-size: 13px;”>사주 용신 찾기: 내 사주에서 가장 필요한 행운의 기운</a></li>
+    <li style=”margin-bottom: 4px;”><a href=”/saju/intro” style=”color: #F5D77E; text-decoration: underline; font-size: 13px;”>사주팔자란 무엇인가? 음양오행 원리와 인생 운명론 완벽 가이드</a></li>
+  </ul>
+</div>
+
+<h2 id=”fixed-vs-variable”>1. 사주는 숙명인가, 운명인가?</h2>
 <p>태어난 시간은 바꿀 수 없는 ‘숙명(宿命)’입니다. 이는 우리가 태어날 때 받은 자동차의 종류와 같습니다. 하지만 그 자동차를 어떤 길로 운전하고 어떻게 관리할지는 당신이 선택하는 ‘운명(運命)’입니다. 사주가 비포장도로를 달리는 경차라고 해서 절망할 필요 없습니다. 길을 잘 선택하고 최고의 운전 실력을 갖춘다면 고급 세단보다 더 멀리, 더 안전하게 갈 수 있습니다.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
@@ -994,6 +1132,14 @@ export const sajuPosts: BlogPost[] = [
     contentEn: `
 <section>
 <p>Stop lamenting about your fate. The true purpose of Saju Myeonglihak is not to surrender to a fixed destiny but to understand the flow and maximize your potential through "Gaeun" (Luck Improvement). You cannot change the blueprint, but you can build a masterpiece on it. This 3,000-character guide reveals practical ways to change your destiny.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/saju/lucky-element" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Finding Your Lucky Element (Yongshin): The Key to Saju Balance</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">What is Saju-Palja? Ultimate Guide to Korean Astrology & Destiny</a></li>
+  </ul>
+</div>
 
 <h2 id="fixed-vs-variable">1. Fixed Fate vs. Variable Destiny</h2>
 <p>Your birth time is a "Fixed Fate," like the car you were given. But where you drive that car and how you maintain it is your "Variable Destiny." A well-driven economy car can reach further and more safely than a poorly managed luxury sedan. Saju is the map; you are the driver.</p>

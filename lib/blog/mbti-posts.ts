@@ -16,6 +16,14 @@ export const mbtiPosts: BlogPost[] = [
 <section>
 <p>오늘날 MBTI는 단순한 심리 테스트를 넘어, 자기소개와 인간관계의 ‘공용어’처럼 사용되고 있습니다. 특히 한국에서의 MBTI 열풍은 가히 독보적이라 할 수 있죠. 하지만 MBTI가 스위스의 정신의학자 칼 구스타프 융(Carl Gustav Jung)의 분석심리학에 그 뿌리를 두고 있다는 사실, 그리고 융이 평생에 걸쳐 동양의 ‘주역(I Ching)’을 깊이 연구했다는 사실을 아는 사람은 많지 않습니다. 이 글에서는 MBTI의 탄생 배경과 그 이면에 숨겨진 동양 철학적 통찰을 심도 있게 다룹니다.</p>
 
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/mbti/saju-five-elements" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">MBTI와 사주 오행 상관관계: 16유형 성격을 오행으로 해석하기</a></li>
+    <li style="margin-bottom: 4px;"><a href="/compatibility/love-destiny" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사랑의 운명: 사주 일주와 MBTI로 보는 나의 천생연분 찾기</a></li>
+  </ul>
+</div>
+
 <h2 id="jung-psychology">1. 칼 융의 심리 유형론: MBTI의 과학적 토대</h2>
 <p>MBTI(Myers-Briggs Type Indicator)는 1940년대 캐서린 쿡 브릭스와 그녀의 딸 이사벨 브릭스 마이어스에 의해 개발되었지만, 그 이론적 설계도는 칼 융이 1921년 발표한 저서 《심리 유형(Psychological Types)》에 근거합니다.</p>
 <h3>에너지의 방향: 내향성(I)과 외향성(E)</h3>
@@ -54,6 +62,14 @@ export const mbtiPosts: BlogPost[] = [
     contentEn: `
 <section>
 <p>Most people who know their MBTI type have no idea where it actually came from. The short answer: MBTI is derived from the theoretical framework of Carl Gustav Jung, a Swiss psychiatrist who was also one of the most serious Western scholars of Eastern philosophy—particularly the I Ching (Book of Changes). This article traces the intellectual lineage from Jung's 1921 <em>Psychological Types</em> through Myers and Briggs to the modern 16-type system, and explores why the system has such remarkable resonance with ancient Eastern wisdom traditions.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/mbti/saju-five-elements" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">MBTI & Korean Five Elements: 16 Types Mapping Guide</a></li>
+    <li style="margin-bottom: 4px;"><a href="/compatibility/love-destiny" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Finding Your Soulmate via Saju & MBTI Integration</a></li>
+  </ul>
+</div>
 
 <h2 id="jung-psychology">1. Carl Jung's Psychological Types: The Original Blueprint</h2>
 <p>The Myers-Briggs Type Indicator was formally developed in the 1940s by Katherine Cook Briggs and Isabel Briggs Myers. But the underlying theoretical structure is Jung's. In his 1921 masterwork <em>Psychological Types</em>, Jung proposed that human consciousness operates through four basic functions—Thinking, Feeling, Sensing, and Intuition—organized around two fundamental attitudinal orientations: Introversion and Extraversion. These eight dynamics form the theoretical skeleton that Myers-Briggs would eventually build into the 16-type grid.</p>
@@ -129,6 +145,14 @@ export const mbtiPosts: BlogPost[] = [
 <section>
 <p>MBTI는 성격을 분류하는 훌륭한 도구이지만, 그 성격이 어떤 ‘에너지’로 이루어져 있는지에 대해서는 답하기 어렵습니다. 반면 동양의 사주 명리학은 세상을 구성하는 다섯 가지 기운인 오행(목·화·토·금·수)을 통해 사람의 기질을 설명합니다. 만약 ENFP의 넘치는 에너지를 오행으로 바꾼다면 무엇일까요? ISTJ의 철저함은 어떤 원소의 성질일까요? 이 글에서는 16가지 MBTI 유형을 오행의 관점에서 새롭게 재해석합니다.</p>
 
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/mbti/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">MBTI 유래와 칼 융의 심리학: 동양 철학과의 상관관계</a></li>
+    <li style="margin-bottom: 4px;"><a href="/mbti/mbti-compatibility" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">MBTI 궁합 완전정복: 최악의 관계를 오행으로 극복하는 솔루션</a></li>
+  </ul>
+</div>
+
 <h2 id="ohaeng-mapping">1. MBTI 4그룹과 오행의 기질적 매칭</h2>
 <p>사주 전문가들은 MBTI의 심리 기능을 오행의 특성과 연결하여 분석합니다. 이는 단순한 재미를 넘어, 자신의 타고난 기운을 어떻게 보완할지 알려주는 중요한 지표가 됩니다.</p>
 <h3>NF 외교관형 (INFJ, INFP, ENFJ, ENFP): 목(木)의 기운</h3>
@@ -162,6 +186,14 @@ export const mbtiPosts: BlogPost[] = [
     contentEn: `
 <section>
 <p>MBTI categorizes how your personality expresses itself. The Korean Saju system's Five Elements—Wood, Fire, Earth, Metal, Water—describe the fundamental energy that drives your personality in the first place. Mapping these two systems together produces something more powerful than either system alone: a model that connects your psychological style (MBTI) to your elemental constitution (Saju), explaining not just what you do but why you do it at the most fundamental level.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/mbti/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">The Origins of MBTI: Carl Jung, Psychology, and Eastern Philosophy</a></li>
+    <li style="margin-bottom: 4px;"><a href="/mbti/mbti-compatibility" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">The Ultimate MBTI Compatibility Guide: Saju Remedies</a></li>
+  </ul>
+</div>
 
 <h2 id="ohaeng-mapping">1. The Four MBTI Groups and Their Elemental Resonances</h2>
 <p>Saju practitioners who work with both systems consistently identify four primary elemental correspondences for the MBTI groups:</p>
@@ -232,6 +264,14 @@ export const mbtiPosts: BlogPost[] = [
 <section>
 <p>소개팅 전 상대의 MBTI를 묻는 것은 이제 한국의 당연한 예절이 되었습니다. 하지만 "우리는 MBTI 궁합이 파국이라던데?"라며 시작도 전에 포기하는 분들도 많습니다. MBTI가 성격의 '말투'라면, 사주 오행은 그 사람을 움직이는 '동력'입니다. 말투가 달라도 동력이 조화를 이루면 얼마든지 천생연분이 될 수 있습니다. 이 글에서는 MBTI 상극을 사주 오행으로 푸는 마법 같은 해결책을 제시합니다.</p>
 
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/mbti/saju-five-elements" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">MBTI와 사주 오행 상관관계: 16유형 성격을 오행으로 해석하기</a></li>
+    <li style="margin-bottom: 4px;"><a href="/mbti/compatibility-table" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">MBTI별 사주 궁합표: 16유형과 찰떡궁합인 일주 완전 분석</a></li>
+  </ul>
+</div>
+
 <h2 id="compatibility-myth">1. MBTI 궁합표의 함정과 오행의 진실</h2>
 <p>인터넷에 떠도는 MBTI 궁합표는 단순한 심리 기능의 대조일 뿐입니다. 예를 들어, 극도의 현실주의자인 ISTJ와 몽상가인 ENFP는 MBTI상 상극으로 분류되지만, 실제로는 서로의 부족한 점에 강하게 끌리는 경우가 많습니다.</p>
 <h3>에너지의 보완: 상생(相生)의 원리</h3>
@@ -262,6 +302,14 @@ export const mbtiPosts: BlogPost[] = [
     contentEn: `
 <section>
 <p>Asking for someone's MBTI before a first date is now standard practice in South Korea. But what happens when the charts say you're a terrible match? Most MBTI compatibility frameworks are based on a simple comparison of cognitive function preferences. They tell you whether your styles will naturally mesh or collide—but they say nothing about the deeper energetic compatibility that determines whether two people actually sustain and nourish each other over time. Korean Saju's Five Elements framework answers the question that MBTI compatibility charts cannot: why do some "incompatible" types work brilliantly together, and why do some "compatible" types quietly drain each other?</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/mbti/saju-five-elements" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">MBTI & Korean Five Elements: 16 Types Mapping Guide</a></li>
+    <li style="margin-bottom: 4px;"><a href="/mbti/compatibility-table" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">MBTI & Saju Match Table: Find Your Perfect Day Pillar</a></li>
+  </ul>
+</div>
 
 <h2 id="compatibility-myth">1. Why MBTI Compatibility Charts Miss the Point</h2>
 <p>Standard MBTI compatibility analysis compares cognitive function stacks to determine whether two types will naturally complement or frustrate each other. This is genuinely useful as far as it goes—it predicts communication style friction accurately. But it completely misses elemental fit. An ISTJ (Earth/Metal) and an ENFP (Wood/Fire) score poorly on MBTI compatibility. Yet in Saju elemental terms, Wood and Earth have a productive tension—Wood penetrates Earth, Earth grounds Wood—that creates precisely the dynamic of challenge-and-stability that many deeply compatible couples describe. The MBTI chart says they shouldn't work. The elemental reading explains why they often do.</p>
@@ -331,6 +379,14 @@ export const mbtiPosts: BlogPost[] = [
     contentKo: `
 <section>
 <p>운(運)이라는 것은 단순히 가만히 기다리는 것이 아니라, 내가 가장 잘 작동할 수 있는 환경을 스스로 만드는 것입니다. 동양 철학에서는 이를 ‘개운(開運)’이라 부릅니다. 흥미롭게도 MBTI 유형에 따라 운을 끌어당기는 방식은 전혀 다릅니다. 누군가에게는 여행이 운을 열어주지만, 누군가에게는 고요한 독서가 운을 불러옵니다. 이 글에서는 내향형(I)과 외향형(E)을 위한 맞춤형 개운 루틴을 제안합니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/mbti/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">MBTI 유래와 칼 융의 심리학: 동양 철학과의 상관관계</a></li>
+    <li style="margin-bottom: 4px;"><a href="/mbti/saju-five-elements" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">MBTI와 사주 오행 상관관계: 16유형 성격을 오행으로 해석하기</a></li>
+  </ul>
+</div>
 
 <h2 id="introvert-luck">1. 내향형(I)을 위한 개운법: 수렴과 성찰의 힘</h2>
 <p>내향인은 에너지를 안으로 모으는 음(陰)의 기운이 강합니다. 이들에게 운이 막히는 가장 큰 원인은 '과도한 외부 자극'입니다. 운을 열기 위해서는 에너지를 정돈하는 과정이 반드시 필요합니다.</p>
