@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { allPosts } from '@/lib/blog';
 
 const BASE_URL = 'https://sajupalza.cc';
-const locales = ['ko', 'en', 'ja', 'zh'];
+const locales = ['ko', 'en'];
 
 const routes = [
   '', '/saju', '/name', '/face', '/mbti', '/privacy', '/terms', '/contact',
