@@ -737,4 +737,154 @@ export const mbtiPosts: BlogPost[] = [
       { slug: 'compatibility-table', category: 'mbti', title: 'MBTI별 찰떡궁합 사주 일주' },
     ],
   },
+  {
+    slug: 'infj-saju',
+    title: 'INFJ 사주 분석: 전 세계 1% 희귀 유형의 명리학적 비밀',
+    seoTitle: 'INFJ 사주 특징: 인프제(INFJ)의 오행, 일주, 그리고 천생연분 궁합',
+    seoTitleEn: 'INFJ in Saju: The Astrological Blueprint of the Rarest MBTI Type',
+    description: '전 세계 1%에 불과한 가장 희귀한 성격 유형 INFJ(인프제). 이들의 복잡하고 신비로운 내면을 사주 명리학의 오행과 일주(日柱)의 관점에서 3,000자 전문 해설로 파헤칩니다.',
+    descriptionEn: 'Explore the astrological blueprint of the INFJ personality type using Korean Saju. Discover which Five Elements and Day Pillars align with this rare, mystical type.',
+    keywords: ['INFJ 사주', '인프제 특징', 'INFJ 궁합', '목기운 INFJ', 'MBTI 사주 분석'],
+    keywordsEn: ['INFJ Saju', 'Rare MBTI type', 'INFJ Compatibility', 'Korean Astrology INFJ', 'Wood Element'],
+    publishedAt: '2026-03-02',
+    category: 'mbti',
+    toc: [
+      { id: 'infj-energy', title: '1. INFJ의 딜레마: 뜨거운 가슴과 차가운 머리' },
+      { id: 'five-elements', title: '2. 오행으로 본 인프제: 수(水)와 화(火)의 충돌' },
+      { id: 'best-ilju', title: '3. INFJ와 가장 잘 어울리는 사주 일주' },
+      { id: 'luck-remedy', title: '4. 인프제를 위한 맞춤형 개운법' },
+      { id: 'conclusion', title: '5. 결론: 나만의 우주를 지키는 법' },
+    ],
+    tocEn: [
+      { id: 'infj-energy', title: '1. The INFJ Dilemma: Warm Heart, Cold Mind' },
+      { id: 'five-elements', title: '2. Elemental Profile: The Clash of Water and Fire' },
+      { id: 'best-ilju', title: '3. The Best Saju Day Pillars for INFJ' },
+      { id: 'luck-remedy', title: '4. Custom Luck Remedies for INFJ' },
+      { id: 'conclusion', title: '5. Conclusion: Protecting Your Universe' },
+    ],
+    contentKo: `
+<section>
+<p>전 세계 인구의 단 1~2%만을 차지한다는 가장 희귀한 MBTI 성격 유형, 바로 <strong>INFJ(선의의 옹호자, 인프제)</strong>입니다. 겉으로는 한없이 다정하고 타인에게 헌신적이지만, 내면에는 누구도 범접할 수 없는 단호한 원칙과 거대한 이상향을 품고 있습니다. 이들은 사람을 사랑하지만 군중 속에서 극심한 피로를 느끼고, 현실에 발을 딛고 있지만 시선은 항상 보이지 않는 영적, 철학적 세계를 향해 있습니다.</p>
+
+<p>이토록 복잡하고 신비로운 INFJ의 내면을 서양의 심리학만으로 완벽히 설명하기는 어렵습니다. 하지만 동양의 사주 명리학(四柱命理學)이라는 렌즈를 들이대면, 이들이 왜 그렇게 모순적이고도 매력적인지 명확히 해석됩니다. 사주 오행(목, 화, 토, 금, 수)의 관점에서 INFJ라는 희귀한 영혼의 구조를 낱낱이 해부하고, 이들이 세상과 조화롭게 살아갈 수 있는 명리학적 처방을 공개합니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/mbti/mbti-saju" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">MBTI와 사주팔자의 평행이론: 동서양 성격 분석의 만남</a></li>
+    <li style="margin-bottom: 4px;"><a href="/mbti/compatibility-table" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">MBTI별 사주 일주 궁합표: 16유형의 찰떡 궁합 찾기</a></li>
+  </ul>
+</div>
+
+<h2 id="infj-energy">1. INFJ의 딜레마: 겉바속촉, 차가운 머리와 뜨거운 가슴</h2>
+<p>INFJ는 내향형(I)임에도 타인의 감정을 기민하게 읽어내는(F) 탁월한 공감 능력을 가졌습니다. 이 때문에 사람들은 종종 그들을 외향형(E)으로 착각합니다. 하지만 그 공감은 직관(N)이라는 깊은 철학적 통찰과 결합하여 나타나며, 결국 계획과 원칙(J)이라는 단단한 틀 안에서 통제됩니다. 즉, "세상을 사랑하고 구원하고 싶지만, 내 방식(원칙)대로 하겠다"는 것이 INFJ의 핵심 딜레마입니다.</p>
+<p>명리학적으로 이는 <strong>수(水)의 깊이(직관과 내향)</strong>와 <strong>목화(木火)의 이상주의(감정과 창의성)</strong>, 그리고 <strong>금(金)의 단호함(판단과 통제)</strong>이 한 사람 안에서 맹렬하게 충돌하고 있는 형국입니다. 에너지가 한쪽으로 치우치지 않고 복잡하게 얽혀 있기 때문에 스스로도 자신을 이해하기 힘들어하는 경우가 많습니다.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 나의 실제 사주 기운은 어떨까? 무료 분석하기 →</a>
+</div>
+
+<h2 id="five-elements">2. 오행으로 본 인프제: 정화(丁火)와 계수(癸水)의 비밀</h2>
+<p>사주를 구성하는 10개의 천간(하늘의 기운) 중에서 INFJ의 성향을 가장 잘 대변하는 글자는 바로 <strong>정화(丁火)</strong>와 <strong>계수(癸水)</strong>입니다.</p>
+
+<h3>촛불의 온기, 정화(丁火)</h3>
+<p>정화(丁火)는 태양 같은 거대한 불(병화)이 아니라, 어둠 속을 밝히는 은은한 촛불이나 등대 같은 불입니다. 타인에게 따뜻함을 주고(F) 묵묵히 헌신하지만, 자신의 한계 안에서만 타오르는 내향성(I)을 지녔습니다. 촛불은 바람이 불면 쉽게 흔들리지만 끝내 꺼지지 않고 주위를 밝힙니다. 이는 상처받기 쉬우면서도 끝까지 자신의 신념을 포기하지 않는 INFJ의 끈질긴 내면과 완벽하게 일치합니다.</p>
+
+<h3>안개와 이슬, 계수(癸水)</h3>
+<p>계수(癸水)는 하늘에서 내리는 이슬비나 소리 없이 스며드는 안개와 같습니다. 만물에 생명력을 부여하는 촉촉한 감수성(F)을 상징하며, 눈에 보이지 않는 곳으로 깊이 스며드는 탁월한 직관력(N)을 의미합니다. 계수 일주를 가진 사람은 비밀이 많고 타인의 속마음을 꿰뚫어 보는 신비로운 매력을 지니는데, 이는 INFJ가 가진 '영적인 통찰력'의 근원이 됩니다.</p>
+
+<h2 id="best-ilju">3. INFJ와 가장 잘 어울리는 사주 일주 (천생연분)</h2>
+<p>가장 희귀하고 예민한 INFJ는 어떤 기운을 가진 사람을 만나야 내면의 평화를 얻고 안착할 수 있을까요? 이들은 자신을 통제하려 드는 강압적인 기운(과도한 금/화)을 극도로 경계하며, 자신을 있는 그대로 수용해 주는 넓은 대지(土)나 든든한 큰 나무(甲木)의 기운에 강하게 끌립니다.</p>
+
+<ul>
+  <li><strong>무토(戊土) 일주 (거대한 산):</strong> 흔들림 없이 그 자리에 버티고 있는 거대한 산(무토)은 감정의 기복을 겪는 INFJ에게 최고의 피난처가 됩니다. ENFJ나 ENFP가 무토 일주를 가졌다면, 인프제에게 완벽한 안정감과 동시에 긍정적인 확장을 선사합니다.</li>
+  <li><strong>갑목(甲木) 일주 (아름드리 나무):</strong> 하늘을 향해 곧게 뻗어가는 큰 나무(갑목)의 기운은 INFJ의 이상주의를 적극적으로 지지하고 실현해 줄 수 있는 든든한 파트너입니다. ISTJ나 INTJ가 갑목 일주일 경우, 인프제의 비현실적인 아이디어를 현실적인 결과물로 기둥처럼 받쳐줍니다.</li>
+</ul>
+
+<h2 id="luck-remedy">4. 인프제를 위한 맞춤형 개운법 (도어슬램 방지)</h2>
+<p>INFJ의 가장 유명한 특징 중 하나는 인간관계에서 꾹 참다가 임계점을 넘으면 연락을 완전히 끊어버리는 <strong>'도어슬램(Door-slam)'</strong>입니다. 명리학적으로 도어슬램은 목(木, 관계)의 기운이 한계에 달해 금(金, 단절)의 기운으로 돌변하여 끊어내는 극단적인 자기방어 현상입니다. 이를 막기 위해서는 평소에 기운을 자연스럽게 순환시켜야 합니다.</p>
+<ul>
+  <li><strong>수기(水氣)를 통한 정화:</strong> 사람으로 인한 감정적 피로가 쌓였을 때, 억지로 사람을 만나 풀려 하지 마십시오. 물을 가까이하는 것(반신욕, 수영, 강가 산책)이 탁해진 기운을 씻어내는 가장 빠른 방법입니다.</li>
+  <li><strong>일기 쓰기와 기록 (목/화의 발산):</strong> 머릿속에 가득 찬 생각과 고민(N)을 밖으로 꺼내는 배출구가 필요합니다. 일기를 쓰거나 블로그에 익명으로 글을 쓰는 행위는 생각의 압력을 낮추고 건강한 화(火)의 에너지로 승화시킵니다.</li>
+</ul>
+
+<h2 id="conclusion">5. 결론: 나만의 우주를 긍정하라</h2>
+<p>INFJ는 세상에 많지 않은, 그래서 더욱 가치 있는 영혼의 설계도를 가지고 태어났습니다. "왜 나는 남들처럼 무던하게 살지 못할까?"라고 스스로를 책망하지 마십시오. 사주 명리학의 관점에서 볼 때, 당신은 세상의 어둠을 밝히는 촛불(丁火)이자 만물을 촉촉하게 적시는 이슬비(癸水)로 태어난 것입니다. 남들과 다름을 인정하고, 자신의 깊은 우주를 안전하게 지켜줄 소수의 사람(土의 기운)과 깊이 연대할 때, INFJ는 세상을 조용히 변화시키는 가장 강력한 존재가 될 것입니다.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/mbti/fortune-improvement" style="text-decoration: underline; color: #f9d976;">[관련글] MBTI 내향형(I)과 외향형(E)을 위한 맞춤 개운법</a></p>
+  <p><a href="/saju/day-pillar" style="text-decoration: underline; color: #f9d976;">[관련글] 사주 일주(日柱)로 보는 나의 찐 성격 분석</a></p>
+</div>
+</section>
+    `,
+    contentEn: `
+<section>
+<p>Making up only 1-2% of the global population, the <strong>INFJ (The Advocate)</strong> is widely considered the rarest and most enigmatic of the 16 MBTI personality types. Outwardly, they are incredibly empathetic and deeply devoted to the well-being of others. Inwardly, however, they harbor an unyielding set of core principles, a private philosophical universe, and a terrifying capacity to completely sever ties (the infamous "door-slam") when their boundaries are irrevocably crossed. They are a living paradox: they love humanity but are exhausted by people; they are grounded in planning, yet their minds exist constantly in the realm of future mysticism.</p>
+
+<p>Western psychology often describes the INFJ as a complex stack of cognitive functions (Ni-Fe-Ti-Se). But when we analyze this ultra-rare personality through the ancient lens of <strong>Korean Saju (Four Pillars of Destiny)</strong> and the Five Elements, their profound contradictions suddenly make perfect, logical sense. This guide translates the INFJ soul into the language of Eastern astrology, revealing the elemental forces that drive them and the specific lifestyle remedies they need to thrive.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/mbti/mbti-saju" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">MBTI vs Saju: Parallels Between East and West</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/mbti/compatibility-table" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">MBTI & Saju Match Table: Find Your Day Pillar</a></li>
+  </ul>
+</div>
+
+<h2 id="infj-energy">1. The INFJ Dilemma: Warm Compassion, Cold Steel</h2>
+<p>The core tension of the INFJ lies in the clash between their Introverted Intuition (Ni) and Extraverted Feeling (Fe). Because they can seamlessly absorb the emotions of a room (Fe), people often mistake them for outgoing extraverts. Yet, they process this emotional data through a deeply internalized, highly theoretical framework (Ni) and ultimately judge situations with a strict, almost rigid desire for structure and closure (J). In simple terms: they want to save the world, but strictly on their own terms.</p>
+<p>In Saju terms, this represents a chaotic, high-pressure intersection. The depth of <strong>Water (Introversion and Intuition)</strong> clashes with the expansive warmth of <strong>Wood and Fire (Empathy and Idealism)</strong>, all wrapped in the cold, unyielding armor of <strong>Metal (Judging and Principles)</strong>. This elemental tug-of-war explains why INFJs often feel profoundly misunderstood—even by themselves.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 Discover Your Saju Elemental Profile →</a>
+</div>
+
+<h2 id="five-elements">2. The INFJ Elemental Profile: Candlelight and Mist</h2>
+<p>If we must translate the INFJ personality into the 10 Heavenly Stems of Saju, two specific elements capture their essence perfectly: <strong>Jeong-hwa (丁火 - Yin Fire)</strong> and <strong>Gye-su (癸水 - Yin Water)</strong>.</p>
+
+<h3>Jeong-hwa (Yin Fire): The Illuminating Candle</h3>
+<p>Unlike Yang Fire (the blinding, extroverted Sun), Yin Fire represents the quiet, steady flame of a candle or a lighthouse in the dark. It is deeply introverted, yet provides warmth and direction to those lost at sea (Fe). The candle is highly sensitive to the wind (social energy) and can easily flicker in overwhelming environments, but it possesses a fierce, concentrated heat. This perfectly mirrors the INFJ's quiet dedication and their vulnerability to social burnout.</p>
+
+<h3>Gye-su (Yin Water): The Penetrating Mist</h3>
+<p>Yin Water represents mist, dew, or a quiet, deep spring. It does not crash like a wave; it absorbs silently and penetrates everything invisibly. This is the exact manifestation of the INFJ's dominant function: Introverted Intuition (Ni). Gye-su individuals possess an almost psychic ability to sense hidden motives and read between the lines. They are highly secretive about their own depths but instinctively understand the depths of others.</p>
+
+<h2 id="best-ilju">3. The Ultimate Saju Day Pillar Matches for INFJ</h2>
+<p>Because the INFJ's internal energy is so volatile and heavily guarded, they cannot tolerate partners with overly aggressive, controlling elements (excessive Metal or Yang Fire). They require partners who offer massive, unshakeable stability without demanding constant social performance. In Saju, they naturally gravitate toward <strong>Earth (土)</strong> and sturdy <strong>Wood (木)</strong> Day Pillars.</p>
+
+<ul>
+  <li><strong>Mu-to (戊土 - Yang Earth) Day Pillar:</strong> Representing a massive, immovable mountain. An ENFP or ENFJ with a Mu-to Day Pillar is the holy grail for an INFJ. The mountain provides a silent, majestic sanctuary where the sensitive INFJ can retreat, feel completely safe, and find grounding when their intuitive visions become overwhelming.</li>
+  <li><strong>Gap-mok (甲木 - Yang Wood) Day Pillar:</strong> Representing a towering, ancient tree reaching straight into the sky. If an INTJ or ISTJ possesses a Gap-mok pillar, they provide the structural, logical scaffolding that helps the INFJ turn their abstract humanitarian dreams into concrete reality. The tree supports the INFJ's growth without crowding them.</li>
+</ul>
+
+<h2 id="luck-remedy">4. Saju Remedies for the INFJ "Door-Slam"</h2>
+<p>The most notorious INFJ trait is the <strong>"Door-Slam"</strong>—the sudden, permanent, and cold-blooded severing of a relationship after a period of silent, prolonged endurance. In Saju, this is viewed as an extreme elemental breakdown: the Wood energy (relationships/patience) becomes entirely depleted, triggering a violent defense mechanism fueled by Metal (severing/cutting). To prevent this destructive cycle, INFJs must practice daily "Gaewun" (Luck Improvement) rituals to circulate their energy.</p>
+<ul>
+  <li><strong>Water Purification:</strong> When social exhaustion peaks, INFJs must physically interact with Water to cleanse their overloaded energetic circuits. Long baths, swimming, or simply sitting alone near a river are not just preferences; they are elemental necessities to prevent the "Door-Slam" buildup.</li>
+  <li><strong>Externalizing the Fire:</strong> INFJs constantly trap their intense thoughts and feelings inside their heads. They must deliberately externalize this energy (Fire). Journaling, writing poetry, or engaging in anonymous creative blogging acts as a pressure release valve, transforming mental chaos into beautiful, safe expression.</li>
+</ul>
+
+<h2 id="conclusion">5. Conclusion: Protecting Your Sacred Universe</h2>
+<p>If you are an INFJ, you were born with a rare and highly specialized energetic blueprint. Stop punishing yourself for not being able to tolerate the shallow, chaotic social endurance of other types. In the eyes of Saju philosophy, you were not designed to be the blazing sun; you were designed to be the profound, quiet mist (Yin Water) and the guiding lighthouse (Yin Fire). Honor your need for intense solitude, seek out the "Mountains" (Earth element) that protect your peace, and trust that your quiet intuition is your greatest cosmic gift.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/mbti/fortune-improvement" style="text-decoration: underline; color: #f9d976;">[Read Next] MBTI Luck Improvement: Rituals for Introverts</a></p>
+  <p><a href="/en/saju/day-pillar" style="text-decoration: underline; color: #f9d976;">[Read Next] Saju Day Pillar Guide: Reading Your True Core</a></p>
+</div>
+</section>
+    `,
+    faq: [
+      { q: 'INFJ는 사주에 수(水) 기운이 무조건 많나요?', a: '반드시 그렇지는 않습니다. MBTI는 후천적 선호도이므로, 사주에 불(火)이 많더라도 자라난 환경에 의해 INFJ 성향을 갖게 될 수 있습니다. 이 경우 내면의 열정과 겉모습의 차이로 인해 스스로 더 큰 내적 갈등을 겪기 쉽습니다.' },
+      { q: 'INFJ의 도어슬램을 막으려면 사주적으로 어떻게 해야 하나요?', a: '도어슬램은 참을성(목 기운)이 고갈되어 나타나는 현상입니다. 평소에 수(水)의 기운(물가 산책, 혼자만의 휴식, 반신욕)을 보충하여 목 기운을 다시 살려주는 것이 명리학적 해결책입니다.' },
+      { q: 'INFJ와 최악의 궁합인 일주는 무엇인가요?', a: 'INFJ를 통제하려 들거나 지나치게 간섭하는 강한 양의 금(庚金)이나 양의 불(丙火) 기운이 강한 사주는 서로 부딪치기 쉽습니다. 인프제는 자신을 있는 그대로 품어주는 기운이 필요합니다.' },
+    ],
+    faqEn: [
+      { q: 'Do all INFJs have a lot of Water element in their Saju?', a: 'Not necessarily. While INFJ traits strongly mirror Yin Water, your actual birth chart might be full of Fire. If so, it explains why you feel a massive internal conflict—your innate biology is fiery, but your psychological coping mechanism (MBTI) is quiet and restrained.' },
+      { q: 'How can an INFJ prevent the dreaded "Door-Slam"?', a: 'The Door-Slam occurs when your emotional patience (Wood element) completely dries up. The Saju remedy is to regularly recharge with Water energy—intense, quiet solitude, literal baths, or walking near rivers—to nourish your patience before it snaps.' },
+      { q: 'What is the worst Day Pillar match for an INFJ?', a: 'INFJs deeply resent being aggressively controlled or micromanaged. Therefore, heavily dominant Yang Metal (Gyeong-geum, the rigid axe) or overwhelming Yang Fire (Byeong-hwa, the blinding sun) can be highly abrasive, causing the INFJ to retreat instantly.' },
+    ],
+    relatedPosts: [
+      { slug: 'mbti-saju', category: 'mbti', title: 'MBTI와 사주팔자의 평행이론' },
+      { slug: 'fortune-improvement', category: 'mbti', title: '내향형(I)을 위한 개운법' },
+    ],
+  },
 ];
