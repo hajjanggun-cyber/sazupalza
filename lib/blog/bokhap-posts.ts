@@ -303,4 +303,164 @@ export const bokhapPosts: BlogPost[] = [
       { slug: 'day-pillar', title: 'The Protagonist of Your Destiny: Day Pillar', category: 'saju' },
     ],
   },
+  {
+    slug: 'couple-saju',
+    title: '연인 궁합의 모든 것: 사주 일주와 일지로 보는 우리 커플의 미래',
+    seoTitle: '사주 궁합 보는 법: 일주와 일지로 알아보는 커플·부부 연애운 완벽 가이드',
+    seoTitleEn: 'Couple Saju Compatibility: Reading Your Relationship Future',
+    description: '우리는 결혼까지 갈 수 있을까? 사주 명리학의 핵심인 일주(日柱)와 일지(배우자궁)를 통해 연인 간의 궁합과 미래를 3,000자 전문 해설로 분석합니다.',
+    descriptionEn: 'Will this relationship last? Discover the secrets of couple compatibility using Saju Day Pillars and the Spouse Palace in this 3,000-character expert guide.',
+    keywords: ['사주궁합', '커플궁합', '일주궁합', '부부궁합', '결혼운', '일지궁합'],
+    keywordsEn: ['Saju Compatibility', 'Couple Saju', 'Day Pillar Match', 'Marriage Luck', 'Korean Astrology Love'],
+    publishedAt: '2026-03-02',
+    category: 'compatibility',
+    toc: [
+      { id: 'essence-of-compatibility', title: '1. 궁합이란 무엇인가: 기운의 교환' },
+      { id: 'ilgan-match', title: '2. 일간(日干)으로 보는 성격적 끌림' },
+      { id: 'ilji-spouse-palace', title: '3. 일지(日支) 배우자궁의 조화' },
+      { id: 'resolving-conflicts', title: '4. 상극(相剋) 궁합을 극복하는 개운법' },
+      { id: 'conclusion', title: '5. 결론: 궁합은 완성하는 것이다' },
+    ],
+    tocEn: [
+      { id: 'essence-of-compatibility', title: '1. The Essence of Saju Compatibility' },
+      { id: 'ilgan-match', title: '2. Ilgan (Day Stem) Attraction' },
+      { id: 'ilji-spouse-palace', title: '3. Ilji (Spouse Palace) Harmony' },
+      { id: 'resolving-conflicts', title: '4. Resolving Elemental Clashes' },
+      { id: 'conclusion', title: '5. Conclusion: Creating Compatibility' },
+    ],
+    contentKo: `
+<section>
+<p>연애를 시작하면 누구나 한 번쯤 "이 사람과 나는 정말 잘 맞는 걸까?", "우리는 결혼까지 갈 수 있는 인연일까?"라는 질문을 던지게 됩니다. 연애 초기의 뜨거운 감정이 지나가고 나면, 서로의 진짜 기질이 부딪히는 현실이 찾아오기 때문입니다. 동양의 사주 명리학(四柱命理學)에서 <strong>'궁합(宮合)'</strong>은 단순한 점술이 아닙니다. 그것은 두 사람이 가진 우주적 에너지(오행)가 어떻게 섞이고 반응하는지를 보여주는 정밀한 화학 방정식과 같습니다.</p>
+
+<p>수많은 커플들이 사주 궁합을 보러 가지만, 그 원리를 제대로 이해하지 못한 채 "우리는 상극이래"라며 지레 겁을 먹거나 이별을 고민하기도 합니다. 하지만 사주 명리학에서 100% 완벽한 궁합이나 절대 만나서는 안 되는 최악의 궁합은 존재하지 않습니다. 중요한 것은 서로의 기운이 어떻게 작용하는지 '이해'하고, 부족한 부분을 어떻게 '보완'할 것인가입니다. 이 글에서는 커플 궁합의 핵심인 <strong>일주(日柱, 태어난 날)</strong>를 중심으로, 당신과 연인의 진짜 궁합을 읽어내는 방법을 상세히 알려드립니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/compatibility/love-destiny" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">천생연분 찾기: 사주 일주와 MBTI의 결합</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 일주 완전정복: 내 사주의 배우자복 읽는 법</a></li>
+  </ul>
+</div>
+
+<h2 id="essence-of-compatibility">1. 궁합이란 무엇인가: 기운의 교환과 보완</h2>
+<p>궁합(宮合)의 궁(宮)은 집이나 공간을, 합(合)은 합쳐진다는 뜻입니다. 즉, 두 사람의 운명이라는 집이 하나로 합쳐졌을 때 일어나는 현상을 분석하는 것입니다.</p>
+<p>사주 궁합의 가장 기본적이자 핵심적인 원리는 <strong>'상호 보완(補完)'</strong>입니다. 사주에 불(火)이 너무 많아 다혈질이고 성급한 사람은, 물(水)의 기운이 풍부하여 차분하고 수용적인 사람을 만날 때 본능적인 편안함을 느낍니다. 반대로 내가 나무(木)인데 상대방이 도끼(金)라면, 처음에는 상대의 날카롭고 결단력 있는 모습에 끌리지만 시간이 지날수록 상처받고 지치게 될 확률이 높습니다. 궁합은 서로의 넘치는 기운을 덜어주고, 부족한 기운을 채워주는 균형(Balance)을 찾는 과정입니다.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">💑 우리 커플의 사주 궁합 무료로 분석하기 →</a>
+</div>
+
+<h2 id="ilgan-match">2. 일간(日干)으로 보는 성격적 끌림 (천간합)</h2>
+<p>궁합을 볼 때 가장 먼저 확인하는 것은 두 사람이 태어난 날의 윗글자, 즉 <strong>일간(日干, 나 자신을 상징)</strong>의 관계입니다. 10개의 천간 사이에는 우주적인 자석처럼 강하게 끌어당기는 <strong>'천간합(天干合)'</strong>이라는 공식이 존재합니다. 일간끼리 합이 이루어지면, 성격이나 환경이 달라도 첫눈에 반하거나 설명할 수 없는 강렬한 이끌림을 경험하게 됩니다.</p>
+
+<ul>
+  <li><strong>갑기합(甲己合 - 나무와 흙):</strong> 올곧고 추진력 있는 갑목(甲木)과 포용력 있는 기토(己土)의 만남입니다. 가장 안정적이고 흔들림 없는 부부의 연을 맺기 쉽습니다.</li>
+  <li><strong>을경합(乙庚合 - 꽃과 바위):</strong> 유연한 을목(乙木)과 단호한 경금(庚金)의 만남입니다. 부드러움이 강함을 이기고, 강함이 부드러움을 지켜주는 매우 의리 있고 단단한 관계가 됩니다.</li>
+  <li><strong>병신합(丙辛合 - 태양과 보석):</strong> 화려한 병화(丙火)와 섬세한 신금(辛金)의 만남입니다. 서로의 권위를 세워주고 돋보이게 만드는 화려하고 스펙터클한 로맨스가 펼쳐집니다.</li>
+  <li><strong>정임합(丁壬合 - 촛불과 호수):</strong> 따뜻한 정화(丁火)와 지혜로운 임수(壬水)의 만남입니다. 감성적이고 육체적인 교감이 가장 깊고 은밀하게 일어나는 애정 지향적 궁합입니다.</li>
+  <li><strong>무계합(戊癸合 - 큰 산과 안개):</strong> 듬직한 무토(戊土)와 영리한 계수(癸水)의 만남입니다. 나이 차이가 크게 나거나 신분 차이가 나는 등 극적인 로맨스의 주인공이 되기 쉽습니다.</li>
+</ul>
+
+<h2 id="ilji-spouse-palace">3. 일지(日支) 배우자궁의 조화: 결혼 생활의 현실</h2>
+<p>일간(윗글자)이 정신적, 로맨틱한 끌림을 뜻한다면, 태어난 날의 아랫글자인 <strong>일지(日支, 배우자궁)</strong>는 현실적인 결혼 생활과 육체적인 궁합을 의미합니다. 일지끼리의 관계가 평탄해야 연애가 결혼으로 순조롭게 이어집니다.</p>
+
+<h3>일지 지지합(地支合): 육체적, 현실적 찰떡궁합</h3>
+<p>일지가 서로 합(예: 자축합, 인해합, 묘술합 등)을 이루면, 생활 방식, 식성, 그리고 성적인 궁합(속궁합)까지 매우 잘 맞습니다. 눈빛만 봐도 통하며, 함께 생활하는 데 있어 큰 스트레스가 없습니다.</p>
+
+<h3>일지 원진(怨嗔) / 상충(相沖): 애증의 관계</h3>
+<p>일지가 원진살(서로 미워하고 원망함)이나 상충(서로 강하게 부딪힘)의 관계라면, 사랑과 전쟁을 방불케 하는 다이내믹한 연애를 하게 됩니다. 미친 듯이 사랑했다가도 사소한 일로 격렬하게 싸우고, 헤어졌다가도 다시 만나는 과정을 반복합니다. 이러한 커플은 주말 부부를 하거나 각자의 독립적인 일과 취미를 철저히 존중해야 관계가 유지됩니다.</p>
+
+<h2 id="resolving-conflicts">4. 상극(相剋) 궁합을 극복하는 사주 개운법</h2>
+<p>사주를 보러 갔는데 "두 사람은 상극이라 결혼하면 안 된다"는 말을 들었다고 해서 절대 포기할 필요는 없습니다. 상극은 서로를 자극하여 성장하게 만드는 훌륭한 동력이 될 수도 있습니다. 명리학적 개운법(開運法)을 통해 기운을 조화롭게 만들 수 있습니다.</p>
+<ul>
+  <li><strong>통관(通關) 오행 활용하기:</strong> 예를 들어, 남자가 금(金)이고 여자가 목(木)이라 금극목(金剋木)으로 매일 싸운다면, 두 기운을 부드럽게 이어주는 수(水)의 기운을 활용해야 합니다. 함께 수영이나 물가로 여행을 가고, 검은색(수) 인테리어를 활용하거나, 밤(수)에 깊은 대화를 나누는 것이 갈등 해결의 열쇠가 됩니다.</li>
+  <li><strong>물상 대체(업상 대체):</strong> 서로의 사주에 충(沖, 부딪힘)이나 원진이 강하다면, 그 부딪히는 기운을 '직업'이나 '생활 형태'로 대체(소모)해야 합니다. 함께 격렬한 스포츠(테니스, 복싱 등)를 즐겨 부딪히는 기운을 땀으로 배출하거나, 한 사람이 해외 출장이 잦은 직업을 택해 물리적인 거리를 두는 것이 최고의 개운법입니다.</li>
+</ul>
+
+<h2 id="conclusion">5. 결론: 궁합은 타고나는 것이 아니라 완성하는 것이다</h2>
+<p>사주 궁합은 두 사람의 관계가 영원히 행복할 것이라는 '보증 수서'가 아닙니다. 그것은 서로가 어떤 기질을 가지고 태어났으며, 관계를 유지하기 위해 어느 부분에서 삐걱거릴 수 있는지를 보여주는 '내비게이션'입니다.</p>
+
+<p>세상에 완벽한 사주가 없듯, 100% 완벽한 궁합도 존재하지 않습니다. 하늘이 정해준 인연(천간합)으로 만났더라도 땅에서의 노력(일지)이 없으면 헤어지는 것이고, 상극으로 만났더라도 서로의 차이를 인정하고 배려한다면 그 누구보다 단단한 천생연분이 될 수 있습니다. 사주 궁합을 통해 연인의 본질을 깊이 이해하고, 서로의 결핍을 따뜻하게 채워주는 성숙한 사랑을 가꾸어 가시길 바랍니다.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/compatibility/friendship-compatibility" style="text-decoration: underline; color: #f9d976;">[관련글] 동성 친구·동업자 궁합: 사주로 보는 나의 귀인 찾기</a></p>
+  <p><a href="/saju/ten-gods" style="text-decoration: underline; color: #f9d976;">[관련글] 십성(十星)으로 보는 내 사주의 애정운과 연애 스타일</a></p>
+</div>
+</section>
+    `,
+    contentEn: `
+<section>
+<p>Every time we begin a serious romantic relationship, the ultimate question arises: "Are we truly compatible? Is this person the one I will marry?" Once the blinding heat of the honeymoon phase fades, the reality of two distinct energetic blueprints colliding takes center stage. In the tradition of Korean Saju (Four Pillars of Destiny), <strong>Gunghap (Compatibility)</strong> is not magic or superstition. It is an intricate, highly logical chemical equation analyzing how the Five Elements (Wood, Fire, Earth, Metal, Water) of two people mix, react, and stabilize over a lifetime.</p>
+
+<p>Countless couples seek Saju compatibility readings, but many fundamentally misunderstand the results. Being told you are "opposites" (Sanggeuk) does not mean you must break up. In Saju philosophy, there is no such thing as a 100% flawless match, nor a 100% doomed one. True compatibility analysis is not a verdict; it is an operator's manual. It explains <em>why</em> you trigger each other and <em>how</em> to actively bridge your elemental gaps. In this expert guide, we will explore the core of Couple Saju—focusing on the Day Pillar (your true self and Spouse Palace)—to decode the destiny of your relationship.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/compatibility/love-destiny" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Finding Your Soulmate: Day Pillar and MBTI</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Saju Day Pillar Guide: Reading Your Spouse Luck</a></li>
+  </ul>
+</div>
+
+<h2 id="essence-of-compatibility">1. The Essence of Gunghap: Energetic Exchange</h2>
+<p>The core principle of Saju compatibility is <strong>"Mutual Supplementation" (Bo-wan)</strong>. Imagine a person whose birth chart is violently flooded with Fire (passion, temper, impatience). If they date someone whose chart is a deep reservoir of Water (calmness, acceptance, depth), they will instantly feel a profound, biological sense of peace. The Water naturally cools the raging Fire. Conversely, if a Wood-dominant person dates a sharp Metal-dominant person, the Metal will constantly "chop" the Wood, leading to endless, exhausting criticism.</p>
+<p>The goal of Gunghap reading is to identify: Does my partner possess the elements that I desperately lack? And do I provide the energetic nourishment they crave? When the answer is mutual, the relationship possesses the resilience to withstand decades of life's storms.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">💑 Get a Free Saju Compatibility Reading for You and Your Partner →</a>
+</div>
+
+<h2 id="ilgan-match">2. Ilgan (Day Stem) Attraction: The Spark of Fate</h2>
+<p>When comparing two charts, Saju masters look first at the <strong>Ilgan (Day Stem)</strong>—the top character of the day you were born, representing your ego and spirit. Between the 10 Heavenly Stems, there are 5 specific magnetic bonds called <strong>Cheongan Hap (Heavenly Stem Combinations)</strong>. If your Ilgan and your partner's Ilgan form a "Hap," it creates an overwhelming, almost supernatural initial attraction. It is the Saju explanation for "love at first sight."</p>
+
+<ul>
+  <li><strong>Gap-Gi Hap (Wood & Earth):</strong> The union of straightforward, ambitious Wood and embracing, maternal Earth. This creates the most stable, unshakeable, and traditional marital bond.</li>
+  <li><strong>Eul-Gyeong Hap (Flower & Axe):</strong> The union of flexible Yin Wood and decisive Yang Metal. The toughness protects the gentleness, and the softness melts the rigidity. An incredibly loyal and fiercely protective pairing.</li>
+  <li><strong>Byeong-Sin Hap (Sun & Diamond):</strong> The union of the flamboyant Sun and delicate Jewelry. A highly dramatic, spectacular romance where both partners amplify each other's status and pride.</li>
+  <li><strong>Jeong-Im Hap (Candle & Lake):</strong> The union of warm Yin Fire and deep Yang Water. Known in Saju as the most profoundly intimate and sensual bond. Their emotional and physical connection is exceptionally deep and secretive.</li>
+  <li><strong>Mu-Gye Hap (Mountain & Mist):</strong> The union of the stoic Mountain and clever Yin Water. This pairing often involves dramatic differences in age, background, or status, resulting in a cinematic, against-all-odds romance.</li>
+</ul>
+
+<h2 id="ilji-spouse-palace">3. Ilji (Spouse Palace) Harmony: The Reality of Marriage</h2>
+<p>While the top character (Ilgan) dictates spiritual and romantic attraction, the bottom character of the Day Pillar—the <strong>Ilji (Spouse Palace)</strong>—dictates the harsh reality of living together, lifestyle compatibility, and sexual chemistry.</p>
+
+<h3>Jiji Hap (Earthly Branch Combinations): Smooth Sailing</h3>
+<p>If your Ilji and your partner's Ilji form a combination (e.g., Rat-Ox, Tiger-Pig), your daily life together will flow effortlessly. You will naturally agree on what to eat, how to spend weekends, and how to manage finances. The physical and domestic compatibility is phenomenal.</p>
+
+<h3>Wonjin (Resentment) or Chung (Clash): The Love-Hate Dynamic</h3>
+<p>If your Spouse Palaces form a "Wonjin" (Resentment/Misunderstanding) or "Chung" (Collision), you are in for a turbulent ride. These couples experience dizzying highs and devastating lows. They fight aggressively over trivial matters, break up, and then magnetically draw back together. <strong>Remedy:</strong> Couples with this dynamic must never work together or spend 24/7 in each other's presence. They require strict independence, separate hobbies, or even a long-distance (weekend couple) arrangement to dilute the explosive friction.</p>
+
+<h2 id="resolving-conflicts">4. Resolving Elemental Clashes (Saju Remedies)</h2>
+<p>If a Saju reader tells you that you and your partner are an "incompatible clash," do not panic. Clashes force growth. Saju offers highly practical "Gaewun" (Luck Improvement) remedies to harmonize clashing energies.</p>
+<ul>
+  <li><strong>The Bridge Element (Tong-gwan):</strong> If the man is strong Metal and the woman is strong Wood, they will constantly fight (Metal chops Wood). To fix this, they must introduce <strong>Water</strong> (which Metal creates, and which Wood drinks). This means living near water, utilizing black/dark blue interior design, or spending their quality time late at night (the time of Water) engaging in deep, empathetic conversations rather than daytime debates.</li>
+  <li><strong>Behavioral Sublimation (Eopsang Daechae):</strong> If your charts show violent collision (Chung), you must proactively "exhaust" that aggressive energy so it isn't directed at each other. The ultimate remedy is engaging in intense, sweaty, competitive physical sports together (like tennis or martial arts) to safely burn off the clash energy.</li>
+</ul>
+
+<h2 id="conclusion">5. Conclusion: Compatibility is Created, Not Just Found</h2>
+<p>A Saju compatibility chart is not a guarantee of eternal happiness, nor is it a death sentence for a relationship. It is a highly accurate psychological and elemental map that shows exactly where the potholes are and where the scenic routes lie.</p>
+
+<p>Even if you share the fated "Heavenly Stem Combination," the relationship will rot if neither puts in the effort. Even if you are "Elemental Opposites," if you actively understand and respect the differences Saju reveals, you can build a bond stronger than any natural match. Use Saju to understand the deepest, unspoken needs of your partner. When you learn to feed their cosmic voids rather than fighting their nature, you stop searching for compatibility—you create it.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/compatibility/business-partner" style="text-decoration: underline; color: #f9d976;">[Read Next] Business Partner Saju: Finding Your Wealth Co-Founder</a></p>
+  <p><a href="/en/saju/ten-gods" style="text-decoration: underline; color: #f9d976;">[Read Next] The Ten Gods: How Your Chart Dictates Your Dating Style</a></p>
+</div>
+</section>
+    `,
+    faq: [
+      { q: '궁합이 너무 안 좋게 나왔는데, 헤어지는 게 맞을까요?', a: '아닙니다. 사주에서 말하는 나쁜 궁합이란 "맞춰가기 위해 남들보다 더 많은 노력이 필요한 관계"라는 뜻입니다. 서로의 다름을 인정하고, 주말부부나 독립적인 생활 방식을 유지하는 개운법을 쓰면 얼마든지 백년해로할 수 있습니다.' },
+      { q: '천간합(합이 드는 궁합)이면 절대 안 싸우나요?', a: '천간합은 서로 강하게 끌리는 인력을 의미할 뿐, 싸우지 않는다는 뜻은 아닙니다. 오히려 기대치가 높아 실망도 클 수 있습니다. 일지(현실 생활)의 충돌이 있다면 여전히 갈등은 발생하므로 꾸준한 소통이 필요합니다.' },
+      { q: '사주 오행이 완전히 똑같은 커플은 좋은 궁합인가요?', a: '처음에는 성향이 같아 거울을 보듯 편안하지만, 장기적으로는 좋은 궁합이 아닙니다. 둘 다 같은 기운이 부족하므로 삶의 위기가 닥쳤을 때 서로를 보완해주지 못하고 함께 무너질 위험이 큽니다.' },
+    ],
+    faqEn: [
+      { q: 'Our Saju compatibility reading was terrible. Should we break up?', a: 'No. A "bad" Saju compatibility simply means your relationship requires highly conscious effort and unconventional structuring to survive, rather than flowing effortlessly. By adopting remedies like maintaining strict personal independence or separate finances, you can completely neutralize the bad luck.' },
+      { q: 'If we have a "Heavenly Combination" (fated match), does it mean we will never fight?', a: 'Not at all. The combination guarantees profound attraction and an underlying bond, but if your earthly branches (reality/lifestyle) clash, you will still argue. The fated bond just makes it much harder to walk away during those fights.' },
+      { q: 'We have the exact same Saju elements. Is that a perfect match?', a: 'Initially, yes—it feels incredibly comfortable, like dating your twin. Long-term, however, it is dangerous. Because you share the same elemental strengths, you also share the exact same critical weaknesses. In a crisis, neither of you possesses the opposing energy needed to save the other.' },
+    ],
+    relatedPosts: [
+      { slug: 'love-destiny', category: 'compatibility', title: '사랑의 운명: 일주와 MBTI의 결합' },
+      { slug: 'friendship-compatibility', category: 'compatibility', title: '동성 친구 궁합: 나의 귀인 찾기' },
+    ],
+  },
 ];
