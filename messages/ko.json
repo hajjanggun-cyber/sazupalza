@@ -8,7 +8,7 @@
     "compatibility": "종합분석"
   },
   "hero": {
-    "title": "사주·관상·성명학·MBTI 종합 컨설팅",
+    "title": "사주·관상·성명학·MBTI 무료 컨설팅",
     "subtitle": "🎁 완전 무료 | 회원가입 없음",
     "adNote": "광고 1회 시청 후 상세 리포트 무료 공개",
     "cta": "지금 바로 무료 분석 시작"
@@ -16,7 +16,7 @@
   "home": {
     "heroBadge": "완전 무료 | 회원가입 없음",
     "heroTitle": "사주·관상·성명학·MBTI",
-    "heroSub": "종합 컨설팅",
+    "heroSub": "무료 컨설팅",
     "heroDesc": "생년월일만 입력하면 즉시 전체 결과 공개",
     "servicesTitle": "4가지 종합 분석 서비스",
     "previewTitle": "결과 미리보기",
@@ -134,8 +134,9 @@
     "privacy": "개인정보처리방침",
     "terms": "이용약관",
     "contact": "문의하기",
-    "copyright": "© 2024 사주팔자 종합 컨설팅. All rights reserved.",
-    "privacyNote": "🔒 개인정보 수집 없음 | 사진 저장 안 함"
+    "copyright": "© 2026 사주팔자 무료 컨설팅. All rights reserved.",
+    "privacyNote": "🔒 개인정보 수집 없음 | 사진 저장 안 함",
+    "disclaimer": "본 서비스는 전통 동양철학을 기반으로 한 참고 자료를 제공합니다. 중요한 결정은 전문가와 상담하시기 바랍니다."
   },
   "pages": {
     "saju": {

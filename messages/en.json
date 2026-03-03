@@ -16,7 +16,7 @@
   "home": {
     "heroBadge": "Completely Free | No Sign-up",
     "heroTitle": "Four Pillars · Face Reading · Name Numerology · MBTI",
-    "heroSub": "Comprehensive Analysis",
+    "heroSub": "Free Consulting",
     "heroDesc": "Enter your birthdate for instant full results",
     "servicesTitle": "4 Comprehensive Analysis Services",
     "previewTitle": "Result Preview",
@@ -135,8 +135,9 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "contact": "Contact Us",
-    "copyright": "© 2024 Korean Fortune Reading. All rights reserved.",
-    "privacyNote": "🔒 No Personal Data | Photos Not Stored"
+    "copyright": "© 2026 Korean Fortune Reading. All rights reserved.",
+    "privacyNote": "🔒 No Personal Data | Photos Not Stored",
+    "disclaimer": "This service provides reference materials based on traditional Eastern philosophy. Please consult a professional for important decisions."
   },
   "pages": {
     "saju": {
