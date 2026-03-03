@@ -117,7 +117,7 @@ export default function PersonalityForm() {
 
             <div className="relative pt-1 pb-4">
                 <div className="flex justify-between items-center mb-2">
-                    <span className="text-yellow-200/60 text-xs font-medium">Question {step + 1} of 20</span>
+                    <span className="text-yellow-200/60 text-xs font-medium">Question {step + 1} of 28</span>
                     <span className="text-yellow-400/80 text-xs font-bold">{progress}%</span>
                 </div>
                 <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-yellow-900/40">

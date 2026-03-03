@@ -1,1 +1,2 @@
 export const RESULT_REVEAL_DELAY_MS = 3500;
+export const SINGLE_RESULT_REVEAL_DELAY_MS = 5000;

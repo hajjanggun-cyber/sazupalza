@@ -249,7 +249,12 @@ export default async function HomePage({ params: { locale } }: Props) {
             {serviceCards.map((card) => (
               <Link key={card.titleKo} href={card.href}>
                 <div className={`relative rounded-xl border p-5 bg-gradient-to-br ${card.color} ${card.border} transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-yellow-900/20 cursor-pointer h-full`}>
-                  <div className="text-3xl mb-3">{card.icon}</div>
+                  <div className="flex items-center gap-2 mb-3">
+                    <div className="text-3xl">{card.icon}</div>
+                    <span className="text-[11px] font-bold uppercase tracking-wide text-yellow-300/80">
+                      {isKo ? '확인' : 'Check'}
+                    </span>
+                  </div>
                   <h3 className="text-yellow-100 font-bold text-base mb-1">
                     {isKo ? card.titleKo : card.titleEn}
                   </h3>

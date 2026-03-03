@@ -4,7 +4,7 @@ import { useParams, useRouter } from 'next/navigation';
 import { useMemo, useEffect, useState } from 'react';
 import { calculateSaju } from '../../../../lib/calculator/saju-calculator';
 import { generateSajuResult, SajuFullResult } from '../../../../lib/calculator/saju-result-generator';
-import { RESULT_REVEAL_DELAY_MS } from '../../../../lib/constants/analysis-delay';
+import { SINGLE_RESULT_REVEAL_DELAY_MS } from '../../../../lib/constants/analysis-delay';
 import Navigation from '../../../../components/Navigation';
 import Footer from '../../../../components/Footer';
 import AdSense from '../../../../components/AdSense';
@@ -150,7 +150,7 @@ export default function SajuResultPage() {
 
     // 로딩 타이머 (3초)
     useEffect(() => {
-        const t = setTimeout(() => setLoadingDone(true), RESULT_REVEAL_DELAY_MS);
+        const t = setTimeout(() => setLoadingDone(true), SINGLE_RESULT_REVEAL_DELAY_MS);
         return () => clearTimeout(t);
     }, []);
 
