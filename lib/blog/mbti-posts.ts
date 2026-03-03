@@ -99,7 +99,7 @@ export const mbtiPosts: BlogPost[] = [
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
   <p><a href="/en/mbti/saju-five-elements" style="text-decoration: underline; color: #f9d976;">[Read Next] MBTI and the Five Elements: Which Element Powers Your Type?</a></p>
-  <p><a href="/en/saju/love-destiny" style="text-decoration: underline; color: #f9d976;">[Read Next] Finding Your Fated Partner Through Saju and MBTI</a></p>
+  <p><a href="/en/compatibility/love-destiny" style="text-decoration: underline; color: #f9d976;">[Read Next] Finding Your Fated Partner Through Saju and MBTI</a></p>
 </div>
 </section>
     `,
@@ -921,7 +921,7 @@ export const mbtiPosts: BlogPost[] = [
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
   <ul style="margin: 0; padding-left: 16px;">
-    <li style="margin-bottom: 4px;"><a href="/saju/ten-gods" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">십성(十星) 완전정복: 내 사주의 직업운과 재물운 무기 찾기</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/career-star" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">관성(官星)으로 보는 내 사주의 직업운과 재물운</a></li>
     <li style="margin-bottom: 4px;"><a href="/mbti/saju-five-elements" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">MBTI와 사주 오행: 16유형 성격을 오행으로 해석하기</a></li>
   </ul>
 </div>

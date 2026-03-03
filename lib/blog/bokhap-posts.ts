@@ -384,7 +384,7 @@ export const bokhapPosts: BlogPost[] = [
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
   <p><a href="/compatibility/friendship-compatibility" style="text-decoration: underline; color: #f9d976;">[관련글] 동성 친구·동업자 궁합: 사주로 보는 나의 귀인 찾기</a></p>
-  <p><a href="/saju/ten-gods" style="text-decoration: underline; color: #f9d976;">[관련글] 십성(十星)으로 보는 내 사주의 애정운과 연애 스타일</a></p>
+  <p><a href="/saju/career-star" style="text-decoration: underline; color: #f9d976;">[관련글] 관성(官星)으로 보는 내 사주의 애정운과 연애 스타일</a></p>
 </div>
 </section>
     `,

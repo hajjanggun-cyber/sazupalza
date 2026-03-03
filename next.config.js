@@ -27,7 +27,7 @@ const nextConfig = {
     return [{ source: '/(.*)', headers: securityHeaders }];
   },
   images: {
-    unoptimized: true,
+    formats: ['image/avif', 'image/webp'],
   },
   webpack: (config, { isServer }) => {
     if (!isServer) {

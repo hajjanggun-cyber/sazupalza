@@ -146,13 +146,13 @@ export const sajuPosts: BlogPost[] = [
   },
   {
     slug: 'lunar-solar-calendar',
-    title: 'Lunar vs Solar Calendar in Saju: Why Accurate Birth Time Matters',
-    seoTitle: '음력 양력 차이와 사주 생시의 중요성: 정확한 운세 풀이 가이드',
-    seoTitleEn: 'Lunar vs Solar Calendar: Why Exact Birth Time is Crucial for Saju',
-    description: '사주팔자를 볼 때 음력과 양력의 차이, 그리고 정확한 태어난 시간(생시)이 왜 중요한지 3,000자 이상의 전문 해설을 통해 상세히 설명합니다.',
-    descriptionEn: 'Confused about Lunar vs. Solar dates for Saju? Learn why the 24 Solar Terms and your exact birth hour determine 25% of your destiny in this expert analysis.',
-    keywords: ['음력양력차이', '사주생시', '생년월일시', '명리학기초', '정확한사주'],
-    keywordsEn: ['Saju Birth Time', 'Lunar vs Solar Calendar', '24 Solar Terms', 'Hour Pillar', 'Korean Fortune Telling'],
+    title: 'Yongshin Complete Guide: Finding Your Lucky Balancing Element in Saju',
+    seoTitle: '사주 용신(用神)이란? 오행 균형을 잡는 행운의 핵심 기운 완전 가이드',
+    seoTitleEn: 'What is Yongshin? The Complete Guide to Your Lucky Balancing Element in Saju',
+    description: '사주팔자의 핵심 개념 용신(用神)을 쉽게 이해하고 내게 필요한 기운을 찾는 법을 억부·조후·통관·병약 4가지 용신론과 함께 3,000자 전문 해설로 설명합니다.',
+    descriptionEn: 'Understand Yongshin (Beneficial Element), the cornerstone of Saju analysis. Learn the four methods to find your personal balancing element and how to activate it in daily life.',
+    keywords: ['사주용신', '용신이란', '오행균형', '억부용신', '조후용신'],
+    keywordsEn: ['Saju Yongshin', 'Beneficial Element', 'Lucky Element', 'Five Elements Balance', 'Saju Analysis'],
     publishedAt: '2026-02-22',
     category: 'saju',
     contentKo: `
@@ -301,7 +301,7 @@ export const sajuPosts: BlogPost[] = [
     category: 'saju',
     contentKo: `
 <section>
-<p>사주팔자 여덟 글자 중 단 하나만 꼽으라면 단연 ‘일주(日柱)’입니다. 일주는 내가 태어난 날의 기둥으로, 나 자신을 상징하는 ‘일간(日干)’과 내가 딛고 있는 땅이자 배우자 자리를 의미하는 ‘일지(日支)’로 구성됩니다. 사주의 주인공이 누구인지, 그리고 어떤 배우자를 만나 어떤 삶의 터전을 일궈갈지가 이 두 글자에 집약되어 있습니다. 3,000자 전문 해설을 통해 당신의 본질을 파헤쳐 봅니다.</p>
+<p>사주팔자 여덟 글자 중 단 하나만 꼽으라면 단연 '일주(日柱)'입니다. 일주는 내가 태어난 날의 기둥으로, 나 자신을 상징하는 '일간(日干)'과 내가 딛고 있는 땅이자 배우자 자리를 의미하는 '일지(日支)'로 구성됩니다. 사주의 주인공이 누구인지, 그리고 어떤 배우자를 만나 어떤 삶의 터전을 일궈갈지가 이 두 글자에 집약되어 있습니다. 3,000자 전문 해설을 통해 당신의 본질을 파헤쳐 봅니다.</p>
 
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
@@ -560,13 +560,13 @@ export const sajuPosts: BlogPost[] = [
   },
   {
     slug: 'lucky-element',
-    title: 'Finding Your Yongshin: The Secret Key to Wealth and Balance',
-    seoTitle: '사주 용신 찾기: 내 사주에서 가장 필요한 기운과 행운의 개운법',
-    seoTitleEn: 'Finding Your Lucky Element (Yongshin): The Key to Saju Balance',
-    description: '사주에서 가장 중요한 ‘용신’을 찾는 법을 아시나요? 부족한 오행을 채우고 대운을 잡는 핵심 비책을 3,000자 전문 해설로 상세히 설명합니다.',
-    descriptionEn: 'Learn how to identify your "Yongshin" (Beneficial Element). This is the secret key to balancing your chart, improving your luck, and finding your lucky colors and directions.',
-    keywords: ['사주용신', '용신찾는법', '희신용신', '오행균형', '행운의색상'],
-    keywordsEn: ['Saju Yongshin', 'Lucky Element', 'Beneficial Element', 'Saju Balance', 'Lucky Colors'],
+    title: 'Finding Your Vocation via Saju: Career Guidance through Gwanseong',
+    seoTitle: '사주 관성(官星)으로 찾는 천직: 정관·편관과 오행별 직업 적성 완전 가이드',
+    seoTitleEn: 'Finding Your Vocation via Saju: Career Guidance through Gwanseong (Career Star)',
+    description: '내 사주의 관성(정관·편관)이 나에게 맞는 직업군과 커리어 성공 시기를 어떻게 보여주는지, 오행별 천직 가이드와 함께 3,000자 전문 해설로 분석합니다.',
+    descriptionEn: 'Discover your ideal career path by analyzing Gwanseong (Career Star) in your Saju chart. Learn how Jeonggwan and Pyeonggwan determine your professional strengths and best timing.',
+    keywords: ['사주천직', '관성직업운', '정관편관뜻', '오행직업', '커리어전환'],
+    keywordsEn: ['Saju Career', 'Gwanseong', 'Professional Path', 'Saju Job Reading', 'Career Star'],
     publishedAt: '2026-02-22',
     category: 'saju',
     contentKo: `
@@ -820,7 +820,7 @@ export const sajuPosts: BlogPost[] = [
     title: 'Career Luck in Saju: Finding Your Professional Path through Gwanseong',
     seoTitle: '사주 관성(官星)으로 보는 직업운: 나에게 맞는 직종과 성공 시기 분석',
     seoTitleEn: 'Career Luck in Saju: Navigating Success via Gwanseong and Energy',
-    description: '내 사주에 직장운이 있을까? 사주 오행과 십성 중 ‘관성’을 분석하여 당신의 천직과 사회적 성공 가능성을 3,000자 전문 해설로 가이드합니다.',
+    description: '내 사주에 직장운이 있을까? 사주 오행과 십성 중 「관성」을 분석하여 당신의 천직과 사회적 성공 가능성을 3,000자 전문 해설로 가이드합니다.',
     descriptionEn: 'Do you have strong career luck in your Saju? Explore your professional path and success timing through "Gwanseong" (The Career Star) in this 3,000-character expert guide.',
     keywords: ['사주직업운', '관성뜻', '정관편관', '천직찾기', '사회적성공'],
     keywordsEn: ['Career Luck Saju', 'Professional Path', 'Success Timing', 'Korean Astrology Job', 'Gwanseong Meaning'],
@@ -828,7 +828,7 @@ export const sajuPosts: BlogPost[] = [
     category: 'saju',
     contentKo: `
 <section>
-<p>인생의 절반 이상을 보내는 ‘직업’은 우리의 행복과 직결됩니다. 사주 명리학에서는 ‘관성(官星)’이라는 기운을 통해 그 사람의 사회적 위치와 직업적 성향을 읽어냅니다. 내가 조직에 적합한 사람인지, 아니면 나만의 길을 가야 하는 사람인지, 그리고 언제쯤 승진이나 취업의 기회가 올지를 사주 오행은 이미 알고 있습니다. 당신의 천직을 찾아줄 3,000자 전문 직업운 가이드를 확인하세요.</p>
+<p>인생의 절반 이상을 보내는 '직업'은 우리의 행복과 직결됩니다. 사주 명리학에서는 '관성(官星)'이라는 기운을 통해 그 사람의 사회적 위치와 직업적 성향을 읽어냅니다. 내가 조직에 적합한 사람인지, 아니면 나만의 길을 가야 하는 사람인지, 그리고 언제쯤 승진이나 취업의 기회가 올지를 사주 오행은 이미 알고 있습니다. 당신의 천직을 찾아줄 3,000자 전문 직업운 가이드를 확인하세요.</p>
 
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
@@ -839,7 +839,7 @@ export const sajuPosts: BlogPost[] = [
 </div>
 
 <h2 id="gwanseong-meaning">1. 관성(官星)이란 무엇인가? 사회적 나를 증명하는 별</h2>
-<p>관성은 나를 제어하고 규율하는 힘이자, 타인에게 인정받는 명예를 상징합니다. 크게 ‘정관’과 ‘편관’으로 나뉩니다.</p>
+<p>관성은 나를 제어하고 규율하는 힘이자, 타인에게 인정받는 명예를 상징합니다. 크게 '정관'과 '편관'으로 나뉩니다.</p>
 <h3>정관(正官): 안정적인 조직의 핵심</h3>
 <p>원칙과 상식을 중시하는 정관은 공무원, 대기업, 행정직군에 잘 어울립니다. 성실함을 바탕으로 계단을 밟아 올라가듯 안정적인 성공을 거두는 기운입니다.</p>
 <h3>편관(偏官): 카리스마 있는 전문직의 리더</h3>
@@ -1095,7 +1095,7 @@ export const sajuPosts: BlogPost[] = [
     title: 'Can You Change Your Destiny? The Saju Guide to Altering Your Fate',
     seoTitle: '운명은 정해져 있는가? 사주팔자로 운을 바꾸고 개운하는 실전 방법',
     seoTitleEn: 'Is Destiny Fixed? How to Change Your Fate via Saju Remedies',
-    description: '사주는 정해져 있지만 운명은 바꿀 수 있습니다. 명리학의 진정한 가치인 ‘개운법’을 통해 당신의 삶을 긍정적으로 변화시키는 3,000자 비결을 공개합니다.',
+    description: '사주는 정해져 있지만 운명은 바꿀 수 있습니다. 명리학의 진정한 가치인 「개운법」을 통해 당신의 삶을 긍정적으로 변화시키는 3,000자 비결을 공개합니다.',
     descriptionEn: 'Saju may be fixed at birth, but your destiny is in your hands. Discover the true power of "Gaeun" (Luck Improvement) and how to transform your life in this 3,000-character guide.',
     keywords: ['운명바꾸는법', '사주개운법', '운명론', '인생역전', '팔자고치기'],
     keywordsEn: ['Change Your Destiny', 'Saju Remedies', 'Fate vs Will', 'Luck Improvement', 'Korean Fortune Tips'],
@@ -1103,7 +1103,7 @@ export const sajuPosts: BlogPost[] = [
     category: 'saju',
     contentKo: `
 <section>
-<p>”내 팔자가 왜 이럴까?”라는 한탄은 그만두셔도 좋습니다. 사주 명리학의 근본 목적은 정해진 운명에 순응하는 것이 아니라, 운명의 흐름을 알고 나쁜 것은 피하며 좋은 것은 극대화하는 ‘개운(開運)’에 있기 때문입니다. 사주라는 설계도는 바꿀 수 없지만, 그 위에 짓는 건물은 당신의 의지에 따라 얼마든지 달라질 수 있습니다. 운명을 바꾸는 3,000자 실전 비책을 지금 공개합니다.</p>
+<p>”내 팔자가 왜 이럴까?”라는 한탄은 그만두셔도 좋습니다. 사주 명리학의 근본 목적은 정해진 운명에 순응하는 것이 아니라, 운명의 흐름을 알고 나쁜 것은 피하며 좋은 것은 극대화하는 '개운(開運)'에 있기 때문입니다. 사주라는 설계도는 바꿀 수 없지만, 그 위에 짓는 건물은 당신의 의지에 따라 얼마든지 달라질 수 있습니다. 운명을 바꾸는 3,000자 실전 비책을 지금 공개합니다.</p>
 
 <div class=”related-posts-inline” style=”background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;”>
   <p style=”color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;”>📚 함께 읽으면 좋은 글</p>
@@ -1114,7 +1114,7 @@ export const sajuPosts: BlogPost[] = [
 </div>
 
 <h2 id=”fixed-vs-variable”>1. 사주는 숙명인가, 운명인가?</h2>
-<p>태어난 시간은 바꿀 수 없는 ‘숙명(宿命)’입니다. 이는 우리가 태어날 때 받은 자동차의 종류와 같습니다. 하지만 그 자동차를 어떤 길로 운전하고 어떻게 관리할지는 당신이 선택하는 ‘운명(運命)’입니다. 사주가 비포장도로를 달리는 경차라고 해서 절망할 필요 없습니다. 길을 잘 선택하고 최고의 운전 실력을 갖춘다면 고급 세단보다 더 멀리, 더 안전하게 갈 수 있습니다.</p>
+<p>태어난 시간은 바꿀 수 없는 '숙명(宿命)'입니다. 이는 우리가 태어날 때 받은 자동차의 종류와 같습니다. 하지만 그 자동차를 어떤 길로 운전하고 어떻게 관리할지는 당신이 선택하는 '운명(運命)'입니다. 사주가 비포장도로를 달리는 경차라고 해서 절망할 필요 없습니다. 길을 잘 선택하고 최고의 운전 실력을 갖춘다면 고급 세단보다 더 멀리, 더 안전하게 갈 수 있습니다.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
   <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">✨ 나를 바꾸는 개운(開運) 분석 무료로 받기 →</a>
@@ -1197,7 +1197,7 @@ export const sajuPosts: BlogPost[] = [
       { q: '운이 나쁠 때 가장 먼저 해야 할 일은?', a: '주변 환경을 정리하고, 부정적인 말을 삼가며, 사주에서 나를 돕는 오행(용신)의 활동을 늘리는 것입니다.' },
     ],
     faqEn: [
-      { q: 'Does a name change alter Saju?', a: 'It doesn’t change your birth chart, but the vibration of the new name fills the energetic gaps in your Saju, positively shifting your luck.' },
+      { q: 'Does a name change alter Saju?', a: "It doesn't change your birth chart, but the vibration of the new name fills the energetic gaps in your Saju, positively shifting your luck." },
       { q: 'What is the first thing to do when luck is bad?', a: 'Declutter your environment, avoid negative speech, and increase activities associated with your beneficial Saju elements (Yongshin).' },
     ],
     relatedPosts: [

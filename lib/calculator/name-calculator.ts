@@ -13,6 +13,8 @@ export interface NameAnalysisResult {
   jeonggyeok: number;   // 정격 (총획)
   soundOhaengList: string[];  // 소리오행 리스트
   soundOhaengRelation: string; // 상생/상극/중화
+  jawonohaengList: string[];    // 자원오행 리스트 (획수 기반)
+  jawonohaengRelation: string;  // 자원오행 상생/상극/중화
   suriAnalysis: {
     wongyeok: { number: number; name: string; rating: string; summary: string };
     hyeongyeok: { number: number; name: string; rating: string; summary: string };
@@ -109,6 +111,18 @@ export function calculateName(name: string): NameAnalysisResult {
 
   const soundOhaengRelation = analyzeSoundRelation(soundOhaengList);
 
+  // 자원오행 분석 (획수 끝자리 기반)
+  const strokeToOhaeng = (s: number): string => {
+    const last = s % 10;
+    if (last === 1 || last === 6) return '수';
+    if (last === 2 || last === 7) return '화';
+    if (last === 3 || last === 8) return '목';
+    if (last === 4 || last === 9) return '금';
+    return '토';
+  };
+  const jawonohaengList = strokes.map(strokeToOhaeng);
+  const jawonohaengRelation = analyzeSoundRelation(jawonohaengList);
+
   // 수리 분석
   const wongyeokSuri = suriData[wongyeok] || { number: wongyeok, name: '미정', rating: 'neutral', summary: '분석 중' };
   const hyeongyeokSuri = suriData[hyeongyeok] || { number: hyeongyeok, name: '미정', rating: 'neutral', summary: '분석 중' };
@@ -137,6 +151,8 @@ export function calculateName(name: string): NameAnalysisResult {
     jeonggyeok,
     soundOhaengList,
     soundOhaengRelation,
+    jawonohaengList,
+    jawonohaengRelation,
     suriAnalysis: {
       wongyeok: {
         number: wongyeokSuri.number,

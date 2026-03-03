@@ -273,6 +273,54 @@ export default function SeongmyeongResultPage() {
                             </div>
                         </div>
 
+                        {/* 자원오행 흐름 */}
+                        <div className="card-dark p-5 mb-6">
+                            <h2 className="text-base font-bold text-yellow-300 mb-1">✏️ 자원오행(字源五行) 흐름</h2>
+                            <p className="text-yellow-200/50 text-xs mb-4">각 글자의 획수 끝자리로 결정되는 오행입니다</p>
+                            <div className="flex items-center justify-center gap-1 flex-wrap">
+                                {inputData.name?.split('').map((char, i) => {
+                                    const stroke = koResult!.strokes[i] || 0;
+                                    const ohaeng = koResult!.jawonohaengList[i];
+                                    return (
+                                        <div key={i} className="flex flex-col items-center">
+                                            <div className={`w-14 h-14 rounded-xl border flex flex-col items-center justify-center ${
+                                                ohaeng === '목' ? 'text-green-400 bg-green-900/20 border-green-500/40' :
+                                                ohaeng === '화' ? 'text-red-400 bg-red-900/20 border-red-500/40' :
+                                                ohaeng === '토' ? 'text-yellow-400 bg-yellow-900/20 border-yellow-500/40' :
+                                                ohaeng === '금' ? 'text-gray-300 bg-gray-800/30 border-gray-500/40' :
+                                                ohaeng === '수' ? 'text-blue-400 bg-blue-900/20 border-blue-500/40' :
+                                                'border-yellow-700/20 bg-white/5 text-yellow-100'
+                                            }`}>
+                                                <span className="text-xl font-bold text-yellow-100">{char}</span>
+                                                <span className="text-xs">{ohaeng || '—'}</span>
+                                            </div>
+                                            <span className="text-yellow-200/50 text-xs mt-1">{stroke}획</span>
+                                            {i < (inputData.name?.length || 0) - 1 && (
+                                                <span className={`text-lg mt-1 ${
+                                                    koResult!.jawonohaengRelation.includes('상생') ? 'text-green-400' :
+                                                    koResult!.jawonohaengRelation.includes('상극') ? 'text-red-400' :
+                                                    'text-yellow-600'
+                                                }`}>
+                                                    {koResult!.jawonohaengRelation.includes('상생') ? '→' :
+                                                     koResult!.jawonohaengRelation.includes('상극') ? '╳' : '—'}
+                                                </span>
+                                            )}
+                                        </div>
+                                    );
+                                })}
+                            </div>
+                            <div className={`mt-4 rounded-lg px-4 py-3 text-center text-sm ${
+                                koResult!.jawonohaengRelation.includes('상생') ? 'bg-green-900/20 border border-green-700/30 text-green-300' :
+                                koResult!.jawonohaengRelation.includes('상극') ? 'bg-red-900/20 border border-red-700/30 text-red-300' :
+                                'bg-yellow-900/20 border border-yellow-700/30 text-yellow-300'
+                            }`}>
+                                <strong>{koResult!.jawonohaengRelation}</strong> —
+                                {koResult!.jawonohaengRelation.includes('상생') ? ' 획수 기운이 서로 보완하는 이상적인 흐름입니다' :
+                                 koResult!.jawonohaengRelation.includes('상극') ? ' 획수 기운에 긴장이 있으나 강한 의지력의 원천이 됩니다' :
+                                 ' 획수 기운이 균형 잡힌 중립적인 관계입니다'}
+                            </div>
+                        </div>
+
                         {/* 4격 수리 */}
                         <div className="card-dark p-5 mb-6">
                             <h2 className="text-base font-bold text-yellow-300 mb-4">📐 4격(格) 수리 배치</h2>
