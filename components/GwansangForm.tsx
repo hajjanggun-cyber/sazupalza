@@ -216,7 +216,7 @@ export default function GwansangForm() {
 
             // 15초 타임아웃: face-api.js가 무한 대기하면 버튼이 영원히 비활성화되는 것을 방지
             const TIMEOUT_MS = 15000;
-            const withTimeout = <T>(promise: Promise<T>): Promise<T> =>
+            const withTimeout = <T,>(promise: Promise<T>): Promise<T> =>
                 Promise.race([
                     promise,
                     new Promise<T>((_, rej) =>
@@ -224,14 +224,18 @@ export default function GwansangForm() {
                     ),
                 ]);
 
-            let detection = await withTimeout(
-                faceapi.detectSingleFace(img, options).withFaceLandmarks(true).withFaceExpressions()
-            );
+            type FaceDetectionResult = faceapi.WithFaceExpressions<
+                faceapi.WithFaceLandmarks<{ detection: faceapi.FaceDetection }, faceapi.FaceLandmarks68>
+            >;
+
+            let detection: FaceDetectionResult | undefined = await withTimeout(
+                faceapi.detectSingleFace(img, options).withFaceLandmarks(true).withFaceExpressions() as unknown as Promise<FaceDetectionResult | undefined>
+            ) ?? undefined;
 
             // 단일 감지 실패 시 다중 감지로 폴백 후 가장 큰 얼굴을 사용
             if (!detection) {
-                const detections = await withTimeout(
-                    faceapi.detectAllFaces(img, options).withFaceLandmarks(true).withFaceExpressions()
+                const detections: FaceDetectionResult[] = await withTimeout(
+                    faceapi.detectAllFaces(img, options).withFaceLandmarks(true).withFaceExpressions() as unknown as Promise<FaceDetectionResult[]>
                 );
                 if (detections.length > 0) {
                     detection = detections.sort((a, b) => {
