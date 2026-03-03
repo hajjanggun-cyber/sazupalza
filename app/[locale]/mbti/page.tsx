@@ -12,6 +12,8 @@ interface Props {
 
 export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
   const isKo = locale === 'ko';
+  const BASE_URL = 'https://sajupalza.cc';
+  const canonical = isKo ? `${BASE_URL}/mbti` : `${BASE_URL}/en/mbti`;
   return {
     title: isKo
       ? 'MBTI 사주 분석 - 16유형과 오행 연계 | 사주팔자 무료 컨설팅'
@@ -22,6 +24,14 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
     keywords: isKo
       ? ['MBTI 사주', 'MBTI 궁합', 'MBTI 무료 분석', 'MBTI 오행', '16유형 분석', 'MBTI 직업']
       : ['MBTI Korean fortune', 'MBTI compatibility', 'MBTI analysis free', 'MBTI four pillars'],
+    alternates: {
+      canonical,
+      languages: {
+        ko: `${BASE_URL}/mbti`,
+        en: `${BASE_URL}/en/mbti`,
+        'x-default': `${BASE_URL}/mbti`,
+      },
+    },
   };
 }
 

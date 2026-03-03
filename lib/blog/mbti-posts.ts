@@ -127,7 +127,7 @@ export const mbtiPosts: BlogPost[] = [
     ],
     relatedPosts: [
       { slug: 'saju-five-elements', title: 'MBTI & Korean Five Elements: 16 Types Explained', category: 'mbti' },
-      { slug: 'love-destiny', title: 'Finding Your Soulmate via Saju & MBTI', category: 'mbti' },
+      { slug: 'love-destiny', title: 'Finding Your Soulmate via Saju & MBTI', category: 'bokhap' },
     ],
   },
   {
@@ -335,7 +335,7 @@ export const mbtiPosts: BlogPost[] = [
 <p>The best relationships are rarely the ones that score perfectly on any compatibility chart. They are the ones where two people bring genuinely different but complementary energies, communicate clearly enough to navigate friction, and commit to each other's growth as a shared project. MBTI tells you about the friction. Saju tells you about the fuel. Both, understood together, tell you whether the fire can sustain.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/en/saju/love-destiny" style="text-decoration: underline; color: #f9d976;">[Read Next] Love Destiny: Finding Your Fated Partner via Day Pillar and MBTI</a></p>
+  <p><a href="/en/compatibility/love-destiny" style="text-decoration: underline; color: #f9d976;">[Read Next] Love Destiny: Finding Your Fated Partner via Day Pillar and MBTI</a></p>
   <p><a href="/en/mbti/compatibility-table" style="text-decoration: underline; color: #f9d976;">[Read Next] MBTI and Saju Match Table: 16 Types and 60 Day Pillars</a></p>
 </div>
 </section>
@@ -967,7 +967,7 @@ export const mbtiPosts: BlogPost[] = [
 <p>지금 하고 있는 일이 당신을 매일 갉아먹고 있다면, 서양의 나침반(MBTI)과 동양의 지도(사주)를 펼쳐놓고 당신의 진짜 목적지를 다시 점검해 보십시오. 당신의 고유한 능력은 아직 제대로 된 무대를 만나지 못했을 뿐입니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/saju/ten-gods" style="text-decoration: underline; color: #f9d976;">[관련글] 사주 십성(十星) 가이드: 내 사주에는 돈복이 있을까?</a></p>
+  <p><a href="/saju/career-star" style="text-decoration: underline; color: #f9d976;">[관련글] 사주 십성(十星) 가이드: 내 사주에는 돈복이 있을까?</a></p>
   <p><a href="/mbti/infj-saju" style="text-decoration: underline; color: #f9d976;">[관련글] INFJ 사주 분석: 희귀한 성격 유형의 직업과 운명</a></p>
 </div>
 </section>
@@ -979,7 +979,7 @@ export const mbtiPosts: BlogPost[] = [
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
   <ul style="margin: 0; padding-left: 16px;">
-    <li style="margin-bottom: 4px;"><a href="/en/saju/ten-gods" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">The Ten Gods of Saju: Mapping Your Talents and Wealth</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/saju/career-star" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">The Ten Gods of Saju: Mapping Your Talents and Wealth</a></li>
     <li style="margin-bottom: 4px;"><a href="/en/mbti/saju-five-elements" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">MBTI & Five Elements: Discover Your Energy</a></li>
   </ul>
 </div>
@@ -1024,7 +1024,7 @@ export const mbtiPosts: BlogPost[] = [
 <p>The most miserable professionals are those who force themselves into "prestigious" careers (like law or medicine) that fundamentally violate both their psychological wiring and their cosmic blueprint. There is no universally "best" job. <strong>Your true vocation is found in the exact intersection where your preferred environment (MBTI) allows you to effortlessly swing the weapon the universe handed you at birth (Saju Ten Gods).</strong> If you feel stuck, step back and examine both maps. Your genius hasn't failed; it just hasn't found the right battlefield yet.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/en/saju/ten-gods" style="text-decoration: underline; color: #f9d976;">[Read Next] The Ten Gods Guide: Unlocking Your Hidden Talents</a></p>
+  <p><a href="/en/saju/career-star" style="text-decoration: underline; color: #f9d976;">[Read Next] The Ten Gods Guide: Unlocking Your Hidden Talents</a></p>
   <p><a href="/en/mbti/infj-saju" style="text-decoration: underline; color: #f9d976;">[Read Next] INFJ Saju: The Astrological Blueprint of the Rarest Type</a></p>
 </div>
 </section>

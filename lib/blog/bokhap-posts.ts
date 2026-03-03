@@ -444,7 +444,7 @@ export const bokhapPosts: BlogPost[] = [
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
   <p><a href="/en/compatibility/business-partner" style="text-decoration: underline; color: #f9d976;">[Read Next] Business Partner Saju: Finding Your Wealth Co-Founder</a></p>
-  <p><a href="/en/saju/ten-gods" style="text-decoration: underline; color: #f9d976;">[Read Next] The Ten Gods: How Your Chart Dictates Your Dating Style</a></p>
+  <p><a href="/en/saju/career-star" style="text-decoration: underline; color: #f9d976;">[Read Next] The Ten Gods: How Your Chart Dictates Your Dating Style</a></p>
 </div>
 </section>
     `,
@@ -659,7 +659,7 @@ export const bokhapPosts: BlogPost[] = [
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
   <ul style="margin: 0; padding-left: 16px;">
-    <li style="margin-bottom: 4px;"><a href="/saju/ten-gods" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 십성(十星) 가이드: 내 사주에는 돈복(재성)이 있을까?</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/career-star" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 십성(十星) 가이드: 내 사주에는 돈복(재성)이 있을까?</a></li>
     <li style="margin-bottom: 4px;"><a href="/mbti/mbti-career" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">MBTI와 사주로 찾는 천직: 내 성격에 맞는 직업운</a></li>
   </ul>
 </div>
@@ -715,7 +715,7 @@ export const bokhapPosts: BlogPost[] = [
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
   <ul style="margin: 0; padding-left: 16px;">
-    <li style="margin-bottom: 4px;"><a href="/en/saju/ten-gods" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">The Ten Gods: Mapping Your Talents and Wealth Luck</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/saju/career-star" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">The Ten Gods: Mapping Your Talents and Wealth Luck</a></li>
     <li style="margin-bottom: 4px;"><a href="/en/mbti/mbti-career" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">MBTI Career Guide: Find Your True Calling</a></li>
   </ul>
 </div>

@@ -12,6 +12,8 @@ interface Props {
 
 export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
   const isKo = locale === 'ko';
+  const BASE_URL = 'https://sajupalza.cc';
+  const canonical = isKo ? `${BASE_URL}/name` : `${BASE_URL}/en/name`;
   return {
     title: isKo
       ? '성명학 무료 분석 - 이름의 획수와 소리오행 | 사주팔자 무료 컨설팅'
@@ -22,6 +24,14 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
     keywords: isKo
       ? ['성명학 무료', '이름 획수', '소리오행', '수리81', '이름 풀이', '작명', '무료 성명학']
       : ['Korean name reading', 'Korean numerology', 'name analysis free', 'Korean name meaning'],
+    alternates: {
+      canonical,
+      languages: {
+        ko: `${BASE_URL}/name`,
+        en: `${BASE_URL}/en/name`,
+        'x-default': `${BASE_URL}/name`,
+      },
+    },
   };
 }
 

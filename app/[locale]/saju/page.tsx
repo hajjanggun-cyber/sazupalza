@@ -12,6 +12,8 @@ interface Props {
 
 export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
   const isKo = locale === 'ko';
+  const BASE_URL = 'https://sajupalza.cc';
+  const canonical = isKo ? `${BASE_URL}/saju` : `${BASE_URL}/en/saju`;
   return {
     title: isKo
       ? '사주팔자 무료 분석 - 생년월일시로 알아보는 운명 | 사주팔자 무료 컨설팅'
@@ -25,6 +27,14 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
     openGraph: {
       title: isKo ? '사주팔자 무료 분석' : 'Free Korean Four Pillars Analysis',
       description: isKo ? '생년월일시로 알아보는 나의 운명' : 'Discover your destiny through birth date analysis',
+    },
+    alternates: {
+      canonical,
+      languages: {
+        ko: `${BASE_URL}/saju`,
+        en: `${BASE_URL}/en/saju`,
+        'x-default': `${BASE_URL}/saju`,
+      },
     },
   };
 }
