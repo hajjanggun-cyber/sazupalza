@@ -11,10 +11,13 @@ interface Props {
 export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
   const isKo = locale === 'ko';
   return {
-    title: isKo ? '문의하기 | 사주팔자 종합 컨설팅' : 'Contact Us | SajuPalza',
+    title: isKo ? '문의하기 및 FAQ | 사주팔자 무료 컨설팅' : 'Contact Us & FAQ | SajuPalza',
     description: isKo
-      ? '사주팔자·관상·성명학·MBTI 무료 종합 분석 서비스 문의. 자주 묻는 질문과 이메일 문의 안내.'
-      : 'Contact SajuPalza - Free Korean fortune reading service. FAQ and email inquiry for Four Pillars, Face Reading, Name Numerology, and MBTI analysis.',
+      ? '사주팔자·관상·성명학·MBTI 무료 종합 분석 서비스 문의. 자주 묻는 질문(FAQ)과 이메일 고객지원 안내.'
+      : 'Contact SajuPalza - Free Korean fortune reading service. FAQ and email support for Four Pillars, Face Reading, Name Numerology, and MBTI analysis.',
+    alternates: {
+      canonical: `https://sajupalza.cc/${locale}/contact`,
+    }
   };
 }
 
@@ -98,108 +101,106 @@ export default async function ContactPage({ params: { locale } }: Props) {
         },
       ];
 
-  return (
-    <div className="min-h-screen">
-      <Navigation />
-      <main className="max-w-3xl mx-auto px-4 py-12">
-        <h1 className="text-3xl font-bold text-yellow-100 mb-4">
-          {isKo ? '문의하기' : 'Contact Us'}
-        </h1>
-        <p className="text-yellow-200/70 mb-8">
-          {isKo
-            ? '사주팔자·관상·성명학·MBTI 무료 종합 분석 서비스입니다. 서비스 이용 중 불편사항이나 개선 제안이 있으시면 아래 FAQ를 먼저 확인해 주세요.'
-            : 'SajuPalza is a free comprehensive analysis service covering Four Pillars, Face Reading, Name Numerology, and MBTI. Please check the FAQ below before contacting us.'}
-        </p>
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(faq => ({
+      "@type": "Question",
+      "name": faq.q,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.a
+      }
+    }))
+  };
 
-        {/* 서비스 소개 */}
-        <div className="card-dark p-6 mb-8">
-          <h2 className="text-xl font-bold text-yellow-300 mb-4">
-            {isKo ? '제공 서비스' : 'Our Services'}
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {services.map((s) => (
-              <div key={s.title} className="flex gap-3 p-3 bg-yellow-900/10 border border-yellow-900/30 rounded-lg">
-                <span className="text-2xl">{s.icon}</span>
-                <div>
-                  <p className="text-yellow-300 font-bold text-sm">{s.title}</p>
-                  <p className="text-yellow-200/60 text-xs mt-1 leading-relaxed">{s.desc}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-          <p className="text-yellow-200/50 text-xs mt-4 text-center">
+  return (
+    <div className="min-h-screen flex flex-col">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <Navigation />
+      <main className="flex-grow max-w-4xl mx-auto px-4 py-12 w-full">
+        <header className="mb-10 text-center">
+          <h1 className="text-3xl md:text-4xl font-bold text-yellow-100 mb-4">
+            {isKo ? '고객 지원 및 문의하기' : 'Customer Support & Contact'}
+          </h1>
+          <p className="text-yellow-200/70">
             {isKo
-              ? '모든 서비스는 완전 무료 · 회원가입 없음 · 개인정보 수집 없음'
-              : 'All services are completely free · No sign-up · No personal data collected'}
+              ? '사주팔자·관상·성명학·MBTI 종합 분석 서비스입니다. 서비스 이용 중 궁금한 점이 있으신가요?'
+              : 'SajuPalza comprehensive analysis service. Have any questions while using our service?'}
           </p>
-        </div>
+        </header>
 
         {/* FAQ 섹션 */}
-        <div className="card-dark p-6 mb-8">
-          <h2 className="text-xl font-bold text-yellow-300 mb-6">
-            {isKo ? '자주 묻는 질문' : 'Frequently Asked Questions'}
+        <section className="card-dark p-6 md:p-8 mb-8" aria-labelledby="faq-title">
+          <h2 id="faq-title" className="text-2xl font-bold text-yellow-300 mb-6 flex items-center gap-2">
+            <span aria-hidden="true">💡</span> {isKo ? '자주 묻는 질문 (FAQ)' : 'Frequently Asked Questions'}
           </h2>
           <div className="space-y-4">
             {faqs.map((faq, i) => (
               <details key={i} className="group border-b border-yellow-900/30 pb-4 last:border-0 cursor-pointer">
-                <summary className="text-yellow-200 font-medium flex justify-between items-center list-none">
-                  Q. {faq.q}
-                  <span className="text-yellow-500 group-open:rotate-180 transition-transform ml-2 flex-shrink-0">▼</span>
+                <summary className="text-yellow-200 font-medium flex justify-between items-center list-none text-lg">
+                  <span className="pr-4">Q. {faq.q}</span>
+                  <span className="text-yellow-500 group-open:rotate-180 transition-transform flex-shrink-0" aria-hidden="true">▼</span>
                 </summary>
-                <p className="mt-3 text-yellow-200/70 text-sm leading-relaxed">
+                <div className="mt-3 text-yellow-200/80 leading-relaxed bg-yellow-900/10 p-4 rounded-lg">
                   A. {faq.a}
-                </p>
+                </div>
               </details>
             ))}
           </div>
-        </div>
+        </section>
 
         {/* 이메일 문의 */}
-        <div className="card-dark p-6 mb-8">
-          <h2 className="text-xl font-bold text-yellow-300 mb-4">
-            {isKo ? '이메일 문의' : 'Email Inquiry'}
+        <section className="card-dark p-6 md:p-8 mb-8" aria-labelledby="contact-title">
+          <h2 id="contact-title" className="text-2xl font-bold text-yellow-300 mb-4 flex items-center gap-2">
+            <span aria-hidden="true">✉️</span> {isKo ? '이메일 문의하기' : 'Contact via Email'}
           </h2>
-          <p className="text-yellow-200/70 mb-4">
+          <p className="text-yellow-200/80 mb-6">
             {isKo
-              ? '위 FAQ에서 해결되지 않은 문의사항은 이메일로 연락해 주세요. 영업일 기준 2~3일 내 답변드립니다.'
-              : 'For inquiries not resolved in the FAQ above, please contact us by email. We will respond within 2-3 business days.'}
+              ? '위 FAQ에서 해결되지 않은 문의사항, 제휴 제안, 혹은 서비스 불편사항이 있다면 아래 이메일로 연락해 주시기 바랍니다. 영업일 기준 2~3일 내에 정성껏 답변해 드리겠습니다.'
+              : 'For inquiries, partnership proposals, or service issues not resolved in the FAQ above, please contact us by email. We will respond carefully within 2-3 business days.'}
           </p>
-          <div className="flex items-center gap-3 p-4 bg-yellow-900/20 border border-yellow-600/30 rounded-lg">
-            <span className="text-2xl">✉️</span>
-            <div>
-              <p className="text-yellow-200/50 text-sm">
-                {isKo ? '문의 제목에 "사주팔자 문의"를 포함해 주세요' : 'Please include "SajuPalza Inquiry" in the subject line'}
-              </p>
-            </div>
+          <div className="flex flex-col sm:flex-row items-center gap-4 p-6 bg-yellow-900/20 border border-yellow-600/30 rounded-xl justify-center">
+            <a href="mailto:ichungim4@gmail.com" className="text-yellow-300 font-bold text-xl hover:text-yellow-100 transition-colors bg-yellow-900/40 px-6 py-3 rounded-lg border border-yellow-500/30 w-full sm:w-auto text-center">
+              ichungim4@gmail.com
+            </a>
+            <p className="text-yellow-200/60 text-sm">
+              {isKo ? '* 문의 제목에 "[사주팔자 문의]"를 포함해 주시면 더 빠른 처리가 가능합니다.' : '* Please include "[SajuPalza Inquiry]" in the subject line for faster processing.'}
+            </p>
           </div>
-        </div>
+        </section>
 
-        {/* 개선 제안 */}
-        <div className="card-dark p-6 mb-8">
-          <h2 className="text-xl font-bold text-yellow-300 mb-4">
-            {isKo ? '서비스 개선 제안' : 'Service Improvement Suggestions'}
+        {/* 서비스 소개 */}
+        <section className="card-dark p-6 md:p-8 mb-8">
+          <h2 className="text-xl font-bold text-yellow-300 mb-6">
+            {isKo ? '제공 서비스 안내' : 'Our Services'}
           </h2>
-          <p className="text-yellow-200/70 mb-4">
-            {isKo
-              ? '더 좋은 서비스를 만들기 위해 여러분의 의견이 필요합니다.'
-              : 'We need your feedback to make a better service.'}
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-            {(isKo
-              ? ['번역/다국어 개선', '분석 정확도 개선', '새로운 기능 제안', 'UI/UX 개선']
-              : ['Translation improvement', 'Analysis accuracy', 'New feature suggestions', 'UI/UX improvement']
-            ).map((item) => (
-              <div key={item} className="flex items-center gap-2 p-3 bg-yellow-900/10 border border-yellow-900/30 rounded-lg text-yellow-200/70 text-sm">
-                <span className="text-yellow-500">→</span>
-                {item}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {services.map((s) => (
+              <div key={s.title} className="flex gap-4 p-4 bg-yellow-900/10 border border-yellow-900/30 rounded-xl hover:bg-yellow-900/20 transition-colors">
+                <span className="text-3xl flex-shrink-0" aria-hidden="true">{s.icon}</span>
+                <div>
+                  <h3 className="text-yellow-300 font-bold text-base mb-1">{s.title}</h3>
+                  <p className="text-yellow-200/70 text-sm leading-relaxed">{s.desc}</p>
+                </div>
               </div>
             ))}
           </div>
-        </div>
+          <div className="mt-6 pt-4 border-t border-yellow-900/30 text-center">
+            <p className="text-yellow-200/60 text-sm font-medium">
+              {isKo
+                ? '본 서비스는 완전 무료로 운영되며, 회원가입이나 개인정보 저장을 일절 요구하지 않습니다.'
+                : 'All services are operated completely free of charge, and we do not require sign-ups or store personal information.'}
+            </p>
+          </div>
+        </section>
 
-        <div className="text-center">
-          <Link href={`/${locale}`} className="btn-gold text-sm px-6 py-2">
-            {isKo ? '← 메인으로 돌아가기' : '← Back to Main'}
+        <div className="text-center mt-12">
+          <Link href={`/${locale}`} className="btn-gold inline-flex items-center gap-2 px-8 py-3 rounded-full font-bold transition-transform hover:scale-105">
+            <span>{isKo ? '← 메인으로 돌아가기' : '← Back to Main'}</span>
           </Link>
         </div>
       </main>
