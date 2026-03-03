@@ -70,9 +70,12 @@ function analyzeSoundRelation(sounds: string[]): string {
   const ohaengList = sounds.filter(Boolean);
   if (ohaengList.length === 0) return '중화';
 
-  // 상생 체크
+  // 상생/상극 체크
   const sangsaeng: Record<string, string> = {
     '목': '화', '화': '토', '토': '금', '금': '수', '수': '목'
+  };
+  const sanggeuk: Record<string, string> = {
+    '목': '토', '토': '수', '수': '화', '화': '금', '금': '목'
   };
 
   let sangsaengCount = 0;
@@ -81,6 +84,9 @@ function analyzeSoundRelation(sounds: string[]): string {
   for (let i = 0; i < ohaengList.length - 1; i++) {
     if (sangsaeng[ohaengList[i]] === ohaengList[i + 1]) {
       sangsaengCount++;
+    }
+    if (sanggeuk[ohaengList[i]] === ohaengList[i + 1]) {
+      sanggeukCount++;
     }
   }
 
