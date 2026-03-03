@@ -204,23 +204,35 @@ export default function GwansangForm() {
         try {
             await loadFaceModels();
             const img = new Image();
-            img.src = dataUrl;
-            await new Promise<void>((res) => { img.onload = () => res(); });
+            await new Promise<void>((res, rej) => {
+                img.onload = () => res();
+                img.onerror = () => rej(new Error('Image load failed'));
+                img.src = dataUrl;
+            });
 
             // Tiny Face Detector의 scoreThreshold 를 대폭 낮춰 약간 흐릿하거나 먼 사진도 감지하게 함 (기본 0.5 -> 0.1)
             // inputSize도 키워 큰 스마트폰 해상도에서도 얼굴을 더 잘 찾도록 보정 (416 -> 512)
             const options = new faceapi.TinyFaceDetectorOptions({ inputSize: 512, scoreThreshold: 0.1 });
-            let detection = await faceapi
-                .detectSingleFace(img, options)
-                .withFaceLandmarks(true)
-                .withFaceExpressions();
+
+            // 15초 타임아웃: face-api.js가 무한 대기하면 버튼이 영원히 비활성화되는 것을 방지
+            const TIMEOUT_MS = 15000;
+            const withTimeout = <T>(promise: Promise<T>): Promise<T> =>
+                Promise.race([
+                    promise,
+                    new Promise<T>((_, rej) =>
+                        setTimeout(() => rej(new Error('Face detection timed out')), TIMEOUT_MS)
+                    ),
+                ]);
+
+            let detection = await withTimeout(
+                faceapi.detectSingleFace(img, options).withFaceLandmarks(true).withFaceExpressions()
+            );
 
             // 단일 감지 실패 시 다중 감지로 폴백 후 가장 큰 얼굴을 사용
             if (!detection) {
-                const detections = await faceapi
-                    .detectAllFaces(img, options)
-                    .withFaceLandmarks(true)
-                    .withFaceExpressions();
+                const detections = await withTimeout(
+                    faceapi.detectAllFaces(img, options).withFaceLandmarks(true).withFaceExpressions()
+                );
                 if (detections.length > 0) {
                     detection = detections.sort((a, b) => {
                         const areaA = a.detection.box.width * a.detection.box.height;
@@ -297,11 +309,16 @@ export default function GwansangForm() {
             // 실제 이미지는 URL에 담지 않음 (용량 문제) → sessionStorage 활용
             ts: Date.now(),
         };
-        // 이미지 데이터는 sessionStorage에 저장
-        if (frontPreview) sessionStorage.setItem('gwansang_front', frontPreview);
-        else sessionStorage.removeItem('gwansang_front');
-        if (sidePreview) sessionStorage.setItem('gwansang_side', sidePreview);
-        else sessionStorage.removeItem('gwansang_side');
+        // 이미지 데이터는 sessionStorage에 저장 (용량 초과 시 무시 — 결과는 항상 표시)
+        try {
+            if (frontPreview) sessionStorage.setItem('gwansang_front', frontPreview);
+            else sessionStorage.removeItem('gwansang_front');
+            if (sidePreview) sessionStorage.setItem('gwansang_side', sidePreview);
+            else sessionStorage.removeItem('gwansang_side');
+        } catch {
+            // QuotaExceededError: 고해상도 사진은 5MB sessionStorage 한도 초과 가능
+            // 이미지 미리보기 없이 결과를 표시 (분석 데이터는 URL에 있으므로 결과는 정상 출력)
+        }
 
         const encoded = encodeToBase64Url(data);
         router.push(`/${locale}/gwansang-result/${encoded}`);
