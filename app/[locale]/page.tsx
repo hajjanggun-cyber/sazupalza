@@ -224,7 +224,7 @@ export default async function HomePage({ params: { locale } }: Props) {
         {/* ── 福 배너 이미지 ── */}
         <div className="max-w-5xl mx-auto px-4 mb-8 rounded-2xl overflow-hidden">
           <Image
-            src="/hero-banner.png"
+            src="/hero-banner.jpg"
             alt={isKo ? '복(福) — 사주팔자 종합 분석' : 'Fortune (福) — Korean Fortune Reading'}
             width={1200}
             height={450}
