@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: '사주팔자 무료 컨설팅',
     images: [
       {
-        url: '/hero-banner.png',
+        url: '/hero-banner.jpg',
         width: 1200,
         height: 630,
         alt: '사주팔자 무료 종합 분석',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: '사주팔자 무료 종합 분석',
     description: '사주팔자·관상·성명학·MBTI 완전 무료 종합 분석',
-    images: ['/hero-banner.png'],
+    images: ['/hero-banner.jpg'],
   },
 };
 

@@ -2,12 +2,9 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
 import Script from 'next/script';
 import ScrollToTop from '@/components/ScrollToTop';
 import { locales } from '../../i18n';
-
-const inter = Inter({ subsets: ['latin'] });
 
 interface Props {
   children: React.ReactNode;
@@ -62,7 +59,7 @@ export default async function LocaleLayout({ children, params: { locale } }: Pro
           gtag('config', 'G-HNNGML081Q');
         `}
       </Script>
-      <body className={inter.className}>
+      <body>
         <ScrollToTop />
         <NextIntlClientProvider locale={locale} messages={messages}>
           {children}

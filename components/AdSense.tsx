@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
+import { useLocale } from 'next-intl';
 
 interface AdSenseProps {
   slot: string;
@@ -9,6 +10,9 @@ interface AdSenseProps {
 }
 
 export default function AdSense({ slot, format = 'auto', className = '' }: AdSenseProps) {
+  const locale = useLocale();
+  const label = locale === 'ko' ? '광고' : 'Advertisement';
+
   useEffect(() => {
     try {
       // @ts-ignore
@@ -38,6 +42,7 @@ export default function AdSense({ slot, format = 'auto', className = '' }: AdSen
 
   return (
     <div className={className}>
+      <p className="text-center text-xs text-white/20 mb-1">{label}</p>
       <ins
         className="adsbygoogle"
         style={{ display: 'block' }}
