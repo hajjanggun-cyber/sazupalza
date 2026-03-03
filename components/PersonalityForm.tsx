@@ -26,6 +26,14 @@ const QUESTIONS = [
     { id: 18, axis: 'JP', qKo: '일을 할 때 나의 데드라인(마감 기한) 관리 방식은?', qEn: 'How do you manage task deadlines?', aKo: '마감이 닥치기 전에 미리미리 조금씩 해둔다', aEn: 'Work steadily ahead of time to finish early', aScore: 'J', bKo: '마감 직전에 엄청난 집중력을 발휘해 한 번에 끝낸다', bEn: 'Use intense burst of energy right before the deadline', bScore: 'P' },
     { id: 19, axis: 'JP', qKo: '주말 데이트(또는 약속)가 갑자기 취소되었다면 나는?', qEn: 'If a weekend plan is suddenly canceled, I am...', aKo: '미리 짜놓은 일정이 틀어져서 당황하고 짜증난다', aEn: 'Annoyed because my planned schedule is ruined', aScore: 'J', bKo: '아싸, 생긴 빈 시간에 뭐 할지 새로 생각하며 즐거워한다', bEn: 'Excited for unexpected free time to do whatever', bScore: 'P' },
     { id: 20, axis: 'JP', qKo: '내가 선호하는 쇼핑 스타일은?', qEn: 'My preferred shopping style is...', aKo: '살 물건의 목록을 미리 정해놓고 그것만 딱 사고 온다', aEn: 'Make a list of exactly what to buy and stick to it', aScore: 'J', bKo: '돌아다니다가 마음에 드는 것이 꽂히면 즉흥적으로 산다', bEn: 'Browse around and buy things spontaneously if I like them', bScore: 'P' },
+    { id: 21, axis: 'EI', qKo: '중요한 결정을 내려야 할 때, 나는 어떻게 생각을 정리하나요?', qEn: 'When I need to make an important decision, I...', aKo: '여러 사람과 이야기를 나누면서 대화 속에서 자연스럽게 정리된다', aEn: 'Talk it through with others — conversations help me figure things out', aScore: 'E', bKo: '혼자 충분히 생각하고 결론을 낸 뒤에야 남에게 말한다', bEn: 'Process it quietly alone and speak only once I\'ve reached a conclusion', bScore: 'I' },
+    { id: 22, axis: 'EI', qKo: '혼자 집중해서 작업해야 할 때, 내가 선호하는 환경은?', qEn: 'When I need to focus and work alone, I prefer...', aKo: '약간의 소음이나 사람들이 오가는 공간이 오히려 집중이 잘 된다', aEn: 'A space with some background noise or people around — it actually helps me focus', aScore: 'E', bKo: '완전히 조용하고 아무도 없는 공간이어야 집중이 된다', bEn: 'A completely silent, empty space where no one can interrupt me', bScore: 'I' },
+    { id: 23, axis: 'SN', qKo: '설명서나 안내문을 읽을 때 나는?', qEn: 'When reading instructions or a manual, I...', aKo: '처음부터 차근차근 순서대로 읽는다', aEn: 'Read it step by step from beginning to end', aScore: 'S', bKo: '전체를 대충 훑어보며 핵심만 빠르게 파악한다', bEn: 'Skim through and quickly grasp only the key points', bScore: 'N' },
+    { id: 24, axis: 'SN', qKo: '대화할 때 내가 가장 답답한 순간은?', qEn: 'The most frustrating thing in a conversation is...', aKo: '상대방이 두루뭉술하거나 모호하게 말할 때 (구체적 사실을 원함)', aEn: 'When the other person speaks vaguely or non-specifically (I want clear facts)', aScore: 'S', bKo: '상대방이 지엽적인 디테일만 늘어놓을 때 (전체 맥락을 원함)', bEn: 'When they keep listing minor details without the big picture (I want context)', bScore: 'N' },
+    { id: 25, axis: 'TF', qKo: '익명 게시판에 올라온 누군가의 사업 아이디어가 보기에 분명히 실패할 것 같다면?', qEn: 'If a business plan posted anonymously online looks clearly likely to fail...', aKo: '현실적인 문제점을 조목조목 댓글로 적어준다', aEn: 'I comment pointing out the specific, realistic problems', aScore: 'T', bKo: '노력이 느껴지니 응원의 댓글을 단다', bEn: 'I can feel the effort, so I leave an encouraging comment instead', bScore: 'F' },
+    { id: 26, axis: 'TF', qKo: '어떤 선택을 한 뒤 \'잘못됐다\'고 느낄 때, 내가 더 자주 드는 생각은?', qEn: 'After making a decision that turned out wrong, the thought I have MORE often is...', aKo: '\'더 좋은 방법이 있었는데, 왜 그걸 선택했지?\' (결과와 논리에 대한 후회)', aEn: '"There was a better option — why didn\'t I choose that?" (regretting the outcome/logic)', aScore: 'T', bKo: '\'그 사람 감정이 상했을 텐데, 배려가 부족했나...\' (관계와 감정에 대한 후회)', bEn: '"I probably hurt their feelings — I should have been more considerate..." (regretting the impact on others)', bScore: 'F' },
+    { id: 27, axis: 'JP', qKo: '식당에서 메뉴를 고를 때 나는?', qEn: 'When choosing from a restaurant menu, I...', aKo: '빠르게 하나를 정하고, 한번 정하면 바꾸지 않는다', aEn: 'Decide quickly and stick with my choice without changing it', aScore: 'J', bKo: '여러 후보를 두고 고민하다가 주문 직전에 바꾸기도 한다', bEn: 'Consider multiple options and sometimes switch my order at the last second', bScore: 'P' },
+    { id: 28, axis: 'JP', qKo: '할 일이 여러 개 쌓였을 때 나는?', qEn: 'When multiple tasks pile up, I...', aKo: '목록을 만들고 하나씩 순서대로 처리해야 마음이 편하다', aEn: 'Make a list and handle them one by one in order — that feels right', aScore: 'J', bKo: '기분이 당기는 것부터 이것저것 동시에 건드리며 진행한다', bEn: 'Start with whatever feels most appealing and multitask across several at once', bScore: 'P' },
 ];
 
 function encodeToBase64Url(data: object): string {
@@ -65,10 +73,10 @@ export default function PersonalityForm() {
                 const fCount = newAnswers.filter(a => a === 'F').length;
                 const pCount = newAnswers.filter(a => a === 'P').length;
 
-                const EI = eCount >= 3 ? 'E' : 'I';
-                const SN = nCount >= 3 ? 'N' : 'S';
-                const TF = fCount >= 3 ? 'F' : 'T';
-                const JP = pCount >= 3 ? 'P' : 'J';
+                const EI = eCount >= 4 ? 'E' : 'I';
+                const SN = nCount >= 4 ? 'N' : 'S';
+                const TF = fCount >= 4 ? 'F' : 'T';
+                const JP = pCount >= 4 ? 'P' : 'J';
 
                 const mbti = `${EI}${SN}${TF}${JP}`;
 
