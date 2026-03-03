@@ -29,6 +29,9 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
     keywords: isKo
       ? ['사주팔자 무료', '무료 사주', '관상 분석', '성명학', '성격유형', '무료 운세']
       : ['Korean fortune reading', 'four pillars free', 'face reading', 'Korean numerology'],
+    alternates: {
+      canonical: `https://sajupalza.cc/${locale}`,
+    },
   };
 }
 

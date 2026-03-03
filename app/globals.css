@@ -68,6 +68,11 @@ body {
   box-shadow: 0 6px 24px rgba(200, 134, 10, 0.45);
 }
 
+.btn-primary:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
 .btn-primary:disabled {
   opacity: 0.35;
   cursor: not-allowed;
@@ -91,6 +96,11 @@ body {
   border-color: var(--gold);
 }
 
+.btn-secondary:active {
+  background: rgba(200, 134, 10, 0.2);
+  transform: translateY(0);
+}
+
 .btn-gold {
   display: inline-block;
   background: linear-gradient(135deg, #C8860A, #F5D77E);
@@ -108,6 +118,11 @@ body {
 .btn-gold:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 24px rgba(200, 134, 10, 0.4);
+}
+
+.btn-gold:active {
+  transform: translateY(0);
+  box-shadow: none;
 }
 
 /* ===== 입력창 ===== */
