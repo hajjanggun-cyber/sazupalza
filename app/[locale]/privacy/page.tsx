@@ -16,7 +16,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
       ? '사주팔자 무료 컨설팅 서비스의 글로벌 표준(GDPR/CCPA 준수) 개인정보처리방침입니다. 서버에 개인정보를 저장하지 않으며 안전하게 보호합니다.'
       : 'Global standard Privacy Policy (GDPR/CCPA compliant) for SajuPalza fortune reading service. We do not store personal information.',
     alternates: {
-      canonical: `https://sajupalza.cc/${locale}/privacy`,
+      canonical: locale === 'ko' ? 'https://sajupalza.cc/privacy' : `https://sajupalza.cc/${locale}/privacy`,
     }
   };
 }

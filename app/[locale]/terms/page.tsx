@@ -16,7 +16,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
       ? '사주팔자 무료 컨설팅 서비스의 이용약관입니다. 글로벌 표준 약관에 기반한 서비스 이용 규칙 및 면책 조항을 확인하세요.'
       : 'Terms of Service for SajuPalza fortune reading service. Check the rules and disclaimers based on global standard terms.',
     alternates: {
-      canonical: `https://sajupalza.cc/${locale}/terms`,
+      canonical: locale === 'ko' ? 'https://sajupalza.cc/terms' : `https://sajupalza.cc/${locale}/terms`,
     }
   };
 }

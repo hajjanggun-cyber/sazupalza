@@ -30,7 +30,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
       ? ['사주팔자 무료', '무료 사주', '관상 분석', '성명학', '성격유형', '무료 운세']
       : ['Korean fortune reading', 'four pillars free', 'face reading', 'Korean numerology'],
     alternates: {
-      canonical: `https://sajupalza.cc/${locale}`,
+      canonical: locale === 'ko' ? 'https://sajupalza.cc' : `https://sajupalza.cc/${locale}`,
     },
   };
 }
@@ -42,7 +42,7 @@ export default async function HomePage({ params: { locale } }: Props) {
 
   /* ── SEO 구조화 데이터 ── */
   const baseUrl = 'https://sajupalza.cc';
-  const canonicalUrl = `${baseUrl}/${locale}`;
+  const canonicalUrl = locale === 'ko' ? baseUrl : `${baseUrl}/${locale}`;
 
   const webAppJsonLd = {
     '@context': 'https://schema.org',

@@ -16,7 +16,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
       ? '사주팔자·관상·성명학·MBTI 무료 종합 분석 서비스 문의. 자주 묻는 질문(FAQ)과 이메일 고객지원 안내.'
       : 'Contact SajuPalza - Free Korean fortune reading service. FAQ and email support for Four Pillars, Face Reading, Name Numerology, and MBTI analysis.',
     alternates: {
-      canonical: `https://sajupalza.cc/${locale}/contact`,
+      canonical: locale === 'ko' ? 'https://sajupalza.cc/contact' : `https://sajupalza.cc/${locale}/contact`,
     }
   };
 }

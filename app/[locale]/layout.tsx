@@ -24,7 +24,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
 }
 
 export default async function LocaleLayout({ children, params: { locale } }: Props) {
-  if (!locales.includes(locale as 'ko' | 'en' | 'ja' | 'zh')) {
+  if (!locales.includes(locale as 'ko' | 'en')) {
     notFound();
   }
 

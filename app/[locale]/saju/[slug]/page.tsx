@@ -6,7 +6,7 @@ import BlogPostPage from '@/components/BlogPostPage';
 
 const BASE_URL = 'https://sajupalza.cc';
 const CATEGORY_PATH = 'saju';
-const locales = ['ko', 'en', 'ja', 'zh'];
+const locales = ['ko', 'en'];
 const blogLocales = ['ko', 'en'];
 
 function getPostUrl(locale: string, slug: string) {
