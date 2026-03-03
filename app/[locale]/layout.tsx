@@ -3,8 +3,16 @@ import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Script from 'next/script';
+import { Noto_Sans_KR } from 'next/font/google';
 import ScrollToTop from '@/components/ScrollToTop';
 import { locales } from '../../i18n';
+
+const notoSansKR = Noto_Sans_KR({
+  weight: ['400', '500', '700'],
+  subsets: ['latin'],
+  display: 'swap',
+  preload: false,
+});
 
 interface Props {
   children: React.ReactNode;
@@ -35,12 +43,6 @@ export default async function LocaleLayout({ children, params: { locale } }: Pro
       <head>
         <meta name="google-adsense-account" content="ca-pub-2524681039359256" />
         <meta name="google-site-verification" content="M51gxp94qS8Cyah_8hlOXcVA3I43jilBE05x2IYNVd8" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap"
-          rel="stylesheet"
-        />
       </head>
       <Script
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2524681039359256"
@@ -59,7 +61,7 @@ export default async function LocaleLayout({ children, params: { locale } }: Pro
           gtag('config', 'G-HNNGML081Q');
         `}
       </Script>
-      <body>
+      <body className={notoSansKR.className}>
         <ScrollToTop />
         <NextIntlClientProvider locale={locale} messages={messages}>
           {children}

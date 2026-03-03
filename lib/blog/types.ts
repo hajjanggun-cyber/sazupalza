@@ -8,6 +8,7 @@ export interface BlogPost {
   keywords: string[];     // 핵심 키워드 5개
   keywordsEn?: string[];  // English Keywords
   publishedAt: string;    // YYYY-MM-DD
+  updatedAt?: string;     // YYYY-MM-DD (수정일, 없으면 publishedAt 사용)
   category: 'saju' | 'name-reading' | 'face-reading' | 'mbti' | 'compatibility' | 'bokhap' | 'seongmyeong' | 'gwansang';
   contentKo: string;      // 한국어 HTML 본문
   contentEn: string;      // 영어 HTML 본문

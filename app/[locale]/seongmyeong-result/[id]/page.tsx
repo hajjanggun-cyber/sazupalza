@@ -522,13 +522,14 @@ export default function SeongmyeongResultPage() {
 
                         {/* Personal Year */}
                         {inputData.year && (() => {
-                            const py = ((2025 + inputData.month! + inputData.day!) % 9) || 9;
+                            const currentYear = new Date().getFullYear();
+                            const py = ((currentYear + inputData.month! + inputData.day!) % 9) || 9;
                             const m = NUMBER_MEANINGS[py];
                             return (
                                 <div className="result-section mb-6">
-                                    <div className="result-section-title"><span>📅</span>2025 Personal Year Number: {py}</div>
+                                    <div className="result-section-title"><span>📅</span>{currentYear} Personal Year Number: {py}</div>
                                     <p className="text-yellow-200/70 text-sm mb-2">
-                                        Your Personal Year reveals the overarching theme of what 2025 holds for {inputData.birthFullName?.split(' ')[0]}.
+                                        Your Personal Year reveals the overarching theme of what {currentYear} holds for {inputData.birthFullName?.split(' ')[0]}.
                                     </p>
                                     <p className={`font-bold ${m?.color}`}>{m?.title}</p>
                                     <p className="text-sm leading-relaxed mt-1">{m?.desc}</p>

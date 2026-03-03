@@ -57,6 +57,7 @@ export default function BlogPostPage({ post, locale }: Props) {
     headline: seoTitle,
     description: description,
     datePublished: post.publishedAt,
+    dateModified: post.updatedAt ?? post.publishedAt,
     author: { '@type': 'Organization', name: isKo ? '사주팔자닷컴' : 'SajuPalza.cc' },
     publisher: { '@type': 'Organization', name: isKo ? '사주팔자닷컴' : 'SajuPalza.cc' },
     url: postUrl,

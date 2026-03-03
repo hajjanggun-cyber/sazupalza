@@ -11,10 +11,10 @@ type Props = {
 export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
     const isKo = locale === 'ko';
     return {
-        title: isKo ? '성격 유형 자체 테스트 (20문항) | 사주팔자' : 'Personality Type Test | Sajupalza',
+        title: isKo ? '성격 유형 자체 테스트 (28문항) | 사주팔자' : 'Personality Type Test | Sajupalza',
         description: isKo
-            ? '정확하고 안전한 20문항 자체 성격 테스트로 16가지 나의 심리 유형을 분석해 보세요.'
-            : 'Analyze your 16 cognitive types safely with our original 20-question personality test.',
+            ? '정확하고 안전한 28문항 자체 성격 테스트로 16가지 나의 심리 유형을 분석해 보세요.'
+            : 'Analyze your 16 cognitive types safely with our original 28-question personality test.',
     };
 }
 
@@ -48,8 +48,8 @@ export default function PersonalityAnalysisPage({ params: { locale } }: Props) {
                         </h1>
                         <p className="text-yellow-100/80 text-lg">
                             {isKo
-                                ? '단 20문항으로 나의 깊은 심리를 파악해 보세요.'
-                                : 'Discover your deep psychology with just 20 questions.'}
+                                ? '단 28문항으로 나의 깊은 심리를 파악해 보세요.'
+                                : 'Discover your deep psychology with just 28 questions.'}
                         </p>
                     </div>
 

@@ -4,7 +4,7 @@ import { useLocale } from 'next-intl';
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 
-// ── 20문항 데이터 ──
+// ── 28문항 데이터 ──
 const QUESTIONS = [
     { id: 1, axis: 'EI', qKo: '주말에 아무 약속이 없다면 나는?', qEn: 'If I have no plans for the weekend, I...', aKo: '친구들에게 연락해서 번개 모임을 잡는다', aEn: 'Call friends to arrange a quick meetup', aScore: 'E', bKo: '밀린 드라마나 영화를 보며 혼자만의 시간을 즐긴다', bEn: 'Enjoy alone time catching up on shows or movies', bScore: 'I' },
     { id: 2, axis: 'EI', qKo: '새로운 사람을 소개받는 자리에서 나는?', qEn: 'When introduced to someone new, I...', aKo: '먼저 말을 걸고 분위기를 주도하는 편이다', aEn: 'Usually start the conversation and lead the vibe', aScore: 'E', bKo: '주로 상대방의 이야기를 듣고 리액션하는 편이다', bEn: 'Mostly listen and react to what they say', bScore: 'I' },
