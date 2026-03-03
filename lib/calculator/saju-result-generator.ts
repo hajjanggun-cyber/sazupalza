@@ -2,6 +2,9 @@
 // 사주 단독 결과 전용 풍성한 텍스트 생성기
 
 import { SajuResult, analyzeOhaengBalance } from './saju-calculator';
+import { ILJOO_PROFILES } from '../data/saju/iljoo-profiles';
+import { DAEWOON_SEWOON_CROSS } from '../data/saju/daewoon-sewoon';
+import { SINSAL_COMBOS } from '../data/saju/sinsal-combo';
 
 export interface SajuSection {
     icon: string;
@@ -189,11 +192,22 @@ const OHAENG_HEALTH: Record<string, { organ: string; risk: string; care: string 
 
 // ── 신살 데이터 ──
 const SINSAL_DATA: Record<string, { emoji: string; meaning: string; desc: string }> = {
-    '도화': { emoji: '🌸', meaning: '도화살(桃花殺)', desc: '인기와 매력의 기운. 이성과 대중의 시선을 끄는 강한 끌림의 에너지. 예술·방송·서비스업에서 두각을 나타내는 경향이 있습니다.' },
-    '역마': { emoji: '🐎', meaning: '역마살(驛馬殺)', desc: '이동과 변화의 기운. 한 곳에 정착하기보다 끊임없이 움직이며 경험을 쌓는 유형. 해외 진출, 출장, 이직이 잦은 편입니다.' },
-    '화개': { emoji: '🎭', meaning: '화개살(華蓋殺)', desc: '예술과 영성의 기운. 종교·철학·예술 분야와 인연이 깊습니다. 혼자 있는 시간을 즐기며, 독창적인 세계관을 가집니다.' },
+    '도화살': { emoji: '🌸', meaning: '도화살(桃花殺)', desc: '인기와 매력의 기운. 이성과 대중의 시선을 끄는 강한 끌림의 에너지. 예술·방송·서비스업에서 두각을 나타내는 경향이 있습니다.' },
+    '역마살': { emoji: '🐎', meaning: '역마살(驛馬殺)', desc: '이동과 변화의 기운. 한 곳에 정착하기보다 끊임없이 움직이며 경험을 쌓는 유형. 해외 진출, 출장, 이직이 잦은 편입니다.' },
+    '화개살': { emoji: '🎭', meaning: '화개살(華蓋殺)', desc: '예술과 영성의 기운. 종교·철학·예술 분야와 인연이 깊습니다. 혼자 있는 시간을 즐기며, 독창적인 세계관을 가집니다.' },
     '공망': { emoji: '🌫️', meaning: '공망(空亡)', desc: '비어있는 공간의 기운. 특정 영역에서는 기운이 약해지는 현상. 단, 공망된 오행을 보완하면 오히려 강한 성취가 가능합니다.' },
-    '귀인': { emoji: '⭐', meaning: '천을귀인(天乙貴人)', desc: '귀인의 도움을 받는 길한 기운. 어렵고 힘들 때 반드시 도움의 손길이 나타나는 행운의 기운을 가졌습니다.' },
+    '천을귀인': { emoji: '⭐', meaning: '천을귀인(天乙貴人)', desc: '귀인의 도움을 받는 길한 기운. 어렵고 힘들 때 반드시 도움의 손길이 나타나는 행운의 기운을 가졌습니다.' },
+    '백호대살': { emoji: '🐅', meaning: '백호대살(白虎大殺)', desc: '폭발적인 에너지와 카리스마. 위기 상황에서 강한 돌파력을 발휘하며 큰 성취를 이룰 수 있는 기운입니다.' },
+    '괴강살': { emoji: '⚡', meaning: '괴강살(魁罡殺)', desc: '강력한 리더십과 굽히지 않는 주관. 극한의 상황을 이겨내고 만인을 통솔하는 강력한 권력의 기운입니다.' },
+    '홍염살': { emoji: '💘', meaning: '홍염살(紅艶殺)', desc: '은근하고 친근한 매력으로 사람을 끄는 기운. 대인관계에서 큰 호감을 얻으며 타인의 사랑을 받습니다.' },
+    '양인살': { emoji: '🗡️', meaning: '양인살(羊刃殺)', desc: '모든 것을 휩쓰는 강력한 기운. 생사를 오가는 환경이나 치열한 경쟁에서 타의 추종을 불허하는 능력을 발휘합니다.' },
+    '문창귀인': { emoji: '📜', meaning: '문창귀인(文昌貴人)', desc: '천재적인 두뇌와 뛰어난 학구열. 학문, 연구, 예술 분야에서 탁월한 성취를 이루는 길한 기운입니다.' },
+    '건록': { emoji: '🏛️', meaning: '건록(建祿)', desc: '스스로의 힘으로 일어서는 자수성가의 기운. 안정적인 직위와 재물을 성취하며 조직에서 인정받습니다.' },
+    '현침살': { emoji: '🪡', meaning: '현침살(懸針殺)', desc: '바늘처럼 예리하고 날카로운 직관력. 사물의 본질을 꿰뚫어보며 정밀한 작업이나 활인업에 유리합니다.' },
+    '귀문관살': { emoji: '🔮', meaning: '귀문관살(鬼門關殺)', desc: '영적인 감각과 직관이 발달한 기운. 남들이 보지 못하는 것을 감지하며 심리, 예술, 명리 등에 뛰어난 소질이 있습니다.' },
+    '고신살/과숙살': { emoji: '🌙', meaning: '고신/과숙살', desc: '고독과 깊은 내면의 사색. 세속적인 것보다 정신적이고 철학적인 가치를 추구하며 깊이를 더합니다.' },
+    '식신': { emoji: '🍚', meaning: '식신(食神)', desc: '평생 먹을 복과 재주가 따르는 기운. 창의적인 활동과 베푸는 마음으로 안정적인 삶을 누립니다.' },
+    '지살': { emoji: '👣', meaning: '지살(地殺)', desc: '역마살과 함께 활동 범위가 넓어지는 기운. 새로운 환경에 빠르게 적응하며 이동을 통해 발전합니다.' },
 };
 
 // ── 오행별 용신 판단 (간략화) ──
@@ -225,21 +239,53 @@ function getYearOhaeng(year: number): string {
 function determineSinsal(saju: SajuResult): string[] {
     const jijis = [saju.year.jiji, saju.month.jiji, saju.day.jiji];
     if (saju.hour) jijis.push(saju.hour.jiji);
+    const iljoo = `${saju.ilgan}${saju.day.jiji}`;
     const sinsal: string[] = [];
+
     // 도화살: 자·오·묘·유
-    if (jijis.some(j => ['자', '오', '묘', '유'].includes(j))) sinsal.push('도화');
+    if (jijis.some(j => ['자', '오', '묘', '유'].includes(j))) sinsal.push('도화살');
     // 역마살: 인·신·사·해
-    if (jijis.some(j => ['인', '신', '사', '해'].includes(j))) sinsal.push('역마');
+    if (jijis.some(j => ['인', '신', '사', '해'].includes(j))) sinsal.push('역마살');
     // 화개살: 진·술·축·미
-    if (jijis.some(j => ['진', '술', '축', '미'].includes(j))) sinsal.push('화개');
-    // 귀인: 일간에 따라
+    if (jijis.some(j => ['진', '술', '축', '미'].includes(j))) sinsal.push('화개살');
+    
+    // 천을귀인: 일간에 따라
     const guiin: Record<string, string[]> = {
         '갑': ['축', '미'], '무': ['축', '미'], '기': ['자', '신'],
         '을': ['자', '신'], '경': ['축', '미'], '신': ['인', '오'],
         '병': ['해', '유'], '정': ['해', '유'], '임': ['묘', '사'], '계': ['묘', '사'],
     };
-    const guiinJijis = guiin[saju.ilgan] || [];
-    if (jijis.some(j => guiinJijis.includes(j))) sinsal.push('귀인');
+    if (jijis.some(j => (guiin[saju.ilgan] || []).includes(j))) sinsal.push('천을귀인');
+
+    // 백호대살
+    if (['갑진', '을미', '병술', '정축', '무진', '임술', '계축'].includes(iljoo)) sinsal.push('백호대살');
+    // 괴강살
+    if (['무진', '무술', '경진', '경술', '임진', '임술'].includes(iljoo)) sinsal.push('괴강살');
+    // 홍염살
+    if (['갑오', '병인', '정미', '무진', '경술', '신유', '임자'].includes(iljoo)) sinsal.push('홍염살');
+    // 양인살
+    if (['병오', '무오', '임자'].includes(iljoo)) sinsal.push('양인살');
+    // 문창귀인
+    if (['병신', '정유', '무신', '기유', '임인', '계묘'].includes(iljoo)) sinsal.push('문창귀인');
+    // 건록
+    if (['갑인', '을묘', '경신', '신유'].includes(iljoo)) sinsal.push('건록');
+
+    // 현침살
+    const hyeonchimCount = [saju.year.cheongan, saju.year.jiji, saju.month.cheongan, saju.month.jiji, saju.day.cheongan, saju.day.jiji].filter(c => ['갑', '신', '묘', '오', '辛'].includes(c)).length;
+    if (hyeonchimCount >= 2) sinsal.push('현침살');
+
+    // 귀문관살
+    const jijiStr = jijis.join('');
+    if (/(자유|유자|축오|오축|인미|미인|묘신|신묘|진해|해진|사술|술사)/.test(jijiStr)) sinsal.push('귀문관살');
+
+    // 고신/과숙살
+    if (jijis.includes('술') || jijis.includes('진') || jijis.includes('축') || jijis.includes('미')) sinsal.push('고신살/과숙살');
+
+    // 식신 (간략히 추가)
+    sinsal.push('식신');
+    // 지살 (간략히 역마와 함께 부여)
+    if (sinsal.includes('역마살')) sinsal.push('지살');
+
     if (sinsal.length === 0) sinsal.push('공망');
     return sinsal;
 }
@@ -297,6 +343,8 @@ export function generateSajuResult(
     const isKo = locale === 'ko';
     const ilgan = saju.ilgan;
     const profile = ILGAN_PROFILE[ilgan] || ILGAN_PROFILE['갑'];
+    const iljoo = `${ilgan}${saju.day.jiji}`;
+    const iljooProfile = ILJOO_PROFILES[iljoo];
     const ohaengBalance = analyzeOhaengBalance(saju);
     const { yongsin, gisin } = determineYongsin(ohaengBalance, ilgan);
     const sinsal = determineSinsal(saju);
@@ -330,7 +378,7 @@ export function generateSajuResult(
     const totalScore = Math.min(98, Math.max(55, Math.round((balanceScore + (ilganBase[ilgan] || 75) + sinsalBonus) / 2)));
 
     const summaryLines = [
-        `${name}님의 일간은 ${profile.hanja}(${profile.name})으로, 전체 사주 유형 중 상위 ${rarityPercent}%에 해당하는 드문 기운입니다.`,
+        `${name}님의 일주는 ${iljooProfile ? iljooProfile.hanja : profile.hanja}(${iljoo})으로, 전체 사주 유형 중 상위 ${rarityPercent}%에 해당하는 특별한 기운입니다.`,
         `오행 분포에서 ${yongsin}(${yongsin === '목' ? '木' : yongsin === '화' ? '火' : yongsin === '토' ? '土' : yongsin === '금' ? '金' : '水'})이 보강되면 삶의 에너지가 크게 상승합니다.`,
         sinsal.includes('귀인')
             ? `천을귀인(天乙貴人)의 기운을 가져, 어렵고 힘든 순간마다 반드시 귀인의 도움이 나타납니다.`
@@ -341,18 +389,18 @@ export function generateSajuResult(
     const hasTime = hour !== undefined;
 
     const sections: SajuSection[] = [
-        // 1. 일간 핵심 성격
+        // 1. 일간/일주 핵심 성격
         {
-            icon: '🌟', title: `${profile.hanja}(${profile.name}) — ${profile.title}`,
-            content: profile.personality,
-            highlight: `${name}님의 핵심 에너지는 "${profile.element}" 기운입니다`,
+            icon: '🌟', title: iljooProfile ? `${iljooProfile.hanja}(${iljoo}) — ${iljooProfile.nickname}` : `${profile.hanja}(${profile.name}) — ${profile.title}`,
+            content: iljooProfile ? iljooProfile.personality : profile.personality,
+            highlight: iljooProfile ? iljooProfile.special : `${name}님의 핵심 에너지는 "${profile.element}" 기운입니다`,
             tags: profile.keywords,
         },
         // 2. 강점과 약점
         {
             icon: '⚖️', title: '강점과 성장 포인트',
-            content: `【강점】 ${profile.strength}\n\n【성장 포인트】 ${profile.weakness}`,
-            highlight: '강점을 살리고 약점을 보완할 때 真의 잠재력이 드러납니다',
+            content: iljooProfile ? `【강점】 ${iljooProfile.strength}\n\n【성장 포인트】 ${iljooProfile.weakness}` : `【강점】 ${profile.strength}\n\n【성장 포인트】 ${profile.weakness}`,
+            highlight: '강점을 살리고 약점을 보완할 때 진정한 잠재력이 드러납니다',
         },
         // 3. 오행 균형
         {
@@ -364,7 +412,7 @@ export function generateSajuResult(
         // 4. 직업·재능
         {
             icon: '💼', title: '직업 적성과 재능',
-            content: `${name}님은 ${career.main}이 있습니다.\n\n추천 분야: ${career.good.join(' · ')}\n\n주의사항: ${career.caution}`,
+            content: iljooProfile ? `${name}님은 ${career.main}이 있습니다.\n\n【추천 분야】 ${career.good.join(' · ')}\n\n【일주 특성】 ${iljooProfile.career}\n\n【주의사항】 ${career.caution}` : `${name}님은 ${career.main}이 있습니다.\n\n추천 분야: ${career.good.join(' · ')}\n\n주의사항: ${career.caution}`,
             highlight: `${name}님의 타고난 재능이 가장 빛나는 분야`,
             score: Math.min(95, totalScore + 5),
         },
@@ -378,7 +426,7 @@ export function generateSajuResult(
         // 6. 연애·인연
         {
             icon: '💕', title: '연애·결혼운',
-            content: `사랑 스타일: ${love.style}\n\n이상적 파트너: ${love.ideal}\n\n주의사항: ${love.caution}`,
+            content: iljooProfile ? `【사랑 스타일】 ${love.style}\n\n【일주 특성】 ${iljooProfile.love}\n\n【이상적 파트너】 ${love.ideal}\n\n【주의사항】 ${love.caution}` : `사랑 스타일: ${love.style}\n\n이상적 파트너: ${love.ideal}\n\n주의사항: ${love.caution}`,
             highlight: `${name}님과 가장 잘 맞는 인연의 유형`,
             score: Math.min(95, totalScore + 3),
         },
@@ -397,36 +445,56 @@ export function generateSajuResult(
         },
     ];
 
+    const daewoonList = generateDaewoon(year, ilgan, gender);
+    const currentYear = new Date().getFullYear();
+    const currentAge = currentYear - year + 1;
+    
+    let currentDaewoon = daewoonList[0];
+    for (const dw of daewoonList) {
+        const [start, end] = dw.age.replace('세', '').split('~').map(Number);
+        if (currentAge >= start && currentAge <= end) {
+            currentDaewoon = dw;
+            break;
+        } else if (currentAge > end) {
+             currentDaewoon = dw;
+        }
+    }
+    const currentDaewoonOhaeng = CG_OHAENG[currentDaewoon.cheongan] || '목';
+
     // 세운 2025
     const y2025Ohaeng = '목'; // 2025년 을사년
     const y2026Ohaeng = '화'; // 2026년 병오년
+    
+    const combo2025 = DAEWOON_SEWOON_CROSS[currentDaewoonOhaeng]?.[y2025Ohaeng];
     const seWoon2025: SajuSection = {
-        icon: '📅', title: '2025년 을사년(乙巳年) 운세',
-        content: `2025년은 을목(乙木)과 사화(巳火)의 해입니다. ${name}님의 일간 ${profile.hanja}(${profile.name})에게 2025년은 ${profile.element === '목' ? '에너지가 강화되어 주도적으로 나서기 좋은 해. 새 프로젝트나 창업에 길한 시기' :
-                profile.element === '화' ? '목(木)생화(火)로 에너지가 상승하는 해. 표현하고 드러낼수록 좋은 결과' :
-                    profile.element === '토' ? '화생토(火生土)로 지지를 받는 한 해. 3~4분기에 재물과 기회가 집중' :
-                        profile.element === '금' ? '목극금(木剋金)의 영향으로 신중함이 필요한 해. 건강과 관계에 주의' :
-                            '수생목(水生木)의 도움으로 아이디어가 풍성한 해. 계획을 세우기 좋은 시기'
-            }입니다.`,
-        highlight: '상반기 준비, 하반기 실행',
+        icon: '📅', title: `2025년 을사년(乙巳年) 운세 - ${combo2025?.theme || '성장의 시기'}`,
+        content: combo2025 ? `현재 ${name}님의 대운 오행(${currentDaewoonOhaeng})과 2025년 세운 오행(${y2025Ohaeng})이 만나는 시기입니다.\n\n${combo2025.detail}` : `2025년은 을목(乙木)과 사화(巳火)의 해입니다. 새로운 기회를 향해 도약하는 한 해가 될 것입니다.`,
+        highlight: combo2025 ? combo2025.advice : '상반기 준비, 하반기 실행',
     };
 
+    const combo2026 = DAEWOON_SEWOON_CROSS[currentDaewoonOhaeng]?.[y2026Ohaeng];
     const seWoon2026: SajuSection = {
-        icon: '🗓️', title: '2026년 병오년(丙午年) 운세',
-        content: `2026년은 병화(丙火)와 오화(午火)의 해로 화(火) 기운이 강한 해입니다. ${name}님에게 ${profile.element === '목' ? '2026년은 목생화(木生火)로 에너지를 소비하는 해. 건강 관리와 휴식이 중요' :
-                profile.element === '화' ? '2026년은 화기운이 강화되는 해. 과도한 열정이 번아웃으로 이어지지 않도록 조절 필요' :
-                    profile.element === '토' ? '2026년은 화생토(火生土)로 재물과 기회가 풍성한 해. 과감한 투자와 확장의 적기' :
-                        profile.element === '금' ? '2026년은 화극금(火剋金)으로 압박이 강한 해. 감정 조절과 신중한 판단이 핵심' :
-                            '2026년은 화극수(火剋水)로 에너지가 흩어지기 쉬운 해. 한 곳에 집중하는 전략 필요'
-            }입니다.`,
-        highlight: '변화와 에너지 관리가 핵심',
+        icon: '🗓️', title: `2026년 병오년(丙午年) 운세 - ${combo2026?.theme || '열정의 시기'}`,
+        content: combo2026 ? `현재 ${name}님의 대운 오행(${currentDaewoonOhaeng})과 2026년 세운 오행(${y2026Ohaeng})이 만나는 시기입니다.\n\n${combo2026.detail}` : `2026년은 병화(丙火)와 오화(午火)의 해로 화(火) 기운이 강한 해입니다. 열정을 발휘하여 성과를 내는 시기입니다.`,
+        highlight: combo2026 ? combo2026.advice : '변화와 에너지 관리가 핵심',
     };
 
     // 신살
-    const sinsalDesc = sinsal.map(s => {
+    let sinsalDesc = sinsal.map(s => {
         const d = SINSAL_DATA[s];
         return d ? `${d.emoji} ${d.meaning}: ${d.desc}` : '';
     }).filter(Boolean).join('\n\n');
+
+    // 신살 조합 시너지 체크
+    const activeCombos = SINSAL_COMBOS.filter(combo => {
+        return combo.combo.every(n => sinsal.includes(n));
+    });
+
+    if (activeCombos.length > 0) {
+        const comboText = activeCombos.map(c => `\n\n[특별한 기운의 조합: ${c.title}]\n${isKo ? c.effect : c.effectEn}`).join('');
+        sinsalDesc += comboText;
+    }
+
     const sinsal_section: SajuSection = {
         icon: '🔯', title: '신살(神殺) 분석',
         content: sinsalDesc || '특별한 신살 없이 균형 잡힌 기운을 가졌습니다.',

@@ -8,6 +8,8 @@ import { ohaengSangsaeng, ohaengSanggeuk } from '../data/saju/ohaeng';
 import { guardians, getGuardianByOhaeng, Guardian } from '../data/guardian';
 import { cheonganData } from '../data/saju/cheongan';
 import { suriData } from '../data/name/suri81';
+import { NAME_SAJU_COMBO } from '../data/name/name-saju-combo';
+import { FACE_COMBOS } from '../data/face/face-combo';
 
 export interface FaceAnalysisResult {
   faceShape?: string;
@@ -51,6 +53,7 @@ export interface ComprehensiveResult {
   luckySection: ResultSection;
   nameDetailSection: ResultSection;
   mbtiSajuSection?: ResultSection;
+  faceSection?: ResultSection;
   guardian: Guardian;
   missingItems: {
     mbti: boolean;
@@ -627,7 +630,7 @@ function buildLuckySection(ohaeng: string, guardian: Guardian, locale: string): 
 }
 
 // ===== 성명학 상세 섹션 =====
-function buildNameDetailSection(name: NameAnalysisResult, locale: string): ResultSection {
+function buildNameDetailSection(name: NameAnalysisResult, saju: SajuResult, locale: string): ResultSection {
   const ratingText: Record<string, string> = {
     great: locale === 'ko' ? '매우 좋은 기운(대길)' : 'Very auspicious energy (Great Fortune)',
     good: locale === 'ko' ? '좋은 기운(길)' : 'Auspicious energy (Fortune)',
@@ -657,19 +660,31 @@ function buildNameDetailSection(name: NameAnalysisResult, locale: string): Resul
     ? (name.suriAnalysis?.wongyeok?.summary || '')
     : (suriData[name.wongyeok]?.summaryEn || name.suriAnalysis?.wongyeok?.summary || '');
 
+  // 성명+사주 오행 교차 분석
+  const CG_OHAENG: Record<string, string> = {
+    '갑': '목', '을': '목', '병': '화', '정': '화', '무': '토', '기': '토', '경': '금', '신': '금', '임': '수', '계': '수'
+  };
+  const sajuOhaeng = CG_OHAENG[saju.ilgan] || '목';
+  const nameOhaeng = name.soundOhaengList?.[1] || name.soundOhaengList?.[0] || '토';
+  const combo = NAME_SAJU_COMBO[sajuOhaeng]?.[nameOhaeng];
+
+  const comboContent = combo 
+    ? `\n\n[사주+성명 조합: ${locale === 'ko' ? combo.title : combo.titleEn}]\n${locale === 'ko' ? combo.effect : combo.effectEn}\n(조언) ${locale === 'ko' ? combo.advice : combo.adviceEn}` 
+    : '';
+
   const content = locale === 'ko'
     ? `이름 "${name.name}"의 성명학 분석 결과입니다. ` +
       `원격(성+이름 전체) ${name.wongyeok}수는 ${ratingText[wonRating] || ''}을 나타내며, ` +
       `${name.suriAnalysis?.wongyeok?.summary || ''}. ` +
       `형격(이름만) ${name.hyeongyeok}수는 ${ratingText[hyeongRating] || ''}을 나타냅니다. ` +
       `소리오행은 ${name.soundOhaengList?.join('-') || ''} 구성으로, ` +
-      `${soundDesc[soundKey] || '이름의 기운을 분석합니다.'}`
+      `${soundDesc[soundKey] || '이름의 기운을 분석합니다.'}${comboContent}`
     : `Here is the name analysis result for "${name.name}". ` +
       `The Won-Gyeok (Total) count of ${name.wongyeok} indicates ${ratingText[wonRating] || ''}, ` +
       `showing that ${wonSummary}. ` +
       `The Hyeong-Gyeok (Name) count of ${name.hyeongyeok} indicates ${ratingText[hyeongRating] || ''}. ` +
       `The sound elements are composed as ${name.soundOhaengList?.join('-') || ''}, ` +
-      `${soundDesc[soundKey] || 'analyzing the name\'s energy.'}`;
+      `${soundDesc[soundKey] || 'analyzing the name\'s energy.'}${comboContent}`;
 
   const soundKeyEn: Record<string, string> = {
     '상생': 'Mutual Generation',
@@ -688,7 +703,7 @@ function buildNameDetailSection(name: NameAnalysisResult, locale: string): Resul
         label: locale === 'ko' ? '소리오행' : 'Sound Elements', 
         value: `${name.soundOhaengList?.join(' → ') || ''} (${locale === 'ko' ? soundKey : (soundKeyEn[soundKey] || soundKey)})` 
       },
-      { label: locale === 'ko' ? '총 획수' : 'Total Strokes', value: `${name.totalStrokes}획` },
+      { label: locale === 'ko' ? '사주-성명 오행' : 'Saju-Name Elements', value: `${sajuOhaeng} - ${nameOhaeng} (${combo?.relation || ''})` },
     ],
   };
 }
@@ -753,6 +768,33 @@ function buildMbtiSajuSection(mbtiType: string, ohaeng: string, locale: string):
       { label: locale === 'ko' ? '사주 일간 오행' : 'Day Stem Element', value: translateData(ohaeng, locale) },
       { label: locale === 'ko' ? '조합 특성' : 'Combination Trait', value: combDesc.split('.')[0] },
     ],
+  };
+}
+
+// ===== 관상 복합 분석 섹션 =====
+function buildFaceSection(face: FaceAnalysisResult, locale: string): ResultSection {
+  const isKo = locale === 'ko';
+  
+  // Find matching combos
+  const activeCombos = FACE_COMBOS.filter(combo => {
+    return Object.values(combo.parts).every(part => face.mainFeatures.some(f => f.includes(part)));
+  });
+
+  const comboTexts = activeCombos.map(combo => {
+    return `\n\n[복합 시너지: ${isKo ? combo.title : combo.titleEn}]\n${isKo ? combo.personality : combo.personalityEn}`;
+  }).join('');
+
+  const content = isKo
+    ? `분석된 관상 특징(${face.mainFeatures.join(', ')})을 바탕으로 한 종합 해석입니다. ${face.summary}${comboTexts}`
+    : `Based on your analyzed facial features (${face.mainFeatures.join(', ')}), here is the comprehensive interpretation. ${face.summary}${comboTexts}`;
+
+  return {
+    icon: '👤',
+    title: isKo ? '관상 복합 시너지 분석' : 'Face Reading Synergy Analysis',
+    content,
+    subItems: [
+      { label: isKo ? '주요 특징' : 'Main Features', value: face.mainFeatures.join(', ') },
+    ]
   };
 }
 
@@ -824,8 +866,9 @@ export function generateResult(params: {
     loveSection: buildLoveSection(strongOhaeng, locale, mbtiType),
     healthSection: buildHealthSection(strongOhaeng, locale),
     luckySection: buildLuckySection(strongOhaeng, guardian, locale),
-    nameDetailSection: buildNameDetailSection(name, locale),
+    nameDetailSection: buildNameDetailSection(name, saju, locale),
     mbtiSajuSection: mbtiType ? buildMbtiSajuSection(mbtiType, strongOhaeng, locale) : undefined,
+    faceSection: face ? buildFaceSection(face, locale) : undefined,
     guardian,
     missingItems: {
       mbti: !mbtiType,

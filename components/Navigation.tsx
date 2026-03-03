@@ -19,10 +19,8 @@ export default function Navigation() {
   ];
 
   const localeLinks = [
-    { locale: 'ko', label: 'KO', active: true },
-    { locale: 'en', label: 'EN', active: true },
-    { locale: 'ja', label: 'JP', active: false },
-    { locale: 'zh', label: 'ZH', active: false },
+    { locale: 'ko', label: 'KO' },
+    { locale: 'en', label: 'EN' },
   ];
 
   return (
@@ -52,29 +50,19 @@ export default function Navigation() {
 
           {/* 언어 선택 */}
           <div className="flex items-center gap-2">
-            {localeLinks.map(({ locale: loc, label, active }) =>
-              active ? (
-                <Link
-                  key={loc}
-                  href={`/${loc}`}
-                  className={`text-xs font-bold px-2 py-1 rounded transition-colors ${
-                    locale === loc
-                      ? 'bg-yellow-500 text-black'
-                      : 'text-yellow-400 hover:text-yellow-300'
-                  }`}
-                >
-                  {label}
-                </Link>
-              ) : (
-                <span
-                  key={loc}
-                  className="text-xs font-bold px-2 py-1 text-gray-600 cursor-not-allowed"
-                  title="준비 중"
-                >
-                  {label}
-                </span>
-              )
-            )}
+            {localeLinks.map(({ locale: loc, label }) => (
+              <Link
+                key={loc}
+                href={`/${loc}`}
+                className={`text-xs font-bold px-2 py-1 rounded transition-colors ${
+                  locale === loc
+                    ? 'bg-yellow-500 text-black'
+                    : 'text-yellow-400 hover:text-yellow-300'
+                }`}
+              >
+                {label}
+              </Link>
+            ))}
 
             {/* 모바일 메뉴 버튼 */}
             <button
