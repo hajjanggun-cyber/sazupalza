@@ -38,6 +38,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
 export default async function NamePage({ params: { locale } }: Props) {
   unstable_setRequestLocale(locale);
   const isKo = locale === 'ko';
+  const localePrefix = locale === 'ko' ? '' : '/en';
 
   const nameElements = isKo
     ? [
@@ -74,11 +75,11 @@ export default async function NamePage({ params: { locale } }: Props) {
     ];
 
   const baseUrl = 'https://sajupalza.cc';
-  const canonicalUrl = `${baseUrl}/${locale}/name`;
+  const canonicalUrl = `${baseUrl}${localePrefix}/name`;
 
   const articleJsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'Article',
+    '@type': 'CollectionPage',
     headline: isKo ? '성명학 무료 분석 - 이름의 획수와 소리오행' : 'Free Korean Name Reading & Numerology',
     url: canonicalUrl,
     inLanguage: locale,
@@ -100,7 +101,7 @@ export default async function NamePage({ params: { locale } }: Props) {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: '홈', item: `${baseUrl}/${locale}` },
+      { '@type': 'ListItem', position: 1, name: '홈', item: `${baseUrl}${localePrefix}` },
       { '@type': 'ListItem', position: 2, name: isKo ? '성명학' : 'Name Reading', item: canonicalUrl },
     ],
   };

@@ -92,7 +92,7 @@ export default async function FaceReadingPage({ params: { locale } }: Props) {
 
   const articleJsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'Article',
+    '@type': 'CollectionPage',
     headline: isKo ? '관상 무료 분석 - 얼굴로 알아보는 운명' : 'Free Korean Face Reading & Physiognomy',
     url: canonicalUrl,
     inLanguage: locale,

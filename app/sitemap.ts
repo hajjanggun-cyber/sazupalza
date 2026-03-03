@@ -36,7 +36,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       const isMain = route === '';
       entries.push({
         url: getLocaleUrl(locale, route),
-        lastModified: new Date(),
         changeFrequency: isMain ? 'weekly' : 'monthly',
         priority: isMain ? 1.0 : locale === 'ko' ? 0.8 : 0.6,
         alternates: {
@@ -58,7 +57,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const locale of blogLocales) {
       entries.push({
         url: getLocaleUrl(locale, postRoute),
-        lastModified: new Date(post.publishedAt || new Date()),
+        lastModified: new Date(post.updatedAt ?? post.publishedAt),
         changeFrequency: 'weekly',
         priority: locale === 'ko' ? 0.7 : 0.5,
         alternates: {

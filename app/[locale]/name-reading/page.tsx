@@ -80,7 +80,7 @@ export default async function NameReadingPage({ params: { locale } }: Props) {
 
   const articleJsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'Article',
+    '@type': 'CollectionPage',
     headline: isKo ? '성명학 무료 분석 - 이름의 획수와 소리오행' : 'Free Korean Name Reading & Numerology',
     url: canonicalUrl,
     inLanguage: locale,

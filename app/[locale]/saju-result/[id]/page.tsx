@@ -146,7 +146,7 @@ export default function SajuResultPage() {
             const full = generateSajuResult(saju, { ...inputData, locale });
             setResult(full);
         } catch (e) { console.error(e); }
-    }, [inputData, locale]);
+    }, [inputData, locale, router]);
 
     // 로딩 타이머 (3초)
     useEffect(() => {

@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { useParams, useRouter } from 'next/navigation';
 import { useEffect, useState, useMemo } from 'react';
 import { SINGLE_RESULT_REVEAL_DELAY_MS } from '../../../../lib/constants/analysis-delay';
@@ -50,7 +51,7 @@ function LoadingScreen({ isKo }: { isKo: boolean }) {
     useEffect(() => {
         const t = setInterval(() => setStep(s => Math.min(s + 1, steps.length - 1)), 550);
         return () => clearInterval(t);
-    }, []);
+    }, [steps.length]);
     return (
         <div className="min-h-screen flex flex-col items-center justify-center px-6">
             <div className="text-6xl mb-6 animate-pulse">👁️</div>
@@ -215,7 +216,7 @@ export default function GwansangResultPage() {
         if (img) setFrontImg(img);
         const t = setTimeout(() => setLoadingDone(true), SINGLE_RESULT_REVEAL_DELAY_MS);
         return () => clearTimeout(t);
-    }, [inputData, locale]);
+    }, [inputData, locale, router]);
 
     if (!inputData) return null;
     if (!loadingDone) return <LoadingScreen isKo={isKo} />;
@@ -258,7 +259,7 @@ export default function GwansangResultPage() {
                     <div className="inline-flex items-center gap-2 bg-orange-900/30 border border-orange-600/30 rounded-full px-4 py-1.5 text-sm mt-2">
                         <span className="text-orange-400">✦</span>
                         <span className="text-yellow-200">
-                            {isKo ? `분석 정확도 ${accuracyPct}%` : `Analysis Accuracy ${accuracyPct}%`}
+                            {isKo ? `입력 완성도 ${accuracyPct}%` : `Input Coverage ${accuracyPct}%`}
                         </span>
                     </div>
                 </div>
@@ -268,8 +269,11 @@ export default function GwansangResultPage() {
                     <div className="flex gap-4 items-center">
                         {frontImg && (
                             <div className="shrink-0">
-                                <img
+                                <Image
                                     src={frontImg}
+                                    width={96}
+                                    height={96}
+                                    unoptimized
                                     alt="분석된 얼굴 사진"
                                     className="w-24 h-24 object-cover rounded-xl border border-orange-600/40"
                                 />
@@ -395,7 +399,7 @@ export default function GwansangResultPage() {
                 {!inputData.hasSide && (
                     <div className="bg-blue-900/20 border border-blue-700/30 rounded-xl p-4 mb-6">
                         <p className="text-blue-300 text-sm font-bold mb-1">
-                            💡 {isKo ? '측면 사진을 추가하면 정확도가 75% → 95%로 향상됩니다' : 'Add a side photo to boost accuracy from 75% → 95%'}
+                            💡 {isKo ? '측면 사진을 추가하면 해석에 참고할 정보가 더 늘어납니다' : 'Add a side photo for a more complete reading'}
                         </p>
                         <button
                             onClick={() => router.push(`/${locale}/gwansang-analysis`)}

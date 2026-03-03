@@ -72,7 +72,7 @@ export default async function CompatibilityPage({ params: { locale } }: Props) {
 
   const articleJsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'Article',
+    '@type': 'CollectionPage',
     headline: isKo ? '종합 운명 분석 - 사주·관상·성명학·MBTI 통합 가이드' : 'Combined Fortune Analysis Guide',
     url: canonicalUrl,
     inLanguage: locale,
@@ -121,7 +121,7 @@ export default async function CompatibilityPage({ params: { locale } }: Props) {
             <p className="text-yellow-200/70 text-lg mb-6 leading-relaxed">
               {isKo
                 ? '사주팔자·관상·성명학·MBTI를 통합적으로 이해하는 심층 가이드\n네 가지 분석법이 교차하는 지점에서 가장 정확한 운명의 그림이 완성됩니다'
-                : 'In-depth guide integrating Four Pillars, Face Reading, Name Reading, and MBTI\nThe most accurate picture of destiny emerges where all four systems intersect'}
+                : 'In-depth guide integrating Four Pillars, Face Reading, Name Reading, and MBTI\nA broader reading emerges when you compare all four systems together'}
             </p>
             <Link href={`/${locale}/combined`} className="btn-gold text-lg px-8 py-4">
               {isKo ? '4가지 통합 분석 시작 →' : 'Start Combined Analysis →'}

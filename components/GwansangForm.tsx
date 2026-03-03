@@ -1,6 +1,7 @@
 'use client';
 
 import { useLocale } from 'next-intl';
+import NextImage from 'next/image';
 import { useRouter } from 'next/navigation';
 import { useRef, useState } from 'react';
 import * as faceapi from 'face-api.js';
@@ -101,9 +102,12 @@ function PhotoBox({
             {/* 미리보기 */}
             {preview ? (
                 <div className="relative mb-3">
-                    <img
+                    <NextImage
                         src={preview}
                         alt={label}
+                        width={800}
+                        height={176}
+                        unoptimized
                         className="w-full h-44 object-cover rounded-xl border border-yellow-600/20"
                     />
                     {analyzing && (
@@ -328,7 +332,7 @@ export default function GwansangForm() {
         router.push(`/${locale}/gwansang-result/${encoded}`);
     };
 
-    const canSubmit = !!frontPreview && !frontAnalyzing && !sideAnalyzing;
+    const canSubmit = !!frontData && !frontAnalyzing && !sideAnalyzing;
 
     return (
         <div className="space-y-6">
@@ -345,7 +349,7 @@ export default function GwansangForm() {
             <div className="card-dark p-4">
                 <div className="flex justify-between items-center mb-2">
                     <span className="text-yellow-200/80 text-sm">
-                        {isKo ? '관상 분석 정확도' : 'Analysis Accuracy'}
+                        {isKo ? '입력 완성도' : 'Input Coverage'}
                     </span>
                     <span className={`font-bold text-lg ${accuracy >= 90 ? 'text-yellow-400' : accuracy >= 70 ? 'text-green-400' : 'text-blue-400'}`}>
                         {accuracy}%
@@ -356,10 +360,10 @@ export default function GwansangForm() {
                 </div>
                 <p className="text-yellow-200/40 text-xs mt-2 text-center">
                     {accuracy >= 90
-                        ? (isKo ? '✦ 정면 + 측면 최고 정확도' : '✦ Front + Side — Maximum accuracy')
+                        ? (isKo ? '✦ 정면 + 측면으로 가장 풍부한 해석' : '✦ Front + Side — fullest reading')
                         : accuracy >= 70
-                            ? (isKo ? '정면 사진으로 기본 분석 가능 · 측면 추가 시 95%' : 'Front only — add side for 95% accuracy')
-                            : (isKo ? '사진을 업로드하면 정확도가 높아집니다' : 'Upload photos to increase accuracy')}
+                            ? (isKo ? '정면 사진으로 기본 해석 가능 · 측면 추가 시 해석 폭이 넓어집니다' : 'Front only — add a side photo for more context')
+                            : (isKo ? '사진을 추가할수록 해석 정보가 늘어납니다' : 'More photo detail gives more context')}
                 </p>
             </div>
 
@@ -384,7 +388,7 @@ export default function GwansangForm() {
                 <PhotoBox
                     label={isKo ? '측면 사진' : 'Side Profile'}
                     sublabel={isKo ? '코와 턱선이 잘 보이는 옆모습' : 'Profile showing nose & jawline'}
-                    hint={isKo ? '정확도 +20% 향상 (없어도 분석 가능)' : '+20% accuracy — optional'}
+                    hint={isKo ? '입력 정보 보강용 (없어도 분석 가능)' : 'Adds more context — optional'}
                     required={false}
                     preview={sidePreview}
                     analyzing={sideAnalyzing}
@@ -403,7 +407,7 @@ export default function GwansangForm() {
             {frontPreview && !sidePreview && !sideAnalyzing && (
                 <div className="bg-blue-900/20 border border-blue-700/30 rounded-lg p-3 text-center">
                     <p className="text-blue-300 text-xs font-bold">
-                        💡 {isKo ? '측면 사진을 추가하면 분석 정확도가 95%로 높아집니다' : 'Add side profile to boost accuracy to 95%'}
+                        💡 {isKo ? '측면 사진을 추가하면 해석 정보가 더 풍부해집니다' : 'Add a side profile for a more complete reading'}
                     </p>
                 </div>
             )}

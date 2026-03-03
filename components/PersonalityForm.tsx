@@ -96,10 +96,10 @@ export default function PersonalityForm() {
             <div className="py-12 flex flex-col items-center justify-center text-center">
                 <div className="text-6xl mb-6 animate-spin">⏳</div>
                 <h3 className="text-xl font-bold text-yellow-100 mb-2">
-                    {isKo ? '답변 분석 중...' : 'Analyzing your answers...'}
+                    {isKo ? '답변 분석 중...' : 'Reviewing your answers...'}
                 </h3>
                 <p className="text-yellow-200/50 text-sm">
-                    {isKo ? '나만의 성격 유형을 추출하고 있습니다' : 'Extracting your cognitive type'}
+                    {isKo ? '나만의 성격 유형을 추출하고 있습니다' : 'Preparing your personality profile'}
                 </p>
             </div>
         );
@@ -111,7 +111,7 @@ export default function PersonalityForm() {
                 <p className="text-purple-300/80 text-sm">
                     🧠 {isKo
                         ? '솔직하게 응답할수록 가장 정확한 유형이 도출됩니다'
-                        : 'Answer intuitively for the most accurate result'}
+                        : 'Answer intuitively for the most natural result'}
                 </p>
             </div>
 

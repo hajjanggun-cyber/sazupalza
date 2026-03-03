@@ -49,13 +49,13 @@ export default async function GwansangAnalysisPage({ params: { locale } }: Props
             { icon: '🔺', label: '얼굴형 분석', desc: '타원형·둥근형·각진형·역삼각형 분류' },
             { icon: '⚖️', label: '대칭도 점수', desc: 'AI 랜드마크 기반 좌우 대칭 측정' },
             { icon: '🌊', label: '인상 에너지', desc: '표정 에너지로 기운 강도 분석' },
-            { icon: '🎯', label: '95% 정확도', desc: '정면+측면 사진 함께 올리면 최고 정확도' },
+            { icon: '🎯', label: '풍부한 해석', desc: '정면+측면 사진을 함께 올리면 참고 정보가 더 늘어납니다' },
         ]
         : [
             { icon: '🔺', label: 'Face Shape', desc: 'Oval / Round / Square / Triangle' },
             { icon: '⚖️', label: 'Symmetry Score', desc: 'AI landmark-based left-right balance' },
             { icon: '🌊', label: 'Expression Energy', desc: 'Dominant energy from facial expression' },
-            { icon: '🎯', label: '95% Accuracy', desc: 'Front + Side photo = maximum precision' },
+            { icon: '🎯', label: 'Richer Reading', desc: 'Front + side photos provide fuller context' },
         ];
 
     return (

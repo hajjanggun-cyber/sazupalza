@@ -63,7 +63,7 @@ export default function PersonalityAnalysisPage({ params: { locale } }: Props) {
                             <span className="text-3xl mb-2 block">⚖️</span>
                             <h3 className="font-bold text-yellow-100 mb-1">{isKo ? '저작권 안전' : 'Copyright Safe'}</h3>
                             <p className="text-xs text-yellow-100/60">
-                                {isKo ? '자체 개발 문항으로 저작권 침해 요소가 전혀 없습니다.' : '100% original questions safely bypass copyright issues.'}
+                                {isKo ? '자체 개발 문항을 사용해 저작권 충돌 가능성을 낮췄습니다.' : 'Built with original questions to reduce copyright risk.'}
                             </p>
                         </div>
                         <div className="bg-purple-900/30 border border-purple-500/20 rounded-xl p-5 text-center">

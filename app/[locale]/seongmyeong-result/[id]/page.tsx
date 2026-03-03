@@ -67,7 +67,7 @@ function LoadingScreen({ name, isKo }: { name: string; isKo: boolean }) {
     useEffect(() => {
         const t = setInterval(() => setStep(s => Math.min(s + 1, steps.length - 1)), 500);
         return () => clearInterval(t);
-    }, []);
+    }, [steps.length]);
     return (
         <div className="min-h-screen flex flex-col items-center justify-center px-6">
             <div className="text-6xl mb-6 animate-pulse">✍️</div>
@@ -126,7 +126,7 @@ export default function SeongmyeongResultPage() {
         if (!inputData) router.push(`/${locale}`);
         const t = setTimeout(() => setLoadingDone(true), SINGLE_RESULT_REVEAL_DELAY_MS);
         return () => clearTimeout(t);
-    }, [inputData, locale]);
+    }, [inputData, locale, router]);
 
     if (!inputData) return null;
 

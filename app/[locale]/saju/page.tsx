@@ -42,6 +42,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
 export default async function SajuPage({ params: { locale } }: Props) {
   unstable_setRequestLocale(locale);
   const isKo = locale === 'ko';
+  const localePrefix = locale === 'ko' ? '' : '/en';
 
   const pillars = isKo
     ? [
@@ -86,11 +87,11 @@ export default async function SajuPage({ params: { locale } }: Props) {
     ];
 
   const baseUrl = 'https://sajupalza.cc';
-  const canonicalUrl = `${baseUrl}/${locale}/saju`;
+  const canonicalUrl = `${baseUrl}${localePrefix}/saju`;
 
   const articleJsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'Article',
+    '@type': 'CollectionPage',
     headline: isKo ? '사주팔자 무료 분석 - 생년월일시로 알아보는 운명' : 'Free Korean Four Pillars of Destiny Analysis',
     description: isKo
       ? '사주팔자(四柱八字) 완전 무료 분석. 천간지지, 오행, 용신까지 정통 사주 분석.'
@@ -115,7 +116,7 @@ export default async function SajuPage({ params: { locale } }: Props) {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: '홈', item: `${baseUrl}/${locale}` },
+      { '@type': 'ListItem', position: 1, name: '홈', item: `${baseUrl}${localePrefix}` },
       { '@type': 'ListItem', position: 2, name: isKo ? '사주팔자' : 'Four Pillars', item: canonicalUrl },
     ],
   };

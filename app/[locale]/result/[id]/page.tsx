@@ -169,7 +169,7 @@ export default function ResultIdPage() {
     } catch (err) {
       console.error('결과 생성 오류:', err);
     }
-  }, [inputData, locale]);
+  }, [inputData, locale, router]);
 
   const handleCopyLink = async () => {
     try {

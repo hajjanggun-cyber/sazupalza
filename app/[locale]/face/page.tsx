@@ -67,12 +67,12 @@ export default async function FacePage({ params: { locale } }: Props) {
     ? [
       { q: '관상이란 무엇인가요?', a: '관상(觀相)은 얼굴의 형태와 기색을 통해 사람의 성격, 기질, 운세를 읽는 전통 동양 학문입니다. 얼굴의 각 부위는 오행(五行)의 기운과 연결되어 있으며, 타고난 성향을 파악하는 데 참고할 수 있습니다.' },
       { q: '사진은 안전한가요?', a: '업로드하신 사진은 브라우저에서만 분석됩니다. 서버로 전송되거나 저장되지 않습니다. face-api.js 라이브러리를 사용하여 기기 내에서만 처리하며, 분석 완료 즉시 데이터가 삭제됩니다.' },
-      { q: '관상 분석은 선택사항인가요?', a: '네, 관상 분석은 완전히 선택사항입니다. 사진 없이도 이름·생년월일만으로 사주팔자와 성명학 분석을 받으실 수 있습니다. 사진 없을 때 분석 정확도는 75%, 사진 있을 때 100%입니다.' },
+      { q: '관상 분석은 선택사항인가요?', a: '네, 관상 분석은 완전히 선택사항입니다. 사진 없이도 이름·생년월일만으로 사주팔자와 성명학 분석을 받으실 수 있습니다. 사진을 추가하면 관상 항목까지 함께 참고해 더 풍부한 해석을 볼 수 있습니다.' },
     ]
     : [
       { q: 'What is Face Reading?', a: 'Face Reading (Gwansang) is a traditional Eastern discipline that reads character, temperament, and fortune through facial form and color. Each facial feature is connected to Five Element energy, providing reference for understanding innate tendencies.' },
       { q: 'Is my photo safe?', a: 'Your uploaded photo is analyzed only in your browser. It is not transmitted to or stored on servers. We use the face-api.js library for on-device processing, and data is deleted immediately after analysis.' },
-      { q: 'Is face analysis optional?', a: 'Yes, face analysis is completely optional. You can receive Four Pillars and Name analysis using just your name and birth date without a photo. Analysis accuracy is 75% without a photo and 100% with one.' },
+      { q: 'Is face analysis optional?', a: 'Yes, face analysis is completely optional. You can still receive Four Pillars and Name analysis without a photo. Adding a photo simply gives the reading one more layer of face-based context.' },
     ];
 
   return (

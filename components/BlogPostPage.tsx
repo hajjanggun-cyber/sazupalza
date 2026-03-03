@@ -33,7 +33,8 @@ export default function BlogPostPage({ post, locale }: Props) {
   const isKo = locale === 'ko';
   const baseUrl = 'https://sajupalza.cc';
   const categoryPath = getCategoryPath(post.category);
-  const postUrl = `${baseUrl}/${locale}/${categoryPath}/${post.slug}`;
+  const localePrefix = locale === 'ko' ? '' : '/en';
+  const postUrl = `${baseUrl}${localePrefix}/${categoryPath}/${post.slug}`;
 
   // 언어별 제목 선택 (본문용)
   // 영문 모드일 때 seoTitleEn이 없으면 최소한 영문 텍스트를 출력하도록 보강
@@ -68,8 +69,8 @@ export default function BlogPostPage({ post, locale }: Props) {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: isKo ? '홈' : 'Home', item: `${baseUrl}/${locale}` },
-      { '@type': 'ListItem', position: 2, name: displayCategory, item: `${baseUrl}/${locale}/${categoryPath}` },
+      { '@type': 'ListItem', position: 1, name: isKo ? '홈' : 'Home', item: `${baseUrl}${localePrefix}` },
+      { '@type': 'ListItem', position: 2, name: displayCategory, item: `${baseUrl}${localePrefix}/${categoryPath}` },
       { '@type': 'ListItem', position: 3, name: displayTitle, item: postUrl },
     ],
   };

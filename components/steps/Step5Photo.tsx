@@ -1,6 +1,7 @@
 'use client';
 
 import { useTranslations, useLocale } from 'next-intl';
+import NextImage from 'next/image';
 import { useRef, useState } from 'react';
 import * as faceapi from 'face-api.js';
 
@@ -232,9 +233,12 @@ export default function Step5Photo({ onPhotoCapture, onSkip, onPrev }: Props) {
       {/* 사진 미리보기 */}
       {preview && (
         <div className="relative">
-          <img
+          <NextImage
             src={preview}
             alt="업로드된 사진"
+            width={800}
+            height={400}
+            unoptimized
             className="w-full max-h-64 object-cover rounded-xl border border-yellow-600/30"
           />
           {/* 분석 중 오버레이 */}

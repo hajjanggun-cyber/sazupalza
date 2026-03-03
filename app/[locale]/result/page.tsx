@@ -49,7 +49,7 @@ function RedirectContent() {
       // 파라미터 없음 → 홈으로
       router.replace(`/${locale}`);
     }
-  }, []);
+  }, [locale, router, searchParams]);
 
   return (
     <div className="min-h-screen flex items-center justify-center">

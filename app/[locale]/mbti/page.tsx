@@ -64,6 +64,7 @@ const MBTI_OHAENG: Record<string, { ohaeng: string; ohaengEn: string; color: str
 export default async function MbtiPage({ params: { locale } }: Props) {
   unstable_setRequestLocale(locale);
   const isKo = locale === 'ko';
+  const localePrefix = locale === 'ko' ? '' : '/en';
 
   const groups = isKo
     ? [
@@ -92,11 +93,11 @@ export default async function MbtiPage({ params: { locale } }: Props) {
     ];
 
   const baseUrl = 'https://sajupalza.cc';
-  const canonicalUrl = `${baseUrl}/${locale}/mbti`;
+  const canonicalUrl = `${baseUrl}${localePrefix}/mbti`;
 
   const articleJsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'Article',
+    '@type': 'CollectionPage',
     headline: isKo ? 'MBTI 사주 분석 - 16유형과 오행 연계' : 'MBTI & Korean Four Pillars Integration',
     url: canonicalUrl,
     inLanguage: locale,
@@ -118,7 +119,7 @@ export default async function MbtiPage({ params: { locale } }: Props) {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: '홈', item: `${baseUrl}/${locale}` },
+      { '@type': 'ListItem', position: 1, name: '홈', item: `${baseUrl}${localePrefix}` },
       { '@type': 'ListItem', position: 2, name: 'MBTI', item: canonicalUrl },
     ],
   };
