@@ -18,7 +18,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
   const canonical = `${BASE_URL}${localePrefix}/face-reading`;
   return {
     title: isKo
-      ? '관상 무료 분석 - 얼굴로 알아보는 운명 | 사주팔자 종합 컨설팅'
+      ? '관상 무료 분석 - 얼굴로 알아보는 운명 | 사주팔자 무료 컨설팅'
       : 'Free Korean Face Reading & Physiognomy Analysis | SajuPalza',
     description: isKo
       ? '관상(觀相) 무료 분석. 얼굴형, 이목구비의 특성으로 알아보는 타고난 성향과 기운. AI 기반 브라우저 내 분석 - 서버 저장 없음.'
@@ -96,8 +96,8 @@ export default async function FaceReadingPage({ params: { locale } }: Props) {
     headline: isKo ? '관상 무료 분석 - 얼굴로 알아보는 운명' : 'Free Korean Face Reading & Physiognomy',
     url: canonicalUrl,
     inLanguage: locale,
-    author: { '@type': 'Organization', name: '사주팔자 종합 컨설팅' },
-    publisher: { '@type': 'Organization', name: '사주팔자 종합 컨설팅', url: BASE_URL },
+    author: { '@type': 'Organization', name: '사주팔자 무료 컨설팅' },
+    publisher: { '@type': 'Organization', name: '사주팔자 무료 컨설팅', url: BASE_URL },
   };
 
   const faqJsonLd = {

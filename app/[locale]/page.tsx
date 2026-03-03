@@ -44,7 +44,7 @@ export default async function HomePage({ params: { locale } }: Props) {
   const webAppJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'WebApplication',
-    name: isKo ? '사주팔자 종합 컨설팅' : 'Korean Fortune Reading',
+    name: isKo ? '사주팔자 무료 컨설팅' : 'Korean Fortune Reading',
     url: canonicalUrl,
     description: isKo
       ? '사주팔자·관상·성명학·성격유형 완전 무료 종합 분석.'
@@ -55,7 +55,7 @@ export default async function HomePage({ params: { locale } }: Props) {
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'KRW' },
     publisher: {
       '@type': 'Organization',
-      name: isKo ? '사주팔자 종합 컨설팅' : 'Korean Fortune Reading',
+      name: isKo ? '사주팔자 무료 컨설팅' : 'Korean Fortune Reading',
       url: baseUrl,
     },
   };
@@ -187,7 +187,8 @@ export default async function HomePage({ params: { locale } }: Props) {
       <Navigation />
 
       {/* 상단 광고 */}
-      <div className="flex justify-center py-3 bg-[#0d0502]">
+      <div className="flex flex-col items-center py-3 bg-[#0d0502]">
+        <p className="text-yellow-200/30 text-xs mb-1">{isKo ? '광고' : 'Advertisement'}</p>
         <AdSense slot="1234567890" format="horizontal" className="max-w-full" />
       </div>
 
@@ -284,11 +285,6 @@ export default async function HomePage({ params: { locale } }: Props) {
             </div>
           </Link>
         </section>
-
-        {/* 중간 광고 */}
-        <div className="flex justify-center py-6">
-          <AdSense slot="0987654321" format="rectangle" />
-        </div>
 
         {/* ── 블로그 카테고리 섹션 ── */}
         <section className="max-w-6xl mx-auto px-4 py-8">
@@ -416,7 +412,8 @@ export default async function HomePage({ params: { locale } }: Props) {
         </section>
 
         {/* 하단 광고 */}
-        <div className="flex justify-center py-4">
+        <div className="flex flex-col items-center py-4">
+          <p className="text-yellow-200/30 text-xs mb-1">{isKo ? '광고' : 'Advertisement'}</p>
           <AdSense slot="1122334455" format="rectangle" />
         </div>
 

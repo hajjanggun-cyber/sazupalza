@@ -18,7 +18,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
   const canonical = `${BASE_URL}${localePrefix}/name-reading`;
   return {
     title: isKo
-      ? '성명학 무료 분석 - 이름의 획수와 소리오행 | 사주팔자 종합 컨설팅'
+      ? '성명학 무료 분석 - 이름의 획수와 소리오행 | 사주팔자 무료 컨설팅'
       : 'Free Korean Name Reading & Numerology Analysis | SajuPalza',
     description: isKo
       ? '성명학(姓名學) 무료 분석. 한글 이름의 획수(수리81수), 소리오행, 자원오행으로 알아보는 이름의 기운과 의미.'
@@ -84,8 +84,8 @@ export default async function NameReadingPage({ params: { locale } }: Props) {
     headline: isKo ? '성명학 무료 분석 - 이름의 획수와 소리오행' : 'Free Korean Name Reading & Numerology',
     url: canonicalUrl,
     inLanguage: locale,
-    author: { '@type': 'Organization', name: '사주팔자 종합 컨설팅' },
-    publisher: { '@type': 'Organization', name: '사주팔자 종합 컨설팅', url: BASE_URL },
+    author: { '@type': 'Organization', name: '사주팔자 무료 컨설팅' },
+    publisher: { '@type': 'Organization', name: '사주팔자 무료 컨설팅', url: BASE_URL },
   };
 
   const faqJsonLd = {

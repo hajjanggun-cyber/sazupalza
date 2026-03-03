@@ -14,7 +14,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
   const isKo = locale === 'ko';
   return {
     title: isKo
-      ? 'MBTI 사주 분석 - 16유형과 오행 연계 | 사주팔자 종합 컨설팅'
+      ? 'MBTI 사주 분석 - 16유형과 오행 연계 | 사주팔자 무료 컨설팅'
       : 'MBTI & Korean Four Pillars Integration Analysis | SajuPalza',
     description: isKo
       ? 'MBTI 16유형과 사주 오행을 연계하여 분석하는 무료 서비스. MBTI 궁합, 성격 분석, 직업 적성. 특정 유형 우월 표현 없이 균형있는 분석.'
@@ -90,8 +90,8 @@ export default async function MbtiPage({ params: { locale } }: Props) {
     headline: isKo ? 'MBTI 사주 분석 - 16유형과 오행 연계' : 'MBTI & Korean Four Pillars Integration',
     url: canonicalUrl,
     inLanguage: locale,
-    author: { '@type': 'Organization', name: '사주팔자 종합 컨설팅' },
-    publisher: { '@type': 'Organization', name: '사주팔자 종합 컨설팅', url: baseUrl },
+    author: { '@type': 'Organization', name: '사주팔자 무료 컨설팅' },
+    publisher: { '@type': 'Organization', name: '사주팔자 무료 컨설팅', url: baseUrl },
   };
 
   const faqJsonLd = {

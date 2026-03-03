@@ -44,12 +44,12 @@ export default async function LocaleLayout({ children, params: { locale } }: Pro
           href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap"
           rel="stylesheet"
         />
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2524681039359256"
-          crossOrigin="anonymous"
-        />
       </head>
+      <Script
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2524681039359256"
+        strategy="afterInteractive"
+        crossOrigin="anonymous"
+      />
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-HNNGML081Q"
         strategy="afterInteractive"

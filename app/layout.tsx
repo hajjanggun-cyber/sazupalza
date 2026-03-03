@@ -19,12 +19,21 @@ export const metadata: Metadata = {
     url: 'https://sajupalza.cc',
     title: '사주팔자 무료 종합 분석',
     description: '사주팔자·관상·성명학·MBTI 완전 무료 종합 분석',
-    siteName: '사주팔자 종합 컨설팅',
+    siteName: '사주팔자 무료 컨설팅',
+    images: [
+      {
+        url: '/hero-banner.png',
+        width: 1200,
+        height: 630,
+        alt: '사주팔자 무료 종합 분석',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: '사주팔자 무료 종합 분석',
     description: '사주팔자·관상·성명학·MBTI 완전 무료 종합 분석',
+    images: ['/hero-banner.png'],
   },
 };
 

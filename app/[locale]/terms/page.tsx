@@ -11,9 +11,9 @@ interface Props {
 export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
   const isKo = locale === 'ko';
   return {
-    title: isKo ? '이용약관 (Terms of Service) | 사주팔자 종합 컨설팅' : 'Terms of Service | SajuPalza',
+    title: isKo ? '이용약관 (Terms of Service) | 사주팔자 무료 컨설팅' : 'Terms of Service | SajuPalza',
     description: isKo
-      ? '사주팔자 종합 컨설팅 서비스의 이용약관입니다. 글로벌 표준 약관에 기반한 서비스 이용 규칙 및 면책 조항을 확인하세요.'
+      ? '사주팔자 무료 컨설팅 서비스의 이용약관입니다. 글로벌 표준 약관에 기반한 서비스 이용 규칙 및 면책 조항을 확인하세요.'
       : 'Terms of Service for SajuPalza fortune reading service. Check the rules and disclaimers based on global standard terms.',
     alternates: {
       canonical: `https://sajupalza.cc/${locale}/terms`,
@@ -35,7 +35,7 @@ export default async function TermsPage({ params: { locale } }: Props) {
               {isKo ? '이용약관' : 'Terms of Service'}
             </h1>
             <p className="text-yellow-200/70">
-              {isKo ? '최종 업데이트: 2024년 3월 | 글로벌 서비스 표준 약관' : 'Last Updated: March 2024 | Global Service Standard Terms'}
+              {isKo ? '최종 업데이트: 2026년 3월 | 글로벌 서비스 표준 약관' : 'Last Updated: March 2026 | Global Service Standard Terms'}
             </p>
           </header>
 
@@ -48,7 +48,7 @@ export default async function TermsPage({ params: { locale } }: Props) {
                 </h3>
                 <p>
                   {isKo
-                    ? '본 약관은 사용자가 사주팔자 종합 컨설팅 서비스(이하 "서비스")를 이용함에 있어 필요한 조건, 절차 및 당사자의 권리와 의무를 규정함을 목적으로 합니다. 본 서비스에 접속하거나 이용함으로써 귀하는 본 약관에 동의하는 것으로 간주됩니다.'
+                    ? '본 약관은 사용자가 사주팔자 무료 컨설팅 서비스(이하 "서비스")를 이용함에 있어 필요한 조건, 절차 및 당사자의 권리와 의무를 규정함을 목적으로 합니다. 본 서비스에 접속하거나 이용함으로써 귀하는 본 약관에 동의하는 것으로 간주됩니다.'
                     : 'These terms govern the conditions, procedures, and rights and obligations of the parties regarding the use of the SajuPalza comprehensive fortune reading service (hereinafter "Service"). By accessing or using the Service, you agree to be bound by these Terms.'}
                 </p>
               </section>

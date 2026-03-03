@@ -21,7 +21,8 @@
       "Bash(cd C:\\\\Users\\\\홈_메인\\\\Desktop\\\\11  11 실전코딩\\\\sajupalza:*)",
       "Bash(npx tsc:*)",
       "Bash(npx next:*)",
-      "Bash(node:*)"
+      "Bash(node:*)",
+      "Bash(python:*)"
     ]
   }
 }

@@ -11,9 +11,9 @@ interface Props {
 export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
   const isKo = locale === 'ko';
   return {
-    title: isKo ? '개인정보처리방침 (Privacy Policy) | 사주팔자 종합 컨설팅' : 'Privacy Policy | SajuPalza',
+    title: isKo ? '개인정보처리방침 (Privacy Policy) | 사주팔자 무료 컨설팅' : 'Privacy Policy | SajuPalza',
     description: isKo
-      ? '사주팔자 종합 컨설팅 서비스의 글로벌 표준(GDPR/CCPA 준수) 개인정보처리방침입니다. 서버에 개인정보를 저장하지 않으며 안전하게 보호합니다.'
+      ? '사주팔자 무료 컨설팅 서비스의 글로벌 표준(GDPR/CCPA 준수) 개인정보처리방침입니다. 서버에 개인정보를 저장하지 않으며 안전하게 보호합니다.'
       : 'Global standard Privacy Policy (GDPR/CCPA compliant) for SajuPalza fortune reading service. We do not store personal information.',
     alternates: {
       canonical: `https://sajupalza.cc/${locale}/privacy`,
@@ -35,7 +35,7 @@ export default async function PrivacyPage({ params: { locale } }: Props) {
               {isKo ? '개인정보처리방침' : 'Privacy Policy'}
             </h1>
             <p className="text-yellow-200/70">
-              {isKo ? '최종 업데이트: 2024년 3월 | 글로벌 개인정보보호 규정(GDPR, CCPA) 준수' : 'Last Updated: March 2024 | Compliant with Global Privacy Regulations (GDPR, CCPA)'}
+              {isKo ? '최종 업데이트: 2026년 3월 | 글로벌 개인정보보호 규정(GDPR, CCPA) 준수' : 'Last Updated: March 2026 | Compliant with Global Privacy Regulations (GDPR, CCPA)'}
             </p>
           </header>
 

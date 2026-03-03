@@ -14,7 +14,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
   const isKo = locale === 'ko';
   return {
     title: isKo
-      ? '사주팔자 무료 분석 - 생년월일시로 알아보는 운명 | 사주팔자 종합 컨설팅'
+      ? '사주팔자 무료 분석 - 생년월일시로 알아보는 운명 | 사주팔자 무료 컨설팅'
       : 'Free Korean Four Pillars of Destiny Analysis | SajuPalza',
     description: isKo
       ? '사주팔자(四柱八字) 완전 무료 분석. 생년월일시 8글자로 알아보는 타고난 기질, 직업운, 재물운, 연애운, 건강운. 삼명통회·자평진전·적천수 원리 기반.'
@@ -87,8 +87,8 @@ export default async function SajuPage({ params: { locale } }: Props) {
       : 'Free Korean Four Pillars of Destiny analysis based on birth date and time.',
     url: canonicalUrl,
     inLanguage: locale,
-    author: { '@type': 'Organization', name: '사주팔자 종합 컨설팅' },
-    publisher: { '@type': 'Organization', name: '사주팔자 종합 컨설팅', url: baseUrl },
+    author: { '@type': 'Organization', name: '사주팔자 무료 컨설팅' },
+    publisher: { '@type': 'Organization', name: '사주팔자 무료 컨설팅', url: baseUrl },
   };
 
   const faqJsonLd = {

@@ -18,7 +18,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
   const canonical = `${BASE_URL}${localePrefix}/compatibility`;
   return {
     title: isKo
-      ? '종합 운명 분석 - 사주·관상·성명학·MBTI 통합 가이드 | 사주팔자 종합 컨설팅'
+      ? '종합 운명 분석 - 사주·관상·성명학·MBTI 통합 가이드 | 사주팔자 무료 컨설팅'
       : 'Combined Fortune Analysis - Four Pillars, Face Reading, Name & MBTI Guide | SajuPalza',
     description: isKo
       ? '사주팔자·관상·성명학·MBTI를 통합적으로 이해하는 심층 분석 아티클. 손금, 천생연분, 네 가지 분석법의 공통점과 차이점을 전문가 시각으로 풀어드립니다.'
@@ -76,8 +76,8 @@ export default async function CompatibilityPage({ params: { locale } }: Props) {
     headline: isKo ? '종합 운명 분석 - 사주·관상·성명학·MBTI 통합 가이드' : 'Combined Fortune Analysis Guide',
     url: canonicalUrl,
     inLanguage: locale,
-    author: { '@type': 'Organization', name: '사주팔자 종합 컨설팅' },
-    publisher: { '@type': 'Organization', name: '사주팔자 종합 컨설팅', url: BASE_URL },
+    author: { '@type': 'Organization', name: '사주팔자 무료 컨설팅' },
+    publisher: { '@type': 'Organization', name: '사주팔자 무료 컨설팅', url: BASE_URL },
   };
 
   const faqJsonLd = {
