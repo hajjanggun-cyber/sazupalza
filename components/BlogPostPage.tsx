@@ -2,7 +2,7 @@ import Link from 'next/link';
 import AdSense from './AdSense';
 import Navigation from './Navigation';
 import Footer from './Footer';
-import { BlogPost } from '@/lib/blog/types';
+import { BlogPost, getPostBySlug } from '@/lib/blog';
 
 const categoryName: Record<string, Record<string, string>> = {
   saju: { ko: '사주팔자', en: 'Four Pillars' },
@@ -194,8 +194,13 @@ export default function BlogPostPage({ post, locale }: Props) {
                   href={`/${locale}/${getCategoryPath(related.category)}/${related.slug}`}
                   className="block card-dark p-3 hover:border-yellow-600/60 transition-colors text-white/70 hover:text-yellow-300 text-sm"
                 >
-                  {/* 데이터의 title 필드가 이미 영문 모드 대응을 위해 보강되었으므로 그대로 사용 */}
-                  → {related.title}
+                  {(() => {
+                    const fullPost = getPostBySlug(related.category, related.slug);
+                    const relatedTitle = fullPost
+                      ? (isKo ? (fullPost.seoTitle || fullPost.title) : (fullPost.seoTitleEn || fullPost.seoTitle || fullPost.title))
+                      : related.title;
+                    return <>→ {relatedTitle}</>;
+                  })()}
                 </Link>
               ))}
             </div>
