@@ -5,6 +5,7 @@ import { useMemo, useEffect, useState } from 'react';
 import { calculateSaju } from '../../../../lib/calculator/saju-calculator';
 import { calculateName } from '../../../../lib/calculator/name-calculator';
 import { generateResult, ComprehensiveResult, ResultSection } from '../../../../lib/calculator/result-generator';
+import { RESULT_REVEAL_DELAY_MS } from '../../../../lib/constants/analysis-delay';
 import { Guardian } from '../../../../lib/data/guardian';
 import Navigation from '../../../../components/Navigation';
 import Footer from '../../../../components/Footer';
@@ -120,7 +121,13 @@ export default function ResultIdPage() {
 
   const [result, setResult] = useState<ComprehensiveResult | null>(null);
   const [loadingDone, setLoadingDone] = useState(false);
+  const [minDelayDone, setMinDelayDone] = useState(false);
   const [copied, setCopied] = useState(false);
+
+  useEffect(() => {
+    const t = setTimeout(() => setMinDelayDone(true), RESULT_REVEAL_DELAY_MS);
+    return () => clearTimeout(t);
+  }, []);
 
   useEffect(() => {
     if (!inputData) {
@@ -201,12 +208,13 @@ export default function ResultIdPage() {
   if (!inputData) return null;
 
   // 로딩 애니메이션
-  if (!loadingDone) {
+  if (!loadingDone || !minDelayDone) {
     return (
       <AnalysisLoading
         hasMbti={!!inputData.mbti}
         hasPhoto={inputData.hasPhoto}
         hasTime={inputData.hour !== undefined}
+        isKo={locale === 'ko'}
         onComplete={() => setLoadingDone(true)}
       />
     );

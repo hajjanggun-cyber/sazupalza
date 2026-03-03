@@ -65,6 +65,103 @@ const JJ_OHAENG: Record<string, string> = {
 const CG_OHAENG: Record<string, string> = {
     '갑': '목', '을': '목', '병': '화', '정': '화', '무': '토', '기': '토', '경': '금', '신': '금', '임': '수', '계': '수'
 };
+const OHAENG_HANJA: Record<string, string> = {
+    '목': '木', '화': '火', '토': '土', '금': '金', '수': '水',
+};
+const JIJI_HANJA: Record<string, string> = {
+    '자': '子', '축': '丑', '인': '寅', '묘': '卯', '진': '辰', '사': '巳',
+    '오': '午', '미': '未', '신': '申', '유': '酉', '술': '戌', '해': '亥',
+};
+const OHAENG_EN: Record<string, string> = {
+    '목': 'Wood', '화': 'Fire', '토': 'Earth', '금': 'Metal', '수': 'Water',
+};
+
+const ILGAN_PROFILE_EN: Record<string, {
+    name: string; hanja: string; element: string; title: string;
+    personality: string; strength: string; weakness: string;
+    keywords: string[];
+}> = {
+    '갑': {
+        name: 'Gap Wood', hanja: '甲', element: 'Wood',
+        title: 'Straight Bamboo - Leader and Pioneer',
+        personality: 'Gap Wood has the energy of a tree growing upright in spring. Confident on the outside, yet inwardly sensitive to recognition and meaning.',
+        strength: 'Strong leadership, drive, and pioneering spirit.',
+        weakness: 'Can become rigid or stubborn under pressure.',
+        keywords: ['Leader', 'Pioneer', 'Drive', 'Independent', 'Strong Will'],
+    },
+    '을': {
+        name: 'Eul Wood', hanja: '乙', element: 'Wood',
+        title: 'Flexible Vine - Master of Adaptation',
+        personality: 'Eul Wood adapts like a vine to changing environments. Gentle in style, but resilient and persistent at core.',
+        strength: 'Empathy, social intelligence, and adaptability.',
+        weakness: 'Indecision and over-reading others can drain energy.',
+        keywords: ['Adaptive', 'Empathetic', 'Social', 'Flexible', 'Sensitive'],
+    },
+    '병': {
+        name: 'Byeong Fire', hanja: '丙', element: 'Fire',
+        title: 'Sun Type - Bright and Warm Presence',
+        personality: 'Byeong Fire shines like the midday sun. Naturally expressive, charismatic, and energizing to others.',
+        strength: 'Presence, initiative, and motivational energy.',
+        weakness: 'Emotional volatility and impulsive overexpression.',
+        keywords: ['Charisma', 'Passion', 'Visibility', 'Expression', 'Momentum'],
+    },
+    '정': {
+        name: 'Jeong Fire', hanja: '丁', element: 'Fire',
+        title: 'Candle Type - Refined Inner Flame',
+        personality: 'Jeong Fire is a steady flame in darkness. Quiet on the surface, but deeply focused and devoted.',
+        strength: 'Concentration, depth, and refined sensitivity.',
+        weakness: 'Perfectionism and burnout risk.',
+        keywords: ['Focus', 'Craftsmanship', 'Refinement', 'Artistic', 'Depth'],
+    },
+    '무': {
+        name: 'Mu Earth', hanja: '戊', element: 'Earth',
+        title: 'Mountain Type - Stable Pillar',
+        personality: 'Mu Earth resembles a mountain: reliable, grounded, and hard to shake.',
+        strength: 'Stability, responsibility, and composure.',
+        weakness: 'Resistance to change and slow decision cycles.',
+        keywords: ['Stable', 'Reliable', 'Responsible', 'Grounded', 'Center'],
+    },
+    '기': {
+        name: 'Gi Earth', hanja: '己', element: 'Earth',
+        title: 'Field Type - Practical Nurturer',
+        personality: 'Gi Earth is fertile soil that supports growth. Practical, considerate, and detail-aware.',
+        strength: 'Practical judgment, care, and consistency.',
+        weakness: 'Can prioritize others too much over self.',
+        keywords: ['Practical', 'Supportive', 'Consistent', 'Balanced', 'Careful'],
+    },
+    '경': {
+        name: 'Gyeong Metal', hanja: '庚', element: 'Metal',
+        title: 'Ore Type - Decisive and Strong',
+        personality: 'Gyeong Metal has a raw, sharp force. Principle-driven, direct, and execution-oriented.',
+        strength: 'Decisiveness, integrity, and resilience.',
+        weakness: 'Rigidity and emotional bluntness.',
+        keywords: ['Principled', 'Decisive', 'Strong', 'Justice', 'Execution'],
+    },
+    '신': {
+        name: 'Sin Metal', hanja: '辛', element: 'Metal',
+        title: 'Jewel Type - Precision and Refinement',
+        personality: 'Sin Metal is refined like a jewel. Sensitive to quality, detail, and aesthetics.',
+        strength: 'Precision, taste, and analytical clarity.',
+        weakness: 'Over-sensitivity and chronic perfection stress.',
+        keywords: ['Precise', 'Refined', 'Analytical', 'Aesthetic', 'Sensitive'],
+    },
+    '임': {
+        name: 'Im Water', hanja: '壬', element: 'Water',
+        title: 'Ocean Type - Broad and Insightful',
+        personality: 'Im Water resembles the ocean: wide, strategic, and adaptive under change.',
+        strength: 'Big-picture thinking, intuition, and flexibility.',
+        weakness: 'Scattered focus and overextension.',
+        keywords: ['Insightful', 'Flexible', 'Strategic', 'Broad View', 'Adaptive'],
+    },
+    '계': {
+        name: 'Gye Water', hanja: '癸', element: 'Water',
+        title: 'Dew Type - Deep Sensitivity and Intuition',
+        personality: 'Gye Water is subtle like dew. Quietly observant, intuitive, and emotionally deep.',
+        strength: 'Empathy, intuition, and deep concentration.',
+        weakness: 'Low self-promotion and slow emotional recovery.',
+        keywords: ['Intuitive', 'Sensitive', 'Empathetic', 'Reflective', 'Deep'],
+    },
+};
 
 // ── 일간별 핵심 성격 (바넘 효과 + 구체성) ──
 const ILGAN_PROFILE: Record<string, {
@@ -190,6 +287,38 @@ const OHAENG_HEALTH: Record<string, { organ: string; risk: string; care: string 
     '수': { organ: '신장·방광·귀·뼈·생식기', risk: '신장·방광 약화, 만성 피로, 냉증', care: '따뜻한 음식, 족욕·온욕, 충분한 휴식과 수분 섭취' },
 };
 
+const OHAENG_CAREER_EN: Record<string, { main: string; good: string[]; caution: string }> = {
+    '목': { main: 'You tend to stand out in education, planning, media, legal work, and startup environments.', good: ['Teacher', 'Journalist', 'Writer', 'Lawyer', 'Founder'], caution: 'Excessively rigid and repetitive environments may limit your potential.' },
+    '화': { main: 'You tend to shine in creative, public-facing, and communication-heavy roles.', good: ['Performer', 'Marketer', 'Designer', 'Diplomat', 'Instructor'], caution: 'Low-stimulation routine work can quickly drain your motivation.' },
+    '토': { main: 'You tend to produce stable outcomes in practical and trust-based fields.', good: ['Doctor', 'Civil Servant', 'Real Estate Specialist', 'Chef', 'Manager'], caution: 'High-volatility environments may increase psychological burden.' },
+    '금': { main: 'You tend to excel in precision, authority, and rule-based professions.', good: ['Military/Police', 'Judge', 'Engineer', 'Accountant', 'Surgeon'], caution: 'Highly emotional service settings may increase friction.' },
+    '수': { main: 'You tend to perform deeply in research, strategy, psychology, and knowledge work.', good: ['Researcher', 'Counselor', 'Writer', 'Philosopher', 'Travel Specialist'], caution: 'Pressure for immediate short-term output can increase stress.' },
+};
+
+const OHAENG_WEALTH_EN: Record<string, { main: string; method: string; caution: string }> = {
+    '목': { main: 'A growth-type wealth pattern: slower early phase, stronger compounding later.', method: 'Knowledge/content business, education, long-term entrepreneurial bets', caution: 'Avoid rushing for quick gains; consistency is key.' },
+    '화': { main: 'Reputation-driven wealth: visibility and influence amplify income.', method: 'Brand building, audience leverage, communication-led opportunities', caution: 'Watch impulsive spending and image-driven expenses.' },
+    '토': { main: 'Steady asset-building pattern with stronger midlife stability.', method: 'Real estate, savings discipline, conservative asset allocation', caution: 'Over-caution may miss timing windows.' },
+    '금': { main: 'Scale-and-authority wealth pattern with strong earning potential.', method: 'Specialized credentials, high-value professions, strict financial planning', caution: 'Excessive rigidity may reduce opportunity capture.' },
+    '수': { main: 'Information-and-insight wealth pattern with trend sensitivity.', method: 'Data-driven investing, IT/digital opportunities, knowledge monetization', caution: 'Scattered bets and frequent pivots can dilute returns.' },
+};
+
+const OHAENG_LOVE_EN: Record<string, { style: string; ideal: string; caution: string }> = {
+    '목': { style: 'Devoted and growth-oriented love style.', ideal: 'A partner who respects your autonomy and long-term direction.', caution: 'Strong opinions can create avoidable conflicts.' },
+    '화': { style: 'Passionate and expressive romantic style.', ideal: 'A warm partner who can emotionally co-create with you.', caution: 'Mood swings can destabilize connection if unmanaged.' },
+    '토': { style: 'Trust-based, stable, and committed approach to love.', ideal: 'A grounded partner who values reliability and family.', caution: 'Low expression may be misunderstood as distance.' },
+    '금': { style: 'Principled and sincere in relationships.', ideal: 'A loyal partner who respects mutual standards and promises.', caution: 'Perfection standards may create relational pressure.' },
+    '수': { style: 'Deep, emotional, and mentally connected love style.', ideal: 'A partner who values dialogue, insight, and emotional nuance.', caution: 'Sensitivity to small remarks can accumulate hurt.' },
+};
+
+const OHAENG_HEALTH_EN: Record<string, { organ: string; risk: string; care: string }> = {
+    '목': { organ: 'Liver, gallbladder, eyes, muscles, tendons', risk: 'Stress-related fatigue, eye dryness, muscular tension', care: 'Fresh greens, aerobic exercise, and regular sleep rhythm' },
+    '화': { organ: 'Heart, blood vessels, small intestine, nervous system', risk: 'Cardio strain, sleep disruption, emotional exhaustion', care: 'Moderate stimulants, breathwork/meditation, structured recovery' },
+    '토': { organ: 'Stomach, spleen, pancreas, digestive system', risk: 'Digestive imbalance, overeating-related burden', care: 'Regular meals, lighter portions, daily walks' },
+    '금': { organ: 'Lungs, large intestine, skin, respiratory tract', risk: 'Respiratory issues, skin sensitivity, constipation tendency', care: 'Breathing exercises, hydration, balanced outdoor activity' },
+    '수': { organ: 'Kidneys, bladder, bones, reproductive system', risk: 'Cold sensitivity, chronic fatigue, urinary weakness', care: 'Warm foods, recovery-focused routines, hydration discipline' },
+};
+
 // ── 신살 데이터 ──
 const SINSAL_DATA: Record<string, { emoji: string; meaning: string; desc: string }> = {
     '도화살': { emoji: '🌸', meaning: '도화살(桃花殺)', desc: '인기와 매력의 기운. 이성과 대중의 시선을 끄는 강한 끌림의 에너지. 예술·방송·서비스업에서 두각을 나타내는 경향이 있습니다.' },
@@ -210,6 +339,25 @@ const SINSAL_DATA: Record<string, { emoji: string; meaning: string; desc: string
     '지살': { emoji: '👣', meaning: '지살(地殺)', desc: '역마살과 함께 활동 범위가 넓어지는 기운. 새로운 환경에 빠르게 적응하며 이동을 통해 발전합니다.' },
 };
 
+const SINSAL_DATA_EN: Record<string, { meaning: string; desc: string }> = {
+    '도화살': { meaning: 'Peach Blossom Star', desc: 'An attraction star that increases visibility, charm, and social magnetism.' },
+    '역마살': { meaning: 'Traveling Horse Star', desc: 'A movement star linked to travel, relocation, and dynamic career shifts.' },
+    '화개살': { meaning: 'Artistic Canopy Star', desc: 'A contemplative and artistic star supporting philosophy, spirituality, and creative depth.' },
+    '공망': { meaning: 'Void Star', desc: 'A temporary low-energy area that can become strength when intentionally supplemented.' },
+    '천을귀인': { meaning: 'Heavenly Nobleman Star', desc: 'A fortunate helper star that brings timely support in difficult moments.' },
+    '백호대살': { meaning: 'White Tiger Star', desc: 'A forceful breakthrough star with strong crisis-handling power.' },
+    '괴강살': { meaning: 'Kui Gang Star', desc: 'A high-authority star tied to leadership, control, and uncompromising will.' },
+    '홍염살': { meaning: 'Red Enchantment Star', desc: 'A warm charm star that attracts affection and favorable social response.' },
+    '양인살': { meaning: 'Blade Star', desc: 'An intense competitive star with sharp drive in high-pressure settings.' },
+    '문창귀인': { meaning: 'Literary Nobleman Star', desc: 'A learning and intellect star favorable for study, writing, and analysis.' },
+    '건록': { meaning: 'Establishment Star', desc: 'A self-made prosperity star linked to stable role, status, and income.' },
+    '현침살': { meaning: 'Needle Star', desc: 'A precision star related to sharp observation and detail-oriented work.' },
+    '귀문관살': { meaning: 'Mystic Gate Star', desc: 'A spiritual-intuition star tied to psychology, insight, and symbolic thinking.' },
+    '고신살/과숙살': { meaning: 'Solitude Stars', desc: 'A reflective star that deepens independence, philosophy, and internal growth.' },
+    '식신': { meaning: 'Food God Star', desc: 'A creative abundance star linked to expression, sustenance, and productivity.' },
+    '지살': { meaning: 'Ground Movement Star', desc: 'An activity star that broadens field experience and adaptability.' },
+};
+
 // ── 오행별 용신 판단 (간략화) ──
 function determineYongsin(balance: Record<string, number>, ilgan: string): { yongsin: string; gisin: string } {
     const ilOhaeng = CG_OHAENG[ilgan] || '목';
@@ -227,6 +375,14 @@ const YONGSIN_GAEUN: Record<string, { color: string[]; direction: string; number
     '토': { color: ['황색', '갈색', '베이지'], direction: '중앙', number: [5, 10], material: '도자기·황토', tips: '흙 관련 취미(도예·텃밭), 노란색 지갑, 중앙 위치에 집이나 사무실 배치' },
     '금': { color: ['흰색', '은색', '회색'], direction: '서쪽', number: [4, 9], material: '금속·은·보석', tips: '금속 장신구 착용, 서쪽 방향 외출, 가을에 중요 계획, 흰 옷 자주 착용' },
     '수': { color: ['검정', '남색', '보라'], direction: '북쪽', number: [1, 6], material: '유리·물', tips: '수족관이나 분수 인테리어, 물을 자주 마심, 겨울이 가장 강한 시기, 북향 공간 활용' },
+};
+
+const YONGSIN_GAEUN_EN: Record<string, { color: string[]; direction: string; number: number[]; material: string; tips: string }> = {
+    '목': { color: ['Green', 'Teal', 'Light Green'], direction: 'East', number: [3, 8], material: 'Wood', tips: 'Use plants, wood textures, and growth-focused routines. Start major initiatives in spring when possible.' },
+    '화': { color: ['Red', 'Orange', 'Pink'], direction: 'South', number: [2, 7], material: 'Light / Fire Symbolism', tips: 'Increase sunlight exposure, warm-toned environments, and expressive activities with good recovery balance.' },
+    '토': { color: ['Yellow', 'Brown', 'Beige'], direction: 'Center', number: [5, 10], material: 'Ceramic / Earth', tips: 'Strengthen routine and grounding habits. Focus on stability, nutrition, and practical execution.' },
+    '금': { color: ['White', 'Silver', 'Gray'], direction: 'West', number: [4, 9], material: 'Metal', tips: 'Use clean structure, metal accents, and disciplined planning. Prioritize precision over noise.' },
+    '수': { color: ['Black', 'Navy', 'Deep Blue'], direction: 'North', number: [1, 6], material: 'Glass / Water', tips: 'Protect rest, hydration, and reflection time. Build depth through consistent study and recovery.' },
 };
 
 // ── 연도별 간지 오행 ──
@@ -291,10 +447,9 @@ function determineSinsal(saju: SajuResult): string[] {
 }
 
 // ── 대운 생성 (간략화: 10년 주기 6개) ──
-function generateDaewoon(birthYear: number, ilgan: string, gender: string): DaewoonItem[] {
+function generateDaewoon(birthYear: number, ilgan: string, gender: string, locale: string): DaewoonItem[] {
     const baseAge = 5; // 5세부터 대운 시작
-    const ohaengs = ['목', '화', '토', '금', '수'];
-    const themes = [
+    const themesKo = [
         { theme: '학습·성장기', detail: '기초를 닦고 역량을 키우는 시간. 배움과 준비에 집중할수록 이후가 빛납니다.' },
         { theme: '도전·확장기', detail: '새로운 기회와 만남이 풍성한 시기. 주저하지 말고 도전하세요.' },
         { theme: '전성·성취기', detail: '노력의 결실이 맺히는 황금기. 중요한 결정을 과감히 내리십시오.' },
@@ -302,11 +457,24 @@ function generateDaewoon(birthYear: number, ilgan: string, gender: string): Daew
         { theme: '전환·심화기', detail: '내면을 돌아보고 방향을 재정립하는 시기. 변화를 두려워 말고 받아들이세요.' },
         { theme: '완성·지혜기', detail: '경험과 지혜가 진정한 힘이 되는 시기. 후배를 이끄는 역할이 어울립니다.' },
     ];
+    const themesEn = [
+        { theme: 'Learning & Foundation', detail: 'A phase to build fundamentals. Consistent learning compounds into future advantages.' },
+        { theme: 'Challenge & Expansion', detail: 'A dynamic phase with new opportunities and networks. Bold but structured action pays off.' },
+        { theme: 'Peak Achievement', detail: 'A high-yield period where past effort converts into visible results.' },
+        { theme: 'Stability & Harvest', detail: 'A consolidation phase where steady progress turns into durable gains.' },
+        { theme: 'Transition & Recalibration', detail: 'A period to review priorities and redesign direction with maturity.' },
+        { theme: 'Completion & Wisdom', detail: 'Experience becomes leverage. Mentoring and strategic guidance become natural strengths.' },
+    ];
     const ratings: Array<'great' | 'good' | 'neutral' | 'caution'> = ['good', 'great', 'great', 'good', 'neutral', 'good'];
+    const themes = locale === 'ko' ? themesKo : themesEn;
+    const stems = ['갑', '병', '무', '경', '임', '갑'];
+    const branches = ['인', '오', '술', '진', '자', '인'];
     return themes.map((t, i) => ({
-        age: `${baseAge + i * 10}~${baseAge + i * 10 + 9}세`,
-        cheongan: ['갑', '병', '무', '경', '임', '갑'][i],
-        jiji: ['인', '오', '술', '진', '자', '인'][i],
+        age: locale === 'ko'
+            ? `${baseAge + i * 10}~${baseAge + i * 10 + 9}세`
+            : `${baseAge + i * 10}-${baseAge + i * 10 + 9}`,
+        cheongan: stems[i],
+        jiji: branches[i],
         theme: t.theme,
         detail: t.detail,
         rating: ratings[i],
@@ -314,14 +482,15 @@ function generateDaewoon(birthYear: number, ilgan: string, gender: string): Daew
 }
 
 // ── 키워드 생성 ──
-function buildKeywords(ilgan: string, ohaengBalance: Record<string, number>, sinsal: string[]): string[] {
-    const profile = ILGAN_PROFILE[ilgan];
-    const keywords = [...(profile?.keywords.slice(0, 3) || [])];
-    if (sinsal.includes('도화')) keywords.push('인기운');
-    if (sinsal.includes('역마')) keywords.push('해외운');
-    if (sinsal.includes('귀인')) keywords.push('귀인덕');
+function buildKeywords(ilgan: string, ohaengBalance: Record<string, number>, sinsal: string[], locale: string): string[] {
+    const keywords = locale === 'ko'
+        ? [...((ILGAN_PROFILE[ilgan]?.keywords || []).slice(0, 3))]
+        : [...((ILGAN_PROFILE_EN[ilgan]?.keywords || []).slice(0, 3))];
+    if (sinsal.includes('도화살')) keywords.push(locale === 'ko' ? '인기운' : 'Attraction');
+    if (sinsal.includes('역마살')) keywords.push(locale === 'ko' ? '이동운' : 'Mobility');
+    if (sinsal.includes('천을귀인')) keywords.push(locale === 'ko' ? '귀인덕' : 'Noble Support');
     const max = Object.entries(ohaengBalance).sort((a, b) => b[1] - a[1])[0]?.[0];
-    if (max) keywords.push(`${max}기운 왕성`);
+    if (max) keywords.push(locale === 'ko' ? `${max}기운 왕성` : `${OHAENG_EN[max] || max} Dominant`);
     return keywords.slice(0, 6);
 }
 
@@ -329,8 +498,8 @@ function buildKeywords(ilgan: string, ohaengBalance: Record<string, number>, sin
 function calcRarity(ilgan: string, sinsal: string[]): number {
     const base: Record<string, number> = { '갑': 12, '을': 15, '병': 10, '정': 11, '무': 9, '기': 13, '경': 8, '신': 7, '임': 14, '계': 11 };
     let r = base[ilgan] || 10;
-    if (sinsal.includes('귀인')) r = Math.min(r, 7);
-    if (sinsal.includes('도화') && sinsal.includes('역마')) r = Math.min(r, 5);
+    if (sinsal.includes('천을귀인')) r = Math.min(r, 7);
+    if (sinsal.includes('도화살') && sinsal.includes('역마살')) r = Math.min(r, 5);
     return r;
 }
 
@@ -343,18 +512,21 @@ export function generateSajuResult(
     const isKo = locale === 'ko';
     const ilgan = saju.ilgan;
     const profile = ILGAN_PROFILE[ilgan] || ILGAN_PROFILE['갑'];
+    const profileEn = ILGAN_PROFILE_EN[ilgan] || ILGAN_PROFILE_EN['갑'];
     const iljoo = `${ilgan}${saju.day.jiji}`;
     const iljooProfile = ILJOO_PROFILES[iljoo];
     const ohaengBalance = analyzeOhaengBalance(saju);
     const { yongsin, gisin } = determineYongsin(ohaengBalance, ilgan);
     const sinsal = determineSinsal(saju);
-    const keywords = buildKeywords(ilgan, ohaengBalance, sinsal);
+    const keywords = buildKeywords(ilgan, ohaengBalance, sinsal, locale);
     const rarityPercent = calcRarity(ilgan, sinsal);
-    const gaeun = YONGSIN_GAEUN[yongsin];
-    const career = OHAENG_CAREER[profile.element];
-    const wealth = OHAENG_WEALTH[profile.element];
-    const love = OHAENG_LOVE[profile.element];
-    const health = OHAENG_HEALTH[profile.element];
+    const gaeun = (isKo ? YONGSIN_GAEUN[yongsin] : YONGSIN_GAEUN_EN[yongsin]) || (isKo ? YONGSIN_GAEUN['토'] : YONGSIN_GAEUN_EN['토']);
+    const career = isKo ? OHAENG_CAREER[profile.element] : OHAENG_CAREER_EN[profile.element];
+    const wealth = isKo ? OHAENG_WEALTH[profile.element] : OHAENG_WEALTH_EN[profile.element];
+    const love = isKo ? OHAENG_LOVE[profile.element] : OHAENG_LOVE_EN[profile.element];
+    const health = isKo ? OHAENG_HEALTH[profile.element] : OHAENG_HEALTH_EN[profile.element];
+    const yongsinLabel = isKo ? `${yongsin}(${OHAENG_HANJA[yongsin]})` : `${OHAENG_EN[yongsin]} (${OHAENG_HANJA[yongsin]})`;
+    const gisinLabel = isKo ? `${gisin}(${OHAENG_HANJA[gisin]})` : `${OHAENG_EN[gisin]} (${OHAENG_HANJA[gisin]})`;
 
     // 4주 display
     const makePillar = (cg: string, jj: string) => ({
@@ -374,89 +546,158 @@ export function generateSajuResult(
         return Math.round(80 - (max - min) * 5); // 균형이 좋을수록 높은 점수
     })();
     const ilganBase: Record<string, number> = { '갑': 78, '을': 75, '병': 80, '정': 77, '무': 73, '기': 74, '경': 79, '신': 76, '임': 77, '계': 74 };
-    const sinsalBonus = sinsal.includes('귀인') ? 5 : sinsal.includes('도화') ? 3 : 0;
+    const sinsalBonus = sinsal.includes('천을귀인') ? 5 : sinsal.includes('도화살') ? 3 : 0;
     const totalScore = Math.min(98, Math.max(55, Math.round((balanceScore + (ilganBase[ilgan] || 75) + sinsalBonus) / 2)));
 
-    const summaryLines = [
-        `${name}님의 일주는 ${iljooProfile ? iljooProfile.hanja : profile.hanja}(${iljoo})으로, 전체 사주 유형 중 상위 ${rarityPercent}%에 해당하는 특별한 기운입니다.`,
-        `오행 분포에서 ${yongsin}(${yongsin === '목' ? '木' : yongsin === '화' ? '火' : yongsin === '토' ? '土' : yongsin === '금' ? '金' : '水'})이 보강되면 삶의 에너지가 크게 상승합니다.`,
-        sinsal.includes('귀인')
-            ? `천을귀인(天乙貴人)의 기운을 가져, 어렵고 힘든 순간마다 반드시 귀인의 도움이 나타납니다.`
-            : `${sinsal[0] ? SINSAL_DATA[sinsal[0]]?.meaning : ''}의 기운이 강해 독특하고 매력적인 삶의 궤적을 그립니다.`,
-    ];
+    const summaryLines = isKo
+        ? [
+            `${name}님의 일주는 ${iljooProfile ? iljooProfile.hanja : profile.hanja}(${iljoo})으로, 전체 사주 유형 중 상위 ${rarityPercent}%에 해당하는 특별한 기운입니다.`,
+            `오행 분포에서 ${yongsinLabel}이 보강되면 삶의 에너지가 크게 상승합니다.`,
+            sinsal.includes('천을귀인')
+                ? '천을귀인(天乙貴人)의 기운으로 위기마다 도움의 손길이 나타나는 흐름입니다.'
+                : `${sinsal[0] ? SINSAL_DATA[sinsal[0]]?.meaning : '주요 신살'}의 영향이 강해 개성 있는 인생 궤적을 만듭니다.`,
+        ]
+        : [
+            `${name}'s day pillar is ${iljooProfile ? iljooProfile.hanja : profile.hanja} (${iljoo}), placing this chart within the top ${rarityPercent}% rarity profile.`,
+            `Strengthening the useful element ${yongsinLabel} tends to raise overall stability and momentum.`,
+            sinsal.includes('천을귀인')
+                ? 'The Heavenly Nobleman star is active, bringing timely support in difficult phases.'
+                : `The influence of ${SINSAL_DATA_EN[sinsal[0]]?.meaning || 'key stars'} creates a distinct and memorable life trajectory.`,
+        ];
 
-    // 누락 정보 안내
-    const hasTime = hour !== undefined;
+    const sections: SajuSection[] = isKo
+        ? [
+            {
+                icon: '🌟',
+                title: iljooProfile ? `${iljooProfile.hanja}(${iljoo}) — ${iljooProfile.nickname}` : `${profile.hanja}(${profile.name}) — ${profile.title}`,
+                content: iljooProfile ? iljooProfile.personality : profile.personality,
+                highlight: iljooProfile ? iljooProfile.special : `${name}님의 핵심 에너지는 "${profile.element}" 기운입니다`,
+                tags: profile.keywords,
+            },
+            {
+                icon: '⚖️',
+                title: '강점과 성장 포인트',
+                content: iljooProfile ? `【강점】 ${iljooProfile.strength}\n\n【성장 포인트】 ${iljooProfile.weakness}` : `【강점】 ${profile.strength}\n\n【성장 포인트】 ${profile.weakness}`,
+                highlight: '강점을 살리고 약점을 보완할 때 진정한 잠재력이 드러납니다',
+            },
+            {
+                icon: '🌀',
+                title: '오행 균형 분석',
+                content: `현재 ${name}님의 사주에서 ${yongsinLabel}이 가장 약하게 작용합니다. ${yongsinLabel} 보강이 핵심 과제입니다. 반면 ${gisinLabel}이 과도하면 관련 집착이나 충동이 삶을 흔들 수 있습니다.`,
+                highlight: `용신(用神): ${yongsin} · 기신(忌神): ${gisin}`,
+                tags: Object.entries(ohaengBalance).map(([k, v]) => `${k}${v}`),
+            },
+            {
+                icon: '💼',
+                title: '직업 적성과 재능',
+                content: iljooProfile ? `${name}님은 ${career.main}이 있습니다.\n\n【추천 분야】 ${career.good.join(' · ')}\n\n【일주 특성】 ${iljooProfile.career}\n\n【주의사항】 ${career.caution}` : `${name}님은 ${career.main}이 있습니다.\n\n추천 분야: ${career.good.join(' · ')}\n\n주의사항: ${career.caution}`,
+                highlight: `${name}님의 타고난 재능이 가장 빛나는 분야`,
+                score: Math.min(95, totalScore + 5),
+            },
+            {
+                icon: '💰',
+                title: '재물운과 경제 패턴',
+                content: `${name}님의 재물 패턴: ${wealth.main}\n\n추천 재테크: ${wealth.method}\n\n주의사항: ${wealth.caution}`,
+                highlight: '재물은 방법보다 타이밍이 중요합니다',
+                score: Math.min(95, totalScore - 3),
+            },
+            {
+                icon: '💕',
+                title: '연애·결혼운',
+                content: iljooProfile ? `【사랑 스타일】 ${love.style}\n\n【일주 특성】 ${iljooProfile.love}\n\n【이상적 파트너】 ${love.ideal}\n\n【주의사항】 ${love.caution}` : `사랑 스타일: ${love.style}\n\n이상적 파트너: ${love.ideal}\n\n주의사항: ${love.caution}`,
+                highlight: `${name}님과 가장 잘 맞는 인연의 유형`,
+                score: Math.min(95, totalScore + 3),
+            },
+            {
+                icon: '🌿',
+                title: '건강·체질 분석',
+                content: `주요 관련 장기: ${health.organ}\n\n주의 질환: ${health.risk}\n\n건강 관리법: ${health.care}`,
+                highlight: `${ilgan}${saju.day.jiji} 일주의 체질적 특성`,
+            },
+            {
+                icon: '✨',
+                title: `용신(${yongsin}) 기반 개운법`,
+                content: `${name}님의 용신은 ${yongsinLabel}입니다. 다음 방법으로 삶의 균형을 맞추세요.\n\n${gaeun?.tips}`,
+                highlight: `행운 방향: ${gaeun?.direction} · 행운색: ${gaeun?.color.join(', ')}`,
+                tags: gaeun?.color,
+            },
+        ]
+        : [
+            {
+                icon: '🌟',
+                title: iljooProfile ? `${iljooProfile.hanja} - ${iljooProfile.nicknameEn || iljooProfile.nickname}` : `${profileEn.hanja}(${profileEn.name}) - ${profileEn.title}`,
+                content: iljooProfile ? (iljooProfile.personalityEn || iljooProfile.personality) : profileEn.personality,
+                highlight: iljooProfile ? (iljooProfile.specialEn || iljooProfile.special) : `${name}'s core energy is ${profileEn.element}.`,
+                tags: profileEn.keywords,
+            },
+            {
+                icon: '⚖️',
+                title: 'Strengths & Growth Points',
+                content: iljooProfile
+                    ? `[Strength] ${iljooProfile.strengthEn || iljooProfile.strength}\n\n[Growth Point] ${iljooProfile.weaknessEn || iljooProfile.weakness}`
+                    : `[Strength] ${profileEn.strength}\n\n[Growth Point] ${profileEn.weakness}`,
+                highlight: 'Your best outcomes appear when strengths are structured and weaknesses are managed.',
+            },
+            {
+                icon: '🌀',
+                title: 'Five Elements Balance Analysis',
+                content: `In your chart, ${yongsinLabel} is relatively underrepresented. Reinforcing this element is the primary balancing strategy. Meanwhile, excessive ${gisinLabel} can amplify fixation or overreaction.`,
+                highlight: `Useful Element: ${OHAENG_EN[yongsin]} · Excess Element: ${OHAENG_EN[gisin]}`,
+                tags: Object.entries(ohaengBalance).map(([k, v]) => `${OHAENG_EN[k]}${v}`),
+            },
+            {
+                icon: '💼',
+                title: 'Career & Talent Pattern',
+                content: iljooProfile
+                    ? `${career.main}\n\n[Recommended Fields] ${career.good.join(' · ')}\n\n[Day-Pillar Trait] ${iljooProfile.careerEn || iljooProfile.career}\n\n[Caution] ${career.caution}`
+                    : `${career.main}\n\nRecommended fields: ${career.good.join(' · ')}\n\nCaution: ${career.caution}`,
+                highlight: `Where ${name}'s natural strengths are most likely to compound`,
+                score: Math.min(95, totalScore + 5),
+            },
+            {
+                icon: '💰',
+                title: 'Wealth & Financial Pattern',
+                content: `Wealth pattern: ${wealth.main}\n\nRecommended strategy: ${wealth.method}\n\nCaution: ${wealth.caution}`,
+                highlight: 'Timing and consistency matter more than intensity.',
+                score: Math.min(95, totalScore - 3),
+            },
+            {
+                icon: '💕',
+                title: 'Love & Partnership Pattern',
+                content: iljooProfile
+                    ? `[Love Style] ${love.style}\n\n[Day-Pillar Trait] ${iljooProfile.loveEn || iljooProfile.love}\n\n[Ideal Partner] ${love.ideal}\n\n[Caution] ${love.caution}`
+                    : `Love style: ${love.style}\n\nIdeal partner: ${love.ideal}\n\nCaution: ${love.caution}`,
+                highlight: `The relationship dynamic most compatible with ${name}`,
+                score: Math.min(95, totalScore + 3),
+            },
+            {
+                icon: '🌿',
+                title: 'Health & Constitution',
+                content: `Key organs: ${health.organ}\n\nPotential risk: ${health.risk}\n\nCare routine: ${health.care}`,
+                highlight: `${iljooProfile?.hanja || ((ILGAN_PROFILE[ilgan]?.hanja || ilgan) + (JIJI_HANJA[saju.day.jiji] || saju.day.jiji))} constitution profile`,
+            },
+            {
+                icon: '✨',
+                title: `Fortune Practices for ${OHAENG_EN[yongsin]} (${OHAENG_HANJA[yongsin]})`,
+                content: `Your useful element is ${yongsinLabel}. Apply the following to improve balance:\n\n${gaeun?.tips}`,
+                highlight: `Lucky direction: ${gaeun?.direction} · Lucky colors: ${gaeun?.color.join(', ')}`,
+                tags: gaeun?.color,
+            },
+        ];
 
-    const sections: SajuSection[] = [
-        // 1. 일간/일주 핵심 성격
-        {
-            icon: '🌟', title: iljooProfile ? `${iljooProfile.hanja}(${iljoo}) — ${iljooProfile.nickname}` : `${profile.hanja}(${profile.name}) — ${profile.title}`,
-            content: iljooProfile ? iljooProfile.personality : profile.personality,
-            highlight: iljooProfile ? iljooProfile.special : `${name}님의 핵심 에너지는 "${profile.element}" 기운입니다`,
-            tags: profile.keywords,
-        },
-        // 2. 강점과 약점
-        {
-            icon: '⚖️', title: '강점과 성장 포인트',
-            content: iljooProfile ? `【강점】 ${iljooProfile.strength}\n\n【성장 포인트】 ${iljooProfile.weakness}` : `【강점】 ${profile.strength}\n\n【성장 포인트】 ${profile.weakness}`,
-            highlight: '강점을 살리고 약점을 보완할 때 진정한 잠재력이 드러납니다',
-        },
-        // 3. 오행 균형
-        {
-            icon: '🌀', title: '오행 균형 분석',
-            content: `현재 ${name}님의 사주에서 ${yongsin}(${yongsin})이 가장 약하게 작용합니다. ${yongsin} 오행을 보강하는 것이 인생의 핵심 과제입니다. 반면 ${gisin}이 과도하게 강해 ${gisin} 관련 충동이나 집착이 삶을 흔들 수 있습니다.`,
-            highlight: `용신(用神): ${yongsin} · 기신(忌神): ${gisin}`,
-            tags: Object.entries(ohaengBalance).map(([k, v]) => `${k}${v}`),
-        },
-        // 4. 직업·재능
-        {
-            icon: '💼', title: '직업 적성과 재능',
-            content: iljooProfile ? `${name}님은 ${career.main}이 있습니다.\n\n【추천 분야】 ${career.good.join(' · ')}\n\n【일주 특성】 ${iljooProfile.career}\n\n【주의사항】 ${career.caution}` : `${name}님은 ${career.main}이 있습니다.\n\n추천 분야: ${career.good.join(' · ')}\n\n주의사항: ${career.caution}`,
-            highlight: `${name}님의 타고난 재능이 가장 빛나는 분야`,
-            score: Math.min(95, totalScore + 5),
-        },
-        // 5. 재물운
-        {
-            icon: '💰', title: '재물운과 경제 패턴',
-            content: `${name}님의 재물 패턴: ${wealth.main}\n\n추천 재테크: ${wealth.method}\n\n주의사항: ${wealth.caution}`,
-            highlight: '재물은 방법보다 타이밍이 중요합니다',
-            score: Math.min(95, totalScore - 3),
-        },
-        // 6. 연애·인연
-        {
-            icon: '💕', title: '연애·결혼운',
-            content: iljooProfile ? `【사랑 스타일】 ${love.style}\n\n【일주 특성】 ${iljooProfile.love}\n\n【이상적 파트너】 ${love.ideal}\n\n【주의사항】 ${love.caution}` : `사랑 스타일: ${love.style}\n\n이상적 파트너: ${love.ideal}\n\n주의사항: ${love.caution}`,
-            highlight: `${name}님과 가장 잘 맞는 인연의 유형`,
-            score: Math.min(95, totalScore + 3),
-        },
-        // 7. 건강
-        {
-            icon: '🌿', title: '건강·체질 분석',
-            content: `주요 관련 장기: ${health.organ}\n\n주의 질환: ${health.risk}\n\n건강 관리법: ${health.care}`,
-            highlight: `${ilgan}${saju.day.jiji} 일주의 체질적 특성`,
-        },
-        // 8. 개운법
-        {
-            icon: '✨', title: `용신(${yongsin}) 기반 개운법`,
-            content: `${name}님의 용신은 ${yongsin}입니다. 다음 방법으로 삶의 균형을 맞추세요.\n\n${gaeun?.tips}`,
-            highlight: `행운 방향: ${gaeun?.direction} · 행운색: ${gaeun?.color.join(', ')}`,
-            tags: gaeun?.color,
-        },
-    ];
-
-    const daewoonList = generateDaewoon(year, ilgan, gender);
+    const daewoonList = generateDaewoon(year, ilgan, gender, locale);
     const currentYear = new Date().getFullYear();
     const currentAge = currentYear - year + 1;
-    
+
     let currentDaewoon = daewoonList[0];
     for (const dw of daewoonList) {
-        const [start, end] = dw.age.replace('세', '').split('~').map(Number);
+        const [start, end] = (dw.age.match(/\d+/g) || []).map(Number);
+        if (!Number.isFinite(start) || !Number.isFinite(end)) continue;
         if (currentAge >= start && currentAge <= end) {
             currentDaewoon = dw;
             break;
         } else if (currentAge > end) {
-             currentDaewoon = dw;
+            currentDaewoon = dw;
         }
     }
     const currentDaewoonOhaeng = CG_OHAENG[currentDaewoon.cheongan] || '목';
@@ -467,22 +708,44 @@ export function generateSajuResult(
     
     const combo2025 = DAEWOON_SEWOON_CROSS[currentDaewoonOhaeng]?.[y2025Ohaeng];
     const seWoon2025: SajuSection = {
-        icon: '📅', title: `2025년 을사년(乙巳年) 운세 - ${combo2025?.theme || '성장의 시기'}`,
-        content: combo2025 ? `현재 ${name}님의 대운 오행(${currentDaewoonOhaeng})과 2025년 세운 오행(${y2025Ohaeng})이 만나는 시기입니다.\n\n${combo2025.detail}` : `2025년은 을목(乙木)과 사화(巳火)의 해입니다. 새로운 기회를 향해 도약하는 한 해가 될 것입니다.`,
-        highlight: combo2025 ? combo2025.advice : '상반기 준비, 하반기 실행',
+        icon: '📅',
+        title: isKo
+            ? `2025년 을사년(乙巳年) 운세 - ${combo2025?.theme || '성장의 시기'}`
+            : `Fortune for 2025 (Eulsa Year) - ${combo2025?.themeEn || 'Growth Phase'}`,
+        content: combo2025
+            ? (isKo
+                ? `현재 ${name}님의 대운 오행(${currentDaewoonOhaeng})과 2025년 세운 오행(${y2025Ohaeng})이 만나는 시기입니다.\n\n${combo2025.detail}`
+                : `Your current 10-year cycle element (${OHAENG_EN[currentDaewoonOhaeng]}) intersects with the annual 2025 element (${OHAENG_EN[y2025Ohaeng]}).\n\n${combo2025.detailEn}`)
+            : (isKo
+                ? '2025년은 을목(乙木)과 사화(巳火)의 해입니다. 새로운 기회를 향해 도약하는 한 해가 될 것입니다.'
+                : '2025 carries Eul Wood and Sa Fire energy, favoring fresh initiatives and directional momentum.'),
+        highlight: combo2025 ? (isKo ? combo2025.advice : combo2025.adviceEn) : (isKo ? '상반기 준비, 하반기 실행' : 'Prepare in H1, execute in H2'),
     };
 
     const combo2026 = DAEWOON_SEWOON_CROSS[currentDaewoonOhaeng]?.[y2026Ohaeng];
     const seWoon2026: SajuSection = {
-        icon: '🗓️', title: `2026년 병오년(丙午年) 운세 - ${combo2026?.theme || '열정의 시기'}`,
-        content: combo2026 ? `현재 ${name}님의 대운 오행(${currentDaewoonOhaeng})과 2026년 세운 오행(${y2026Ohaeng})이 만나는 시기입니다.\n\n${combo2026.detail}` : `2026년은 병화(丙火)와 오화(午火)의 해로 화(火) 기운이 강한 해입니다. 열정을 발휘하여 성과를 내는 시기입니다.`,
-        highlight: combo2026 ? combo2026.advice : '변화와 에너지 관리가 핵심',
+        icon: '🗓️',
+        title: isKo
+            ? `2026년 병오년(丙午年) 운세 - ${combo2026?.theme || '열정의 시기'}`
+            : `Fortune for 2026 (Byeongo Year) - ${combo2026?.themeEn || 'Passion Phase'}`,
+        content: combo2026
+            ? (isKo
+                ? `현재 ${name}님의 대운 오행(${currentDaewoonOhaeng})과 2026년 세운 오행(${y2026Ohaeng})이 만나는 시기입니다.\n\n${combo2026.detail}`
+                : `Your current 10-year cycle element (${OHAENG_EN[currentDaewoonOhaeng]}) intersects with the annual 2026 element (${OHAENG_EN[y2026Ohaeng]}).\n\n${combo2026.detailEn}`)
+            : (isKo
+                ? '2026년은 병화(丙火)와 오화(午火)의 해로 화(火) 기운이 강한 해입니다. 열정을 발휘하여 성과를 내는 시기입니다.'
+                : '2026 emphasizes Fire energy, favoring visibility, execution, and decisive momentum.'),
+        highlight: combo2026 ? (isKo ? combo2026.advice : combo2026.adviceEn) : (isKo ? '변화와 에너지 관리가 핵심' : 'Balance momentum with recovery'),
     };
 
     // 신살
     let sinsalDesc = sinsal.map(s => {
         const d = SINSAL_DATA[s];
-        return d ? `${d.emoji} ${d.meaning}: ${d.desc}` : '';
+        const de = SINSAL_DATA_EN[s];
+        if (!d) return '';
+        return isKo
+            ? `${d.emoji} ${d.meaning}: ${d.desc}`
+            : `${d.emoji} ${de?.meaning || d.meaning}: ${de?.desc || d.desc}`;
     }).filter(Boolean).join('\n\n');
 
     // 신살 조합 시너지 체크
@@ -491,28 +754,31 @@ export function generateSajuResult(
     });
 
     if (activeCombos.length > 0) {
-        const comboText = activeCombos.map(c => `\n\n[특별한 기운의 조합: ${c.title}]\n${isKo ? c.effect : c.effectEn}`).join('');
+        const comboText = activeCombos.map(c => isKo
+            ? `\n\n[특별한 기운의 조합: ${c.title}]\n${c.effect}`
+            : `\n\n[Special Synergy: ${c.titleEn}]\n${c.effectEn}`).join('');
         sinsalDesc += comboText;
     }
 
     const sinsal_section: SajuSection = {
-        icon: '🔯', title: '신살(神殺) 분석',
-        content: sinsalDesc || '특별한 신살 없이 균형 잡힌 기운을 가졌습니다.',
-        highlight: `${name}님의 사주에 담긴 특별한 기운`,
+        icon: '🔯',
+        title: isKo ? '신살(神殺) 분석' : 'Star Influence Analysis',
+        content: sinsalDesc || (isKo ? '특별한 신살 없이 균형 잡힌 기운을 가졌습니다.' : 'No extreme star pressure is dominant. The chart shows relatively balanced tendencies.'),
+        highlight: isKo ? `${name}님의 사주에 담긴 특별한 기운` : `Distinctive energetic signatures in ${name}'s chart`,
         tags: sinsal,
     };
 
     const luckyElements = {
-        color: gaeun?.color || ['금색'],
-        direction: gaeun?.direction || '동쪽',
+        color: gaeun?.color || (isKo ? ['금색'] : ['Gold']),
+        direction: gaeun?.direction || (isKo ? '동쪽' : 'East'),
         number: gaeun?.number || [1, 6],
-        material: gaeun?.material || '나무',
+        material: gaeun?.material || (isKo ? '나무' : 'Wood'),
     };
 
     return {
-        ilganName: `${profile.hanja}(${profile.name})`,
+        ilganName: isKo ? `${profile.hanja}(${profile.name})` : `${profile.hanja} (${profileEn.name})`,
         iljanHanja: profile.hanja,
-        ilganOhaeng: profile.element,
+        ilganOhaeng: isKo ? profile.element : (OHAENG_EN[profile.element] || profile.element),
         totalScore,
         keywords,
         rarityPercent,
@@ -522,7 +788,7 @@ export function generateSajuResult(
         gisin,
         summaryLines,
         sections,
-        daewoon: generateDaewoon(year, ilgan, gender),
+        daewoon: daewoonList,
         seWoon2025,
         seWoon2026,
         sinsal: sinsal_section,

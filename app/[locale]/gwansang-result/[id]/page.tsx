@@ -2,6 +2,7 @@
 
 import { useParams, useRouter } from 'next/navigation';
 import { useEffect, useState, useMemo } from 'react';
+import { RESULT_REVEAL_DELAY_MS } from '../../../../lib/constants/analysis-delay';
 import Navigation from '../../../../components/Navigation';
 import Footer from '../../../../components/Footer';
 import AdSense from '../../../../components/AdSense';
@@ -212,7 +213,7 @@ export default function GwansangResultPage() {
         // sessionStorage에서 이미지 복원
         const img = sessionStorage.getItem('gwansang_front');
         if (img) setFrontImg(img);
-        const t = setTimeout(() => setLoadingDone(true), 3000);
+        const t = setTimeout(() => setLoadingDone(true), RESULT_REVEAL_DELAY_MS);
         return () => clearTimeout(t);
     }, [inputData, locale]);
 

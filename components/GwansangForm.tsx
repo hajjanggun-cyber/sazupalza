@@ -128,7 +128,9 @@ function PhotoBox({
                     )}
                     {!analyzing && faceError && (
                         <div className="absolute bottom-2 left-2 right-2 bg-orange-900/80 border border-orange-500/50 rounded-lg px-2 py-1 text-center">
-                            <p className="text-orange-300 text-xs font-bold">⚠ {isKo ? '얼굴 미감지 — 계속 진행 가능' : 'Face not detected — still OK'}</p>
+                            <p className="text-orange-300 text-xs font-bold">
+                                ⚠ {isKo ? '얼굴 인식 실패 — 다시 촬영해 주세요' : 'Face not recognized - please retake'}
+                            </p>
                         </div>
                     )}
                 </div>
@@ -208,10 +210,25 @@ export default function GwansangForm() {
             // Tiny Face Detector의 scoreThreshold 를 대폭 낮춰 약간 흐릿하거나 먼 사진도 감지하게 함 (기본 0.5 -> 0.1)
             // inputSize도 키워 큰 스마트폰 해상도에서도 얼굴을 더 잘 찾도록 보정 (416 -> 512)
             const options = new faceapi.TinyFaceDetectorOptions({ inputSize: 512, scoreThreshold: 0.1 });
-            const detection = await faceapi
+            let detection = await faceapi
                 .detectSingleFace(img, options)
                 .withFaceLandmarks(true)
                 .withFaceExpressions();
+
+            // 단일 감지 실패 시 다중 감지로 폴백 후 가장 큰 얼굴을 사용
+            if (!detection) {
+                const detections = await faceapi
+                    .detectAllFaces(img, options)
+                    .withFaceLandmarks(true)
+                    .withFaceExpressions();
+                if (detections.length > 0) {
+                    detection = detections.sort((a, b) => {
+                        const areaA = a.detection.box.width * a.detection.box.height;
+                        const areaB = b.detection.box.width * b.detection.box.height;
+                        return areaB - areaA;
+                    })[0];
+                }
+            }
 
             if (!detection) {
                 // 얼굴이라고 판단하기 힘든 경우
@@ -228,7 +245,8 @@ export default function GwansangForm() {
                 setError(false);
                 onResult?.(result);
             }
-        } catch {
+        } catch (err) {
+            console.error('Gwansang face analysis failed:', err);
             setError(true);
         } finally {
             setAnalyzing(false);
@@ -365,6 +383,27 @@ export default function GwansangForm() {
                 <div className="bg-blue-900/20 border border-blue-700/30 rounded-lg p-3 text-center">
                     <p className="text-blue-300 text-xs font-bold">
                         💡 {isKo ? '측면 사진을 추가하면 분석 정확도가 95%로 높아집니다' : 'Add side profile to boost accuracy to 95%'}
+                    </p>
+                </div>
+            )}
+
+            {/* 정면 인식 실패 시 재촬영 안내 */}
+            {frontError && !frontAnalyzing && (
+                <div className="bg-orange-900/20 border border-orange-700/30 rounded-lg p-3 text-center">
+                    <p className="text-orange-300 text-xs font-bold">
+                        {isKo
+                            ? '⚠ 정면 얼굴 인식이 어렵습니다. 밝은 곳에서 얼굴이 크게 나오도록 정면으로 다시 촬영해 주세요.'
+                            : '⚠ Front face could not be recognized. Please retake in good lighting, facing the camera, with your face filling the frame.'}
+                    </p>
+                </div>
+            )}
+
+            {sideError && !sideAnalyzing && (
+                <div className="bg-orange-900/20 border border-orange-700/30 rounded-lg p-3 text-center">
+                    <p className="text-orange-300 text-xs font-bold">
+                        {isKo
+                            ? '⚠ 측면 얼굴 인식이 어렵습니다. 얼굴 윤곽(코끝~턱선)이 선명하게 보이도록 옆으로 돌아서 다시 촬영해 주세요.'
+                            : '⚠ Side profile could not be recognized. Please retake from the side so your nose tip and jawline are clearly visible.'}
                     </p>
                 </div>
             )}

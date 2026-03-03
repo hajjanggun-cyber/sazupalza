@@ -2,6 +2,7 @@
 
 import { useParams, useRouter } from 'next/navigation';
 import { useMemo, useEffect, useState } from 'react';
+import { RESULT_REVEAL_DELAY_MS } from '../../../../lib/constants/analysis-delay';
 import Navigation from '../../../../components/Navigation';
 import Footer from '../../../../components/Footer';
 import AdSense from '../../../../components/AdSense';
@@ -70,7 +71,7 @@ export default function PersonalityResultPage() {
             const t = setTimeout(() => router.push(`/${locale}`), 100);
             return () => clearTimeout(t);
         }
-        const t = setTimeout(() => setLoadingDone(true), 3000);
+        const t = setTimeout(() => setLoadingDone(true), RESULT_REVEAL_DELAY_MS);
         return () => clearTimeout(t);
     }, [inputData, locale, router]);
 

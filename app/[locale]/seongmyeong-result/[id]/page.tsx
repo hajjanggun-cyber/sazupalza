@@ -5,6 +5,7 @@ import { useMemo, useEffect, useState } from 'react';
 import { calculateName } from '../../../../lib/calculator/name-calculator';
 import { suriData } from '../../../../lib/data/name/suri81';
 import { soundOhaeng, extractChosung, analyzeSoundOhaengRelation } from '../../../../lib/data/name/orhaeng-sound';
+import { RESULT_REVEAL_DELAY_MS } from '../../../../lib/constants/analysis-delay';
 import Navigation from '../../../../components/Navigation';
 import Footer from '../../../../components/Footer';
 import AdSense from '../../../../components/AdSense';
@@ -123,7 +124,7 @@ export default function SeongmyeongResultPage() {
 
     useEffect(() => {
         if (!inputData) router.push(`/${locale}`);
-        const t = setTimeout(() => setLoadingDone(true), 3000);
+        const t = setTimeout(() => setLoadingDone(true), RESULT_REVEAL_DELAY_MS);
         return () => clearTimeout(t);
     }, [inputData, locale]);
 

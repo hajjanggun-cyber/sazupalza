@@ -253,7 +253,7 @@ function buildIlganAnalysis(saju: SajuResult, locale: string): ResultSection {
       : 'Gye-Water (癸水) represents Yin Water energy, like dew or a spring — clear and pure. You tend to have delicate sensitivity and intuition with a rich inner world. Your strong academic curiosity and intellectual drive allow you to achieve deep results in your own quiet way.',
   };
 
-  const desc = ilganDeep[ilgan] || (locale === 'ko' ? `${ilgan} 일간의 기운을 가지고 있습니다.` : `You possess the energy of ${ilgan} Day Stem.`);
+  const desc = ilganDeep[ilgan] || (locale === 'ko' ? `${ilgan} 일간의 기운을 가지고 있습니다.` : `You possess the energy of ${getIlganHanja(ilgan)} Day Stem.`);
   const careerHint = data?.career?.map(c => translateData(c, locale)).join(', ') || (locale === 'ko' ? '다양한 분야' : 'Various fields');
   const relationHint = translateData(data?.relationship || '', locale) || (locale === 'ko' ? '진실한 소통을 중시하는 경향이 있습니다' : 'You tend to value sincere communication');
 
@@ -264,7 +264,7 @@ function buildIlganAnalysis(saju: SajuResult, locale: string): ResultSection {
   const hanja = getIlganHanja(ilgan);
   return {
     icon: '🌟',
-    title: locale === 'ko' ? `일간(日干) 분석 - ${ilgan}(${hanja})` : `Day Stem (日干) Analysis - ${ilgan}(${hanja})`,
+    title: locale === 'ko' ? `일간(日干) 분석 - ${ilgan}(${hanja})` : `Day Stem (日干) Analysis - ${hanja}`,
     content,
     subItems: data ? [
       { 
@@ -667,9 +667,17 @@ function buildNameDetailSection(name: NameAnalysisResult, saju: SajuResult, loca
   const sajuOhaeng = CG_OHAENG[saju.ilgan] || '목';
   const nameOhaeng = name.soundOhaengList?.[1] || name.soundOhaengList?.[0] || '토';
   const combo = NAME_SAJU_COMBO[sajuOhaeng]?.[nameOhaeng];
+  const relationEn: Record<string, string> = {
+    '상생': 'Mutual Generation',
+    '상극': 'Mutual Overcoming',
+    '비화': 'Same Element Amplification',
+  };
+  const relationLabel = locale === 'ko' ? (combo?.relation || '') : (relationEn[combo?.relation || ''] || combo?.relation || '');
 
   const comboContent = combo 
-    ? `\n\n[사주+성명 조합: ${locale === 'ko' ? combo.title : combo.titleEn}]\n${locale === 'ko' ? combo.effect : combo.effectEn}\n(조언) ${locale === 'ko' ? combo.advice : combo.adviceEn}` 
+    ? (locale === 'ko'
+      ? `\n\n[사주+성명 조합: ${combo.title}]\n${combo.effect}\n(조언) ${combo.advice}`
+      : `\n\n[Saju + Name Synergy: ${combo.titleEn}]\n${combo.effectEn}\n(Advice) ${combo.adviceEn}`)
     : '';
 
   const content = locale === 'ko'
@@ -703,7 +711,7 @@ function buildNameDetailSection(name: NameAnalysisResult, saju: SajuResult, loca
         label: locale === 'ko' ? '소리오행' : 'Sound Elements', 
         value: `${name.soundOhaengList?.join(' → ') || ''} (${locale === 'ko' ? soundKey : (soundKeyEn[soundKey] || soundKey)})` 
       },
-      { label: locale === 'ko' ? '사주-성명 오행' : 'Saju-Name Elements', value: `${sajuOhaeng} - ${nameOhaeng} (${combo?.relation || ''})` },
+      { label: locale === 'ko' ? '사주-성명 오행' : 'Saju-Name Elements', value: `${locale === 'ko' ? sajuOhaeng : translateData(sajuOhaeng, locale)} - ${locale === 'ko' ? nameOhaeng : translateData(nameOhaeng, locale)} (${relationLabel})` },
     ],
   };
 }
@@ -831,8 +839,8 @@ export function generateResult(params: {
   const guardian = getGuardianByOhaeng(strongOhaeng);
 
   const analysisBox = {
-    ilgan: locale === 'ko' ? `일간: ${saju.ilgan}(${getIlganHanja(saju.ilgan)})` : `Day Stem: ${saju.ilgan}(${getIlganHanja(saju.ilgan)})`,
-    wolji: locale === 'ko' ? `월지: ${saju.month.jiji}(${getJijiHanja(saju.month.jiji)})` : `Month Branch: ${saju.month.jiji}(${getJijiHanja(saju.month.jiji)})`,
+    ilgan: locale === 'ko' ? `일간: ${saju.ilgan}(${getIlganHanja(saju.ilgan)})` : `Day Stem: ${getIlganHanja(saju.ilgan)}`,
+    wolji: locale === 'ko' ? `월지: ${saju.month.jiji}(${getJijiHanja(saju.month.jiji)})` : `Month Branch: ${getJijiHanja(saju.month.jiji)}`,
     wongyeok: name.wongyeok,
     hyeongyeok: name.hyeongyeok,
     soundOhaeng: (name.soundOhaengList?.join('-') || '') +
@@ -850,7 +858,7 @@ export function generateResult(params: {
     `성명의 기운이 ${wonRating === 'great' || wonRating === 'good' ? '좋은' : '중립적인'} 방향으로 작용하는 경향이 있습니다`,
     `수호신 ${guardian.nameKo}(${guardian.emoji})의 기운이 함께합니다. ${guardian.luckyMessage}`,
   ] : [
-    `${saju.ilgan} Day Stem with a strong tendency toward ${translateData(strongOhaeng, locale)} energy`,
+    `${getIlganHanja(saju.ilgan)} Day Stem with a strong tendency toward ${translateData(strongOhaeng, locale)} energy`,
     `The energy of your name tends to work in a ${wonRating === 'great' || wonRating === 'good' ? 'positive' : 'neutral'} direction`,
     `Guardian ${guardian.nameEn} (${guardian.emoji}) is with you. ${guardian.luckyMessageEn ?? guardian.luckyMessage}`,
   ];
