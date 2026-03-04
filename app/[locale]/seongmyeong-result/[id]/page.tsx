@@ -6,9 +6,14 @@ import { calculateName } from '../../../../lib/calculator/name-calculator';
 import { suriData } from '../../../../lib/data/name/suri81';
 import { soundOhaeng, extractChosung, analyzeSoundOhaengRelation } from '../../../../lib/data/name/orhaeng-sound';
 import { SINGLE_RESULT_REVEAL_DELAY_MS } from '../../../../lib/constants/analysis-delay';
+import { readResultPayload } from '../../../../lib/client/result-storage';
+import { getAnalysisStartUrl } from '../../../../lib/client/share-links';
 import Navigation from '../../../../components/Navigation';
 import Footer from '../../../../components/Footer';
 import AdSense from '../../../../components/AdSense';
+import ResultNextSteps from '../../../../components/ResultNextSteps';
+import ResultUnavailableState from '../../../../components/ResultUnavailableState';
+import { buildLocalizedHref } from '@/lib/seo';
 
 // ════════ 타입 ════════
 interface SeongmyeongInput {
@@ -25,13 +30,7 @@ interface SeongmyeongInput {
 }
 
 function decodeInput(id: string): SeongmyeongInput | null {
-    try {
-        const base64 = id.replace(/-/g, '+').replace(/_/g, '/');
-        const padding = '='.repeat((4 - (base64.length % 4)) % 4);
-        const binStr = atob(base64 + padding);
-        const bytes = Uint8Array.from(binStr, c => c.charCodeAt(0));
-        return JSON.parse(new TextDecoder().decode(bytes));
-    } catch { return null; }
+    return readResultPayload<SeongmyeongInput>('seongmyeong', id);
 }
 
 // ════════ 오행 설정 ════════
@@ -117,16 +116,29 @@ export default function SeongmyeongResultPage() {
     const locale = (params.locale as string) || 'ko';
     const id = params.id as string;
     const isKo = locale === 'ko';
+    const [mounted, setMounted] = useState(false);
 
-    const inputData = useMemo(() => decodeInput(id), [id]);
+    const inputData = useMemo(() => (mounted ? decodeInput(id) : null), [id, mounted]);
     const [loadingDone, setLoadingDone] = useState(false);
     const [copied, setCopied] = useState(false);
 
     useEffect(() => {
-        if (!inputData) router.push(`/${locale}`);
+        setMounted(true);
+    }, []);
+
+    useEffect(() => {
+        if (!mounted) {
+            return;
+        }
+
+        if (!inputData) return;
         const t = setTimeout(() => setLoadingDone(true), SINGLE_RESULT_REVEAL_DELAY_MS);
         return () => clearTimeout(t);
-    }, [inputData, locale, router]);
+    }, [inputData, locale, mounted, router]);
+
+    if (mounted && !inputData) {
+        return <ResultUnavailableState locale={locale} retryPath={buildLocalizedHref(locale, '/seongmyeong-analysis')} />;
+    }
 
     if (!inputData) return null;
 
@@ -134,7 +146,7 @@ export default function SeongmyeongResultPage() {
     if (!loadingDone) return <LoadingScreen name={displayName} isKo={isKo} />;
 
     const handleCopy = async () => {
-        await navigator.clipboard.writeText(window.location.href).catch(() => { });
+        await navigator.clipboard.writeText(getAnalysisStartUrl(locale, 'seongmyeong')).catch(() => { });
         setCopied(true);
         setTimeout(() => setCopied(false), 2500);
     };
@@ -568,15 +580,22 @@ export default function SeongmyeongResultPage() {
                 </div>
 
                 {/* 공유 */}
-                <div className="flex gap-3 mb-8">
+                <div className="flex flex-wrap gap-3 mb-8">
+                    <p className="w-full text-yellow-200/50 text-xs text-center mb-3">
+                        {isKo
+                            ? '개인 결과는 이 기기에서만 보관됩니다. 공유 시에는 새 분석 페이지 링크만 전달됩니다.'
+                            : 'Private results stay on this device. Sharing only sends the analysis start page.'}
+                    </p>
                     <button className="share-btn share-link flex-1 justify-center" onClick={handleCopy}>
                         <span>{copied ? '✅' : '🔗'}</span>
-                        <span>{copied ? (isKo ? '복사됨!' : 'Copied!') : (isKo ? '결과 링크 복사' : 'Copy Link')}</span>
+                        <span>{copied ? (isKo ? '복사됨!' : 'Copied!') : (isKo ? '분석 페이지 링크 복사' : 'Copy Analysis Link')}</span>
                     </button>
                     <button className="btn-secondary flex-1" onClick={() => router.push(`/${locale}/seongmyeong-analysis`)}>
                         🔄 {isKo ? '다시 분석하기' : 'Analyze Again'}
                     </button>
                 </div>
+
+                <ResultNextSteps locale={locale} current="seongmyeong" />
 
             </main>
             <Footer />

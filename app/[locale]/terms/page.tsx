@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import Navigation from '../../../components/Navigation';
 import Footer from '../../../components/Footer';
 import Link from 'next/link';
+import { buildLocaleAlternates } from '@/lib/seo';
 
 interface Props {
   params: { locale: string };
@@ -14,10 +15,8 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
     title: isKo ? '이용약관 (Terms of Service) | 사주팔자 무료 컨설팅' : 'Terms of Service | SajuPalza',
     description: isKo
       ? '사주팔자 무료 컨설팅 서비스의 이용약관입니다. 글로벌 표준 약관에 기반한 서비스 이용 규칙 및 면책 조항을 확인하세요.'
-      : 'Terms of Service for SajuPalza fortune reading service. Check the rules and disclaimers based on global standard terms.',
-    alternates: {
-      canonical: locale === 'ko' ? 'https://sajupalza.cc/terms' : `https://sajupalza.cc/${locale}/terms`,
-    }
+      : 'Terms of Service for SajuPalza. Review the service rules, disclaimers, and how on-device temporary storage and sharing work.',
+    alternates: buildLocaleAlternates(locale, '/terms'),
   };
 }
 
@@ -62,6 +61,11 @@ export default async function TermsPage({ params: { locale } }: Props) {
                     ? '본 서비스는 전통 동양철학과 현대적 분석 기법을 결합한 무료 참고 정보를 제공합니다:'
                     : 'This service provides free reference information combining traditional Eastern philosophy and modern analysis techniques:'}
                 </p>
+                <p className="mb-3">
+                  {isKo
+                    ? '입력값과 분석 결과는 당사 서버에 저장되지 않으며, 현재 기기 브라우저 저장소에만 임시 보관될 수 있습니다. 공유 기능은 개인 결과가 아닌 새 분석 시작 페이지 링크만 전달합니다.'
+                    : 'Input data and analysis results are never stored on our servers and may be kept only temporarily in the current device browser storage. Sharing features send only a fresh analysis start-page link, not your private result data itself.'}
+                </p>
                 <ul className="list-disc list-inside space-y-2 ml-2 text-yellow-100/70">
                   <li>{isKo ? '사주팔자 분석 (생년월일시 기반)' : 'Four Pillars analysis (based on birth date and time)'}</li>
                   <li>{isKo ? '성명학 분석 (이름 획수 및 소리오행)' : 'Name numerology analysis (stroke count and sound elements)'}</li>
@@ -99,6 +103,16 @@ export default async function TermsPage({ params: { locale } }: Props) {
                       {isKo
                         ? '4. 당사는 서비스 결과의 정확성, 신뢰성, 완전성, 적합성에 대해 어떠한 명시적 또는 묵시적 보증도 하지 않습니다.'
                         : '4. We make no express or implied warranties regarding the accuracy, reliability, completeness, or suitability of the service results.'}
+                    </li>
+                    <li>
+                      {isKo
+                        ? '5. 개인 결과는 현재 기기 브라우저에만 임시 보관되며, 저장소를 비우거나 보관 기간이 지나면 다시 열람하지 못할 수 있습니다. 이는 개인정보 보호를 위한 설계이며, 당사는 삭제된 기기 내 결과 데이터의 복구 책임을 지지 않습니다.'
+                        : '5. Private results are stored only temporarily in the current device browser. Once browser storage is cleared or the retention period expires, those results may no longer be available. This is an intentional privacy design, and we do not restore deleted on-device result data.'}
+                    </li>
+                    <li>
+                      {isKo
+                        ? '6. 공유 기능은 새 분석 시작 페이지 링크를 전달하는 용도로만 제공됩니다. 공유된 링크로 동일한 개인 결과가 재현되거나 열람됨을 보장하지 않습니다.'
+                        : '6. Sharing features are provided only to send a fresh analysis start-page link. We do not guarantee that the same private result can be reproduced or viewed from a shared link.'}
                     </li>
                   </ul>
                 </div>

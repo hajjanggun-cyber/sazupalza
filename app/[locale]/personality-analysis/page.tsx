@@ -1,8 +1,10 @@
 import PersonalityForm from '@/components/PersonalityForm';
+import PrivacyStartNotice from '@/components/PrivacyStartNotice';
 import { useTranslations } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
 import { Metadata } from 'next';
+import { buildLocaleAlternates, buildLocalizedUrl } from '@/lib/seo';
 
 type Props = {
     params: { locale: string };
@@ -15,6 +17,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
         description: isKo
             ? '정확하고 안전한 28문항 자체 성격 테스트로 16가지 나의 심리 유형을 분석해 보세요.'
             : 'Analyze your 16 cognitive types safely with our original 28-question personality test.',
+        alternates: buildLocaleAlternates(locale, '/personality-analysis'),
     };
 }
 
@@ -29,7 +32,7 @@ export default function PersonalityAnalysisPage({ params: { locale } }: Props) {
         name: 'Sajupalza Personality Test Engine',
         applicationCategory: 'LifestyleApplication',
         operatingSystem: 'All',
-        url: `https://sajupalza.cc/${locale}/personality-analysis`,
+        url: buildLocalizedUrl(locale, '/personality-analysis'),
     };
 
     return (
@@ -52,6 +55,8 @@ export default function PersonalityAnalysisPage({ params: { locale } }: Props) {
                                 : 'Discover your deep psychology with just 28 questions.'}
                         </p>
                     </div>
+
+                    <PrivacyStartNotice locale={locale} className="mb-10" />
 
                     {/* Form Section */}
                     <div className="card-dark p-6 md:p-10 mb-10 fade-in-up" style={{ animationDelay: '0.1s' }}>

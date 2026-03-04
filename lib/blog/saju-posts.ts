@@ -1,6 +1,7 @@
 import { BlogPost } from './types';
+import { distributePublishedDates } from './date-utils';
 
-export const sajuPosts: BlogPost[] = [
+export const sajuPosts: BlogPost[] = distributePublishedDates([
   {
     slug: 'intro',
     title: 'What is Saju-Palja? The Comprehensive Guide to Korean Astrology',
@@ -1600,11 +1601,11 @@ export const sajuPosts: BlogPost[] = [
     <p>When the collision happens in the bottom row of your chart (the Earthly Branches), the stakes become highly tangible. We call this a <em>Ji-ji Chung</em>. The Earthly Branches dictate the physical reality you walk upon: your home, your physical office, your spouse, and your literal body.</p>
 
     <h3>Moving, Breaking, and Rebuilding</h3>
-    <p>An Earthly Branch clash almost guarantees physical movement. The specific area of your life that gets hit depends entirely on which of the Four Pillars receives the impact:</p>
+    <p>An Earthly Branch clash often correlates with physical movement or a change in environment. The specific area of life affected depends on which of the Four Pillars receives the impact:</p>
     <ul>
     <li><strong>Year Pillar Clash:</strong> Forces a break from your ancestral roots. You may emigrate to a foreign country, or experience the passing of a grandparent.</li>
     <li><strong>Month Pillar Clash:</strong> The most socially disruptive. It indicates a massive upheaval in your professional environment. A forced career pivot, a company bankruptcy, or moving out of your parents' house.</li>
-    <li><strong>Day Pillar Clash:</strong> This strikes your "Marriage Palace." If you are married, this is a year of explosive domestic conflict, potential infidelity, or divorce. If you are single, paradoxically, the kinetic energy of this clash often knocks a new partner directly into your life. It can also indicate physical surgery or accidents.</li>
+    <li><strong>Day Pillar Clash:</strong> This strikes your "Marriage Palace." If you are married, it is often read as a year of heavier domestic tension, relationship strain, or major emotional decisions. If you are single, the same movement can sometimes coincide with a new relationship entering your life. It may also coincide with surgery, injury, or other physically disruptive events, so caution is advised.</li>
     </ul>
 
     <h2 id="hyeong-sal">4. Hyeong (Punishment): Surgery, Legal Friction, and Raw Power</h2>
@@ -2003,7 +2004,7 @@ export const sajuPosts: BlogPost[] = [
 <p>Chronologically, the Hour Pillar takes complete command of your life's narrative from roughly age 50 until your passing. In an era where life expectancy regularly exceeds 85 years, understanding this pillar is more critical than at any point in human history.</p>
 
 <h3>Retirement and Physical Decline</h3>
-<p>The elemental condition of the Hour Pillar provides a shockingly accurate forecast of your retirement reality. A robust Wealth Star (Jaeseong) anchored here guarantees that your cash flow will not dry up; you will enjoy a luxurious, secure late life through passive income or real estate. However, if your Hour Pillar is dominated by "Rob Wealth" (Gyeopjae) energy, you are at high risk of losing your retirement savings to scams, greedy relatives, or bad business ventures. Medically, the Hour Pillar also points to the specific organs that will fail you in old age. A dry, scorched Hour Pillar with no Water energy often predicts cardiovascular or cognitive (dementia) issues late in life, allowing you to take preventative medical action decades in advance.</p>
+<p>The elemental condition of the Hour Pillar is traditionally used as a reference point for late-life themes. A robust Wealth Star (Jaeseong) anchored here is often read as support for steadier cash flow and a more secure later life through long-term assets such as savings, passive income, or real estate. However, if your Hour Pillar is dominated by "Rob Wealth" (Gyeopjae) energy, practitioners may read it as a higher caution zone around financial leakage, family money conflicts, or risky ventures. From a health perspective, the Hour Pillar is better read as a symbolic vulnerability map rather than a fixed medical prediction, and any real preventive action should be based on professional medical guidance.</p>
 
 <h2 id="hidden-desire">4. The Secret Palace: Your Hidden Instincts and Desires</h2>
 <p>From a psychological standpoint, the Hour Pillar is your "Secret Palace." If your Month Pillar is the professional mask you wear to survive in society, your Hour Pillar is what you do at 2:00 AM when absolutely no one is watching.</p>
@@ -2374,4 +2375,4 @@ export const sajuPosts: BlogPost[] = [
       { slug: 'destiny-change', category: 'saju', title: '개운(改運)의 철학: 내 운명을 바꿀 수 있는가' },
     ],
   },
-];
+], '2026-01-05', 3, '2026-02-10', 1);

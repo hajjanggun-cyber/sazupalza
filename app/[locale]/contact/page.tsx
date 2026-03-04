@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import Navigation from '../../../components/Navigation';
 import Footer from '../../../components/Footer';
 import Link from 'next/link';
+import { buildLocaleAlternates } from '@/lib/seo';
 
 interface Props {
   params: { locale: string };
@@ -15,9 +16,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
     description: isKo
       ? '사주팔자·관상·성명학·MBTI 무료 종합 분석 서비스 문의. 자주 묻는 질문(FAQ)과 이메일 고객지원 안내.'
       : 'Contact SajuPalza - Free Korean fortune reading service. FAQ and email support for Four Pillars, Face Reading, Name Numerology, and MBTI analysis.',
-    alternates: {
-      canonical: locale === 'ko' ? 'https://sajupalza.cc/contact' : `https://sajupalza.cc/${locale}/contact`,
-    }
+    alternates: buildLocaleAlternates(locale, '/contact'),
   };
 }
 
@@ -63,7 +62,7 @@ export default async function ContactPage({ params: { locale } }: Props) {
         },
         {
           q: '결과를 저장하거나 공유할 수 있나요?',
-          a: '결과 페이지의 URL을 복사하면 동일한 결과를 다시 볼 수 있습니다. 카카오톡 공유 기능도 지원합니다. 단, 서버에는 저장되지 않으므로 URL을 보관해 두시기 바랍니다.',
+          a: '개인 결과는 현재 기기에서만 확인할 수 있습니다. 공유 버튼은 개인정보가 포함되지 않은 새 분석 페이지 링크를 복사하거나 카카오톡으로 보냅니다.',
         },
         {
           q: '광고가 너무 많이 나와요',
@@ -93,7 +92,7 @@ export default async function ContactPage({ params: { locale } }: Props) {
         },
         {
           q: 'Can I save or share my results?',
-          a: 'Yes! You can copy the result page URL to revisit the same results anytime. KakaoTalk sharing is also supported. Note that results are not stored on our servers, so please keep the URL.',
+          a: 'Yes. Your private result stays available only on the current device. The share button copies a fresh analysis-page link or sends that same start page to KakaoTalk without exposing personal result data.',
         },
         {
           q: 'There are too many ads',

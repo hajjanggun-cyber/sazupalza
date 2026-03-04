@@ -4,8 +4,10 @@ import Navigation from '../../../components/Navigation';
 import Footer from '../../../components/Footer';
 import AdSense from '../../../components/AdSense';
 import SajuForm from '../../../components/SajuForm';
+import PrivacyStartNotice from '../../../components/PrivacyStartNotice';
 import Link from 'next/link';
 import Image from 'next/image';
+import { SITE_URL, buildLocaleAlternates, buildLocalizedUrl } from '@/lib/seo';
 
 interface Props {
     params: { locale: string };
@@ -23,6 +25,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
         keywords: isKo
             ? ['사주팔자 무료', '사주 분석', '무료 사주', '오행 분석', '사주보기', '생년월일 운세']
             : ['four pillars free', 'saju reading', 'Korean fortune', 'birth chart Korean', 'five elements'],
+        alternates: buildLocaleAlternates(locale, '/saju-analysis'),
     };
 }
 
@@ -30,12 +33,12 @@ export default async function SajuAnalysisPage({ params: { locale } }: Props) {
     unstable_setRequestLocale(locale);
     const isKo = locale === 'ko';
 
-    const baseUrl = 'https://sajupalza.cc';
+    const baseUrl = SITE_URL;
     const jsonLd = {
         '@context': 'https://schema.org',
         '@type': 'WebApplication',
         name: isKo ? '사주팔자 무료 분석' : 'Free Four Pillars Saju Reading',
-        url: `${baseUrl}/${locale}/saju-analysis`,
+        url: buildLocalizedUrl(locale, '/saju-analysis'),
         description: isKo
             ? '생년월일·음력양력·생시 입력으로 즉시 사주팔자 분석'
             : 'Instant Saju Four Pillars reading using birth date and time',
@@ -114,6 +117,10 @@ export default async function SajuAnalysisPage({ params: { locale } }: Props) {
                 </section>
 
                 {/* 분석 폼 */}
+                <section className="max-w-3xl mx-auto px-4 pb-8">
+                    <PrivacyStartNotice locale={locale} />
+                </section>
+
                 <section className="max-w-xl mx-auto px-4 pb-10">
                     <div className="card-dark p-6 md:p-8">
                         <SajuForm />

@@ -5,6 +5,7 @@ import Footer from '../../../components/Footer';
 import AdSense from '../../../components/AdSense';
 import Link from 'next/link';
 import { gwansangPosts } from '@/lib/blog/gwansang-posts';
+import { buildLocaleAlternates } from '@/lib/seo';
 
 interface Props {
   params: { locale: string };
@@ -22,6 +23,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
     keywords: isKo
       ? ['관상 무료', '관상 분석', '얼굴 운세', '인상학', '관상학', '무료 관상']
       : ['Korean face reading free', 'physiognomy', 'face fortune reading', 'Korean gwansang'],
+    alternates: buildLocaleAlternates(locale, '/face'),
   };
 }
 

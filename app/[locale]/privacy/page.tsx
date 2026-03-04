@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import Navigation from '../../../components/Navigation';
 import Footer from '../../../components/Footer';
 import Link from 'next/link';
+import { buildLocaleAlternates } from '@/lib/seo';
 
 interface Props {
   params: { locale: string };
@@ -13,11 +14,9 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
   return {
     title: isKo ? '개인정보처리방침 (Privacy Policy) | 사주팔자 무료 컨설팅' : 'Privacy Policy | SajuPalza',
     description: isKo
-      ? '사주팔자 무료 컨설팅 서비스의 글로벌 표준(GDPR/CCPA 준수) 개인정보처리방침입니다. 서버에 개인정보를 저장하지 않으며 안전하게 보호합니다.'
-      : 'Global standard Privacy Policy (GDPR/CCPA compliant) for SajuPalza fortune reading service. We do not store personal information.',
-    alternates: {
-      canonical: locale === 'ko' ? 'https://sajupalza.cc/privacy' : `https://sajupalza.cc/${locale}/privacy`,
-    }
+      ? '사주팔자 서비스의 글로벌 표준(GDPR/CCPA 준수) 개인정보처리방침입니다. 개인정보는 서버에 저장하지 않으며, 현재 기기에서만 임시 보관됩니다.'
+      : 'Global standard Privacy Policy (GDPR/CCPA compliant) for SajuPalza. Personal data is never stored on our servers and remains only on your current device for a limited time.',
+    alternates: buildLocaleAlternates(locale, '/privacy'),
   };
 }
 
@@ -48,8 +47,8 @@ export default async function PrivacyPage({ params: { locale } }: Props) {
                 </h2>
                 <p className="text-yellow-200/90 leading-relaxed mb-0">
                   {isKo
-                    ? '본 서비스는 사용자님의 프라이버시를 최우선으로 합니다. 입력하신 모든 개인정보(이름, 생년월일, 사진 등)는 오직 사용자님의 브라우저 기기 내에서만 처리되며, 당사의 서버로 전송되거나 저장되지 않습니다. 분석이 완료되는 즉시 모든 데이터는 파기됩니다.'
-                    : 'We prioritize your privacy. All personal information you enter (name, date of birth, photos, etc.) is processed exclusively within your browser/device and is NEVER transmitted to or stored on our servers. All data is destroyed immediately after analysis.'}
+                    ? '본 서비스는 사용자님의 프라이버시를 최우선으로 합니다. 입력하신 개인정보(이름, 생년월일, 사진 등)는 사용자님의 현재 브라우저/기기에서만 처리되며, 당사 서버로 전송되거나 저장되지 않습니다. 분석 결과는 재확인을 위해 현재 기기 내 브라우저 저장소에만 임시 보관되며, 일정 시간이 지나거나 브라우저 저장소를 비우면 삭제됩니다.'
+                    : 'We prioritize your privacy. Personal information you enter (name, date of birth, photos, etc.) is processed only on your current browser/device and is NEVER transmitted to or stored on our servers. Results are kept temporarily only in local browser storage on this device for revisit purposes, then disappear after expiry or when browser storage is cleared.'}
                 </p>
               </div>
             </div>
@@ -78,8 +77,8 @@ export default async function PrivacyPage({ params: { locale } }: Props) {
                 </h3>
                 <p>
                   {isKo
-                    ? '당사는 "무저장(No-Log) 정책"을 엄격히 준수합니다. 사용자가 웹페이지를 닫거나 새로고침하면, 분석을 위해 입력했던 모든 정보는 즉시 그리고 영구적으로 브라우저 메모리에서 소멸됩니다. 당사의 데이터베이스나 서버에는 어떠한 개인 데이터도 남지 않습니다.'
-                    : 'We strictly adhere to a "No-Log Policy." The moment you close or refresh the web page, all information entered for analysis is immediately and permanently erased from your browser\'s memory. No personal data is ever recorded in our databases or servers.'}
+                    ? '당사는 "서버 무저장(No Server Log)" 정책을 준수합니다. 개인정보는 당사 데이터베이스나 서버에 기록되지 않습니다. 다만 결과 재열람을 위해 현재 기기 브라우저의 로컬 저장소(localStorage / sessionStorage)에 임시 보관될 수 있으며, 저장된 결과는 최대 7일 이내 자동 만료되거나 사용자가 브라우저 저장소를 지우면 즉시 삭제됩니다.'
+                    : 'We follow a strict "No Server Storage" policy. No personal data is recorded in our databases or servers. For revisit purposes, result data may be kept temporarily in your current browser storage (localStorage / sessionStorage), and those entries expire automatically within up to 7 days or disappear immediately when you clear browser storage.'}
                 </p>
               </section>
 
@@ -89,8 +88,8 @@ export default async function PrivacyPage({ params: { locale } }: Props) {
                 </h3>
                 <p>
                   {isKo
-                    ? '당사는 서버에 저장하는 개인정보가 없으므로, 원천적으로 제3자에게 개인정보를 제공하거나 국외로 이전할 데이터 자체가 존재하지 않습니다. 귀하의 데이터는 귀하의 기기를 벗어나지 않습니다.'
-                    : 'Because we do not store any personal information on our servers, it is fundamentally impossible for us to share your personal data with third parties or transfer it internationally. Your data never leaves your device.'}
+                    ? '당사는 서버에 저장하는 개인정보가 없으므로, 원천적으로 제3자에게 개인정보를 제공하거나 국외로 이전할 데이터 자체가 존재하지 않습니다. 귀하의 데이터는 귀하의 현재 기기를 벗어나지 않습니다. 또한 공유 기능은 개인 결과 자체가 아니라 새 분석 시작 페이지 링크만 전달합니다.'
+                    : 'Because we do not store personal information on our servers, there is no server-side personal data to share with third parties or transfer internationally. Your data does not leave your current device. Our sharing features also send only a fresh analysis start-page link, not your private result data itself.'}
                 </p>
               </section>
 
@@ -120,8 +119,8 @@ export default async function PrivacyPage({ params: { locale } }: Props) {
                 </h3>
                 <p className="mb-3">
                   {isKo
-                    ? '사용자는 언제든지 자신의 개인정보에 대한 접근, 정정, 삭제, 처리 정지 등을 요구할 권리가 있습니다. 단, 당사는 어떠한 개인정보도 서버에 저장하지 않으므로, 사용자님의 데이터는 이미 귀하의 통제 하에 있으며 귀하의 브라우저 캐시 삭제를 통해 모든 흔적을 지울 수 있습니다.'
-                    : 'You have the right to access, rectify, erase, or restrict the processing of your personal data. However, since we do NOT store any personal data on our servers, your data is already fully under your control. You can erase any traces by simply clearing your browser cache.'}
+                    ? '사용자는 언제든지 자신의 개인정보에 대한 접근, 정정, 삭제, 처리 정지 등을 요구할 권리가 있습니다. 단, 당사는 개인정보를 서버에 저장하지 않으므로, 사용자님의 데이터는 이미 귀하의 통제 하에 있습니다. 브라우저 캐시 또는 사이트 저장소(localStorage / sessionStorage)를 비우면 기기에 남아 있는 결과 데이터를 직접 삭제할 수 있습니다.'
+                    : 'You have the right to access, rectify, erase, or restrict the processing of your personal data. Because we do not store personal data on our servers, your data is already under your direct control. You can remove any remaining result data on this device by clearing browser cache or site storage (localStorage / sessionStorage).'}
                 </p>
               </section>
 

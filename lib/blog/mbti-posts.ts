@@ -1,6 +1,7 @@
 import { BlogPost } from './types';
+import { distributePublishedDates } from './date-utils';
 
-export const mbtiPosts: BlogPost[] = [
+export const mbtiPosts: BlogPost[] = distributePublishedDates([
   {
     slug: 'intro',
     title: 'Origins of MBTI: Carl Jung, Analytical Psychology, and Eastern Philosophy',
@@ -1208,4 +1209,4 @@ export const mbtiPosts: BlogPost[] = [
       { slug: 'compatibility-table', category: 'mbti', title: 'MBTI별 찰떡궁합 사주 일주 매칭' },
     ],
   },
-];
+], '2026-01-12', 5, '2026-02-20', 1);

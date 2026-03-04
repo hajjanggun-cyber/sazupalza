@@ -3,6 +3,8 @@
 import { useLocale } from 'next-intl';
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
+import { storeResultPayload } from '@/lib/client/result-storage';
+import { buildLocalizedHref } from '@/lib/seo';
 
 // ── 28문항 데이터 ──
 const QUESTIONS = [
@@ -36,14 +38,11 @@ const QUESTIONS = [
     { id: 28, axis: 'JP', qKo: '할 일이 여러 개 쌓였을 때 나는?', qEn: 'When multiple tasks pile up, I...', aKo: '목록을 만들고 하나씩 순서대로 처리해야 마음이 편하다', aEn: 'Make a list and handle them one by one in order — that feels right', aScore: 'J', bKo: '기분이 당기는 것부터 이것저것 동시에 건드리며 진행한다', bEn: 'Start with whatever feels most appealing and multitask across several at once', bScore: 'P' },
 ];
 
-function encodeToBase64Url(data: object): string {
-    const jsonStr = JSON.stringify(data);
-    const bytes = new TextEncoder().encode(jsonStr);
-    const binStr = Array.from(bytes, (b) => String.fromCharCode(b)).join('');
-    return btoa(binStr)
-        .replace(/\+/g, '-')
-        .replace(/\//g, '_')
-        .replace(/=/g, '');
+function getAxisClarity(primaryCount: number): number {
+    const totalPerAxis = 7;
+    const oppositeCount = totalPerAxis - primaryCount;
+    const gap = Math.abs(primaryCount - oppositeCount);
+    return Math.max(48, Math.min(96, 48 + gap * 8));
 }
 
 export default function PersonalityForm() {
@@ -79,14 +78,24 @@ export default function PersonalityForm() {
                 const JP = pCount >= 4 ? 'P' : 'J';
 
                 const mbti = `${EI}${SN}${TF}${JP}`;
+                const clarity = Math.round(
+                    (getAxisClarity(eCount) + getAxisClarity(nCount) + getAxisClarity(fCount) + getAxisClarity(pCount)) / 4
+                );
 
                 const data = {
                     mbti,
+                    clarity,
+                    axisCounts: {
+                        EI: eCount,
+                        SN: nCount,
+                        TF: fCount,
+                        JP: pCount,
+                    },
                     ts: Date.now(),
                 };
 
-                const encoded = encodeToBase64Url(data);
-                router.push(`/${locale}/personality-result/${encoded}`);
+                const token = storeResultPayload('personality', data);
+                router.push(buildLocalizedHref(locale, `/personality-result/${token}`));
             }, 600);
         }
     };

@@ -2,6 +2,7 @@
 
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
+import { buildLocalizedHref } from '@/lib/seo';
 
 export default function Footer() {
   const t = useTranslations('footer');
@@ -18,19 +19,25 @@ export default function Footer() {
 
           <div className="flex flex-wrap justify-center gap-4 text-sm">
             <Link
-              href={`/${locale}/privacy`}
+              href={buildLocalizedHref(locale, '/about')}
+              className="text-yellow-200/60 hover:text-yellow-400 transition-colors"
+            >
+              {locale === 'ko' ? '운영 원칙' : 'About'}
+            </Link>
+            <Link
+              href={buildLocalizedHref(locale, '/privacy')}
               className="text-yellow-200/60 hover:text-yellow-400 transition-colors"
             >
               {t('privacy')}
             </Link>
             <Link
-              href={`/${locale}/terms`}
+              href={buildLocalizedHref(locale, '/terms')}
               className="text-yellow-200/60 hover:text-yellow-400 transition-colors"
             >
               {t('terms')}
             </Link>
             <Link
-              href={`/${locale}/contact`}
+              href={buildLocalizedHref(locale, '/contact')}
               className="text-yellow-200/60 hover:text-yellow-400 transition-colors"
             >
               {t('contact')}

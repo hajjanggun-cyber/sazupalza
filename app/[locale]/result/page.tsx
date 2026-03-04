@@ -4,6 +4,8 @@ export const dynamic = 'force-dynamic';
 
 import { useSearchParams, useParams, useRouter } from 'next/navigation';
 import { useEffect, Suspense } from 'react';
+import { storeResultPayload } from '../../../lib/client/result-storage';
+import { buildLocalizedHref } from '@/lib/seo';
 
 // 구형 ?name=...&year=... URL을 새 /result/[id] URL로 리다이렉트
 function RedirectContent() {
@@ -26,6 +28,7 @@ function RedirectContent() {
         month: parseInt(month),
         day: parseInt(day),
         lunar: searchParams.get('lunar') === 'true',
+        leapMonth: searchParams.get('leapMonth') === 'true',
         ...(searchParams.get('mbti') && { mbti: searchParams.get('mbti')! }),
         ...(searchParams.get('hour') && {
           hour: parseInt(searchParams.get('hour')!),
@@ -34,20 +37,14 @@ function RedirectContent() {
       };
 
       try {
-        const jsonStr = JSON.stringify(data);
-        const bytes = new TextEncoder().encode(jsonStr);
-        const binStr = Array.from(bytes, (b) => String.fromCharCode(b)).join('');
-        const encoded = btoa(binStr)
-          .replace(/\+/g, '-')
-          .replace(/\//g, '_')
-          .replace(/=/g, '');
-        router.replace(`/${locale}/result/${encoded}`);
+        const token = storeResultPayload('combined', data);
+        router.replace(buildLocalizedHref(locale, `/result/${token}`));
       } catch {
-        router.replace(`/${locale}`);
+        router.replace(buildLocalizedHref(locale));
       }
     } else {
       // 파라미터 없음 → 홈으로
-      router.replace(`/${locale}`);
+      router.replace(buildLocalizedHref(locale));
     }
   }, [locale, router, searchParams]);
 

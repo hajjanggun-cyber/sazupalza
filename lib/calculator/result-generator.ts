@@ -10,6 +10,11 @@ import { cheonganData } from '../data/saju/cheongan';
 import { suriData } from '../data/name/suri81';
 import { NAME_SAJU_COMBO } from '../data/name/name-saju-combo';
 import { FACE_COMBOS } from '../data/face/face-combo';
+import {
+  type MbtiConfidence,
+  calculateAdvancedSajuScore,
+  calculateMbtiScore,
+} from './saju-scoring';
 
 export interface FaceAnalysisResult {
   faceShape?: string;
@@ -139,13 +144,7 @@ function getJijiHanja(name: string): string {
 }
 
 function calcSajuScore(saju: SajuResult): number {
-  const balance = analyzeOhaengBalance(saju);
-  const total = Object.values(balance).reduce((a, b) => a + b, 0);
-  if (total === 0) return 70;
-  const maxVal = Math.max(...Object.values(balance));
-  const minVal = Math.min(...Object.values(balance).filter(v => v > 0));
-  const balanceScore = minVal > 0 ? 100 - (maxVal - minVal) * 8 : 65;
-  return Math.max(50, Math.min(95, balanceScore));
+  return calculateAdvancedSajuScore(saju);
 }
 
 // ===== 오행 균형 분석 섹션 =====
@@ -812,9 +811,11 @@ export function generateResult(params: {
   name: NameAnalysisResult;
   face?: FaceAnalysisResult;
   mbtiType?: string;
+  mbtiClarity?: number;
+  mbtiConfidence?: MbtiConfidence | null;
   locale?: string;
 }): ComprehensiveResult {
-  const { saju, name, face, mbtiType } = params;
+  const { saju, name, face, mbtiType, mbtiClarity, mbtiConfidence } = params;
   const locale = params.locale || 'ko';
 
   const balance = analyzeOhaengBalance(saju);
@@ -823,7 +824,11 @@ export function generateResult(params: {
   const sajuScore = calcSajuScore(saju);
   const nameScore = name.score;
   const faceScore = face ? face.score : 75;
-  const mbtiScore = mbtiType ? 78 : 0;
+  const mbtiScore = calculateMbtiScore({
+    mbtiType,
+    clarity: mbtiClarity,
+    confidence: mbtiConfidence,
+  });
 
   let total: number;
   if (face && mbtiType) {

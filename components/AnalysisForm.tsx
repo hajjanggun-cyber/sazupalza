@@ -3,6 +3,8 @@
 import { useTranslations } from 'next-intl';
 import { useRouter, useParams } from 'next/navigation';
 import { useState } from 'react';
+import { storeResultPayload } from '@/lib/client/result-storage';
+import { buildLocalizedHref } from '@/lib/seo';
 import Step1Name from './steps/Step1Name';
 import Step2Birth, { BirthData } from './steps/Step2Birth';
 import Step3MBTI from './steps/Step3MBTI';
@@ -10,16 +12,7 @@ import Step4Time from './steps/Step4Time';
 import Step5Photo from './steps/Step5Photo';
 
 const TOTAL_STEPS = 5;
-
-function encodeToBase64Url(data: object): string {
-  const jsonStr = JSON.stringify(data);
-  const bytes = new TextEncoder().encode(jsonStr);
-  const binStr = Array.from(bytes, (b) => String.fromCharCode(b)).join('');
-  return btoa(binStr)
-    .replace(/\+/g, '-')
-    .replace(/\//g, '_')
-    .replace(/=/g, '');
-}
+type MbtiConfidence = 'high' | 'medium' | 'low';
 
 export default function AnalysisForm() {
   const router = useRouter();
@@ -39,6 +32,7 @@ export default function AnalysisForm() {
   const [name, setName] = useState('');
   const [birth, setBirth] = useState<BirthData | null>(null);
   const [mbti, setMbti] = useState<string | null>(null);
+  const [mbtiConfidence, setMbtiConfidence] = useState<MbtiConfidence | null>(null);
   const [birthHour, setBirthHour] = useState<number | null>(null);
   const [photo, setPhoto] = useState<string | null>(null);
 
@@ -56,7 +50,7 @@ export default function AnalysisForm() {
       day: birth.day,
       lunar: birth.isLunar,
       leapMonth: birth.isLeapMonth,
-      ...(mbti && { mbti }),
+      ...(mbti && { mbti, mbtiConfidence }),
       ...(birthHour !== null && { hour: birthHour }),
       hasPhoto: !!photo,
     };
@@ -71,8 +65,8 @@ export default function AnalysisForm() {
     }
 
     // Base64 URL-safe 인코딩 → 공유 가능한 개인화 URL
-    const encoded = encodeToBase64Url(data);
-    router.push(`/${locale}/result/${encoded}`);
+    const token = storeResultPayload('combined', data);
+    router.push(buildLocalizedHref(locale, `/result/${token}`));
   };
 
   return (
@@ -131,6 +125,8 @@ export default function AnalysisForm() {
           <Step3MBTI
             value={mbti}
             onChange={setMbti}
+            confidence={mbtiConfidence}
+            onConfidenceChange={setMbtiConfidence}
             onNext={goNext}
             onSkip={skipToNext}
             onPrev={goPrev}

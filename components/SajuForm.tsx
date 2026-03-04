@@ -3,6 +3,8 @@
 import { useTranslations, useLocale } from 'next-intl';
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
+import { storeResultPayload } from '@/lib/client/result-storage';
+import { buildLocalizedHref } from '@/lib/seo';
 import Step1Name from './steps/Step1Name';
 import Step2Birth, { BirthData } from './steps/Step2Birth';
 
@@ -26,16 +28,6 @@ const TIME_LIST = [
 const TOTAL_STEPS = 4;
 
 type Gender = 'male' | 'female';
-
-function encodeToBase64Url(data: object): string {
-    const jsonStr = JSON.stringify(data);
-    const bytes = new TextEncoder().encode(jsonStr);
-    const binStr = Array.from(bytes, (b) => String.fromCharCode(b)).join('');
-    return btoa(binStr)
-        .replace(/\+/g, '-')
-        .replace(/\//g, '_')
-        .replace(/=/g, '');
-}
 
 export default function SajuForm() {
     const router = useRouter();
@@ -67,8 +59,8 @@ export default function SajuForm() {
             ...(birthHour !== null && !dontKnowTime && { hour: birthHour }),
             hasPhoto: false,
         };
-        const encoded = encodeToBase64Url(data);
-        router.push(`/${locale}/saju-result/${encoded}`);
+        const token = storeResultPayload('saju', data);
+        router.push(buildLocalizedHref(locale, `/saju-result/${token}`));
     };
 
     // 진행 상태바 레이블 (총 4스텝)

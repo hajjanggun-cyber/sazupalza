@@ -5,6 +5,8 @@ import NextImage from 'next/image';
 import { useRouter } from 'next/navigation';
 import { useRef, useState } from 'react';
 import * as faceapi from 'face-api.js';
+import { storeResultPayload } from '@/lib/client/result-storage';
+import { buildLocalizedHref } from '@/lib/seo';
 
 // ── 모델 로드 ──
 let modelsLoaded = false;
@@ -46,16 +48,6 @@ function calcSymmetryScore(pts: { x: number; y: number }[]): number {
 }
 
 // ── Base64 URL 인코딩 ──
-function encodeToBase64Url(data: object): string {
-    const jsonStr = JSON.stringify(data);
-    const bytes = new TextEncoder().encode(jsonStr);
-    const binStr = Array.from(bytes, (b) => String.fromCharCode(b)).join('');
-    return btoa(binStr)
-        .replace(/\+/g, '-')
-        .replace(/\//g, '_')
-        .replace(/=/g, '');
-}
-
 // ── 사진 업로드 박스 서브 컴포넌트 ──
 interface PhotoBoxProps {
     label: string;
@@ -191,7 +183,7 @@ export default function GwansangForm() {
     const [sideError, setSideError] = useState(false);
     const [sideOk, setSideOk] = useState(false);
 
-    // 정확도 계산
+    // 입력 사진 수에 따른 해석 범위 표시
     const accuracy = frontPreview && sidePreview ? 95 : frontPreview ? 75 : 50;
 
     // ── 공통 분석 함수 ──
@@ -328,8 +320,8 @@ export default function GwansangForm() {
             // 이미지 미리보기 없이 결과를 표시 (분석 데이터는 URL에 있으므로 결과는 정상 출력)
         }
 
-        const encoded = encodeToBase64Url(data);
-        router.push(`/${locale}/gwansang-result/${encoded}`);
+        const token = storeResultPayload('gwansang', data);
+        router.push(buildLocalizedHref(locale, `/gwansang-result/${token}`));
     };
 
     const canSubmit = !!frontData && !frontAnalyzing && !sideAnalyzing;
@@ -345,7 +337,7 @@ export default function GwansangForm() {
                 </p>
             </div>
 
-            {/* 정확도 표시 */}
+            {/* 입력 완성도 표시 */}
             <div className="card-dark p-4">
                 <div className="flex justify-between items-center mb-2">
                     <span className="text-yellow-200/80 text-sm">

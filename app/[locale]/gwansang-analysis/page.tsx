@@ -4,7 +4,9 @@ import Navigation from '../../../components/Navigation';
 import Footer from '../../../components/Footer';
 import AdSense from '../../../components/AdSense';
 import GwansangForm from '../../../components/GwansangForm';
+import PrivacyStartNotice from '../../../components/PrivacyStartNotice';
 import Link from 'next/link';
+import { SITE_URL, buildLocaleAlternates, buildLocalizedUrl } from '@/lib/seo';
 
 interface Props {
     params: { locale: string };
@@ -22,6 +24,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
         keywords: isKo
             ? ['관상 무료', '관상 분석', '얼굴 관상', '관상보기', '얼굴형 분석', '관상학']
             : ['face reading free', 'face shape analysis', 'physiognomy', 'face fortune', 'AI face reading'],
+        alternates: buildLocaleAlternates(locale, '/gwansang-analysis'),
     };
 }
 
@@ -29,12 +32,12 @@ export default async function GwansangAnalysisPage({ params: { locale } }: Props
     unstable_setRequestLocale(locale);
     const isKo = locale === 'ko';
 
-    const baseUrl = 'https://sajupalza.cc';
+    const baseUrl = SITE_URL;
     const jsonLd = {
         '@context': 'https://schema.org',
         '@type': 'WebApplication',
         name: isKo ? '관상 무료 분석' : 'Free Face Reading Analysis',
-        url: `${baseUrl}/${locale}/gwansang-analysis`,
+        url: buildLocalizedUrl(locale, '/gwansang-analysis'),
         description: isKo
             ? '얼굴 사진으로 관상을 분석. AI 기반 얼굴형·대칭도·기운 판독'
             : 'AI-powered face reading: shape, symmetry, and fortune analysis',
@@ -113,6 +116,10 @@ export default async function GwansangAnalysisPage({ params: { locale } }: Props
                 </section>
 
                 {/* 입력 폼 */}
+                <section className="max-w-3xl mx-auto px-4 pb-8">
+                    <PrivacyStartNotice locale={locale} />
+                </section>
+
                 <section className="max-w-xl mx-auto px-4 pb-10">
                     <div className="card-dark p-6 md:p-8">
                         <GwansangForm />

@@ -1,6 +1,7 @@
 import { BlogPost } from './types';
+import { distributePublishedDates } from './date-utils';
 
-export const bokhapPosts: BlogPost[] = [
+export const bokhapPosts: BlogPost[] = distributePublishedDates([
   {
     slug: 'palmistry',
     title: 'Intro to Palmistry: Reading Destiny through Hand Lines and Gwansang',
@@ -777,4 +778,4 @@ export const bokhapPosts: BlogPost[] = [
       { slug: 'compatibility-table', category: 'mbti', title: 'MBTI별 찰떡궁합 사주 일주 매칭' },
     ],
   },
-];
+], '2026-01-14', 7, '2026-02-20', 2);

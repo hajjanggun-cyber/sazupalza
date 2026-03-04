@@ -1,7 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { useState } from 'react';
+import { useLocale } from 'next-intl';
 
 const MBTI_LIST = [
   'INTJ', 'INTP', 'ENTJ', 'ENTP',
@@ -10,16 +10,30 @@ const MBTI_LIST = [
   'ISTP', 'ISFP', 'ESTP', 'ESFP',
 ];
 
+type MbtiConfidence = 'high' | 'medium' | 'low';
+
 interface Props {
   value: string | null;
   onChange: (v: string | null) => void;
+  confidence: MbtiConfidence | null;
+  onConfidenceChange: (v: MbtiConfidence | null) => void;
   onNext: () => void;
   onSkip: () => void;
   onPrev: () => void;
 }
 
-export default function Step3MBTI({ value, onChange, onNext, onSkip, onPrev }: Props) {
+export default function Step3MBTI({
+  value,
+  onChange,
+  confidence,
+  onConfidenceChange,
+  onNext,
+  onSkip,
+  onPrev,
+}: Props) {
   const t = useTranslations('steps');
+  const locale = useLocale();
+  const isKo = locale === 'ko';
 
   return (
     <div className="fade-in space-y-6">
@@ -36,7 +50,13 @@ export default function Step3MBTI({ value, onChange, onNext, onSkip, onPrev }: P
           <button
             key={mbti}
             className={`mbti-btn ${value === mbti ? 'selected' : ''}`}
-            onClick={() => onChange(value === mbti ? null : mbti)}
+            onClick={() => {
+              const nextValue = value === mbti ? null : mbti;
+              onChange(nextValue);
+              if (!nextValue) {
+                onConfidenceChange(null);
+              }
+            }}
           >
             {mbti}
           </button>
@@ -48,6 +68,48 @@ export default function Step3MBTI({ value, onChange, onNext, onSkip, onPrev }: P
           <span className="text-yellow-400 text-sm font-medium">
             {t('step3.selected')}: {value}
           </span>
+        </div>
+      )}
+
+      {value && (
+        <div className="space-y-3">
+          <p className="text-center text-yellow-200/70 text-xs font-medium">
+            {isKo
+              ? '선택한 MBTI의 확신도도 함께 반영됩니다'
+              : 'Confidence in your selected MBTI also affects the score'}
+          </p>
+          <div className="grid grid-cols-3 gap-2">
+            {[
+              {
+                key: 'high' as const,
+                ko: '확신 높음',
+                en: 'High',
+              },
+              {
+                key: 'medium' as const,
+                ko: '보통',
+                en: 'Medium',
+              },
+              {
+                key: 'low' as const,
+                ko: '경계선',
+                en: 'Borderline',
+              },
+            ].map((item) => (
+              <button
+                key={item.key}
+                type="button"
+                onClick={() => onConfidenceChange(item.key)}
+                className={`rounded-xl border px-3 py-3 text-sm font-medium transition-colors ${
+                  confidence === item.key
+                    ? 'border-yellow-400 bg-yellow-500/10 text-yellow-200'
+                    : 'border-yellow-700/30 bg-white/5 text-yellow-200/70 hover:border-yellow-500/40'
+                }`}
+              >
+                {isKo ? item.ko : item.en}
+              </button>
+            ))}
+          </div>
         </div>
       )}
 
@@ -66,7 +128,7 @@ export default function Step3MBTI({ value, onChange, onNext, onSkip, onPrev }: P
         <button
           className="btn-primary flex-1"
           onClick={onNext}
-          disabled={!value}
+          disabled={!value || !confidence}
         >
           {t('nextStep')}
         </button>

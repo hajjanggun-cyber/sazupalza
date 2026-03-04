@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useParams, useRouter } from 'next/navigation';
 import { useMemo, useEffect, useState } from 'react';
@@ -7,10 +7,14 @@ import { calculateName } from '../../../../lib/calculator/name-calculator';
 import { generateResult, ComprehensiveResult, ResultSection } from '../../../../lib/calculator/result-generator';
 import { RESULT_REVEAL_DELAY_MS } from '../../../../lib/constants/analysis-delay';
 import { Guardian } from '../../../../lib/data/guardian';
+import { readResultPayload } from '../../../../lib/client/result-storage';
+import { getAnalysisStartPath, getAnalysisStartUrl } from '../../../../lib/client/share-links';
 import Navigation from '../../../../components/Navigation';
 import Footer from '../../../../components/Footer';
 import AdSense from '../../../../components/AdSense';
 import AnalysisLoading from '../../../../components/AnalysisLoading';
+import ResultNextSteps from '../../../../components/ResultNextSteps';
+import ResultUnavailableState from '../../../../components/ResultUnavailableState';
 import type { FaceAnalysisResult } from '../../../../components/steps/Step5Photo';
 
 interface InputData {
@@ -19,25 +23,18 @@ interface InputData {
   month: number;
   day: number;
   lunar?: boolean;
+  leapMonth?: boolean;
   hour?: number;
   mbti?: string;
+  mbtiConfidence?: 'high' | 'medium' | 'low';
   hasPhoto: boolean;
 }
 
 function decodeInputData(id: string): InputData | null {
-  try {
-    const base64 = id.replace(/-/g, '+').replace(/_/g, '/');
-    const padding = '='.repeat((4 - (base64.length % 4)) % 4);
-    const binStr = atob(base64 + padding);
-    const bytes = Uint8Array.from(binStr, (c) => c.charCodeAt(0));
-    const jsonStr = new TextDecoder().decode(bytes);
-    return JSON.parse(jsonStr) as InputData;
-  } catch {
-    return null;
-  }
+  return readResultPayload<InputData>('combined', id);
 }
 
-// ===== 서브 컴포넌트 =====
+// Shared UI helpers
 
 function SectionCard({ section }: { section: ResultSection }) {
   return (
@@ -72,11 +69,11 @@ function GuardianCard({ guardian, locale }: { guardian: Guardian; locale: string
       <div className="text-6xl mb-3">{guardian.emoji}</div>
       <div className="flex justify-center mb-3">
         <span className={`ohaeng-badge ohaeng-${guardian.key}`}>
-          {locale === 'ko' ? `${guardian.ohaeng} 오행` : `${guardian.ohaeng} Element`}
+          {locale === 'ko' ? `${guardian.ohaeng} ?ㅽ뻾` : `${guardian.ohaeng} Element`}
         </span>
       </div>
       <h3 className="text-2xl font-bold text-yellow-200 mb-1">
-        {locale === 'ko' ? `나의 수호신: ${guardian.nameKo}` : `My Guardian: ${guardian.nameEn}`}
+        {locale === 'ko' ? `?섏쓽 ?섑샇?? ${guardian.nameKo}` : `My Guardian: ${guardian.nameEn}`}
         <span className="text-sm font-normal text-yellow-200/60 ml-2">
           ({locale === 'ko' ? guardian.nameEn : guardian.nameKo})
         </span>
@@ -108,21 +105,27 @@ function GuardianCard({ guardian, locale }: { guardian: Guardian; locale: string
   );
 }
 
-// ===== 메인 페이지 =====
+// Main page
 
 export default function ResultIdPage() {
   const params = useParams();
   const router = useRouter();
   const locale = (params.locale as string) || 'ko';
   const id = params.id as string;
+  const [mounted, setMounted] = useState(false);
 
-  // URL에서 즉시 디코딩 (useMemo → 첫 렌더부터 사용 가능)
-  const inputData = useMemo(() => decodeInputData(id), [id]);
+  // Decode only after mount to avoid hydration mismatch.
+  const inputData = useMemo(() => (mounted ? decodeInputData(id) : null), [id, mounted]);
 
   const [result, setResult] = useState<ComprehensiveResult | null>(null);
   const [loadingDone, setLoadingDone] = useState(false);
   const [minDelayDone, setMinDelayDone] = useState(false);
   const [copied, setCopied] = useState(false);
+  const analysisStartPath = getAnalysisStartPath(locale, 'combined');
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
     const t = setTimeout(() => setMinDelayDone(true), RESULT_REVEAL_DELAY_MS);
@@ -130,16 +133,19 @@ export default function ResultIdPage() {
   }, []);
 
   useEffect(() => {
-    if (!inputData) {
-      router.push(`/${locale}`);
+    if (!mounted) {
       return;
     }
+
+    if (!inputData) return;
 
     try {
       const saju = calculateSaju({
         year: inputData.year,
         month: inputData.month,
         day: inputData.day,
+        isLunar: inputData.lunar,
+        isLeapMonth: inputData.leapMonth,
         hour: inputData.hour,
       });
 
@@ -154,7 +160,7 @@ export default function ResultIdPage() {
             const raw = sessionStorage.getItem('faceAnalysisResult');
             if (!raw) return undefined;
             const parsed = JSON.parse(raw) as FaceAnalysisResult;
-            // 분석 결과가 유효한지 최소 검증
+            // Basic validity check for reused face analysis data.
             if (!parsed.faceShape || typeof parsed.score !== 'number') return undefined;
             return parsed;
           } catch {
@@ -162,22 +168,23 @@ export default function ResultIdPage() {
           }
         })(),
         mbtiType: inputData.mbti,
+        mbtiConfidence: inputData.mbtiConfidence,
         locale,
       });
 
       setResult(comprehensiveResult);
     } catch (err) {
-      console.error('결과 생성 오류:', err);
+      console.error('寃곌낵 ?앹꽦 ?ㅻ쪟:', err);
     }
-  }, [inputData, locale, router]);
+  }, [inputData, locale, mounted, router]);
 
   const handleCopyLink = async () => {
     try {
-      await navigator.clipboard.writeText(window.location.href);
+      await navigator.clipboard.writeText(getAnalysisStartUrl(locale, 'combined'));
       setCopied(true);
       setTimeout(() => setCopied(false), 2500);
     } catch {
-      // 클립보드 접근 불가 시 무시
+      // Ignore clipboard failures.
     }
   };
 
@@ -187,27 +194,31 @@ export default function ResultIdPage() {
       win.Kakao.Share.sendDefault({
         objectType: 'feed',
         content: {
-          title: locale === 'ko' ? `${inputData?.name}님의 사주팔자 분석 결과` : `Analysis Result for ${inputData?.name}`,
-          description: locale === 'ko' 
-            ? `종합 ${result?.scores.total}점 · 수호신 ${result?.guardian.nameKo}`
-            : `Total Score: ${result?.scores.total} · Guardian: ${result?.guardian.nameEn}`,
+          title: locale === 'ko' ? '사주팔자 종합 분석 시작하기' : 'Start Your Sajupalza Analysis',
+          description: locale === 'ko'
+            ? '개인 결과는 이 기기에서만 확인되며, 공유 링크는 새 분석 페이지로 연결됩니다.'
+            : 'Private results stay on this device. Shared links open a fresh analysis page.',
           imageUrl: `${window.location.origin}${window.location.pathname}/opengraph-image`,
           link: {
-            mobileWebUrl: window.location.href,
-            webUrl: window.location.href,
+            mobileWebUrl: getAnalysisStartUrl(locale, 'combined'),
+            webUrl: getAnalysisStartUrl(locale, 'combined'),
           },
         },
       });
     } else {
-      // Kakao SDK 미적용 시 링크 복사로 대체
+      // Fall back to copying the analysis link if Kakao SDK is unavailable.
       handleCopyLink();
     }
   };
 
-  // inputData 디코딩 실패 → 홈으로
+  // If the token cannot be restored on this device, show the privacy-safe fallback state.
+  if (mounted && !inputData) {
+    return <ResultUnavailableState locale={locale} retryPath={analysisStartPath} />;
+  }
+
   if (!inputData) return null;
 
-  // 로딩 애니메이션
+  // Keep the loading animation until both the delay and generated result are ready.
   if (!loadingDone || !minDelayDone) {
     return (
       <AnalysisLoading
@@ -220,13 +231,13 @@ export default function ResultIdPage() {
     );
   }
 
-  // 계산 오류
+  // Show a compact error state if result generation fails.
   if (!result) {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center px-6">
-          <div className="text-4xl mb-4">⚠️</div>
-          <p className="text-yellow-200 mb-6">{locale === 'ko' ? '분석 중 오류가 발생했습니다.' : 'Error during analysis.'}</p>
+          <div className="text-4xl mb-4">?좑툘</div>
+          <p className="text-yellow-200 mb-6">{locale === 'ko' ? '遺꾩꽍 以??ㅻ쪟媛 諛쒖깮?덉뒿?덈떎.' : 'Error during analysis.'}</p>
           <button
             className="btn-secondary"
             onClick={() => router.push(`/${locale}`)}
@@ -243,7 +254,7 @@ export default function ResultIdPage() {
 
   const scoreLabel = (score: number) => {
     if (locale === 'ko') {
-      return score >= 85 ? '매우 좋음' : score >= 75 ? '좋음' : score >= 65 ? '보통' : '개선 여지';
+      return score >= 85 ? '留ㅼ슦 醫뗭쓬' : score >= 75 ? '醫뗭쓬' : score >= 65 ? '蹂댄넻' : '媛쒖꽑 ?ъ?';
     } else {
       return score >= 85 ? 'Excellent' : score >= 75 ? 'Great' : score >= 65 ? 'Good' : 'Needs Improvement';
     }
@@ -264,29 +275,29 @@ export default function ResultIdPage() {
     <div className="min-h-screen">
       <Navigation />
 
-      {/* 상단 광고 */}
+      {/* Top ad */}
       <div className="flex justify-center py-3 bg-black/20">
         <AdSense slot="2233445566" format="horizontal" />
       </div>
 
       <main className="max-w-2xl mx-auto px-4 py-8">
 
-        {/* ── 제목 ── */}
+        {/* Header */}
         <div className="text-center mb-8 fade-in-up">
-          <div className="text-5xl mb-3">🔮</div>
+          <div className="text-5xl mb-3">?뵰</div>
           <h1 className="text-2xl md:text-3xl font-bold text-yellow-100 mb-2">
-            {locale === 'ko' ? `${inputData.name}님의 종합 분석 결과` : `Comprehensive Analysis for ${inputData.name}`}
+            {locale === 'ko' ? `${inputData.name}?섏쓽 醫낇빀 遺꾩꽍 寃곌낵` : `Comprehensive Analysis for ${inputData.name}`}
           </h1>
           <p className="text-yellow-200/60 text-sm">
             {locale === 'ko' 
               ? `${inputData.year}년 ${inputData.month}월 ${inputData.day}일`
               : `${inputData.month}/${inputData.day}/${inputData.year}`}
-            {inputData.hour !== undefined && (locale === 'ko' ? ` · ${inputData.hour}시생` : ` · ${inputData.hour}:00`)}
+            {inputData.hour !== undefined && (locale === 'ko' ? ` · ${inputData.hour}시` : ` · ${inputData.hour}:00`)}
             {inputData.mbti && ` · ${inputData.mbti}`}
           </p>
         </div>
 
-        {/* ── 종합 점수 카드 ── */}
+        {/* Total score card */}
         <div className="card-glow p-6 mb-6 text-center fade-in-up">
           <p className="text-yellow-200/60 text-xs mb-1 tracking-widest">TOTAL SCORE</p>
           <div className="text-7xl font-bold mb-1 shimmer">{result.scores.total}</div>
@@ -318,13 +329,13 @@ export default function ResultIdPage() {
           </div>
         </div>
 
-        {/* ── 수호신 카드 ── */}
+        {/* Guardian card */}
         <GuardianCard guardian={result.guardian} locale={locale} />
 
-        {/* ── 핵심 요약 ── */}
+        {/* Core summary */}
         <div className="card-dark p-6 mb-6">
           <h2 className="text-lg font-bold text-yellow-400 mb-4">
-            {locale === 'ko' ? '📝 핵심 요약' : '📝 Core Summary'}
+            {locale === 'ko' ? '?뱷 ?듭떖 ?붿빟' : '?뱷 Core Summary'}
           </h2>
           <div className="space-y-3">
             {result.summaryLines.map((line, i) => (
@@ -336,71 +347,71 @@ export default function ResultIdPage() {
           </div>
         </div>
 
-        {/* ── 분석 근거 ── */}
+        {/* Analysis basis */}
         <div className="mb-6 bg-purple-900/20 border border-purple-700/30 rounded-xl p-4">
           <p className="text-purple-300/90 text-xs font-bold mb-2 tracking-wide">
-            {locale === 'ko' ? '📊 분석 근거' : '📊 Analysis Basis'}
+            {locale === 'ko' ? '?뱤 遺꾩꽍 洹쇨굅' : '?뱤 Analysis Basis'}
           </p>
           <div className="space-y-1 text-xs text-purple-200/70">
             <p>{result.analysisBox.ilgan}</p>
             <p>{result.analysisBox.wolji}</p>
             <p>
               {locale === 'ko' 
-                ? `수리: 원격 ${result.analysisBox.wongyeok}수 / 형격 ${result.analysisBox.hyeongyeok}수`
+                ? `수리: 원격 ${result.analysisBox.wongyeok} / 형격 ${result.analysisBox.hyeongyeok}`
                 : `Suri: Won-Gyeok ${result.analysisBox.wongyeok} / Hyeong-Gyeok ${result.analysisBox.hyeongyeok}`}
             </p>
-            <p>{locale === 'ko' ? '소리오행: ' : 'Sound Elements: '}{result.analysisBox.soundOhaeng}</p>
+            <p>{locale === 'ko' ? '소리 오행: ' : 'Sound Elements: '}{result.analysisBox.soundOhaeng}</p>
             {result.analysisBox.mbtiOhaeng && (
               <p>{result.analysisBox.mbtiOhaeng}</p>
             )}
           </div>
         </div>
 
-        {/* ── 광고 ── */}
+        {/* Ad slot */}
         <div className="flex justify-center py-4 mb-2">
           <AdSense slot="3344556677" format="rectangle" />
         </div>
 
-        {/* ── 오행 균형 분석 ── */}
+        {/* Five-element balance */}
         <SectionCard section={result.ohaengAnalysis} />
 
-        {/* ── 일간(日干) 분석 ── */}
+        {/* Core day-master analysis */}
         <SectionCard section={result.ilganAnalysis} />
 
-        {/* ── 광고 ── */}
+        {/* Ad slot */}
         <div className="flex justify-center py-4 mb-2">
           <AdSense slot="5566778800" format="rectangle" />
         </div>
 
-        {/* ── 직업·재능 ── */}
+        {/* Career and strengths */}
         <SectionCard section={result.careerSection} />
 
-        {/* ── 재물·경제 ── */}
+        {/* Wealth and finances */}
         <SectionCard section={result.wealthSection} />
 
-        {/* ── 연애·인연 ── */}
+        {/* Love and relationships */}
         <SectionCard section={result.loveSection} />
 
-        {/* ── 광고 ── */}
+        {/* Ad slot */}
         <div className="flex justify-center py-4 mb-2">
           <AdSense slot="6677889911" format="rectangle" />
         </div>
 
-        {/* ── 건강·체질 ── */}
+        {/* Health and body */}
         <SectionCard section={result.healthSection} />
 
-        {/* ── 개운법 ── */}
+        {/* Lucky factors */}
         <SectionCard section={result.luckySection} />
 
-        {/* ── 성명학 상세 ── */}
+        {/* Name details */}
         <SectionCard section={result.nameDetailSection} />
 
-        {/* ── MBTI×사주 (입력 시에만) ── */}
+        {/* Optional MBTI cross-analysis */}
         {result.mbtiSajuSection && (
           <SectionCard section={result.mbtiSajuSection} />
         )}
 
-        {/* ── 더 정확한 분석 안내 ── */}
+        {/* Guidance for more precise analysis */}
         {(result.missingItems.mbti ||
           result.missingItems.time ||
           result.missingItems.photo) && (
@@ -412,45 +423,50 @@ export default function ResultIdPage() {
               {result.missingItems.mbti && (
                 <p className="text-yellow-200/60 text-sm">
                   {locale === 'ko' 
-                    ? '· MBTI를 입력하면 성격-운세 교차 분석이 추가됩니다'
-                    : '· Enter MBTI for personality-fortune cross analysis'}
+                    ? '· MBTI를 입력하면 성격-운세 교차 분석이 추가됩니다.'
+                    : '쨌 Enter MBTI for personality-fortune cross analysis'}
                 </p>
               )}
               {result.missingItems.time && (
                 <p className="text-yellow-200/60 text-sm">
                   {locale === 'ko'
-                    ? '· 태어난 시간을 입력하면 시주(時柱) 세밀 분석이 가능합니다'
-                    : '· Enter birth time for detailed Pillar analysis'}
+                    ? '쨌 ?쒖뼱???쒓컙???낅젰?섎㈃ ?쒖＜(?귝윶) ?몃? 遺꾩꽍??媛?ν빀?덈떎'
+                    : '쨌 Enter birth time for detailed Pillar analysis'}
                 </p>
               )}
               {result.missingItems.photo && (
                 <p className="text-yellow-200/60 text-sm">
                   {locale === 'ko'
-                    ? '· 사진을 추가하면 관상 분석이 포함됩니다'
-                    : '· Add a photo for face reading analysis'}
+                    ? '· 사진을 추가하면 관상 분석이 포함됩니다.'
+                    : '쨌 Add a photo for face reading analysis'}
                 </p>
               )}
               <button
                 className="btn-secondary w-full mt-3 text-sm"
-                onClick={() => router.push(`/${locale}`)}
+                onClick={() => router.push(analysisStartPath)}
               >
-                {locale === 'ko' ? '다시 분석하기' : 'Analyze Again'}
+                {locale === 'ko' ? '?ㅼ떆 遺꾩꽍?섍린' : 'Analyze Again'}
               </button>
             </div>
           </div>
         )}
 
-        {/* ── 면책 문구 ── */}
+        {/* Disclaimer */}
         <div className="bg-yellow-900/10 border border-yellow-900/20 rounded-xl p-4 mb-6">
           <p className="text-yellow-200/40 text-xs leading-relaxed text-center">
             {locale === 'ko' 
-              ? '본 분석은 전통 동양철학 이론을 기반으로 생성된 참고 자료입니다. 재미와 자기 이해를 위한 용도로 활용하시고, 중요한 결정은 전문가와 상담하시기 바랍니다. 같은 생년월일시로 분석하면 항상 동일한 결과가 나옵니다.'
+              ? '蹂?遺꾩꽍? ?꾪넻 ?숈뼇泥좏븰 ?대줎??湲곕컲?쇰줈 ?앹꽦??李멸퀬 ?먮즺?낅땲?? ?щ?? ?먭린 ?댄빐瑜??꾪븳 ?⑸룄濡??쒖슜?섏떆怨? 以묒슂??寃곗젙? ?꾨Ц媛? ?곷떞?섏떆湲?諛붾엻?덈떎. 媛숈? ?앸뀈?붿씪?쒕줈 遺꾩꽍?섎㈃ ??긽 ?숈씪??寃곌낵媛 ?섏샃?덈떎.'
               : 'This analysis is based on traditional Eastern philosophy. Please use it for entertainment and self-understanding. Consult a professional for important decisions. Same birth data always yields the same results.'}
           </p>
         </div>
 
-        {/* ── 공유 버튼 ── */}
-        <div className="flex gap-3 mb-8">
+        {/* Share actions */}
+        <div className="flex flex-wrap gap-3 mb-8">
+          <p className="w-full text-yellow-200/50 text-xs text-center mb-3">
+            {locale === 'ko'
+              ? '개인 결과는 이 기기에서만 보관됩니다. 공유 시에는 새 분석 페이지 링크만 전달됩니다.'
+              : 'Private results stay on this device. Sharing only sends the analysis start page.'}
+          </p>
           <button
             className="share-btn share-kakao flex-1 justify-center"
             onClick={handleKakaoShare}
@@ -463,11 +479,13 @@ export default function ResultIdPage() {
             onClick={handleCopyLink}
           >
             <span>{copied ? '✅' : '🔗'}</span>
-            <span>{copied ? (locale === 'ko' ? '복사됨!' : 'Copied!') : (locale === 'ko' ? '링크 복사' : 'Copy Link')}</span>
+            <span>{copied ? (locale === 'ko' ? '복사됨!' : 'Copied!') : (locale === 'ko' ? '분석 페이지 링크 복사' : 'Copy Analysis Link')}</span>
           </button>
         </div>
 
-        {/* ── 관련 글 ── */}
+        <ResultNextSteps locale={locale} current="combined" />
+
+        {/* Related articles */}
         <div className="mb-8">
           <h2 className="text-xl font-bold text-yellow-100 mb-4">
             {locale === 'ko' ? '관련 글 더보기' : 'More Related Articles'}
@@ -475,32 +493,32 @@ export default function ResultIdPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             {[
               { 
-                titleKo: '사주팔자 기초: 천간지지란 무엇인가', 
+                titleKo: '?ъ＜?붿옄 湲곗큹: 泥쒓컙吏吏? 臾댁뾿?멸?', 
                 titleEn: 'Four Pillars Basics: What is Cheongan Jiji?',
                 href: `/${locale}/saju` 
               },
               { 
-                titleKo: '성명학으로 이름 운세 알아보기', 
+                titleKo: '?깅챸?숈쑝濡??대쫫 ?댁꽭 ?뚯븘蹂닿린', 
                 titleEn: 'Learn Fortune through Name Analysis',
                 href: `/${locale}/name` 
               },
               { 
-                titleKo: '관상으로 보는 성격과 운명', 
+                titleKo: '愿?곸쑝濡?蹂대뒗 ?깃꺽怨??대챸', 
                 titleEn: 'Personality and Fate via Face Reading',
                 href: `/${locale}/face` 
               },
               { 
-                titleKo: 'MBTI와 사주의 신기한 연관성', 
+                titleKo: 'MBTI와 사주를 함께 보는 이유',
                 titleEn: 'Mysterious Link between MBTI and Saju',
                 href: `/${locale}/mbti` 
               },
               { 
-                titleKo: '오행(五行) 완벽 이해 가이드', 
+                titleKo: '?ㅽ뻾(雅붻죱) ?꾨꼍 ?댄빐 媛?대뱶', 
                 titleEn: 'Perfect Guide to the Five Elements',
                 href: `/${locale}/saju` 
               },
               { 
-                titleKo: '사주로 알아보는 직업 적성', 
+                titleKo: '?ъ＜濡??뚯븘蹂대뒗 吏곸뾽 ?곸꽦', 
                 titleEn: 'Career Aptitude via Four Pillars',
                 href: `/${locale}/saju` 
               },
@@ -511,14 +529,14 @@ export default function ResultIdPage() {
                 className="card-dark p-4 hover:border-yellow-500/40 transition-all group"
               >
                 <p className="text-yellow-200/80 text-sm group-hover:text-yellow-300 transition-colors">
-                  📄 {locale === 'ko' ? post.titleKo : post.titleEn}
+                  ?뱞 {locale === 'ko' ? post.titleKo : post.titleEn}
                 </p>
               </a>
             ))}
           </div>
         </div>
 
-        {/* ── 하단 광고 ── */}
+        {/* Bottom ad */}
         <div className="flex justify-center py-4">
           <AdSense slot="4455667788" format="rectangle" />
         </div>

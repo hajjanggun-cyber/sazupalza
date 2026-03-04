@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import Navigation from '../../components/Navigation';
 import Footer from '../../components/Footer';
 import AdSense from '../../components/AdSense';
+import PrivacyStartNotice from '../../components/PrivacyStartNotice';
 import Link from 'next/link';
 import Image from 'next/image';
 import {
@@ -12,6 +13,7 @@ import {
   mbtiPosts,
   bokhapPosts,
 } from '../../lib/blog';
+import { buildLocaleAlternates } from '../../lib/seo';
 
 interface Props {
   params: { locale: string };
@@ -29,9 +31,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
     keywords: isKo
       ? ['사주팔자 무료', '무료 사주', '관상 분석', '성명학', '성격유형', '무료 운세']
       : ['Korean fortune reading', 'four pillars free', 'face reading', 'Korean numerology'],
-    alternates: {
-      canonical: locale === 'ko' ? 'https://sajupalza.cc' : `https://sajupalza.cc/${locale}`,
-    },
+    alternates: buildLocaleAlternates(locale),
   };
 }
 
@@ -222,6 +222,19 @@ export default async function HomePage({ params: { locale } }: Props) {
         </section>
 
         {/* ── 福 배너 이미지 ── */}
+        <section className="max-w-3xl mx-auto px-4 pb-8">
+          <PrivacyStartNotice locale={locale} />
+          <div className="mt-4 text-center">
+            <Link
+              href={`/${locale}/about`}
+              className="inline-flex items-center gap-2 rounded-full border border-yellow-700/30 bg-yellow-900/10 px-4 py-2 text-sm font-medium text-yellow-200/80 hover:text-yellow-100 hover:border-yellow-500/40 transition-colors"
+            >
+              <span>{isKo ? '편집 기준과 운영 원칙 확인' : 'Review Our Editorial Policy'}</span>
+              <span aria-hidden="true">↗</span>
+            </Link>
+          </div>
+        </section>
+
         <div className="max-w-5xl mx-auto px-4 mb-8 rounded-2xl overflow-hidden">
           <Image
             src="/hero-banner.jpg"

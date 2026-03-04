@@ -4,6 +4,7 @@ import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useState } from 'react';
+import { buildLocalizedHref } from '@/lib/seo';
 
 export default function Navigation() {
   const t = useTranslations('nav');
@@ -11,11 +12,12 @@ export default function Navigation() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const navLinks = [
-    { href: `/${locale}/saju`, label: t('saju') },
-    { href: `/${locale}/name-reading`, label: t('name') },
-    { href: `/${locale}/face-reading`, label: t('face') },
-    { href: `/${locale}/mbti`, label: t('mbti') },
-    { href: `/${locale}/compatibility`, label: t('compatibility') },
+    { href: buildLocalizedHref(locale, '/saju'), label: t('saju') },
+    { href: buildLocalizedHref(locale, '/name-reading'), label: t('name') },
+    { href: buildLocalizedHref(locale, '/face-reading'), label: t('face') },
+    { href: buildLocalizedHref(locale, '/mbti'), label: t('mbti') },
+    { href: buildLocalizedHref(locale, '/compatibility'), label: t('compatibility') },
+    { href: buildLocalizedHref(locale, '/about'), label: locale === 'ko' ? '운영 원칙' : 'About' },
   ];
 
   const localeLinks = [
@@ -28,7 +30,7 @@ export default function Navigation() {
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* 로고 */}
-          <Link href={`/${locale}`} className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+          <Link href={buildLocalizedHref(locale)} className="flex items-center gap-2 hover:opacity-80 transition-opacity">
             <Image src="/logo.png" alt={t('logo')} width={40} height={40} className="rounded-md" />
             <span className="text-xl font-bold text-yellow-400">
               {locale === 'ko' ? '사주팔자' : 'SAJUPALZA'}
@@ -41,7 +43,11 @@ export default function Navigation() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-yellow-200/80 hover:text-yellow-400 transition-colors text-sm font-medium"
+                className={`transition-colors text-sm font-medium ${
+                  link.href.endsWith('/about')
+                    ? 'text-yellow-300 hover:text-yellow-200'
+                    : 'text-yellow-200/80 hover:text-yellow-400'
+                }`}
               >
                 {link.label}
               </Link>
@@ -53,7 +59,7 @@ export default function Navigation() {
             {localeLinks.map(({ locale: loc, label }) => (
               <Link
                 key={loc}
-                href={`/${loc}`}
+                href={buildLocalizedHref(loc)}
                 className={`text-xs font-bold px-2 py-1 rounded transition-colors ${
                   locale === loc
                     ? 'bg-yellow-500 text-black'

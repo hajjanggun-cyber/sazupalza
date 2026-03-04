@@ -1,6 +1,7 @@
 import { BlogPost } from './types';
+import { distributePublishedDates } from './date-utils';
 
-export const gwansangPosts: BlogPost[] = [
+export const gwansangPosts: BlogPost[] = distributePublishedDates([
   {
     slug: 'intro',
     title: 'Introduction to Gwansang: The Ancient Art of Korean Face Reading',
@@ -1186,7 +1187,7 @@ export const gwansangPosts: BlogPost[] = [
 <p>When one eye is noticeably larger, or one has a double eyelid while the other does not, it is called a "Yin-Yang Eye." This indicates a dualistic nature. These individuals can see situations from multiple, conflicting perspectives simultaneously. They are highly adaptable, quick-witted, and often possess genius-level strategic or artistic abilities. Many top-tier CEOs and legendary actors possess Yin-Yang eyes. The danger lies in being perceived as calculating or untrustworthy by those seeking simple transparency.</p>
 
 <h3>Dohwa-an (Peach Blossom Eyes): The Fatal Attraction</h3>
-<p>These eyes appear slightly flushed at the corners, constantly moist, and seem to be smiling even when the face is at rest. In Gwansang, this is the "Peach Blossom" energy—an overwhelming, almost magnetic sexual and social charisma. For celebrities and influencers, it is the ultimate weapon for mass appeal. For everyday individuals, it guarantees popularity but requires strict self-discipline, as it frequently attracts complicated romantic scandals and unwanted drama.</p>
+<p>These eyes appear slightly flushed at the corners, constantly moist, and seem to be smiling even when the face is at rest. In Gwansang, this is the "Peach Blossom" energy—an almost magnetic sexual and social charisma. For celebrities and influencers, it can be a strong advantage for mass appeal. For everyday individuals, it often correlates with popularity, but it also calls for self-discipline because it may attract complicated romantic attention and unwanted drama.</p>
 
 <h2 id="eye-gaze">4. The Ultimate Key: Your Gaze (Angwang)</h2>
 <p>Master face readers constantly reiterate: "You cannot easily change the shape of your eyes, but you have absolute control over your Angwang (Eye Light)." You could have the perfect Phoenix eyes, but if you are chronically exhausted, cynical, or hungover, the light dies, and your fortune plummets immediately.</p>
@@ -1514,7 +1515,7 @@ export const gwansangPosts: BlogPost[] = [
 <p>The single most predictive feature of the mouth is the resting angle of the corners (the commissures). This is the physical manifestation of your lifelong mental attitude.</p>
 
 <h3>The Angwolgu (Crescent Moon Mouth)</h3>
-<p>The corners curl naturally upward, making the person look like they carry a secret, pleasant thought even when silent. This is one of the <strong>ultimate lucky features</strong> in Gwansang. It acts as a basin that catches and holds good fortune. These people attract massive social support, age beautifully, and are virtually guaranteed a comfortable, respected, and joyful retirement.</p>
+<p>The corners curl naturally upward, making the person look like they carry a secret, pleasant thought even when silent. This is regarded as a favorable feature in Gwansang. It is traditionally read as a sign of retained goodwill and social warmth. These people often attract broader support, tend to age with grace, and are more likely to enjoy a comfortable and respected later life.</p>
 
 <h3>The Overturned Boat Mouth</h3>
 <p>The corners pull downward, projecting a permanent scowl, cynicism, or fatigue. In Gwansang, this is a severe warning sign. It acts as a slide where all accumulated fortune pours out. It is the physical scar of decades of negative thinking and complaining. It repels benefactors and predicts an isolated, bitter late life. The remedy? Intense, conscious facial exercises to retrain the muscles into a smile.</p>
@@ -1668,7 +1669,7 @@ export const gwansangPosts: BlogPost[] = [
 <p>The lowest part of the ear—the earlobe (Suju)—is intensely analyzed in Gwansang because it represents your <strong>Late-Life Wealth</strong> and your capacity for empathy.</p>
 
 <h3>The "Buddha Ear" (Thick, Long, and Pendulous)</h3>
-<p>If your earlobes are thick, fleshy, hang low, and slightly curve forward as if trying to reach your mouth, you possess the <strong>ultimate ear of wealth and longevity</strong>. This shape indicates a generous, forgiving nature. People are naturally drawn to this energy. Even if they struggle in youth, individuals with Buddha ears are virtually guaranteed to accumulate massive social and financial capital by their later years.</p>
+<p>If your earlobes are thick, fleshy, hang low, and slightly curve forward as if trying to reach your mouth, traditional Gwansang reads this as a favorable sign for late-life stability and vitality. This shape suggests a generous, forgiving nature. People are often drawn to this energy. Even if they struggle in youth, individuals with Buddha ears are commonly interpreted as having stronger chances of building meaningful social and financial stability later in life.</p>
 
 <h3>The "Knife Ear" (Attached, Straight, or No Earlobe)</h3>
 <p>The ear connects directly to the jawline with little to no hanging lobe. This indicates a sharp, pragmatic, and highly efficient personality. They have an excellent, almost surgical instinct for making money and business deals. However, because they are deeply logical, they can sometimes appear cold or calculating. Their life lesson is to actively practice charity; otherwise, they may amass wealth but find themselves isolated in old age.</p>
@@ -1718,4 +1719,4 @@ export const gwansangPosts: BlogPost[] = [
       { slug: 'health-face', category: 'face-reading', title: '관상과 건강: 얼굴색으로 보는 운세 신호' },
     ],
   },
-];
+], '2026-01-08', 4, '2026-02-12', 1);

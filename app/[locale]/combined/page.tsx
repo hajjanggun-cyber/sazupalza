@@ -4,7 +4,9 @@ import Navigation from '../../../components/Navigation';
 import Footer from '../../../components/Footer';
 import AdSense from '../../../components/AdSense';
 import AnalysisForm from '../../../components/AnalysisForm';
+import PrivacyStartNotice from '../../../components/PrivacyStartNotice';
 import Link from 'next/link';
+import { SITE_URL, buildLocaleAlternates, buildLocalizedUrl } from '@/lib/seo';
 
 interface Props {
     params: { locale: string };
@@ -22,6 +24,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
         keywords: isKo
             ? ['사주팔자 무료', '무료 사주', '관상 분석', '성명학', '성격유형', '통합 운세']
             : ['Korean fortune reading', 'four pillars free', 'saju analysis', 'face reading', 'name numerology'],
+        alternates: buildLocaleAlternates(locale, '/combined'),
     };
 }
 
@@ -30,12 +33,12 @@ export default async function CombinedPage({ params: { locale } }: Props) {
     const t = await getTranslations({ locale });
     const isKo = locale === 'ko';
 
-    const baseUrl = 'https://sajupalza.cc';
+    const baseUrl = SITE_URL;
     const webAppJsonLd = {
         '@context': 'https://schema.org',
         '@type': 'WebApplication',
         name: isKo ? '사주팔자 4가지 통합 분석' : 'Korean Fortune Reading — 4-in-1',
-        url: `${baseUrl}/${locale}/combined`,
+        url: buildLocalizedUrl(locale, '/combined'),
         description: isKo
             ? '사주팔자·관상·성명학·성격유형 통합 무료 분석'
             : 'Combined Korean fortune reading — Four Pillars, Face, Name, Personality',
@@ -109,6 +112,10 @@ export default async function CombinedPage({ params: { locale } }: Props) {
                 </section>
 
                 {/* 5단계 입력 폼 */}
+                <section className="max-w-3xl mx-auto px-4 pb-8">
+                    <PrivacyStartNotice locale={locale} />
+                </section>
+
                 <section className="max-w-xl mx-auto px-4 pb-12">
                     <div className="card-dark p-6 md:p-8">
                         <AnalysisForm />

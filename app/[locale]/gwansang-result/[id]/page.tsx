@@ -4,9 +4,14 @@ import Image from 'next/image';
 import { useParams, useRouter } from 'next/navigation';
 import { useEffect, useState, useMemo } from 'react';
 import { SINGLE_RESULT_REVEAL_DELAY_MS } from '../../../../lib/constants/analysis-delay';
+import { readResultPayload } from '../../../../lib/client/result-storage';
+import { getAnalysisStartUrl } from '../../../../lib/client/share-links';
 import Navigation from '../../../../components/Navigation';
 import Footer from '../../../../components/Footer';
 import AdSense from '../../../../components/AdSense';
+import ResultNextSteps from '../../../../components/ResultNextSteps';
+import ResultUnavailableState from '../../../../components/ResultUnavailableState';
+import { buildLocalizedHref } from '@/lib/seo';
 
 // ════════ 타입 ════════
 interface GwansangInput {
@@ -21,13 +26,7 @@ interface GwansangInput {
 }
 
 function decodeInput(id: string): GwansangInput | null {
-    try {
-        const base64 = id.replace(/-/g, '+').replace(/_/g, '/');
-        const padding = '='.repeat((4 - (base64.length % 4)) % 4);
-        const binStr = atob(base64 + padding);
-        const bytes = Uint8Array.from(binStr, c => c.charCodeAt(0));
-        return JSON.parse(new TextDecoder().decode(bytes));
-    } catch { return null; }
+    return readResultPayload<GwansangInput>('gwansang', id);
 }
 
 // ════════ 로딩 ════════
@@ -203,26 +202,37 @@ export default function GwansangResultPage() {
     const locale = (params.locale as string) || 'ko';
     const id = params.id as string;
     const isKo = locale === 'ko';
+    const [mounted, setMounted] = useState(false);
 
-    const inputData = useMemo(() => decodeInput(id), [id]);
+    const inputData = useMemo(() => (mounted ? decodeInput(id) : null), [id, mounted]);
     const [loadingDone, setLoadingDone] = useState(false);
     const [copied, setCopied] = useState(false);
     const [frontImg, setFrontImg] = useState<string | null>(null);
 
     useEffect(() => {
-        if (!inputData) { router.push(`/${locale}`); return; }
+        setMounted(true);
+    }, []);
+
+    useEffect(() => {
+        if (!mounted) {
+            return;
+        }
+        if (!inputData) { return; }
         // sessionStorage에서 이미지 복원
         const img = sessionStorage.getItem('gwansang_front');
         if (img) setFrontImg(img);
         const t = setTimeout(() => setLoadingDone(true), SINGLE_RESULT_REVEAL_DELAY_MS);
         return () => clearTimeout(t);
-    }, [inputData, locale, router]);
+    }, [inputData, locale, mounted, router]);
 
+    if (mounted && !inputData) {
+        return <ResultUnavailableState locale={locale} retryPath={buildLocalizedHref(locale, '/gwansang-analysis')} />;
+    }
     if (!inputData) return null;
     if (!loadingDone) return <LoadingScreen isKo={isKo} />;
 
     const handleCopy = async () => {
-        await navigator.clipboard.writeText(window.location.href).catch(() => { });
+        await navigator.clipboard.writeText(getAnalysisStartUrl(locale, 'gwansang')).catch(() => { });
         setCopied(true);
         setTimeout(() => setCopied(false), 2500);
     };
@@ -237,7 +247,7 @@ export default function GwansangResultPage() {
     // 총점 (대칭도 + 얼굴형 기본점)
     const baseScore = { oval: 82, oval_long: 78, round: 80, square: 76, triangle_inv: 75 }[faceShape] ?? 78;
     const totalScore = Math.round(baseScore * 0.4 + symmetryScore * 0.6);
-    const accuracyPct = inputData.hasSide ? 95 : 75;
+    const inputCoveragePct = inputData.hasSide ? 95 : 75;
 
     const scoreColor = (s: number) => s >= 80 ? 'text-yellow-400' : s >= 65 ? 'text-green-400' : 'text-blue-400';
 
@@ -259,7 +269,7 @@ export default function GwansangResultPage() {
                     <div className="inline-flex items-center gap-2 bg-orange-900/30 border border-orange-600/30 rounded-full px-4 py-1.5 text-sm mt-2">
                         <span className="text-orange-400">✦</span>
                         <span className="text-yellow-200">
-                            {isKo ? `입력 완성도 ${accuracyPct}%` : `Input Coverage ${accuracyPct}%`}
+                            {isKo ? `입력 완성도 ${inputCoveragePct}%` : `Input Coverage ${inputCoveragePct}%`}
                         </span>
                     </div>
                 </div>
@@ -424,15 +434,22 @@ export default function GwansangResultPage() {
                 </div>
 
                 {/* ── 공유 ── */}
-                <div className="flex gap-3 mb-8">
+                <div className="flex flex-wrap gap-3 mb-8">
+                    <p className="w-full text-yellow-200/50 text-xs text-center mb-3">
+                        {isKo
+                            ? '개인 결과는 이 기기에서만 보관됩니다. 공유 시에는 새 분석 페이지 링크만 전달됩니다.'
+                            : 'Private results stay on this device. Sharing only sends the analysis start page.'}
+                    </p>
                     <button className="share-btn share-link flex-1 justify-center" onClick={handleCopy}>
                         <span>{copied ? '✅' : '🔗'}</span>
-                        <span>{copied ? (isKo ? '복사됨!' : 'Copied!') : (isKo ? '결과 링크 복사' : 'Copy Link')}</span>
+                        <span>{copied ? (isKo ? '복사됨!' : 'Copied!') : (isKo ? '분석 페이지 링크 복사' : 'Copy Analysis Link')}</span>
                     </button>
                     <button className="btn-secondary flex-1" onClick={() => router.push(`/${locale}/gwansang-analysis`)}>
                         🔄 {isKo ? '다시 분석하기' : 'Analyze Again'}
                     </button>
                 </div>
+
+                <ResultNextSteps locale={locale} current="gwansang" />
 
             </main>
             <Footer />

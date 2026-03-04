@@ -3,18 +3,13 @@
 import { useLocale } from 'next-intl';
 import { useRouter } from 'next/navigation';
 import { useState, useMemo } from 'react';
+import { storeResultPayload } from '@/lib/client/result-storage';
+import { buildLocalizedHref } from '@/lib/seo';
 import Step2Birth, { BirthData } from './steps/Step2Birth';
 
 // ════════════════════════════════════════════
 //  📌 공통 유틸
 // ════════════════════════════════════════════
-function encodeToBase64Url(data: object): string {
-    const jsonStr = JSON.stringify(data);
-    const bytes = new TextEncoder().encode(jsonStr);
-    const binStr = Array.from(bytes, (b) => String.fromCharCode(b)).join('');
-    return btoa(binStr).replace(/\+/g, '-').replace(/\//g, '_').replace(/=/g, '');
-}
-
 // ════════════════════════════════════════════
 //  🇰🇷 한국어 성명학 관련 상수
 // ════════════════════════════════════════════
@@ -237,8 +232,8 @@ export default function SeongmyeongForm() {
                 hasPhoto: false,
             };
         }
-        const encoded = encodeToBase64Url(data);
-        router.push(`/${locale}/seongmyeong-result/${encoded}`);
+        const token = storeResultPayload('seongmyeong', data);
+        router.push(buildLocalizedHref(locale, `/seongmyeong-result/${token}`));
     };
 
     // ── 스텝 레이블 ──

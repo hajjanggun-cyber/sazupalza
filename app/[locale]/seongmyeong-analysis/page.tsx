@@ -4,7 +4,9 @@ import Navigation from '../../../components/Navigation';
 import Footer from '../../../components/Footer';
 import AdSense from '../../../components/AdSense';
 import SeongmyeongForm from '../../../components/SeongmyeongForm';
+import PrivacyStartNotice from '../../../components/PrivacyStartNotice';
 import Link from 'next/link';
+import { SITE_URL, buildLocaleAlternates, buildLocalizedUrl } from '@/lib/seo';
 
 interface Props {
     params: { locale: string };
@@ -22,6 +24,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
         keywords: isKo
             ? ['성명학 무료', '이름 획수 분석', '소리오행', '성명학 분석', '개명', '이름풀이', '81수리']
             : ['name numerology free', 'expression number', 'soul urge number', 'life path number', 'Pythagorean numerology'],
+        alternates: buildLocaleAlternates(locale, '/seongmyeong-analysis'),
     };
 }
 
@@ -29,12 +32,12 @@ export default async function SeongmyeongAnalysisPage({ params: { locale } }: Pr
     unstable_setRequestLocale(locale);
     const isKo = locale === 'ko';
 
-    const baseUrl = 'https://sajupalza.cc';
+    const baseUrl = SITE_URL;
     const jsonLd = {
         '@context': 'https://schema.org',
         '@type': 'WebApplication',
         name: isKo ? '성명학 무료 분석' : 'Free Name Numerology Analysis',
-        url: `${baseUrl}/${locale}/seongmyeong-analysis`,
+        url: buildLocalizedUrl(locale, '/seongmyeong-analysis'),
         description: isKo
             ? '한자 획수와 소리오행으로 이름의 운을 분석'
             : 'Pythagorean numerology: Soul Urge, Expression, Life Path',
@@ -117,6 +120,10 @@ export default async function SeongmyeongAnalysisPage({ params: { locale } }: Pr
                 </section>
 
                 {/* 입력 폼 */}
+                <section className="max-w-3xl mx-auto px-4 pb-8">
+                    <PrivacyStartNotice locale={locale} />
+                </section>
+
                 <section className="max-w-xl mx-auto px-4 pb-10">
                     <div className="card-dark p-6 md:p-8">
                         <SeongmyeongForm />

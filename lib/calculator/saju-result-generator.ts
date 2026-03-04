@@ -5,6 +5,11 @@ import { SajuResult, analyzeOhaengBalance } from './saju-calculator';
 import { ILJOO_PROFILES } from '../data/saju/iljoo-profiles';
 import { DAEWOON_SEWOON_CROSS } from '../data/saju/daewoon-sewoon';
 import { SINSAL_COMBOS } from '../data/saju/sinsal-combo';
+import {
+    analyzeTenGodProfile,
+    calculateAdvancedSajuScore,
+    determineSajuScoringFocus,
+} from './saju-scoring';
 
 export interface SajuSection {
     icon: string;
@@ -447,8 +452,50 @@ function determineSinsal(saju: SajuResult): string[] {
 }
 
 // ── 대운 생성 (간략화: 10년 주기 6개) ──
-function generateDaewoon(birthYear: number, ilgan: string, gender: string, locale: string): DaewoonItem[] {
-    const baseAge = 5; // 5세부터 대운 시작
+function generateDaewoon(
+    birthYear: number,
+    birthMonth: number,
+    birthDay: number,
+    yearStem: string,
+    ilgan: string,
+    gender: string,
+    locale: string,
+): DaewoonItem[] {
+    const stemOrder = ['갑', '을', '병', '정', '무', '기', '경', '신', '임', '계'];
+    const branchOrder = ['자', '축', '인', '묘', '진', '사', '오', '미', '신', '유', '술', '해'];
+    const solarTermAnchors = [
+        { month: 1, day: 6 },
+        { month: 2, day: 4 },
+        { month: 3, day: 6 },
+        { month: 4, day: 5 },
+        { month: 5, day: 6 },
+        { month: 6, day: 6 },
+        { month: 7, day: 7 },
+        { month: 8, day: 8 },
+        { month: 9, day: 8 },
+        { month: 10, day: 8 },
+        { month: 11, day: 7 },
+        { month: 12, day: 7 },
+    ];
+    const yangYearStems = new Set(['갑', '병', '무', '경', '임']);
+    const isMale = gender === 'male';
+    const isFemale = gender === 'female';
+    const isYangYear = yangYearStems.has(yearStem);
+    const isForward = isFemale ? !isYangYear : isMale ? isYangYear : true;
+    const currentDate = new Date(Date.UTC(birthYear, birthMonth - 1, birthDay));
+    const nextAnchor = solarTermAnchors.find((anchor) =>
+        anchor.month > birthMonth || (anchor.month === birthMonth && anchor.day >= birthDay)
+    ) || solarTermAnchors[0];
+    const anchorYear =
+        nextAnchor.month < birthMonth || (nextAnchor.month === birthMonth && nextAnchor.day < birthDay)
+            ? birthYear + 1
+            : birthYear;
+    const anchorDate = new Date(Date.UTC(anchorYear, nextAnchor.month - 1, nextAnchor.day));
+    const daysUntilAnchor = Math.max(
+        3,
+        Math.round((anchorDate.getTime() - currentDate.getTime()) / 86400000),
+    );
+    const baseAge = Math.max(2, Math.min(10, Math.round(daysUntilAnchor / 3)));
     const themesKo = [
         { theme: '학습·성장기', detail: '기초를 닦고 역량을 키우는 시간. 배움과 준비에 집중할수록 이후가 빛납니다.' },
         { theme: '도전·확장기', detail: '새로운 기회와 만남이 풍성한 시기. 주저하지 말고 도전하세요.' },
@@ -467,16 +514,24 @@ function generateDaewoon(birthYear: number, ilgan: string, gender: string, local
     ];
     const ratings: Array<'great' | 'good' | 'neutral' | 'caution'> = ['good', 'great', 'great', 'good', 'neutral', 'good'];
     const themes = locale === 'ko' ? themesKo : themesEn;
-    const stems = ['갑', '병', '무', '경', '임', '갑'];
-    const branches = ['인', '오', '술', '진', '자', '인'];
     return themes.map((t, i) => ({
+        ...(function () {
+            const offset = isForward ? i + 1 : -(i + 1);
+            const stemIndex = (stemOrder.indexOf(ilgan) + offset + stemOrder.length * 3) % stemOrder.length;
+            const branchSeed = ((birthYear - 4) % branchOrder.length + branchOrder.length) % branchOrder.length;
+            const branchIndex = (branchSeed + offset + branchOrder.length * 3) % branchOrder.length;
+            return {
+                cheongan: stemOrder[stemIndex],
+                jiji: branchOrder[branchIndex],
+            };
+        })(),
         age: locale === 'ko'
             ? `${baseAge + i * 10}~${baseAge + i * 10 + 9}세`
             : `${baseAge + i * 10}-${baseAge + i * 10 + 9}`,
-        cheongan: stems[i],
-        jiji: branches[i],
         theme: t.theme,
-        detail: t.detail,
+        detail: locale === 'ko'
+            ? `${isForward ? '순행' : '역행'} 대운 기준. ${t.detail}`
+            : `${isForward ? 'Forward' : 'Reverse'} cycle basis. ${t.detail}`,
         rating: ratings[i],
     }));
 }
@@ -546,19 +601,34 @@ export function generateSajuResult(
         return Math.round(80 - (max - min) * 5); // 균형이 좋을수록 높은 점수
     })();
     const ilganBase: Record<string, number> = { '갑': 78, '을': 75, '병': 80, '정': 77, '무': 73, '기': 74, '경': 79, '신': 76, '임': 77, '계': 74 };
-    const sinsalBonus = sinsal.includes('천을귀인') ? 5 : sinsal.includes('도화살') ? 3 : 0;
-    const totalScore = Math.min(98, Math.max(55, Math.round((balanceScore + (ilganBase[ilgan] || 75) + sinsalBonus) / 2)));
+    const structureScore = calculateAdvancedSajuScore(saju);
+    const tenGodDiversity = Object.values(analyzeTenGodProfile(saju).counts).filter((count) => count > 0).length;
+    const usefulElementCount = ohaengBalance[determineSajuScoringFocus(saju).usefulElement] || 0;
+    const sinsalBonus = sinsal.includes('천을귀인') ? 4 : sinsal.includes('도화살') ? 2 : 0;
+    const totalScore = Math.min(
+        98,
+        Math.max(
+            55,
+            Math.round(
+                structureScore * 0.7 +
+                ((balanceScore + (ilganBase[ilgan] || 75)) / 2) * 0.15 +
+                tenGodDiversity * 1.5 +
+                usefulElementCount +
+                sinsalBonus
+            )
+        )
+    );
 
     const summaryLines = isKo
         ? [
-            `${name}님의 일주는 ${iljooProfile ? iljooProfile.hanja : profile.hanja}(${iljoo})으로, 전체 사주 유형 중 상위 ${rarityPercent}%에 해당하는 특별한 기운입니다.`,
+            `${name}님의 일주는 ${iljooProfile ? iljooProfile.hanja : profile.hanja}(${iljoo})으로, 비교적 드문 편으로 분류되는 참고 지표(${rarityPercent})를 보입니다.`,
             `오행 분포에서 ${yongsinLabel}이 보강되면 삶의 에너지가 크게 상승합니다.`,
             sinsal.includes('천을귀인')
                 ? '천을귀인(天乙貴人)의 기운으로 위기마다 도움의 손길이 나타나는 흐름입니다.'
                 : `${sinsal[0] ? SINSAL_DATA[sinsal[0]]?.meaning : '주요 신살'}의 영향이 강해 개성 있는 인생 궤적을 만듭니다.`,
         ]
         : [
-            `${name}'s day pillar is ${iljooProfile ? iljooProfile.hanja : profile.hanja} (${iljoo}), placing this chart within the top ${rarityPercent}% rarity profile.`,
+            `${name}'s day pillar is ${iljooProfile ? iljooProfile.hanja : profile.hanja} (${iljoo}), which falls into a less common reference band (rarity index ${rarityPercent}).`,
             `Strengthening the useful element ${yongsinLabel} tends to raise overall stability and momentum.`,
             sinsal.includes('천을귀인')
                 ? 'The Heavenly Nobleman star is active, bringing timely support in difficult phases.'
@@ -685,7 +755,7 @@ export function generateSajuResult(
             },
         ];
 
-    const daewoonList = generateDaewoon(year, ilgan, gender, locale);
+    const daewoonList = generateDaewoon(year, month, day, saju.year.cheongan, ilgan, gender, locale);
     const currentYear = new Date().getFullYear();
     const currentAge = currentYear - year + 1;
 
