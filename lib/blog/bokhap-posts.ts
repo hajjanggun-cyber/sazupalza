@@ -1,4 +1,4 @@
-import { BlogPost } from './types';
+﻿import { BlogPost } from './types';
 import { distributePublishedDates } from './date-utils';
 
 export const bokhapPosts: BlogPost[] = distributePublishedDates([
@@ -778,4 +778,4 @@ export const bokhapPosts: BlogPost[] = distributePublishedDates([
       { slug: 'compatibility-table', category: 'mbti', title: 'MBTI별 찰떡궁합 사주 일주 매칭' },
     ],
   },
-], '2026-01-14', 7, '2026-02-20', 2);
+], '2026-01-18', 6, '2026-02-18', 1);

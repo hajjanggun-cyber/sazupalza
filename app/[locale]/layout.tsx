@@ -43,13 +43,14 @@ export default async function LocaleLayout({ children, params: { locale } }: Pro
       <head>
         <meta name="google-adsense-account" content="ca-pub-2524681039359256" />
         <meta name="google-site-verification" content="M51gxp94qS8Cyah_8hlOXcVA3I43jilBE05x2IYNVd8" />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2524681039359256"
+          crossOrigin="anonymous"
+        />
       </head>
       <Script
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2524681039359256"
-        strategy="afterInteractive"
-        crossOrigin="anonymous"
-      />
-      <Script
+        async
         src="https://www.googletagmanager.com/gtag/js?id=G-HNNGML081Q"
         strategy="afterInteractive"
       />

@@ -12,14 +12,14 @@ import {
 import { buildLocalizedHref, buildLocalizedUrl } from '@/lib/seo';
 
 const categoryName: Record<string, Record<string, string>> = {
-  saju: { ko: '?ъ＜?붿옄', en: 'Four Pillars' },
-  seongmyeong: { ko: 'Name Reading', en: 'Name Reading' },
-  'name-reading': { ko: 'Name Reading', en: 'Name Reading' },
-  gwansang: { ko: '愿?곹븰', en: 'Face Reading' },
-  'face-reading': { ko: '愿?곹븰', en: 'Face Reading' },
+  saju: { ko: '사주', en: 'Four Pillars' },
+  seongmyeong: { ko: '성명학', en: 'Name Reading' },
+  'name-reading': { ko: '성명학', en: 'Name Reading' },
+  gwansang: { ko: '관상', en: 'Face Reading' },
+  'face-reading': { ko: '관상', en: 'Face Reading' },
   mbti: { ko: 'MBTI', en: 'MBTI' },
-  bokhap: { ko: '蹂듯빀遺꾩꽍', en: 'Compatibility' },
-  compatibility: { ko: '沅곹빀遺꾩꽍', en: 'Compatibility' },
+  bokhap: { ko: '궁합', en: 'Compatibility' },
+  compatibility: { ko: '궁합', en: 'Compatibility' },
 };
 
 interface Props {
@@ -127,10 +127,10 @@ export default function BlogPostPage({ post, locale }: Props) {
     description: description,
     datePublished: post.publishedAt,
     dateModified: post.updatedAt ?? post.publishedAt,
-    author: { '@type': 'Organization', name: isKo ? '?ъ＜?붿옄?룹뺨' : 'SajuPalza.cc' },
+    author: { '@type': 'Organization', name: isKo ? '사주팔자닷컴' : 'SajuPalza.cc' },
     publisher: {
       '@type': 'Organization',
-      name: isKo ? '?ъ＜?붿옄?룹뺨' : 'SajuPalza.cc',
+      name: isKo ? '사주팔자닷컴' : 'SajuPalza.cc',
       url: baseUrl,
     },
     url: postUrl,
@@ -144,7 +144,7 @@ export default function BlogPostPage({ post, locale }: Props) {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: buildLocalizedUrl(locale) },
+      { '@type': 'ListItem', position: 1, name: isKo ? '홈' : 'Home', item: buildLocalizedUrl(locale) },
       { '@type': 'ListItem', position: 2, name: displayCategory, item: buildLocalizedUrl(locale, `/${categoryPath}`) },
       { '@type': 'ListItem', position: 3, name: displayTitle, item: postUrl },
     ],
@@ -170,19 +170,19 @@ export default function BlogPostPage({ post, locale }: Props) {
 
       <div className="max-w-3xl mx-auto px-4 py-8">
 
-        {/* ?곷떒 CTA 諛곕꼫 */}
+        {/* Top CTA */}
         <Link href={homeHref} className="block card-glow p-4 mb-8 text-center hover:opacity-90 transition-opacity">
           <p className="text-yellow-300 font-bold">
-            {isKo ? '??臾대즺 ?ъ＜ 醫낇빀 遺꾩꽍 ???앸뀈?붿씪留??낅젰?섎㈃ 利됱떆 ?꾩껜 寃곌낵 怨듦컻' : '??Free Saju Analysis ??Instant Results with Birth Date'}
+            {isKo ? '무료 사주 종합 분석, 생년월일만 입력하면 즉시 전체 결과 확인' : 'Free Saju Analysis - Instant Results with Birth Date'}
           </p>
           <span className="inline-block mt-2 btn-gold text-sm px-6 py-2">
-            {isKo ? 'Get Free Analysis Now' : 'Get Free Analysis Now'}
+            {isKo ? '지금 무료 분석 받기' : 'Get Free Analysis Now'}
           </span>
         </Link>
 
-        {/* 釉뚮젅?쒗겕??*/}
+        {/* Breadcrumb */}
         <nav className="text-sm text-white/50 mb-4 flex gap-2">
-          <Link href={homeHref} className="hover:text-yellow-300">{isKo ? 'Home' : 'Home'}</Link>
+          <Link href={homeHref} className="hover:text-yellow-300">{isKo ? '홈' : 'Home'}</Link>
           <span>/</span>
           <Link href={categoryHref} className="hover:text-yellow-300">
             {displayCategory}
@@ -191,7 +191,7 @@ export default function BlogPostPage({ post, locale }: Props) {
           <span className="text-yellow-300/80">{displayTitle}</span>
         </nav>
 
-        {/* ?쒕ぉ */}
+        {/* Title */}
         <h1 className="text-2xl md:text-3xl font-bold text-white mb-10 leading-snug">{displayTitle}</h1>
 
         <div className="mb-8 overflow-hidden rounded-2xl border border-yellow-700/20 bg-black/20">
@@ -213,39 +213,39 @@ export default function BlogPostPage({ post, locale }: Props) {
                 Editorial Review
               </p>
               <p className="text-white/80 text-sm font-medium">
-                {isKo ? '?ъ＜?붿옄?룹뺨 ?몄쭛?' : 'SajuPalza Editorial Team'}
+                {isKo ? '사주팔자닷컴 편집팀' : 'SajuPalza Editorial Team'}
               </p>
               <p className="text-white/50 text-xs mt-1">
                 {isKo
-                  ? `理쒖쥌 寃?좎씪 ${post.updatedAt ?? post.publishedAt}`
+                  ? `최종 검토일 ${post.updatedAt ?? post.publishedAt}`
                   : `Last reviewed ${post.updatedAt ?? post.publishedAt}`}
               </p>
             </div>
             <p className="text-white/60 text-sm leading-relaxed md:max-w-md">
               {isKo
-                ? '??湲? ?꾪넻 ?댁꽍 媛쒕뀗???꾨??곸쑝濡??뺣━??李멸퀬 媛?대뱶?낅땲?? 蹂몃Ц ?쒗쁽? 寃쏀뼢?깃낵 ?댁꽍 以묒떖?쇰줈 ?쎌뼱???섎ŉ ?뺤젙??蹂댁옣?쇰줈 諛쏆븘?ㅼ씠吏 ?딅뒗 寃껋씠 醫뗭뒿?덈떎.'
+                ? '이 글은 전통 해석을 현대 독자 기준으로 정리한 참고 가이드입니다. 본문 표현은 경향성과 해석 중심으로 읽어야 하며, 확정적 보장으로 받아들이지 않는 것이 좋습니다.'
                 : 'This guide summarizes traditional interpretation for modern readers. Read the language as tendency-based guidance, not as a guarantee of fixed outcomes.'}
             </p>
           </div>
           <div className="mt-4 flex flex-wrap gap-2">
             <span className="rounded-full border border-yellow-700/20 bg-yellow-900/10 px-3 py-1 text-xs text-yellow-200/80">
-              {isKo ? 'Editorially reviewed for readability' : 'Editorially reviewed for readability'}
+              {isKo ? '가독성 기준 편집 검토' : 'Editorially reviewed for readability'}
             </span>
             <span className="rounded-full border border-yellow-700/20 bg-yellow-900/10 px-3 py-1 text-xs text-yellow-200/80">
-              {isKo ? 'Reference content based on traditional interpretation' : 'Reference content based on traditional interpretation'}
+              {isKo ? '전통 해석 기반 참고 콘텐츠' : 'Reference content based on traditional interpretation'}
             </span>
           </div>
         </div>
 
-        {/* 紐⑹감 */}
+        {/* Table of contents */}
         {toc.length > 0 && (
           <div className="card-dark p-4 mb-8">
-            <p className="text-yellow-300 font-bold mb-3 text-sm">{isKo ? '?뱥 紐⑹감' : '?뱥 Table of Contents'}</p>
+            <p className="text-yellow-300 font-bold mb-3 text-sm">{isKo ? '목차' : 'Table of Contents'}</p>
             <ul className="space-y-1">
               {toc.map(item => (
                 <li key={item.id}>
                   <a href={`#${item.id}`} className="text-white/60 hover:text-yellow-300 text-sm transition-colors">
-                    쨌 {item.title}
+                    • {item.title}
                   </a>
                 </li>
               ))}
@@ -256,9 +256,9 @@ export default function BlogPostPage({ post, locale }: Props) {
         {/* AdSense ?곷떒 */}
         <AdSense slot="1111222233" format="horizontal" className="mb-8" />
 
-        {/* 蹂몃Ц */}
+        {/* Content */}
         {(() => {
-          // ?곗씠???좎떎 諛⑹?瑜??꾪븳 3以??꾪꽣
+          // Fallback across legacy content field names.
           const content = isKo
             ? (post.contentKo || (post as any).content || (post as any).contentKo)
             : (post.contentEn || post.contentKo || (post as any).content);
@@ -270,21 +270,21 @@ export default function BlogPostPage({ post, locale }: Props) {
             />
           ) : (
             <div className="card-dark p-8 mb-8 text-center text-white/40">
-              {isKo ? '?뱷 肄섑뀗痢??곗씠?곕? 遺덈윭?ㅻ뒗 以묒엯?덈떎...' : '?뱷 Loading content data...'}
+              {isKo ? '콘텐츠 데이터를 불러오는 중입니다...' : 'Loading content data...'}
             </div>
           );
         })()}
 
-        {/* CTA 踰꾪듉 */}
+        {/* Mid CTA */}
         <div className="card-glow p-6 mb-8 text-center">
           <p className="text-white font-bold text-lg mb-1">
-            {isKo ? '?뵰 ?섏쓽 ?ъ＜ 醫낇빀 遺꾩꽍 諛쏆븘蹂닿린' : '?뵰 Get Your Comprehensive Saju Analysis'}
+            {isKo ? '내 사주 종합 분석 받아보기' : 'Get Your Comprehensive Saju Analysis'}
           </p>
           <p className="text-white/50 text-sm mb-4">
-            {isKo ? 'Free integrated consulting with birth date, name, and photo' : 'Free integrated consulting with birth date, name, and photo'}
+            {isKo ? '생년월일, 이름, 사진으로 무료 종합 해석 제공' : 'Free integrated consulting with birth date, name, and photo'}
           </p>
           <Link href={homeHref} className="btn-primary inline-block w-auto px-8 py-3 text-base">
-            {isKo ? 'Get Free Integrated Consulting' : 'Get Free Integrated Consulting'}
+            {isKo ? '무료 종합 분석 시작하기' : 'Get Free Integrated Consulting'}
           </Link>
         </div>
 
@@ -294,7 +294,7 @@ export default function BlogPostPage({ post, locale }: Props) {
         {/* FAQ */}
         {faq.length > 0 && (
           <div className="mb-8">
-            <h2 className="text-xl font-bold text-yellow-300 mb-4">{isKo ? '?먯＜ 臾삳뒗 吏덈Ц' : 'Frequently Asked Questions'}</h2>
+            <h2 className="text-xl font-bold text-yellow-300 mb-4">{isKo ? '자주 묻는 질문' : 'Frequently Asked Questions'}</h2>
             <div className="space-y-3">
               {faq.map((item, i) => (
                 <div key={i} className="card-dark p-4">
@@ -306,10 +306,10 @@ export default function BlogPostPage({ post, locale }: Props) {
           </div>
         )}
 
-        {/* 愿??湲 */}
+        {/* Related posts */}
         {post.relatedPosts.length > 0 && (
           <div className="mb-8">
-            <h3 className="text-base font-bold text-white mb-3">{isKo ? '?뱨 愿??湲 ??蹂닿린' : '?뱨 Read More Related Posts'}</h3>
+            <h3 className="text-base font-bold text-white mb-3">{isKo ? '관련 글 더 보기' : 'Read More Related Posts'}</h3>
             <div className="space-y-2">
               {post.relatedPosts.map(related => (
                 <Link
@@ -322,7 +322,7 @@ export default function BlogPostPage({ post, locale }: Props) {
                     const relatedTitle = fullPost
                       ? (isKo ? (fullPost.seoTitle || fullPost.title) : (fullPost.seoTitleEn || fullPost.seoTitle || fullPost.title))
                       : related.title;
-                    return <>??{relatedTitle}</>;
+                    return <>• {relatedTitle}</>;
                   })()}
                 </Link>
               ))}
@@ -330,14 +330,14 @@ export default function BlogPostPage({ post, locale }: Props) {
           </div>
         )}
 
-        {/* ?섎떒 CTA */}
+        {/* Bottom CTA */}
         <div className="card-glow p-6 text-center">
-          <p className="shimmer text-xl font-bold mb-2">{isKo ? '??吏湲?諛붾줈 臾대즺 遺꾩꽍 ?쒖옉' : '??Start Free Analysis Now'}</p>
+          <p className="shimmer text-xl font-bold mb-2">{isKo ? '지금 바로 무료 분석 시작' : 'Start Free Analysis Now'}</p>
           <p className="text-white/50 text-sm mb-4">
-            {isKo ? '?ъ＜쨌愿?겶룹꽦紐낇븰쨌MBTI 臾대즺 醫낇빀 遺꾩꽍' : 'Free Saju, Face Reading, Numerology, and MBTI Analysis'}
+            {isKo ? '사주, 관상, 성명학, MBTI 무료 종합 분석' : 'Free Saju, Face Reading, Numerology, and MBTI Analysis'}
           </p>
           <Link href={homeHref} className="btn-primary inline-block w-auto px-8 py-3 text-base">
-            {isKo ? 'Start Free Analysis' : 'Start Free Analysis'}
+            {isKo ? '무료 분석 시작하기' : 'Start Free Analysis'}
           </Link>
         </div>
 

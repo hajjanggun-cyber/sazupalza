@@ -15,7 +15,7 @@ const securityHeaders = [
       "style-src 'self' 'unsafe-inline'",
       "font-src 'self'",
       "img-src 'self' data: blob: https:",
-      "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://stats.g.doubleclick.net",
+      "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://stats.g.doubleclick.net https://ep1.adtrafficquality.google https://ep2.adtrafficquality.google https://pagead2.googlesyndication.com https://googleads.g.doubleclick.net",
       "frame-src https://googleads.g.doubleclick.net https://tpc.googlesyndication.com https://www.google.com",
     ].join('; '),
   },
