@@ -4,7 +4,7 @@ export type MbtiConfidence = 'high' | 'medium' | 'low';
 
 type Element = '목' | '화' | '토' | '금' | '수';
 
-type TenGodKey =
+export type TenGodKey =
   | '비견'
   | '겁재'
   | '식신'
@@ -19,6 +19,110 @@ type TenGodKey =
 type TenGodProfile = {
   counts: Record<TenGodKey, number>;
   dominant: TenGodKey;
+};
+
+export function describeTenGodNarrative(
+  dominant: TenGodKey | string,
+  locale: string,
+): string {
+  const koMap: Record<string, string> = {
+    '\ube44\uacac':
+      '\ube44\uacac\uc774 \uac15\ud558\uba74 \uc790\uae30 \uc8fc\ub3c4\uc131\uacfc \ubc84\ud2f0\ub294 \ud798\uc740 \uc88b\uc9c0\ub9cc, \uace0\uc9d1\uc774 \uac15\ud574\uc9c8 \uc218 \uc788\uc2b5\ub2c8\ub2e4.',
+    '\uac81\uc7ac':
+      '\uac81\uc7ac\uac00 \ub4dc\ub7ec\ub098\uba74 \uacbd\uc7c1 \uc758\uc2dd\uacfc \ubaa8\ud5d8\uc131\uc774 \ucee4\uc9c0\ubbc0\ub85c, \uc18d\ub3c4 \uc870\uc808\uc774 \uc911\uc694\ud569\ub2c8\ub2e4.',
+    '\uc2dd\uc2e0':
+      '\uc2dd\uc2e0\uc774 \uac15\ud558\uba74 \uc0dd\uc0b0\uc131\uacfc \uc131\uc2e4\ud55c \uc2e4\ud589\ub825\uc774 \ub450\ub4dc\ub7ec\uc9d1\ub2c8\ub2e4.',
+    '\uc0c1\uad00':
+      '\uc0c1\uad00\uc774 \uc911\uc2ec\uc774\uba74 \ud45c\ud604\ub825\uacfc \ubc18\uc804 \uc5d0\ub108\uc9c0\uac00 \ud070 \ub300\uc2e0, \ucda9\ub3cc\uc131\uc744 \uad00\ub9ac\ud574\uc57c \ud569\ub2c8\ub2e4.',
+    '\ud3b8\uc7ac':
+      '\ud3b8\uc7ac\uac00 \ub3c4\ub4dc\ub77c\uc9c0\uba74 \uae30\ud68c \ud3ec\ucc29\uacfc \uc790\uae08 \ud68c\uc804\uc5d0 \uac15\ud55c \ud750\ub984\uc744 \ubcf4\uc785\ub2c8\ub2e4.',
+    '\uc815\uc7ac':
+      '\uc815\uc7ac\uac00 \uac15\ud558\uba74 \uc548\uc815\uc801\uc73c\ub85c \uc313\uc544 \uac00\ub294 \uc218\uc785 \uad6c\uc870\uc5d0 \uac15\uc810\uc774 \uc788\uc2b5\ub2c8\ub2e4.',
+    '\ud3b8\uad00':
+      '\ud3b8\uad00\uc774 \uac15\ud558\uba74 \uc555\ubc15 \uc18d\uc5d0\uc11c\ub3c4 \ub6ab\uace0 \ub098\uac00\ub294 \ucd94\uc9c4\ub825\uc774 \uc0b4\uc544\ub0a9\ub2c8\ub2e4.',
+    '\uc815\uad00':
+      '\uc815\uad00\uc774 \uc911\uc2ec\uc774\uba74 \uc9c8\uc11c, \ucc45\uc784, \uc2e0\ub8b0\ub97c \ubc14\ud0d5\uc73c\ub85c \ud55c \uc131\uc7a5\uc774 \uac15\ud574\uc9d1\ub2c8\ub2e4.',
+    '\ud3b8\uc778':
+      '\ud3b8\uc778\uc774 \uac15\ud558\uba74 \uc9c1\uad00\uacfc \ubc30\uc6c0\uc758 \ud761\uc218\ub825\uc740 \uc88b\uc9c0\ub9cc, \uace0\ub9bd \uacbd\ud5a5\uc740 \uacbd\uacc4\ud574\uc57c \ud569\ub2c8\ub2e4.',
+    '\uc815\uc778':
+      '\uc815\uc778\uc774 \ub4dc\ub7ec\ub098\uba74 \ubc30\uc6c0, \ubcf5\uae30, \uc815\ub9ac \ub2a5\ub825\uc744 \uae30\ubc18\uc73c\ub85c \uc548\uc815\uac10\uc744 \ub9cc\ub4ed\ub2c8\ub2e4.',
+  };
+
+  const enMap: Record<string, string> = {
+    '\ube44\uacac':
+      'A strong peer star increases self-direction and resilience, but stubbornness needs management.',
+    '\uac81\uc7ac':
+      'A strong competitive star raises risk-taking and rivalry, so pacing and control matter.',
+    '\uc2dd\uc2e0':
+      'A strong output star favors steady productivity, craft, and follow-through.',
+    '\uc0c1\uad00':
+      'A dominant expressive star sharpens creativity and breakthrough energy, but can create friction if unchecked.',
+    '\ud3b8\uc7ac':
+      'A dynamic wealth star supports fast opportunity capture and flexible money movement.',
+    '\uc815\uc7ac':
+      'A stable wealth star favors consistent income building and disciplined asset growth.',
+    '\ud3b8\uad00':
+      'A pressure star tends to perform well under challenge, turning stress into momentum.',
+    '\uc815\uad00':
+      'A strong order star reinforces structure, responsibility, and trust-based growth.',
+    '\ud3b8\uc778':
+      'A strong insight star boosts instinctive learning and pattern recognition, but can isolate the pace.',
+    '\uc815\uc778':
+      'A resource star supports recovery, study, and composure through methodical learning.',
+  };
+
+  return locale === 'ko'
+    ? koMap[dominant] || `${dominant} \ud750\ub984\uc774 \ub450\ub4dc\ub7ec\uc9d1\ub2c8\ub2e4.`
+    : enMap[dominant] || `${dominant} is the leading structural star.`;
+}
+
+const HIDDEN_STEMS: Record<string, Array<{ stem: string; weight: number }>> = {
+  '\uc790': [{ stem: '\uacc4', weight: 1 }],
+  '\ucd95': [
+    { stem: '\uae30', weight: 0.6 },
+    { stem: '\uacc4', weight: 0.25 },
+    { stem: '\uc2e0', weight: 0.15 },
+  ],
+  '\uc778': [
+    { stem: '\uac11', weight: 0.6 },
+    { stem: '\ubcd1', weight: 0.25 },
+    { stem: '\ubb34', weight: 0.15 },
+  ],
+  '\ubb18': [{ stem: '\uc744', weight: 1 }],
+  '\uc9c4': [
+    { stem: '\ubb34', weight: 0.6 },
+    { stem: '\uc744', weight: 0.25 },
+    { stem: '\uacc4', weight: 0.15 },
+  ],
+  '\uc0ac': [
+    { stem: '\ubcd1', weight: 0.6 },
+    { stem: '\ubb34', weight: 0.25 },
+    { stem: '\uacbd', weight: 0.15 },
+  ],
+  '\uc624': [
+    { stem: '\uc815', weight: 0.7 },
+    { stem: '\uae30', weight: 0.3 },
+  ],
+  '\ubbf8': [
+    { stem: '\uae30', weight: 0.6 },
+    { stem: '\uc815', weight: 0.25 },
+    { stem: '\uc744', weight: 0.15 },
+  ],
+  '\uc2e0': [
+    { stem: '\uacbd', weight: 0.6 },
+    { stem: '\uc784', weight: 0.25 },
+    { stem: '\ubb34', weight: 0.15 },
+  ],
+  '\uc720': [{ stem: '\uc2e0', weight: 1 }],
+  '\uc220': [
+    { stem: '\ubb34', weight: 0.6 },
+    { stem: '\uc2e0', weight: 0.25 },
+    { stem: '\uc815', weight: 0.15 },
+  ],
+  '\ud574': [
+    { stem: '\uc784', weight: 0.7 },
+    { stem: '\uac11', weight: 0.3 },
+  ],
 };
 
 const STEM_ELEMENTS: Record<string, Element> = {
@@ -156,6 +260,15 @@ function getTenGodKey(dayStem: string, otherStem: string): TenGodKey {
   return samePolarity ? '\ud3b8\uad00' : '\uc815\uad00';
 }
 
+function addWeightedTenGod(
+  counts: Record<TenGodKey, number>,
+  dayStem: string,
+  otherStem: string,
+  weight: number,
+) {
+  counts[getTenGodKey(dayStem, otherStem)] += weight;
+}
+
 export function analyzeTenGodProfile(saju: SajuResult): TenGodProfile {
   const counts: Record<TenGodKey, number> = {
     '\ube44\uacac': 0,
@@ -170,13 +283,25 @@ export function analyzeTenGodProfile(saju: SajuResult): TenGodProfile {
     '\uc815\uc778': 0,
   };
 
-  const stems = [saju.year.cheongan, saju.month.cheongan];
+  const visibleStems = [saju.year.cheongan, saju.month.cheongan];
   if (saju.hour) {
-    stems.push(saju.hour.cheongan);
+    visibleStems.push(saju.hour.cheongan);
   }
 
-  for (const stem of stems) {
-    counts[getTenGodKey(saju.ilgan, stem)] += 1;
+  for (const stem of visibleStems) {
+    addWeightedTenGod(counts, saju.ilgan, stem, 1);
+  }
+
+  const branches = [saju.year.jiji, saju.month.jiji, saju.day.jiji];
+  if (saju.hour) {
+    branches.push(saju.hour.jiji);
+  }
+
+  for (const branch of branches) {
+    const hiddenStems = HIDDEN_STEMS[branch] || [];
+    for (const hidden of hiddenStems) {
+      addWeightedTenGod(counts, saju.ilgan, hidden.stem, hidden.weight);
+    }
   }
 
   const dominant =

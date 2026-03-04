@@ -105,3 +105,48 @@ export function readResultPayload<T>(kind: string, token: string): T | null {
 
   return null;
 }
+
+export function readLatestResultPayload<T>(kind: string): T | null {
+  if (typeof window === 'undefined') {
+    return null;
+  }
+
+  const prefix = `${STORAGE_PREFIX}${kind}:`;
+  const storages: Storage[] = [window.sessionStorage, window.localStorage];
+  let latestPayload: StoredPayload<T> | null = null;
+
+  for (const storage of storages) {
+    try {
+      cleanupExpiredEntries(storage);
+
+      for (let index = 0; index < storage.length; index += 1) {
+        const key = storage.key(index);
+        if (!key || !key.startsWith(prefix)) {
+          continue;
+        }
+
+        const raw = storage.getItem(key);
+        if (!raw) {
+          continue;
+        }
+
+        try {
+          const parsed = JSON.parse(raw) as StoredPayload<T>;
+          if (!parsed.createdAt) {
+            continue;
+          }
+
+          if (!latestPayload || parsed.createdAt > latestPayload.createdAt) {
+            latestPayload = parsed;
+          }
+        } catch {
+          storage.removeItem(key);
+        }
+      }
+    } catch {
+      // Ignore storage access failures.
+    }
+  }
+
+  return latestPayload?.data ?? null;
+}

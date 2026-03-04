@@ -11,9 +11,13 @@ import { suriData } from '../data/name/suri81';
 import { NAME_SAJU_COMBO } from '../data/name/name-saju-combo';
 import { FACE_COMBOS } from '../data/face/face-combo';
 import {
+  analyzeTenGodProfile,
+  describeTenGodNarrative,
   type MbtiConfidence,
   calculateAdvancedSajuScore,
   calculateMbtiScore,
+  determineSajuScoringFocus,
+  estimateDayMasterStrength,
 } from './saju-scoring';
 
 export interface FaceAnalysisResult {
@@ -147,11 +151,62 @@ function calcSajuScore(saju: SajuResult): number {
   return calculateAdvancedSajuScore(saju);
 }
 
+function describeStrengthBand(strength: number, locale: string): string {
+  if (locale === 'ko') {
+    if (strength >= 68) return '신강에 가까운 구조';
+    if (strength <= 40) return '신약에 가까운 구조';
+    return '중화에 가까운 구조';
+  }
+
+  if (strength >= 68) return 'a stronger day-master structure';
+  if (strength <= 40) return 'a weaker day-master structure';
+  return 'a relatively balanced day-master structure';
+}
+
+function describeTenGodDominant(dominant: string, locale: string): string {
+  const koMap: Record<string, string> = {
+    비견: '비견 주도',
+    겁재: '겁재 주도',
+    식신: '식신 주도',
+    상관: '상관 주도',
+    편재: '편재 주도',
+    정재: '정재 주도',
+    편관: '편관 주도',
+    정관: '정관 주도',
+    편인: '편인 주도',
+    정인: '정인 주도',
+  };
+
+  const enMap: Record<string, string> = {
+    비견: 'Peer star dominant',
+    겁재: 'Competitive star dominant',
+    식신: 'Output star dominant',
+    상관: 'Expressive star dominant',
+    편재: 'Dynamic wealth star dominant',
+    정재: 'Stable wealth star dominant',
+    편관: 'Pressure star dominant',
+    정관: 'Order star dominant',
+    편인: 'Insight star dominant',
+    정인: 'Resource star dominant',
+  };
+
+  return locale === 'ko'
+    ? koMap[dominant] || `${dominant} 주도`
+    : enMap[dominant] || `${dominant} dominant`;
+}
+
 // ===== 오행 균형 분석 섹션 =====
 function buildOhaengAnalysis(saju: SajuResult, locale: string): ResultSection {
   const balance = analyzeOhaengBalance(saju);
   const strong = getStrongestOhaeng(balance);
   const weak = getWeakestOhaeng(balance);
+  const strengthBand = describeStrengthBand(estimateDayMasterStrength(saju), locale);
+  const tenGodLabel = describeTenGodDominant(analyzeTenGodProfile(saju).dominant, locale);
+  const tenGodNarrative = describeTenGodNarrative(
+    analyzeTenGodProfile(saju).dominant,
+    locale,
+  );
+  const focus = determineSajuScoringFocus(saju);
 
   const ohaengDesc: Record<string, string> = {
     목: locale === 'ko' ? '목(木)의 기운 - 성장, 창의, 인자함' : 'Wood (木) Energy - Growth, Creativity, Benevolence',
@@ -194,6 +249,10 @@ function buildOhaengAnalysis(saju: SajuResult, locale: string): ResultSection {
     desc: locale === 'ko' ? '토 기운으로 균형을 맞추면 좋습니다' : 'Earth energy helps balance your fortune' 
   };
 
+  const structureNote = locale === 'ko'
+    ? `${strengthBand}?대ŉ ${tenGodLabel} 諛⑺뼢?쇰줈 ?쇱깮 湲곗슫???곹깭媛 ?듭떖?낅땲?? ${focus.usefulElement} 湲곗슫??蹂닿컯?섎㈃ ?꾩껜 洹좏삎媛먯씠 ?붿슧 ?덉젙?곸씠寃?留욌뒿?덈떎.`
+    : `The chart currently reads as ${strengthBand} with ${tenGodLabel} guiding the overall structure. Reinforcing ${translateData(focus.usefulElement, locale)} tends to stabilize the full balance.`;
+
   const content = locale === 'ko' 
     ? `사주의 오행 구성을 분석한 결과, ${ohaengDesc[strong] || strong}이 가장 강한 경향이 있습니다. ` +
       `이 기운이 삶의 전반적인 방향성에 영향을 미치는 경향이 있습니다. ` +
@@ -208,7 +267,7 @@ function buildOhaengAnalysis(saju: SajuResult, locale: string): ResultSection {
   return {
     icon: '⚖️',
     title: locale === 'ko' ? '오행 균형 분석' : 'Five Elements Balance Analysis',
-    content,
+    content: `${content} ${structureNote} ${tenGodNarrative}`,
     subItems,
   };
 }
@@ -218,6 +277,10 @@ function buildIlganAnalysis(saju: SajuResult, locale: string): ResultSection {
   const ilgan = saju.ilgan;
   const ilganKey = Object.keys(cheonganData).find(k => cheonganData[k].name === ilgan) || '';
   const data = ilganKey ? cheonganData[ilganKey] : null;
+  const strength = estimateDayMasterStrength(saju);
+  const focus = determineSajuScoringFocus(saju);
+  const tenGod = analyzeTenGodProfile(saju);
+  const tenGodNarrative = describeTenGodNarrative(tenGod.dominant, locale);
 
   const ilganDeep: Record<string, string> = {
     갑: locale === 'ko' 
@@ -260,11 +323,14 @@ function buildIlganAnalysis(saju: SajuResult, locale: string): ResultSection {
     ? `${desc} 직업적으로는 ${careerHint} 분야에서 본연의 기운을 잘 발휘하는 경향이 있습니다. 대인관계에서는 ${relationHint}.`
     : `${desc} Professionally, you tend to express your natural energy well in ${careerHint}. In relationships, ${relationHint}.`;
 
+  const structureNote = locale === 'ko'
+    ? `${describeStrengthBand(strength, locale)}이며 ${describeTenGodDominant(tenGod.dominant, locale)} 흐름이 핵심입니다. ${focus.usefulElement} 기운을 보강하면 장점 유지가 더 안정적입니다.`
+    : `This reads as ${describeStrengthBand(strength, locale)}, with ${describeTenGodDominant(tenGod.dominant, locale)} as the core structural flow. Reinforcing ${translateData(focus.usefulElement, locale)} helps your strengths stay consistent.`;
   const hanja = getIlganHanja(ilgan);
   return {
     icon: '🌟',
     title: locale === 'ko' ? `일간(日干) 분석 - ${ilgan}(${hanja})` : `Day Stem (日干) Analysis - ${hanja}`,
-    content,
+    content: `${content} ${structureNote} ${tenGodNarrative}`,
     subItems: data ? [
       { 
         label: locale === 'ko' ? '오행 속성' : 'Element', 
@@ -651,6 +717,9 @@ function buildNameDetailSection(name: NameAnalysisResult, saju: SajuResult, loca
   };
 
   const wonRating = name.suriAnalysis?.wongyeok?.rating || 'neutral';
+  const strengthBand = describeStrengthBand(estimateDayMasterStrength(saju), locale);
+  const tenGodLabel = describeTenGodDominant(analyzeTenGodProfile(saju).dominant, locale);
+  const focus = determineSajuScoringFocus(saju);
   const hyeongRating = name.suriAnalysis?.hyeongyeok?.rating || 'neutral';
   const soundRelation = name.soundOhaengRelation || '중화';
   const soundKey = soundRelation.includes('상생') ? '상생' : soundRelation.includes('상극') ? '상극' : '중화';
@@ -858,6 +927,9 @@ export function generateResult(params: {
   };
 
   const wonRating = name.suriAnalysis?.wongyeok?.rating || 'neutral';
+  const strengthBand = describeStrengthBand(estimateDayMasterStrength(saju), locale);
+  const tenGodLabel = describeTenGodDominant(analyzeTenGodProfile(saju).dominant, locale);
+  const focus = determineSajuScoringFocus(saju);
   const summaryLines = locale === 'ko' ? [
     `${saju.ilgan} 일간으로 ${strongOhaeng} 기운이 강한 경향이 있습니다`,
     `성명의 기운이 ${wonRating === 'great' || wonRating === 'good' ? '좋은' : '중립적인'} 방향으로 작용하는 경향이 있습니다`,
@@ -868,10 +940,22 @@ export function generateResult(params: {
     `Guardian ${guardian.nameEn} (${guardian.emoji}) is with you. ${guardian.luckyMessageEn ?? guardian.luckyMessage}`,
   ];
 
+  const enhancedSummaryLines = locale === 'ko'
+    ? [
+        `${saju.ilgan} 일간은 ${translateData(strongOhaeng, locale)} 기운이 강하게 드러나는 편입니다.`,
+        `${strengthBand}이며 ${tenGodLabel} 구조가 핵심입니다. ${focus.usefulElement} 기운을 보강하면 안정감이 올라갑니다.`,
+        `이름 기운은 ${wonRating === 'great' || wonRating === 'good' ? '긍정적' : '중립적'} 방향이고, 수호신 ${guardian.nameKo}(${guardian.emoji})의 보완 흐름이 함께 작동합니다.`,
+      ]
+    : [
+        `${getIlganHanja(saju.ilgan)} Day Stem currently shows a stronger pull toward ${translateData(strongOhaeng, locale)} energy.`,
+        `The chart reads as ${strengthBand} with ${tenGodLabel}, and reinforcing ${translateData(focus.usefulElement, locale)} improves stability.`,
+        `Your name energy stays ${wonRating === 'great' || wonRating === 'good' ? 'supportive' : 'neutral'}, while guardian ${guardian.nameEn} (${guardian.emoji}) adds a balancing layer.`,
+      ];
+
   return {
     scores: { saju: sajuScore, name: nameScore, face: faceScore, mbti: mbtiScore, total },
     analysisBox,
-    summaryLines,
+    summaryLines: enhancedSummaryLines.length ? enhancedSummaryLines : summaryLines,
     ohaengAnalysis: buildOhaengAnalysis(saju, locale),
     ilganAnalysis: buildIlganAnalysis(saju, locale),
     careerSection: buildCareerSection(strongOhaeng, locale, mbtiType),

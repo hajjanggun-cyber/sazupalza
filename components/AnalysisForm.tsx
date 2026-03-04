@@ -2,8 +2,8 @@
 
 import { useTranslations } from 'next-intl';
 import { useRouter, useParams } from 'next/navigation';
-import { useState } from 'react';
-import { storeResultPayload } from '@/lib/client/result-storage';
+import { useEffect, useState } from 'react';
+import { readLatestResultPayload, storeResultPayload } from '@/lib/client/result-storage';
 import { buildLocalizedHref } from '@/lib/seo';
 import Step1Name from './steps/Step1Name';
 import Step2Birth, { BirthData } from './steps/Step2Birth';
@@ -13,6 +13,12 @@ import Step5Photo from './steps/Step5Photo';
 
 const TOTAL_STEPS = 5;
 type MbtiConfidence = 'high' | 'medium' | 'low';
+
+type StoredPersonalityResult = {
+  mbti: string;
+  clarity?: number;
+  ts: number;
+};
 
 export default function AnalysisForm() {
   const router = useRouter();
@@ -33,8 +39,81 @@ export default function AnalysisForm() {
   const [birth, setBirth] = useState<BirthData | null>(null);
   const [mbti, setMbti] = useState<string | null>(null);
   const [mbtiConfidence, setMbtiConfidence] = useState<MbtiConfidence | null>(null);
+  const [mbtiClarity, setMbtiClarity] = useState<number | null>(null);
   const [birthHour, setBirthHour] = useState<number | null>(null);
   const [photo, setPhoto] = useState<string | null>(null);
+  const [recentPersonality, setRecentPersonality] = useState<StoredPersonalityResult | null>(null);
+  const [recentMbtiAutoApplied, setRecentMbtiAutoApplied] = useState(false);
+
+  useEffect(() => {
+    const latest = readLatestResultPayload<StoredPersonalityResult>('personality');
+    if (latest?.mbti) {
+      setRecentPersonality(latest);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (
+      recentMbtiAutoApplied ||
+      !recentPersonality?.mbti ||
+      mbti !== null
+    ) {
+      return;
+    }
+
+    setMbti(recentPersonality.mbti);
+
+    if (typeof recentPersonality.clarity === 'number') {
+      setMbtiClarity(recentPersonality.clarity);
+      setMbtiConfidence(getConfidenceFromClarity(recentPersonality.clarity));
+    } else {
+      setMbtiClarity(null);
+      setMbtiConfidence('medium');
+    }
+
+    setRecentMbtiAutoApplied(true);
+  }, [mbti, recentMbtiAutoApplied, recentPersonality]);
+
+  const getConfidenceFromClarity = (clarity: number): MbtiConfidence => {
+    if (clarity >= 84) return 'high';
+    if (clarity >= 70) return 'medium';
+    return 'low';
+  };
+
+  const handleMbtiChange = (nextValue: string | null) => {
+    setMbti(nextValue);
+
+    if (!nextValue) {
+      setMbtiConfidence(null);
+      setMbtiClarity(null);
+      return;
+    }
+
+    if (recentPersonality?.mbti === nextValue && typeof recentPersonality.clarity === 'number') {
+      setMbtiClarity(recentPersonality.clarity);
+      setMbtiConfidence(getConfidenceFromClarity(recentPersonality.clarity));
+    } else {
+      setMbtiClarity(null);
+      setMbtiConfidence(null);
+    }
+  };
+
+  const handleUseRecentMbti = () => {
+    if (!recentPersonality?.mbti) {
+      return;
+    }
+
+    setMbti(recentPersonality.mbti);
+
+    if (typeof recentPersonality.clarity === 'number') {
+      setMbtiClarity(recentPersonality.clarity);
+      setMbtiConfidence(getConfidenceFromClarity(recentPersonality.clarity));
+      return;
+    }
+
+    setMbtiClarity(null);
+    setMbtiConfidence('medium');
+  };
 
   const goNext = () => setStep((s) => Math.min(s + 1, TOTAL_STEPS));
   const goPrev = () => setStep((s) => Math.max(s - 1, 1));
@@ -50,7 +129,7 @@ export default function AnalysisForm() {
       day: birth.day,
       lunar: birth.isLunar,
       leapMonth: birth.isLeapMonth,
-      ...(mbti && { mbti, mbtiConfidence }),
+      ...(mbti && { mbti, mbtiConfidence, mbtiClarity }),
       ...(birthHour !== null && { hour: birthHour }),
       hasPhoto: !!photo,
     };
@@ -124,9 +203,11 @@ export default function AnalysisForm() {
         {step === 3 && (
           <Step3MBTI
             value={mbti}
-            onChange={setMbti}
+            onChange={handleMbtiChange}
             confidence={mbtiConfidence}
             onConfidenceChange={setMbtiConfidence}
+            recentResult={recentPersonality}
+            onUseRecent={handleUseRecentMbti}
             onNext={goNext}
             onSkip={skipToNext}
             onPrev={goPrev}

@@ -26,6 +26,7 @@ interface InputData {
   leapMonth?: boolean;
   hour?: number;
   mbti?: string;
+  mbtiClarity?: number | null;
   mbtiConfidence?: 'high' | 'medium' | 'low';
   hasPhoto: boolean;
 }
@@ -168,6 +169,7 @@ export default function ResultIdPage() {
           }
         })(),
         mbtiType: inputData.mbti,
+        mbtiClarity: inputData.mbtiClarity ?? undefined,
         mbtiConfidence: inputData.mbtiConfidence,
         locale,
       });

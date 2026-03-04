@@ -6,7 +6,14 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/api/'],
+        disallow: [
+          '/api/',
+          '/result/',
+          '/saju-result/',
+          '/gwansang-result/',
+          '/personality-result/',
+          '/seongmyeong-result/',
+        ],
       },
       {
         userAgent: 'Mediapartners-Google',

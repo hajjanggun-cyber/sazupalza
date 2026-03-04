@@ -5,10 +5,13 @@ import { SajuResult, analyzeOhaengBalance } from './saju-calculator';
 import { ILJOO_PROFILES } from '../data/saju/iljoo-profiles';
 import { DAEWOON_SEWOON_CROSS } from '../data/saju/daewoon-sewoon';
 import { SINSAL_COMBOS } from '../data/saju/sinsal-combo';
+import { getNextSolarTermAnchorDate } from '../data/saju/solar-terms';
 import {
     analyzeTenGodProfile,
     calculateAdvancedSajuScore,
+    describeTenGodNarrative,
     determineSajuScoringFocus,
+    estimateDayMasterStrength,
 } from './saju-scoring';
 
 export interface SajuSection {
@@ -456,6 +459,7 @@ function generateDaewoon(
     birthYear: number,
     birthMonth: number,
     birthDay: number,
+    birthHour: number | undefined,
     yearStem: string,
     ilgan: string,
     gender: string,
@@ -463,34 +467,13 @@ function generateDaewoon(
 ): DaewoonItem[] {
     const stemOrder = ['갑', '을', '병', '정', '무', '기', '경', '신', '임', '계'];
     const branchOrder = ['자', '축', '인', '묘', '진', '사', '오', '미', '신', '유', '술', '해'];
-    const solarTermAnchors = [
-        { month: 1, day: 6 },
-        { month: 2, day: 4 },
-        { month: 3, day: 6 },
-        { month: 4, day: 5 },
-        { month: 5, day: 6 },
-        { month: 6, day: 6 },
-        { month: 7, day: 7 },
-        { month: 8, day: 8 },
-        { month: 9, day: 8 },
-        { month: 10, day: 8 },
-        { month: 11, day: 7 },
-        { month: 12, day: 7 },
-    ];
     const yangYearStems = new Set(['갑', '병', '무', '경', '임']);
     const isMale = gender === 'male';
     const isFemale = gender === 'female';
     const isYangYear = yangYearStems.has(yearStem);
     const isForward = isFemale ? !isYangYear : isMale ? isYangYear : true;
-    const currentDate = new Date(Date.UTC(birthYear, birthMonth - 1, birthDay));
-    const nextAnchor = solarTermAnchors.find((anchor) =>
-        anchor.month > birthMonth || (anchor.month === birthMonth && anchor.day >= birthDay)
-    ) || solarTermAnchors[0];
-    const anchorYear =
-        nextAnchor.month < birthMonth || (nextAnchor.month === birthMonth && nextAnchor.day < birthDay)
-            ? birthYear + 1
-            : birthYear;
-    const anchorDate = new Date(Date.UTC(anchorYear, nextAnchor.month - 1, nextAnchor.day));
+    const currentDate = new Date(Date.UTC(birthYear, birthMonth - 1, birthDay, birthHour ?? 12));
+    const anchorDate = getNextSolarTermAnchorDate(birthYear, birthMonth, birthDay, birthHour);
     const daysUntilAnchor = Math.max(
         3,
         Math.round((anchorDate.getTime() - currentDate.getTime()) / 86400000),
@@ -619,6 +602,18 @@ export function generateSajuResult(
         )
     );
 
+    const scoringFocus = determineSajuScoringFocus(saju);
+    const tenGodProfile = analyzeTenGodProfile(saju);
+    const dayMasterStrength = estimateDayMasterStrength(saju);
+    const strengthLabel = isKo
+        ? (dayMasterStrength >= 7.5 ? '신강' : dayMasterStrength <= 4.5 ? '신약' : '중화')
+        : (dayMasterStrength >= 7.5 ? 'strong day master' : dayMasterStrength <= 4.5 ? 'weaker day master' : 'balanced day master');
+    const tenGodCoreLabel = isKo
+        ? `${tenGodProfile.dominant} 중심`
+        : `${tenGodProfile.dominant} dominant`;
+
+    const tenGodNarrative = describeTenGodNarrative(tenGodProfile.dominant, locale);
+
     const summaryLines = isKo
         ? [
             `${name}님의 일주는 ${iljooProfile ? iljooProfile.hanja : profile.hanja}(${iljoo})으로, 비교적 드문 편으로 분류되는 참고 지표(${rarityPercent})를 보입니다.`,
@@ -634,6 +629,12 @@ export function generateSajuResult(
                 ? 'The Heavenly Nobleman star is active, bringing timely support in difficult phases.'
                 : `The influence of ${SINSAL_DATA_EN[sinsal[0]]?.meaning || 'key stars'} creates a distinct and memorable life trajectory.`,
         ];
+
+    summaryLines[1] = isKo
+        ? `${strengthLabel}, ${tenGodCoreLabel} 구조로 읽히며 ${scoringFocus.usefulElement}(${OHAENG_HANJA[scoringFocus.usefulElement]}) 보강이 전체 균형을 올려줍니다.`
+        : `This chart reads as a ${strengthLabel} with ${tenGodCoreLabel}, and reinforcing ${OHAENG_EN[scoringFocus.usefulElement]} (${OHAENG_HANJA[scoringFocus.usefulElement]}) improves structural stability.`;
+
+    summaryLines[1] = `${summaryLines[1]} ${tenGodNarrative}`;
 
     const sections: SajuSection[] = isKo
         ? [
@@ -755,7 +756,17 @@ export function generateSajuResult(
             },
         ];
 
-    const daewoonList = generateDaewoon(year, month, day, saju.year.cheongan, ilgan, gender, locale);
+    const structureDetail = isKo
+        ? `현재 명식은 ${strengthLabel}, ${tenGodCoreLabel} 흐름이 강하게 잡혀 있습니다. ${scoringFocus.usefulElement}(${OHAENG_HANJA[scoringFocus.usefulElement]}) 기운을 보완하면 과한 치우침을 줄이고 해석 안정감이 올라갑니다.`
+        : `The current chart trends toward a ${strengthLabel} with ${tenGodCoreLabel}. Reinforcing ${OHAENG_EN[scoringFocus.usefulElement]} (${OHAENG_HANJA[scoringFocus.usefulElement]}) reduces imbalance and improves consistency.`;
+    if (sections[2]) {
+        sections[2].content = `${sections[2].content}\n\n${structureDetail}\n\n${tenGodNarrative}`;
+        sections[2].highlight = isKo
+            ? `구조 핵심: ${strengthLabel} / ${tenGodCoreLabel} / 용신 ${yongsinLabel}`
+            : `Structure core: ${strengthLabel} / ${tenGodCoreLabel} / useful element ${yongsinLabel}`;
+    }
+
+    const daewoonList = generateDaewoon(year, month, day, hour, saju.year.cheongan, ilgan, gender, locale);
     const currentYear = new Date().getFullYear();
     const currentAge = currentYear - year + 1;
 

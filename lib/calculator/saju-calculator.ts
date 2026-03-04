@@ -1,4 +1,8 @@
 import KoreanLunarCalendar from 'korean-lunar-calendar';
+import {
+  getSolarTermMonthIndexForDate,
+  getYearPillarBaseYearForDate,
+} from '../data/saju/solar-terms';
 
 export interface SajuResult {
   year: { cheongan: string; jiji: string };
@@ -73,30 +77,6 @@ type NormalizedBirthDate = {
   day: number;
   hour?: number;
 };
-
-function isOnOrAfter(month: number, day: number, targetMonth: number, targetDay: number): boolean {
-  return month > targetMonth || (month === targetMonth && day >= targetDay);
-}
-
-function getSolarTermMonthIndex(month: number, day: number): number {
-  if (month === 1 && day < 6) return 11;
-  if (!isOnOrAfter(month, day, 2, 4)) return 12;
-  if (!isOnOrAfter(month, day, 3, 6)) return 1;
-  if (!isOnOrAfter(month, day, 4, 5)) return 2;
-  if (!isOnOrAfter(month, day, 5, 6)) return 3;
-  if (!isOnOrAfter(month, day, 6, 6)) return 4;
-  if (!isOnOrAfter(month, day, 7, 7)) return 5;
-  if (!isOnOrAfter(month, day, 8, 8)) return 6;
-  if (!isOnOrAfter(month, day, 9, 8)) return 7;
-  if (!isOnOrAfter(month, day, 10, 8)) return 8;
-  if (!isOnOrAfter(month, day, 11, 7)) return 9;
-  if (!isOnOrAfter(month, day, 12, 7)) return 10;
-  return 11;
-}
-
-function getYearPillarBaseYear(year: number, month: number, day: number): number {
-  return isOnOrAfter(month, day, 2, 4) ? year : year - 1;
-}
 
 function normalizeBirthDate(input: SajuInput): NormalizedBirthDate {
   const calendar = new KoreanLunarCalendar();
@@ -205,8 +185,18 @@ export interface SajuInput {
 
 export function calculateSaju(input: SajuInput): SajuResult {
   const normalized = normalizeBirthDate(input);
-  const yearBase = getYearPillarBaseYear(normalized.year, normalized.month, normalized.day);
-  const solarMonthIndex = getSolarTermMonthIndex(normalized.month, normalized.day);
+  const yearBase = getYearPillarBaseYearForDate(
+    normalized.year,
+    normalized.month,
+    normalized.day,
+    normalized.hour,
+  );
+  const solarMonthIndex = getSolarTermMonthIndexForDate(
+    normalized.year,
+    normalized.month,
+    normalized.day,
+    normalized.hour,
+  );
 
   const yearPillar = calcYearPillar(yearBase);
   const monthPillar = calcMonthPillar(yearBase, solarMonthIndex);
