@@ -208,6 +208,51 @@ function buildOhaengAnalysis(saju: SajuResult, locale: string): ResultSection {
   );
   const focus = determineSajuScoringFocus(saju);
 
+  if (locale === 'ko') {
+    const ohaengDescKo: Record<string, string> = {
+      목: '목(木) 기운 - 성장, 창의, 확장',
+      화: '화(火) 기운 - 열정, 표현, 추진',
+      토: '토(土) 기운 - 균형, 안정, 신뢰',
+      금: '금(金) 기운 - 원칙, 결단, 정리',
+      수: '수(水) 기운 - 지혜, 유연, 통찰',
+    };
+
+    const yongshinDescKo: Record<string, { yongshin: string; desc: string }> = {
+      목: { yongshin: '수(水)', desc: '수 기운이 목 기운을 북돋아 활력과 회복력을 보완합니다' },
+      화: { yongshin: '목(木)', desc: '목 기운이 화 기운의 추진력과 표현력을 안정적으로 키워줍니다' },
+      토: { yongshin: '화(火)', desc: '화 기운이 토 기운의 기반을 덥혀 실행력과 응집력을 강화합니다' },
+      금: { yongshin: '토(土)', desc: '토 기운이 금 기운을 받쳐 주며 안정적인 성장 흐름을 만듭니다' },
+      수: { yongshin: '금(金)', desc: '금 기운이 수 기운을 맑게 정리해 사고력과 통찰을 깊게 합니다' },
+    };
+
+    const subItemsKo = Object.entries(balance)
+      .filter(([, v]) => v > 0)
+      .sort((a, b) => b[1] - a[1])
+      .map(([k, v]) => ({
+        label: ohaengDescKo[k] || k,
+        value: '●'.repeat(v) + '○'.repeat(Math.max(0, 4 - v)),
+      }));
+
+    const yongKo = yongshinDescKo[weak] || {
+      yongshin: '토(土)',
+      desc: '토 기운을 보완하면 전체 균형을 안정시키는 데 도움이 됩니다',
+    };
+
+    const structureNoteKo = `${strengthBand} 흐름에서 ${tenGodLabel} 성향이 구조를 이끌고 있습니다. ${focus.usefulElement} 기운을 보강하면 전체 균형과 체감 안정감이 더 좋아지는 편입니다.`;
+    const contentKo =
+      `사주 오행 구성을 분석한 결과, ${ohaengDescKo[strong] || strong}이 가장 강한 축으로 나타납니다. ` +
+      `이 기운은 전반적인 성향과 삶의 방향감에 비교적 큰 영향을 주는 편입니다. ` +
+      `반대로 ${ohaengDescKo[weak] || weak}은 상대적으로 약한 편이어서, 용신(보완 요소)인 ${yongKo.yongshin} 기운을 활용하면 균형을 맞추는 데 도움이 됩니다. ${yongKo.desc}. ` +
+      `일상에서는 이 기운과 연결되는 색상, 방향, 생활 리듬을 가까이하면 균형감을 유지하는 데 도움이 될 수 있습니다.`;
+
+    return {
+      icon: '⚖️',
+      title: '오행 균형 분석',
+      content: `${contentKo} ${structureNoteKo} ${tenGodNarrative}`,
+      subItems: subItemsKo,
+    };
+  }
+
   const ohaengDesc: Record<string, string> = {
     목: locale === 'ko' ? '목(木)의 기운 - 성장, 창의, 인자함' : 'Wood (木) Energy - Growth, Creativity, Benevolence',
     화: locale === 'ko' ? '화(火)의 기운 - 열정, 표현, 예의' : 'Fire (火) Energy - Passion, Expression, Courtesy',

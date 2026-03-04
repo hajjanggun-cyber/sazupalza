@@ -101,16 +101,15 @@ export default function BlogPostPage({ post, locale }: Props) {
   const homeHref = buildLocalizedHref(locale);
   const categoryHref = buildLocalizedHref(locale, `/${categoryPath}`);
 
-  // ?몄뼱蹂??쒕ぉ ?좏깮 (蹂몃Ц??
-  // ?곷Ц 紐⑤뱶????seoTitleEn???놁쑝硫?理쒖냼???곷Ц ?띿뒪?몃? 異쒕젰?섎룄濡?蹂닿컯
+  // Choose the visible title. In English mode, fall back to a Korean title if needed.
   const displayTitle = isKo ? (post.seoTitle || post.title) : (post.seoTitleEn || post.title);
 
-  // ?몄뼱蹂?移댄뀒怨좊━紐??좏깮
+  // Choose the localized category label.
   const displayCategory = isKo
     ? (categoryName[post.category]?.ko ?? post.category)
     : (categoryName[post.category]?.en ?? post.category);
 
-  // ?몄뼱蹂?硫뷀??곗씠???좏깮
+  // Choose localized SEO metadata.
   const seoTitle = (isKo ? post.seoTitle : (post.seoTitleEn || post.seoTitle));
   const description = softenBlogMarketingCopy(isKo ? post.description : (post.descriptionEn || post.description));
   const keywords = (isKo ? post.keywords : (post.keywordsEn || post.keywords));
