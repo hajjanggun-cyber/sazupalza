@@ -16,17 +16,17 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
   const canonical = isKo ? `${BASE_URL}/saju` : `${BASE_URL}/en/saju`;
   return {
     title: isKo
-      ? '사주팔자 무료 분석 - 생년월일시로 알아보는 운명 | 사주팔자 무료 컨설팅'
+      ? '2026 무료 사주 분석 | 생년월일로 보는 내 운세·직업운·연애운'
       : 'Free Korean Four Pillars of Destiny Analysis | SajuPalza',
     description: isKo
-      ? '사주팔자(四柱八字) 완전 무료 분석. 생년월일시 8글자로 알아보는 타고난 기질, 직업운, 재물운, 연애운, 건강운. 삼명통회·자평진전·적천수 원리 기반.'
+      ? '생년월일시를 바탕으로 2026 무료 사주 분석을 확인하세요. 내 사주팔자의 오행, 일간, 직업운, 재물운, 연애운 흐름을 쉽게 볼 수 있습니다.'
       : 'Free Korean Four Pillars of Destiny (Saju Palza) analysis. Discover your innate characteristics, career, wealth, love, and health fortune based on birth date and time.',
     keywords: isKo
-      ? ['사주팔자 무료', '무료 사주', '사주 보기', '사주풀이', '사주팔자 분석', '생년월일 운세', '무료 운세']
+      ? ['2026 무료 사주', '사주팔자 무료', '사주 분석', '직업운', '연애운', '생년월일 운세']
       : ['Korean Four Pillars', 'Saju Palza', 'Korean fortune reading free', 'Four Pillars of Destiny'],
     openGraph: {
-      title: isKo ? '사주팔자 무료 분석' : 'Free Korean Four Pillars Analysis',
-      description: isKo ? '생년월일시로 알아보는 나의 운명' : 'Discover your destiny through birth date analysis',
+      title: isKo ? '2026 무료 사주 분석' : 'Free Korean Four Pillars Analysis',
+      description: isKo ? '생년월일로 보는 내 운세·직업운·연애운' : 'Discover your destiny through birth date analysis',
     },
     alternates: {
       canonical,

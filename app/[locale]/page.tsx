@@ -23,13 +23,13 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
   const isKo = locale === 'ko';
   return {
     title: isKo
-      ? '사주팔자 무료 종합 분석 - 관상·성명학·성격유형 | 즉시 결과'
+      ? '2026 무료 사주 | 내 사주팔자 종합 분석과 운세 확인'
       : 'Free Korean Fortune Reading - Four Pillars, Face Reading, MBTI',
     description: isKo
-      ? '사주팔자·관상·성명학·성격유형 완전 무료 분석. 회원가입 없음. 생년월일만 입력하면 즉시 결과!'
+      ? '2026 무료 사주 분석으로 내 사주팔자, 직업운, 재물운, 연애운, 이름 풀이와 관상까지 한 번에 확인하세요. 회원가입 없이 바로 이용할 수 있습니다.'
       : 'Free Korean Four Pillars, Face Reading, Name Numerology, and Personality analysis. No sign-up required. Instant results!',
     keywords: isKo
-      ? ['사주팔자 무료', '무료 사주', '관상 분석', '성명학', '성격유형', '무료 운세']
+      ? ['2026 무료 사주', '사주팔자 무료', '무료 사주', '직업운', '연애운', '무료 운세']
       : ['Korean fortune reading', 'four pillars free', 'face reading', 'Korean numerology'],
     alternates: buildLocaleAlternates(locale),
   };
