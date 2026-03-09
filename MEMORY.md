@@ -1,128 +1,192 @@
-# 사주팔자 프로젝트 (sajupalza) 메모리
+# sajupalza 프로젝트 메모
 
-## [Gemini CLI Update] 2026-02-22: Blog Post Content Update (1~3번 완료)
-- **작업 내용**: 블로그 포스트 1, 2, 3번의 한국어 및 영어 본문 데이터 삽입 완료.
-  1. **1번 (`intro`)**: '역학의 기초: 사주팔자란 무엇인가?' (한/영 완료)
-  2. **2번 (`eumlyek-yanglyeok`)**: '음력과 양력: 생시의 중요성' (한/영 완료)
-  3. **3번 (`iljoo`)**: '사주 일주(日柱) 완전정복' (한/영 완료)
-- **주요 수정 사항**:
-  - **중복 제거**: 1번 글 영어 본문이 중복 삽입된 오류 수정 완료.
-  - **내부 링크 최적화**: 본문 내 `[내부링크: 제목]` 형식을 실제 작동하는 `<a href="/ko/saju/..." class="...">` 태그로 변환 삽입.
-  - **데이터 무결성**: 파일 전체 쓰기(`write_file`)를 통해 오타 및 구조적 결함 방지.
+- 기준 일시: 2026-03-09
+- 목적: 프로젝트 구조와 운영 방식만 빠르게 확인하기 위한 메모
 
-## [Gemini CLI Update] 2026-02-22: Full Bilingual SEO Upgrade
-- **목적**: 한국어와 영어 페이지 각각에 최적화된 SEO 메타데이터(제목, 설명, 키워드)와 구조화 데이터(TOC, FAQ)를 제공하기 위한 시스템 업그레이드.
-- **주요 변경 사항**:
-  1. `lib/blog/types.ts`: `BlogPost` 인터페이스에 `seoTitleEn`, `descriptionEn`, `keywordsEn`, `tocEn`, `faqEn` 등 영어 전용 선택적 필드 추가.
-  2. `components/BlogPostPage.tsx`: 현재 `locale`에 따라 한국어 또는 영어 전용 메타데이터를 우선적으로 선택하여 렌더링하는 로직 구현.
-  3. `app/[locale]/[category]/[slug]/page.tsx`: 모든 카테고리(saju, name, face, mbti, bokhap)의 동적 라우트에서 `generateMetadata`가 언어별 메타데이터를 참조하도록 수정.
-- **효과**: 구글 영미권 검색 결과(SERP)에서 영어 제목과 설명이 정확하게 노출되어 글로벌 SEO 성능 극대화.
+## 1. 프로젝트 개요
 
-## 프로젝트 위치
-`C:\Users\홈_메인\Desktop\11  11 실전코딩\sajupalza`
+- 프로젝트명: `sajupalza`
+- 성격:
+  - 사주
+  - 성명학
+  - 관상
+  - MBTI
+  - 궁합/복합
+  콘텐츠와 분석 도구를 함께 운영하는 Next.js 사이트
+- 운영 특징:
+  - 다국어 라우팅 사용
+  - 블로그 콘텐츠를 TypeScript 파일로 관리
+  - 분석 결과 페이지 운영
+  - AdSense 적용
 
-## 기술 스택
-- Next.js 14.2.5 (App Router, SSG)
-- next-intl ^3.17.2 (ko/en/ja/zh)
-- Tailwind CSS + Modern Mystic 테마 (Deep Navy #0F0C29 + Gold #C8860A)
-- face-api.js (브라우저 내 관상 분석)
-- korean-lunar-calendar (음력 변환)
+## 2. 기술 스택
 
-## 완료된 파일 전체 목록 (2026-02-22 전체 빌드 성공)
+- Next.js 14.2.5
+- App Router
+- Tailwind CSS
+- next-intl
+- TypeScript
+- face-api.js
 
-### 설정 파일
-- package.json, next.config.js (output: standalone 제거), tailwind.config.ts
-- tsconfig.json, postcss.config.js, i18n.ts (requestLocale 신문법), middleware.ts
+## 3. 주요 경로 구조
 
-### 다국어 메시지
-- messages/ko.json, en.json, ja.json, zh.json
+### 공통
 
-### 데이터 파일
-- lib/data/saju/cheongan.ts, jiji.ts, ohaeng.ts, sipseong.ts, sinsal.ts, iljoo.ts
-- lib/data/name/orhaeng-sound.ts, suri81.ts, hoeksu.ts
-- lib/data/face/features.ts, face-shape.ts, color.ts
-- lib/data/mbti/types.ts, gunghap.ts
-- lib/data/guardian.ts (수호신 5종: 청룡/봉황/황룡/백호/현무)
+- `app/layout.tsx`
+- `app/globals.css`
+- `app/robots.ts`
+- `app/sitemap.ts`
+- `app/[locale]/layout.tsx`
 
-### 계산기
-- lib/calculator/saju-calculator.ts
-- lib/calculator/name-calculator.ts
-- lib/calculator/result-generator.ts (대폭 확장: 8+섹션, ComprehensiveResult 인터페이스)
+### 주요 페이지
 
-### 컴포넌트
-- components/AdSense.tsx
-- components/Navigation.tsx ('use client')
-- components/Footer.tsx ('use client')
-- components/AnalysisForm.tsx (Base64 URL-safe 인코딩 → /result/[id] 리다이렉트)
-- components/AnalysisLoading.tsx (단계별 로딩 애니메이션)
-- components/steps/Step1Name.tsx ~ Step5Photo.tsx
+- `app/[locale]/page.tsx`
+- `app/[locale]/combined/page.tsx`
+- `app/[locale]/saju/page.tsx`
+- `app/[locale]/name-reading/page.tsx`
+- `app/[locale]/face-reading/page.tsx`
+- `app/[locale]/mbti/page.tsx`
+- `app/[locale]/compatibility/page.tsx`
 
-### 앱 페이지
-- app/layout.tsx, app/globals.css (Modern Mystic 테마 완전 재작성)
-- app/[locale]/layout.tsx
-- app/[locale]/page.tsx (JSON-LD: WebApplication+FAQPage, 광고 문구 정리)
-- app/[locale]/result/page.tsx (구 URL → 새 URL 리다이렉트)
-- app/[locale]/result/[id]/page.tsx (NEW: 개인화 URL 전체 결과, 잠금 없음)
-- app/[locale]/result/[id]/opengraph-image.tsx (NEW: SNS 공유 OG 이미지)
-- app/[locale]/saju/page.tsx (JSON-LD: Article+FAQPage+BreadcrumbList)
-- app/[locale]/name/page.tsx (JSON-LD: Article+FAQPage+BreadcrumbList)
-- app/[locale]/face/page.tsx
-- app/[locale]/mbti/page.tsx (JSON-LD: Article+FAQPage+BreadcrumbList)
-- app/[locale]/privacy/page.tsx, terms/page.tsx, contact/page.tsx
-- app/sitemap.ts, app/robots.ts
+### 분석 페이지
 
-## STRATEGY.md 구현 완료 사항
-1. Modern Mystic 테마 (globals.css 전체 재작성)
-2. 수호신(guardian.ts) - 5종 수호신 데이터
-3. AnalysisLoading 컴포넌트 - 단계별 로딩
-4. result-generator.ts 8+섹션 확장 (오행/일간/직업/재물/연애/건강/개운/성명/MBTI)
-5. 개인화 URL /result/[id] (Base64 URL-safe 인코딩)
-6. 잠금/해제 메커니즘 완전 제거 → 결과 즉시 전체 공개
-7. JSON-LD 구조화 데이터 (주요 페이지 전체)
-8. 광고 콘텐츠 게이팅 문구 제거 (AdSense 정책 준수)
-
-## URL 인코딩 구조 (중요!)
-```
-// 인코딩 (AnalysisForm.tsx)
-JSON.stringify(data) → TextEncoder → btoa → URL-safe (-, _, 패딩 제거)
-
-// 디코딩 (result/[id]/page.tsx)
-URL-safe 복원 → atob → Uint8Array → TextDecoder → JSON.parse
-```
-
-## 중요한 패턴 / 주의사항
-
-### next-intl v3 SSG 패턴
-- Server Component: `unstable_setRequestLocale(locale)` 필수
-- i18n.ts: `requestLocale` 사용 (locale 파라미터 deprecated)
-- Client Component 내 locale: `useParams()`
+- `app/[locale]/saju-analysis/page.tsx`
+- `app/[locale]/gwansang-analysis/page.tsx`
+- `app/[locale]/seongmyeong-analysis/page.tsx`
+- `app/[locale]/personality-analysis/page.tsx`
 
 ### 결과 페이지
-- /result/page.tsx: dynamic='force-dynamic' (구 URL 리다이렉트 용도)
-- /result/[id]/page.tsx: useMemo로 즉시 디코딩, AnalysisLoading 후 전체 표시
 
-### 커스텀 CSS 클래스 (globals.css)
-- `card-dark`, `card-glow`, `btn-primary`, `btn-secondary`, `btn-gold`
-- `score-bar`, `score-fill`, `progress-step` (active/done)
-- `result-section`, `result-section-title`, `ohaeng-badge` (ohaeng-mok/hwa/to/geum/su)
-- `guardian-card`, `loading-screen`, `loading-step`
-- `share-btn`, `share-kakao`, `share-link`
-- `fade-in-up`, `shimmer`
+- `app/[locale]/result/[id]/page.tsx`
+- `app/[locale]/saju-result/[id]/page.tsx`
+- `app/[locale]/gwansang-result/[id]/page.tsx`
+- `app/[locale]/seongmyeong-result/[id]/page.tsx`
+- `app/[locale]/personality-result/[id]/page.tsx`
 
-### AdSense
-- app/layout.tsx에 스크립트 주석처리 (publisher ID 교체 후 활성화)
-- 콘텐츠 게이팅 없음 - AdSense 정책 준수
+## 4. 블로그 데이터 구조
 
-## 배포
-- Vercel: GitHub 연결 후 자동 배포
-- 도메인: sajupalza.vercel.app
-- 빌드 출력: 41 static pages + 2 dynamic routes (result/[id], opengraph-image)
+블로그는 DB가 아니라 TypeScript 파일로 관리한다.
 
-## 작업 규칙 (반드시 준수)
-- Write 금지 → Edit으로 해당 블록만 교체
-- Read 최소화 → Grep으로 필요한 부분만 검색
-- 100줄 이상 수정 전 → 유저에게 먼저 물어보기
-- 여러 파일 동시 수정 전 → 유저에게 먼저 물어보기
-- 세션 시작 권장 문구: "메모리 확인해. 오늘 작업: [내용]. Edit만 써, 큰 작업 전 물어봐."
-- 주의: MEMORY.md 규칙은 자동 준수 안 됨 → 세션 시작 시 위 문구로 반드시 상기시킬 것
-- 루트의 MEMORY.md(sajupalza/MEMORY.md)는 자동 동기화 안 됨 → 필요 시 "루트에 복사해줘" 요청
+- `lib/blog/saju-posts.ts`
+- `lib/blog/seongmyeong-posts.ts`
+- `lib/blog/gwansang-posts.ts`
+- `lib/blog/mbti-posts.ts`
+- `lib/blog/bokhap-posts.ts`
+- `lib/blog/index.ts`
+- `lib/blog/types.ts`
+
+### BlogPost 핵심 필드
+
+- `slug`
+- `title`
+- `seoTitle`
+- `seoTitleEn`
+- `description`
+- `descriptionEn`
+- `keywords`
+- `keywordsEn`
+- `publishedAt`
+- `category`
+- `contentKo`
+- `contentEn`
+- `toc`
+- `tocEn`
+- `faq`
+- `faqEn`
+- `relatedPosts`
+
+### URL 규칙
+
+```text
+/{locale}/{category}/{slug}
+```
+
+예:
+
+- `/ko/saju/intro`
+- `/en/saju/intro`
+- `/ko/face-reading/wealth-face`
+
+## 5. 다국어 운영
+
+- 주요 locale:
+  - `ko`
+  - `en`
+- 메시지 파일:
+  - `messages/ko.json`
+  - `messages/en.json`
+
+참고:
+
+- UI 문구 변경은 메시지 파일 먼저 확인
+- 페이지 메타는 각 page 파일의 `generateMetadata` 먼저 확인
+
+## 6. SEO 운영 메모
+
+- 사이트맵:
+  - `app/sitemap.ts`
+- robots:
+  - `app/robots.ts`
+- 블로그 메타:
+  - 각 카테고리/상세 page의 `generateMetadata`
+
+중요 원칙:
+
+- slug와 본문 주제가 일치해야 함
+- 한글/영문 메타 정합성을 유지해야 함
+- 내부 링크 문구와 목적지 주제가 일치해야 함
+- 날짜만 바꾸는 업데이트는 지양
+
+## 7. AdSense 운영 메모
+
+- 헤드 스크립트:
+  - `app/[locale]/layout.tsx`
+- 광고 컴포넌트:
+  - `components/AdSense.tsx`
+- `ads.txt`:
+  - `public/ads.txt`
+
+현재 운영 원칙:
+
+- 자동광고 스크립트는 유지
+- 수동 광고는 환경변수로 제어
+- 빈 광고 wrapper가 남지 않도록 페이지 구조 확인
+
+## 8. 계산/결과 로직 위치
+
+- `lib/calculator/saju-calculator.ts`
+- `lib/calculator/name-calculator.ts`
+- `lib/calculator/result-generator.ts`
+
+결과 페이지 수정 시 같이 확인할 것:
+
+- 계산 로직
+- 결과 문구
+- UI 페이지
+
+## 9. 수정 시 자주 보는 파일
+
+- 홈/메타: `app/[locale]/page.tsx`
+- 사주 카테고리: `app/[locale]/saju/page.tsx`
+- 블로그 상세 렌더링: `components/BlogPostPage.tsx`
+- 네비게이션: `components/Navigation.tsx`
+- 전역 스타일: `app/globals.css`
+- 블로그 데이터: `lib/blog/*-posts.ts`
+
+## 10. 현재 운영상 중요 메모
+
+- `lunar-solar-calendar`, `lucky-element`, `career-star`는 2026-03-09에 매핑 정리 완료
+- 이후 우선 점검 대상은 위 3개 글로 연결되는 내부 링크와 `relatedPosts`
+- 홈과 `/saju` 메타는 `2026 무료 사주` 방향으로 조정됨
+- `/en/combined`는 색인 친화 보강 작업 반영됨
+
+## 11. 문서 역할 구분
+
+- `MEMORY.md`
+  - 프로젝트 구조/운영 메모
+- `md-docs/haha_flow.md`
+  - 포스팅 작성 규칙
+- `md-docs/now-posting.md`
+  - 현재 게시 글 목록과 운영 메모
+- `md-docs/posting-category.md`
+  - 카테고리 구조와 키워드 정리
