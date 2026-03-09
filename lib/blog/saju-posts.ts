@@ -147,18 +147,18 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
   },
   {
     slug: 'lunar-solar-calendar',
-    title: 'Yongshin Complete Guide: Finding Your Lucky Balancing Element in Saju',
-    seoTitle: '사주 용신(用神)이란? 오행 균형을 잡는 행운의 핵심 기운 완전 가이드',
-    seoTitleEn: 'What is Yongshin? The Complete Guide to Your Lucky Balancing Element in Saju',
-    description: '사주팔자의 핵심 개념 용신(用神)을 쉽게 이해하고 내게 필요한 기운을 찾는 법을 억부·조후·통관·병약 4가지 용신론과 함께 3,000자 전문 해설로 설명합니다.',
-    descriptionEn: 'Understand Yongshin (Beneficial Element), the cornerstone of Saju analysis. Learn the four methods to find your personal balancing element and how to activate it in daily life.',
-    keywords: ['사주용신', '용신이란', '오행균형', '억부용신', '조후용신'],
-    keywordsEn: ['Saju Yongshin', 'Beneficial Element', 'Lucky Element', 'Five Elements Balance', 'Saju Analysis'],
+    title: 'Lunar vs Solar Calendar in Saju: Why Birth Time and Solar Terms Matter',
+    seoTitle: '사주 음력·양력 완전 해설: 절기력, 생시, 시차 보정까지 정확한 입력법',
+    seoTitleEn: 'Lunar vs Solar Calendar in Saju: Why Birth Time and Solar Terms Matter',
+    description: '사주는 음력일까요 양력일까요? 절기력 기준, 입춘 기준 연도 변경, 생시의 중요성, 표준시·썸머타임 보정까지 정확한 사주 입력법을 정리합니다.',
+    descriptionEn: 'Learn whether Saju uses the lunar or solar calendar, why solar terms matter, and how birth time, standard time, and DST corrections affect your chart.',
+    keywords: ['사주 음력 양력', '사주 절기력', '사주 생시', '사주 입춘', '사주 시간 보정'],
+    keywordsEn: ['Saju lunar solar calendar', 'Saju solar terms', 'birth time in Saju', 'Ipchun Saju', 'Saju time correction'],
     publishedAt: '2026-02-22',
     category: 'saju',
     contentKo: `
 <section>
-<p>명리학을 깊이 공부하다 보면 어느 순간 가장 중요한 질문 하나에 도달합니다. "내 사주에서 가장 필요한 기운은 무엇인가?" 그 대답이 바로 용신(用神)입니다. 용신은 사주의 불균형을 바로잡아주는 핵심 오행이며, 인생의 전성기를 만들어주는 결정적인 에너지입니다. 용신을 알면 직업, 색깔, 방향, 음식, 인간관계까지—삶의 거의 모든 선택에서 "나에게 유리한 방향"이 무엇인지 파악할 수 있습니다.</p>
+<p>사주를 처음 볼 때 가장 많이 헷갈리는 부분이 바로 "음력으로 넣어야 하나, 양력으로 넣어야 하나?"입니다. 여기에 생시까지 불명확하면 차트가 크게 달라질 수 있습니다. 사주는 단순한 달력 계산이 아니라 절기(節氣)를 기준으로 한 정밀한 시간 체계 위에서 작동합니다. 따라서 정확한 달력 기준과 생시 보정 원리를 이해하는 것이 해석의 출발점입니다.</p>
 
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
@@ -168,47 +168,34 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
   </ul>
 </div>
 
-<h2 id="yongshin-concept">1. 용신이란 무엇인가 — 사주 균형의 해결사</h2>
-<p>사주팔자는 여덟 글자가 서로 힘을 겨루는 역동적인 시스템입니다. 어떤 오행은 너무 많아서 과잉이 되고, 어떤 오행은 너무 적어서 제 역할을 못 합니다. 이때 사주 전체를 중화(中和)로 이끄는 핵심 글자가 용신입니다.</p>
-<p>비유하자면 이렇습니다. 사주가 너무 뜨거운 여름날 같다면, 시원한 水(물)가 용신입니다. 사주가 너무 차갑고 축축한 겨울 늪 같다면, 따뜻한 火(불)와 건조한 土(흙)가 용신이 됩니다. 사주가 금속으로만 가득 차 날카롭고 차갑다면, 이를 녹여줄 火(불) 또는 물 흘려보낼 水(물)가 용신의 역할을 합니다.</p>
-<p>용신이 대운(大運)이나 세운(歲運)에서 들어올 때, 우리는 인생의 상승기를 경험합니다. 반대로 용신을 억누르는 기운이 들어오면 침체기가 옵니다. 이것이 명리학자들이 "10년 대운의 흐름을 보라"고 강조하는 이유입니다.</p>
+<h2 id="lunar-solar-calendar">1. 절기력 기준: 사주는 음력만 보는 것이 아니다</h2>
+<p>많은 분들이 사주가 무조건 음력 기준이라고 생각하지만, 실제 명리학은 절기력에 더 가깝습니다. 즉 달의 모양만 보는 음력도 아니고, 단순한 현대 양력도 아닙니다. 태양의 움직임을 24절기로 나눈 기준을 사용하기 때문에, 같은 2월생이라도 입춘 전후에 따라 년주가 바뀔 수 있습니다.</p>
+<p>대표적인 예가 입춘(立春)입니다. 일반적인 달력상 새해가 지났더라도 입춘 이전 출생자는 이전 해의 기운으로 보는 경우가 있습니다. 그래서 단순히 띠만 보고 사주를 추정하면 오차가 커집니다.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">💎 내 용신과 행운의 색상 무료 확인 →</a>
+  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🕒 정확한 달력 기준으로 내 사주 무료 확인 →</a>
 </div>
 
-<h2 id="types-of-yongshin">2. 용신의 종류 — 억부·조후·통관·병약</h2>
-<p>용신을 찾는 방법은 하나가 아닙니다. 사주의 성격에 따라 다양한 접근법이 있습니다.</p>
-<h3>억부용신(抑扶用神): 힘의 균형을 맞춘다</h3>
-<p>사주가 너무 강하면(신강) 그 에너지를 설기(泄氣)하거나 극(剋)하는 오행이 용신입니다. 반대로 사주가 너무 허약하면(신약) 나를 도와주는 인성(印星)이나 비겁(比劫)이 용신이 됩니다. 명리학 입문에서 가장 먼저 배우는 용신론이 바로 억부용신입니다.</p>
-<h3>조후용신(調候用神): 온도를 조절한다</h3>
-<p>겨울 한가운데 태어난 사람의 사주는 얼어붙은 강처럼 차갑습니다. 아무리 재물운이 좋아 보여도, 온도(조후)가 맞지 않으면 그 재물을 온전히 누리기 어렵습니다. 이때는 따뜻하게 녹여줄 화(火)와 토(土)가 조후용신입니다. 반대로 한여름의 뜨거운 사주에는 수(水)와 금(金)이 조후를 조절해 줍니다.</p>
-<h3>통관용신(通關用神): 막힌 기운을 뚫는다</h3>
-<p>두 기운이 서로 충돌하거나 대립해서 사주 전체가 막혀있을 때, 그 사이를 중재하여 기운이 흐르게 만드는 오행이 통관용신입니다. 예를 들어 목(木)과 금(金)이 심하게 충돌하는 사주라면, 그 사이를 흘러주는 수(水)나 화(火)가 통관의 역할을 할 수 있습니다.</p>
-<h3>병약용신(病藥用神): 독을 약으로 다스린다</h3>
-<p>사주에 특정 오행이 지나치게 과잉되어 '병(病)'이 되었을 때, 그 과잉을 직접 제어하는 오행이 '약(藥)', 즉 용신이 됩니다. 이 구조를 가진 사주는 병이 있는 만큼 용신이 들어왔을 때의 효과가 극적으로 나타납니다.</p>
+<h2 id="birth-time-importance">2. 생시가 중요한 이유: 시주가 빠지면 25%가 비어 있다</h2>
+<p>사주는 년·월·일·시 네 기둥으로 구성됩니다. 이 중 시주(時柱)는 전체 차트의 25%를 차지합니다. 특히 말년운, 자녀운, 숨겨진 성향, 결과의 결실을 읽는 데 결정적입니다.</p>
+<p>생시를 모르면 삼주(년·월·일)까지만 분석할 수는 있지만, 직업의 마무리 흐름이나 인생 후반의 결실을 정밀하게 보기 어렵습니다. 그래서 출생 시간은 단순 부가정보가 아니라 해석의 정밀도를 좌우하는 핵심 데이터입니다.</p>
 
-<h2 id="practical-usage">3. 용신으로 개운하는 실전법</h2>
-<p>용신이 무엇인지 알았다면, 그 에너지를 일상에 녹여 넣는 것이 개운의 시작입니다.</p>
-<ul>
-  <li><strong>목(木) 용신:</strong> 초록색 옷, 식물이 가득한 공간, 동쪽을 향한 책상. 숲에서 산책하는 것이 최고의 충전법.</li>
-  <li><strong>화(火) 용신:</strong> 밝고 따뜻한 조명, 붉은색·주황색 포인트 소품. 사람이 많은 곳에 있는 것이 에너지를 끌어올린다.</li>
-  <li><strong>토(土) 용신:</strong> 황토색·베이지 계열, 등산과 텃밭 가꾸기. 안정적이고 규칙적인 생활 루틴이 행운을 부른다.</li>
-  <li><strong>금(金) 용신:</strong> 흰색·실버 계열, 금속 소품. 공간 정리와 미니멀 라이프가 기운을 정돈해 준다.</li>
-  <li><strong>수(水) 용신:</strong> 검정·네이비 계열, 수族관·분수가 있는 공간. 깊이 사색하는 시간과 충분한 수분 섭취가 도움이 된다.</li>
-</ul>
-<p>또한 용신 오행을 자연스럽게 지닌 파트너, 친구, 멘토와 가까이 지내는 것도 매우 효과적인 개운법입니다.</p>
+<h2 id="time-correction">3. 표준시 보정과 썸머타임: 같은 시계 시간이라도 다를 수 있다</h2>
+<p>사주 명식은 시계에 적힌 숫자만 그대로 쓰는 것이 아닙니다. 한국처럼 표준시를 사용하는 지역에서는 실제 태양시와 차이가 발생할 수 있고, 해외 출생자의 경우 도시별 경도 차이까지 영향을 줍니다.</p>
+<p>또한 특정 시기에는 서머타임(일광절약시간제)이 적용되어 출생기록보다 1시간을 보정해야 하는 경우도 있습니다. 이 보정을 놓치면 시주가 통째로 바뀌고, 결과적으로 해석 방향도 크게 달라질 수 있습니다.</p>
 
-<h2 id="conclusion">4. 용신은 찾는 것이 아니라 이미 씨앗으로 존재한다</h2>
-<p>용신은 외부에서 수입해 오는 것이 아닙니다. 당신의 사주 원국 안에 이미 그 씨앗이 들어있습니다. 다만 환경이 맞지 않아 발아하지 못하고 있을 뿐입니다. 용신에 맞는 색깔, 방향, 직업, 관계를 선택하는 것은 그 씨앗에 물을 주는 행위입니다.</p>
-<p>사주를 공부하는 궁극적인 목적은 운명에 순응하는 것이 아니라, 내가 가진 에너지를 가장 잘 활용하는 방식으로 삶을 설계하는 것입니다. 용신을 안다는 것은 그 설계의 가장 강력한 레버를 손에 쥐는 것입니다.</p>
+<h2 id="time-estimation">4. 생시를 모를 때의 시 추정법</h2>
+<p>출생 시간을 모른다고 해서 사주를 완전히 볼 수 없는 것은 아닙니다. 실무에서는 중요한 사건 시점, 진학·이직·결혼·수술 시기 등을 역으로 대입해 가능한 시주를 좁히는 방법을 씁니다. 이를 시주 추정 또는 생시 보정이라 합니다.</p>
+<p>정확한 출생 시간이 있으면 가장 좋지만, 없더라도 자신의 인생 이력과 주요 변곡점을 정리하면 추정 정확도를 상당히 높일 수 있습니다. 중요한 것은 대충 넣는 것보다, 불확실성을 인지하고 해석 범위를 조정하는 것입니다.</p>
+
+<h2 id="conclusion">5. 결론: 정확한 입력이 정확한 해석을 만든다</h2>
+<p>사주는 신비로운 직감이 아니라 시간 데이터 위에 세워진 체계입니다. 음력·양력 구분, 절기 기준, 입춘 시점, 생시, 표준시와 서머타임 보정을 정확히 이해할수록 해석은 선명해집니다. 사주 정확도의 절반은 해석 실력이고, 나머지 절반은 입력 데이터의 정밀도에서 결정됩니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/ko/saju/day-pillar" style="text-decoration: underline; color: #f9d976;">[관련글] 일주 완전정복 — 나라는 사람의 본질을 읽는 법</a></p>
   <p><a href="/ko/saju/intro" style="text-decoration: underline; color: #f9d976;">[관련글] 사주팔자 입문 — 음양오행과 사주의 구조 완벽 해설</a></p>
+  <p><a href="/ko/saju/hour-pillar" style="text-decoration: underline; color: #f9d976;">[관련글] 시주(時柱) 완전 해설 — 말년운과 숨겨진 내면 읽기</a></p>
 </div>
 </section>
-
     `,
     contentEn: `
     <section>
@@ -561,61 +548,67 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
   },
   {
     slug: 'lucky-element',
-    title: 'Finding Your Vocation via Saju: Career Guidance through Gwanseong',
-    seoTitle: '사주 관성(官星)으로 찾는 천직: 정관·편관과 오행별 직업 적성 완전 가이드',
-    seoTitleEn: 'Finding Your Vocation via Saju: Career Guidance through Gwanseong (Career Star)',
-    description: '내 사주의 관성(정관·편관)이 나에게 맞는 직업군과 커리어 성공 시기를 어떻게 보여주는지, 오행별 천직 가이드와 함께 3,000자 전문 해설로 분석합니다.',
-    descriptionEn: 'Discover your ideal career path by analyzing Gwanseong (Career Star) in your Saju chart. Learn how Jeonggwan and Pyeonggwan determine your professional strengths and best timing.',
-    keywords: ['사주천직', '관성직업운', '정관편관뜻', '오행직업', '커리어전환'],
-    keywordsEn: ['Saju Career', 'Gwanseong', 'Professional Path', 'Saju Job Reading', 'Career Star'],
+    title: 'Finding Your Lucky Element (Yongshin) in Saju',
+    seoTitle: '사주 용신(用神)이란? 오행 균형을 잡는 행운의 핵심 기운 완전 가이드',
+    seoTitleEn: 'What is Yongshin? The Complete Guide to Your Lucky Balancing Element in Saju',
+    description: '사주팔자의 핵심 개념 용신(用神)을 쉽게 이해하고 내게 필요한 기운을 찾는 법을 억부·조후·통관·병약 4가지 용신론과 함께 설명합니다.',
+    descriptionEn: 'Understand Yongshin, the core balancing element in Saju. Learn how to identify your lucky element and apply it through timing, space, color, and lifestyle.',
+    keywords: ['사주용신', '용신이란', '오행균형', '억부용신', '조후용신'],
+    keywordsEn: ['Saju Yongshin', 'Beneficial Element', 'Lucky Element', 'Five Elements Balance', 'Saju Analysis'],
     publishedAt: '2026-02-22',
     category: 'saju',
     contentKo: `
 <section>
-<p>"내가 이 일을 계속해야 할까?", "언제쯤 더 좋은 기회가 올까?"—인생을 살면서 누구나 한 번쯤 이런 질문을 합니다. 사주 명리학은 이 질문에 놀랍도록 구체적인 답을 줄 수 있습니다. 관성(官星)이라는 개념을 통해 내가 어떤 형태의 일에서 두각을 나타내는지, 그리고 언제 커리어의 전환점이 찾아오는지를 읽어낼 수 있기 때문입니다.</p>
+<p>명리학을 깊이 공부하다 보면 어느 순간 가장 중요한 질문 하나에 도달합니다. "내 사주에서 가장 필요한 기운은 무엇인가?" 그 대답이 바로 용신(用神)입니다. 용신은 사주의 불균형을 바로잡아주는 핵심 오행이며, 인생의 전성기를 만들어주는 결정적인 에너지입니다. 용신을 알면 직업, 색깔, 방향, 음식, 인간관계까지 삶의 거의 모든 선택에서 나에게 유리한 방향을 파악할 수 있습니다.</p>
 
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
   <ul style="margin: 0; padding-left: 16px;">
     <li style="margin-bottom: 4px;"><a href="/saju/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주팔자란 무엇인가? 음양오행 원리와 인생 운명론 완벽 가이드</a></li>
-    <li style="margin-bottom: 4px;"><a href="/saju/destiny-change" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">운명은 정해져 있는가? 사주로 운을 바꾸고 개운하는 실전 방법</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 일주 완전정복: 나의 본질과 배우자 복을 읽는 법</a></li>
   </ul>
 </div>
 
-<h2 id="gwanseong-meaning">1. 관성(官星)이란 — 직업운의 핵심 코드</h2>
-<p>관성은 나를 제어하는 기운이자, 사회가 나를 인정하는 방식입니다. 일간(나)을 극(剋)하는 오행이 관성이 되며, 이것이 음양에 따라 정관(正官)과 편관(偏官)으로 나뉩니다.</p>
-<h3>정관(正官) — 신뢰와 원칙의 리더</h3>
-<p>정관은 규칙과 질서를 중시하는 기운입니다. 정관이 발달한 사람은 공무원, 대기업 간부, 법조인, 교사처럼 사회적으로 인정받는 안정된 구조 안에서 탁월한 능력을 발휘합니다. 신뢰를 기반으로 천천히 그러나 확실하게 올라가는 커리어 패턴을 가집니다. 이 사람들에게 '정도(正道)'를 걷는 것은 원칙이 아니라 본능입니다.</p>
-<h3>편관(偏官) — 도전과 카리스마의 전문가</h3>
-<p>편관은 강렬하고 날카롭습니다. 경찰·군인·소방관·외과의사·특수 엔지니어처럼 긴장감 높고 결단력이 필요한 직군에서 자신의 진가를 발휘합니다. 또한 CEO, 프리랜서, 선구적인 창업가처럼 자신만의 규칙을 만드는 역할에서도 두각을 나타냅니다. 편관이 강한 사람이 일반 사무직에 배치되면 이 에너지가 어긋나 조직 내 마찰을 일으킬 수 있습니다.</p>
+<h2 id="yongshin-concept">1. 용신이란 무엇인가 — 사주 균형의 해결사</h2>
+<p>사주팔자는 여덟 글자가 서로 힘을 겨루는 역동적인 시스템입니다. 어떤 오행은 너무 많아서 과잉이 되고, 어떤 오행은 너무 적어서 제 역할을 못 합니다. 이때 사주 전체를 중화(中和)로 이끄는 핵심 글자가 용신입니다.</p>
+<p>비유하자면 이렇습니다. 사주가 너무 뜨거운 여름날 같다면 시원한 수(水)가 용신이고, 사주가 너무 차갑고 축축한 겨울 늪 같다면 따뜻한 화(火)와 건조한 토(土)가 용신이 됩니다. 사주가 금속으로만 가득 차 날카롭고 차갑다면 이를 녹여줄 화(火) 또는 물 흘려보낼 수(水)가 용신의 역할을 합니다.</p>
+<p>용신이 대운(大運)이나 세운(歲運)에서 들어올 때 우리는 인생의 상승기를 경험합니다. 반대로 용신을 억누르는 기운이 들어오면 침체기가 옵니다. 이것이 명리학자들이 10년 대운의 흐름을 보라고 강조하는 이유입니다.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">💼 내 사주로 천직 무료 분석받기 →</a>
+  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">💎 내 용신과 행운의 색상 무료 확인 →</a>
 </div>
 
-<h2 id="ohaeng-career">2. 오행별 천직 가이드</h2>
-<p>관성만이 아니라 일간의 오행 자체도 직업 적성을 결정합니다.</p>
+<h2 id="types-of-yongshin">2. 용신의 종류 — 억부·조후·통관·병약</h2>
+<p>용신을 찾는 방법은 하나가 아닙니다. 사주의 성격에 따라 다양한 접근법이 있습니다.</p>
+<h3>억부용신(抑扶用神): 힘의 균형을 맞춘다</h3>
+<p>사주가 너무 강하면(신강) 그 에너지를 설기(泄氣)하거나 극(剋)하는 오행이 용신입니다. 반대로 사주가 너무 허약하면 나를 도와주는 인성(印星)이나 비겁(比劫)이 용신이 됩니다. 명리학 입문에서 가장 먼저 배우는 용신론이 바로 억부용신입니다.</p>
+<h3>조후용신(調候用神): 온도를 조절한다</h3>
+<p>겨울 한가운데 태어난 사람의 사주는 얼어붙은 강처럼 차갑습니다. 아무리 재물운이 좋아 보여도 온도(조후)가 맞지 않으면 그 재물을 온전히 누리기 어렵습니다. 이때는 따뜻하게 녹여줄 화(火)와 토(土)가 조후용신입니다. 반대로 한여름의 뜨거운 사주에는 수(水)와 금(金)이 조후를 조절해 줍니다.</p>
+<h3>통관용신(通關用神): 막힌 기운을 뚫는다</h3>
+<p>두 기운이 서로 충돌하거나 대립해서 사주 전체가 막혀 있을 때, 그 사이를 중재하여 기운이 흐르게 만드는 오행이 통관용신입니다. 예를 들어 목(木)과 금(金)이 심하게 충돌하는 사주라면 그 사이를 흘러주는 수(水)나 화(火)가 통관의 역할을 할 수 있습니다.</p>
+<h3>병약용신(病藥用神): 독을 약으로 다스린다</h3>
+<p>사주에 특정 오행이 지나치게 과잉되어 병(病)이 되었을 때, 그 과잉을 직접 제어하는 오행이 약(藥), 즉 용신이 됩니다. 이 구조를 가진 사주는 병이 있는 만큼 용신이 들어왔을 때의 효과가 극적으로 나타납니다.</p>
+
+<h2 id="practical-usage">3. 용신으로 개운하는 실전법</h2>
+<p>용신이 무엇인지 알았다면 그 에너지를 일상에 녹여 넣는 것이 개운의 시작입니다.</p>
 <ul>
-  <li><strong>목(木) 기운:</strong> 성장·교육·의료·환경·스타트업. 무언가를 키우고 자라게 하는 일이 천직입니다.</li>
-  <li><strong>화(火) 기운:</strong> IT·미디어·마케팅·엔터테인먼트·강연. 에너지와 전파력을 직업으로 삼습니다.</li>
-  <li><strong>토(土) 기운:</strong> 부동산·금융·요식업·농업·인사관리. 안정과 신뢰를 기반으로 한 분야에서 진가를 발휘합니다.</li>
-  <li><strong>금(金) 기운:</strong> 법조·경찰·군대·제조·금융분석·외과. 날카로운 판단력이 빛나는 곳이 최적입니다.</li>
-  <li><strong>수(水) 기운:</strong> 기획·연구·철학·예술·컨설팅·IT 개발. 깊은 사유와 아이디어가 무기입니다.</li>
+  <li><strong>목(木) 용신:</strong> 초록색 옷, 식물이 가득한 공간, 동쪽을 향한 책상. 숲에서 산책하는 것이 최고의 충전법.</li>
+  <li><strong>화(火) 용신:</strong> 밝고 따뜻한 조명, 붉은색·주황색 포인트 소품. 사람이 많은 곳에 있는 것이 에너지를 끌어올립니다.</li>
+  <li><strong>토(土) 용신:</strong> 황토색·베이지 계열, 등산과 텃밭 가꾸기. 안정적이고 규칙적인 생활 루틴이 행운을 부릅니다.</li>
+  <li><strong>금(金) 용신:</strong> 흰색·실버 계열, 금속 소품. 공간 정리와 미니멀 라이프가 기운을 정돈해 줍니다.</li>
+  <li><strong>수(水) 용신:</strong> 검정·네이비 계열, 분수나 물이 있는 공간. 깊이 사색하는 시간과 충분한 수분 섭취가 도움이 됩니다.</li>
 </ul>
+<p>또한 용신 오행을 자연스럽게 지닌 파트너, 친구, 멘토와 가까이 지내는 것도 매우 효과적인 개운법입니다.</p>
 
-<h2 id="success-timing">3. 취업·승진·이직의 최적 타이밍</h2>
-<p>실력은 준비이고, 타이밍은 기회입니다. 아무리 능력이 있어도 운의 흐름이 닫혀 있을 때 억지로 나서면 소진됩니다. 반대로 운이 열리는 시기에는 작은 시도도 큰 결과로 이어집니다.</p>
-<p>관성이 용신(用神)인 사람은 10년 대운에서 관성 운이 들어올 때 커리어의 최전성기를 맞습니다. 또한 매년 세운(歲運)에서 일간과 합(合)을 이루는 해에는 이직·승진·인정의 기회가 찾아옵니다. 이 시기를 미리 파악하고 역량을 집중 준비하는 것이 성공 확률을 극적으로 높입니다.</p>
-
-<h2 id="conclusion">4. 결론 — 나에게 맞는 무대를 선택하라</h2>
-<p>가장 고통스러운 직장생활은 내 에너지와 전혀 맞지 않는 환경에서 억지로 버티는 것입니다. 사주는 단순히 어떤 직업이 좋다고 지정해 주는 도구가 아닙니다. 내가 어떤 환경에서 자연스럽게 빛나는지, 어떤 방식으로 일할 때 지속 가능한 에너지가 나오는지를 알려주는 나침반입니다. 그 나침반이 가리키는 방향으로 한 발 내딛어 보세요.</p>
+<h2 id="conclusion">4. 용신은 찾는 것이 아니라 이미 씨앗으로 존재한다</h2>
+<p>용신은 외부에서 수입해 오는 것이 아닙니다. 당신의 사주 원국 안에 이미 그 씨앗이 들어 있습니다. 다만 환경이 맞지 않아 발아하지 못하고 있을 뿐입니다. 용신에 맞는 색깔, 방향, 직업, 관계를 선택하는 것은 그 씨앗에 물을 주는 행위입니다.</p>
+<p>사주를 공부하는 궁극적인 목적은 운명에 순응하는 것이 아니라, 내가 가진 에너지를 가장 잘 활용하는 방식으로 삶을 설계하는 것입니다. 용신을 안다는 것은 그 설계의 가장 강력한 레버를 손에 쥐는 것입니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/ko/saju/day-pillar" style="text-decoration: underline; color: #f9d976;">[관련글] 일주 완전정복 — 일간 기질로 보는 나의 핵심 재능</a></p>
-  <p><a href="/ko/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[관련글] 사주 용신 찾기 — 성공 시기를 앞당기는 행운의 에너지</a></p>
+  <p><a href="/ko/saju/day-pillar" style="text-decoration: underline; color: #f9d976;">[관련글] 일주 완전정복 — 나라는 사람의 본질을 읽는 법</a></p>
+  <p><a href="/ko/saju/intro" style="text-decoration: underline; color: #f9d976;">[관련글] 사주팔자 입문 — 음양오행과 사주의 구조 완벽 해설</a></p>
 </div>
 </section>
-
     `,
     contentEn: `
     <section>
@@ -690,7 +683,7 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
     ],
     relatedPosts: [
       { slug: 'intro', title: 'Understanding Yin-Yang and Five Elements', category: 'saju' },
-      { slug: 'destiny-change', title: 'Can You Change Your Destiny?', category: 'saju' },
+      { slug: 'career-star', title: 'Career Luck in Saju via Gwanseong', category: 'saju' },
     ],
   },
   {
@@ -932,7 +925,7 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
     ],
     relatedPosts: [
       { slug: 'day-pillar', title: 'Day Pillar and Core Talent', category: 'saju' },
-      { slug: 'lucky-element', title: 'Finding Your Career Success Element', category: 'saju' },
+      { slug: 'lucky-element', title: 'Finding Your Lucky Element (Yongshin)', category: 'saju' },
     ],
   },
   {

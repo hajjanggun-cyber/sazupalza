@@ -67,10 +67,7 @@ export default async function GwansangAnalysisPage({ params: { locale } }: Props
 
             <Navigation />
 
-            {/* 상단 광고 */}
-            <div className="flex justify-center py-3 bg-[#0d0502]">
-                <AdSense slot="1234567890" format="horizontal" className="max-w-full" />
-            </div>
+            <AdSense slot="1234567890" format="horizontal" className="max-w-full" />
 
             <main>
                 {/* 헤더 */}
@@ -142,10 +139,7 @@ export default async function GwansangAnalysisPage({ params: { locale } }: Props
                     </div>
                 </section>
 
-                {/* 중간 광고 */}
-                <div className="flex justify-center py-4">
-                    <AdSense slot="0987654321" format="rectangle" />
-                </div>
+                <AdSense slot="0987654321" format="rectangle" />
 
                 {/* 통합 분석 유도 배너 */}
                 <section className="max-w-3xl mx-auto px-4 pb-12">

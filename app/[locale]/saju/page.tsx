@@ -139,9 +139,7 @@ export default async function SajuPage({ params: { locale } }: Props) {
 
       <Navigation />
 
-      <div className="flex justify-center py-3 bg-[#0d0502]">
-        <AdSense slot="2233445566" format="horizontal" className="max-w-full" />
-      </div>
+      <AdSense slot="2233445566" format="horizontal" className="max-w-full" />
 
       <main>
         {/* 히어로 섹션 */}
@@ -194,9 +192,7 @@ export default async function SajuPage({ params: { locale } }: Props) {
         </section>
 
         {/* 중간 광고 */}
-        <div className="flex justify-center py-4">
-          <AdSense slot="3344556677" format="rectangle" />
-        </div>
+        <AdSense slot="3344556677" format="rectangle" />
 
         {/* 분석 내용 소개 */}
         <section className="max-w-3xl mx-auto px-4 py-12">

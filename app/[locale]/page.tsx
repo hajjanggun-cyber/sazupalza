@@ -189,11 +189,7 @@ export default async function HomePage({ params: { locale } }: Props) {
 
       <Navigation />
 
-      {/* 상단 광고 */}
-      <div className="flex flex-col items-center py-3 bg-[#0d0502]">
-        <p className="text-yellow-200/30 text-xs mb-1">{isKo ? '광고' : 'Advertisement'}</p>
-        <AdSense slot="1234567890" format="horizontal" className="max-w-full" />
-      </div>
+      <AdSense slot="1234567890" format="horizontal" className="max-w-full" />
 
       <main>
         {/* ── HERO 섹션 ── */}
@@ -432,11 +428,7 @@ export default async function HomePage({ params: { locale } }: Props) {
           </div>
         </section>
 
-        {/* 하단 광고 */}
-        <div className="flex flex-col items-center py-4">
-          <p className="text-yellow-200/30 text-xs mb-1">{isKo ? '광고' : 'Advertisement'}</p>
-          <AdSense slot="1122334455" format="rectangle" />
-        </div>
+        <AdSense slot="1122334455" format="rectangle" />
 
         {/* ── FAQ 섹션 ── */}
         <section className="max-w-3xl mx-auto px-4 py-12">

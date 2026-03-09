@@ -123,9 +123,7 @@ export default async function NamePage({ params: { locale } }: Props) {
 
       <Navigation />
 
-      <div className="flex justify-center py-3 bg-[#0d0502]">
-        <AdSense slot="5566778899" format="horizontal" className="max-w-full" />
-      </div>
+      <AdSense slot="5566778899" format="horizontal" className="max-w-full" />
 
       <main>
         {/* 히어로 섹션 */}
@@ -191,9 +189,7 @@ export default async function NamePage({ params: { locale } }: Props) {
         </section>
 
         {/* 중간 광고 */}
-        <div className="flex justify-center py-4">
-          <AdSense slot="6677889900" format="rectangle" />
-        </div>
+        <AdSense slot="6677889900" format="rectangle" />
 
         {/* Related Blog Posts */}
         <section className="max-w-3xl mx-auto px-4 pb-12">

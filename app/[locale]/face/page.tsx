@@ -81,9 +81,7 @@ export default async function FacePage({ params: { locale } }: Props) {
     <div className="min-h-screen">
       <Navigation />
 
-      <div className="flex justify-center py-3 bg-[#0d0502]">
-        <AdSense slot="8899001122" format="horizontal" className="max-w-full" />
-      </div>
+      <AdSense slot="8899001122" format="horizontal" className="max-w-full" />
 
       <main>
         {/* 히어로 섹션 */}
@@ -143,9 +141,7 @@ export default async function FacePage({ params: { locale } }: Props) {
         </section>
 
         {/* 중간 광고 */}
-        <div className="flex justify-center py-4">
-          <AdSense slot="9900112233" format="rectangle" />
-        </div>
+        <AdSense slot="9900112233" format="rectangle" />
 
         {/* 보안 안내 */}
         <section className="max-w-3xl mx-auto px-4 py-8">

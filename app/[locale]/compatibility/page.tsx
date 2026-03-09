@@ -107,9 +107,7 @@ export default async function CompatibilityPage({ params: { locale } }: Props) {
 
       <Navigation />
 
-      <div className="flex justify-center py-3 bg-[#0d0502]">
-        <AdSense slot="1122334456" format="horizontal" className="max-w-full" />
-      </div>
+      <AdSense slot="1122334456" format="horizontal" className="max-w-full" />
 
       <main>
         <section className="relative py-14 px-4 text-center">
@@ -146,9 +144,7 @@ export default async function CompatibilityPage({ params: { locale } }: Props) {
           </div>
         </section>
 
-        <div className="flex justify-center py-4">
-          <AdSense slot="2233445567" format="rectangle" />
-        </div>
+        <AdSense slot="2233445567" format="rectangle" />
 
         <section className="max-w-3xl mx-auto px-4 pb-12">
           <h2 className="text-xl font-bold text-center text-yellow-400 mb-5">
