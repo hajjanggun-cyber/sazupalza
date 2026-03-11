@@ -1080,7 +1080,7 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
       { q: 'Who is affected by Sam-jae in 2026?', a: 'Monkey, Rat, and Dragon signs are in the second year of Sam-jae, but the overall Fire energy can often mitigate or amplify these effects.' },
     ],
     relatedPosts: [
-      { slug: 'intro', title: 'Saju Basics and Yearly Cycles', category: 'saju' },
+      { slug: 'samjae-2026', title: 'Who Is in Samjae in 2026?', category: 'saju' },
       { slug: 'lucky-element', title: 'Find Your Lucky Color for 2026', category: 'saju' },
     ],
   },
@@ -2366,6 +2366,146 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
     relatedPosts: [
       { slug: 'lucky-element', category: 'saju', title: '용신(用神): 내 사주의 핵심 기운' },
       { slug: 'destiny-change', category: 'saju', title: '개운(改運)의 철학: 내 운명을 바꿀 수 있는가' },
+    ],
+  },
+  {
+    slug: 'samjae-2026',
+    title: '2026 삼재는 누구인가? 들삼재·눌삼재·날삼재 완전 해설',
+    seoTitle: '2026 삼재 띠 총정리: 들삼재·눌삼재·날삼재와 조심할 점 완전 해설',
+    seoTitleEn: 'Who Is in Samjae in 2026? Entry, Middle, and Exit Years Explained',
+    description: '2026년 삼재는 누구에게 들어올까요? 들삼재·눌삼재·날삼재의 차이, 2026년 삼재 띠, 건강·재물·관재 리스크와 현실적인 대응법까지 정리합니다.',
+    descriptionEn: 'Who is in Samjae in 2026? Learn which zodiac signs face the Entry, Middle, and Exit Samjae years, what risks they traditionally signal, and how to respond wisely.',
+    keywords: ['2026 삼재', '2026 삼재 띠', '들삼재', '눌삼재', '날삼재', '병오년 삼재'],
+    keywordsEn: ['Samjae 2026', 'who is in Samjae in 2026', 'entry Samjae', 'middle Samjae', 'exit Samjae', '2026 three disasters'],
+    publishedAt: '2026-03-11',
+    category: 'saju',
+    toc: [
+      { id: 'what-is-samjae', title: '1. 삼재란 무엇인가: 들삼재·눌삼재·날삼재의 구조' },
+      { id: 'who-is-in-samjae-2026', title: '2. 2026년 삼재 띠는 누구인가' },
+      { id: 'samjae-risks', title: '3. 삼재 기간에 특히 조심해야 할 세 가지' },
+      { id: 'samjae-response', title: '4. 2026년 삼재를 현실적으로 건너는 방법' },
+      { id: 'conclusion', title: '5. 결론: 삼재는 공포가 아니라 점검의 시기' },
+    ],
+    tocEn: [
+      { id: 'what-is-samjae', title: '1. What Is Samjae? Entry, Middle, and Exit Years' },
+      { id: 'who-is-in-samjae-2026', title: '2. Which Zodiac Signs Are in Samjae in 2026?' },
+      { id: 'samjae-risks', title: '3. The Three Main Risks of a Samjae Year' },
+      { id: 'samjae-response', title: '4. Practical Ways to Navigate Samjae in 2026' },
+      { id: 'conclusion', title: '5. Conclusion: Samjae as a Review Cycle' },
+    ],
+    contentKo: `<section>
+<p>“2026년 삼재는 누구인가?”라는 질문은 연초가 지나도 계속 검색되는 대표적인 운세 키워드입니다. 삼재(三災)는 전통적으로 <strong>재물, 건강, 관재</strong>의 흐름이 흔들리기 쉬운 3년 주기를 뜻하지만, 무조건 큰 화가 난다는 의미는 아닙니다. 중요한 것은 2026년 병오년(丙午年)에 어떤 띠가 들삼재·눌삼재·날삼재에 해당하는지, 그리고 실제 생활에서 무엇을 조심해야 하는지를 구조적으로 이해하는 것입니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/saju/zodiac-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">띠별 2026년 운세: 병오년 전체 흐름 총정리</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/destiny-change" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">운명은 바꿀 수 있는가: 개운(改運)의 실전 원리</a></li>
+  </ul>
+</div>
+
+<h2 id="what-is-samjae">1. 삼재란 무엇인가: 들삼재·눌삼재·날삼재의 구조</h2>
+<p>삼재는 특정 띠에게 3년 연속으로 들어오는 부담 주기를 말합니다. 첫해는 <strong>들삼재</strong>, 둘째 해는 <strong>눌삼재</strong>, 셋째 해는 <strong>날삼재</strong>라고 부릅니다. 들삼재는 외부 변화가 갑자기 밀려오는 시기, 눌삼재는 문제가 길게 눌러앉아 체력과 멘탈을 시험하는 시기, 날삼재는 마무리 과정에서 손실과 정리가 동시에 일어나는 시기로 해석하는 경우가 많습니다.</p>
+<p>전통 명리학에서는 삼재를 절대적 재앙으로 보지 않습니다. 오히려 평소보다 <strong>무리한 확장, 충동적 계약, 건강 방치</strong>를 피하라는 경고 신호로 이해하는 편이 현대적으로 더 정확합니다. 즉 삼재는 “무조건 나쁜 해”가 아니라, 리스크 관리의 감각을 높여야 하는 시기입니다.</p>
+
+<h2 id="who-is-in-samjae-2026">2. 2026년 삼재 띠는 누구인가</h2>
+<p>2026년은 병오년(丙午年)으로, 전통적인 삼재 흐름상 <strong>원숭이띠(申), 쥐띠(子), 용띠(辰)</strong>가 삼재권에 놓이는 해로 많이 해석됩니다. 다만 같은 삼재라도 3년 중 어느 단계에 있는지에 따라 체감이 다릅니다. 이 때문에 “2026 삼재 띠”만 검색하고 끝내기보다, 내가 들삼재인지 눌삼재인지 날삼재인지까지 확인해야 합니다.</p>
+<h3>원숭이띠·쥐띠·용띠</h3>
+<p>이 세 띠는 2026년에 삼재 흐름을 여전히 의식해야 하는 그룹으로 분류됩니다. 특히 이미 지난 1~2년 동안 직장, 인간관계, 건강, 돈 문제에서 묘하게 흐름이 막혔다면 2026년은 그 패턴을 정리하고 방향을 수정하는 해가 될 가능성이 큽니다. 같은 띠라도 개인 사주 원국과 대운에 따라 강도는 다르므로, 띠만으로 인생 전체를 단정할 수는 없습니다.</p>
+<h3>왜 띠만으로는 절반만 맞는가</h3>
+<p>삼재는 어디까지나 대중적인 1차 필터입니다. 실제 명리 해석에서는 개인의 <strong>사주 원국, 대운, 세운, 충·형·파해</strong>가 함께 봐야 합니다. 예를 들어 삼재 띠라도 용신이 강하게 들어오고 원국 구조가 안정적이면 체감 리스크가 약할 수 있고, 반대로 삼재 띠가 아니어도 충돌이 심하면 더 힘든 해를 보낼 수 있습니다.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 2026년 내 사주 흐름 무료 분석 받기 →</a>
+</div>
+
+<h2 id="samjae-risks">3. 삼재 기간에 특히 조심해야 할 세 가지</h2>
+<p>전통적으로 삼재는 건강재, 수재, 풍재처럼 다양한 상징으로 설명되지만, 현대적으로는 크게 세 가지 리스크로 정리하는 편이 실용적입니다.</p>
+<h3>1) 건강과 사고</h3>
+<p>삼재 시기에는 무리한 일정, 수면 부족, 운전 부주의, 과로가 실제 문제로 번지는 경우가 많습니다. 특히 들삼재와 날삼재에는 외부 변수로 인한 사고성 이벤트가 더 잘 체감된다고 보는 해석이 많습니다. 건강운이 약한 사주라면 정기검진과 생활 루틴 점검을 미루지 않는 것이 중요합니다.</p>
+<h3>2) 돈과 계약</h3>
+<p>삼재에 가장 많이 후회하는 부분은 “괜히 급하게 벌리고, 괜히 급하게 사인한 것”입니다. 투자, 대출, 동업, 이직 조건 협상처럼 장기 영향을 주는 계약일수록 더 꼼꼼해야 합니다. 2026년에 삼재권이라면 공격적 확장보다 현금흐름 방어와 리스크 분산에 무게를 두는 편이 안전합니다.</p>
+<h3>3) 인간관계와 관재</h3>
+<p>삼재는 사람 문제로 체감되는 경우도 많습니다. 직장 내 갈등, 책임 전가, 말실수, 문서 문제, 법적 분쟁의 씨앗이 평소보다 빨리 커질 수 있습니다. 이런 해에는 “누가 나를 힘들게 하나”보다 “어떤 관계와 문서를 내가 느슨하게 관리했나”를 점검하는 시각이 더 중요합니다.</p>
+
+<h2 id="samjae-response">4. 2026년 삼재를 현실적으로 건너는 방법</h2>
+<p>삼재를 피하는 마법은 없습니다. 하지만 리스크를 줄이는 방법은 분명히 있습니다. 핵심은 거창한 부적보다 <strong>생활의 구조조정</strong>입니다.</p>
+<h3>확장보다 정리</h3>
+<p>삼재 시기에는 새로 벌이는 것보다 기존 문제를 정리하는 전략이 유리합니다. 미뤄둔 검진, 불필요한 지출, 손절해야 할 인간관계, 불안정한 계약 조건을 정리하면 삼재의 체감 강도가 확실히 줄어듭니다. 삼재는 인생을 무너뜨리는 해라기보다, 허술한 부분을 드러내는 해에 가깝습니다.</p>
+<h3>용신 기준 개운</h3>
+<p>개운(改運)을 하려면 무작정 삼재 부적을 찾기보다 내 사주의 용신을 먼저 확인하는 편이 훨씬 실전적입니다. 같은 삼재라도 어떤 사람은 휴식이 필요하고, 어떤 사람은 방향 전환이 필요하며, 어떤 사람은 인간관계 정리가 더 급합니다. 그래서 삼재 해석은 띠만 보는 운세보다 <a href="/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">용신(用神) 기반의 개운 전략</a>과 함께 볼 때 훨씬 정확해집니다.</p>
+
+<h2 id="conclusion">5. 결론: 삼재는 공포가 아니라 점검의 시기</h2>
+<p>2026년 삼재는 누구인가를 묻는 이유는 결국 “올해를 어떻게 건너야 하나”를 알고 싶기 때문입니다. 원숭이띠, 쥐띠, 용띠처럼 삼재권에 놓인 띠라면 겁먹기보다 건강, 돈, 관계를 점검하는 해로 받아들이는 편이 훨씬 현명합니다. 삼재는 정해진 파멸의 공식이 아니라, 위험을 먼저 보고 속도를 조절하라는 전통적 경고에 가깝습니다.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/ko/saju/zodiac-2026" style="text-decoration: underline; color: #f9d976;">[관련글] 띠별 2026년 운세: 병오년 전체 흐름과 주의 포인트</a></p>
+  <p><a href="/ko/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[관련글] 사주 용신 찾기: 내게 필요한 행운의 기운은 무엇인가</a></p>
+</div>
+</section>`,
+    contentEn: `<section>
+<p>“Who is in Samjae in 2026?” remains one of the most searched Korean astrology questions even after the New Year rush fades. In traditional interpretation, <strong>Samjae (三災)</strong> refers to a three-year cycle in which financial pressure, health strain, and conflict risk become easier to trigger. It does not mean unavoidable disaster. What matters is understanding which zodiac signs fall into Samjae in 2026, whether they are in the entry, middle, or exit phase, and how to respond in practical terms.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/saju/zodiac-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">2026 Zodiac Fortune: The Full Fire Horse Year Forecast</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/saju/destiny-change" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Can You Change Your Destiny? Practical Gaewoon Principles</a></li>
+  </ul>
+</div>
+
+<h2 id="what-is-samjae">1. What Is Samjae? Entry, Middle, and Exit Years</h2>
+<p>Samjae is a traditional three-year pressure cycle assigned to specific zodiac groups. The first year is often called the <strong>Entry Samjae</strong>, the second the <strong>Middle Samjae</strong>, and the third the <strong>Exit Samjae</strong>. In practical Korean fortune telling, the entry year tends to coincide with sudden environmental disruption, the middle year with sustained pressure, and the exit year with losses, endings, or forced reorganization.</p>
+<p>Modern interpretation should not treat Samjae as a curse. It is more useful to see it as a period in which <strong>overexpansion, careless contracts, health neglect, and unresolved conflict</strong> become more expensive than usual. In that sense, Samjae is less about fear and more about disciplined risk management.</p>
+
+<h2 id="who-is-in-samjae-2026">2. Which Zodiac Signs Are in Samjae in 2026?</h2>
+<p>For the 2026 Fire Horse year, traditional Korean astrology commonly places <strong>Monkey, Rat, and Dragon</strong> signs within the Samjae zone. That does not mean all three signs will experience the same intensity. The lived impact changes depending on whether the person is in the entry, middle, or exit phase of the cycle, and more importantly, on how their personal Saju chart interacts with the year.</p>
+<h3>Monkey, Rat, and Dragon Signs</h3>
+<p>If you belong to one of these zodiac groups, 2026 is a year to pay closer attention to timing, contracts, and recovery. People who already felt unusual pressure over the previous one or two years may find that 2026 exposes what must be cut, renegotiated, or stabilized. In Korean astrology, this is why Samjae years often feel less like random bad luck and more like a harsh audit of weak structures.</p>
+<h3>Why Zodiac Alone Is Not Enough</h3>
+<p>Samjae by zodiac is only a broad public-level filter. A real Korean four pillars reading looks at the natal chart, the Major Fortune Cycle, the Annual Fortune, and clash patterns together. A person in Samjae can still have a productive and even successful year if their personal chart receives strong supportive energy. Conversely, someone outside Samjae may still struggle if their chart is under direct structural pressure.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 Get Your 2026 Saju Flow Analysis Free →</a>
+</div>
+
+<h2 id="samjae-risks">3. The Three Main Risks of a Samjae Year</h2>
+<p>Traditional language around Samjae can sound mystical, but in practical terms the risks usually cluster around three areas.</p>
+<h3>1) Health and Accidents</h3>
+<p>Samjae periods are often felt through fatigue, weak recovery, careless driving, minor accidents, and health issues that become larger because they were ignored too long. The entry and exit phases are traditionally considered the most unstable. If your chart already shows weak health timing, this is the year to reduce overwork and stop postponing checkups.</p>
+<h3>2) Money and Contracts</h3>
+<p>The most common Samjae regret is not mystical misfortune but poor decision-making under pressure: rushed investment, sloppy paperwork, unbalanced loans, or expansion without enough buffer. If 2026 places you in Samjae, a conservative cash-flow strategy is often wiser than aggressive growth.</p>
+<h3>3) Relationships and Legal Friction</h3>
+<p>Samjae can also manifest as conflict with coworkers, blame-shifting, document disputes, and legal stress. In modern terms, the lesson is not “people are attacking me,” but “my relationships and paperwork need tighter management.” That mindset is far more useful than treating Samjae as supernatural punishment.</p>
+
+<h2 id="samjae-response">4. Practical Ways to Navigate Samjae in 2026</h2>
+<p>There is no magical way to erase Samjae. But there are smart ways to lower the damage it can cause. The most practical Korean astrology advice is structural, not theatrical.</p>
+<h3>Choose Cleanup Over Expansion</h3>
+<p>Samjae years reward cleanup more than expansion. Review neglected health issues, unstable spending, weak partnerships, and vague contract terms. In real life, Samjae tends to expose what was already loose. If you tighten those loose areas early, the year often becomes far more manageable than feared.</p>
+<h3>Use Yongshin-Based Remedies</h3>
+<p>If you want to apply Gaewoon (luck-improvement) intelligently, do not stop at zodiac-level fear. Start with your <a href="/en/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">Yongshin (beneficial element)</a>. Two people in the same Samjae year may need completely different strategies: one needs rest, one needs direction change, another needs relationship pruning. That is why zodiac Samjae becomes much more useful when combined with personal Saju chart strategy.</p>
+
+<h2 id="conclusion">5. Conclusion: Samjae as a Review Cycle</h2>
+<p>People search “Who is in Samjae in 2026?” because what they really want to know is how to move through the year without unnecessary damage. If you are a Monkey, Rat, or Dragon sign in the Samjae zone, the most productive approach is not panic but review: health, money, and relationships. In Korean astrology, Samjae is best understood not as a formula for doom, but as a warning to slow down, inspect weak structures, and act with more precision.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/saju/zodiac-2026" style="text-decoration: underline; color: #f9d976;">[Related] 2026 Zodiac Fortune: Fire Horse Year Risks and Opportunities</a></p>
+  <p><a href="/en/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[Related] Finding Your Lucky Element: What Energy Do You Actually Need?</a></p>
+</div>
+</section>`,
+    faq: [
+      { q: '2026년 삼재 띠는 무조건 나쁜 해를 보내나요?', a: '아닙니다. 삼재는 리스크 관리가 더 중요해지는 3년 주기를 뜻할 뿐, 무조건 큰 불운이 온다는 의미는 아닙니다. 개인 사주 원국과 대운이 좋으면 체감이 약할 수도 있습니다.' },
+      { q: '2026년 삼재는 어떤 띠가 해당하나요?', a: '전통 해석에서는 원숭이띠, 쥐띠, 용띠가 2026년 삼재권으로 많이 분류됩니다. 다만 들삼재·눌삼재·날삼재의 단계와 개인 사주 구조를 함께 봐야 정확도가 높습니다.' },
+      { q: '삼재에 가장 조심해야 할 것은 무엇인가요?', a: '과로, 급한 계약, 무리한 투자, 사람 문제를 방치하는 태도를 가장 먼저 조심하는 것이 좋습니다. 삼재는 대체로 이미 약한 부분이 드러나는 시기이기 때문입니다.' },
+    ],
+    faqEn: [
+      { q: 'Does being in Samjae in 2026 guarantee a bad year?', a: 'No. Samjae signals a higher-variance three-year cycle, not guaranteed disaster. A supportive natal chart and favorable fortune cycles can greatly reduce how strongly it is felt.' },
+      { q: 'Which zodiac signs are considered in Samjae in 2026?', a: 'Traditional interpretation commonly places Monkey, Rat, and Dragon signs in the Samjae zone for 2026. However, the actual impact depends on whether the year is entry, middle, or exit Samjae and how the personal Saju chart responds.' },
+      { q: 'What should I be most careful about during Samjae?', a: 'Overwork, rushed contracts, aggressive investment, and unmanaged relationship conflict are the most practical areas to watch. Samjae tends to expose weak structures that were already present.' },
+    ],
+    relatedPosts: [
+      { slug: 'zodiac-2026', category: 'saju', title: '띠별 2026년 운세: 병오년 운세 흐름 총정리' },
+      { slug: 'lucky-element', category: 'saju', title: '사주 용신 찾기: 내게 필요한 행운의 기운' },
     ],
   },
 ], '2026-01-05', 3, '2026-02-10', 1);

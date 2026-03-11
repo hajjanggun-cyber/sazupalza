@@ -377,3 +377,9 @@
    - `이름 풀이 무료`
    - `사주 음력 양력`
    - `용신 찾는 법`
+# 메모
+
+- 시간 표기는 한국 시간 `KST` 기준으로 본다.
+- 현재 상세 작업 기준 문서:
+  - `md-docs/post-codex-command.md`
+  - `md-docs/seo-residual-checklist.md`
