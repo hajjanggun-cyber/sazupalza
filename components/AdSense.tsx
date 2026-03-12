@@ -12,7 +12,6 @@ interface AdSenseProps {
 export default function AdSense({ slot, format = 'auto', className = '' }: AdSenseProps) {
   const locale = useLocale();
   const label = locale === 'ko' ? '광고' : 'Advertisement';
-  const manualAdsEnabled = process.env.NEXT_PUBLIC_ENABLE_MANUAL_ADS === 'true';
 
   useEffect(() => {
     try {
@@ -39,10 +38,6 @@ export default function AdSense({ slot, format = 'auto', className = '' }: AdSen
         {label}
       </div>
     );
-  }
-
-  if (!manualAdsEnabled) {
-    return null;
   }
 
   return (
