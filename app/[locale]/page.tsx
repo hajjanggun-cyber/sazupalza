@@ -119,6 +119,17 @@ export default async function HomePage({ params: { locale } }: Props) {
       border: 'border-purple-600/30 hover:border-purple-500/60',
       badge: null,
     },
+    {
+      icon: '⭐',
+      titleKo: '4가지 통합 분석',
+      titleEn: 'Combined 4-in-1',
+      descKo: '사주·관상·성명·성격을 한 번에 분석',
+      descEn: 'Saju, Face, Name, and MBTI all at once',
+      href: `/${locale}/combined`,
+      color: 'from-yellow-900/60 to-amber-900/40',
+      border: 'border-yellow-500/50 hover:border-yellow-400/80',
+      badge: isKo ? '🏆 최고 정확도' : '🏆 Most Accurate',
+    },
   ];
 
   /* ── 블로그 카테고리 데이터 ── */
@@ -253,15 +264,20 @@ export default async function HomePage({ params: { locale } }: Props) {
               : 'Explore each analysis individually or get all 4 in one combined reading'}
           </p>
 
-          {/* 개별 분석 카드 4개 */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-3">
+          {/* 개별 분석 카드 5개 */}
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-3 mb-8">
             {serviceCards.map((card) => (
               <Link key={card.titleKo} href={card.href}>
-                <div className={`relative rounded-xl border p-5 bg-gradient-to-br ${card.color} ${card.border} transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-yellow-900/20 cursor-pointer h-full`}>
+                <div className={`relative rounded-xl border p-5 bg-gradient-to-br ${card.color} ${card.border} transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-yellow-900/20 cursor-pointer h-full flex flex-col`}>
+                  {card.badge && (
+                    <div className="absolute -top-2 -right-2 bg-yellow-500 text-black text-[9px] font-bold px-2 py-0.5 rounded-full shadow-lg z-10">
+                      {card.badge}
+                    </div>
+                  )}
                   <div className="flex items-center gap-2 mb-3">
                     <div className="text-3xl">{card.icon}</div>
                     <span className="text-[11px] font-bold uppercase tracking-wide text-yellow-300/80">
-                      {isKo ? '확인' : 'Check'}
+                      {isKo ? '지금 알아보기' : 'Check Now'}
                     </span>
                   </div>
                   <h3 className="text-yellow-100 font-bold text-base mb-1">
@@ -274,33 +290,6 @@ export default async function HomePage({ params: { locale } }: Props) {
               </Link>
             ))}
           </div>
-
-          {/* 통합 분석 CTA (강조) */}
-          <Link href={`/${locale}/combined`}>
-            <div className="relative rounded-xl border border-yellow-500/50 hover:border-yellow-400/80 p-6 bg-gradient-to-r from-yellow-900/50 to-amber-900/30 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-yellow-900/30 cursor-pointer">
-              <div className="flex flex-col md:flex-row items-center gap-4 text-center md:text-left">
-                <div className="text-5xl">⭐</div>
-                <div className="flex-1">
-                  <div className="inline-flex items-center gap-2 bg-yellow-500/20 border border-yellow-500/40 rounded-full px-3 py-1 text-xs text-yellow-300 mb-2">
-                    {isKo ? '🏆 가장 정확한 분석' : '🏆 Most Accurate'}
-                  </div>
-                  <h3 className="text-yellow-100 font-bold text-xl mb-1">
-                    {isKo ? '4가지 통합 분석 (추천)' : 'Combined 4-in-1 Analysis (Recommended)'}
-                  </h3>
-                  <p className="text-yellow-200/70 text-sm">
-                    {isKo
-                      ? '사주팔자 + 관상 + 성명학 + 성격유형을 한 번에 입력하고, 가장 입체적인 운명 분석 결과를 받으세요'
-                      : 'Enter all data once and receive the most comprehensive fate analysis combining all four systems'}
-                  </p>
-                </div>
-                <div className="md:self-center">
-                  <span className="inline-block bg-yellow-500 hover:bg-yellow-400 text-black font-bold px-6 py-3 rounded-lg transition-colors text-sm whitespace-nowrap">
-                    {isKo ? '지금 시작하기 →' : 'Start Now →'}
-                  </span>
-                </div>
-              </div>
-            </div>
-          </Link>
         </section>
 
         {/* ── 블로그 카테고리 섹션 ── */}
