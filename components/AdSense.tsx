@@ -12,7 +12,7 @@ interface AdSenseProps {
 export default function AdSense({ slot, format = 'auto', className = '' }: AdSenseProps) {
   const locale = useLocale();
   const label = locale === 'ko' ? '광고' : 'Advertisement';
-  const adRef = useRef<HTMLElement | null>(null);
+  const adRef = useRef<HTMLModElement | null>(null);
   const [isHidden, setIsHidden] = useState(false);
   const [isFilled, setIsFilled] = useState(false);
 
