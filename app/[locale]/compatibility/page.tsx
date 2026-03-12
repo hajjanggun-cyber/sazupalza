@@ -1,6 +1,5 @@
 import { unstable_setRequestLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
-import Navigation from '../../../components/Navigation';
 import Footer from '../../../components/Footer';
 import AdSense from '../../../components/AdSense';
 import Link from 'next/link';
@@ -105,11 +104,7 @@ export default async function CompatibilityPage({ params: { locale } }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
 
-      <Navigation />
-
-      <AdSense slot="1122334456" format="horizontal" className="max-w-full" />
-
-      <main>
+      <main className="pt-16">
         <section className="relative py-14 px-4 text-center">
           <div className="max-w-3xl mx-auto">
             <div className="text-5xl mb-4">🔮</div>
@@ -144,7 +139,9 @@ export default async function CompatibilityPage({ params: { locale } }: Props) {
           </div>
         </section>
 
-        <AdSense slot="2233445567" format="rectangle" />
+        <div className="flex justify-center px-4 pb-8">
+          <AdSense slot="2233445567" format="rectangle" />
+        </div>
 
         <section className="max-w-3xl mx-auto px-4 pb-12">
           <h2 className="text-xl font-bold text-center text-yellow-400 mb-5">
