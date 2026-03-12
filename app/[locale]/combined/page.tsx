@@ -132,7 +132,7 @@ export default async function CombinedPage({ params: { locale } }: Props) {
         ];
 
     return (
-        <div className="min-h-screen">
+        <div className="min-h-screen flex flex-col">
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(webAppJsonLd) }}
@@ -148,9 +148,10 @@ export default async function CombinedPage({ params: { locale } }: Props) {
 
             <Navigation />
 
-            <AdSense slot="1234567890" format="horizontal" className="max-w-full" />
+            <div className="flex-1">
+                <AdSense slot="1234567890" format="horizontal" className="max-w-full" />
 
-            <main>
+                <main className="pt-4">
                 {/* 헤더 */}
                 <section className="relative py-10 px-4 text-center overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-b from-yellow-900/10 to-transparent pointer-events-none" />

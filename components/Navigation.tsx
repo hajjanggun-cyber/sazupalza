@@ -17,7 +17,6 @@ export default function Navigation() {
     { href: buildLocalizedHref(locale, '/face-reading'), label: t('face') },
     { href: buildLocalizedHref(locale, '/mbti'), label: t('mbti') },
     { href: buildLocalizedHref(locale, '/compatibility'), label: t('compatibility') },
-    { href: buildLocalizedHref(locale, '/about'), label: locale === 'ko' ? '운영 원칙' : 'About' },
   ];
 
   const localeLinks = [
@@ -26,7 +25,7 @@ export default function Navigation() {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-[#1a0a02]/95 backdrop-blur-sm border-b border-yellow-900/40">
+    <nav className="sticky top-0 left-0 right-0 z-50 bg-[#1a0a02]/95 backdrop-blur-sm border-b border-yellow-900/40">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* 로고 */}
