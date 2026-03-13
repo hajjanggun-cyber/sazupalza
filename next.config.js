@@ -11,7 +11,7 @@ const securityHeaders = [
     key: 'Content-Security-Policy',
     value: [
       "default-src 'self'",
-      "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://pagead2.googlesyndication.com https://www.googletagmanager.com https://www.google-analytics.com https://adservice.google.com",
+      "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://pagead2.googlesyndication.com https://www.googletagmanager.com https://www.google-analytics.com https://adservice.google.com https://fundingchoicesmessages.google.com https://ep1.adtrafficquality.google https://ep2.adtrafficquality.google",
       "style-src 'self' 'unsafe-inline'",
       "font-src 'self'",
       "img-src 'self' data: blob: https:",
@@ -30,13 +30,16 @@ const nextConfig = {
     formats: ['image/avif', 'image/webp'],
   },
   webpack: (config, { isServer }) => {
-    if (!isServer) {
-      config.resolve.fallback = {
-        ...config.resolve.fallback,
-        fs: false,
-        encoding: false,
-      };
-    }
+    config.resolve.fallback = {
+      ...config.resolve.fallback,
+      encoding: false,
+      ...(isServer ? {} : { fs: false }),
+    };
+
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      encoding: false,
+    };
     return config;
   },
 };
