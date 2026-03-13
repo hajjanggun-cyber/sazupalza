@@ -23,11 +23,11 @@ export default function Navigation() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const navLinks = [
-    { href: buildLocalizedHref(locale, '/saju'), label: t('saju') },
-    { href: buildLocalizedHref(locale, '/name-reading'), label: t('name') },
-    { href: buildLocalizedHref(locale, '/face-reading'), label: t('face') },
-    { href: buildLocalizedHref(locale, '/mbti'), label: t('mbti') },
-    { href: buildLocalizedHref(locale, '/compatibility'), label: t('compatibility') },
+    { href: buildLocalizedHref(locale, '/saju-analysis'), label: t('saju') },
+    { href: buildLocalizedHref(locale, '/seongmyeong-analysis'), label: t('name') },
+    { href: buildLocalizedHref(locale, '/gwansang-analysis'), label: t('face') },
+    { href: buildLocalizedHref(locale, '/personality-analysis'), label: t('mbti') },
+    { href: buildLocalizedHref(locale), label: t('compatibility') },
   ];
 
   const localeLinks = [
