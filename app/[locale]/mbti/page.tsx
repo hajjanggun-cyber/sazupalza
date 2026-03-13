@@ -65,6 +65,8 @@ const MBTI_OHAENG: Record<string, { ohaeng: string; ohaengEn: string; color: str
 export default async function MbtiPage({ params: { locale } }: Props) {
   unstable_setRequestLocale(locale);
   const isKo = locale === 'ko';
+  const introPost = mbtiPosts.find((post) => post.slug === 'intro');
+  const articlePosts = mbtiPosts.filter((post) => post.slug !== 'intro');
   const localePrefix = locale === 'ko' ? '' : '/en';
 
   const groups = isKo
@@ -216,8 +218,26 @@ export default async function MbtiPage({ params: { locale } }: Props) {
           <h2 className="text-xl font-bold text-center text-yellow-400 mb-5">
             {isKo ? 'MBTI 자세히 알아보기' : 'Explore MBTI Articles'}
           </h2>
+          {introPost ? (
+            <Link
+              href={buildLocalizedHref(locale, `/mbti/${introPost.slug}`)}
+              className="block card-glow p-5 mb-4 border border-yellow-500/30 hover:border-yellow-400/60 transition-colors"
+            >
+              <p className="text-xs font-bold uppercase tracking-[0.2em] text-yellow-400 mb-2">
+                {isKo ? '입문 가이드' : 'Start Here'}
+              </p>
+              <h3 className="text-lg font-bold text-yellow-100 mb-2">
+                {isKo ? (introPost.seoTitle || introPost.title) : (introPost.seoTitleEn || introPost.title)}
+              </h3>
+              <p className="text-sm text-yellow-200/70">
+                {isKo
+                  ? 'MBTI와 사주를 함께 보는 구조가 처음이라면 이 입문글부터 읽는 것이 이해가 가장 빠릅니다.'
+                  : 'If MBTI plus Saju is new to you, this starter guide is the fastest way to understand the framework.'}
+              </p>
+            </Link>
+          ) : null}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {mbtiPosts.map((post) => (
+            {articlePosts.map((post) => (
               <Link
                 key={post.slug}
                 href={buildLocalizedHref(locale, `/mbti/${post.slug}`)}

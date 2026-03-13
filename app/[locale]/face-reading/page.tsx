@@ -41,6 +41,8 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
 export default async function FaceReadingPage({ params: { locale } }: Props) {
   unstable_setRequestLocale(locale);
   const isKo = locale === 'ko';
+  const introPost = gwansangPosts.find((post) => post.slug === 'intro');
+  const articlePosts = gwansangPosts.filter((post) => post.slug !== 'intro');
 
   const localePrefix = locale === 'ko' ? '' : `/${locale}`;
   const canonicalUrl = `${BASE_URL}${localePrefix}/face-reading`;
@@ -190,8 +192,26 @@ export default async function FaceReadingPage({ params: { locale } }: Props) {
           <h2 className="text-xl font-bold text-center text-yellow-400 mb-5">
             {isKo ? '관상 자세히 알아보기' : 'Explore Face Reading Articles'}
           </h2>
+          {introPost ? (
+            <Link
+              href={buildLocalizedHref(locale, `/face-reading/${introPost.slug}`)}
+              className="block card-glow p-5 mb-4 border border-yellow-500/30 hover:border-yellow-400/60 transition-colors"
+            >
+              <p className="text-xs font-bold uppercase tracking-[0.2em] text-yellow-400 mb-2">
+                {isKo ? '입문 가이드' : 'Start Here'}
+              </p>
+              <h3 className="text-lg font-bold text-yellow-100 mb-2">
+                {isKo ? (introPost.seoTitle || introPost.title) : (introPost.seoTitleEn || introPost.title)}
+              </h3>
+              <p className="text-sm text-yellow-200/70">
+                {isKo
+                  ? '관상을 처음 접한다면 이 글부터 읽고 기본 개념과 보는 순서를 먼저 익히는 편이 좋습니다.'
+                  : 'If you are new to Face Reading, start with this guide to learn the core concepts and reading order.'}
+              </p>
+            </Link>
+          ) : null}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {gwansangPosts.map((post) => (
+            {articlePosts.map((post) => (
               <Link
                 key={post.slug}
                 href={buildLocalizedHref(locale, `/face-reading/${post.slug}`)}

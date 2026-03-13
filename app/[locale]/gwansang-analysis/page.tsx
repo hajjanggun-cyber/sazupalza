@@ -6,7 +6,7 @@ import AdSense from '../../../components/AdSense';
 import GwansangForm from '../../../components/GwansangForm';
 import PrivacyStartNotice from '../../../components/PrivacyStartNotice';
 import Link from 'next/link';
-import { SITE_URL, buildLocaleAlternates, buildLocalizedUrl } from '@/lib/seo';
+import { SITE_URL, buildLocaleAlternates, buildLocalizedHref, buildLocalizedUrl } from '@/lib/seo';
 
 interface Props {
     params: { locale: string };
@@ -67,7 +67,11 @@ export default async function GwansangAnalysisPage({ params: { locale } }: Props
 
             <Navigation />
 
-            <AdSense slot="1234567890" format="horizontal" className="max-w-full" />
+            <div className="flex justify-center px-4">
+                <div className="w-full max-w-5xl">
+                    <AdSense slot="1234567890" format="horizontal" className="max-w-full" />
+                </div>
+            </div>
 
             <main>
                 {/* 헤더 */}
@@ -188,7 +192,7 @@ export default async function GwansangAnalysisPage({ params: { locale } }: Props
                                 {blogPosts.map((post) => (
                                     <Link
                                         key={post.slug}
-                                        href={`/${locale}/${post.cat}/${post.slug}`}
+                                        href={buildLocalizedHref(locale, `/${post.cat}/${post.slug}`)}
                                         className="card-dark p-4 hover:border-orange-500/50 transition-all hover:-translate-y-0.5"
                                     >
                                         <p className="text-yellow-300 text-sm font-medium line-clamp-2">{post.title}</p>

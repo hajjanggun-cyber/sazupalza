@@ -68,7 +68,11 @@ export default async function SajuAnalysisPage({ params: { locale } }: Props) {
 
             <Navigation />
 
-            <AdSense slot="1234567890" format="horizontal" className="max-w-full" />
+            <div className="flex justify-center px-4">
+                <div className="w-full max-w-5xl">
+                    <AdSense slot="1234567890" format="horizontal" className="max-w-full" />
+                </div>
+            </div>
 
             <main>
                 {/* 헤더 */}

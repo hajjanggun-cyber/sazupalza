@@ -43,6 +43,8 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
 export default async function SajuPage({ params: { locale } }: Props) {
   unstable_setRequestLocale(locale);
   const isKo = locale === 'ko';
+  const introPost = sajuPosts.find((post) => post.slug === 'intro');
+  const articlePosts = sajuPosts.filter((post) => post.slug !== 'intro');
   const localePrefix = locale === 'ko' ? '' : '/en';
 
   const pillars = isKo
@@ -235,8 +237,26 @@ export default async function SajuPage({ params: { locale } }: Props) {
           <h2 className="text-xl font-bold text-center text-yellow-400 mb-5">
             {isKo ? '사주 자세히 알아보기' : 'Explore Saju Articles'}
           </h2>
+          {introPost ? (
+            <Link
+              href={buildLocalizedHref(locale, `/saju/${introPost.slug}`)}
+              className="block card-glow p-5 mb-4 border border-yellow-500/30 hover:border-yellow-400/60 transition-colors"
+            >
+              <p className="text-xs font-bold uppercase tracking-[0.2em] text-yellow-400 mb-2">
+                {isKo ? '입문 가이드' : 'Start Here'}
+              </p>
+              <h3 className="text-lg font-bold text-yellow-100 mb-2">
+                {isKo ? (introPost.seoTitle || introPost.title) : (introPost.seoTitleEn || introPost.title)}
+              </h3>
+              <p className="text-sm text-yellow-200/70">
+                {isKo
+                  ? '사주를 처음 보는 사용자라면 이 글부터 읽고 전체 구조를 잡는 것이 가장 빠릅니다.'
+                  : 'If you are new to Saju, start with this guide to understand the full structure first.'}
+              </p>
+            </Link>
+          ) : null}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {sajuPosts.map((post) => (
+            {articlePosts.map((post) => (
               <Link
                 key={post.slug}
                 href={buildLocalizedHref(locale, `/saju/${post.slug}`)}

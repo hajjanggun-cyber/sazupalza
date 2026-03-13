@@ -41,6 +41,8 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
 export default async function NameReadingPage({ params: { locale } }: Props) {
   unstable_setRequestLocale(locale);
   const isKo = locale === 'ko';
+  const introPost = seongmyeongPosts.find((post) => post.slug === 'intro');
+  const articlePosts = seongmyeongPosts.filter((post) => post.slug !== 'intro');
 
   const localePrefix = locale === 'ko' ? '' : `/${locale}`;
   const canonicalUrl = `${BASE_URL}${localePrefix}/name-reading`;
@@ -184,8 +186,26 @@ export default async function NameReadingPage({ params: { locale } }: Props) {
           <h2 className="text-xl font-bold text-center text-yellow-400 mb-5">
             {isKo ? '성명학 자세히 알아보기' : 'Explore Name Reading Articles'}
           </h2>
+          {introPost ? (
+            <Link
+              href={buildLocalizedHref(locale, `/name-reading/${introPost.slug}`)}
+              className="block card-glow p-5 mb-4 border border-yellow-500/30 hover:border-yellow-400/60 transition-colors"
+            >
+              <p className="text-xs font-bold uppercase tracking-[0.2em] text-yellow-400 mb-2">
+                {isKo ? '입문 가이드' : 'Start Here'}
+              </p>
+              <h3 className="text-lg font-bold text-yellow-100 mb-2">
+                {isKo ? (introPost.seoTitle || introPost.title) : (introPost.seoTitleEn || introPost.title)}
+              </h3>
+              <p className="text-sm text-yellow-200/70">
+                {isKo
+                  ? '성명학이 처음이라면 이 글부터 읽고 이름 해석의 핵심 원리를 먼저 잡는 것이 좋습니다.'
+                  : 'If you are new to Name Reading, start here to learn the core principles before diving deeper.'}
+              </p>
+            </Link>
+          ) : null}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {seongmyeongPosts.map((post) => (
+            {articlePosts.map((post) => (
               <Link
                 key={post.slug}
                 href={buildLocalizedHref(locale, `/name-reading/${post.slug}`)}

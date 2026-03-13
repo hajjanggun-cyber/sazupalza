@@ -31,6 +31,8 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
 export default async function FacePage({ params: { locale } }: Props) {
   unstable_setRequestLocale(locale);
   const isKo = locale === 'ko';
+  const introPost = gwansangPosts.find((post) => post.slug === 'intro');
+  const articlePosts = gwansangPosts.filter((post) => post.slug !== 'intro');
 
   const faceFeatures = isKo
     ? [
@@ -178,8 +180,26 @@ export default async function FacePage({ params: { locale } }: Props) {
           <h2 className="text-xl font-bold text-center text-yellow-400 mb-5">
             {isKo ? '관상 자세히 알아보기' : 'Explore Face Reading Articles'}
           </h2>
+          {introPost ? (
+            <Link
+              href={buildLocalizedHref(locale, `/face-reading/${introPost.slug}`)}
+              className="block card-glow p-5 mb-4 border border-yellow-500/30 hover:border-yellow-400/60 transition-colors"
+            >
+              <p className="text-xs font-bold uppercase tracking-[0.2em] text-yellow-400 mb-2">
+                {isKo ? '입문 가이드' : 'Start Here'}
+              </p>
+              <h3 className="text-lg font-bold text-yellow-100 mb-2">
+                {isKo ? (introPost.seoTitle || introPost.title) : (introPost.seoTitleEn || introPost.title)}
+              </h3>
+              <p className="text-sm text-yellow-200/70">
+                {isKo
+                  ? '관상을 처음 읽는다면 이 입문글부터 보고 기본 개념을 잡는 것이 가장 효율적입니다.'
+                  : 'If you are just starting Face Reading, begin with this intro guide for the core concepts first.'}
+              </p>
+            </Link>
+          ) : null}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {gwansangPosts.map((post) => (
+            {articlePosts.map((post) => (
               <Link
                 key={post.slug}
                 href={buildLocalizedHref(locale, `/face-reading/${post.slug}`)}
