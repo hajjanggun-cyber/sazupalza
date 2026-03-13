@@ -30,6 +30,9 @@ export default function Navigation() {
     { href: buildLocalizedHref(locale), label: t('compatibility') },
   ];
 
+  const mobilePrimaryLinks = navLinks.slice(0, 4);
+  const mobileSecondaryLinks = navLinks.slice(4);
+
   const localeLinks = [
     { locale: 'ko', label: 'KO' },
     { locale: 'en', label: 'EN' },
@@ -39,7 +42,6 @@ export default function Navigation() {
     <nav className="sticky top-0 left-0 right-0 z-50 bg-[#1a0a02]/95 backdrop-blur-sm border-b border-yellow-900/40">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          {/* 로고 */}
           <Link href={buildLocalizedHref(locale)} className="flex items-center gap-2 hover:opacity-80 transition-opacity">
             <Image src="/logo.png" alt={t('logo')} width={40} height={40} className="rounded-md" />
             <span className="text-xl font-bold text-yellow-400">
@@ -47,60 +49,66 @@ export default function Navigation() {
             </span>
           </Link>
 
-          {/* 데스크톱 네비게이션 */}
           <div className="hidden md:flex items-center gap-6">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className={`transition-colors text-sm font-medium ${
-                  link.href.endsWith('/about')
-                    ? 'text-yellow-300 hover:text-yellow-200'
-                    : 'text-yellow-200/80 hover:text-yellow-400'
-                }`}
+                className="transition-colors text-sm font-medium text-yellow-200/80 hover:text-yellow-400"
               >
                 {link.label}
               </Link>
             ))}
           </div>
 
-          {/* 언어 선택 */}
           <div className="flex items-center gap-2">
             {localeLinks.map(({ locale: loc, label }) => (
               <Link
                 key={loc}
                 href={buildLocalizedHref(loc, currentPath)}
                 className={`text-xs font-bold px-2 py-1 rounded transition-colors ${
-                  locale === loc
-                    ? 'bg-yellow-500 text-black'
-                    : 'text-yellow-400 hover:text-yellow-300'
+                  locale === loc ? 'bg-yellow-500 text-black' : 'text-yellow-400 hover:text-yellow-300'
                 }`}
               >
                 {label}
               </Link>
             ))}
 
-            {/* 모바일 메뉴 버튼 */}
-            <button
-              className="md:hidden ml-2 text-yellow-400 hover:text-yellow-300"
-              onClick={() => setMenuOpen(!menuOpen)}
-              aria-label="메뉴"
-            >
-              <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                {menuOpen ? (
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                ) : (
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                )}
-              </svg>
-            </button>
+            {mobileSecondaryLinks.length > 0 && (
+              <button
+                className="md:hidden ml-2 text-yellow-400 hover:text-yellow-300"
+                onClick={() => setMenuOpen(!menuOpen)}
+                aria-label="메뉴"
+              >
+                <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  {menuOpen ? (
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  ) : (
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                  )}
+                </svg>
+              </button>
+            )}
           </div>
         </div>
 
-        {/* 모바일 메뉴 */}
+        <div className="md:hidden pb-3">
+          <div className="grid grid-cols-4 gap-2">
+            {mobilePrimaryLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="rounded-full border border-yellow-700/30 bg-yellow-900/10 px-2 py-2 text-center text-[11px] font-semibold text-yellow-200/85 transition-colors hover:border-yellow-500/50 hover:text-yellow-300"
+              >
+                {link.label}
+              </Link>
+            ))}
+          </div>
+        </div>
+
         {menuOpen && (
           <div className="md:hidden border-t border-yellow-900/40 py-4 space-y-2">
-            {navLinks.map((link) => (
+            {mobileSecondaryLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
