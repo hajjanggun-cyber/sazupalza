@@ -77,10 +77,12 @@ export default async function HomePage({ params: { locale } }: Props) {
   const serviceCards = [
     {
       icon: '🌟',
+      labelKo: '지금 알아보기',
+      labelEn: 'Start Here',
       titleKo: '사주팔자 분석',
       titleEn: 'Four Pillars Reading',
-      descKo: '생년월일로 보는 오행과 운명의 흐름',
-      descEn: 'Elemental constitution from your birth data',
+      descKo: '생년월일로 보는 오행 균형과 운의 흐름',
+      descEn: 'See your Five Elements balance and life pattern from your birth date',
       href: `/${locale}/saju-analysis`,
       color: 'from-amber-900/40 to-yellow-900/20',
       border: 'border-amber-600/30 hover:border-amber-500/60',
@@ -88,10 +90,12 @@ export default async function HomePage({ params: { locale } }: Props) {
     },
     {
       icon: '👁️',
+      labelKo: '얼굴 해석',
+      labelEn: 'Face Reading',
       titleKo: '관상 분석',
-      titleEn: 'Face Reading',
-      descKo: '얼굴에 새겨진 재물·건강·성격의 기운',
-      descEn: 'Fortune written in your facial features',
+      titleEn: 'Face Reading Analysis',
+      descKo: '얼굴형과 인상으로 보는 성향과 운의 단서',
+      descEn: 'Discover personality and fortune clues through facial features',
       href: `/${locale}/gwansang-analysis`,
       color: 'from-blue-900/40 to-indigo-900/20',
       border: 'border-blue-600/30 hover:border-blue-500/60',
@@ -99,10 +103,12 @@ export default async function HomePage({ params: { locale } }: Props) {
     },
     {
       icon: '✍️',
+      labelKo: '이름 풀이',
+      labelEn: 'Name Reading',
       titleKo: '성명학 분석',
-      titleEn: 'Name Numerology',
-      descKo: '이름 획수와 소리 오행으로 보는 운',
-      descEn: 'Fortune encoded in your name\'s strokes & sound',
+      titleEn: 'Korean Name Analysis',
+      descKo: '이름의 획수와 소리로 보는 기운과 작명 방향',
+      descEn: 'Read your name\'s energy through stroke count and sound structure',
       href: `/${locale}/seongmyeong-analysis`,
       color: 'from-green-900/40 to-emerald-900/20',
       border: 'border-green-600/30 hover:border-green-500/60',
@@ -110,10 +116,12 @@ export default async function HomePage({ params: { locale } }: Props) {
     },
     {
       icon: '🧠',
-      titleKo: '성격유형 분석',
-      titleEn: 'Personality Type',
-      descKo: '동양 오행과 연결된 나의 심리 유형',
-      descEn: 'Your cognitive type mapped to Eastern elements',
+      labelKo: '성격 보기',
+      labelEn: 'Personality Type',
+      titleKo: 'MBTI 분석',
+      titleEn: 'MBTI + Saju Analysis',
+      descKo: '성격유형과 사주 관점으로 함께 보는 나의 성향',
+      descEn: 'Explore your personality type through MBTI and Four Pillars together',
       href: `/${locale}/personality-analysis`,
       color: 'from-purple-900/40 to-violet-900/20',
       border: 'border-purple-600/30 hover:border-purple-500/60',
@@ -121,14 +129,16 @@ export default async function HomePage({ params: { locale } }: Props) {
     },
     {
       icon: '⭐',
-      titleKo: '4가지 통합 분석',
-      titleEn: 'Combined 4-in-1',
-      descKo: '사주·관상·성명·성격을 한 번에 분석',
-      descEn: 'Saju, Face, Name, and MBTI all at once',
+      labelKo: '한 번에 보기',
+      labelEn: 'All-in-One',
+      titleKo: '종합 운세 분석',
+      titleEn: 'Combined Fortune Reading',
+      descKo: '사주, 관상, 성명학, MBTI를 한 번에 보는 통합 해석',
+      descEn: 'See Four Pillars, Face Reading, Name Analysis, and MBTI in one flow',
       href: `/${locale}/combined`,
       color: 'from-yellow-900/60 to-amber-900/40',
       border: 'border-yellow-500/50 hover:border-yellow-400/80',
-      badge: isKo ? '🏆 최고 정확도' : '🏆 Most Accurate',
+      badge: isKo ? '🏆 추천' : '🏆 Recommended',
     },
   ];
 
@@ -277,7 +287,7 @@ export default async function HomePage({ params: { locale } }: Props) {
                   <div className="flex items-center gap-2 mb-3">
                     <div className="text-3xl">{card.icon}</div>
                     <span className="text-[11px] font-bold uppercase tracking-wide text-yellow-300/80">
-                      {isKo ? '지금 알아보기' : 'Check Now'}
+                      {isKo ? card.labelKo : card.labelEn}
                     </span>
                   </div>
                   <h3 className="text-yellow-100 font-bold text-base mb-1">
