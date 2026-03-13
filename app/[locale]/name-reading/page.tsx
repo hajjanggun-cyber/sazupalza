@@ -5,6 +5,7 @@ import Footer from '../../../components/Footer';
 import AdSense from '../../../components/AdSense';
 import Link from 'next/link';
 import { seongmyeongPosts } from '@/lib/blog/seongmyeong-posts';
+import { buildLocalizedHref } from '@/lib/seo';
 
 const BASE_URL = 'https://sajupalza.cc';
 
@@ -187,7 +188,7 @@ export default async function NameReadingPage({ params: { locale } }: Props) {
             {seongmyeongPosts.map((post) => (
               <Link
                 key={post.slug}
-                href={`/${locale}/name-reading/${post.slug}`}
+                href={buildLocalizedHref(locale, `/name-reading/${post.slug}`)}
                 className="card-dark p-4 flex items-center justify-between group border border-transparent hover:border-yellow-500/40 transition-colors"
               >
                 <span className="text-yellow-200/80 text-sm leading-snug">{isKo ? (post.seoTitle || post.title) : (post.seoTitleEn || post.title)}</span>

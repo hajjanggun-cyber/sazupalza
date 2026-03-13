@@ -5,6 +5,7 @@ import Footer from '../../../components/Footer';
 import AdSense from '../../../components/AdSense';
 import Link from 'next/link';
 import { mbtiPosts } from '@/lib/blog/mbti-posts';
+import { buildLocalizedHref } from '@/lib/seo';
 
 interface Props {
   params: { locale: string };
@@ -219,7 +220,7 @@ export default async function MbtiPage({ params: { locale } }: Props) {
             {mbtiPosts.map((post) => (
               <Link
                 key={post.slug}
-                href={`/${locale}/mbti/${post.slug}`}
+                href={buildLocalizedHref(locale, `/mbti/${post.slug}`)}
                 className="card-dark p-4 flex items-center justify-between group border border-transparent hover:border-yellow-500/40 transition-colors"
               >
                 <span className="text-yellow-200/80 text-sm leading-snug">

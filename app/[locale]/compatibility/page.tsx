@@ -4,6 +4,7 @@ import Footer from '../../../components/Footer';
 import AdSense from '../../../components/AdSense';
 import Link from 'next/link';
 import { bokhapPosts } from '@/lib/blog/bokhap-posts';
+import { buildLocalizedHref } from '@/lib/seo';
 
 const BASE_URL = 'https://sajupalza.cc';
 
@@ -116,7 +117,7 @@ export default async function CompatibilityPage({ params: { locale } }: Props) {
                 ? '사주팔자·관상·성명학·MBTI를 통합적으로 이해하는 심층 가이드\n네 가지 분석법이 교차하는 지점에서 가장 정확한 운명의 그림이 완성됩니다'
                 : 'In-depth guide integrating Four Pillars, Face Reading, Name Reading, and MBTI\nA broader reading emerges when you compare all four systems together'}
             </p>
-            <Link href={`/${locale}/combined`} className="btn-gold text-lg px-8 py-4">
+            <Link href={buildLocalizedHref(locale, '/combined')} className="btn-gold text-lg px-8 py-4">
               {isKo ? '4가지 통합 분석 시작 →' : 'Start Combined Analysis →'}
             </Link>
           </div>
@@ -151,7 +152,7 @@ export default async function CompatibilityPage({ params: { locale } }: Props) {
             {bokhapPosts.map((post) => (
               <Link
                 key={post.slug}
-                href={`/${locale}/compatibility/${post.slug}`}
+                href={buildLocalizedHref(locale, `/compatibility/${post.slug}`)}
                 className="card-dark p-4 flex items-center justify-between group border border-transparent hover:border-yellow-500/40 transition-colors"
               >
                 <span className="text-yellow-200/80 text-sm leading-snug">{isKo ? (post.seoTitle || post.title) : (post.seoTitleEn || post.title)}</span>
@@ -186,7 +187,7 @@ export default async function CompatibilityPage({ params: { locale } }: Props) {
             <p className="text-yellow-200/60 text-sm mb-6">
               {isKo ? '사주 + 관상 + 성명학 + MBTI 통합 분석' : 'Four Pillars + Face Reading + Name + MBTI combined'}
             </p>
-            <Link href={`/${locale}/combined`} className="btn-gold text-lg px-8 py-4 inline-block">
+            <Link href={buildLocalizedHref(locale, '/combined')} className="btn-gold text-lg px-8 py-4 inline-block">
               {isKo ? '통합 분석 시작하기 →' : 'Start Combined Analysis →'}
             </Link>
           </div>

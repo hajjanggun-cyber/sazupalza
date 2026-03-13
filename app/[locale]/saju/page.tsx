@@ -5,6 +5,7 @@ import Footer from '../../../components/Footer';
 import AdSense from '../../../components/AdSense';
 import Link from 'next/link';
 import { sajuPosts } from '@/lib/blog/saju-posts';
+import { buildLocalizedHref } from '@/lib/seo';
 
 interface Props {
   params: { locale: string };
@@ -238,7 +239,7 @@ export default async function SajuPage({ params: { locale } }: Props) {
             {sajuPosts.map((post) => (
               <Link
                 key={post.slug}
-                href={`/${locale}/saju/${post.slug}`}
+                href={buildLocalizedHref(locale, `/saju/${post.slug}`)}
                 className="card-dark p-4 flex items-center justify-between group border border-transparent hover:border-yellow-500/40 transition-colors"
               >
                 <span className="text-yellow-200/80 text-sm leading-snug">{isKo ? (post.seoTitle || post.title) : (post.seoTitleEn || post.title)}</span>

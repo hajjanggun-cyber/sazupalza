@@ -4,11 +4,22 @@ import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useState } from 'react';
+import { usePathname } from 'next/navigation';
 import { buildLocalizedHref } from '@/lib/seo';
+
+function getPathWithoutLocale(pathname: string | null) {
+  if (!pathname) return '/';
+  if (pathname === '/en' || pathname === '/ko') return '/';
+  if (pathname.startsWith('/en/')) return pathname.slice(3);
+  if (pathname.startsWith('/ko/')) return pathname.slice(3);
+  return pathname;
+}
 
 export default function Navigation() {
   const t = useTranslations('nav');
   const locale = useLocale();
+  const pathname = usePathname();
+  const currentPath = getPathWithoutLocale(pathname);
   const [menuOpen, setMenuOpen] = useState(false);
 
   const navLinks = [
@@ -58,7 +69,7 @@ export default function Navigation() {
             {localeLinks.map(({ locale: loc, label }) => (
               <Link
                 key={loc}
-                href={buildLocalizedHref(loc)}
+                href={buildLocalizedHref(loc, currentPath)}
                 className={`text-xs font-bold px-2 py-1 rounded transition-colors ${
                   locale === loc
                     ? 'bg-yellow-500 text-black'
