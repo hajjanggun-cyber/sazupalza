@@ -23,6 +23,20 @@ const securityHeaders = [
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  async redirects() {
+    return [
+      {
+        source: '/seongmyeong/:slug',
+        destination: '/name-reading/:slug',
+        permanent: true,
+      },
+      {
+        source: '/en/seongmyeong/:slug',
+        destination: '/en/name-reading/:slug',
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [{ source: '/(.*)', headers: securityHeaders }];
   },

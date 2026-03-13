@@ -6,7 +6,7 @@ import AdSense from '../../../components/AdSense';
 import SeongmyeongForm from '../../../components/SeongmyeongForm';
 import PrivacyStartNotice from '../../../components/PrivacyStartNotice';
 import Link from 'next/link';
-import { SITE_URL, buildLocaleAlternates, buildLocalizedUrl } from '@/lib/seo';
+import { SITE_URL, buildLocaleAlternates, buildLocalizedHref, buildLocalizedUrl } from '@/lib/seo';
 
 interface Props {
     params: { locale: string };
@@ -178,21 +178,21 @@ export default async function SeongmyeongAnalysisPage({ params: { locale } }: Pr
                     {(() => {
                         const blogPosts = isKo
                             ? [
-                                { slug: 'intro', title: '성명학 비기: 한자 획수의 비밀', cat: 'seongmyeong' },
-                                { slug: 'name-creation', title: '작명의 기술: 계절에 맞는 이름 짓기', cat: 'seongmyeong' },
-                                { slug: 'numerology-81', title: '성명학 수리 81수 완전정복', cat: 'seongmyeong' },
+                                { slug: 'intro', title: '성명학 비기: 한자 획수의 비밀', path: 'name-reading' },
+                                { slug: 'name-creation', title: '작명의 기술: 계절에 맞는 이름 짓기', path: 'name-reading' },
+                                { slug: 'numerology-81', title: '성명학 수리 81수 완전정복', path: 'name-reading' },
                             ]
                             : [
-                                { slug: 'intro', title: 'Introduction to Korean Name Numerology', cat: 'seongmyeong' },
-                                { slug: 'name-five-elements', title: 'Sound Elements in Korean Names', cat: 'seongmyeong' },
-                                { slug: 'baby-naming', title: 'Baby Naming Guide', cat: 'seongmyeong' },
+                                { slug: 'intro', title: 'Introduction to Korean Name Numerology', path: 'name-reading' },
+                                { slug: 'name-five-elements', title: 'Sound Elements in Korean Names', path: 'name-reading' },
+                                { slug: 'baby-naming', title: 'Baby Naming Guide', path: 'name-reading' },
                             ];
                         return (
                             <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
                                 {blogPosts.map((post) => (
                                     <Link
                                         key={post.slug}
-                                        href={`/${locale}/${post.cat}/${post.slug}`}
+                                        href={buildLocalizedHref(locale, `/${post.path}/${post.slug}`)}
                                         className="card-dark p-4 hover:border-green-500/50 transition-all hover:-translate-y-0.5"
                                     >
                                         <p className="text-yellow-300 text-sm font-medium line-clamp-2">{post.title}</p>
