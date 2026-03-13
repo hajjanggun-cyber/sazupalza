@@ -2722,8 +2722,9 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <p>이사를 준비할 때 가장 흔한 실수는 방향과 날짜를 분리해서 보는 것입니다. 방향은 괜찮은데 날짜가 거칠면 입주 후 생활이 불안정해질 수 있고, 날짜는 좋아도 대장군방이나 삼살방처럼 전통적으로 피하는 방향을 정면으로 건드리면 쓸데없는 마찰이 커질 수 있습니다. 즉 2026년 이사 방향과 2026년 손 없는 날은 경쟁 개념이 아니라 서로를 보완하는 판단 기준입니다.</p>
 <p>특히 병오년은 화 기운이 강해 이동, 계약, 인테리어 변경처럼 “환경을 바꾸는 일”이 빨라지는 해입니다. 이런 해에는 결정을 서두르기 쉬운데, 그럴수록 이사 방향 풍수와 이사 날짜를 같이 검토하는 편이 좋습니다. 운세적으로도 이동수는 기회이면서 동시에 소진을 동반하기 때문에, 준비 없이 움직이면 몸과 돈이 먼저 흔들릴 수 있습니다.</p>
 
-<h2 id="danger-directions">2. 대장군방·삼살방 피하는 법</h2>
-<p>“대장군방 피하는 법”, “삼살방 피하는 법”은 해마다 꾸준히 검색되는 질문형 키워드입니다. 대장군방은 전통적으로 그 해의 강한 금기 방향으로 보고, 삼살방은 손상과 다툼, 이동 중 피로를 키우는 방향으로 해석하는 경우가 많습니다. 해석 방식은 유파마다 조금씩 다르지만, 공통점은 <strong>정면 돌파보다 우회와 조정</strong>이 안전하다는 것입니다.</p>
+<h2 id=”danger-directions”>2. 대장군방·삼살방 피하는 법</h2>
+<p>2026년 병오년(午年)의 경우, 전통적으로 대장군방은 <strong>동방(東, 동쪽)</strong>, 삼살방은 <strong>북방(北, 북쪽)</strong> 방향으로 봅니다. 단, 유파마다 세부 기준이 다를 수 있으므로 절대적 금기보다는 참고 기준으로 활용하는 것이 현실적입니다.</p>
+<p>”대장군방 피하는 법”, “삼살방 피하는 법”은 해마다 꾸준히 검색되는 질문형 키워드입니다. 대장군방은 전통적으로 그 해의 강한 금기 방향으로 보고, 삼살방은 손상과 다툼, 이동 중 피로를 키우는 방향으로 해석하는 경우가 많습니다. 해석 방식은 유파마다 조금씩 다르지만, 공통점은 <strong>정면 돌파보다 우회와 조정</strong>이 안전하다는 것입니다.</p>
 <h3>대장군방을 볼 때 중요한 점</h3>
 <p>대장군방은 단순히 “절대 이사하면 안 된다”로 이해하기보다, 그 방향과 관련한 공사·정면 개문·침실 이동·대규모 가구 재배치까지 포함해 자극을 최소화하는 기준으로 보는 편이 실용적입니다. 이미 집 계약이 정해졌다면, 입주 동선·가구 배치·입주 날짜를 조정해 부담을 줄이는 방식이 더 현실적입니다.</p>
 <h3>삼살방은 왜 같이 보나</h3>
@@ -2788,7 +2789,8 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <p>The most common mistake in relocation planning is to separate direction from timing. A date may look lucky on paper, but if the direction strongly conflicts with traditional avoidance rules, the move can still feel rough. Likewise, a good direction does not help much if the date is rushed, physically exhausting, or financially unstable. That is why 2026 moving direction and 2026 lucky moving dates belong in the same conversation.</p>
 <p>The Fire Horse year also adds urgency. Fire years tend to accelerate decisions, relocations, contracts, and emotional reactions. That makes 2026 a year when people move fast, but speed alone is not fortune. A good move in 2026 depends on whether the timing, direction, and actual life conditions support the change instead of forcing it.</p>
 
-<h2 id="danger-directions">2. How to Avoid Daejanggun and Samsal Directions</h2>
+<h2 id=”danger-directions”>2. How to Avoid Daejanggun and Samsal Directions</h2>
+<p>In 2026 (the Year of the Fire Horse, 午年), traditional interpretation places the Daejanggun direction in the <strong>East</strong> and the Samsal direction in the <strong>North</strong>. Exact formulas vary by school, so treat these as reference points rather than absolute prohibitions.</p>
 <p>Questions like “how to avoid Daejanggun direction” and “how to avoid Samsal direction” get strong search traffic because people want a practical answer, not a mystical slogan. In traditional Korean geomancy, Daejanggun is often treated as a strongly avoided annual direction, while Samsal is associated with friction, fatigue, and unnecessary trouble when disturbed carelessly. The exact formulas differ by school, but the practical principle is consistent: <strong>reduce direct disturbance rather than forcing a head-on move.</strong></p>
 <h3>What Daejanggun really means in practice</h3>
 <p>It is more useful to treat Daejanggun as a warning against aggressive activation than as a command to panic. If the contract is already fixed, you can still reduce pressure by adjusting the move-in route, major furniture placement, renovation timing, and which part of the home gets activated first.</p>
