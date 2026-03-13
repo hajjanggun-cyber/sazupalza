@@ -128,7 +128,7 @@ export default async function HomePage({ params: { locale } }: Props) {
       href: `/${locale}/combined`,
       color: 'from-yellow-900/60 to-amber-900/40',
       border: 'border-yellow-500/50 hover:border-yellow-400/80',
-      badge: isKo ? '🏆 추천' : '🏆 Recommended',
+      badge: null,
     },
   ];
 
@@ -200,7 +200,11 @@ export default async function HomePage({ params: { locale } }: Props) {
 
       <Navigation />
 
-      <AdSense slot="1234567890" format="horizontal" className="max-w-full" />
+      <div className="flex justify-center px-4">
+        <div className="w-full max-w-5xl">
+          <AdSense slot="1234567890" format="horizontal" className="max-w-full" />
+        </div>
+      </div>
 
       <main>
         {/* ── HERO 섹션 ── */}
@@ -281,6 +285,9 @@ export default async function HomePage({ params: { locale } }: Props) {
                   <p className="text-yellow-200/60 text-xs leading-relaxed">
                     {isKo ? card.descKo : card.descEn}
                   </p>
+                  <span className="mt-4 inline-flex w-fit items-center rounded-full border border-yellow-500/40 bg-yellow-500/10 px-3 py-1 text-xs font-semibold text-yellow-300">
+                    {isKo ? '무료 확인' : 'Free Check'}
+                  </span>
                 </div>
               </Link>
             ))}
@@ -412,7 +419,11 @@ export default async function HomePage({ params: { locale } }: Props) {
           </div>
         </section>
 
-        <AdSense slot="1122334455" format="rectangle" />
+        <div className="flex justify-center px-4">
+          <div className="w-full max-w-5xl flex justify-center">
+            <AdSense slot="1122334455" format="rectangle" />
+          </div>
+        </div>
 
         {/* ── FAQ 섹션 ── */}
         <section className="max-w-3xl mx-auto px-4 py-12">
