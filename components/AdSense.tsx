@@ -17,6 +17,12 @@ export default function AdSense({ slot, format = 'auto', className = '' }: AdSen
   const adRef = useRef<HTMLModElement | null>(null);
   const [isHidden, setIsHidden] = useState(false);
   const [isFilled, setIsFilled] = useState(false);
+  const maxWidthMap = {
+    auto: '100%',
+    rectangle: '336px',
+    horizontal: '728px',
+  } as const;
+  const maxWidth = maxWidthMap[format];
 
   useEffect(() => {
     const adElement = adRef.current;
@@ -87,11 +93,13 @@ export default function AdSense({ slot, format = 'auto', className = '' }: AdSen
     };
     const { w, h, devLabel } = sizeMap[format];
     return (
-      <div
-        className={`flex items-center justify-center border border-dashed border-yellow-600/30 rounded-lg text-yellow-600/50 text-sm ${className}`}
-        style={{ minWidth: w, minHeight: h, maxWidth: '100%' }}
-      >
-        {devLabel}
+      <div className={`w-full flex justify-center ${className}`}>
+        <div
+          className="flex items-center justify-center border border-dashed border-yellow-600/30 rounded-lg text-yellow-600/50 text-sm w-full"
+          style={{ minWidth: w, minHeight: h, maxWidth }}
+        >
+          {devLabel}
+        </div>
       </div>
     );
   }
@@ -101,17 +109,19 @@ export default function AdSense({ slot, format = 'auto', className = '' }: AdSen
   }
 
   return (
-    <div className={className}>
+    <div className={`w-full flex flex-col items-center ${className}`}>
       {isFilled ? <p className="text-center text-xs text-white/20 mb-1">{label}</p> : null}
-      <ins
-        ref={adRef}
-        className="adsbygoogle"
-        style={{ display: 'block' }}
-        data-ad-client="ca-pub-2524681039359256"
-        data-ad-slot={LIVE_AD_SLOT}
-        data-ad-format={format}
-        data-full-width-responsive="true"
-      />
+      <div className="w-full" style={{ maxWidth }}>
+        <ins
+          ref={adRef}
+          className="adsbygoogle"
+          style={{ display: 'block' }}
+          data-ad-client="ca-pub-2524681039359256"
+          data-ad-slot={LIVE_AD_SLOT}
+          data-ad-format={format}
+          data-full-width-responsive="true"
+        />
+      </div>
     </div>
   );
 }
