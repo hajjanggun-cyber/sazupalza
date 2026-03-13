@@ -266,7 +266,7 @@ export default function BlogPostPage({ post, locale }: Props) {
         )}
 
         {/* AdSense ?곷떒 */}
-        <AdSense slot="1111222233" format="horizontal" className="mb-8" />
+        <AdSense slot="1234567890" format="horizontal" className="mb-8" />
 
         {/* Content */}
         {(() => {
@@ -301,7 +301,7 @@ export default function BlogPostPage({ post, locale }: Props) {
         </div>
 
         {/* AdSense 以묐떒 */}
-        <AdSense slot="2222333344" format="rectangle" className="mb-8" />
+        <AdSense slot="1122334455" format="rectangle" className="mb-8" />
 
         {/* FAQ */}
         {faq.length > 0 && (

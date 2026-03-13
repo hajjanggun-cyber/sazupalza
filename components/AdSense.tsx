@@ -9,6 +9,8 @@ interface AdSenseProps {
   className?: string;
 }
 
+const LIVE_AD_SLOT = '3446997082';
+
 export default function AdSense({ slot, format = 'auto', className = '' }: AdSenseProps) {
   const locale = useLocale();
   const label = locale === 'ko' ? '광고' : 'Advertisement';
@@ -106,7 +108,7 @@ export default function AdSense({ slot, format = 'auto', className = '' }: AdSen
         className="adsbygoogle"
         style={{ display: 'block' }}
         data-ad-client="ca-pub-2524681039359256"
-        data-ad-slot={slot}
+        data-ad-slot={LIVE_AD_SLOT}
         data-ad-format={format}
         data-full-width-responsive="true"
       />
