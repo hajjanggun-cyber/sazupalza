@@ -1,5 +1,7 @@
 import PersonalityForm from '@/components/PersonalityForm';
 import PrivacyStartNotice from '@/components/PrivacyStartNotice';
+import Navigation from '@/components/Navigation';
+import Footer from '@/components/Footer';
 import { useTranslations } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
@@ -36,11 +38,13 @@ export default function PersonalityAnalysisPage({ params: { locale } }: Props) {
     };
 
     return (
-        <>
+        <div className="min-h-screen">
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
             />
+
+            <Navigation />
 
             <main className="container-custom py-12">
                 <div className="max-w-2xl mx-auto">
@@ -101,6 +105,8 @@ export default function PersonalityAnalysisPage({ params: { locale } }: Props) {
 
                 </div>
             </main>
-        </>
+
+            <Footer />
+        </div>
     );
 }
