@@ -2706,6 +2706,10 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
     contentKo: `<section>
 <p>“2026년 이사 방향은 어디가 좋을까?”, “2026년 손 없는 날은 언제일까?”를 따로 검색하는 분이 많지만, 실제로는 이 두 질문을 함께 봐야 이사운을 제대로 판단할 수 있습니다. 병오년(丙午年)은 화(火) 기운이 강해지는 해라서 이동수 자체는 활발하지만, 그만큼 방향 선택과 날짜 선택이 거칠어지면 생활 리듬이 흔들리기 쉽습니다. 그래서 2026년 이사 방향, 2026년 손 없는 날, 대장군방과 삼살방 피하는 법을 한 흐름으로 이해하는 것이 중요합니다.</p>
 
+<figure style="margin: 24px 0;">
+  <img src="/images/hub/2026-moving-guide/2026-moving-direction-lucky-days-harmony-1-kr.webp" alt="전통 나침반과 달력이 함께 놓인 장면으로 2026년 이사 방향과 손 없는 날을 함께 판단하는 흐름을 보여주는 이미지" loading="lazy" style="width: 100%; height: auto; border-radius: 12px;" />
+</figure>
+
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
   <ul style="margin: 0; padding-left: 16px;">
@@ -2725,6 +2729,10 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <h3>삼살방은 왜 같이 보나</h3>
 <p>삼살방은 방향 자체의 금기만이 아니라, 그 방향과 연결된 불필요한 충돌을 줄이는 용도로 많이 참고합니다. 이사운이 약한 사람은 삼살방 쪽으로 급하게 움직이거나 공사를 크게 벌일 때 체감 피로가 커질 수 있습니다. 결국 “피한다”는 말은 막연한 공포가 아니라, 무리한 변경을 줄이고 리듬을 조절한다는 뜻에 가깝습니다.</p>
 
+<figure style="margin: 24px 0;">
+  <img src="/images/hub/2026-moving-guide/avoiding-bad-moving-directions-feng-shui-2-kr.webp" alt="아파트 평면도와 가구 배치 표시를 보며 대장군방과 삼살방을 피하는 동선을 검토하는 풍수 분석 이미지" loading="lazy" style="width: 100%; height: auto; border-radius: 12px;" />
+</figure>
+
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
   <a href="/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🏠 내 사주 기준 2026년 이사운 무료 확인하기 →</a>
 </div>
@@ -2736,6 +2744,10 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <h3>병오년 이사 날짜는 어떻게 좁히나</h3>
 <p>병오년 이사 날짜를 고를 때는 손 없는 날 여부, 개인 일정, 큰 충돌이 없는 방향, 날씨와 체력 관리까지 함께 보세요. 실제로는 “완벽한 날”보다 “리스크가 적고 준비가 잘 된 날”이 좋은 날입니다. 운세 관점에서도 이동은 에너지 소모가 큰 이벤트이므로, 몸 상태와 재정 흐름이 불안정한 날은 피하는 것이 맞습니다.</p>
 
+<figure style="margin: 24px 0;">
+  <img src="/images/hub/2026-moving-guide/2026-lucky-moving-days-checklist-criteria-3-kr.webp" alt="이사 체크리스트가 열린 화면과 박스가 함께 놓여 있어 2026년 손 없는 날과 실전 일정 점검 기준을 보여주는 이미지" loading="lazy" style="width: 100%; height: auto; border-radius: 12px;" />
+</figure>
+
 <h2 id="practical-moving-checklist">4. 병오년 이사운을 높이는 실전 체크리스트</h2>
 <p>검색 유입이 많은 “이사운 높이는 법”, “이사 방향 풍수 체크리스트” 같은 표현에 답하려면 결국 실전 정리가 필요합니다. 아래 체크리스트는 병오년 이사운을 현실적으로 관리하는 기준입니다.</p>
 <h3>1) 방향은 완벽보다 회피 우선</h3>
@@ -2744,6 +2756,10 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <p>2026년 손 없는 날이어도 잔금 압박이 심하거나 가족 일정이 엉키면 실제 체감은 좋지 않을 수 있습니다. 이사는 ‘운 좋은 날’이면서 동시에 ‘무리하지 않는 날’이어야 합니다.</p>
 <h3>3) 입주 직전 정리보다 버리는 작업 먼저</h3>
 <p>병오년처럼 화 기운이 강한 해에는 공간이 과열되기 쉽습니다. 쌓아둔 물건, 미정리 서류, 쓰지 않는 가구를 줄이는 것만으로도 입주 후 답답함이 크게 달라집니다. 풍수도 결국 공간의 흐름을 정리하는 작업입니다.</p>
+
+<figure style="margin: 24px 0;">
+  <img src="/images/hub/2026-moving-guide/boosting-moving-luck-2026-checklist-4-kr.webp" alt="밝게 정돈된 거실과 식물이 보이는 실내 장면으로 병오년 이사운을 높이는 정리와 공간 흐름을 표현한 이미지" loading="lazy" style="width: 100%; height: auto; border-radius: 12px;" />
+</figure>
 
 <h2 id="conclusion">5. 결론: 좋은 이사는 방향과 날짜를 함께 본다</h2>
 <p>2026년 이사 방향과 손 없는 날을 따로따로 검색하는 이유는 결국 “조금이라도 덜 흔들리고 싶다”는 마음 때문입니다. 병오년 이사운은 분명 활발하지만, 활발하다는 말이 곧 아무 때나 움직여도 된다는 뜻은 아닙니다. 대장군방과 삼살방을 피하는 법, 손 없는 날, 실제 생활 준비를 함께 본다면 2026년 이사는 공포의 대상이 아니라 오히려 흐름을 바꾸는 좋은 전환점이 될 수 있습니다.</p>
@@ -2755,6 +2771,10 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 </section>`,
     contentEn: `<section>
 <p>People often search “2026 moving direction” and “2026 lucky moving dates” as if they were separate questions. In practice, they should be read together. The Fire Horse year intensifies movement, relocation, renovation, and contract changes, which means a move can become either a clean reset or a draining disruption depending on timing and direction. If you want a useful answer, you need to read 2026 moving direction, lucky moving dates, and how to avoid Daejanggun and Samsal directions as one decision-making flow.</p>
+
+<figure style="margin: 24px 0;">
+  <img src="/images/hub/2026-moving-guide/2026-moving-direction-lucky-days-harmony-1-en.webp" alt="Korean traditional compass and calendar arranged together to show how moving direction and lucky dates should be judged as one decision" loading="lazy" style="width: 100%; height: auto; border-radius: 12px;" />
+</figure>
 
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
@@ -2775,6 +2795,10 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <h3>Why Samsal matters for moving house feng shui</h3>
 <p>Samsal is often discussed as if it were only superstition, but many people use it as a simple risk filter. If your moving house fortune is already weak, pushing into a heavily stressed direction while taking on debt, renovation, and family tension at the same time can make the whole transition feel harsher than necessary. In that sense, avoiding Samsal direction is really about lowering avoidable friction.</p>
 
+<figure style="margin: 24px 0;">
+  <img src="/images/hub/2026-moving-guide/avoiding-bad-moving-directions-feng-shui-2-en.webp" alt="House floor plan with marked furniture layout illustrating how to avoid Daejanggun and Samsal directions in a practical feng shui review" loading="lazy" style="width: 100%; height: auto; border-radius: 12px;" />
+</figure>
+
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
   <a href="/en/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🏠 Check Your 2026 Moving Fortune Free →</a>
 </div>
@@ -2786,6 +2810,10 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <h3>How to narrow down the best moving dates in 2026</h3>
 <p>The smartest way to choose 2026 lucky moving dates is to combine traditional timing with real-life readiness. Check whether the day avoids unnecessary directional conflict, whether your body and finances can handle the move, and whether the schedule gives you enough breathing room. The best date is often not the most “perfect” date, but the lowest-risk date you can execute well.</p>
 
+<figure style="margin: 24px 0;">
+  <img src="/images/hub/2026-moving-guide/2026-lucky-moving-days-checklist-criteria-3-en.webp" alt="Smartphone checklist beside moving boxes to represent practical screening of lucky moving dates and timing readiness in 2026" loading="lazy" style="width: 100%; height: auto; border-radius: 12px;" />
+</figure>
+
 <h2 id="practical-moving-checklist">4. Practical Checklist to Improve Moving Fortune in 2026</h2>
 <p>If someone searches “moving house fortune 2026” or “feng shui moving checklist,” they are usually asking for something actionable. The checklist below is the practical version of that answer.</p>
 <h3>1) Prioritize avoidance over perfection</h3>
@@ -2794,6 +2822,10 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <p>Even if a date looks lucky, it is a poor choice if the move creates cash-flow panic, sleep deprivation, or unnecessary family tension. In a Fire year, overextension is one of the fastest ways to turn a promising move into a draining one.</p>
 <h3>3) Clear space before you move</h3>
 <p>Fire-heavy years intensify clutter and overstimulation. Old items, unused furniture, and unresolved paperwork can make a new home feel heavier than it should. In practical feng shui, clearing first is often more powerful than buying new lucky objects.</p>
+
+<figure style="margin: 24px 0;">
+  <img src="/images/hub/2026-moving-guide/boosting-moving-luck-2026-checklist-4-en.webp" alt="Bright organized interior with plants expressing how to improve moving house fortune in 2026 through order and space balance" loading="lazy" style="width: 100%; height: auto; border-radius: 12px;" />
+</figure>
 
 <h2 id="conclusion">5. Conclusion: Good Moves Depend on Both Timing and Direction</h2>
 <p>People search for 2026 moving direction and lucky moving dates because they want a move that feels less risky and more aligned. That instinct is correct. The Fire Horse year supports change, but it does not reward careless change. If you read direction, date, and real-life readiness together, your 2026 move can become a clean turning point rather than a stressful reset.</p>
