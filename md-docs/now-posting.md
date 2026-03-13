@@ -3,7 +3,7 @@
 사주 카테고리 즉시 작성 가능 후보
 ====================
 
-1. [ ] [카테고리: 사주] 2026년 이사 방향과 손 없는 날 완벽 가이드: 대장군방, 삼살방 피하는 법
+1. [V] [완료] [카테고리: 사주] 2026년 이사 방향과 손 없는 날 완벽 가이드: 대장군방, 삼살방 피하는 법
 - 영어 제목: 2026 Moving Direction and Lucky Moving Dates Guide: How to Avoid Daejanggun and Samsal Directions
 - 메인키워드: 2026년 이사 방향, 2026년 손 없는 날
 - 하위키워드: 대장군방 피하는 법, 삼살방 피하는 법, 병오년 이사 날짜, 2026년 이사운, 이사 방향 풍수
@@ -78,14 +78,14 @@
 
 - 갱신 일시: 2026-03-13 15:34:50 +09:00
 - 기준 사이트: `https://sajupalza.cc`
-- 전체 글 수: 57
+- 전체 글 수: 58
 
 ========================
 
 ## 사주
 
 - 카테고리 경로: `/saju`
-- 글 수: 20
+- 글 수: 21
 
 1. [V] [카테고리: 사주] What is Saju-Palja? The Comprehensive Guide to Korean Astrology
 - 한글/기본: https://sajupalza.cc/saju/intro
@@ -147,6 +147,9 @@
 20. [V] [카테고리: 사주] 2026 삼재는 누구인가? 들삼재·눌삼재·날삼재 완전 해설
 - 한글/기본: https://sajupalza.cc/saju/samjae-2026
 - 영어: https://sajupalza.cc/en/saju/samjae-2026
+21. [V] [카테고리: 사주] 2026 Moving Direction and Lucky Moving Dates Guide: How to Avoid Daejanggun and Samsal Directions
+- 한글/기본: https://sajupalza.cc/saju/moving-direction-lucky-dates-2026
+- 영어: https://sajupalza.cc/en/saju/moving-direction-lucky-dates-2026
 
 ## 성명학
 
