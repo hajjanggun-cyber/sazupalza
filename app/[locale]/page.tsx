@@ -1,4 +1,4 @@
-import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
+﻿import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
 import Navigation from '../../components/Navigation';
 import Footer from '../../components/Footer';
@@ -278,16 +278,19 @@ export default async function HomePage({ params: { locale } }: Props) {
                       {card.badge}
                     </div>
                   )}
-                  <div className="text-3xl mb-3">{card.icon}</div>
+                  <div className="mb-3 flex items-start justify-between gap-3">
+                    <div className="text-3xl leading-none">{card.icon}</div>
+                    <span className="inline-flex shrink-0 items-center gap-1 rounded-full border border-yellow-300/60 bg-yellow-300 px-3 py-1 text-[11px] font-extrabold tracking-tight text-stone-950 shadow-[0_6px_20px_rgba(250,204,21,0.28)] ring-1 ring-white/20">
+                      <span>{isKo ? '무료 확인' : 'Free Check'}</span>
+                      <span aria-hidden="true">↗</span>
+                    </span>
+                  </div>
                   <h3 className="text-yellow-100 font-bold text-base mb-1">
                     {isKo ? card.titleKo : card.titleEn}
                   </h3>
                   <p className="text-yellow-200/60 text-xs leading-relaxed">
                     {isKo ? card.descKo : card.descEn}
                   </p>
-                  <span className="mt-4 inline-flex w-fit items-center rounded-full border border-yellow-500/40 bg-yellow-500/10 px-3 py-1 text-xs font-semibold text-yellow-300">
-                    {isKo ? '무료 확인' : 'Free Check'}
-                  </span>
                 </div>
               </Link>
             ))}
