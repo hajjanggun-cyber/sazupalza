@@ -158,7 +158,7 @@ export default async function MbtiPage({ params: { locale } }: Props) {
                 ? 'MBTI 16유형과 사주 오행을 교차 분석하여\n더 풍부한 성격과 운세 분석을 제공합니다'
                 : 'Cross-analyzing MBTI 16 types with Four Pillars Five Elements\nfor richer personality and fortune insights'}
             </p>
-            <Link href={`/${locale}`} className="btn-gold text-lg px-8 py-4">
+            <Link href={buildLocalizedHref(locale, '/personality-analysis')} className="btn-gold text-lg px-8 py-4">
               {isKo ? '지금 바로 무료 분석 시작 →' : 'Start Free Analysis Now →'}
             </Link>
           </div>
@@ -256,7 +256,7 @@ export default async function MbtiPage({ params: { locale } }: Props) {
             <p className="text-yellow-200/80 mb-6">
               {isKo ? '✅ MBTI + 사주 종합 분석을 무료로 받아보세요' : '✅ Get free MBTI + Four Pillars comprehensive analysis'}
             </p>
-            <Link href={`/${locale}`} className="btn-gold text-lg px-8 py-4 inline-block">
+            <Link href={buildLocalizedHref(locale, '/personality-analysis')} className="btn-gold text-lg px-8 py-4 inline-block">
               {isKo ? 'MBTI 사주 무료 분석 시작 →' : 'Start Free MBTI + Four Pillars Analysis →'}
             </Link>
           </div>

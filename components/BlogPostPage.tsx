@@ -91,6 +91,18 @@ function getCategoryPath(category: string): string {
   return map[category] || category;
 }
 
+function getAnalysisHref(locale: string, category: string): string {
+  const analysisPathMap: Record<string, string> = {
+    saju: '/saju-analysis',
+    seongmyeong: '/seongmyeong-analysis',
+    gwansang: '/gwansang-analysis',
+    mbti: '/personality-analysis',
+  };
+
+  const path = analysisPathMap[category];
+  return path ? buildLocalizedHref(locale, path) : buildLocalizedHref(locale);
+}
+
 export default function BlogPostPage({ post, locale }: Props) {
   const isKo = locale === 'ko';
   const baseUrl = 'https://sajupalza.cc';
@@ -99,6 +111,7 @@ export default function BlogPostPage({ post, locale }: Props) {
   const coverImagePath = getBlogCoverImagePath(locale, categoryPath, post.slug);
   const coverImageUrl = getBlogCoverImageUrl(locale, categoryPath, post.slug);
   const homeHref = buildLocalizedHref(locale);
+  const analysisHref = getAnalysisHref(locale, post.category);
   const categoryHref = buildLocalizedHref(locale, `/${categoryPath}`);
 
   // Choose the visible title. In English mode, fall back to a Korean title if needed.
@@ -170,7 +183,7 @@ export default function BlogPostPage({ post, locale }: Props) {
       <div className="max-w-3xl mx-auto px-4 py-8">
 
         {/* Top CTA */}
-        <Link href={homeHref} className="block card-glow p-4 mb-8 text-center hover:opacity-90 transition-opacity">
+        <Link href={analysisHref} className="block card-glow p-4 mb-8 text-center hover:opacity-90 transition-opacity">
           <p className="text-yellow-300 font-bold">
             {isKo ? '무료 사주 종합 분석, 생년월일만 입력하면 즉시 전체 결과 확인' : 'Free Saju Analysis - Instant Results with Birth Date'}
           </p>
@@ -282,7 +295,7 @@ export default function BlogPostPage({ post, locale }: Props) {
           <p className="text-white/50 text-sm mb-4">
             {isKo ? '생년월일, 이름, 사진으로 무료 종합 해석 제공' : 'Free integrated consulting with birth date, name, and photo'}
           </p>
-          <Link href={homeHref} className="btn-primary inline-block w-auto px-8 py-3 text-base">
+          <Link href={analysisHref} className="btn-primary inline-block w-auto px-8 py-3 text-base">
             {isKo ? '무료 종합 분석 시작하기' : 'Get Free Integrated Consulting'}
           </Link>
         </div>
@@ -335,7 +348,7 @@ export default function BlogPostPage({ post, locale }: Props) {
           <p className="text-white/50 text-sm mb-4">
             {isKo ? '사주, 관상, 성명학, MBTI 무료 종합 분석' : 'Free Saju, Face Reading, Numerology, and MBTI Analysis'}
           </p>
-          <Link href={homeHref} className="btn-primary inline-block w-auto px-8 py-3 text-base">
+          <Link href={analysisHref} className="btn-primary inline-block w-auto px-8 py-3 text-base">
             {isKo ? '무료 분석 시작하기' : 'Start Free Analysis'}
           </Link>
         </div>

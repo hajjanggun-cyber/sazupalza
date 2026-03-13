@@ -130,7 +130,7 @@ export default async function NameReadingPage({ params: { locale } }: Props) {
                 ? '이름의 획수와 소리오행으로 알아보는 이름의 기운과 의미\n수리81수 · 소리오행 · 자원오행 종합 분석'
                 : 'Discover the energy and meaning of your name through stroke numerology and sound elements'}
             </p>
-            <Link href={`/${locale}`} className="btn-gold text-lg px-8 py-4">
+            <Link href={buildLocalizedHref(locale, '/seongmyeong-analysis')} className="btn-gold text-lg px-8 py-4">
               {isKo ? '지금 바로 무료 분석 시작 →' : 'Start Free Analysis Now →'}
             </Link>
           </div>
@@ -220,7 +220,7 @@ export default async function NameReadingPage({ params: { locale } }: Props) {
             <p className="text-yellow-200/80 mb-6">
               {isKo ? '✅ 이름의 기운을 무료로 분석해보세요' : '✅ Analyze your name energy for free'}
             </p>
-            <Link href={`/${locale}`} className="btn-gold text-lg px-8 py-4 inline-block">
+            <Link href={buildLocalizedHref(locale, '/seongmyeong-analysis')} className="btn-gold text-lg px-8 py-4 inline-block">
               {isKo ? '성명학 무료 분석 시작 →' : 'Start Free Name Analysis →'}
             </Link>
           </div>

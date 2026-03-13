@@ -33,7 +33,7 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <p>천간은 갑(甲), 을(乙), 병(丙), 정(丁), 무(戊), 기(己), 경(庚), 신(辛), 임(壬), 계(癸)의 10가지로 이루어집니다. 지지는 자(子), 축(丑), 인(寅), 묘(卯), 진(辰), 사(巳), 오(午), 미(未), 신(申), 유(酉), 술(戌), 해(亥)의 12가지입니다. 이 10천간과 12지지가 순서대로 짝을 이뤄 '육십갑자(六十甲子)'를 형성하며, 이것이 사주 분석의 기초 단위입니다. 60년을 주기로 반복되는 이 체계는 동양의 시간철학 그 자체입니다.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 나의 타고난 사주팔자 무료로 분석하기 →</a>
+  <a href="/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 나의 타고난 사주팔자 무료로 분석하기 →</a>
 </div>
 
 <h2 id="yin-yang-five-elements">2. 음양오행의 원리: 우주를 구성하는 다섯 가지 에너지</h2>
@@ -88,7 +88,7 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <p>Unlike Western horoscopes that focus heavily on your Sun sign, Saju-Palja distributes your life's timeline and core themes across its four pillars. The <strong>Year Pillar</strong> represents your ancestral roots, early childhood environment, and your broad social standing. It is the foundation of your chart. The <strong>Month Pillar</strong> governs your parental influences, your youth, and acts as the most powerful indicator of your innate career aptitude and societal role. The <strong>Day Pillar</strong> is the absolute core of the chart; its Heavenly Stem represents your true inner self, while its Earthly Branch governs your marriage and spouse luck. Finally, the <strong>Hour Pillar</strong> dictates your late-life luck, your relationship with your subordinates or children, and your hidden, private desires.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 Unlock Your Saju-Palja Birth Chart Today →</a>
+  <a href="/en/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 Unlock Your Saju-Palja Birth Chart Today →</a>
 </div>
 
 <h2 id="yin-yang-five-elements">2. Five Elements & Their Cycles: The Language of the Universe</h2>
@@ -216,7 +216,7 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
     <p>Because Saju relies entirely on solar energy, your "Year Pillar" does not change on January 1st (the Gregorian Solar New Year), nor does it change on the Lunar New Year. The cosmic year shifts precisely at the moment of <strong>Ipchun (立春)</strong>, which translates to the "Onset of Spring." This usually occurs around February 4th. If you were born on February 2nd, even if the Lunar New Year has already passed, you technically belong to the previous year's zodiac animal. This "gray zone" in early February requires expert software or a seasoned practitioner to calculate correctly. It is why simply looking up your birth year on a Chinese Zodiac placemat is often highly inaccurate.</p>
 
     <div class="cta-container" style="text-align: center; margin: 40px 0;">
-    <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🕒 Calculate Your True Solar Birth Chart Now →</a>
+    <a href="/en/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🕒 Calculate Your True Solar Birth Chart Now →</a>
     </div>
 
     <h2 id="birth-time-importance">2. The Hour Pillar: The Missing 25% of Your Fate</h2>
@@ -880,7 +880,7 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <p>Pyeon-gwan, conversely, is combustible, intense, and highly charismatic. It is the energy of the crisis manager and the disruptor. Individuals with strong Pyeon-gwan energy often suffocate in slow-moving, bureaucratic environments. They require high stakes, high pressure, and the autonomy to make rapid decisions. You will find this star dominating the charts of elite surgeons, military commanders, ruthless prosecutors, emergency responders, and aggressive startup founders. The Pyeon-gwan does not climb existing ladders; they forge their own paths through sheer force of will. The danger for this archetype is severe burnout; they must consciously learn to cycle between extreme exertion and deep rest.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">💼 Unlock Your Saju Career Potential Today →</a>
+  <a href="/en/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">💼 Unlock Your Saju Career Potential Today →</a>
 </div>
 
 <h2 id="ohaeng-career">2. Career by Five Elements: Finding Your Native Industry</h2>
@@ -1720,7 +1720,7 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <p>Before you are an individual, you are a citizen of a specific era. The Year Pillar governs your relationship with the macro-environment: your country, the legal system, societal norms, and massive generational shifts. If your Year Pillar contains highly auspicious elements (like the Direct Officer star, representing orthodox authority), you are statistically more likely to benefit from institutional protection, thrive in government or corporate hierarchies, and feel inherently aligned with the rules of your society. Conversely, a fractured or severely clashing Year Pillar often indicates a person born into a time of political upheaval, economic depression, or someone who will fundamentally reject the mainstream systems of their era. They are the rebels, the outcasts, and often, the revolutionary innovators.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 Analyze Your Complete Saju Birth Chart Now →</a>
+  <a href="/en/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 Analyze Your Complete Saju Birth Chart Now →</a>
 </div>
 
 <h2 id="ancestral-karma">2. Ancestral Karma and Inherited Traits</h2>
@@ -2067,7 +2067,7 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <h3>도화살(桃花殺)의 역할</h3>
 <p>도화살은 흔히 '꽃살' 또는 '매력의 별'이라 불리며, 이성에게 강한 매력을 발산하는 신살입니다. 도화살이 강한 사주는 자연스럽게 이성의 시선을 끌고 연애 기회가 많습니다. 단, 도화살이 충(冲)이나 형(刑)을 받으면 매력은 있지만 인연이 오래 지속되지 않는 문제가 생길 수 있습니다.</p>
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 내 사주로 연애·결혼운 무료 분석 받기 →</a>
+  <a href="/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 내 사주로 연애·결혼운 무료 분석 받기 →</a>
 </div>
 <h2 id="spouse-palace">배우자 궁과 결혼 시기</h2>
 <p>사주에서 <strong>배우자 궁(配偶者 宮)</strong>은 일지(日支)를 말합니다. 내 사주의 네 기둥 중 일간 바로 아래에 있는 이 자리는 배우자의 성격과 현재 결혼 생활의 질을 보여주는 가장 중요한 자리입니다.</p>
@@ -2179,7 +2179,7 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <h3>인수용재 구조와 주의점</h3>
 <p>인수(印綬)가 강하고 일간이 왕성한 사주에서 재성을 용신으로 쓰는 경우도 강한 재물운을 나타냅니다. 단, 재성을 충(冲)하거나 극(克)하는 오행이 대운이나 세운에서 들어올 때 재물 손실이 발생하므로 주의가 필요합니다.</p>
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 내 사주 재물운 무료 분석 받기 →</a>
+  <a href="/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 내 사주 재물운 무료 분석 받기 →</a>
 </div>
 <h2 id="wealth-timing">재물 흐름의 시기: 대운과 세운</h2>
 <p>재물운은 사주 원국의 구조만이 아니라 <strong>대운(大運)</strong>과 <strong>세운(歲運)</strong>의 흐름에 따라 크게 달라집니다. 타고난 재성이 약해도 재성 대운이 들어오면 강한 재물의 기회가 찾아오고, 반대로 타고난 재성이 강해도 재성을 극하는 대운이 들어오면 재물 손실이 발생합니다.</p>
@@ -2295,7 +2295,7 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <h3>金·水 일간 체질</h3>
 <p>庚金·辛金 일간은 폐와 대장, 피부 계통이 취약합니다. 건조한 환경이나 미세먼지에 민감하며 스트레스가 피부 트러블로 나타나는 경우가 많습니다. 壬水·癸水 일간은 신장과 생식기 계통, 뼈와 관절이 취약하며 냉기에 노출되면 쉽게 체력이 떨어집니다. 보온과 충분한 수면이 이 체질의 최우선 건강 수칙입니다.</p>
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 내 사주 체질·건강운 무료 분석 받기 →</a>
+  <a href="/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 내 사주 체질·건강운 무료 분석 받기 →</a>
 </div>
 <h2 id="health-risk-timing">건강 위험 시기 파악법</h2>
 <p>사주 건강 분석에서 가장 실용적인 부분은 <strong>건강 위험 시기</strong>를 미리 파악하는 것입니다. 타고난 체질의 약점이 대운이나 세운의 흐름과 맞물릴 때 질병이 발현됩니다.</p>
@@ -2447,7 +2447,7 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 </figure>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 내 사주 오행 균형 무료 분석 받기 →</a>
+  <a href="/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 내 사주 오행 균형 무료 분석 받기 →</a>
 </div>
 
 <h2 id="metal-balance">4. 금 기운이 너무 강할 때 균형 잡는 법</h2>
@@ -2586,7 +2586,7 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <p>삼재는 어디까지나 대중적인 1차 필터입니다. 실제 명리 해석에서는 개인의 <strong>사주 원국, 대운, 세운, 충·형·파해</strong>가 함께 봐야 합니다. 예를 들어 삼재 띠라도 용신이 강하게 들어오고 원국 구조가 안정적이면 체감 리스크가 약할 수 있고, 반대로 삼재 띠가 아니어도 충돌이 심하면 더 힘든 해를 보낼 수 있습니다.</p>
 
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 2026년 내 사주 흐름 무료 분석 받기 →</a>
+  <a href="/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 2026년 내 사주 흐름 무료 분석 받기 →</a>
 </div>
 
 <h2 id="samjae-risks">3. 삼재 기간에 특히 조심해야 할 세 가지</h2>

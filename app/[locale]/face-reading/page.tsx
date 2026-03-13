@@ -146,7 +146,7 @@ export default async function FaceReadingPage({ params: { locale } }: Props) {
               <span>🔒 {isKo ? '사진 서버 저장 없음' : 'No photo server storage'}</span>
               <span>⚡ {isKo ? '즉시 분석' : 'Instant analysis'}</span>
             </div>
-            <Link href={`/${locale}`} className="btn-gold text-lg px-8 py-4">
+            <Link href={buildLocalizedHref(locale, '/gwansang-analysis')} className="btn-gold text-lg px-8 py-4">
               {isKo ? '지금 바로 무료 분석 시작 →' : 'Start Free Analysis Now →'}
             </Link>
           </div>
@@ -226,7 +226,7 @@ export default async function FaceReadingPage({ params: { locale } }: Props) {
             <p className="text-yellow-200/80 mb-6">
               {isKo ? '✅ 관상 분석을 포함한 종합 분석을 무료로 받아보세요' : '✅ Get comprehensive analysis including face reading for free'}
             </p>
-            <Link href={`/${locale}`} className="btn-gold text-lg px-8 py-4 inline-block">
+            <Link href={buildLocalizedHref(locale, '/gwansang-analysis')} className="btn-gold text-lg px-8 py-4 inline-block">
               {isKo ? '관상 무료 분석 시작 →' : 'Start Free Face Analysis →'}
             </Link>
           </div>

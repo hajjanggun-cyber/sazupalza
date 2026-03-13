@@ -155,7 +155,7 @@ export default async function SajuPage({ params: { locale } }: Props) {
                 ? '생년월일시 8글자로 알아보는 타고난 기질과 운명의 흐름\n삼명통회·자평진전·적천수 원리 기반의 정통 분석'
                 : 'Discover innate temperament and destiny through 8-character birth analysis\nBased on classical Chinese astrology principles'}
             </p>
-            <Link href={`/${locale}`} className="btn-gold text-lg px-8 py-4">
+            <Link href={buildLocalizedHref(locale, '/saju-analysis')} className="btn-gold text-lg px-8 py-4">
               {isKo ? '지금 바로 무료 분석 시작 →' : 'Start Free Analysis Now →'}
             </Link>
           </div>
@@ -276,7 +276,7 @@ export default async function SajuPage({ params: { locale } }: Props) {
             <p className="text-yellow-200/60 text-sm mb-6">
               {isKo ? '본 서비스는 입력하신 개인정보 및 사진을 수집·저장하지 않습니다.' : 'We do not collect or store your personal information or photos.'}
             </p>
-            <Link href={`/${locale}`} className="btn-gold text-lg px-8 py-4 inline-block">
+            <Link href={buildLocalizedHref(locale, '/saju-analysis')} className="btn-gold text-lg px-8 py-4 inline-block">
               {isKo ? '사주팔자 무료 분석 시작 →' : 'Start Free Four Pillars Analysis →'}
             </Link>
           </div>
