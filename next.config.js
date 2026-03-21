@@ -35,6 +35,27 @@ const nextConfig = {
         destination: '/en/name-reading/:slug',
         permanent: true,
       },
+      // /name → /name-reading, /face → /face-reading 중복 콘텐츠 제거
+      {
+        source: '/name',
+        destination: '/name-reading',
+        permanent: true,
+      },
+      {
+        source: '/en/name',
+        destination: '/en/name-reading',
+        permanent: true,
+      },
+      {
+        source: '/face',
+        destination: '/face-reading',
+        permanent: true,
+      },
+      {
+        source: '/en/face',
+        destination: '/en/face-reading',
+        permanent: true,
+      },
       // zh/ja 로케일 제거 후 301 리다이렉트 (구글 de-index 가속)
       {
         source: '/zh/:path*',

@@ -48,6 +48,25 @@ export default async function SajuAnalysisPage({ params: { locale } }: Props) {
         offers: { '@type': 'Offer', price: '0', priceCurrency: 'KRW' },
     };
 
+    const faqJsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: isKo
+            ? [
+                { '@type': 'Question', name: '사주팔자 분석은 어떤 결과를 알려주나요?', acceptedAnswer: { '@type': 'Answer', text: '생년월일과 생시를 입력하면 연·월·일·시 4개의 기둥(사주팔자), 오행 균형, 용신(내게 부족한 기운), 수호신, 직업·재물·연애·건강 경향, 개운법까지 종합적으로 분석해 드립니다.' } },
+                { '@type': 'Question', name: '음력으로도 분석이 가능한가요?', acceptedAnswer: { '@type': 'Answer', text: '네, 음력과 양력 모두 지원합니다. 입력 화면에서 음력/양력을 선택하시면 자동으로 변환하여 정확한 사주팔자를 계산합니다.' } },
+                { '@type': 'Question', name: '태어난 시간을 모르면 어떻게 되나요?', acceptedAnswer: { '@type': 'Answer', text: '생시를 모르셔도 분석이 가능합니다. 시주(時柱)는 제외되고 연·월·일주 3개 기둥을 기준으로 분석 결과를 제공합니다. 다만 시주를 포함할 경우 더 정밀한 결과를 얻을 수 있습니다.' } },
+                { '@type': 'Question', name: '무료인가요? 개인정보는 어떻게 되나요?', acceptedAnswer: { '@type': 'Answer', text: '완전 무료이며 개인정보를 서버에 저장하지 않습니다. 입력한 생년월일은 브라우저 내에서만 처리되고 결과 URL에 인코딩됩니다.' } },
+                { '@type': 'Question', name: '용신이란 무엇인가요?', acceptedAnswer: { '@type': 'Answer', text: '용신(用神)은 내 사주에서 부족하거나 필요한 오행 기운입니다. 용신을 알면 나에게 유리한 방향, 색상, 직업군, 인간관계를 파악하는 데 도움이 됩니다.' } },
+            ]
+            : [
+                { '@type': 'Question', name: 'What does the Saju analysis show?', acceptedAnswer: { '@type': 'Answer', text: 'Enter your birth date and time to receive your Four Pillars (Year, Month, Day, Hour), Five Elements balance, Lucky Element (Yongsin), Guardian Spirit, and tendencies in career, wealth, love, and health.' } },
+                { '@type': 'Question', name: 'Can I use the lunar calendar?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Both lunar and solar calendars are supported. Simply select the calendar type on the input screen and the system will automatically convert and calculate your Four Pillars.' } },
+                { '@type': 'Question', name: "What if I don't know my birth hour?", acceptedAnswer: { '@type': 'Answer', text: "You can still get a reading without your birth hour. The analysis will be based on three pillars (Year, Month, Day). Adding the Hour Pillar gives a more precise result." } },
+                { '@type': 'Question', name: 'Is it free? What about my data?', acceptedAnswer: { '@type': 'Answer', text: 'Completely free. No personal data is stored on any server. Your birth information is processed entirely in the browser and encoded in the result URL only.' } },
+            ],
+    };
+
     const features = isKo
         ? [
             { icon: '🌳', label: '오행 분석', desc: '목·화·토·금·수의 균형과 용신' },
@@ -65,6 +84,7 @@ export default async function SajuAnalysisPage({ params: { locale } }: Props) {
     return (
         <div className="min-h-screen">
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
 
             <Navigation />
 
@@ -168,6 +188,21 @@ export default async function SajuAnalysisPage({ params: { locale } }: Props) {
                                 {isKo ? '통합 분석 →' : 'Combined →'}
                             </Link>
                         </div>
+                    </div>
+                </section>
+
+                {/* FAQ */}
+                <section className="max-w-3xl mx-auto px-4 pb-12">
+                    <h2 className="text-xl font-bold text-yellow-300 mb-4">
+                        {isKo ? '자주 묻는 질문' : 'Frequently Asked Questions'}
+                    </h2>
+                    <div className="space-y-3">
+                        {(faqJsonLd.mainEntity as any[]).map((item: any, i: number) => (
+                            <div key={i} className="card-dark p-4">
+                                <p className="text-yellow-400 font-bold mb-2 text-sm">Q. {item.name}</p>
+                                <p className="text-white/70 text-sm leading-relaxed">A. {item.acceptedAnswer.text}</p>
+                            </div>
+                        ))}
                     </div>
                 </section>
 

@@ -47,6 +47,23 @@ export default async function SeongmyeongAnalysisPage({ params: { locale } }: Pr
         offers: { '@type': 'Offer', price: '0', priceCurrency: 'KRW' },
     };
 
+    const faqJsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: isKo
+            ? [
+                { '@type': 'Question', name: '성명학 분석은 어떤 결과를 알려주나요?', acceptedAnswer: { '@type': 'Answer', text: '이름의 한자 획수를 기준으로 원격·형격·이격·정격 4가지 수리(81수리)를 분석하고, 초성의 소리오행(목·화·토·금·수) 상생 여부를 판단합니다. 이름이 가진 운의 강도와 보완해야 할 오행도 알려드립니다.' } },
+                { '@type': 'Question', name: '한자를 몰라도 분석이 가능한가요?', acceptedAnswer: { '@type': 'Answer', text: '네, 한글 이름만 입력해도 분석이 가능합니다. 한자 이름을 추가로 입력하시면 원획 기준 정밀 획수 분석까지 제공됩니다.' } },
+                { '@type': 'Question', name: '81수리란 무엇인가요?', acceptedAnswer: { '@type': 'Answer', text: '81수리는 이름의 획수를 조합한 숫자(1~81)에 각각의 운명적 의미를 부여한 성명학의 핵심 체계입니다. 원격(성씨)·형격(성+이름 첫 글자)·이격(이름 합)·정격(전체 합) 4격으로 이름의 운을 종합 판단합니다.' } },
+                { '@type': 'Question', name: '개명을 고려 중인데 도움이 되나요?', acceptedAnswer: { '@type': 'Answer', text: '네, 현재 이름에서 부족한 오행과 수리를 파악하는 데 도움이 됩니다. 결과에서 보완 방향을 확인하시고, 개명 시 참고 자료로 활용하실 수 있습니다. 단, 최종 개명 결정은 전문 성명학자와 상담을 권장합니다.' } },
+            ]
+            : [
+                { '@type': 'Question', name: 'What does the Name Numerology analysis include?', acceptedAnswer: { '@type': 'Answer', text: 'The analysis covers Expression Number, Soul Urge Number, Personality Number, and Life Path Number based on Pythagorean numerology. It also shows the Five Elements of your name\'s consonants to reveal energy compatibility.' } },
+                { '@type': 'Question', name: 'Do I need a Chinese name?', acceptedAnswer: { '@type': 'Answer', text: 'No. You can get a reading with your Korean name only. If you add a Chinese character (Hanja) name, the system will also calculate stroke-based numerology for a more detailed result.' } },
+                { '@type': 'Question', name: 'Can this help if I\'m considering changing my name?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. The analysis highlights which Five Elements are weak in your current name, giving you a starting point for evaluation. For a final decision, consulting a professional name scholar is recommended.' } },
+            ],
+    };
+
     // 특징 카드 데이터
     const features = isKo
         ? [
@@ -65,6 +82,7 @@ export default async function SeongmyeongAnalysisPage({ params: { locale } }: Pr
     return (
         <div className="min-h-screen">
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
 
             <Navigation />
 
@@ -171,6 +189,21 @@ export default async function SeongmyeongAnalysisPage({ params: { locale } }: Pr
                                 {isKo ? '통합 분석 →' : 'Combined →'}
                             </Link>
                         </div>
+                    </div>
+                </section>
+
+                {/* FAQ */}
+                <section className="max-w-3xl mx-auto px-4 pb-12">
+                    <h2 className="text-xl font-bold text-yellow-300 mb-4">
+                        {isKo ? '자주 묻는 질문' : 'Frequently Asked Questions'}
+                    </h2>
+                    <div className="space-y-3">
+                        {(faqJsonLd.mainEntity as any[]).map((item: any, i: number) => (
+                            <div key={i} className="card-dark p-4">
+                                <p className="text-yellow-400 font-bold mb-2 text-sm">Q. {item.name}</p>
+                                <p className="text-white/70 text-sm leading-relaxed">A. {item.acceptedAnswer.text}</p>
+                            </div>
+                        ))}
                     </div>
                 </section>
 

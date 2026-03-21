@@ -47,6 +47,23 @@ export default async function GwansangAnalysisPage({ params: { locale } }: Props
         offers: { '@type': 'Offer', price: '0', priceCurrency: 'KRW' },
     };
 
+    const faqJsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: isKo
+            ? [
+                { '@type': 'Question', name: '관상 분석은 어떤 결과를 알려주나요?', acceptedAnswer: { '@type': 'Answer', text: 'AI가 사진을 분석하여 얼굴형(타원형·둥근형·각진형·역삼각형), 좌우 대칭도 점수, 인상 에너지 강도를 측정하고 관상학적 해석을 제공합니다. 전통 관상학의 이목구비 특징과 현대 AI 분석을 결합한 결과입니다.' } },
+                { '@type': 'Question', name: '사진이 서버에 저장되나요?', acceptedAnswer: { '@type': 'Answer', text: '아니요, 사진은 서버에 전송되거나 저장되지 않습니다. 모든 AI 분석은 브라우저(로컬)에서 처리되며 분석 완료 후 자동으로 삭제됩니다.' } },
+                { '@type': 'Question', name: '어떤 사진이 좋은 결과를 얻나요?', acceptedAnswer: { '@type': 'Answer', text: '정면을 바라보는 밝은 조명의 사진이 가장 정확합니다. 모자나 선글라스를 착용하지 않은 상태, 화장이 너무 짙지 않은 상태가 좋습니다. 정면 사진 1장 필수, 측면 사진을 함께 올리면 더 풍부한 분석을 받을 수 있습니다.' } },
+                { '@type': 'Question', name: '관상이란 무엇인가요?', acceptedAnswer: { '@type': 'Answer', text: '관상(觀相)은 얼굴의 형태와 이목구비의 특징으로 그 사람의 성격, 운세, 건강 경향을 읽는 동양의 전통 학문입니다. 이마(관운), 눈(판단력), 코(재운), 입(복), 귀(수명) 등 각 부위가 서로 다른 의미를 담고 있습니다.' } },
+            ]
+            : [
+                { '@type': 'Question', name: 'What does the face reading analysis include?', acceptedAnswer: { '@type': 'Answer', text: 'Our AI detects face shape (oval, round, square, triangle), measures left-right symmetry score, reads expression energy, and provides traditional physiognomy interpretations for each facial feature.' } },
+                { '@type': 'Question', name: 'Is my photo stored on a server?', acceptedAnswer: { '@type': 'Answer', text: 'No. Photos are never uploaded to any server. All AI processing runs entirely in your browser and the image data is discarded immediately after analysis.' } },
+                { '@type': 'Question', name: 'What makes a good photo for analysis?', acceptedAnswer: { '@type': 'Answer', text: 'A front-facing photo in good lighting gives the most accurate result. Avoid hats, sunglasses, or heavy makeup. One front-facing photo is required; adding a side-profile photo enriches the reading.' } },
+            ],
+    };
+
     const features = isKo
         ? [
             { icon: '🔺', label: '얼굴형 분석', desc: '타원형·둥근형·각진형·역삼각형 분류' },
@@ -64,6 +81,7 @@ export default async function GwansangAnalysisPage({ params: { locale } }: Props
     return (
         <div className="min-h-screen">
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
 
             <Navigation />
 
@@ -167,6 +185,21 @@ export default async function GwansangAnalysisPage({ params: { locale } }: Props
                                 {isKo ? '통합 분석 →' : 'Combined →'}
                             </Link>
                         </div>
+                    </div>
+                </section>
+
+                {/* FAQ */}
+                <section className="max-w-3xl mx-auto px-4 pb-12">
+                    <h2 className="text-xl font-bold text-yellow-300 mb-4">
+                        {isKo ? '자주 묻는 질문' : 'Frequently Asked Questions'}
+                    </h2>
+                    <div className="space-y-3">
+                        {(faqJsonLd.mainEntity as any[]).map((item: any, i: number) => (
+                            <div key={i} className="card-dark p-4">
+                                <p className="text-yellow-400 font-bold mb-2 text-sm">Q. {item.name}</p>
+                                <p className="text-white/70 text-sm leading-relaxed">A. {item.acceptedAnswer.text}</p>
+                            </div>
+                        ))}
                     </div>
                 </section>
 

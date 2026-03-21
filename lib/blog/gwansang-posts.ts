@@ -125,8 +125,8 @@ export const gwansangPosts: BlogPost[] = distributePublishedDates([
       { q: 'At what age is face reading most accurate?', a: 'Features become more indicative of one’s true character and destiny after the age of 30, as life experiences shape the expression.' },
     ],
     relatedPosts: [
-      { slug: 'wealth-face', title: 'Korean Wealth Face Guide: Fortune in Features', category: 'face-reading' },
-      { slug: 'eyebrow-reading', title: 'Eyebrow Reading: Secrets of Leadership', category: 'face-reading' },
+      { slug: 'wealth-face', title: '재물 관상: 얼굴에서 읽는 돈복의 비밀', category: 'face-reading' },
+      { slug: 'intro', title: '사주팔자 입문: 타고난 운명의 구조 이해하기', category: 'saju' },
     ],
   },
   {
@@ -244,8 +244,8 @@ export const gwansangPosts: BlogPost[] = distributePublishedDates([
       { q: 'Any makeup tips for better wealth luck?', a: 'Keeping the tip of the nose clear of blemishes and emphasizing a clear lip line can help enhance your positive financial energy.' },
     ],
     relatedPosts: [
-      { slug: 'intro', title: 'Introduction to Gwansang', category: 'face-reading' },
-      { slug: 'forehead-reading', title: 'Forehead Reading: Career and Honor', category: 'face-reading' },
+      { slug: 'intro', title: '관상학 입문: 얼굴 읽기의 기본 원리', category: 'face-reading' },
+      { slug: 'wealth-luck', title: '사주 재물운: 돈복과 부의 흐름 읽기', category: 'saju' },
     ],
   },
   {
@@ -370,8 +370,8 @@ export const gwansangPosts: BlogPost[] = distributePublishedDates([
       { q: 'Does eyebrow tattooing affect luck?', a: 'Enhancing sparse brows or correcting asymmetry through tattooing can have a positive psychological and energetic effect on your social luck.' },
     ],
     relatedPosts: [
-      { slug: 'intro', title: 'Introduction to Korean Face Reading', category: 'face-reading' },
-      { slug: 'wealth-face', title: 'Wealth Face Guide: Success Features', category: 'face-reading' },
+      { slug: 'intro', title: '관상 입문: 얼굴로 보는 성격과 운세', category: 'face-reading' },
+      { slug: 'mbti-career', title: 'MBTI 커리어 가이드: 성향으로 보는 직업 적성', category: 'mbti' },
     ],
   },
   {
@@ -512,8 +512,8 @@ export const gwansangPosts: BlogPost[] = distributePublishedDates([
       { q: 'What if my face suddenly looks dark?', a: 'Take it as a sign to slow down, prioritize rest, and perhaps consult a healthcare professional to ensure your vitality is restored.' },
     ],
     relatedPosts: [
-      { slug: 'intro', title: 'Foundations of Korean Face Reading', category: 'face-reading' },
-      { slug: 'wealth-face', title: 'Reading Money Luck in Features', category: 'face-reading' },
+      { slug: 'intro', title: '관상 기초: 얼굴 기운과 해석의 시작', category: 'face-reading' },
+      { slug: 'health-saju', title: '사주 건강 분석: 오행으로 보는 체질과 건강 운', category: 'saju' },
     ],
   },
   {
@@ -645,8 +645,8 @@ export const gwansangPosts: BlogPost[] = distributePublishedDates([
       { q: 'Can removing a mole really change my luck?', a: 'Removing an inauspicious mole can clear your facial energy and boost your confidence, leading to improved social and personal fortune.' },
     ],
     relatedPosts: [
-      { slug: 'intro', title: 'Introduction to Face Reading', category: 'face-reading' },
-      { slug: 'health-face', title: 'Reading Vitality in Your Face', category: 'face-reading' },
+      { slug: 'intro', title: '관상 입문: 얼굴 점과 기운 해석의 기초', category: 'face-reading' },
+      { slug: 'destiny-change', title: '개운의 철학: 작은 변화로 운의 흐름 바꾸기', category: 'saju' },
     ],
   },
   {
@@ -770,8 +770,8 @@ export const gwansangPosts: BlogPost[] = distributePublishedDates([
       { q: 'What if my forehead is too wide?', a: 'While it may indicate a strong-willed nature, it generally points toward high intelligence and a strong desire for professional achievement.' },
     ],
     relatedPosts: [
-      { slug: 'intro', title: 'Gwansang Basics: A Beginner’s Guide', category: 'face-reading' },
-      { slug: 'eyebrow-reading', title: 'Eyebrow Reading and Social Status', category: 'face-reading' },
+      { slug: 'intro', title: '관상학 입문: 이마와 얼굴 구조 읽기의 시작', category: 'face-reading' },
+      { slug: 'career-star', title: '사주 직업운: 사회적 성취와 커리어 방향', category: 'saju' },
     ],
   },
   {
@@ -902,8 +902,8 @@ export const gwansangPosts: BlogPost[] = distributePublishedDates([
       { q: 'Can practicing expressions really change my face?', a: 'Yes, consistent expressions reshape your facial muscles and skin over time, which directly translates to a change in your Gwansang.' },
     ],
     relatedPosts: [
-      { slug: 'intro', title: 'Gwansang: The Art of Face Reading', category: 'face-reading' },
-      { slug: 'wealth-face', title: 'Wealth Luck in Your Features', category: 'face-reading' },
+      { slug: 'intro', title: '관상학 입문: 얼굴로 읽는 운명의 기본', category: 'face-reading' },
+      { slug: 'fortune-improvement', title: '운세 개선 가이드: 일상에서 실천하는 개운 습관', category: 'mbti' },
     ],
   },
   {
@@ -1057,7 +1057,7 @@ export const gwansangPosts: BlogPost[] = distributePublishedDates([
     ],
     relatedPosts: [
       { slug: 'wealth-face', category: 'face-reading', title: '재물 관상: 코와 입에 숨겨진 부의 비밀' },
-      { slug: 'intro', category: 'face-reading', title: '관상학 입문: 내 얼굴이 곧 내 운명이다' },
+      { slug: 'mbti-career', category: 'mbti', title: 'MBTI 직업 가이드: 성격 유형별 강점 찾기' },
     ],
   },
   {
@@ -1217,7 +1217,7 @@ export const gwansangPosts: BlogPost[] = distributePublishedDates([
     ],
     relatedPosts: [
       { slug: 'wealth-face', category: 'face-reading', title: '재물 관상: 코와 입에 숨겨진 부의 비밀' },
-      { slug: 'health-face', category: 'face-reading', title: '관상과 건강: 얼굴색으로 보는 운세 신호' },
+      { slug: 'mbti-love', category: 'mbti', title: 'MBTI 연애 분석: 감정 표현과 관계 스타일 이해하기' },
     ],
   },
   {
@@ -1381,7 +1381,7 @@ export const gwansangPosts: BlogPost[] = distributePublishedDates([
     ],
     relatedPosts: [
       { slug: 'wealth-face', category: 'face-reading', title: '재물 관상: 코와 입에 숨겨진 부의 비밀' },
-      { slug: 'health-face', category: 'face-reading', title: '관상과 건강: 얼굴색으로 보는 운세 신호' },
+      { slug: 'wealth-luck', category: 'saju', title: '사주 재물운: 돈이 들어오는 구조 읽기' },
     ],
   },
   {
@@ -1549,7 +1549,7 @@ export const gwansangPosts: BlogPost[] = distributePublishedDates([
     ],
     relatedPosts: [
       { slug: 'wealth-face', category: 'face-reading', title: '재물 관상: 코와 입에 숨겨진 부의 비밀' },
-      { slug: 'health-face', category: 'face-reading', title: '관상과 건강: 얼굴색으로 보는 운세 신호' },
+      { slug: 'love-destiny', category: 'bokhap', title: '연애 운명 해석: 사랑의 흐름과 인연 포인트' },
     ],
   },
   {
@@ -1716,7 +1716,7 @@ export const gwansangPosts: BlogPost[] = distributePublishedDates([
     ],
     relatedPosts: [
       { slug: 'wealth-face', category: 'face-reading', title: '재물 관상: 코와 입에 숨겨진 부의 비밀' },
-      { slug: 'health-face', category: 'face-reading', title: '관상과 건강: 얼굴색으로 보는 운세 신호' },
+      { slug: 'year-pillar', category: 'saju', title: '년주 완전 해설: 조상운과 타고난 뿌리 읽기' },
     ],
   },
 ], '2026-01-08', 4, '2026-02-12', 1);

@@ -121,8 +121,8 @@ export const seongmyeongPosts: BlogPost[] = distributePublishedDates([
       { q: 'Can changing my name really improve luck?', a: 'Yes, it acts as a corrective measure for your Saju energy, boosting confidence and attracting better opportunities.' },
     ],
     relatedPosts: [
-      { slug: 'name-five-elements', title: 'Harmony of Sound: Five Elements in Names', category: 'seongmyeong' },
-      { slug: 'numerology-81', title: 'Numerology 81: Reading Luck Through Stroke Counts', category: 'seongmyeong' },
+      { slug: 'name-five-elements', title: '이름 오행 분석: 소리와 기운의 조화 읽기', category: 'seongmyeong' },
+      { slug: 'intro', title: '사주팔자 입문: 타고난 운명의 구조 이해하기', category: 'saju' },
     ],
   },
   {
@@ -256,8 +256,8 @@ export const seongmyeongPosts: BlogPost[] = distributePublishedDates([
       { q: 'Why is a naming certificate important?', a: 'It documents the philosophical reasoning and numerological balance behind your name for future reference.' },
     ],
     relatedPosts: [
-      { slug: 'intro', title: 'Introduction to Seongmyeonghak', category: 'seongmyeong' },
-      { slug: 'name-five-elements', title: 'Sound Elements and Harmony', category: 'seongmyeong' },
+      { slug: 'intro', title: '성명학 입문: 이름과 운명의 기본 원리', category: 'seongmyeong' },
+      { slug: 'lucky-element', title: '사주 용신 찾기: 이름에 보완할 기운 파악하기', category: 'saju' },
     ],
   },
   {
@@ -413,8 +413,8 @@ export const seongmyeongPosts: BlogPost[] = distributePublishedDates([
       { q: 'Does the family name\'s element matter for the overall analysis?', a: 'Yes, critically. The ideal name flows generatively from the family name initial through both syllables of the given name. The family name sets the elemental starting point for the entire sequence.' },
     ],
     relatedPosts: [
-      { slug: 'name-creation', title: 'The Art of Naming: Filling Your Saju Voids', category: 'seongmyeong' },
-      { slug: 'baby-naming', title: 'A Complete Guide to Baby Naming', category: 'seongmyeong' },
+      { slug: 'name-creation', title: '작명의 기술: 사주 공백을 이름으로 채우기', category: 'seongmyeong' },
+      { slug: 'saju-five-elements', title: '사주 오행과 MBTI: 기질의 균형 이해하기', category: 'mbti' },
     ],
   },
   {
@@ -545,8 +545,8 @@ export const seongmyeongPosts: BlogPost[] = distributePublishedDates([
       { q: 'Can I use a new name before legalizing it?', a: 'Yes, using it as a nickname first can help you adjust to the new vibration before official registration.' },
     ],
     relatedPosts: [
-      { slug: 'numerology-81', title: 'Numerology 81: Good and Bad Numbers', category: 'seongmyeong' },
-      { slug: 'name-creation', title: 'The Expert Art of Naming', category: 'seongmyeong' },
+      { slug: 'numerology-81', title: '81수리: 길수와 흉수를 읽는 핵심 가이드', category: 'seongmyeong' },
+      { slug: 'destiny-change', title: '개운의 철학: 운명을 바꾸는 실전 방법', category: 'saju' },
     ],
   },
   {
@@ -672,8 +672,8 @@ export const seongmyeongPosts: BlogPost[] = distributePublishedDates([
       { q: 'How soon should I name my baby?', a: 'Legal registration is typically required within 30 days, so it is best to finalize the name once the exact birth time is confirmed.' },
     ],
     relatedPosts: [
-      { slug: 'name-creation', title: 'Advanced Naming Techniques', category: 'seongmyeong' },
-      { slug: 'numerology-81', title: 'Numerology 81: Success Numbers', category: 'seongmyeong' },
+      { slug: 'name-creation', title: '작명 실전: 좋은 이름을 만드는 핵심 원칙', category: 'seongmyeong' },
+      { slug: 'intro', title: '사주 입문: 아기 사주와 오행 기초 이해하기', category: 'saju' },
     ],
   },
   {
@@ -808,8 +808,8 @@ export const seongmyeongPosts: BlogPost[] = distributePublishedDates([
       { q: 'Is only the total stroke count important?', a: 'While the total count (Jeong-gyeok) matters, the Hyeong-gyeok—which dictates primary success in your prime—is considered the most vital.' },
     ],
     relatedPosts: [
-      { slug: 'name-creation', title: 'Mastering the Art of Naming', category: 'seongmyeong' },
-      { slug: 'name-five-elements', title: 'Sound Harmony and Luck', category: 'seongmyeong' },
+      { slug: 'name-creation', title: '작명의 기술: 이름 설계의 기본기', category: 'seongmyeong' },
+      { slug: 'wealth-luck', title: '사주 재물운: 성공과 돈복의 흐름 읽기', category: 'saju' },
     ],
   },
   {
@@ -972,7 +972,7 @@ export const seongmyeongPosts: BlogPost[] = distributePublishedDates([
     ],
     relatedPosts: [
       { slug: 'numerology-81', category: 'seongmyeong', title: '81수리: 이름 획수로 보는 성공의 비밀' },
-      { slug: 'intro', category: 'seongmyeong', title: '성명학이란 무엇인가? 운명적 에너지 가이드' },
+      { slug: 'destiny-change', category: 'saju', title: '운명을 바꾸는 개운법: 이름과 사주의 연결' },
     ],
   },
   {
@@ -1149,7 +1149,7 @@ export const seongmyeongPosts: BlogPost[] = distributePublishedDates([
     ],
     relatedPosts: [
       { slug: 'stroke-count', category: 'seongmyeong', title: '이름 획수 완전 해설: 내 이름의 수리 파악하기' },
-      { slug: 'name-five-elements', category: 'seongmyeong', title: '이름 오행 분석: 소리 상생상극 가이드' },
+      { slug: 'year-pillar', category: 'saju', title: '년주 완전 해설: 뿌리와 가문의 흐름 읽기' },
     ],
   },
   {
@@ -1332,7 +1332,7 @@ export const seongmyeongPosts: BlogPost[] = distributePublishedDates([
     ],
     relatedPosts: [
       { slug: 'numerology-81', category: 'seongmyeong', title: '81수리: 상호 획수로 보는 재물운' },
-      { slug: 'name-creation', category: 'seongmyeong', title: '작명의 기술: 사주와 상호의 결합' },
+      { slug: 'wealth-luck', category: 'saju', title: '사주 재물운 분석: 사업과 돈복의 핵심 포인트' },
     ],
   },
   {
@@ -1464,7 +1464,7 @@ export const seongmyeongPosts: BlogPost[] = distributePublishedDates([
     ],
     relatedPosts: [
       { slug: 'name-change', category: 'seongmyeong', title: '개명 가이드: 운을 바꾸는 이름 리셋' },
-      { slug: 'business-name', category: 'seongmyeong', title: '사업자 상호 작명: 돈 부르는 상호 짓기' },
+      { slug: 'career-star', category: 'saju', title: '사주 직업운: 성공하는 커리어 방향 찾기' },
     ],
   },
 ], '2026-01-11', 4, '2026-02-13', 1);
