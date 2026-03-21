@@ -35,6 +35,17 @@ const nextConfig = {
         destination: '/en/name-reading/:slug',
         permanent: true,
       },
+      // zh/ja 로케일 제거 후 301 리다이렉트 (구글 de-index 가속)
+      {
+        source: '/zh/:path*',
+        destination: '/:path*',
+        permanent: true,
+      },
+      {
+        source: '/ja/:path*',
+        destination: '/:path*',
+        permanent: true,
+      },
     ];
   },
   async headers() {
