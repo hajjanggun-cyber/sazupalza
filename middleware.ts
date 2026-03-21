@@ -11,5 +11,5 @@ export default createMiddleware({
 
 export const config = {
   // Exclude face-api model assets (e.g. /models/*-shard1 has no dot in filename)
-  matcher: ['/((?!api|_next|_vercel|models|.*\\..*).*)'],
+  matcher: ['/((?!api|_next|_vercel|models|sitemap.xml|robots.txt|.*\\..*).*)'],
 };
