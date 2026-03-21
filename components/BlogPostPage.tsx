@@ -97,6 +97,7 @@ function getAnalysisHref(locale: string, category: string): string {
     seongmyeong: '/seongmyeong-analysis',
     gwansang: '/gwansang-analysis',
     mbti: '/personality-analysis',
+    bokhap: '/combined',
   };
 
   const path = analysisPathMap[category];

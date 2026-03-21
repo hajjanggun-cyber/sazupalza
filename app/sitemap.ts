@@ -5,7 +5,7 @@ const BASE_URL = 'https://sajupalza.cc';
 const locales = ['ko', 'en'];
 
 const routes = [
-  '', '/saju', '/mbti', '/privacy', '/terms', '/contact',
+  '', '/saju', '/name', '/face', '/mbti', '/about', '/privacy', '/terms', '/contact',
   '/saju-analysis', '/gwansang-analysis', '/seongmyeong-analysis', '/personality-analysis', '/combined',
   '/face-reading', '/name-reading', '/compatibility'
 ];
