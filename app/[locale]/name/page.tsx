@@ -14,7 +14,7 @@ interface Props {
 export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
   const isKo = locale === 'ko';
   const BASE_URL = 'https://sajupalza.cc';
-  const canonical = isKo ? `${BASE_URL}/name` : `${BASE_URL}/en/name`;
+  const canonical = isKo ? `${BASE_URL}/name-reading` : `${BASE_URL}/en/name-reading`;
   return {
     title: isKo
       ? '성명학 무료 분석 - 이름의 획수와 소리오행 | 사주팔자 무료 컨설팅'
@@ -28,9 +28,9 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
     alternates: {
       canonical,
       languages: {
-        ko: `${BASE_URL}/name`,
-        en: `${BASE_URL}/en/name`,
-        'x-default': `${BASE_URL}/name`,
+        ko: `${BASE_URL}/name-reading`,
+        en: `${BASE_URL}/en/name-reading`,
+        'x-default': `${BASE_URL}/name-reading`,
       },
     },
   };

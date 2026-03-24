@@ -13,6 +13,11 @@ export default function robots(): MetadataRoute.Robots {
           '/gwansang-result/',
           '/personality-result/',
           '/seongmyeong-result/',
+          '/en/result/',
+          '/en/saju-result/',
+          '/en/gwansang-result/',
+          '/en/personality-result/',
+          '/en/seongmyeong-result/',
         ],
       },
       {
