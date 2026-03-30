@@ -2686,7 +2686,7 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
     description: '2026 연애운 사주가 궁금하다면, 병오년 인연운이 강해지는 시기와 조심해야 할 월, 연애운이 잘 받는 사주 조합을 실전 기준으로 정리한 가이드입니다.',
     descriptionEn: 'Looking for your Saju love fortune in 2026? This guide breaks down romance timing, high-attraction months, caution periods, and the chart patterns that respond strongly to the Fire Horse year.',
     keywords: ['2026 연애운 사주', '사주 연애운 2026', '병오년 연애운', '2026 인연 시기', '인연운 사주'],
-    keywordsEn: ['saju love fortune 2026', 'korean astrology love 2026', 'four pillars romance 2026', 'saju love compatibility 2026', 'korean fortune love reading'],
+    keywordsEn: ['Four Pillars romance 2026', 'Korean astrology love fortune 2026', 'four pillars relationship timing 2026', 'fire horse year love luck', 'korean astrology romance reading 2026'],
     publishedAt: '2026-03-21',
     category: 'saju',
     toc: [
@@ -2834,7 +2834,7 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
     description: '2026 일주별 운세가 궁금하다면, 병오년 세운이 갑자일주·갑오일주·경자일주 등 대표 일주에 어떻게 작동하는지 표와 해설로 정리한 실전 가이드입니다.',
     descriptionEn: 'Looking for your 2026 Day Pillar fortune? This practical guide explains how the Fire Horse year affects major Ilju types such as Gapja, Gapo, Gyeongja, and more.',
     keywords: ['2026 일주별 운세', '일주별 운세 2026', '갑자일주 2026', '갑오일주 2026', '내 일주 운세'],
-    keywordsEn: ['day pillar fortune 2026', 'korean saju 2026 horoscope by day pillar', '60 gapja fortune 2026', 'saju day pillar 2026', 'four pillars day stem 2026'],
+    keywordsEn: ['Four Pillars day pillar 2026', 'Korean astrology day master fortune 2026', 'four pillars fortune by birth day 2026', 'fire horse year day pillar reading', 'korean astrology 2026 by day stem'],
     publishedAt: '2026-03-21',
     category: 'saju',
     toc: [
@@ -3000,6 +3000,969 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
     ],
   },
   {
+    slug: 'wealth-fortune-2026',
+    title: '2026 Wealth Fortune in Saju: Money Peaks and Risk Windows in the Fire Horse Year',
+    seoTitle: '2026 재물운 사주: 병오년 돈복 흐름과 투자 주의 시기',
+    seoTitleEn: '2026 Wealth Fortune in Saju: Money Peaks and Risk Months',
+    description: '2026 재물운 사주를 찾는 사람을 위해 병오년 돈복 흐름, 재물 피크 월, 투자와 지출을 조심해야 할 시기, 재물운이 잘 받는 일간 조합을 실전 기준으로 정리했습니다.',
+    descriptionEn: 'This 2026 wealth fortune guide explains money peaks, caution months, spending pressure, and chart patterns that respond strongly to the Fire Horse year.',
+    keywords: ['2026 재물운 사주', '사주 재물운 2026', '병오년 재물운', '2026 돈복', '2026 투자운'],
+    keywordsEn: ['Four Pillars wealth fortune 2026', 'Korean astrology money luck 2026', 'four pillars financial reading 2026', 'fire horse year money luck', 'korean astrology wealth 2026'],
+    publishedAt: '2026-03-30',
+    category: 'saju',
+    toc: [
+      { id: 'fire-horse-money', title: '1. 병오년에 돈 흐름이 빨라지는 이유' },
+      { id: 'money-strong-charts', title: '2. 2026년에 현금화가 잘 되는 사주' },
+      { id: 'monthly-money-flow', title: '3. 분기별로 다른 돈복 패턴 읽기' },
+      { id: 'risk-control', title: '4. 새는 돈과 투자 실수를 막는 체크포인트' },
+      { id: 'wealth-hacks', title: '5. 돈이 남는 2026 운영 루틴' },
+    ],
+    tocEn: [
+      { id: 'fire-horse-money', title: '1. How the Fire Horse Year Changes Money Flow' },
+      { id: 'money-strong-charts', title: '2. Chart Patterns with Stronger Wealth Luck in 2026' },
+      { id: 'monthly-money-flow', title: '3. Best Money Months and Spending-Risk Months' },
+      { id: 'risk-control', title: '4. How to Control Investment and Loss Risk' },
+      { id: 'wealth-hacks', title: '5. Practical Ways to Improve Wealth Fortune in 2026' },
+    ],
+    contentKo: `<section>
+<p>2026 재물운 사주를 찾는 사람은 보통 "올해 돈이 붙는가?", "투자해도 되는 시기인가?", "언제 지출을 조심해야 하나?"를 가장 먼저 묻습니다. 재성 이론을 길게 설명하는 글과 달리, 이 글은 <strong>병오년 세운이 실제 돈 흐름을 어떻게 흔드는지</strong>에 초점을 둡니다. 재물운 기본 구조가 궁금하다면 <a href="/saju/wealth-luck" style="text-decoration: underline; color: #f9d976;">재성 이론 글</a>을 먼저 보고, 여기서는 2026 돈복과 투자운의 타이밍을 실전적으로 읽으세요.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">먼저 보면 기준이 또렷해지는 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/saju/wealth-luck" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 재물운 기본 이론: 재성으로 돈복 읽는 법</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/annual-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 세운 보는 법: 연간 운세를 읽는 기본 틀</a></li>
+  </ul>
+</div>
+
+<h2 id="fire-horse-money">1. 2026 병오년이 재물운에 미치는 영향</h2>
+<p>병오년은 화(火) 기운이 전면으로 올라오는 해라서 돈의 흐름도 조용히 쌓이기보다 <strong>빨리 벌고 빨리 쓰는 패턴</strong>으로 움직이기 쉽습니다. 그래서 2026 재물운 사주는 단순히 수입 증가 여부만 보는 글이 아닙니다. 들어오는 돈의 속도, 소비 충동, 투자 판단의 과열 여부를 함께 봐야 실제 도움이 됩니다.</p>
+<p>특히 화 기운은 드러남, 경쟁, 확장, 홍보, 성과 압박과 연결되기 때문에, 사업자나 프리랜서처럼 외부 노출이 중요한 사람은 매출 기회를 크게 느낄 수 있습니다. 반대로 이미 화가 많은 사주는 2026 투자운이 들어와도 무리한 베팅이나 체면성 소비로 새는 돈이 커질 수 있습니다. 그래서 <strong>돈복이 붙는 해인지, 돈이 돌기만 하고 남지 않는 해인지</strong>를 구분하는 것이 핵심입니다.</p>
+
+<h2 id="money-strong-charts">2. 2026 재물운이 강한 일간과 사주 조합</h2>
+<p>모든 사주가 같은 방식으로 2026 재물운을 타는 것은 아닙니다. 대체로 화 기운이 적절히 필요했던 사주, 정체돼 있던 매출 흐름을 깨야 하는 구조, 그리고 실행력은 있는데 외부 자극이 부족했던 경우에서 돈복이 살아나는 편입니다.</p>
+<h3>2026년에 재물운이 붙기 쉬운 흐름</h3>
+<ul>
+  <li>목 일간 일부: 화로 연결되는 흐름이 살아나면서 성과형 수입, 영업, 브랜딩 수익이 커질 수 있습니다.</li>
+  <li>토 일간 중 화가 필요했던 구조: 일감, 거래, 프로젝트 규모가 커지며 돈의 회전이 빨라질 수 있습니다.</li>
+  <li>원국에 재성이 약하지만 식상이나 실행력이 살아 있는 경우: 2026년에 결과가 현금화되기 쉬워집니다.</li>
+</ul>
+<p>반대로 금·수 일간 중 화 압박을 강하게 받는 구조는 수입 기회가 와도 유지비, 인간관계 비용, 건강 비용으로 빠져나갈 수 있습니다. 이런 경우에는 "돈이 들어오는지"보다 "남는지"가 더 중요합니다. 그래서 재물운 좋은 사주라는 말도 2026년에는 <strong>저축형인지 회전형인지</strong>로 다시 나눠 읽어야 합니다.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">내 사주 기준 2026 재물운 무료로 확인하기</a>
+</div>
+
+<h2 id="monthly-money-flow">3. 2026 재물 피크와 지출 주의 구간</h2>
+<p>2026년 돈 흐름을 읽을 때 "좋은 달, 나쁜 달"로 단순히 나누는 것보다, <strong>어떤 종류의 돈이 언제 움직이는지</strong>를 구분하는 것이 더 실용적입니다.</p>
+
+<h3>상반기 계약·수주 집중 구간 (3~5월)</h3>
+<p>3월부터 5월은 기업들의 상반기 예산이 집행되고, 신규 프로젝트와 계약이 집중되는 시기입니다. 영업직, 프리랜서, B2B 사업자에게는 수주와 계약 체결이 빠르게 붙을 수 있는 구간입니다. 병오년의 화 기운이 이 구간에 맞물리면 매출 반응 속도가 평년보다 빨라질 수 있습니다. 다만 계약이 들어오는 속도보다 대금 회수 속도를 같이 관리해야 합니다.</p>
+
+<h3>상반기 결산·소비 과열 구간 (6~7월)</h3>
+<p>6월은 상반기 성과 정산과 함께 지출이 함께 늘어나는 시기입니다. 성과급이 지급되는 구조라면 이 시기에 재물 체감이 커질 수 있지만, 동시에 여름 소비, 휴가 비용, 충동 지출이 급격히 늘어나기 쉽습니다. 화 기운이 강한 병오년에는 이 구간에서 "돈이 들어왔는데 왜 남지 않나"를 느끼기 쉽습니다.</p>
+
+<h3>하반기 예산 확보·투자 판단 구간 (9~10월)</h3>
+<p>9월부터 10월은 기업의 하반기 예산이 다시 움직이고, 연말을 앞두고 계약과 수주가 몰리는 구간입니다. 이 시기에는 큰 금액의 협상, 연봉 재계약, 투자 결정을 실행하기에 현실 감각이 살아나는 편입니다. 병오년의 과열감이 어느 정도 가라앉으면서 판단력이 돌아오는 시기이기도 합니다.</p>
+
+<h3>연말 정산·고정비 점검 구간 (11~12월)</h3>
+<p>11월부터 12월은 연말정산 준비, 구독·고정비 정리, 내년 예산 설계를 할 타이밍입니다. 재물운이 강한 해일수록 이 구간에서 "얼마나 남겼나"가 실제 체감을 결정합니다. 병오년은 특히 새는 구멍이 많은 해라서, 연말에 정산하면서 생각보다 남은 것이 적다는 것을 깨닫는 경우가 많습니다.</p>
+
+<h2 id="risk-control">4. 투자운과 손실 리스크를 줄이는 법</h2>
+<p>2026 재물운 사주에서 가장 많이 오해하는 부분이 "돈 흐름이 좋으면 투자도 세게 가도 된다"는 생각입니다. 병오년은 공격성이 붙는 해이기 때문에, 오히려 원칙 없이 움직이면 수익보다 변동성이 더 크게 남습니다.</p>
+<ul>
+  <li>단기 수익이 보여도 현금 비중을 일정하게 남긴다.</li>
+  <li>친분 때문에 들어가는 투자와 실제 데이터 기반 투자를 분리한다.</li>
+  <li>소득 증가 시점에 생활비 기준을 같이 올리지 않는다.</li>
+  <li>건강이 흔들리는 달에는 큰 계약과 고위험 투자 속도를 늦춘다.</li>
+</ul>
+<p>특히 병오년은 체력 저하가 재물 손실로 바로 이어질 수 있습니다. 판단력이 거칠어지면 손실 회피보다 만회 심리가 커지기 때문입니다. 그래서 2026 재물운은 돈만 보는 글이 아니라, <strong>몸과 리듬을 지켜야 돈도 지키는 해</strong>라는 점을 기억해야 합니다.</p>
+
+<h2 id="wealth-hacks">5. 돈이 남는 2026 운영 루틴</h2>
+<p>개운법이라고 해서 거창할 필요는 없습니다. 2026년은 속도가 붙는 해이므로, 돈복을 높이는 핵심은 과열을 통제하면서 회전율을 살리는 데 있습니다. 매출과 투자보다 먼저 해야 할 일은 정산 주기 정리, 불필요한 구독 해지, 소비 기준선 재설정, 수입원 다변화 점검입니다.</p>
+<p>정리하면 <strong>2026 재물운 사주</strong>는 기회가 오기 쉬운 해이지만, 그만큼 새는 구멍도 커지기 쉬운 해입니다. 그래서 이 해의 돈복은 "얼마나 많이 벌었나"보다 "얼마나 안정적으로 남겼나"로 판단하는 것이 맞습니다.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/ko/saju/wealth-luck" style="text-decoration: underline; color: #f9d976;">[관련글] 사주 재물운 기본 이론: 재성으로 보는 돈그릇</a></p>
+  <p><a href="/ko/saju/health-fortune-2026" style="text-decoration: underline; color: #f9d976;">[관련글] 2026 건강운 사주: 과열되는 달에 몸부터 지키는 법</a></p>
+</div>
+</section>`,
+    contentEn: `<section>
+<p>People searching for wealth fortune in Saju for 2026 usually want a practical answer: will money grow this year, when does it peak, and when should investment risk be reduced? That is a different question from a general theory article about the Wealth Star. If you want the theory first, read <a href="/en/saju/wealth-luck" style="text-decoration: underline; color: #f9d976;">the core Wealth Star guide</a>. This article stays focused on how the Fire Horse year changes money flow, spending pressure, and timing.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">Read These First for Theory</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/saju/wealth-luck" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">How the Wealth Star works in Korean astrology</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/saju/annual-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">How annual fortune sets the tone of the year</a></li>
+  </ul>
+</div>
+
+<h2 id="fire-horse-money">1. How the Fire Horse Year Changes Money Flow</h2>
+<p>The Fire Horse year tends to make money move faster. Income, offers, spending, visibility, and competition often intensify at the same time. That is why a 2026 wealth reading is not just about whether money comes in. It is about whether the year creates sustainable gain or only high-speed cash turnover.</p>
+<p>Fire energy also amplifies exposure, marketing, pressure to perform, and action-based earning. That can be excellent for business owners, freelancers, sales workers, and people whose income depends on momentum. But charts that are already overheated may feel more financial stress through impulse spending, reputation spending, or over-aggressive investing. The real question in 2026 is not only whether you make money, but whether you keep it.</p>
+
+<h2 id="money-strong-charts">2. Chart Patterns with Stronger Wealth Luck in 2026</h2>
+<p>Not every chart benefits from the Fire Horse year in the same way. In general, 2026 can be helpful for charts that needed more activation, faster commercial movement, or stronger outward momentum.</p>
+<h3>Patterns that often gain money traction</h3>
+<ul>
+  <li>Some Wood Day Masters: stronger conversion from activity and visibility into earnings.</li>
+  <li>Some Earth structures that needed Fire support: better sales, contracts, and execution.</li>
+  <li>Charts with usable output energy but weak cash conversion: 2026 may monetize effort more directly.</li>
+</ul>
+<p>By contrast, some Metal and Water charts may earn more but also leak more through health costs, emotional spending, maintenance expenses, or rushed financial decisions. That is why a strong 2026 wealth fortune still needs a second question: does the chart build assets, or just increase turnover?</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">Check Your 2026 Wealth Flow Free</a>
+</div>
+
+<h2 id="monthly-money-flow">3. When Money Peaks and When Leakage Risk Rises in 2026</h2>
+<p>Tracking money timing in 2026 is more useful by cash-flow type than by a simple good-month or bad-month label.</p>
+
+<h3>Contract and revenue acceleration window (March–May)</h3>
+<p>Q1 budgets begin moving in March, and spring is typically when new contracts, client acquisition, and project launches peak. The Fire Horse year can accelerate that momentum further, particularly for sales-dependent, freelance, and project-based income. The risk in this window is moving fast on new commitments without locking in collection terms.</p>
+
+<h3>Mid-year performance and spending spike (June–July)</h3>
+<p>Bonuses, performance reviews, and lifestyle spending tend to cluster here. In a Fire-heavy year, the feeling that money is moving can mask the reality that it is also leaving quickly. Impulse spending, travel costs, and social expenses often peak in this window.</p>
+
+<h3>Q3 budget cycle and negotiation window (September–October)</h3>
+<p>Autumn brings the second major contract and budget movement of the year. Annual salary negotiations, large vendor agreements, and investment decisions often carry more clarity in this window than in the overheated mid-year phase. The pace slows enough for better judgment.</p>
+
+<h3>Year-end audit and fixed-cost cleanup (November–December)</h3>
+<p>Tax preparation, subscription audits, and next-year budget planning belong here. The strongest money years often feel weak at year-end simply because leakage ran unchecked earlier. The Fire Horse year rewards those who close the year with intentional cleanup rather than waiting to feel the gap.</p>
+
+<h2 id="risk-control">4. How to Control Investment and Loss Risk</h2>
+<p>One of the biggest mistakes in 2026 is assuming that faster money flow automatically justifies larger risk. Fire years reward movement, but they also punish poor pacing.</p>
+<ul>
+  <li>Keep a clear liquidity floor before adding investment exposure.</li>
+  <li>Separate relationship-based investing from data-based investing.</li>
+  <li>Do not raise your lifestyle baseline just because income briefly rises.</li>
+  <li>Slow down major financial moves when health or emotional stability weakens.</li>
+</ul>
+<p>For many charts, physical burnout becomes financial leakage in 2026. Once pace control collapses, decision quality often follows. That is why wealth luck in this year is tied to rhythm management as much as to opportunity.</p>
+
+<h2 id="wealth-hacks">5. Practical Ways to Improve Wealth Fortune in 2026</h2>
+<p>You do not need mystical rituals to improve wealth flow in 2026. The most practical version of luck management is operational clarity: simplify fixed expenses, tighten collection cycles, define risk ceilings, and make sure extra revenue does not instantly become extra consumption.</p>
+<p>In short, <strong>2026 wealth fortune in Saju</strong> can be a year of real opportunity, but only if you treat momentum and preservation as a pair. The strongest charts this year are not always the ones that move fastest. They are often the ones that know when to stop leaking.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/saju/wealth-luck" style="text-decoration: underline; color: #f9d976;">[Related] The core theory behind the Wealth Star in Saju</a></p>
+  <p><a href="/en/saju/health-fortune-2026" style="text-decoration: underline; color: #f9d976;">[Related] Why health timing matters for money decisions in 2026</a></p>
+</div>
+</section>`,
+    faq: [
+      { q: '2026 재물운 사주가 좋으면 투자도 공격적으로 해도 되나요?', a: '그렇지 않습니다. 병오년은 속도를 붙여주지만 과열도 키우는 해라서, 투자운이 좋아 보여도 손실 한도와 현금 비중을 먼저 정하는 편이 안전합니다.' },
+      { q: '2026 재물 피크는 언제 강해지나요?', a: '대체로 봄 후반부터 초여름 사이가 계약과 수입 흐름이 빨라지기 쉬운 구간입니다. 다만 개인 사주에서 화 기운을 어떻게 받는지에 따라 체감 강도는 달라집니다.' },
+      { q: '재물운이 좋아도 돈이 안 남는 이유는 무엇인가요?', a: '수입 증가와 자산 증가가 같지 않기 때문입니다. 병오년에는 체면성 소비, 투자 과속, 건강 비용, 인간관계 지출이 같이 커질 수 있어 회수와 방어 전략이 중요합니다.' },
+    ],
+    faqEn: [
+      { q: 'If wealth fortune looks good in 2026, should I invest aggressively?', a: 'Not automatically. The Fire Horse year increases speed, but it can also increase overconfidence. A better approach is to define loss limits and liquidity rules before expanding risk.' },
+      { q: 'When is the strongest money timing in 2026?', a: 'Late spring through early summer is often the clearest earnings window, especially for work tied to visibility, sales, or action. The exact result still depends on how your natal chart receives Fire energy.' },
+      { q: 'Why can money luck improve but savings still stay weak?', a: 'Because higher income and stronger asset retention are not the same thing. In 2026, overspending, emotional decisions, and health-related leakage can rise alongside opportunity.' },
+    ],
+    relatedPosts: [
+      { slug: 'wealth-luck', category: 'saju', title: '사주 재물운: 재성(財星)으로 돈복 읽기' },
+      { slug: 'health-fortune-2026', category: 'saju', title: '2026 건강운 사주: 병오년 건강 위험 시기 분석' },
+    ],
+  },
+  {
+    slug: 'health-fortune-2026',
+    title: '2026 Health Fortune in Saju: Risk Timing and Body Stress in the Fire Horse Year',
+    seoTitle: '2026 건강운 사주: 병오년 오행으로 보는 건강 위험 시기',
+    seoTitleEn: '2026 Health Fortune in Saju: Risk Months and Body Stress',
+    description: '2026 건강운 사주를 찾는 사람을 위해 병오년 화기 과다 흐름, 취약 부위, 월별 건강 주의 시기, 무리하지 않기 위한 실전 관리 포인트를 정리했습니다.',
+    descriptionEn: 'This 2026 health fortune guide explains body stress patterns, vulnerable systems, caution months, and practical pacing strategies for the Fire Horse year.',
+    keywords: ['2026 건강운 사주', '사주 건강운 2026', '병오년 건강', '화기 과다 건강', '2026 질병 주의 시기'],
+    keywordsEn: ['Four Pillars health fortune 2026', 'Korean astrology health 2026', 'four pillars body luck 2026', 'fire horse year health risk', 'korean astrology wellness 2026'],
+    publishedAt: '2026-03-30',
+    category: 'saju',
+    toc: [
+      { id: 'health-fire-effect', title: '1. 2026 병오년이 건강운에 미치는 영향' },
+      { id: 'weak-body-patterns', title: '2. 2026년에 건강 부담이 커지기 쉬운 사주' },
+      { id: 'monthly-health-risk', title: '3. 월별 건강 주의 시기와 회복 구간' },
+      { id: 'warning-signs', title: '4. 병오년에 먼저 관리해야 할 신호' },
+      { id: 'health-routines', title: '5. 2026 건강운을 지키는 실전 개운법' },
+    ],
+    tocEn: [
+      { id: 'health-fire-effect', title: '1. How the Fire Horse Year Affects Health' },
+      { id: 'weak-body-patterns', title: '2. Charts More Likely to Feel Health Pressure in 2026' },
+      { id: 'monthly-health-risk', title: '3. Health Risk Months and Recovery Windows' },
+      { id: 'warning-signs', title: '4. Early Warning Signals to Watch in 2026' },
+      { id: 'health-routines', title: '5. Practical Ways to Protect Health Fortune in 2026' },
+    ],
+    contentKo: `<section>
+<p>2026 건강운 사주를 찾는 사람은 보통 "올해 크게 아플까?"보다 "언제 무리하면 위험해지나?"를 먼저 알고 싶어 합니다. 기본 체질과 오행 건강 해석이 궁금하다면 <a href="/saju/health-saju" style="text-decoration: underline; color: #f9d976;">사주 건강 기본 글</a>을 먼저 보고, 이 글에서는 <strong>병오년 화기 과다가 내 몸에 어떤 식으로 부담을 주는지</strong>를 시기 중심으로 읽으세요.</p>
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">먼저 보면 좋은 기준 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/saju/health-saju" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 건강 분석: 오행으로 보는 체질과 취약 부위</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/annual-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 세운 보는 법: 올해 리듬 읽는 기본 틀</a></li>
+  </ul>
+</div>
+<h2 id="health-fire-effect">1. 2026 병오년이 건강운에 미치는 영향</h2>
+<p>병오년은 화 기운이 강해지는 해라서 건강운도 <strong>과열, 염증, 심박수, 수면 리듬, 감정 소모</strong>와 연결되기 쉽습니다. 그래서 2026 건강운 사주는 특정 질병명을 단정하는 글이 아니라, 어디서 과부하가 걸리고 어느 달에 쉬어야 하는지를 읽는 실전형 가이드에 가깝습니다.</p>
+<p>화 기운은 활력을 주지만 과하면 심장·혈압 계통, 염증 반응, 두통, 눈 피로, 불면, 예민함이 동시에 올라올 수 있습니다. 올해 건강운은 참는 힘보다 <strong>멈추는 타이밍</strong>을 보는 것이 더 중요합니다.</p>
+<h2 id="weak-body-patterns">2. 2026년에 건강 부담이 커지기 쉬운 사주</h2>
+<ul>
+  <li>화 기운 과다 사주: 심장·혈압·수면 문제, 예민함, 염증성 반응이 커지기 쉽습니다.</li>
+  <li>수 기운 약한 구조: 회복력 저하, 탈진감, 열을 식히지 못하는 패턴이 나타날 수 있습니다.</li>
+  <li>목화가 강한 활동형 구조: 겉으로는 활력이 커 보여도 한여름 이후 급격한 소진이 올 수 있습니다.</li>
+</ul>
+<p>반대로 몸이 차고 늘 처지는 사주 중에는 2026년에 오히려 동력이 붙는 사람도 있습니다. 다만 활력 증가를 건강 호전으로 바로 착각하면 안 됩니다.</p>
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">내 사주 기준 2026 건강운 무료로 확인하기</a>
+</div>
+<h2 id="monthly-health-risk">3. 월별 건강 주의 시기와 회복 구간</h2>
+<p><strong>초여름부터 한여름</strong>은 화기가 가장 강하게 체감되는 구간입니다. 5월에서 8월 사이에는 잠을 줄이며 버티는 습관, 카페인 과다, 야근, 잦은 이동이 건강운을 크게 깎을 수 있습니다.</p>
+<p><strong>초가을</strong>은 누적 피로가 소화기, 피부, 면역 저하로 나타나기 쉬운 시기입니다. <strong>늦가을과 겨울 초입</strong>은 생활 리듬을 다시 잡기 좋은 시기입니다.</p>
+<h2 id="warning-signs">4. 병오년에 먼저 관리해야 할 신호</h2>
+<ul>
+  <li>잠들기 어렵고 자주 깨는 패턴이 2주 이상 이어진다.</li>
+  <li>심장이 두근거리거나 열감이 자주 올라온다.</li>
+  <li>눈 피로, 목 뻐근함, 두통이 일상화된다.</li>
+  <li>화를 참는 대신 몸이 먼저 지치는 느낌이 든다.</li>
+</ul>
+<p>이런 신호는 "아직 버틸 만하다"라고 넘기기 쉽지만, 병오년에는 누적이 빠르게 쌓입니다.</p>
+<h2 id="health-routines">5. 2026 건강운을 지키는 실전 개운법</h2>
+<p>2026년 건강운을 지키는 핵심은 <strong>열을 내리고 회복 루틴을 강제로 만드는 것</strong>입니다. 수면 시간을 먼저 고정하고, 고카페인 의존을 줄이고, 한여름에는 성과보다 체온과 수분 밸런스를 우선하세요. 올해 몸을 잘 지키는 사람은 큰 문제를 피하는 데서 끝나지 않고, 직업운과 재물운의 변동도 더 안정적으로 받아낼 수 있습니다.</p>
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/ko/saju/health-saju" style="text-decoration: underline; color: #f9d976;">[관련글] 오행 기준으로 보는 내 체질과 취약 부위</a></p>
+  <p><a href="/ko/saju/wealth-fortune-2026" style="text-decoration: underline; color: #f9d976;">[관련글] 2026 재물운 사주: 돈복을 지키려면 몸부터 봐야 하는 이유</a></p>
+</div>
+</section>`,
+    contentEn: `<section>
+<p>Most people searching for health fortune in Saju for 2026 are not really asking, "Will I get sick?" They are asking, "When do I need to slow down before my body forces me to?" If you want the Five Elements body theory first, read <a href="/en/saju/health-saju" style="text-decoration: underline; color: #f9d976;">the core health guide</a>. This article stays focused on how the Fire Horse year creates body stress, overheating, and timing risks.</p>
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">Read These First for Theory</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/saju/health-saju" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Five Elements body constitution in Saju</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/saju/annual-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">How yearly fortune changes practical timing</a></li>
+  </ul>
+</div>
+<h2 id="health-fire-effect">1. How the Fire Horse Year Affects Health</h2>
+<p>The Fire Horse year tends to push the body toward heat, speed, inflammation, tension, shallow rest, and emotional overactivation. A 2026 health reading is less about naming disease and more about identifying overload timing.</p>
+<p>Fire energy can improve vitality when a chart needs activation. But when it becomes excessive, it often shows up as sleep disruption, irritability, heat signs, headaches, heart-rate sensitivity, and burnout.</p>
+<h2 id="weak-body-patterns">2. Charts More Likely to Feel Health Pressure in 2026</h2>
+<ul>
+  <li>Fire-heavy charts: more likely to feel heat, insomnia, inflammation, blood-pressure stress, or emotional reactivity.</li>
+  <li>Water-weak structures: slower recovery and trouble cooling down under stress.</li>
+  <li>Highly active Wood-Fire patterns: strong visible energy followed by delayed exhaustion.</li>
+</ul>
+<p>Some colder charts may actually feel more alive in 2026, but that should not be confused with unlimited stamina.</p>
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">Check Your 2026 Health Flow Free</a>
+</div>
+<h2 id="monthly-health-risk">3. Health Risk Months and Recovery Windows</h2>
+<p><strong>Early summer through high summer</strong> is usually the strongest overload phase. From roughly May through August, reduced sleep, caffeine dependence, overwork, and travel can hit much harder than usual.</p>
+<p><strong>Early fall</strong> is often when the bill comes due. <strong>Late fall into early winter</strong> is often better for restoration.</p>
+<h2 id="warning-signs">4. Early Warning Signals to Watch in 2026</h2>
+<ul>
+  <li>Repeated sleep disruption.</li>
+  <li>Frequent heat, palpitations, or tension spikes.</li>
+  <li>Recurring headaches, neck tightness, or eye fatigue.</li>
+  <li>Feeling emotionally overloaded and physically drained at the same time.</li>
+</ul>
+<p>These signals often get ignored because they still seem manageable. In Fire-heavy years, that delay is costly.</p>
+<h2 id="health-routines">5. Practical Ways to Protect Health Fortune in 2026</h2>
+<p>The best luck management in 2026 is operational: fix sleep timing first, reduce overstimulation, pace caffeine, stay hydrated, and do not treat high output as proof that recovery is fine. If you manage that well, other parts of the year, including work and money, usually become easier to handle too.</p>
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/saju/health-saju" style="text-decoration: underline; color: #f9d976;">[Related] Your Five Elements constitution and vulnerable body zones</a></p>
+  <p><a href="/en/saju/wealth-fortune-2026" style="text-decoration: underline; color: #f9d976;">[Related] Why body pacing matters for money luck in 2026</a></p>
+</div>
+</section>`,
+    faq: [
+      { q: '2026 건강운 사주가 나쁘면 큰 병이 온다는 뜻인가요?', a: '그렇게 단정할 수는 없습니다. 건강운이 약하다는 말은 대개 과로, 수면 부족, 염증, 소화 문제처럼 누적 부담이 커지기 쉬운 해라는 뜻에 가깝습니다.' },
+      { q: '2026년에 가장 먼저 조심해야 할 건강 신호는 무엇인가요?', a: '잠이 줄고 열감이 오르며 예민함이 커지는 패턴을 먼저 보세요. 병오년은 초반 신호를 무시하면 체력 저하가 빠르게 누적되기 쉽습니다.' },
+      { q: '건강운이 약한 달에는 무엇을 줄이는 것이 좋나요?', a: '야근, 과도한 카페인, 잦은 이동, 감정 소모가 큰 관계를 먼저 줄이는 것이 좋습니다.' },
+    ],
+    faqEn: [
+      { q: 'Does weak health fortune in 2026 mean a major illness is guaranteed?', a: 'No. It more often means the year increases overload risk through stress, heat, sleep disruption, inflammation, or delayed recovery.' },
+      { q: 'What is the earliest health warning sign to watch in 2026?', a: 'Repeated sleep disruption, heat, irritability, and fast fatigue are strong early signals.' },
+      { q: 'What should I reduce first during weaker health months?', a: 'Start by reducing overwork, excess caffeine, unnecessary travel, and emotionally draining commitments.' },
+    ],
+    relatedPosts: [
+      { slug: 'health-saju', category: 'saju', title: '사주 건강 분석 | 오행으로 보는 체질과 건강 위험 시기' },
+      { slug: 'wealth-fortune-2026', category: 'saju', title: '2026 재물운 사주: 돈복 흐름과 투자 주의 시기' },
+    ],
+  },
+  {
+    slug: 'career-change-2026',
+    title: '2026 Career Change Fortune in Saju: Job Shift and Promotion Timing in the Fire Horse Year',
+    seoTitle: '2026 이직운 사주: 병오년 직장 변화 시기 분석',
+    seoTitleEn: '2026 Career Change Fortune in Saju: Job Shift Timing',
+    description: '2026 이직운 사주를 찾는 사람을 위해 병오년 직장 변화 흐름, 이직 타이밍, 무리한 퇴사와 충동 결정을 피하는 기준을 정리했습니다.',
+    descriptionEn: 'This 2026 career change guide explains job-shift timing, promotion windows, risky resignation periods, and how the Fire Horse year affects work momentum.',
+    keywords: ['2026 이직운 사주', '사주 이직 시기 2026', '병오년 직장운', '이직 좋은 시기 2026', '사주 직장 변화'],
+    keywordsEn: ['Four Pillars career fortune 2026', 'Korean astrology job change 2026', 'four pillars work luck 2026', 'fire horse year career timing', 'korean astrology career reading 2026'],
+    publishedAt: '2026-03-30',
+    category: 'saju',
+    toc: [
+      { id: 'career-fire-effect', title: '1. 병오년에 직장 변화 욕구가 커지는 이유' },
+      { id: 'career-strong-charts', title: '2. 떠나는 사람과 남는 사람이 갈리는 사주' },
+      { id: 'career-monthly-flow', title: '3. 채용 공고·면접·결정이 잘 맞는 시기' },
+      { id: 'resignation-risks', title: '4. 충동 퇴사로 망치는 패턴' },
+      { id: 'career-hacks', title: '5. 이직운을 결과로 바꾸는 실행 순서' },
+    ],
+    tocEn: [
+      { id: 'career-fire-effect', title: '1. How the Fire Horse Year Changes Career Movement' },
+      { id: 'career-strong-charts', title: '2. Charts with Stronger Job-Change or Promotion Luck' },
+      { id: 'career-monthly-flow', title: '3. Best Timing for Switching Jobs and Times to Delay' },
+      { id: 'resignation-risks', title: '4. How to Avoid Impulsive Resignation and Conflict' },
+      { id: 'career-hacks', title: '5. Practical Ways to Use 2026 Career Fortune Well' },
+    ],
+    contentKo: `<section>
+<p>2026 이직운 사주를 검색하는 사람은 대개 "올해 옮겨도 되나?", "승진운이 붙는 해인가?", "지금 회사를 버텨야 하나?"를 같이 묻습니다. 직업운 기본 구조가 궁금하다면 <a href="/saju/career-star" style="text-decoration: underline; color: #f9d976;">관성 이론 글</a>을 먼저 보고, 여기서는 <strong>병오년 세운이 직장 변화와 승진 타이밍을 어떻게 밀어 올리는지</strong>만 집중해서 읽는 것이 좋습니다.</p>
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">먼저 보면 좋은 기준 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/saju/career-star" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 관성으로 보는 직업운: 조직 적성과 성공 시기</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/annual-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">세운으로 올해 변화 운 읽는 법</a></li>
+  </ul>
+</div>
+<h2 id="career-fire-effect">1. 2026 병오년이 직장 변화에 미치는 영향</h2>
+<p>병오년은 드러남과 속도가 커지는 해라서 직장 안에서도 <strong>역할 재배치, 평가 압박, 팀 이동, 이직 욕구</strong>가 커질 수 있습니다. 그래서 2026 이직운 사주는 지금 자리를 확장해야 하는지, 옮기는 것이 맞는지, 아니면 버티면서 준비하는 것이 맞는지를 나눠 보는 글에 가깝습니다.</p>
+<p>화 기운은 성과를 드러내고 경쟁을 심화시키는 힘이 있어, 숨은 실력이 있는 사람에게는 기회가 되지만, 이미 지쳐 있던 사람에게는 번아웃을 앞당길 수 있습니다.</p>
+<h2 id="career-strong-charts">2. 2026 이직운과 승진운이 강한 사주</h2>
+<ul>
+  <li>목·화 계열 일부: 존재감과 발표력, 추진력이 올라가 승진운이나 이동 제안을 받기 쉽습니다.</li>
+  <li>관성이 원국에 있으나 눌려 있던 구조: 책임이 늘고 직책이 선명해질 수 있습니다.</li>
+  <li>식상과 실행력이 강한 구조: 이직보다 프로젝트 확장, 직무 변경, 창업 준비로 먼저 움직일 수 있습니다.</li>
+</ul>
+<p>반대로 수 일간이나 금 일간 일부는 2026년에 회사 스트레스가 강해지면서 "당장 나가고 싶다"는 마음이 커질 수 있습니다. 하지만 이직운이 있다는 것과 충동 퇴사가 맞다는 것은 다릅니다.</p>
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">내 사주 기준 2026 이직운 무료로 확인하기</a>
+</div>
+<h2 id="career-monthly-flow">3. 채용 공고·면접·결정이 잘 맞는 시기</h2>
+<p>이직운은 단순 계절감보다 채용 시장 리듬과 내 심리 리듬이 맞는지가 중요합니다.</p>
+<h3>공고 탐색과 서류 정비가 잘 되는 시기</h3>
+<p>연초는 감정적으로 확 뛰기보다 이력서, 포트폴리오, 직무 정리, 산업군 탐색을 하기에 좋은 시기입니다. 이 단계가 약하면 나중에 좋은 공고가 떠도 제대로 못 잡습니다.</p>
+<h3>면접과 제안 반응이 빨라지는 시기</h3>
+<p>2분기 전후는 외부 반응이 붙기 쉬운 시기라 실제 지원, 네트워킹, 인터뷰 진행에 강합니다. 올해 이직운의 핵심 승부처는 이 시기에 얼마나 정돈된 상태로 시장에 나가느냐입니다.</p>
+<h3>퇴사 결론은 늦게 내리는 편이 좋은 시기</h3>
+<p>여름 이후에는 직장 피로와 감정 반응이 커져 "그만두고 싶다"는 마음이 실제 조건보다 앞서기 쉽습니다. 이때는 퇴사 확정 대신 제안 비교표와 현금 보유 기간부터 계산하는 편이 안전합니다.</p>
+<h2 id="resignation-risks">4. 충동 퇴사로 망치는 패턴</h2>
+<ul>
+  <li>퇴사 결정을 하기 전에 4주 이상 동일한 생각이 유지되는지 본다.</li>
+  <li>퇴사 사유를 감정, 조건, 성장성으로 분리해서 적어 본다.</li>
+  <li>건강이 무너진 상태에서는 연봉 제안도 과대평가하거나 과소평가하기 쉽다는 점을 기억한다.</li>
+</ul>
+<p>특히 2026 승진운이 들어오는 사람은 업무량이 늘면서 "힘드니 그만두고 싶다"는 생각이 같이 올 수 있습니다.</p>
+<h2 id="career-hacks">5. 이직운을 결과로 바꾸는 실행 순서</h2>
+<p>올해는 1) 직무 정의, 2) 시장 테스트, 3) 제안 비교, 4) 퇴사 결론 순서로 가는 것이 가장 안전합니다. 병오년 직장운은 기회와 피로가 같이 오기 때문에, 순서를 거꾸로 하면 좋은 이직운도 소모전으로 끝나기 쉽습니다.</p>
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/ko/saju/career-star" style="text-decoration: underline; color: #f9d976;">[관련글] 관성 이론으로 보는 직업운과 조직 적성</a></p>
+  <p><a href="/ko/saju/business-fortune-2026" style="text-decoration: underline; color: #f9d976;">[관련글] 2026 사업운 사주: 이직 대신 창업이 맞는 흐름인지 보기</a></p>
+</div>
+</section>`,
+    contentEn: `<section>
+<p>People searching for career change fortune in Saju for 2026 usually want to know three things at once: should I move, should I stay, and is this a promotion year or a burnout year? If you want the theory first, read <a href="/en/saju/career-star" style="text-decoration: underline; color: #f9d976;">the core Career Star guide</a>. This article stays focused on how the Fire Horse year changes job movement, promotion pressure, and resignation timing.</p>
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">Read These First for Theory</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/saju/career-star" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">How the Career Star works in Korean astrology</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/saju/annual-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">How annual fortune changes practical timing</a></li>
+  </ul>
+</div>
+<h2 id="career-fire-effect">1. How the Fire Horse Year Changes Career Movement</h2>
+<p>The Fire Horse year increases visibility, pressure, competition, and role acceleration. That can mean team reshuffles, stronger performance evaluation, faster project changes, promotion pressure, or a much stronger urge to leave.</p>
+<h2 id="career-strong-charts">2. Charts with Stronger Job-Change or Promotion Luck</h2>
+<ul>
+  <li>Some Wood and Fire Day Masters: stronger presence, better presentation, faster recognition.</li>
+  <li>Charts with usable Career Star energy already present: titles and responsibility may become clearer.</li>
+  <li>Output-driven charts: role change, project expansion, consulting, or transition into independent work may accelerate.</li>
+</ul>
+<p>Some Metal and Water structures may feel the year as pressure before opportunity. Promotion pressure and escape psychology have to be separated carefully.</p>
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">Check Your 2026 Career Change Flow Free</a>
+</div>
+<h2 id="career-monthly-flow">3. When the Job Market Opens and When to Hold Your Decision</h2>
+<p>Career timing in 2026 is more useful when read against the actual hiring cycle rather than just seasonal mood.</p>
+
+<h3>Resume preparation and market research window (January–February)</h3>
+<p>Before the main hiring cycle opens, January and February work well for updating resume and portfolio, identifying target companies and industries, and clarifying what kind of role actually fits. If this prep is weak, you will miss or misread the opportunities that come later.</p>
+
+<h3>Peak interview and offer window (March–May)</h3>
+<p>Spring marks the first major hiring surge of the year in Korea and many international markets. Applications, recruiter contacts, interviews, and offers tend to cluster here. If you want to use 2026 job-change luck effectively, this is when to be in the market, not when to be still deciding whether to move.</p>
+
+<h3>High pressure, high caution period (June–August)</h3>
+<p>Fatigue, frustration, and summer work pressure often make resignation feel urgent. But hiring activity drops in midsummer, and decisions made from peak emotional stress often go wrong. This is not the window to quit impulsively — it is the window to compare options carefully and calculate runway.</p>
+
+<h3>Second hiring surge and salary negotiation window (September–November)</h3>
+<p>The second major hiring cycle of the year often runs from September through November. It is also when current-employer salary reviews happen. Whether you are targeting an outside move or negotiating internally, the groundwork should start in August.</p>
+<h2 id="resignation-risks">4. How to Avoid Impulsive Resignation and Conflict</h2>
+<ul>
+  <li>See whether the resignation impulse stays stable for at least several weeks.</li>
+  <li>Separate the reason into emotion, conditions, and growth blockage.</li>
+  <li>Remember that burnout changes how you judge both risk and reward.</li>
+</ul>
+<p>For some people, 2026 brings promotion luck and overload at the same time.</p>
+<h2 id="career-hacks">5. Practical Ways to Use 2026 Career Fortune Well</h2>
+<p>Keep the resume open, take conversations seriously, test the market, but delay irreversible exits until the move is supported by timing and structure. The best outcomes usually come to people who move with preparation, not just with heat.</p>
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/saju/career-star" style="text-decoration: underline; color: #f9d976;">[Related] The core Career Star theory behind work luck</a></p>
+  <p><a href="/en/saju/business-fortune-2026" style="text-decoration: underline; color: #f9d976;">[Related] When 2026 favors business over job change</a></p>
+</div>
+</section>`,
+    faq: [
+      { q: '2026 이직운이 강하면 무조건 회사를 옮기는 게 맞나요?', a: '아닙니다. 이직운은 변화 가능성이 커진다는 뜻이지, 무조건 퇴사가 정답이라는 뜻은 아닙니다. 승진, 직무 이동, 부서 변경으로 풀리는 경우도 많습니다.' },
+      { q: '2026 승진운과 이직운은 어떻게 구분하나요?', a: '책임과 역할은 늘지만 자리 자체는 유지되는 흐름이면 승진운 쪽이고, 환경과 조직이 바뀌는 흐름이면 이직운 쪽으로 보는 편이 맞습니다.' },
+      { q: '충동 퇴사를 피하려면 언제까지 판단을 미루는 게 좋나요?', a: '감정이 가장 과열되는 한여름에는 즉시 결론을 내리기보다 4주 이상 생각이 유지되는지 보고 판단하는 편이 안전합니다.' },
+    ],
+    faqEn: [
+      { q: 'If job-change luck is strong in 2026, should I definitely leave my company?', a: 'No. Strong movement can show up as promotion, role change, internal transfer, or market testing, not only resignation.' },
+      { q: 'How do I separate promotion luck from job-change luck?', a: 'If responsibility and visibility increase while the structure stays similar, that is closer to promotion luck. If the environment or employer changes, it leans more toward job-change luck.' },
+      { q: 'How can I avoid impulsive resignation in 2026?', a: 'Do not decide from peak emotional heat. Let the impulse stay stable for a while and compare it against a concrete next-step plan.' },
+    ],
+    relatedPosts: [
+      { slug: 'career-star', category: 'saju', title: '관성(官星)으로 보는 직업운' },
+      { slug: 'business-fortune-2026', category: 'saju', title: '2026 사업운 사주: 창업·사업 흐름 분석' },
+    ],
+  },
+  {
+    slug: 'marriage-fortune-2026',
+    title: '2026 Marriage Fortune in Saju: Wedding Timing and Commitment Flow in the Fire Horse Year',
+    seoTitle: '2026 결혼운 사주: 병오년 결혼 시기와 진행 흐름',
+    seoTitleEn: '2026 Marriage Fortune in Saju: Wedding Timing and Commitment Flow',
+    description: '2026 결혼운 사주를 찾는 사람을 위해 병오년 결혼 시기, 결혼 이야기 진행이 빨라지는 달, 결혼운이 강한 사주 조합과 주의 포인트를 정리했습니다.',
+    descriptionEn: 'This 2026 marriage fortune guide explains wedding timing, commitment momentum, stronger chart combinations, and caution periods in the Fire Horse year.',
+    keywords: ['2026 결혼운 사주', '사주 결혼운 2026', '병오년 결혼 시기', '2026 결혼 좋은 달', '결혼운 강한 사주'],
+    keywordsEn: ['Four Pillars marriage fortune 2026', 'Korean astrology wedding timing 2026', 'four pillars marriage luck 2026', 'fire horse year marriage timing', 'korean astrology marriage reading 2026'],
+    publishedAt: '2026-03-30',
+    category: 'saju',
+    toc: [
+      { id: 'marriage-fire-effect', title: '1. 연애운과 결혼운이 갈리는 2026 포인트' },
+      { id: 'marriage-strong-charts', title: '2. 결혼 얘기가 실제로 앞으로 가는 커플형 사주' },
+      { id: 'marriage-monthly-flow', title: '3. 상견례·식장·입주 준비가 잘 맞는 시기' },
+      { id: 'marriage-cautions', title: '4. 식부터 잡았다가 흔들리는 패턴' },
+      { id: 'marriage-hacks', title: '5. 올해 결혼 결정을 안정적으로 만드는 체크리스트' },
+    ],
+    tocEn: [
+      { id: 'marriage-fire-effect', title: '1. How the Fire Horse Year Changes Marriage Timing' },
+      { id: 'marriage-strong-charts', title: '2. Chart Patterns with Stronger Marriage Momentum' },
+      { id: 'marriage-monthly-flow', title: '3. Best Timing for Commitment Talks and Weddings' },
+      { id: 'marriage-cautions', title: '4. What to Watch Before Rushing Marriage in 2026' },
+      { id: 'marriage-hacks', title: '5. How to Use 2026 Marriage Fortune More Safely' },
+    ],
+    contentKo: `<section>
+<p>2026 결혼운 사주를 찾는 사람은 "올해 결혼 이야기가 실제로 진행될까?", "언제 식을 잡는 게 좋을까?"를 같이 궁금해합니다. 이 글은 연애운 일반론이 아니라 <strong>병오년 세운이 관계를 결론 쪽으로 밀어붙이는 힘</strong>을 읽는 글입니다. 연애와 배우자 이론부터 보고 싶다면 <a href="/saju/love-marriage" style="text-decoration: underline; color: #f9d976;">사주 연애·결혼 기본 글</a>을 먼저 확인하세요.</p>
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">먼저 보면 좋은 기준 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/saju/love-marriage" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 연애운·결혼운 기본 이론 먼저 보기</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/love-fortune-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">2026 연애운 사주: 인연과 감정 흐름 먼저 점검하기</a></li>
+  </ul>
+</div>
+<h2 id="marriage-fire-effect">1. 2026 병오년이 결혼운에 미치는 영향</h2>
+<p>병오년은 관계를 뜨겁게 만들 뿐 아니라 <strong>정리와 결정</strong>도 빠르게 당기는 해입니다. 그래서 2026 결혼운 사주는 관계가 공식화되는 속도, 부모 상견례나 동거 논의가 붙는 시기, 결혼을 서두를 때 생기는 마찰을 함께 봐야 합니다.</p>
+<h2 id="marriage-strong-charts">2. 2026 결혼운이 강해지는 사주 조합</h2>
+<ul>
+  <li>연애는 오래 했지만 결혼 결정이 늦던 커플형 사주: 관계 정의가 빨라질 수 있습니다.</li>
+  <li>재성·관성 흐름이 올해 활성화되는 구조: 배우자성과 책임감이 같이 올라옵니다.</li>
+  <li>원국에서 관계는 안정적인데 외부 타이밍이 부족했던 경우: 상견례, 날짜 확정, 동거 논의가 붙기 쉽습니다.</li>
+</ul>
+<p>반대로 감정은 강하지만 현실 조정력이 약한 사주는 2026년에 결혼운이 들어와도 다툼과 급한 결론으로 흔들릴 수 있습니다.</p>
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">내 사주 기준 2026 결혼운 무료로 확인하기</a>
+</div>
+<h2 id="marriage-monthly-flow">3. 상견례·식장·입주 준비가 잘 맞는 시기</h2>
+<p>결혼운은 "감정이 뜨거운 달"과 "실무가 잘 풀리는 달"이 다를 수 있습니다.</p>
+<h3>상견례와 가족 대화가 풀리기 쉬운 시기</h3>
+<p>연애 감정이 무르익은 직후보다, 서로 역할 분담 이야기를 시작할 수 있는 초반 안정 구간이 더 좋습니다. 이때는 결혼 얘기를 처음 꺼내도 대화가 크게 틀어지지 않는 편입니다.</p>
+<h3>식장과 날짜를 빠르게 잡고 싶어지는 시기</h3>
+<p>중반부에는 추진력이 붙어 예약, 계약, 일정 확정을 빨리 하고 싶어집니다. 하지만 이 시기엔 예산과 주거 준비가 따라오지 않으면 식만 빨리 잡고 관계 피로가 커질 수 있습니다.</p>
+<h3>입주와 실생활 조율이 잘 되는 시기</h3>
+<p>후반부는 감정보다 생활 감각이 살아나는 시기라 집, 생활비, 양가 일정 조율이 더 잘 됩니다. 결혼운을 실제 결혼생활로 연결하려면 이 구간의 안정감이 중요합니다.</p>
+<h2 id="marriage-cautions">4. 식부터 잡았다가 흔들리는 패턴</h2>
+<ul>
+  <li>연애 기간보다 생활 패턴 합이 맞는지 먼저 본다.</li>
+  <li>결혼 예산과 주거 계획을 감정과 분리해 적어 본다.</li>
+  <li>양가 조율 스트레스를 감정 문제로 오해하지 않는다.</li>
+</ul>
+<p>특히 2026년에는 결혼과 동시에 이사, 직장 변화, 투자까지 겹치면 피로가 크게 올라갑니다.</p>
+<h2 id="marriage-hacks">5. 올해 결혼 결정을 안정적으로 만드는 체크리스트</h2>
+<p>올해 결혼운을 잘 쓰는 방법은 감정, 예산, 주거, 가족 조율을 같은 속도로 맞추는 것입니다. 2026 결혼은 "빨리"보다 "정확하게" 가는 쪽이 결과가 좋습니다.</p>
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/ko/saju/love-marriage" style="text-decoration: underline; color: #f9d976;">[관련글] 사주에서 연애와 결혼을 읽는 기본 원리</a></p>
+  <p><a href="/ko/saju/love-fortune-2026" style="text-decoration: underline; color: #f9d976;">[관련글] 2026 연애운 사주: 결혼 전 감정 흐름 먼저 보기</a></p>
+</div>
+</section>`,
+    contentEn: `<section>
+<p>People searching for marriage fortune in Saju for 2026 usually want to know whether commitment will actually move this year and when wedding timing is strongest. This article focuses on how the Fire Horse year pushes relationships toward decisions and formal steps. If you want the base theory first, start with <a href="/en/saju/love-marriage" style="text-decoration: underline; color: #f9d976;">the core love and marriage guide</a>.</p>
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">Read These First for Context</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/saju/love-marriage" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">General Saju theory for love and marriage</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/saju/love-fortune-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">2026 romance timing before commitment timing</a></li>
+  </ul>
+</div>
+<h2 id="marriage-fire-effect">1. How the Fire Horse Year Changes Marriage Timing</h2>
+<p>The Fire Horse year does not only intensify feelings. It also accelerates decisions. That makes 2026 especially relevant for engagement talks, parent introductions, cohabitation, and wedding planning.</p>
+<h2 id="marriage-strong-charts">2. Chart Patterns with Stronger Marriage Momentum</h2>
+<ul>
+  <li>Long-term relationships waiting for a concrete decision.</li>
+  <li>Charts where spouse-related stars activate together with responsibility timing.</li>
+  <li>Stable relationship structures that lacked external timing until now.</li>
+</ul>
+<p>By contrast, charts with strong emotion but weak practical coordination may feel the year as pressure rather than clean commitment.</p>
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">Check Your 2026 Marriage Flow Free</a>
+</div>
+<h2 id="marriage-monthly-flow">3. When Commitment Talks and Wedding Planning Actually Move</h2>
+<p>Marriage timing is not just about when emotion runs strong. It is about when logistics, family dynamics, and practical readiness also align.</p>
+
+<h3>Family introduction and early commitment talks (January–March)</h3>
+<p>In Korea, the period around Lunar New Year often creates natural openings for meeting families and beginning formal conversations. Couples whose marriage fortune activates early in 2026 may find January through March to be the clearest window to move from a private relationship to a public one.</p>
+
+<h3>Peak wedding booking window (April–June)</h3>
+<p>Spring is the first major wedding season in Korea. Venues, studio photography, and honeymoon packages book out months in advance. If a couple wants a spring wedding, venue contracts typically need to be signed by the prior fall or at the very latest in January. If commitment talks start moving in early 2026, this window may be more of a deadline than a choice.</p>
+
+<h3>Conflict pressure zone (July–August)</h3>
+<p>Wedding preparation often peaks in frustration during summer. Budget disagreements, family scheduling conflicts, and role-division friction tend to feel worse when combined with heat and overload. The relationship itself is usually fine. The execution pressure is what strains it.</p>
+
+<h3>Autumn wedding season and next-year planning (October–November)</h3>
+<p>Fall is the second major wedding season. Couples who began their commitment process mid-year often aim for October or November. Those still in early talks may find this window better for locking in a clear direction and booking 2027 spring dates before the cycle resets.</p>
+<h2 id="marriage-cautions">4. What to Watch Before Rushing Marriage in 2026</h2>
+<ul>
+  <li>Check lifestyle compatibility before relying on emotional intensity.</li>
+  <li>Separate wedding budget and housing planning from romantic mood.</li>
+  <li>Do not misread family coordination stress as pure relationship failure.</li>
+</ul>
+<p>Marriage, relocation, job change, and investment all at once can overload the year.</p>
+<h2 id="marriage-hacks">5. How to Use 2026 Marriage Fortune More Safely</h2>
+<p>Let emotion create clarity, but let reality set the pace. The Fire Horse year can push a relationship toward conclusion, but the strongest results usually come from precision, not speed.</p>
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/saju/love-marriage" style="text-decoration: underline; color: #f9d976;">[Related] The core theory behind love and marriage in Saju</a></p>
+  <p><a href="/en/saju/love-fortune-2026" style="text-decoration: underline; color: #f9d976;">[Related] Read 2026 romance timing before wedding timing</a></p>
+</div>
+</section>`,
+    faq: [
+      { q: '2026 결혼운이 강하면 바로 식을 잡아도 되나요?', a: '결혼운이 강하다는 말은 결심과 추진력이 붙는다는 뜻이지, 준비가 자동으로 끝난다는 뜻은 아닙니다. 예산, 주거, 양가 조율이 따라오는지 함께 봐야 합니다.' },
+      { q: '2026 연애운과 결혼운은 어떻게 다르게 봐야 하나요?', a: '연애운은 만남과 감정 흐름을 더 보고, 결혼운은 관계 공식화와 생활 결합, 책임 분담이 가능한 시기를 더 봅니다.' },
+      { q: '결혼운이 있어도 파혼이나 갈등이 생길 수 있나요?', a: '그럴 수 있습니다. 병오년은 결론을 빠르게 당기는 힘이 있어 준비 부족과 가치관 차이도 빨리 드러날 수 있습니다.' },
+    ],
+    faqEn: [
+      { q: 'If marriage luck is strong in 2026, should we book the wedding immediately?', a: 'Not automatically. Strong marriage luck means commitment energy is active, but budget, housing, family coordination, and daily-life structure still need to support the decision.' },
+      { q: 'How is marriage luck different from romance luck in 2026?', a: 'Romance luck is more about attraction and relationship movement. Marriage luck is more about formal steps, commitment, and practical readiness.' },
+      { q: 'Can marriage luck be strong and still lead to conflict?', a: 'Yes. The Fire Horse year speeds up conclusions, which means weak planning or mismatched values can also surface faster.' },
+    ],
+    relatedPosts: [
+      { slug: 'love-marriage', category: 'saju', title: '사주 연애운·결혼운 완전 해설 | 재성·관성으로 배우자 찾기' },
+      { slug: 'love-fortune-2026', category: 'saju', title: '2026 연애운 사주: 병오년 인연·연애 시기 분석' },
+    ],
+  },
+  {
+    slug: 'business-fortune-2026',
+    title: '2026 Business Fortune in Saju: Startup and Expansion Timing in the Fire Horse Year',
+    seoTitle: '2026 사업운 사주: 병오년 창업·사업 흐름 분석',
+    seoTitleEn: '2026 Business Fortune in Saju: Startup and Expansion Timing',
+    description: '2026 사업운 사주를 찾는 사람을 위해 병오년 창업 흐름, 사업 확장 타이밍, 업종별 체감 차이, 무리한 확장을 피하는 기준을 정리했습니다.',
+    descriptionEn: 'This 2026 business fortune guide covers startup timing, expansion windows, business-risk pacing, and how the Fire Horse year affects entrepreneurship.',
+    keywords: ['2026 사업운 사주', '사주 사업운 2026', '병오년 창업운', '2026 창업 좋은 시기', '사주 자영업 운세'],
+    keywordsEn: ['Four Pillars business fortune 2026', 'Korean astrology startup luck 2026', 'four pillars entrepreneurship 2026', 'fire horse year business timing', 'korean astrology self-employment 2026'],
+    publishedAt: '2026-03-30',
+    category: 'saju',
+    toc: [
+      { id: 'business-fire-effect', title: '1. 병오년에 사업이 빨라지는 방식' },
+      { id: 'business-strong-charts', title: '2. 창업형·자영업형·확장형 사주 구분' },
+      { id: 'business-monthly-flow', title: '3. 론칭·재투자·축소가 잘 맞는 시즌' },
+      { id: 'business-risks', title: '4. 사장 체력과 자금 압박을 같이 봐야 하는 이유' },
+      { id: 'business-hacks', title: '5. 2026 사업운을 숫자로 관리하는 법' },
+    ],
+    tocEn: [
+      { id: 'business-fire-effect', title: '1. How the Fire Horse Year Changes Business Fortune' },
+      { id: 'business-strong-charts', title: '2. Charts with Stronger Startup and Business Momentum' },
+      { id: 'business-monthly-flow', title: '3. Best Timing for Launch and Expansion' },
+      { id: 'business-risks', title: '4. How to Avoid Overexpansion and Cash Pressure' },
+      { id: 'business-hacks', title: '5. Practical Strategies for 2026 Business Fortune' },
+    ],
+    contentKo: `<section>
+<p>2026 사업운 사주를 찾는 사람은 "올해 창업해도 되나?", "확장 타이밍이 맞나?", "자영업 운세는 어떤가?"를 함께 묻습니다. 이 글은 일반적인 재성·식상 이론보다, <strong>병오년 세운이 사업과 창업, 그리고 자영업 운영 속도를 어떻게 끌어올리는지</strong>에 초점을 둡니다.</p>
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">함께 보면 기준이 또렷해지는 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/saju/wealth-luck" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">재성으로 보는 돈 흐름과 사업 감각</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/career-change-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">2026 이직운 사주: 회사에 남을지 나올지 판단 기준</a></li>
+  </ul>
+</div>
+<h2 id="business-fire-effect">1. 2026 병오년이 사업운에 미치는 영향</h2>
+<p>병오년은 노출, 홍보, 실행 속도, 경쟁 심리가 강해지는 해라서 창업과 사업 확장도 빠르게 움직일 수 있습니다. 그래서 2026 사업운 사주는 <strong>얼마나 빨리 시장 반응을 만들 수 있는지</strong>, 그리고 그 속도를 감당할 운영력이 있는지를 같이 보는 글입니다.</p>
+<h2 id="business-strong-charts">2. 창업형·자영업형·확장형 사주 구분</h2>
+<ul>
+  <li>식상과 재성 흐름이 살아 있는 사주: 아이디어를 바로 매출로 연결하기 쉬운 구조라 2026년에 수익 전환 속도가 빨라질 수 있습니다.</li>
+  <li>목화 계열 일부: 브랜딩, 콘텐츠, 교육, 미디어, 온라인 마케팅처럼 노출이 수익과 직결되는 사업에서 유리합니다.</li>
+  <li>토 계열 일부: 운영과 고객 관리 능력이 강해 자영업, 요식업, 오프라인 서비스업처럼 반복 고객을 기반으로 하는 업종에서 강점을 보일 수 있습니다.</li>
+  <li>수 계열 일부: 분석, 전략, 컨설팅, 데이터 기반 서비스처럼 조용한 전문성이 핵심인 업종에서 안정적인 성과를 낼 수 있습니다.</li>
+</ul>
+<p>2026 자영업 운세는 특히 <strong>오프라인 고객 접점이 있는 업종</strong>에서 화 기운이 홍보와 구전 효과로 작동할 가능성이 있습니다. 단골 기반 자영업자라면 신규 고객 유입보다 기존 고객의 재구매율과 추천 경로를 더 먼저 관리하는 것이 효율적입니다.</p>
+<p>반대로 금·수 계열 일부는 분석은 좋지만 실행 타이밍이 과열되면 자금 압박을 크게 느낄 수 있습니다.</p>
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">내 사주 기준 2026 사업운 무료로 확인하기</a>
+</div>
+<h2 id="business-monthly-flow">3. 론칭·재투자·축소가 잘 맞는 시즌</h2>
+<p><strong>연초</strong>는 업종 테스트, 메뉴 수정, 가격표 조정, 채널 세팅에 강합니다. <strong>상반기 중반</strong>은 실제 론칭과 광고 반응 체크에 좋고, <strong>휴가철 이후</strong>는 자영업 운영비와 재고를 다시 조정하기 좋은 시기입니다. <strong>연말</strong>은 확장보다 손익 정리에 더 강합니다.</p>
+<h2 id="business-risks">4. 사장 체력과 자금 압박을 같이 봐야 하는 이유</h2>
+<ul>
+  <li>고정비를 매출보다 먼저 키우지 않는다.</li>
+  <li>광고 성과와 실제 재구매를 분리해 본다.</li>
+  <li>사업 확장 시 건강과 생활 리듬이 무너지지 않는지 같이 본다.</li>
+</ul>
+<p>올해 사업운은 불씨가 잘 붙는 해지만, 불씨가 붙었다고 모든 것을 동시에 키우면 오히려 소모만 커질 수 있습니다.</p>
+<h2 id="business-hacks">5. 2026 사업운을 숫자로 관리하는 법</h2>
+<p>2026 사업운 사주를 잘 쓰는 방법은 감이 아니라 숫자로 속도를 제어하는 것입니다. 올해는 테스트와 노출에는 적극적으로 움직이되, 임대·인력·대출처럼 되돌리기 어려운 선택은 주간 매출, 재구매율, 고정비 비중을 확인한 뒤 가는 편이 맞습니다.</p>
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/ko/saju/wealth-luck" style="text-decoration: underline; color: #f9d976;">[관련글] 재성 이론으로 보는 돈 흐름과 사업 감각</a></p>
+  <p><a href="/ko/saju/career-change-2026" style="text-decoration: underline; color: #f9d976;">[관련글] 2026 이직운 사주: 사업 대신 회사가 맞는 흐름인지 보기</a></p>
+</div>
+</section>`,
+    contentEn: `<section>
+<p>People searching for business fortune in Saju for 2026 usually want to know whether this is a startup year, an expansion year, or a year to stay smaller and protect cash. This article focuses on how the Fire Horse year changes startup timing, market exposure, and business risk pacing.</p>
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">Read These First for Context</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/saju/wealth-luck" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Wealth flow and business sense through the Wealth Star</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/saju/career-change-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">When 2026 favors job change instead of business</a></li>
+  </ul>
+</div>
+<h2 id="business-fire-effect">1. How the Fire Horse Year Changes Business Fortune</h2>
+<p>The Fire Horse year strengthens exposure, branding, speed, launch energy, and competition. That can be excellent for entrepreneurship, sales-based work, and public-facing business.</p>
+<h2 id="business-strong-charts">2. Charts with Stronger Startup and Business Momentum</h2>
+<ul>
+  <li>Charts where output and wealth flow work well together: ideas can convert into revenue faster in 2026.</li>
+  <li>Some Wood-Fire structures: stronger fit for branding, content, education, media, and online marketing where visibility directly affects income.</li>
+  <li>Some Earth structures: stronger fit for small business operations, food service, and offline service models built on repeat customers.</li>
+  <li>Some Water structures: more stable results in analysis-heavy, strategic, consulting, and data-driven service businesses.</li>
+</ul>
+<p>In 2026, small business fortune may be especially responsive in <strong>offline customer-facing sectors</strong>, where Fire energy can amplify word-of-mouth and local visibility. For owner-operators, repeat-purchase rate and referral flow often matter more than raw new-customer traffic.</p>
+<p>Some Metal and Water charts may still do well, but they often need stricter pacing around cash flow and energy management.</p>
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">Check Your 2026 Business Flow Free</a>
+</div>
+<h2 id="business-monthly-flow">3. Which Business Cycle Fits Which Season in 2026</h2>
+<p>Business timing in 2026 depends on whether your revenue model is B2B or B2C, since the best windows are different for each.</p>
+
+<h3>B2B contract and budget execution window (February–April)</h3>
+<p>Corporate budgets begin moving in Q1. For businesses that sell to other businesses — services, SaaS, consulting, training, or wholesale — this is when procurement decisions and contract renewals happen. Getting proposals and outreach out in February is usually what determines March and April closings.</p>
+
+<h3>B2C launch and consumer momentum window (April–August)</h3>
+<p>Consumer-facing businesses tend to peak in spring and summer. Food, travel, fitness, content, education, fashion, and local services often see strongest acquisition here. The Fire Horse year can amplify this further, but it also inflates operating costs and owner fatigue in the same window. Keep fixed overhead from expanding faster than proven revenue.</p>
+
+<h3>B2B second half and annual contract renewal (September–November)</h3>
+<p>The second major B2B cycle runs from September through November, as companies finalize next-year vendor relationships and annual service agreements. Missing this cycle often means waiting until the following spring.</p>
+
+<h3>Business structure cleanup and next-year design (December–January)</h3>
+<p>Year-end is the time to cut unprofitable services, reduce subscriptions, review pricing structure, and set next-year targets. In a Fire year like 2026, the businesses that enter the following year lean and intentional usually outperform those that tried to expand everything at once.</p>
+<h2 id="business-risks">4. How to Avoid Overexpansion and Cash Pressure</h2>
+<ul>
+  <li>Do not raise fixed overhead before conversion is stable.</li>
+  <li>Separate ad response from repeat purchase behavior.</li>
+  <li>Watch whether the owner’s health and rhythm are collapsing under growth pressure.</li>
+</ul>
+<p>The Fire Horse year lights the fuse well, but that does not mean every flame should be fed equally.</p>
+<h2 id="business-hacks">5. Practical Strategies for 2026 Business Fortune</h2>
+<p>The best use of 2026 business fortune is to test quickly and commit slowly. Move fast in exposure and validation, but slower in debt, lease expansion, major payroll growth, and irreversible scaling.</p>
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/saju/wealth-luck" style="text-decoration: underline; color: #f9d976;">[Related] Money flow theory behind business fortune</a></p>
+  <p><a href="/en/saju/career-change-2026" style="text-decoration: underline; color: #f9d976;">[Related] When 2026 favors staying employed instead</a></p>
+</div>
+</section>`,
+    faq: [
+      { q: '2026 사업운이 좋으면 바로 창업하는 게 맞나요?', a: '사업운이 좋다는 말은 시장 반응을 만들기 쉬운 해라는 뜻이지, 준비 없이 바로 크게 벌이라는 뜻은 아닙니다. 테스트와 검증을 먼저 하는 편이 안전합니다.' },
+      { q: '2026 창업 좋은 시기는 언제인가요?', a: '대체로 봄 후반부터 초여름이 론칭과 홍보 반응을 보기 좋은 시기입니다. 다만 고정비 확대는 이보다 늦게 가져가는 편이 안정적입니다.' },
+      { q: '이직운과 사업운이 같이 보이면 어떻게 해석하나요?', a: '부업 테스트나 시장 반응 확인 뒤 단계적으로 이동하는 편이 더 좋습니다.' },
+    ],
+    faqEn: [
+      { q: 'If business fortune is strong in 2026, should I start immediately?', a: 'Not without testing. Strong business luck means market response may come faster, but it does not remove the need for validation and pacing.' },
+      { q: 'When is the best startup timing in 2026?', a: 'Late spring through early summer is often strongest for launch and visibility.' },
+      { q: 'What if business luck and job-change luck both appear in 2026?', a: 'Phased transition is often safer than a sudden full exit. Test the market first, then move if the response holds.' },
+    ],
+    relatedPosts: [
+      { slug: 'wealth-luck', category: 'saju', title: '사주 재물운: 재성(財星)으로 돈복 읽기' },
+      { slug: 'career-change-2026', category: 'saju', title: '2026 이직운 사주: 직장 변화·승진 시기 보기' },
+    ],
+  },
+  {
+    slug: 'study-fortune-2026',
+    title: '2026 Study Fortune in Saju: Exam Timing and Focus Flow in the Fire Horse Year',
+    seoTitle: '2026 학업운 사주: 수능·수험생 합격 시기 분석',
+    seoTitleEn: '2026 Study Fortune in Saju: CSAT and Exam Timing for Korean Students',
+    description: '2026 수능 학업운 사주를 찾는 수험생을 위해 병오년 시험운, 집중력이 잘 붙는 시기, 흔들리기 쉬운 달, 수능 실전에서 관리해야 할 포인트를 정리했습니다.',
+    descriptionEn: 'This 2026 study fortune guide explains exam timing, focus momentum, weak concentration periods, and practical strategy for students in the Fire Horse year.',
+    keywords: ['2026 학업운 사주', '사주 학업운 2026', '병오년 시험운', '2026 합격운', '사주 공부운'],
+    keywordsEn: ['Four Pillars exam luck 2026', 'Korean astrology study fortune 2026', 'four pillars academic 2026', 'fire horse year exam timing', 'korean astrology test luck 2026'],
+    publishedAt: '2026-03-30',
+    category: 'saju',
+    toc: [
+      { id: 'study-fire-effect', title: '1. 2026 병오년이 학업운에 미치는 영향' },
+      { id: 'study-strong-charts', title: '2. 시험운과 합격운이 강해지는 사주' },
+      { id: 'study-monthly-flow', title: '3. 집중이 잘 되는 시기와 흔들리기 쉬운 시기' },
+      { id: 'study-mistakes', title: '4. 수험생이 병오년에 조심해야 할 실수' },
+      { id: 'study-hacks', title: '5. 2026 학업운을 높이는 실전 루틴' },
+    ],
+    tocEn: [
+      { id: 'study-fire-effect', title: '1. How the Fire Horse Year Affects Study Fortune' },
+      { id: 'study-strong-charts', title: '2. Charts with Stronger Exam and Study Momentum' },
+      { id: 'study-monthly-flow', title: '3. Strong Focus Windows and Weak Concentration Periods' },
+      { id: 'study-mistakes', title: '4. Common Study Mistakes in the Fire Horse Year' },
+      { id: 'study-hacks', title: '5. Practical Routines to Improve Study Luck in 2026' },
+    ],
+    contentKo: `<section>
+<p>2026 학업운 사주를 찾는 사람은 "올해 시험운이 붙나?", "언제 공부가 잘 들어오나?", "집중이 무너지는 달은 언제인가?"를 먼저 궁금해합니다. 이 글은 <strong>병오년 세운이 집중력과 시험 리듬을 어떻게 바꾸는지</strong>를 실전적으로 읽는 데 초점을 둡니다.</p>
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">함께 보면 좋은 기준 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/saju/annual-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">세운으로 올해 흐름 읽는 기본 틀</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/health-fortune-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">2026 건강운 사주: 집중력과 체력 관리 기준</a></li>
+  </ul>
+</div>
+<h2 id="study-fire-effect">1. 2026 병오년이 학업운에 미치는 영향</h2>
+<p>병오년은 화 기운이 강해지는 해라서 학업운도 양면성이 큽니다. 좋게 쓰면 추진력, 문제풀이 감각, 발표력, 면접 대응력이 올라가고, 나쁘게 쓰면 조급함과 번아웃이 커질 수 있습니다.</p>
+<h2 id="study-strong-charts">2. 시험운과 합격운이 강해지는 사주</h2>
+<ul>
+  <li>목화 계열 일부: 추진력과 자신감이 붙으면서 공부 속도가 올라갈 수 있습니다.</li>
+  <li>인성과 식상이 균형 있는 구조: 이해와 출력이 같이 살아나 시험 대응력이 좋아집니다.</li>
+  <li>원국은 괜찮지만 세운 자극이 약했던 사주: 2026년에 합격운이 눈에 띄게 붙을 수 있습니다.</li>
+</ul>
+<p>반대로 화 과다 구조는 단기 집중은 강해도 장기 루틴이 무너지기 쉽습니다.</p>
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">내 사주 기준 2026 학업운 무료로 확인하기</a>
+</div>
+<h2 id="study-monthly-flow">3. 시험 일정과 집중 흐름을 같이 읽는 법</h2>
+<p>학업운은 개인 사주만큼 <strong>실제 시험 캘린더</strong>에 맞춰 읽어야 실용적입니다.</p>
+
+<h3>계획 실행력이 올라오는 시기 (3~4월)</h3>
+<p>새 학기와 수험 계획이 구체화되는 시기입니다. 병오년의 화 기운은 3~4월에 추진력으로 작동하는 편이라 계획표 작성에서 그치지 않고 실제 루틴을 만들어 두기에 좋습니다. 중간고사 준비와 6월 모의고사 목표를 3월 안에 확정하면 이후 흐름이 훨씬 수월해집니다.</p>
+
+<h3>집중력이 무너지기 쉬운 구간 (6~8월)</h3>
+<p>방학 기간이지만 화 기운이 최고조인 시기라 집중력보다 소진이 먼저 올 수 있습니다. 수능 준비생은 6월 모의고사 결과를 냉정하게 보고 7~8월 보완 계획을 만들어야 하고, 공무원·자격증 수험생은 이 구간의 체력 관리가 9~10월 막판 스퍼트를 결정합니다. 이 시기는 공부 시간보다 <strong>수면 고정과 카페인 조절</strong>이 먼저입니다.</p>
+
+<h3>실전 감각을 올리기 좋은 시기 (9~10월)</h3>
+<p>수능까지 남은 시간이 명확해지는 시기입니다. 이 구간은 새로운 개념보다 이미 아는 것을 빠르게 출력하는 훈련에 집중해야 합니다. 단권화, 오답 노트 회수, 실전 모의시험 비중을 높이는 것이 점수 상승으로 직결됩니다.</p>
+
+<h3>시험 직전 컨디션 관리 구간 (11월)</h3>
+<p>수능이 11월입니다. 시험 전 2주는 새로운 문제풀이보다 컨디션, 수면, 이동 시간 등 당일 루틴 점검이 우선입니다. 병오년에는 직전 기간에 긴장이 과열되기 쉬우니, 일부러 속도를 낮추는 연습이 필요합니다.</p>
+<h2 id="study-mistakes">4. 수험생이 병오년에 조심해야 할 실수</h2>
+<ul>
+  <li>계획표를 과하게 채워 성취감만 얻고 복습이 비는 패턴</li>
+  <li>잠을 줄여서 공부 시간을 늘리지만 기억 효율이 떨어지는 패턴</li>
+  <li>남의 속도에 자극받아 내 루틴을 자주 바꾸는 패턴</li>
+</ul>
+<p>올해 학업운은 새로운 방법을 계속 찾는 것보다 <strong>지금 되는 루틴을 오래 유지하는 힘</strong>에서 갈립니다.</p>
+<h2 id="study-hacks">5. 2026 학업운을 높이는 실전 루틴</h2>
+<p>병오년에는 긴장과 속도를 짧은 집중 블록으로 바꾸는 것이 중요합니다. 50분 집중 10분 정리, 주 1회 오답 회수, 수면 고정과 복습 간격 관리가 특히 잘 맞습니다.</p>
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/ko/saju/health-fortune-2026" style="text-decoration: underline; color: #f9d976;">[관련글] 2026 건강운 사주: 공부 체력과 수면 리듬 관리</a></p>
+  <p><a href="/ko/saju/career-change-2026" style="text-decoration: underline; color: #f9d976;">[관련글] 2026 이직운 사주: 시험 합격 후 이동수까지 함께 보기</a></p>
+</div>
+</section>`,
+    contentEn: `<section>
+<p>People searching for study fortune in Saju for 2026 usually want to know whether exam luck is improving, when concentration works best, and which part of the year is likely to feel unstable. This article focuses on how the Fire Horse year changes study rhythm, focus quality, and exam momentum.</p>
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">Read These First for Context</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/saju/annual-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">How annual timing works in Saju</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/saju/health-fortune-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Why health pacing matters for study in 2026</a></li>
+  </ul>
+</div>
+<h2 id="study-fire-effect">1. How the Fire Horse Year Affects Study Fortune</h2>
+<p>The Fire Horse year has a dual effect on study. Used well, it improves speed, motivation, speaking confidence, and exam performance under pressure. Used badly, it creates impatience, overplanning, shallow focus, and burnout.</p>
+<h2 id="study-strong-charts">2. Charts with Stronger Exam and Study Momentum</h2>
+<ul>
+  <li>Some Wood-Fire charts: improved momentum and stronger initiative.</li>
+  <li>Structures where learning and output stay balanced: better exam performance and retention.</li>
+  <li>Charts with decent foundation but weak recent timing: 2026 may reactivate results.</li>
+</ul>
+<p>In 2026, exam luck depends heavily on recovery quality.</p>
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">Check Your 2026 Study Flow Free</a>
+</div>
+<h2 id="study-monthly-flow">3. How Exam Schedules and Study Rhythm Interact in 2026</h2>
+<p>Study fortune becomes more actionable when read against the actual exam calendar, not just seasonal energy patterns.</p>
+
+<h3>Execution window for study plans (March–April)</h3>
+<p>Spring semester and new study plans typically begin here. The Fire Horse year often adds momentum in this window. The goal is not just to write a plan but to test whether the routine is actually executable. Getting the daily system stable by early April usually determines how the mid-year holds up.</p>
+
+<h3>High-risk depletion window (June–August)</h3>
+<p>Summer break creates the illusion of unlimited study time. But the Fire year's peak energy in this window often leads to overplanning, sleep cuts, and mounting fatigue before the critical autumn phase. For CSAT candidates, June mock exam results should drive a concrete July–August repair plan. For civil service and certification exam candidates, energy reserves in this window directly determine late-September performance.</p>
+
+<h3>Review and output conversion window (September–October)</h3>
+<p>This is where study fortune shows up as actual scores. New content acquisition becomes less relevant. Mock exams, error review cycles, and timed output drills are what convert existing knowledge into test performance in this window.</p>
+
+<h3>Exam week conditioning phase (November)</h3>
+<p>Korea's CSAT falls in November. The two weeks before any major exam are not for new content — they are for sleep consistency, commute planning, and managing anxiety. In a Fire year, pre-exam tension can spike unusually fast. Deliberate deceleration in the final week is usually worth more than one extra night of review.</p>
+<h2 id="study-mistakes">4. Common Study Mistakes in the Fire Horse Year</h2>
+<ul>
+  <li>Overfilling the schedule but leaving review weak.</li>
+  <li>Cutting sleep to increase time but reducing memory quality.</li>
+  <li>Changing methods too often because of comparison or impatience.</li>
+</ul>
+<p>Strong study fortune usually comes from repeating what works, not constantly rebuilding the system.</p>
+<h2 id="study-hacks">5. Practical Routines to Improve Study Luck in 2026</h2>
+<p>Short strong concentration windows, weekly error review, consistent sleep, and repeatable monthly revision targets usually work better than emotional all-nighters.</p>
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/saju/health-fortune-2026" style="text-decoration: underline; color: #f9d976;">[Related] How to protect energy and sleep during heavy study periods</a></p>
+  <p><a href="/en/saju/career-change-2026" style="text-decoration: underline; color: #f9d976;">[Related] Career movement after exam success in 2026</a></p>
+</div>
+</section>`,
+    faq: [
+      { q: '2026 시험운이 좋으면 공부량이 적어도 합격운이 오나요?', a: '그렇게 보기는 어렵습니다. 시험운은 실력이 결과로 연결되기 쉬운 흐름을 뜻할 뿐, 준비 부족을 자동으로 메워 주는 것은 아닙니다.' },
+      { q: '2026 학업운에서 가장 조심해야 할 시기는 언제인가요?', a: '대체로 한여름은 과열과 피로 누적으로 집중력이 흔들리기 쉬운 시기입니다.' },
+      { q: '합격운이 있는 사람의 특징은 무엇인가요?', a: '원국에서 기본 학습 구조가 있고, 2026년에 집중력과 출력이 같이 살아나는 사람은 합격운 체감이 커질 수 있습니다.' },
+    ],
+    faqEn: [
+      { q: 'If exam luck is good in 2026, can I succeed with less study?', a: 'Not really. Good exam luck means effort is more likely to convert into results, not that preparation becomes unnecessary.' },
+      { q: 'What is the riskiest study period in 2026?', a: 'High summer is often the most unstable phase for concentration and recovery.' },
+      { q: 'What kind of chart tends to feel stronger exam luck in 2026?', a: 'Charts with decent learning structure plus stronger output and focus timing often feel the biggest boost.' },
+    ],
+    relatedPosts: [
+      { slug: 'health-fortune-2026', category: 'saju', title: '2026 건강운 사주: 병오년 건강 위험 시기 분석' },
+      { slug: 'career-change-2026', category: 'saju', title: '2026 이직운 사주: 직장 변화·승진 시기 보기' },
+    ],
+  },
+  {
+    slug: 'saju-reading-2026',
+    title: 'How to Read Your Saju in 2026: Practical Fire Horse Year Application Guide',
+    seoTitle: '2026 사주 보는법: 병오년 세운 대입 실전 가이드',
+    seoTitleEn: 'How to Read Your Saju in 2026: Practical Fire Horse Guide',
+    description: '2026 사주 보는법이 궁금한 사람을 위해 병오년 세운을 내 원국에 대입하는 순서, 무엇부터 읽어야 하는지, 자주 틀리는 해석 포인트를 단계별로 정리했습니다.',
+    descriptionEn: 'This practical 2026 Saju reading guide explains how to apply the Fire Horse year to your natal chart step by step and avoid the most common interpretation mistakes.',
+    keywords: ['2026 사주 보는법', '사주 보는법 2026', '병오년 세운 보는법', '사주 세운 대입', '사주 2026 해석'],
+    keywordsEn: ['how to read Four Pillars 2026', 'Korean astrology reading guide 2026', 'four pillars fire horse year 2026', 'apply annual fortune Four Pillars', 'korean astrology 2026 guide'],
+    publishedAt: '2026-03-30',
+    category: 'saju',
+    toc: [
+      { id: 'why-2026-reading', title: '1. 2026 사주 보는법을 따로 알아야 하는 이유' },
+      { id: 'reading-order', title: '2. 병오년 세운을 대입하는 기본 순서' },
+      { id: 'fire-horse-questions', title: '3. 2026년에 꼭 봐야 할 질문 4가지' },
+      { id: 'examples-2026', title: '4. 일간별로 병오년을 다르게 읽는 예시' },
+      { id: 'mistakes-2026', title: '5. 2026 해석에서 자주 하는 실수' },
+    ],
+    tocEn: [
+      { id: 'why-2026-reading', title: '1. Why 2026 Needs Its Own Saju Reading Method' },
+      { id: 'reading-order', title: '2. The Basic Order for Applying the Fire Horse Year' },
+      { id: 'fire-horse-questions', title: '3. Four Questions You Must Ask in 2026' },
+      { id: 'examples-2026', title: '4. How Different Day Masters Experience the Fire Horse Year' },
+      { id: 'mistakes-2026', title: '5. Common Mistakes in 2026 Interpretation' },
+    ],
+    contentKo: `<section>
+<p>이 글은 <strong>원국을 이미 뽑은 분</strong>을 위한 가이드입니다. 만세력 사용이 처음이거나 사주 기초부터 시작해야 한다면 <a href="/saju/free-saju-2026" style="text-decoration: underline; color: #f9d976;">2026 사주 무료 풀이 — 원국 읽는 법 가이드</a>를 먼저 보세요. 원국을 알고 있는데 "병오년 세운을 내 사주에 어떻게 대입하지?"에서 막힌다면 여기서 <strong>2026 사주 보는법 — 세운 대입 순서와 해석 포인트</strong>를 단계별로 읽으세요.</p>
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">먼저 보면 좋은 기준 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/saju/free-saju-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">2026 사주 무료 풀이: 원국 읽는 기본 순서</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/annual-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">세운 보는 법: 연간 운세 해석의 기본 틀</a></li>
+  </ul>
+</div>
+<h2 id="why-2026-reading">1. 2026 사주 보는법을 따로 알아야 하는 이유</h2>
+<p>같은 사주라도 해마다 체감이 달라지는 이유는 세운이 다르기 때문입니다. 2026 병오년은 화 기운이 강해지는 해라서, 드러남·속도·경쟁·감정 표현 같은 키워드가 유독 강하게 작동합니다.</p>
+<h2 id="reading-order">2. 병오년 세운을 대입하는 기본 순서</h2>
+<ol>
+  <li>먼저 내 일간을 확인한다. 병화와 오화가 나를 돕는지 압박하는지부터 본다.</li>
+  <li>오행 비율을 본다. 원국에 화가 부족한지, 이미 많은지 판단한다.</li>
+  <li>병(丙)과 오(午)가 내 원국 어느 자리에 닿는지 본다.</li>
+  <li>합충형해가 생기는지 본다.</li>
+  <li>좋다/나쁘다보다 어떤 영역의 속도가 빨라지는지 정리한다.</li>
+</ol>
+<p>이 순서를 무시하고 "2026년은 좋은 해인가?"만 묻기 시작하면 답이 쉽게 흐려집니다.</p>
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">내 사주에 2026 병오년 세운 대입해 보기</a>
+</div>
+<h2 id="fire-horse-questions">3. 2026년에 꼭 봐야 할 질문 4가지</h2>
+<ul>
+  <li>올해 화 기운이 내 사주에 동력을 주는가, 과열을 만드는가?</li>
+  <li>돈, 일, 건강, 관계 중 어디가 먼저 반응하는가?</li>
+  <li>빨라지는 것과 좋아지는 것이 같은가?</li>
+  <li>올해는 밀어붙이는 해인가, 속도를 조절하는 해인가?</li>
+</ul>
+<h2 id="examples-2026">4. 일간별로 병오년을 다르게 읽는 예시</h2>
+<p>같은 병오년이라도 일간이 무엇이냐에 따라 화 기운이 동력이 되기도 하고 압박이 되기도 합니다. 이 차이를 무시하고 "올해 좋다/나쁘다"로 단정하면 반은 틀립니다.</p>
+
+<h3>목 일간 (갑·을)</h3>
+<p>화로의 흐름이 살아나는 해입니다. 갑목은 표현력과 추진력이 올라와 직업운이나 프로젝트 성과가 눈에 보이기 쉽고, 을목은 인간관계와 감성적 연결이 강해지면서 연애운이나 협업 기회가 커질 수 있습니다. 다만 에너지 소모가 빠르기 때문에 과로에 주의해야 합니다.</p>
+
+<h3>화 일간 (병·정)</h3>
+<p>비겁이 강해지는 해입니다. 병화는 자기 주장과 경쟁이 동시에 커지고, 라이벌과의 충돌이나 과시성 소비가 생기기 쉽습니다. 정화는 감정 기복이 커지고 민감도가 올라가는 편입니다. 두 일간 모두 "속도를 내는 것"보다 "방향을 잡는 것"이 더 중요한 해입니다.</p>
+
+<h3>토 일간 (무·기)</h3>
+<p>화생토 흐름으로 활성화되기 쉬운 해입니다. 무토는 결단력과 실행력이 올라오고, 조직 내 리더십이나 부동산·자산 관련 흐름이 움직이기 쉽습니다. 기토는 세밀한 관리 능력이 빛을 발하면서 재물운이나 업무 안정성이 높아질 수 있습니다. 단, 두 일간 모두 소화기와 위장 관련 건강에 주의가 필요합니다.</p>
+
+<h3>금 일간 (경·신)</h3>
+<p>화극금으로 압박을 받는 해입니다. 경금은 직장 스트레스, 외부 경쟁, 상하 갈등이 커지기 쉽고, 신금은 신경 예민함과 피부·호흡기 반응이 올라올 수 있습니다. 재물 흐름이 있어도 유지비와 건강 비용으로 빠져나갈 수 있어, 수입보다 지출 통제가 먼저입니다.</p>
+
+<h3>수 일간 (임·계)</h3>
+<p>화 기운에 대한 반응이 사람마다 다릅니다. 임수는 관성 압박이 강해져 직장 책임과 역할 부담이 커질 수 있고, 계수는 감정 소모와 피로가 누적되기 쉽습니다. 두 일간 모두 성과는 나올 수 있지만, 몸과 감정의 리듬을 의도적으로 지키지 않으면 후반에 탈진이 올 수 있습니다.</p>
+<h2 id="mistakes-2026">5. 2026 해석에서 자주 하는 실수</h2>
+<p>가장 흔한 실수는 세 가지입니다. 첫째, 띠만 보고 해석하는 것. 둘째, 화 기운이 강하니 무조건 좋은 해라고 보는 것. 셋째, 세운 하나로 모든 것을 단정하는 것입니다. 올해 어떤 버튼이 눌리는지를 알면, 좋은 흐름은 더 살리고 과열 구간은 미리 낮출 수 있습니다.</p>
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/ko/saju/free-saju-2026" style="text-decoration: underline; color: #f9d976;">[관련글] 2026 사주 무료 풀이: 원국부터 읽는 기본 순서</a></p>
+  <p><a href="/ko/saju/iljoo-fortune-2026" style="text-decoration: underline; color: #f9d976;">[관련글] 2026 일주별 운세: 대표 일주별 체감 흐름 보기</a></p>
+</div>
+</section>`,
+    contentEn: `<section>
+<p>This article is for people who <strong>already have their Four Pillars natal chart</strong> and want to know how to apply the 2026 Fire Horse year to it. If you are new to Four Pillars and have not yet pulled or read your natal chart, start with <a href="/en/saju/free-saju-2026" style="text-decoration: underline; color: #f9d976;">the free Four Pillars reading guide</a> first. This guide covers only one thing: how to layer the yearly flow onto a chart you already understand.</p>
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">Read These First for Basics</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/saju/free-saju-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">How to read the natal chart step by step</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/saju/annual-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">How yearly fortune works in Korean astrology</a></li>
+  </ul>
+</div>
+<h2 id="why-2026-reading">1. Why 2026 Needs Its Own Saju Reading Method</h2>
+<p>In 2026, the Fire Horse year amplifies speed, visibility, emotional expression, competition, and exposure. So reading your Saju in 2026 is not just about repeating the natal chart. It is about asking what this particular year activates.</p>
+<h2 id="reading-order">2. The Basic Order for Applying the Fire Horse Year</h2>
+<ol>
+  <li>Identify the Day Master first and ask whether Fire supports it or pressures it.</li>
+  <li>Check whether Fire is missing, balanced, or already excessive in the natal chart.</li>
+  <li>See where Byeong and O land in practical life areas.</li>
+  <li>Check for clash or combination patterns.</li>
+  <li>Translate the result into speed and pressure instead of a simple good/bad label.</li>
+</ol>
+<h2 id="fire-horse-questions">3. Four Questions You Must Ask in 2026</h2>
+<ul>
+  <li>Does Fire add needed momentum or create overheating?</li>
+  <li>Which life area reacts first: money, work, health, or relationships?</li>
+  <li>Is acceleration actually improvement, or just more pressure?</li>
+  <li>Is this a year to push harder or to pace more carefully?</li>
+</ul>
+<h2 id="examples-2026">4. How Different Day Masters Experience the Fire Horse Year</h2>
+<p>The same Fire Horse year creates very different pressures and opportunities depending on your Day Master. Reading your element reaction is more accurate than reading the year as universally good or bad.</p>
+
+<h3>Wood Day Masters (Jia and Yi)</h3>
+<p>Fire is the output energy of Wood, which often makes 2026 an active and expressive year. Jia tends to gain stronger drive, career visibility, and project momentum. Yi often sees stronger social connection, emotional resonance, and collaborative opportunity. Both need to watch energy depletion, since the output can run faster than recovery allows.</p>
+
+<h3>Fire Day Masters (Bing and Ding)</h3>
+<p>The year adds same-element energy, which tends to intensify competition, rivalry, and self-assertion. Bing may face more interpersonal friction and impulse spending. Ding may feel greater emotional sensitivity and mood swings. For both, finding direction matters more than moving faster.</p>
+
+<h3>Earth Day Masters (Wu and Ji)</h3>
+<p>Fire feeds Earth in 2026, which often creates more activation and decisiveness. Wu tends to gain leadership presence, real-asset movement, and stronger executive timing. Ji may see better earnings management and work stability. Both should watch digestive and stomach sensitivity, which often shows stress before other signs appear.</p>
+
+<h3>Metal Day Masters (Geng and Xin)</h3>
+<p>Fire controls Metal, which makes 2026 a pressure-heavy year for many Metal charts. Geng often feels stronger workplace competition, authority conflict, and external resistance. Xin may feel heightened nerve sensitivity, skin reactions, or respiratory stress. Both tend to spend more through health costs and maintenance even when income rises.</p>
+
+<h3>Water Day Masters (Ren and Gui)</h3>
+<p>Responses vary more for Water charts. Ren often faces stronger official pressure, duty increases, and responsibility load. Gui may accumulate emotional fatigue and physical depletion faster than expected. Both can produce real results in 2026, but without deliberate pacing, late-year exhaustion is a common pattern.</p>
+<h2 id="mistakes-2026">5. Common Mistakes in 2026 Interpretation</h2>
+<p>The three most common mistakes are reading only by zodiac, assuming strong Fire automatically means a good year, and trying to let the yearly flow override the natal chart. Treat the Fire Horse year as an activation pattern, not a fortune slogan.</p>
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/saju/free-saju-2026" style="text-decoration: underline; color: #f9d976;">[Related] Read the natal chart first before applying 2026</a></p>
+  <p><a href="/en/saju/iljoo-fortune-2026" style="text-decoration: underline; color: #f9d976;">[Related] See how major Day Pillars react to the Fire Horse year</a></p>
+</div>
+</section>`,
+    faq: [
+      { q: '2026 사주 보는법에서 가장 먼저 봐야 할 것은 무엇인가요?', a: '일간과 오행 비율입니다. 그다음 병화와 오화가 내 원국 어디를 자극하는지, 직업·돈·건강·관계 중 어떤 영역이 먼저 반응하는지 보는 순서가 가장 실전적입니다.' },
+      { q: '병오년이면 무조건 화 기운이 좋은 사람만 유리한가요?', a: '꼭 그렇진 않습니다. 화가 부족한 사주는 동력을 얻기 쉽지만, 이미 화가 많은 사주는 과열을 조심해야 합니다.' },
+      { q: '띠별 운세만 보면 왜 부족한가요?', a: '띠는 전체 흐름만 보여 주기 때문입니다. 실제 체감은 일간, 오행 비율, 일지와 월지 자극 여부에 따라 크게 달라집니다.' },
+    ],
+    faqEn: [
+      { q: 'What should I read first when applying 2026 to my Saju?', a: 'Start with the Day Master and the element balance. Then check where the Fire Horse energy activates work, money, health, or relationships in your chart.' },
+      { q: 'Does the Fire Horse year only help people who need more Fire?', a: 'Not exactly. Fire-deficient charts may gain momentum more easily, but Fire-heavy charts may need stronger pacing and control.' },
+      { q: 'Why is zodiac-only reading not enough for 2026?', a: 'Zodiac gives a broad public pattern. Actual personal timing depends much more on the Day Master, five-element balance, and key branch activation.' },
+    ],
+    relatedPosts: [
+      { slug: 'free-saju-2026', category: 'saju', title: '2026 사주 무료 풀이: 내 사주 직접 보는 법' },
+      { slug: 'iljoo-fortune-2026', category: 'saju', title: '2026 일주별 운세: 60갑자 일주로 보는 올해 흐름' },
+    ],
+  },
+  {
     slug: 'free-saju-2026',
     title: '2026 Free Saju Reading Guide: How to Read Your Own Four Pillars Step by Step',
     seoTitle: '2026 사주 무료 풀이: 내 사주 직접 보는 법 완전 가이드',
@@ -3007,7 +3970,7 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
     description: '2026 사주 무료 풀이가 막막하다면, 만세력에서 사주를 뽑고 천간·지지·오행 비율을 읽은 뒤 병오년 세운까지 대입하는 순서를 단계별로 정리한 실전 가이드입니다.',
     descriptionEn: 'Need a free Saju reading for 2026? This step-by-step guide shows how to pull your Four Pillars, read stems and branches, check element balance, and apply the Fire Horse year flow yourself.',
     keywords: ['2026 사주 무료 풀이', '사주 무료 풀이', '내 사주 보기', '사주 스스로 해석하는 법', '사주 보는법 2026'],
-    keywordsEn: ['free saju reading 2026', 'korean astrology free reading', 'how to read my saju', 'free four pillars reading', 'saju palja free'],
+    keywordsEn: ['free Four Pillars reading 2026', 'Korean astrology free reading 2026', 'how to read Four Pillars yourself', 'free korean astrology 2026', 'four pillars self reading guide'],
     publishedAt: '2026-03-21',
     category: 'saju',
     toc: [
@@ -3025,7 +3988,7 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
       { id: 'common-mistakes', title: '5. Common Mistakes When You Read Your Own Saju' },
     ],
     contentKo: `<section>
-<p>2026 사주 무료 풀이를 찾는 사람 대부분은 "사이트에 생년월일을 넣었는데 결과를 어떻게 읽어야 하지?"라는 지점에서 막힙니다. 이 글은 사주 무료 풀이 결과를 그냥 보는 데서 끝내지 않고, 만세력으로 내 사주를 뽑은 뒤 천간과 지지, 오행 비율, 그리고 2026 병오년 세운까지 직접 해석하는 순서를 실전형으로 정리한 가이드입니다.</p>
+<p>2026 사주 무료 풀이를 찾는 사람 대부분은 "사이트에 생년월일을 넣었는데 결과를 어떻게 읽어야 하지?"라는 지점에서 막힙니다. 이 글은 <strong>만세력 사용이 처음이거나, 사주 원국을 아직 한 번도 직접 뽑아본 적 없는 분</strong>을 위한 가이드입니다. 만세력에서 사주를 뽑는 순서부터 천간·지지·오행 비율 읽기, 2026 병오년 세운 대입까지 처음부터 끝까지 정리했습니다. 원국은 이미 알고 있고 세운 대입법만 궁금하다면 <a href="/saju/saju-reading-2026" style="text-decoration: underline; color: #f9d976;">2026 사주 보는법 — 세운 대입 실전 가이드</a>로 바로 가세요.</p>
 
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">함께 보면 해석이 쉬워지는 글</p>
@@ -3082,7 +4045,7 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 </div>
 </section>`,
     contentEn: `<section>
-<p>Most people who search for a free Saju reading in 2026 get stuck at the same point: the website gives them a chart, but they do not know how to read it. This guide is built for that exact problem. Instead of treating a free Four Pillars result like a fortune-cookie summary, you will learn how to pull your chart correctly, identify your Day Master, check element balance, and apply the 2026 Fire Horse year yourself.</p>
+<p>This guide is for people who are <strong>pulling their Four Pillars chart for the first time</strong> or who received a free reading result but do not know how to interpret it. You will learn how to use a Korean calendar tool to generate your chart, identify your Day Master, read the element balance, and apply the 2026 Fire Horse year to your natal chart step by step. If you already have your chart and only need to learn how to apply the yearly flow, go directly to <a href="/en/saju/saju-reading-2026" style="text-decoration: underline; color: #f9d976;">the 2026 annual fortune application guide</a>.</p>
 
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">Read These First If You Are New</p>
