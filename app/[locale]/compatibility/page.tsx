@@ -4,9 +4,7 @@ import Footer from '../../../components/Footer';
 import AdSense from '../../../components/AdSense';
 import Link from 'next/link';
 import { bokhapPosts } from '@/lib/blog/bokhap-posts';
-import { buildLocalizedHref } from '@/lib/seo';
-
-const BASE_URL = 'https://sajupalza.cc';
+import { buildLocalizedHref, buildLocalizedUrl, buildLocaleAlternates, SITE_URL } from '@/lib/seo';
 
 interface Props {
   params: { locale: string };
@@ -14,8 +12,6 @@ interface Props {
 
 export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
   const isKo = locale === 'ko';
-  const localePrefix = locale === 'ko' ? '' : `/${locale}`;
-  const canonical = `${BASE_URL}${localePrefix}/compatibility`;
   return {
     title: isKo
       ? '종합 운명 분석 - 사주·관상·성명학·MBTI 통합 가이드 | 사주팔자 무료 컨설팅'
@@ -26,14 +22,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
     keywords: isKo
       ? ['종합 운명 분석', '사주 MBTI', '천생연분', '손금 관상', '운명 통합 분석']
       : ['combined fortune analysis', 'Four Pillars MBTI', 'soulmate destiny', 'palm reading', 'comprehensive fate analysis'],
-    alternates: {
-      canonical,
-      languages: {
-        ko: `${BASE_URL}/compatibility`,
-        en: `${BASE_URL}/en/compatibility`,
-        'x-default': `${BASE_URL}/compatibility`,
-      },
-    },
+    alternates: buildLocaleAlternates(locale, '/compatibility'),
   };
 }
 
@@ -41,8 +30,7 @@ export default async function CompatibilityPage({ params: { locale } }: Props) {
   unstable_setRequestLocale(locale);
   const isKo = locale === 'ko';
 
-  const localePrefix = locale === 'ko' ? '' : `/${locale}`;
-  const canonicalUrl = `${BASE_URL}${localePrefix}/compatibility`;
+  const canonicalUrl = buildLocalizedUrl(locale, '/compatibility');
 
   const analysisTypes = isKo
     ? [
@@ -77,7 +65,7 @@ export default async function CompatibilityPage({ params: { locale } }: Props) {
     url: canonicalUrl,
     inLanguage: locale,
     author: { '@type': 'Organization', name: '사주팔자 무료 컨설팅' },
-    publisher: { '@type': 'Organization', name: '사주팔자 무료 컨설팅', url: BASE_URL },
+    publisher: { '@type': 'Organization', name: '사주팔자 무료 컨설팅', url: SITE_URL },
   };
 
   const faqJsonLd = {
@@ -94,7 +82,7 @@ export default async function CompatibilityPage({ params: { locale } }: Props) {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: isKo ? '홈' : 'Home', item: `${BASE_URL}${localePrefix}` },
+      { '@type': 'ListItem', position: 1, name: isKo ? '홈' : 'Home', item: buildLocalizedUrl(locale) },
       { '@type': 'ListItem', position: 2, name: isKo ? '종합분석' : 'Combined Analysis', item: canonicalUrl },
     ],
   };

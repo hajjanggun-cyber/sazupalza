@@ -13,7 +13,7 @@ import {
   mbtiPosts,
   bokhapPosts,
 } from '../../lib/blog';
-import { buildLocaleAlternates } from '../../lib/seo';
+import { buildLocaleAlternates, buildLocalizedHref } from '../../lib/seo';
 
 interface Props {
   params: { locale: string };
@@ -81,7 +81,7 @@ export default async function HomePage({ params: { locale } }: Props) {
       titleEn: 'Four Pillars Reading',
       descKo: '생년월일로 보는 운명의 흐름',
       descEn: 'See the life pattern in your birth date',
-      href: `/${locale}/saju-analysis`,
+      href: buildLocalizedHref(locale, '/saju-analysis'),
       color: 'from-amber-900/40 to-yellow-900/20',
       border: 'border-amber-600/30 hover:border-amber-500/60',
       badge: null,
@@ -92,7 +92,7 @@ export default async function HomePage({ params: { locale } }: Props) {
       titleEn: 'Face Reading Analysis',
       descKo: '얼굴에 드러난 성향과 운의 단서',
       descEn: 'Read the signs of personality and fortune',
-      href: `/${locale}/gwansang-analysis`,
+      href: buildLocalizedHref(locale, '/gwansang-analysis'),
       color: 'from-blue-900/40 to-indigo-900/20',
       border: 'border-blue-600/30 hover:border-blue-500/60',
       badge: null,
@@ -103,7 +103,7 @@ export default async function HomePage({ params: { locale } }: Props) {
       titleEn: 'Korean Name Analysis',
       descKo: '이름에 담긴 기운과 흐름 해석',
       descEn: 'Discover the energy carried in your name',
-      href: `/${locale}/seongmyeong-analysis`,
+      href: buildLocalizedHref(locale, '/seongmyeong-analysis'),
       color: 'from-green-900/40 to-emerald-900/20',
       border: 'border-green-600/30 hover:border-green-500/60',
       badge: null,
@@ -114,7 +114,7 @@ export default async function HomePage({ params: { locale } }: Props) {
       titleEn: 'MBTI Analysis',
       descKo: '성격유형으로 보는 나의 심리 패턴',
       descEn: 'Understand your core personality pattern',
-      href: `/${locale}/personality-analysis`,
+      href: buildLocalizedHref(locale, '/personality-analysis'),
       color: 'from-purple-900/40 to-violet-900/20',
       border: 'border-purple-600/30 hover:border-purple-500/60',
       badge: null,
@@ -125,7 +125,7 @@ export default async function HomePage({ params: { locale } }: Props) {
       titleEn: 'Combined Fortune Reading',
       descKo: '사주, 관상, 성명학, MBTI를 한 번에',
       descEn: 'See Four Pillars, Face Reading, Name Analysis, and MBTI in one flow',
-      href: `/${locale}/combined`,
+      href: buildLocalizedHref(locale, '/combined'),
       color: 'from-yellow-900/60 to-amber-900/40',
       border: 'border-yellow-500/50 hover:border-yellow-400/80',
       badge: null,
@@ -237,7 +237,7 @@ export default async function HomePage({ params: { locale } }: Props) {
           <PrivacyStartNotice locale={locale} />
           <div className="mt-4 text-center">
             <Link
-              href={`/${locale}/about`}
+              href={buildLocalizedHref(locale, '/about')}
               className="inline-flex items-center gap-2 rounded-full border border-yellow-700/30 bg-yellow-900/10 px-4 py-2 text-sm font-medium text-yellow-200/80 hover:text-yellow-100 hover:border-yellow-500/40 transition-colors"
             >
               <span>{isKo ? '편집 기준과 운영 원칙 확인' : 'Review Our Editorial Policy'}</span>
@@ -330,7 +330,7 @@ export default async function HomePage({ params: { locale } }: Props) {
                   {/* 대표글 1 */}
                   {representativePost && (
                     <Link
-                      href={`/${locale}/${cat.path}/${representativePost.slug}`}
+                      href={buildLocalizedHref(locale, `/${cat.path}/${representativePost.slug}`)}
                       className="text-yellow-200/80 hover:text-yellow-300 text-xs leading-relaxed mb-2 line-clamp-2 transition-colors"
                     >
                       · {isKo ? representativePost.seoTitle : representativePost.seoTitleEn}
@@ -339,7 +339,7 @@ export default async function HomePage({ params: { locale } }: Props) {
                   {/* 대표글 2 */}
                   {secondPost && (
                     <Link
-                      href={`/${locale}/${cat.path}/${secondPost.slug}`}
+                      href={buildLocalizedHref(locale, `/${cat.path}/${secondPost.slug}`)}
                       className="text-yellow-200/60 hover:text-yellow-300 text-xs leading-relaxed mb-3 line-clamp-2 transition-colors"
                     >
                       · {isKo ? secondPost.seoTitle : secondPost.seoTitleEn}
@@ -349,7 +349,7 @@ export default async function HomePage({ params: { locale } }: Props) {
                   {/* 전체 보기 */}
                   <div className="mt-auto">
                     <Link
-                      href={`/${locale}/${cat.path}`}
+                      href={buildLocalizedHref(locale, `/${cat.path}`)}
                       className={`inline-flex items-center gap-1 text-xs ${cat.colorText} hover:opacity-80 transition-opacity font-medium`}
                     >
                       {isKo ? '전체 보기' : 'View all'} →
@@ -393,7 +393,7 @@ export default async function HomePage({ params: { locale } }: Props) {
             {/* 분석 시작 CTA */}
             <div className="mt-6 text-center">
               <Link
-                href={`/${locale}/combined`}
+                href={buildLocalizedHref(locale, '/combined')}
                 className="inline-block bg-gradient-to-r from-yellow-500 to-amber-500 hover:from-yellow-400 hover:to-amber-400 text-black font-bold px-8 py-3 rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-yellow-900/30 hover:-translate-y-0.5"
               >
                 {isKo ? '✨ 나도 분석받기 →' : '✨ Get My Reading →'}

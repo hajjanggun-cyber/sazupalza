@@ -164,7 +164,7 @@ export default function PersonalityForm() {
 
             <div className="pt-6">
                 <button
-                    onClick={() => router.push(`/${locale}`)}
+                    onClick={() => router.push(buildLocalizedHref(locale))}
                     className="w-full text-center text-yellow-200/40 hover:text-yellow-200 text-xs transition-colors"
                 >
                     {isKo ? '← 메인으로 돌아가기' : '← Back to Menu'}

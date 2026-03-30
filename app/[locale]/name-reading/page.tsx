@@ -5,9 +5,7 @@ import Footer from '../../../components/Footer';
 import AdSense from '../../../components/AdSense';
 import Link from 'next/link';
 import { seongmyeongPosts } from '@/lib/blog/seongmyeong-posts';
-import { buildLocalizedHref } from '@/lib/seo';
-
-const BASE_URL = 'https://sajupalza.cc';
+import { buildLocalizedHref, buildLocalizedUrl, buildLocaleAlternates, SITE_URL } from '@/lib/seo';
 
 interface Props {
   params: { locale: string };
@@ -15,8 +13,6 @@ interface Props {
 
 export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
   const isKo = locale === 'ko';
-  const localePrefix = locale === 'ko' ? '' : `/${locale}`;
-  const canonical = `${BASE_URL}${localePrefix}/name-reading`;
   return {
     title: isKo
       ? '성명학 무료 분석 - 이름의 획수와 소리오행 | 사주팔자 무료 컨설팅'
@@ -27,14 +23,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
     keywords: isKo
       ? ['성명학 무료', '이름 획수', '소리오행', '수리81', '이름 풀이', '작명', '무료 성명학']
       : ['Korean name reading', 'Korean numerology', 'name analysis free', 'Korean name meaning'],
-    alternates: {
-      canonical,
-      languages: {
-        ko: `${BASE_URL}/name-reading`,
-        en: `${BASE_URL}/en/name-reading`,
-        'x-default': `${BASE_URL}/name-reading`,
-      },
-    },
+    alternates: buildLocaleAlternates(locale, '/name-reading'),
   };
 }
 
@@ -44,8 +33,7 @@ export default async function NameReadingPage({ params: { locale } }: Props) {
   const introPost = seongmyeongPosts.find((post) => post.slug === 'intro');
   const articlePosts = seongmyeongPosts.filter((post) => post.slug !== 'intro');
 
-  const localePrefix = locale === 'ko' ? '' : `/${locale}`;
-  const canonicalUrl = `${BASE_URL}${localePrefix}/name-reading`;
+  const canonicalUrl = buildLocalizedUrl(locale, '/name-reading');
 
   const nameElements = isKo
     ? [
@@ -88,7 +76,7 @@ export default async function NameReadingPage({ params: { locale } }: Props) {
     url: canonicalUrl,
     inLanguage: locale,
     author: { '@type': 'Organization', name: '사주팔자 무료 컨설팅' },
-    publisher: { '@type': 'Organization', name: '사주팔자 무료 컨설팅', url: BASE_URL },
+    publisher: { '@type': 'Organization', name: '사주팔자 무료 컨설팅', url: SITE_URL },
   };
 
   const faqJsonLd = {
@@ -105,7 +93,7 @@ export default async function NameReadingPage({ params: { locale } }: Props) {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: isKo ? '홈' : 'Home', item: `${BASE_URL}${localePrefix}` },
+      { '@type': 'ListItem', position: 1, name: isKo ? '홈' : 'Home', item: buildLocalizedUrl(locale) },
       { '@type': 'ListItem', position: 2, name: isKo ? '성명학' : 'Name Reading', item: canonicalUrl },
     ],
   };

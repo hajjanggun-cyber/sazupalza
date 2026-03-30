@@ -426,7 +426,7 @@ export default function SajuResultPage() {
                         <span>{copied ? '✅' : '🔗'}</span>
                         <span>{copied ? (isKo ? '복사됨!' : 'Copied!') : (isKo ? '분석 페이지 링크 복사' : 'Copy Analysis Link')}</span>
                     </button>
-                    <button className="btn-secondary flex-1" onClick={() => router.push(`/${locale}/saju-analysis`)}>
+                    <button className="btn-secondary flex-1" onClick={() => router.push(buildLocalizedHref(locale, '/saju-analysis'))}>
                         🔄 {isKo ? '다시 분석하기' : 'Analyze Again'}
                     </button>
                 </div>

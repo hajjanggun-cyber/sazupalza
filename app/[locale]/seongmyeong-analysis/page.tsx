@@ -25,6 +25,22 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
             ? ['성명학 무료', '이름 획수 분석', '소리오행', '성명학 분석', '개명', '이름풀이', '81수리']
             : ['name numerology free', 'expression number', 'soul urge number', 'life path number', 'Pythagorean numerology'],
         alternates: buildLocaleAlternates(locale, '/seongmyeong-analysis'),
+        openGraph: {
+            title: isKo ? '성명학 무료 분석 — 이름의 운을 확인하세요' : 'Free Name Numerology — Discover Your Name Energy',
+            description: isKo
+                ? '한자 획수·소리오행으로 이름의 운을 분석! 81수리 해석까지 완전 무료.'
+                : 'Analyze your name with Pythagorean Numerology. Free & instant.',
+            type: 'website',
+            url: buildLocalizedUrl(locale, '/seongmyeong-analysis'),
+            siteName: isKo ? '사주팔자 무료 컨설팅' : 'Korean Fortune Reading',
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: isKo ? '성명학 무료 분석' : 'Free Name Numerology',
+            description: isKo
+                ? '한자 획수·소리오행으로 이름의 운을 분석! 완전 무료.'
+                : 'Analyze your name with Pythagorean Numerology. Free & instant.',
+        },
     };
 }
 
@@ -101,7 +117,7 @@ export default async function SeongmyeongAnalysisPage({ params: { locale } }: Pr
                         {/* 뒤로 가기 */}
                         <div className="mb-5">
                             <Link
-                                href={`/${locale}`}
+                                href={buildLocalizedHref(locale)}
                                 className="inline-flex items-center gap-1 text-yellow-500/70 hover:text-yellow-400 text-sm transition-colors"
                             >
                                 ← {isKo ? '분석 유형 선택으로 돌아가기' : 'Back to service selection'}
@@ -183,7 +199,7 @@ export default async function SeongmyeongAnalysisPage({ params: { locale } }: Pr
                                 </p>
                             </div>
                             <Link
-                                href={`/${locale}/combined`}
+                                href={buildLocalizedHref(locale, '/combined')}
                                 className="shrink-0 bg-yellow-500 hover:bg-yellow-400 text-black font-bold px-4 py-2 rounded-lg text-sm transition-colors"
                             >
                                 {isKo ? '통합 분석 →' : 'Combined →'}

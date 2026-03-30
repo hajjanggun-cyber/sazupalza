@@ -5,7 +5,7 @@ import Footer from '../../../components/Footer';
 import AdSense from '../../../components/AdSense';
 import Link from 'next/link';
 import { sajuPosts } from '@/lib/blog/saju-posts';
-import { buildLocalizedHref } from '@/lib/seo';
+import { buildLocalizedHref, buildLocalizedUrl, buildLocaleAlternates, SITE_URL } from '@/lib/seo';
 
 interface Props {
   params: { locale: string };
@@ -13,8 +13,6 @@ interface Props {
 
 export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
   const isKo = locale === 'ko';
-  const BASE_URL = 'https://sajupalza.cc';
-  const canonical = isKo ? `${BASE_URL}/saju` : `${BASE_URL}/en/saju`;
   return {
     title: isKo
       ? '2026 무료 사주 분석 | 생년월일로 보는 내 운세·직업운·연애운'
@@ -29,14 +27,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
       title: isKo ? '2026 무료 사주 분석' : 'Free Korean Four Pillars Analysis',
       description: isKo ? '생년월일로 보는 내 운세·직업운·연애운' : 'Discover your destiny through birth date analysis',
     },
-    alternates: {
-      canonical,
-      languages: {
-        ko: `${BASE_URL}/saju`,
-        en: `${BASE_URL}/en/saju`,
-        'x-default': `${BASE_URL}/saju`,
-      },
-    },
+    alternates: buildLocaleAlternates(locale, '/saju'),
   };
 }
 
@@ -45,7 +36,6 @@ export default async function SajuPage({ params: { locale } }: Props) {
   const isKo = locale === 'ko';
   const introPost = sajuPosts.find((post) => post.slug === 'intro');
   const articlePosts = sajuPosts.filter((post) => post.slug !== 'intro');
-  const localePrefix = locale === 'ko' ? '' : '/en';
 
   const pillars = isKo
     ? [
@@ -89,8 +79,8 @@ export default async function SajuPage({ params: { locale } }: Props) {
       { q: "What if I don't know my birth time?", a: "You can still get an analysis without knowing your birth time. Without the time, we analyze using 6 characters (year, month, day), which is less detailed than the full 8-character analysis but still reveals key temperament and fortune." },
     ];
 
-  const baseUrl = 'https://sajupalza.cc';
-  const canonicalUrl = `${baseUrl}${localePrefix}/saju`;
+  const baseUrl = SITE_URL;
+  const canonicalUrl = buildLocalizedUrl(locale, '/saju');
 
   const articleJsonLd = {
     '@context': 'https://schema.org',
@@ -119,7 +109,7 @@ export default async function SajuPage({ params: { locale } }: Props) {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: '홈', item: `${baseUrl}${localePrefix}` },
+      { '@type': 'ListItem', position: 1, name: '홈', item: buildLocalizedUrl(locale) },
       { '@type': 'ListItem', position: 2, name: isKo ? '사주팔자' : 'Four Pillars', item: canonicalUrl },
     ],
   };

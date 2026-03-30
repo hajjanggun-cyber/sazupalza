@@ -5,7 +5,7 @@ import Footer from '../../../components/Footer';
 import AdSense from '../../../components/AdSense';
 import Link from 'next/link';
 import { mbtiPosts } from '@/lib/blog/mbti-posts';
-import { buildLocalizedHref } from '@/lib/seo';
+import { buildLocalizedHref, buildLocalizedUrl, buildLocaleAlternates, SITE_URL } from '@/lib/seo';
 
 interface Props {
   params: { locale: string };
@@ -13,8 +13,6 @@ interface Props {
 
 export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
   const isKo = locale === 'ko';
-  const BASE_URL = 'https://sajupalza.cc';
-  const canonical = isKo ? `${BASE_URL}/mbti` : `${BASE_URL}/en/mbti`;
   return {
     title: isKo
       ? 'MBTI 사주 분석 - 16유형과 오행 연계 | 사주팔자 무료 컨설팅'
@@ -25,14 +23,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
     keywords: isKo
       ? ['MBTI 사주', 'MBTI 궁합', 'MBTI 무료 분석', 'MBTI 오행', '16유형 분석', 'MBTI 직업']
       : ['MBTI Korean fortune', 'MBTI compatibility', 'MBTI analysis free', 'MBTI four pillars'],
-    alternates: {
-      canonical,
-      languages: {
-        ko: `${BASE_URL}/mbti`,
-        en: `${BASE_URL}/en/mbti`,
-        'x-default': `${BASE_URL}/mbti`,
-      },
-    },
+    alternates: buildLocaleAlternates(locale, '/mbti'),
   };
 }
 
@@ -67,8 +58,6 @@ export default async function MbtiPage({ params: { locale } }: Props) {
   const isKo = locale === 'ko';
   const introPost = mbtiPosts.find((post) => post.slug === 'intro');
   const articlePosts = mbtiPosts.filter((post) => post.slug !== 'intro');
-  const localePrefix = locale === 'ko' ? '' : '/en';
-
   const groups = isKo
     ? [
       { name: 'NT 분석가형', types: ['INTJ', 'INTP', 'ENTJ', 'ENTP'], ohaeng: '금(金)', color: 'text-gray-300', desc: '논리적 사고와 전략적 분석을 즐기는 경향이 있습니다' },
@@ -95,8 +84,7 @@ export default async function MbtiPage({ params: { locale } }: Props) {
       { q: "What if I don't know my MBTI?", a: "MBTI analysis is optional. You can receive Four Pillars and Name analysis using just your name and birth date without MBTI. Knowing your MBTI provides richer personality analysis results." },
     ];
 
-  const baseUrl = 'https://sajupalza.cc';
-  const canonicalUrl = `${baseUrl}${localePrefix}/mbti`;
+  const canonicalUrl = buildLocalizedUrl(locale, '/mbti');
 
   const articleJsonLd = {
     '@context': 'https://schema.org',
@@ -105,7 +93,7 @@ export default async function MbtiPage({ params: { locale } }: Props) {
     url: canonicalUrl,
     inLanguage: locale,
     author: { '@type': 'Organization', name: '사주팔자 무료 컨설팅' },
-    publisher: { '@type': 'Organization', name: '사주팔자 무료 컨설팅', url: baseUrl },
+    publisher: { '@type': 'Organization', name: '사주팔자 무료 컨설팅', url: SITE_URL },
   };
 
   const faqJsonLd = {
@@ -122,7 +110,7 @@ export default async function MbtiPage({ params: { locale } }: Props) {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: '홈', item: `${baseUrl}${localePrefix}` },
+      { '@type': 'ListItem', position: 1, name: '홈', item: buildLocalizedUrl(locale) },
       { '@type': 'ListItem', position: 2, name: 'MBTI', item: canonicalUrl },
     ],
   };

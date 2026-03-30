@@ -25,6 +25,22 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
             ? ['관상 무료', '관상 분석', '얼굴 관상', '관상보기', '얼굴형 분석', '관상학']
             : ['face reading free', 'face shape analysis', 'physiognomy', 'face fortune', 'AI face reading'],
         alternates: buildLocaleAlternates(locale, '/gwansang-analysis'),
+        openGraph: {
+            title: isKo ? '관상 무료 분석 — 얼굴로 보는 운명과 성격' : 'Free Face Reading — Personality & Fortune Analysis',
+            description: isKo
+                ? '사진 한 장으로 얼굴형·대칭도·기운을 AI 분석! 완전 무료.'
+                : 'Upload your photo for AI-powered face reading. Free & instant.',
+            type: 'website',
+            url: buildLocalizedUrl(locale, '/gwansang-analysis'),
+            siteName: isKo ? '사주팔자 무료 컨설팅' : 'Korean Fortune Reading',
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: isKo ? '관상 무료 분석' : 'Free Face Reading',
+            description: isKo
+                ? '사진 한 장으로 얼굴형·대칭도·기운을 AI 분석! 완전 무료.'
+                : 'Upload your photo for AI-powered face reading. Free & instant.',
+        },
     };
 }
 
@@ -100,7 +116,7 @@ export default async function GwansangAnalysisPage({ params: { locale } }: Props
                         {/* 뒤로 가기 */}
                         <div className="mb-5">
                             <Link
-                                href={`/${locale}`}
+                                href={buildLocalizedHref(locale)}
                                 className="inline-flex items-center gap-1 text-yellow-500/70 hover:text-yellow-400 text-sm transition-colors"
                             >
                                 ← {isKo ? '분석 유형 선택으로 돌아가기' : 'Back to service selection'}
@@ -179,7 +195,7 @@ export default async function GwansangAnalysisPage({ params: { locale } }: Props
                                 </p>
                             </div>
                             <Link
-                                href={`/${locale}/combined`}
+                                href={buildLocalizedHref(locale, '/combined')}
                                 className="shrink-0 bg-yellow-500 hover:bg-yellow-400 text-black font-bold px-4 py-2 rounded-lg text-sm transition-colors"
                             >
                                 {isKo ? '통합 분석 →' : 'Combined →'}

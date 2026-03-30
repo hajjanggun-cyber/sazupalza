@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import Navigation from '../../../components/Navigation';
 import Footer from '../../../components/Footer';
 import Link from 'next/link';
+import { buildLocalizedHref } from '@/lib/seo';
 import { buildLocaleAlternates } from '@/lib/seo';
 
 interface Props {
@@ -153,7 +154,7 @@ export default async function PrivacyPage({ params: { locale } }: Props) {
                   </p>
                   <p className="mt-2 text-sm text-yellow-200/60">
                     {isKo ? '또는 ' : 'Or visit our '}
-                    <Link href={`/${locale}/contact`} className="text-yellow-400 hover:underline">
+                    <Link href={buildLocalizedHref(locale, '/contact')} className="text-yellow-400 hover:underline">
                       {isKo ? '문의하기 페이지' : 'Contact Us page'}
                     </Link>
                     {isKo ? '를 이용해 주세요.' : '.'}
@@ -165,7 +166,7 @@ export default async function PrivacyPage({ params: { locale } }: Props) {
         </article>
 
         <div className="text-center mt-12">
-          <Link href={`/${locale}`} className="btn-gold inline-flex items-center gap-2 px-8 py-3 rounded-full font-bold transition-transform hover:scale-105">
+          <Link href={buildLocalizedHref(locale)} className="btn-gold inline-flex items-center gap-2 px-8 py-3 rounded-full font-bold transition-transform hover:scale-105">
             <span>{isKo ? '← 메인으로 돌아가기' : '← Back to Main'}</span>
           </Link>
         </div>

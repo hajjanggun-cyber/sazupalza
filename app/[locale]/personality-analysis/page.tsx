@@ -6,7 +6,7 @@ import { useTranslations } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
 import { Metadata } from 'next';
-import { buildLocaleAlternates, buildLocalizedHref, buildLocalizedUrl } from '@/lib/seo';
+import { buildLocaleAlternates, buildLocalizedHref, buildLocalizedUrl, SITE_URL } from '@/lib/seo';
 
 type Props = {
     params: { locale: string };
@@ -20,6 +20,22 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
             ? '정확하고 안전한 28문항 자체 성격 테스트로 16가지 나의 심리 유형을 분석해 보세요.'
             : 'Analyze your 16 cognitive types safely with our original 28-question personality test.',
         alternates: buildLocaleAlternates(locale, '/personality-analysis'),
+        openGraph: {
+            title: isKo ? '성격 유형 자체 테스트 (28문항)' : 'Personality Type Test (28 Questions)',
+            description: isKo
+                ? '28문항으로 16가지 심리 유형을 분석! 완전 무료.'
+                : 'Analyze your 16 cognitive types with our 28-question test. Free!',
+            type: 'website',
+            url: buildLocalizedUrl(locale, '/personality-analysis'),
+            siteName: isKo ? '사주팔자 무료 컨설팅' : 'Korean Fortune Reading',
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: isKo ? '성격 유형 테스트' : 'Personality Type Test',
+            description: isKo
+                ? '28문항으로 16가지 심리 유형을 분석! 완전 무료.'
+                : 'Analyze your 16 cognitive types. Free & instant.',
+        },
     };
 }
 

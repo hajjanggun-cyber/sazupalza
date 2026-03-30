@@ -4,18 +4,27 @@ import { useLocale } from 'next-intl';
 import NextImage from 'next/image';
 import { useRouter } from 'next/navigation';
 import { useRef, useState } from 'react';
-import * as faceapi from 'face-api.js';
 import { storeResultPayload } from '@/lib/client/result-storage';
 import { buildLocalizedHref } from '@/lib/seo';
 
-// ── 모델 로드 ──
+// ── face-api.js lazy load ──
+let faceapi: typeof import('face-api.js') | null = null;
 let modelsLoaded = false;
+
+async function getFaceApi() {
+    if (!faceapi) {
+        faceapi = await import('face-api.js');
+    }
+    return faceapi;
+}
+
 async function loadFaceModels() {
     if (modelsLoaded) return;
+    const api = await getFaceApi();
     await Promise.all([
-        faceapi.nets.tinyFaceDetector.loadFromUri('/models'),
-        faceapi.nets.faceLandmark68TinyNet.loadFromUri('/models'),
-        faceapi.nets.faceExpressionNet.loadFromUri('/models'),
+        api.nets.tinyFaceDetector.loadFromUri('/models'),
+        api.nets.faceLandmark68TinyNet.loadFromUri('/models'),
+        api.nets.faceExpressionNet.loadFromUri('/models'),
     ]);
     modelsLoaded = true;
 }
@@ -208,7 +217,8 @@ export default function GwansangForm() {
 
             // Tiny Face Detector의 scoreThreshold 를 대폭 낮춰 약간 흐릿하거나 먼 사진도 감지하게 함 (기본 0.5 -> 0.1)
             // inputSize도 키워 큰 스마트폰 해상도에서도 얼굴을 더 잘 찾도록 보정 (416 -> 512)
-            const options = new faceapi.TinyFaceDetectorOptions({ inputSize: 512, scoreThreshold: 0.1 });
+            const api = faceapi!;
+            const options = new api.TinyFaceDetectorOptions({ inputSize: 512, scoreThreshold: 0.1 });
 
             // 15초 타임아웃: face-api.js가 무한 대기하면 버튼이 영원히 비활성화되는 것을 방지
             const TIMEOUT_MS = 15000;
@@ -220,18 +230,16 @@ export default function GwansangForm() {
                     ),
                 ]);
 
-            type FaceDetectionResult = faceapi.WithFaceExpressions<
-                faceapi.WithFaceLandmarks<{ detection: faceapi.FaceDetection }, faceapi.FaceLandmarks68>
-            >;
+            type FaceDetectionResult = Record<string, unknown>;
 
-            let detection: FaceDetectionResult | undefined = await withTimeout(
-                faceapi.detectSingleFace(img, options).withFaceLandmarks(true).withFaceExpressions() as unknown as Promise<FaceDetectionResult | undefined>
+            let detection: any = await withTimeout(
+                api.detectSingleFace(img, options).withFaceLandmarks(true).withFaceExpressions() as unknown as Promise<any>
             ) ?? undefined;
 
             // 단일 감지 실패 시 다중 감지로 폴백 후 가장 큰 얼굴을 사용
             if (!detection) {
-                const detections: FaceDetectionResult[] = await withTimeout(
-                    faceapi.detectAllFaces(img, options).withFaceLandmarks(true).withFaceExpressions() as unknown as Promise<FaceDetectionResult[]>
+                const detections: any[] = await withTimeout(
+                    api.detectAllFaces(img, options).withFaceLandmarks(true).withFaceExpressions() as unknown as Promise<any[]>
                 );
                 if (detections.length > 0) {
                     detection = detections.sort((a, b) => {
@@ -436,7 +444,7 @@ export default function GwansangForm() {
                 </button>
                 {/* 돌아가기 (선택) */}
                 <button
-                    onClick={() => router.push(`/${locale}`)}
+                    onClick={() => router.push(buildLocalizedHref(locale))}
                     className="w-full text-center text-yellow-200/50 hover:text-yellow-200 text-sm transition-colors py-2"
                 >
                     {isKo ? '← 뒤로 가기' : '← Go back'}

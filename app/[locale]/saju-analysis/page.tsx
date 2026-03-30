@@ -7,7 +7,7 @@ import SajuForm from '../../../components/SajuForm';
 import PrivacyStartNotice from '../../../components/PrivacyStartNotice';
 import Link from 'next/link';
 import Image from 'next/image';
-import { SITE_URL, buildLocaleAlternates, buildLocalizedUrl } from '@/lib/seo';
+import { SITE_URL, buildLocaleAlternates, buildLocalizedHref, buildLocalizedUrl } from '@/lib/seo';
 
 interface Props {
     params: { locale: string };
@@ -26,6 +26,22 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
             ? ['사주팔자 무료', '사주 분석', '무료 사주', '오행 분석', '사주보기', '생년월일 운세']
             : ['four pillars free', 'saju reading', 'Korean fortune', 'birth chart Korean', 'five elements'],
         alternates: buildLocaleAlternates(locale, '/saju-analysis'),
+        openGraph: {
+            title: isKo ? '사주팔자 무료 분석 — 생년월일로 보는 오행과 운명' : 'Free Four Pillars Reading — Discover Your Saju Destiny',
+            description: isKo
+                ? '생년월일만 입력하면 사주팔자·오행·수호신까지 즉시 무료 분석!'
+                : 'Enter your birth date for a free Four Pillars (Saju) reading. Instant results!',
+            type: 'website',
+            url: buildLocalizedUrl(locale, '/saju-analysis'),
+            siteName: isKo ? '사주팔자 무료 컨설팅' : 'Korean Fortune Reading',
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: isKo ? '사주팔자 무료 분석' : 'Free Four Pillars Reading',
+            description: isKo
+                ? '생년월일만 입력하면 사주팔자·오행·수호신까지 즉시 무료 분석!'
+                : 'Enter your birth date for a free Saju reading. Instant results!',
+        },
     };
 }
 
@@ -103,7 +119,7 @@ export default async function SajuAnalysisPage({ params: { locale } }: Props) {
                         {/* 뒤로 가기 */}
                         <div className="mb-5">
                             <Link
-                                href={`/${locale}`}
+                                href={buildLocalizedHref(locale)}
                                 className="inline-flex items-center gap-1 text-yellow-500/70 hover:text-yellow-400 text-sm transition-colors"
                             >
                                 ← {isKo ? '분석 유형 선택으로 돌아가기' : 'Back to service selection'}
@@ -182,7 +198,7 @@ export default async function SajuAnalysisPage({ params: { locale } }: Props) {
                                 </p>
                             </div>
                             <Link
-                                href={`/${locale}/combined`}
+                                href={buildLocalizedHref(locale, '/combined')}
                                 className="shrink-0 bg-yellow-500 hover:bg-yellow-400 text-black font-bold px-4 py-2 rounded-lg text-sm transition-colors"
                             >
                                 {isKo ? '통합 분석 →' : 'Combined →'}
@@ -219,7 +235,7 @@ export default async function SajuAnalysisPage({ params: { locale } }: Props) {
                         ].map((post) => (
                             <Link
                                 key={post.slug}
-                                href={`/${locale}/saju/${post.slug}`}
+                                href={buildLocalizedHref(locale, `/saju/${post.slug}`)}
                                 className="card-dark p-4 hover:border-amber-500/50 transition-all hover:-translate-y-0.5"
                             >
                                 <p className="text-yellow-300 text-sm font-medium line-clamp-2">

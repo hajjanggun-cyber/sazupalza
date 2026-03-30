@@ -5,9 +5,7 @@ import Footer from '../../../components/Footer';
 import AdSense from '../../../components/AdSense';
 import Link from 'next/link';
 import { gwansangPosts } from '@/lib/blog/gwansang-posts';
-import { buildLocalizedHref } from '@/lib/seo';
-
-const BASE_URL = 'https://sajupalza.cc';
+import { buildLocalizedHref, buildLocalizedUrl, buildLocaleAlternates, SITE_URL } from '@/lib/seo';
 
 interface Props {
   params: { locale: string };
@@ -15,8 +13,6 @@ interface Props {
 
 export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
   const isKo = locale === 'ko';
-  const localePrefix = locale === 'ko' ? '' : `/${locale}`;
-  const canonical = `${BASE_URL}${localePrefix}/face-reading`;
   return {
     title: isKo
       ? '관상 무료 분석 - 얼굴로 알아보는 운명 | 사주팔자 무료 컨설팅'
@@ -27,14 +23,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
     keywords: isKo
       ? ['관상 무료', '관상 분석', '얼굴 운세', '인상학', '관상학', '무료 관상']
       : ['Korean face reading free', 'physiognomy', 'face fortune reading', 'Korean gwansang'],
-    alternates: {
-      canonical,
-      languages: {
-        ko: `${BASE_URL}/face-reading`,
-        en: `${BASE_URL}/en/face-reading`,
-        'x-default': `${BASE_URL}/face-reading`,
-      },
-    },
+    alternates: buildLocaleAlternates(locale, '/face-reading'),
   };
 }
 
@@ -44,8 +33,7 @@ export default async function FaceReadingPage({ params: { locale } }: Props) {
   const introPost = gwansangPosts.find((post) => post.slug === 'intro');
   const articlePosts = gwansangPosts.filter((post) => post.slug !== 'intro');
 
-  const localePrefix = locale === 'ko' ? '' : `/${locale}`;
-  const canonicalUrl = `${BASE_URL}${localePrefix}/face-reading`;
+  const canonicalUrl = buildLocalizedUrl(locale, '/face-reading');
 
   const faceFeatures = isKo
     ? [
@@ -100,7 +88,7 @@ export default async function FaceReadingPage({ params: { locale } }: Props) {
     url: canonicalUrl,
     inLanguage: locale,
     author: { '@type': 'Organization', name: '사주팔자 무료 컨설팅' },
-    publisher: { '@type': 'Organization', name: '사주팔자 무료 컨설팅', url: BASE_URL },
+    publisher: { '@type': 'Organization', name: '사주팔자 무료 컨설팅', url: SITE_URL },
   };
 
   const faqJsonLd = {
@@ -117,7 +105,7 @@ export default async function FaceReadingPage({ params: { locale } }: Props) {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: isKo ? '홈' : 'Home', item: `${BASE_URL}${localePrefix}` },
+      { '@type': 'ListItem', position: 1, name: isKo ? '홈' : 'Home', item: buildLocalizedUrl(locale) },
       { '@type': 'ListItem', position: 2, name: isKo ? '관상학' : 'Face Reading', item: canonicalUrl },
     ],
   };

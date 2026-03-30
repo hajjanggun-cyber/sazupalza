@@ -590,7 +590,7 @@ export default function SeongmyeongResultPage() {
                         <span>{copied ? '✅' : '🔗'}</span>
                         <span>{copied ? (isKo ? '복사됨!' : 'Copied!') : (isKo ? '분석 페이지 링크 복사' : 'Copy Analysis Link')}</span>
                     </button>
-                    <button className="btn-secondary flex-1" onClick={() => router.push(`/${locale}/seongmyeong-analysis`)}>
+                    <button className="btn-secondary flex-1" onClick={() => router.push(buildLocalizedHref(locale, '/seongmyeong-analysis'))}>
                         🔄 {isKo ? '다시 분석하기' : 'Analyze Again'}
                     </button>
                 </div>

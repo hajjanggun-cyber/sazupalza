@@ -3,17 +3,24 @@
 import { useTranslations, useLocale } from 'next-intl';
 import NextImage from 'next/image';
 import { useRef, useState } from 'react';
-import * as faceapi from 'face-api.js';
-
-// ── 모델 로드 (모듈 레벨 - 재마운트 시 재로드 방지) ──
+// ── face-api.js lazy load ──
+let faceapi: typeof import('face-api.js') | null = null;
 let modelsLoaded = false;
+
+async function getFaceApi() {
+  if (!faceapi) {
+    faceapi = await import('face-api.js');
+  }
+  return faceapi;
+}
 
 async function loadFaceModels() {
   if (modelsLoaded) return;
+  const api = await getFaceApi();
   await Promise.all([
-    faceapi.nets.tinyFaceDetector.loadFromUri('/models'),
-    faceapi.nets.faceLandmark68TinyNet.loadFromUri('/models'),
-    faceapi.nets.faceExpressionNet.loadFromUri('/models'),
+    api.nets.tinyFaceDetector.loadFromUri('/models'),
+    api.nets.faceLandmark68TinyNet.loadFromUri('/models'),
+    api.nets.faceExpressionNet.loadFromUri('/models'),
   ]);
   modelsLoaded = true;
 }
@@ -151,8 +158,9 @@ export default function Step5Photo({ onPhotoCapture, onSkip, onPrev }: Props) {
         await new Promise<void>((res) => { img.onload = () => res(); });
 
         // 3) 얼굴 감지 + 랜드마크 + 표정
-        const detection = await faceapi
-          .detectSingleFace(img, new faceapi.TinyFaceDetectorOptions())
+        const api = faceapi!;
+        const detection = await api
+          .detectSingleFace(img, new api.TinyFaceDetectorOptions())
           .withFaceLandmarks(true)   // true = tiny landmark model
           .withFaceExpressions();
 

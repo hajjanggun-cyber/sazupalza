@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Navigation from '../../../components/Navigation';
 import Footer from '../../../components/Footer';
-import { buildLocaleAlternates } from '@/lib/seo';
+import { buildLocaleAlternates, buildLocalizedHref } from '@/lib/seo';
 
 interface Props {
   params: { locale: string };
@@ -180,15 +180,15 @@ export default async function AboutPage({ params: { locale } }: Props) {
             {isKo ? '관련 안내' : 'Related Policies'}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-            <Link href={`/${locale}/privacy`} className="rounded-xl border border-yellow-900/30 bg-yellow-900/10 p-4 hover:border-yellow-500/30 transition-colors">
+            <Link href={buildLocalizedHref(locale, '/privacy')} className="rounded-xl border border-yellow-900/30 bg-yellow-900/10 p-4 hover:border-yellow-500/30 transition-colors">
               <p className="text-yellow-200 font-medium mb-1">{isKo ? '개인정보처리방침' : 'Privacy Policy'}</p>
               <p className="text-yellow-100/60 text-sm">{isKo ? '저장 방식과 보관 범위를 확인합니다.' : 'Review storage and retention behavior.'}</p>
             </Link>
-            <Link href={`/${locale}/terms`} className="rounded-xl border border-yellow-900/30 bg-yellow-900/10 p-4 hover:border-yellow-500/30 transition-colors">
+            <Link href={buildLocalizedHref(locale, '/terms')} className="rounded-xl border border-yellow-900/30 bg-yellow-900/10 p-4 hover:border-yellow-500/30 transition-colors">
               <p className="text-yellow-200 font-medium mb-1">{isKo ? '이용약관' : 'Terms of Service'}</p>
               <p className="text-yellow-100/60 text-sm">{isKo ? '서비스 범위와 면책 기준을 확인합니다.' : 'Review service scope and disclaimers.'}</p>
             </Link>
-            <Link href={`/${locale}/contact`} className="rounded-xl border border-yellow-900/30 bg-yellow-900/10 p-4 hover:border-yellow-500/30 transition-colors">
+            <Link href={buildLocalizedHref(locale, '/contact')} className="rounded-xl border border-yellow-900/30 bg-yellow-900/10 p-4 hover:border-yellow-500/30 transition-colors">
               <p className="text-yellow-200 font-medium mb-1">{isKo ? '문의 및 FAQ' : 'Contact & FAQ'}</p>
               <p className="text-yellow-100/60 text-sm">{isKo ? '운영 문의와 자주 묻는 질문을 확인합니다.' : 'Find support details and common questions.'}</p>
             </Link>

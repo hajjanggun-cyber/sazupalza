@@ -412,7 +412,7 @@ export default function GwansangResultPage() {
                             💡 {isKo ? '측면 사진을 추가하면 해석에 참고할 정보가 더 늘어납니다' : 'Add a side photo for a more complete reading'}
                         </p>
                         <button
-                            onClick={() => router.push(`/${locale}/gwansang-analysis`)}
+                            onClick={() => router.push(buildLocalizedHref(locale, '/gwansang-analysis'))}
                             className="mt-2 text-xs text-blue-400 hover:text-blue-300 underline"
                         >
                             {isKo ? '측면 사진 추가하기 →' : 'Add side photo →'}
@@ -444,7 +444,7 @@ export default function GwansangResultPage() {
                         <span>{copied ? '✅' : '🔗'}</span>
                         <span>{copied ? (isKo ? '복사됨!' : 'Copied!') : (isKo ? '분석 페이지 링크 복사' : 'Copy Analysis Link')}</span>
                     </button>
-                    <button className="btn-secondary flex-1" onClick={() => router.push(`/${locale}/gwansang-analysis`)}>
+                    <button className="btn-secondary flex-1" onClick={() => router.push(buildLocalizedHref(locale, '/gwansang-analysis'))}>
                         🔄 {isKo ? '다시 분석하기' : 'Analyze Again'}
                     </button>
                 </div>

@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import Navigation from '../../../components/Navigation';
 import Footer from '../../../components/Footer';
 import Link from 'next/link';
-import { buildLocaleAlternates } from '@/lib/seo';
+import { buildLocaleAlternates, buildLocalizedHref } from '@/lib/seo';
 
 interface Props {
   params: { locale: string };
@@ -170,7 +170,7 @@ export default async function TermsPage({ params: { locale } }: Props) {
         </article>
 
         <div className="text-center mt-12">
-          <Link href={`/${locale}`} className="btn-gold inline-flex items-center gap-2 px-8 py-3 rounded-full font-bold transition-transform hover:scale-105">
+          <Link href={buildLocalizedHref(locale)} className="btn-gold inline-flex items-center gap-2 px-8 py-3 rounded-full font-bold transition-transform hover:scale-105">
             <span>{isKo ? '← 메인으로 돌아가기' : '← Back to Main'}</span>
           </Link>
         </div>

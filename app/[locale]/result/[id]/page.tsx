@@ -8,6 +8,7 @@ import { generateResult, ComprehensiveResult, ResultSection } from '../../../../
 import { RESULT_REVEAL_DELAY_MS } from '../../../../lib/constants/analysis-delay';
 import { Guardian } from '../../../../lib/data/guardian';
 import { readResultPayload } from '../../../../lib/client/result-storage';
+import { buildLocalizedHref } from '@/lib/seo';
 import { getAnalysisStartPath, getAnalysisStartUrl } from '../../../../lib/client/share-links';
 import Navigation from '../../../../components/Navigation';
 import Footer from '../../../../components/Footer';
@@ -242,7 +243,7 @@ export default function ResultIdPage() {
           <p className="text-yellow-200 mb-6">{locale === 'ko' ? '분석 중 오류가 발생했습니다.' : 'Error during analysis.'}</p>
           <button
             className="btn-secondary"
-            onClick={() => router.push(`/${locale}`)}
+            onClick={() => router.push(buildLocalizedHref(locale))}
           >
             {locale === 'ko' ? '처음으로 돌아가기' : 'Back to Home'}
           </button>
@@ -497,32 +498,32 @@ export default function ResultIdPage() {
               { 
                 titleKo: '사주 기초: 천간지지는 무엇일까?', 
                 titleEn: 'Four Pillars Basics: What is Cheongan Jiji?',
-                href: `/${locale}/saju` 
+                href: buildLocalizedHref(locale, '/saju')
               },
-              { 
-                titleKo: '성명학으로 이름 운세 알아보기', 
+              {
+                titleKo: '성명학으로 이름 운세 알아보기',
                 titleEn: 'Learn Fortune through Name Analysis',
-                href: `/${locale}/name` 
+                href: buildLocalizedHref(locale, '/name-reading')
               },
-              { 
-                titleKo: '관상으로 보는 성격과 인생', 
+              {
+                titleKo: '관상으로 보는 성격과 인생',
                 titleEn: 'Personality and Fate via Face Reading',
-                href: `/${locale}/face` 
+                href: buildLocalizedHref(locale, '/face-reading')
               },
-              { 
+              {
                 titleKo: 'MBTI와 사주를 함께 보는 이유',
                 titleEn: 'Mysterious Link between MBTI and Saju',
-                href: `/${locale}/mbti` 
+                href: buildLocalizedHref(locale, '/mbti')
               },
-              { 
-                titleKo: '오행(五行) 균형 이해 가이드', 
+              {
+                titleKo: '오행(五行) 균형 이해 가이드',
                 titleEn: 'Perfect Guide to the Five Elements',
-                href: `/${locale}/saju` 
+                href: buildLocalizedHref(locale, '/saju')
               },
-              { 
-                titleKo: '사주로 알아보는 직업 적성', 
+              {
+                titleKo: '사주로 알아보는 직업 적성',
                 titleEn: 'Career Aptitude via Four Pillars',
-                href: `/${locale}/saju` 
+                href: buildLocalizedHref(locale, '/saju')
               },
             ].map((post, i) => (
               <a

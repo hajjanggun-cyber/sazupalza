@@ -192,7 +192,7 @@ export default function PersonalityResultPage() {
                         <span>{copied ? '✅' : '🔗'}</span>
                         <span>{copied ? (isKo ? '복사됨!' : 'Copied!') : (isKo ? '분석 페이지 링크 복사' : 'Copy Analysis Link')}</span>
                     </button>
-                    <button className="btn-secondary flex-1" onClick={() => router.push(`/${locale}/personality-analysis`)}>
+                    <button className="btn-secondary flex-1" onClick={() => router.push(buildLocalizedHref(locale, '/personality-analysis'))}>
                         🔄 {isKo ? '다시 테스트하기' : 'Test Again'}
                     </button>
                 </div>

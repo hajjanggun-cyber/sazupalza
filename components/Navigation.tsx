@@ -78,7 +78,7 @@ export default function Navigation() {
               <button
                 className="md:hidden ml-2 text-yellow-400 hover:text-yellow-300"
                 onClick={() => setMenuOpen(!menuOpen)}
-                aria-label="메뉴"
+                aria-label={locale === 'ko' ? '메뉴' : 'Menu'}
               >
                 <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   {menuOpen ? (
