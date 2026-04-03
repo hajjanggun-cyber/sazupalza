@@ -109,7 +109,7 @@
 
 ### [사주] 오행 과다 시리즈
 
-[ ] 11. 사주에서 목(木)이 많으면 — 특징·직업·대처법 완전 분석
+[완료] 11. 사주에서 목(木)이 많으면 — 특징·직업·대처법 완전 분석
 - slug: `too-much-wood-in-saju`
 - 카테고리: `saju`
 - 메인 키워드 KO: 사주 목이 많으면, 사주 목 과다
@@ -118,7 +118,7 @@
 - 하위 키워드 EN: wood element personality korean astrology, wood excess saju traits, four pillars wood dominant
 - 작성 지침: too-much-metal 포맷 동일. 목 과다 성격/직업/건강/대처법(화 기운 보충). 2000자 이상.
 
-[ ] 12. 사주에서 화(火)가 많으면 — 특징·직업·대처법 완전 분석
+[완료] 12. 사주에서 화(火)가 많으면 — 특징·직업·대처법 완전 분석
 - slug: `too-much-fire-in-saju`
 - 카테고리: `saju`
 - 메인 키워드 KO: 사주 화가 많으면, 사주 화 과다
@@ -127,7 +127,7 @@
 - 하위 키워드 EN: fire element personality saju, fire excess korean astrology, four pillars fire dominant
 - 작성 지침: 화 과다 → 충동적·열정적 성격, 심장/혈압 주의, 수 기운으로 균형. too-much-metal 포맷 동일.
 
-[ ] 13. 사주에서 수(水)가 많으면 — 특징·직업·대처법 완전 분석
+[완료] 13. 사주에서 수(水)가 많으면 — 특징·직업·대처법 완전 분석
 - slug: `too-much-water-in-saju`
 - 카테고리: `saju`
 - 메인 키워드 KO: 사주 수가 많으면, 사주 수 과다
@@ -136,7 +136,7 @@
 - 하위 키워드 EN: water element personality saju, water excess korean astrology, four pillars water dominant
 - 작성 지침: 수 과다 → 감성적·우유부단, 신장/방광 주의, 토 기운으로 균형.
 
-[ ] 14. 사주에서 토(土)가 많으면 — 특징·직업·대처법 완전 분석
+[완료] 14. 사주에서 토(土)가 많으면 — 특징·직업·대처법 완전 분석
 - slug: `too-much-earth-in-saju`
 - 카테고리: `saju`
 - 메인 키워드 KO: 사주 토가 많으면, 사주 토 과다

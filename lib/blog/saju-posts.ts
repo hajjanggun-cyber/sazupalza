@@ -20,8 +20,8 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
   <ul style="margin: 0; padding-left: 16px;">
-    <li style="margin-bottom: 4px;"><a href="/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 일주 완전정복: 나의 본질과 배우자 복을 읽는 법</a></li>
-    <li style="margin-bottom: 4px;"><a href="/saju/lucky-element" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 용신 찾기: 내 사주에서 가장 필요한 행운의 기운</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 일주 완전정복: 나의 본질과 배우자 복을 읽는 법</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/lucky-element" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 용신 찾기: 내 사주에서 가장 필요한 행운의 기운</a></li>
   </ul>
 </div>
 
@@ -163,8 +163,8 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
   <ul style="margin: 0; padding-left: 16px;">
-    <li style="margin-bottom: 4px;"><a href="/saju/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주팔자란 무엇인가? 음양오행 원리와 인생 운명론 완벽 가이드</a></li>
-    <li style="margin-bottom: 4px;"><a href="/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 일주 완전정복: 나의 본질과 배우자 복을 읽는 법</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주팔자란 무엇인가? 음양오행 원리와 인생 운명론 완벽 가이드</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 일주 완전정복: 나의 본질과 배우자 복을 읽는 법</a></li>
   </ul>
 </div>
 
@@ -294,8 +294,8 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
   <ul style="margin: 0; padding-left: 16px;">
-    <li style="margin-bottom: 4px;"><a href="/saju/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주팔자란 무엇인가? 음양오행 원리와 인생 운명론 완벽 가이드</a></li>
-    <li style="margin-bottom: 4px;"><a href="/saju/lucky-element" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 용신 찾기: 내 사주에서 가장 필요한 행운의 기운</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주팔자란 무엇인가? 음양오행 원리와 인생 운명론 완벽 가이드</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/lucky-element" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 용신 찾기: 내 사주에서 가장 필요한 행운의 기운</a></li>
   </ul>
 </div>
 
@@ -435,8 +435,8 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
   <ul style="margin: 0; padding-left: 16px;">
-    <li style="margin-bottom: 4px;"><a href="/saju/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주팔자란 무엇인가? 음양오행 원리와 인생 운명론 완벽 가이드</a></li>
-    <li style="margin-bottom: 4px;"><a href="/saju/career-star" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 관성으로 보는 직업운: 나에게 맞는 직종과 성공 시기 분석</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주팔자란 무엇인가? 음양오행 원리와 인생 운명론 완벽 가이드</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/career-star" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 관성으로 보는 직업운: 나에게 맞는 직종과 성공 시기 분석</a></li>
   </ul>
 </div>
 
@@ -564,8 +564,8 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
   <ul style="margin: 0; padding-left: 16px;">
-    <li style="margin-bottom: 4px;"><a href="/saju/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주팔자란 무엇인가? 음양오행 원리와 인생 운명론 완벽 가이드</a></li>
-    <li style="margin-bottom: 4px;"><a href="/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 일주 완전정복: 나의 본질과 배우자 복을 읽는 법</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주팔자란 무엇인가? 음양오행 원리와 인생 운명론 완벽 가이드</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 일주 완전정복: 나의 본질과 배우자 복을 읽는 법</a></li>
   </ul>
 </div>
 
@@ -704,8 +704,8 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
   <ul style="margin: 0; padding-left: 16px;">
-    <li style="margin-bottom: 4px;"><a href="/saju/lucky-element" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 용신 찾기: 내 사주에서 가장 필요한 행운의 기운</a></li>
-    <li style="margin-bottom: 4px;"><a href="/saju/destiny-change" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">운명은 정해져 있는가? 사주로 운을 바꾸고 개운하는 실전 방법</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/lucky-element" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 용신 찾기: 내 사주에서 가장 필요한 행운의 기운</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/destiny-change" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">운명은 정해져 있는가? 사주로 운을 바꾸고 개운하는 실전 방법</a></li>
   </ul>
 </div>
 
@@ -827,8 +827,8 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
   <ul style="margin: 0; padding-left: 16px;">
-    <li style="margin-bottom: 4px;"><a href="/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 일주 완전정복: 나의 본질과 배우자 복을 읽는 법</a></li>
-    <li style="margin-bottom: 4px;"><a href="/saju/lucky-element" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 용신 찾기: 내 사주에서 가장 필요한 행운의 기운</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 일주 완전정복: 나의 본질과 배우자 복을 읽는 법</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/lucky-element" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 용신 찾기: 내 사주에서 가장 필요한 행운의 기운</a></li>
   </ul>
 </div>
 
@@ -946,8 +946,8 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
   <ul style="margin: 0; padding-left: 16px;">
-    <li style="margin-bottom: 4px;"><a href="/saju/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주팔자란 무엇인가? 음양오행 원리와 인생 운명론 완벽 가이드</a></li>
-    <li style="margin-bottom: 4px;"><a href="/saju/lucky-element" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 용신 찾기: 내 사주에서 가장 필요한 행운의 기운</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주팔자란 무엇인가? 음양오행 원리와 인생 운명론 완벽 가이드</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/lucky-element" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 용신 찾기: 내 사주에서 가장 필요한 행운의 기운</a></li>
   </ul>
 </div>
 
@@ -1230,8 +1230,8 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
     <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
     <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
     <ul style="margin: 0; padding-left: 16px;">
-    <li style="margin-bottom: 4px;"><a href="/saju/annual-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">세운(歲運) 완전 해설: 올해 나에게 일어날 일 예측하기</a></li>
-    <li style="margin-bottom: 4px;"><a href="/saju/lucky-element" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 용신 찾기: 대운을 내 편으로 만드는 행운의 기운</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/annual-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">세운(歲運) 완전 해설: 올해 나에게 일어날 일 예측하기</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/lucky-element" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 용신 찾기: 대운을 내 편으로 만드는 행운의 기운</a></li>
     </ul>
     </div>
 
@@ -1275,8 +1275,8 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
     <p>당신의 인생이 지금 폭풍우 치는 바다 한가운데 있다면, 자책하지 마십시오. 단지 계절이 험난할 뿐, 당신의 배가 고장 난 것이 아닙니다. 다가올 10년의 날씨(대운)를 미리 읽고 대비한다면, 우리는 어떤 파도 속에서도 결국 우리가 원하는 목적지에 도달할 수 있습니다. 그것이 명리학이 우리에게 주는 가장 위대한 위로이자 전략입니다.</p>
 
     <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-    <p><a href="/saju/annual-fortune" style="text-decoration: underline; color: #f9d976;">[관련] 세운(歲運) 완전 해설: 1년 단위의 디테일한 운세 읽기</a></p>
-    <p><a href="/saju/clash-harmony" style="text-decoration: underline; color: #f9d976;">[관련] 천간충과 지지충: 내 사주가 대운과 충돌할 때 벌어지는 일</a></p>
+    <p><a href="/ko/saju/annual-fortune" style="text-decoration: underline; color: #f9d976;">[관련] 세운(歲運) 완전 해설: 1년 단위의 디테일한 운세 읽기</a></p>
+    <p><a href="/ko/saju/clash-harmony" style="text-decoration: underline; color: #f9d976;">[관련] 천간충과 지지충: 내 사주가 대운과 충돌할 때 벌어지는 일</a></p>
     </div>
     </section>`,
     contentEn: `<section>
@@ -1376,8 +1376,8 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
     <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
     <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
     <ul style="margin: 0; padding-left: 16px;">
-    <li style="margin-bottom: 4px;"><a href="/saju/major-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">대운(大運) 완전 해설: 10년 단위로 바뀌는 인생의 거대한 파도</a></li>
-    <li style="margin-bottom: 4px;"><a href="/saju/zodiac-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">2026년 병오년 운세: 붉은 말띠 해, 나의 띠별 운세 흐름</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/major-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">대운(大運) 완전 해설: 10년 단위로 바뀌는 인생의 거대한 파도</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/zodiac-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">2026년 병오년 운세: 붉은 말띠 해, 나의 띠별 운세 흐름</a></li>
     </ul>
     </div>
 
@@ -1420,8 +1420,8 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
     <p>올해 당신에게 어떤 세운의 바람이 불어오고 있습니까? 취업의 바람이라면 돛을 활짝 펴야 하고, 건강 악화의 칼바람이라면 닻을 내리고 항구에 정박해야 합니다. 내 사주와 세운이 빚어내는 파도의 타이밍을 읽어낼 때, 당신은 불필요한 고생을 줄이고 인생의 효율을 극대화할 수 있을 것입니다.</p>
 
     <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-    <p><a href="/saju/clash-harmony" style="text-decoration: underline; color: #f9d976;">[관련] 천간충·지지충: 내 사주가 운과 부딪힐 때 생기는 진짜 변화</a></p>
-    <p><a href="/saju/wealth-luck" style="text-decoration: underline; color: #f9d976;">[관련] 재성(財星)으로 보는 재물운: 나는 언제 부자가 될까?</a></p>
+    <p><a href="/ko/saju/clash-harmony" style="text-decoration: underline; color: #f9d976;">[관련] 천간충·지지충: 내 사주가 운과 부딪힐 때 생기는 진짜 변화</a></p>
+    <p><a href="/ko/saju/wealth-luck" style="text-decoration: underline; color: #f9d976;">[관련] 재성(財星)으로 보는 재물운: 나는 언제 부자가 될까?</a></p>
     </div>
     </section>`,
     contentEn: `<section>
@@ -1518,8 +1518,8 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
     <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
     <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
     <ul style="margin: 0; padding-left: 16px;">
-    <li style="margin-bottom: 4px;"><a href="/saju/annual-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">세운(歲運) 완전 해설: 올해 나에게 일어날 구체적인 사건 예측</a></li>
-    <li style="margin-bottom: 4px;"><a href="/saju/love-marriage" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주로 보는 연애와 결혼운: 나의 운명의 짝 찾기</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/annual-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">세운(歲運) 완전 해설: 올해 나에게 일어날 구체적인 사건 예측</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/love-marriage" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주로 보는 연애와 결혼운: 나의 운명의 짝 찾기</a></li>
     </ul>
     </div>
 
@@ -1562,8 +1562,8 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
     <p>올해 당신의 사주에 매서운 충돌의 기운이 들어와 있습니까? 두려워하며 숨지 마십시오. 당신의 삶에서 유통기한이 지난 낡은 껍질이 깨지고 있는 중입니다. 불필요한 인연과 억압된 환경에서 풀려나, 진짜 당신의 운명으로 나아가기 위한 아프지만 위대한 통과의례를 기꺼이 받아들이시길 바랍니다.</p>
 
     <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-    <p><a href="/saju/health-saju" style="text-decoration: underline; color: #f9d976;">[관련] 사주로 보는 건강과 질병: 충(沖)이 올 때 조심해야 할 장기</a></p>
-    <p><a href="/saju/wealth-luck" style="text-decoration: underline; color: #f9d976;">[관련] 재성(財星)으로 보는 재물운: 돈그릇이 깨질 때 방어하는 법</a></p>
+    <p><a href="/ko/saju/health-saju" style="text-decoration: underline; color: #f9d976;">[관련] 사주로 보는 건강과 질병: 충(沖)이 올 때 조심해야 할 장기</a></p>
+    <p><a href="/ko/saju/wealth-luck" style="text-decoration: underline; color: #f9d976;">[관련] 재성(財星)으로 보는 재물운: 돈그릇이 깨질 때 방어하는 법</a></p>
     </div>
     </section>`,
     contentEn: `<section>
@@ -1662,8 +1662,8 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
   <ul style="margin: 0; padding-left: 16px;">
-    <li style="margin-bottom: 4px;"><a href="/saju/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주팔자란 무엇인가? 인생의 네 기둥과 운명론 완벽 가이드</a></li>
-    <li style="margin-bottom: 4px;"><a href="/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 일주 완전정복: 나의 본질과 배우자 복을 읽는 법</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주팔자란 무엇인가? 인생의 네 기둥과 운명론 완벽 가이드</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 일주 완전정복: 나의 본질과 배우자 복을 읽는 법</a></li>
   </ul>
 </div>
 
@@ -1701,8 +1701,8 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <p>하지만 기억하십시오. 가장 비싼 난초는 온실 속에서 자라지만, 천 년을 버티는 거목은 척박한 바위틈에서 시작됩니다. 년주가 험난하다는 것은 그만큼 당신이 이 생에서 극복하고 깨달아야 할 에너지가 강렬하다는 뜻입니다. 년주에 새겨진 나의 출발점과 조상의 흔적을 있는 그대로 수용하고 이해할 때, 비로소 당신은 운명이라는 이름의 나무를 하늘 높이 성장시킬 진정한 힘을 얻게 될 것입니다. 당신의 뿌리를 아는 것이 모든 개운(開運)의 첫걸음입니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/saju/month-pillar" style="text-decoration: underline; color: #f9d976;">[관련] 월주(月柱) 완전 해설: 직업운과 청년기의 비밀</a></p>
-  <p><a href="/saju/destiny-change" style="text-decoration: underline; color: #f9d976;">[관련] 운명은 정해져 있는가? 사주로 운을 바꾸는 실전 개운법</a></p>
+  <p><a href="/ko/saju/month-pillar" style="text-decoration: underline; color: #f9d976;">[관련] 월주(月柱) 완전 해설: 직업운과 청년기의 비밀</a></p>
+  <p><a href="/ko/saju/destiny-change" style="text-decoration: underline; color: #f9d976;">[관련] 운명은 정해져 있는가? 사주로 운을 바꾸는 실전 개운법</a></p>
 </div>
 </section>`,
     contentEn: `<section>
@@ -1795,8 +1795,8 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
   <ul style="margin: 0; padding-left: 16px;">
-    <li style="margin-bottom: 4px;"><a href="/saju/year-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">년주(年柱) 완전 해설: 나의 뿌리와 조상, 초년운의 비밀</a></li>
-    <li style="margin-bottom: 4px;"><a href="/saju/career-star" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 관성으로 보는 직업운: 나에게 맞는 직종 찾기</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/year-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">년주(年柱) 완전 해설: 나의 뿌리와 조상, 초년운의 비밀</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/career-star" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 관성으로 보는 직업운: 나에게 맞는 직종 찾기</a></li>
   </ul>
 </div>
 
@@ -1833,8 +1833,8 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <p>부모의 기대를 만족시키기 위해, 혹은 남들이 좋다고 하는 유망 직종을 좇기 위해 내 월주의 본성을 억누르고 있지는 않습니까? 호랑이로 태어났으면 산으로 가야 하고, 돌고래로 태어났으면 바다로 가야 합니다. 월주를 정확히 해독한다는 것은, 남의 옷을 벗어 던지고 나에게 가장 잘 맞는 전투복으로 갈아입는 것입니다. 당신의 월주가 지시하는 길로 과감하게 발걸음을 내디딜 때, 인생의 진짜 황금기가 시작될 것입니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/saju/hour-pillar" style="text-decoration: underline; color: #f9d976;">[관련] 시주(時柱) 완전 해설: 나의 숨겨진 내면과 말년의 결실</a></p>
-  <p><a href="/saju/wealth-luck" style="text-decoration: underline; color: #f9d976;">[관련] 사주로 보는 재물운: 내 사주의 돈그릇 사이즈는?</a></p>
+  <p><a href="/ko/saju/hour-pillar" style="text-decoration: underline; color: #f9d976;">[관련] 시주(時柱) 완전 해설: 나의 숨겨진 내면과 말년의 결실</a></p>
+  <p><a href="/ko/saju/wealth-luck" style="text-decoration: underline; color: #f9d976;">[관련] 사주로 보는 재물운: 내 사주의 돈그릇 사이즈는?</a></p>
 </div>
 </section>`,
     contentEn: `<section>
@@ -1927,8 +1927,8 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
   <ul style="margin: 0; padding-left: 16px;">
-    <li style="margin-bottom: 4px;"><a href="/saju/month-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">월주(月柱) 완전 해설: 직업운과 청년기 성취의 핵심</a></li>
-    <li style="margin-bottom: 4px;"><a href="/saju/lunar-solar-calendar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">음력 양력 차이와 사주 생시가 중요한 진짜 이유</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/month-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">월주(月柱) 완전 해설: 직업운과 청년기 성취의 핵심</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/lunar-solar-calendar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">음력 양력 차이와 사주 생시가 중요한 진짜 이유</a></li>
   </ul>
 </div>
 
@@ -1965,8 +1965,8 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <p>시주에 재물이 깨질 운이 있다면 젊을 때부터 연금과 부동산으로 돈을 묶어두는 지혜를 발휘해야 합니다. 자식궁이 불안정하다면 자식에 대한 집착을 버리고 각자의 삶을 존중하는 독립적인 관계를 미리 연습해야 합니다. 당신의 태어난 시간은 당신 인생의 마지막 챕터가 어떻게 쓰일지를 알려주는 스포일러입니다. 그 결말을 미리 안다면, 우리는 오늘 하루의 대본을 더 현명하게 수정할 수 있습니다.</p>
 
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/saju/love-marriage" style="text-decoration: underline; color: #f9d976;">[관련] 사주로 보는 연애와 결혼운: 나의 운명의 짝은 언제 나타날까?</a></p>
-  <p><a href="/saju/major-fortune" style="text-decoration: underline; color: #f9d976;">[관련] 대운(大運) 완전 해설: 10년 단위로 바뀌는 인생의 거대한 파도</a></p>
+  <p><a href="/ko/saju/love-marriage" style="text-decoration: underline; color: #f9d976;">[관련] 사주로 보는 연애와 결혼운: 나의 운명의 짝은 언제 나타날까?</a></p>
+  <p><a href="/ko/saju/major-fortune" style="text-decoration: underline; color: #f9d976;">[관련] 대운(大運) 완전 해설: 10년 단위로 바뀌는 인생의 거대한 파도</a></p>
 </div>
 </section>`,
     contentEn: `<section>
@@ -2084,8 +2084,8 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <h3>결혼 시기 선택의 지혜</h3>
 <p>좋은 사주도 잘못된 시기에 결혼하면 어려움이 생길 수 있습니다. 반드시 피해야 할 결혼 시기는 배우자 궁이 공망(空亡)에 들어가는 해, 이성 별이 충(冲)을 받는 해, 삼재(三災) 기간입니다. 반대로 재성운·관성운이 강하게 들어오고 길신(吉神)이 배우자 궁을 생(生)해주는 해는 결혼의 최적기입니다.</p>
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/saju/wealth-luck" style="text-decoration: underline; color: #f9d976;">[관련] 사주 재물운: 재성(財星)으로 돈복 읽기</a></p>
-  <p><a href="/saju/destiny-change" style="text-decoration: underline; color: #f9d976;">[관련] 개운(改運)의 철학: 내 운명을 바꿀 수 있는가</a></p>
+  <p><a href="/ko/saju/wealth-luck" style="text-decoration: underline; color: #f9d976;">[관련] 사주 재물운: 재성(財星)으로 돈복 읽기</a></p>
+  <p><a href="/ko/saju/destiny-change" style="text-decoration: underline; color: #f9d976;">[관련] 개운(改運)의 철학: 내 운명을 바꿀 수 있는가</a></p>
 </div>
 </section>`,
     contentEn: `<section>
@@ -2196,8 +2196,8 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <h3>재물 손실 방어 전략</h3>
 <p>재물 손실이 예상되는 대운·세운에는 방어적 전략이 최선입니다. 현금을 묶인 자산(부동산, 연금, 정기예금)으로 전환해두면 비겁운(比劫運)에서 사람을 통한 재물 손실을 최소화할 수 있습니다. 명리학은 운명을 바꾸는 것이 아니라 운명을 알고 최선의 선택을 하는 지혜입니다.</p>
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/saju/career-star" style="text-decoration: underline; color: #f9d976;">[관련] 관성(官星)으로 보는 직업운: 나에게 맞는 직업 찾기</a></p>
-  <p><a href="/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[관련] 용신(用神) 완전 해설: 내 사주의 핵심 기운 찾기</a></p>
+  <p><a href="/ko/saju/career-star" style="text-decoration: underline; color: #f9d976;">[관련] 관성(官星)으로 보는 직업운: 나에게 맞는 직업 찾기</a></p>
+  <p><a href="/ko/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[관련] 용신(用神) 완전 해설: 내 사주의 핵심 기운 찾기</a></p>
 </div>
 </section>`,
     contentEn: `<section>
@@ -2312,8 +2312,8 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <h3>건강 위험 시기 대비 전략</h3>
 <p>건강 위험이 예상되는 대운·세운에는 사전 정밀 검진을 받고, 수술이 필요하다면 충(冲)이나 공망이 없는 시기를 골라 진행하는 것이 회복 속도와 예후에 유리합니다. 사주 건강 분석은 운명론적 체념이 아니라 미래를 준비하는 지혜입니다.</p>
 <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[관련] 용신(用神) 완전 해설: 내 사주의 핵심 기운 찾기</a></p>
-  <p><a href="/saju/destiny-change" style="text-decoration: underline; color: #f9d976;">[관련] 개운(改運)의 철학: 내 운명을 바꿀 수 있는가</a></p>
+  <p><a href="/ko/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[관련] 용신(用神) 완전 해설: 내 사주의 핵심 기운 찾기</a></p>
+  <p><a href="/ko/saju/destiny-change" style="text-decoration: underline; color: #f9d976;">[관련] 개운(改運)의 철학: 내 운명을 바꿀 수 있는가</a></p>
 </div>
 </section>`,
     contentEn: `<section>
@@ -2397,8 +2397,8 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
   <ul style="margin: 0; padding-left: 16px;">
-    <li style="margin-bottom: 4px;"><a href="/saju/lucky-element" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 용신(用神)이란? 오행 균형을 잡는 핵심 기운</a></li>
-    <li style="margin-bottom: 4px;"><a href="/saju/health-saju" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 건강 분석: 오행으로 보는 체질과 건강 위험 시기</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/lucky-element" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 용신(用神)이란? 오행 균형을 잡는 핵심 기운</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/health-saju" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 건강 분석: 오행으로 보는 체질과 건강 위험 시기</a></li>
   </ul>
 </div>
 
@@ -2539,6 +2539,574 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
     ],
   },
   {
+    slug: 'too-much-wood-in-saju',
+    title: 'What Happens When Wood Is Too Strong in Saju?',
+    seoTitle: '사주에서 목이 많으면: 분노·간담·경직 중심 목 과다 해석',
+    seoTitleEn: 'Too Much Wood in Saju: Traits, Career, Health, and Balance',
+    description: '사주에서 목(木)이 많으면 어떤 특징이 나타날까요? 목 과다 사주의 성격, 직업 성향, 건강 신호, 관계 패턴, 화 기운으로 균형 잡는 법까지 한 번에 정리합니다.',
+    descriptionEn: 'What does too much Wood in Saju mean? Learn the traits, career patterns, health tendencies, and practical balancing tips of a wood-dominant Four Pillars chart.',
+    keywords: ['사주 목이 많으면', '사주 목 과다', '목 과다 성격', '목 과다 직업', '목 과다 건강', '목 과다 사주 특징'],
+    keywordsEn: ['too much wood element saju', 'wood dominant four pillars', 'wood excess saju traits', 'wood element personality korean astrology', 'wood dominant saju career', 'wood excess saju health'],
+    publishedAt: '2026-04-03',
+    category: 'saju',
+    toc: [
+      { id: 'wood-basics', title: '1. 사주에서 목(木)이 많다는 뜻' },
+      { id: 'wood-personality-career', title: '2. 목 과다 사주의 성격과 직업 해석' },
+      { id: 'wood-health-relationships', title: '3. 건강·관계에서 자주 보이는 패턴' },
+      { id: 'wood-balance', title: '4. 목 기운이 너무 강할 때 대처하는 법' },
+    ],
+    tocEn: [
+      { id: 'wood-basics', title: '1. What Too Much Wood in Saju Means' },
+      { id: 'wood-personality-career', title: '2. Personality and Career in a Wood-Dominant Chart' },
+      { id: 'wood-health-relationships', title: '3. Health and Relationship Patterns' },
+      { id: 'wood-balance', title: '4. How to Balance Excess Wood Energy' },
+    ],
+    contentKo: `<section>
+<p>사주에서 목이 많으면 어떤 사람일까, 왜 이렇게 예민하고 바쁘게 움직이는 느낌이 강할까 궁금해하는 경우가 많습니다. 목(木)은 성장, 확장, 추진력, 계획, 방향성을 상징하는 기운입니다. 그래서 목 과다 사주는 대체로 생각이 앞서고, 하고 싶은 일이 많고, 새로운 판을 벌이는 힘이 강하게 나타납니다. 다만 이 에너지가 지나치면 분노가 빨리 올라오거나, 몸에서는 간담 계열의 피로와 긴장으로 체감되거나, 관계와 사고방식에서 경직된 반응으로 드러나기 쉽습니다. 핵심은 목이 많다는 사실 자체보다, 그 목 기운이 사주 전체에서 어떻게 순환되고 있는지를 읽는 것입니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/lucky-element" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 용신(用神)이란? 부족한 오행을 읽는 핵심 기준</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/health-saju" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 건강 분석: 오행으로 보는 체질과 건강 신호</a></li>
+  </ul>
+</div>
+
+<h2 id="wood-basics">1. 사주에서 목(木)이 많다는 뜻</h2>
+<p>사주에서 목이 많다는 말은 갑목(甲), 을목(乙), 인(寅), 묘(卯)처럼 목 기운이 반복되거나, 수(水)가 강하게 목을 생해 전체 구조가 계속 자라나는 방향으로 기울었다는 뜻입니다. 목은 봄, 새싹, 기획, 확장, 추진, 도덕감, 방향 설정과 연결됩니다. 그래서 목이 많은 사주는 멈춰 있기보다 움직이고, 정체되기보다 키우고, 현재를 유지하기보다 다음 단계를 구상하는 성향이 강합니다.</p>
+<p>문제는 목이 지나치게 강하면 가지가 사방으로 뻗듯 에너지가 분산된다는 점입니다. 생각은 많은데 마무리가 약해질 수 있고, 기준은 분명한데 타인의 속도를 못 기다릴 수 있습니다. 특히 금(金)이 약해 방향을 정리해 주지 못하면 시작만 많고 정리가 안 되는 모습으로 나타나기 쉽습니다. 반대로 토(土)가 약하면 현실 감각과 안정감이 떨어져 계획은 큰데 체력이 따라오지 않는 식으로 체감되기도 합니다.</p>
+
+<h2 id="wood-personality-career">2. 목 과다 사주의 성격과 직업 해석</h2>
+<p>목 과다 성격은 한마디로 정리하면 “계속 앞으로 나가려는 사람”에 가깝습니다. 목이 많은 사람은 성장 욕구가 강하고, 가만히 있는 것을 답답해하며, 옳다고 느끼는 방향이 생기면 빠르게 밀어붙이는 편입니다. 주변에서는 추진력 있고 선한 의지가 강하다고 보기도 하지만, 상황에 따라서는 성급하고 자기주장이 강하다고 느낄 수 있습니다.</p>
+<h3>목 과다 성격에서 자주 보이는 특징</h3>
+<ul>
+  <li>새로운 일, 공부, 프로젝트를 시작하는 속도가 빠르다.</li>
+  <li>답답한 규칙이나 느린 의사결정을 견디기 어려워한다.</li>
+  <li>불의하거나 비효율적이라고 느끼는 상황에 즉각 반응한다.</li>
+  <li>감정이 쌓이면 참기보다 말이나 행동으로 먼저 드러내는 편이다.</li>
+  <li>해야 할 일이 많아질수록 오히려 더 벌리는 경향이 있다.</li>
+  </ul>
+<p>목 과다 직업 적성은 변화와 기획, 성장, 교육, 조율이 필요한 분야에서 강점이 드러납니다. 교육, 기획, 마케팅, 브랜딩, 콘텐츠, 상담, 인사, 스타트업, 영업처럼 사람과 아이디어를 움직여야 하는 일에 잘 맞는 경우가 많습니다. 방향을 만들고 판을 키우는 힘이 있기 때문입니다. 다만 반복적이고 폐쇄적인 환경, 지나치게 느린 보고 체계, 창의성보다 복종만 요구하는 조직에서는 쉽게 답답함을 느낄 수 있습니다.</p>
+<p>실무적으로는 “시작 능력은 뛰어나지만 마감과 압축이 약한가”를 꼭 봐야 합니다. 목 과다 사주는 아이디어와 추진력은 강하지만, 금 기운이 약하면 문서 정리, 우선순위 설정, 냉정한 결단이 늦어질 수 있습니다. 그래서 본인에게 맞는 직업을 고를 때는 단순히 열정이 맞는지만 볼 것이 아니라, 마무리를 도와주는 팀 구조가 있는지도 같이 보는 편이 좋습니다.</p>
+
+<h2 id="wood-health-relationships">3. 건강·관계에서 자주 보이는 패턴</h2>
+<p>전통적인 오행 해석에서 목은 간, 담, 눈, 근육과 연결해서 읽는 경우가 많습니다. 그래서 목 과다 건강 이슈는 화를 오래 참다가 한 번에 터뜨리거나, 긴장이 누적되면서 어깨와 목이 뻣뻣해지거나, 피로가 쌓일 때 눈의 피로감으로 먼저 드러나는 식으로 체감되곤 합니다. 물론 사주만으로 질병을 단정할 수는 없지만, 몸의 리듬이 늘 팽팽하고 급한 쪽으로 쏠리기 쉽다는 경향은 참고할 만합니다.</p>
+<p>관계에서는 “내가 맞다고 생각하는 방향”이 너무 강해질 때 갈등이 커집니다. 목이 많은 사람은 상대를 끌어주고 성장시키려는 마음이 있지만, 그 방식이 간섭이나 압박처럼 느껴질 수 있습니다. 특히 목 과다 사주 특징 중 하나는 마음이 나쁜 것이 아니라 속도가 빠르다는 점입니다. 본인은 돕는다고 했는데 상대는 통제받는다고 느끼는 경우가 적지 않습니다.</p>
+<p>실전에서는 이런 식으로 많이 나타납니다. 회의에서는 가장 먼저 아이디어를 내지만, 다른 사람이 검토하는 시간은 답답해합니다. 연애에서는 관계를 성장시키고 싶어 하지만 상대의 현재 상태를 기다려 주는 데에는 약할 수 있습니다. 가족 관계에서는 책임감 있게 챙기려다가 잔소리처럼 들리는 경우도 많습니다. 이런 패턴이 반복된다면 성격 문제로만 자책하기보다, 목 기운이 과도하게 뻗는 구조인지 점검해 볼 필요가 있습니다.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 내 사주 오행 균형 무료 분석 받기 →</a>
+</div>
+
+<h2 id="wood-balance">4. 목 기운이 너무 강할 때 대처하는 법</h2>
+<p>목이 많을 때 무조건 눌러야 하는 것은 아닙니다. 중요한 것은 뻗기만 하는 에너지를 순환시키는 것입니다. 이번 글의 기준으로 보면 목 과다 사주는 화(火) 기운을 적절히 보충해 방향성을 분명히 하고, 흩어지는 힘을 표현과 실행의 성과로 바꾸는 접근이 유효합니다. 화는 목이 키운 에너지를 바깥으로 드러내고, 따뜻하게 연결하고, 추진의 열기를 실제 성취로 이어주는 역할을 합니다.</p>
+<p>실전 대처법은 거창하지 않습니다. 첫째, 하고 싶은 일을 계속 추가하기보다 지금 진행 중인 일을 끝내는 기준을 먼저 세웁니다. 둘째, 생각이 많아질수록 말과 일정, 목표를 눈에 보이게 정리합니다. 셋째, 몸을 너무 차갑고 긴장된 상태로 두지 않고 햇빛, 체온, 적당한 운동처럼 화 기운을 살리는 생활 루틴을 의식합니다. 넷째, 사람을 성장시키려는 마음이 들 때는 조언보다 질문을 먼저 던져 관계의 압박감을 줄이는 편이 좋습니다.</p>
+<p>결국 사주에서 목이 많으면 추진력, 성장성, 기획력이라는 분명한 장점이 있습니다. 다만 그 가지가 너무 많이 뻗으면 본인도 피곤하고 주변도 버거워집니다. 목 과다 사주는 에너지를 없애는 것이 아니라, 방향을 좁히고 따뜻하게 태워서 결과로 만드는 것이 핵심입니다. 내 사주에서 어떤 오행이 목을 정리하고 완성해 주는지까지 함께 보면 해석이 훨씬 정확해집니다.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/ko/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[관련글] 사주 용신 찾기: 내 사주에 필요한 균형의 기운은 무엇인가</a></p>
+  <p><a href="/ko/saju/health-saju" style="text-decoration: underline; color: #f9d976;">[관련글] 사주 건강 분석: 오행으로 보는 체질과 위험 신호</a></p>
+</div>
+</section>`,
+    contentEn: `<section>
+<p>What does too much Wood in Saju mean? A wood-dominant Four Pillars chart often belongs to someone who is always planning, moving, expanding, or trying to improve something. Wood is the energy of growth, direction, ideals, initiative, and forward motion. When balanced, it creates vision, drive, curiosity, and moral clarity. When excessive, it can become impatience, emotional tension, overextension, or the habit of pushing life faster than it naturally unfolds.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/saju/lucky-element" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">What Is Yongshin? The Key Balancing Element in Saju</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/saju/health-saju" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Health & Constitution in Saju: Five Elements Body Analysis</a></li>
+  </ul>
+</div>
+
+<h2 id="wood-basics">1. What Too Much Wood in Saju Means</h2>
+<p>In Saju, excess Wood usually appears through repeated Wood stems and branches such as Gap Wood (甲), Eul Wood (乙), Tiger (寅), or Rabbit (卯), or through strong Water that keeps feeding Wood. Wood symbolizes spring, growth, ideals, planning, and expansion. That is why people with strong Wood often feel restless when life stops moving. They want to build, improve, guide, and keep things alive.</p>
+<p>But too much Wood does not simply mean “more growth is better.” When Wood becomes excessive, energy keeps branching outward. The person may start many things without enough consolidation. They may become impatient with slow systems, emotionally reactive when blocked, or overly attached to their own sense of the right direction. If Metal is weak, the chart may lack pruning and structure. If Earth is weak, the person may lose grounding and practical pacing.</p>
+
+<h2 id="wood-personality-career">2. Personality and Career in a Wood-Dominant Chart</h2>
+<p>Wood-heavy personalities usually move first and reflect later. They are often idealistic, initiative-driven, expressive, and uncomfortable with stagnation. In healthy form, this looks inspiring. In excessive form, it can look pushy, intense, or unable to slow down. A strong Wood person often wants progress not only for themselves but also for everyone around them, which is why they can become excellent mentors, organizers, educators, or builders.</p>
+<h3>Common personality patterns</h3>
+<ul>
+  <li>They start quickly and dislike waiting for slow approval cycles.</li>
+  <li>They react strongly to inefficiency, unfairness, or wasted potential.</li>
+  <li>They often carry more plans than they can comfortably finish.</li>
+  <li>They care deeply about growth, meaning, and forward direction.</li>
+  <li>When frustrated, they may speak or act before their emotions settle.</li>
+</ul>
+<p>Career-wise, strong Wood often fits fields that reward initiative, growth strategy, planning, teaching, communication, people development, brand building, counseling, sales, recruiting, marketing, content, and startup environments. These charts do well where movement matters. The caution is that too much Wood can make routine maintenance, repetitive administration, or rigid hierarchy feel unbearable. Many wood-dominant people are not weak workers. They are simply poorly matched to static environments.</p>
+<p>A practical reading should always ask: does this person have enough structure to finish what they start? That is often the line between healthy Wood and excessive Wood. Vision without pruning creates overload. Expansion without completion creates burnout.</p>
+
+<h2 id="wood-health-relationships">3. Health and Relationship Patterns</h2>
+<p>In traditional Five Elements interpretation, Wood is often associated with the liver, gallbladder, eyes, and muscular tension. That does not mean Saju diagnoses disease. It means a wood-heavy pattern often shows itself through stress that rises quickly, tight shoulders and neck, eye fatigue, irritability, or difficulty unwinding after mental stimulation. The body may feel like it is always leaning forward.</p>
+<p>In relationships, excess Wood often appears as intensity of direction. These people usually want progress, honesty, and visible improvement. Their intention may be generous, but their pace can feel pressuring. A partner may experience them as controlling when they believe they are simply helping. A colleague may feel rushed while the wood-heavy person thinks they are creating momentum.</p>
+<p>That is why many strong Wood charts need to learn pacing as much as expression. Their problem is often not a lack of heart. It is that their energy reaches outward faster than others can process.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 Get Your Free Five Elements Balance Reading →</a>
+</div>
+
+<h2 id="wood-balance">4. How to Balance Excess Wood Energy</h2>
+<p>The goal is not to suppress Wood, but to convert expansion into meaningful output. For this post’s interpretive frame, Fire is especially useful because it helps Wood express itself clearly, warmly, and productively. Fire turns raw growth into visible energy, confidence, communication, and completion. Without that transition, Wood can stay stuck in endless branching.</p>
+<p>Practically, wood-dominant people benefit from fewer active goals, clearer deadlines, visible prioritization, and routines that warm the body and settle excess tension. Sunlight, movement, circulation, and direct but calm communication help more than they usually expect. In relationships, asking before advising is often a major correction. In work, narrowing the field of action is often more powerful than adding one more promising idea.</p>
+<p>Too much Wood in Saju is not a flaw. It is powerful life force. But if that force spreads in every direction, it exhausts both the person and their environment. The best reading does not cut Wood down blindly. It helps the chart turn growth into form, momentum into results, and idealism into sustainable progress.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[Related] Finding Your Lucky Element in Saju</a></p>
+  <p><a href="/en/saju/health-saju" style="text-decoration: underline; color: #f9d976;">[Related] Saju Health Analysis by Five Elements</a></p>
+</div>
+</section>`,
+    faq: [
+      { q: '사주에서 목이 많으면 무조건 성격이 급한가요?', a: '꼭 그렇지는 않습니다. 다만 목 기운이 강하면 정체를 답답해하고 성장과 변화를 빠르게 추진하려는 경향이 커집니다. 다른 오행이 잘 받쳐주면 추진력은 강하지만 충분히 부드럽게 표현될 수 있습니다.' },
+      { q: '목 과다 사주는 어떤 직업이 잘 맞나요?', a: '기획, 교육, 상담, 마케팅, 영업, 브랜딩, 콘텐츠, 인사처럼 사람과 방향을 움직이는 분야에서 강점을 보이는 경우가 많습니다. 반대로 지나치게 정적이고 반복적인 환경은 답답하게 느껴질 수 있습니다.' },
+      { q: '목이 많으면 건강에서 무엇을 조심해야 하나요?', a: '전통 해석에서는 간, 담, 눈, 근육 긴장과 연결해 보는 경우가 많습니다. 사주만으로 질병을 단정할 수는 없지만, 스트레스 누적과 과도한 긴장, 쉬지 못하는 패턴은 주의할 필요가 있습니다.' },
+    ],
+    faqEn: [
+      { q: 'Does too much Wood in Saju always make someone impatient?', a: 'Not always, but strong Wood often dislikes stagnation and pushes for movement, growth, and visible change. If the rest of the chart supports it well, that same drive can appear as healthy initiative instead of impatience.' },
+      { q: 'What careers fit a wood-dominant Saju chart?', a: 'Wood-heavy charts often do well in planning, education, counseling, sales, branding, recruiting, marketing, content, and startup environments where growth, movement, and people development matter.' },
+      { q: 'What health tendencies are associated with excess Wood?', a: 'Traditional Five Elements interpretation often links Wood to stress reactivity, muscular tension, eye fatigue, and liver-gallbladder themes. Saju does not diagnose illness, but it can point to patterns of strain worth managing early.' },
+    ],
+    relatedPosts: [
+      { slug: 'lucky-element', category: 'saju', title: '용신(用神): 내 사주의 핵심 기운' },
+      { slug: 'health-saju', category: 'saju', title: '사주 건강 분석: 오행으로 보는 체질과 건강 위험' },
+    ],
+  },
+  {
+    slug: 'too-much-fire-in-saju',
+    title: 'What Happens When Fire Is Too Strong in Saju?',
+    seoTitle: '사주에서 화가 많으면: 충동·심장·혈압 중심 화 과다 해석',
+    seoTitleEn: 'Too Much Fire in Saju: Traits, Career, Health, and How to Balance',
+    description: '사주에서 화(火)가 많으면 왜 예민하고 급해질까요? 화 과다 사주의 성격, 직업 적성, 연애 패턴, 심장·혈압 중심 건강 신호와 균형 잡는 법까지 정리합니다.',
+    descriptionEn: 'What does too much Fire in Saju mean? Learn the personality patterns, work style, relationship tendencies, and heart-stress signals of a fire-heavy chart.',
+    keywords: ['사주 화가 많으면', '사주 화 과다', '화 과다 성격', '화 과다 건강', '사주 화 기운', '오행 화 과다 대처법'],
+    keywordsEn: ['too much fire element saju', 'fire dominant four pillars', 'fire heavy saju chart', 'excess fire saju meaning', 'fire element personality saju', 'how to balance too much fire in saju'],
+    publishedAt: '2026-04-03',
+    category: 'saju',
+    toc: [
+      { id: 'fire-meaning', title: '1. 사주에서 화(火)가 많다는 의미' },
+      { id: 'fire-personality', title: '2. 화 과다 사주의 성격 특징' },
+      { id: 'fire-career', title: '3. 화 과다 사주의 직업 적성' },
+      { id: 'fire-health', title: '4. 화 과다 사주의 건강 약점' },
+      { id: 'fire-balance', title: '5. 화 과다 대처법과 균형 잡는 법' },
+    ],
+    tocEn: [
+      { id: 'fire-meaning', title: '1. What Too Much Fire in Saju Means' },
+      { id: 'fire-personality', title: '2. Personality Traits of Fire Excess' },
+      { id: 'fire-career', title: '3. Career Tendencies of a Fire-Heavy Chart' },
+      { id: 'fire-health', title: '4. Health Risks of Too Much Fire' },
+      { id: 'fire-balance', title: '5. How to Balance Excess Fire Energy' },
+    ],
+    contentKo: `<section>
+<p>사주에서 화가 많으면 왜 자꾸 급해지고, 감정이 빨리 달아오르고, 쉬이 지치는지 궁금해서 이 글을 찾는 경우가 많습니다. <strong>사주 화가 많으면</strong>이라는 검색은 단순한 성격 궁금증이 아니라, 내가 왜 과열되기 쉬운지 이해하려는 실전 질문에 가깝습니다. 화 과다 사주는 밝고 추진력이 강하다는 장점이 분명하지만, 열이 식지 않으면 충동, 예민함, 심장·혈압 부담으로 이어질 수 있어서 오행 균형 관점으로 읽어야 정확합니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(220,84,32,0.08); border: 1px solid rgba(220,84,32,0.28); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #ff925c; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">함께 보면 해석이 쉬워지는 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/lucky-element" style="color: #ffd2ad; text-decoration: underline; font-size: 13px;">용신으로 내 사주의 균형 기운 찾는 법</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/health-saju" style="color: #ffd2ad; text-decoration: underline; font-size: 13px;">오행 체질로 보는 건강 약점과 위험 시기</a></li>
+  </ul>
+</div>
+
+<h2 id="fire-meaning">1. 사주에서 화(火)가 많다는 의미</h2>
+<p>사주에서 화가 많다는 말은 병화(丙火), 정화(丁火), 사(巳), 오(午) 같은 화 기운이 반복되거나, 목(木)이 강해 화를 계속 생해 주면서 전체 차트가 뜨겁게 달아오른 상태를 뜻합니다. 화는 빛, 표현, 확산, 열정, 속도, 존재감과 연결됩니다. 그래서 화 기운이 강한 사람은 눈에 띄고, 말이 빠르고, 반응이 즉각적이며, 분위기를 끌어올리는 힘이 강한 경우가 많습니다.</p>
+<p>문제는 화가 지나치게 많아지면 추진력이 과열로 바뀐다는 점입니다. 생각보다 말이 먼저 나가고, 감정이 빨리 올라오고, 시작은 강한데 오래 끌고 가는 힘은 약해질 수 있습니다. 특히 수(水)가 약한 사주에서 화 과다가 심하면 진정, 냉각, 휴식의 흐름이 부족해져 쉽게 번아웃을 느끼거나 인간관계에서 말실수로 후폭풍을 겪는 경우가 많습니다.</p>
+<p>따라서 화 과다는 단순히 성격이 불같다는 수준으로 보면 부족합니다. 오행 화 과다는 에너지가 많은 구조이기도 하지만, 과열 관리가 안 되면 몸과 관계가 먼저 지치는 구조이기도 합니다.</p>
+
+<h2 id="fire-personality">2. 화 과다 사주의 성격 특징</h2>
+<p>화 과다 성격의 핵심은 빠름과 강한 표현성입니다. 좋은 방향으로 작동하면 밝고 자신감 있고 사람을 끌어당기는 카리스마가 됩니다. 병화 쪽이 강하면 태양처럼 외향적이고 리더십이 도드라지며, 정화 쪽이 강하면 감각적이고 섬세하지만 감정 반응이 예민하게 올라오는 편입니다. 이들은 대체로 분위기를 읽는 속도가 빠르고, 하고 싶은 말이 분명하며, 답답한 상황을 오래 참지 못합니다.</p>
+<p>하지만 화 과다 사주는 장점만큼 단점도 선명합니다. 충동적이라는 평가를 듣기 쉽고, 순간 감정으로 결정을 내린 뒤 뒤늦게 피로를 느끼는 경우가 많습니다. 상대가 아직 정리되지 않은 상태인데도 말을 먼저 꺼내 갈등을 키우거나, 스스로 열정의 기준이 높아 주변이 따라오지 못한다고 느끼기도 합니다. 목 과다가 경직으로 흐른다면, 화 과다는 과열과 조급함으로 흐른다는 점에서 차이가 있습니다.</p>
+<ul>
+  <li>장점: 추진력, 존재감, 빠른 반응, 발표력, 리더십</li>
+  <li>자주 보이는 단점: 성급함, 과한 자신감, 감정 기복, 말실수</li>
+  <li>대인관계 패턴: 친해지는 속도는 빠르지만, 식는 속도도 빠를 수 있음</li>
+</ul>
+<p>그래서 사주에서 화가 많으면 사람 자체가 나쁘다기보다, 열을 식히는 장치가 부족한 구조라고 보는 편이 맞습니다. 감정을 눌러야 한다기보다, 속도를 조절하는 기술이 필요하다는 뜻입니다.</p>
+
+<h2 id="fire-career">3. 화 과다 사주의 직업 적성</h2>
+<p>화 과다 직업은 사람 앞에 서거나, 속도감 있게 밀어붙이거나, 반응과 표현이 중요한 분야에서 강점이 드러나는 경우가 많습니다. 영업, 마케팅, 브랜딩, 콘텐츠 제작, 강의, 방송, 기획, 프레젠테이션, 이벤트, 리더 역할처럼 에너지와 존재감이 성과로 연결되는 환경이 잘 맞습니다. 단순 반복 업무나 지나치게 느린 의사결정 구조에서는 답답함이 커질 수 있습니다.</p>
+<p>다만 화 과다 사주는 직업을 고를 때 “잘 시작하는 능력”만 보면 안 됩니다. 오래 버티는 구조인지, 감정 소모가 큰 환경인지, 수 기운처럼 식히고 정리해 줄 시스템이 있는지도 중요합니다. 예를 들어 영업과 홍보는 잘 맞을 수 있지만, 매일 감정노동이 과도한 자리에서는 심장이 먼저 지치고 분노가 쌓일 수 있습니다. 반대로 자신의 열정을 전략으로 바꿀 수 있는 기획 리드, 교육, 브랜드 운영, 커뮤니티 리딩은 장점이 잘 살아납니다.</p>
+<ul>
+  <li>잘 맞는 분야: 영업, 마케팅, 홍보, 강의, 미디어, 콘텐츠, 공연, 브랜드 기획</li>
+  <li>강점 포인트: 현장 반응력, 표현력, 추진 속도, 사람을 움직이는 힘</li>
+  <li>주의할 환경: 과도한 감정노동, 야근 누적, 휴식 없는 경쟁 구조</li>
+</ul>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #ff8a3d 0%, #ffd062 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(255,138,61,0.28);">내 사주 오행 과열 여부 무료로 확인하기 →</a>
+</div>
+
+<h2 id="fire-health">4. 화 과다 사주의 건강 약점</h2>
+<p>화 과다 건강에서 가장 먼저 봐야 할 키워드는 심장, 혈압, 불면, 염증, 과열입니다. 물론 실제 질환을 사주만으로 단정할 수는 없지만, 화 기운이 지나치면 순환계와 자율신경이 예민해지는 패턴은 자주 나타납니다. 쉽게 얼굴이 붉어지거나, 열이 위로 뜨거나, 잠들기 전까지 머리가 식지 않아 수면의 질이 떨어지는 사람이 여기에 해당하는 경우가 많습니다.</p>
+<p>특히 화 과다 사주는 분노를 오래 참는 타입보다 순간적으로 올라왔다가 나중에 피로가 몰려오는 타입이 많습니다. 그 결과 가슴 두근거림, 두통, 눈의 피로, 혈압 변동, 소화 열감처럼 몸이 “과속 중”이라는 신호를 보내기 쉽습니다. 심장·혈압 문제를 실제로 앓고 있거나 가족력이 있다면 사주 해석보다 의료 관리가 우선이며, 사주는 생활 패턴 경고등 정도로 활용하는 것이 안전합니다.</p>
+<p>실전적으로는 카페인 과다, 야식, 수면 부족, 승부욕이 강한 인간관계가 화 기운을 더 키우는 요인이 됩니다. 화 과다 사주는 에너지가 많아서 버티는 것처럼 보여도, 한계선을 넘으면 회복이 느려지는 편이라 “안 힘든 척”하는 습관을 줄이는 것이 중요합니다.</p>
+
+<h2 id="fire-balance">5. 화 과다 대처법과 균형 잡는 법</h2>
+<p>화 과다 대처법의 핵심은 화를 억지로 없애는 것이 아니라, 수(水) 기운으로 열을 식히고 속도를 조절하는 것입니다. 수는 진정, 냉각, 휴식, 깊이, 흐름을 상징하므로 화 과다 사주에는 차분함을 회복시키는 생활 리듬이 필요합니다. 무조건 참는 것보다 쉬는 타이밍을 만들고, 바로 반응하기보다 한 박자 늦추는 습관이 실제로 큰 차이를 만듭니다.</p>
+<p>구체적으로는 수면 시간을 고정하고, 카페인과 자극적인 음식 섭취를 줄이고, 밤늦게까지 열이 오르는 환경을 피하는 것이 좋습니다. 업무에서는 즉답보다 메모 후 답변, 관계에서는 감정이 올라올 때 바로 결론 내리지 않기, 운동에서는 경쟁형보다 유산소나 수영처럼 열을 순환시키는 방식이 잘 맞습니다. 화 과다 사주에게 필요한 것은 열정을 버리는 것이 아니라, 오래 쓰기 위한 냉각 시스템입니다.</p>
+<p>결론적으로 사주 화 과다는 스타성, 추진력, 빠른 실행력이라는 큰 장점을 줍니다. 다만 심장·혈압 중심의 과열 신호와 충동적 반응을 관리하지 않으면 장점이 소모로 바뀔 수 있습니다. 내 차트에 수 기운이 얼마나 받쳐주는지, 어떤 순간에 열이 올라오는지를 함께 보면 훨씬 정확하게 해석할 수 있습니다.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/ko/saju/lucky-element" style="text-decoration: underline; color: #ffd062;">[관련글] 용신으로 내 사주 균형 맞추는 법</a></p>
+  <p><a href="/ko/saju/health-saju" style="text-decoration: underline; color: #ffd062;">[관련글] 오행 체질별 건강 위험 시기 정리</a></p>
+</div>
+</section>`,
+    contentEn: `<section>
+<p>Many people search for <strong>too much fire element saju</strong> after noticing the same pattern in themselves: quick emotion, strong presence, fast speech, and sudden exhaustion. A fire-heavy Saju chart does not simply mean someone is passionate. It often means their energy rises quickly, spreads quickly, and can overheat if there is not enough Water to cool and regulate the system. That is why excess Fire should be read as both a strength and a stress pattern.</p>
+
+<div class="related-posts-inline" style="background: rgba(220,84,32,0.08); border: 1px solid rgba(220,84,32,0.28); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #ff925c; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">Related reading</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/saju/lucky-element" style="color: #ffd2ad; text-decoration: underline; font-size: 13px;">How to find the balancing element in your Saju chart</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/saju/health-saju" style="color: #ffd2ad; text-decoration: underline; font-size: 13px;">Five-elements health analysis in Korean astrology</a></li>
+  </ul>
+</div>
+
+<h2 id="fire-meaning">1. What Too Much Fire in Saju Means</h2>
+<p>Too much Fire in Saju usually appears when Fire signs such as Byeong Fire (丙), Jeong Fire (丁), Snake (巳), and Horse (午) repeat in the chart, or when strong Wood keeps feeding Fire and raising the chart temperature. Fire governs visibility, expression, speed, charisma, excitement, and outward movement. When it is healthy, it creates confidence, enthusiasm, and impact. When it is excessive, it becomes agitation, impatience, emotional overheating, and burnout.</p>
+<p>This is especially noticeable when Water is weak. Without Water, Fire loses its cooling mechanism. The person may react before thinking, start strongly but struggle to sustain rhythm, and feel emotionally drained after intense social or work periods. In Korean four pillars reading, strong Fire is not judged as simply good or bad. It is read as bright energy that needs regulation.</p>
+
+<h2 id="fire-personality">2. Personality Traits of Fire Excess</h2>
+<p>People with excess Fire are often vivid, quick, expressive, and hard to ignore. They tend to speak directly, react quickly, and bring energy into a room. Byeong Fire types often show visible leadership and large-scale confidence. Jeong Fire types may look more refined or sensitive, but their emotional response can still rise very quickly. In both forms, Fire wants to be seen, felt, and expressed.</p>
+<p>The strength is momentum. The risk is impulsiveness. A fire-heavy chart may create someone who gets inspired quickly, commits fast, and becomes frustrated with slow people or slow systems. They may say too much in the heat of the moment, lose patience with ambiguity, or burn through their own emotional reserves without noticing it. Compared with Wood excess, which often becomes rigidity, Fire excess more often becomes overreaction and overheating.</p>
+<ul>
+  <li>Strengths: charisma, speed, boldness, confidence, presentation power</li>
+  <li>Common weaknesses: impatience, emotional spikes, overconfidence, verbal mistakes</li>
+  <li>Relationship tendency: fast attachment, fast intensity, and sometimes fast cooling</li>
+</ul>
+
+<h2 id="fire-career">3. Career Tendencies of a Fire-Heavy Chart</h2>
+<p>Fire-dominant charts often do well in careers where presence, persuasion, reaction speed, and expressive energy matter. Marketing, sales, teaching, performance, broadcasting, branding, content production, leadership, event work, and public-facing strategy can all suit this pattern. These people tend to thrive when their energy creates movement.</p>
+<p>Still, career fit is not only about excitement. Fire-heavy people also need a system that prevents constant overdrive. If the work demands nonstop emotional labor, poor sleep, and endless competition, the same strength that creates performance can turn into exhaustion. They usually perform best when passion is supported by structure, rest, and some Water-like cooling process such as planning, pacing, or recovery time.</p>
+<ul>
+  <li>Often suitable fields: marketing, media, sales, education, public speaking, brand strategy, entertainment</li>
+  <li>Core strengths: momentum, visibility, influence, expressive force, quick response</li>
+  <li>Main risk: emotional depletion in high-conflict or always-on environments</li>
+</ul>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #ff8a3d 0%, #ffd062 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(255,138,61,0.28);">Check Your Five-Element Balance for Free →</a>
+</div>
+
+<h2 id="fire-health">4. Health Risks of Too Much Fire</h2>
+<p>The most common health language around Fire excess involves the heart, blood pressure, sleep, inflammation, heat, and nervous overstimulation. Saju cannot diagnose a disease, but a fire-heavy chart often maps onto people who flush easily, struggle to wind down, feel internal heat building up, or crash after emotional intensity. The body often says “slow down” before the mind is ready to listen.</p>
+<p>In practical Korean astrology readings, excess Fire often shows through palpitations, tension headaches, eye fatigue, poor sleep quality, emotional agitation, and blood-pressure sensitivity. High caffeine intake, late-night stimulation, competitive stress, and irregular sleep make this much worse. If there is already a real medical concern or family history around circulation or the heart, medical care always comes first. Saju is only a pattern-reading tool, not a substitute for treatment.</p>
+
+<h2 id="fire-balance">5. How to Balance Excess Fire Energy</h2>
+<p>The goal is not to suppress Fire, but to cool and circulate it. In five-elements logic, Water is the main balancing force for excess Fire. Water represents rest, emotional depth, cooling, listening, pacing, and recovery. That means a fire-heavy person benefits from delayed reactions, better sleep rhythm, lower stimulation, and environments that reduce unnecessary heat.</p>
+<p>Practical balancing methods include limiting stimulants, stabilizing bedtime, choosing exercise that circulates heat instead of escalating it, and avoiding major decisions in the peak of emotional activation. In work, writing before responding can be better than immediate reaction. In relationships, explaining feelings after cooling down works better than explosive honesty. Fire is powerful because it creates motion. It becomes destructive only when there is no system to cool it.</p>
+<p>In short, excess Fire in Saju can bring charisma, courage, visibility, and strong execution. But if the chart lacks cooling energy, those same traits can turn into stress, conflict, and physical overload. The real question is not whether Fire is present, but whether your chart and lifestyle know how to handle its heat.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/saju/lucky-element" style="text-decoration: underline; color: #ffd062;">[Related] Finding the balancing element in Saju</a></p>
+  <p><a href="/en/saju/health-saju" style="text-decoration: underline; color: #ffd062;">[Related] Health timing and constitution in Saju</a></p>
+</div>
+</section>`,
+    faq: [
+      { q: '사주에서 화가 많으면 무조건 성격이 급한가요?', a: '대체로 반응 속도와 표현성이 강한 편이지만, 무조건 성급하다고 단정할 수는 없습니다. 수 기운이 적절히 받쳐주면 열정은 유지하면서도 침착함을 함께 갖춘 경우도 많습니다.' },
+      { q: '화 과다 사주는 어떤 직업이 잘 맞나요?', a: '표현력, 존재감, 속도, 대인 영향력이 중요한 분야와 잘 맞습니다. 영업, 마케팅, 강의, 홍보, 브랜드 기획, 콘텐츠 제작처럼 에너지를 밖으로 써야 하는 일에서 강점이 잘 드러납니다.' },
+      { q: '화 과다 사주라면 심장이나 혈압을 꼭 조심해야 하나요?', a: '사주만으로 질환을 단정할 수는 없지만, 화 기운이 강한 사람은 과열·불면·가슴 두근거림·혈압 변동 같은 신호에 민감한 경우가 많습니다. 실제 증상이 있다면 반드시 의료 기준으로 먼저 확인해야 합니다.' },
+    ],
+    faqEn: [
+      { q: 'Does too much Fire in Saju always make someone impatient?', a: 'Not always. Strong Fire often creates faster emotional and verbal response, but if Water is present in a supportive way, the person can stay warm and energetic without becoming reckless.' },
+      { q: 'What careers fit a fire-heavy Saju chart?', a: 'Careers that reward visibility, persuasion, momentum, and expression often suit Fire well, including marketing, media, sales, teaching, branding, content work, leadership, and performance-based roles.' },
+      { q: 'Should I worry about heart or blood pressure issues if my chart has too much Fire?', a: 'A Saju chart cannot diagnose illness, but excess Fire often correlates with overheating patterns like poor sleep, agitation, palpitations, and stress sensitivity. Any real symptom should be evaluated medically first.' },
+    ],
+    relatedPosts: [
+      { slug: 'lucky-element', category: 'saju', title: '용신(用神): 내 사주의 핵심 기운' },
+      { slug: 'health-saju', category: 'saju', title: '사주 건강 분석: 오행으로 보는 건강 위험 시기' },
+    ],
+  },
+  {
+    slug: 'too-much-water-in-saju',
+    title: 'What Happens When Water Is Too Strong in Saju?',
+    seoTitle: '사주에서 수가 많으면: 두려움·신장·방광 중심 수 과다 해석',
+    seoTitleEn: 'Too Much Water in Saju: Traits, Career, Health, and How to Balance',
+    description: '사주에서 수(水)가 많으면 왜 생각이 많고 흔들리기 쉬울까요? 수 과다 사주의 성격, 직업 적성, 건강 신호, 우유부단 패턴과 토 기운으로 균형 잡는 법을 정리합니다.',
+    descriptionEn: 'What does too much Water in Saju mean? Learn the common emotional, career, and health patterns of a water-heavy chart and how to rebalance it.',
+    keywords: ['사주 수가 많으면', '사주 수 과다', '수 과다 성격', '수 과다 건강', '오행 수 과다 대처법', '수 많은 사주 특징'],
+    keywordsEn: ['too much water element saju', 'water dominant four pillars', 'water heavy saju chart', 'excess water saju meaning', 'water element personality saju', 'how to balance too much water in saju'],
+    publishedAt: '2026-04-03',
+    category: 'saju',
+    toc: [
+      { id: 'water-meaning', title: '1. 사주에서 수(水)가 많다는 의미' },
+      { id: 'water-personality', title: '2. 수 과다 사주의 성격 특징' },
+      { id: 'water-career', title: '3. 수 과다 사주의 직업 적성' },
+      { id: 'water-health', title: '4. 수 과다 사주의 건강 약점' },
+      { id: 'water-balance', title: '5. 수 과다 대처법과 균형 잡는 법' },
+    ],
+    tocEn: [
+      { id: 'water-meaning', title: '1. What Too Much Water in Saju Means' },
+      { id: 'water-personality', title: '2. Personality Traits of Water Excess' },
+      { id: 'water-career', title: '3. Career Tendencies of a Water-Heavy Chart' },
+      { id: 'water-health', title: '4. Health Risks of Too Much Water' },
+      { id: 'water-balance', title: '5. How to Balance Excess Water Energy' },
+    ],
+    contentKo: `<section>
+<p>사주에서 수가 많으면 왜 생각이 많아지고, 결정이 늦어지고, 감정이 쉽게 흔들리는지 궁금해서 이 글을 찾는 경우가 많습니다. <strong>사주 수가 많으면</strong>이라는 검색은 단순한 오행 공부가 아니라, 내가 왜 우유부단하게 느껴지는지 이해하려는 실전 질문에 가깝습니다. 수 과다 사주는 감각과 공감 능력이 뛰어나다는 장점이 분명하지만, 흐름이 너무 강해지면 두려움, 걱정, 회피, 신장·방광 쪽 피로로 이어질 수 있어서 균형 관점으로 읽어야 합니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(64,112,180,0.08); border: 1px solid rgba(64,112,180,0.28); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #8ebcff; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">함께 보면 해석이 쉬워지는 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/lucky-element" style="color: #cfe1ff; text-decoration: underline; font-size: 13px;">용신으로 내 사주의 균형 기운 찾는 법</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/health-saju" style="color: #cfe1ff; text-decoration: underline; font-size: 13px;">오행 체질로 보는 건강 약점과 위험 시기</a></li>
+  </ul>
+</div>
+
+<h2 id="water-meaning">1. 사주에서 수(水)가 많다는 의미</h2>
+<p>사주에서 수가 많다는 말은 임수(壬水), 계수(癸水), 자(子), 해(亥) 같은 수 기운이 반복되거나, 금(金)이 강해 수를 계속 생해 주면서 전체 차트가 차갑고 깊은 흐름으로 기울었다는 뜻입니다. 수는 지혜, 감수성, 정보, 유연함, 적응력, 이동성, 상상력과 연결됩니다. 그래서 수 기운이 강한 사람은 분위기를 빨리 읽고, 타인의 마음을 잘 감지하고, 상황 변화에 민감하게 반응하는 경우가 많습니다.</p>
+<p>문제는 수가 지나치게 많아지면 깊이가 불안으로 바뀐다는 점입니다. 생각은 많은데 결론이 늦어지고, 가능성을 너무 많이 보느라 실행 시점을 놓치기 쉽습니다. 특히 토(土)가 약한 사주에서 수 과다가 심하면 중심축이 약해져 우유부단, 회피, 수면 리듬 저하, 기분의 출렁임으로 체감되는 경우가 많습니다.</p>
+<p>따라서 수 과다는 단순히 감성적이라는 말로 끝내면 부족합니다. 수 많은 사주 특징은 직관과 적응력이라는 강점이 분명하지만, 경계가 약해지면 스스로도 기운이 새고 주변 문제까지 끌어안게 되는 구조로 읽어야 합니다.</p>
+
+<h2 id="water-personality">2. 수 과다 사주의 성격 특징</h2>
+<p>수 과다 성격의 핵심은 민감함과 가변성입니다. 좋은 방향으로 작동하면 공감 능력이 뛰어나고, 눈치가 빠르고, 변화에 유연하며, 언어감각과 정보 처리 능력이 좋습니다. 임수가 강하면 큰 물처럼 스케일이 크고 자유로운 성향이 두드러지고, 계수가 강하면 이슬처럼 섬세하고 촘촘하게 분위기를 읽는 편입니다. 이들은 대체로 직감이 빠르고, 사람의 말보다 분위기를 먼저 읽는 경우가 많습니다.</p>
+<p>하지만 수 과다 사주는 마음이 너무 많이 움직이는 것이 약점이 되기도 합니다. 어떤 선택이든 잃는 것이 보이기 때문에 쉽게 확정하지 못하고, 상대 감정까지 지나치게 읽다가 본인의 기준이 흐려질 수 있습니다. 화 과다가 과열이라면, 수 과다는 흐름이 너무 많아 중심을 잃는 쪽에 가깝습니다.</p>
+<ul>
+  <li>장점: 공감력, 적응력, 정보 감각, 언어 능력, 직관</li>
+  <li>자주 보이는 단점: 우유부단, 불안, 감정 소모, 회피 성향</li>
+  <li>대인관계 패턴: 상대 입장을 너무 많이 고려하다가 자기 결론이 늦어질 수 있음</li>
+</ul>
+<p>그래서 사주에서 수가 많으면 차분해 보이면서도 내면은 늘 바쁘게 움직이는 경우가 많습니다. 겉으로는 조용해 보여도 머릿속은 계속 시뮬레이션이 돌아가는 타입이라고 보면 이해가 쉽습니다.</p>
+
+<h2 id="water-career">3. 수 과다 사주의 직업 적성</h2>
+<p>수 과다 직업은 정보, 소통, 분석, 상담, 기획 보조, 번역, 글쓰기, 연구, 데이터 해석, 콘텐츠 편집처럼 흐름을 읽고 연결하는 분야에서 강점이 드러나는 경우가 많습니다. 사람의 심리나 맥락을 잘 읽기 때문에 상담, 코칭, 고객 대응, 교육 지원, 리서치, 기획 서포트 역할에서도 장점이 있습니다. 정해진 답만 반복하는 일보다는 변화하는 상황을 읽고 대응해야 하는 환경이 잘 맞습니다.</p>
+<p>다만 수 과다 사주는 직업을 고를 때 “무엇이든 할 수 있다”는 느낌만 믿으면 안 됩니다. 적응력은 높지만 경계가 약해 쉽게 에너지가 빠질 수 있기 때문입니다. 예를 들어 상담이나 고객 응대는 잘 맞을 수 있지만, 감정 쓰레기통 역할까지 떠안는 구조에서는 소모가 매우 커집니다. 반대로 기준과 구조가 일정 부분 잡혀 있는 기획, 연구, 편집, 전략 보조, 분석 직무는 수 기운의 장점을 안정적으로 살리기 좋습니다.</p>
+<ul>
+  <li>잘 맞는 분야: 상담, 코칭, 연구, 번역, 글쓰기, 콘텐츠 편집, 데이터 분석, 기획 지원</li>
+  <li>강점 포인트: 분위기 파악, 정보 연결, 상황 적응, 섬세한 커뮤니케이션</li>
+  <li>주의할 환경: 기준 없는 감정노동, 경계가 모호한 조직, 야간 루틴이 무너지는 일</li>
+</ul>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #5f8cff 0%, #a7c8ff 100%); color: #101418; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(95,140,255,0.28);">내 사주 오행 균형 무료로 확인하기 →</a>
+</div>
+
+<h2 id="water-health">4. 수 과다 사주의 건강 약점</h2>
+<p>수 과다 건강에서 먼저 보는 키워드는 신장, 방광, 냉증, 부종, 수면, 불안입니다. 실제 질환은 의료 기준으로 판단해야 하지만, 수 기운이 지나치게 강한 사람은 몸이 쉽게 차가워지거나, 피로가 누적되면 하체 무거움이나 붓기, 수면의 질 저하로 먼저 체감하는 경우가 많습니다. 머리는 계속 돌아가는데 몸은 처지는 식의 불균형도 자주 나타납니다.</p>
+<p>특히 수 과다 사주는 두려움이나 걱정을 속으로 오래 굴리는 타입이 많아서 자율신경이 쉽게 지칩니다. 밤에 생각이 많아 잠이 늦어지거나, 이미 끝난 일을 계속 복기하면서 에너지를 소모하기도 합니다. 신장·방광 쪽 불편감, 하체 냉감, 수분대사 문제처럼 몸이 차고 무거워지는 신호가 반복된다면 생활 리듬을 먼저 점검하는 편이 좋습니다.</p>
+<p>실전적으로는 야행성 생활, 과도한 카페인, 장시간 앉아 있는 습관, 관계 스트레스를 혼자 삭이는 패턴이 수 기운을 더 탁하게 만듭니다. 수 과다 사주는 감각이 예민한 만큼 회복 루틴도 더 의식적으로 만들어야 합니다.</p>
+
+<h2 id="water-balance">5. 수 과다 대처법과 균형 잡는 법</h2>
+<p>수 과다 대처법의 핵심은 토(土) 기운으로 흐름에 형태를 주는 것입니다. 토는 경계, 안정, 구조, 생활 리듬, 중심축을 뜻하므로 수 과다 사주에는 생각과 감정을 담아둘 그릇이 필요합니다. 단순히 마음을 강하게 먹는 문제가 아니라, 정해진 시간표와 기준을 만들어야 수 기운의 장점이 흩어지지 않습니다.</p>
+<p>구체적으로는 수면 시간과 식사 시간을 고정하고, 해야 할 일을 메모로 밖에 꺼내어 머릿속 순환을 줄이는 것이 좋습니다. 관계에서는 모든 감정을 이해하려 하기보다 내 기준을 먼저 적어 보는 습관이 도움이 됩니다. 운동은 땀을 조금 내면서 몸을 따뜻하게 만드는 걷기, 근력, 하체 중심 루틴이 잘 맞고, 환경은 너무 차갑고 축축한 곳보다 건조하고 안정된 공간이 유리합니다.</p>
+<p>결론적으로 사주 수 과다는 직감, 공감, 적응력, 정보 감각이라는 큰 장점을 줍니다. 다만 두려움과 우유부단이 함께 커지면 재능이 결론 없는 고민으로 바뀔 수 있습니다. 내 차트에 토 기운이 얼마나 받쳐주는지, 어떤 상황에서 기운이 새는지를 함께 보면 훨씬 정확하게 해석할 수 있습니다.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/ko/saju/lucky-element" style="text-decoration: underline; color: #a7c8ff;">[관련글] 용신으로 내 사주 균형 맞추는 법</a></p>
+  <p><a href="/ko/saju/health-saju" style="text-decoration: underline; color: #a7c8ff;">[관련글] 오행 체질별 건강 위험 시기 정리</a></p>
+</div>
+</section>`,
+    contentEn: `<section>
+<p>Many people search for <strong>too much water element saju</strong> when they notice the same pattern in themselves: too many thoughts, slow decisions, emotional sensitivity, and difficulty holding one clear direction. A water-heavy Saju chart does not simply mean someone is intuitive. It often means the mind is always moving, absorbing, comparing, and adapting. That can be a gift, but without structure it can turn into fear, hesitation, exhaustion, and blurred boundaries.</p>
+
+<div class="related-posts-inline" style="background: rgba(64,112,180,0.08); border: 1px solid rgba(64,112,180,0.28); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #8ebcff; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">Related reading</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/saju/lucky-element" style="color: #cfe1ff; text-decoration: underline; font-size: 13px;">How to find the balancing element in your Saju chart</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/saju/health-saju" style="color: #cfe1ff; text-decoration: underline; font-size: 13px;">Five-elements health analysis in Korean astrology</a></li>
+  </ul>
+</div>
+
+<h2 id="water-meaning">1. What Too Much Water in Saju Means</h2>
+<p>Too much Water in Saju usually appears when Water signs such as Im Water (壬), Gye Water (癸), Rat (子), and Pig (亥) repeat in the chart, or when strong Metal keeps producing more Water. Water governs sensitivity, mobility, emotional perception, adaptability, imagination, language, and flow. That is why water-heavy people often read moods quickly, sense subtle changes, and understand layered situations better than others do.</p>
+<p>The problem is that too much Water can turn depth into uncertainty. The person sees too many possibilities, too many emotional variables, and too many consequences at once. If Earth is weak, the chart may lack containment, routine, and inner ground. Instead of healthy flexibility, the result can become indecision, emotional flooding, avoidance, sleep disruption, or chronic low-level fear.</p>
+
+<h2 id="water-personality">2. Personality Traits of Water Excess</h2>
+<p>The emotional signature of excess Water is sensitivity plus movement. In a healthy form, it creates empathy, insight, softness, linguistic intelligence, and strong intuition. Im Water tends to be larger in scale, freer, and more expansive. Gye Water tends to be subtle, perceptive, and emotionally fine-tuned. In both forms, Water reacts to atmosphere quickly and often notices what others miss.</p>
+<p>The strength is awareness. The risk is losing firmness. A water-heavy chart may produce someone who understands everyone’s side but struggles to choose their own. They may delay action because every option feels partially valid. Compared with Fire excess, which overheats, Water excess more often dissolves focus and weakens clear boundaries.</p>
+<ul>
+  <li>Strengths: empathy, adaptability, intuition, language sense, situational awareness</li>
+  <li>Common weaknesses: indecision, fear, emotional drain, avoidance, weak boundaries</li>
+  <li>Relationship tendency: over-understanding others before confirming one’s own stance</li>
+</ul>
+
+<h2 id="water-career">3. Career Tendencies of a Water-Heavy Chart</h2>
+<p>Water-heavy charts often do well in careers that require interpretation, emotional reading, communication, research, editing, counseling, translation, analysis, planning support, and context-sensitive problem solving. These people usually adapt well, connect information quickly, and notice nuance that more forceful types may overlook.</p>
+<p>Still, career fit is not only about range. Water-dominant people also need boundaries. They may handle emotional labor well for a while, then suddenly crash because they have been absorbing too much. Work goes better when there is enough structure to contain their sensitivity. That is why counseling support, research, editing, analysis, writing, and strategic support roles can suit them better than chaotic environments with constant emotional spillover and no clear edges.</p>
+<ul>
+  <li>Often suitable fields: counseling, coaching, research, writing, translation, content editing, analysis, planning support</li>
+  <li>Core strengths: reading context, connecting information, subtle communication, flexible response</li>
+  <li>Main risk: energy leakage in roles with vague boundaries or nonstop emotional demand</li>
+</ul>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #5f8cff 0%, #a7c8ff 100%); color: #101418; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(95,140,255,0.28);">Check Your Five-Element Balance for Free →</a>
+</div>
+
+<h2 id="water-health">4. Health Risks of Too Much Water</h2>
+<p>The most common health language around Water excess involves the kidneys, bladder, coldness, fluid retention, low energy, sleep issues, and anxiety-like overstimulation. Saju cannot diagnose illness, but a water-heavy chart often maps onto people whose minds stay active while the body feels heavy or depleted. They may feel cold easily, hold stress in a quiet way, or lose restorative sleep because their thoughts never fully stop moving.</p>
+<p>In practical Korean astrology readings, excess Water often shows through overthinking at night, emotional rumination, lower-body heaviness, chilliness, swelling, and sensitivity around fluid balance or nervous exhaustion. If there is already a medical concern, professional care comes first. Saju is useful for seeing the pattern early, not for replacing diagnosis or treatment.</p>
+
+<h2 id="water-balance">5. How to Balance Excess Water Energy</h2>
+<p>The goal is not to eliminate Water, but to contain it. In five-elements logic, Earth is the most practical balancing force for excess Water. Earth represents rhythm, boundaries, routine, structure, and steadiness. A water-heavy person needs a container for thought and feeling. Without that container, intuition turns into drifting and empathy turns into depletion.</p>
+<p>Useful balancing methods include stabilizing sleep and meals, writing decisions down instead of carrying them mentally, warming the body through movement, and choosing environments with reliable structure. In relationships, it helps to define your own position before absorbing everyone else’s. In work, deadlines, systems, and clear priorities are not restrictions for Water. They are supports that let Water’s intelligence become useful rather than overwhelming.</p>
+<p>In short, excess Water in Saju can bring intuition, emotional depth, adaptability, and refined perception. But if the chart lacks grounding energy, those same gifts can become fear, hesitation, and exhaustion. The real question is not whether Water is strong, but whether the chart and daily life know how to hold it.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/saju/lucky-element" style="text-decoration: underline; color: #a7c8ff;">[Related] Finding the balancing element in Saju</a></p>
+  <p><a href="/en/saju/health-saju" style="text-decoration: underline; color: #a7c8ff;">[Related] Health timing and constitution in Saju</a></p>
+</div>
+</section>`,
+    faq: [
+      { q: '사주에서 수가 많으면 무조건 우유부단한가요?', a: '꼭 그렇지는 않습니다. 수 기운이 강하면 가능성과 감정을 많이 읽어 결론이 늦어질 수 있지만, 토 기운이나 명확한 기준이 받쳐주면 오히려 신중하고 통찰력 있는 판단으로 이어질 수 있습니다.' },
+      { q: '수 과다 사주는 어떤 직업이 잘 맞나요?', a: '상담, 연구, 글쓰기, 번역, 편집, 데이터 분석, 기획 지원처럼 정보와 감정을 읽고 연결하는 분야에서 강점을 보이는 경우가 많습니다. 다만 경계가 모호한 감정노동 환경은 소모가 커질 수 있습니다.' },
+      { q: '수 과다 사주라면 신장이나 방광을 꼭 조심해야 하나요?', a: '사주만으로 질환을 단정할 수는 없지만, 전통 해석에서는 신장, 방광, 냉증, 부종, 수면 저하와 연결해 보는 경우가 많습니다. 실제 증상이 있다면 반드시 의료 기준으로 먼저 확인해야 합니다.' },
+    ],
+    faqEn: [
+      { q: 'Does too much Water in Saju always make someone indecisive?', a: 'Not always. Strong Water often sees many layers and possibilities, which can slow decisions, but with enough grounding and structure it can become deep insight rather than hesitation.' },
+      { q: 'What careers fit a water-heavy Saju chart?', a: 'Water-heavy charts often do well in counseling, research, writing, translation, editing, analysis, and planning support roles where sensitivity, interpretation, and adaptability matter.' },
+      { q: 'Should I worry about kidney or bladder issues if my chart has too much Water?', a: 'A Saju chart cannot diagnose illness, but excess Water often correlates with patterns involving coldness, sleep disruption, fluid retention, and kidney-bladder sensitivity. Any real symptom should be evaluated medically first.' },
+    ],
+    relatedPosts: [
+      { slug: 'lucky-element', category: 'saju', title: '용신(用神): 내 사주의 핵심 기운' },
+      { slug: 'health-saju', category: 'saju', title: '사주 건강 분석: 오행으로 보는 건강 위험 시기' },
+    ],
+  },
+  {
+    slug: 'too-much-earth-in-saju',
+    title: 'What Happens When Earth Is Too Strong in Saju?',
+    seoTitle: '사주에서 토가 많으면: 고집·집착·소화기 중심 토 과다 해석',
+    seoTitleEn: 'Too Much Earth in Saju: Traits, Career, Health, and Balance',
+    description: '사주에서 토(土)가 많으면 왜 고집이 세고 움직임이 느려질까요? 토 과다 사주의 성격, 직업 적성, 소화기 중심 건강 신호와 목 기운으로 균형 잡는 법까지 정리합니다.',
+    descriptionEn: 'What does too much Earth in Saju mean? Learn the personality patterns, career tendencies, digestive health signals, and balancing methods of an earth-heavy chart.',
+    keywords: ['사주 토가 많으면', '사주 토 과다', '토 과다 성격', '토 과다 건강', '토 과다 직업', '오행 토 과다 대처법'],
+    keywordsEn: ['too much earth element saju', 'earth dominant four pillars', 'earth heavy saju chart', 'earth excess korean astrology', 'earth element personality saju', 'how to balance too much earth in saju'],
+    publishedAt: '2026-04-03',
+    category: 'saju',
+    toc: [
+      { id: 'earth-meaning', title: '1. 사주에서 토(土)가 많다는 의미' },
+      { id: 'earth-personality', title: '2. 토 과다 사주의 성격 특징' },
+      { id: 'earth-career', title: '3. 토 과다 사주의 직업 적성' },
+      { id: 'earth-health', title: '4. 토 과다 사주의 건강 약점' },
+      { id: 'earth-balance', title: '5. 토 과다 대처법과 균형 잡는 법' },
+    ],
+    tocEn: [
+      { id: 'earth-meaning', title: '1. What Too Much Earth in Saju Means' },
+      { id: 'earth-personality', title: '2. Personality Traits of Earth Excess' },
+      { id: 'earth-career', title: '3. Career Tendencies of an Earth-Heavy Chart' },
+      { id: 'earth-health', title: '4. Health Risks of Too Much Earth' },
+      { id: 'earth-balance', title: '5. How to Balance Excess Earth Energy' },
+    ],
+    contentKo: `<section>
+<p>사주에서 토가 많으면 왜 쉽게 바뀌지 않고, 생각은 많은데 움직임은 느려지고, 속이 자주 더부룩한지 궁금해서 이 글을 찾는 경우가 많습니다. <strong>사주 토가 많으면</strong>이라는 검색은 단순히 성격이 무겁다는 뜻을 넘어서, 내가 왜 신중하고 고집이 세 보이는지, 왜 소화기 쪽으로 부담이 오는지를 이해하려는 질문에 가깝습니다. 토 과다 사주는 안정감과 책임감이 강하다는 장점이 분명하지만, 기운이 너무 무거워지면 판단이 굳어지고 변화 대응이 느려져서 오행 균형 관점으로 읽어야 정확합니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(160,110,50,0.08); border: 1px solid rgba(160,110,50,0.28); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #c89a5f; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">함께 보면 해석이 쉬워지는 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/lucky-element" style="color: #e9c48b; text-decoration: underline; font-size: 13px;">용신으로 내 사주의 균형 기운 찾는 법</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/health-saju" style="color: #e9c48b; text-decoration: underline; font-size: 13px;">오행 체질로 보는 건강 약점과 위험 시기</a></li>
+  </ul>
+</div>
+
+<h2 id="earth-meaning">1. 사주에서 토(土)가 많다는 의미</h2>
+<p>사주에서 토가 많다는 말은 무토(戊), 기토(己), 진(辰), 술(戌), 축(丑), 미(未) 같은 토 기운이 반복되거나, 화(火)가 강해서 토를 계속 만들어 내며 차트 전체가 무겁고 두터워진 상태를 뜻합니다. 토는 저장, 완충, 중재, 현실감, 책임, 버팀목의 에너지와 연결됩니다. 그래서 토 기운이 강한 사람은 쉽게 흔들리지 않고, 한번 맡은 일은 끝까지 책임지려는 경향이 강합니다.</p>
+<p>문제는 토가 지나치게 많아지면 안정감이 고착으로 바뀐다는 점입니다. 생각을 오래 붙들고, 결정을 내리기까지 시간이 걸리며, 이미 익숙한 방식에서 벗어나는 데 큰 에너지가 듭니다. 특히 목(木)이 약한 사주에서 토 과다가 심하면 새로운 방향을 잡는 힘이 부족해져 “알겠는데 못 움직이는” 느낌으로 체감될 수 있습니다. 그래서 토 과다는 단순히 신중한 성격이 아니라, 움직임이 눌리고 안쪽으로 쌓이는 구조로 읽어야 합니다.</p>
+<p>또한 토는 오행에서 가운데를 잡아주는 역할을 하지만, 너무 많으면 오히려 순환을 막습니다. 겉으로는 차분하고 든든해 보여도, 속으로는 걱정이 계속 쌓이고 에너지가 정체되는 타입이 많습니다. 토 과다 사주를 볼 때는 단단함 자체보다 “흐르지 않는 무거움”이 어느 영역에 쌓이는지를 보는 편이 더 실전적입니다.</p>
+
+<h2 id="earth-personality">2. 토 과다 사주의 성격 특징</h2>
+<p>토 과다 성격의 핵심은 신중함과 버티는 힘입니다. 좋은 쪽으로 작동하면 믿음직하고 안정적이며, 쉽게 흔들리지 않는 사람으로 보입니다. 무토 쪽이 강하면 큰 산처럼 묵직하고 중심을 잡는 기운이 강하고, 기토 쪽이 강하면 세밀하고 생활 감각이 좋은 편이지만 걱정을 오래 붙드는 경향이 나타나기도 합니다. 이들은 대체로 섣불리 판단하지 않고, 당장 눈앞의 감정보다 현실성과 지속 가능성을 먼저 따집니다.</p>
+<p>하지만 토 과다 사주는 장점만큼 단점도 분명합니다. 생각이 너무 많아 타이밍을 놓치거나, 자기 기준이 굳어져 고집스럽다는 말을 듣기 쉽습니다. 낯선 변화보다 익숙한 구조를 선호하기 때문에 주변에서는 답답하거나 보수적으로 느낄 수 있습니다. 화 과다가 과열이라면, 토 과다는 정체와 완고함 쪽으로 흐르기 쉽다는 점이 차이입니다.</p>
+<ul>
+  <li>장점: 책임감, 인내심, 현실 감각, 신뢰감, 꾸준함</li>
+  <li>자주 보이는 단점: 고집, 우유부단함, 변화 저항, 걱정 누적</li>
+  <li>대인관계 패턴: 쉽게 가까워지지는 않지만 한번 관계를 맺으면 오래 유지하려는 편</li>
+</ul>
+<p>그래서 사주에서 토가 많으면 사람이 차갑거나 무능한 것이 아니라, 판단 기준이 무겁고 쉽게 안 바뀌는 구조라고 보는 편이 맞습니다. 성격을 억지로 바꾸기보다, 무거워지는 지점을 스스로 인식하고 흐름을 만들어 주는 것이 핵심입니다.</p>
+
+<h2 id="earth-career">3. 토 과다 사주의 직업 적성</h2>
+<p>토 과다 직업은 한 번 쌓은 경험과 구조를 오래 유지하고, 관리하고, 점검하는 분야에서 강점이 드러나는 경우가 많습니다. 행정, 회계, 총무, 운영, 부동산, 품질관리, 재고관리, 교육행정, 상담, 인사, 공공조직처럼 안정성과 책임, 누적 관리가 중요한 환경이 잘 맞습니다. 당장 화려하게 드러나는 성과보다 지속 가능한 시스템을 만드는 일에 강한 편입니다.</p>
+<p>다만 토 과다 사주는 직업을 고를 때 “안정적이기만 한가”만 보면 안 됩니다. 너무 정적이고 변화가 없는 환경에서는 오히려 답답함이 쌓여 의욕이 꺼질 수 있고, 반대로 너무 빠른 조직에서는 적응 속도가 늦어 스트레스를 크게 받을 수 있습니다. 특히 목 기운이 약하면 새로운 기획을 시작하거나 방향을 틀어야 하는 시점에 주저함이 커질 수 있으므로, 변화가 필요할 때 옆에서 밀어주는 팀 구조가 중요합니다.</p>
+<ul>
+  <li>잘 맞는 분야: 행정, 운영, 회계, 부동산, 품질관리, 조직관리, 교육행정</li>
+  <li>강점 포인트: 책임감, 지속력, 실무 안정성, 누적 관리 능력</li>
+  <li>주의할 환경: 지나치게 빠른 조직, 매일 즉흥 판단이 필요한 자리, 과도한 변화 압박</li>
+</ul>
+<p>결국 토 과다 사주는 크게 벌리는 일보다 구조를 안정화하는 일에서 빛나기 쉽습니다. 문제는 스스로도 너무 안전한 선택만 반복하면 커리어가 굳어질 수 있다는 점입니다. 그래서 직업 해석에서는 안정성뿐 아니라 적절한 확장 타이밍을 같이 봐야 합니다.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #b68449 0%, #e7c57d 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(182,132,73,0.28);">내 사주 오행 정체 여부 무료로 확인하기 →</a>
+</div>
+
+<h2 id="earth-health">4. 토 과다 사주의 건강 약점</h2>
+<p>토 과다 건강에서 가장 먼저 봐야 할 키워드는 소화기, 위장, 복부 더부룩함, 체중 정체, 순환 저하입니다. 물론 실제 질환을 사주만으로 단정할 수는 없지만, 토 기운이 지나치게 많으면 몸도 무겁고 느리게 반응하는 패턴이 자주 나타납니다. 스트레스를 바로 바깥으로 분출하기보다 안으로 쌓는 편이라 식욕 변화, 소화 지연, 복부 긴장감처럼 몸이 먼저 신호를 보내는 경우가 많습니다.</p>
+<p>특히 토 과다 사주는 감정을 오래 담아두는 타입이 많습니다. 겉으로는 버티는 것처럼 보여도 속에서는 걱정이 계속 쌓여 위가 무겁고, 먹고 자는 리듬이 흐트러지면 바로 컨디션이 떨어질 수 있습니다. 과식, 야식, 불규칙한 식사, 오래 앉아 있는 생활, 움직임 부족은 토 기운을 더 정체시키는 대표 요인입니다. 소화기 문제가 있거나 체중과 부종, 만성 피로가 반복된다면 생활 루틴부터 점검하는 편이 좋습니다.</p>
+<p>실전적으로는 “나는 많이 참는 편인데 몸은 자꾸 무겁다”는 호소가 토 과다와 맞닿는 경우가 많습니다. 토는 쌓아두는 기운이라 건강에서도 배출과 순환이 중요합니다. 사주는 진단이 아니라 경향을 보는 도구이므로, 실제 증상이 있으면 의료 기준으로 먼저 확인해야 합니다.</p>
+
+<h2 id="earth-balance">5. 토 과다 대처법과 균형 잡는 법</h2>
+<p>토 과다 대처법의 핵심은 토를 더 두껍게 만드는 것이 아니라, 목(木) 기운으로 굳은 구조에 방향과 움직임을 주는 것입니다. 목은 성장, 시작, 뻗어 나감, 계획의 실행을 상징하므로 토 과다 사주에는 “쌓인 것을 움직이게 하는 힘”이 필요합니다. 그래서 토가 너무 많은 사람은 안정성만 붙잡기보다, 작은 변화라도 정기적으로 시작하는 습관이 중요합니다.</p>
+<p>구체적으로는 일정과 목표를 지나치게 묵혀두지 않고, 작은 마감과 작은 결정을 자주 만드는 것이 도움이 됩니다. 몸에서는 걷기, 스트레칭, 규칙적인 식사, 섬유질과 수분 관리처럼 소화와 순환을 살리는 루틴이 중요합니다. 관계에서는 오래 참고 쌓아두기보다, 부담이 작을 때 먼저 말하는 편이 좋습니다. 토 과다 사주에게 필요한 것은 참는 힘이 아니라, 적당한 시점에 풀고 움직이는 시스템입니다.</p>
+<p>결론적으로 사주 토 과다는 버팀목, 신뢰, 현실 감각, 꾸준함이라는 큰 장점을 줍니다. 다만 소화기 중심의 정체 신호와 고집스러운 판단 패턴을 관리하지 않으면 장점이 무거움으로 바뀔 수 있습니다. 내 차트에 목 기운이 얼마나 받쳐주는지, 어떤 상황에서 내가 굳어지는지를 함께 보면 훨씬 정확하게 해석할 수 있습니다.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/ko/saju/lucky-element" style="text-decoration: underline; color: #e7c57d;">[관련글] 용신으로 내 사주 균형 맞추는 법</a></p>
+  <p><a href="/ko/saju/health-saju" style="text-decoration: underline; color: #e7c57d;">[관련글] 오행 체질별 건강 위험 시기 정리</a></p>
+</div>
+</section>`,
+    contentEn: `<section>
+<p>People usually search for <strong>too much earth element saju</strong> when they notice the same pattern repeating in life: caution, heaviness, resistance to change, and a body that feels slow or burdened. An earth-heavy Saju chart does not simply mean someone is calm. It often means they store pressure, protect stability, and move only after long internal processing. That can be a strength. It can also become stagnation if the chart has too little Wood to create movement and direction.</p>
+
+<div class="related-posts-inline" style="background: rgba(160,110,50,0.08); border: 1px solid rgba(160,110,50,0.28); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #c89a5f; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">Related reading</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/saju/lucky-element" style="color: #e9c48b; text-decoration: underline; font-size: 13px;">How to find the balancing element in your Saju chart</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/saju/health-saju" style="color: #e9c48b; text-decoration: underline; font-size: 13px;">Five-elements health analysis in Korean astrology</a></li>
+  </ul>
+</div>
+
+<h2 id="earth-meaning">1. What Too Much Earth in Saju Means</h2>
+<p>Too much Earth in Saju usually appears when Earth signs such as Mu Earth (戊), Gi Earth (己), Dragon (辰), Dog (戌), Ox (丑), and Goat (未) repeat in the chart, or when strong Fire keeps producing more Earth and making the structure heavier. Earth governs storage, stability, responsibility, support, patience, and realism. In healthy form, it creates endurance, reliability, and composure. In excessive form, it creates heaviness, delay, rigidity, and internal stagnation.</p>
+<p>This is especially visible when Wood is weak. Without Wood, Earth has little upward movement. The person may think deeply but act slowly, prefer the familiar even when it no longer works, and hold tension inside rather than redirecting it productively. In Korean four pillars reading, excess Earth is not simply “stable.” It is stable energy that can become stuck.</p>
+
+<h2 id="earth-personality">2. Personality Traits of Earth Excess</h2>
+<p>People with excess Earth are often cautious, dependable, realistic, and hard to shake. They usually do not move on impulse. They prefer to think through consequences, hold responsibility, and keep life manageable. Mu Earth types often feel broad, solid, and grounded. Gi Earth types can appear more practical, detailed, and protective, but may also worry longer than they show.</p>
+<p>The strength is consistency. The risk is stubbornness and delayed movement. Earth-heavy people may hold onto routines, beliefs, or relationships long after change is necessary. They are often described as trustworthy, but also as slow to adapt. Compared with Fire excess, which tends to overheat, Earth excess more often hardens and accumulates.</p>
+<ul>
+  <li>Strengths: patience, realism, endurance, responsibility, reliability</li>
+  <li>Common weaknesses: stubbornness, overthinking, resistance to change, emotional buildup</li>
+  <li>Relationship tendency: slow to open, but strongly committed once settled</li>
+</ul>
+
+<h2 id="earth-career">3. Career Tendencies of an Earth-Heavy Chart</h2>
+<p>Earth-dominant charts often do well in careers that require maintenance, continuity, management, record-keeping, structure, and long-term responsibility. Administration, operations, accounting, logistics, quality control, education management, public institutions, real estate, HR support, and organization building often fit well. These people usually excel where steadiness matters more than dramatic visibility.</p>
+<p>Still, career fit is not only about choosing something stable. Earth-heavy people also need enough movement to avoid becoming trapped in habit. If the environment is too static, motivation can sink. If it is too chaotic, stress can rise because the pace of change feels overwhelming. They perform best when they can protect structure but still have a reason to grow.</p>
+<ul>
+  <li>Often suitable fields: administration, operations, accounting, real estate, logistics, quality management, institutional support</li>
+  <li>Core strengths: continuity, follow-through, practical control, system stability</li>
+  <li>Main risk: becoming too comfortable in structures that no longer fit</li>
+</ul>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #b68449 0%, #e7c57d 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(182,132,73,0.28);">Check Your Five-Element Balance for Free →</a>
+</div>
+
+<h2 id="earth-health">4. Health Risks of Too Much Earth</h2>
+<p>The most common health language around Earth excess involves digestion, bloating, abdominal heaviness, weight stagnation, sluggish circulation, and fatigue that builds rather than spikes. Saju cannot diagnose disease, but an earth-heavy chart often maps onto people who store tension internally and feel it through the stomach and digestive rhythm first. They may appear calm while the body quietly accumulates burden.</p>
+<p>Overeating, irregular meals, inactivity, comfort eating, and long periods of sitting often worsen this pattern. Many earth-heavy people do not explode under stress. They absorb it. That is why the health issue is often not dramatic reaction but chronic heaviness. If there is a real digestive or metabolic concern, medical evaluation comes first. Saju only helps identify the pattern behind what tends to accumulate.</p>
+
+<h2 id="earth-balance">5. How to Balance Excess Earth Energy</h2>
+<p>The goal is not to destroy Earth, but to move it. In five-elements logic, Wood is the key balancing force for excess Earth because Wood creates direction, growth, initiative, and upward motion. That means an earth-heavy person often benefits from regular change in small doses: clear deadlines, visible goals, movement routines, and the habit of making decisions before everything feels perfectly safe.</p>
+<p>Practical balancing methods include walking after meals, protecting digestive rhythm, reducing the habit of holding everything in, and breaking large concerns into smaller actions. In work, deadlines and structured progress checks help. In relationships, speaking earlier works better than silent endurance. Earth is powerful because it can hold. It becomes harmful only when holding turns into blockage.</p>
+<p>In short, excess Earth in Saju can bring trust, realism, patience, and strong responsibility. But if the chart lacks movement, those same strengths can become stubbornness, delay, and physical heaviness. The real question is not whether Earth is present, but whether your chart and lifestyle know how to keep it moving.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/saju/lucky-element" style="text-decoration: underline; color: #e7c57d;">[Related] Finding the balancing element in Saju</a></p>
+  <p><a href="/en/saju/health-saju" style="text-decoration: underline; color: #e7c57d;">[Related] Health timing and constitution in Saju</a></p>
+</div>
+</section>`,
+    faq: [
+      { q: '사주에서 토가 많으면 무조건 고집이 센가요?', a: '대체로 기준이 쉽게 안 바뀌고 신중한 편이지만, 무조건 고집스럽다고 단정할 수는 없습니다. 목 기운이 적절히 받쳐주면 안정감은 유지하면서도 변화 대응력이 함께 살아나는 경우도 많습니다.' },
+      { q: '토 과다 사주는 어떤 직업이 잘 맞나요?', a: '안정성과 책임, 누적 관리가 중요한 분야와 잘 맞습니다. 행정, 운영, 회계, 조직관리, 부동산, 품질관리처럼 구조를 지키고 관리하는 일에서 강점이 잘 드러납니다.' },
+      { q: '토 과다 사주라면 소화기를 꼭 조심해야 하나요?', a: '사주만으로 질환을 단정할 수는 없지만, 토 기운이 강한 사람은 위장 부담, 더부룩함, 식사 리듬 붕괴, 체중 정체 같은 신호에 민감한 경우가 많습니다. 실제 증상이 있다면 반드시 의료 기준으로 먼저 확인해야 합니다.' },
+    ],
+    faqEn: [
+      { q: 'Does too much Earth in Saju always make someone stubborn?', a: 'Not always. Strong Earth often creates caution and consistency, but if Wood is present in a supportive way, the person can stay grounded without becoming rigid or overly resistant to change.' },
+      { q: 'What careers fit an earth-heavy Saju chart?', a: 'Careers that reward stability, continuity, management, organization, and practical responsibility often suit Earth well, including administration, operations, accounting, logistics, real estate, and quality control.' },
+      { q: 'Should I worry about digestive issues if my chart has too much Earth?', a: 'A Saju chart cannot diagnose illness, but excess Earth often correlates with heaviness patterns such as bloating, digestive slowdown, and stress that settles in the stomach. Any real symptom should be evaluated medically first.' },
+    ],
+    relatedPosts: [
+      { slug: 'lucky-element', category: 'saju', title: '용신(用神): 내 사주의 핵심 기운' },
+      { slug: 'health-saju', category: 'saju', title: '사주 건강 분석: 오행으로 보는 건강 위험 시기' },
+    ],
+  },
+  {
     slug: 'samjae-2026',
     title: '2026 삼재는 누구인가? 들삼재·눌삼재·날삼재 완전 해설',
     seoTitle: '2026 삼재 띠 총정리: 들삼재·눌삼재·날삼재와 조심할 점 완전 해설',
@@ -2569,8 +3137,8 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
   <ul style="margin: 0; padding-left: 16px;">
-    <li style="margin-bottom: 4px;"><a href="/saju/zodiac-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">띠별 2026년 운세: 병오년 전체 흐름 총정리</a></li>
-    <li style="margin-bottom: 4px;"><a href="/saju/destiny-change" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">운명은 바꿀 수 있는가: 개운(改運)의 실전 원리</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/zodiac-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">띠별 2026년 운세: 병오년 전체 흐름 총정리</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/destiny-change" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">운명은 바꿀 수 있는가: 개운(改運)의 실전 원리</a></li>
   </ul>
 </div>
 
@@ -2603,7 +3171,7 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <h3>확장보다 정리</h3>
 <p>삼재 시기에는 새로 벌이는 것보다 기존 문제를 정리하는 전략이 유리합니다. 미뤄둔 검진, 불필요한 지출, 손절해야 할 인간관계, 불안정한 계약 조건을 정리하면 삼재의 체감 강도가 확실히 줄어듭니다. 삼재는 인생을 무너뜨리는 해라기보다, 허술한 부분을 드러내는 해에 가깝습니다.</p>
 <h3>용신 기준 개운</h3>
-<p>개운(改運)을 하려면 무작정 삼재 부적을 찾기보다 내 사주의 용신을 먼저 확인하는 편이 훨씬 실전적입니다. 같은 삼재라도 어떤 사람은 휴식이 필요하고, 어떤 사람은 방향 전환이 필요하며, 어떤 사람은 인간관계 정리가 더 급합니다. 그래서 삼재 해석은 띠만 보는 운세보다 <a href="/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">용신(用神) 기반의 개운 전략</a>과 함께 볼 때 훨씬 정확해집니다.</p>
+<p>개운(改運)을 하려면 무작정 삼재 부적을 찾기보다 내 사주의 용신을 먼저 확인하는 편이 훨씬 실전적입니다. 같은 삼재라도 어떤 사람은 휴식이 필요하고, 어떤 사람은 방향 전환이 필요하며, 어떤 사람은 인간관계 정리가 더 급합니다. 그래서 삼재 해석은 띠만 보는 운세보다 <a href="/ko/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">용신(用神) 기반의 개운 전략</a>과 함께 볼 때 훨씬 정확해집니다.</p>
 
 <h2 id="conclusion">5. 결론: 삼재는 공포가 아니라 점검의 시기</h2>
 <p>2026년 삼재는 누구인가를 묻는 이유는 결국 “올해를 어떻게 건너야 하나”를 알고 싶기 때문입니다. 원숭이띠, 쥐띠, 용띠처럼 삼재권에 놓인 띠라면 겁먹기보다 건강, 돈, 관계를 점검하는 해로 받아들이는 편이 훨씬 현명합니다. 삼재는 정해진 파멸의 공식이 아니라, 위험을 먼저 보고 속도를 조절하라는 전통적 경고에 가깝습니다.</p>
@@ -2709,8 +3277,8 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">먼저 보면 좋은 기준 글</p>
   <ul style="margin: 0; padding-left: 16px;">
-    <li style="margin-bottom: 4px;"><a href="/saju/love-marriage" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 연애운·결혼운 완전 해설: 기본 이론 먼저 보기</a></li>
-    <li style="margin-bottom: 4px;"><a href="/saju/annual-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 세운 보는 법: 올해 흐름 읽는 기본 틀</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/love-marriage" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 연애운·결혼운 완전 해설: 기본 이론 먼저 보기</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/annual-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 세운 보는 법: 올해 흐름 읽는 기본 틀</a></li>
   </ul>
 </div>
 
@@ -2857,8 +3425,8 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">함께 보면 기준이 또렷해지는 글</p>
   <ul style="margin: 0; padding-left: 16px;">
-    <li style="margin-bottom: 4px;"><a href="/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 일주 완전정복: 일주가 왜 해석의 중심인지</a></li>
-    <li style="margin-bottom: 4px;"><a href="/saju/zodiac-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">띠별 2026년 운세: 병오년 전체 흐름 먼저 보기</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 일주 완전정복: 일주가 왜 해석의 중심인지</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/zodiac-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">띠별 2026년 운세: 병오년 전체 흐름 먼저 보기</a></li>
   </ul>
 </div>
 
@@ -3025,13 +3593,13 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
       { id: 'wealth-hacks', title: '5. Practical Ways to Improve Wealth Fortune in 2026' },
     ],
     contentKo: `<section>
-<p>2026 재물운 사주를 찾는 사람은 보통 "올해 돈이 붙는가?", "투자해도 되는 시기인가?", "언제 지출을 조심해야 하나?"를 가장 먼저 묻습니다. 재성 이론을 길게 설명하는 글과 달리, 이 글은 <strong>병오년 세운이 실제 돈 흐름을 어떻게 흔드는지</strong>에 초점을 둡니다. 재물운 기본 구조가 궁금하다면 <a href="/saju/wealth-luck" style="text-decoration: underline; color: #f9d976;">재성 이론 글</a>을 먼저 보고, 여기서는 2026 돈복과 투자운의 타이밍을 실전적으로 읽으세요.</p>
+<p>2026 재물운 사주를 찾는 사람은 보통 "올해 돈이 붙는가?", "투자해도 되는 시기인가?", "언제 지출을 조심해야 하나?"를 가장 먼저 묻습니다. 재성 이론을 길게 설명하는 글과 달리, 이 글은 <strong>병오년 세운이 실제 돈 흐름을 어떻게 흔드는지</strong>에 초점을 둡니다. 재물운 기본 구조가 궁금하다면 <a href="/ko/saju/wealth-luck" style="text-decoration: underline; color: #f9d976;">재성 이론 글</a>을 먼저 보고, 여기서는 2026 돈복과 투자운의 타이밍을 실전적으로 읽으세요.</p>
 
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">먼저 보면 기준이 또렷해지는 글</p>
   <ul style="margin: 0; padding-left: 16px;">
-    <li style="margin-bottom: 4px;"><a href="/saju/wealth-luck" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 재물운 기본 이론: 재성으로 돈복 읽는 법</a></li>
-    <li style="margin-bottom: 4px;"><a href="/saju/annual-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 세운 보는 법: 연간 운세를 읽는 기본 틀</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/wealth-luck" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 재물운 기본 이론: 재성으로 돈복 읽는 법</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/annual-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 세운 보는 법: 연간 운세를 읽는 기본 틀</a></li>
   </ul>
 </div>
 
@@ -3191,12 +3759,12 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
       { id: 'health-routines', title: '5. Practical Ways to Protect Health Fortune in 2026' },
     ],
     contentKo: `<section>
-<p>2026 건강운 사주를 찾는 사람은 보통 "올해 크게 아플까?"보다 "언제 무리하면 위험해지나?"를 먼저 알고 싶어 합니다. 기본 체질과 오행 건강 해석이 궁금하다면 <a href="/saju/health-saju" style="text-decoration: underline; color: #f9d976;">사주 건강 기본 글</a>을 먼저 보고, 이 글에서는 <strong>병오년 화기 과다가 내 몸에 어떤 식으로 부담을 주는지</strong>를 시기 중심으로 읽으세요.</p>
+<p>2026 건강운 사주를 찾는 사람은 보통 "올해 크게 아플까?"보다 "언제 무리하면 위험해지나?"를 먼저 알고 싶어 합니다. 기본 체질과 오행 건강 해석이 궁금하다면 <a href="/ko/saju/health-saju" style="text-decoration: underline; color: #f9d976;">사주 건강 기본 글</a>을 먼저 보고, 이 글에서는 <strong>병오년 화기 과다가 내 몸에 어떤 식으로 부담을 주는지</strong>를 시기 중심으로 읽으세요.</p>
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">먼저 보면 좋은 기준 글</p>
   <ul style="margin: 0; padding-left: 16px;">
-    <li style="margin-bottom: 4px;"><a href="/saju/health-saju" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 건강 분석: 오행으로 보는 체질과 취약 부위</a></li>
-    <li style="margin-bottom: 4px;"><a href="/saju/annual-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 세운 보는 법: 올해 리듬 읽는 기본 틀</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/health-saju" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 건강 분석: 오행으로 보는 체질과 취약 부위</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/annual-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 세운 보는 법: 올해 리듬 읽는 기본 틀</a></li>
   </ul>
 </div>
 <h2 id="health-fire-effect">1. 2026 병오년이 건강운에 미치는 영향</h2>
@@ -3311,12 +3879,12 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
       { id: 'career-hacks', title: '5. Practical Ways to Use 2026 Career Fortune Well' },
     ],
     contentKo: `<section>
-<p>2026 이직운 사주를 검색하는 사람은 대개 "올해 옮겨도 되나?", "승진운이 붙는 해인가?", "지금 회사를 버텨야 하나?"를 같이 묻습니다. 직업운 기본 구조가 궁금하다면 <a href="/saju/career-star" style="text-decoration: underline; color: #f9d976;">관성 이론 글</a>을 먼저 보고, 여기서는 <strong>병오년 세운이 직장 변화와 승진 타이밍을 어떻게 밀어 올리는지</strong>만 집중해서 읽는 것이 좋습니다.</p>
+<p>2026 이직운 사주를 검색하는 사람은 대개 "올해 옮겨도 되나?", "승진운이 붙는 해인가?", "지금 회사를 버텨야 하나?"를 같이 묻습니다. 직업운 기본 구조가 궁금하다면 <a href="/ko/saju/career-star" style="text-decoration: underline; color: #f9d976;">관성 이론 글</a>을 먼저 보고, 여기서는 <strong>병오년 세운이 직장 변화와 승진 타이밍을 어떻게 밀어 올리는지</strong>만 집중해서 읽는 것이 좋습니다.</p>
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">먼저 보면 좋은 기준 글</p>
   <ul style="margin: 0; padding-left: 16px;">
-    <li style="margin-bottom: 4px;"><a href="/saju/career-star" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 관성으로 보는 직업운: 조직 적성과 성공 시기</a></li>
-    <li style="margin-bottom: 4px;"><a href="/saju/annual-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">세운으로 올해 변화 운 읽는 법</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/career-star" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 관성으로 보는 직업운: 조직 적성과 성공 시기</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/annual-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">세운으로 올해 변화 운 읽는 법</a></li>
   </ul>
 </div>
 <h2 id="career-fire-effect">1. 2026 병오년이 직장 변화에 미치는 영향</h2>
@@ -3444,12 +4012,12 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
       { id: 'marriage-hacks', title: '5. How to Use 2026 Marriage Fortune More Safely' },
     ],
     contentKo: `<section>
-<p>2026 결혼운 사주를 찾는 사람은 "올해 결혼 이야기가 실제로 진행될까?", "언제 식을 잡는 게 좋을까?"를 같이 궁금해합니다. 이 글은 연애운 일반론이 아니라 <strong>병오년 세운이 관계를 결론 쪽으로 밀어붙이는 힘</strong>을 읽는 글입니다. 연애와 배우자 이론부터 보고 싶다면 <a href="/saju/love-marriage" style="text-decoration: underline; color: #f9d976;">사주 연애·결혼 기본 글</a>을 먼저 확인하세요.</p>
+<p>2026 결혼운 사주를 찾는 사람은 "올해 결혼 이야기가 실제로 진행될까?", "언제 식을 잡는 게 좋을까?"를 같이 궁금해합니다. 이 글은 연애운 일반론이 아니라 <strong>병오년 세운이 관계를 결론 쪽으로 밀어붙이는 힘</strong>을 읽는 글입니다. 연애와 배우자 이론부터 보고 싶다면 <a href="/ko/saju/love-marriage" style="text-decoration: underline; color: #f9d976;">사주 연애·결혼 기본 글</a>을 먼저 확인하세요.</p>
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">먼저 보면 좋은 기준 글</p>
   <ul style="margin: 0; padding-left: 16px;">
-    <li style="margin-bottom: 4px;"><a href="/saju/love-marriage" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 연애운·결혼운 기본 이론 먼저 보기</a></li>
-    <li style="margin-bottom: 4px;"><a href="/saju/love-fortune-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">2026 연애운 사주: 인연과 감정 흐름 먼저 점검하기</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/love-marriage" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 연애운·결혼운 기본 이론 먼저 보기</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/love-fortune-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">2026 연애운 사주: 인연과 감정 흐름 먼저 점검하기</a></li>
   </ul>
 </div>
 <h2 id="marriage-fire-effect">1. 2026 병오년이 결혼운에 미치는 영향</h2>
@@ -3580,8 +4148,8 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">함께 보면 기준이 또렷해지는 글</p>
   <ul style="margin: 0; padding-left: 16px;">
-    <li style="margin-bottom: 4px;"><a href="/saju/wealth-luck" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">재성으로 보는 돈 흐름과 사업 감각</a></li>
-    <li style="margin-bottom: 4px;"><a href="/saju/career-change-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">2026 이직운 사주: 회사에 남을지 나올지 판단 기준</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/wealth-luck" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">재성으로 보는 돈 흐름과 사업 감각</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/career-change-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">2026 이직운 사주: 회사에 남을지 나올지 판단 기준</a></li>
   </ul>
 </div>
 <h2 id="business-fire-effect">1. 2026 병오년이 사업운에 미치는 영향</h2>
@@ -3710,8 +4278,8 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">함께 보면 좋은 기준 글</p>
   <ul style="margin: 0; padding-left: 16px;">
-    <li style="margin-bottom: 4px;"><a href="/saju/annual-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">세운으로 올해 흐름 읽는 기본 틀</a></li>
-    <li style="margin-bottom: 4px;"><a href="/saju/health-fortune-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">2026 건강운 사주: 집중력과 체력 관리 기준</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/annual-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">세운으로 올해 흐름 읽는 기본 틀</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/health-fortune-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">2026 건강운 사주: 집중력과 체력 관리 기준</a></li>
   </ul>
 </div>
 <h2 id="study-fire-effect">1. 2026 병오년이 학업운에 미치는 영향</h2>
@@ -3844,12 +4412,12 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
       { id: 'mistakes-2026', title: '5. Common Mistakes in 2026 Interpretation' },
     ],
     contentKo: `<section>
-<p>이 글은 <strong>원국을 이미 뽑은 분</strong>을 위한 가이드입니다. 만세력 사용이 처음이거나 사주 기초부터 시작해야 한다면 <a href="/saju/free-saju-2026" style="text-decoration: underline; color: #f9d976;">2026 사주 무료 풀이 — 원국 읽는 법 가이드</a>를 먼저 보세요. 원국을 알고 있는데 "병오년 세운을 내 사주에 어떻게 대입하지?"에서 막힌다면 여기서 <strong>2026 사주 보는법 — 세운 대입 순서와 해석 포인트</strong>를 단계별로 읽으세요.</p>
+<p>이 글은 <strong>원국을 이미 뽑은 분</strong>을 위한 가이드입니다. 만세력 사용이 처음이거나 사주 기초부터 시작해야 한다면 <a href="/ko/saju/free-saju-2026" style="text-decoration: underline; color: #f9d976;">2026 사주 무료 풀이 — 원국 읽는 법 가이드</a>를 먼저 보세요. 원국을 알고 있는데 "병오년 세운을 내 사주에 어떻게 대입하지?"에서 막힌다면 여기서 <strong>2026 사주 보는법 — 세운 대입 순서와 해석 포인트</strong>를 단계별로 읽으세요.</p>
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">먼저 보면 좋은 기준 글</p>
   <ul style="margin: 0; padding-left: 16px;">
-    <li style="margin-bottom: 4px;"><a href="/saju/free-saju-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">2026 사주 무료 풀이: 원국 읽는 기본 순서</a></li>
-    <li style="margin-bottom: 4px;"><a href="/saju/annual-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">세운 보는 법: 연간 운세 해석의 기본 틀</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/free-saju-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">2026 사주 무료 풀이: 원국 읽는 기본 순서</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/annual-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">세운 보는 법: 연간 운세 해석의 기본 틀</a></li>
   </ul>
 </div>
 <h2 id="why-2026-reading">1. 2026 사주 보는법을 따로 알아야 하는 이유</h2>
@@ -3988,13 +4556,13 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
       { id: 'common-mistakes', title: '5. Common Mistakes When You Read Your Own Saju' },
     ],
     contentKo: `<section>
-<p>2026 사주 무료 풀이를 찾는 사람 대부분은 "사이트에 생년월일을 넣었는데 결과를 어떻게 읽어야 하지?"라는 지점에서 막힙니다. 이 글은 <strong>만세력 사용이 처음이거나, 사주 원국을 아직 한 번도 직접 뽑아본 적 없는 분</strong>을 위한 가이드입니다. 만세력에서 사주를 뽑는 순서부터 천간·지지·오행 비율 읽기, 2026 병오년 세운 대입까지 처음부터 끝까지 정리했습니다. 원국은 이미 알고 있고 세운 대입법만 궁금하다면 <a href="/saju/saju-reading-2026" style="text-decoration: underline; color: #f9d976;">2026 사주 보는법 — 세운 대입 실전 가이드</a>로 바로 가세요.</p>
+<p>2026 사주 무료 풀이를 찾는 사람 대부분은 "사이트에 생년월일을 넣었는데 결과를 어떻게 읽어야 하지?"라는 지점에서 막힙니다. 이 글은 <strong>만세력 사용이 처음이거나, 사주 원국을 아직 한 번도 직접 뽑아본 적 없는 분</strong>을 위한 가이드입니다. 만세력에서 사주를 뽑는 순서부터 천간·지지·오행 비율 읽기, 2026 병오년 세운 대입까지 처음부터 끝까지 정리했습니다. 원국은 이미 알고 있고 세운 대입법만 궁금하다면 <a href="/ko/saju/saju-reading-2026" style="text-decoration: underline; color: #f9d976;">2026 사주 보는법 — 세운 대입 실전 가이드</a>로 바로 가세요.</p>
 
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">함께 보면 해석이 쉬워지는 글</p>
   <ul style="margin: 0; padding-left: 16px;">
-    <li style="margin-bottom: 4px;"><a href="/saju/lunar-solar-calendar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 음력·양력 완전 해설: 생시와 절기 입력이 왜 중요한가</a></li>
-    <li style="margin-bottom: 4px;"><a href="/saju/annual-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 세운 보는 법: 올해 운세 흐름을 읽는 기본 틀</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/lunar-solar-calendar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 음력·양력 완전 해설: 생시와 절기 입력이 왜 중요한가</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/annual-fortune" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 세운 보는 법: 올해 운세 흐름을 읽는 기본 틀</a></li>
   </ul>
 </div>
 
@@ -4022,7 +4590,7 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <h3>가장 먼저 읽을 3가지</h3>
 <p>첫째, 일간이 무엇인지 봅니다. 내가 갑목인지, 병화인지, 경금인지에 따라 같은 2026년이라도 체감이 달라집니다. 둘째, 오행 비율을 봅니다. 목화토금수 중 어느 기운이 지나치게 많거나 부족한지 확인하면 성격, 피로 포인트, 직업 성향을 읽기 쉬워집니다. 셋째, 월지와 일지를 봅니다. 월지는 사회 환경과 계절감, 일지는 관계와 생활 감각을 읽는 데 도움이 됩니다.</p>
 <p>예를 들어 화(火)가 이미 많은 사주인데 2026 병오년처럼 화 기운이 강한 해를 만나면 추진력은 올라가지만, 감정 과열이나 체력 소모도 커질 수 있습니다. 반대로 화가 약한 사주는 2026년을 통해 동력이 붙는 느낌을 받을 수 있습니다. 이런 식으로 오행 비율과 연도 기운을 연결해야 내 사주를 보는 법이 실제 감각으로 이어집니다.</p>
-<p>여기서 더 들어가고 싶다면 <a href="/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">용신 글</a>을 함께 보는 것이 좋습니다. 다만 이 글의 목적은 용신 깊이 들어가기보다, 무료 사주 결과를 스스로 읽을 수 있게 기본 순서를 세우는 데 있습니다.</p>
+<p>여기서 더 들어가고 싶다면 <a href="/ko/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">용신 글</a>을 함께 보는 것이 좋습니다. 다만 이 글의 목적은 용신 깊이 들어가기보다, 무료 사주 결과를 스스로 읽을 수 있게 기본 순서를 세우는 데 있습니다.</p>
 
 <h2 id="how-to-apply-2026">4. 2026 병오년 세운을 내 사주에 대입하는 법</h2>
 <p>이제 2026 사주 무료 풀이의 핵심 단계입니다. 원국을 읽었다면 2026년 병오년 세운이 내 사주에 무엇을 더하는지 봐야 합니다. 병오년은 화(火) 성향이 강한 해라서 드러남, 속도, 경쟁, 이동, 소비, 관계 변화가 빠르게 나타날 수 있습니다. 따라서 2026 해석은 "좋다/나쁘다"보다 "내 사주의 어느 부분을 자극하는가"로 보는 것이 정확합니다.</p>
@@ -4151,8 +4719,8 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
   <ul style="margin: 0; padding-left: 16px;">
-    <li style="margin-bottom: 4px;"><a href="/saju/zodiac-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">띠별 2026년 운세: 병오년 전체 흐름 총정리</a></li>
-    <li style="margin-bottom: 4px;"><a href="/saju/lucky-element" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 용신 찾기: 내게 필요한 행운의 기운은 무엇인가</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/zodiac-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">띠별 2026년 운세: 병오년 전체 흐름 총정리</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/lucky-element" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 용신 찾기: 내게 필요한 행운의 기운은 무엇인가</a></li>
   </ul>
 </div>
 
@@ -4291,3 +4859,4 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
     ],
   },
 ], '2026-01-05', 3, '2026-02-10', 1);
+
