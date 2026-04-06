@@ -16,6 +16,11 @@
 [ V] 8. 2026 사업운 사주 — slug: business-fortune-2026 / 카테고리: saju
 [ V] 9. 2026 학업운 사주 — slug: study-fortune-2026 / 카테고리: saju
 [ V] 10. 2026 사주 보는법 — slug: saju-reading-2026 / 카테고리: saju
+[ V] 15. 사주 식신·상관이란 — slug: sikshin-sanggwan / 카테고리: saju
+[ V] 16. 사주 비겁이란 — slug: bigyeop-saju / 카테고리: saju
+[ V] 17. 사주 인성이란 — slug: insung-saju / 카테고리: saju
+[ V] 12. 사주에서 화(火)가 많으면 — slug: too-much-fire-in-saju / 카테고리: saju
+[ V] 13. 사주에서 수(水)가 많으면 — slug: too-much-water-in-saju / 카테고리: saju
 
 ### 키워드·작성 지침 전체 상세 내용 → now-posting.md 참조
 

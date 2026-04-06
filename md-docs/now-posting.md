@@ -149,7 +149,7 @@
 
 ### [사주] 십성 시리즈
 
-[ ] 15. 사주 식신·상관이란 — 재능과 표현력의 별 완전 분석
+[완료] 15. 사주 식신·상관이란 — 재능과 표현력의 별 완전 분석
 - slug: `sikshin-sanggwan`
 - 카테고리: `saju`
 - 메인 키워드 KO: 사주 식신, 사주 상관
@@ -158,7 +158,7 @@
 - 하위 키워드 EN: expression star saju, four pillars talent star, output star korean astrology
 - 작성 지침: 식신·상관 개념·성격·직업·연애 역할. 식신 과다/상관 과다 케이스 포함. 2000자 이상.
 
-[ ] 16. 사주 비겁이란 — 경쟁심과 독립심의 별 완전 분석
+[완료] 16. 사주 비겁이란 — 경쟁심과 독립심의 별 완전 분석
 - slug: `bigyeop-saju`
 - 카테고리: `saju`
 - 메인 키워드 KO: 사주 비겁, 비겁 사주 뜻
@@ -167,7 +167,7 @@
 - 하위 키워드 EN: parallel star saju, sibling star four pillars, competitor star korean astrology
 - 작성 지침: 비견·겁재 개념. 비겁 많은 사주 특징(독립적·경쟁적). 직업·재물·대인관계 분석.
 
-[ ] 17. 사주 인성이란 — 학문운과 어머니의 별 완전 분석
+[완료] 17. 사주 인성이란 — 학문운과 어머니의 별 완전 분석
 - slug: `insung-saju`
 - 카테고리: `saju`
 - 메인 키워드 KO: 사주 인성, 인성 사주 뜻
