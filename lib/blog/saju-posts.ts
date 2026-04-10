@@ -5871,13 +5871,13 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
   },
   {
     slug: 'mu-earth-ilgan',
-    title: 'Mu Earth Day Master: Personality, Career, Love, and 2026 Fortune',
-    seoTitle: '무토 일간 완전 분석: 큰 산 같은 안정감·보수성·2026 운세',
-    seoTitleEn: 'Mu Earth Day Master: Personality, Career, Love, and 2026 Fortune',
-    description: '무토 일간의 큰 산 같은 안정감, 무토 사주 성격과 직업 적성, 연애 스타일, 2026 병오년 운세 흐름까지 실전적으로 정리합니다.',
-    descriptionEn: 'Learn how the Mu Earth Day Master works in Saju through personality, career fit, relationship style, and the 2026 Fire Horse year influence on Yang Earth.',
-    keywords: ['무토 일간', '무토 사주', '무토 성격', '무토 직업', '무토 연애', '무토 2026 운세', '戊土 일간 특징'],
-    keywordsEn: ['mu earth day master saju', 'yang earth day stem personality', 'mu earth korean astrology', 'mu earth career', 'mu earth love', 'mu earth 2026 fortune'],
+    title: 'Mu Earth Day Master Saju: The Real Weakness Behind the Most Reliable Chart',
+    seoTitle: '무토 일간: 가장 믿음직한 사주의 진짜 약점',
+    seoTitleEn: 'Mu Earth Day Master Saju: The Real Weakness Behind the Most Reliable Chart',
+    description: '무토 일간이 가장 믿음직해 보이면서도 진짜 약점이 드러나는 이유, 무토 사주 성격·직업·연애·2026 운세까지 실전 중심으로 정리합니다.',
+    descriptionEn: 'Find out why the Mu Earth day master looks so reliable yet has a specific blind spot. Covers Yang Earth personality, career, love, and 2026 fortune in Saju.',
+    keywords: ['무토 일간', '무토 사주 성격', '무토 보수적 성격', '무토 직업', '무토 연애', '무토 2026 운세'],
+    keywordsEn: ['mu earth day master saju', 'yang earth day stem personality', 'mu earth day master weakness', 'musin saju career', 'mu earth traits', 'mu earth korean astrology'],
     publishedAt: '2026-04-10',
     category: 'saju',
     toc: [
@@ -5895,7 +5895,7 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
       { id: 'mu-earth-2026', title: '5. Mu Earth in the 2026 Fire Horse Year' },
     ],
     contentKo: `<section>
-<p><strong>무토 일간</strong>은 왜 처음엔 가장 믿음직하고 든든해 보이는데, 가까워질수록 고집이 세고 속도를 안 바꾸는 사람처럼 느껴질까를 설명할 때 자주 찾는 키워드입니다. 무토 사주는 <strong>큰 산, 넓은 대지, 쉽게 무너지지 않는 축</strong>으로 읽습니다. 그래서 안정감과 책임감이 강하지만, 바로 그 안정성이 상황 변화에 둔해지는 약점으로도 연결됩니다. 이 글에서는 <strong>무토 사주 성격</strong>, 무토 직업, 무토 연애, 그리고 <strong>무토 2026 운세</strong>를 실제 생활 감각에 맞춰 정리합니다.</p>
+<p><strong>무토 일간</strong>은 사주 중에서 가장 믿음직하다는 말을 자주 듣습니다. 그리고 실제로 그렇습니다. 그런데 오래 함께한 사람들은 다른 말도 합니다. "왜 이렇게 안 바뀌냐"고. 무토 사주의 진짜 약점은 고집이 세다는 것이 아닙니다. 더 정확히는, <strong>자기 기준을 설명하지 않은 채 버티는 것</strong>이 문제입니다. 이 글은 무토의 믿음직함이 언제 강점이 되고 언제 약점으로 읽히는지를 <strong>무토 사주 성격</strong>, 직업, 연애, <strong>무토 2026 운세</strong>까지 연결해서 정리합니다.</p>
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">함께 읽으면 좋은 글</p>
   <ul style="margin: 0; padding-left: 16px;">
@@ -5955,7 +5955,7 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 </div>
 </section>`,
     contentEn: `<section>
-<p>People search <strong>mu earth day master saju</strong> when they want to understand someone who feels stable, dependable, and hard to shake, yet sometimes frustratingly slow to change. Mu Earth is <strong>Yang Earth</strong>. It is the mountain, the broad ground, and the structural base that does not collapse easily. That is why Mu Earth often carries trust and responsibility, but also the risk of rigidity when circumstances shift too fast.</p>
+<p><strong>Mu Earth day master saju</strong> is consistently described as the most dependable chart type in the room. That reputation is earned. But the people who know Mu Earth longest often add something else: they say it does not change even when it should. The real weakness of this chart is not stubbornness in the obvious sense. It is the habit of holding to internal standards without explaining them — which makes reliability look like rigidity to everyone outside. This guide covers where that pattern comes from, and what it means for career, love, and the 2026 fortune.</p>
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">Read These First for Context</p>
   <ul style="margin: 0; padding-left: 16px;">
@@ -6014,14 +6014,14 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 </div>
 </section>`,
     faq: [
-      { q: '무토 일간은 무조건 고집이 센가요?', a: '항상 그런 것은 아닙니다. 무토는 근거 없는 변화를 싫어하는 편이라 느리게 보일 뿐, 충분히 납득하면 오히려 오래 밀고 가는 힘이 강합니다.' },
-      { q: '무토 직업은 공무원이나 관리직만 잘 맞나요?', a: '안정성과 책임이 중요한 자리와 잘 맞는 것은 맞지만, 꼭 공공기관에만 한정되지는 않습니다. 운영 관리, 부동산, 제조, 재무, 프로젝트 총괄처럼 구조를 세우는 역할 전반에서 강점이 있습니다.' },
-      { q: '무토 2026 운세에서 가장 중요한 포인트는 무엇인가요?', a: '병오년의 화기가 무토를 움직이게 만든다는 점입니다. 오래 검토만 하던 일을 실행으로 옮길 기회가 늘지만, 자기 방식만 고집하면 마찰도 커질 수 있습니다.' },
+      { q: '무토 일간의 진짜 약점이 고집이 아니라면 무엇인가요?', a: '자기 기준을 설명하지 않은 채 버티는 태도입니다. 무토 사주는 기준이 분명하지만 그걸 말로 꺼내는 경우가 적습니다. 상대는 이유를 모르고 답답해하고, 무토는 이해 못 하는 상대가 이해하기 어렵습니다. 이 간극이 진짜 약점입니다.' },
+      { q: '무토 사주 성격이 가장 강점으로 드러나는 환경은 어디인가요?', a: '단기 성과보다 구조를 축적해야 하는 자리입니다. 운영, 재무, 부동산, 제조, 프로젝트 총괄처럼 오래 버티는 힘이 성과가 되는 환경에서 무토의 안정감이 자산이 됩니다.' },
+      { q: '무토 2026 운세에서 가장 중요한 포인트는 무엇인가요?', a: '병오년의 화기가 무토를 움직이게 만드는 해입니다. 오래 검토만 하던 일을 실행으로 옮길 기회가 늘지만, 자기 방식만 고집하면 주변과 마찰이 커질 수 있습니다.' },
     ],
     faqEn: [
-      { q: 'Is the Mu Earth Day Master always stubborn?', a: 'Not always. Mu Earth usually resists change that feels ungrounded, but once it respects the logic, it can commit for a very long time.' },
-      { q: 'Does Mu Earth only fit government or management work?', a: 'No. It often does well anywhere structure, durability, responsibility, and long-term control matter, including operations, finance, property, logistics, and project oversight.' },
-      { q: 'What matters most for Mu Earth in 2026?', a: 'The Fire Horse year activates movement. It can help Mu Earth turn long review into action, but only if confidence does not harden into inflexibility.' },
+      { q: 'If not stubbornness, what is the real weakness of Mu Earth day master?', a: 'The pattern of holding standards without explaining them. Mu Earth is often internally certain about what is right, but rarely verbalizes the reasoning. That creates a gap where partners and colleagues feel blocked without knowing why.' },
+      { q: 'Where does Mu Earth saju personality work best?', a: 'In environments where endurance, structure, and long-term reliability produce results. Operations, finance, real estate, manufacturing, and project oversight often suit this chart because they reward consistent management over flashy short-term wins.' },
+      { q: 'What matters most for Mu Earth in 2026?', a: 'The Fire Horse year pushes activation. It can help move decisions that have been in review for too long, but the benefit only arrives if Mu Earth adjusts its pace instead of insisting on its usual rhythm.' },
     ],
     relatedPosts: [
       { slug: 'gi-earth-ilgan', category: 'saju', title: '기토 일간 완전 분석: 꼼꼼한 현실 감각과 재물운' },
@@ -6030,13 +6030,13 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
   },
   {
     slug: 'gi-earth-ilgan',
-    title: 'Gi Earth Day Master: Money, Career, Love, and 2026 Fortune',
-    seoTitle: '기토 일간 완전 분석: 논밭형 현실감각·재물운·2026 운세',
-    seoTitleEn: 'Gi Earth Day Master: Money, Career, Love, and 2026 Fortune',
-    description: '기토 일간의 꼼꼼한 현실 감각, 기토 사주 재물운과 직업 적성, 연애 스타일, 2026 병오년 운세 흐름까지 구체적으로 정리합니다.',
-    descriptionEn: 'Learn how the Gi Earth Day Master works in Saju through money sense, career fit, relationship style, and the 2026 Fire Horse year influence on Yin Earth.',
-    keywords: ['기토 일간', '기토 사주', '기토 재물운', '기토 직업', '기토 연애', '기토 2026 운세', '己土 일간 특징'],
-    keywordsEn: ['gi earth day master money', 'yin earth day stem saju', 'gi earth korean astrology', 'gi earth wealth', 'gi earth career', 'gi earth 2026 fortune'],
+    title: 'Gi Earth Day Master Saju: Why Detail-Oriented People Build Wealth',
+    seoTitle: '기토 일간: 꼼꼼한 현실주의자가 돈을 잘 버는 이유',
+    seoTitleEn: 'Gi Earth Day Master Saju: Why Detail-Oriented People Build Wealth',
+    description: '기토 일간이 꼼꼼한 현실주의자이면서도 돈을 잘 버는 사주적 이유, 기토 사주 재물운·직업 적성·연애·2026 운세까지 실전 중심으로 정리합니다.',
+    descriptionEn: 'Find out why the Gi Earth day master\'s detail-oriented nature connects so naturally to wealth and money sense. Covers career, love, and 2026 fortune in Saju.',
+    keywords: ['기토 일간', '기토 사주 재물운', '기토 꼼꼼한 성격', '기토 직업 적성', '기토 연애', '기토 2026 운세'],
+    keywordsEn: ['gi earth day master money', 'yin earth day stem saju', 'gi earth wealth saju', 'gihae saju career', 'gi earth day master personality', 'gi earth korean astrology'],
     publishedAt: '2026-04-10',
     category: 'saju',
     toc: [
@@ -6054,7 +6054,7 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
       { id: 'gi-earth-2026', title: '5. Gi Earth in the 2026 Fire Horse Year' },
     ],
     contentKo: `<section>
-<p><strong>기토 일간</strong>은 왜 겉으로는 조용하고 꼼꼼한데 실제로는 돈 흐름과 생활 감각이 좋은 사람으로 읽히는가를 설명할 때 자주 찾는 키워드입니다. 기토 사주는 <strong>논밭, 흙을 고르고 가꾸는 손, 작은 차이를 축적하는 힘</strong>으로 해석합니다. 그래서 대범하게 한 번에 크게 움직이기보다, 손해를 줄이고 이익을 남기는 방식에 강합니다. 이 글에서는 <strong>기토 사주 재물운</strong>, 기토 직업 적성, 기토 연애, 그리고 <strong>기토 2026 운세</strong>를 중심으로 정리합니다.</p>
+<p><strong>기토 일간</strong>이 꼼꼼하고 현실적인 사람으로 읽히는 건 맞습니다. 그런데 그 꼼꼼함이 단순히 소심함이 아니라 실제로 돈과 연결되는 이유가 있습니다. 기토 사주는 작은 차이를 놓치지 않는 기운입니다. 가격, 효율, 시간 낭비, 관계 비용 — 이것들을 일상 단위에서 계속 계산하기 때문에 <strong>기토 사주 재물운</strong>은 한 번의 큰 승부보다 꾸준한 관리 능력으로 쌓입니다. 이 글은 기토의 꼼꼼한 현실주의가 왜 돈과 직업에서 강점이 되는지, 기토 직업 적성, 연애, <strong>기토 2026 운세</strong>까지 실전 중심으로 풀어봅니다.</p>
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">함께 읽으면 좋은 글</p>
   <ul style="margin: 0; padding-left: 16px;">
@@ -6095,7 +6095,7 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 </div>
 </section>`,
     contentEn: `<section>
-<p>People search <strong>gi earth day master money</strong> when they want to understand someone who looks quiet and modest but seems unusually good at managing value, cost, and daily reality. Gi Earth is <strong>Yin Earth</strong>. It is not the mountain. It is cultivated land, useful soil, and the kind of earth that turns care into output. That is why Gi Earth often connects naturally with money sense, practical systems, and careful management.</p>
+<p>The connection between <strong>gi earth day master money</strong> and detail-orientation is not a coincidence. Yin Earth does not build wealth through bold single moves. It builds through noticing what others miss: cost leaks, wasted time, inefficient systems, and daily habits that either accumulate or drain value. That is why Gi Earth often develops strong money sense not from ambition but from precision — and why the same quality that makes this chart careful in relationships also makes it reliable with finances. This guide explains the mechanism behind that pattern, and covers career, love, and 2026 fortune.</p>
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">Read These First for Context</p>
   <ul style="margin: 0; padding-left: 16px;">
@@ -6135,14 +6135,14 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 </div>
 </section>`,
     faq: [
-      { q: '기토 일간은 왜 돈 계산에 밝다는 말을 듣나요?', a: '기토는 큰 승부보다 작은 누수를 막고 실제 수익 구조를 관리하는 데 강한 편입니다. 그래서 과시형 재물운보다 실속형 재물 감각으로 읽히는 경우가 많습니다.' },
-      { q: '기토 직업은 숫자 관련 일만 잘 맞나요?', a: '회계나 재무와 잘 맞을 수 있지만, 운영 관리, 품질 관리, 고객 시스템, 생활 서비스처럼 세부 관리를 통해 가치를 만드는 일 전반과 잘 맞습니다.' },
-      { q: '기토 2026 운세에서 조심할 점은 무엇인가요?', a: '병오년의 화기가 기토의 생산성과 재물 감각을 키울 수 있지만, 계산이 지나치면 기회를 놓칠 수 있습니다. 아끼는 것과 투자할 곳을 구분하는 판단이 중요합니다.' },
+      { q: '기토 일간의 꼼꼼한 성격이 돈과 연결되는 이유가 뭔가요?', a: '기토 사주는 작은 차이를 생활 단위에서 계속 읽는 기운입니다. 한 번의 큰 승부보다 누수를 막고 효율을 높이는 방식으로 재물이 쌓이기 때문에, 기토 사주 재물운은 꾸준한 관리 능력과 직결됩니다.' },
+      { q: '기토 직업 적성은 숫자 관련 일만 잘 맞나요?', a: '회계나 재무도 맞지만, 더 넓게 보면 세부 관리를 통해 가치를 만드는 일 전반과 잘 맞습니다. 운영, 품질 관리, 고객 시스템, 생활 서비스처럼 기토 꼼꼼한 성격이 직접 성과로 연결되는 환경입니다.' },
+      { q: '기토 2026 운세에서 가장 조심할 점은 무엇인가요?', a: '병오년의 화기가 기토의 생산성을 끌어올리는 해입니다. 단, 계산이 지나치게 촘촘해지면 오히려 기회를 놓칩니다. 아끼는 것과 제때 투자할 곳을 구분하는 판단이 핵심입니다.' },
     ],
     faqEn: [
-      { q: 'Why is the Gi Earth Day Master often linked to money sense?', a: 'Gi Earth tends to notice waste, cost, and efficiency at the daily level. It often builds wealth through management and accumulation rather than dramatic risk.' },
-      { q: 'Does Gi Earth only fit number-based work?', a: 'No. It often fits any work where detailed management improves value, including operations, quality control, customer systems, planning, and service fields.' },
-      { q: 'What should Gi Earth watch in 2026?', a: 'The Fire Horse year can improve visible productivity and revenue, but over-calculation may block good opportunities. Gi Earth benefits by combining caution with timely investment.' },
+      { q: 'Why does Gi Earth day master personality connect so directly to money sense?', a: 'Gi Earth reads cost, efficiency, and waste at the daily operational level. That precision accumulates into wealth management skill over time — not through big bets but through consistently plugging the gaps that others overlook.' },
+      { q: 'Does Gi Earth career only fit accounting or finance?', a: 'Finance is a natural fit, but the pattern extends to any field where detailed management improves value: operations, quality control, customer systems, planning, and service management all suit this chart well.' },
+      { q: 'What should Gi Earth watch in 2026?', a: 'The Fire Horse year raises productivity and visibility for Yin Earth. The main risk is over-calculation blocking timely decisions. Gi Earth benefits most when caution is balanced with the willingness to invest where the numbers actually support it.' },
     ],
     relatedPosts: [
       { slug: 'wealth-luck', category: 'saju', title: '사주 재물운 완전 해설: 재성으로 보는 돈의 흐름' },
@@ -6609,6 +6609,294 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
     relatedPosts: [
       { slug: 'gyeong-metal-ilgan', category: 'saju', title: '경금 일간 완전 분석: 원칙주의 성격·직업운·2026 운세' },
       { slug: 'too-much-metal-in-saju', category: 'saju', title: '사주에서 금(金)이 많으면: 냉정함·예민함·대인관계 패턴 분석' },
+    ],
+  },
+  {
+    slug: 'im-water-ilgan',
+    title: 'Im Water Day Master: Personality, Career, Love, and 2026 Fortune',
+    seoTitle: '임수 일간 완전 분석: 자유로운 성격·직업운·2026 운세',
+    seoTitleEn: 'Im Water Day Master: Personality, Career, Love, and 2026 Fortune',
+    description: '임수 일간의 자유로운 성격, 넓은 시야와 이동성, 잘 맞는 직업, 연애 방식, 2026 병오년 운세까지 정리합니다.',
+    descriptionEn: 'Learn how the Im Water Day Master works through freedom, scale, adaptability, career fit, relationship style, and the 2026 Fire Horse year.',
+    keywords: ['임수 일간', '임수 사주 직업', '임수 성격', '임수 직업', '임수 연애', '임수 2026 운세', '壬水 일간 특징'],
+    keywordsEn: ['im water day master career', 'yang water day stem saju', 'im water personality', 'im water love', 'im water 2026 fortune', 'im water korean astrology'],
+    publishedAt: '2026-04-10',
+    category: 'saju',
+    toc: [
+      { id: 'im-water-basics', title: '1. 임수 일간이란? 강과 바다처럼 흐르는 큰 물의 기질' },
+      { id: 'im-water-personality', title: '2. 임수 성격의 장점과 약점: 자유로움이 산만함이 되는 순간' },
+      { id: 'im-water-career', title: '3. 임수 직업운: 이동성과 확장성이 살아나는 일' },
+      { id: 'im-water-love', title: '4. 임수 연애와 인간관계: 가까워지고 싶지만 묶이기는 싫은 마음' },
+      { id: 'im-water-2026', title: '5. 임수 2026 운세: 병오년의 화기가 자유를 시험하는 해' },
+    ],
+    tocEn: [
+      { id: 'im-water-basics', title: '1. What Im Water Day Master Really Means' },
+      { id: 'im-water-personality', title: '2. Im Water Personality: Freedom, Scale, and Restlessness' },
+      { id: 'im-water-career', title: '3. Im Water Career: Work That Rewards Movement and Expansion' },
+      { id: 'im-water-love', title: '4. Im Water in Love and Relationships' },
+      { id: 'im-water-2026', title: '5. Im Water in the 2026 Fire Horse Year' },
+    ],
+    contentKo: `<section>
+  <p>임수(壬水) 일간을 찾는 사람은 대개 “왜 한곳에 오래 묶이면 답답한가”, “왜 사람도 일도 넓게 보는데 꾸준함은 흔들리는가”, “자유로운 성격으로도 직장과 연애에서 성공할 수 있는가”를 함께 묻습니다. 임수는 사주에서 <strong>강, 바다, 큰 물</strong>로 비유됩니다. 그래서 고정된 틀보다 흐름과 이동, 넓은 시야와 연결성에서 힘이 나는 경우가 많습니다. 이 글에서는 임수 성격, 임수 직업 추천, 임수 연애, 그리고 2026 병오년이 임수에게 주는 압박과 기회를 함께 정리합니다.</p>
+  <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+    <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">함께 보면 좋은 글</p>
+    <ul style="margin: 0; padding-left: 16px;">
+      <li style="margin-bottom: 4px;"><a href="/ko/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">일간과 일주를 먼저 이해하는 사주 기본</a></li>
+      <li style="margin-bottom: 4px;"><a href="/ko/saju/too-much-water-in-saju" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">수 기운이 많을 때 나타나는 감수성과 유동성 패턴</a></li>
+    </ul>
+  </div>
+  <h2 id="im-water-basics">1. 임수 일간이란? 강과 바다처럼 흐르는 큰 물의 기질</h2>
+  <p>임수는 양수(陽水)입니다. 같은 수 일간인 계수가 이슬, 빗물, 샘물처럼 섬세하고 조용하게 스며드는 물이라면, 임수는 <strong>넓고 크고 움직임이 많은 물</strong>에 가깝습니다. 그래서 임수 일간은 한 가지에만 매이지 않고, 상황을 넓게 읽고, 사람과 정보와 기회를 연결하는 감각이 발달한 경우가 많습니다.</p>
+  <p>임수의 핵심은 단순한 자유분방함이 아닙니다. 더 정확히 말하면 <strong>막히지 않을 때 힘이 나는 기질</strong>입니다. 흐름이 열려 있고 선택지가 보일 때는 추진력과 적응력이 살아나지만, 통제가 과해지고 리듬이 단조로워지면 에너지가 급격히 떨어질 수 있습니다.</p>
+  <h2 id="im-water-personality">2. 임수 성격의 장점과 약점: 자유로움이 산만함이 되는 순간</h2>
+  <p><strong>임수 성격</strong>의 장점은 유연함, 포용력, 아이디어 확장력, 상황 판단, 대인 감각입니다. 한 가지 방식만 고집하지 않고, 여러 가능성을 열어두며, 새로운 사람과 환경에 대한 적응 속도가 빠른 편입니다. 주변에서는 “생각의 폭이 넓다”, “말이 통한다”, “답답하지 않다”고 느끼기 쉽습니다.</p>
+  <p>문제는 이 자유로움이 방향을 잃을 때입니다. 임수는 가능성을 많이 보기 때문에 오히려 결정이 느려질 수 있고, 관심이 넓은 만큼 집중력이 분산되기도 합니다. 계수가 감정과 분위기에 섬세하게 반응해 조용히 소모된다면, 임수는 <strong>너무 많은 흐름을 동시에 타려다 산만해지는 방식</strong>으로 지치는 편입니다.</p>
+  <div style="background: rgba(255,255,255,0.04); border-left: 3px solid rgba(249,215,126,0.4); padding: 14px 18px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <p style="margin: 0 0 8px 0; font-size: 13px; color: #F5D77E; font-weight: bold;">임수가 흔들릴 때 보이는 신호</p>
+    <ul style="margin: 0; padding-left: 16px; font-size: 13px; line-height: 1.9;">
+      <li>선택지가 많을수록 오히려 결정을 미룬다</li>
+      <li>새로운 기회에 반응하느라 기존 흐름을 자주 끊는다</li>
+      <li>통제받는 느낌이 들면 갑자기 의욕이 급감한다</li>
+      <li>자유를 원하지만 루틴이 무너지면 성과도 같이 흔들린다</li>
+    </ul>
+  </div>
+  <h2 id="im-water-career">3. 임수 직업운: 이동성과 확장성이 살아나는 일</h2>
+  <p><strong>임수 직업</strong>은 이동, 연결, 기획, 영업, 콘텐츠, 무역, 해외 업무, 커뮤니케이션, 컨설팅, 플랫폼 운영, 프로젝트 조율처럼 흐름을 읽고 판을 넓히는 일이 잘 맞는 편입니다. 임수는 한 점을 깊게 파는 능력보다, 여러 정보를 빠르게 엮고 변화하는 상황에서 길을 찾는 능력에서 강점을 보입니다. 직업운의 이론적 구조는 <a href="/ko/saju/career-star" style="text-decoration: underline; color: #f9d976;">관성으로 보는 직업운 글</a>을 함께 보면 더 입체적으로 이해할 수 있습니다.</p>
+  <table style="width:100%; border-collapse:collapse; margin: 16px 0; font-size: 13px;">
+    <thead>
+      <tr style="background: rgba(249,215,126,0.12);">
+        <th style="padding: 10px 14px; text-align: left; border-bottom: 1px solid rgba(255,255,255,0.1);">임수가 살아나는 환경</th>
+        <th style="padding: 10px 14px; text-align: left; border-bottom: 1px solid rgba(255,255,255,0.1);">임수가 지치는 환경</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.06);">
+        <td style="padding: 10px 14px;">변화와 이동이 있는 프로젝트형 일</td>
+        <td style="padding: 10px 14px;">하루 구조가 지나치게 고정된 반복 업무</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.06);">
+        <td style="padding: 10px 14px;">사람과 정보를 연결하는 역할</td>
+        <td style="padding: 10px 14px;">권한 없이 통제만 강한 조직</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.06);">
+        <td style="padding: 10px 14px;">새 판을 읽고 기회를 만드는 일</td>
+        <td style="padding: 10px 14px;">변화 금지, 실험 금지 분위기</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px 14px;">해외, 네트워크, 콘텐츠, 협업 중심 업무</td>
+        <td style="padding: 10px 14px;">답은 이미 정해져 있고 실행만 요구하는 역할</td>
+      </tr>
+    </tbody>
+  </table>
+  <p>임수가 직장에서 성공하려면 자유만 추구하면 안 됩니다. 흐름을 읽는 능력은 강하지만, 그것을 <strong>반복 가능한 구조와 연결할 때</strong> 성과가 오래 갑니다. 즉 자유를 지키려면 오히려 기본 루틴과 마감 감각이 필요합니다.</p>
+  <div class="cta-container" style="text-align: center; margin: 40px 0;">
+    <a href="/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">내 사주에서 임수 기질과 직업운 확인하기</a>
+  </div>
+  <h2 id="im-water-love">4. 임수 연애와 인간관계: 가까워지고 싶지만 묶이기는 싫은 마음</h2>
+  <p><strong>임수 연애</strong>는 대화와 흐름이 중요합니다. 답답하지 않고, 시야가 넓고, 감정적으로도 말이 통하는 관계에서 힘이 납니다. 상대를 이해하는 폭은 넓지만, 관계가 통제와 감시의 형태로 느껴지면 빠르게 멀어질 수 있습니다.</p>
+  <p>임수의 함정은 자유를 지키려는 마음이 책임 회피처럼 보일 때입니다. 본인은 여지를 두고 싶고 숨 쉴 공간이 필요하지만, 상대는 거리감이나 불안으로 느낄 수 있습니다. 임수에게 연애는 ‘묶이지 않는 것’이 목적이 아니라, <strong>자유와 신뢰가 동시에 가능한 구조를 만드는 것</strong>이 핵심입니다.</p>
+  <h2 id="im-water-2026">5. 임수 2026 운세: 병오년의 화기가 자유를 시험하는 해</h2>
+  <p><strong>임수 2026 운세</strong>는 자유와 책임의 균형이 핵심입니다. 병오년의 화기는 수에게 관성으로 작동해 역할, 압박, 성과 요구, 외부 평가를 키우는 흐름이 될 수 있습니다. 그래서 평소 자유롭게 움직이던 임수에게 2026년은 “이제는 방향을 정하고 결과를 보여줘야 한다”는 압박으로 다가오기 쉽습니다.</p>
+  <p>좋게 쓰면 이 해는 임수가 넓은 시야를 실제 성과로 묶는 시기가 될 수 있습니다. 프로젝트 정리, 이직, 확장, 해외 연결, 네트워크 기반 수익화 같은 흐름이 살아날 수 있습니다. 다만 선택지만 늘리고 마무리를 놓치면 기회가 흩어질 수 있습니다. 병오년의 임수는 <strong>자유를 잃지 않되, 책임을 피하지 않는 방식</strong>을 배워야 강해집니다.</p>
+  <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+    <p><a href="/ko/saju/too-much-water-in-saju" style="text-decoration: underline; color: #f9d976;">[관련글] 사주에서 수가 많으면: 감수성과 유동성이 과해질 때</a></p>
+    <p><a href="/ko/saju/gye-water-ilgan" style="text-decoration: underline; color: #f9d976;">[관련글] 계수 일간 완전 분석: 섬세한 물 기질과 임수의 차이</a></p>
+  </div>
+  </section>`,
+    contentEn: `<section>
+  <p>People search <strong>im water day master career</strong> when they want to understand a person who needs freedom, movement, and open possibility in order to do their best work. Im Water is <strong>Yang Water</strong>. It is compared to rivers, oceans, and large moving water. This guide explains Im Water personality, career fit, relationship style, and why the <strong>2026 Fire Horse year</strong> tests freedom through responsibility and pressure.</p>
+  <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+    <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">Read These First for Context</p>
+    <ul style="margin: 0; padding-left: 16px;">
+      <li style="margin-bottom: 4px;"><a href="/en/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">How the Day Master works in Saju reading</a></li>
+      <li style="margin-bottom: 4px;"><a href="/en/saju/too-much-water-in-saju" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">How too much Water affects flexibility and sensitivity</a></li>
+    </ul>
+  </div>
+  <h2 id="im-water-basics">1. What an Im Water Day Master Means</h2>
+  <p>Im Water is Yang Water. Unlike Gye Water, which behaves more like dew, mist, rain, or hidden streams, Im Water is large-scale water. It moves, connects, expands, and adapts. That is why Im Water often feels drawn to open possibility, broad thinking, and environments where movement matters.</p>
+  <p>The essential issue is not rebellion. It is flow. Im Water tends to weaken when trapped and strengthen when there is room to move, connect, and redirect energy intelligently.</p>
+  <h2 id="im-water-personality">2. Im Water Personality: Freedom, Scale, and Restlessness</h2>
+  <p><strong>Im Water personality</strong> often appears as flexibility, social intelligence, wide perspective, curiosity, and improvisational strength. These people usually understand context quickly and dislike being reduced to one narrow role.</p>
+  <p>The shadow side is diffusion. Because Im Water sees many paths at once, it can delay commitment, scatter effort, and lose momentum through overexpansion. Compared with Gye Water, which tends to internalize and feel deeply, Im Water is more likely to become restless by trying to move in too many directions.</p>
+  <ul>
+    <li>Strengths: adaptability, scale, communication, openness, situational intelligence</li>
+    <li>Weaknesses: inconsistency, distraction, delayed commitment, dislike of limits, unfinished cycles</li>
+    <li>Key contrast: Gye Water feels finely, while Im Water moves broadly</li>
+  </ul>
+  <h2 id="im-water-career">3. Im Water Career: Work That Rewards Movement and Expansion</h2>
+  <p><strong>Im Water career</strong> patterns fit roles involving movement, opportunity, networking, communication, content, trade, travel, consulting, platform work, collaboration, and strategic coordination. If you want the broader structure behind work luck, the <a href="/en/saju/career-star" style="text-decoration: underline; color: #f9d976;">Career Star guide</a> provides the theory.</p>
+  <p>Im Water succeeds when freedom is linked to system. Without structure, freedom becomes drift. With the right routines, it becomes range, mobility, and unusual strength in changing environments.</p>
+  <div class="cta-container" style="text-align: center; margin: 40px 0;">
+    <a href="/en/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">Check Your Career Structure and Freedom Pattern Free</a>
+  </div>
+  <h2 id="im-water-love">4. Im Water in Love and Relationships</h2>
+  <p><strong>Im Water love</strong> needs emotional flow, conversation, and breathing room. It usually dislikes possessive dynamics and often bonds through intellectual exchange, movement, shared curiosity, and emotional spaciousness.</p>
+  <p>The difficulty is that the need for freedom can look like emotional distance. Im Water does not necessarily avoid intimacy, but it often resists confinement. Relationship success comes from building trust without turning closeness into surveillance.</p>
+  <h2 id="im-water-2026">5. Im Water in the 2026 Fire Horse Year</h2>
+  <p><strong>Im Water 2026 fortune</strong> is shaped by pressure and role definition. Fire controls Water in the five-element cycle, so the Fire Horse year can increase demands for performance, accountability, decisions, and public results. For a freedom-seeking Im Water type, that can feel restrictive at first.</p>
+  <p>Still, this year can be very productive if direction is chosen clearly. 2026 is good for turning broad networks, movement, and ideas into concrete outcomes. The risk is chasing too many openings and finishing too little. The practical lesson is simple: keep freedom, but stop avoiding structure.</p>
+  <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+    <p><a href="/en/saju/too-much-water-in-saju" style="text-decoration: underline; color: #f9d976;">[Related] Too much Water in Saju: sensitivity, flexibility, and drift</a></p>
+    <p><a href="/en/saju/gye-water-ilgan" style="text-decoration: underline; color: #f9d976;">[Related] Gye Water Day Master guide: refined Yin Water and the contrast with Im</a></p>
+  </div>
+  </section>`,
+    faq: [
+      { q: '임수 일간은 왜 자유로운 성격이라는 말을 듣나요?', a: '임수는 큰 물처럼 흐름과 이동에서 힘이 나는 기질이라, 선택지가 막히거나 통제가 강하면 쉽게 답답함을 느끼는 편입니다. 그래서 자유를 중요하게 여기는 경우가 많습니다.' },
+      { q: '임수 직업은 한 분야에 오래 있기 어렵나요?', a: '반드시 그렇지는 않습니다. 다만 변화와 확장성이 없는 구조에서는 쉽게 지칠 수 있습니다. 한 분야에 있더라도 이동성, 기획성, 연결성이 있으면 잘 버티는 편입니다.' },
+      { q: '임수 2026 운세에서 가장 중요한 포인트는 무엇인가요?', a: '병오년에는 자유보다 책임이 더 크게 느껴질 수 있습니다. 여러 가능성을 넓히는 것보다, 선택한 흐름을 끝까지 묶어 결과로 만드는 힘이 중요합니다.' },
+    ],
+    faqEn: [
+      { q: 'Why is the Im Water Day Master often described as freedom-seeking?', a: 'Because Im Water gains strength from movement, options, and open flow. Heavy control and narrow structures often feel draining to this type.' },
+      { q: 'Does Im Water struggle to stay in one career path?', a: 'Not always. The issue is less about one field and more about whether the work allows movement, adaptation, and meaningful change within it.' },
+      { q: 'What matters most for Im Water in 2026?', a: 'Direction and completion. The Fire Horse year rewards turning broad possibility into concrete results rather than endlessly expanding options.' },
+    ],
+    relatedPosts: [
+      { slug: 'too-much-water-in-saju', category: 'saju', title: '사주에서 수(水)가 많으면: 감수성·우유부단·직업·건강 해석' },
+      { slug: 'day-pillar', category: 'saju', title: '사주 일주 완전정복: 나의 본질과 배우자 복을 읽는 법' },
+    ],
+  },
+  {
+    slug: 'gye-water-ilgan',
+    title: 'Gye Water Day Master: Personality, Career, Love, and 2026 Fortune',
+    seoTitle: '계수 일간 완전 분석: 감성적 성격·직업운·2026 운세',
+    seoTitleEn: 'Gye Water Day Master: Personality, Career, Love, and 2026 Fortune',
+    description: '계수 일간의 감성적 성격, 섬세한 직관, 예술성과 직업 적성, 연애 패턴, 2026 병오년 운세까지 정리합니다.',
+    descriptionEn: 'Understand the Gye Water Day Master through sensitivity, intuition, artistic fit, relationship patterns, and the emotional pressure of the 2026 Fire Horse year.',
+    keywords: ['계수 일간', '계수 사주 감성', '계수 성격', '계수 직업', '계수 연애', '계수 2026 운세', '癸水 일간 특징'],
+    keywordsEn: ['gye water day master sensitivity', 'yin water day stem saju', 'gye water personality', 'gye water love', 'gye water 2026 fortune', 'gye water korean astrology'],
+    publishedAt: '2026-04-10',
+    category: 'saju',
+    toc: [
+      { id: 'gye-water-basics', title: '1. 계수 일간이란? 이슬과 샘물처럼 스며드는 물의 기질' },
+      { id: 'gye-water-personality', title: '2. 계수 성격의 강점과 부담: 감수성이 깊어질수록 피로도 커진다' },
+      { id: 'gye-water-career', title: '3. 계수 직업운: 감성과 정교함이 경쟁력이 되는 일' },
+      { id: 'gye-water-love', title: '4. 계수 연애와 인간관계: 말보다 분위기에 더 많이 반응하는 사람' },
+      { id: 'gye-water-2026', title: '5. 계수 2026 운세: 병오년의 화기가 감정과 체력을 시험하는 해' },
+    ],
+    tocEn: [
+      { id: 'gye-water-basics', title: '1. What Gye Water Day Master Really Means' },
+      { id: 'gye-water-personality', title: '2. Gye Water Personality: Sensitivity, Intuition, and Emotional Fatigue' },
+      { id: 'gye-water-career', title: '3. Gye Water Career: Work That Rewards Feeling and Precision' },
+      { id: 'gye-water-love', title: '4. Gye Water in Love and Relationships' },
+      { id: 'gye-water-2026', title: '5. Gye Water in the 2026 Fire Horse Year' },
+    ],
+    contentKo: `<section>
+  <p>계수(癸水) 일간을 찾는 사람은 보통 “왜 분위기에 이렇게 민감한가”, “왜 감정은 깊은데 표현은 조용한가”, “직업과 연애에서 비슷한 상처가 반복되는 이유가 뭔가”를 함께 묻습니다. 계수는 사주에서 <strong>이슬, 빗물, 샘물처럼 작고 섬세한 물</strong>로 비유됩니다. 임수가 큰 흐름과 이동성의 물이라면, 계수는 결을 읽고 스며들며 조용히 깊어지는 물에 가깝습니다. 이 글에서는 계수 성격, 예술성과 직업 적성, 계수 연애 패턴, 그리고 2026 병오년의 감정 압박까지 정리합니다.</p>
+  <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+    <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">함께 보면 좋은 글</p>
+    <ul style="margin: 0; padding-left: 16px;">
+      <li style="margin-bottom: 4px;"><a href="/ko/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">일간 해석 전에 보는 사주 기본 구조</a></li>
+      <li style="margin-bottom: 4px;"><a href="/ko/saju/im-water-ilgan" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">임수 일간과 비교해 보는 큰물과 섬세한 물의 차이</a></li>
+    </ul>
+  </div>
+  <h2 id="gye-water-basics">1. 계수 일간이란? 이슬과 샘물처럼 스며드는 물의 기질</h2>
+  <p>계수는 음수(陰水)입니다. 임수가 강과 바다처럼 크게 흐르는 물이라면, 계수는 작은 틈으로 스며들고, 분위기를 머금고, 조용히 방향을 바꾸는 물입니다. 그래서 계수 일간은 겉으로 강하게 드러나기보다 <strong>감정, 분위기, 미세한 변화</strong>를 먼저 읽는 경우가 많습니다.</p>
+  <p>이 기질은 섬세함과 직관, 예술성, 언어 감각, 배려로 이어질 수 있습니다. 동시에 상처를 오래 품고, 말보다 공기와 뉘앙스에 더 크게 반응하며, 외부 자극에 피로를 쉽게 느끼는 성향으로도 나타납니다. 임수가 ‘넓게 움직이는 물’이라면 계수는 <strong>깊게 스며드는 물</strong>입니다.</p>
+  <h2 id="gye-water-personality">2. 계수 성격의 강점과 부담: 감수성이 깊어질수록 피로도 커진다</h2>
+  <p><strong>계수 성격</strong>의 강점은 감수성, 직관, 공감 능력, 세밀한 관찰력입니다. 사람의 표정, 말의 결, 분위기의 미묘한 변화 같은 것을 빨리 읽는 편이라서, 상담, 창작, 조율, 관계 관리에서 강점을 보이기도 합니다. 남들이 놓치는 감정선을 먼저 포착하는 사람이 많습니다.</p>
+  <p>문제는 너무 많이 느낀다는 점입니다. 계수는 감정이 깊지만 표현은 조심스러워서, 속으로는 크게 흔들리면서도 겉으로는 괜찮은 척하는 경우가 많습니다. 임수가 흐름이 많아 산만해진다면, 계수는 <strong>감정과 분위기를 오래 품어서 소모되는 타입</strong>에 더 가깝습니다. 그래서 계수에게는 감정 정리와 거리 조절이 매우 중요합니다.</p>
+  <div style="background: rgba(255,255,255,0.04); border-left: 3px solid rgba(249,215,126,0.4); padding: 14px 18px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <p style="margin: 0 0 8px 0; font-size: 13px; color: #F5D77E; font-weight: bold;">계수가 반복해서 지치는 패턴</p>
+    <ul style="margin: 0; padding-left: 16px; font-size: 13px; line-height: 1.9;">
+      <li>겉으로 표현하지 않은 감정을 오래 혼자 품는다</li>
+      <li>상대의 말보다 말투와 분위기에 더 크게 흔들린다</li>
+      <li>관계를 정리해야 할 때도 미련과 공감 때문에 늦어진다</li>
+      <li>예민함을 숨기느라 오히려 회복이 늦어진다</li>
+    </ul>
+  </div>
+  <h2 id="gye-water-career">3. 계수 직업운: 감성과 정교함이 경쟁력이 되는 일</h2>
+  <p><strong>계수 직업</strong>은 감수성과 정교함이 동시에 요구되는 분야와 잘 맞습니다. 글쓰기, 디자인, 상담, 심리, 연구 보조, 번역, 기획, 브랜딩, 고객 경험, 교육, 아트 디렉션, 섬세한 서비스업처럼 분위기와 디테일이 중요한 일에서 실력이 드러나는 편입니다. 직업운의 기본 구조는 <a href="/ko/saju/career-star" style="text-decoration: underline; color: #f9d976;">관성으로 보는 직업운 글</a>을 같이 보면 더 선명해집니다.</p>
+  <table style="width:100%; border-collapse:collapse; margin: 16px 0; font-size: 13px;">
+    <thead>
+      <tr style="background: rgba(249,215,126,0.12);">
+        <th style="padding: 10px 14px; text-align: left; border-bottom: 1px solid rgba(255,255,255,0.1);">계수가 잘 맞는 환경</th>
+        <th style="padding: 10px 14px; text-align: left; border-bottom: 1px solid rgba(255,255,255,0.1);">계수가 소모되는 환경</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.06);">
+        <td style="padding: 10px 14px;">분위기와 디테일을 읽는 일이 중요한 환경</td>
+        <td style="padding: 10px 14px;">자극이 강하고 말이 거친 환경</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.06);">
+        <td style="padding: 10px 14px;">집중과 정교함이 평가되는 역할</td>
+        <td style="padding: 10px 14px;">속도와 즉각 반응만 요구되는 역할</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.06);">
+        <td style="padding: 10px 14px;">창작, 상담, 편집, 조율 중심 업무</td>
+        <td style="padding: 10px 14px;">감정을 무시한 채 강한 경쟁만 남는 조직</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px 14px;">정서적 결을 살리는 브랜딩과 서비스</td>
+        <td style="padding: 10px 14px;">회복 시간 없이 사람을 계속 상대하는 구조</td>
+      </tr>
+    </tbody>
+  </table>
+  <p>계수가 직업에서 오래 가려면 감성만 믿으면 안 됩니다. 계수의 강점은 느낌이 아니라 <strong>느낌을 결과물로 번역하는 능력</strong>에서 완성됩니다. 감수성에 구조를 붙여야 재능이 일로 연결됩니다.</p>
+  <div class="cta-container" style="text-align: center; margin: 40px 0;">
+    <a href="/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">내 사주에서 계수 기질과 직업운 확인하기</a>
+  </div>
+  <h2 id="gye-water-love">4. 계수 연애와 인간관계: 말보다 분위기에 더 많이 반응하는 사람</h2>
+  <p><strong>계수 연애</strong>는 감정의 결이 중요합니다. 말 한마디보다 말투, 타이밍, 배려의 온도, 관계의 분위기를 더 많이 읽는 편이라서, 상대가 무심코 넘긴 부분도 오래 기억하는 경우가 많습니다. 그래서 로맨틱하고 깊은 관계를 만들 수 있지만, 동시에 상처도 오래 남기기 쉽습니다.</p>
+  <p>계수의 반복 패턴은 분명합니다. 서운함을 바로 말하지 않고 쌓아두다가, 어느 순간 갑자기 멀어지거나 지쳐버리는 경우가 많습니다. 관계를 지키려면 감성을 숨기는 것이 아니라, <strong>상처받기 전에 말할 수 있는 구조</strong>를 만드는 것이 더 중요합니다.</p>
+  <h2 id="gye-water-2026">5. 계수 2026 운세: 병오년의 화기가 감정과 체력을 시험하는 해</h2>
+  <p><strong>계수 2026 운세</strong>는 감정 관리와 체력 관리가 핵심입니다. 병오년의 화기는 수를 압박하는 기운이라, 계수에게는 감정 소모, 긴장, 책임 부담, 예민함의 증폭으로 나타날 수 있습니다. 특히 사람 문제와 일 문제가 한꺼번에 몰리면 평소보다 더 쉽게 지칠 수 있습니다.</p>
+  <p>좋게 쓰면 이 해는 계수의 감각과 안목이 눈에 띄는 시기가 될 수 있습니다. 섬세함이 경쟁력이 되는 분야에서는 결과가 드러날 수 있고, 감성 기반 작업도 평가받기 쉽습니다. 다만 회복 없이 버티면 번아웃으로 이어지기 쉽습니다. 병오년의 계수는 <strong>느낌을 믿되, 나를 소모시키는 관계와 환경은 선별하는 것</strong>이 중요합니다.</p>
+  <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+    <p><a href="/ko/saju/im-water-ilgan" style="text-decoration: underline; color: #f9d976;">[관련글] 임수 일간 완전 분석: 자유로운 큰물 기질과 계수의 차이</a></p>
+    <p><a href="/ko/saju/too-much-water-in-saju" style="text-decoration: underline; color: #f9d976;">[관련글] 사주에서 수가 많으면: 감정과 우유부단이 과해질 때</a></p>
+  </div>
+  </section>`,
+    contentEn: `<section>
+  <p>People search <strong>gye water day master sensitivity</strong> when they want to understand why someone feels deeply, reads atmosphere quickly, and often repeats similar emotional patterns in work and love. Gye Water is <strong>Yin Water</strong>. Unlike Im Water, which moves broadly like rivers or seas, Gye Water behaves more like dew, mist, rain, or hidden spring water. This guide explains Gye Water personality, career fit, relationship patterns, and why the <strong>2026 Fire Horse year</strong> can intensify emotional fatigue.</p>
+  <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+    <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">Read These First for Context</p>
+    <ul style="margin: 0; padding-left: 16px;">
+      <li style="margin-bottom: 4px;"><a href="/en/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">How the Day Master works in Saju</a></li>
+      <li style="margin-bottom: 4px;"><a href="/en/saju/im-water-ilgan" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Compare broad Yang Water with refined Yin Water</a></li>
+    </ul>
+  </div>
+  <h2 id="gye-water-basics">1. What a Gye Water Day Master Means</h2>
+  <p>Gye Water is Yin Water. It is subtle, permeating, responsive, and often emotionally intelligent. While Im Water expands through movement and scale, Gye Water tends to work through nuance, atmosphere, and deep inner sensing.</p>
+  <p>This makes Gye Water highly receptive. It notices emotional temperature, hidden tone, and the invisible texture of a room. That sensitivity can become intuition, artistry, and care, but it can also become fatigue.</p>
+  <h2 id="gye-water-personality">2. Gye Water Personality: Sensitivity, Intuition, and Emotional Fatigue</h2>
+  <p><strong>Gye Water personality</strong> often appears as empathy, subtlety, intuition, and emotional intelligence. These people are often good at detecting unspoken feeling, reading tension, and understanding quiet shifts in relationship dynamics.</p>
+  <p>The cost is overabsorption. Unlike Im Water, which often loses energy by moving too widely, Gye Water often loses energy by holding too much inside. It may look calm while carrying emotional residue for a long time.</p>
+  <ul>
+    <li>Strengths: intuition, empathy, atmosphere reading, subtle communication, refined sensitivity</li>
+    <li>Weaknesses: overthinking, emotional exhaustion, hidden resentment, delayed boundaries, difficulty letting go</li>
+    <li>Key contrast: Im Water expands outward, while Gye Water absorbs inward</li>
+  </ul>
+  <h2 id="gye-water-career">3. Gye Water Career: Work That Rewards Feeling and Precision</h2>
+  <p><strong>Gye Water career</strong> patterns fit writing, design, counseling, planning, editing, education, branding, translation, customer experience, creative work, and any field where emotional nuance and precision matter. For the broader framework behind career structure, the <a href="/en/saju/career-star" style="text-decoration: underline; color: #f9d976;">Career Star guide</a> is useful support.</p>
+  <p>Gye Water does best when sensitivity becomes output. Feeling alone is not enough. The gift becomes valuable when it is translated into communication, curation, design, healing, or careful execution.</p>
+  <div class="cta-container" style="text-align: center; margin: 40px 0;">
+    <a href="/en/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">Check Your Emotional Pattern and Career Fit Free</a>
+  </div>
+  <h2 id="gye-water-love">4. Gye Water in Love and Relationships</h2>
+  <p><strong>Gye Water love</strong> responds strongly to emotional atmosphere. Tone, timing, softness, and sincerity often matter more than dramatic declarations. This can make Gye Water deeply romantic, but also deeply vulnerable to subtle hurt.</p>
+  <p>The repeating relationship problem is often silence. Gye Water may hold disappointment quietly and only withdraw after too much has accumulated. Long-term stability depends on learning to name hurt earlier instead of carrying it alone.</p>
+  <h2 id="gye-water-2026">5. Gye Water in the 2026 Fire Horse Year</h2>
+  <p><strong>Gye Water 2026 fortune</strong> is sensitive to pressure, emotional exhaustion, and overstimulation. Fire controls Water, and the Fire Horse year can make Gye Water feel more exposed, more evaluated, and more easily drained by people and deadlines.</p>
+  <p>Still, this can also be a year when talent becomes visible, especially in fields that reward subtle quality, emotional intelligence, and refined output. The condition is recovery. Gye Water needs strong boundaries in 2026 or its sensitivity will be consumed instead of converted into strength.</p>
+  <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+    <p><a href="/en/saju/im-water-ilgan" style="text-decoration: underline; color: #f9d976;">[Related] Im Water Day Master guide: broad Water and the contrast with Gye</a></p>
+    <p><a href="/en/saju/too-much-water-in-saju" style="text-decoration: underline; color: #f9d976;">[Related] Too much Water in Saju: when emotion and indecision intensify</a></p>
+  </div>
+  </section>`,
+    faq: [
+      { q: '계수 일간은 왜 감성적이라는 말을 자주 듣나요?', a: '계수는 분위기와 감정의 미세한 변화를 잘 읽는 기질이라, 겉으로는 조용해도 내면 반응은 깊은 경우가 많습니다. 그래서 감성적이고 섬세하다는 평가를 자주 받습니다.' },
+      { q: '계수 직업은 예술 쪽만 잘 맞나요?', a: '예술·창작과 잘 맞을 수 있지만, 상담, 기획, 편집, 브랜딩, 교육처럼 감수성과 정교함이 함께 필요한 분야 전반과도 잘 맞습니다.' },
+      { q: '계수 2026 운세에서 가장 조심할 점은 무엇인가요?', a: '병오년에는 감정 소모와 체력 소모가 함께 커질 수 있습니다. 관계 피로를 방치하지 말고, 회복 시간과 경계 설정을 의도적으로 확보하는 것이 중요합니다.' },
+    ],
+    faqEn: [
+      { q: 'Why is the Gye Water Day Master often described as emotional or sensitive?', a: 'Because Gye Water reads subtle emotional changes very quickly. Even when expression is quiet, the internal response is often deep and detailed.' },
+      { q: 'Does Gye Water only fit artistic careers?', a: 'No. It also fits counseling, planning, editing, branding, education, and any field where sensitivity and precision improve the result.' },
+      { q: 'What should Gye Water watch out for most in 2026?', a: 'Emotional fatigue and overstimulation. The Fire Horse year can increase both pressure and sensitivity, so recovery time and clearer boundaries become essential.' },
+    ],
+    relatedPosts: [
+      { slug: 'im-water-ilgan', category: 'saju', title: '임수 일간 완전 분석: 자유로운 성격·직업운·2026 운세' },
+      { slug: 'too-much-water-in-saju', category: 'saju', title: '사주에서 수(水)가 많으면: 감수성·우유부단·직업·건강 해석' },
     ],
   },
 ], '2026-01-05', 3, '2026-02-10', 1);

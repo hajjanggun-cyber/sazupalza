@@ -234,7 +234,7 @@
 - 하위 키워드 EN: jeong day stem sensitivity, yin fire day master career, jeong fire korean astrology
 - 작성 지침: 정화 = 촛불. 섬세하고 직관적인 성격. 직업·연애·2026 운세.
 
-[V] 24. 무토(戊土) 일간: 가장 믿음직한 사주의 진짜 약점과 2026 운세
+[완료] 24. 무토(戊土) 일간: 가장 믿음직한 사주의 진짜 약점과 2026 운세
 - slug: `mu-earth-ilgan`
 - 카테고리: `saju`
 - 메인 키워드 KO: 무토 일간, 무토 사주 성격
@@ -243,7 +243,7 @@
 - 하위 키워드 EN: yang earth day master traits, musin saju career, mu earth korean astrology
 - 작성 지침: 무토 = 큰 산. 안정적·보수적 성격. 직업·연애·2026 운세.
 
-[V] 25. 기토(己土) 일간: 꼼꼼한 현실주의자가 돈을 잘 버는 사주적 이유
+[완료] 25. 기토(己土) 일간: 꼼꼼한 현실주의자가 돈을 잘 버는 사주적 이유
 - slug: `gi-earth-ilgan`
 - 카테고리: `saju`
 - 메인 키워드 KO: 기토 일간, 기토 사주 재물운
@@ -270,7 +270,7 @@
 - 하위 키워드 EN: yin metal day master perfectionism, sinmyo saju career, sin metal korean astrology
 - 작성 지침: 신금 = 보석. 완벽주의·예민한 성격. 직업·연애·2026 운세.
 
-[ ] 28. 임수(壬水) 일간: 자유를 갈망하는 사람이 직장과 연애에서 성공하는 방법
+[완료] 28. 임수(壬水) 일간: 자유를 갈망하는 사람이 직장과 연애에서 성공하는 방법
 - slug: `im-water-ilgan`
 - 카테고리: `saju`
 - 메인 키워드 KO: 임수 일간, 임수 사주 직업
@@ -279,7 +279,7 @@
 - 하위 키워드 EN: yang water day master freedom, imja saju personality, im water korean astrology
 - 작성 지침: 임수 = 강과 바다. 자유롭고 포용적인 성격. 직업·연애·2026 운세.
 
-[ ] 29. 계수(癸水) 일간: 감성 넘치는 사람의 직업과 연애에서 반복되는 패턴
+[완료] 29. 계수(癸水) 일간: 감성 넘치는 사람의 직업과 연애에서 반복되는 패턴
 - slug: `gye-water-ilgan`
 - 카테고리: `saju`
 - 메인 키워드 KO: 계수 일간, 계수 사주 감성
