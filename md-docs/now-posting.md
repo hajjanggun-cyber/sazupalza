@@ -176,7 +176,7 @@
 - 하위 키워드 EN: direct resource saju, indirect resource saju, academic luck four pillars
 - 작성 지침: 정인·편인 개념. 인성 강한 사주(학구적·의존적). 직업·어머니와의 관계 분석.
 
-[ ] 18. 사주 관성이란 — 직업운과 권력의 별 완전 분석
+[완료] 18. 사주 관성이란 — 직업운과 권력의 별 완전 분석
 - slug: `gwansung-saju`
 - 카테고리: `saju`
 - 메인 키워드 KO: 사주 관성, 관성 사주 뜻
@@ -185,7 +185,7 @@
 - 하위 키워드 EN: direct officer saju, seven killings saju, career star four pillars
 - 작성 지침: 정관·편관 개념. 관성 강한 사주(책임감·권위). 직업·남편성 역할 분석.
 
-[ ] 19. 사주 재성이란 — 재물운과 배우자의 별 완전 분석
+[완료] 19. 사주 재성이란 — 재물운과 배우자의 별 완전 분석
 - slug: `jaesung-saju`
 - 카테고리: `saju`
 - 메인 키워드 KO: 사주 재성, 재성 사주 뜻
@@ -198,125 +198,125 @@
 
 ### [사주] 천간 일간 시리즈
 
-[ ] 20. 갑목(甲木) 일간 완전 분석 — 성격·직업·2026 운세
+[완료] 20. 갑목(甲木) 일간: 사주 최강 리더십의 빛과 그림자
 - slug: `gap-wood-ilgan`
 - 카테고리: `saju`
-- 메인 키워드 KO: 갑목 일간, 갑목 사주
-- 메인 키워드 EN: gap wood day master saju, gapja saju personality
-- 하위 키워드 KO: 갑목 성격, 갑목 직업, 갑목 연애, 갑목 2026 운세, 甲木 일간 특징
-- 하위 키워드 EN: wood day master four pillars, gap day stem korean astrology, gapja personality traits
+- 메인 키워드 KO: 갑목 일간, 갑목 사주 성격
+- 메인 키워드 EN: gapja saju leadership, gap wood day master personality
+- 하위 키워드 KO: 갑목 고집, 갑목 직업 추천, 갑목 연애 특징, 갑목 2026 병오년 운세
+- 하위 키워드 EN: gap wood leader personality, gapja career four pillars, gap day stem korean astrology
 - 작성 지침: 10천간 시리즈 1. 갑목 일간 성격(리더십·고집)·직업·연애·2026 운세 포함. 2000자 이상.
 
-[ ] 21. 을목(乙木) 일간 완전 분석 — 성격·직업·2026 운세
+[완료] 21. 을목(乙木) 일간: 부드럽지만 절대 꺾이지 않는 이유
 - slug: `eul-wood-ilgan`
 - 카테고리: `saju`
-- 메인 키워드 KO: 을목 일간, 을목 사주
-- 메인 키워드 EN: eul wood day master saju, eulhae saju personality
-- 하위 키워드 KO: 을목 성격, 을목 직업, 을목 연애, 을목 2026 운세, 乙木 일간 특징
-- 하위 키워드 EN: yin wood day master four pillars, eul day stem korean astrology
+- 메인 키워드 KO: 을목 일간, 을목 사주 성격
+- 메인 키워드 EN: eulhae saju personality, eul wood day master resilience
+- 하위 키워드 KO: 을목 유연함, 을목 인간관계, 을목 직업, 을목 2026 운세
+- 하위 키워드 EN: yin wood day master traits, eul day stem career, eul wood korean astrology
 - 작성 지침: 10천간 시리즈 2. 을목 일간 성격(유연함·끈기)·직업·연애·2026 운세.
 
-[ ] 22. 병화(丙火) 일간 완전 분석 — 성격·직업·2026 운세
+[완료] 22. 병화(丙火) 일간: 2026 병오년이 당신에게 운명의 해인 이유
 - slug: `byung-fire-ilgan`
 - 카테고리: `saju`
-- 메인 키워드 KO: 병화 일간, 병화 사주
-- 메인 키워드 EN: byung fire day master saju, byungja saju personality
-- 하위 키워드 KO: 병화 성격, 병화 직업, 병화 연애, 병화 2026 운세, 丙火 일간 특징
-- 하위 키워드 EN: yang fire day master four pillars, byung day stem korean astrology
+- 메인 키워드 KO: 병화 일간, 병화 2026 운세
+- 메인 키워드 EN: byung fire day master 2026, byungja saju 2026 fortune
+- 하위 키워드 KO: 병화 열정적 성격, 병화 직업, 병화 연애, 병오년 병화 일간 영향
+- 하위 키워드 EN: yang fire day master fortune, byung day stem 2026, byung fire korean astrology
 - 작성 지침: 10천간 시리즈 3. 병화 = 태양. 외향적·열정적 성격 중심. 2026 운세 포함.
 
-[ ] 23. 정화(丁火) 일간 완전 분석 — 성격·직업·2026 운세
+[완료] 23. 정화(丁火) 일간: 촛불처럼 섬세한 사람이 연애에서 상처받는 이유
 - slug: `jeong-fire-ilgan`
 - 카테고리: `saju`
-- 메인 키워드 KO: 정화 일간, 정화 사주
-- 메인 키워드 EN: jeong fire day master saju, yin fire day stem four pillars
-- 하위 키워드 KO: 정화 성격, 정화 직업, 정화 연애, 정화 2026 운세, 丁火 일간 특징
-- 하위 키워드 EN: yin fire day master korean astrology, jeong day stem saju traits
+- 메인 키워드 KO: 정화 일간, 정화 사주 연애
+- 메인 키워드 EN: jeong fire day master love, yin fire day stem personality
+- 하위 키워드 KO: 정화 직관적 성격, 정화 직업 적합, 정화 연애 상처, 정화 2026 운세
+- 하위 키워드 EN: jeong day stem sensitivity, yin fire day master career, jeong fire korean astrology
 - 작성 지침: 정화 = 촛불. 섬세하고 직관적인 성격. 직업·연애·2026 운세.
 
-[ ] 24. 무토(戊土) 일간 완전 분석 — 성격·직업·2026 운세
+[V] 24. 무토(戊土) 일간: 가장 믿음직한 사주의 진짜 약점과 2026 운세
 - slug: `mu-earth-ilgan`
 - 카테고리: `saju`
-- 메인 키워드 KO: 무토 일간, 무토 사주
-- 메인 키워드 EN: mu earth day master saju, yang earth day stem four pillars
-- 하위 키워드 KO: 무토 성격, 무토 직업, 무토 연애, 무토 2026 운세, 戊土 일간 특징
-- 하위 키워드 EN: yang earth day master korean astrology, musin saju personality
+- 메인 키워드 KO: 무토 일간, 무토 사주 성격
+- 메인 키워드 EN: mu earth day master saju, yang earth day stem personality
+- 하위 키워드 KO: 무토 보수적 성격, 무토 직업, 무토 연애, 무토 2026 운세
+- 하위 키워드 EN: yang earth day master traits, musin saju career, mu earth korean astrology
 - 작성 지침: 무토 = 큰 산. 안정적·보수적 성격. 직업·연애·2026 운세.
 
-[ ] 25. 기토(己土) 일간 완전 분석 — 성격·직업·2026 운세
+[V] 25. 기토(己土) 일간: 꼼꼼한 현실주의자가 돈을 잘 버는 사주적 이유
 - slug: `gi-earth-ilgan`
 - 카테고리: `saju`
-- 메인 키워드 KO: 기토 일간, 기토 사주
-- 메인 키워드 EN: gi earth day master saju, yin earth day stem four pillars
-- 하위 키워드 KO: 기토 성격, 기토 직업, 기토 연애, 기토 2026 운세, 己土 일간 특징
-- 하위 키워드 EN: yin earth day master korean astrology, gihae saju personality
+- 메인 키워드 KO: 기토 일간, 기토 사주 재물운
+- 메인 키워드 EN: gi earth day master money, yin earth day stem saju
+- 하위 키워드 KO: 기토 꼼꼼한 성격, 기토 직업 적성, 기토 연애, 기토 2026 운세
+- 하위 키워드 EN: yin earth day master wealth, gihae saju career, gi earth korean astrology
 - 작성 지침: 기토 = 논밭. 현실적·꼼꼼함 성격. 직업·연애·2026 운세.
 
-[ ] 26. 경금(庚金) 일간 완전 분석 — 성격·직업·2026 운세
+[완료] 26. 경금(庚金) 일간: 원칙주의자의 직업 성공과 인간관계의 함정
 - slug: `gyeong-metal-ilgan`
 - 카테고리: `saju`
-- 메인 키워드 KO: 경금 일간, 경금 사주
-- 메인 키워드 EN: gyeong metal day master saju, yang metal day stem four pillars
-- 하위 키워드 KO: 경금 성격, 경금 직업, 경금 연애, 경금 2026 운세, 庚金 일간 특징
-- 하위 키워드 EN: yang metal day master korean astrology, gyeongja saju personality
+- 메인 키워드 KO: 경금 일간, 경금 사주 직업
+- 메인 키워드 EN: gyeong metal day master career, yang metal day stem saju
+- 하위 키워드 KO: 경금 강직 성격, 경금 인간관계, 경금 연애, 경금 2026 운세
+- 하위 키워드 EN: yang metal day master traits, gyeongja saju personality, gyeong metal korean astrology
 - 작성 지침: 경금 = 원석. 강직하고 결단력 있는 성격. 직업·연애·2026 운세.
 
-[ ] 27. 신금(辛金) 일간 완전 분석 — 성격·직업·2026 운세
+[완료] 27. 신금(辛金) 일간: 완벽주의자가 번아웃 없이 성공하는 직업과 연애법
 - slug: `sin-metal-ilgan`
 - 카테고리: `saju`
-- 메인 키워드 KO: 신금 일간, 신금 사주
-- 메인 키워드 EN: sin metal day master saju, yin metal day stem four pillars
-- 하위 키워드 KO: 신금 성격, 신금 직업, 신금 연애, 신금 2026 운세, 辛金 일간 특징
-- 하위 키워드 EN: yin metal day master korean astrology, sinmyo saju personality
+- 메인 키워드 KO: 신금 일간, 신금 사주 성격
+- 메인 키워드 EN: sin metal day master personality, yin metal day stem saju
+- 하위 키워드 KO: 신금 완벽주의, 신금 직업, 신금 연애 예민, 신금 2026 운세
+- 하위 키워드 EN: yin metal day master perfectionism, sinmyo saju career, sin metal korean astrology
 - 작성 지침: 신금 = 보석. 완벽주의·예민한 성격. 직업·연애·2026 운세.
 
-[ ] 28. 임수(壬水) 일간 완전 분석 — 성격·직업·2026 운세
+[ ] 28. 임수(壬水) 일간: 자유를 갈망하는 사람이 직장과 연애에서 성공하는 방법
 - slug: `im-water-ilgan`
 - 카테고리: `saju`
-- 메인 키워드 KO: 임수 일간, 임수 사주
-- 메인 키워드 EN: im water day master saju, yang water day stem four pillars
-- 하위 키워드 KO: 임수 성격, 임수 직업, 임수 연애, 임수 2026 운세, 壬水 일간 특징
-- 하위 키워드 EN: yang water day master korean astrology, imja saju personality
+- 메인 키워드 KO: 임수 일간, 임수 사주 직업
+- 메인 키워드 EN: im water day master career, yang water day stem saju
+- 하위 키워드 KO: 임수 자유로운 성격, 임수 직업 추천, 임수 연애, 임수 2026 운세
+- 하위 키워드 EN: yang water day master freedom, imja saju personality, im water korean astrology
 - 작성 지침: 임수 = 강과 바다. 자유롭고 포용적인 성격. 직업·연애·2026 운세.
 
-[ ] 29. 계수(癸水) 일간 완전 분석 — 성격·직업·2026 운세
+[ ] 29. 계수(癸水) 일간: 감성 넘치는 사람의 직업과 연애에서 반복되는 패턴
 - slug: `gye-water-ilgan`
 - 카테고리: `saju`
-- 메인 키워드 KO: 계수 일간, 계수 사주
-- 메인 키워드 EN: gye water day master saju, yin water day stem four pillars
-- 하위 키워드 KO: 계수 성격, 계수 직업, 계수 연애, 계수 2026 운세, 癸水 일간 특징
-- 하위 키워드 EN: yin water day master korean astrology, gyehae saju personality
+- 메인 키워드 KO: 계수 일간, 계수 사주 감성
+- 메인 키워드 EN: gye water day master sensitivity, yin water day stem saju
+- 하위 키워드 KO: 계수 감성적 성격, 계수 직업 예술, 계수 연애, 계수 2026 운세
+- 하위 키워드 EN: yin water day master artist, gyehae saju career, gye water korean astrology
 - 작성 지침: 계수 = 이슬·샘물. 감성적·예술적 성격. 직업·연애·2026 운세.
 
 ---
 
 ### [사주] 일주 특화 시리즈
 
-[ ] 30. 갑자일주(甲子) 완전 분석 — 특징·연애·2026 운세
+[ ] 30. 갑자일주(甲子): 재능 많지만 외로운 이유와 2026 병오년 운세
 - slug: `gapja-iljoo`
 - 카테고리: `saju`
-- 메인 키워드 KO: 갑자일주, 갑자일주 특징
-- 메인 키워드 EN: gapja day pillar saju, gapja iljoo personality
-- 하위 키워드 KO: 갑자일주 성격, 갑자일주 연애, 갑자일주 직업, 갑자일주 2026 운세
-- 하위 키워드 EN: gapja four pillars traits, gapja saju 2026 fortune, rat wood day pillar
+- 메인 키워드 KO: 갑자일주, 갑자일주 성격
+- 메인 키워드 EN: gapja day pillar saju, gapja iljoo analysis
+- 하위 키워드 KO: 갑자일주 특징, 갑자일주 연애, 갑자일주 직업, 갑자일주 2026 운세
+- 하위 키워드 EN: gapja four pillars personality, rat wood day pillar korean astrology, gapja saju fortune
 - 작성 지침: 갑자일주 성격·직업·연애·2026 운세 특화 분석. 일주 시리즈 포맷 정립.
 
-[ ] 31. 갑오일주(甲午) 완전 분석 — 특징·연애·2026 운세
+[ ] 31. 갑오일주(甲午): 2026 병오년에 가장 주목해야 할 일주
 - slug: `gapo-iljoo`
 - 카테고리: `saju`
-- 메인 키워드 KO: 갑오일주, 갑오일주 특징
-- 메인 키워드 EN: gapo day pillar saju, gapo iljoo personality
-- 하위 키워드 KO: 갑오일주 성격, 갑오일주 연애, 갑오일주 직업, 갑오일주 2026 운세
-- 하위 키워드 EN: gapo four pillars traits, horse wood day pillar korean astrology
+- 메인 키워드 KO: 갑오일주, 갑오일주 2026
+- 메인 키워드 EN: gapo day pillar saju, gapo iljoo 2026 fortune
+- 하위 키워드 KO: 갑오일주 성격, 갑오일주 연애, 갑오일주 직업, 병오년 갑오일주 영향
+- 하위 키워드 EN: gapo four pillars analysis, horse wood day pillar korean astrology, gapo 2026 byungoh year
 - 작성 지침: 갑오일주 성격·직업·연애·2026 병오년 특별 영향(갑오=병오 관계) 분석.
 
-[ ] 32. 경자일주(庚子) 완전 분석 — 특징·연애·2026 운세
+[ ] 32. 경자일주(庚子): 강한 척하지만 속은 예민한 사람의 사주 분석
 - slug: `gyeongja-iljoo`
 - 카테고리: `saju`
-- 메인 키워드 KO: 경자일주, 경자일주 특징
+- 메인 키워드 KO: 경자일주, 경자일주 성격
 - 메인 키워드 EN: gyeongja day pillar saju, gyeongja iljoo personality
-- 하위 키워드 KO: 경자일주 성격, 경자일주 연애, 경자일주 직업, 경자일주 2026 운세
-- 하위 키워드 EN: gyeongja four pillars traits, rat metal day pillar korean astrology
+- 하위 키워드 KO: 경자일주 특징, 경자일주 연애, 경자일주 직업, 경자일주 2026 운세
+- 하위 키워드 EN: gyeongja four pillars traits, rat metal day pillar korean astrology, gyeongja saju fortune
 - 작성 지침: 경자일주 성격·직업·연애·2026 운세 분석.
 
 ---

@@ -2629,13 +2629,13 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
   },
   {
     slug: 'gap-wood-ilgan',
-    title: 'Gap Wood Day Master in Saju: Personality, Career, Love, and 2026 Fortune',
-    seoTitle: '갑목(甲木) 일간 완전 분석: 성격·직업·연애·2026 운세',
-    seoTitleEn: 'Gap Wood Day Master in Saju: Traits, Career, Love, and 2026 Fortune',
-    description: '갑목 일간이 무엇인지, 갑목 성격과 직업, 갑목 연애 스타일, 갑목 사주 특징, 2026 운세 흐름까지 한 번에 정리합니다.',
-    descriptionEn: 'Learn what Gap Wood day master means in Saju, including Gap Wood personality, career style, love patterns, and how 2026 may influence this upright wood energy.',
-    keywords: ['갑목 일간', '갑목 사주', '갑목 성격', '갑목 직업', '갑목 연애', '갑목 2026 운세', '甲木 일간 특징'],
-    keywordsEn: ['gap wood day master saju', 'gapja saju personality', 'wood day master four pillars', 'gap day stem korean astrology', 'gap wood career', 'gap wood 2026 fortune'],
+    title: 'Gap Wood Day Master Saju: Leadership, Shadow Side, and 2026 Fortune',
+    seoTitle: '갑목 일간: 사주 리더십의 빛과 그림자',
+    seoTitleEn: 'Gap Wood Day Master Saju: Leadership, Shadow Side, and 2026 Fortune',
+    description: '갑목 일간의 리더십 강점과 그 이면의 그림자, 갑목 고집이 생기는 이유, 갑목 직업·연애·2026 병오년 운세까지 실전 중심으로 정리합니다.',
+    descriptionEn: 'See what Gap Wood day master leadership really looks like in Saju — and when its strengths become blind spots. Covers career, love, and 2026 fortune.',
+    keywords: ['갑목 일간', '갑목 사주 성격', '갑목 고집', '갑목 직업 추천', '갑목 연애 특징', '갑목 2026 병오년 운세'],
+    keywordsEn: ['gap wood day master saju', 'gapja saju leadership', 'gap wood personality', 'gap wood career four pillars', 'gap day stem korean astrology', 'gap wood 2026 fortune'],
     publishedAt: '2026-04-09',
     category: 'saju',
     toc: [
@@ -2653,7 +2653,7 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
       { id: 'gap-wood-mistakes', title: '5. The Reading Mistakes Gap Wood Repeats Most' },
     ],
     contentKo: `<section>
-<p><strong>갑목 일간</strong>은 성격 설명보다 직업 이야기에서 먼저 체감되는 경우가 많습니다. 이유는 단순합니다. 갑목 사주는 생각보다 “느낌”보다 “방향”으로 자신을 드러내기 때문입니다. 맡은 일이 생기면 기준을 세우고, 흐트러진 판이 있으면 구조를 잡으려 들고, 본인이 맞다고 판단한 길에서는 쉽게 물러서지 않습니다. 이 글은 그런 갑목 사주를 직업, 성격, 2026 흐름, 연애, 해석 실수 순으로 다시 풀어봅니다.</p>
+<p><strong>갑목 일간</strong>의 리더십은 실제로 존재합니다. 방향을 세우고, 판을 끌고 가고, 흔들리는 상황에서도 기준을 붙드는 힘입니다. 그런데 갑목 사주를 오래 보다 보면 반드시 나오는 이야기가 있습니다. '왜 이렇게 고집이 셀까?' 빛이 있으면 그림자도 있습니다. 갑목 사주의 리더십이 살아나는 조건과, 그게 오히려 부담이 되는 순간을 직업, 성격, 연애, 2026 병오년 흐름으로 나눠 정리합니다.</p>
 
 <h2 id="gap-wood-career">1. 갑목 일간이 직업에서 먼저 드러나는 이유</h2>
 <p><strong>갑목 직업</strong>을 볼 때 핵심은 “무슨 분야가 맞는가”보다 “어떤 역할에서 힘이 살아나는가”입니다. 갑목은 실무자여도 단순 실무형으로 오래 버티기보다, 판을 세우고 책임 범위를 넓혀 가는 위치에서 강해집니다. 그래서 교육, 운영 총괄, 프로젝트 리드, 조직 관리, 사업 기획, 컨설팅처럼 구조를 설계하고 지속적으로 끌고 가야 하는 업무와 잘 맞습니다.</p>
@@ -2691,7 +2691,7 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <p style="margin-top: 22px;"><a href="/ko/saju/wealth-fortune-2026" style="text-decoration: underline; color: #f9d976;">2026 재물운 사주</a>와 함께 보면 갑목이 돈을 벌 때보다 돈의 책임을 떠안는 시기를 더 선명하게 읽을 수 있고, <a href="/ko/saju/day-pillar" style="text-decoration: underline; color: #f9d976;">일주 해설 글</a>로 넘어가면 배우자 자리와 생활 감각까지 연결해서 볼 수 있습니다.</p>
 </section>`,
     contentEn: `<section>
-<p><strong>Gap Wood day master</strong> often shows itself through work before it shows itself through personality labels. Many Gap Wood people are recognized first as the one who sets direction, carries structure, or refuses to let a system collapse. This guide reads Gap Wood through that order: career first, then temperament, then 2026 timing, then love, and finally the mistakes that make this day master easy to misread.</p>
+<p><strong>Gap Wood day master</strong> leadership is real. It shows up as direction-setting, structure-building, and stubborn persistence on a chosen path. But there is a shadow side that almost every Gap Wood person eventually hears about: the same force that makes them reliable can make them inflexible. This guide reads Gap Wood through both sides — where the leadership works, and where it creates friction — covering career, personality, love, and 2026 fortune.</p>
 
 <h2 id="gap-wood-career">1. Why Gap Wood Shows Up in Career First</h2>
 <p><strong>Gap Wood career</strong> patterns are less about industry labels and more about role function. This day master usually grows stronger when it can set direction, stabilize structure, or carry long-term responsibility. That is why leadership, operations, education, project ownership, consulting, system building, and management often fit well.</p>
@@ -2725,12 +2725,12 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <p style="margin-top: 22px;"><a href="/en/saju/wealth-fortune-2026" style="text-decoration: underline; color: #f9d976;">Read the 2026 wealth flow</a> if you want to see how responsibility and money timing overlap, and use the <a href="/en/saju/day-pillar" style="text-decoration: underline; color: #f9d976;">Day Pillar guide</a> to connect this pattern to daily temperament and relationship behavior.</p>
 </section>`,
     faq: [
-      { q: '갑목 일간은 무조건 리더형인가요?', a: '직책형 리더만 뜻하지는 않습니다. 더 정확히는 방향을 세우고 구조를 붙드는 역할에서 힘이 커지는 타입으로 보는 편이 맞습니다.' },
-      { q: '갑목 2026 운세에서 왜 과로 이야기가 많이 나오나요?', a: '병오년 화기가 갑목의 바깥 활동을 키우기 때문입니다. 성과가 나는 흐름과 소모가 커지는 흐름이 같이 들어오므로, 책임을 혼자 몰아안는 패턴을 특히 조심해야 합니다.' },
+      { q: '갑목 일간 리더십이 고집으로 보이는 이유는 뭔가요?', a: '갑목 사주는 방향이 정해지면 쉽게 꺾지 않는 성향이 있습니다. 책임감과 원칙에서 나오는 힘인데, 상대 입장에서는 유연성이 없다고 느끼기 쉽습니다. 빛과 그림자가 같은 곳에서 나옵니다.' },
+      { q: '갑목 2026 병오년 운세에서 왜 과로 이야기가 자주 나오나요?', a: '병오년 화기가 갑목의 활동량과 책임 범위를 동시에 끌어올리기 때문입니다. 리더십이 강한 갑목 일간일수록 혼자 다 떠안으려는 패턴이 과속으로 이어지기 쉽습니다.' },
     ],
     faqEn: [
-      { q: 'Does Gap Wood always mean a leader type?', a: 'Not always in a title sense. More accurately, it means someone who becomes stronger when building direction, structure, and continuity.' },
-      { q: 'Why is overextension such a common warning for Gap Wood in 2026?', a: 'Because the Fire Horse year increases output and visibility. For Gap Wood, that often translates into carrying more, leading more, and burning more energy unless boundaries are set clearly.' },
+      { q: 'Why does Gap Wood day master leadership turn into stubbornness?', a: 'The same trait that builds reliable structure — holding direction no matter what — becomes inflexibility when the situation calls for adjustment. Gap Wood often struggles to distinguish between principled persistence and sunk-cost thinking.' },
+      { q: 'Why is overextension such a common warning for Gap Wood in 2026?', a: 'The Fire Horse year raises both output and responsibility load at once. For a chart already wired toward carrying structure alone, that combination can cause serious burnout unless authority is delegated early.' },
     ],
     relatedPosts: [
       { slug: 'day-pillar', category: 'saju', title: '사주 일주 완전정복: 나의 본질과 배우자 복을 읽는 법' },
@@ -5466,13 +5466,13 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
   },
   {
     slug: 'eul-wood-ilgan',
-    title: 'Eul Wood Day Master: Personality, Career, Love, and 2026 Fortune',
-    seoTitle: '을목 일간 완전 분석: 유연함·끈기·2026 운세까지',
-    seoTitleEn: 'Eul Wood Day Master: Personality, Career, Love, and 2026 Fortune',
-    description: '을목 일간의 유연함과 끈기, 을목 성격과 직업 적성, 연애 스타일, 2026 병오년 운세 흐름까지 실전 중심으로 정리합니다.',
-    descriptionEn: 'Learn what an Eul Wood Day Master means in Saju, including personality, career fit, relationship style, and how the 2026 Fire Horse year affects Yin Wood energy.',
-    keywords: ['을목 일간', '을목 사주', '을목 성격', '을목 직업', '을목 연애', '을목 2026 운세', '乙木 일간 특징'],
-    keywordsEn: ['eul wood day master saju', 'yin wood day master four pillars', 'eul day stem korean astrology', 'eul wood personality', 'eul wood career', 'eul wood 2026 fortune'],
+    title: 'Eul Wood Day Master Saju: Why Yin Wood Never Truly Bends',
+    seoTitle: '을목 일간: 부드럽지만 절대 꺾이지 않는 이유',
+    seoTitleEn: 'Eul Wood Day Master Saju: Why Yin Wood Never Truly Bends',
+    description: '을목 일간이 유연해 보이면서도 절대 쉽게 꺾이지 않는 이유, 을목 사주 성격·직업 적성·연애·2026 운세까지 실전 중심으로 정리합니다.',
+    descriptionEn: 'Find out why Eul Wood day master seems soft but rarely gives up its direction. Covers personality, career, love patterns, and 2026 fortune in Saju.',
+    keywords: ['을목 일간', '을목 사주 성격', '을목 유연함', '을목 인간관계', '을목 직업', '을목 2026 운세'],
+    keywordsEn: ['eul wood day master saju', 'eulhae saju personality', 'eul wood resilience', 'yin wood day master traits', 'eul day stem career korean astrology', 'eul wood 2026 fortune'],
     publishedAt: '2026-04-09',
     category: 'saju',
     toc: [
@@ -5490,7 +5490,7 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
       { id: 'eul-wood-2026', title: '5. Eul Wood in the 2026 Fire Horse Year' },
     ],
     contentKo: `<section>
-<p>을목이 약하다는 말은 대체로 틀립니다. <strong>을목 일간</strong>은 겉으로 강하게 밀어붙이지 않을 뿐, 실제로는 기준 없이 흔들리는 타입과 거리가 멉니다. 오히려 문제는 반대입니다. 너무 부드럽게 보여서 주변이 을목의 기준을 과소평가한다는 점입니다. 이 글은 을목 사주를 “유연하다”는 한 줄로 끝내지 않고, 을목 직업, 비교 포인트, <strong>을목 2026 운세</strong>까지 실제 체감 위주로 다시 정리합니다.</p>
+<p><strong>을목 일간</strong>이 부드럽지만 절대 꺾이지 않는다는 말은 과장이 아닙니다. 겉으로 맞춰 주고 부드럽게 반응하지만, 본인이 정한 방향은 조용히 끝까지 끌고 가는 힘이 있습니다. 문제는 이 힘이 너무 소리 없이 작동해서 주변이 을목 사주의 기준을 과소평가한다는 점입니다. 이 글은 을목이 유연하면서도 꺾이지 않는 이유를 을목 성격, 직업, 연애, <strong>을목 2026 운세</strong>까지 실전 중심으로 풀어봅니다.</p>
 
 <h2 id="eul-wood-misread">1. 을목 일간이 가장 자주 오해받는 지점</h2>
 <p>사람들은 을목을 보고 순하고 눈치 빠른 사람이라고 먼저 판단합니다. 이 해석이 완전히 틀린 것은 아니지만 절반만 맞습니다. 을목은 분위기를 잘 읽고 상대 속도를 빠르게 파악하지만, 그게 곧 기준이 약하다는 뜻은 아닙니다. 오히려 속으로는 꽤 분명한 선을 갖고 있고, 정면 충돌을 피하면서도 원하는 결과를 끝까지 가져가려는 쪽에 가깝습니다.</p>
@@ -5544,7 +5544,7 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <p style="margin-top: 22px;"><a href="/ko/saju/iljoo-fortune-2026" style="text-decoration: underline; color: #f9d976;">2026 일주별 운세</a>로 넘어가면 병오년의 체감 차이를 더 넓게 비교할 수 있고, <a href="/ko/saju/gap-wood-ilgan" style="text-decoration: underline; color: #f9d976;">갑목 일간 글</a>과 같이 보면 같은 목 일간의 표현 차이를 더 선명하게 읽을 수 있습니다.</p>
 </section>`,
     contentEn: `<section>
-<p>One of the biggest mistakes in reading <strong>eul wood day master saju</strong> is confusing softness with weakness. Eul Wood often looks gentle, adaptive, and relational on the surface, so people assume it lacks firm standards. In practice, the opposite is often true. Eul Wood usually has clear internal standards but uses timing, tone, and indirect movement instead of blunt force. This guide reads Eul Wood through that lens.</p>
+<p>The phrase "soft but never bends" describes <strong>eul wood day master saju</strong> more accurately than most single-line summaries. Yin Wood adjusts, accommodates, and reads the room — but it does not abandon its direction. The real issue is that this movement is so quiet that people around Eul Wood consistently underestimate where its limits actually are. This guide explains why Eul Wood holds its ground so persistently, and what that means for career, personality, love, and 2026 fortune.</p>
 
 <h2 id="eul-wood-misread">1. The Most Common Misreading of Eul Wood</h2>
 <p>Eul Wood is frequently described as sensitive, tactful, and flexible. That part is true, but incomplete. The real question is why this chart reads people so carefully. Is it because it has no direction, or because it is searching for the best path with the least waste? In many charts, Eul Wood adjusts not out of weakness, but out of strategy.</p>
@@ -5596,12 +5596,12 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <p style="margin-top: 22px;"><a href="/en/saju/iljoo-fortune-2026" style="text-decoration: underline; color: #f9d976;">Read the broader 2026 Day Pillar flow</a> and compare it with the <a href="/en/saju/gap-wood-ilgan" style="text-decoration: underline; color: #f9d976;">Gap Wood guide</a> if you want to see how two Wood day masters separate in real behavior.</p>
 </section>`,
     faq: [
-      { q: '을목은 왜 자꾸 순한 사람으로만 해석되나요?', a: '겉으로 드러나는 방식이 부드럽기 때문입니다. 하지만 실제로는 분위기를 읽으며 더 효율적인 경로를 찾는 경우가 많아, 기준이 약해서라기보다 표현 방식이 다른 경우가 많습니다.' },
+      { q: '을목 일간이 부드러운데도 끈질기게 목표를 끝내는 이유가 뭔가요?', a: '을목 사주는 직접 충돌하지 않고 더 효율적인 경로를 찾아 움직입니다. 겉으로는 꺾인 것처럼 보여도 방향 자체는 바꾸지 않는 경우가 많습니다. 꺾이지 않는 게 아니라 우회해서 도착하는 방식입니다.' },
       { q: '을목 직업에서 가장 강하게 드러나는 장점은 무엇인가요?', a: '관계와 흐름을 읽는 능력입니다. 사람 사이의 긴장, 고객의 숨은 요구, 정리 안 된 정보를 연결해서 실무 성과로 만드는 힘이 강한 편입니다.' },
       { q: '을목 2026 운세에서 제일 먼저 조심할 것은 무엇인가요?', a: '계속 맞춰 주기만 하다가 자기 메시지를 늦게 꺼내는 패턴입니다. 병오년에는 적응력 자체보다 표현 타이밍이 더 중요해집니다.' },
     ],
     faqEn: [
-      { q: 'Why is Eul Wood often mistaken for a weak type?', a: 'Because it looks adaptive and soft on the surface. In practice, Eul Wood is often strategic, timing-based, and more internally firm than people assume.' },
+      { q: 'Why does Eul Wood day master seem soft but never truly give up?', a: 'Yin Wood does not fight directly. Instead, it finds a more efficient path and keeps moving toward its goal without announcing it. It often looks like flexibility, but the direction rarely changes.' },
       { q: 'What is the strongest career advantage of Eul Wood?', a: 'It often turns relational reading into practical results. That includes mediation, coordination, client interpretation, and making messy systems easier to use.' },
       { q: 'What matters most for Eul Wood in 2026?', a: 'The Fire Horse year pushes expression. The main task is to stop adapting endlessly and start stating your own direction more clearly.' },
     ],
@@ -5612,68 +5612,99 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
   },
   {
     slug: 'byung-fire-ilgan',
-    title: 'Byung Fire Day Master: Personality, Career, Love, and 2026 Fortune',
-    seoTitle: '병화 일간 완전 분석: 태양·카리스마·2026 운세까지',
-    seoTitleEn: 'Byung Fire Day Master: Personality, Career, Love, and 2026 Fortune',
-    description: '병화 일간의 태양형 에너지, 병화 성격과 직업 적성, 연애 스타일, 2026 병오년 운세 흐름까지 한 글로 정리합니다.',
-    descriptionEn: 'Understand the Byung Fire Day Master in Saju through personality, career, romance style, and how the 2026 Fire Horse year amplifies Yang Fire energy.',
-    keywords: ['병화 일간', '병화 사주', '병화 성격', '병화 직업', '병화 연애', '병화 2026 운세', '丙火 일간 특징'],
-    keywordsEn: ['byung fire day master saju', 'yang fire day master four pillars', 'byung day stem korean astrology', 'byung fire personality', 'byung fire career', 'byung fire 2026 fortune'],
+    title: 'Byung Fire Day Master Saju: Why 2026 Is a Defining Year for Yang Fire',
+    seoTitle: '병화 일간: 2026 병오년이 운명의 해인 이유',
+    seoTitleEn: 'Byung Fire Day Master Saju: Why 2026 Is a Defining Year for Yang Fire',
+    description: '병화 일간에게 2026 병오년이 특별한 이유, 병화 열정적 성격·직업·연애·병오년 병화 일간 영향까지 실전 중심으로 정리합니다.',
+    descriptionEn: 'Find out why 2026 is a defining year for the Byung Fire day master in Saju. Covers Yang Fire personality, career, love, and how the Fire Horse year shapes this chart.',
+    keywords: ['병화 일간', '병화 2026 운세', '병화 열정적 성격', '병화 직업', '병화 연애', '병오년 병화 일간 영향'],
+    keywordsEn: ['byung fire day master 2026', 'byungja saju 2026 fortune', 'yang fire day master fortune', 'byung day stem 2026', 'byung fire personality', 'byung fire korean astrology'],
     publishedAt: '2026-04-09',
     category: 'saju',
     toc: [
-      { id: 'byung-fire-basics', title: '1. 병화 일간이란? 태양 같은 양화의 기본 에너지' },
-      { id: 'byung-fire-personality', title: '2. 병화 성격 특징: 외향성·카리스마·직선성' },
-      { id: 'byung-fire-career', title: '3. 병화 직업 적성: 무대·영향력·리더십' },
-      { id: 'byung-fire-love', title: '4. 병화 연애·결혼 스타일' },
-      { id: 'byung-fire-2026', title: '5. 병화 2026 운세: 병오년에서 극대화되는 화의 압력' },
+      { id: 'byung-fire-basics', title: '1. 병화 일간이란? 태양 에너지의 실체와 핵심 오해' },
+      { id: 'byung-fire-personality', title: '2. 병화 성격의 빛과 그림자: 자신감이 과열이 되는 순간' },
+      { id: 'byung-fire-career', title: '3. 병화 직업: 힘이 나는 환경 vs 빨리 소진되는 환경' },
+      { id: 'byung-fire-2026', title: '4. 병화 2026 운세: 병오년이라는 이름 자체가 변수' },
+      { id: 'byung-fire-love', title: '5. 병화 연애: 열기가 자산이 되기 위한 조건' },
     ],
     tocEn: [
-      { id: 'byung-fire-basics', title: '1. What a Byung Fire Day Master Means' },
-      { id: 'byung-fire-personality', title: '2. Personality of Yang Fire Energy' },
-      { id: 'byung-fire-career', title: '3. Career Fit for the Byung Fire Day Master' },
-      { id: 'byung-fire-love', title: '4. Love and Marriage Style of Byung Fire' },
-      { id: 'byung-fire-2026', title: '5. Byung Fire in the 2026 Fire Horse Year' },
+      { id: 'byung-fire-basics', title: '1. What Byung Fire Day Master Really Means' },
+      { id: 'byung-fire-personality', title: '2. Byung Fire Personality: When Confidence Becomes Overheating' },
+      { id: 'byung-fire-career', title: '3. Byung Fire Career: Environments That Work vs Environments That Drain' },
+      { id: 'byung-fire-2026', title: '4. Byung Fire 2026: Why the Fire Horse Year Is Different for Yang Fire' },
+      { id: 'byung-fire-love', title: '5. Byung Fire in Love: Making Heat Work in Relationships' },
     ],
     contentKo: `<section>
-<p><strong>병화 일간</strong>은 왜 존재감이 강하고 분위기를 밝히면서도 때로는 과열되기 쉬운가를 설명할 때 가장 먼저 보는 키워드입니다. 병화 사주는 흔히 <strong>태양</strong>에 비유합니다. 스스로 빛을 내고 주변을 비추며, 무대와 주목을 피하기보다 자연스럽게 끌어당기는 기운이기 때문입니다. 이 글에서는 병화 성격, 병화 직업, 병화 연애, 그리고 <strong>병화 2026 운세</strong>가 왜 병오년에서 더 강하게 증폭되는지 정리합니다.</p>
-<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
-  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">함께 보면 좋은 글</p>
-  <ul style="margin: 0; padding-left: 16px;">
-    <li style="margin-bottom: 4px;"><a href="/ko/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">일간과 일주를 먼저 이해하는 사주 기본</a></li>
-    <li style="margin-bottom: 4px;"><a href="/ko/saju/love-fortune-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">2026 연애운 사주: 병오년에서 관계가 어떻게 뜨거워지는가</a></li>
+<p><strong>병화 일간</strong>에게 2026 병오년은 같은 이름을 가진 해입니다. 연도 천간이 병(丙)이고 지지가 오(午), 둘 다 화(火) 기운입니다. <strong>병화 2026 운세</strong>가 다른 일간과 달리 특별히 강조되는 이유가 여기 있습니다. 외부 환경 자체가 병화의 기운을 증폭시키는 구조라서, 기회도 커지고 과열 위험도 함께 커집니다. 이 글은 왜 2026 병오년이 병화 일간에게 운명의 해가 될 수 있는지, 그리고 열정적인 병화 성격이 직업·연애에서 그 에너지를 어떻게 다뤄야 하는지 정리합니다.</p>
+<div class=”related-posts-inline” style=”background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;”>
+  <p style=”color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;”>함께 보면 좋은 글</p>
+  <ul style=”margin: 0; padding-left: 16px;”>
+    <li style=”margin-bottom: 4px;”><a href=”/ko/saju/day-pillar” style=”color: #F5D77E; text-decoration: underline; font-size: 13px;”>일간과 일주를 먼저 이해하는 사주 기본</a></li>
+    <li style=”margin-bottom: 4px;”><a href=”/ko/saju/too-much-fire-in-saju” style=”color: #F5D77E; text-decoration: underline; font-size: 13px;”>화(火) 기운이 강할 때 나타나는 과열 패턴 읽기</a></li>
   </ul>
 </div>
-<h2 id="byung-fire-basics">1. 병화 일간이란? 태양 같은 양화의 기본 에너지</h2>
-<p>병화(丙火)는 양화라서 촛불처럼 가까운 곳을 비추는 정화와 달리, <strong>멀리까지 퍼지는 광량과 열기</strong>를 가집니다. 그래서 병화 일간은 존재를 숨기기보다 드러내는 쪽에 가깝고, 개인 감정보다 전체 분위기와 판을 움직이는 힘으로 읽는 경우가 많습니다.</p>
-<p>정화가 섬세한 집중광이라면 병화는 공개적이고 직선적인 태양광에 가깝습니다. 이 차이 때문에 병화 사주는 시원시원하고 자신감 있어 보이지만, 반대로 너무 강하면 타인을 덮어버리거나 스스로 과열되는 패턴도 같이 나타날 수 있습니다.</p>
-<h2 id="byung-fire-personality">2. 병화 성격 특징: 외향성·카리스마·직선성</h2>
-<p><strong>병화 성격</strong>은 기본적으로 밝고 직진적입니다. 생각보다 감추는 재주가 적고, 마음이 움직이면 표정과 말, 에너지에서 바로 티가 나는 편입니다. 그래서 첫인상에서 존재감이 크고, 사람을 모으거나 분위기를 띄우는 힘이 좋습니다.</p>
-<p>장점은 자신감, 표현력, 추진력, 주목도입니다. 반면 단점도 선명합니다. 급해 보일 수 있고, 열정이 과해지면 상대 속도를 무시한 채 밀어붙이거나 감정과 판단이 동시에 뜨거워져 실수를 만들 수 있습니다.</p>
-<ul>
-  <li>강점: 자신감, 표현력, 존재감, 추진력, 카리스마</li>
-  <li>약점: 과열, 성급함, 체면 의식, 감정 노출, 기복</li>
-  <li>정화와 차이: 정화가 섬세한 집중과 직관이라면 병화는 공개적 표현과 확산력에 강함</li>
-</ul>
-<h2 id="byung-fire-career">3. 병화 직업 적성: 무대·영향력·리더십</h2>
-<p><strong>병화 직업</strong>은 사람들의 시선을 모으거나, 에너지를 주도하거나, 메시지를 크게 전달해야 하는 분야와 잘 맞습니다. 영업, 강연, 방송, 콘텐츠 진행, 교육, 홍보, 이벤트, 리더 역할, 브랜드 얼굴, 창업, 조직 내 전면 포지션처럼 “보이는 자리”에서 힘을 쓰는 경우가 많습니다.</p>
-<p>병화는 스포트라이트를 견디는 힘이 있어 책임과 노출이 같이 오는 직무에서 실력이 살아나는 경우가 많습니다. 다만 단순 반복 업무나 지나치게 위계적인 환경에서는 빨리 지치기 쉽습니다.</p>
-<div class="cta-container" style="text-align: center; margin: 40px 0;">
-  <a href="/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">내 사주 리더십과 직업운 무료로 확인하기</a>
+<h2 id=”byung-fire-basics”>1. 병화 일간이란? 태양 에너지의 실체와 핵심 오해</h2>
+<p>병화(丙火)는 십천간에서 양화(陽火)입니다. 같은 화(火) 일간인 정화(丁火)와 자주 비교되는데, 핵심 차이는 이렇습니다. 정화가 촛불처럼 한 지점을 집중해서 비추는 기운이라면, 병화는 태양처럼 <strong>공간 전체를 밝히고 열기를 퍼뜨리는 기운</strong>입니다. 그래서 병화 일간은 존재가 공간을 채우는 힘이 있습니다. 아직 말을 걸기 전인데도 눈에 띄고, 분위기가 달라지고, 자연스럽게 중심이 되는 경우가 많습니다.</p>
+<p>여기서 많이 하는 오해가 있습니다. 병화 = 무조건 외향적, 활달함이라는 공식입니다. 실제로는 조용한 병화도 있습니다. 태양이 구름 뒤에 있어도 태양인 것처럼, 드러내지 않더라도 내면의 열기와 추진력은 남아 있는 경우가 많습니다. 그래서 병화를 파악할 때는 “얼마나 활발한가”보다, <strong>”어디서 에너지가 살아나고, 어디서 과열되는가”</strong>를 보는 것이 더 정확합니다.</p>
+<h2 id=”byung-fire-personality”>2. 병화 성격의 빛과 그림자: 자신감이 과열이 되는 순간</h2>
+<p><strong>병화 성격</strong>의 핵심 강점은 자신감, 표현력, 추진력, 주목도입니다. 생각이 있으면 말로 내고, 마음이 움직이면 에너지에서 티가 나고, 하고 싶은 게 생기면 빨리 시작하려는 힘이 있습니다. 주변에서는 “같이 있으면 힘이 난다”, “이 사람이 있으면 분위기가 달라진다”고 느끼는 경우가 많습니다.</p>
+<p>그런데 이 강점은 동시에 그림자도 가집니다. 자신감은 빠르면 성급함이 되고, 표현력은 조절이 안 되면 상대를 덮어버리고, 추진력은 과열되면 무리한 결정으로 이어집니다. 병화가 가장 주의해야 하는 패턴은 딱 하나입니다. <strong>내 열기가 상대에게도 적당한가 — 이 점검을 빠뜨리는 것.</strong> 병화가 잘 작동할 때는 에너지가 상대에게 가닿아 서로 살아나는 느낌이 됩니다. 과열되면 상대는 뜨겁다고 느끼는데 나만 충만한 상태가 됩니다.</p>
+<div style=”background: rgba(255,255,255,0.04); border-left: 3px solid rgba(249,215,126,0.4); padding: 14px 18px; margin: 20px 0; border-radius: 0 8px 8px 0;”>
+  <p style=”margin: 0 0 8px 0; font-size: 13px; color: #F5D77E; font-weight: bold;”>병화 과열 자가 점검</p>
+  <ul style=”margin: 0; padding-left: 16px; font-size: 13px; line-height: 1.9;”>
+    <li>대화할 때 내가 말하는 비율이 압도적으로 높다</li>
+    <li>일이나 관계에서 속도를 무의식적으로 강요하는 편이다</li>
+    <li>감정이 좋을 때와 나쁠 때의 에너지 차이가 주변에서 느껴질 정도로 크다</li>
+    <li>피곤한데도 멈추지 못하고 더 달리려는 경향이 있다</li>
+  </ul>
 </div>
-<h2 id="byung-fire-love">4. 병화 연애·결혼 스타일</h2>
-<p><strong>병화 연애</strong>는 애매한 신호보다 분명한 표현을 선호합니다. 좋아하면 좋아한다고, 서운하면 서운하다고 말하는 쪽에 가깝기 때문에 연애 초반에는 솔직함과 열정이 큰 장점으로 작용합니다.</p>
-<p>문제는 속도입니다. 감정이 올라오면 관계도 빨리 전진시키고 싶어 하는데, 상대가 아직 준비되지 않았을 때 압박처럼 느껴질 수 있습니다. 결혼에서는 자신을 존중해 주면서도 필요할 때는 열기를 식혀 줄 수 있는 상대와 균형이 좋습니다.</p>
-<h2 id="byung-fire-2026">5. 병화 2026 운세: 병오년에서 극대화되는 화의 압력</h2>
-<p><strong>병화 2026 운세</strong>는 이 시리즈 중에서도 변화 폭이 큰 편입니다. 2026년 자체가 병오년이라 천간의 병화와 지지의 오화가 모두 화기를 강하게 올리기 때문입니다. 병화 일간 입장에서는 “내 기운과 비슷한 불”이 강하게 들어오는 해라서 자신감, 추진력, 노출, 경쟁심, 감정 기복이 동시에 커질 수 있습니다.</p>
-<p>좋게 쓰면 브랜딩, 발표, 승부, 연애 진전, 창업, 이미지 강화에서 큰 힘이 됩니다. 반대로 컨트롤이 안 되면 과로, 인간관계 과열, 판단 과속, 감정 소모로 이어질 수 있습니다. 핵심은 열기를 성과로 바꾸는 관리입니다.</p>
-<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
-  <p><a href="/ko/saju/love-fortune-2026" style="text-decoration: underline; color: #f9d976;">[관련글] 2026 연애운 사주: 병오년 관계 흐름 자세히 보기</a></p>
-  <p><a href="/ko/saju/jeong-fire-ilgan" style="text-decoration: underline; color: #f9d976;">[관련글] 정화 일간 완전 분석: 촛불형 에너지와 섬세한 화기</a></p>
+<h2 id=”byung-fire-career”>3. 병화 직업: 힘이 나는 환경 vs 빨리 소진되는 환경</h2>
+<p><strong>병화 직업</strong>을 고를 때 중요한 것은 직종 이름보다 <strong>환경 조건</strong>입니다. 병화는 사람들 앞에서 에너지를 쓸 수 있는 구조, 결과가 눈에 보이는 구조, 내 영향력이 실제로 연결되는 구조에서 힘이 납니다. 반대로 무한 반복 업무, 성과가 드러나지 않는 환경, 지나치게 위계적이거나 수동적인 역할에서는 빨리 지치는 경향이 있습니다.</p>
+<table style=”width:100%; border-collapse:collapse; margin: 16px 0; font-size: 13px;”>
+  <thead>
+    <tr style=”background: rgba(249,215,126,0.12);”>
+      <th style=”padding: 10px 14px; text-align: left; border-bottom: 1px solid rgba(255,255,255,0.1);”>병화가 살아나는 환경</th>
+      <th style=”padding: 10px 14px; text-align: left; border-bottom: 1px solid rgba(255,255,255,0.1);”>병화가 소진되는 환경</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style=”border-bottom: 1px solid rgba(255,255,255,0.06);”>
+      <td style=”padding: 10px 14px;”>사람 앞에 서는 역할 (강연, 영업, 진행)</td>
+      <td style=”padding: 10px 14px;”>반복 처리, 결과가 보이지 않는 후방 업무</td>
+    </tr>
+    <tr style=”border-bottom: 1px solid rgba(255,255,255,0.06);”>
+      <td style=”padding: 10px 14px;”>성과가 즉각 피드백되는 구조</td>
+      <td style=”padding: 10px 14px;”>인정 없이 실행만 반복하는 구조</td>
+    </tr>
+    <tr style=”border-bottom: 1px solid rgba(255,255,255,0.06);”>
+      <td style=”padding: 10px 14px;”>리더·전면 포지션, 영향력 있는 역할</td>
+      <td style=”padding: 10px 14px;”>자율성 없는 경직된 상하관계 환경</td>
+    </tr>
+    <tr>
+      <td style=”padding: 10px 14px;”>창업, 브랜딩, 콘텐츠, 이벤트 기획</td>
+      <td style=”padding: 10px 14px;”>주도권 없이 지시만 수행하는 역할</td>
+    </tr>
+  </tbody>
+</table>
+<p>병화는 단순히 “보이는 자리”를 원하는 게 아닙니다. <strong>내 에너지가 실제로 가닿아야 살아나는 구조</strong>가 필요합니다. 스타 강사도 맞지만, 소규모 팀의 핵심 운영자나 1:1 컨설팅에서도 영향력이 분명하면 병화는 잘 작동합니다.</p>
+<div class=”cta-container” style=”text-align: center; margin: 40px 0;”>
+  <a href=”/saju-analysis” style=”display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);”>내 사주에서 병화 에너지가 어떻게 작동하는지 확인하기</a>
+</div>
+<h2 id=”byung-fire-2026”>4. 병화 2026 운세: 병오년이라는 이름 자체가 변수</h2>
+<p><strong>병화 2026 운세</strong>는 이 일간 시리즈에서 가장 독특한 경우입니다. 2026년은 병오년(丙午年)입니다. 천간이 병화(丙)이고 지지가 오화(午)입니다. 두 글자 모두 화(火) 기운이라, 병화 일간 입장에서는 <strong>자신의 기운과 비슷한 화(火)가 세운에서 강하게 들어오는 해</strong>입니다.</p>
+<p>이것이 의미하는 것은 양면입니다. 좋은 면에서는 자신감, 추진력, 존재감, 창작력, 인간관계 확장이 모두 강해지는 흐름입니다. 준비된 병화에게 2026년은 전성기의 느낌이 날 수 있습니다. 반면 조절이 안 되면 과열, 체력 소모, 인간관계 과속, 판단 실수가 동시에 커질 수 있습니다.</p>
+<p>실전적으로 주의할 포인트는 두 가지입니다. 첫째, 상반기(특히 3~6월)에 에너지가 강하게 올라오는 흐름에서 과속하지 않는 것. 둘째, 하반기로 갈수록 축적된 피로를 실제 회복 시간으로 상쇄하는 것. 병화는 2026년에 기회가 많지만, 그 기회를 지속 가능하게 활용하는 것이 핵심입니다.</p>
+<h2 id=”byung-fire-love”>5. 병화 연애: 열기가 자산이 되기 위한 조건</h2>
+<p><strong>병화 연애</strong>는 분명하고 솔직합니다. 좋아하면 표현이 나오고, 서운하면 감춰지지 않고, 관계에 열정이 있으면 행동으로 옵니다. 이 솔직함은 관계 초반에 상대에게 매력으로 느껴질 수 있습니다. 감추거나 계산하는 느낌이 없고, 같이 있을 때 에너지가 살아나는 느낌을 주기 때문입니다.</p>
+<p>문제는 <strong>속도</strong>입니다. 병화는 감정이 올라오면 관계도 빨리 전진시키고 싶어 합니다. 상대가 아직 준비가 안 됐을 때 이 속도는 부담이 됩니다. 그리고 상대가 속도를 늦추면 병화는 거절이나 무관심으로 느끼기 쉽습니다. 이 간극에서 실수가 많이 일어납니다. 병화에게 연애에서 가장 중요한 기술은 <strong>”열기를 전달하되, 상대의 속도를 먼저 읽는 것”</strong>입니다. 결혼에서는 자신을 존중해 주면서도 과열됐을 때 자연스럽게 속도를 조절해 줄 수 있는 파트너와 균형이 좋습니다.</p>
+<div style=”margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;”>
+  <p><a href=”/ko/saju/too-much-fire-in-saju” style=”text-decoration: underline; color: #f9d976;”>[관련글] 사주에서 화가 많으면: 과열 패턴과 균형 잡는 법</a></p>
+  <p><a href=”/ko/saju/jeong-fire-ilgan” style=”text-decoration: underline; color: #f9d976;”>[관련글] 정화 일간 완전 분석: 촛불형 음화와 병화의 차이</a></p>
 </div>
 </section>`,
     contentEn: `<section>
-<p>People search <strong>byung fire day master saju</strong> when they want to understand a person who naturally stands out, influences the atmosphere, and often lives through visibility, intensity, and momentum. Byung Fire is <strong>Yang Fire</strong>, usually compared to the sun. It shines broadly, creates heat, and changes the tone of the environment simply by being present. This guide covers Byung Fire personality, career fit, love style, and why the <strong>2026 Fire Horse year</strong> amplifies Yang Fire more than usual.</p>
+<p><strong>Byung Fire day master 2026</strong> deserves specific attention that most year forecasts skip. The Fire Horse year carries Byung (丙) as the heavenly stem and O (午) as the earthly branch — both fire, both directly matching Yang Fire's base element. That alignment does not just add good luck. It amplifies the chart's full range: stronger output, stronger visibility, and stronger overheating risk simultaneously. This guide explains why 2026 is a defining year for this day master, and connects that to Byung Fire personality, career, and love patterns.</p>
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">Read These First for Context</p>
   <ul style="margin: 0; padding-left: 16px;">
@@ -5710,14 +5741,14 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 </div>
 </section>`,
     faq: [
-      { q: '병화 일간은 무조건 외향적인가요?', a: '대체로 표현력과 존재감이 큰 편이지만, 사주 전체 구조에 따라 조용한 병화도 있습니다. 다만 조용하더라도 내면의 열기와 드러나는 힘은 비교적 분명한 편입니다.' },
-      { q: '병화 직업은 꼭 사람들 앞에 서야 하나요?', a: '전면 역할에서 강점이 잘 드러나는 경우가 많지만, 꼭 무대형 직업만 맞는 것은 아닙니다. 중요한 것은 영향력을 드러내고 분위기를 주도할 수 있는 구조인지입니다.' },
-      { q: '병화 2026 운세가 강하다는 것은 좋은 뜻인가요?', a: '기회가 커진다는 뜻이기도 하지만 동시에 과열 위험도 커진다는 뜻입니다. 잘 관리하면 전성기 흐름이 되지만, 무리하면 체력과 관계가 같이 소모될 수 있습니다.' },
+      { q: '병화 일간에게 2026 병오년이 운명의 해라고 불리는 이유가 뭔가요?', a: '2026년의 천간이 병(丙)이고 지지가 오(午)로, 연도 자체가 병화 일간과 같은 화 기운으로 구성됩니다. 병화 2026 운세가 다른 해보다 강하게 드러나는 구조적 이유입니다. 좋게 흐르면 전성기가 되지만, 관리 못 하면 과열과 소진이 됩니다.' },
+      { q: '병화 열정적 성격이 연애에서 실수하는 패턴이 있나요?', a: '감정이 올라오면 관계도 빨리 진전시키려 하는 편입니다. 상대가 아직 준비가 안 됐을 때 이 속도가 부담으로 작용하고, 상대가 천천히 반응하면 거절로 오해하기 쉽습니다.' },
+      { q: '병오년 병화 일간은 어떤 점을 가장 조심해야 하나요?', a: '외부 자극과 기회가 동시에 많아지는 해라서 무리한 확장과 감정 과열이 문제가 됩니다. 확장보다 선택과 집중, 위임이 과열을 막는 핵심입니다.' },
     ],
     faqEn: [
-      { q: 'Is the Byung Fire Day Master always extroverted?', a: 'Not always, but Byung Fire usually has visible presence and expressive force even when the person is not socially loud.' },
-      { q: 'Do Byung Fire careers always require public-facing work?', a: 'Not strictly, but Byung Fire often performs best where influence, visibility, morale, or leadership matter.' },
-      { q: 'Does strong 2026 fortune for Byung Fire automatically mean good luck?', a: 'It means stronger amplification. That can create major opportunity, but it also increases the risk of overwork, emotional overheating, and impulsive mistakes.' },
+      { q: 'Why is 2026 called a defining year for the Byung Fire day master?', a: 'The 2026 year stem is Byung (丙) and the branch is O (午, Fire Horse). Both match Yang Fire, so the external environment directly amplifies this day master\'s core energy. That creates both bigger opportunity and bigger overheating risk than in a neutral year.' },
+      { q: 'What relationship pattern does Byung Fire struggle with most?', a: 'Speed mismatch. Byung Fire tends to move emotionally faster than many partners are ready for, and often reads a slower pace as rejection rather than timing.' },
+      { q: 'What should Byung Fire watch most carefully in 2026?', a: 'Overextension. The Fire Horse year raises both energy and ambition simultaneously. Without deliberate pacing and delegation, the amplification becomes burnout.' },
     ],
     relatedPosts: [
       { slug: 'day-pillar', category: 'saju', title: '사주 일주 완전정복: 나의 본질과 배우자 복을 읽는 법' },
@@ -5726,31 +5757,31 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
   },
   {
     slug: 'jeong-fire-ilgan',
-    title: 'Jeong Fire Day Master: Personality, Career, Love, and 2026 Fortune',
-    seoTitle: '정화 일간 완전 분석: 촛불·섬세함·직관·2026 운세',
-    seoTitleEn: 'Jeong Fire Day Master: Personality, Career, Love, and 2026 Fortune',
-    description: '정화 일간의 촛불형 에너지, 정화 성격과 직업 적성, 연애 스타일, 2026 병오년 운세 흐름까지 섬세하게 정리합니다.',
-    descriptionEn: 'Learn how the Jeong Fire Day Master works in Saju through personality, career fit, romance style, and the 2026 Fire Horse year influence on Yin Fire.',
-    keywords: ['정화 일간', '정화 사주', '정화 성격', '정화 직업', '정화 연애', '정화 2026 운세', '丁火 일간 특징'],
-    keywordsEn: ['jeong fire day master saju', 'yin fire day master korean astrology', 'jeong day stem saju traits', 'jeong fire personality', 'jeong fire career', 'jeong fire 2026 fortune'],
+    title: 'Jeong Fire Day Master Saju: Why Sensitive People Get Hurt in Love',
+    seoTitle: '정화 일간: 촛불처럼 섬세한 사람이 연애에서 상처받는 이유',
+    seoTitleEn: 'Jeong Fire Day Master Saju: Why Sensitive People Get Hurt in Love',
+    description: '정화 일간이 연애에서 자주 상처받는 이유, 정화 사주 연애 패턴·직관적 성격·직업 적합·2026 운세까지 실전 중심으로 정리합니다.',
+    descriptionEn: 'Find out why the Jeong Fire day master gets hurt in love so easily. Covers Yin Fire personality, sensitivity patterns, career fit, and 2026 fortune in Saju.',
+    keywords: ['정화 일간', '정화 사주 연애', '정화 연애 상처', '정화 성격 직관', '정화 직업 적합', '정화 2026 운세'],
+    keywordsEn: ['jeong fire day master love', 'yin fire day stem personality', 'jeong day stem sensitivity', 'jeong fire day master career', 'jeong fire korean astrology', 'jeong fire 2026 fortune'],
     publishedAt: '2026-04-09',
     category: 'saju',
     toc: [
       { id: 'jeong-fire-basics', title: '1. 정화 일간이란? 촛불 같은 음화의 기본 에너지' },
       { id: 'jeong-fire-personality', title: '2. 정화 성격 특징: 섬세함·직관·집중력' },
       { id: 'jeong-fire-career', title: '3. 정화 직업 적성: 정밀함과 감각이 필요한 일' },
-      { id: 'jeong-fire-love', title: '4. 정화 연애·결혼 스타일' },
+      { id: 'jeong-fire-love', title: '4. 정화 연애에서 상처받는 이유와 잘 맞는 관계' },
       { id: 'jeong-fire-2026', title: '5. 정화 2026 운세: 촛불이 큰 화기 속에서 흔들리지 않으려면' },
     ],
     tocEn: [
       { id: 'jeong-fire-basics', title: '1. What a Jeong Fire Day Master Means' },
       { id: 'jeong-fire-personality', title: '2. Personality of Yin Fire Energy' },
       { id: 'jeong-fire-career', title: '3. Career Fit for the Jeong Fire Day Master' },
-      { id: 'jeong-fire-love', title: '4. Love and Marriage Style of Jeong Fire' },
+      { id: 'jeong-fire-love', title: '4. Why Jeong Fire Gets Hurt in Love and What Helps' },
       { id: 'jeong-fire-2026', title: '5. Jeong Fire in the 2026 Fire Horse Year' },
     ],
     contentKo: `<section>
-<p><strong>정화 일간</strong>은 왜 겉으로는 조용해 보여도 내면의 열기와 집중력이 강한가, 왜 섬세하고 예민한데도 중요한 순간에 놀라운 직관을 보이는가를 설명할 때 자주 찾는 키워드입니다. 정화 사주는 병화처럼 태양으로 확산되기보다 <strong>촛불, 등불, 정교한 열원</strong>으로 읽습니다. 이 글에서는 정화 성격, 정화 직업, 정화 연애, 그리고 <strong>정화 2026 운세</strong>가 병오년의 큰 불기운 속에서 어떻게 달라지는지 정리합니다.</p>
+<p><strong>정화 일간</strong>이 연애에서 자주 상처받는다는 말은 과장이 아닙니다. 정화 사주 연애는 상대를 세밀하게 읽고, 깊이 몰입하고, 작은 감정 변화에도 민감하게 반응합니다. 이 직관이 관계를 풍부하게 만들지만, 동시에 사소한 무심함 하나에도 상처가 생기게 합니다. 상처의 크기가 상대가 인식하는 것보다 훨씬 큰 경우가 많습니다. 이 글은 <strong>정화 사주 연애</strong>에서 상처가 반복되는 이유를 성격, 직관, 직업, <strong>정화 2026 운세</strong>까지 연결해서 정리합니다.</p>
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">함께 읽으면 좋은 글</p>
   <ul style="margin: 0; padding-left: 16px;">
@@ -5775,9 +5806,9 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
   <a href="/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">내 사주 직관형 적성과 오행 균형 보기</a>
 </div>
-<h2 id="jeong-fire-love">4. 정화 연애·결혼 스타일</h2>
-<p><strong>정화 연애</strong>는 겉으로는 조심스럽지만 내면 온도는 높은 편입니다. 좋아하는 사람이 생겨도 병화처럼 바로 드러내기보다, 관심을 세심한 배려와 분위기 조절로 표현하는 경우가 많습니다.</p>
-<p>관계에서는 말보다 분위기, 태도, 정서적 안전감을 중요하게 봅니다. 그래서 사소한 무심함에도 상처를 받을 수 있고, 반대로 세심하게 이해받으면 오래 깊어집니다.</p>
+<h2 id="jeong-fire-love">4. 정화 연애에서 상처받는 이유와 잘 맞는 관계</h2>
+<p><strong>정화 사주 연애</strong>에서 상처가 반복되는 이유는 감수성의 크기 때문입니다. 정화는 상대의 미묘한 감정 변화를 누구보다 빨리 감지합니다. 이 능력은 관계를 섬세하게 만들지만, 상대가 의도하지 않은 무심함도 그대로 포착합니다. 상처의 원인이 상대 입장에서는 작거나 아예 없는 일인 경우가 많고, 그래서 이야기를 꺼내기도 어렵습니다.</p>
+<p>잘 맞는 파트너는 말보다 태도와 분위기로 소통하는 사람, 감정 기복에 놀라지 않고 일정한 온기를 유지할 수 있는 사람입니다. 반대로 감정 표현 자체가 없거나, 관계에서 속도만 중시하는 스타일과는 정화 연애 상처가 반복되기 쉽습니다.</p>
 <h2 id="jeong-fire-2026">5. 정화 2026 운세: 촛불이 큰 화기 속에서 흔들리지 않으려면</h2>
 <p><strong>정화 2026 운세</strong>는 “내 불을 지키는 기술”이 핵심입니다. 병오년은 큰 화기라서 정화에게는 힘이 되기도 하지만 동시에 주변 열기가 너무 강해져 자신의 리듬을 잃기 쉬운 해이기도 합니다.</p>
 <p>좋게 작동하면 감각, 창작, 관계 표현, 브랜딩, 자기 확신이 올라갑니다. 하지만 외부 자극이 많아지면 예민함, 수면 피로, 감정 소모, 인간관계 과열로 이어질 수 있습니다. 정화에게 2026년은 약한 해가 아니라, 감각을 성과로 바꿀 기회가 많은 해입니다.</p>
@@ -5787,7 +5818,7 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 </div>
 </section>`,
     contentEn: `<section>
-<p>People search <strong>jeong fire day master saju</strong> when they want to understand someone who seems quiet but emotionally intense, sensitive, and unusually precise. Jeong Fire is <strong>Yin Fire</strong>. It is not the sun. It is candlelight, lamp light, and focused heat. Instead of spreading broadly like Byung Fire, it illuminates a smaller area with concentration, nuance, and emotional detail.</p>
+<p><strong>Jeong Fire day master love</strong> follows a pattern that almost every Yin Fire person eventually recognizes: deep emotional reading, intense internal attachment, and a sensitivity to small signs of indifference that most partners do not even realize they are sending. The hurt is real, often invisible to the other person, and harder to talk about because the trigger looks so minor from the outside. This guide focuses on why that happens — and connects the same sensitivity to career strengths, personality patterns, and 2026 fortune.</p>
 <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
   <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">Read These First for Context</p>
   <ul style="margin: 0; padding-left: 16px;">
@@ -5812,9 +5843,9 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 <div class="cta-container" style="text-align: center; margin: 40px 0;">
   <a href="/en/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">Check Your Intuitive Strength and Element Balance Free</a>
 </div>
-<h2 id="jeong-fire-love">4. Love and Marriage Style of Jeong Fire</h2>
-<p><strong>Jeong Fire love</strong> tends to be careful on the outside and intense underneath. These people often show affection through attention, tone, memory, and emotional detail rather than dramatic declarations.</p>
-<p>Because they process emotion deeply, even small signs of indifference can hurt more than others realize. Jeong Fire often thrives in a relationship where warmth is steady, not loud.</p>
+<h2 id="jeong-fire-love">4. Why Jeong Fire Gets Hurt in Love and What Helps</h2>
+<p>The core of <strong>Jeong Fire day master love</strong> sensitivity is calibration mismatch. Yin Fire reads emotional temperature with precision. That same ability that makes it perceptive also means it registers a partner's unintentional coolness as a clear signal. The hurt is usually real, but the trigger looks minor or invisible to the other person.</p>
+<p>That gap — between what Jeong Fire detects and what the partner intended — is where most of the relationship friction lives. What helps is a partner who communicates through consistent warmth, small reliable acts, and tone rather than volume. Dramatic gestures followed by emotional distance tend to be destabilizing rather than reassuring for this chart.</p>
 <h2 id="jeong-fire-2026">5. Jeong Fire in the 2026 Fire Horse Year</h2>
 <p><strong>Jeong Fire 2026 fortune</strong> is about protecting your own flame inside a larger field of fire. The Fire Horse year can support confidence, creativity, attraction, and expression for Jeong Fire, but it can also create overload through overstimulation and emotional fatigue.</p>
 <p>The practical lesson is to manage stimulation carefully: protect sleep, reduce chaotic emotional environments, and choose fewer but deeper commitments. In 2026, Jeong Fire does not need more noise. It needs a stable container so sensitivity becomes power rather than exhaustion.</p>
@@ -5824,18 +5855,298 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
 </div>
 </section>`,
     faq: [
-      { q: '정화 일간은 소심한 편인가요?', a: '항상 그런 것은 아닙니다. 표현 방식이 조용할 뿐, 내면의 기준과 감정 강도는 오히려 분명한 경우가 많습니다. 약해서가 아니라 섬세하게 반응하는 타입에 가깝습니다.' },
-      { q: '정화 직업은 창작 계열만 잘 맞나요?', a: '창작·디자인·상담처럼 감각이 필요한 분야와 잘 맞지만, 품질 관리나 정교한 고객 대응처럼 세밀함이 중요한 실무에서도 강점을 보일 수 있습니다.' },
-      { q: '정화 2026 운세에서 조심할 점은 무엇인가요?', a: '병오년의 큰 화기가 들어오면서 자극과 피로가 늘 수 있다는 점입니다. 감각이 예민한 정화는 특히 수면, 감정 경계, 인간관계 과열을 관리해야 흐름을 안정적으로 탑니다.' },
+      { q: '정화 일간이 연애에서 자주 상처받는 이유가 뭔가요?', a: '정화 사주는 상대의 미묘한 감정 변화를 감지하는 능력이 뛰어납니다. 이 직관이 좋은 신호에는 깊이 반응하지만, 상대가 의도하지 않은 작은 무심함에도 똑같이 반응합니다. 상처의 크기가 상대가 인식하는 것보다 훨씬 클 수 있습니다.' },
+      { q: '정화 사주 연애에서 잘 맞는 파트너 유형이 있나요?', a: '말보다 태도와 분위기로 소통하는 사람, 감정 기복에 놀라지 않고 일정한 온기를 유지할 수 있는 파트너와 잘 맞는 경우가 많습니다. 큰 드라마보다 작고 꾸준한 신호가 정화에게 안정감을 줍니다.' },
+      { q: '정화 2026 운세에서 조심할 점은 무엇인가요?', a: '병오년의 큰 화기가 들어오면서 자극과 피로가 늘 수 있습니다. 감각이 예민한 정화는 특히 수면, 감정 경계, 인간관계 과열을 관리해야 흐름을 안정적으로 탑니다.' },
     ],
     faqEn: [
-      { q: 'Is the Jeong Fire Day Master timid?', a: 'Not necessarily. Jeong Fire may express itself more quietly, but its inner standards and emotional intensity are often very strong.' },
-      { q: 'Do Jeong Fire careers have to be creative?', a: 'Creative work often fits, but Jeong Fire can also excel in any role that rewards precision, atmosphere, emotional intelligence, or refined execution.' },
-      { q: 'What should Jeong Fire watch out for in 2026?', a: 'The Fire Horse year can increase stimulation and fatigue. Jeong Fire benefits most by protecting sleep, emotional boundaries, and focus.' },
+      { q: 'Why does Jeong Fire day master get hurt in love so easily?', a: 'Yin Fire reads emotional nuance with precision. The same sensitivity that creates depth in a relationship also means every small drop in warmth registers as a signal. The hurt is often invisible to the other person, which makes it harder to resolve.' },
+      { q: 'What kind of partner works well for Jeong Fire saju love?', a: 'Someone who communicates through consistency and atmosphere rather than loud declarations. Steady small warmth tends to be far more stabilizing for Jeong Fire than intense gestures followed by emotional distance.' },
+      { q: 'What should Jeong Fire watch out for in 2026?', a: 'The Fire Horse year increases external stimulation. For a sensitivity-driven chart, that often means overstimulation, disrupted sleep, and emotional fatigue. Managing boundaries and quiet recovery time matters more than chasing momentum.' },
     ],
     relatedPosts: [
       { slug: 'too-much-fire-in-saju', category: 'saju', title: '사주에서 화(火)가 많으면: 과열 패턴과 균형 해석' },
       { slug: 'byung-fire-ilgan', category: 'saju', title: '병화 일간 완전 분석: 태양형 에너지와 2026 운세' },
+    ],
+  },
+  {
+    slug: 'mu-earth-ilgan',
+    title: 'Mu Earth Day Master: Personality, Career, Love, and 2026 Fortune',
+    seoTitle: '무토 일간 완전 분석: 큰 산 같은 안정감·보수성·2026 운세',
+    seoTitleEn: 'Mu Earth Day Master: Personality, Career, Love, and 2026 Fortune',
+    description: '무토 일간의 큰 산 같은 안정감, 무토 사주 성격과 직업 적성, 연애 스타일, 2026 병오년 운세 흐름까지 실전적으로 정리합니다.',
+    descriptionEn: 'Learn how the Mu Earth Day Master works in Saju through personality, career fit, relationship style, and the 2026 Fire Horse year influence on Yang Earth.',
+    keywords: ['무토 일간', '무토 사주', '무토 성격', '무토 직업', '무토 연애', '무토 2026 운세', '戊土 일간 특징'],
+    keywordsEn: ['mu earth day master saju', 'yang earth day stem personality', 'mu earth korean astrology', 'mu earth career', 'mu earth love', 'mu earth 2026 fortune'],
+    publishedAt: '2026-04-10',
+    category: 'saju',
+    toc: [
+      { id: 'mu-earth-misread', title: '1. 무토 일간이 믿음직해 보여도 답답하다는 말을 듣는 이유' },
+      { id: 'mu-earth-basics', title: '2. 무토의 기본 에너지: 큰 산 같은 안정감과 보수성' },
+      { id: 'mu-earth-career', title: '3. 무토 직업 적성: 버티는 힘이 성과가 되는 자리' },
+      { id: 'mu-earth-love', title: '4. 무토 연애·결혼 스타일과 진짜 약점' },
+      { id: 'mu-earth-2026', title: '5. 무토 2026 운세: 병오년의 화기가 산을 데우는 방식' },
+    ],
+    tocEn: [
+      { id: 'mu-earth-misread', title: '1. Why Mu Earth Looks Reliable but Can Feel Rigid' },
+      { id: 'mu-earth-basics', title: '2. The Core Energy of Mu Earth' },
+      { id: 'mu-earth-career', title: '3. Career Fit: Where Mu Earth Turns Endurance into Results' },
+      { id: 'mu-earth-love', title: '4. Love and Marriage Style of Mu Earth' },
+      { id: 'mu-earth-2026', title: '5. Mu Earth in the 2026 Fire Horse Year' },
+    ],
+    contentKo: `<section>
+<p><strong>무토 일간</strong>은 왜 처음엔 가장 믿음직하고 든든해 보이는데, 가까워질수록 고집이 세고 속도를 안 바꾸는 사람처럼 느껴질까를 설명할 때 자주 찾는 키워드입니다. 무토 사주는 <strong>큰 산, 넓은 대지, 쉽게 무너지지 않는 축</strong>으로 읽습니다. 그래서 안정감과 책임감이 강하지만, 바로 그 안정성이 상황 변화에 둔해지는 약점으로도 연결됩니다. 이 글에서는 <strong>무토 사주 성격</strong>, 무토 직업, 무토 연애, 그리고 <strong>무토 2026 운세</strong>를 실제 생활 감각에 맞춰 정리합니다.</p>
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">일간 해석 전에 먼저 보는 사주 기본 구조</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/eul-wood-ilgan" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">을목 일간과 비교하면 보이는 무토의 느린 강점</a></li>
+  </ul>
+</div>
+<h2 id="mu-earth-misread">1. 무토 일간이 믿음직해 보여도 답답하다는 말을 듣는 이유</h2>
+<p>무토는 대체로 쉽게 흔들리지 않습니다. 약속을 지키고, 한 번 맡은 역할을 오래 끌고 가며, 급변하는 상황에서도 중심을 잃지 않는 편입니다. 그래서 조직이나 관계에서는 “저 사람은 결국 버틴다”는 신뢰를 받기 쉽습니다.</p>
+<p>문제는 이 장점이 그대로 <strong>속도 저항</strong>으로 보일 수 있다는 점입니다. 무토는 납득되지 않은 변화를 싫어하고, 이미 검증한 방식이 있는데 굳이 위험하게 바꿔야 하느냐고 묻는 타입입니다. 그래서 추진력이 강한 병화나 갑목과 함께 있으면 든든하다는 평가와 답답하다는 평가를 동시에 받기 쉽습니다.</p>
+<h2 id="mu-earth-basics">2. 무토의 기본 에너지: 큰 산 같은 안정감과 보수성</h2>
+<p>무토(戊土)는 양토라서 넓고 두텁게 버티는 힘이 핵심입니다. 작은 감정 변화에 바로 반응하기보다, 시간을 두고 전체 흐름을 본 뒤 움직입니다. 이 때문에 <strong>무토 보수적 성격</strong>이라는 표현이 자주 붙지만, 더 정확히 말하면 “근거 없는 변화를 싫어하는 현실 감각”에 가깝습니다.</p>
+<table style="width:100%; border-collapse: collapse; margin: 18px 0;">
+  <thead>
+    <tr>
+      <th style="text-align:left; border-bottom:1px solid rgba(255,255,255,0.18); padding:8px;">겉으로 보이는 모습</th>
+      <th style="text-align:left; border-bottom:1px solid rgba(255,255,255,0.18); padding:8px;">실제 내부 작동</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding:8px; border-bottom:1px solid rgba(255,255,255,0.08);">묵직하고 말이 적다</td>
+      <td style="padding:8px; border-bottom:1px solid rgba(255,255,255,0.08);">쉽게 말하지 않을 뿐, 판단은 오래 하고 있다</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border-bottom:1px solid rgba(255,255,255,0.08);">보수적이다</td>
+      <td style="padding:8px; border-bottom:1px solid rgba(255,255,255,0.08);">리스크를 계산한 뒤 움직이고 싶어 한다</td>
+    </tr>
+    <tr>
+      <td style="padding:8px;">무던해 보인다</td>
+      <td style="padding:8px;">한계점을 넘기면 예상보다 완고하게 선을 긋는다</td>
+    </tr>
+  </tbody>
+</table>
+<p>갑목이 위로 곧게 뻗는 큰 나무라면, 무토는 그 나무가 뿌리내릴 기반을 만드는 쪽입니다. 그래서 무토는 앞에 서서 분위기를 끌기보다, 판이 무너지지 않게 받쳐 주는 역할에서 강합니다.</p>
+<h2 id="mu-earth-career">3. 무토 직업 적성: 버티는 힘이 성과가 되는 자리</h2>
+<p><strong>무토 직업</strong>은 단기 성과보다 축적, 유지, 관리, 책임이 중요한 분야와 잘 맞습니다. 운영 관리, 부동산, 건설, 물류, 재무 관리, 공공 조직, 프로젝트 총괄, 품질 관리, 제조, 자산 보전처럼 “무너지지 않게 구조를 세우는 일”에서 실력이 드러납니다.</p>
+<p>무토가 좋은 평가를 받는 장면은 대체로 비슷합니다.</p>
+<ul>
+  <li>다른 사람이 포기한 일을 끝까지 붙들고 실제 결과까지 만든다.</li>
+  <li>일정, 예산, 책임 범위를 안정적으로 관리해 조직의 기반을 지킨다.</li>
+  <li>급하게 키우기보다 오래 갈 구조를 먼저 만드는 쪽으로 판단한다.</li>
+</ul>
+<p>반대로 하루에도 우선순위가 계속 바뀌고 기준이 자주 뒤집히는 환경에서는 피로가 큽니다. 무토는 빠른 화제성보다 <strong>지속 가능성</strong>을 보는 타입이기 때문에, 불확실성이 지나치게 큰 조직에서는 실력이 느리게 보일 수 있습니다.</p>
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">내 사주에서 안정형 직업운과 장기 흐름 보기</a>
+</div>
+<h2 id="mu-earth-love">4. 무토 연애·결혼 스타일과 진짜 약점</h2>
+<p><strong>무토 연애</strong>는 화려하지 않아도 꾸준한 쪽입니다. 말보다 행동, 이벤트보다 책임, 감정의 고저보다 관계의 지속성을 중요하게 봅니다. 그래서 연애 초반에는 답답하거나 표현이 적어 보일 수 있지만, 한번 관계를 자기 사람으로 받아들이면 쉽게 흔들리지 않습니다.</p>
+<p>다만 진짜 약점은 무심함이 아니라 <strong>자기 기준을 설명하지 않는 태도</strong>입니다. 무토는 상대도 이 정도는 이해할 거라고 생각하고 넘어가는 경우가 많습니다. 그런데 그 침묵이 반복되면 배려가 아니라 거리감으로 읽힐 수 있습니다. 무토가 관계에서 더 좋아지려면 더 많이 참는 것이 아니라, 판단 근거를 더 빨리 말하는 편이 낫습니다.</p>
+<h2 id="mu-earth-2026">5. 무토 2026 운세: 병오년의 화기가 산을 데우는 방식</h2>
+<p><strong>무토 2026 운세</strong>는 정체된 것을 덥혀 움직이게 만드는 흐름으로 볼 수 있습니다. 병오년의 화(火)는 무토에게 추진력, 노출, 실행 동력을 붙여 줍니다. 평소에는 검토만 오래 하던 사람이 2026년에는 결정을 앞당기고, 오래 끌던 일에 속도를 내야 할 장면이 늘기 쉽습니다.</p>
+<p>좋게 작동하면 직장 내 책임 확대, 자산 정리, 부동산·관리 업무, 장기 프로젝트 본격화처럼 무토의 강점이 결과로 이어집니다. 하지만 열이 과하면 완고함이 고집으로 바뀌고, “내 방식이 맞다”는 확신이 주변 속도와 충돌할 수 있습니다. 2026년 무토에게 필요한 것은 더 강하게 버티는 힘보다, <strong>움직일 시점에는 움직이는 유연성</strong>입니다.</p>
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/ko/saju/gi-earth-ilgan" style="text-decoration: underline; color: #f9d976;">[관련글] 기토 일간 완전 분석: 논밭형 현실 감각과 재물운 비교</a></p>
+  <p><a href="/ko/saju/career-star" style="text-decoration: underline; color: #f9d976;">[관련글] 관성으로 보는 직업운: 안정형 사주가 조직에서 강한 이유</a></p>
+</div>
+</section>`,
+    contentEn: `<section>
+<p>People search <strong>mu earth day master saju</strong> when they want to understand someone who feels stable, dependable, and hard to shake, yet sometimes frustratingly slow to change. Mu Earth is <strong>Yang Earth</strong>. It is the mountain, the broad ground, and the structural base that does not collapse easily. That is why Mu Earth often carries trust and responsibility, but also the risk of rigidity when circumstances shift too fast.</p>
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">Read These First for Context</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">How the Day Master works in Saju</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/saju/eul-wood-ilgan" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Compare Mu Earth with the more adaptive Eul Wood pattern</a></li>
+  </ul>
+</div>
+<h2 id="mu-earth-misread">1. Why Mu Earth Looks Reliable but Can Feel Rigid</h2>
+<p>Mu Earth usually earns trust because it does not break form easily. It carries responsibility, protects continuity, and often stays in place when others lose patience. In teams and relationships, this creates the sense that Mu Earth is dependable under pressure.</p>
+<p>The problem is that the same strength can feel like resistance. Mu Earth does not like changing direction without a reason it fully respects. That is why faster day masters may describe Mu Earth as solid and slow at the same time. The deeper pattern is not laziness. It is a strong preference for proven structure.</p>
+<h2 id="mu-earth-basics">2. The Core Energy of Mu Earth</h2>
+<p>Mu Earth is Yang Earth. It acts like a mountain: broad, stable, weight-bearing, and difficult to move quickly. This is why <strong>Mu Earth personality</strong> often looks conservative, but the more accurate reading is risk-aware and structure-oriented rather than merely old-fashioned.</p>
+<table style="width:100%; border-collapse: collapse; margin: 18px 0;">
+  <thead>
+    <tr>
+      <th style="text-align:left; border-bottom:1px solid rgba(255,255,255,0.18); padding:8px;">How it looks</th>
+      <th style="text-align:left; border-bottom:1px solid rgba(255,255,255,0.18); padding:8px;">How it actually works</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding:8px; border-bottom:1px solid rgba(255,255,255,0.08);">Quiet and heavy</td>
+      <td style="padding:8px; border-bottom:1px solid rgba(255,255,255,0.08);">Thinking for a long time before speaking</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border-bottom:1px solid rgba(255,255,255,0.08);">Conservative</td>
+      <td style="padding:8px; border-bottom:1px solid rgba(255,255,255,0.08);">Prefers tested structure over unnecessary risk</td>
+    </tr>
+    <tr>
+      <td style="padding:8px;">Calm</td>
+      <td style="padding:8px;">Draws a hard line once the limit is reached</td>
+    </tr>
+  </tbody>
+</table>
+<p>Gap Wood stands upward and visibly. Mu Earth supports downward and structurally. That is why Mu Earth often becomes the base that lets other people move.</p>
+<h2 id="mu-earth-career">3. Career Fit: Where Mu Earth Turns Endurance into Results</h2>
+<p><strong>Mu Earth career</strong> patterns often fit fields where continuity, management, accountability, and durability matter more than short bursts of attention. Operations, construction, logistics, finance control, manufacturing, real estate, public institutions, project oversight, and asset management often suit this chart well.</p>
+<ul>
+  <li>Mu Earth is strong when a team needs someone to finish what others abandon.</li>
+  <li>It handles budgets, schedules, and responsibility boundaries with unusual steadiness.</li>
+  <li>It prefers building a structure that lasts instead of chasing noisy short-term wins.</li>
+</ul>
+<p>This pattern usually struggles more in environments where priorities change every day and no stable standard exists. Mu Earth does not always look fast, but it often outlasts faster types.</p>
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">Check Your Long-Term Career Structure and Stability Free</a>
+</div>
+<h2 id="mu-earth-love">4. Love and Marriage Style of Mu Earth</h2>
+<p><strong>Mu Earth love</strong> tends to be steady rather than dramatic. It values commitment, reliability, and continuity more than emotional display. That can make the early stage feel slow, but once Mu Earth accepts someone as part of its world, it is not easily shaken.</p>
+<p>The real weakness is often not coldness but unspoken standards. Mu Earth may assume that loyalty and action already explain enough. In practice, that silence can create distance. The healthiest adjustment is not becoming louder all the time, but explaining the inner standard sooner.</p>
+<h2 id="mu-earth-2026">5. Mu Earth in the 2026 Fire Horse Year</h2>
+<p><strong>Mu Earth 2026 fortune</strong> is about activation. The Fire Horse year warms and mobilizes Yang Earth, pushing it to move decisions forward instead of holding everything in review. This can help with responsibility expansion, asset organization, property matters, and long-term projects finally gaining visible momentum.</p>
+<p>The risk is that confidence becomes stubbornness. In 2026, Mu Earth benefits not from holding harder, but from learning when movement is smarter than resistance. Fire can energize the mountain, but it should not turn it into a place of unnecessary friction.</p>
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/saju/gi-earth-ilgan" style="text-decoration: underline; color: #f9d976;">[Related] Gi Earth Day Master: the more detailed Yin Earth contrast</a></p>
+  <p><a href="/en/saju/career-star" style="text-decoration: underline; color: #f9d976;">[Related] Career Star in Saju: why stable charts do well in structured systems</a></p>
+</div>
+</section>`,
+    faq: [
+      { q: '무토 일간은 무조건 고집이 센가요?', a: '항상 그런 것은 아닙니다. 무토는 근거 없는 변화를 싫어하는 편이라 느리게 보일 뿐, 충분히 납득하면 오히려 오래 밀고 가는 힘이 강합니다.' },
+      { q: '무토 직업은 공무원이나 관리직만 잘 맞나요?', a: '안정성과 책임이 중요한 자리와 잘 맞는 것은 맞지만, 꼭 공공기관에만 한정되지는 않습니다. 운영 관리, 부동산, 제조, 재무, 프로젝트 총괄처럼 구조를 세우는 역할 전반에서 강점이 있습니다.' },
+      { q: '무토 2026 운세에서 가장 중요한 포인트는 무엇인가요?', a: '병오년의 화기가 무토를 움직이게 만든다는 점입니다. 오래 검토만 하던 일을 실행으로 옮길 기회가 늘지만, 자기 방식만 고집하면 마찰도 커질 수 있습니다.' },
+    ],
+    faqEn: [
+      { q: 'Is the Mu Earth Day Master always stubborn?', a: 'Not always. Mu Earth usually resists change that feels ungrounded, but once it respects the logic, it can commit for a very long time.' },
+      { q: 'Does Mu Earth only fit government or management work?', a: 'No. It often does well anywhere structure, durability, responsibility, and long-term control matter, including operations, finance, property, logistics, and project oversight.' },
+      { q: 'What matters most for Mu Earth in 2026?', a: 'The Fire Horse year activates movement. It can help Mu Earth turn long review into action, but only if confidence does not harden into inflexibility.' },
+    ],
+    relatedPosts: [
+      { slug: 'gi-earth-ilgan', category: 'saju', title: '기토 일간 완전 분석: 꼼꼼한 현실 감각과 재물운' },
+      { slug: 'career-star', category: 'saju', title: '사주 관성이란? 직업운과 조직 적성 해석' },
+    ],
+  },
+  {
+    slug: 'gi-earth-ilgan',
+    title: 'Gi Earth Day Master: Money, Career, Love, and 2026 Fortune',
+    seoTitle: '기토 일간 완전 분석: 논밭형 현실감각·재물운·2026 운세',
+    seoTitleEn: 'Gi Earth Day Master: Money, Career, Love, and 2026 Fortune',
+    description: '기토 일간의 꼼꼼한 현실 감각, 기토 사주 재물운과 직업 적성, 연애 스타일, 2026 병오년 운세 흐름까지 구체적으로 정리합니다.',
+    descriptionEn: 'Learn how the Gi Earth Day Master works in Saju through money sense, career fit, relationship style, and the 2026 Fire Horse year influence on Yin Earth.',
+    keywords: ['기토 일간', '기토 사주', '기토 재물운', '기토 직업', '기토 연애', '기토 2026 운세', '己土 일간 특징'],
+    keywordsEn: ['gi earth day master money', 'yin earth day stem saju', 'gi earth korean astrology', 'gi earth wealth', 'gi earth career', 'gi earth 2026 fortune'],
+    publishedAt: '2026-04-10',
+    category: 'saju',
+    toc: [
+      { id: 'gi-earth-basics', title: '1. 기토 일간이 돈 감각 좋다는 말을 듣는 이유' },
+      { id: 'gi-earth-personality', title: '2. 기토 성격 특징: 논밭형 현실주의와 꼼꼼함' },
+      { id: 'gi-earth-career', title: '3. 기토 직업 적성: 작은 차이를 수익으로 바꾸는 힘' },
+      { id: 'gi-earth-love', title: '4. 기토 연애·결혼 스타일과 생활 감각' },
+      { id: 'gi-earth-2026', title: '5. 기토 2026 운세: 병오년이 재물 감각을 키우는 방식' },
+    ],
+    tocEn: [
+      { id: 'gi-earth-basics', title: '1. Why Gi Earth Is Often Linked to Money Sense' },
+      { id: 'gi-earth-personality', title: '2. Personality of Gi Earth: Practical and Detail-Oriented' },
+      { id: 'gi-earth-career', title: '3. Career Fit: Turning Small Differences into Value' },
+      { id: 'gi-earth-love', title: '4. Love and Marriage Style of Gi Earth' },
+      { id: 'gi-earth-2026', title: '5. Gi Earth in the 2026 Fire Horse Year' },
+    ],
+    contentKo: `<section>
+<p><strong>기토 일간</strong>은 왜 겉으로는 조용하고 꼼꼼한데 실제로는 돈 흐름과 생활 감각이 좋은 사람으로 읽히는가를 설명할 때 자주 찾는 키워드입니다. 기토 사주는 <strong>논밭, 흙을 고르고 가꾸는 손, 작은 차이를 축적하는 힘</strong>으로 해석합니다. 그래서 대범하게 한 번에 크게 움직이기보다, 손해를 줄이고 이익을 남기는 방식에 강합니다. 이 글에서는 <strong>기토 사주 재물운</strong>, 기토 직업 적성, 기토 연애, 그리고 <strong>기토 2026 운세</strong>를 중심으로 정리합니다.</p>
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/wealth-luck" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">재성으로 보는 돈 운의 구조 먼저 보기</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/mu-earth-ilgan" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">무토와 비교하면 더 잘 보이는 기토의 세밀함</a></li>
+  </ul>
+</div>
+<h2 id="gi-earth-basics">1. 기토 일간이 돈 감각 좋다는 말을 듣는 이유</h2>
+<p>기토는 무토처럼 크게 버티는 흙이 아니라, 손으로 만지고 가꾸며 쓸모 있게 만드는 흙에 가깝습니다. 그래서 “얼마를 크게 벌까”보다 “어떻게 손실을 줄이고 남길까” 쪽으로 사고가 움직입니다. 이런 이유로 <strong>기토 사주 재물운</strong>은 한 번의 큰 승부보다 꾸준한 관리 능력과 연결되는 경우가 많습니다.</p>
+<p>기토가 돈에 밝아 보이는 이유는 욕심이 커서라기보다, 작은 차이를 생활 단위에서 계속 계산하기 때문입니다. 가격, 효율, 관계 비용, 시간 낭비 같은 요소를 잘 읽고, 불필요한 새는 구멍을 막는 능력이 강합니다.</p>
+<h2 id="gi-earth-personality">2. 기토 성격 특징: 논밭형 현실주의와 꼼꼼함</h2>
+<p>기토(己土)는 음토라서 세밀하고 관리형으로 작동합니다. 무토가 큰 구조를 떠받친다면, 기토는 그 구조 안에서 실제 생산성과 수익이 나도록 다듬는 역할에 가깝습니다. 그래서 <strong>기토 꼼꼼한 성격</strong>, 현실주의, 실속형이라는 표현이 자주 붙습니다.</p>
+<ul>
+  <li>강점: 꼼꼼함, 생활 감각, 현실 판단, 관리 능력, 손실 통제</li>
+  <li>약점: 지나친 계산, 걱정 과다, 기준 세분화, 작은 일에 에너지 소모</li>
+  <li>무토와 차이: 무토가 기반을 지키면 기토는 기반을 활용해 실제 수확을 만든다</li>
+</ul>
+<p>기토는 화려한 카리스마보다 “저 사람은 맡겨 두면 깔끔하게 정리한다”는 평을 받는 경우가 많습니다. 그래서 큰 존재감보다 꾸준한 신뢰로 성과를 쌓습니다.</p>
+<h2 id="gi-earth-career">3. 기토 직업 적성: 작은 차이를 수익으로 바꾸는 힘</h2>
+<p><strong>기토 직업 적성</strong>은 회계, 재무, 구매, 유통, 운영, 데이터 정리, 품질 관리, 실무 기획, 상담 운영, 교육 관리, 뷰티·식품·생활 서비스처럼 세부 관리가 수익과 직결되는 분야와 잘 맞습니다. 기토는 큰 비전을 외치는 사람보다, 실제 숫자와 흐름을 붙잡고 굴리는 사람에 가깝습니다.</p>
+<p>특히 아래 장면에서 강점이 분명해집니다.</p>
+<ul>
+  <li>작은 비용 누수를 찾아내고 전체 수익 구조를 개선한다.</li>
+  <li>복잡한 실무를 정리해 반복 가능한 시스템으로 만든다.</li>
+  <li>사람과 돈, 일정이 동시에 얽힌 일을 안정적으로 관리한다.</li>
+</ul>
+<p>반대로 방향만 거창하고 운영 기준이 없는 조직에서는 피로가 큽니다. 기토는 이상론보다 <strong>현실적으로 굴러가는 구조</strong>를 봐야 힘을 냅니다.</p>
+<p style="margin: 22px 0;"><a href="/ko/saju-analysis" style="text-decoration: underline; color: #f9d976;">내 사주에 재물 감각과 실무형 직업운이 강한지 확인하기</a></p>
+<h2 id="gi-earth-love">4. 기토 연애·결혼 스타일과 생활 감각</h2>
+<p><strong>기토 연애</strong>는 감정 표현이 화려하기보다 생활형 배려로 드러나는 편입니다. 상대의 일정, 식사, 돈 씀씀이, 생활 리듬을 챙기며 관계를 안정시키려 합니다. 그래서 연애에서도 “잘 맞는지”를 감정만이 아니라 생활 가능성으로 함께 판단합니다.</p>
+<p>장점은 현실적인 배려입니다. 약점은 지나친 점검과 계산입니다. 상대를 아끼는 마음이 질문, 확인, 체크 습관으로 나오면 통제처럼 보일 수 있습니다. 기토가 관계에서 더 편해지려면, 관리하려는 마음과 믿어 주는 마음의 비율을 조정할 필요가 있습니다.</p>
+<h2 id="gi-earth-2026">5. 기토 2026 운세: 병오년이 재물 감각을 키우는 방식</h2>
+<p><strong>기토 2026 운세</strong>는 손에 잡히는 결과를 만들 기회가 늘어나는 흐름으로 볼 수 있습니다. 병오년의 화기는 기토를 덥혀 생산성과 가시성을 높입니다. 평소 조용히 관리하던 일이 2026년에는 성과, 수익, 평판으로 드러나기 쉽습니다.</p>
+<p>좋게 쓰면 재정 정리, 부업 수익화, 운영 효율 개선, 자격증·실무 역량 강화처럼 현실적인 결실이 생깁니다. 다만 열이 과하면 계산이 지나치게 촘촘해져 기회를 놓치거나, 돈 문제를 인간관계에 너무 직접 연결할 수 있습니다. 2026년 기토에게 중요한 것은 아끼는 것만이 아니라, <strong>잘 굴릴 곳에는 과감히 투자하는 판단</strong>입니다.</p>
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/ko/saju/wealth-luck" style="text-decoration: underline; color: #f9d976;">[관련글] 사주 재물운 해설: 돈이 들어오는 구조와 재성 읽는 법</a></p>
+  <p><a href="/ko/saju/mu-earth-ilgan" style="text-decoration: underline; color: #f9d976;">[관련글] 무토 일간 완전 분석: 큰 산형 안정감과의 차이</a></p>
+</div>
+</section>`,
+    contentEn: `<section>
+<p>People search <strong>gi earth day master money</strong> when they want to understand someone who looks quiet and modest but seems unusually good at managing value, cost, and daily reality. Gi Earth is <strong>Yin Earth</strong>. It is not the mountain. It is cultivated land, useful soil, and the kind of earth that turns care into output. That is why Gi Earth often connects naturally with money sense, practical systems, and careful management.</p>
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">Read These First for Context</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/saju/wealth-luck" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">How wealth structure works in Saju</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/saju/mu-earth-ilgan" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Compare Gi Earth with the broader Mu Earth pattern</a></li>
+  </ul>
+</div>
+<h2 id="gi-earth-basics">1. Why Gi Earth Is Often Linked to Money Sense</h2>
+<p>Gi Earth is not about giant scale first. It is about cultivation, management, and turning small differences into usable value. That is why <strong>Gi Earth wealth</strong> often shows up through cost control, practical judgment, and long-term accumulation rather than dramatic high-risk moves.</p>
+<p>Gi Earth looks financially sharp because it pays attention to leak points. It notices wasted time, weak systems, hidden cost, and the daily habits that either build or drain value.</p>
+<h2 id="gi-earth-personality">2. Personality of Gi Earth: Practical and Detail-Oriented</h2>
+<p><strong>Gi Earth personality</strong> is usually practical, careful, and grounded in what actually works. If Mu Earth protects the larger base, Gi Earth refines the inside of that base so it becomes productive. This is why Gi Earth is often described as detail-oriented, realistic, and quietly efficient.</p>
+<ul>
+  <li>Strengths: precision, daily realism, management skill, efficiency, loss control</li>
+  <li>Weaknesses: over-calculation, worry, narrow standards, spending too much energy on small issues</li>
+  <li>Key contrast: Mu Earth holds the structure, while Gi Earth improves the yield inside it</li>
+</ul>
+<p>Gi Earth does not always dominate socially, but it often becomes the person others trust to keep things clean, workable, and profitable.</p>
+<h2 id="gi-earth-career">3. Career Fit: Turning Small Differences into Value</h2>
+<p><strong>Gi Earth career</strong> patterns often fit accounting, finance, purchasing, operations, quality control, planning, customer systems, food and beauty services, education management, and any field where detailed management directly affects margin and stability.</p>
+<ul>
+  <li>Gi Earth is strong at finding small leaks and improving the whole profit structure.</li>
+  <li>It can turn messy practical work into a repeatable system.</li>
+  <li>It handles people, money, and scheduling together better than many louder personality types.</li>
+</ul>
+<p>This chart often struggles more in organizations full of slogans but weak on process. Gi Earth needs a structure that can actually run.</p>
+<p style="margin: 22px 0;"><a href="/en/saju-analysis" style="text-decoration: underline; color: #f9d976;">Check whether your chart has strong money sense and practical career flow</a></p>
+<h2 id="gi-earth-love">4. Love and Marriage Style of Gi Earth</h2>
+<p><strong>Gi Earth love</strong> often shows care through daily maintenance rather than dramatic emotion. It pays attention to schedules, food, money habits, and the practical comfort of the relationship. That makes Gi Earth more lifestyle-oriented than fantasy-oriented in romance.</p>
+<p>The strength is practical care. The weakness is over-monitoring. When care turns into too many checks, questions, and measurements, the partner may feel managed rather than supported. Gi Earth grows most when trust balances control.</p>
+<h2 id="gi-earth-2026">5. Gi Earth in the 2026 Fire Horse Year</h2>
+<p><strong>Gi Earth 2026 fortune</strong> is about visible yield. The Fire Horse year warms Yin Earth, making productivity, revenue, recognition, and practical output easier to show. Work that was previously quiet and behind the scenes can start producing measurable results in 2026.</p>
+<p>This is favorable for financial cleanup, side income, efficiency upgrades, credentials, and practical skill-building. The risk is becoming so calculation-heavy that you miss the moment to invest or over-link money stress with relationship tension. In 2026, Gi Earth should protect resources, but also know where smart investment beats endless caution.</p>
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/saju/wealth-luck" style="text-decoration: underline; color: #f9d976;">[Related] How wealth luck is read in Four Pillars</a></p>
+  <p><a href="/en/saju/mu-earth-ilgan" style="text-decoration: underline; color: #f9d976;">[Related] Mu Earth Day Master: the broader Yang Earth contrast</a></p>
+</div>
+</section>`,
+    faq: [
+      { q: '기토 일간은 왜 돈 계산에 밝다는 말을 듣나요?', a: '기토는 큰 승부보다 작은 누수를 막고 실제 수익 구조를 관리하는 데 강한 편입니다. 그래서 과시형 재물운보다 실속형 재물 감각으로 읽히는 경우가 많습니다.' },
+      { q: '기토 직업은 숫자 관련 일만 잘 맞나요?', a: '회계나 재무와 잘 맞을 수 있지만, 운영 관리, 품질 관리, 고객 시스템, 생활 서비스처럼 세부 관리를 통해 가치를 만드는 일 전반과 잘 맞습니다.' },
+      { q: '기토 2026 운세에서 조심할 점은 무엇인가요?', a: '병오년의 화기가 기토의 생산성과 재물 감각을 키울 수 있지만, 계산이 지나치면 기회를 놓칠 수 있습니다. 아끼는 것과 투자할 곳을 구분하는 판단이 중요합니다.' },
+    ],
+    faqEn: [
+      { q: 'Why is the Gi Earth Day Master often linked to money sense?', a: 'Gi Earth tends to notice waste, cost, and efficiency at the daily level. It often builds wealth through management and accumulation rather than dramatic risk.' },
+      { q: 'Does Gi Earth only fit number-based work?', a: 'No. It often fits any work where detailed management improves value, including operations, quality control, customer systems, planning, and service fields.' },
+      { q: 'What should Gi Earth watch in 2026?', a: 'The Fire Horse year can improve visible productivity and revenue, but over-calculation may block good opportunities. Gi Earth benefits by combining caution with timely investment.' },
+    ],
+    relatedPosts: [
+      { slug: 'wealth-luck', category: 'saju', title: '사주 재물운 완전 해설: 재성으로 보는 돈의 흐름' },
+      { slug: 'mu-earth-ilgan', category: 'saju', title: '무토 일간 완전 분석: 큰 산 같은 안정감과 보수성' },
     ],
   },
   {
@@ -6010,6 +6321,294 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
     relatedPosts: [
       { slug: 'zodiac-2026', category: 'saju', title: '띠별 2026년 운세: 병오년 운세 흐름 총정리' },
       { slug: 'eastern-western', category: 'bokhap', title: '동양과 서양 운명학 비교: 이사와 시기 선택의 관점' },
+    ],
+  },
+  {
+    slug: 'gyeong-metal-ilgan',
+    title: 'Gyeong Metal Day Master: Personality, Career, Love, and 2026 Fortune',
+    seoTitle: '경금 일간 완전 분석: 원칙주의 성격·직업운·2026 운세',
+    seoTitleEn: 'Gyeong Metal Day Master: Personality, Career, Love, and 2026 Fortune',
+    description: '경금 일간의 강직한 성격, 직업 적성, 인간관계의 함정, 연애 방식, 2026 병오년 운세 흐름까지 한 글로 정리합니다.',
+    descriptionEn: 'Understand the Gyeong Metal Day Master through discipline, career fit, relationship patterns, love style, and how the 2026 Fire Horse year pressures Yang Metal.',
+    keywords: ['경금 일간', '경금 사주', '경금 성격', '경금 직업', '경금 연애', '경금 2026 운세', '庚金 일간 특징'],
+    keywordsEn: ['gyeong metal day master career', 'yang metal day stem saju', 'gyeong metal personality', 'gyeong metal love', 'gyeong metal 2026 fortune', 'gyeong metal korean astrology'],
+    publishedAt: '2026-04-10',
+    category: 'saju',
+    toc: [
+      { id: 'gyeong-metal-basics', title: '1. 경금 일간이란? 쇠붙이보다 칼날에 가까운 기질' },
+      { id: 'gyeong-metal-personality', title: '2. 경금 성격의 장점과 함정: 강직함이 거리감이 되는 순간' },
+      { id: 'gyeong-metal-career', title: '3. 경금 직업운: 원칙이 성과로 바뀌는 조직과 무너지는 환경' },
+      { id: 'gyeong-metal-relationships', title: '4. 경금 인간관계와 연애: 솔직함이 상처가 되지 않으려면' },
+      { id: 'gyeong-metal-2026', title: '5. 경금 2026 운세: 병오년의 열기가 금을 단련시키는 해' },
+    ],
+    tocEn: [
+      { id: 'gyeong-metal-basics', title: '1. What Gyeong Metal Day Master Really Means' },
+      { id: 'gyeong-metal-personality', title: '2. Gyeong Metal Personality: When Strength Turns into Distance' },
+      { id: 'gyeong-metal-career', title: '3. Gyeong Metal Career: Structures That Reward Principle' },
+      { id: 'gyeong-metal-relationships', title: '4. Gyeong Metal in Relationships and Love' },
+      { id: 'gyeong-metal-2026', title: '5. Gyeong Metal in the 2026 Fire Horse Year' },
+    ],
+    contentKo: `<section>
+  <p>경금(庚金) 일간은 사주에서 흔히 “강하다”, “차갑다”, “원칙적이다”라는 말로 설명되지만, 실제 검색 의도는 더 구체적입니다. <strong>경금 일간이 왜 직업에서는 믿음직한데 인간관계에서는 딱딱하게 보이는지, 왜 일 잘하는 사람인데도 피곤하게 사는지</strong>가 궁금한 경우가 많습니다. 이 글에서는 경금 성격의 핵심, 경금 직업운이 살아나는 구조, 연애와 인간관계에서 자주 생기는 오해, 그리고 2026 병오년이 경금에게 어떤 압박과 기회를 주는지 함께 정리합니다.</p>
+  <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+    <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">함께 보면 좋은 글</p>
+    <ul style="margin: 0; padding-left: 16px;">
+      <li style="margin-bottom: 4px;"><a href="/ko/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">일간과 일주를 먼저 이해하는 사주 기본</a></li>
+      <li style="margin-bottom: 4px;"><a href="/ko/saju/too-much-metal-in-saju" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">금 기운이 너무 강할 때 나타나는 경직 패턴 읽기</a></li>
+    </ul>
+  </div>
+  <h2 id="gyeong-metal-basics">1. 경금 일간이란? 쇠붙이보다 칼날에 가까운 기질</h2>
+  <p>경금은 양금(陽金)입니다. 금이라고 해서 단순히 돈이나 물질만 떠올리기 쉽지만, 경금의 핵심은 재물보다 <strong>절단력, 판단력, 기준, 결단</strong>에 있습니다. 같은 금 일간인 신금이 보석이나 세공된 금속처럼 섬세함과 완성도를 중시한다면, 경금은 다듬기 전의 강한 금속처럼 <strong>정면으로 부딪히고 기준을 세우는 힘</strong>이 강합니다.</p>
+  <p>그래서 경금 일간은 말을 돌려서 하기보다 분명하게 정리하고, 옳고 그름의 기준을 세워 판단하려는 경향이 있습니다. 이 기질이 잘 작동하면 믿을 수 있는 사람, 결정이 빠른 사람, 책임지는 사람으로 보입니다. 반대로 균형이 깨지면 융통성 없는 사람, 너무 냉정한 사람, 내 기준만 강한 사람으로 읽히기 쉽습니다.</p>
+  <h2 id="gyeong-metal-personality">2. 경금 성격의 장점과 함정: 강직함이 거리감이 되는 순간</h2>
+  <p><strong>경금 성격</strong>의 핵심 강점은 책임감, 기준 의식, 위기 대응력, 실행력입니다. 애매한 상황을 오래 끌기보다 빨리 판단하고, 흐트러진 판을 정리하고, 어려운 상황에서 오히려 더 단단해지는 경우가 많습니다. 주변에서는 “이 사람은 결국 해낸다”, “말은 세도 믿을 만하다”고 느끼기 쉽습니다.</p>
+  <p>문제는 경금이 상대의 감정보다 사실과 원칙을 먼저 말할 때 생깁니다. 경금 본인은 솔직하고 효율적인 대화라고 생각하지만, 듣는 사람은 차갑고 공격적이라고 받아들이기도 합니다. 특히 신금이 디테일과 품위를 중시해 표현을 정제한다면, 경금은 <strong>핵심을 바로 잘라 말하는 타입</strong>에 더 가깝습니다. 경금이 인간관계에서 자주 겪는 오해는 “나는 맞는 말을 했는데 왜 관계가 멀어졌지?”입니다.</p>
+  <div style="background: rgba(255,255,255,0.04); border-left: 3px solid rgba(249,215,126,0.4); padding: 14px 18px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <p style="margin: 0 0 8px 0; font-size: 13px; color: #F5D77E; font-weight: bold;">경금이 관계에서 점검할 포인트</p>
+    <ul style="margin: 0; padding-left: 16px; font-size: 13px; line-height: 1.9;">
+      <li>정확한 말과 필요한 말이 항상 같지는 않다</li>
+      <li>상대가 준비되지 않은 순간의 직설은 충고보다 공격으로 들릴 수 있다</li>
+      <li>강한 기준은 장점이지만, 기준 설명이 없으면 통제처럼 보이기 쉽다</li>
+      <li>혼자 버티는 습관이 누적되면 관계 전체가 건조해질 수 있다</li>
+    </ul>
+  </div>
+  <h2 id="gyeong-metal-career">3. 경금 직업운: 원칙이 성과로 바뀌는 조직과 무너지는 환경</h2>
+  <p><strong>경금 직업</strong>은 직무 이름보다 구조가 중요합니다. 기준이 분명하고, 책임 범위가 뚜렷하고, 잘한 만큼 신뢰가 쌓이는 환경에서 경금은 매우 강합니다. 관리, 운영, 품질, 법률, 기술, 보안, 금융 통제, 프로젝트 리드, 현장 판단이 필요한 직무와 궁합이 좋은 편입니다. 관성 구조를 더 넓게 보고 싶다면 <a href="/ko/saju/career-star" style="text-decoration: underline; color: #f9d976;">사주 관성으로 보는 직업운 글</a>을 함께 읽어두면 도움이 됩니다.</p>
+  <table style="width:100%; border-collapse:collapse; margin: 16px 0; font-size: 13px;">
+    <thead>
+      <tr style="background: rgba(249,215,126,0.12);">
+        <th style="padding: 10px 14px; text-align: left; border-bottom: 1px solid rgba(255,255,255,0.1);">경금이 살아나는 환경</th>
+        <th style="padding: 10px 14px; text-align: left; border-bottom: 1px solid rgba(255,255,255,0.1);">경금이 지치는 환경</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.06);">
+        <td style="padding: 10px 14px;">규칙과 책임 범위가 분명한 조직</td>
+        <td style="padding: 10px 14px;">말이 계속 바뀌고 기준이 흔들리는 조직</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.06);">
+        <td style="padding: 10px 14px;">품질 관리, 판단, 리스크 통제 역할</td>
+        <td style="padding: 10px 14px;">정치와 눈치가 성과보다 중요한 구조</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.06);">
+        <td style="padding: 10px 14px;">의사결정 권한이 주어지는 중간 이상 포지션</td>
+        <td style="padding: 10px 14px;">책임만 크고 권한은 없는 역할</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px 14px;">정확성, 신뢰, 속단 능력이 필요한 현장</td>
+        <td style="padding: 10px 14px;">감정 서비스만 요구되고 기준은 없는 업무</td>
+      </tr>
+    </tbody>
+  </table>
+  <p>경금이 직업에서 가장 힘들어하는 것은 무능보다 <strong>불분명함</strong>입니다. 기준이 없고, 책임은 떠넘기고, 상황만 바뀌는 조직에서는 능력이 있어도 피로가 누적됩니다. 반대로 구조가 단단한 곳에서는 경금의 강직함이 리더십과 신뢰로 바뀝니다.</p>
+  <div class="cta-container" style="text-align: center; margin: 40px 0;">
+    <a href="/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">내 사주에서 경금 기질과 직업운 확인하기</a>
+  </div>
+  <h2 id="gyeong-metal-relationships">4. 경금 인간관계와 연애: 솔직함이 상처가 되지 않으려면</h2>
+  <p><strong>경금 연애</strong>는 가볍게 시작하기보다 신뢰가 쌓인 뒤 깊어지는 쪽에 가깝습니다. 감정을 과장해서 표현하기보다 행동, 책임, 약속 이행으로 마음을 보여주는 편이라 처음에는 차갑게 보일 수 있지만, 실제로는 한번 관계를 받아들이면 오래 가는 편입니다.</p>
+  <p>다만 경금의 함정은 감정 조율보다 정답 제시에 익숙하다는 점입니다. 상대가 위로를 원할 때 해결책을 먼저 주고, 공감을 원할 때 기준을 말하면 관계는 금방 건조해집니다. 결혼이나 장기 관계에서는 “맞는 말” 이전에 “지금 필요한 말”을 고르는 연습이 중요합니다. 이 차이를 섬세하게 가져가는 쪽이 신금이라면, 경금은 <strong>강한 진심을 부드럽게 전달하는 훈련</strong>이 더 필요합니다.</p>
+  <h2 id="gyeong-metal-2026">5. 경금 2026 운세: 병오년의 열기가 금을 단련시키는 해</h2>
+  <p><strong>경금 2026 운세</strong>는 편안한 확장보다는 압박 속 성장에 가깝습니다. 2026년 병오년은 화(火)가 강한 해이고, 화는 금에게 관성으로 작동해 책임, 압박, 규율, 평가의 이슈를 키웁니다. 경금에게는 “더 잘해야 한다”, “더 정확해야 한다”, “이번엔 결과로 보여줘야 한다”는 흐름이 강해질 가능성이 큽니다.</p>
+  <p>이것이 나쁘기만 한 것은 아닙니다. 원래 경금은 단련될수록 존재감이 살아나는 기운이라, 준비된 사람에게 2026년은 승진, 직책 변화, 신뢰 상승, 프로젝트 완수 같은 성과로 이어질 수 있습니다. 다만 압박을 혼자 다 짊어지는 방식으로 버티면 피로와 대인 마찰이 함께 커집니다. 병오년의 핵심은 강해지는 것이 아니라 <strong>강한 힘을 조율하는 법을 배우는 것</strong>입니다.</p>
+  <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+    <p><a href="/ko/saju/too-much-metal-in-saju" style="text-decoration: underline; color: #f9d976;">[관련글] 사주에서 금이 많으면: 경직과 예민함을 균형 있게 읽는 법</a></p>
+    <p><a href="/ko/saju/sin-metal-ilgan" style="text-decoration: underline; color: #f9d976;">[관련글] 신금 일간 완전 분석: 섬세한 금 기질과 경금과의 차이</a></p>
+  </div>
+  </section>`,
+    contentEn: `<section>
+  <p>People search <strong>gyeong metal day master career</strong> when they are trying to understand someone who is reliable, decisive, and often respected at work but harder to approach emotionally. Gyeong Metal is <strong>Yang Metal</strong>. It is less like jewelry and more like a blade, tool, or forged structure. This guide explains Gyeong Metal personality, career fit, relationship patterns, love style, and why the <strong>2026 Fire Horse year</strong> brings both pressure and advancement for Yang Metal.</p>
+  <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+    <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">Read These First for Context</p>
+    <ul style="margin: 0; padding-left: 16px;">
+      <li style="margin-bottom: 4px;"><a href="/en/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">How the Day Master works in Saju reading</a></li>
+      <li style="margin-bottom: 4px;"><a href="/en/saju/too-much-metal-in-saju" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">How excessive Metal creates rigidity and sensitivity</a></li>
+    </ul>
+  </div>
+  <h2 id="gyeong-metal-basics">1. What a Gyeong Metal Day Master Means</h2>
+  <p>Gyeong Metal is Yang Metal. Compared with Sin Metal, which behaves more like refined jewelry or precision work, Gyeong Metal is rawer, stronger, and more direct. It cuts, decides, separates, and protects. That is why Gyeong Metal people often feel naturally suited to rules, discipline, structure, and hard judgment.</p>
+  <p>This creates trust, but it can also create distance. Gyeong Metal is often respected before it is loved. People may rely on it in crisis, but not always feel emotionally comfortable around it.</p>
+  <h2 id="gyeong-metal-personality">2. Personality of Yang Metal Energy</h2>
+  <p><strong>Gyeong Metal personality</strong> usually shows up as principle, courage, discipline, and clear standards. These people often hate vague promises, shifting rules, and emotional manipulation. They would rather deal with a hard truth than a soft confusion.</p>
+  <p>The shadow side is obvious. Because Gyeong Metal values correctness, it can overestimate logic and underestimate timing. Compared with Sin Metal, which refines tone and presentation, Gyeong Metal tends to say the core point more bluntly. That strength becomes a weakness when honesty lands as pressure instead of trust.</p>
+  <ul>
+    <li>Strengths: discipline, reliability, judgment, resilience, responsibility</li>
+    <li>Weaknesses: rigidity, emotional distance, harsh wording, overcontrol, difficulty softening</li>
+    <li>Key contrast: Sin Metal refines, while Gyeong Metal cuts and defines</li>
+  </ul>
+  <h2 id="gyeong-metal-career">3. Career Fit for the Gyeong Metal Day Master</h2>
+  <p><strong>Gyeong Metal career</strong> patterns do best where standards matter, responsibilities are clear, and decisions carry visible consequences. Operations, legal work, quality control, technical management, compliance, security, finance, strategy, and leadership under pressure often fit well.</p>
+  <p>If you want the broader theory behind work structure, read the <a href="/en/saju/career-star" style="text-decoration: underline; color: #f9d976;">Career Star guide</a>. In practice, Gyeong Metal works best where discipline becomes value. It struggles where rules keep changing, office politics matter more than output, or accountability is one-sided.</p>
+  <div class="cta-container" style="text-align: center; margin: 40px 0;">
+    <a href="/en/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">Check Your Career Structure and Leadership Pattern Free</a>
+  </div>
+  <h2 id="gyeong-metal-relationships">4. Gyeong Metal in Relationships and Love</h2>
+  <p><strong>Gyeong Metal love</strong> is not usually flashy. It tends to prove feeling through loyalty, responsibility, and consistency. That can make Gyeong Metal a strong long-term partner, but not always an easy one. The common mistake is offering solutions when the other person needs emotional presence first.</p>
+  <p>In relationships, Gyeong Metal needs to learn that precision is not the same as care. When warmth is missing, truth can feel sharp. Long-term success depends on learning how to stay honest without sounding combative.</p>
+  <h2 id="gyeong-metal-2026">5. Gyeong Metal in the 2026 Fire Horse Year</h2>
+  <p><strong>Gyeong Metal 2026 fortune</strong> is shaped by pressure. Fire controls Metal in the five-element cycle, so the Fire Horse year can increase responsibility, evaluation, deadlines, authority issues, and public expectation. This often feels like a year of tests rather than comfort.</p>
+  <p>Still, this is also one of the better years for visible advancement if the foundation is already solid. Gyeong Metal responds well to challenge when the structure is real. Promotions, reputation gains, stronger trust, and higher-level work can emerge in 2026, but only if pressure is managed instead of internalized in silence.</p>
+  <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+    <p><a href="/en/saju/too-much-metal-in-saju" style="text-decoration: underline; color: #f9d976;">[Related] Too much Metal in Saju: rigidity, sensitivity, and balance</a></p>
+    <p><a href="/en/saju/sin-metal-ilgan" style="text-decoration: underline; color: #f9d976;">[Related] Sin Metal Day Master guide: refined Metal and the contrast with Gyeong</a></p>
+  </div>
+  </section>`,
+    faq: [
+      { q: '경금 일간은 무조건 차갑고 무서운가요?', a: '그렇지는 않습니다. 경금은 감정을 숨긴다기보다 기준과 책임을 먼저 드러내는 편이라 차갑게 보이기 쉽습니다. 신뢰가 쌓이면 오히려 오래 가는 타입인 경우가 많습니다.' },
+      { q: '경금 직업은 꼭 관리직이나 딱딱한 분야여야 하나요?', a: '반드시 그렇지는 않지만 기준, 판단, 책임이 중요한 구조일수록 강점이 잘 살아납니다. 직무 이름보다 역할의 구조와 권한 범위가 더 중요합니다.' },
+      { q: '경금 2026 운세는 힘든 해인가요, 좋은 해인가요?', a: '둘 다 가능합니다. 병오년은 경금에게 압박과 평가를 키우는 해이지만, 준비된 사람에게는 승진·신뢰 상승·성과 확대로 이어질 수 있습니다. 핵심은 혼자 버티지 않고 압박을 조율하는 것입니다.' },
+    ],
+    faqEn: [
+      { q: 'Is the Gyeong Metal Day Master always cold or intimidating?', a: 'Not always. Gyeong Metal often leads with standards and responsibility, which can look cold at first, but it is often deeply reliable once trust is built.' },
+      { q: 'Do Gyeong Metal careers have to be rigid or managerial?', a: 'Not necessarily. The key is whether the role rewards judgment, accountability, and structure. The job title matters less than the operating environment.' },
+      { q: 'Is 2026 a difficult year or a good year for Gyeong Metal?', a: 'It is a pressure year, but pressure can become advancement. If the foundation is strong, 2026 can bring promotions, stronger reputation, and bigger responsibility.' },
+    ],
+    relatedPosts: [
+      { slug: 'too-much-metal-in-saju', category: 'saju', title: '사주에서 금(金)이 많으면: 냉정함·예민함·대인관계 패턴 분석' },
+      { slug: 'day-pillar', category: 'saju', title: '사주 일주 완전정복: 나의 본질과 배우자 복을 읽는 법' },
+    ],
+  },
+  {
+    slug: 'sin-metal-ilgan',
+    title: 'Sin Metal Day Master: Personality, Career, Love, and 2026 Fortune',
+    seoTitle: '신금 일간 완전 분석: 예민한 완벽주의·직업운·2026 운세',
+    seoTitleEn: 'Sin Metal Day Master: Personality, Career, Love, and 2026 Fortune',
+    description: '신금 일간의 섬세한 성격, 완벽주의와 예민함, 잘 맞는 직업, 번아웃 없는 성공법, 연애 스타일, 2026 병오년 운세까지 정리합니다.',
+    descriptionEn: 'Learn how the Sin Metal Day Master works through refinement, perfectionism, career fit, burnout risk, love style, and the pressure pattern of the 2026 Fire Horse year.',
+    keywords: ['신금 일간', '신금 사주', '신금 성격', '신금 직업', '신금 연애', '신금 2026 운세', '辛金 일간 특징'],
+    keywordsEn: ['sin metal day master personality', 'yin metal day stem saju', 'sin metal perfectionism', 'sin metal career', 'sin metal love', 'sin metal 2026 fortune'],
+    publishedAt: '2026-04-10',
+    category: 'saju',
+    toc: [
+      { id: 'sin-metal-basics', title: '1. 신금 일간이란? 보석처럼 정제된 금의 기질' },
+      { id: 'sin-metal-personality', title: '2. 신금 성격의 강점과 부담: 예민함과 완벽주의를 같이 읽어야 하는 이유' },
+      { id: 'sin-metal-career', title: '3. 신금 직업운: 디테일이 경쟁력이 되는 분야와 번아웃 위험' },
+      { id: 'sin-metal-love', title: '4. 신금 연애와 인간관계: 기준은 높지만 마음은 쉽게 상처받는 구조' },
+      { id: 'sin-metal-2026', title: '5. 신금 2026 운세: 병오년의 강한 화기가 예민함을 시험하는 해' },
+    ],
+    tocEn: [
+      { id: 'sin-metal-basics', title: '1. What Sin Metal Day Master Really Means' },
+      { id: 'sin-metal-personality', title: '2. Sin Metal Personality: Refinement, Sensitivity, and Perfectionism' },
+      { id: 'sin-metal-career', title: '3. Sin Metal Career: Precision, Excellence, and Burnout Risk' },
+      { id: 'sin-metal-love', title: '4. Sin Metal in Love and Relationships' },
+      { id: 'sin-metal-2026', title: '5. Sin Metal in the 2026 Fire Horse Year' },
+    ],
+    contentKo: `<section>
+  <p>신금(辛金) 일간을 검색하는 사람은 대개 “왜 이렇게 예민한가”, “왜 완벽하게 하려다 지치는가”, “왜 사람 보는 기준은 높은데 상처도 잘 받는가”를 함께 묻습니다. 신금은 같은 금 일간인 경금과 달리, 강하게 밀어붙이는 타입보다 <strong>정제하고 다듬고 완성도를 올리는 타입</strong>에 가깝습니다. 이 글에서는 신금 성격과 직업 적성, 완벽주의가 성공으로 이어질 때와 번아웃으로 무너질 때의 차이, 연애에서의 기준과 불안, 그리고 2026 병오년이 신금에게 주는 압박을 정리합니다.</p>
+  <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+    <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">함께 보면 좋은 글</p>
+    <ul style="margin: 0; padding-left: 16px;">
+      <li style="margin-bottom: 4px;"><a href="/ko/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">일간 해석 전에 보는 사주 기본 구조</a></li>
+      <li style="margin-bottom: 4px;"><a href="/ko/saju/gyeong-metal-ilgan" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">경금 일간과 비교해 보는 강한 금과 섬세한 금의 차이</a></li>
+    </ul>
+  </div>
+  <h2 id="sin-metal-basics">1. 신금 일간이란? 보석처럼 정제된 금의 기질</h2>
+  <p>신금은 음금(陰金)입니다. 경금이 칼날이나 원석처럼 강하게 기준을 세우는 금이라면, 신금은 보석이나 세공된 금속처럼 <strong>정밀함, 품위, 세부 완성도</strong>를 중시합니다. 그래서 신금 일간은 단순히 예민한 사람이 아니라, 거칠고 조잡한 상태를 견디기 어려워하는 사람에 가깝습니다.</p>
+  <p>이 기질은 미감, 분석력, 정교함, 정리 능력으로 이어질 수 있습니다. 동시에 작은 어긋남도 크게 느끼고, 스스로 기준을 높게 세우며, 타인의 무례함이나 불성실함에 민감하게 반응하는 경향이 있습니다. 경금이 ‘잘라내는 금’이라면 신금은 <strong>끝까지 다듬는 금</strong>입니다.</p>
+  <h2 id="sin-metal-personality">2. 신금 성격의 강점과 부담: 예민함과 완벽주의를 같이 읽어야 하는 이유</h2>
+  <p><strong>신금 성격</strong>의 강점은 정교함, 안목, 세밀한 판단, 품질 관리 능력입니다. 남들이 그냥 넘기는 부분에서 차이를 발견하고, 수준을 올리고, 완성도를 끌어올리는 힘이 있습니다. 그래서 신금은 일에서 “결정적 마무리”, “품질 차이”, “디테일의 격차”를 만드는 경우가 많습니다.</p>
+  <p>문제는 그 힘이 자신을 향할 때입니다. 잘하고도 만족하지 못하고, 작은 실수를 오래 곱씹고, 모든 것을 정돈하려다 에너지를 과도하게 씁니다. 경금이 바깥과 충돌하며 피곤해진다면, 신금은 <strong>자기 검열과 과도한 기준</strong>으로 스스로 닳는 경우가 많습니다. 그래서 신금에게 중요한 질문은 “더 완벽하게 할 수 있나?”가 아니라 “이 수준이면 충분한가?”입니다.</p>
+  <div style="background: rgba(255,255,255,0.04); border-left: 3px solid rgba(249,215,126,0.4); padding: 14px 18px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <p style="margin: 0 0 8px 0; font-size: 13px; color: #F5D77E; font-weight: bold;">신금 완벽주의 자가 점검</p>
+    <ul style="margin: 0; padding-left: 16px; font-size: 13px; line-height: 1.9;">
+      <li>시작보다 수정 단계에 지나치게 오래 머문다</li>
+      <li>작은 실수 하나로 전체 성과를 부정한다</li>
+      <li>남의 평가보다 스스로의 기준 때문에 더 지친다</li>
+      <li>잘 쉬는 것에도 죄책감을 느끼는 편이다</li>
+    </ul>
+  </div>
+  <h2 id="sin-metal-career">3. 신금 직업운: 디테일이 경쟁력이 되는 분야와 번아웃 위험</h2>
+  <p><strong>신금 직업</strong>은 디테일과 품질이 가치가 되는 영역에서 강합니다. 디자인, 브랜딩, 편집, 기획, 연구, 분석, 상담, 미용, 의료 보조, 품질 검수, 문서 정리, 데이터 정제, 고객 경험 설계처럼 “대충”이 통하지 않는 일에서 실력이 드러나는 편입니다. 직업운의 이론적 구조가 궁금하다면 <a href="/ko/saju/career-star" style="text-decoration: underline; color: #f9d976;">관성으로 보는 직업운 글</a>을 같이 보면 더 입체적으로 읽을 수 있습니다.</p>
+  <table style="width:100%; border-collapse:collapse; margin: 16px 0; font-size: 13px;">
+    <thead>
+      <tr style="background: rgba(249,215,126,0.12);">
+        <th style="padding: 10px 14px; text-align: left; border-bottom: 1px solid rgba(255,255,255,0.1);">신금이 잘 맞는 환경</th>
+        <th style="padding: 10px 14px; text-align: left; border-bottom: 1px solid rgba(255,255,255,0.1);">신금이 번아웃되는 환경</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.06);">
+        <td style="padding: 10px 14px;">디테일과 완성도가 평가되는 일</td>
+        <td style="padding: 10px 14px;">속도만 강요하고 품질은 무시하는 조직</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.06);">
+        <td style="padding: 10px 14px;">정리, 분석, 세공, 관리가 중요한 역할</td>
+        <td style="padding: 10px 14px;">지시가 거칠고 기준이 계속 바뀌는 역할</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.06);">
+        <td style="padding: 10px 14px;">조용히 집중할 시간이 보장되는 환경</td>
+        <td style="padding: 10px 14px;">상시 긴장과 즉답만 요구되는 환경</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px 14px;">작은 차이가 결과를 바꾸는 전문 분야</td>
+        <td style="padding: 10px 14px;">실수 허용은 적은데 회복 시간은 없는 구조</td>
+      </tr>
+    </tbody>
+  </table>
+  <p>신금이 번아웃 없이 성공하려면 기준을 낮추라는 뜻이 아닙니다. <strong>중요한 디테일과 버려도 되는 디테일을 구분하는 능력</strong>이 필요합니다. 모든 일에 최고 수준을 유지하려 하면 오래 갈 수 없습니다. 신금의 성공은 완벽함이 아니라 선택적 정교함에서 나옵니다.</p>
+  <div class="cta-container" style="text-align: center; margin: 40px 0;">
+    <a href="/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">내 사주에서 신금 기질과 직업운 확인하기</a>
+  </div>
+  <h2 id="sin-metal-love">4. 신금 연애와 인간관계: 기준은 높지만 마음은 쉽게 상처받는 구조</h2>
+  <p><strong>신금 연애</strong>는 겉으로는 냉정해 보여도 속으로는 예민하게 관계를 읽는 편입니다. 아무에게나 쉽게 마음을 열지 않지만, 한 번 신뢰가 생기면 작은 변화도 크게 느끼고 관계의 결을 세심하게 봅니다. 그래서 상대 입장에서는 “기준이 높다”, “사소한 것에도 의미를 둔다”고 느낄 수 있습니다.</p>
+  <p>문제는 말하지 않은 기대치가 쌓일 때입니다. 신금은 관계를 섬세하게 읽지만, 그 섬세함을 늘 직접 설명하지는 않습니다. 그래서 상대는 갑자기 차가워졌다고 느끼고, 신금은 “왜 이걸 모르지?”라고 생각하는 경우가 많습니다. 신금에게 연애는 완벽한 사람을 찾는 문제가 아니라, <strong>불완전함을 설명하고 조율할 수 있는 사람을 만나는 문제</strong>에 더 가깝습니다.</p>
+  <h2 id="sin-metal-2026">5. 신금 2026 운세: 병오년의 강한 화기가 예민함을 시험하는 해</h2>
+  <p><strong>신금 2026 운세</strong> 역시 화(火) 압박을 강하게 받습니다. 병오년의 화기는 신금에게 책임, 평가, 긴장, 감정 소모를 동시에 키울 수 있습니다. 특히 신금은 외부 압박보다 내부 기준 때문에 먼저 지치기 쉬워서, 2026년에는 “해야 할 일”보다 “내가 나를 얼마나 몰아붙이고 있는가”를 점검하는 것이 중요합니다.</p>
+  <p>좋게 쓰면 2026년은 신금의 실력과 완성도가 눈에 띄는 해가 될 수 있습니다. 평소 쌓아둔 디테일, 감각, 정리 능력이 결과로 보이기 쉽기 때문입니다. 다만 과로, 수면 부족, 신경 예민, 관계 피로가 겹치면 성과가 있어도 행복감이 낮아질 수 있습니다. 병오년의 핵심은 더 완벽해지는 것이 아니라 <strong>예민함을 성과로 바꾸되 회복도 같이 설계하는 것</strong>입니다.</p>
+  <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+    <p><a href="/ko/saju/gyeong-metal-ilgan" style="text-decoration: underline; color: #f9d976;">[관련글] 경금 일간 완전 분석: 강한 금 기질과 신금의 차이</a></p>
+    <p><a href="/ko/saju/too-much-metal-in-saju" style="text-decoration: underline; color: #f9d976;">[관련글] 사주에서 금이 많으면: 예민함과 냉정함이 과해질 때</a></p>
+  </div>
+  </section>`,
+    contentEn: `<section>
+  <p>People search <strong>sin metal day master personality</strong> when they want to understand why someone can be elegant, precise, and highly capable, yet also sensitive, self-critical, and easy to exhaust. Sin Metal is <strong>Yin Metal</strong>. Unlike Gyeong Metal, which cuts and defines, Sin Metal refines, polishes, and perfects. This guide explains Sin Metal personality, career fit, burnout patterns, relationship style, and how the <strong>2026 Fire Horse year</strong> tests refined Metal energy.</p>
+  <div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+    <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">Read These First for Context</p>
+    <ul style="margin: 0; padding-left: 16px;">
+      <li style="margin-bottom: 4px;"><a href="/en/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">How the Day Master works in Saju</a></li>
+      <li style="margin-bottom: 4px;"><a href="/en/saju/gyeong-metal-ilgan" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Compare Yang Metal and refined Yin Metal directly</a></li>
+    </ul>
+  </div>
+  <h2 id="sin-metal-basics">1. What a Sin Metal Day Master Means</h2>
+  <p>Sin Metal is Yin Metal. If Gyeong Metal is a blade, tool, or raw forged structure, Sin Metal is refined metal, jewelry, precision work, and detail. It notices quality, polish, texture, and subtle difference. That is why Sin Metal often feels more sensitive, selective, and perfection-driven.</p>
+  <p>This does not mean weakness. It means refinement. Sin Metal is often strongest where quality matters more than volume and where standards are measured in nuance, not force.</p>
+  <h2 id="sin-metal-personality">2. Personality of Refined Metal Energy</h2>
+  <p><strong>Sin Metal personality</strong> often appears as elegance, accuracy, sensitivity, discernment, and private standards. These people tend to notice flaws quickly, care about presentation, and dislike roughness in speech, conduct, or execution.</p>
+  <p>The danger is internal pressure. Unlike Gyeong Metal, which often clashes outwardly, Sin Metal often turns pressure inward. That creates perfectionism, self-criticism, overediting, delayed completion, and emotional fatigue. The central question for Sin Metal is not whether something can be made better, but whether it is already good enough to release.</p>
+  <ul>
+    <li>Strengths: precision, taste, quality control, discernment, polish</li>
+    <li>Weaknesses: perfectionism, oversensitivity, burnout, silent disappointment, self-pressure</li>
+    <li>Key contrast: Gyeong Metal cuts decisively, while Sin Metal refines continuously</li>
+  </ul>
+  <h2 id="sin-metal-career">3. Career Fit for the Sin Metal Day Master</h2>
+  <p><strong>Sin Metal career</strong> patterns work well where fine distinctions matter. Design, editing, branding, analysis, research, curation, counseling, quality review, beauty, precision service, planning, and data cleaning are common examples. If you want the larger logic behind career structure, use the <a href="/en/saju/career-star" style="text-decoration: underline; color: #f9d976;">Career Star guide</a> as supporting theory.</p>
+  <p>Sin Metal succeeds when precision is rewarded, but burns out when speed is worshiped and detail is ignored. The practical lesson is selective excellence. Not every task deserves maximum polish.</p>
+  <div class="cta-container" style="text-align: center; margin: 40px 0;">
+    <a href="/en/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">Check Your Career Pattern and Burnout Risk Free</a>
+  </div>
+  <h2 id="sin-metal-love">4. Sin Metal in Love and Relationships</h2>
+  <p><strong>Sin Metal love</strong> tends to be selective rather than impulsive. It often has high standards, notices subtle changes in tone, and remembers details other people ignore. That can create deep care, but it can also create hidden expectations and disappointment when those expectations are not spoken clearly.</p>
+  <p>Sin Metal often needs a partner who respects sensitivity without mocking it. Relationship success depends less on finding perfection and more on learning how to communicate standards before resentment builds.</p>
+  <h2 id="sin-metal-2026">5. Sin Metal in the 2026 Fire Horse Year</h2>
+  <p><strong>Sin Metal 2026 fortune</strong> is shaped by pressure, visibility, and fatigue management. Fire controls Metal, and the Fire Horse year can raise deadlines, evaluation, emotional stimulation, and performance anxiety. For Sin Metal, the main risk is not only external pressure, but the tendency to intensify that pressure internally.</p>
+  <p>Still, 2026 can be an excellent year for recognition if your work depends on quality, refinement, and visible standards. The key is recovery. Sin Metal does not fail because of lack of talent. It usually suffers when excellence is pursued without pacing, sleep, or emotional recovery built into the system.</p>
+  <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+    <p><a href="/en/saju/gyeong-metal-ilgan" style="text-decoration: underline; color: #f9d976;">[Related] Gyeong Metal Day Master guide: strong Metal and the contrast with Sin</a></p>
+    <p><a href="/en/saju/too-much-metal-in-saju" style="text-decoration: underline; color: #f9d976;">[Related] Too much Metal in Saju: when sensitivity and coldness intensify</a></p>
+  </div>
+  </section>`,
+    faq: [
+      { q: '신금 일간은 왜 예민하다는 말을 자주 듣나요?', a: '신금은 디테일과 결을 읽는 힘이 강해서 작은 차이도 크게 느끼는 편입니다. 그 예민함이 안목과 완성도로 이어지면 장점이 되지만, 자기검열로 흐르면 쉽게 지칠 수 있습니다.' },
+      { q: '신금 직업은 완벽주의가 장점이 되나요?', a: '부분적으로는 맞습니다. 다만 모든 일을 완벽하게 하려 하면 번아웃 위험이 커집니다. 중요한 것은 모든 디테일을 잡는 것이 아니라, 결과를 바꾸는 핵심 디테일에 집중하는 것입니다.' },
+      { q: '신금 2026 운세에서 가장 조심할 점은 무엇인가요?', a: '병오년에는 외부 압박과 내부 기준이 동시에 올라갈 수 있어 과로, 수면 부족, 감정 피로가 누적되기 쉽습니다. 회복 없는 성과 추구를 가장 조심해야 합니다.' },
+    ],
+    faqEn: [
+      { q: 'Why is the Sin Metal Day Master often described as sensitive?', a: 'Because Sin Metal notices subtle differences in quality, tone, and behavior. That sensitivity can become discernment and excellence, but it can also become fatigue when turned inward too strongly.' },
+      { q: 'Is perfectionism always a strength for Sin Metal careers?', a: 'Only when it is selective. If everything is treated as equally important, burnout becomes likely. Sin Metal does best when it focuses precision where it truly changes the result.' },
+      { q: 'What should Sin Metal watch out for most in 2026?', a: 'The main risk is accumulating external pressure and internal self-pressure at the same time. Rest, pacing, and emotional recovery are essential in the Fire Horse year.' },
+    ],
+    relatedPosts: [
+      { slug: 'gyeong-metal-ilgan', category: 'saju', title: '경금 일간 완전 분석: 원칙주의 성격·직업운·2026 운세' },
+      { slug: 'too-much-metal-in-saju', category: 'saju', title: '사주에서 금(金)이 많으면: 냉정함·예민함·대인관계 패턴 분석' },
     ],
   },
 ], '2026-01-05', 3, '2026-02-10', 1);
