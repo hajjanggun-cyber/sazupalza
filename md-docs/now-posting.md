@@ -1,9 +1,10 @@
 # 신규 포스팅 100개 목록
 # 최종 업데이트: 2026-03-21
-# 기존 55개 글과 비중복 확인 완료
-# [ ] = 미완료 / [ V] = 완료
-# 코덱스 작성 기준: slug/카테고리/메인키워드(KO+EN)/하위키워드(KO+EN)/작성지침 포함
-# EN 키워드는 번역 아닌 영어권 실제 검색어 기준
+# 이 파일은 포스팅 순서, 작성 후보, slug/category/키워드/글별 작성 브리프, 완료 상태의 단일 원본이다.
+# [ ] = 미완료 / [완료] = 완료
+# 글 작성 완료 시 해당 항목의 [ ]를 [완료]로 바꾼다.
+# 글 작성 원칙, SEO 규칙, 검수 규칙은 `md-docs/post-codex-command.md`를 따른다.
+# 기존 55개 글과 비중복 확인 완료.
 
 ---
 
@@ -292,7 +293,7 @@
 
 ### [사주] 일주 특화 시리즈
 
-[ ] 30. 갑자일주(甲子): 재능 많지만 외로운 이유와 2026 병오년 운세
+[완료] 30. 갑자일주(甲子): 재능 많지만 외로운 이유와 2026 병오년 운세
 - slug: `gapja-iljoo`
 - 카테고리: `saju`
 - 메인 키워드 KO: 갑자일주, 갑자일주 성격
@@ -301,7 +302,7 @@
 - 하위 키워드 EN: gapja four pillars personality, rat wood day pillar korean astrology, gapja saju fortune
 - 작성 지침: 갑자일주 성격·직업·연애·2026 운세 특화 분석. 일주 시리즈 포맷 정립.
 
-[ ] 31. 갑오일주(甲午): 2026 병오년에 가장 주목해야 할 일주
+[완료] 31. 갑오일주(甲午): 2026 병오년에 가장 주목해야 할 일주
 - slug: `gapo-iljoo`
 - 카테고리: `saju`
 - 메인 키워드 KO: 갑오일주, 갑오일주 2026
@@ -310,7 +311,7 @@
 - 하위 키워드 EN: gapo four pillars analysis, horse wood day pillar korean astrology, gapo 2026 byungoh year
 - 작성 지침: 갑오일주 성격·직업·연애·2026 병오년 특별 영향(갑오=병오 관계) 분석.
 
-[ ] 32. 경자일주(庚子): 강한 척하지만 속은 예민한 사람의 사주 분석
+[완료] 32. 경자일주(庚子): 강한 척하지만 속은 예민한 사람의 사주 분석
 - slug: `gyeongja-iljoo`
 - 카테고리: `saju`
 - 메인 키워드 KO: 경자일주, 경자일주 성격
@@ -341,41 +342,41 @@
 - 하위 키워드 EN: luck cycle transition saju, major fortune change korean astrology, 10 year cycle saju
 - 작성 지침: major-fortune(대운 이론)과 다름. 대운 전환 시 실생활 변화·신호·적응법 실전 중심.
 
-[ ] 35. 사주 일지 보는법 — 배우자운과 일상의 기운 분석
+[ ] 35. 사주 일지 12지지 해석 — 배우자궁과 일상 반응 보는 법
 - slug: `day-branch-reading`
 - 카테고리: `saju`
-- 메인 키워드 KO: 사주 일지, 사주 일지 보는법
-- 메인 키워드 EN: saju day branch reading, four pillars day earthly branch
-- 하위 키워드 KO: 일지 배우자운, 일지 뜻, 일주 일지 차이, 사주 일지 분석
-- 하위 키워드 EN: day earthly branch saju, spouse palace four pillars, day pillar branch korean astrology
-- 작성 지침: day-pillar(일주 전체 이론)와 다름. 일지만을 집중 분석. 배우자·건강·일상 에너지 해석.
+- 메인 키워드 KO: 사주 일지 12지지, 일지 배우자궁
+- 메인 키워드 EN: saju day branch 12 earthly branches, spouse palace branch saju
+- 하위 키워드 KO: 자수 일지 뜻, 오화 일지 특징, 일지와 월지 차이, 일지 일상 반응
+- 하위 키워드 EN: day earthly branch meaning, spouse palace four pillars, branch personality saju
+- 작성 지침: day-pillar(일주 전체 이론)와 다름. 60갑자 전체가 아니라 일지 12지지별 배우자궁·반응 패턴·생활 리듬만 다룬다.
 
-[ ] 36. 사주로 보는 직업 적성 — 오행과 십성으로 찾는 천직
-- slug: `saju-career-aptitude`
+[ ] 36. 일간별 직업 적성표 — 오행으로 보는 맞는 일과 피할 일
+- slug: `ilgan-career-table`
 - 카테고리: `saju`
-- 메인 키워드 KO: 사주 직업 적성, 사주 직업 추천
-- 메인 키워드 EN: saju career aptitude, four pillars best job, korean astrology career
-- 하위 키워드 KO: 사주 천직, 오행 직업, 사주 직업 찾기, 적성 사주 보는법
-- 하위 키워드 EN: four pillars vocation, saju job recommendation, korean astrology profession
-- 작성 지침: career-star(관성 위주)와 다름. 오행·십성·일간별 직업 적성을 종합 분석. 표 형식 권장.
+- 메인 키워드 KO: 일간별 직업 적성, 오행별 직업 적성
+- 메인 키워드 EN: day master career table, five elements career aptitude
+- 하위 키워드 KO: 갑목 직업, 병화 직업, 경금 직업, 일간 직업표
+- 하위 키워드 EN: day stem career fit, five elements jobs, saju career table
+- 작성 지침: career-star(관성 이론)와 다름. 직업운 일반론이나 MBTI 직업 추천이 아니라 10일간별 맞는 일·피할 일·업무 환경을 표로 비교한다.
 
-[ ] 37. 사주 체질별 건강관리 — 오행으로 찾는 내 몸의 약점
-- slug: `saju-body-type-health`
+[ ] 37. 일간별 약한 장기 — 오행으로 보는 생활 관리 체크리스트
+- slug: `ilgan-health-weakness`
 - 카테고리: `saju`
-- 메인 키워드 KO: 사주 체질, 사주 건강 체질
-- 메인 키워드 EN: saju body constitution, four pillars health type, korean astrology health
-- 하위 키워드 KO: 오행 체질, 사주 약한 장기, 체질별 음식, 사주 건강 관리
-- 하위 키워드 EN: five elements body type, saju organ weakness, four pillars constitution
-- 작성 지침: health-saju(질병 시기)와 다름. 일간 오행별 약한 장기·음식·생활 습관 실용 가이드.
+- 메인 키워드 KO: 일간별 약한 장기, 오행별 건강 약점
+- 메인 키워드 EN: day master health weakness, five elements organ weakness
+- 하위 키워드 KO: 목화토금수 건강, 일간 건강관리, 오행 약한 부위, 생활 습관 체크
+- 하위 키워드 EN: five elements health checklist, saju organ weakness, day stem wellness
+- 작성 지침: health-saju(질병 시기)와 다름. 질병 예측이나 음식 추천이 아니라 일간 오행별 취약 부위와 생활 관리 체크리스트 중심. 의료 단정 표현 금지.
 
-[ ] 38. 2026 토정비결 — 병오년 생년월일별 완전 운세 풀이
+[ ] 38. 2026 토정비결 풀이 순서 — 사주 명식 없이 생년월일로 보는 법
 - slug: `tojeong-bigyeol-2026`
 - 카테고리: `saju`
 - 메인 키워드 KO: 토정비결 2026, 2026 토정비결
 - 메인 키워드 EN: tojeong bigyeol 2026, korean almanac fortune 2026
-- 하위 키워드 KO: 2026 무료 토정비결, 병오년 토정비결, 토정비결 보는법, 생년월일 2026 운세
-- 하위 키워드 EN: free tojeong bigyeol 2026, korean new year fortune 2026, traditional korean fortune telling
-- 작성 지침: 2026 병오년 토정비결 원리·보는법 설명. 생년별 대표 운세 흐름 요약. 토정비결과 사주 차이 포함. 검색량 최상위 키워드.
+- 하위 키워드 KO: 토정비결 보는법, 토정비결 사주 차이, 병오년 토정비결 원리, 생년월일 운세표
+- 하위 키워드 EN: tojeong bigyeol method, korean almanac reading, tojeong vs saju
+- 작성 지침: 2026 병오년 토정비결 풀이 순서 중심. 신년운세 총정리나 사주 세운 글과 겹치지 않게 생년월일 입력 기준, 토정비결 해석 방식, 사주와의 차이를 우선 설명한다.
 
 ---
 
@@ -390,41 +391,41 @@
 - 하위 키워드 EN: hanja name luck, korean name meaning fortune, chinese character name analysis
 - 작성 지침: 자주 쓰이는 이름 한자 25~30개 뜻·운세적 의미 분석. 피해야 할 한자 목록 포함.
 
-[ ] 40. 태명 짓는 법 — 2026년 태아에게 좋은 이름 완전 가이드
+[ ] 40. 2026 태명 추천 — 오행과 부르기 쉬운 소리 조합
 - slug: `fetal-name-guide`
 - 카테고리: `seongmyeong`
 - 메인 키워드 KO: 태명 짓는법, 태명 추천
 - 메인 키워드 EN: korean fetal name, baby nickname before birth korea
 - 하위 키워드 KO: 태명 의미, 예쁜 태명, 태명 오행, 2026 태명 추천, 좋은 태명
 - 하위 키워드 EN: korean prenatal name meaning, fetal name ohaeng, cute korean baby nickname
-- 작성 지침: 태명의 의미와 선택 기준. 오행 태명. 2026 병오년 출생아에게 좋은 태명 예시 20개 포함.
+- 작성 지침: baby-naming(아기 이름)과 다름. 태명은 한자 작명보다 부르기 쉬운 소리, 부모의 정서, 2026 병오년 오행 이미지를 중심으로 예시 20개 포함.
 
-[ ] 41. 여자아이 이름 짓는 법 — 사주·오행 반영 완전 가이드
+[ ] 41. 여자아이 이름 한자 추천 — 부드러운 소리와 오행 조합
 - slug: `girl-name-creation`
 - 카테고리: `seongmyeong`
-- 메인 키워드 KO: 여자아이 이름 짓기, 여자 아기 이름 추천
+- 메인 키워드 KO: 여자아이 이름 한자, 여아 이름 오행
 - 메인 키워드 EN: korean girl baby name guide, korean female name meaning fortune
-- 하위 키워드 KO: 여아 이름 오행, 예쁜 여자 아기 이름, 딸 이름 짓기, 여자 이름 한자
+- 하위 키워드 KO: 예쁜 여자 아기 이름, 딸 이름 한자, 부드러운 이름 소리, 여아 이름 추천
 - 하위 키워드 EN: korean baby girl name ohaeng, girl name hanja, cute korean girl names 2026
-- 작성 지침: baby-naming(일반)과 다름. 여아 특화. 2026 병오년생 여아에게 좋은 이름·한자 예시 포함.
+- 작성 지침: baby-naming(일반)과 다름. 여아 이름의 한자 의미, 소리의 부드러움, 오행 균형을 중심으로 예시를 제시한다. 남아 이름 글과 구조·예시 반복 금지.
 
-[ ] 42. 남자아이 이름 짓는 법 — 사주·오행 반영 완전 가이드
+[ ] 42. 남자아이 이름 한자 추천 — 힘 있는 소리와 오행 조합
 - slug: `boy-name-creation`
 - 카테고리: `seongmyeong`
-- 메인 키워드 KO: 남자아이 이름 짓기, 남자 아기 이름 추천
+- 메인 키워드 KO: 남자아이 이름 한자, 남아 이름 오행
 - 메인 키워드 EN: korean boy baby name guide, korean male name meaning fortune
-- 하위 키워드 KO: 남아 이름 오행, 멋진 남자 아기 이름, 아들 이름 짓기, 남자 이름 한자
+- 하위 키워드 KO: 멋진 남자 아기 이름, 아들 이름 한자, 힘 있는 이름 소리, 남아 이름 추천
 - 하위 키워드 EN: korean baby boy name ohaeng, boy name hanja, cool korean boy names 2026
-- 작성 지침: 남아 특화. 2026 병오년생 남아에게 좋은 이름·한자 예시 포함.
+- 작성 지침: 남아 이름의 한자 의미, 발음의 힘, 오행 균형을 중심으로 예시를 제시한다. 여아 이름 글과 같은 문단 구조 반복 금지.
 
-[ ] 43. 이름에 쓰면 안 되는 한자 — 불운 부르는 글자 완전 정리
+[ ] 43. 이름 금기 한자 — 피해야 할 뜻과 작명 예외 기준
 - slug: `bad-hanja-names`
 - 카테고리: `seongmyeong`
-- 메인 키워드 KO: 이름에 쓰면 안 되는 한자, 나쁜 이름 한자
+- 메인 키워드 KO: 이름 금기 한자, 피해야 할 이름 한자
 - 메인 키워드 EN: bad hanja for korean names, unlucky chinese characters korean name
 - 하위 키워드 KO: 이름 금기 한자, 불길한 이름 한자, 이름 피해야 할 글자, 나쁜 의미 이름
 - 하위 키워드 EN: inauspicious hanja names, avoid these hanja, unlucky name characters korea
-- 작성 지침: 실제로 이름에 자주 쓰이지만 성명학에서 금기하는 한자 30개 이상 정리. 이유 설명 포함.
+- 작성 지침: bad-hanja-name 계열 검색 의도 대응. 실제로 이름에 자주 쓰이지만 성명학에서 주의하는 한자 30개 이상, 피하는 이유와 예외적으로 쓸 수 있는 조건을 함께 설명.
 
 [ ] 44. 반려동물 이름 짓는 법 — 오행으로 찾는 행운의 이름
 - slug: `pet-name-fortune`
@@ -444,63 +445,63 @@
 - 하위 키워드 EN: name change luck korea, legal name change fortune, name revision effect
 - 작성 지침: name-change(개명 방법)와 다름. 개명 후 실제 변화 사례·심리적 효과·주의사항 중심.
 
-[ ] 46. 사주팔자 보는법 — 초보도 이해하는 완전 해석 가이드
-- slug: `saju-palja-reading`
+[ ] 46. 사주 명식 해석 예시 — 천간·지지·오행 단계별 풀이
+- slug: `saju-chart-example-reading`
 - 카테고리: `saju`
-- 메인 키워드 KO: 사주팔자 보는법, 사주팔자 풀이
-- 메인 키워드 EN: how to read saju palja, saju palja interpretation guide
-- 하위 키워드 KO: 사주팔자란, 사주팔자 무료, 사주팔자 뜻, 사주팔자 해석, 팔자 보는법
-- 하위 키워드 EN: saju palja meaning, four pillars reading beginner, korean fortune telling guide
-- 작성 지침: "사주팔자" 키워드 월 수십만 검색. 기존 intro(기초)와 다름. 실제 명식 예시로 천간·지지·오행을 단계별로 해석하는 방법 실전 중심. 2500자 이상.
+- 메인 키워드 KO: 사주 명식 해석 예시, 사주 명식 보는법
+- 메인 키워드 EN: saju chart example reading, four pillars chart interpretation example
+- 하위 키워드 KO: 사주 원국 예시, 천간 지지 해석, 오행 비율 읽기, 십성 배치 예시
+- 하위 키워드 EN: saju birth chart example, heavenly stems earthly branches reading, five elements chart example
+- 작성 지침: 기존 intro(사주팔자 뜻·기초)와 다름. 하나의 실제 예시 명식을 정해 천간·지지·오행·십성 순서로 풀이한다. `사주팔자란`, `무료`, `뜻` 키워드는 메인 의도로 쓰지 않는다.
 
-[ ] 47. 이름 첫 글자 오행 — 성씨와 이름의 오행 상생관계
-- slug: `name-first-letter-ohaeng`
+[ ] 47. 성씨 초성과 이름 첫소리 궁합 — 발음오행 충돌 피하는 법
+- slug: `surname-name-ohaeng-match`
 - 카테고리: `seongmyeong`
-- 메인 키워드 KO: 이름 첫 글자 오행, 성씨 오행
-- 메인 키워드 EN: korean surname ohaeng, first letter fortune korean name
-- 하위 키워드 KO: 성씨별 오행, 이름 자음 오행, 성씨 이름 궁합, 오행 이름 상생
-- 하위 키워드 EN: korean last name five elements, surname ohaeng compatibility, name harmony korea
-- 작성 지침: name-five-elements(음령오행 이론)와 다름. 성씨별 오행 분류표 + 성씨와 이름의 상생·상극 관계 분석.
+- 메인 키워드 KO: 성씨 초성 이름 궁합, 발음오행 이름 궁합
+- 메인 키워드 EN: surname name ohaeng compatibility, korean surname five elements
+- 하위 키워드 KO: 성씨 초성 오행, 이름 초성 오행, 성씨 이름 상생, 성씨 이름 상극
+- 하위 키워드 EN: korean surname sound element, given name sound element, name harmony korea
+- 작성 지침: name-five-elements(음령오행 이론)와 surname-naming(성씨별 작명)과 다름. 성씨 초성과 이름 첫소리의 발음오행 상생·상극, 피해야 할 충돌 조합만 집중 분석한다.
 
-[ ] 48. 회사·브랜드 이름 짓는 법 — 성공을 부르는 상호 작명 전략
+[ ] 48. 스타트업 브랜드명 오행 — 상호 작명과 다른 네이밍 전략
 - slug: `brand-name-fortune`
 - 카테고리: `seongmyeong`
-- 메인 키워드 KO: 브랜드 이름 짓기, 상호 작명법
-- 메인 키워드 EN: korean brand name fortune, business name ohaeng strategy
-- 하위 키워드 KO: 스타트업 이름 짓기, 가게 상호 작명, 브랜드명 오행, 회사 이름 성명학
+- 메인 키워드 KO: 브랜드명 오행, 스타트업 이름 짓기
+- 메인 키워드 EN: brand name ohaeng, startup name korean fortune
+- 하위 키워드 KO: 브랜드 이름 성명학, 회사명 브랜딩, 상호 작명 차이, 브랜드명 발음 오행
 - 하위 키워드 EN: startup name korean fortune, shop name ohaeng, brand name meaning korea
-- 작성 지침: business-name(상호 일반론)과 다름. 브랜드/스타트업 특화. 성공한 브랜드 이름 오행 분석 포함.
+- 작성 지침: business-name(상호 일반론)과 다름. 가게 상호 작명법이 아니라 스타트업·브랜드명 발음, 기억성, 확장성, 오행 이미지를 비교한다.
 
 ---
 
 ### [관상] 부위별 시리즈
 
-[ ] 49. 관상 턱 — 의지력·만년운·재물복 보는 법
+[ ] 49. 턱끝·턱선 관상 — 말년운과 버티는 힘을 읽는 법
 - slug: `chin-reading`
 - 카테고리: `face-reading`
-- 메인 키워드 KO: 관상 턱, 턱 관상
+- 메인 키워드 KO: 턱끝 관상, 턱선 관상
 - 메인 키워드 EN: chin face reading gwansang, jaw fortune korean face reading
 - 하위 키워드 KO: 사각턱 관상, 둥근 턱 운세, 뾰족한 턱 관상, 턱 만년운, 이중턱 관상
 - 하위 키워드 EN: jaw shape fortune korea, square jaw gwansang, pointed chin reading
-- 작성 지침: 턱 모양별(사각/둥근/뾰족/이중턱) 운세·성격·만년운 분석. 2000자 이상.
+- 작성 지침: face-shape(얼굴형 전체)와 다름. 턱끝, 턱선, 이중턱, 사각턱·둥근턱 차이를 말년운과 버티는 힘 중심으로 분석. 2000자 이상.
 
-[ ] 50. 관상 광대뼈 — 사회운·권력운·대인관계 보는 법
+[ ] 50. 광대뼈 높이 관상 — 사회적 압박과 리더십 읽기
 - slug: `cheekbone-reading`
 - 카테고리: `face-reading`
-- 메인 키워드 KO: 관상 광대뼈, 광대뼈 관상
+- 메인 키워드 KO: 광대뼈 높이 관상, 광대 관상
 - 메인 키워드 EN: cheekbone face reading gwansang, cheekbone fortune korean
 - 하위 키워드 KO: 광대뼈 높으면 관상, 광대뼈 없으면 관상, 광대 사회운, 광대 권력운
 - 하위 키워드 EN: high cheekbone gwansang, cheekbone power fortune, social luck face reading
-- 작성 지침: 광대뼈 높고/낮고/넓고/좁은 케이스별 사회운·권력욕·대인관계 분석.
+- 작성 지침: cheek-reading(볼살)과 다름. 광대뼈 높고/낮고/넓고/좁은 케이스별 리더십, 사회적 압박, 대인관계 긴장도를 분석.
 
-[ ] 51. 관상 인중 — 자녀운·생명력·중년운 보는 법
+[ ] 51. 인중 길이 관상 — 자녀궁과 중년 체력 신호
 - slug: `philtrum-reading`
 - 카테고리: `face-reading`
-- 메인 키워드 KO: 관상 인중, 인중 관상
+- 메인 키워드 KO: 인중 길이 관상, 인중 자녀운
 - 메인 키워드 EN: philtrum face reading gwansang, philtrum fortune korean
 - 하위 키워드 KO: 인중 길면 관상, 인중 짧으면 관상, 인중 자녀운, 인중 생명력
 - 하위 키워드 EN: long philtrum gwansang, philtrum children luck, vitality philtrum reading
-- 작성 지침: 인중 길이/모양/깊이별 자녀운·수명·중년운 분석. 실생활 사례 포함.
+- 작성 지침: under-eye-reading(눈 밑 자녀궁)과 다름. 인중 길이·깊이·선명도별 자녀궁, 중년 체력, 생활 리듬 신호를 다루되 수명 단정 금지.
 
 [ ] 52. 관상 이마 주름 — 주름으로 보는 운세와 성격
 - slug: `forehead-wrinkles`
@@ -511,95 +512,95 @@
 - 하위 키워드 EN: forehead lines meaning gwansang, wrinkle position fortune, three lines forehead
 - 작성 지침: forehead-reading(이마 전체)과 다름. 이마 주름 개수·위치·모양별 운세·성격 분석.
 
-[ ] 53. 관상 눈 밑 — 자녀운·건강·애정운 보는 법
+[ ] 53. 눈 밑 자녀궁 관상 — 와잠으로 보는 체력과 관계 피로
 - slug: `under-eye-reading`
 - 카테고리: `face-reading`
-- 메인 키워드 KO: 관상 눈 밑, 눈 밑 관상
+- 메인 키워드 KO: 눈 밑 자녀궁 관상, 와잠 관상
 - 메인 키워드 EN: under eye face reading gwansang, under eye fortune korean
 - 하위 키워드 KO: 눈 밑 다크서클 관상, 눈 밑 자녀운, 눈 밑 애정운, 눈 밑 살 관상
 - 하위 키워드 EN: dark circles gwansang, under eye children luck, eye bags fortune korean
-- 작성 지침: eye-reading(눈 전체)과 다름. 눈 밑 부위 특화. 자녀운·건강·애정운 집중 분석.
+- 작성 지침: eye-reading(눈 전체)·mouth-lips(입술 애정운)와 다름. 눈 밑 자녀궁, 와잠의 살집·꺼짐·그늘을 중심으로 체력 저하와 관계 피로 신호를 다루되 의학 단정 금지.
 
-[ ] 54. 관상 미간 — 직업운·판단력·성격 보는 법
+[ ] 54. 명궁 관상 — 미간 넓이와 주름으로 보는 판단 습관
 - slug: `between-eyebrows`
 - 카테고리: `face-reading`
-- 메인 키워드 KO: 관상 미간, 미간 관상
+- 메인 키워드 KO: 명궁 관상, 미간 넓이 관상
 - 메인 키워드 EN: between eyebrows gwansang, glabella face reading korean fortune
 - 하위 키워드 KO: 미간 넓으면 관상, 미간 좁으면 관상, 미간 주름, 미간 직업운
 - 하위 키워드 EN: wide glabella fortune gwansang, narrow eyebrows fate, brow gap reading
-- 작성 지침: 미간 넓이/주름/색·특징별 직업운·판단력·성격 분석.
+- 작성 지침: eyebrow-reading(눈썹)과 다름. 명궁으로 보는 미간 넓이, 주름, 색 변화를 판단 습관과 일 처리 방식 중심으로 분석.
 
-[ ] 55. 관상 볼 살 — 재물운·친화력·사회성 보는 법
+[ ] 55. 볼살 관상 — 협골 주변 살집으로 보는 친화력과 소비 성향
 - slug: `cheek-reading`
 - 카테고리: `face-reading`
-- 메인 키워드 KO: 관상 볼, 볼 살 관상
+- 메인 키워드 KO: 볼살 관상, 협골 살집 관상
 - 메인 키워드 EN: cheek face reading gwansang, cheek fullness fortune korean
 - 하위 키워드 KO: 볼 살 많으면 관상, 볼 살 없으면 관상, 볼 재물운, 볼 살 성격
 - 하위 키워드 EN: full cheeks gwansang, hollow cheeks fortune, cheek luck korean face reading
-- 작성 지침: 볼 살의 많고 적음·위치별 재물운·친화력·사회성 분석.
+- 작성 지침: cheekbone-reading(광대뼈)·wealth-face(재물 관상 총론)와 다름. 협골 주변 볼살의 탄력·처짐·꺼짐을 중심으로 친화력, 소비 성향, 정서 안정감을 분석.
 
-[ ] 56. 관상 목 — 생명력·직업운·건강 보는 법
+[ ] 56. 목선 관상 — 목 길이·굵기로 보는 지속력과 컨디션
 - slug: `neck-reading`
 - 카테고리: `face-reading`
-- 메인 키워드 KO: 관상 목, 목 관상
+- 메인 키워드 KO: 목선 관상, 목 길이 관상
 - 메인 키워드 EN: neck face reading gwansang, neck fortune korean
 - 하위 키워드 KO: 목 길면 관상, 목 짧으면 관상, 목 두꺼우면 관상, 목 건강 관상
 - 하위 키워드 EN: long neck gwansang, short neck fortune, thick neck reading korean
-- 작성 지침: 목 길이/굵기/특징별 생명력·직업운·건강 분석.
+- 작성 지침: face-reading intro의 건강 총론과 다름. 목 길이, 굵기, 목선, 승모 부위 인상을 지속력과 컨디션 신호 중심으로 분석하되 의학 단정 금지.
 
-[ ] 57. 관상 쌍꺼풀 — 쌍꺼풀 유무로 보는 성격과 운세
+[ ] 57. 쌍꺼풀 관상 세부 해석 — 속쌍·겉쌍·외꺼풀 차이
 - slug: `double-eyelid-reading`
 - 카테고리: `face-reading`
-- 메인 키워드 KO: 관상 쌍꺼풀, 쌍꺼풀 관상
+- 메인 키워드 KO: 쌍꺼풀 관상, 속쌍 관상
 - 메인 키워드 EN: double eyelid gwansang, eyelid crease fortune korean
-- 하위 키워드 KO: 쌍꺼풀 있으면 운세, 속쌍 관상, 외꺼풀 관상, 쌍꺼풀 성격
+- 하위 키워드 KO: 겉쌍꺼풀 관상, 외꺼풀 관상, 쌍꺼풀 라인 성격, 눈꺼풀 관상 차이
 - 하위 키워드 EN: single eyelid gwansang, double eyelid personality korean, eyelid type fortune
-- 작성 지침: eye-reading(눈 전체)과 다름. 쌍꺼풀 유무·종류별 성격·운세 분석.
+- 작성 지침: eye-reading(눈 전체)과 다름. 눈 모양·눈빛 전체가 아니라 눈꺼풀 라인, 속쌍/겉쌍/외꺼풀 차이만 집중 분석한다.
 
-[ ] 58. 관상 입술 색 — 입술 색으로 보는 건강과 운세
+[ ] 58. 입술 색 관상 — 붉은색·창백한색·검붉은색 신호
 - slug: `lip-color-reading`
 - 카테고리: `face-reading`
-- 메인 키워드 KO: 관상 입술 색, 입술 색 운세
+- 메인 키워드 KO: 입술 색 관상, 입술 색 건강
 - 메인 키워드 EN: lip color gwansang, lip color fortune korean face reading
-- 하위 키워드 KO: 붉은 입술 관상, 창백한 입술 관상, 입술 색 건강, 입술 색 성격
+- 하위 키워드 KO: 붉은 입술 관상, 창백한 입술 관상, 검붉은 입술 관상, 입술 혈색 관상
 - 하위 키워드 EN: red lips gwansang, pale lips fortune, lip color health korean
-- 작성 지침: mouth-lips(입술 모양 전체)과 다름. 입술 색 특화. 색깔별 건강·성격·운세 분석.
+- 작성 지침: mouth-lips(입술 모양 전체)과 다름. 입꼬리·입술 두께가 아니라 입술 혈색과 일시적 컨디션 신호만 다룬다. 건강 단정 표현 금지.
 
-[ ] 59. 관상 손 — 손 모양으로 보는 성격과 재물운
-- slug: `hand-reading`
+[ ] 59. 손바닥 관상 — 손 크기·두께로 보는 재물운과 실행력
+- slug: `palm-shape-reading`
 - 카테고리: `face-reading`
-- 메인 키워드 KO: 손 관상, 관상 손 모양
-- 메인 키워드 EN: hand reading gwansang, hand shape fortune korean
-- 하위 키워드 KO: 손가락 관상, 손 두꺼우면 관상, 손 길면 관상, 손 재물운
-- 하위 키워드 EN: finger shape gwansang, thick hands fortune, long fingers reading korean
-- 작성 지침: 손 크기·손가락 길이·손바닥 두께·손 모양별 성격·재물운·직업운 분석.
+- 메인 키워드 KO: 손바닥 관상, 손 크기 관상
+- 메인 키워드 EN: palm shape gwansang, hand size fortune korean
+- 하위 키워드 KO: 손바닥 두꺼우면 관상, 손이 크면 관상, 손 재물운, 손바닥 모양 성격
+- 하위 키워드 EN: thick palm fortune, large hand gwansang, palm shape personality
+- 작성 지침: finger-reading(손가락 특화)과 다름. 손가락 길이는 제외하고 손바닥 크기·두께·탄력·손 전체 비율만 다룬다.
 
-[ ] 60. 관상 코끝 — 코끝 모양으로 보는 재물운 분석
+[ ] 60. 준두 관상 — 코끝 살집으로 보는 돈 관리 습관
 - slug: `nose-tip-reading`
 - 카테고리: `face-reading`
-- 메인 키워드 KO: 관상 코끝, 코끝 관상
+- 메인 키워드 KO: 준두 관상, 코끝 살집 관상
 - 메인 키워드 EN: nose tip gwansang, nose tip fortune korean face reading
 - 하위 키워드 KO: 코끝 둥글면 관상, 코끝 뾰족하면 관상, 코끝 재물운, 코끝 성격
 - 하위 키워드 EN: round nose tip gwansang, pointed nose tip fortune, nose tip money luck
-- 작성 지침: nose-reading(코 전체)과 다름. 코끝 모양 특화. 재물운·성격 집중 분석.
+- 작성 지침: nose-reading(코 전체)·wealth-face(재물 관상 총론)와 다름. 준두의 살집, 둥근형·뾰족형·들린형 차이를 돈을 모으는 습관과 소비 성향 중심으로 분석.
 
-[ ] 61. 관상 얼굴 색 — 얼굴 색으로 보는 건강과 운세
-- slug: `face-color-reading`
+[ ] 61. 법령선 관상 — 코 옆 주름으로 보는 책임감과 말년운
+- slug: `nasolabial-line-reading`
 - 카테고리: `face-reading`
-- 메인 키워드 KO: 관상 얼굴 색, 얼굴 색 운세
-- 메인 키워드 EN: face color gwansang, complexion fortune korean
-- 하위 키워드 KO: 얼굴 붉으면 관상, 얼굴 창백하면 관상, 얼굴 색 건강, 피부 색 관상
-- 하위 키워드 EN: red face gwansang, pale complexion fortune, skin color reading korean
-- 작성 지침: 얼굴 색 계통별(홍조/창백/황색/어두움) 건강·운세·성격 분석.
+- 메인 키워드 KO: 법령선 관상, 팔자주름 관상
+- 메인 키워드 EN: nasolabial line gwansang, smile line face reading korean
+- 하위 키워드 KO: 코 옆 주름 관상, 법령선 깊으면, 팔자주름 말년운, 법령선 직업운
+- 하위 키워드 EN: deep nasolabial folds fortune, smile line gwansang, face line career luck
+- 작성 지침: health-face(얼굴색/기색)와 겹치지 않도록 얼굴색을 다루지 않는다. 법령선 깊이·길이·좌우 차이와 책임감·말년운 해석 중심.
 
-[ ] 62. 관상 손가락 — 손가락 모양으로 보는 성격과 직업운
+[ ] 62. 손가락 마디 관상 — 길이 비율로 보는 일 처리 방식
 - slug: `finger-reading`
 - 카테고리: `face-reading`
-- 메인 키워드 KO: 관상 손가락, 손가락 관상
+- 메인 키워드 KO: 손가락 마디 관상, 손가락 길이 관상
 - 메인 키워드 EN: finger reading gwansang, finger shape fortune korean
 - 하위 키워드 KO: 손가락 길면 관상, 손가락 짧으면 관상, 손가락 두꺼우면 직업, 엄지손가락 관상
 - 하위 키워드 EN: long fingers gwansang, short fingers fortune, thumb shape reading korean
-- 작성 지침: hand-reading(손 전체)과 다름. 손가락 특화. 각 손가락 길이·모양별 성격·직업운 분석.
+- 작성 지침: hand-reading(손 전체)과 다름. 손가락 길이 비율, 굵기, 마디, 손톱 모양으로 일 처리 방식과 직업 성향을 분석.
 
 [ ] 63. 관상 눈동자 — 눈동자 색과 크기로 보는 성격과 운명
 - slug: `eye-pupil-reading`
@@ -614,68 +615,68 @@
 
 ### [MBTI] 신규 시리즈
 
-[ ] 64. 2026 MBTI별 운세 — 16가지 유형 병오년 흐름 완전 분석
+[ ] 64. 2026 MBTI 운세표 — 병오년 16유형별 주의 키워드
 - slug: `mbti-fortune-2026`
 - 카테고리: `mbti`
 - 메인 키워드 KO: 2026 MBTI 운세, MBTI별 운세 2026
 - 메인 키워드 EN: MBTI fortune 2026, personality type horoscope 2026
 - 하위 키워드 KO: MBTI 2026 흐름, 병오년 MBTI, INFP 2026 운세, ENFJ 2026 운세
 - 하위 키워드 EN: MBTI 2026 forecast, 16 personality types fortune 2026, korean astrology MBTI
-- 작성 지침: 16유형별 2026 병오년 키워드·재물·연애·주의점 요약. 표 형식 권장.
+- 작성 지침: infp-saju 등 개별 유형 글과 다름. 16유형별 2026 병오년 핵심 키워드, 주의점, 참고 링크를 표로 요약하는 허브형 글.
 
-[ ] 65. INFP 사주 — 이상주의자의 운명과 2026 흐름
+[ ] 65. INFP 사주 — 감수성과 편인 기운으로 보는 2026 흐름
 - slug: `infp-saju`
 - 카테고리: `mbti`
 - 메인 키워드 KO: INFP 사주, INFP 운세
 - 메인 키워드 EN: INFP saju, INFP korean astrology fortune
-- 하위 키워드 KO: INFP 2026 운세, INFP 일주, INFP 사주 특징, INFP 재물운, INFP 연애운
+- 하위 키워드 KO: INFP 2026 운세, INFP 편인 기질, INFP 사주 특징, INFP 연애운
 - 하위 키워드 EN: INFP four pillars, INFP personality saju, INFP fortune 2026
-- 작성 지침: infj-saju 포맷 동일. INFP와 연결 사주 일간/오행. 2026 운세 포함.
+- 작성 지침: infj-saju와 반복 금지. INFP의 감수성·몰입·회피 패턴을 편인/수기운 관점으로 연결하고, 2026 흐름은 보조 섹션으로만 다룬다.
 
-[ ] 66. ENFP 사주 — 활동가의 운명과 2026 흐름
+[ ] 66. ENFP 사주 — 식상 강한 활동가의 재물·연애 흐름
 - slug: `enfp-saju`
 - 카테고리: `mbti`
 - 메인 키워드 KO: ENFP 사주, ENFP 운세
 - 메인 키워드 EN: ENFP saju, ENFP korean astrology fortune
-- 하위 키워드 KO: ENFP 2026 운세, ENFP 일주, ENFP 사주 특징, ENFP 재물운
+- 하위 키워드 KO: ENFP 식상, ENFP 사주 특징, ENFP 재물운, ENFP 연애운
 - 하위 키워드 EN: ENFP four pillars, ENFP personality saju, ENFP fortune 2026
-- 작성 지침: ENFP 활발함·산만함 → 사주 식상과 연결. 2026 운세 포함.
+- 작성 지침: ENFP의 표현력·확장성·산만함을 식상 관점으로 연결한다. INFP/ENTP 글과 같은 H2 순서 반복 금지.
 
-[ ] 67. INTJ 사주 — 전략가의 운명과 2026 흐름
+[ ] 67. INTJ 사주 — 관성·인성 강한 전략가의 직업운
 - slug: `intj-saju`
 - 카테고리: `mbti`
 - 메인 키워드 KO: INTJ 사주, INTJ 운세
 - 메인 키워드 EN: INTJ saju, INTJ korean astrology fortune
-- 하위 키워드 KO: INTJ 2026 운세, INTJ 일주, INTJ 사주 특징, INTJ 직업운
+- 하위 키워드 KO: INTJ 관성, INTJ 인성, INTJ 사주 특징, INTJ 직업운
 - 하위 키워드 EN: INTJ four pillars, INTJ personality saju, INTJ fortune 2026
-- 작성 지침: INTJ 전략적·냉철함 → 사주 관성·인성과 연결. 2026 운세 포함.
+- 작성 지침: INTJ의 계획성·통제감·장기 전략을 관성/인성 관점으로 연결한다. 2026 운세보다 직업운과 의사결정 패턴을 중심에 둔다.
 
-[ ] 68. ENTP 사주 — 논쟁가의 운명과 2026 흐름
+[ ] 68. ENTP 사주 — 상관 기질과 논쟁 에너지를 쓰는 법
 - slug: `entp-saju`
 - 카테고리: `mbti`
 - 메인 키워드 KO: ENTP 사주, ENTP 운세
 - 메인 키워드 EN: ENTP saju, ENTP korean astrology fortune
-- 하위 키워드 KO: ENTP 2026 운세, ENTP 일주, ENTP 사주 특징, ENTP 재물운
+- 하위 키워드 KO: ENTP 상관, ENTP 사주 특징, ENTP 말재주, ENTP 재물운
 - 하위 키워드 EN: ENTP four pillars, ENTP personality saju, ENTP fortune 2026
-- 작성 지침: ENTP 창의적·논쟁적 → 사주 상관과 연결. 2026 운세 포함.
+- 작성 지침: ENTP의 논쟁성·아이디어 생산·규칙 충돌을 상관 관점으로 분석한다. 2026 흐름은 말/계약/대인관계 주의점만 보조로 둔다.
 
-[ ] 69. ISFJ 사주 — 수호자의 운명과 2026 흐름
+[ ] 69. ISFJ 사주 — 정인 기질과 돌봄형 관계운
 - slug: `isfj-saju`
 - 카테고리: `mbti`
 - 메인 키워드 KO: ISFJ 사주, ISFJ 운세
 - 메인 키워드 EN: ISFJ saju, ISFJ korean astrology fortune
-- 하위 키워드 KO: ISFJ 2026 운세, ISFJ 일주, ISFJ 사주 특징, ISFJ 연애운
+- 하위 키워드 KO: ISFJ 정인, ISFJ 사주 특징, ISFJ 연애운, ISFJ 가족운
 - 하위 키워드 EN: ISFJ four pillars, ISFJ personality saju, ISFJ fortune 2026
-- 작성 지침: ISFJ 헌신적·보수적 → 사주 인성·정인과 연결. 2026 운세 포함.
+- 작성 지침: ISFJ의 돌봄·안정 추구·책임감을 정인 관점으로 연결한다. 관계운과 가족 내 역할을 중심으로 쓰고 2026 운세는 짧게만 다룬다.
 
-[ ] 70. MBTI별 재물운 사주 — 16유형 돈복 완전 분석
+[ ] 70. MBTI별 돈 쓰는 패턴 — 사주 재성으로 보는 16유형 재물관리
 - slug: `mbti-wealth-saju`
 - 카테고리: `mbti`
-- 메인 키워드 KO: MBTI 재물운, MBTI별 돈복
+- 메인 키워드 KO: MBTI 돈 쓰는 패턴, MBTI 재물관리 사주
 - 메인 키워드 EN: MBTI wealth fortune, personality type money luck saju
 - 하위 키워드 KO: MBTI 돈복 순위, MBTI 재물운 사주, 내향형 외향형 재물운
 - 하위 키워드 EN: MBTI financial luck, 16 types wealth saju, introvert extrovert money luck
-- 작성 지침: 각 MBTI 유형과 사주 재성 연결. 재물운 강한/약한 유형과 대처법.
+- 작성 지침: wealth-luck(사주 재물운 총론)·compatibility-table(MBTI 궁합표)와 다름. MBTI 유형별 소비 습관, 저축 약점, 사주 재성 관점의 재물관리 팁을 연결.
 
 [ ] 71. MBTI별 건강 약점 — 사주로 보는 16유형 건강 관리법
 - slug: `mbti-health-saju`
@@ -686,14 +687,14 @@
 - 하위 키워드 EN: MBTI stress health, 16 personality health tips, introvert health saju
 - 작성 지침: MBTI 유형별 오행과 연결해 취약 장기·스트레스 패턴·건강 관리법 분석.
 
-[ ] 72. MBTI별 행운의 색상과 오행 — 내 유형에 맞는 개운법
+[ ] 72. MBTI별 오행 아이템 — 유형별 생활 루틴과 개운 소품
 - slug: `mbti-lucky-color`
 - 카테고리: `mbti`
-- 메인 키워드 KO: MBTI 행운의 색상, MBTI 개운법
-- 메인 키워드 EN: MBTI lucky color ohaeng, personality type lucky color korean
-- 하위 키워드 KO: MBTI 색깔 운세, MBTI별 행운 아이템, 오행 색깔 MBTI
-- 하위 키워드 EN: MBTI fortune color, lucky item by MBTI, 16 types lucky color
-- 작성 지침: 각 MBTI와 사주 오행 연결 → 행운의 색상·방향·아이템 제안.
+- 메인 키워드 KO: MBTI 오행 아이템, MBTI 개운 아이템
+- 메인 키워드 EN: MBTI five elements items, personality type lucky item korean
+- 하위 키워드 KO: MBTI별 행운 아이템, 오행 소품, MBTI 생활 루틴, 성격유형 개운 소품
+- 하위 키워드 EN: lucky item by MBTI, five elements routine, personality type fortune item
+- 작성 지침: 사주 행운의 색상 글과 겹치지 않도록 색상 자체는 보조로만 다룬다. 유형별 루틴, 책상/가방/생활 소품, 행동 습관 중심.
 
 [ ] 73. MBTI 부모자녀 궁합 — 사주로 보는 부모-자녀 관계
 - slug: `mbti-parent-child`
@@ -713,90 +714,90 @@
 - 하위 키워드 EN: MBTI coworker compatibility, best boss MBTI, worst boss MBTI
 - 작성 지침: 대표 상사-부하 MBTI 조합별 궁합·갈등 패턴·협업 전략 분석.
 
-[ ] 75. MBTI 스트레스 해소법 — 유형별 맞춤 개운법 완전 가이드
+[ ] 75. MBTI 번아웃 회복 루틴 — 오행으로 맞추는 유형별 개운법
 - slug: `mbti-stress-fortune`
 - 카테고리: `mbti`
-- 메인 키워드 KO: MBTI 스트레스 해소법, MBTI 개운법
+- 메인 키워드 KO: MBTI 번아웃, MBTI 스트레스 루틴
 - 메인 키워드 EN: MBTI stress relief, personality type fortune improvement
 - 하위 키워드 KO: MBTI 번아웃, 내향형 스트레스, 외향형 충전, MBTI 힐링
 - 하위 키워드 EN: MBTI burnout recovery, introvert recharge, extrovert stress relief
-- 작성 지침: fortune-improvement(개운 일반)와 다름. MBTI 유형별 스트레스 패턴과 오행 개운법 연결.
+- 작성 지침: fortune-improvement(개운 일반)와 다름. MBTI 유형별 번아웃 신호, 회복 루틴, 오행 개운법을 연결하되 건강·심리 치료처럼 단정하지 않는다.
 
 ---
 
 ### [궁합·복합] 손금 시리즈
 
-[ ] 76. 2026 사주 궁합 — 병오년에 잘 맞는 일주와 띠 완전 분석
+[ ] 76. 2026 일주 궁합 — 병오년에 충·합이 강해지는 일주 조합
 - slug: `gunghap-2026`
 - 카테고리: `bokhap`
-- 메인 키워드 KO: 2026 사주 궁합, 사주 궁합 2026
-- 메인 키워드 EN: saju compatibility 2026, korean astrology couple match 2026
-- 하위 키워드 KO: 병오년 궁합, 2026 결혼 궁합, 띠별 궁합 2026, 일주 궁합 2026
-- 하위 키워드 EN: byeongo year compatibility, 2026 marriage saju, zodiac match 2026 korean
-- 작성 지침: couple-saju(일반 이론)와 다름. 2026 병오 세운 기준 궁합 유리한 조합 + 결혼 타이밍.
+- 메인 키워드 KO: 2026 일주 궁합, 병오년 일주 궁합
+- 메인 키워드 EN: day pillar compatibility 2026, saju iljoo compatibility 2026
+- 하위 키워드 KO: 오화 일주 궁합, 자오충 궁합, 일지 합 궁합, 2026 커플 일주
+- 하위 키워드 EN: day branch compatibility 2026, fire horse year couple saju, iljoo match korean
+- 작성 지침: couple-saju(일반 이론), zodiac-gunghap-2026(띠 궁합)과 다름. 2026 병오 세운 기준 일지 충·합·형 중심으로 커플 일주 조합만 분석한다.
 
-[ ] 77. 손금 감정선 — 연애운·감정 패턴 완전 분석
+[ ] 77. 감정선 시작점과 끊김 — 연애 패턴 손금 해석
 - slug: `heart-line-palmistry`
 - 카테고리: `bokhap`
 - 메인 키워드 KO: 손금 감정선, 감정선 손금
 - 메인 키워드 EN: heart line palmistry, love line palm reading korean
 - 하위 키워드 KO: 감정선 보는법, 손금 연애운, 감정선 끊기면, 감정선 길면, 감정선 짧으면
 - 하위 키워드 EN: heart line meaning palmistry, broken heart line, love line long short
-- 작성 지침: palmistry(총론)와 다름. 감정선 시작점/끝점/모양/끊김별 연애 패턴 실전 분석.
+- 작성 지침: palmistry(손금 총론)와 다름. 감정선 시작점·끝점·끊김·갈라짐을 중심으로 연애 반응 패턴을 분석.
 
-[ ] 78. 손금 생명선 — 건강·수명·활력 완전 분석
+[ ] 78. 생명선 길이보다 중요한 것 — 활력과 생활 리듬 손금 해석
 - slug: `life-line-palmistry`
 - 카테고리: `bokhap`
 - 메인 키워드 KO: 손금 생명선, 생명선 손금
 - 메인 키워드 EN: life line palmistry, life line palm reading korean
 - 하위 키워드 KO: 생명선 짧으면, 생명선 끊기면, 손금 건강, 손금 수명, 생명선 보는법
 - 하위 키워드 EN: short life line meaning, broken life line palmistry, health palm reading
-- 작성 지침: 생명선 길이/굵기/형태/끊김별 건강·활력·수명 분석. 짧으면 단명이라는 오해 정정.
+- 작성 지침: 생명선 길이·굵기·형태·끊김별 활력과 생활 리듬을 분석. 짧으면 단명이라는 오해를 정정하고 건강 단정 표현 금지.
 
-[ ] 79. 손금 재물선 — 돈복·재물운 완전 분석
+[ ] 79. 재물선 위치와 굵기 — 돈이 모이는 방식 손금 해석
 - slug: `money-line-palmistry`
 - 카테고리: `bokhap`
 - 메인 키워드 KO: 손금 재물선, 재물선 손금
 - 메인 키워드 EN: money line palmistry, wealth line palm reading korean
 - 하위 키워드 KO: 재물선 있으면, 재물선 없으면, 손금 돈복, 손금 재물운, 재물선 보는법
 - 하위 키워드 EN: wealth line meaning palmistry, no money line palm, fortune line reading
-- 작성 지침: 재물선 유무·위치·굵기별 재물운 분석. 재물선 없어도 돈 버는 경우 포함.
+- 작성 지침: 재물선 유무·위치·굵기별 돈이 모이는 방식과 관리 습관을 분석. 재물선 없어도 돈 버는 경우 포함.
 
-[ ] 80. 손금 두뇌선 — 지능·직업운·사고 패턴 완전 분석
+[ ] 80. 두뇌선 기울기 — 사고방식과 직업 선택 손금 해석
 - slug: `head-line-palmistry`
 - 카테고리: `bokhap`
 - 메인 키워드 KO: 손금 두뇌선, 두뇌선 손금
 - 메인 키워드 EN: head line palmistry, wisdom line palm reading korean
 - 하위 키워드 KO: 두뇌선 보는법, 두뇌선 길면, 두뇌선 끊기면, 손금 지능, 두뇌선 직업
 - 하위 키워드 EN: long head line palmistry, broken head line, intelligence palm reading
-- 작성 지침: 두뇌선 길이/기울기/모양별 사고방식·직업운·창의력 분석.
+- 작성 지침: 두뇌선 길이·기울기·분기 형태별 사고방식, 판단 습관, 직업 선택 기준을 분석.
 
-[ ] 81. 손금 운명선 — 인생 방향·직업 변화 완전 분석
+[ ] 81. 운명선 유무와 시작점 — 직업 변화 흐름 손금 해석
 - slug: `fate-line-palmistry`
 - 카테고리: `bokhap`
 - 메인 키워드 KO: 손금 운명선, 운명선 손금
 - 메인 키워드 EN: fate line palmistry, destiny line palm reading korean
 - 하위 키워드 KO: 운명선 없으면, 운명선 끊기면, 손금 운명, 운명선 보는법, 직업 변화 손금
 - 하위 키워드 EN: no fate line meaning, broken fate line, career change palm reading
-- 작성 지침: 운명선 유무·굵기·시작점별 인생 방향·직업 변화·주도성 분석.
+- 작성 지침: 운명선 유무·굵기·시작점별 직업 변화 흐름, 인생 방향, 주도성을 분석.
 
-[ ] 82. 임오일주(壬午) 완전 분석 — 특징·연애·2026 운세
+[ ] 82. 임오일주(壬午) — 물과 불이 부딪히는 감정 기복과 2026 흐름
 - slug: `imo-iljoo`
 - 카테고리: `saju`
 - 메인 키워드 KO: 임오일주, 임오일주 특징
 - 메인 키워드 EN: imo day pillar saju, imo iljoo personality
-- 하위 키워드 KO: 임오일주 성격, 임오일주 연애, 임오일주 직업, 임오일주 2026 운세, 壬午 일주
+- 하위 키워드 KO: 임오일주 감정기복, 임오일주 연애, 임오일주 직업, 임오일주 2026 운세, 壬午 일주
 - 하위 키워드 EN: imo four pillars traits, horse water day pillar korean, imo iljoo fortune
-- 작성 지침: 임오일주(壬午) 성격·직업·연애·2026 병오년 특별 영향(임오 vs 병오 관계) 분석. 일주 검색 수요 높음.
+- 작성 지침: 임오일주(壬午)의 임수와 오화 충돌, 감정 기복, 관계 속도 조절을 중심으로 분석. 일반 일주 템플릿 반복 금지.
 
-[ ] 83. 2026 띠별 궁합 — 병오년에 잘 맞는 띠 조합 완전 분석
+[ ] 83. 2026 띠 궁합표 — 병오년에 충·합이 강한 12띠 조합
 - slug: `zodiac-gunghap-2026`
 - 카테고리: `bokhap`
 - 메인 키워드 KO: 2026 띠별 궁합, 띠 궁합 2026
 - 메인 키워드 EN: zodiac compatibility 2026 korean, 2026 chinese zodiac match
 - 하위 키워드 KO: 병오년 띠 궁합, 2026 최고 궁합 띠, 2026 최악 궁합 띠, 12띠 궁합 2026
 - 하위 키워드 EN: 2026 zodiac sign compatibility, korean zodiac match 2026, best zodiac pair 2026
-- 작성 지침: 2026 병오년 세운 기준 12띠별 궁합 조합. 최고/최악 조합 표 형식 포함.
+- 작성 지침: gunghap-2026(일주 궁합)과 다름. 2026 병오년 세운 기준 12띠별 충·합 조합을 표로 정리하고, 일주 궁합보다 거친 참고 지표라는 한계를 설명.
 
 [ ] 84. 직장 동료 궁합 사주 — 함께 일하면 좋은 사주 조합
 - slug: `coworker-compatibility`
@@ -825,23 +826,23 @@
 - 하위 키워드 EN: child saju reading, parent child compatibility four pillars, family harmony saju
 - 작성 지침: 부모-자녀 일주 조합별 관계 특징·갈등 원인·교육 조언 분석.
 
-[ ] 87. 이별 시기 사주로 보기 — 이별 신호와 극복 방법
+[ ] 87. 이별운이 강해지는 사주 신호 — 충·형·공망으로 보는 관계 변화
 - slug: `breakup-saju`
 - 카테고리: `bokhap`
-- 메인 키워드 KO: 이별 시기 사주, 사주 이별 신호
+- 메인 키워드 KO: 사주 이별 신호, 이별운 사주
 - 메인 키워드 EN: breakup timing saju, separation fortune korean astrology
-- 하위 키워드 KO: 사주 이별 시기, 이별 운세, 헤어짐 사주, 이별 극복 사주
+- 하위 키워드 KO: 배우자궁 충, 자오충 이별, 사주 관계 변화, 이별 후 회복운
 - 하위 키워드 EN: saju breakup sign, when will I break up saju, separation saju korean
-- 작성 지침: 이별 시기 예고하는 사주 신호. 이별 후 회복 운세. 재결합 가능성 분석.
+- 작성 지침: 연애운 일반론과 다름. 확정적 이별 예언 금지. 충·형·공망·대운 변화가 관계에 압박을 주는 구조와 회복 포인트 중심.
 
-[ ] 88. 재혼운 사주 — 두 번째 결혼 시기와 좋은 조합
+[ ] 88. 재혼운 사주 — 두 번째 인연을 보는 배우자궁·대운 조건
 - slug: `remarriage-saju`
 - 카테고리: `bokhap`
-- 메인 키워드 KO: 재혼운 사주, 사주 재혼 시기
+- 메인 키워드 KO: 재혼운 사주, 사주 재혼운
 - 메인 키워드 EN: remarriage saju, second marriage fortune korean astrology
-- 하위 키워드 KO: 재혼 사주, 재혼 시기 사주, 재혼운 좋은 사주, 이혼 후 재혼
+- 하위 키워드 KO: 재혼 시기 사주, 배우자궁 재혼, 이혼 후 인연운, 재혼 대운
 - 하위 키워드 EN: saju second marriage timing, remarriage luck korean, divorce remarriage saju
-- 작성 지침: 재혼운 강한 사주 특징. 재혼 시기 예측. 재혼 잘 되는 일간·조합 분석.
+- 작성 지침: 2026 결혼운·일반 결혼운과 다름. 두 번째 인연을 보는 배우자궁, 대운 전환, 관계 회복 조건 중심. 특정 시기 단정 금지.
 
 [ ] 89. 형제자매 사주 궁합 — 가족 내 관계와 운세 분석
 - slug: `sibling-saju`
@@ -883,74 +884,74 @@
 - 하위 키워드 EN: korean dream fortune, four pillars dream meaning, lucky dream korean
 - 작성 지침: 꿈의 내용을 오행·사주와 연결해 해석하는 방법. 자주 꾸는 꿈 유형별 의미 분석.
 
-[ ] 93. 경신일주(庚申) 완전 분석 — 특징·연애·2026 운세
+[ ] 93. 경신일주(庚申) — 강한 금기운의 실행력과 2026 압박
 - slug: `gyeongsin-iljoo`
 - 카테고리: `saju`
 - 메인 키워드 KO: 경신일주, 경신일주 특징
 - 메인 키워드 EN: gyeongsin day pillar saju, gyeongsin iljoo personality
-- 하위 키워드 KO: 경신일주 성격, 경신일주 연애, 경신일주 직업, 경신일주 2026 운세, 庚申 일주
+- 하위 키워드 KO: 경신일주 실행력, 경신일주 연애, 경신일주 직업, 경신일주 2026 운세, 庚申 일주
 - 하위 키워드 EN: gyeongsin four pillars traits, monkey metal day pillar korean, gyeongsin iljoo fortune
-- 작성 지침: 경신일주(庚申) 성격·직업·연애·2026 운세 분석. 일주 중 검색 수요가 높은 편.
+- 작성 지침: 경신일주(庚申)의 금기운, 결단력, 압박 상황에서의 실행력을 중심으로 분석. 갑자/갑오/경자 일주 글과 같은 H2 반복 금지.
 
-[ ] 94. 사주 체질별 음식 — 오행으로 찾는 나에게 맞는 식단
-- slug: `saju-food-fortune`
+[ ] 94. 오행 음식 궁합 — 목화토금수별 음식 선택 가이드
+- slug: `ohaeng-food-guide`
 - 카테고리: `saju`
-- 메인 키워드 KO: 사주 체질 음식, 오행 음식
-- 메인 키워드 EN: saju food diet, five elements food korean
-- 하위 키워드 KO: 사주 음식 추천, 오행 음식 궁합, 일간별 음식, 체질 식단 사주
+- 메인 키워드 KO: 오행 음식 궁합, 오행 음식
+- 메인 키워드 EN: five elements food guide, ohaeng food compatibility
+- 하위 키워드 KO: 목 기운 음식, 화 기운 음식, 토 기운 음식, 금수 음식, 오행별 식단
 - 하위 키워드 EN: four pillars food recommendation, saju diet plan, ohaeng food guide
-- 작성 지침: 오행별 유익한 음식·피해야 할 음식 정리. 일간/용신 기준 식단 추천.
+- 작성 지침: health-saju와 ilgan-health-weakness와 다름. 질병·체질 진단이 아니라 오행 이미지별 음식 분류와 일상 선택 가이드. 의학적 효능 단정 금지.
 
-[ ] 95. 2026 신년운세 사주 — 병오년 생년별 운세 완전 정리
+[ ] 95. 2026 신년운세 요약 허브 — 재물·연애·건강·직업 상세글 연결
 - slug: `new-year-fortune-2026`
 - 카테고리: `saju`
-- 메인 키워드 KO: 2026 신년운세, 신년운세 2026
+- 메인 키워드 KO: 2026 신년운세 요약, 2026 운세 총정리
 - 메인 키워드 EN: 2026 new year fortune korean, korean new year saju 2026
-- 하위 키워드 KO: 병오년 신년운세, 2026 생년별 운세, 2026 운세 총정리, 새해 운세 2026
+- 하위 키워드 KO: 병오년 신년운세, 2026 재물운 요약, 2026 연애운 요약, 2026 건강운 요약
 - 하위 키워드 EN: 2026 saju forecast, korean new year astrology 2026, byeongo year fortune
-- 작성 지침: 신년운세 키워드 월 수만 검색. 2026 병오년 생년별(12띠) 운세 핵심 요약. 재물/연애/건강/직업 4가지 항목으로 정리. 표 형식 권장.
+- 작성 지침: zodiac-2026, annual-fortune, 2026 세부 운세 글과 겹치지 않게 허브형 요약으로 작성. 재물·연애·건강·직업 상세 글로 내부링크를 분명히 연결한다.
 
-[ ] 96. 갑진일주(甲辰) 완전 분석 — 특징·연애·2026 운세
+[ ] 96. 갑진일주(甲辰) — 추진력과 고집이 공존하는 용의 일주
 - slug: `gapjin-iljoo`
 - 카테고리: `saju`
 - 메인 키워드 KO: 갑진일주, 갑진일주 특징
 - 메인 키워드 EN: gapjin day pillar saju, gapjin iljoo personality
-- 하위 키워드 KO: 갑진일주 성격, 갑진일주 연애, 갑진일주 직업, 갑진일주 2026 운세
+- 하위 키워드 KO: 갑진일주 추진력, 갑진일주 고집, 갑진일주 연애, 갑진일주 직업, 갑진일주 2026 운세
 - 하위 키워드 EN: gapjin four pillars traits, dragon wood day pillar korean astrology
-- 작성 지침: 갑진일주(甲辰) 성격·직업·연애·2026 운세 특화 분석.
+- 작성 지침: 갑진일주(甲辰)의 갑목 추진력과 진토의 저장성·고집을 중심으로 차별화한다. 기존 갑목 일간 글과 중복되지 않게 일지 진토 해석을 강화.
 
-[ ] 97. 무진일주(戊辰) 완전 분석 — 특징·연애·2026 운세
+[ ] 97. 무진일주(戊辰) — 묵직한 책임감과 속도 조절이 필요한 일주
 - slug: `mujin-iljoo`
 - 카테고리: `saju`
 - 메인 키워드 KO: 무진일주, 무진일주 특징
 - 메인 키워드 EN: mujin day pillar saju, mujin iljoo personality
-- 하위 키워드 KO: 무진일주 성격, 무진일주 연애, 무진일주 직업, 무진일주 2026 운세
+- 하위 키워드 KO: 무진일주 책임감, 무진일주 고집, 무진일주 연애, 무진일주 직업, 무진일주 2026 운세
 - 하위 키워드 EN: mujin four pillars traits, dragon earth day pillar korean astrology
-- 작성 지침: 무진일주(戊辰) 성격·직업·연애·2026 운세 특화 분석.
+- 작성 지침: 무진일주(戊辰)의 토기운 중첩, 책임감, 느린 결정과 깊은 지속력을 중심으로 차별화한다. 갑진일주와 같은 용띠 일지라도 목/토 차이를 분명히 설명.
 
-[ ] 98. 경오일주(庚午) 완전 분석 — 특징·연애·2026 운세
+[ ] 98. 경오일주(庚午) — 강한 금과 오화가 부딪히는 2026 흐름
 - slug: `gyeongo-iljoo`
 - 카테고리: `saju`
 - 메인 키워드 KO: 경오일주, 경오일주 특징
 - 메인 키워드 EN: gyeongo day pillar saju, gyeongo iljoo personality
-- 하위 키워드 KO: 경오일주 성격, 경오일주 연애, 경오일주 직업, 경오일주 2026 운세
+- 하위 키워드 KO: 경오일주 화극금, 경오일주 연애, 경오일주 직업, 경오일주 2026 운세
 - 하위 키워드 EN: gyeongo four pillars traits, horse metal day pillar korean astrology
-- 작성 지침: 경오일주(庚午) 성격·직업·연애·2026 병오년 특별 영향 분석.
+- 작성 지침: 경오일주(庚午)의 경금과 오화 관계, 병오년 화기 압박, 결단력과 과열 리스크를 중심으로 분석. 갑오/임오 글과 반복 금지.
 
-[ ] 99. 사주 정확도 — 사주는 얼마나 맞을까? 과학적 분석
+[ ] 99. 사주 정확도 — 맞는 이유와 한계를 균형 있게 보는 법
 - slug: `saju-accuracy`
 - 카테고리: `saju`
 - 메인 키워드 KO: 사주 정확도, 사주는 얼마나 맞나
 - 메인 키워드 EN: saju accuracy, how accurate is korean astrology
-- 하위 키워드 KO: 사주 신뢰도, 사주 맞는 이유, 사주 틀리는 이유, 사주 과학
-- 하위 키워드 EN: four pillars reliability, is saju real, korean fortune accuracy study
-- 작성 지침: 사주의 원리·한계·정확도에 대한 균형 잡힌 분석. 맞는 경우/틀리는 경우 이유 설명.
+- 하위 키워드 KO: 사주 신뢰도, 사주 맞는 이유, 사주 틀리는 이유, 사주 해석 한계
+- 하위 키워드 EN: four pillars reliability, is saju real, limits of saju reading
+- 작성 지침: 과학적 검증처럼 단정하지 않는다. 사주가 맞아 보이는 구조적 이유, 틀리는 이유, 해석자의 한계, 참고 정보로 활용하는 법을 균형 있게 설명.
 
-[ ] 100. 무료 사주 사이트 비교 — 정확도 높은 사주 앱·사이트 추천
-- slug: `free-saju-site`
+[ ] 100. 무료 사주 풀이 체크리스트 — 정확한 결과를 위해 준비할 정보
+- slug: `free-saju-checklist`
 - 카테고리: `saju`
-- 메인 키워드 KO: 무료 사주 사이트, 사주 앱 추천
-- 메인 키워드 EN: free saju website, best korean astrology app
-- 하위 키워드 KO: 사주 무료 보기, 무료 사주 앱, 사주 사이트 비교, 정확한 사주 사이트
-- 하위 키워드 EN: free four pillars reading site, saju app comparison, best free saju online
-- 작성 지침: 주요 무료 사주 사이트·앱 비교. sajupalza.cc 포함해 기능·정확도·UI 기준 비교. 자연스럽게 서비스 소개.
+- 메인 키워드 KO: 무료 사주 풀이 준비, 사주 풀이 체크리스트
+- 메인 키워드 EN: free saju reading checklist, prepare for saju reading
+- 하위 키워드 KO: 생년월일 사주 준비, 생시 확인법, 음력 양력 확인, 사주 질문 정리
+- 하위 키워드 EN: birth time saju checklist, lunar solar date saju, questions before saju reading
+- 작성 지침: free-saju-2026(무료 풀이 방법)과 다름. 사이트·앱 비교나 홍보성 추천이 아니라 정확한 풀이를 위해 독자가 준비해야 할 정보 체크리스트 중심.

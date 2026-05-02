@@ -1,28 +1,10 @@
-## 신규 포스팅 목록 (now-posting.md 동기화)
-# 전체 100개 목록 및 완료 현황은 now-posting.md 참조
-# [ ] = 미완료 / [ V] = 완료
-# 글 작성 완료 시 now-posting.md AND 이 파일 양쪽 모두 [ V] 로 업데이트할 것
+## 문서 역할 분리
 
-### 오늘 작성 (★ 최우선)
-[ V] 1. 2026 사주 무료 풀이 — slug: free-saju-2026 / 카테고리: saju
-[ V] 2. 2026 일주별 운세 — slug: iljoo-fortune-2026 / 카테고리: saju
-[ V] 3. 2026 연애운 사주 — slug: love-fortune-2026 / 카테고리: saju
-
-### 추가 완료
-[ V] 4. 2026 재물운 사주 — slug: wealth-fortune-2026 / 카테고리: saju
-[ V] 5. 2026 건강운 사주 — slug: health-fortune-2026 / 카테고리: saju
-[ V] 6. 2026 이직운 사주 — slug: career-change-2026 / 카테고리: saju
-[ V] 7. 2026 결혼운 사주 — slug: marriage-fortune-2026 / 카테고리: saju
-[ V] 8. 2026 사업운 사주 — slug: business-fortune-2026 / 카테고리: saju
-[ V] 9. 2026 학업운 사주 — slug: study-fortune-2026 / 카테고리: saju
-[ V] 10. 2026 사주 보는법 — slug: saju-reading-2026 / 카테고리: saju
-[ V] 15. 사주 식신·상관이란 — slug: sikshin-sanggwan / 카테고리: saju
-[ V] 16. 사주 비겁이란 — slug: bigyeop-saju / 카테고리: saju
-[ V] 17. 사주 인성이란 — slug: insung-saju / 카테고리: saju
-[ V] 12. 사주에서 화(火)가 많으면 — slug: too-much-fire-in-saju / 카테고리: saju
-[ V] 13. 사주에서 수(水)가 많으면 — slug: too-much-water-in-saju / 카테고리: saju
-
-### 키워드·작성 지침 전체 상세 내용 → now-posting.md 참조
+- `md-docs/now-posting.md`: 포스팅 순서, 작성 후보, slug/category/키워드/글별 작성 브리프, 완료 상태의 단일 원본.
+- `md-docs/post-codex-command.md`: 글 작성 규칙, SEO 규칙, 검수 규칙, 빌드·sitemap 확인 규칙의 단일 원본.
+- 글 작성 완료 시 완료 표시는 `md-docs/now-posting.md`에서만 갱신한다.
+- 이 파일에는 포스팅 목록, 완료 목록, 남은 글 수를 중복 기록하지 않는다.
+- 다음에 쓸 글을 고를 때는 `md-docs/now-posting.md`에서 첫 번째 `[ ]` 항목을 확인한다.
 
 ---
 
@@ -35,11 +17,6 @@
 - 하위 키워드는 각 H2 주제에 맞게 분산 배치하되, 한 문단에 몰아넣거나 같은 표현을 기계적으로 반복하지 않는다.
 - 한글이든 영어든 사용자가 실제 검색창에 입력해 유입될 수 있는 메인 키워드와 하위 키워드를 반드시 넣는다.
 - KO/EN 모두 `seoTitle`, `seoTitleEn`, `keywords`, `keywordsEn`, 첫 문단, 대표 H2, FAQ까지 같은 검색 의도를 기준으로 메인 키워드와 하위 키워드를 반영한다.
-- 이미지는 절대로 임의로 넣지 않는다.
-- 기존 포스트에서 이미 사용한 사진은 절대 다시 사용하지 않는다.
-- 아직 사용하지 않았더라도, 이 프로젝트 안에 들어 있는 기존 사진을 임의로 골라 쓰지 않는다.
-- 사용 가능한 이미지는 사용자가 직접 전달한 사진만으로 제한한다.
-- 사용자가 사진을 주지 않았으면 이미지는 넣지 않는 것을 원칙으로 한다.
 - 새 포스트 작성이 끝나면 `md-docs/now-posting.md`의 해당 제목 옆에 반드시 `[완료]`를 붙여 상태를 갱신한다.
 
 - 기존 문서를 억지로 수정하거나 재활용하는 것보다, `실제로 검색되는 키워드`를 기준으로 한 신규 글 발행을 우선한다.
@@ -158,6 +135,64 @@ Updated At: 2026-03-11 KST
 - 사용자가 엄격한 기준을 요구했는데 아이디어성 키워드를 섞지 않는다.
 - 검증되지 않은 내용을 "가능성", "아이디어", "감"으로 포장해서 제시하지 않는다.
 
+Updated At: 2026-05-02 KST
+
+## 0-AC. AdSense Low-Value Content Guardrails
+
+`md-docs/chamgo-command.md`에서 가져온 범용 품질 규칙 중, 현재 `sajupalza` 구조와 맞는 항목만 이 문서에 통합한다.
+MDX frontmatter, K-Style Hub, 장소형/뷰티형 글, `/hub/` 경로, `kpop-blog-topics-300.md` 관련 규칙은 이 프로젝트와 맞지 않으므로 적용하지 않는다.
+
+### [A1] 분량보다 정보 밀도를 우선한다
+
+[DO]
+- KO 본문은 가능한 한 충분한 실질 정보를 담고, 각 H2마다 다른 역할을 맡긴다.
+- 글자 수가 부족하면 같은 말을 늘리지 말고 사주 해석 단위를 추가한다.
+- 사주 글에서는 `천간`, `지지`, `일간`, `오행`, `십성`, `합충형파해`, `대운`, `세운`, `월별 흐름`, `실전 예시`, `오해 교정` 중 글 주제에 맞는 구체 항목을 넣는다.
+- 각 H2에는 다른 H2에 없는 해석 포인트나 예시가 최소 1개 이상 있어야 한다.
+
+[NOT]
+- 글자 수를 채우기 위해 같은 의미를 다른 표현으로 반복 금지.
+- 섹션 마지막에 "정리하자면", "결국", "핵심은" 같은 요약형 문장을 습관적으로 붙이는 것 금지.
+- 제목이나 불릿을 바로 아래 문단에서 같은 말로 다시 풀어 쓰는 것 금지.
+- 추상적인 연결 문장만으로 단락을 채우는 것 금지.
+
+### [A2] 대량 생성형 반복 패턴을 금지한다
+
+[DO]
+- H2 제목은 의문형, 서술형, 명사형, 조건형을 섞는다.
+- 문단 길이는 일부러 다르게 설계한다. 모든 H2가 2문단으로 끝나면 초안 실패로 본다.
+- 같은 카테고리나 같은 시리즈 안에서도 글마다 도입 방식, 예시, FAQ 질문 패턴을 다르게 만든다.
+- `경향이 있습니다`, `볼 수 있습니다`, `편입니다`, `경우가 많습니다` 같은 안전한 어미가 반복되면 단정 가능한 부분과 조건부 해석을 나눠 문장 리듬을 바꾼다.
+
+[NOT]
+- 모든 H2를 `왜 ~일까`, `어떻게 볼까`, `무엇일까` 같은 같은 어미로 통일 금지.
+- `OO일주는 성격이 X입니다. 직업은 Y입니다. 연애는 Z입니다.` 같은 복사형 구조를 일주별로 반복 금지.
+- 4문장 이상 비슷한 길이의 문장 연속 금지.
+- 3문장 이상 같은 단어로 시작하는 문장 연속 금지.
+- FAQ를 본문 문장을 그대로 질문형으로 바꿔 반복 금지.
+
+### [A3] 사주·운세 글의 신뢰성 한계를 명확히 한다
+
+[DO]
+- 운세 해석은 확정 예언이 아니라 구조와 흐름을 읽는 참고 정보로 쓴다.
+- "왜 그렇게 해석하는지"를 최소 1개 H2에서 원리로 설명한다.
+- FAQ 중 1개는 가능하면 `모든 사람에게 똑같이 적용되지 않는 이유`, `생시를 모를 때 한계`, `대운과 원국에 따라 달라지는 이유` 같은 한계 설명을 포함한다.
+- 건강·투자·결혼·이직처럼 민감한 주제는 실제 결정의 보조 참고로만 표현한다.
+
+[NOT]
+- `무조건`, `반드시`, `100%`, `확실히 돈 번다`, `꼭 결혼한다`, `병이 생긴다` 같은 단정 표현 금지.
+- 독자가 의료·법률·재무 결정을 사주만으로 내리게 만드는 문장 금지.
+- 직접 상담 사례나 실제 경험이 없는데 1인칭 경험처럼 쓰는 것 금지.
+
+### [A4] 완료 전 추가 품질 체크
+
+- [ ] 메인 키워드가 제목, 첫 문단, H2 1개 이상, FAQ 1개 이상에 자연스럽게 들어갔는가?
+- [ ] 각 H2가 서로 다른 해석 포인트를 담당하는가?
+- [ ] 같은 시리즈의 기존 글과 예시·결론·H2 구조가 과하게 겹치지 않는가?
+- [ ] `경우가 많습니다`, `볼 수 있습니다`, `편입니다` 계열 표현이 과하게 반복되지 않았는가?
+- [ ] 운세·건강·재물·결혼 관련 단정 표현을 피했는가?
+- [ ] FAQ가 본문 반복이 아니라 오해, 예외, 한계를 보완하는가?
+
 Updated At: 2026-03-11 KST
 
 # Sajupalza Unified Post Command
@@ -167,8 +202,7 @@ Updated At: 2026-03-11 KST
 
 관련 운영 문서:
 - `md-docs/now-posting.md`
-- `md-docs/seo-residual-checklist.md`
-- `md-docs/posting-category.md`
+- `md-docs/google-seo-guide.md`
 
 ---
 
@@ -176,19 +210,25 @@ Updated At: 2026-03-11 KST
 
 작업 시작 전에 아래 순서만 먼저 본다.
 
-1. `## 0-A. Critical Constraints`
-2. `## 1. Project Structure`
-3. `## 2. Post Required Fields`
-4. `## 5. SEO Rules`
-5. `## 6. Internal Linking Rules`
-6. `## 8. Completion Rules`
+1. `md-docs/now-posting.md`에서 첫 번째 `[ ]` 항목 확인
+2. `## 0-A. Critical Constraints`
+3. `## 0-AC. AdSense Low-Value Content Guardrails`
+4. `## 1. Project Structure`
+5. `## 2. Post Required Fields`
+6. `## 5. SEO Rules`
+7. `## 6. Internal Linking Rules`
+8. `## 8. Completion Rules`
+9. `## 9. Build and Sitemap Verification`
 
 작업 중 멈칫할 때 다시 볼 항목:
+- 다음 작성 순서와 완료 표시: `md-docs/now-posting.md`
 - 무엇을 지켜야 하는지: `## 0-A. Critical Constraints`
+- 저가치 콘텐츠/반복 패턴 방지: `## 0-AC. AdSense Low-Value Content Guardrails`
 - 어떤 필드를 채워야 하는지: `## 2. Post Required Fields`
 - 검색 의도 정렬: `## 5. SEO Rules`
 - 링크와 관련글 정리: `## 6. Internal Linking Rules`
 - 마무리 체크: `## 8. Completion Rules`
+- 빌드와 사이트맵 검증: `## 9. Build and Sitemap Verification`
 
 ---
 
@@ -237,7 +277,7 @@ Updated At: 2026-03-11 KST
 ### [C5] 이미 해결된 문제를 다시 고치지 않는다
 
 [DO]
-- 실제 코드와 `md-docs/seo-residual-checklist.md`를 먼저 확인한다.
+- 실제 코드, `md-docs/now-posting.md`, `md-docs/google-seo-guide.md`를 먼저 확인한다.
 - 예전 메모보다 현재 워크트리 상태를 우선한다.
 
 [NOT]
@@ -271,12 +311,29 @@ SEO 관련 파일:
 - `lib/seo.ts`
 - `lib/blog/metadata.ts`
 
-카테고리 경로:
-- `saju` -> `/saju/[slug]`
-- `seongmyeong` -> `/name-reading/[slug]`
-- `gwansang` -> `/face-reading/[slug]`
-- `mbti` -> `/mbti/[slug]`
-- `bokhap` -> `/compatibility/[slug]`
+카테고리 값 / URL 경로 / 작성 파일:
+
+| 콘텐츠 영역 | 새 글 기본 `category` | 실제 URL 경로 | 작성 파일 |
+|---|---|---|---|
+| 사주 | `saju` | `/saju/[slug]` | `lib/blog/saju-posts.ts` |
+| 성명학 | `seongmyeong` | `/name-reading/[slug]` | `lib/blog/seongmyeong-posts.ts` |
+| 관상 | `face-reading` | `/face-reading/[slug]` | `lib/blog/gwansang-posts.ts` |
+| MBTI | `mbti` | `/mbti/[slug]` | `lib/blog/mbti-posts.ts` |
+| 궁합·복합 | `bokhap` | `/compatibility/[slug]` | `lib/blog/bokhap-posts.ts` |
+
+카테고리 작성 규칙:
+- 새 글은 위 표의 `category` 값을 기본으로 사용한다.
+- `category`는 화면 URL과 항상 같은 문자열이 아니다. 예: 성명학은 `category: 'seongmyeong'`이지만 URL은 `/name-reading/[slug]`다.
+- 기존 데이터에는 `name-reading`, `face-reading`, `compatibility`, `gwansang` 같은 라우트형 또는 레거시 값이 섞여 있을 수 있다. 새 글에서는 위 표를 우선하되, 기존 글을 수정할 때는 해당 포스트의 실제 `category` 값을 함부로 바꾸지 않는다.
+- URL 경로 판단은 `components/BlogPostPage.tsx`, `lib/blog/metadata.ts`, `app/sitemap.ts`의 매핑을 기준으로 확인한다.
+
+`relatedPosts` 검증 규칙:
+- `relatedPosts`의 `slug`와 `category`는 실제 존재하는 포스트를 가리켜야 한다.
+- `relatedPosts.category`는 URL 경로가 아니라 대상 포스트 객체의 실제 `category` 값과 맞춰야 한다.
+- 예: 대상 포스트가 `lib/blog/seongmyeong-posts.ts`에서 `category: 'seongmyeong'`이면 related에도 `seongmyeong`을 쓴다.
+- 예: 대상 포스트가 `lib/blog/gwansang-posts.ts`에서 `category: 'face-reading'`이면 related에도 `face-reading`을 쓴다.
+- 새 글 완료 전 `getPostBySlug(related.category, related.slug)`로 찾을 수 있는 조합인지 확인한다.
+- 존재하지 않는 slug, 카테고리 별칭 불일치, 라우트명과 데이터 category 혼동으로 생기는 dead link를 금지한다.
 
 ---
 
@@ -308,7 +365,7 @@ SEO 관련 파일:
 - KO/EN 모두 같은 주제를 가리키는가
 - `toc`의 `id`와 본문 `<h2 id="...">`가 일치하는가
 - `faq`가 본문 반복이 아니라 추가 정보를 제공하는가
-- `relatedPosts`가 실제 검색 의도 기준으로 연결되는가
+- `relatedPosts`가 실제 존재하는 포스트이며 검색 의도 기준으로 연결되는가
 
 ---
 
@@ -426,10 +483,7 @@ SEO 관련 파일:
 1. Search Console 기준 실제 카니발리제이션 확인
 2. 앵커 텍스트와 `relatedPosts` 정리
 3. 얇은 글 후보 실측
-4. 허브 페이지 설명력 점검
-
-자세한 내용은:
-- `md-docs/seo-residual-checklist.md`
+4. 카테고리 목록 페이지와 분석 랜딩 페이지 설명력 점검
 
 ---
 
@@ -523,19 +577,42 @@ SEO 관련 파일:
 3. `toc`와 `<h2 id>`가 일치하는지
 4. `description`이 실제 본문을 요약하는지
 5. `faq`가 추가 정보를 주는지
-6. `relatedPosts`와 앵커 텍스트가 주제와 맞는지
+6. `relatedPosts`의 slug/category가 실제 포스트와 일치하고 앵커 텍스트가 주제와 맞는지
 7. 기존 포스트와 키워드 충돌이 없는지
 8. 필요하면 `updatedAt` 반영 여부를 판단했는지
-9. 운영 문서 업데이트가 필요한지 확인했는지
+9. `## 0-AC. AdSense Low-Value Content Guardrails`의 반복·저가치 콘텐츠 체크를 통과했는지
+10. `## 9. Build and Sitemap Verification` 검증을 실행했거나 실행 불가 사유를 기록했는지
+11. 운영 문서 업데이트가 필요한지 확인했는지
 
 업데이트 대상 문서:
 - `md-docs/now-posting.md`
-- `md-docs/seo-residual-checklist.md`
-- 필요 시 `md-docs/haha-imsi`
 
 ---
 
-## 9. Search Console Check Rules
+## 9. Build and Sitemap Verification
+
+새 글 작성 또는 포스트 구조 수정 후 아래를 확인한다.
+
+필수 검증:
+1. `npm run build`를 실행해 타입 오류, JSX/HTML 문자열 오류, 누락 import, 정적 생성 오류가 없는지 확인한다.
+2. 새 slug가 `app/sitemap.ts`를 통해 sitemap에 포함될 수 있는 category와 slug 조합인지 확인한다.
+3. KO URL과 EN URL이 모두 생성되는 구조인지 확인한다.
+4. `publishedAt` / `updatedAt` 날짜 형식이 `YYYY-MM-DD`인지 확인한다.
+5. `relatedPosts`의 대상 조합이 실제 포스트를 찾을 수 있는지 확인한다.
+
+URL 확인 기준:
+- KO 기본 URL은 locale prefix 없이 생성된다. 예: `https://sajupalza.cc/saju/[slug]`
+- EN URL은 `/en` prefix가 붙는다. 예: `https://sajupalza.cc/en/saju/[slug]`
+- 성명학/관상/궁합은 `category`와 URL 경로가 다를 수 있으므로 `## 1. Project Structure`의 표를 기준으로 확인한다.
+
+보고 규칙:
+- 빌드 성공 여부를 작업 완료 보고에 남긴다.
+- 빌드를 실행하지 못했으면 이유를 남긴다.
+- Search Console 색인 여부는 로컬 빌드로 확인할 수 없으므로, 실제 색인 확인이 필요하면 별도 후속 작업으로 분리한다.
+
+---
+
+## 10. Search Console Check Rules
 
 코드만으로 판단하지 말고, 아래는 Search Console에서 확인한다.
 
@@ -546,49 +623,11 @@ SEO 관련 파일:
 - canonical 충돌이 있는지
 - `2026`성 글이 제때 색인되는지
 
-우선 점검 URL:
-- `/saju/lucky-element`
-- `/saju/career-star`
-- `/saju/lunar-solar-calendar`
-- `/saju/zodiac-2026`
-- `/saju/free-saju-2026` (신규 — 사주 무료 풀이)
-- `/saju/tojeong-bigyeol-2026` (신규 — 토정비결 2026)
-- `/saju/saju-palja-reading` (신규 — 사주팔자 보는법)
-
-우선 점검 쿼리:
-- `사주 용신`
-- `용신 찾기`
-- `사주 직업운`
-- `관성 뜻`
-- `음력 양력 사주`
-- `생시 모르면 사주`
-- `2026 운세`
-- `토정비결 2026` (신규 고볼륨)
-- `사주 무료 풀이` (신규 고볼륨)
-- `사주팔자 보는법` (신규 고볼륨)
-- `2026 신년운세` (신규 고볼륨)
-
-카니발리제이션 집중 점검 쿼리 (신규 추가):
-- `사주 재물운` → wealth-luck vs wealth-fortune-2026 중 어느 URL이 노출되는지
-- `사주 연애운` → love-marriage vs love-fortune-2026 중 어느 URL이 노출되는지
-- `사주 건강운` → health-saju vs health-fortune-2026 중 어느 URL이 노출되는지
-
----
-
-## 10. Image Rules
-
-- 대표 이미지와 본문 설명 이미지는 검색 유입과 체류시간에 도움될 수 있다.
-- 이미지 추가 자체는 애드센스 승인 후에도 문제 아님.
-- 다만 의미 없는 장식 이미지 남발은 피한다.
-- 게시용 이미지는 최종적으로 `.webp`만 남긴다.
-- 원본 파일이 `png`, `jpg`, `jpeg` 등이라면 `.webp` 변환 후 게시 경로 반영이 끝난 다음 `.webp` 이외 원본 파일은 모두 삭제한다.
-- 본문, 문서, 코드에는 `.webp` 이외 확장자를 최종 경로로 남기지 않는다.
-
-원칙:
-- 글 주제와 직접 연결된 이미지만 넣는다.
-- 용량 최적화가 우선이다.
-- 파일명과 `alt`는 검색 의도와 맞게 쓴다.
-- 핵심 글부터 순차적으로 추가한다.
+우선 점검 방식:
+- 신규 글과 남은 글의 URL·키워드 기준은 `md-docs/now-posting.md`의 현재 목록을 따른다.
+- Search Console에서 최근 발행 글, 기존 핵심 글, 같은 검색 의도를 나눠 가진 글을 우선 확인한다.
+- 특정 URL 목록이나 남은 글 수는 이 문서에 중복 기록하지 않는다.
+- 카니발리제이션 점검은 "기존 이론 글 vs 신규 실전 글", "같은 시리즈 내 개별 글", "같은 키워드를 공유하는 카테고리 글" 순서로 본다.
 
 ---
 
@@ -609,13 +648,15 @@ SEO 관련 파일:
 포스트 작업 기본 순서:
 
 1. 기존 유사 포스트 확인
-2. slug와 검색 의도 확정
+2. slug, 검색 의도, category, 작성 파일 확정
 3. `seoTitle`, `description`, `keywords` 초안 작성
 4. KO/EN 본문 작성 또는 수정
 5. `toc`, `faq`, `relatedPosts` 정리
-6. 내부 링크 문구 점검
-7. 카니발리제이션 재확인
-8. 운영 문서 반영 필요 여부 판단
+6. `relatedPosts` 대상 포스트 실존 여부 확인
+7. 내부 링크 문구 점검
+8. 카니발리제이션 재확인
+9. `npm run build` 및 sitemap 생성 구조 확인
+10. 운영 문서 반영 필요 여부 판단
 
 ---
 
@@ -626,7 +667,7 @@ SEO 관련 파일:
 ---
 
 ## 14. Series Cannibalization Prevention Rules
-# 신규 100개 글 추가로 인한 시리즈 내 중복 방지 필수 규칙
+# 시리즈 글 작성 시 중복 방지를 위한 필수 규칙
 
 ### 14-1. 기존 글 vs 신규 2026 시리즈 경계선
 
@@ -650,9 +691,9 @@ SEO 관련 파일:
 - 신규 2026 글에서 이론 설명을 길게 늘어놓아 기존 글과 내용이 겹치게 만들지 않는다.
 - 기존 글에 "2026년 기준으로는..." 섹션을 추가해 신규 글과 중복시키지 않는다.
 
-### 14-2. 일간 시리즈 10개 카니발리제이션 방지
+### 14-2. 일간 시리즈 카니발리제이션 방지
 
-갑목/을목/병화/정화/무토/기토/경금/신금/임수/계수 10개 글이 구글에게 중복으로 인식되지 않도록 아래를 반드시 지킨다.
+갑목/을목/병화/정화/무토/기토/경금/신금/임수/계수 등 일간 글이 구글에게 중복으로 인식되지 않도록 아래를 반드시 지킨다.
 
 [DO]
 - 각 일간의 **핵심 차별화 키워드**를 seoTitle과 첫 문단에 반드시 넣는다:
@@ -670,12 +711,12 @@ SEO 관련 파일:
 - 2026 운세 섹션은 각 일간이 병오 세운과 맺는 관계(상생/상극/중립)를 다르게 분석한다.
 
 [NOT]
-- 10개 글이 "OO 일간의 성격은 X입니다. 직업은 Y입니다." 동일 구조로 복사되지 않게 한다.
+- 일간 시리즈 글이 "OO 일간의 성격은 X입니다. 직업은 Y입니다." 동일 구조로 복사되지 않게 한다.
 - seoTitle에서 일간명만 바꾸고 나머지가 동일한 제목 금지.
 
 ### 14-3. 일주 시리즈 카니발리제이션 방지
 
-갑자/갑오/경자/임오/경신/갑진/무진/경오 일주 글이 중복되지 않도록:
+일주 시리즈 글이 중복되지 않도록:
 
 [DO]
 - 각 일주의 **고유 특성 키워드**를 seoTitle에 반영한다 (예: "갑오일주 — 2026 병오년 천우신조")
@@ -687,7 +728,7 @@ SEO 관련 파일:
 
 ### 14-4. 오행 과다 시리즈 카니발리제이션 방지
 
-목/화/수/토 4개 글 + 기존 금(too-much-metal) 총 5개가 중복되지 않도록:
+오행 과다 시리즈 글이 중복되지 않도록:
 
 [DO]
 - 각 오행 과다의 **대표 키워드 감정/신체 부위**가 seoTitle·첫 문단에 반드시 나온다:
@@ -702,7 +743,7 @@ SEO 관련 파일:
 ## 15. Series H2 Template Rules
 # 시리즈별 표준 H2 구조 — 코덱스는 이 템플릿을 기준으로 작성하되 변주한다
 
-### 15-1. 일간 시리즈 (갑목/을목/병화... 10개)
+### 15-1. 일간 시리즈
 
 ```
 H2-1: [일간명]이란? — 오행·음양·기본 에너지
@@ -715,7 +756,7 @@ FAQ: 3개 (성격 오해 교정 1개 / 직업 실전 1개 / 2026 흐름 1개)
 - 각 글에서 H2-2는 다른 일간과 비교하는 문장 1개 이상 포함 (차별화)
 - H2-5는 각 일간별로 병오 세운과의 관계(상생/비화/상극)를 다르게 분석
 
-### 15-2. 일주 시리즈 (갑자/갑오/경자... 8개)
+### 15-2. 일주 시리즈
 
 ```
 H2-1: [일주명] 기본 에너지 — 천간과 지지의 결합
@@ -727,7 +768,7 @@ FAQ: 3개
 ```
 - H2-5에서 오(午) 포함 일주(갑오/임오/경오)는 "병오년과 동일 지지 충돌 또는 동기" 관점 필수 포함
 
-### 15-3. 오행 과다 시리즈 (목/화/수/토 4개)
+### 15-3. 오행 과다 시리즈
 
 ```
 H2-1: 사주에서 [오행]이 많다는 것의 의미
@@ -750,7 +791,7 @@ FAQ: 3개 (시기 질문 1개 포함)
 ```
 - 기존 이론 글(wealth-luck 등)과 중복되지 않도록 첫 문단에 "이론은 [기존 글 링크] 참조" 문장 포함
 
-### 15-5. 십성 시리즈 (식신·상관/비겁/인성/관성/재성 5개)
+### 15-5. 십성 시리즈
 
 ```
 H2-1: [십성명]이란? — 기본 개념과 음양 구분
@@ -767,7 +808,7 @@ FAQ: 3개
 # 2026 시리즈 글의 연도 전환 전략
 
 [DO]
-- 2026 시리즈 글(8개)은 2026년 12월 이후 `updatedAt`과 `seoTitle`만 수정해 2027 버전으로 갱신한다.
+- 2026 시리즈 글은 2026년 12월 이후 `updatedAt`과 `seoTitle`만 수정해 2027 버전으로 갱신한다.
 - slug는 유지한다 (`wealth-fortune-2026` → slug 그대로, 제목만 2027로 교체).
 - 갱신 시 본문 중 "병오년" 표현을 "정미년"으로 교체하고 세운 분석 내용만 업데이트한다.
 - `now-posting.md`에 2027 갱신 대상으로 별도 표시한다.
@@ -779,7 +820,7 @@ FAQ: 3개
 ---
 
 ## 17. Search Console Priority Check (Updated)
-# 신규 100개 글 추가 후 우선 점검 목록
+# Search Console 우선 점검 기준
 
 ### 기존 글 카니발리제이션 점검 (최우선)
 
@@ -787,18 +828,14 @@ FAQ: 3개
 - `love-marriage` vs `love-fortune-2026` + `marriage-fortune-2026` — 연애/결혼 쿼리 분산 여부
 - `health-saju` vs `health-fortune-2026` — 건강운 쿼리 분산 여부
 
-### 신규 고볼륨 글 색인 점검 (2순위)
+### 신규 고수요 글 색인 점검 (2순위)
 
-아래 글은 검색량이 높아 색인 여부를 우선 확인한다:
-- `/saju/free-saju-2026` — "사주 무료 풀이" 키워드
-- `/saju/tojeong-bigyeol-2026` — "토정비결 2026" 키워드
-- `/saju/saju-palja-reading` — "사주팔자 보는법" 키워드
-- `/saju/new-year-fortune-2026` — "2026 신년운세" 키워드
-- `/saju/iljoo-fortune-2026` — "일주별 운세 2026" 키워드
+`md-docs/now-posting.md`에서 메인 키워드 수요가 크거나 최근 발행한 글을 우선 확인한다.
+특정 URL과 남은 글 수는 `now-posting.md`를 기준으로만 갱신한다.
 
 ### 일간 시리즈 카니발리제이션 점검 (3순위)
 
-10개 일간 글이 발행된 후 아래 쿼리가 어느 URL로 연결되는지 확인:
+일간 시리즈 글이 발행된 후 아래 쿼리가 어느 URL로 연결되는지 확인:
 - `갑목 일간` / `을목 일간` / `병화 일간` — 각각 개별 URL에 정착하는지
 
 ---
