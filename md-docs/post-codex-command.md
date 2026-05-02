@@ -16,7 +16,8 @@
 - 메인 키워드는 제목/H1, `slug`, `seoTitle`, 첫 문단, 대표 H2, FAQ에 자연스럽게 연결되어야 한다.
 - 하위 키워드는 각 H2 주제에 맞게 분산 배치하되, 한 문단에 몰아넣거나 같은 표현을 기계적으로 반복하지 않는다.
 - 한글이든 영어든 사용자가 실제 검색창에 입력해 유입될 수 있는 메인 키워드와 하위 키워드를 반드시 넣는다.
-- KO/EN 모두 `seoTitle`, `seoTitleEn`, `keywords`, `keywordsEn`, 첫 문단, 대표 H2, FAQ까지 같은 검색 의도를 기준으로 메인 키워드와 하위 키워드를 반영한다.
+- KO/EN 모두 `seoTitle`, `seoTitleEn`, 첫 문단, 대표 H2, FAQ, 내부 링크 앵커까지 같은 검색 의도를 기준으로 메인 키워드와 하위 키워드를 반영한다.
+- `keywords`, `keywordsEn`은 구글 랭킹 신호로 기대하지 않고, 작성 범위와 카니발리제이션 점검을 위한 내부 정렬 필드로만 사용한다.
 - 새 포스트 작성이 끝나면 `md-docs/now-posting.md`의 해당 제목 옆에 반드시 `[완료]`를 붙여 상태를 갱신한다.
 
 - 기존 문서를 억지로 수정하거나 재활용하는 것보다, `실제로 검색되는 키워드`를 기준으로 한 신규 글 발행을 우선한다.
@@ -40,6 +41,19 @@
 - `slug`, `seoTitle`, 첫 문단, H2, FAQ가 모두 같은 메인 키워드와 검색 의도를 향하도록 맞춘다.
 - 하위 키워드는 메인 키워드를 보조하는 범위에서만 사용하며, 다른 글로 분리해야 할 별도 검색 의도까지 억지로 포함하지 않는다.
 - 이 규칙은 한글과 영어 모두 동일하게 적용한다. 영어도 번역문이 아니라 실제 영어권 사용자가 검색할 표현을 기준으로 메인 키워드와 하위 키워드를 넣는다.
+
+작성 전 키워드 배치표:
+- 메인 키워드 KO / EN
+- 제외할 검색 의도 2~3개
+- H2별 하위 키워드 1~2개
+- FAQ에 넣을 질문형 키워드
+- 내부 링크 앵커에 사용할 문맥형 키워드
+- `description`에 넣을 클릭 전 요약 포인트
+
+주의:
+- 배치표는 글에 억지로 끼워 넣을 단어 목록이 아니다.
+- 배치표에 있는 하위 키워드는 각 섹션의 실제 설명, 예시, 비교, FAQ 안에서 자연스럽게 소화한다.
+- KO와 EN은 같은 의도를 공유하되, 검색 표현은 각 언어권 사용자의 실제 표현으로 따로 잡는다.
 
 ### 0-AA-2. 한 글당 검색 의도 1개 원칙
 
@@ -135,6 +149,28 @@ Updated At: 2026-03-11 KST
 - 사용자가 엄격한 기준을 요구했는데 아이디어성 키워드를 섞지 않는다.
 - 검증되지 않은 내용을 "가능성", "아이디어", "감"으로 포장해서 제시하지 않는다.
 
+### [K4] Google 공식 SEO 문서 우선 적용
+
+SEO 판단이 애매할 때는 아래 Google Search Central 공식 문서를 우선 기준으로 삼는다.
+
+- SEO Starter Guide: https://developers.google.com/search/docs/fundamentals/seo-starter-guide
+- Title links: https://developers.google.com/search/docs/appearance/title-link
+- Meta descriptions / snippets: https://developers.google.com/search/docs/appearance/snippet
+- Link best practices: https://developers.google.com/search/docs/crawling-indexing/links-crawlable
+- Structured data: https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data
+
+[DO]
+- 제목은 페이지마다 고유하고, 간결하며, 실제 본문 내용을 정확히 설명하게 쓴다.
+- 메타 설명은 키워드 나열이 아니라 페이지별 고유 요약으로 작성한다.
+- 내부 링크는 Google이 크롤링할 수 있는 `<a href="...">` 형태와 의미 있는 앵커 텍스트를 기준으로 점검한다.
+- 구조화 데이터는 사용자에게 보이는 실제 내용과 일치할 때만 사용한다.
+- 공식 문서와 내부 규칙이 충돌하면 공식 문서를 우선하고, 프로젝트 특화 규칙은 그 안에서 적용한다.
+
+[NOT]
+- 특정 SEO 수정이 구글 1위, 즉시 색인, 리치결과 노출을 보장한다고 쓰지 않는다.
+- `keywords` 필드나 키워드 반복만으로 노출이 오른다고 가정하지 않는다.
+- Google 공식 문서에 없는 속설을 운영 규칙으로 추가하지 않는다.
+
 Updated At: 2026-05-02 KST
 
 ## 0-AC. AdSense Low-Value Content Guardrails
@@ -204,6 +240,13 @@ Updated At: 2026-03-11 KST
 - `md-docs/now-posting.md`
 - `md-docs/google-seo-guide.md`
 
+공식 SEO 기준 문서:
+- Google SEO Starter Guide: https://developers.google.com/search/docs/fundamentals/seo-starter-guide
+- Google Title links: https://developers.google.com/search/docs/appearance/title-link
+- Google Meta descriptions / snippets: https://developers.google.com/search/docs/appearance/snippet
+- Google Link best practices: https://developers.google.com/search/docs/crawling-indexing/links-crawlable
+- Google Structured data: https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data
+
 ---
 
 ## 0. Start Here
@@ -211,17 +254,21 @@ Updated At: 2026-03-11 KST
 작업 시작 전에 아래 순서만 먼저 본다.
 
 1. `md-docs/now-posting.md`에서 첫 번째 `[ ]` 항목 확인
-2. `## 0-A. Critical Constraints`
-3. `## 0-AC. AdSense Low-Value Content Guardrails`
-4. `## 1. Project Structure`
-5. `## 2. Post Required Fields`
-6. `## 5. SEO Rules`
-7. `## 6. Internal Linking Rules`
-8. `## 8. Completion Rules`
-9. `## 9. Build and Sitemap Verification`
+2. `## 0-AA. Highest Priority Publishing Principle`
+3. `## 0-AB. Keyword Recommendation Rule`
+4. `## 0-A. Critical Constraints`
+5. `## 0-AC. AdSense Low-Value Content Guardrails`
+6. `## 1. Project Structure`
+7. `## 2. Post Required Fields`
+8. `## 5. SEO Rules`
+9. `## 6. Internal Linking Rules`
+10. `## 8. Completion Rules`
+11. `## 9. Build and Sitemap Verification`
 
 작업 중 멈칫할 때 다시 볼 항목:
 - 다음 작성 순서와 완료 표시: `md-docs/now-posting.md`
+- 메인 키워드와 하위 키워드 배치: `## 0-AA. Highest Priority Publishing Principle`
+- 키워드 검증과 공식 SEO 기준: `## 0-AB. Keyword Recommendation Rule`
 - 무엇을 지켜야 하는지: `## 0-A. Critical Constraints`
 - 저가치 콘텐츠/반복 패턴 방지: `## 0-AC. AdSense Low-Value Content Guardrails`
 - 어떤 필드를 채워야 하는지: `## 2. Post Required Fields`
@@ -363,6 +410,7 @@ SEO 관련 파일:
 필수 판단:
 - slug가 실제 주제를 대표하는가
 - KO/EN 모두 같은 주제를 가리키는가
+- `keywords`, `keywordsEn`이 내부 관리용 범위를 벗어나 구글 노출용 키워드 나열처럼 쓰이지 않았는가
 - `toc`의 `id`와 본문 `<h2 id="...">`가 일치하는가
 - `faq`가 본문 반복이 아니라 추가 정보를 제공하는가
 - `relatedPosts`가 실제 존재하는 포스트이며 검색 의도 기준으로 연결되는가
@@ -452,11 +500,20 @@ SEO 관련 파일:
 
 ## 5. SEO Rules
 
+### 5-0. Google 공식 기준 적용 원칙
+
+- SEO 규칙은 Google Search Central 공식 문서를 기준으로 해석한다.
+- 구글 SEO에서 우선 점검할 대상은 사용자가 보는 제목, 본문, 제목 구조, 내부 링크, 페이지별 고유 설명, 크롤링 가능한 URL, 실제 내용과 일치하는 구조화 데이터다.
+- `keywords` 배열은 내부 관리용이며, 구글 노출을 보장하는 메타 키워드 신호로 취급하지 않는다.
+- 구글은 페이지 내용을 이해하기 위해 전체 본문과 링크 문맥을 함께 보므로, 메인 키워드만 반복하지 말고 검색 의도에 맞는 설명과 예시를 충분히 제공한다.
+
 ### 5-1. 제목
 
 - `seoTitle`은 검색어 의도를 바로 드러내야 한다.
 - 클릭만 노린 과장 제목보다, 사용자가 얻을 정보가 명확해야 한다.
 - 연도 키워드는 실제 연도성 글에만 사용한다.
+- 제목은 페이지마다 고유해야 하며, 시리즈 글이라도 일간명/일주명/주제명만 바꾼 반복 제목을 피한다.
+- 같은 단어를 반복해 넣는 키워드 스터핑 제목을 금지한다.
 
 ### 5-2. 첫 문단
 
@@ -472,11 +529,15 @@ SEO 관련 파일:
 
 - 클릭 유도만 하지 말고, 글에서 실제 다루는 범위를 요약한다.
 - 제목과 다른 내용을 약속하지 않는다.
+- 페이지마다 고유한 설명을 작성하고, 키워드 목록처럼 나열하지 않는다.
+- 작성자, 발행일, 연도성 주제, 다루는 범위처럼 검색자가 클릭 전에 알아야 할 핵심 정보를 짧게 포함한다.
 
 ### 5-5. 키워드 배열
 
-- `keywords`는 주제 범위를 벗어나지 않게 유지한다.
-- 개수보다 주제 정합성이 더 중요하다.
+- Google Search는 `meta keywords`를 랭킹 신호로 사용하지 않는다.
+- `keywords`, `keywordsEn`은 내부 관리용 필드로 본다. 목적은 글의 검색 의도, 하위 키워드 범위, 기존 글과의 중복 여부를 점검하는 것이다.
+- `keywords`에 넣은 표현은 가능한 한 제목, 첫 문단, H2, FAQ, 내부 링크 앵커 중 적절한 위치에 자연스럽게 반영한다.
+- 인기 있어 보이는 키워드를 노출 목적으로 억지로 추가하지 않는다. 개수보다 주제 정합성이 더 중요하다.
 
 ### 5-6. 남아 있는 실제 SEO 우선순위
 
@@ -484,6 +545,14 @@ SEO 관련 파일:
 2. 앵커 텍스트와 `relatedPosts` 정리
 3. 얇은 글 후보 실측
 4. 카테고리 목록 페이지와 분석 랜딩 페이지 설명력 점검
+
+### 5-7. Search Console 결과별 액션
+
+- 노출은 많은데 CTR이 낮으면 `seoTitle`과 `description`을 먼저 고친다.
+- 평균 순위가 8~20위에 머물면 H2, FAQ, 실전 예시, 내부 링크를 보강한다.
+- 같은 쿼리에 두 URL이 번갈아 노출되면 제목, 첫 문단, H2, 내부 링크 앵커를 비교해 검색 의도를 분리한다.
+- 색인 지연이 반복되면 sitemap 포함 여부, 내부 링크 연결, 본문 정보 밀도, 중복 문서 여부를 순서대로 확인한다.
+- Search Console 데이터 없이 감으로 제목과 slug를 대량 수정하지 않는다.
 
 ---
 
@@ -579,10 +648,11 @@ SEO 관련 파일:
 5. `faq`가 추가 정보를 주는지
 6. `relatedPosts`의 slug/category가 실제 포스트와 일치하고 앵커 텍스트가 주제와 맞는지
 7. 기존 포스트와 키워드 충돌이 없는지
-8. 필요하면 `updatedAt` 반영 여부를 판단했는지
-9. `## 0-AC. AdSense Low-Value Content Guardrails`의 반복·저가치 콘텐츠 체크를 통과했는지
-10. `## 9. Build and Sitemap Verification` 검증을 실행했거나 실행 불가 사유를 기록했는지
-11. 운영 문서 업데이트가 필요한지 확인했는지
+8. `keywords` 배열을 구글 랭킹 신호처럼 과신하지 않고 내부 정렬용으로만 썼는지
+9. 필요하면 `updatedAt` 반영 여부를 판단했는지
+10. `## 0-AC. AdSense Low-Value Content Guardrails`의 반복·저가치 콘텐츠 체크를 통과했는지
+11. `## 9. Build and Sitemap Verification` 검증을 실행했거나 실행 불가 사유를 기록했는지
+12. 운영 문서 업데이트가 필요한지 확인했는지
 
 업데이트 대상 문서:
 - `md-docs/now-posting.md`
@@ -649,14 +719,15 @@ URL 확인 기준:
 
 1. 기존 유사 포스트 확인
 2. slug, 검색 의도, category, 작성 파일 확정
-3. `seoTitle`, `description`, `keywords` 초안 작성
-4. KO/EN 본문 작성 또는 수정
-5. `toc`, `faq`, `relatedPosts` 정리
-6. `relatedPosts` 대상 포스트 실존 여부 확인
-7. 내부 링크 문구 점검
-8. 카니발리제이션 재확인
-9. `npm run build` 및 sitemap 생성 구조 확인
-10. 운영 문서 반영 필요 여부 판단
+3. 메인 키워드/하위 키워드 배치표 작성
+4. `seoTitle`, `description`, 내부 관리용 `keywords` 초안 작성
+5. KO/EN 본문 작성 또는 수정
+6. `toc`, `faq`, `relatedPosts` 정리
+7. `relatedPosts` 대상 포스트 실존 여부 확인
+8. 내부 링크 문구 점검
+9. 카니발리제이션 재확인
+10. `npm run build` 및 sitemap 생성 구조 확인
+11. 운영 문서 반영 필요 여부 판단
 
 ---
 
@@ -808,13 +879,15 @@ FAQ: 3개
 # 2026 시리즈 글의 연도 전환 전략
 
 [DO]
-- 2026 시리즈 글은 2026년 12월 이후 `updatedAt`과 `seoTitle`만 수정해 2027 버전으로 갱신한다.
-- slug는 유지한다 (`wealth-fortune-2026` → slug 그대로, 제목만 2027로 교체).
-- 갱신 시 본문 중 "병오년" 표현을 "정미년"으로 교체하고 세운 분석 내용만 업데이트한다.
-- `now-posting.md`에 2027 갱신 대상으로 별도 표시한다.
+- `-2026` slug가 붙은 글은 2026 검색 의도를 담당하는 기존 글로 보존한다.
+- 2027 검색 의도를 새로 먹어야 한다면 `wealth-fortune-2027`처럼 새 slug와 새 글로 분리 발행하는 것을 기본으로 한다.
+- 기존 2026 글에는 필요 시 상단 안내 또는 내부 링크로 2027 글을 연결한다.
+- 매년 갱신할 evergreen 글을 원하면 처음부터 slug에서 연도를 빼고, 제목과 본문만 현재 연도에 맞게 갱신하는 별도 전략으로 설계한다.
+- `now-posting.md`에는 2027 신규 발행 또는 evergreen 갱신 대상을 구분해 표시한다.
 
 [NOT]
-- slug를 `wealth-fortune-2027`로 새로 만들어 기존 URL의 색인·링크를 버리지 않는다.
+- `wealth-fortune-2026` slug를 유지한 채 제목만 2027로 바꾸는 mismatch 금지.
+- 2026 글의 본문을 2027 내용으로 통째로 갈아엎어 URL 의도와 본문 의도가 달라지게 만들지 않는다.
 - 2026이 지났다고 글을 삭제하지 않는다 (기존 색인·내부 링크 유실).
 
 ---
@@ -844,12 +917,13 @@ FAQ: 3개
 # 구글 신뢰성 신호 — 사주·운세 콘텐츠는 YMYL 인접 영역
 
 [DO]
-- 모든 글의 `publishedAt`과 필요 시 `updatedAt`을 정확히 기입한다. 구글은 최신 날짜를 신뢰 신호로 본다.
+- 모든 글의 `publishedAt`과 필요 시 `updatedAt`을 정확히 기입한다. 날짜는 독자가 정보의 최신성을 판단하는 데 도움이 되어야 한다.
 - 2026 시리즈처럼 시의성 있는 글은 발행 즉시 `publishedAt`을 현재 날짜로 정확히 기입한다.
-- 글 내에서 "왜 이렇게 해석하는가"에 대한 원리 설명을 최소 1개 H2에 포함한다. 단순 결과 나열보다 원리 설명이 E-E-A-T 점수에 유리하다.
-- FAQ에서 "이 해석의 한계"나 "모든 사람에게 동일하게 적용되지 않는 이유"를 1개 이상 포함하면 신뢰도가 높아진다.
+- 글 내에서 "왜 이렇게 해석하는가"에 대한 원리 설명을 최소 1개 H2에 포함한다. 단순 결과 나열보다 원리 설명이 독자 신뢰와 품질 평가에 도움이 된다.
+- FAQ에서 "이 해석의 한계"나 "모든 사람에게 동일하게 적용되지 않는 이유"를 1개 이상 포함해 과장된 예언처럼 보이지 않게 한다.
 
 [NOT]
 - `publishedAt`을 임의의 과거 날짜로 소급 기입하지 않는다.
-- 근거 없이 "반드시", "무조건", "100%" 같은 단정 표현을 쓰지 않는다. 구글 품질 가이드라인에서 과장 표현을 신뢰도 감점 요소로 본다.
+- 근거 없이 "반드시", "무조건", "100%" 같은 단정 표현을 쓰지 않는다. 과장 표현은 독자 신뢰와 콘텐츠 품질을 낮춘다.
+- E-E-A-T를 직접 랭킹 점수처럼 표현하거나, 특정 문구를 넣으면 순위가 오른다고 설명하지 않는다.
 - 모든 글을 동일한 저자 없이 발행하는 것은 어쩔 수 없으나, 글 내 전문 용어 설명과 실전 예시로 전문성을 대체한다.
