@@ -1,0 +1,38 @@
+
+--- Analyzing saju-posts.ts ---
+Total posts: 176
+Duplicate main titles found:
+  13x: 사주 일주 완전정복: 나의 본질과 배우자 복을 읽는 법
+  7x: 용신(用神): 내 사주의 핵심 기운
+  4x: 사주 재물운: 재성(財星)으로 돈복 읽기
+  4x: 2026 이직운 사주: 직장 변화·승진 시기 보기
+  3x: 사주로 보는 연애와 결혼운
+  3x: 사주 건강 분석: 오행으로 보는 건강 위험 시기
+  3x: 띠별 2026년 운세: 병오년 운세 흐름 총정리
+  3x: 2026 병오년 일주별 운세: 내 일주는 어떤 흐름을 받을까?
+  2x: 관성(官星)으로 보는 직업운
+  2x: 2026 재물운 사주: 병오년 돈복 흐름과 투자 주의 시기
+No duplicate FAQ questions.
+
+--- Analyzing gwansang-posts.ts ---
+Total posts: 36
+Duplicate main titles found:
+  5x: 재물 관상: 코와 입에 숨겨진 부의 비밀
+No duplicate FAQ questions.
+
+--- Analyzing seongmyeong-posts.ts ---
+Total posts: 30
+No duplicate main titles.
+No duplicate FAQ questions.
+
+--- Analyzing mbti-posts.ts ---
+Total posts: 27
+Duplicate main titles found:
+  2x: MBTI & Korean Five Elements: 16 Types Explained
+  2x: MBTI와 사주팔자의 평행이론
+No duplicate FAQ questions.
+
+--- Analyzing bokhap-posts.ts ---
+Total posts: 18
+No duplicate main titles.
+No duplicate FAQ questions.
