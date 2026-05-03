@@ -295,7 +295,7 @@ function buildOhaengAnalysis(saju: SajuResult, locale: string): ResultSection {
   };
 
   const structureNote = locale === 'ko'
-    ? `${strengthBand}?대ŉ ${tenGodLabel} 諛⑺뼢?쇰줈 ?쇱깮 湲곗슫???곹깭媛 ?듭떖?낅땲?? ${focus.usefulElement} 湲곗슫??蹂닿컯?섎㈃ ?꾩껜 洹좏삎媛먯씠 ?붿슧 ?덉젙?곸씠寃?留욌뒿?덈떎.`
+    ? `${strengthBand} 흐름에서 ${tenGodLabel} 성향이 전체 구조를 이끌고 있습니다. ${focus.usefulElement} 기운을 보강하면 전체 균형감이 더 안정적으로 맞춰지는 편입니다.`
     : `The chart currently reads as ${strengthBand} with ${tenGodLabel} guiding the overall structure. Reinforcing ${translateData(focus.usefulElement, locale)} tends to stabilize the full balance.`;
 
   const content = locale === 'ko' 

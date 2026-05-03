@@ -266,7 +266,7 @@ export default function BlogPostPage({ post, locale }: Props) {
           </div>
         )}
 
-        {/* AdSense ?곷떒 */}
+        {/* AdSense 상단 */}
         <AdSense slot="1234567890" format="horizontal" className="mb-8" />
 
         {/* Content */}

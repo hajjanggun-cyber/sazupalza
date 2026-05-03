@@ -194,7 +194,7 @@
   │ 29   │ bokhap-posts.ts      │ 사주·관상·성명학·MBTI 비교    │ `bigyo`              │
   │ 30   │ bokhap-posts.ts      │ 사랑의 운명 (일주와 MBTI)     │ `sarang-unmyeong`  
 
-# � 블로그 콘텐츠 확장 현황 (2026-02-25 기준)
+# 블로그 콘텐츠 확장 현황 (2026-02-25 기준)
 
 ## ✅ 완료된 콘텐츠 — 13개 / 30개
 
@@ -236,7 +236,7 @@
 
 ---
 
-# �🚀 Saju Palza Project Progress Report (haha.md)
+# Saju Palza Project Progress Report (haha.md)
 ------------------------------------
 
 대규모 작업이라면은 제미나이에 시킬테니까 니가 검토까지만 하고 아주 정확한 세부내역은 제미나에게               

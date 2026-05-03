@@ -324,7 +324,7 @@
 
 ### [사주] 실용 시리즈
 
-[ ] 33. 사주 태어난 시간 모를 때 — 시주 없이 보는 실전 방법
+[완료] 33. 사주 태어난 시간 모를 때 — 시주 없이 보는 실전 방법
 - slug: `saju-unknown-birth-time`
 - 카테고리: `saju`
 - 메인 키워드 KO: 사주 태어난 시간 모를 때, 사주 시주 모를 때
@@ -333,7 +333,7 @@
 - 하위 키워드 EN: korean astrology no birth time, saju three pillars reading, unknown hour four pillars
 - 작성 지침: 시주 없이 3주 중심 해석 방법. 시간 범위 좁히는 법. 주의사항 포함.
 
-[ ] 34. 대운 바뀌면 나타나는 변화 — 10년 운세 전환 신호
+[완료] 34. 대운 전환기 증상 — 10년 운세가 바뀔 때 나타나는 현실 변화
 - slug: `daewoon-change`
 - 카테고리: `saju`
 - 메인 키워드 KO: 대운 바뀌면, 사주 대운 전환
@@ -342,7 +342,7 @@
 - 하위 키워드 EN: luck cycle transition saju, major fortune change korean astrology, 10 year cycle saju
 - 작성 지침: major-fortune(대운 이론)과 다름. 대운 전환 시 실생활 변화·신호·적응법 실전 중심.
 
-[ ] 35. 사주 일지 12지지 해석 — 배우자궁과 일상 반응 보는 법
+[완료] 35. 사주 일지 뜻 12지지 해석 — 배우자궁과 일상 반응 보는 법
 - slug: `day-branch-reading`
 - 카테고리: `saju`
 - 메인 키워드 KO: 사주 일지 12지지, 일지 배우자궁
@@ -351,7 +351,7 @@
 - 하위 키워드 EN: day earthly branch meaning, spouse palace four pillars, branch personality saju
 - 작성 지침: day-pillar(일주 전체 이론)와 다름. 60갑자 전체가 아니라 일지 12지지별 배우자궁·반응 패턴·생활 리듬만 다룬다.
 
-[ ] 36. 일간별 직업 적성표 — 오행으로 보는 맞는 일과 피할 일
+[완료] 36. 일간별 직업 적성표 — 10천간별 맞는 일과 피해야 할 일
 - slug: `ilgan-career-table`
 - 카테고리: `saju`
 - 메인 키워드 KO: 일간별 직업 적성, 오행별 직업 적성
@@ -360,7 +360,7 @@
 - 하위 키워드 EN: day stem career fit, five elements jobs, saju career table
 - 작성 지침: career-star(관성 이론)와 다름. 직업운 일반론이나 MBTI 직업 추천이 아니라 10일간별 맞는 일·피할 일·업무 환경을 표로 비교한다.
 
-[ ] 37. 일간별 약한 장기 — 오행으로 보는 생활 관리 체크리스트
+[ ] 37. 일간별 건강 관리 체크리스트 — 오행으로 보는 생활 관리 포인트
 - slug: `ilgan-health-weakness`
 - 카테고리: `saju`
 - 메인 키워드 KO: 일간별 약한 장기, 오행별 건강 약점
@@ -369,7 +369,7 @@
 - 하위 키워드 EN: five elements health checklist, saju organ weakness, day stem wellness
 - 작성 지침: health-saju(질병 시기)와 다름. 질병 예측이나 음식 추천이 아니라 일간 오행별 취약 부위와 생활 관리 체크리스트 중심. 의료 단정 표현 금지.
 
-[ ] 38. 2026 토정비결 풀이 순서 — 사주 명식 없이 생년월일로 보는 법
+[ ] 38. 2026 토정비결 보는법 — 생년월일로 풀이 순서 확인하기
 - slug: `tojeong-bigyeol-2026`
 - 카테고리: `saju`
 - 메인 키워드 KO: 토정비결 2026, 2026 토정비결

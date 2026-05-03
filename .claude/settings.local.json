@@ -23,7 +23,16 @@
       "Bash(npx next:*)",
       "Bash(node:*)",
       "Bash(python:*)",
-      "Bash(npx.cmd tsc:*)"
+      "Bash(npx.cmd tsc:*)",
+      "Bash(grep -E \"^\\\\s+slug: ''''[^'''']+''''\" lib/blog/saju-posts.ts)",
+      "Bash(grep -E \"^\\\\s+slug: ''''[^'''']+''''\" lib/blog/seongmyeong-posts.ts)",
+      "Bash(grep -E \"^\\\\s+slug: ''''[^'''']+''''\" lib/blog/gwansang-posts.ts)",
+      "Bash(grep -E \"^\\\\s+slug: ''''[^'''']+''''\" lib/blog/mbti-posts.ts)",
+      "Bash(grep -E \"^\\\\s+slug: ''''[^'''']+''''\" lib/blog/bokhap-posts.ts)",
+      "Bash(npm run:*)",
+      "Bash(node -e \"require\\(''./next.config.js''\\)\")",
+      "Bash(python3:*)",
+      "Bash(node -e \":*)"
     ]
   }
 }

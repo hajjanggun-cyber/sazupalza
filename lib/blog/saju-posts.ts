@@ -6899,5 +6899,2032 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
       { slug: 'too-much-water-in-saju', category: 'saju', title: '사주에서 수(水)가 많으면: 감수성·우유부단·직업·건강 해석' },
     ],
   },
+  {
+    slug: 'gapja-iljoo',
+    title: 'Gapja Day Pillar Saju: Talent, Loneliness, and 2026 Fire Horse Fortune',
+    seoTitle: '갑자일주: 재능 많지만 외로운 이유와 2026 병오년 운세',
+    seoTitleEn: 'Gapja Day Pillar Saju: Talent, Loneliness, and 2026 Fortune',
+    description: '갑자일주 성격과 재능, 외로움이 반복되는 이유, 직업·연애 패턴, 2026 병오년 운세까지 일주 구조로 실전 분석합니다.',
+    descriptionEn: 'Read Gapja day pillar saju through talent, isolation, career, love, and the 2026 Fire Horse year.',
+    keywords: ['갑자일주', '갑자일주 성격', '갑자일주 특징', '갑자일주 연애', '갑자일주 직업', '갑자일주 2026 운세'],
+    keywordsEn: ['gapja day pillar saju', 'gapja iljoo analysis', 'gapja four pillars personality', 'rat wood day pillar korean astrology', 'gapja saju fortune', 'gapja 2026 fortune'],
+    publishedAt: '2026-05-02',
+    category: 'saju',
+    toc: [
+      { id: 'gapja-basic-energy', title: '갑자일주 기본 에너지 - 천간과 지지의 결합' },
+      { id: 'gapja-personality', title: '갑자일주 성격 특징 - 강점과 약점' },
+      { id: 'gapja-career-money', title: '갑자일주 직업·재물운' },
+      { id: 'gapja-love-marriage', title: '갑자일주 연애·결혼 패턴' },
+      { id: 'gapja-2026', title: '갑자일주 2026 병오년 특별 운세' },
+    ],
+    tocEn: [
+      { id: 'gapja-basic-energy', title: 'Gapja Basic Energy: Heavenly Stem and Earthly Branch' },
+      { id: 'gapja-personality', title: 'Gapja Personality: Strengths and Weak Spots' },
+      { id: 'gapja-career-money', title: 'Gapja Career and Money Luck' },
+      { id: 'gapja-love-marriage', title: 'Gapja Love and Marriage Patterns' },
+      { id: 'gapja-2026', title: 'Gapja 2026 Fire Horse Year Fortune' },
+    ],
+    contentKo: `
+      <section>
+        <p>갑자일주는 甲木이 子水 위에 앉은 구조입니다. 그래서 갑자일주 성격은 겉으로는 곧고 분명해 보이지만, 안쪽에는 생각이 많고 감정의 결이 깊은 편으로 나타납니다. 재능이 많다는 평가를 받기 쉬운 일주이지만, 동시에 혼자 감당하는 느낌이나 외로움이 반복되기 쉬운 이유도 이 구조 안에 있습니다.</p>
+        <p>이 글은 갑자일주 특징을 성격, 직업, 연애, 2026 병오년 운세 순서로 정리합니다. 단일 일주만으로 인생 전체를 확정할 수는 없지만, 일주가 보여 주는 기본 반응 방식과 관계 패턴을 이해하면 자신의 선택 기준을 더 선명하게 잡을 수 있습니다.</p>
+        <div class="related-posts-inline">
+          <p><strong>함께 보면 좋은 글</strong></p>
+          <ul>
+            <li><a href="/ko/blog/day-pillar">일주 보는 법: 나를 드러내는 핵심 기둥 이해하기</a></li>
+            <li><a href="/ko/blog/iljoo-fortune-2026">2026 병오년 일주별 운세 흐름</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="gapja-basic-energy">갑자일주 기본 에너지 - 천간과 지지의 결합</h2>
+        <p>갑자일주의 천간은 갑목입니다. 갑목은 큰 나무처럼 위로 뻗고 기준을 세우려는 기운입니다. 지지는 자수로, 겨울의 물이며 깊은 사고, 정보, 기억, 감수성을 상징합니다. 갑목은 물의 도움을 받아 자라기 때문에 갑자일주는 배우고 이해하고 연결하는 능력이 강하게 나타나기 쉽습니다.</p>
+        <p>다만 자수는 겉으로 쉽게 드러나는 기운이 아닙니다. 그래서 갑자일주는 머릿속으로는 이미 많은 판단을 끝냈는데도, 감정을 바로 표현하지 않거나 자기 고민을 혼자 정리하려는 모습이 생깁니다. 이 점이 재능과 외로움을 동시에 만드는 핵심입니다. 잘 배워서 빨리 성장하지만, 정작 자기 속마음은 늦게 보여 주는 구조입니다.</p>
+        <p>갑자일주를 이해할 때 중요한 기준은 "강한 가능성과 섬세한 내면이 함께 있다"는 점입니다. 추진력이 없는 일주가 아니라, 감정과 생각이 충분히 정리되어야 움직임이 커지는 일주에 가깝습니다.</p>
+      </section>
+
+      <section>
+        <h2 id="gapja-personality">갑자일주 성격 특징 - 강점과 약점</h2>
+        <p>갑자일주 성격의 강점은 흡수력, 관찰력, 기획력입니다. 처음 보는 분야라도 구조를 빨리 파악하고, 사람의 말 뒤에 있는 의도나 분위기를 읽는 능력이 좋습니다. 그래서 공부, 문서, 전략, 상담, 교육, 콘텐츠처럼 정보를 정리해 다른 사람에게 전달하는 영역에서 장점이 잘 드러납니다.</p>
+        <p>약점은 생각이 많아질수록 표현이 줄어든다는 데 있습니다. 마음속 기준은 분명하지만, 그 기준을 말로 꺼내는 시점이 늦어지면 주변에서는 차갑거나 거리를 두는 사람으로 오해할 수 있습니다. 갑자일주는 감정이 없는 것이 아니라, 감정을 정리하는 시간이 필요한 쪽에 가깝습니다.</p>
+        <ul>
+          <li><strong>강점:</strong> 이해력, 언어 감각, 기획력, 상황 판단, 장기적 성장성</li>
+          <li><strong>주의점:</strong> 과도한 고민, 감정 표현 지연, 혼자 해결하려는 습관, 관계에서의 거리감</li>
+          <li><strong>개선 포인트:</strong> 완벽히 정리된 말이 아니어도 현재 상태를 먼저 공유하는 연습</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 id="gapja-career-money">갑자일주 직업·재물운</h2>
+        <p>갑자일주 직업운은 지식과 감각을 실무 결과물로 바꾸는 분야에서 살아납니다. 교육, 연구, 글쓰기, 기획, 데이터 분석, 심리·상담, 브랜딩, UX, 콘텐츠 제작, 전략 직무와 잘 맞습니다. 단순 반복보다 "왜 그렇게 되는지"를 이해하고 체계화하는 일이 적성에 맞기 쉽습니다.</p>
+        <p>재물운은 한 번의 큰 승부보다 꾸준히 쌓는 방식이 안정적입니다. 갑자일주는 아이디어가 많기 때문에 시작은 빠를 수 있지만, 여러 일을 동시에 벌이면 결과가 분산될 수 있습니다. 돈의 흐름을 키우려면 지식, 문서, 시스템, 포트폴리오처럼 축적되는 자산을 만들어야 합니다.</p>
+        <p>특히 갑자일주는 자신의 전문성을 너무 당연하게 여겨 낮게 책정하지 않는 것이 중요합니다. 남들이 쉽게 하지 못하는 분석, 정리, 해석 능력이 실제 수익 모델과 연결될 때 재물운이 더 안정됩니다.</p>
+        <div class="cta-box">
+          <p><strong>내 사주에서 갑자일주가 어떻게 작동하는지 확인하고 싶다면</strong> 전체 명식의 오행 균형, 대운, 세운을 함께 봐야 합니다. 일주는 출발점이고, 실제 운의 강약은 전체 구조에서 결정됩니다.</p>
+          <a href="/ko/saju-analysis">사주 분석 시작하기</a>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="gapja-love-marriage">갑자일주 연애·결혼 패턴</h2>
+        <p>갑자일주 연애는 빠른 끌림보다 신뢰와 정서적 안정이 중요합니다. 상대가 지적 대화가 통하고, 감정을 강요하지 않으며, 일정한 태도를 보여 줄 때 마음을 여는 편입니다. 겉으로는 담담해 보여도 실제로는 관계의 작은 변화에 민감하게 반응할 수 있습니다.</p>
+        <p>연애에서 반복되기 쉬운 문제는 "말하지 않아도 알아주길 바라는 마음"입니다. 갑자일주는 속으로 이미 많은 생각을 했기 때문에 상대도 어느 정도 알아챘을 것이라 기대할 수 있습니다. 하지만 상대 입장에서는 신호가 충분하지 않을 수 있습니다. 관계가 깊어질수록 원하는 것, 서운한 것, 속도를 직접 말하는 습관이 필요합니다.</p>
+        <p>결혼운에서는 정서적 독립과 생활의 안정이 모두 중요합니다. 서로의 개인 시간을 존중하면서도 중요한 결정은 함께 나누는 관계가 갑자일주에게 잘 맞습니다.</p>
+      </section>
+
+      <section>
+        <h2 id="gapja-2026">갑자일주 2026 병오년 특별 운세</h2>
+        <p>2026년은 병오년입니다. 병화와 오화가 강하게 들어오는 해이기 때문에 갑자일주에게는 자신의 생각, 재능, 표현력이 밖으로 드러나는 흐름이 커질 수 있습니다. 갑목이 불을 생하므로 말, 콘텐츠, 발표, 영업, 창작, 홍보처럼 자신을 보여 주는 일이 늘어날 가능성이 있습니다.</p>
+        <p>하지만 갑자일주의 일지인 자수와 2026년의 오화는 자오충으로 해석됩니다. 이는 감정 기반, 관계, 거주 환경, 생활 리듬에 변화 압력이 생기기 쉽다는 뜻입니다. 좋은 의미로는 정체되어 있던 일을 움직이게 만드는 자극이고, 부담으로는 관계 충돌이나 일정 과부하가 될 수 있습니다.</p>
+        <p>갑자일주 2026 운세의 핵심은 "드러내되 흔들림을 관리하는 것"입니다. 기회가 왔을 때 조용히 숨기보다 결과물을 공개하는 것이 좋지만, 인간관계와 건강 리듬을 방치하면 성과가 오래가지 못할 수 있습니다. 특히 계약, 이직, 공개 프로젝트, 연애 관계의 방향 전환은 속도를 조절하며 진행하는 편이 안정적입니다.</p>
+        <div class="related-posts-inline">
+          <p><strong>다음 단계로 읽기</strong></p>
+          <ul>
+            <li><a href="/ko/blog/gap-wood-ilgan">갑목 일간 완전 분석</a></li>
+            <li><a href="/ko/blog/zodiac-2026">2026 병오년 띠별 운세</a></li>
+          </ul>
+        </div>
+      </section>
+    `,
+    contentEn: `
+      <section>
+        <p>The Gapja day pillar combines Jia Wood with Zi Water. This is why Gapja day pillar saju often shows a person who looks principled and clear on the outside, yet carries a deep, private, and sensitive inner world. The same structure can create talent and loneliness at the same time.</p>
+        <p>This guide explains Gapja iljoo analysis through personality, career, love, and the 2026 Fire Horse year. A single day pillar cannot define an entire chart, but it can reveal the basic way a person reacts, connects, and chooses.</p>
+        <div class="related-posts-inline">
+          <p><strong>Recommended guides</strong></p>
+          <ul>
+            <li><a href="/en/blog/day-pillar">How to Read the Day Pillar in Saju</a></li>
+            <li><a href="/en/blog/iljoo-fortune-2026">2026 Fire Horse Fortune by Day Pillar</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="gapja-basic-energy">Gapja Basic Energy: Heavenly Stem and Earthly Branch</h2>
+        <p>Gapja begins with Jia Wood, the image of a tall tree that wants direction, growth, and standards. It sits on Zi Water, a branch connected with depth, memory, information, and sensitivity. Since water nourishes wood, this pillar often gives strong learning ability and a talent for connecting ideas.</p>
+        <p>Zi Water is not an outwardly loud branch. For that reason, a Gapja person may finish many thoughts internally before showing a clear reaction. Others may see confidence, while the person inside may still be processing emotional details. This explains why Gapja can look capable and independent, yet feel isolated.</p>
+        <p>The key phrase for this pillar is quiet potential. Gapja is not weak in initiative. It simply moves best after its thoughts and emotions have reached a usable shape.</p>
+      </section>
+
+      <section>
+        <h2 id="gapja-personality">Gapja Personality: Strengths and Weak Spots</h2>
+        <p>Gapja four pillars personality is marked by absorption, observation, and planning. These people can quickly understand a new field, notice hidden intentions, and organize complex information. They often do well in education, writing, research, consulting, strategy, analysis, and content work.</p>
+        <p>The weak spot appears when thinking replaces expression. Gapja may have clear standards but reveal them late. In relationships or teamwork, this can look cold or distant even when the person is simply trying to be accurate.</p>
+        <ul>
+          <li><strong>Strengths:</strong> learning ability, language sense, planning, long-term growth, emotional perception</li>
+          <li><strong>Risks:</strong> overthinking, delayed emotional expression, solving everything alone, unclear signals</li>
+          <li><strong>Useful habit:</strong> share the current state before every thought is perfectly organized</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 id="gapja-career-money">Gapja Career and Money Luck</h2>
+        <p>Gapja career luck becomes stronger when knowledge turns into a practical output. Suitable fields include education, research, writing, planning, data analysis, counseling, branding, UX, content production, and strategic roles. Gapja usually prefers work that explains why something works, not only how to repeat it.</p>
+        <p>Money luck is more stable through accumulation than one dramatic gamble. Because Gapja often has many ideas, the challenge is not inspiration but completion. Income improves when ideas become documents, systems, products, portfolios, or professional services.</p>
+        <p>A Gapja person should avoid undervaluing expertise. The ability to analyze, interpret, and organize may feel natural to them, but it can be a real market advantage when packaged clearly.</p>
+        <div class="cta-box">
+          <p><strong>To see how Gapja works in your own chart,</strong> read it with the full five-element balance, luck cycles, and annual influence. The day pillar is the entry point, not the whole verdict.</p>
+          <a href="/en/saju-analysis">Start a Saju Analysis</a>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="gapja-love-marriage">Gapja Love and Marriage Patterns</h2>
+        <p>Gapja love patterns depend on trust, emotional steadiness, and mental connection. This pillar does not always open quickly. It responds better to a partner who communicates consistently and does not force emotional exposure too early.</p>
+        <p>The common problem is expecting the other person to understand what has not been clearly said. Gapja may have already processed many details internally, but the partner may not have enough information. Clear statements about pace, disappointment, and needs make relationships much healthier.</p>
+        <p>For marriage, Gapja needs both emotional independence and reliable daily structure. A relationship that respects private time but still shares important decisions usually fits this pillar well.</p>
+      </section>
+
+      <section>
+        <h2 id="gapja-2026">Gapja 2026 Fire Horse Year Fortune</h2>
+        <p>2026 is the Fire Horse year. For Gapja, this can increase visibility, output, speech, content, performance, promotion, and creative expression. Jia Wood feeds fire, so thoughts and skills may be pushed into public view more often.</p>
+        <p>At the same time, Zi in the day branch clashes with Wu, the Horse branch of 2026. This Zi-Wu clash can bring pressure around emotions, relationships, home, schedule, or lifestyle. Positively, it can move a stagnant situation. Under stress, it can feel like conflict, overload, or a sudden change of direction.</p>
+        <p>The main advice for Gapja in 2026 is to show your work while managing instability. Public projects, job changes, contracts, and relationship decisions can move forward, but they need pacing, clear communication, and enough recovery time.</p>
+        <div class="related-posts-inline">
+          <p><strong>Read next</strong></p>
+          <ul>
+            <li><a href="/en/blog/gap-wood-ilgan">Jia Wood Day Master Analysis</a></li>
+            <li><a href="/en/blog/zodiac-2026">2026 Fire Horse Chinese Zodiac Forecast</a></li>
+          </ul>
+        </div>
+      </section>
+    `,
+    faq: [
+      {
+        q: '갑자일주 성격은 어떤 편인가요?',
+        a: '갑자일주는 이해력과 관찰력이 좋고, 생각을 깊게 정리한 뒤 움직이는 편입니다. 다만 감정 표현이 늦어지면 차갑거나 혼자만의 세계가 강한 사람처럼 보일 수 있습니다.',
+      },
+      {
+        q: '갑자일주 2026 운세에서 가장 중요한 점은 무엇인가요?',
+        a: '2026 병오년은 표현력과 활동성이 커질 수 있지만, 자오충으로 인해 관계·생활 리듬·감정 기반이 흔들릴 수 있습니다. 기회를 드러내되 속도와 컨디션을 관리하는 것이 중요합니다.',
+      },
+      {
+        q: '갑자일주는 모두 같은 운세를 겪나요?',
+        a: '아닙니다. 일주는 중요한 기준이지만 전체 사주 원국, 대운, 세운, 현재 선택에 따라 결과가 달라집니다. 이 글은 갑자일주의 기본 경향을 이해하기 위한 참고로 보는 것이 좋습니다.',
+      },
+    ],
+    faqEn: [
+      {
+        q: 'What is the basic personality of Gapja day pillar?',
+        a: 'Gapja often shows strong learning ability, observation, and inner depth. It may look calm or distant because emotions are processed internally before being expressed.',
+      },
+      {
+        q: 'What matters most for Gapja in 2026?',
+        a: 'The Fire Horse year can increase visibility and output, but the Zi-Wu clash may also pressure relationships, emotions, home, or schedule. Pacing and clear communication are important.',
+      },
+      {
+        q: 'Does every Gapja person experience the same fortune?',
+        a: 'No. The day pillar is only one part of a saju chart. The full chart, luck cycles, annual influences, and personal choices can change how this pattern appears.',
+      },
+    ],
+    relatedPosts: [
+      { slug: 'day-pillar', category: 'saju', title: '일주 보는 법: 나를 드러내는 핵심 기둥 이해하기' },
+      { slug: 'iljoo-fortune-2026', category: 'saju', title: '2026 병오년 일주별 운세: 내 일주는 어떤 흐름을 받을까?' },
+    ],
+  },
+  {
+    slug: 'gapo-iljoo',
+    title: 'Gapo Day Pillar Saju: Why 2026 Is a Key Fire Horse Year',
+    seoTitle: '갑오일주 2026: 병오년에 가장 주목해야 할 일주',
+    seoTitleEn: 'Gapo Day Pillar Saju: Why 2026 Is a Defining Fire Horse Year',
+    description: '갑오일주 성격·직업·연애 흐름과 2026 병오년의 강한 오화 공명, 기회와 과열 리스크를 실전 기준으로 분석합니다.',
+    descriptionEn: 'Analyze Gapo day pillar saju through personality, career, love, and the strong Fire Horse resonance of 2026.',
+    keywords: ['갑오일주', '갑오일주 2026', '갑오일주 성격', '갑오일주 연애', '갑오일주 직업', '병오년 갑오일주 영향'],
+    keywordsEn: ['gapo day pillar saju', 'gapo iljoo 2026 fortune', 'gapo four pillars analysis', 'horse wood day pillar korean astrology', 'gapo 2026 byungoh year', 'gapo personality saju'],
+    publishedAt: '2026-05-02',
+    category: 'saju',
+    toc: [
+      { id: 'gapo-basic-energy', title: '갑오일주 기본 에너지 - 천간과 지지의 결합' },
+      { id: 'gapo-personality', title: '갑오일주 성격 특징 - 강점과 약점' },
+      { id: 'gapo-career-money', title: '갑오일주 직업·재물운' },
+      { id: 'gapo-love-marriage', title: '갑오일주 연애·결혼 패턴' },
+      { id: 'gapo-2026', title: '갑오일주 2026 병오년 특별 운세' },
+    ],
+    tocEn: [
+      { id: 'gapo-basic-energy', title: 'Gapo Basic Energy: Heavenly Stem and Earthly Branch' },
+      { id: 'gapo-personality', title: 'Gapo Personality: Strengths and Weak Spots' },
+      { id: 'gapo-career-money', title: 'Gapo Career and Money Luck' },
+      { id: 'gapo-love-marriage', title: 'Gapo Love and Marriage Patterns' },
+      { id: 'gapo-2026', title: 'Gapo 2026 Fire Horse Year Fortune' },
+    ],
+    contentKo: `
+      <section>
+        <p>갑오일주는 甲木이 午火 위에 앉은 일주입니다. 갑오일주 성격은 곧게 뻗는 갑목의 방향성과 오화의 뜨거운 표현력이 결합되어, 빠른 판단과 강한 존재감으로 드러나기 쉽습니다. 조용히 묻혀 있기보다 자신의 생각과 능력을 밖으로 보여 주려는 힘이 강한 구조입니다.</p>
+        <p>특히 갑오일주 2026 운세는 따로 볼 필요가 있습니다. 2026년은 병오년으로, 일지의 오화와 세운의 오화가 다시 만나는 해입니다. 같은 지지가 반복되면 기회도 커지지만 과열, 충돌, 무리한 확장도 함께 커질 수 있습니다.</p>
+        <div class="related-posts-inline">
+          <p><strong>함께 보면 좋은 글</strong></p>
+          <ul>
+            <li><a href="/ko/blog/gapja-iljoo">갑자일주: 재능 많지만 외로운 이유와 2026 운세</a></li>
+            <li><a href="/ko/blog/iljoo-fortune-2026">2026 병오년 일주별 운세 흐름</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="gapo-basic-energy">갑오일주 기본 에너지 - 천간과 지지의 결합</h2>
+        <p>갑오일주의 천간 갑목은 큰 나무처럼 원칙, 성장, 방향성을 상징합니다. 지지 오화는 한여름의 불로, 표현, 열정, 속도, 주목성을 의미합니다. 나무가 불을 생하므로 갑오일주는 생각과 의지가 행동과 표현으로 빠르게 이어지는 편입니다.</p>
+        <p>이 구조는 강한 추진력을 줍니다. 목표가 생기면 망설이기보다 먼저 움직이고, 자신의 색깔을 드러내며, 주변을 설득하거나 이끄는 방식으로 힘을 씁니다. 반대로 기운이 과하면 급해지고, 말이 앞서거나, 자존심이 자극될 때 불필요한 대립이 생길 수 있습니다.</p>
+        <p>갑오일주의 핵심은 "방향을 가진 불"입니다. 열정만 있는 것이 아니라, 갑목의 기준과 오화의 실행력이 함께 작동할 때 가장 좋은 성과가 나옵니다.</p>
+      </section>
+
+      <section>
+        <h2 id="gapo-personality">갑오일주 성격 특징 - 강점과 약점</h2>
+        <p>갑오일주 성격의 강점은 솔직함, 결단력, 리더십, 표현력입니다. 복잡하게 돌려 말하기보다 핵심을 바로 말하고, 분위기가 정체되어 있을 때 먼저 움직이는 역할을 맡기 쉽습니다. 사람들 앞에서 의견을 내거나 방향을 제시하는 상황에서도 비교적 강합니다.</p>
+        <p>약점은 속도와 자존심입니다. 갑오일주는 옳다고 판단하면 빠르게 밀고 나가려는 경향이 있어, 주변의 속도나 감정 상태를 놓칠 수 있습니다. 또한 인정받고 싶은 마음이 강해질수록 비판을 개인적인 공격처럼 받아들이기 쉽습니다.</p>
+        <ul>
+          <li><strong>강점:</strong> 추진력, 표현력, 리더십, 결단력, 강한 존재감</li>
+          <li><strong>주의점:</strong> 성급함, 과열, 자존심 충돌, 체력 소모, 말의 강도</li>
+          <li><strong>개선 포인트:</strong> 결정 전에 한 번 더 듣고, 실행 후에는 반드시 피드백을 반영하기</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 id="gapo-career-money">갑오일주 직업·재물운</h2>
+        <p>갑오일주 직업운은 사람 앞에 서거나, 방향을 제시하거나, 빠른 실행이 필요한 분야에서 잘 드러납니다. 교육, 강의, 영업, 마케팅, 미디어, 창작, 스포츠, 브랜드 운영, 조직 리더, 기획 실행형 직무와 잘 맞습니다. 혼자 조용히 반복하는 일보다 자신이 주도권을 갖고 성과를 만드는 일이 적성에 맞기 쉽습니다.</p>
+        <p>재물운은 활동성과 연결됩니다. 갑오일주는 움직일수록 기회가 생기는 편이지만, 동시에 충동적 지출이나 과감한 투자 판단이 문제를 만들 수 있습니다. 돈을 벌 때는 빠른 실행이 장점이지만, 돈을 지킬 때는 검토와 분산이 필요합니다.</p>
+        <p>특히 갑오일주는 "보여 주는 능력"을 수익화할 때 강합니다. 발표, 콘텐츠, 세일즈, 교육 상품, 개인 브랜드처럼 자신이 전면에 서는 구조가 재물 흐름을 키울 수 있습니다. 다만 모든 일을 직접 끌고 가려 하면 체력과 일정이 먼저 무너질 수 있으므로 역할 분담이 중요합니다.</p>
+        <div class="cta-box">
+          <p><strong>갑오일주의 강한 실행력이 내 명식에서 장점인지 부담인지 보려면</strong> 화(火)의 과다 여부, 수(水)의 조절력, 대운 흐름을 함께 확인해야 합니다.</p>
+          <a href="/ko/saju-analysis">사주 분석 시작하기</a>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="gapo-love-marriage">갑오일주 연애·결혼 패턴</h2>
+        <p>갑오일주 연애는 뜨겁고 직선적입니다. 좋아하는 마음이 생기면 숨기기보다 표현하려는 힘이 강하고, 관계에서도 애매한 태도보다 분명한 반응을 선호합니다. 상대가 솔직하고 활력이 있으며 자기 세계가 있는 사람일 때 끌림이 커질 수 있습니다.</p>
+        <p>다만 감정의 온도가 빠르게 올라가는 만큼 실망도 빠르게 표현될 수 있습니다. 상대가 갑오일주의 속도를 따라오지 못하면 답답함을 느끼고, 반대로 상대는 압박을 느낄 수 있습니다. 연애운을 안정시키려면 표현의 강도와 상대의 리듬을 함께 고려해야 합니다.</p>
+        <p>결혼에서는 존중과 주도권의 균형이 중요합니다. 갑오일주는 관계 안에서도 자신의 방향성을 잃지 않으려 하기 때문에, 서로의 목표를 인정하면서 생활 규칙을 현실적으로 맞추는 관계가 오래갑니다.</p>
+      </section>
+
+      <section>
+        <h2 id="gapo-2026">갑오일주 2026 병오년 특별 운세</h2>
+        <p>갑오일주에게 2026 병오년은 매우 눈에 띄는 해입니다. 일지 오화와 세운 오화가 반복되면서 같은 지지의 기운이 강하게 울립니다. 여기에 병화까지 더해지므로 표현, 주목, 경쟁, 성과 압박, 공개 활동이 모두 커질 수 있습니다.</p>
+        <p>이 흐름은 기회가 될 수 있습니다. 오랫동안 준비한 프로젝트를 공개하거나, 직장에서 존재감을 드러내거나, 개인 브랜드와 콘텐츠를 키우기에 유리한 조건이 만들어질 수 있습니다. 갑목이 병화와 오화를 만나면 자신의 의지를 밖으로 밀어내는 힘이 강해지기 때문입니다.</p>
+        <p>하지만 같은 기운이 반복될 때는 과열도 함께 봐야 합니다. 사주 해석에서는 동일 지지가 반복될 때 자기 안의 패턴이 강해지는 것으로 보며, 오화가 강해지면 자존심, 조급함, 말의 강도, 체력 소모가 문제가 될 수 있습니다. 일부 해석에서는 오오 자형처럼 스스로를 압박하는 흐름으로도 봅니다.</p>
+        <p>갑오일주 2026 운세의 핵심은 "크게 움직이되 브레이크를 준비하는 것"입니다. 승부를 걸 만한 해가 될 수 있지만, 일정 관리, 건강 관리, 계약 검토, 인간관계 조율이 함께 있어야 성과가 오래갑니다. 특히 공개적인 말과 결정은 한 번 더 점검하는 편이 좋습니다.</p>
+        <div class="related-posts-inline">
+          <p><strong>다음 단계로 읽기</strong></p>
+          <ul>
+            <li><a href="/ko/blog/gap-wood-ilgan">갑목 일간 완전 분석</a></li>
+            <li><a href="/ko/blog/zodiac-2026">2026 병오년 띠별 운세</a></li>
+          </ul>
+        </div>
+      </section>
+    `,
+    contentEn: `
+      <section>
+        <p>The Gapo day pillar combines Jia Wood with Wu Fire. This creates a direct, expressive, and fast-moving pillar. Gapo day pillar saju often shows a person who wants to stand for something, act quickly, and make their presence visible.</p>
+        <p>Gapo iljoo 2026 fortune deserves special attention because 2026 is the Fire Horse year. The Horse branch of the year repeats the Horse branch of the day pillar. This can amplify opportunity, visibility, pressure, and overheating at the same time.</p>
+        <div class="related-posts-inline">
+          <p><strong>Recommended guides</strong></p>
+          <ul>
+            <li><a href="/en/blog/gapja-iljoo">Gapja Day Pillar: Talent, Loneliness, and 2026 Fortune</a></li>
+            <li><a href="/en/blog/iljoo-fortune-2026">2026 Fire Horse Fortune by Day Pillar</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="gapo-basic-energy">Gapo Basic Energy: Heavenly Stem and Earthly Branch</h2>
+        <p>Gapo begins with Jia Wood, the image of growth, direction, and personal standards. It sits on Wu Fire, the branch of summer heat, expression, speed, and attention. Since wood feeds fire, thoughts and willpower often move quickly into action.</p>
+        <p>This structure gives strong drive. When a goal appears, Gapo is more likely to act than wait. It can persuade, lead, present, and push a situation forward. When excessive, however, it can become rushed, proud, or too intense in speech.</p>
+        <p>The key phrase for Gapo is directed fire. The best version of this pillar appears when Jia Wood's standards guide Wu Fire's execution.</p>
+      </section>
+
+      <section>
+        <h2 id="gapo-personality">Gapo Personality: Strengths and Weak Spots</h2>
+        <p>Gapo four pillars analysis often highlights honesty, decisiveness, leadership, and expression. This pillar does not like vague movement. It prefers clear direction, visible effort, and direct communication.</p>
+        <p>The weak spot is speed mixed with pride. Once Gapo believes something is right, it may push ahead before others are ready. Criticism can also feel personal when recognition matters too much.</p>
+        <ul>
+          <li><strong>Strengths:</strong> drive, expression, leadership, decisiveness, strong presence</li>
+          <li><strong>Risks:</strong> impatience, overheating, pride conflict, burnout, intense wording</li>
+          <li><strong>Useful habit:</strong> listen once more before deciding, then reflect after execution</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 id="gapo-career-money">Gapo Career and Money Luck</h2>
+        <p>Gapo career luck is strong in fields that require visibility, direction, and fast execution. Suitable areas include teaching, speaking, sales, marketing, media, creative work, sports, brand management, leadership, and project execution roles.</p>
+        <p>Money luck grows through activity. Gapo often finds opportunity by moving, presenting, and taking initiative. The risk is impulsive spending or overly bold investment decisions. Fast action helps with earning, but review and diversification help with keeping money.</p>
+        <p>Gapo can monetize the ability to be seen. Presentations, content, sales, education products, and personal branding may become strong income channels. Still, doing everything alone can damage stamina, so delegation matters.</p>
+        <div class="cta-box">
+          <p><strong>To know whether Gapo's fire is an advantage or a burden in your chart,</strong> check the amount of Fire, the regulating role of Water, and the current luck cycle.</p>
+          <a href="/en/saju-analysis">Start a Saju Analysis</a>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="gapo-love-marriage">Gapo Love and Marriage Patterns</h2>
+        <p>Gapo love patterns are warm, direct, and expressive. When interest appears, this pillar usually prefers a clear response over ambiguity. It is often attracted to people who are honest, energetic, and have their own direction.</p>
+        <p>The challenge is emotional speed. Feelings can rise quickly, and disappointment can also be expressed quickly. If the partner cannot follow Gapo's pace, Gapo may feel frustrated while the partner feels pressured.</p>
+        <p>For marriage, respect and shared control are important. Gapo needs a relationship where both people can pursue their goals while agreeing on practical rules for daily life.</p>
+      </section>
+
+      <section>
+        <h2 id="gapo-2026">Gapo 2026 Fire Horse Year Fortune</h2>
+        <p>For Gapo, the 2026 Fire Horse year is especially important. Wu Fire in the day branch meets Wu Fire in the annual branch, creating a strong same-branch resonance. With Bing Fire also present, expression, competition, public exposure, and pressure can all increase.</p>
+        <p>This can be useful for launching a project, becoming more visible at work, growing a personal brand, or publishing content. Jia Wood meeting strong Fire can push personal intention into the public world.</p>
+        <p>The same pattern also needs caution. Repeated Fire can intensify pride, impatience, strong words, and physical exhaustion. Some traditions also read repeated Horse energy as a self-pressuring pattern, meaning the person may push themselves too hard from inside.</p>
+        <p>The main advice for Gapo in 2026 is to move boldly with a brake system ready. Big actions may be worthwhile, but schedule control, health management, contract review, and relationship coordination are what make the results sustainable.</p>
+        <div class="related-posts-inline">
+          <p><strong>Read next</strong></p>
+          <ul>
+            <li><a href="/en/blog/gap-wood-ilgan">Jia Wood Day Master Analysis</a></li>
+            <li><a href="/en/blog/zodiac-2026">2026 Fire Horse Chinese Zodiac Forecast</a></li>
+          </ul>
+        </div>
+      </section>
+    `,
+    faq: [
+      {
+        q: '갑오일주 성격은 어떤 특징이 있나요?',
+        a: '갑오일주는 추진력, 표현력, 리더십이 강한 편입니다. 다만 속도가 빠르고 자존심이 강해질 수 있어, 듣는 과정과 피드백 반영이 중요합니다.',
+      },
+      {
+        q: '갑오일주 2026 운세가 특별한 이유는 무엇인가요?',
+        a: '2026년 병오년은 갑오일주의 일지 오화와 같은 오화가 반복되는 해입니다. 같은 지지의 기운이 강해져 주목, 성과, 경쟁이 커질 수 있지만 과열과 체력 소모도 함께 관리해야 합니다.',
+      },
+      {
+        q: '갑오일주는 2026년에 무리하게 승부를 봐도 되나요?',
+        a: '기회가 커질 수 있는 해이지만 무리한 확정은 피하는 것이 좋습니다. 전체 명식과 대운에 따라 강약이 달라지므로, 큰 결정은 일정·건강·계약 조건을 함께 점검하며 진행하는 편이 안정적입니다.',
+      },
+    ],
+    faqEn: [
+      {
+        q: 'What is the basic personality of Gapo day pillar?',
+        a: 'Gapo is usually direct, expressive, decisive, and leadership-oriented. The main risks are impatience, pride conflict, and pushing too hard before others are ready.',
+      },
+      {
+        q: 'Why is 2026 special for Gapo?',
+        a: '2026 is the Fire Horse year, and Gapo already has the Horse branch in the day pillar. This same-branch resonance can increase visibility and results, but also pressure and overheating.',
+      },
+      {
+        q: 'Should Gapo take big risks in 2026?',
+        a: 'The year can support bold action, but it should not be treated as a guarantee. The full chart, luck cycle, schedule, health, and contract details should be reviewed before major decisions.',
+      },
+    ],
+    relatedPosts: [
+      { slug: 'gapja-iljoo', category: 'saju', title: '갑자일주: 재능 많지만 외로운 이유와 2026 병오년 운세' },
+      { slug: 'iljoo-fortune-2026', category: 'saju', title: '2026 병오년 일주별 운세: 내 일주는 어떤 흐름을 받을까?' },
+    ],
+  },
+  {
+    slug: 'gyeongja-iljoo',
+    title: 'Gyeongja Day Pillar Saju: Strong Outside, Sensitive Inside',
+    seoTitle: '경자일주 성격: 강한 척하지만 속은 예민한 사람의 사주 분석',
+    seoTitleEn: 'Gyeongja Day Pillar Saju: Strong Outside, Sensitive Inside',
+    description: '경자일주 성격과 특징, 차가운 지성, 예민함, 직업·연애 패턴, 2026 병오년 운세를 경금+자수 구조로 분석합니다.',
+    descriptionEn: 'Analyze Gyeongja day pillar saju through Geng Metal, Rat Water, personality, love, career, and 2026 fortune.',
+    keywords: ['경자일주', '경자일주 성격', '경자일주 특징', '경자일주 연애', '경자일주 직업', '경자일주 2026 운세'],
+    keywordsEn: ['gyeongja day pillar saju', 'gyeongja iljoo personality', 'gyeongja four pillars traits', 'rat metal day pillar korean astrology', 'gyeongja saju fortune', 'gyeongja love career'],
+    publishedAt: '2026-05-02',
+    category: 'saju',
+    toc: [
+      { id: 'gyeongja-basic-energy', title: '경자일주 기본 에너지 - 경금과 자수의 차가운 결합' },
+      { id: 'gyeongja-personality', title: '경자일주 성격 특징 - 강함보다 예민함을 먼저 봐야 하는 이유' },
+      { id: 'gyeongja-career-money', title: '경자일주 직업·재물운 - 압박 속에서 실력이 드러나는 분야' },
+      { id: 'gyeongja-love-marriage', title: '경자일주 연애·결혼 패턴 - 마음을 숨기면 오해가 커진다' },
+      { id: 'gyeongja-2026', title: '경자일주 2026 병오년 특별 운세 - 자오충과 화극금의 압박' },
+    ],
+    tocEn: [
+      { id: 'gyeongja-basic-energy', title: 'Gyeongja Basic Energy: Geng Metal on Rat Water' },
+      { id: 'gyeongja-personality', title: 'Gyeongja Personality: Strong Surface, Sensitive Interior' },
+      { id: 'gyeongja-career-money', title: 'Gyeongja Career and Money Luck Under Pressure' },
+      { id: 'gyeongja-love-marriage', title: 'Gyeongja Love and Marriage Patterns' },
+      { id: 'gyeongja-2026', title: 'Gyeongja 2026 Fire Horse Year Fortune' },
+    ],
+    contentKo: `
+      <section>
+        <p>경자일주는 庚金이 子水 위에 앉은 일주입니다. 경자일주 성격은 겉으로는 단단하고 냉정해 보이지만, 실제 내면은 예상보다 훨씬 예민하고 반응이 빠른 편입니다. 강한 척한다는 말도 여기서 나옵니다. 약해서 숨기는 것이 아니라, 자기 감정이 흔들리는 모습을 쉽게 보여 주고 싶지 않은 구조입니다.</p>
+        <p>이 글은 경자일주 특징을 경금과 자수의 결합으로 풀어 보고, 경자일주 연애, 경자일주 직업, 경자일주 2026 운세까지 한 흐름으로 정리합니다. 일주는 전체 사주의 일부이므로 결과를 확정하는 도구가 아니라, 성향과 선택 패턴을 읽는 기준으로 보는 것이 안전합니다.</p>
+        <div class="related-posts-inline">
+          <p><strong>함께 보면 좋은 글</strong></p>
+          <ul>
+            <li><a href="/ko/blog/day-pillar">일주 보는 법: 나를 드러내는 핵심 기둥 이해하기</a></li>
+            <li><a href="/ko/blog/gyeong-metal-ilgan">경금 일간: 원칙주의자의 직업 성공과 인간관계의 함정</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="gyeongja-basic-energy">경자일주 기본 에너지 - 경금과 자수의 차가운 결합</h2>
+        <p>경자일주의 천간 경금은 큰 금속, 원석, 칼날처럼 기준을 세우고 불필요한 것을 잘라내는 기운입니다. 지지 자수는 겨울의 물이며 정보, 감각, 기억, 불안, 깊은 사고와 연결됩니다. 금은 물을 생하므로 경자일주는 판단한 것을 말이나 결과물로 뽑아내는 힘이 있습니다.</p>
+        <p>이 조합은 차가운 지성을 만듭니다. 감정에 끌려가기보다 상황을 분리해 보고, 무엇이 맞고 틀린지 빠르게 판단합니다. 문제를 발견하는 눈도 날카롭습니다. 하지만 자수는 안쪽으로 흐르는 물이기 때문에, 겉으로 단호해 보여도 속으로는 말 한마디, 분위기 변화, 상대의 표정까지 오래 곱씹을 수 있습니다.</p>
+        <p>그래서 경자일주는 "강한 사람"으로만 보면 반쪽 해석이 됩니다. 정확히는 단단한 판단력과 예민한 감각이 함께 있는 일주입니다. 이 둘이 균형을 이루면 위기 대응력이 좋고, 균형이 깨지면 방어적 태도와 신경 피로가 커집니다.</p>
+      </section>
+
+      <section>
+        <h2 id="gyeongja-personality">경자일주 성격 특징 - 강함보다 예민함을 먼저 봐야 하는 이유</h2>
+        <p>경자일주 성격의 강점은 냉정한 판단, 빠른 문제 파악, 책임감, 자기 통제입니다. 감정적으로 흔들리는 상황에서도 겉으로는 쉽게 무너지지 않으려 하고, 복잡한 상황을 정리해 핵심만 남기는 능력이 있습니다. 사람을 볼 때도 말보다 행동, 분위기보다 사실을 먼저 봅니다.</p>
+        <p>다만 이 단단함은 때로 방어막이 됩니다. 경자일주는 상처받지 않기 위해 먼저 거리를 두거나, 서운함을 농담처럼 넘기거나, 마음에 드는 사람 앞에서도 일부러 담담하게 행동할 수 있습니다. 주변에서는 "차갑다"고 느끼지만, 본인은 이미 속으로 많은 반응을 처리하고 있는 경우가 많습니다.</p>
+        <div class="comparison-block">
+          <h3>잘못 보기 쉬운 경자일주 해석</h3>
+          <ul>
+            <li><strong>겉모습만 보면:</strong> 냉정하고 계산적인 사람처럼 보인다.</li>
+            <li><strong>구조까지 보면:</strong> 예민함을 통제하려고 단단한 태도를 쓰는 사람에 가깝다.</li>
+            <li><strong>관계에서 필요한 것:</strong> 감정을 숨기는 능력보다 감정을 안전하게 설명하는 능력이다.</li>
+          </ul>
+        </div>
+        <p>경자일주 특징을 현실적으로 살리려면 완벽한 태도보다 정확한 공유가 중요합니다. "괜찮다"는 말만 반복하면 상대는 정말 괜찮은 줄 압니다. 불편한 지점, 필요한 시간, 원하는 기준을 짧게라도 말하면 경자일주의 예민함은 약점이 아니라 정교한 감각으로 바뀝니다.</p>
+      </section>
+
+      <section>
+        <h2 id="gyeongja-career-money">경자일주 직업·재물운 - 압박 속에서 실력이 드러나는 분야</h2>
+        <p>경자일주 직업운은 정확성, 분석, 규칙, 위험 관리가 필요한 분야에서 잘 살아납니다. 데이터 분석, 개발, 보안, 금융, 회계, 감사, 법무·컴플라이언스, 품질관리, 엔지니어링, 의료 기술, 전략 기획, 리서치처럼 작은 오류가 큰 차이를 만드는 일이 잘 맞습니다.</p>
+        <p>특히 경자일주는 문제를 빨리 찾아내는 눈이 좋습니다. 남들이 대충 넘어가는 결함, 숫자의 어긋남, 사람 말의 모순을 빠르게 포착합니다. 그래서 조직 안에서는 까다로운 사람처럼 보일 수 있지만, 실제로는 리스크를 줄이는 역할을 맡기 쉽습니다.</p>
+        <p>재물운은 감으로 크게 베팅하는 방식보다 규칙을 세우고 지키는 방식이 안정적입니다. 경자일주는 불안할수록 더 통제하려는 경향이 있어서, 시장이 흔들릴 때 무리하게 만회하려 하면 손실이 커질 수 있습니다. 예산, 손절 기준, 투자 한도, 저축 루틴처럼 사전에 정한 기준이 돈을 지키는 장치가 됩니다.</p>
+        <div class="cta-box">
+          <p><strong>경자일주가 내 사주에서 강점인지 부담인지 보려면</strong> 금(水를 생하는 금)과 수(水)의 양, 화(火)의 조절력, 대운 흐름을 함께 봐야 합니다. 일주만으로 직업이나 재물 결과를 단정하지 않는 것이 좋습니다.</p>
+          <a href="/ko/saju-analysis">사주 분석 시작하기</a>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="gyeongja-love-marriage">경자일주 연애·결혼 패턴 - 마음을 숨기면 오해가 커진다</h2>
+        <p>경자일주 연애는 쉽게 뜨거워지는 타입이라기보다, 신뢰가 쌓일수록 깊어지는 쪽에 가깝습니다. 처음에는 상대를 관찰하고, 말의 일관성이나 생활 태도를 보며, 이 사람이 믿을 만한지 오래 확인합니다. 마음이 있어도 먼저 약점을 보이기 싫어 담담하게 굴 수 있습니다.</p>
+        <p>문제는 이 담담함이 무관심처럼 보일 수 있다는 점입니다. 경자일주는 상대가 선을 넘거나 신뢰를 깨면 바로 차갑게 돌아서는 모습이 나타날 수 있습니다. 그런데 그 전에 이미 속으로 여러 번 실망했을 가능성이 큽니다. 관계가 안정되려면 마지막에 폭발하기보다 중간중간 신호를 보내야 합니다.</p>
+        <p>결혼에서는 생활의 예측 가능성과 정서적 안전감이 중요합니다. 말이 거칠거나 감정 기복이 큰 관계에서는 경자일주의 방어성이 강해집니다. 반대로 서로의 기준을 존중하고 약속을 지키는 관계에서는 의리와 책임감이 오래 유지됩니다.</p>
+      </section>
+
+      <section>
+        <h2 id="gyeongja-2026">경자일주 2026 병오년 특별 운세 - 자오충과 화극금의 압박</h2>
+        <p>경자일주 2026 운세는 "압박 속 실력 검증"이라는 표현이 잘 맞습니다. 2026년 병오년은 병화와 오화의 불 기운이 강한 해입니다. 경금에게 화는 금을 단련하는 기운이자 외부 압력으로 작동할 수 있습니다. 직장, 시험, 경쟁, 책임, 평가처럼 기준을 요구하는 일이 늘어날 수 있습니다.</p>
+        <p>여기에 경자일주의 일지 자수와 2026년의 오화는 자오충으로 봅니다. 자오충은 관계, 생활 리듬, 감정 기반, 이동·변동의 압력을 만들 수 있습니다. 좋게 쓰면 묵혀 둔 문제를 정리하고 새 기준을 세우는 계기가 됩니다. 무리하게 쓰면 예민함, 불면, 말실수, 대인 충돌로 나타날 수 있습니다.</p>
+        <p>이 해에는 실력이 드러날 가능성이 있지만, 체력과 감정 관리가 성과의 지속성을 좌우합니다. 경자일주는 원래 버티는 힘이 강해 보여도 내부 피로를 늦게 인정하는 편입니다. 2026년에는 일정표를 촘촘히 채우는 것보다 회복 시간을 먼저 확보하는 전략이 더 현실적입니다.</p>
+        <p>특히 이직, 공개 평가, 계약, 연애 관계의 방향 전환은 빠르게 결론 내리기보다 조건을 문서화하고 주변 환경을 점검한 뒤 움직이는 편이 안정적입니다. 병오년의 열기는 경금을 단련할 수 있지만, 너무 오래 달구면 날이 무뎌질 수도 있습니다.</p>
+        <div class="related-posts-inline">
+          <p><strong>다음 단계로 읽기</strong></p>
+          <ul>
+            <li><a href="/ko/blog/iljoo-fortune-2026">2026 병오년 일주별 운세 흐름</a></li>
+            <li><a href="/ko/blog/gapo-iljoo">갑오일주 2026: 병오년에 가장 주목해야 할 일주</a></li>
+          </ul>
+        </div>
+      </section>
+    `,
+    contentEn: `
+      <section>
+        <p>Gyeongja day pillar saju combines Geng Metal with Zi Water, also known as the Rat branch. This is why Gyeongja iljoo personality often looks strong, controlled, and cool on the outside, while the inner response is much more sensitive than people expect.</p>
+        <p>This guide reads Gyeongja four pillars traits through Geng Metal, Rat Water, love, career, and the 2026 Fire Horse year. The day pillar is not the whole chart, but it is a useful starting point for understanding reaction style, emotional defense, and decision patterns.</p>
+        <div class="related-posts-inline">
+          <p><strong>Recommended guides</strong></p>
+          <ul>
+            <li><a href="/en/blog/day-pillar">How to Read the Day Pillar in Saju</a></li>
+            <li><a href="/en/blog/gyeong-metal-ilgan">Geng Metal Day Master Analysis</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="gyeongja-basic-energy">Gyeongja Basic Energy: Geng Metal on Rat Water</h2>
+        <p>Geng Metal is the energy of standards, cutting power, decision, and structure. Zi Water is winter water, connected with information, memory, nervous sensitivity, and deep thought. Since Metal produces Water, the Gyeongja pillar can turn judgment into words, skill, analysis, or output.</p>
+        <p>This creates a cold intelligence. Gyeongja tends to separate emotion from fact and notice what is inconsistent or risky. It can look calm even while processing many signals internally. A small change in tone, timing, or facial expression may stay in the mind longer than others realize.</p>
+        <p>For that reason, reading Gyeongja as only a tough pillar is incomplete. It is better understood as hard judgment combined with sensitive perception. When balanced, this gives crisis response and precision. When strained, it can become defensiveness and mental fatigue.</p>
+      </section>
+
+      <section>
+        <h2 id="gyeongja-personality">Gyeongja Personality: Strong Surface, Sensitive Interior</h2>
+        <p>The main strengths of Gyeongja iljoo personality are cool judgment, fast problem detection, responsibility, and self-control. Even in emotionally tense situations, Gyeongja tries not to collapse visibly. It can remove noise and keep the core issue in view.</p>
+        <p>The same strength can become a shield. Gyeongja may create distance first, turn disappointment into dry humor, or act calm even around someone they care about. Others may call this coldness, but the inner system may already be reacting intensely.</p>
+        <div class="comparison-block">
+          <h3>A common mistake when reading Gyeongja</h3>
+          <ul>
+            <li><strong>Surface reading:</strong> cold, calculating, and emotionally distant.</li>
+            <li><strong>Structural reading:</strong> sensitive perception protected by a hard outer stance.</li>
+            <li><strong>Useful practice:</strong> explain the feeling before it turns into withdrawal.</li>
+          </ul>
+        </div>
+        <p>Gyeongja works better when it shares accurate signals instead of perfect composure. Saying "I need time" or "that felt uncomfortable" can prevent many misunderstandings.</p>
+      </section>
+
+      <section>
+        <h2 id="gyeongja-career-money">Gyeongja Career and Money Luck Under Pressure</h2>
+        <p>Gyeongja career luck is strong in fields that require accuracy, analysis, rules, and risk control. Good examples include data analysis, software development, security, finance, accounting, auditing, legal compliance, quality control, engineering, medical technology, strategy, and research.</p>
+        <p>This pillar is especially good at finding problems. It notices small errors, mismatched numbers, weak logic, and hidden risks. In a team, Gyeongja may seem demanding, but that same sharpness can protect the whole system from failure.</p>
+        <p>Money luck is more stable through rules than impulse. When anxious, Gyeongja may try to control the situation harder. In markets or business decisions, that can lead to overcorrection. Budgets, limits, exit rules, and savings routines are practical tools for this pillar.</p>
+        <div class="cta-box">
+          <p><strong>To see whether Gyeongja is a strength or a burden in your chart,</strong> read it with the amount of Metal and Water, the regulating role of Fire, and the current luck cycle.</p>
+          <a href="/en/saju-analysis">Start a Saju Analysis</a>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="gyeongja-love-marriage">Gyeongja Love and Marriage Patterns</h2>
+        <p>Gyeongja love is usually not instantly open. Trust builds through consistency. This pillar watches whether words and actions match, whether the partner keeps promises, and whether the emotional environment feels safe.</p>
+        <p>The challenge is that calmness can look like indifference. Gyeongja may seem fine until the disappointment has already accumulated. Then the reaction can become sudden and cold from the partner's point of view.</p>
+        <p>Marriage works better when the relationship has emotional safety and predictable daily rules. A partner who is too chaotic, verbally harsh, or inconsistent can activate Gyeongja's defensive side. A partner who respects boundaries and keeps agreements can bring out loyalty and endurance.</p>
+      </section>
+
+      <section>
+        <h2 id="gyeongja-2026">Gyeongja 2026 Fire Horse Year Fortune</h2>
+        <p>Gyeongja 2026 fortune is best described as a year of skill testing under pressure. 2026 is the Fire Horse year, with strong Bing Fire and Wu Fire. For Geng Metal, Fire can act like pressure, discipline, authority, competition, and evaluation.</p>
+        <p>There is also a Zi-Wu clash between the Rat branch of the day pillar and the Horse branch of 2026. This can affect relationships, emotional stability, lifestyle rhythm, movement, or major changes. Used well, it helps clear old problems and reset standards. Under stress, it may appear as oversensitivity, sleep issues, sharp words, or interpersonal friction.</p>
+        <p>Gyeongja may gain recognition in 2026, but recovery management is not optional. This pillar often looks stronger than it feels. A realistic schedule, fewer unnecessary conflicts, and written agreements will matter more than pushing through everything alone.</p>
+        <p>For job changes, public evaluation, contracts, or relationship decisions, it is better to check conditions carefully before acting. The Fire Horse year can refine Metal, but too much heat can also exhaust the edge.</p>
+        <div class="related-posts-inline">
+          <p><strong>Read next</strong></p>
+          <ul>
+            <li><a href="/en/blog/iljoo-fortune-2026">2026 Fire Horse Fortune by Day Pillar</a></li>
+            <li><a href="/en/blog/gapo-iljoo">Gapo Day Pillar Saju and 2026 Fire Horse Year</a></li>
+          </ul>
+        </div>
+      </section>
+    `,
+    faq: [
+      {
+        q: '경자일주 성격은 정말 차가운 편인가요?',
+        a: '경자일주는 겉으로 차갑고 단호해 보일 수 있지만, 실제로는 예민한 감각을 통제하려는 성향이 강합니다. 감정이 없는 것이 아니라 쉽게 드러내지 않는 쪽에 가깝습니다.',
+      },
+      {
+        q: '경자일주 직업은 어떤 분야가 잘 맞나요?',
+        a: '데이터, 개발, 보안, 금융, 감사, 법무·컴플라이언스, 품질관리, 엔지니어링, 리서치처럼 정확성과 위험 관리가 필요한 분야와 잘 맞습니다. 다만 전체 명식의 오행 균형에 따라 세부 적성은 달라집니다.',
+      },
+      {
+        q: '경자일주 2026 운세는 모두 힘든가요?',
+        a: '그렇게 단정할 수는 없습니다. 병오년에는 화극금과 자오충 압박이 생길 수 있지만, 원국과 대운에 따라 실력 검증, 책임 확대, 관계 정리의 기회로 쓰일 수도 있습니다.',
+      },
+    ],
+    faqEn: [
+      {
+        q: 'Is Gyeongja iljoo personality really cold?',
+        a: 'It can look cold and controlled from the outside, but the inner system is often sensitive. Gyeongja usually hides or manages emotion rather than lacking it.',
+      },
+      {
+        q: 'What careers fit the Gyeongja day pillar?',
+        a: 'Gyeongja often fits data, software, security, finance, auditing, compliance, quality control, engineering, and research fields where accuracy and risk control matter.',
+      },
+      {
+        q: 'Is 2026 difficult for every Gyeongja person?',
+        a: 'No. The Fire Horse year can bring pressure through Fire controlling Metal and the Zi-Wu clash, but the full chart and luck cycle decide whether it becomes stress, recognition, or a necessary reset.',
+      },
+    ],
+    relatedPosts: [
+      { slug: 'gyeong-metal-ilgan', category: 'saju', title: '경금 일간: 원칙주의자의 직업 성공과 인간관계의 함정' },
+      { slug: 'iljoo-fortune-2026', category: 'saju', title: '2026 병오년 일주별 운세: 내 일주는 어떤 흐름을 받을까?' },
+      { slug: 'gapo-iljoo', category: 'saju', title: '갑오일주 2026: 병오년에 가장 주목해야 할 일주' },
+    ],
+  },
+  {
+    slug: 'saju-unknown-birth-time',
+    title: 'Saju Without Birth Time: How to Read Three Pillars When the Hour Is Unknown',
+    seoTitle: '사주 태어난 시간 모를 때: 시주 없이 3주로 보는 실전 방법',
+    seoTitleEn: 'Saju Without Birth Time: How to Read Three Pillars Without the Hour',
+    description: '사주 태어난 시간 모를 때 시주 없이 어디까지 볼 수 있는지, 3주 해석 순서와 시간 범위 좁히는 법, 주의사항을 정리합니다.',
+    descriptionEn: 'Learn how to read saju without birth time, what three pillars can reveal, what the missing hour limits, and how to narrow the likely birth hour.',
+    keywords: ['사주 태어난 시간 모를 때', '사주 시주 모를 때', '사주 시간 없이 보기', '시주 불명 사주', '사주 3주 보기', '생시 모를 때'],
+    keywordsEn: ['saju without birth time', 'four pillars unknown birth hour', 'korean astrology no birth time', 'saju three pillars reading', 'unknown hour four pillars', 'birth time missing saju'],
+    publishedAt: '2026-05-02',
+    category: 'saju',
+    toc: [
+      { id: 'unknown-birth-time-scope', title: '사주 태어난 시간 모를 때 어디까지 볼 수 있나' },
+      { id: 'three-pillars-method', title: '시주 없이 3주로 보는 해석 순서' },
+      { id: 'narrow-birth-hour', title: '생시 모를 때 시간 범위를 좁히는 법' },
+      { id: 'missing-hour-limits', title: '시주 불명 사주에서 조심해야 할 해석' },
+      { id: 'practical-checklist', title: '사주 시간 없이 보기 실전 체크리스트' },
+      { id: 'when-hour-matters', title: '언제는 반드시 생시 확인이 필요한가' },
+    ],
+    tocEn: [
+      { id: 'unknown-birth-time-scope', title: 'What Saju Can Still Show Without Birth Time' },
+      { id: 'three-pillars-method', title: 'How to Read Three Pillars When the Hour Is Missing' },
+      { id: 'narrow-birth-hour', title: 'How to Narrow the Possible Birth Hour' },
+      { id: 'missing-hour-limits', title: 'What to Avoid When the Hour Pillar Is Unknown' },
+      { id: 'practical-checklist', title: 'Practical Checklist for Saju Without Birth Time' },
+      { id: 'when-hour-matters', title: 'When Birth Time Becomes Essential' },
+    ],
+    contentKo: `
+      <section>
+        <p>사주 태어난 시간 모를 때 가장 먼저 구분해야 할 것은 "아예 못 본다"와 "일부는 조심해서 볼 수 있다"의 차이입니다. 사주는 년주, 월주, 일주, 시주 네 기둥으로 구성되지만, 생시를 모른다고 해서 모든 해석이 불가능해지는 것은 아닙니다. 년월일이 정확하다면 사주 3주 보기 방식으로 일간, 월령, 일지, 계절감, 오행의 큰 균형, 성향의 기본 방향은 상당 부분 확인할 수 있습니다.</p>
+        <p>다만 사주 시주 모를 때는 자녀운, 노년운, 말년의 결실, 세부 직업 방향, 특정 시간대에 생기는 용신 변화처럼 민감한 영역을 단정하면 안 됩니다. 이 글은 생시 모를 때 사주를 어디까지 볼 수 있는지, 시주 없이 3주로 보는 순서, 시간 범위를 좁히는 현실적인 방법, 그리고 해석에서 피해야 할 위험한 결론을 정리합니다.</p>
+        <div class="related-posts-inline">
+          <p><strong>먼저 확인하면 좋은 글</strong></p>
+          <ul>
+            <li><a href="/saju/lunar-solar-calendar">음력 양력과 절기 기준을 먼저 확인하는 법</a></li>
+            <li><a href="/saju/free-saju-2026">사주 무료 풀이에서 생년월일을 준비하는 순서</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="unknown-birth-time-scope">사주 태어난 시간 모를 때 어디까지 볼 수 있나</h2>
+        <p>태어난 시간이 없어도 년주, 월주, 일주는 남습니다. 이 세 기둥만으로도 사주 전체의 뼈대는 어느 정도 읽을 수 있습니다. 특히 일간은 나 자신을 대표하는 기준이고, 월지는 계절과 사회적 환경을 보여 주며, 일지는 일상 반응과 가까운 관계의 방식을 드러냅니다. 그래서 사주 태어난 시간 모를 때도 기본 성향, 강한 오행, 부족해 보이는 오행, 관계에서 반복되는 반응은 3주만으로도 초안을 잡을 수 있습니다.</p>
+        <p>예를 들어 겨울에 태어난 수 기운이 강한 명식인지, 여름에 태어난 화 기운이 강한 명식인지는 생시 없이도 확인됩니다. 월지가 계절을 잡아 주기 때문입니다. 또 일간이 갑목인지 경금인지, 일지가 자수인지 오화인지에 따라 사람의 표현 방식과 스트레스 반응도 달라집니다. 이 부분은 시주가 없어도 해석의 출발점으로 쓸 수 있습니다.</p>
+        <p>하지만 시주는 단순히 "마지막 기둥 하나"가 아닙니다. 시주는 늦은 인생, 자녀, 결과물, 깊은 내면, 숨은 재능, 말년에 드러나는 습관을 읽는 데 관여합니다. 어떤 명식은 시주 한 글자 때문에 오행 균형이 크게 달라지기도 합니다. 따라서 3주 해석은 방향을 잡는 도구이지, 최종 판정표가 아닙니다.</p>
+        <div class="comparison-block">
+          <h3>시주 없이도 비교적 볼 수 있는 것과 조심할 것</h3>
+          <ul>
+            <li><strong>볼 수 있는 것:</strong> 일간 성향, 월령, 계절감, 기본 오행 분포, 일지 반응, 큰 관계 패턴</li>
+            <li><strong>조심할 것:</strong> 자녀운 단정, 노년운 단정, 정확한 용신 확정, 직업 세부 결론, 특정 사건 시기 예언</li>
+            <li><strong>현실적 기준:</strong> "가능성이 높다"는 수준으로 읽고, 중요한 결정은 전체 명식과 실제 삶의 조건을 함께 본다</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="three-pillars-method">시주 없이 3주로 보는 해석 순서</h2>
+        <p>사주 시간 없이 보기를 할 때는 순서가 중요합니다. 시주가 없다는 불안 때문에 여러 해석을 한꺼번에 붙이면 오히려 판단이 흐려집니다. 먼저 태어난 날짜가 양력인지 음력인지, 절기 기준으로 월주가 바뀌는 구간인지 확인해야 합니다. 이 단계가 흔들리면 생시가 있어도 전체 명식이 틀어질 수 있습니다.</p>
+        <p>그다음은 일간을 기준으로 봅니다. 일간은 사주의 주인공입니다. 갑목이라면 성장과 방향성, 병화라면 드러남과 확산, 경금이라면 기준과 절단력처럼 기본 반응 방식이 달라집니다. 이후 월지를 통해 계절의 힘을 확인합니다. 같은 갑목이라도 봄의 갑목과 겨울의 갑목은 필요한 환경이 다르고, 같은 경금이라도 가을의 경금과 여름의 경금은 압박을 받는 방식이 다릅니다.</p>
+        <p>세 번째는 일지입니다. 일지는 배우자궁이라고도 부르지만, 꼭 결혼만 뜻하지 않습니다. 가까운 관계에서 내가 어떻게 반응하는지, 생활 속에서 어떤 리듬을 편안하게 느끼는지, 스트레스가 쌓일 때 어떤 방식으로 방어하는지를 볼 수 있습니다. 시주가 없을 때는 이 일지 해석이 생활감 있는 판단을 보완합니다.</p>
+        <ol>
+          <li>양력·음력·절기 기준이 맞는지 확인한다.</li>
+          <li>일간을 보고 나의 기본 반응 방식을 잡는다.</li>
+          <li>월지와 계절로 강한 기운과 약한 기운을 본다.</li>
+          <li>일지로 가까운 관계와 일상 반응을 읽는다.</li>
+          <li>부족한 시주는 단정하지 말고 가능한 경우의 수로 남긴다.</li>
+        </ol>
+        <div class="cta-box">
+          <p><strong>생시가 없어도 3주 기준으로 큰 흐름은 확인할 수 있습니다.</strong> 다만 정확한 시간 보정이 필요한 경우에는 실제 출생 기록, 가족 증언, 삶의 주요 사건을 함께 비교해야 합니다.</p>
+          <a href="/saju-analysis">사주 분석 시작하기</a>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="narrow-birth-hour">생시 모를 때 시간 범위를 좁히는 법</h2>
+        <p>생시 모를 때 가장 좋은 방법은 공식 기록을 먼저 확인하는 것입니다. 출생증명서, 병원 기록, 산모수첩, 가족이 보관한 메모, 주민등록 관련 기록을 우선 봅니다. 가족의 기억은 도움이 되지만, "아침쯤", "점심 전", "해 질 무렵"처럼 넓은 표현이 많기 때문에 곧바로 하나의 시주로 확정하면 위험합니다.</p>
+        <p>동양 시간은 보통 2시간 단위 지지로 나뉩니다. 예를 들어 자시는 밤 11시부터 새벽 1시, 축시는 새벽 1시부터 3시, 인시는 새벽 3시부터 5시처럼 이어집니다. 그래서 "오전 8시 전후"처럼 들었다면 진시인지 사시인지 경계에 걸릴 수 있습니다. 특히 한국 표준시, 출생지, 서머타임 여부, 실제 기록 방식에 따라 보정이 필요한 경우도 있습니다.</p>
+        <p>기록이 전혀 없다면 삶의 큰 사건으로 후보를 좁히는 방식도 있습니다. 다만 이것은 사후 끼워 맞추기가 되기 쉽습니다. 이직, 결혼, 이사, 가족 변화, 건강 이슈 같은 사건을 시주 후보별 대운·세운 흐름과 비교할 수는 있지만, 한두 사건만으로 생시를 확정하면 안 됩니다. 최소한 여러 사건이 반복해서 같은 후보를 가리킬 때 참고 자료로 삼는 편이 안전합니다.</p>
+        <ul>
+          <li><strong>1순위:</strong> 병원 기록, 출생증명서, 산모수첩, 가족 메모</li>
+          <li><strong>2순위:</strong> 가족 증언을 2시간 단위 시간대 후보로 정리</li>
+          <li><strong>3순위:</strong> 삶의 큰 전환 시기와 후보 시주 비교</li>
+          <li><strong>금지:</strong> 성격이 맞는 것 같다는 이유만으로 시주 확정</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 id="missing-hour-limits">시주 불명 사주에서 조심해야 할 해석</h2>
+        <p>시주 불명 사주에서 가장 조심해야 할 것은 용신을 너무 빨리 확정하는 일입니다. 용신은 단순히 부족한 오행을 채우는 공식이 아닙니다. 계절, 일간의 힘, 월령, 전체 오행의 통로, 합충, 조후까지 함께 봐야 합니다. 그런데 시주가 없으면 마지막 두 글자가 비어 있기 때문에, 어떤 오행이 실제로 숨어 있는지 알 수 없습니다.</p>
+        <p>예를 들어 3주만 보면 화가 부족해 보여도 시주에 사화나 오화가 있으면 판단이 달라집니다. 반대로 3주에서 수가 많아 보여도 시주에 토가 강하게 들어오면 물의 흐름을 제어하는 구조가 생길 수 있습니다. 그러므로 "당신은 무조건 목이 필요하다", "이 직업은 절대 안 맞다", "자녀운이 반드시 약하다" 같은 문장은 생시가 있을 때도 조심해야 하고, 생시가 없을 때는 더더욱 피해야 합니다.</p>
+        <p>또 하나는 자녀운과 노년운입니다. 전통적으로 시주는 자녀와 말년의 영역을 많이 봅니다. 생시가 없다면 이 부분은 해석의 확정성이 낮습니다. 대신 현재까지의 선택, 관계 방식, 건강 관리, 경제 습관처럼 실제로 관찰 가능한 정보를 함께 놓고 참고해야 합니다. 사주는 가능성을 읽는 도구이지, 빠진 정보 위에 확정 예언을 세우는 도구가 아닙니다.</p>
+        <div class="comparison-block">
+          <h3>잘못된 해석과 안전한 해석</h3>
+          <ul>
+            <li><strong>위험한 말:</strong> 생시가 없어도 자녀운은 확실히 나쁩니다.</li>
+            <li><strong>안전한 말:</strong> 시주가 없으므로 자녀·말년 해석은 보류하고, 현재 확인 가능한 관계 패턴을 먼저 봅니다.</li>
+            <li><strong>위험한 말:</strong> 이 사주는 무조건 특정 오행만 보충하면 됩니다.</li>
+            <li><strong>안전한 말:</strong> 3주 기준으로는 특정 기운이 약해 보이지만, 시주에 따라 균형 판단이 달라질 수 있습니다.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="practical-checklist">사주 시간 없이 보기 실전 체크리스트</h2>
+        <p>사주 시간 없이 보기를 할 때는 처음부터 완벽한 결론을 내려고 하지 않는 편이 좋습니다. 대신 "확실히 볼 수 있는 영역", "가능성으로 남길 영역", "생시 확인 전에는 보류할 영역"을 나누면 해석이 훨씬 안정됩니다. 이 방식은 무료 사주 풀이를 이용할 때도 유용합니다. 결과 화면에서 좋은 말과 나쁜 말을 바로 믿기보다, 어떤 정보가 생시 없이 계산된 것인지 확인할 수 있기 때문입니다.</p>
+        <p>먼저 생년월일이 정확한지 확인합니다. 음력 생일만 알고 있다면 양력 변환이 맞는지, 윤달 여부가 있는지, 절기 전후 출생인지 점검합니다. 다음으로 3주 명식에서 일간과 월지를 확인합니다. 그다음 오행 분포를 보되, 비어 있는 시주 때문에 부족·과다 판단을 확정하지 않습니다. 마지막으로 실제 삶의 흐름과 맞는지 비교합니다. 사주가 삶보다 앞서 결론을 내리게 두지 않는 것이 핵심입니다.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>체크 항목</th>
+              <th>확인할 내용</th>
+              <th>주의점</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>날짜 기준</td>
+              <td>양력·음력·윤달·절기</td>
+              <td>월주가 바뀌는 절기 전후 출생은 특히 조심</td>
+            </tr>
+            <tr>
+              <td>3주 핵심</td>
+              <td>일간, 월지, 일지, 기본 오행</td>
+              <td>시주 없이 최종 용신을 단정하지 않기</td>
+            </tr>
+            <tr>
+              <td>실전 비교</td>
+              <td>성향, 관계, 직업 흐름, 대운 전환 체감</td>
+              <td>한두 사건만으로 생시 확정 금지</td>
+            </tr>
+            <tr>
+              <td>보류 영역</td>
+              <td>자녀운, 말년운, 세부 사건 시기</td>
+              <td>참고 수준으로만 읽기</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>이 체크리스트의 장점은 불안을 줄인다는 데 있습니다. 생시를 모르면 사주 전체가 무너지는 것처럼 느끼기 쉽지만, 실제로는 확인 가능한 영역과 보류할 영역을 나누면 해석의 쓸모가 살아납니다. 특히 자기 이해, 관계 습관, 직업 환경의 큰 방향은 3주만으로도 충분한 힌트를 줄 수 있습니다.</p>
+      </section>
+
+      <section>
+        <h2 id="when-hour-matters">언제는 반드시 생시 확인이 필요한가</h2>
+        <p>생시 확인이 특히 중요한 경우가 있습니다. 첫째, 태어난 날짜가 절기 경계에 가깝고 시간에 따라 월주나 일주 계산이 민감하게 달라질 수 있는 경우입니다. 둘째, 자녀운, 노년운, 말년 재물 흐름처럼 시주 영역과 직접 연결된 질문을 할 때입니다. 셋째, 용신·기신을 세밀하게 잡아 개운 방향, 직업 세부 선택, 중요한 시기 판단까지 하려는 경우입니다.</p>
+        <p>또한 쌍둥이처럼 생년월일이 거의 같은 사람을 비교할 때도 생시는 매우 중요합니다. 같은 날 태어난 사람이라도 태어난 시간이 다르면 시주가 달라지고, 생활 반응과 말년 흐름이 다르게 나타날 수 있습니다. 이때는 시주 없이 두 사람을 같은 명식처럼 보면 해석이 거칠어집니다.</p>
+        <p>결론적으로, 사주 태어난 시간 모를 때의 현실적인 답은 "볼 수 있는 부분은 보고, 확정하면 안 되는 부분은 남겨 둔다"입니다. 3주 해석은 충분히 의미가 있지만, 시주가 필요한 영역까지 억지로 결론 내리면 오히려 정확도가 떨어집니다. 생시를 찾을 수 있다면 기록을 먼저 확인하고, 찾을 수 없다면 3주 기준의 자기 이해와 생활 전략에 집중하는 것이 가장 안전합니다.</p>
+        <div class="related-posts-inline">
+          <p><strong>다음 단계로 읽기</strong></p>
+          <ul>
+            <li><a href="/saju/day-pillar">일주로 나의 기본 성향과 관계 반응 읽는 법</a></li>
+            <li><a href="/saju/saju-reading-2026">2026 세운을 내 사주에 대입하는 실전 순서</a></li>
+            <li><a href="/saju/major-fortune">대운으로 10년 흐름을 읽는 기본 원리</a></li>
+          </ul>
+        </div>
+      </section>
+    `,
+    contentEn: `
+      <section>
+        <p>When people search for saju without birth time, they usually want a practical answer: can a Korean Four Pillars reading still work if the hour is missing? The honest answer is yes, but only within clear limits. Saju normally uses four pillars: year, month, day, and hour. If the birth hour is unknown, the hour pillar is missing, yet the year, month, and day pillars can still reveal the main structure of the chart.</p>
+        <p>This means a three pillars reading can still show the day master, the seasonal strength of the chart, the day branch, the broad five element balance, and many personality and relationship patterns. What it cannot safely do is make firm claims about children, later-life outcomes, precise useful element decisions, or highly specific event timing. This guide explains how to read saju when the birth hour is unknown, how to narrow the possible hour, and which conclusions should remain open until better information is found.</p>
+        <div class="related-posts-inline">
+          <p><strong>Read first if needed</strong></p>
+          <ul>
+            <li><a href="/saju/lunar-solar-calendar">How lunar, solar, and seasonal calendar rules affect saju</a></li>
+            <li><a href="/saju/free-saju-2026">How to prepare your birth information for a free saju reading</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="unknown-birth-time-scope">What Saju Can Still Show Without Birth Time</h2>
+        <p>A missing birth time does not erase the whole chart. If the birth date is correct, the year pillar, month pillar, and day pillar remain available. These three pillars are not a small amount of information. The day stem, often called the day master, shows the central reference point of the chart. The month branch shows season, social environment, and the strength of the elements. The day branch shows close relationship style, daily reaction, and the way the person tends to respond when life becomes personal.</p>
+        <p>For example, a person born in winter with a strong Water environment will read differently from a person born in summer with strong Fire. That seasonal difference can be seen even without the hour pillar. The same is true for the day master. Jia Wood, Bing Fire, Geng Metal, and Gui Water do not react to pressure in the same way. The day branch also matters. A Rat day branch and a Horse day branch create very different emotional rhythms and relationship patterns.</p>
+        <p>Still, the hour pillar is not just a decorative fourth column. It can change the five element balance. It can reveal hidden output, later-life direction, children-related themes, and the kind of result a person may produce after long effort. In some charts, the missing hour contains the very element that changes the interpretation. That is why three pillars should be treated as a useful working map, not a final verdict.</p>
+        <div class="comparison-block">
+          <h3>Reliable areas and uncertain areas</h3>
+          <ul>
+            <li><strong>More reliable:</strong> day master traits, seasonal strength, broad five element balance, day branch reactions, basic relationship style.</li>
+            <li><strong>Less reliable:</strong> children luck, later-life fortune, exact useful element selection, specific career verdicts, precise event timing.</li>
+            <li><strong>Best practice:</strong> read the clear parts first and keep the missing-hour areas as possible scenarios.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="three-pillars-method">How to Read Three Pillars When the Hour Is Missing</h2>
+        <p>The safest way to read a chart without birth time is to follow a fixed order. Do not begin by guessing the missing hour. Start with the information that is already reliable. First, check whether the birthday is recorded in the solar calendar or lunar calendar, whether there is a leap month, and whether the birth date falls near a seasonal term boundary. A wrong calendar conversion can damage the chart more than a missing hour does.</p>
+        <p>Second, read the day master. The day master is the main reference point of the chart. Jia Wood tends to seek growth and direction. Bing Fire tends to express, expand, and illuminate. Geng Metal tends to judge, cut, and define standards. Gui Water tends to observe, absorb, and move quietly. These are not rigid personality labels, but they provide the first lens for understanding how the person processes life.</p>
+        <p>Third, read the month branch and season. The month branch shows the environment in which the day master is born. A Wood day master in spring is not the same as a Wood day master in winter. A Metal day master in autumn is not the same as a Metal day master under strong summer Fire. This step helps judge whether the chart feels supported, pressured, dry, cold, overheated, or scattered.</p>
+        <p>Fourth, read the day branch. The day branch is often called the spouse palace, but it is broader than marriage. It can show the daily emotional base, close relationship pattern, and the reaction style that appears when someone feels safe or threatened. When the hour is unknown, the day branch becomes even more important because it gives concrete information about lived behavior.</p>
+        <ol>
+          <li>Confirm calendar, seasonal term, and date accuracy.</li>
+          <li>Use the day master as the main reference point.</li>
+          <li>Use the month branch to judge season and strength.</li>
+          <li>Use the day branch to read daily and relationship reactions.</li>
+          <li>Keep the hour pillar as an open variable instead of forcing a conclusion.</li>
+        </ol>
+        <div class="cta-box">
+          <p><strong>A three pillars reading can still be useful.</strong> It works best when it focuses on the stable parts of the chart and clearly separates them from the areas that require birth time confirmation.</p>
+          <a href="/saju-analysis">Start a Saju Analysis</a>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="narrow-birth-hour">How to Narrow the Possible Birth Hour</h2>
+        <p>The best way to narrow an unknown birth hour is to start with records, not personality guesses. Hospital records, a birth certificate, a baby book, a parent's note, or a family document should come first. Family memory can help, but it often uses broad phrases such as around morning, before lunch, or near sunset. Those phrases should be converted into possible two-hour branches rather than treated as one exact hour.</p>
+        <p>Traditional East Asian time divides a day into twelve two-hour branches. Zi hour covers roughly 11 p.m. to 1 a.m., Chou hour covers 1 a.m. to 3 a.m., Yin hour covers 3 a.m. to 5 a.m., and the pattern continues through the day. If someone was born around 8 a.m., the chart may sit near a boundary depending on how the time was remembered and recorded. Location, time zone, historical daylight saving rules, and recording habits can also matter in special cases.</p>
+        <p>If no record is available, major life events can be compared with possible hour pillars, but this should be done carefully. Marriage, job changes, moves, family events, health pressure, or financial shifts may support one possible hour over another. The danger is hindsight fitting. One or two events are not enough to prove a birth hour. A possible hour becomes more credible only when several unrelated life events repeatedly point in the same direction.</p>
+        <ul>
+          <li><strong>First source:</strong> hospital records, birth certificates, baby books, or written family notes.</li>
+          <li><strong>Second source:</strong> family memory translated into two-hour branch ranges.</li>
+          <li><strong>Third source:</strong> comparison with several major life events, not just one event.</li>
+          <li><strong>Avoid:</strong> choosing the hour only because a personality description feels right.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 id="missing-hour-limits">What to Avoid When the Hour Pillar Is Unknown</h2>
+        <p>The biggest mistake in an unknown hour chart is deciding the useful element too quickly. The useful element is not simply the element that appears to be missing. It depends on season, day master strength, elemental flow, combinations, clashes, temperature, moisture, and the full structure of the chart. Without the hour pillar, two characters are missing, and those two characters may contain the element that changes the reading.</p>
+        <p>For instance, a three pillars chart may look short of Fire, but a Si or Wu hour could add strong Fire. Another chart may seem overloaded with Water, but a strong Earth hour could control or organize that Water. This is why statements such as you definitely need Wood, you should never choose this career, or your children luck is certainly weak are unsafe when the birth hour is unknown. Even with a full chart, such statements should be handled with care. Without the hour, they become even less reliable.</p>
+        <p>Children-related topics and later-life themes also require caution. In traditional interpretation, the hour pillar is often connected with children, later years, deeper output, and the final shape of one's efforts. If the hour is missing, these areas should be read as open possibilities. They can be discussed through observable life patterns, but they should not be presented as fixed predictions.</p>
+        <div class="comparison-block">
+          <h3>Risky reading vs. safer reading</h3>
+          <ul>
+            <li><strong>Risky:</strong> Even without the hour, your children luck is definitely poor.</li>
+            <li><strong>Safer:</strong> Because the hour is missing, children and later-life themes should remain open until more information is available.</li>
+            <li><strong>Risky:</strong> This chart must use only one specific element.</li>
+            <li><strong>Safer:</strong> The three pillars suggest one possible direction, but the hour pillar may change the final balance.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="practical-checklist">Practical Checklist for Saju Without Birth Time</h2>
+        <p>A good saju reading without birth time is not about pretending the hour does not matter. It is about separating three categories: what can be read with confidence, what can be treated as a possibility, and what should be paused until the birth hour is confirmed. This approach is especially useful when using a free saju calculator or an online reading tool. Instead of accepting every line equally, you can ask which part comes from the year, month, and day, and which part depends on the missing hour.</p>
+        <p>Begin with date accuracy. If the birthday is known only by lunar date, confirm the solar conversion and leap month status. If the birth date is near a seasonal term, check whether the month pillar might change. Next, identify the day master and the month branch. Then read the broad five element balance, but do not finalize shortage or excess too aggressively. Finally, compare the reading with real life patterns. Saju should help organize life, not override it.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Checkpoint</th>
+              <th>What to review</th>
+              <th>What to avoid</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Date basis</td>
+              <td>Solar date, lunar date, leap month, seasonal term</td>
+              <td>Using the wrong calendar conversion</td>
+            </tr>
+            <tr>
+              <td>Three-pillar core</td>
+              <td>Day master, month branch, day branch, broad elements</td>
+              <td>Finalizing the useful element without the hour</td>
+            </tr>
+            <tr>
+              <td>Life comparison</td>
+              <td>Personality, relationships, work rhythm, major transitions</td>
+              <td>Choosing an hour from one event or one trait</td>
+            </tr>
+            <tr>
+              <td>Open areas</td>
+              <td>Children, later years, precise timing, hidden talent</td>
+              <td>Turning uncertain areas into fixed predictions</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>This checklist reduces anxiety. Many people feel that a missing birth hour makes their chart useless, but that is not true. A three pillars reading can still support self-understanding, relationship awareness, and broad career direction. The key is to use the reading at the right level of precision.</p>
+      </section>
+
+      <section>
+        <h2 id="when-hour-matters">When Birth Time Becomes Essential</h2>
+        <p>There are situations where birth time becomes essential. The first is when the birth date falls close to a seasonal boundary or time boundary that may change the chart calculation. The second is when the question directly involves children, later-life fortune, hidden output, or very specific timing. The third is when someone wants to make a precise useful element decision for career direction, environmental adjustment, or timing strategy.</p>
+        <p>Birth time is also important when comparing people born on the same day. Two people can share the same year, month, and day pillars but have different hour pillars. Their deeper output, family themes, and later-life rhythms may differ. Without the hour, reading them as identical charts would be too rough.</p>
+        <p>The practical answer is this: read what can be read, and leave the rest open. If you can find the birth time, start with records and then compare possible hour branches carefully. If you cannot find it, focus on the three pillars for self-understanding and life strategy. A saju reading is most useful when it respects the information it has and does not pretend to know what is missing.</p>
+        <div class="related-posts-inline">
+          <p><strong>Read next</strong></p>
+          <ul>
+            <li><a href="/saju/day-pillar">How the day pillar shows your core response pattern</a></li>
+            <li><a href="/saju/saju-reading-2026">How to apply the 2026 annual energy to your chart</a></li>
+            <li><a href="/saju/major-fortune">How major luck cycles shape ten-year life changes</a></li>
+          </ul>
+        </div>
+      </section>
+    `,
+    faq: [
+      {
+        q: '사주 태어난 시간 모를 때도 풀이가 가능한가요?',
+        a: '가능합니다. 년주, 월주, 일주를 기준으로 일간 성향, 계절감, 기본 오행 분포, 일지 반응은 볼 수 있습니다. 다만 시주가 필요한 자녀운, 말년운, 정확한 용신 판단은 보류해야 합니다.',
+      },
+      {
+        q: '시주 없이 보는 사주는 정확도가 많이 떨어지나요?',
+        a: '해석 영역에 따라 다릅니다. 기본 성향과 큰 흐름은 3주만으로도 참고할 수 있지만, 세부 사건 시기나 숨은 재능, 자녀·노년 관련 판단은 정확도가 낮아질 수 있습니다.',
+      },
+      {
+        q: '생시를 모르면 어떻게 시간 범위를 좁히나요?',
+        a: '병원 기록, 출생증명서, 산모수첩, 가족 메모를 먼저 확인하고, 가족 기억은 2시간 단위 후보로 정리합니다. 이후 여러 주요 사건과 후보 시주를 비교할 수 있지만, 한두 사건만으로 확정하면 안 됩니다.',
+      },
+    ],
+    faqEn: [
+      {
+        q: 'Can I still get a saju reading without birth time?',
+        a: 'Yes. The year, month, and day pillars can still show the day master, seasonal strength, broad element balance, and relationship patterns. The missing hour mainly limits children, later-life themes, hidden output, and precise timing.',
+      },
+      {
+        q: 'Is a three pillars saju reading much less accurate?',
+        a: 'It depends on the question. Broad personality and life rhythm can still be useful, but specific event timing, useful element decisions, and hour-related topics should be treated as uncertain.',
+      },
+      {
+        q: 'How can I narrow my unknown birth hour?',
+        a: 'Start with records such as hospital documents, a birth certificate, or family notes. Family memory should be converted into possible two-hour ranges, and life events should only be used as supporting evidence, not final proof.',
+      },
+    ],
+    relatedPosts: [
+      { slug: 'lunar-solar-calendar', category: 'saju', title: '사주 음력·양력 완전 해설: 절기력과 생시 입력법' },
+      { slug: 'day-pillar', category: 'saju', title: '사주 일주 완전정복: 나의 본질과 배우자 복을 읽는 법' },
+      { slug: 'free-saju-2026', category: 'saju', title: '2026 사주 무료 풀이: 내 사주 직접 보는 법' },
+    ],
+  },
+  {
+    slug: 'daewoon-change',
+    title: 'Daewoon Change Signs: Real-Life Shifts During a 10-Year Luck Cycle Transition',
+    seoTitle: '대운 전환기 증상: 10년 운세가 바뀔 때 나타나는 현실 변화',
+    seoTitleEn: 'Daewoon Change Signs: Real-Life Shifts During a 10-Year Saju Cycle',
+    description: '대운 바뀌면 실제 생활에서 어떤 변화가 나타나는지, 대운 전환 신호와 관계·직업·생활 리듬 변화, 적응 체크리스트를 정리합니다.',
+    descriptionEn: 'Learn the real-life signs of a Daewoon change in Saju, including relationship shifts, career pressure, lifestyle changes, and a practical transition checklist.',
+    keywords: ['대운 바뀌면', '사주 대운 전환', '대운 전환기 증상', '대운 전환 신호', '대운 바뀌는 나이', '사주 10년 운세'],
+    keywordsEn: ['daewoon change saju', 'four pillars major luck cycle change', 'luck cycle transition saju', '10 year cycle saju', 'major fortune change korean astrology', 'daewoon transition signs'],
+    publishedAt: '2026-05-02',
+    category: 'saju',
+    toc: [
+      { id: 'daewoon-transition-meaning', title: '대운 전환기는 무엇이 달라지는 시기인가' },
+      { id: 'real-life-signs', title: '대운 바뀌면 나타나는 현실 변화 신호' },
+      { id: 'relationship-career-changes', title: '관계·직업·생활 리듬에서 보이는 변화' },
+      { id: 'transition-age', title: '대운 바뀌는 나이는 어떻게 이해해야 하나' },
+      { id: 'adaptation-checklist', title: '대운 전환기 적응 체크리스트' },
+      { id: 'avoid-mistakes', title: '대운 전환기에 피해야 할 해석과 행동' },
+    ],
+    tocEn: [
+      { id: 'daewoon-transition-meaning', title: 'What a Daewoon Transition Really Changes' },
+      { id: 'real-life-signs', title: 'Real-Life Signs of a Daewoon Change' },
+      { id: 'relationship-career-changes', title: 'Relationship, Career, and Lifestyle Shifts' },
+      { id: 'transition-age', title: 'How to Understand the Age of Daewoon Change' },
+      { id: 'adaptation-checklist', title: 'Practical Checklist for a Luck Cycle Transition' },
+      { id: 'avoid-mistakes', title: 'Mistakes to Avoid During a Daewoon Change' },
+    ],
+    contentKo: `
+      <section>
+        <p>대운 바뀌면 인생이 하루아침에 완전히 뒤집힌다고 생각하기 쉽지만, 실제 대운 전환은 갑작스러운 사건 하나보다 생활 리듬, 관계 방식, 일의 방향, 마음이 끌리는 선택이 서서히 바뀌는 과정에 가깝습니다. 사주 대운 전환은 10년 운세의 배경이 달라지는 시기이므로, 같은 능력과 같은 환경을 가지고 있어도 예전에는 잘 풀리던 방식이 더 이상 통하지 않거나, 반대로 오래 막혀 있던 일이 새롭게 움직이기 시작할 수 있습니다.</p>
+        <p>이 글은 <a href="/saju/major-fortune">대운 보는 법의 기본 원리</a>를 다시 설명하는 글이 아닙니다. 이미 대운이 무엇인지 알고 있거나, 최근 삶의 분위기가 바뀌는 것 같아 "지금이 대운 전환기인가?"를 확인하고 싶은 사람을 위한 실전 안내입니다. 대운 전환기 증상, 대운 전환 신호, 대운 바뀌는 나이를 어떻게 이해해야 하는지, 그리고 실제 생활에서는 무엇을 조정해야 하는지를 중심으로 정리합니다.</p>
+        <div class="related-posts-inline">
+          <p><strong>먼저 읽으면 좋은 글</strong></p>
+          <ul>
+            <li><a href="/saju/major-fortune">대운으로 10년 운세 흐름을 읽는 기본 원리</a></li>
+            <li><a href="/saju/lucky-element">용신과 균형으로 내게 필요한 기운을 보는 법</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="daewoon-transition-meaning">대운 전환기는 무엇이 달라지는 시기인가</h2>
+        <p>대운은 약 10년 단위로 들어오는 큰 운의 흐름입니다. 여기서 중요한 것은 대운이 "좋은 운"만 뜻하지 않는다는 점입니다. 대운은 나에게 주어지는 10년짜리 환경, 역할, 사람, 과제의 묶음입니다. 어떤 사람에게는 확장과 성취의 10년이 되고, 어떤 사람에게는 정리와 재정비의 10년이 되며, 또 어떤 사람에게는 지금까지 외면했던 문제를 다루게 만드는 시간이 됩니다.</p>
+        <p>대운 전환기는 이 10년짜리 배경이 바뀌는 경계 구간입니다. 계절이 바뀔 때 날씨가 불안정하듯, 대운이 바뀔 때도 삶의 방향이 한 번에 선명해지기보다 기존 흐름과 새 흐름이 겹쳐 나타납니다. 그래서 대운 전환 신호는 보통 "이직을 했다", "이사를 했다" 같은 단일 사건보다, 여러 영역에서 비슷한 메시지가 반복되는 형태로 나타납니다.</p>
+        <p>예를 들어 이전 대운이 인성 중심의 공부, 자격, 준비, 보호의 분위기였다면 다음 대운이 식상이나 재성 중심으로 바뀔 때 갑자기 말하고, 만들고, 팔고, 독립해야 하는 상황이 늘어날 수 있습니다. 반대로 외부 활동이 많던 사람이 관성이나 인성의 압력을 받는 대운으로 들어가면 규칙, 조직, 책임, 학습, 문서 문제를 더 자주 마주하게 됩니다. 이것은 좋고 나쁨의 문제가 아니라, 앞으로 10년 동안 삶이 요구하는 역할이 달라진다는 뜻입니다.</p>
+      </section>
+
+      <section>
+        <h2 id="real-life-signs">대운 바뀌면 나타나는 현실 변화 신호</h2>
+        <p>대운 바뀌면 가장 먼저 느껴지는 것은 사건보다 감각입니다. 익숙한 사람, 익숙한 직장, 익숙한 생활 루틴이 갑자기 맞지 않는 옷처럼 느껴질 수 있습니다. 예전에는 참고 넘기던 일이 더 이상 참기 어렵고, 반대로 예전에는 관심 없던 분야가 이상하게 눈에 들어옵니다. 이 변화가 일시적인 기분인지 대운 전환기 증상인지는 반복성과 방향성으로 확인해야 합니다.</p>
+        <p>첫 번째 신호는 관계의 재배치입니다. 오래 알고 지낸 사람과 멀어지거나, 전혀 다른 성향의 사람이 가까워지는 일이 생깁니다. 대운 전환기에 관계가 바뀌는 이유는 내가 원하는 안정감, 인정 방식, 일하는 방식이 달라지기 때문입니다. 예전 대운에서 필요했던 사람과 다음 대운에서 필요한 사람이 달라지면 관계의 온도도 자연스럽게 바뀝니다.</p>
+        <p>두 번째 신호는 일과 돈을 대하는 방식의 변화입니다. 직장 안에서 역할이 바뀌거나, 이직·부서 이동·독립·부업 같은 선택지가 현실적으로 다가올 수 있습니다. 다만 이것을 곧바로 "무조건 일을 그만두라는 신호"로 읽으면 위험합니다. 대운 전환은 방향을 바꾸라는 힌트일 수 있지만, 실제 행동은 원국, 세운, 재정 상황, 가족 책임을 함께 보고 결정해야 합니다.</p>
+        <ul>
+          <li><strong>관계 신호:</strong> 오래된 관계의 피로감, 새로운 인맥의 등장, 말이 통하는 사람의 변화</li>
+          <li><strong>직업 신호:</strong> 역할 변경, 업무 방식 변화, 독립 욕구, 책임 증가, 조직과의 마찰</li>
+          <li><strong>생활 신호:</strong> 수면 리듬 변화, 공간 정리 욕구, 이사 생각, 기존 취미의 흥미 감소</li>
+          <li><strong>심리 신호:</strong> 가치관 재정렬, 정체성 질문, 앞으로 10년을 다르게 살고 싶다는 압박</li>
+        </ul>
+        <div class="cta-box">
+          <p><strong>대운 전환 신호는 하나의 사건보다 반복되는 흐름으로 봐야 합니다.</strong> 내 사주 원국과 현재 세운까지 함께 보면 변화가 일시적인 흔들림인지, 다음 10년의 방향 전환인지 더 차분하게 정리할 수 있습니다.</p>
+          <a href="/saju-analysis">사주 분석 시작하기</a>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="relationship-career-changes">관계·직업·생활 리듬에서 보이는 변화</h2>
+        <p>대운 전환기에는 관계 변화가 가장 먼저 체감되는 경우가 많습니다. 사람 자체가 나빠져서가 아니라, 서로에게 기대하는 역할이 달라지기 때문입니다. 예전에는 내가 맞춰 주는 쪽이 편했는데 이제는 내 기준을 세우고 싶어질 수 있고, 예전에는 경쟁이 자극이 되었는데 이제는 안정적인 협력이 더 중요해질 수 있습니다. 이때 모든 관계를 끊는 방식으로 반응하면 나중에 후회가 남기 쉽습니다. 관계를 정리하더라도 속도와 범위를 조절해야 합니다.</p>
+        <p>직업에서는 "일의 종류"보다 "일하는 방식"이 먼저 바뀌는 경우가 많습니다. 같은 일을 하더라도 더 많은 책임을 맡게 되거나, 반대로 앞에 나서기보다 관리와 정리를 요구받을 수 있습니다. 어떤 사람은 대운이 바뀌며 영업, 콘텐츠, 강의, 상담처럼 표현하는 일이 열리고, 어떤 사람은 회계, 법무, 운영, 관리처럼 구조를 세우는 일이 중요해집니다. 그래서 대운 전환기에 직업을 볼 때는 직장명보다 역할, 수익 구조, 책임의 방향을 봐야 합니다.</p>
+        <p>생활 리듬도 무시하면 안 됩니다. 대운 전환기에 이사, 공간 정리, 출퇴근 방식 변화, 가족 구성원의 변화가 함께 나타나는 경우가 있습니다. 명리학적으로는 운의 흐름이 바뀌는 시기에 내가 머무는 공간과 반복 행동도 함께 조정된다고 봅니다. 현실적으로도 생활 리듬이 바뀌면 에너지 사용 방식이 달라지고, 그 결과 관계와 직업 선택에도 영향을 줍니다.</p>
+        <p>이 시기에 <a href="/saju/career-change-2026">이직운이나 직장 변화</a>를 함께 보는 것은 도움이 될 수 있습니다. 다만 연도별 세운은 그해의 날씨이고, 대운은 10년의 지형입니다. 올해 힘들다고 해서 대운 전체가 나쁘다고 단정하거나, 올해 좋은 일이 있었다고 해서 다음 10년이 모두 순조롭다고 판단해서는 안 됩니다.</p>
+      </section>
+
+      <section>
+        <h2 id="transition-age">대운 바뀌는 나이는 어떻게 이해해야 하나</h2>
+        <p>대운 바뀌는 나이는 사람마다 다릅니다. 같은 1990년생이라도 태어난 월, 일, 성별, 대운 계산 방식에 따라 첫 대운이 시작되는 나이가 달라질 수 있습니다. 그래서 "누구나 30세에 대운이 바뀐다" 같은 말은 정확하지 않습니다. 보통은 첫 대운 시작 시점을 기준으로 10년 단위 흐름을 이어서 봅니다.</p>
+        <p>중요한 것은 정확한 나이 숫자보다 전환 구간을 넓게 보는 태도입니다. 대운이 바뀌는 해에만 모든 일이 일어나는 것이 아니라, 전후 1~2년 동안 기존 흐름이 약해지고 새 흐름이 들어오는 과정이 나타날 수 있습니다. 특히 큰 결정, 장기 계약, 결혼, 이직, 창업, 투자처럼 삶의 구조를 바꾸는 선택은 대운 전환기와 세운을 함께 확인하는 편이 안전합니다.</p>
+        <p>대운 전환기 증상을 나이와만 연결하면 놓치는 부분이 생깁니다. 어떤 사람은 실제 사건이 전환 나이보다 조금 먼저 나타나고, 어떤 사람은 심리적 변화가 먼저 오고 실제 결과는 몇 년 뒤에 나타납니다. 대운은 버튼처럼 켜지는 것이 아니라 계절처럼 넘어갑니다. 그래서 대운 바뀌는 나이를 확인했다면, 그 주변 몇 년간의 관계 변화, 직업 역할, 돈의 흐름, 생활 리듬을 함께 기록해 보는 것이 좋습니다.</p>
+      </section>
+
+      <section>
+        <h2 id="adaptation-checklist">대운 전환기 적응 체크리스트</h2>
+        <p>대운 전환기에 가장 필요한 것은 큰 결심보다 관찰입니다. 변화가 느껴진다고 해서 바로 퇴사, 이혼, 창업, 투자처럼 되돌리기 어려운 선택으로 뛰어들 필요는 없습니다. 먼저 반복되는 신호를 기록하고, 그 변화가 특정 사람이나 사건 하나 때문인지, 여러 영역에서 동시에 나타나는 흐름인지 확인해야 합니다.</p>
+        <p>다음으로 기존 방식이 왜 더 이상 통하지 않는지 봐야 합니다. 단순히 의지가 약해진 것인지, 몸과 마음의 리듬이 바뀐 것인지, 역할 자체가 달라지고 있는지 구분해야 합니다. 대운 전환은 새로운 방향을 열기도 하지만, 기존 방식의 한계를 드러내기도 합니다. 이때 과거의 성공 방식을 그대로 붙잡으면 전환기가 더 길고 피곤하게 느껴질 수 있습니다.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>점검 영역</th>
+              <th>확인할 질문</th>
+              <th>권장 행동</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>관계</td>
+              <td>어떤 사람과 멀어지고 어떤 사람이 가까워지는가</td>
+              <td>즉시 단절보다 거리 조절과 역할 재정의</td>
+            </tr>
+            <tr>
+              <td>직업</td>
+              <td>일의 종류가 바뀌는가, 책임 방식이 바뀌는가</td>
+              <td>퇴사 전 역할 변경, 수익 구조, 준비 기간 확인</td>
+            </tr>
+            <tr>
+              <td>돈</td>
+              <td>소득 방식이나 지출 우선순위가 달라지는가</td>
+              <td>큰 투자보다 현금 흐름과 고정비 먼저 정리</td>
+            </tr>
+            <tr>
+              <td>생활</td>
+              <td>공간, 수면, 이동, 루틴이 바뀌고 싶은가</td>
+              <td>작은 루틴 변경으로 새 리듬을 시험</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>대운 전환기에는 기록이 큰 도움이 됩니다. 최소 3개월 동안 관계, 일, 돈, 몸의 리듬에서 반복되는 변화를 적어 보면 단순한 감정과 실제 흐름이 구분됩니다. 사주 해석도 이 기록과 함께 볼 때 더 현실적입니다. 명식만 보고 결론을 내리기보다, 명식이 실제 삶에서 어떤 방식으로 드러나는지 확인하는 과정이 필요합니다.</p>
+      </section>
+
+      <section>
+        <h2 id="avoid-mistakes">대운 전환기에 피해야 할 해석과 행동</h2>
+        <p>첫 번째로 피해야 할 것은 "좋은 대운이면 무조건 잘되고, 나쁜 대운이면 무조건 망한다"는 식의 단정입니다. 대운은 유리한 환경과 불리한 환경을 만들 수 있지만, 그것이 결과를 자동으로 보장하지는 않습니다. 좋은 대운에도 준비가 없으면 기회를 놓칠 수 있고, 부담스러운 대운에도 방향을 잘 잡으면 기술, 자격, 신뢰, 내실을 만들 수 있습니다.</p>
+        <p>두 번째는 변화 신호를 핑계로 모든 것을 한 번에 바꾸는 행동입니다. 대운 전환기에 답답함이 커지면 현재의 직장, 관계, 집, 생활 방식을 모두 버리고 싶어질 수 있습니다. 하지만 새 운의 방향이 아직 완전히 자리 잡기 전에는 극단적인 선택보다 실험과 조정이 더 안전합니다. 작은 프로젝트, 부업 테스트, 관계 거리 조절, 공간 정리처럼 되돌릴 수 있는 변화부터 시작하는 편이 좋습니다.</p>
+        <p>세 번째는 대운만 보고 세운과 원국을 무시하는 것입니다. 대운은 큰 배경이고, 세운은 그해의 구체적인 사건을 자극합니다. 원국은 내가 가진 기본 구조입니다. 세 가지를 함께 봐야 "지금 바뀌는 것이 10년 흐름의 변화인지, 올해의 일시적 압박인지, 원래 명식에서 반복되는 패턴인지" 구분할 수 있습니다. <a href="/saju/saju-reading-2026">연도별 세운 해석</a>과 대운을 함께 보는 이유가 여기에 있습니다.</p>
+        <p>결론적으로 사주 대운 전환은 불안을 키우기 위한 말이 아니라, 앞으로 10년의 방향을 더 현실적으로 준비하기 위한 도구입니다. 대운 바뀌면 나타나는 신호를 무서워할 필요는 없습니다. 다만 그 신호를 단정적인 예언으로 소비하지 말고, 관계와 직업과 생활 리듬을 재정렬하는 참고 정보로 쓰는 것이 가장 실용적입니다.</p>
+        <div class="related-posts-inline">
+          <p><strong>다음 단계로 읽기</strong></p>
+          <ul>
+            <li><a href="/saju/major-fortune">대운 기본 원리와 10년 운세 흐름</a></li>
+            <li><a href="/saju/lucky-element">내 사주에 필요한 용신과 균형 찾기</a></li>
+            <li><a href="/saju/saju-reading-2026">2026 세운을 내 명식에 적용하는 순서</a></li>
+          </ul>
+        </div>
+      </section>
+    `,
+    contentEn: `
+      <section>
+        <p>A Daewoon change in Saju does not usually feel like a single dramatic event that turns life upside down overnight. In real life, a Four Pillars major luck cycle change often appears as a gradual shift in rhythm, people, responsibilities, work style, money choices, and the kind of future that suddenly feels possible. The same habits that once worked smoothly may become heavy, while opportunities that once felt unrealistic may begin to look practical.</p>
+        <p>This article is not a repeat of the basic theory of <a href="/saju/major-fortune">how Daewoon works in Korean astrology</a>. It is a practical guide for people who already know that Daewoon means a 10-year cycle and want to understand the signs of transition. We will focus on real-life Daewoon change signs, the age of transition, relationship and career shifts, and how to adjust without turning every uncomfortable feeling into a fixed prediction.</p>
+        <div class="related-posts-inline">
+          <p><strong>Helpful background</strong></p>
+          <ul>
+            <li><a href="/saju/major-fortune">How major luck cycles shape ten-year life direction</a></li>
+            <li><a href="/saju/lucky-element">How useful elements and balance affect a Saju reading</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="daewoon-transition-meaning">What a Daewoon Transition Really Changes</h2>
+        <p>Daewoon is often translated as a major fortune cycle, but the word fortune can be misleading. A Daewoon cycle is not automatically good luck. It is a 10-year field of conditions. It can change the kinds of people you meet, the responsibilities you carry, the environments that support or drain you, and the type of effort that produces results. For one person, a new cycle may bring expansion and visibility. For another, it may bring study, discipline, repair, or quiet preparation.</p>
+        <p>A luck cycle transition is the boundary period between two 10-year environments. Like a seasonal change, it can feel unstable before it becomes clear. Old patterns have not fully disappeared, but new patterns are already entering. This is why a daewoon change in saju should not be judged from one event alone. The more useful question is whether several areas of life are sending a similar message at the same time.</p>
+        <p>For example, a previous cycle may have supported learning, protection, credentials, and preparation. If the next cycle emphasizes expression, output, money, or responsibility, life may begin pushing the person to speak, sell, create, manage, or take visible action. Another person may move from an active cycle into one that emphasizes rules, documents, organizations, or study. The point is not to label one cycle as lucky and the other as unlucky. The point is that the role required by life begins to change.</p>
+      </section>
+
+      <section>
+        <h2 id="real-life-signs">Real-Life Signs of a Daewoon Change</h2>
+        <p>The first sign of a Daewoon change is often a change in inner fit. A familiar job, friendship, routine, or living space may begin to feel like clothing that no longer matches your body. Things you used to tolerate may become difficult to ignore. At the same time, subjects that never attracted you before may begin to pull your attention. This does not prove a major luck cycle change by itself, but it is worth observing when the feeling repeats across different areas.</p>
+        <p>Relationship changes are common. Long-standing connections may weaken, while people from different backgrounds or industries may enter your life. This does not always mean that someone is bad for you. It may mean that your role, values, and emotional needs are changing. The people who fit one 10-year cycle are not always the same people who fit the next one.</p>
+        <p>Career and money patterns can also shift. A person may be asked to take more responsibility, move to a new department, start independent work, or reconsider how income is made. However, a Daewoon transition should not be used as a simple command to quit a job, end a relationship, or start a business immediately. It is a signal to study direction. The actual decision should also consider the natal chart, annual fortune, finances, family duties, and practical readiness.</p>
+        <ul>
+          <li><strong>Relationship signs:</strong> fatigue with old connections, new circles appearing, different communication needs.</li>
+          <li><strong>Career signs:</strong> role changes, pressure from responsibility, desire for independence, or conflict with existing systems.</li>
+          <li><strong>Lifestyle signs:</strong> moving thoughts, space clearing, sleep rhythm changes, new routines, or reduced interest in old hobbies.</li>
+          <li><strong>Psychological signs:</strong> identity questions, new priorities, and a strong need to design the next decade differently.</li>
+        </ul>
+        <div class="cta-box">
+          <p><strong>Daewoon transition signs are best read as repeated patterns, not isolated events.</strong> A full Saju reading can compare the natal chart, the 10-year cycle, and the annual cycle so the change can be interpreted more calmly.</p>
+          <a href="/saju-analysis">Start a Saju Analysis</a>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="relationship-career-changes">Relationship, Career, and Lifestyle Shifts</h2>
+        <p>Relationships often show the transition first because people mirror the role we are playing. During one cycle, you may have been comfortable supporting others, staying quiet, or following the atmosphere. During the next cycle, you may need clearer boundaries, more independence, or a different style of cooperation. This can make old relationships feel strained even when no one has done anything obviously wrong.</p>
+        <p>The safest response is not to cut every connection at once. A luck cycle transition can reveal which relationships need distance, which need new rules, and which still matter but require a different rhythm. Sudden emotional decisions may create regret later. Slow adjustment is usually better than dramatic reaction.</p>
+        <p>In career, the first change is often not the job title but the working style. The same job may begin asking for more leadership, more communication, more structure, or more accountability. Someone who used to succeed by being agreeable may now need to negotiate. Someone who used to win through speed may now need systems. Someone who was hidden in support work may be pushed into visible output, teaching, consulting, sales, or content. Another person may move toward management, compliance, operations, finance, or documentation.</p>
+        <p>Lifestyle changes matter too. Moving, changing commute patterns, reorganizing your room, adjusting sleep, or changing the way you spend weekends can all reflect the deeper shift. In practical terms, life rhythm affects decisions. If your body and schedule are changing, your relationship and career choices will also feel different. This is why a Daewoon change should be read through daily life, not only through abstract theory.</p>
+        <p>It can be useful to compare this broader cycle with a specific annual topic such as <a href="/saju/career-change-2026">career change timing</a>. The annual cycle is like the weather of one year, while Daewoon is the landform of ten years. One stressful year does not make the entire decade bad, and one successful year does not guarantee that the whole cycle will be easy.</p>
+      </section>
+
+      <section>
+        <h2 id="transition-age">How to Understand the Age of Daewoon Change</h2>
+        <p>The age of Daewoon change is not identical for everyone. People born in the same year may start their first major luck cycle at different ages depending on birth month, birth day, gender rules used by the system, and the calculation method. After the first cycle begins, the following cycles usually continue in 10-year intervals. This is why generic statements such as everyone changes luck at age 30 are not reliable.</p>
+        <p>It is also important to treat the transition as a range, not a single switch. The year of change matters, but many people feel the shift one or two years before or after the formal boundary. Old conditions weaken, new conditions enter, and both can overlap. This is especially relevant for decisions that reshape life: marriage, moving, long-term contracts, career changes, business launches, or major investments.</p>
+        <p>Some people experience the psychological shift first and the outer event later. Others experience an event first and only understand the meaning afterward. A 10 year cycle in saju is not a button that turns on at midnight. It is closer to a season changing. Once you know the approximate transition age, it is useful to review several surrounding years and ask what changed in relationships, work, money, health routines, and self-image.</p>
+      </section>
+
+      <section>
+        <h2 id="adaptation-checklist">Practical Checklist for a Luck Cycle Transition</h2>
+        <p>The most useful response to a Daewoon transition is observation before irreversible action. When life begins to feel unfamiliar, it is tempting to make a large decision just to escape the discomfort. But quitting, divorcing, investing heavily, moving suddenly, or starting a business without preparation can turn a useful transition into avoidable instability. First, record the repeating signs and identify whether they appear in one situation only or across several areas of life.</p>
+        <p>Next, ask why the old method no longer works. Is your motivation temporarily low, or is the role itself changing? Are you exhausted because of one person, or because the entire structure of your work no longer fits? Are you bored, or are you being pushed toward a different kind of output? These questions make the reading practical.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Area</th>
+              <th>Question to Ask</th>
+              <th>Safer Adjustment</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Relationships</td>
+              <td>Who feels closer, and who feels more draining?</td>
+              <td>Adjust distance and roles before cutting ties.</td>
+            </tr>
+            <tr>
+              <td>Career</td>
+              <td>Is the job changing, or is the responsibility changing?</td>
+              <td>Review role, income structure, and preparation time before leaving.</td>
+            </tr>
+            <tr>
+              <td>Money</td>
+              <td>Are income style and spending priorities shifting?</td>
+              <td>Stabilize cash flow and fixed costs before major investment.</td>
+            </tr>
+            <tr>
+              <td>Lifestyle</td>
+              <td>Do space, sleep, movement, or routines need revision?</td>
+              <td>Test small routine changes before a full reset.</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>A three-month record can be surprisingly helpful. Write down repeated changes in relationships, work, money, mood, and physical rhythm. Then compare those notes with your Saju chart. The chart becomes more useful when it is connected with lived evidence instead of being treated as a prediction detached from reality.</p>
+      </section>
+
+      <section>
+        <h2 id="avoid-mistakes">Mistakes to Avoid During a Daewoon Change</h2>
+        <p>The first mistake is assuming that a favorable Daewoon guarantees success or that an unfavorable Daewoon guarantees failure. A cycle can create supportive or difficult conditions, but it does not remove responsibility. A helpful cycle can be wasted without preparation. A demanding cycle can still produce skill, trust, credentials, discipline, and long-term strength.</p>
+        <p>The second mistake is changing everything at once. A transition can make the present life feel too tight, but extreme reactions are not always wisdom. Start with reversible changes: a side project, a new routine, a financial review, a conversation about boundaries, a workspace reset, or a study plan. If the new direction keeps repeating, then larger decisions can be made with better timing and stronger evidence.</p>
+        <p>The third mistake is reading Daewoon without the natal chart and annual cycle. Daewoon is the broad background. The annual cycle triggers specific themes in a given year. The natal chart shows the base structure. These three layers help distinguish whether a change belongs to a 10-year direction, a one-year pressure, or a repeating pattern in the original chart. This is why comparing Daewoon with <a href="/saju/saju-reading-2026">annual Saju reading methods</a> can be useful.</p>
+        <p>In the end, a Daewoon change in Saju should reduce confusion, not increase fear. The purpose is not to treat every discomfort as destiny. The purpose is to notice when the next 10-year chapter is asking for a different relationship with people, work, money, space, and responsibility. When used this way, major luck cycle analysis becomes a practical planning tool rather than a source of fatalistic anxiety.</p>
+        <div class="related-posts-inline">
+          <p><strong>Read next</strong></p>
+          <ul>
+            <li><a href="/saju/major-fortune">The basic structure of major luck cycles in Saju</a></li>
+            <li><a href="/saju/lucky-element">How to find useful elements and balance in your chart</a></li>
+            <li><a href="/saju/saju-reading-2026">How to apply annual energy to your Four Pillars chart</a></li>
+          </ul>
+        </div>
+      </section>
+    `,
+    faq: [
+      {
+        q: '대운 바뀌면 반드시 큰 사건이 생기나요?',
+        a: '반드시 큰 사건으로 나타나는 것은 아닙니다. 관계, 직업 역할, 생활 리듬, 가치관이 서서히 바뀌는 경우도 많습니다. 한 사건보다 여러 영역에서 반복되는 변화를 함께 봐야 합니다.',
+      },
+      {
+        q: '대운 전환기 증상이 있으면 바로 이직이나 이사를 해야 하나요?',
+        a: '그렇게 단정하면 위험합니다. 대운 전환 신호는 방향 점검의 힌트일 수 있지만, 실제 결정은 원국, 세운, 재정 상황, 가족 책임, 준비 기간을 함께 보고 판단해야 합니다.',
+      },
+      {
+        q: '대운 바뀌는 나이는 모든 사람이 같은가요?',
+        a: '아닙니다. 첫 대운 시작 시점은 태어난 날짜와 계산 방식에 따라 달라질 수 있고, 이후 10년 단위로 이어집니다. 전환은 특정 하루보다 전후 몇 년의 흐름으로 보는 편이 현실적입니다.',
+      },
+    ],
+    faqEn: [
+      {
+        q: 'Does a Daewoon change always create a major life event?',
+        a: 'No. It can appear as gradual changes in relationships, work roles, routines, values, and priorities. Repeated patterns across several areas are more important than one isolated event.',
+      },
+      {
+        q: 'Should I quit my job or move if I feel Daewoon transition signs?',
+        a: 'Not automatically. A luck cycle transition can suggest a direction, but practical decisions should also consider the natal chart, annual cycle, finances, family duties, and preparation time.',
+      },
+      {
+        q: 'Is the age of Daewoon change the same for everyone?',
+        a: 'No. The starting age of the first major luck cycle depends on birth data and calculation method. After that, the cycles usually continue in 10-year intervals, with transition effects often felt around the boundary period.',
+      },
+    ],
+    relatedPosts: [
+      { slug: 'major-fortune', category: 'saju', title: '사주 대운 보는 법: 10년 주기 운세 흐름과 교체기 징조' },
+      { slug: 'lucky-element', category: 'saju', title: '용신 찾기: 내 사주의 균형 포인트' },
+      { slug: 'saju-reading-2026', category: 'saju', title: '2026 사주 보는법: 병오년 세운 대입 실전 가이드' },
+    ],
+  },
+  {
+    slug: 'day-branch-reading',
+    title: 'Saju Day Branch Meaning: 12 Earthly Branches, Spouse Palace, and Daily Reactions',
+    seoTitle: '사주 일지 뜻 12지지 해석: 배우자궁과 일상 반응 보는 법',
+    seoTitleEn: 'Saju Day Branch Meaning: 12 Earthly Branches and Spouse Palace',
+    description: '사주 일지 12지지의 뜻을 배우자궁, 가까운 관계, 일상 반응 중심으로 정리하고 일지와 월지 차이, 합충 해석 주의점을 설명합니다.',
+    descriptionEn: 'Learn what the Saju day branch means, how the 12 earthly branches shape spouse palace patterns, daily reactions, and the difference between day branch and month branch.',
+    keywords: ['사주 일지 12지지', '일지 배우자궁', '자수 일지 뜻', '오화 일지 특징', '일지와 월지 차이', '일지 일상 반응'],
+    keywordsEn: ['saju day branch 12 earthly branches', 'spouse palace branch saju', 'day earthly branch meaning', 'branch personality saju', 'day branch vs month branch', 'four pillars spouse palace'],
+    publishedAt: '2026-05-02',
+    category: 'saju',
+    toc: [
+      { id: 'day-branch-meaning', title: '사주 일지 뜻: 일간 아래의 생활 기반' },
+      { id: 'spouse-palace-scope', title: '일지 배우자궁은 결혼운만 뜻하지 않는다' },
+      { id: 'twelve-branches-table', title: '일지 12지지별 관계 반응과 생활 리듬' },
+      { id: 'month-branch-difference', title: '일지와 월지 차이: 사회 환경과 사적 반응' },
+      { id: 'relation-signals', title: '일지 합충형해를 볼 때 조심할 점' },
+      { id: 'reading-checklist', title: '사주 일지 해석 실전 체크리스트' },
+    ],
+    tocEn: [
+      { id: 'day-branch-meaning', title: 'What the Day Branch Means in Saju' },
+      { id: 'spouse-palace-scope', title: 'Why the Spouse Palace Is Broader Than Marriage' },
+      { id: 'twelve-branches-table', title: '12 Day Branch Patterns for Relationship and Daily Rhythm' },
+      { id: 'month-branch-difference', title: 'Day Branch vs. Month Branch in Four Pillars' },
+      { id: 'relation-signals', title: 'How to Read Combinations and Clashes Safely' },
+      { id: 'reading-checklist', title: 'Practical Checklist for Reading the Day Branch' },
+    ],
+    contentKo: `
+      <section>
+        <p>사주 일지 12지지를 볼 때 가장 먼저 이해해야 할 것은 일지가 "배우자 자리"이면서 동시에 내가 매일 딛고 사는 생활 기반이라는 점입니다. 일주는 일간과 일지로 이루어지고, 일간이 나의 의식적 기준이라면 일지는 가까운 관계에서 드러나는 반응, 집 안에서 편안함을 느끼는 방식, 스트레스를 받을 때 반복되는 방어 습관을 보여 줍니다. 그래서 일지 배우자궁은 결혼운만 보는 좁은 자리가 아니라, 사적인 삶의 리듬을 읽는 핵심 지점입니다.</p>
+        <p>이 글은 <a href="/saju/day-pillar">사주 일주 전체 이론</a>이나 60갑자 일주론을 반복하지 않습니다. 대신 자수 일지 뜻, 오화 일지 특징처럼 12지지별로 일상 반응과 관계 방식을 어떻게 구분하는지, 일지와 월지 차이는 무엇인지, 합충형해가 있다고 해서 관계를 단정해도 되는지까지 실전적으로 정리합니다. 사주 태어난 시간이 없어도 일지는 생년월일이 정확하면 확인할 수 있으므로, <a href="/saju/saju-unknown-birth-time">시주 없이 3주를 볼 때</a>도 중요한 판단 기준이 됩니다.</p>
+        <div class="related-posts-inline">
+          <p><strong>함께 보면 좋은 글</strong></p>
+          <ul>
+            <li><a href="/saju/day-pillar">일주 전체 구조와 일간·일지의 기본 의미</a></li>
+            <li><a href="/compatibility/couple-saju">커플 궁합에서 일지끼리의 조화를 보는 법</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="day-branch-meaning">사주 일지 뜻: 일간 아래의 생활 기반</h2>
+        <p>일지(日支)는 태어난 날의 지지입니다. 사주에서 일간은 나 자신을 대표하는 천간이고, 그 아래에 놓인 일지는 내가 실제로 서 있는 땅입니다. 그래서 일지는 머리로 생각하는 나보다 몸으로 익숙한 나, 공적인 자리보다 사적인 자리에서 드러나는 나, 겉으로 설명하는 성격보다 가까운 사람이 체감하는 생활 반응을 보여 줍니다.</p>
+        <p>예를 들어 같은 경금 일간이라도 일지가 자수인 사람과 오화인 사람은 가까운 관계에서 전혀 다르게 보일 수 있습니다. 자수 일지는 속으로 생각을 오래 굴리고, 감정이 바로 드러나기보다 관찰과 거리 두기를 먼저 할 수 있습니다. 반면 오화 일지는 반응이 빠르고 자존심과 표현 에너지가 강해, 편한 사람 앞에서 더 솔직하고 즉각적으로 움직일 수 있습니다. 일간이 "나는 어떤 기준을 가진 사람인가"라면 일지는 "나는 실제 생활에서 어떻게 반응하는가"에 가깝습니다.</p>
+        <p>이 때문에 일지 해석은 성격표 하나로 끝내면 안 됩니다. 일지는 월지와의 관계, 일간과의 오행 관계, 주변 지지와의 합충형해, 현재 대운과 세운의 자극을 함께 볼 때 더 정확해집니다. 하지만 초보자가 처음 볼 때도 일지를 알면 가까운 관계에서 반복되는 패턴을 잡는 데 큰 도움이 됩니다.</p>
+      </section>
+
+      <section>
+        <h2 id="spouse-palace-scope">일지 배우자궁은 결혼운만 뜻하지 않는다</h2>
+        <p>전통 명리학에서 일지는 배우자궁이라고 불립니다. 그래서 많은 사람이 일지를 보면 곧바로 "배우자가 어떤 사람인가", "결혼을 잘할 수 있는가"만 묻습니다. 물론 일지는 연애와 결혼을 볼 때 중요합니다. 오래 함께 사는 사람은 결국 나의 가장 사적인 생활 리듬과 부딪히기 때문입니다. 하지만 일지를 배우자 한 사람으로만 좁히면 해석이 얕아집니다.</p>
+        <p>일지 배우자궁은 가까운 사람과 생활을 공유할 때 드러나는 내 반응을 함께 보여 줍니다. 내가 갈등을 피하는지, 바로 말하는지, 상대를 돌보려 하는지, 자유를 확보해야 안정되는지, 반복되는 루틴을 좋아하는지, 변화가 있어야 숨통이 트이는지 같은 부분이 일지에서 읽힙니다. 배우자궁은 "어떤 배우자를 만난다"뿐 아니라 "나는 가까운 관계에서 어떤 환경을 편안하게 느끼는가"를 묻는 자리입니다.</p>
+        <p>따라서 일지에 충이 있다고 해서 무조건 이별이나 이혼으로 단정하면 안 됩니다. 충은 변화 압력, 생활 방식의 충돌, 공간과 일정의 조정 필요성으로도 나타납니다. 일지에 합이 있다고 해서 무조건 평생 편안한 관계가 보장되는 것도 아닙니다. 합은 끌림과 결속을 만들지만, 때로는 서로에게 지나치게 묶이는 형태로도 나타납니다. 중요한 것은 글자의 좋고 나쁨보다 관계에서 어떤 습관이 반복되는지 보는 것입니다.</p>
+        <div class="cta-box">
+          <p><strong>일지는 배우자운만이 아니라 가까운 관계의 생활 패턴을 보여 줍니다.</strong> 내 일지와 상대의 일지를 함께 보면 궁합을 단정하기보다 어떤 부분을 조율해야 하는지 더 현실적으로 볼 수 있습니다.</p>
+          <a href="/saju-analysis">사주 분석 시작하기</a>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="twelve-branches-table">일지 12지지별 관계 반응과 생활 리듬</h2>
+        <p>사주 일지 12지지는 각각 다른 생활 감각을 가집니다. 아래 표는 60갑자 전체 해석이 아니라, 일지가 가까운 관계와 일상 반응에서 어떤 식으로 드러나기 쉬운지 보는 기본 틀입니다. 실제 해석에서는 일간, 월지, 오행 균형, 대운까지 함께 봐야 하므로 표를 그대로 확정 판정처럼 쓰면 안 됩니다.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>일지</th>
+              <th>관계 반응</th>
+              <th>생활 리듬</th>
+              <th>주의할 점</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>자수(子)</td>
+              <td>생각이 깊고 쉽게 속을 보이지 않음</td>
+              <td>조용한 공간, 혼자 정리하는 시간 필요</td>
+              <td>말하지 않아도 알아주길 기대하면 오해가 쌓임</td>
+            </tr>
+            <tr>
+              <td>축토(丑)</td>
+              <td>느리지만 오래 책임지는 편</td>
+              <td>반복 루틴과 안정된 환경을 선호</td>
+              <td>감정을 묵혀 두면 어느 순간 단단하게 닫힘</td>
+            </tr>
+            <tr>
+              <td>인목(寅)</td>
+              <td>먼저 움직이고 이끌려는 기질</td>
+              <td>새 목표와 활동성이 있어야 살아남</td>
+              <td>상대 속도를 기다리지 못하면 압박이 됨</td>
+            </tr>
+            <tr>
+              <td>묘목(卯)</td>
+              <td>부드럽고 섬세하지만 기준이 분명함</td>
+              <td>미감, 관계 분위기, 말투에 민감</td>
+              <td>겉으로 웃으며 속으로 선을 긋기 쉬움</td>
+            </tr>
+            <tr>
+              <td>진토(辰)</td>
+              <td>여러 감정을 안에 저장하고 상황을 관찰</td>
+              <td>변화와 안정이 섞인 환경에서 힘이 남</td>
+              <td>모호한 태도가 상대에게 혼란을 줄 수 있음</td>
+            </tr>
+            <tr>
+              <td>사화(巳)</td>
+              <td>예리하고 계산이 빠르며 쉽게 뜨거워짐</td>
+              <td>몰입할 대상이 있을 때 집중력이 강함</td>
+              <td>의심이 커지면 관계를 시험하려 할 수 있음</td>
+            </tr>
+            <tr>
+              <td>오화(午)</td>
+              <td>표현이 빠르고 자존심이 선명함</td>
+              <td>활동, 인정, 밝은 분위기에서 에너지 회복</td>
+              <td>감정이 올라왔을 때 말이 앞서기 쉬움</td>
+            </tr>
+            <tr>
+              <td>미토(未)</td>
+              <td>정이 많고 돌봄이 강하지만 속은 복잡함</td>
+              <td>편안한 공간과 감정적 안전감이 중요</td>
+              <td>희생을 반복하다가 서운함이 커질 수 있음</td>
+            </tr>
+            <tr>
+              <td>신금(申)</td>
+              <td>판단이 빠르고 현실적 기준을 중시</td>
+              <td>효율, 이동, 정보, 실용성이 맞아야 편함</td>
+              <td>차갑게 평가하는 말투가 갈등을 만들 수 있음</td>
+            </tr>
+            <tr>
+              <td>유금(酉)</td>
+              <td>깔끔하고 정확한 관계를 선호</td>
+              <td>정돈된 공간, 약속, 취향의 선명함이 중요</td>
+              <td>작은 흠이 크게 보이면 비판적으로 변함</td>
+            </tr>
+            <tr>
+              <td>술토(戌)</td>
+              <td>의리와 경계심이 함께 강함</td>
+              <td>자기 영역이 분명해야 안정됨</td>
+              <td>한 번 실망하면 마음의 문을 오래 닫음</td>
+            </tr>
+            <tr>
+              <td>해수(亥)</td>
+              <td>감수성과 포용력이 크고 깊게 연결됨</td>
+              <td>휴식, 상상, 느슨한 흐름이 필요</td>
+              <td>현실 정리가 늦어지면 관계가 흐려질 수 있음</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>이 표에서 중요한 것은 좋은 일지와 나쁜 일지를 나누는 것이 아닙니다. 자수 일지는 깊이가 장점이지만 침묵이 문제가 될 수 있고, 오화 일지는 표현력이 장점이지만 과열이 문제가 될 수 있습니다. 모든 지지는 장점과 부담을 함께 갖습니다. 그래서 일지 해석은 "나는 왜 이 패턴을 반복하는가"를 이해하는 데 써야지, 관계를 포기하거나 상대를 낙인찍는 데 쓰면 안 됩니다.</p>
+      </section>
+
+      <section>
+        <h2 id="month-branch-difference">일지와 월지 차이: 사회 환경과 사적 반응</h2>
+        <p>일지와 월지를 혼동하면 사주 해석이 흐려집니다. 월지는 태어난 달의 지지로, 계절과 사회적 환경, 성장 과정, 일하는 무대의 분위기를 보여 줍니다. 반면 일지는 내가 실제 생활에서 편안함을 느끼는 방식, 가까운 관계에서 무의식적으로 반복하는 반응, 배우자궁의 질감을 보여 줍니다.</p>
+        <p>예를 들어 월지가 인목인 사람은 사회적으로 시작, 추진, 성장의 압력을 많이 받을 수 있습니다. 하지만 일지가 축토라면 사적인 생활에서는 안정, 반복, 조용한 책임감을 더 원할 수 있습니다. 밖에서는 빠르게 움직이는 사람처럼 보여도 집 안에서는 천천히 정리하고 자기 속도를 지키려는 모습이 나옵니다. 반대로 월지가 축토이고 일지가 오화라면 사회적으로는 보수적인 환경에 놓여도, 가까운 관계에서는 표현과 인정 욕구가 강하게 드러날 수 있습니다.</p>
+        <p>이 차이는 궁합을 볼 때도 중요합니다. 사회적으로 잘 맞는 사람과 생활 리듬이 잘 맞는 사람은 다를 수 있습니다. 직장에서는 편한 사람이지만 함께 살면 불편할 수 있고, 첫인상은 달라도 생활 방식이 맞아 오래 가는 관계도 있습니다. 일지는 바로 이 생활감의 차이를 보여 주는 자리입니다.</p>
+      </section>
+
+      <section>
+        <h2 id="relation-signals">일지 합충형해를 볼 때 조심할 점</h2>
+        <p>일지 해석에서 합(合), 충(沖), 형(刑), 해(害)는 자주 언급됩니다. 합은 서로 끌어당기고 묶이는 작용, 충은 부딪히고 움직이는 작용, 형은 반복되는 긴장과 조정 압력, 해는 미묘한 어긋남과 서운함으로 볼 수 있습니다. 하지만 이 글자들이 있다고 해서 관계 결과를 단정하면 안 됩니다.</p>
+        <p>일지 충이 있는 사람은 가까운 관계에서 생활 방식이 흔들리거나, 이사·거리·일정 변화처럼 물리적 변화가 자주 생길 수 있습니다. 이것이 반드시 이별을 뜻하지는 않습니다. 서로의 공간을 분리하거나, 역할을 명확히 하거나, 정기적으로 생활 규칙을 다시 맞추면 충의 압력을 변화 에너지로 쓸 수 있습니다. 일지 합도 마찬가지입니다. 강한 끌림과 안정감을 만들 수 있지만, 서로에게 너무 기대거나 독립성이 약해지는 형태로 나타날 수도 있습니다.</p>
+        <p>특히 세운이나 대운에서 내 일지를 자극할 때는 그해 관계와 생활 리듬이 움직이기 쉽습니다. 이때 <a href="/saju/saju-reading-2026">연도별 세운 해석</a>과 함께 보면 "올해만의 자극"인지, "원래 명식에서 반복되는 관계 패턴"인지 구분하기 쉽습니다. 중요한 것은 불안을 키우는 예언이 아니라, 조정할 지점을 찾는 것입니다.</p>
+        <div class="comparison-block">
+          <h3>단정 대신 이렇게 읽기</h3>
+          <ul>
+            <li><strong>위험한 해석:</strong> 일지 충이 있으니 결혼은 반드시 불안하다.</li>
+            <li><strong>안전한 해석:</strong> 생활 리듬과 공간 사용 방식에서 조정 압력이 크므로 관계 규칙을 명확히 해야 한다.</li>
+            <li><strong>위험한 해석:</strong> 일지 합이 있으니 무조건 좋은 궁합이다.</li>
+            <li><strong>안전한 해석:</strong> 끌림과 결속은 강하지만 의존과 거리 조절 문제도 함께 봐야 한다.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="reading-checklist">사주 일지 해석 실전 체크리스트</h2>
+        <p>사주 일지 해석은 단독 암기보다 순서가 중요합니다. 먼저 일지가 어떤 12지지인지 확인합니다. 그다음 일간과 일지의 관계를 봅니다. 일간이 일지를 생하는지, 일지가 일간을 돕는지, 일간이 일지를 제어하는지에 따라 가까운 관계에서 내가 에너지를 쓰는 방식이 달라집니다. 이후 월지와의 차이를 보고, 주변 지지와 합충형해가 있는지 확인합니다.</p>
+        <p>마지막으로 실제 생활과 비교해야 합니다. 사주표에서 일지가 오화라고 해서 모두 같은 방식으로 말하고 사랑하는 것은 아닙니다. 오화가 월지의 계절 도움을 받는지, 주변에 수 기운이 강해 눌리는지, 대운에서 어떤 기운을 만나는지에 따라 표현 방식은 달라집니다. 표는 출발점이고, 실제 해석은 전체 명식과 삶의 맥락에서 완성됩니다.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>순서</th>
+              <th>확인할 것</th>
+              <th>해석 질문</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>일지 12지지</td>
+              <td>가까운 관계에서 어떤 기본 반응이 반복되는가</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>일간과 일지 관계</td>
+              <td>내가 관계에 에너지를 주는가, 받는가, 조절하는가</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>월지와의 차이</td>
+              <td>사회적 모습과 사적 모습이 어떻게 다른가</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>합충형해</td>
+              <td>관계와 생활에서 어디에 조정 압력이 생기는가</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>대운·세운 자극</td>
+              <td>지금 움직이는 변화가 일시적인가, 장기 흐름인가</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>결론적으로 일지는 내가 가까운 세계에서 어떻게 살아가는지를 보여 주는 자리입니다. 배우자궁이라는 이름 때문에 연애와 결혼에만 묶어 두기보다, 일상 반응, 휴식 방식, 갈등 처리, 공간 사용, 가까운 사람에게 기대하는 안정감까지 함께 보면 훨씬 실용적입니다. 일지를 이해하면 나와 상대를 단정하는 대신, 서로 다른 생활 리듬을 조율하는 언어를 얻을 수 있습니다.</p>
+        <div class="related-posts-inline">
+          <p><strong>다음 단계로 읽기</strong></p>
+          <ul>
+            <li><a href="/saju/day-pillar">일주 전체 구조와 60갑자 해석의 기본</a></li>
+            <li><a href="/compatibility/couple-saju">커플·부부 궁합에서 일지를 함께 보는 법</a></li>
+            <li><a href="/saju/saju-unknown-birth-time">태어난 시간을 모를 때 3주로 보는 실전 방법</a></li>
+          </ul>
+        </div>
+      </section>
+    `,
+    contentEn: `
+      <section>
+        <p>The Saju day branch is often introduced as the spouse palace, but that description is too narrow if it is used alone. In the Four Pillars of Destiny, the day pillar contains the day stem and the day branch. The day stem shows the conscious self, while the day branch shows the ground under that self: private reactions, close relationship habits, daily comfort, and the way a person behaves when life becomes personal.</p>
+        <p>This article is not another broad guide to the <a href="/saju/day-pillar">whole day pillar or the 60 day pillar cycle</a>. It focuses specifically on the day branch: the 12 earthly branches, spouse palace patterns, daily reactions, the difference between the day branch and month branch, and how to read combinations or clashes without turning them into fatalistic predictions. Because the day branch can be known even when the birth hour is missing, it is also useful when reading <a href="/saju/saju-unknown-birth-time">three pillars without birth time</a>.</p>
+        <div class="related-posts-inline">
+          <p><strong>Helpful background</strong></p>
+          <ul>
+            <li><a href="/saju/day-pillar">How the day pillar works in Saju</a></li>
+            <li><a href="/compatibility/couple-saju">How day branches affect couple compatibility</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="day-branch-meaning">What the Day Branch Means in Saju</h2>
+        <p>The day branch is the earthly branch of the day pillar. If the day stem is the self standing upright, the day branch is the ground that self stands on. It describes the private base of the chart: what feels comfortable at home, how someone reacts in close relationships, what kind of rhythm they repeat in daily life, and what kind of emotional defense appears when pressure becomes personal.</p>
+        <p>For example, two people may both have Geng Metal as the day stem, but their close relationship style can differ sharply if one has Zi Water as the day branch and the other has Wu Fire. A Zi day branch may observe, think, and withhold emotion until it feels safe. A Wu day branch may react quickly, express pride clearly, and need warmth, movement, and recognition. The day stem answers the question "What is my core standard?" The day branch answers "How do I actually respond in lived relationships?"</p>
+        <p>This is why the day branch should not be reduced to a single personality label. It should be read with the day stem, the month branch, the surrounding branches, combinations, clashes, and current luck cycles. Still, even a beginner can use the day branch as a practical entry point for understanding repeated patterns in daily life and close relationships.</p>
+      </section>
+
+      <section>
+        <h2 id="spouse-palace-scope">Why the Spouse Palace Is Broader Than Marriage</h2>
+        <p>Traditional Saju calls the day branch the spouse palace. This is because a long-term partner shares the most private layer of life: home, sleep, money habits, conflict style, food rhythm, rest, and emotional safety. For that reason, the day branch is very important in love and marriage readings. But if it is used only to predict what kind of spouse someone will meet, the reading becomes too shallow.</p>
+        <p>The spouse palace also shows how the person behaves when someone gets close. Does the person avoid conflict or speak immediately? Do they take care of others, demand independence, need routine, or become alive through change? Do they want emotional safety, intellectual space, physical movement, or clear rules? These questions belong to the day branch. In many readings, the day branch explains why someone repeats the same relationship pattern even when they consciously want something different.</p>
+        <p>A clash in the day branch does not automatically mean divorce or separation. It may show pressure around living style, distance, schedule, space, or emotional rhythm. A combination in the day branch does not automatically guarantee an easy relationship either. It can show attraction and bonding, but it can also create dependence or difficulty with distance. The key is to read the pattern, not to label the branch as simply good or bad.</p>
+        <div class="cta-box">
+          <p><strong>The day branch is a practical relationship tool.</strong> Instead of using it to judge a relationship, use it to understand what needs adjustment in daily life, personal space, and emotional rhythm.</p>
+          <a href="/saju-analysis">Start a Saju Analysis</a>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="twelve-branches-table">12 Day Branch Patterns for Relationship and Daily Rhythm</h2>
+        <p>The 12 earthly branches each carry a different daily rhythm. The table below does not replace a full chart reading. It is a practical starting point for understanding how each day branch may appear in close relationships and private life. The day stem, month branch, five element balance, and luck cycles can all modify the expression.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Day Branch</th>
+              <th>Relationship Reaction</th>
+              <th>Daily Rhythm</th>
+              <th>Watch Point</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Zi Water</td>
+              <td>Observant, private, emotionally deep</td>
+              <td>Needs quiet space and time to process</td>
+              <td>Silence can be misunderstood as distance</td>
+            </tr>
+            <tr>
+              <td>Chou Earth</td>
+              <td>Slow to open but loyal and responsible</td>
+              <td>Prefers stable routines and familiar ground</td>
+              <td>Stored resentment can harden over time</td>
+            </tr>
+            <tr>
+              <td>Yin Wood</td>
+              <td>Active, leading, and quick to initiate</td>
+              <td>Needs goals, movement, and growth</td>
+              <td>May pressure others to move too fast</td>
+            </tr>
+            <tr>
+              <td>Mao Wood</td>
+              <td>Gentle, sensitive, but quietly firm</td>
+              <td>Responds to beauty, tone, and atmosphere</td>
+              <td>May smile outside while drawing a hard inner line</td>
+            </tr>
+            <tr>
+              <td>Chen Earth</td>
+              <td>Stores mixed feelings and watches carefully</td>
+              <td>Needs both stability and room for change</td>
+              <td>Ambiguity can confuse partners</td>
+            </tr>
+            <tr>
+              <td>Si Fire</td>
+              <td>Sharp, passionate, strategic</td>
+              <td>Strong focus when something is worth pursuing</td>
+              <td>Suspicion can lead to testing the relationship</td>
+            </tr>
+            <tr>
+              <td>Wu Fire</td>
+              <td>Expressive, proud, direct</td>
+              <td>Recovers through activity and recognition</td>
+              <td>Words may move faster than reflection</td>
+            </tr>
+            <tr>
+              <td>Wei Earth</td>
+              <td>Caring, warm, emotionally layered</td>
+              <td>Needs a soft home base and emotional safety</td>
+              <td>Repeated sacrifice can become resentment</td>
+            </tr>
+            <tr>
+              <td>Shen Metal</td>
+              <td>Quick judgment, practical standards</td>
+              <td>Needs efficiency, movement, and useful information</td>
+              <td>Can sound cold when evaluating problems</td>
+            </tr>
+            <tr>
+              <td>You Metal</td>
+              <td>Precise, refined, selective</td>
+              <td>Likes order, promises, and clear taste</td>
+              <td>Small flaws can become too visible</td>
+            </tr>
+            <tr>
+              <td>Xu Earth</td>
+              <td>Loyal but guarded</td>
+              <td>Needs clear personal territory</td>
+              <td>Once disappointed, may close the door for a long time</td>
+            </tr>
+            <tr>
+              <td>Hai Water</td>
+              <td>Empathic, imaginative, deeply connected</td>
+              <td>Needs rest, softness, and loose flow</td>
+              <td>Reality management can become delayed</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>The purpose of this table is not to rank branches. Zi Water has depth, but silence can create misunderstanding. Wu Fire has expressive power, but overheating can create conflict. Every branch contains both a gift and a pressure point. A helpful Saju reading uses this information to create better language for relationships, not to judge people as compatible or impossible.</p>
+      </section>
+
+      <section>
+        <h2 id="month-branch-difference">Day Branch vs. Month Branch in Four Pillars</h2>
+        <p>The day branch and month branch are often confused. The month branch represents season, social environment, early conditioning, and the atmosphere of work or public life. The day branch represents private reactions, daily comfort, and the emotional base of close relationships. The month branch shows the climate around the person. The day branch shows how the person lives when the door is closed.</p>
+        <p>For example, someone with Yin Wood in the month branch may be pushed by life toward growth, initiative, and movement. If the day branch is Chou Earth, however, the person may still need slow routines and stable private space at home. Outside, they may look active and ambitious. Inside, they may need time, repetition, and quiet loyalty. The reverse can also happen. A person with Chou Earth in the month branch but Wu Fire in the day branch may live within conservative social conditions while privately needing expression, warmth, and recognition.</p>
+        <p>This distinction matters in compatibility. A person who fits your public life may not fit your daily rhythm. Someone can be pleasant at work but difficult to live with. Another person can seem different at first but become comfortable because the daily rhythm matches. The day branch helps explain this practical layer of compatibility.</p>
+      </section>
+
+      <section>
+        <h2 id="relation-signals">How to Read Combinations and Clashes Safely</h2>
+        <p>Combinations, clashes, punishments, and harms are common in day branch readings. A combination can show attraction, bonding, or being pulled into a shared rhythm. A clash can show movement, conflict, distance, or the need to change a living pattern. Punishment can show repeated pressure and adjustment. Harm can show subtle mismatch, hidden disappointment, or a feeling that something is slightly off.</p>
+        <p>These signals should not be turned into automatic predictions. A day branch clash does not automatically mean divorce. It can show that the relationship needs clearer space, different routines, physical movement, or more honest negotiation. A day branch combination does not automatically mean perfect harmony. It may create closeness, but it may also create dependence or difficulty separating personal needs.</p>
+        <p>When an annual or 10-year luck cycle activates the day branch, relationship and lifestyle issues can become more visible. Comparing that activation with an <a href="/saju/saju-reading-2026">annual Saju reading</a> helps distinguish a one-year trigger from a repeating natal pattern. The purpose is not fear. The purpose is to find what needs adjustment.</p>
+        <div class="comparison-block">
+          <h3>Read patterns, not fixed outcomes</h3>
+          <ul>
+            <li><strong>Risky:</strong> A day branch clash means marriage will fail.</li>
+            <li><strong>Safer:</strong> A day branch clash may require clearer routines, space, and relationship rules.</li>
+            <li><strong>Risky:</strong> A day branch combination means the relationship is automatically good.</li>
+            <li><strong>Safer:</strong> A combination can show attraction, but distance and independence still matter.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="reading-checklist">Practical Checklist for Reading the Day Branch</h2>
+        <p>A useful day branch reading follows an order. First, identify which of the 12 earthly branches sits under the day stem. Second, read the relationship between the day stem and day branch. Does the day stem produce the branch, receive support from it, control it, or feel controlled by it? This shows whether the person tends to give energy, receive energy, manage energy, or feel pressure in close relationships.</p>
+        <p>Third, compare the day branch with the month branch. This reveals the difference between social behavior and private behavior. Fourth, check combinations, clashes, punishments, and harms with the other branches. Fifth, compare current luck cycles to see whether the day branch is being activated now. This order prevents the reading from becoming a random list of branch meanings.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>What to Check</th>
+              <th>Question to Ask</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>The 12 earthly branch identity</td>
+              <td>What close-relationship reaction repeats?</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Day stem and day branch relationship</td>
+              <td>Do I give, receive, control, or feel pressure in private life?</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Difference from the month branch</td>
+              <td>How is my public self different from my private rhythm?</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Combinations and clashes</td>
+              <td>Where does relationship adjustment pressure appear?</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Luck cycle activation</td>
+              <td>Is the current change temporary or part of a longer pattern?</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>In short, the day branch describes how someone lives in the nearest layer of life. It includes spouse palace themes, but it also includes rest, conflict, emotional safety, personal space, and everyday rhythm. When used well, the day branch does not trap people in labels. It gives them a practical language for understanding why relationships feel the way they do and what can be adjusted.</p>
+        <div class="related-posts-inline">
+          <p><strong>Read next</strong></p>
+          <ul>
+            <li><a href="/saju/day-pillar">The whole day pillar and 60 day pillar structure</a></li>
+            <li><a href="/compatibility/couple-saju">How day branches work in couple compatibility</a></li>
+            <li><a href="/saju/saju-unknown-birth-time">How to read three pillars without birth time</a></li>
+          </ul>
+        </div>
+      </section>
+    `,
+    faq: [
+      {
+        q: '일지 배우자궁은 결혼운만 보는 자리인가요?',
+        a: '아닙니다. 일지는 배우자궁으로 쓰이지만 가까운 관계, 생활 리듬, 갈등 반응, 사적인 안정감까지 함께 봅니다. 결혼운은 그중 한 영역입니다.',
+      },
+      {
+        q: '일지 충이 있으면 이별이나 이혼을 뜻하나요?',
+        a: '그렇게 단정하면 안 됩니다. 일지 충은 생활 방식, 거리, 공간, 일정에서 조정 압력이 생기기 쉽다는 뜻으로 볼 수 있습니다. 실제 결과는 전체 명식과 대운·세운, 현실 선택을 함께 봐야 합니다.',
+      },
+      {
+        q: '일지와 월지는 어떻게 다른가요?',
+        a: '월지는 사회 환경, 계절감, 일하는 무대의 분위기를 보여 주고, 일지는 가까운 관계와 사적 생활 반응을 보여 줍니다. 밖에서의 모습과 집 안에서의 모습 차이를 볼 때 중요합니다.',
+      },
+    ],
+    faqEn: [
+      {
+        q: 'Is the Saju spouse palace only about marriage?',
+        a: 'No. The day branch is called the spouse palace, but it also shows close relationship habits, daily rhythm, conflict reaction, personal comfort, and emotional safety.',
+      },
+      {
+        q: 'Does a day branch clash mean breakup or divorce?',
+        a: 'No. A clash can show pressure around space, schedule, distance, or lifestyle. The actual outcome depends on the whole chart, luck cycles, and practical relationship choices.',
+      },
+      {
+        q: 'What is the difference between day branch and month branch?',
+        a: 'The month branch shows season, social environment, and public context. The day branch shows private reactions, daily comfort, and close relationship rhythm.',
+      },
+    ],
+    relatedPosts: [
+      { slug: 'day-pillar', category: 'saju', title: '사주 일주 완전정복: 나의 본질과 배우자 복을 읽는 법' },
+      { slug: 'couple-saju', category: 'compatibility', title: '사주 궁합 보는 법: 일주와 일지로 알아보는 커플 연애운' },
+      { slug: 'saju-unknown-birth-time', category: 'saju', title: '사주 태어난 시간 모를 때: 시주 없이 3주로 보는 실전 방법' },
+    ],
+  },
+  {
+    slug: 'ilgan-career-table',
+    title: 'Day Master Career Table: Best and Worst Work Styles for the 10 Heavenly Stems',
+    seoTitle: '일간별 직업 적성표: 10천간별 맞는 일과 피해야 할 일',
+    seoTitleEn: 'Day Master Career Table: Best Jobs by the 10 Heavenly Stems',
+    description: '일간별 직업 적성을 10천간 표로 정리하고 갑목·병화·경금 등 각 일간에 맞는 일, 피해야 할 업무 환경, 직업 선택 기준을 설명합니다.',
+    descriptionEn: 'Compare career fit by day master with a 10 Heavenly Stems table, including best work styles, risky job environments, and practical Saju career selection tips.',
+    keywords: ['일간별 직업 적성', '오행별 직업 적성', '갑목 직업', '병화 직업', '경금 직업', '일간 직업표'],
+    keywordsEn: ['day master career table', 'five elements career aptitude', 'day stem career fit', 'five elements jobs', 'saju career table', 'heavenly stems career'],
+    publishedAt: '2026-05-03',
+    category: 'saju',
+    toc: [
+      { id: 'day-master-career-scope', title: '일간별 직업 적성표를 볼 때 먼저 알아야 할 것' },
+      { id: 'ten-stems-career-table', title: '10천간별 맞는 일과 피해야 할 업무 환경' },
+      { id: 'five-elements-work-style', title: '오행별 직업 적성: 일의 방식으로 다시 보기' },
+      { id: 'career-fit-exceptions', title: '일간 직업표가 맞지 않는 경우' },
+      { id: 'practical-career-checklist', title: '일간별 직업 선택 실전 체크리스트' },
+      { id: 'career-next-step', title: '직업운을 실제 선택으로 연결하는 법' },
+    ],
+    tocEn: [
+      { id: 'day-master-career-scope', title: 'How to Use a Day Master Career Table' },
+      { id: 'ten-stems-career-table', title: 'Best Work Styles for the 10 Heavenly Stems' },
+      { id: 'five-elements-work-style', title: 'Five Elements Career Aptitude by Work Style' },
+      { id: 'career-fit-exceptions', title: 'When the Career Table Does Not Fit' },
+      { id: 'practical-career-checklist', title: 'Practical Checklist for Career Choice' },
+      { id: 'career-next-step', title: 'How to Turn Saju Career Insight Into Action' },
+    ],
+    contentKo: `
+      <section>
+        <p>일간별 직업 적성표를 찾는 사람은 보통 "갑목 직업은 무엇이 좋을까", "병화 직업은 어떤 일이 맞을까", "경금 직업은 조직이 나을까 전문직이 나을까"처럼 빠른 비교를 원합니다. 사주에서 일간은 나의 기본 반응 방식과 에너지 사용법을 보여 주기 때문에 직업 환경을 고를 때 좋은 출발점이 됩니다. 하지만 일간 하나만으로 직업을 확정하면 위험합니다. 같은 갑목이라도 월지, 오행 균형, 관성·재성·식상 구조, 대운에 따라 잘 맞는 일이 달라집니다.</p>
+        <p>이 글은 <a href="/saju/career-star">사주 관성으로 보는 직업운</a>처럼 직업운 이론 전체를 설명하는 글이 아닙니다. 또 개별 일간 글처럼 한 일간의 성격과 연애까지 넓게 다루지도 않습니다. 목표는 10천간별로 맞는 일, 피해야 할 업무 환경, 강점이 살아나는 역할을 표로 빠르게 비교하는 것입니다. 사주 직업 적성은 "무슨 직업명이 좋은가"보다 "어떤 방식으로 일할 때 성과가 나는가"를 보는 쪽이 훨씬 실용적입니다.</p>
+        <div class="related-posts-inline">
+          <p><strong>먼저 읽으면 좋은 글</strong></p>
+          <ul>
+            <li><a href="/saju/day-pillar">일간과 일주의 기본 구조 이해하기</a></li>
+            <li><a href="/saju/career-star">관성으로 보는 사주 직업운의 기본 원리</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="day-master-career-scope">일간별 직업 적성표를 볼 때 먼저 알아야 할 것</h2>
+        <p>일간은 태어난 날의 천간입니다. 갑목, 을목, 병화, 정화, 무토, 기토, 경금, 신금, 임수, 계수 10가지가 있고, 각각 일하는 방식이 다릅니다. 갑목은 방향을 세우고 밀고 나가는 힘이 강하고, 을목은 환경을 읽고 조정하는 능력이 좋습니다. 병화는 드러내고 확산시키는 힘이 강하며, 정화는 한 대상에 깊게 몰입해 전문성을 쌓는 데 강합니다. 이런 차이가 직업 적성의 첫 단서가 됩니다.</p>
+        <p>다만 직업명만 외우면 실제 선택에서 실패하기 쉽습니다. 예를 들어 "화 일간은 마케팅이 좋다"는 말은 절반만 맞습니다. 병화는 사람 앞에 서서 알리고 확산하는 마케팅에 강할 수 있지만, 정화는 조용히 콘텐츠를 다듬고 브랜드의 깊이를 만드는 방식에 더 잘 맞을 수 있습니다. 같은 화라도 양간과 음간의 업무 방식이 다릅니다.</p>
+        <p>또한 일간별 직업 적성은 전체 명식의 균형을 확인하기 전까지는 참고표입니다. 관성이 강하면 조직과 책임이 중요해지고, 식상이 강하면 표현과 생산이 중요해지며, 재성이 강하면 거래와 수익 구조가 중요해집니다. 그래서 이 표는 직업을 단정하는 판정표가 아니라, 내가 어떤 업무 환경에서 에너지를 덜 낭비하는지 보는 출발점으로 써야 합니다.</p>
+      </section>
+
+      <section>
+        <h2 id="ten-stems-career-table">10천간별 맞는 일과 피해야 할 업무 환경</h2>
+        <p>아래 표는 10천간 일간별 직업 적성을 "맞는 일", "피해야 할 일", "성과가 나는 환경"으로 나눈 것입니다. 여기서 피해야 할 일은 절대 하면 안 되는 직업명이 아니라, 에너지가 쉽게 소모되는 업무 조건을 뜻합니다. 같은 직업이라도 역할과 조직 문화가 달라지면 맞을 수 있습니다.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>일간</th>
+              <th>맞는 일</th>
+              <th>피해야 할 업무 환경</th>
+              <th>성과가 나는 역할</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>갑목(甲)</td>
+              <td>기획, 교육, 창업, 리더십, 장기 프로젝트, 브랜드 방향 설정</td>
+              <td>권한 없이 지시만 따르는 일, 성장 경로가 막힌 반복 업무</td>
+              <td>비전을 세우고 사람을 끌고 가는 역할</td>
+            </tr>
+            <tr>
+              <td>을목(乙)</td>
+              <td>디자인, 상담, 콘텐츠, 중개, 고객 관리, 섬세한 조율 업무</td>
+              <td>거친 경쟁만 강요하는 환경, 재량 없이 즉답만 요구하는 업무</td>
+              <td>관계와 분위기를 읽어 결과를 부드럽게 만드는 역할</td>
+            </tr>
+            <tr>
+              <td>병화(丙)</td>
+              <td>마케팅, 영업, 방송, 강의, 홍보, 공개 발표, 플랫폼 운영</td>
+              <td>보이지 않는 곳에서 오래 갇혀 있는 일, 인정이 전혀 없는 업무</td>
+              <td>사람 앞에서 알리고 확산시키는 역할</td>
+            </tr>
+            <tr>
+              <td>정화(丁)</td>
+              <td>브랜딩, 연구, 기획 편집, 심리·상담, 전문 콘텐츠, 세밀한 기술</td>
+              <td>속도만 강요하고 완성도를 보지 않는 환경</td>
+              <td>작은 차이를 깊게 다듬어 품질을 높이는 역할</td>
+            </tr>
+            <tr>
+              <td>무토(戊)</td>
+              <td>관리, 부동산, 조직 운영, 행정, 인프라, 안정적 자산 관리</td>
+              <td>방향이 자주 바뀌고 기준이 없는 임시 업무</td>
+              <td>큰 틀을 지키고 사람과 자원을 안정시키는 역할</td>
+            </tr>
+            <tr>
+              <td>기토(己)</td>
+              <td>회계, 운영, 인사, 교육 관리, 데이터 정리, 실무 지원, 케어 업무</td>
+              <td>큰 그림만 있고 세부 기준이 없는 업무</td>
+              <td>흩어진 일을 정리하고 시스템을 현실화하는 역할</td>
+            </tr>
+            <tr>
+              <td>경금(庚)</td>
+              <td>법무, 보안, 엔지니어링, 제조, 감사, 품질관리, 위기 해결</td>
+              <td>기준이 흐리고 책임 소재가 불명확한 조직</td>
+              <td>문제를 자르고 기준을 세우는 역할</td>
+            </tr>
+            <tr>
+              <td>신금(辛)</td>
+              <td>디테일 검수, 금융 분석, 미용·패션, 정밀 기술, 문서 품질 관리</td>
+              <td>대충 처리해도 된다는 문화, 품질보다 속도만 보는 환경</td>
+              <td>완성도와 세련미를 끌어올리는 역할</td>
+            </tr>
+            <tr>
+              <td>임수(壬)</td>
+              <td>전략, 무역, 유통, 기획, 컨설팅, 콘텐츠 확장, 네트워크 사업</td>
+              <td>이동성과 재량이 전혀 없는 고정 업무</td>
+              <td>정보와 사람을 연결해 판을 키우는 역할</td>
+            </tr>
+            <tr>
+              <td>계수(癸)</td>
+              <td>리서치, 글쓰기, 분석, 심리, 데이터 해석, 교육 보조, 기획 자료</td>
+              <td>소음과 압박이 큰 현장, 즉흥 대응만 반복되는 업무</td>
+              <td>깊게 관찰하고 숨은 흐름을 읽어내는 역할</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>이 표에서 핵심은 직업명보다 조건입니다. 갑목이 회사에 다니면 안 된다는 뜻이 아니라, 회사 안에서도 방향을 세우고 성장할 수 있는 역할이 필요하다는 뜻입니다. 경금이 부드러운 서비스업을 못 한다는 뜻도 아닙니다. 다만 기준과 책임이 없는 서비스 환경에서는 소모가 커질 수 있습니다. 직업 적성은 이름표보다 일하는 구조를 봐야 합니다.</p>
+      </section>
+
+      <section>
+        <h2 id="five-elements-work-style">오행별 직업 적성: 일의 방식으로 다시 보기</h2>
+        <p>10천간을 오행으로 묶으면 직업 적성이 더 쉽게 보입니다. 목(木)은 성장과 방향, 화(火)는 표현과 확산, 토(土)는 안정과 운영, 금(金)은 기준과 정밀성, 수(水)는 정보와 흐름입니다. 오행별 직업 적성은 산업군만 뜻하지 않습니다. 같은 회사 안에서도 목의 역할, 화의 역할, 토의 역할, 금의 역할, 수의 역할이 모두 존재합니다.</p>
+        <p>예를 들어 IT 회사라고 해서 모두 화(火) 직업은 아닙니다. 서비스를 알리는 마케팅은 화의 성격이 강하고, 서버 안정성과 보안은 금의 성격이 강하며, 데이터 분석과 사용자 흐름 파악은 수의 성격이 강합니다. 운영 정책과 조직 관리에는 토의 성격이 들어가고, 신규 서비스 기획과 성장 전략에는 목의 성격이 들어갑니다. 그래서 "어느 업종이 좋다"보다 "그 업종 안에서 어떤 역할을 맡는가"가 더 중요합니다.</p>
+        <ul>
+          <li><strong>목 일간:</strong> 성장, 교육, 기획, 시작, 방향 설정이 있는 일에서 힘이 난다.</li>
+          <li><strong>화 일간:</strong> 표현, 주목, 설득, 홍보, 공개 활동이 있는 일에서 성과가 난다.</li>
+          <li><strong>토 일간:</strong> 관리, 안정, 중재, 운영, 자원 배분이 필요한 일에서 신뢰를 얻는다.</li>
+          <li><strong>금 일간:</strong> 기준, 판단, 검수, 기술, 법과 규칙이 명확한 일에서 강점이 살아난다.</li>
+          <li><strong>수 일간:</strong> 정보, 연결, 연구, 이동, 전략, 흐름을 읽는 일에서 능력이 드러난다.</li>
+        </ul>
+        <div class="cta-box">
+          <p><strong>직업명보다 업무 방식이 먼저입니다.</strong> 같은 직업도 어떤 역할을 맡느냐에 따라 맞는 일이 될 수도 있고, 계속 소모되는 일이 될 수도 있습니다.</p>
+          <a href="/saju-analysis">사주 분석 시작하기</a>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="career-fit-exceptions">일간 직업표가 맞지 않는 경우</h2>
+        <p>일간 직업표가 내 현실과 맞지 않는다고 느껴질 때도 있습니다. 그럴 때는 표가 틀렸다고 보기보다, 전체 명식에서 다른 기운이 강하게 작동하는지 확인해야 합니다. 예를 들어 계수 일간이라도 화와 재성이 강하면 조용한 분석가보다 영업, 거래, 사업 감각이 더 강하게 드러날 수 있습니다. 경금 일간이라도 식상이 강하면 딱딱한 규칙 업무보다 말, 글, 콘텐츠, 교육 쪽으로 힘이 열릴 수 있습니다.</p>
+        <p>월지도 중요합니다. 월지는 사회 환경과 직업 무대를 보여 주기 때문에, 일간의 기본 기질과 다른 직업 환경을 만들 수 있습니다. 을목 일간이지만 월지가 신금이면 섬세함과 동시에 날카로운 기준이 생겨 디자인 검수, 품질 관리, 문서 편집처럼 부드러움과 정밀함이 섞인 일이 맞을 수 있습니다. 병화 일간이지만 월지가 축토라면 화려한 발표보다 안정적인 운영 안에서 표현력을 쓰는 방식이 더 편할 수 있습니다.</p>
+        <p>대운도 예외를 만듭니다. 젊을 때는 맞지 않던 일이 특정 대운에서 갑자기 잘 맞아질 수 있고, 오래 하던 일이 어느 시점부터 무겁게 느껴질 수도 있습니다. 그래서 직업 적성을 볼 때는 일간표, 전체 명식, 현재 대운을 함께 봐야 합니다. <a href="/saju/daewoon-change">대운 전환기</a>에 직업 고민이 커지는 이유도 여기에 있습니다.</p>
+      </section>
+
+      <section>
+        <h2 id="practical-career-checklist">일간별 직업 선택 실전 체크리스트</h2>
+        <p>사주 직업 적성을 실제 선택으로 연결하려면 직업명, 회사 규모, 연봉만 볼 것이 아니라 내 일간이 소모되는 조건을 확인해야 합니다. 아무리 좋은 직장이라도 내 일간이 계속 반대로 쓰이면 오래 버티기 어렵습니다. 반대로 남들이 보기에는 평범한 일이라도 내 일간의 강점이 정확히 쓰이면 성과와 만족이 함께 올라갈 수 있습니다.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>점검 항목</th>
+              <th>확인 질문</th>
+              <th>해석 포인트</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>업무 방식</td>
+              <td>내가 주도하는가, 조율하는가, 검수하는가, 분석하는가</td>
+              <td>일간의 기본 에너지와 실제 역할이 맞는지 확인</td>
+            </tr>
+            <tr>
+              <td>조직 문화</td>
+              <td>자율성이 큰가, 규칙이 강한가, 속도가 빠른가</td>
+              <td>일간이 편안하게 성과를 낼 수 있는 환경인지 확인</td>
+            </tr>
+            <tr>
+              <td>평가 기준</td>
+              <td>성과를 숫자로 보는가, 품질로 보는가, 관계로 보는가</td>
+              <td>내 강점이 평가되는 방식인지 확인</td>
+            </tr>
+            <tr>
+              <td>소모 지점</td>
+              <td>반복되는 피로가 사람 때문인가, 역할 때문인가</td>
+              <td>직업 자체보다 업무 구조가 문제인지 구분</td>
+            </tr>
+            <tr>
+              <td>성장 경로</td>
+              <td>3년 뒤 더 잘할 수 있는 일이 쌓이는가</td>
+              <td>일간의 장기 강점이 커지는 방향인지 확인</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>이 체크리스트를 쓰면 "내가 이 일을 좋아하나 싫어하나"보다 더 정확한 질문을 할 수 있습니다. 나는 어떤 상황에서 능력이 나오고, 어떤 조건에서 불필요하게 예민해지며, 어떤 평가 방식에서 동기가 살아나는지를 볼 수 있기 때문입니다. 직업 적성은 단순한 추천 목록이 아니라 내 에너지를 어디에 배치할지 정하는 전략입니다.</p>
+      </section>
+
+      <section>
+        <h2 id="career-next-step">직업운을 실제 선택으로 연결하는 법</h2>
+        <p>일간별 직업 적성표를 확인했다면 다음 단계는 후보 직업을 줄이는 것입니다. 먼저 내 일간의 강점이 살아나는 역할을 3개 정도 적습니다. 그다음 현재 직장이나 희망 직무가 그 역할을 얼마나 포함하는지 봅니다. 마지막으로 피해야 할 업무 환경이 현재 고민의 핵심인지 확인합니다. 문제가 직업 전체가 아니라 부서, 상사, 평가 방식, 업무 배치일 수도 있습니다.</p>
+        <p>직업 선택은 사주만으로 결정할 수 없습니다. 실제 경력, 자격, 시장 상황, 수입, 가족 책임, 건강 상태를 함께 봐야 합니다. 사주는 그중에서 "나에게 맞는 일의 방식"을 알려 주는 도구입니다. 특히 이직이나 창업처럼 큰 선택은 연도별 흐름도 함께 봐야 합니다. 2026년처럼 특정 세운이 강하게 들어오는 시기에는 <a href="/saju/career-change-2026">이직운과 직장 변화 흐름</a>을 같이 확인하는 편이 현실적입니다.</p>
+        <p>결론적으로 일간별 직업 적성표는 직업을 맞히는 점괘가 아니라, 나의 일하는 방식을 정리하는 지도입니다. 갑목은 방향을 잃으면 힘이 빠지고, 병화는 드러날 무대가 없으면 답답해지며, 경금은 기준이 흐리면 날카로워지고, 계수는 생각할 시간이 없으면 소모됩니다. 내 일간이 살아나는 조건을 알면 직업 선택은 훨씬 구체적이고 덜 불안해집니다.</p>
+        <div class="related-posts-inline">
+          <p><strong>다음 단계로 읽기</strong></p>
+          <ul>
+            <li><a href="/saju/career-star">관성으로 보는 직업운과 조직 적성</a></li>
+            <li><a href="/saju/day-pillar">내 일간과 일주 구조 먼저 확인하기</a></li>
+            <li><a href="/saju/career-change-2026">2026 이직운과 직장 변화 시기 보기</a></li>
+          </ul>
+        </div>
+      </section>
+    `,
+    contentEn: `
+      <section>
+        <p>A day master career table is useful when you want a quick comparison: what kind of work fits Jia Wood, what careers suit Bing Fire, why Geng Metal often needs clear standards, or why Gui Water may struggle in loud and reactive environments. In Saju, the day master shows the way your core energy works. That makes it a strong starting point for career choice, but it should never be used as the only factor.</p>
+        <p>This guide is not a repeat of <a href="/saju/career-star">career luck through Gwanseong</a>, and it is not a full personality profile for each individual day master. The goal is practical comparison. You will see the 10 Heavenly Stems, their better work styles, risky job environments, and the role conditions that let each day master perform well. In career reading, the job title matters less than the way the job uses your energy.</p>
+        <div class="related-posts-inline">
+          <p><strong>Helpful background</strong></p>
+          <ul>
+            <li><a href="/saju/day-pillar">How the day pillar and day master work in Saju</a></li>
+            <li><a href="/saju/career-star">How Gwanseong shows career luck and authority</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="day-master-career-scope">How to Use a Day Master Career Table</h2>
+        <p>The day master is the Heavenly Stem of the day pillar. There are ten possible day masters: Jia Wood, Yi Wood, Bing Fire, Ding Fire, Wu Earth, Ji Earth, Geng Metal, Xin Metal, Ren Water, and Gui Water. Each one uses energy differently. Jia Wood needs growth and direction. Yi Wood reads the environment and adapts. Bing Fire expresses and spreads. Ding Fire focuses deeply and refines. These differences create the first layer of career aptitude.</p>
+        <p>Still, memorizing job names is not enough. A phrase like Fire day masters fit marketing is only partly true. Bing Fire may enjoy visible promotion, public speaking, and broad attention. Ding Fire may prefer brand depth, content refinement, research, or focused expertise. Both belong to Fire, but their work rhythm is different. Yang and Yin expressions of the same element should not be treated as identical.</p>
+        <p>A Saju career table is therefore a starting map, not a final verdict. If the Authority Star is strong, organization and responsibility become important. If Output is strong, expression and production become important. If Wealth is strong, trade, clients, and income structure become more central. The day master shows the operating style, while the full chart shows how that style should be used.</p>
+      </section>
+
+      <section>
+        <h2 id="ten-stems-career-table">Best Work Styles for the 10 Heavenly Stems</h2>
+        <p>The table below compares the 10 Heavenly Stems by suitable work, work conditions to avoid, and roles that usually produce results. Avoid does not mean the person can never do that job. It means the condition may drain energy if it becomes the main pattern for many years.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Day Master</th>
+              <th>Better Work Fit</th>
+              <th>Work Conditions to Avoid</th>
+              <th>Role That Performs Well</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Jia Wood</td>
+              <td>Planning, education, entrepreneurship, leadership, long-term projects, brand direction</td>
+              <td>Following orders without authority, repetitive work with no growth path</td>
+              <td>Setting a vision and leading people forward</td>
+            </tr>
+            <tr>
+              <td>Yi Wood</td>
+              <td>Design, counseling, content, mediation, client care, delicate coordination</td>
+              <td>Harsh competition without room for adaptation or relationship reading</td>
+              <td>Reading context and softening friction</td>
+            </tr>
+            <tr>
+              <td>Bing Fire</td>
+              <td>Marketing, sales, broadcasting, teaching, promotion, public speaking, platform work</td>
+              <td>Invisible work with no recognition or audience</td>
+              <td>Making ideas visible and spreading attention</td>
+            </tr>
+            <tr>
+              <td>Ding Fire</td>
+              <td>Branding, research, editing, psychology, specialist content, refined technical work</td>
+              <td>Speed-only environments that ignore quality and depth</td>
+              <td>Improving precision, meaning, and emotional impact</td>
+            </tr>
+            <tr>
+              <td>Wu Earth</td>
+              <td>Management, real estate, operations, administration, infrastructure, asset stability</td>
+              <td>Temporary work with constantly changing standards</td>
+              <td>Holding the larger structure steady</td>
+            </tr>
+            <tr>
+              <td>Ji Earth</td>
+              <td>Accounting, operations support, HR, training management, data organization, care work</td>
+              <td>Big ideas with no practical process or detailed rules</td>
+              <td>Turning scattered work into usable systems</td>
+            </tr>
+            <tr>
+              <td>Geng Metal</td>
+              <td>Law, security, engineering, manufacturing, auditing, quality control, crisis solving</td>
+              <td>Organizations with vague standards and unclear responsibility</td>
+              <td>Cutting through problems and defining standards</td>
+            </tr>
+            <tr>
+              <td>Xin Metal</td>
+              <td>Detailed review, financial analysis, beauty, fashion, precision skills, document quality</td>
+              <td>Work cultures that accept sloppy output or ignore refinement</td>
+              <td>Raising quality, polish, and final presentation</td>
+            </tr>
+            <tr>
+              <td>Ren Water</td>
+              <td>Strategy, trade, distribution, consulting, content expansion, network business</td>
+              <td>Fixed roles with no movement, range, or discretion</td>
+              <td>Connecting information, people, and opportunities</td>
+            </tr>
+            <tr>
+              <td>Gui Water</td>
+              <td>Research, writing, analysis, psychology, data interpretation, education support, planning material</td>
+              <td>Noisy, high-pressure work that demands constant instant reaction</td>
+              <td>Observing deeply and finding hidden patterns</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>The main point is structure. Jia Wood does not have to leave companies. It needs growth, direction, and room to lead. Geng Metal does not have to avoid service roles. It needs clear standards, responsibility, and a problem-solving function. Career fit is about how the work is built, not only what the job is called.</p>
+      </section>
+
+      <section>
+        <h2 id="five-elements-work-style">Five Elements Career Aptitude by Work Style</h2>
+        <p>Grouping the 10 Heavenly Stems by the Five Elements makes career aptitude easier to understand. Wood means growth and direction. Fire means expression and visibility. Earth means stability and operation. Metal means standards and precision. Water means information and flow. These are not only industries. They are work functions that can exist inside the same company.</p>
+        <p>For example, a technology company is not automatically a Fire industry. Marketing and public launch work have a Fire quality. Security and backend reliability have a Metal quality. Data analysis and user behavior research have a Water quality. Operations and policy have an Earth quality. New product strategy and growth planning have a Wood quality. This is why the role inside an industry matters more than the industry label itself.</p>
+        <ul>
+          <li><strong>Wood day masters:</strong> perform well with growth, education, planning, beginnings, and direction setting.</li>
+          <li><strong>Fire day masters:</strong> need expression, persuasion, attention, communication, and visible impact.</li>
+          <li><strong>Earth day masters:</strong> build trust through management, stability, mediation, and resource allocation.</li>
+          <li><strong>Metal day masters:</strong> excel when standards, judgment, review, rules, and precision are valued.</li>
+          <li><strong>Water day masters:</strong> shine through information, connection, research, movement, strategy, and pattern reading.</li>
+        </ul>
+        <div class="cta-box">
+          <p><strong>Start with work style before job title.</strong> The same job can become supportive or draining depending on whether the role uses your natural way of operating.</p>
+          <a href="/saju-analysis">Start a Saju Analysis</a>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="career-fit-exceptions">When the Career Table Does Not Fit</h2>
+        <p>Sometimes a day master career table does not seem to match real life. That does not always mean the table is useless. It may mean another part of the chart is stronger. A Gui Water day master with strong Fire and Wealth energy may show more sales, business, or client-facing ability than a quiet research profile. A Geng Metal day master with strong Output may become strong in writing, education, content, or public explanation rather than only rule-based work.</p>
+        <p>The month branch also matters. It shows the social environment and career stage. A Yi Wood day master with Shen Metal in the month branch may combine sensitivity with sharp standards, making design review, document editing, quality control, or detailed consulting a better fit than a purely soft support role. A Bing Fire day master with Chou Earth in the month branch may prefer stable operations where expression is used inside a structured system.</p>
+        <p>Luck cycles create additional exceptions. A job that felt wrong in one decade may become useful in another. A role that worked for years may become heavy when the major luck cycle changes. This is why career aptitude should be read with the day master, full chart, and current cycle together. Career confusion often becomes stronger during a <a href="/saju/daewoon-change">Daewoon transition</a>.</p>
+      </section>
+
+      <section>
+        <h2 id="practical-career-checklist">Practical Checklist for Career Choice</h2>
+        <p>To use Saju career insight in real decisions, do not look only at salary, title, or company size. Ask how the role uses your energy. A prestigious job can still be exhausting if it forces your day master to operate against its natural rhythm every day. A modest-looking role can become powerful if it repeatedly uses your strongest operating style.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Checkpoint</th>
+              <th>Question</th>
+              <th>What It Shows</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Work style</td>
+              <td>Do I lead, coordinate, review, analyze, or express?</td>
+              <td>Whether the role matches the day master energy</td>
+            </tr>
+            <tr>
+              <td>Culture</td>
+              <td>Is the culture autonomous, rule-based, fast, or stable?</td>
+              <td>Whether the environment supports or drains performance</td>
+            </tr>
+            <tr>
+              <td>Evaluation</td>
+              <td>Are results judged by numbers, quality, relationships, or reliability?</td>
+              <td>Whether your strength is actually recognized</td>
+            </tr>
+            <tr>
+              <td>Drain point</td>
+              <td>Is the fatigue caused by people, tasks, or structure?</td>
+              <td>Whether the problem is the career or the role design</td>
+            </tr>
+            <tr>
+              <td>Growth path</td>
+              <td>Will the next three years build a stronger version of my talent?</td>
+              <td>Whether the job compounds your natural advantage</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>This checklist creates better questions than simply asking whether you like a job. It shows where ability appears, where sensitivity increases, and which evaluation system keeps motivation alive. Career aptitude is not a list of perfect jobs. It is a strategy for placing your energy where it becomes useful.</p>
+      </section>
+
+      <section>
+        <h2 id="career-next-step">How to Turn Saju Career Insight Into Action</h2>
+        <p>After reading the day master career table, list three role types that use your strengths. Then compare your current job or target job with those role types. Does it include the work style your day master needs? Does it repeatedly place you in the environment your chart finds draining? The answer may show that the problem is not the whole career, but the department, manager, evaluation system, or task mix.</p>
+        <p>Career decisions should never be made from Saju alone. Experience, credentials, market demand, income, family duties, and health all matter. Saju is useful because it clarifies the work style that fits your energy. For major decisions such as changing jobs or starting a business, timing also matters. Comparing this table with <a href="/saju/career-change-2026">career change timing</a> can make the decision more practical.</p>
+        <p>In short, a day master career table is not a fortune-telling shortcut. It is a map of work style. Jia Wood weakens when direction is blocked. Bing Fire feels trapped without visibility. Geng Metal becomes sharp when standards are vague. Gui Water becomes drained when there is no time to think. Once you understand the conditions that make your day master useful, career choice becomes more specific and less anxious.</p>
+        <div class="related-posts-inline">
+          <p><strong>Read next</strong></p>
+          <ul>
+            <li><a href="/saju/career-star">How Gwanseong shows career luck and authority</a></li>
+            <li><a href="/saju/day-pillar">How to identify your day master and day pillar</a></li>
+            <li><a href="/saju/career-change-2026">How to read career change timing in 2026</a></li>
+          </ul>
+        </div>
+      </section>
+    `,
+    faq: [
+      {
+        q: '일간별 직업 적성표만 보면 직업을 정할 수 있나요?',
+        a: '아닙니다. 일간은 직업 적성의 출발점이지만 월지, 오행 균형, 십성 구조, 대운과 현실 경력을 함께 봐야 합니다. 표는 직업명보다 일하는 방식과 환경을 고르는 참고 기준입니다.',
+      },
+      {
+        q: '피해야 할 일은 절대 하면 안 된다는 뜻인가요?',
+        a: '아닙니다. 피해야 할 일은 에너지가 쉽게 소모되는 업무 조건을 뜻합니다. 같은 직업이라도 역할, 조직 문화, 평가 방식이 맞으면 충분히 성과를 낼 수 있습니다.',
+      },
+      {
+        q: '오행별 직업 적성과 일간별 직업 적성은 어떻게 다른가요?',
+        a: '오행별 직업 적성은 목화토금수의 큰 업무 방식을 보는 것이고, 일간별 직업 적성은 같은 오행 안에서도 양간과 음간의 차이를 더 세밀하게 보는 방식입니다.',
+      },
+    ],
+    faqEn: [
+      {
+        q: 'Can I choose a career from the day master table alone?',
+        a: 'No. The day master is a starting point. Month branch, element balance, Ten Gods, luck cycles, skills, and real career history should also be considered.',
+      },
+      {
+        q: 'Does a work style to avoid mean I should never do that job?',
+        a: 'No. It means that condition may drain your energy. The same job can work if the role, culture, authority, and evaluation system fit your chart better.',
+      },
+      {
+        q: 'How is Five Elements career aptitude different from day master career fit?',
+        a: 'Five Elements career aptitude shows the broad work function of Wood, Fire, Earth, Metal, and Water. Day master career fit adds the difference between Yang and Yin expressions within each element.',
+      },
+    ],
+    relatedPosts: [
+      { slug: 'career-star', category: 'saju', title: '사주 관성으로 보는 직업운: 나에게 맞는 직종과 성공 시기' },
+      { slug: 'day-pillar', category: 'saju', title: '사주 일주 완전정복: 나의 본질과 배우자 복을 읽는 법' },
+      { slug: 'career-change-2026', category: 'saju', title: '2026 이직운 사주: 직장 변화·승진 시기 보기' },
+    ],
+  },
 ], '2026-01-05', 3, '2026-02-10', 1);
 

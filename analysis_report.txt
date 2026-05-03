@@ -1,0 +1,62 @@
+
+--- Analyzing saju-posts.ts ---
+Total titles matched: 726
+Duplicate titles found:
+  13x: 사주 일주 완전정복: 나의 본질과 배우자 복을 읽는 법
+  7x: 용신(用神): 내 사주의 핵심 기운
+  5x: 3. Conclusion
+  4x: 사주 재물운: 재성(財星)으로 돈복 읽기
+  4x: 2026 이직운 사주: 직장 변화·승진 시기 보기
+  3x: 사주로 보는 연애와 결혼운
+  3x: 사주 건강 분석: 오행으로 보는 건강 위험 시기
+  3x: 띠별 2026년 운세: 병오년 운세 흐름 총정리
+  3x: 2026 병오년 일주별 운세: 내 일주는 어떤 흐름을 받을까?
+  2x: 관성(官星)으로 보는 직업운
+Total H2s matched: 552
+Total FAQ questions: 0
+Total contentKo blocks: 57
+Average length: 4691 chars
+Short content (<2000 chars): 0 blocks
+
+--- Analyzing gwansang-posts.ts ---
+Total titles matched: 136
+Duplicate titles found:
+  6x: 3. Conclusion
+  5x: 재물 관상: 코와 입에 숨겨진 부의 비밀
+Total H2s matched: 112
+Total FAQ questions: 0
+Total contentKo blocks: 12
+Average length: 4093 chars
+Short content (<2000 chars): 0 blocks
+
+--- Analyzing seongmyeong-posts.ts ---
+Total titles matched: 106
+Duplicate titles found:
+  4x: 3. Conclusion
+Total H2s matched: 77
+Total FAQ questions: 0
+Total contentKo blocks: 10
+Average length: 4741 chars
+Short content (<2000 chars): 0 blocks
+
+--- Analyzing mbti-posts.ts ---
+Total titles matched: 107
+Duplicate titles found:
+  5x: 4. Conclusion
+  2x: MBTI & Korean Five Elements: 16 Types Explained
+  2x: MBTI와 사주팔자의 평행이론
+Total H2s matched: 80
+Total FAQ questions: 0
+Total contentKo blocks: 9
+Average length: 3832 chars
+Short content (<2000 chars): 0 blocks
+
+--- Analyzing bokhap-posts.ts ---
+Total titles matched: 68
+Duplicate titles found:
+  2x: 3. Conclusion
+Total H2s matched: 50
+Total FAQ questions: 0
+Total contentKo blocks: 6
+Average length: 3468 chars
+Short content (<2000 chars): 1 blocks
