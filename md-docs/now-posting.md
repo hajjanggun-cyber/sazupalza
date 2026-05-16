@@ -360,7 +360,7 @@
 - 하위 키워드 EN: day stem career fit, five elements jobs, saju career table
 - 작성 지침: career-star(관성 이론)와 다름. 직업운 일반론이나 MBTI 직업 추천이 아니라 10일간별 맞는 일·피할 일·업무 환경을 표로 비교한다.
 
-[ ] 37. 일간별 건강 관리 체크리스트 — 오행으로 보는 생활 관리 포인트
+[완료] 37. 일간별 건강 관리 체크리스트 — 오행으로 보는 생활 관리 포인트
 - slug: `ilgan-health-weakness`
 - 카테고리: `saju`
 - 메인 키워드 KO: 일간별 약한 장기, 오행별 건강 약점
@@ -369,7 +369,7 @@
 - 하위 키워드 EN: five elements health checklist, saju organ weakness, day stem wellness
 - 작성 지침: health-saju(질병 시기)와 다름. 질병 예측이나 음식 추천이 아니라 일간 오행별 취약 부위와 생활 관리 체크리스트 중심. 의료 단정 표현 금지.
 
-[ ] 38. 2026 토정비결 보는법 — 생년월일로 풀이 순서 확인하기
+[완료] 38. 2026 토정비결 보는법 — 생년월일로 풀이 순서 확인하기
 - slug: `tojeong-bigyeol-2026`
 - 카테고리: `saju`
 - 메인 키워드 KO: 토정비결 2026, 2026 토정비결

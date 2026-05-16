@@ -3,6 +3,341 @@ import { distributePublishedDates } from './date-utils';
 
 export const sajuPosts: BlogPost[] = distributePublishedDates([
   {
+    slug: 'tojeong-bigyeol-2026',
+    title: '2026 토정비결 보는법 — 생년월일로 풀이 순서 확인하기',
+    seoTitle: '2026 토정비결 보는법 — 병오년 신년운세 사주 차이와 풀이 원리',
+    seoTitleEn: 'How to Read 2026 Tojeong Bigyeol: Korean Almanac Fortune Guide',
+    description: '2026년 병오년 신년운세를 준비하고 계신가요? 사주와 토정비결의 차이점부터 생년월일을 바탕으로 나만의 144괘를 뽑고 한 해의 운세를 해석하는 풀이 순서까지 쉽게 알려드립니다.',
+    descriptionEn: 'Preparing for the 2026 New Year? Discover how to read your Tojeong Bigyeol (traditional Korean almanac fortune). Learn the differences from Saju and the step-by-step method to calculate your yearly hexagram.',
+    keywords: ['토정비결 2026', '2026 토정비결', '토정비결 보는법', '토정비결 사주 차이', '병오년 토정비결 원리', '생년월일 운세표'],
+    keywordsEn: ['tojeong bigyeol 2026', 'korean almanac fortune 2026', 'tojeong bigyeol method', 'korean almanac reading', 'tojeong vs saju'],
+    publishedAt: '2026-05-16',
+    category: 'saju',
+    contentKo: `
+<section>
+<p>매년 연말연시가 되면 많은 사람들이 새해의 길흉화복을 알아보기 위해 <strong>'토정비결(土亭秘訣)'</strong>을 찾습니다. 2026년 병오년(丙午年)을 앞두고 신년운세를 준비하고 계신가요? 많은 분들이 사주팔자와 토정비결을 같은 것으로 생각하지만, 사실 이 둘은 목적과 풀이 원리에서 확연한 차이를 보입니다. 특히 2026년은 강렬한 화(火)의 기운이 지배하는 '붉은 말'의 해인 만큼, 이를 해석하는 방식도 시대에 맞게 현대화될 필요가 있습니다. 이 글에서는 2026년 토정비결을 보기 전 알아두어야 할 기본 원리와, 생년월일을 바탕으로 나만의 운세를 뽑는 풀이 순서를 단계별로 안내해 드립니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 확인하면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/saju-reading-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">2026 사주 보는법 — 병오년 세운 대입 실전 가이드</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/free-saju-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">2026 사주 무료 풀이 — 내 사주 직접 보는 법 완전 가이드</a></li>
+  </ul>
+</div>
+
+<h2 id="tojeong-vs-saju">1. 토정비결과 사주의 핵심 차이점: 왜 다르게 나올까?</h2>
+<p>토정비결을 정확히 이해하려면 먼저 사주(四柱)와의 차이를 알아야 합니다. 두 가지 모두 생년월일을 기반으로 하지만, 분석하는 '깊이'와 '목표'가 다릅니다.</p>
+<ul>
+  <li><strong>사주 명리학 (인생 전체의 내비게이션):</strong> 태어난 연, 월, 일, 시(4개의 기둥)를 바탕으로 개인의 평생 운명, 성향, 대운(10년 주기의 큰 흐름)을 거시적으로 분석합니다. 내가 타고난 '그릇'의 크기와 인생의 큰 계절을 보는 학문입니다.</li>
+  <li><strong>토정비결 (올해 1년의 기상도):</strong> 조선시대 토정 이지함 선생이 지었다고 전해지는 도참서로, <strong>'그 해 1년 동안의 신수(운세)'</strong>를 월별로 나누어 짚어보는 데 특화되어 있습니다. 태어난 '시(時)'를 보지 않고 연, 월, 일 세 가지만을 사용하여 144개의 괘 중 하나를 도출합니다.</li>
+</ul>
+<p>가장 큰 차이는 '시간(時)'의 유무입니다. 사주는 시간이 없으면 해석의 정밀도가 25% 이상 떨어지지만, 토정비결은 애초에 1년의 대중적인 운세를 위해 설계되었으므로 시간 없이도 충분히 볼 수 있습니다. 따라서 토정비결은 사주보다 접근성이 좋으며, 1년의 월별 흐름을 구체적으로 묘사한다는 장점이 있습니다.</p>
+
+<h2 id="reading-method">2. 생년월일로 토정비결 풀이하는 순서: 144괘 도출법</h2>
+<p>토정비결은 단순한 점술이 아니라 규칙적인 수리 체계입니다. 자신의 생년월일을 바탕으로 상괘, 중괘, 하괘를 뽑아 조합하는 과정(작괘법)을 거칩니다.</p>
+
+<h3>1단계: 상괘 (올해의 전체적인 흐름)</h3>
+<p>자신이 태어난 해의 나이와 그 해의 태세(2026년의 경우 병오년) 수치를 합산하여 8로 나눕니다. 이때 남는 나머지 숫자가 <strong>상괘(上卦)</strong>가 됩니다. 이는 한 해의 전반적인 큰 줄기와 사회적 환경을 결정하는 숫자가 됩니다.</p>
+
+<h3>2단계: 중괘 (정서적 상태와 가정운)</h3>
+<p>태어난 달(음력 기준)의 수치와 상괘의 숫자를 특정 공식에 대입하여 6으로 나눕니다. 남는 나머지(1~6)가 <strong>중괘(中卦)</strong>입니다. 중괘는 주로 개인의 내적인 마음 상태, 가정 내에서의 변화, 인간관계의 화합 여부를 보여줍니다.</p>
+
+<h3>3단계: 하괘 (구체적인 결과와 득실)</h3>
+<p>태어난 날짜(음력)의 수치를 더하여 3으로 나눈 나머지(1~3)를 취합니다. 이를 <strong>하괘(下卦)</strong>라고 부릅니다. 하괘는 실제로 손에 쥐게 되는 재물, 구체적인 일의 성패 등 말단적인 결과를 의미합니다.</p>
+
+<p>이렇게 도출된 상-중-하 세 숫자를 나열하면 (예: 1-2-3) 총 <strong>144개의 고유 번호</strong>가 완성됩니다. 이 번호에 해당하는 운문(괘사)을 찾아 한 해의 운세를 해석하게 됩니다. 144괘는 우주의 변화를 144가지 전형적인 시나리오로 요약한 것입니다.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔍 내 생년월일로 2026년 144괘 번호 확인하기 →</a>
+</div>
+
+<h2 id="byeongo-2026">3. 2026년 병오년(丙午年) 토정비결의 핵심 키워드</h2>
+<p>2026년은 '병화(丙火)'와 '오화(午火)'가 만나는 해로, 불의 기운이 극에 달하는 시기입니다. 토정비결 원문을 해석할 때도 이 '화(火)'의 에너지를 염두에 두어야 합니다.</p>
+<ul>
+  <li><strong>빠른 전개와 가시성:</strong> 병오년은 태양이 중천에 뜬 격입니다. 모든 일이 숨김없이 드러나며, 진행 속도가 매우 빠릅니다. 토정비결에서 "좋은 일이 생긴다"는 구절이 있다면, 그것은 예상보다 훨씬 빨리 찾아올 가능성이 큽니다.</li>
+  <li><strong>감정의 과열 주의:</strong> 불의 기운이 강하면 충동적이기 쉽습니다. 운세 중 "신중하라"는 경고가 있다면, 이는 특히 욱하는 성질이나 급한 결정을 경계하라는 뜻으로 읽어야 합니다.</li>
+  <li><strong>문서와 계약의 중요성:</strong> 화(火) 기운은 예절과 문서를 상징하기도 합니다. 2026년 토정비결에서 문서운이나 계약운이 좋게 나온다면, 이는 상업적인 이득뿐만 아니라 사회적 명예를 얻는 기회가 될 것입니다.</li>
+</ul>
+
+<h2 id="interpretation-tips">4. 현대적 해석 가이드: 농경 시대 비유를 오늘날로 읽는 법</h2>
+<p>토정비결 원문은 조선 시대의 농경 사회를 배경으로 쓰였기 때문에, 오늘날의 관점으로 유연하게 치환하는 '문맥적 이해'가 필수적입니다.</p>
+<ul>
+  <li><strong>"동쪽에서 귀인을 만난다":</strong> 반드시 지리적인 동쪽만 의미하는 것이 아닙니다. 새로운 기술, 새로운 분야(IT, 스타트업 등), 혹은 아침 일찍 시작하는 모임에서 나를 돕는 사람을 만난다는 의미로 확장할 수 있습니다.</li>
+  <li><strong>"비가 내리니 만물이 소생한다":</strong> 현대 사회에서는 막혔던 자금 흐름이 풀리거나, 정체되었던 프로젝트가 외부의 지원을 받아 활기를 띠는 것으로 해석합니다.</li>
+  <li><strong>"북쪽으로 가면 재물을 얻는다":</strong> 북쪽은 수(水)를 상징합니다. 2026년처럼 뜨거운 해에는 차분하고 지적인 분야(연구, 전략 수립, 물류)나 조용한 환경에서 실질적인 이득이 생긴다는 힌트로 활용할 수 있습니다.</li>
+  <li><strong>피흉취길(避흉趨吉)의 자세:</strong> 토정비결은 나쁜 운을 맞추는 것이 목적이 아니라, <strong>'나쁜 운을 피하고 좋은 운을 좇는 것'</strong>에 의미가 있습니다. 월별 운세에서 조심하라는 달이 있다면 그 달에는 투자를 삼가고 몸을 낮추면 됩니다. 그것이 토정비결을 가장 똑똑하게 활용하는 법입니다.</li>
+</ul>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/ko/saju/iljoo-fortune-2026" style="text-decoration: underline; color: #f9d976;">[다음 단계] 2026 일주별 운세 — 60갑자 일주로 보는 올해 흐름</a></p>
+  <p><a href="/ko/saju/saju-reading-2026" style="text-decoration: underline; color: #f9d976;">[함께 볼 글] 2026 사주 보는법 — 병오년 세운 대입 실전 가이드</a></p>
+</div>
+</section>
+    `,
+    contentEn: `
+<section>
+<p>As the lunar transition approaches, millions of Koreans and astrology enthusiasts worldwide seek out <strong>'Tojeong Bigyeol'</strong> (The Tojeong Secret Manual) to foresee their fortune for the upcoming year. If you are preparing for the 2026 Year of the Fire Horse (Byeongo), you are facing a year of intense energy, rapid change, and high visibility. While many confuse Tojeong Bigyeol with traditional Saju (Four Pillars of Destiny), they are distinct systems with unique methodologies and goals. This comprehensive guide will explain the fundamental principles of the Tojeong system, walk you through the 3-step calculation to find your unique yearly hexagram, and show you how to modernize ancient metaphors for your career and life in 2026.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Foundational Reading</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/saju/saju-reading-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">How to Read Saju in 2026 — Applying the Yearly Pillar (Byeongo)</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/saju/free-saju-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Free Saju Reading 2026 — Complete Guide to Reading Your Own Chart</a></li>
+  </ul>
+</div>
+
+<h2 id="tojeong-vs-saju">1. Tojeong Bigyeol vs. Saju: Understanding the Difference</h2>
+<p>To use these tools effectively, you must first understand their different scopes and methodologies. While both use your birth details, they serve different purposes in the "destiny management" framework.</p>
+<ul>
+  <li><strong>Saju 명리학 (Your Life's Blueprint):</strong> Analyzes the Year, Month, Day, and Hour of your birth to determine your core personality, long-term fate, and 10-year Major Luck Cycles (Daewoon). It is a macroscopic view of your entire life's potential.</li>
+  <li><strong>Tojeong Bigyeol (Your Annual Weather Forecast):</strong> Attributed to the legendary scholar Lee Ji-ham (pen name Tojeong), this system is specifically designed for <strong>yearly forecasting</strong>. It omits the hour of birth and focuses on the year, month, and day to generate one of 144 possible hexagrams.</li>
+</ul>
+<p>The beauty of Tojeong Bigyeol lies in its accessibility. Since it doesn't require the birth hour (which many people don't know), it became the most popular folk divination in Korea. It specializes in describing <strong>monthly flows</strong> of luck, giving you a granular look at how your 2026 will unfold month by month.</p>
+
+<h2 id="reading-method">2. Step-by-Step: How to Calculate Your 2026 Yearly Hexagram</h2>
+<p>Tojeong Bigyeol is not based on "gut feeling"; it is a rigid mathematical system. Your birth date is processed through three distinct calculations to find your unique three-digit code (e.g., 1-2-3).</p>
+
+<h3>Phase 1: The Upper Hexagram (The Yearly Theme)</h3>
+<p>This is calculated by combining your current age in 2026 with the celestial stems of the current year (Byeongo). The resulting sum is divided by 8. The remainder (1 to 8) becomes your <strong>Upper Hexagram</strong>. This number sets the overarching theme and the macro-environment you will navigate during the year.</p>
+
+<h3>Phase 2: The Middle Hexagram (Inner State and Home Life)</h3>
+<p>Next, your lunar birth month is factored in with the result of the Upper Hexagram. This sum is divided by 6. The remainder (1 to 6) is your <strong>Middle Hexagram</strong>. This part of the code reflects your internal psychological state, your emotional well-being, and the harmony within your household.</p>
+
+<h3>Phase 3: The Lower Hexagram (Outcomes and Tangible Results)</h3>
+<p>Finally, your lunar birth day is added and the sum is divided by 3. The remainder (1 to 3) is your <strong>Lower Hexagram</strong>. This final number dictates the tangible results of your actions—wealth gained or lost, the success of a specific business deal, and your physical health.</p>
+
+<p>When you put these three remainders together, you get your unique <strong>144 Hexagram Profile</strong>. For instance, if your remainders are 2, 4, and 1, your reading for 2026 is found under profile #241 in the classic Tojeong Bigyeol text. Each of these 144 profiles contains a poetic description of your fortune, broken down into the overall year and specific monthly summaries.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔍 Calculate Your 2026 Tojeong Hexagram Code Now →</a>
+</div>
+
+<h2 id="interpretation-2026">3. Decoding the Fire Horse Year: The 2026 Context</h2>
+<p>When reading your Tojeong Bigyeol results for 2026, you must keep the "Byeongo" (Fire Horse) energy in mind. The intense Fire energy of the year acts as an amplifier for the poetic verses in the manual.</p>
+<ul>
+  <li><strong>Speed and Momentum:</strong> The Fire Horse year moves fast. If your reading suggests "success in spring," expect it to happen rapidly. Conversely, if it suggests "obstacles," you must act quickly to mitigate them before they escalate.</li>
+  <li><strong>Visibility and Reputation:</strong> Fire represents light and clarity. 2026 is a year where your actions—both good and bad—will be seen by everyone. If your hexagram mentions "receiving honor," it likely refers to public recognition, awards, or social media fame.</li>
+  <li><strong>Managing Overheating:</strong> The combination of Byeong-Fire (Sun) and O-Fire (Heat) can lead to impulsive decisions. If your yearly reading advises "patience" or "caution," take it very seriously in 2026; the fire of the year can easily turn a small mistake into a major burnout.</li>
+</ul>
+
+<h2 id="interpretation-tips">4. Modernizing Ancient Metaphors for Modern Life</h2>
+<p>Tojeong Bigyeol was written in an agrarian society. To get the most out of it today, you must learn to "translate" its agricultural metaphors into 21st-century professional terms.</p>
+<ul>
+  <li><strong>"A Great Nobleman arrives from the East":</strong> In 2026, this doesn't just mean a literal person traveling from the East. It could refer to a new partnership with a tech company, a breakthrough in a new digital market, or a mentor found in an early-morning mastermind group.</li>
+  <li><strong>"The rain revives the withered crops":</strong> This refers to <strong>liquidity and cash flow</strong>. If you've been struggling with a stagnant business project, this metaphor suggests an infusion of capital, a new investor, or a viral marketing success that brings the project back to life.</li>
+  <li><strong>"Do not go South; loss awaits":</strong> In the context of 2026 (the Year of Fire), the South represents even more Fire. This is a warning against <strong>over-expansion and excessive heat</strong>. It suggests that staying conservative, focusing on internal strategy (represented by North/Water), will be more profitable than chasing high-risk aggressive growth.</li>
+  <li><strong>The Philosophy of Pihyungchwigil (避凶趨吉):</strong> The true purpose of reading Tojeong Bigyeol is not fatalism. It is about <strong>"avoiding the bad and chasing the good."</strong> If the manual warns of a difficult month in August, you don't despair; you simply schedule your vacation for that month and avoid launching a major product until September. This is how you use astrology to engineer your own luck.</li>
+</ul>
+
+<h2 id="conclusion">5. Conclusion: Your Roadmap for the Fire Horse Year</h2>
+<p>Tojeong Bigyeol is more than just a tradition; it is a strategic roadmap. By understanding the 144 scenarios of the universe, you gain the foresight to navigate 2026 with confidence. Whether the Fire Horse brings you a roaring success or a season of quiet preparation, knowing the "weather" of your year allows you to carry an umbrella when it rains and plant your seeds when the sun shines. Use your 2026 hexagram not as a fixed cage, but as a guide to making better, more informed choices throughout the year.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/saju/iljoo-fortune-2026" style="text-decoration: underline; color: #f9d976;">[Next Step] 2026 Day Pillar Fortune — Yearly Flow for the 60 Gapja</a></p>
+  <p><a href="/en/saju/annual-fortune" style="text-decoration: underline; color: #f9d976;">[Related] Annual Fortune vs. Major Cycle — How Timing Works in Saju</a></p>
+</div>
+</section>
+    `,
+    toc: [
+      { id: 'tojeong-vs-saju', title: '1. 토정비결과 사주의 핵심 차이점' },
+      { id: 'reading-method', title: '2. 생년월일로 토정비결 풀이하는 순서' },
+      { id: 'byeongo-2026', title: '3. 2026년 병오년 토정비결의 키워드' },
+      { id: 'interpretation-tips', title: '4. 현대적 해석 가이드와 활용법' },
+      { id: 'conclusion', title: '5. 결론: 2026년 운명의 로드맵' },
+    ],
+    tocEn: [
+      { id: 'tojeong-vs-saju', title: '1. Tojeong Bigyeol vs. Saju' },
+      { id: 'reading-method', title: '2. Step-by-Step Calculation' },
+      { id: 'interpretation-2026', title: '3. Decoding the 2026 Context' },
+      { id: 'interpretation-tips', title: '4. Modernizing Ancient Metaphors' },
+      { id: 'conclusion', title: '5. Conclusion: Your Roadmap' },
+    ],
+    faq: [
+      { q: '토정비결은 태어난 시간을 몰라도 되나요?', a: '네, 토정비결은 평생 운을 보는 사주 명리학과 달리 한 해의 신수만 짚어보기 때문에 연, 월, 일 세 가지만을 기준으로 괘를 뽑습니다. 시간을 모르는 분들에게 가장 적합한 전통 운세입니다.' },
+      { q: '토정비결에 양력을 입력해도 되나요?', a: '아닙니다. 토정비결의 작괘법은 전통적으로 철저하게 음력 달력(태음력)을 기준으로 설계되었습니다. 반드시 음력 생년월일로 변환하여 입력해야 정확한 괘를 얻을 수 있습니다.' },
+      { q: '사주와 토정비결 결과가 다르면 무엇을 믿어야 하나요?', a: '사주는 인생 전체의 거시적인 흐름을, 토정비결은 1년의 구체적인 월별 변화를 봅니다. 두 결과를 통합하여 "올해의 큰 계절(사주)" 속에 "이번 달의 날씨(토정비결)"가 어떠한지를 함께 참고하는 것이 가장 바람직합니다.' },
+    ],
+    faqEn: [
+      { q: 'Do I need my birth time for Tojeong Bigyeol?', a: 'No, unlike Saju which requires the exact birth hour to determine your entire life path, Tojeong Bigyeol calculates the yearly fortune using only the birth year, month, and day. It is the perfect traditional tool for those who do not know their exact birth time.' },
+      { q: 'Can I use my solar (Gregorian) birthdate?', a: 'No, Tojeong Bigyeol’s calculation system is fundamentally based on the traditional lunar calendar. You must convert your solar birthdate to its lunar equivalent to get the correct hexagram and monthly readings.' },
+      { q: 'What if my Saju and Tojeong Bigyeol results contradict each other?', a: 'Saju describes the "macro-season" of your decade, while Tojeong Bigyeol describes the "micro-weather" of your year. Think of it like this: your Saju might say you are in a "successful season," but Tojeong Bigyeol might warn of a "rainy month" within that season. Use both to get the most balanced strategic view.' },
+    ],
+    relatedPosts: [
+      { slug: 'saju-reading-2026', title: '2026 사주 보는법: 병오년 세운 대입 실전 가이드', category: 'saju' },
+      { slug: 'free-saju-2026', title: '2026 사주 무료 풀이: 내 사주 직접 보는 법 완전 가이드', category: 'saju' },
+    ],
+  },
+  {
+    slug: 'ilgan-health-weakness',
+    title: '일간별 건강 관리 체크리스트 — 오행으로 보는 생활 관리 포인트',
+    seoTitle: '일간별 건강 관리 체크리스트 — 내 오행 체질에 맞는 생활 약점 파악하기',
+    seoTitleEn: 'Day Master Health Weakness — Five Elements Wellness Checklist',
+    description: '질병을 예측하는 것이 아닙니다. 목화토금수 오행의 특성을 통해 내 일간(태어난 날)이 쉽게 피로를 느끼는 장기를 파악하고, 일상에서 실천할 수 있는 생활 관리 포인트를 체크해보세요.',
+    descriptionEn: 'Discover your inherent health vulnerabilities based on your Day Master and the Five Elements. Learn practical daily wellness checklists tailored to your unique Saju elemental balance.',
+    keywords: ['일간별 약한 장기', '오행별 건강 약점', '목화토금수 건강', '일간 건강관리', '오행 약한 부위', '생활 습관 체크'],
+    keywordsEn: ['day master health weakness', 'five elements organ weakness', 'five elements health checklist', 'saju organ weakness', 'day stem wellness'],
+    publishedAt: '2026-05-16',
+    category: 'saju',
+    contentKo: `
+<section>
+<p>사주 명리학에서 오행(五行)은 우리의 성격이나 직업뿐만 아니라 신체적인 에너지 흐름을 보여주는 중요한 지표입니다. 내가 태어난 날의 기운인 <strong>일간(日干)</strong>은 나의 뼈대이자 본질적인 체질을 의미합니다. 이 글은 특정 질병을 진단하거나 예측하는 것이 아닙니다. 대신, 목(木), 화(火), 토(土), 금(金), 수(水) 각 오행의 특성에 따라 일상생활에서 어떤 장기가 더 쉽게 피로를 느끼고 무리가 가는지, 그리고 이를 보완하기 위해 어떤 생활 습관을 가지면 좋은지 <strong>건강 관리 포인트</strong>를 짚어보는 데 목적이 있습니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 확인하면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/ko/saju/health-saju" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">이론 편: 사주 건강 분석 — 오행으로 보는 체질과 건강 위험 시기</a></li>
+  </ul>
+</div>
+
+<h2 id="wood-health">1. 목(木) 일간 (갑목, 을목): 간담 기능과 스트레스성 경직</h2>
+<p>나무의 기운을 타고난 목(木) 일간은 위로 뻗어나가려는 상승 지향성과 추진력이 강합니다. 한의학적으로 목 기운은 <strong>간장(肝)과 담낭(膽), 그리고 근육과 신경계</strong>를 주관합니다. 이들은 스트레스를 받거나 일이 뜻대로 풀리지 않으면 화(분노)를 참다가 간에 피로가 쌓이거나, 목과 어깨 주변 근육이 뻣뻣하게 굳는 증상을 자주 겪습니다.</p>
+<h3>생활 관리 체크리스트</h3>
+<ul>
+  <li><strong>충분한 수면:</strong> 간 기능이 회복되는 밤 11시~새벽 3시 사이에는 반드시 수면을 취하는 것이 좋습니다.</li>
+  <li><strong>스트레칭:</strong> 근육이 쉽게 긴장하므로, 아침저녁으로 요가나 가벼운 스트레칭을 통해 몸을 이완시켜야 합니다.</li>
+  <li><strong>분노 조절:</strong> 감정을 억누르기보다는 건강한 취미나 운동을 통해 주기적으로 발산하는 연습이 필요합니다.</li>
+</ul>
+
+<h2 id="fire-health">2. 화(火) 일간 (병화, 정화): 심혈관과 감정의 과열</h2>
+<p>불의 기운을 가진 화(火) 일간은 열정적이고 감정 표현이 풍부하며 에너지가 밖으로 발산되는 특징이 있습니다. 화 기운은 <strong>심장(心)과 소장(小腸), 그리고 혈액순환</strong>을 주관합니다. 이들은 에너지를 급격하게 소모하는 경향이 있어 심장 박동이 빨라지거나, 가슴이 두근거리는 증상, 불면증, 혹은 상체로 열이 쏠리는 '상기증'에 취약할 수 있습니다.</p>
+<h3>생활 관리 체크리스트</h3>
+<ul>
+  <li><strong>심박수 조절 운동:</strong> 격렬한 운동보다는 걷기, 조깅 등 심장에 무리가 가지 않는 유산소 운동이 적합합니다.</li>
+  <li><strong>열 식히기:</strong> 일상에서 명상이나 심호흡을 통해 흥분된 감정과 열을 차분하게 가라앉히는 시간을 가져야 합니다.</li>
+  <li><strong>여유 있는 스케줄:</strong> 일을 몰아서 하기보다는 중간중간 휴식을 취하며 에너지가 방전되지 않도록 속도를 조절하세요.</li>
+</ul>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔍 내 일간의 오행 체질 분석하기 →</a>
+</div>
+
+<h2 id="earth-health">3. 토(土) 일간 (무토, 기토): 소화기와 생각의 정체</h2>
+<p>흙의 기운을 품은 토(土) 일간은 무겁고 안정적이며 모든 것을 포용하고 저장하려는 성질이 있습니다. 토 기운은 <strong>비장(脾)과 위장(胃), 즉 소화기 계통</strong>을 주관합니다. 이들은 고민과 생각이 많아지면 위장 운동이 둔해져 소화불량, 위염, 역류성 식도염 등에 시달리기 쉽습니다. '생각이 멈춰야 위장도 편안해지는' 체질입니다.</p>
+<h3>생활 관리 체크리스트</h3>
+<ul>
+  <li><strong>규칙적인 식습관:</strong> 폭식이나 야식을 피하고 정해진 시간에 일정한 양을 먹어 위장에 부담을 덜어주어야 합니다.</li>
+  <li><strong>생각 비우기:</strong> 과도한 걱정과 고민은 소화기를 굳게 만듭니다. 단순한 걷기나 산책으로 머릿속을 비우는 것이 곧 위장 건강입니다.</li>
+  <li><strong>복부 보온:</strong> 배를 항상 따뜻하게 유지하여 소화기의 연동 운동을 돕는 것이 좋습니다.</li>
+</ul>
+
+<h2 id="metal-health">4. 금(金) 일간 (경금, 신금): 호흡기와 예민함의 누적</h2>
+<p>쇠나 바위의 기운인 금(金) 일간은 단단하고 결단력이 있으며 수렴하고 정리하는 성질이 있습니다. 금 기운은 <strong>폐(肺)와 대장(大腸), 그리고 피부</strong>를 주관합니다. 외부 환경 변화에 예민하게 반응하기 때문에 건조한 공기나 미세먼지에 취약하며 비염, 천식 같은 호흡기 질환이나 피부 트러블, 과민성 대장 증후군을 겪는 경우가 많습니다.</p>
+<h3>생활 관리 체크리스트</h3>
+<ul>
+  <li><strong>습도 조절:</strong> 실내 환경이 너무 건조해지지 않도록 가습기를 사용하거나 자주 환기를 시켜 호흡기를 보호하세요.</li>
+  <li><strong>심호흡 연습:</strong> 얕고 빠른 호흡 대신, 아랫배까지 공기를 깊게 들이마시는 복식 호흡으로 폐활량을 늘려주는 것이 좋습니다.</li>
+  <li><strong>완벽주의 내려놓기:</strong> 매사에 스스로를 조이는 예민함이 대장과 피부의 긴장으로 이어지므로, 둥글게 넘어가는 여유가 필요합니다.</li>
+</ul>
+
+<h2 id="water-health">5. 수(水) 일간 (임수, 계수): 신장·방광과 순환의 저하</h2>
+<p>물의 기운을 띤 수(水) 일간은 유연하고 지혜로우며 아래로 흘러 저장되는 응축의 에너지를 가집니다. 수 기운은 <strong>신장(腎)과 방광(膀胱), 그리고 생식기와 뼈</strong>를 주관합니다. 에너지가 고갈되거나 체온이 떨어지면 체액 순환이 막히면서 몸이 붓는 부종, 하체 비만, 만성 피로, 혹은 관절의 약화로 나타나기 쉽습니다.</p>
+<h3>생활 관리 체크리스트</h3>
+<ul>
+  <li><strong>하체 보온:</strong> 찬 기운에 가장 취약한 체질입니다. 겨울철뿐만 아니라 평소에도 아랫배와 하체를 항상 따뜻하게 유지해야 합니다.</li>
+  <li><strong>충분한 수분 보충:</strong> 맑고 따뜻한 물을 자주 마셔 체내 노폐물 배출과 혈액 순환이 원활하게 이루어지도록 돕습니다.</li>
+  <li><strong>가벼운 근력 운동:</strong> 하체가 부실해지기 쉬우므로 스쿼트나 계단 오르기 등으로 하체 근력을 꾸준히 관리하는 것이 필요합니다.</li>
+</ul>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/ko/saju/health-fortune-2026" style="text-decoration: underline; color: #f9d976;">[다음 단계] 2026 건강운 사주 — 병오년 오행으로 보는 건강 위험 시기</a></p>
+  <p><a href="/ko/saju/day-pillar" style="text-decoration: underline; color: #f9d976;">[비교해서 볼 글] 사주 일주 완전정복 — 나의 본질과 기질 읽는 법</a></p>
+</div>
+</section>
+    `,
+    contentEn: `
+<section>
+<p>In Saju astrology, the Five Elements (Wu Xing) do more than outline your personality and career aptitude—they map the natural flow of your physical energy. Your <strong>Day Master (Day Stem)</strong>, which is the core of your birth chart, dictates your fundamental elemental constitution. This guide is not intended for medical diagnosis or to predict illness. Rather, its purpose is to help you understand which organ systems may be more vulnerable to stress and fatigue based on whether you are a Wood, Fire, Earth, Metal, or Water Day Master, and to provide a practical <strong>wellness checklist</strong> for your daily life.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Foundational Reading</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/saju/health-saju" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Theory: Health in Saju — Five Elements and Physical Imbalances</a></li>
+  </ul>
+</div>
+
+<h2 id="wood-health">1. Wood Day Master (Jia, Yi): Liver, Gallbladder, and Stress Tension</h2>
+<p>Individuals born on a Wood Day possess a strong upward and expansive energy. In traditional Eastern medicine, the Wood element governs the <strong>liver, gallbladder, muscles, and nervous system</strong>. When Wood Day Masters experience frustration, blocked goals, or unexpressed anger, the tension often accumulates directly in the liver or manifests as severe stiffness in the neck and shoulders.</p>
+<h3>Daily Wellness Checklist</h3>
+<ul>
+  <li><strong>Prioritize Sleep:</strong> It is crucial to sleep between 11 PM and 3 AM, the restorative hours for the liver and gallbladder.</li>
+  <li><strong>Daily Stretching:</strong> Because muscles tense up easily, incorporate morning or evening stretching, yoga, or Pilates to keep the body loose.</li>
+  <li><strong>Healthy Venting:</strong> Do not suppress anger. Find an active physical or creative outlet to release emotional pressure regularly.</li>
+</ul>
+
+<h2 id="fire-health">2. Fire Day Master (Bing, Ding): Cardiovascular and Emotional Overheating</h2>
+<p>A Fire Day Master radiates passion, expressive emotion, and outward energy. The Fire element is connected to the <strong>heart, small intestine, and blood circulation</strong>. Because they tend to burn their energy intensely and rapidly, they are prone to palpitations, insomnia, anxiety, and a feeling of heat rushing to the upper body (overheating).</p>
+<h3>Daily Wellness Checklist</h3>
+<ul>
+  <li><strong>Paced Cardio:</strong> Choose steady aerobic exercises like brisk walking or jogging over extreme, high-intensity workouts that overtax the heart.</li>
+  <li><strong>Cooling Down:</strong> Practice meditation or deep breathing exercises to cool an overactive mind and calm an excited nervous system.</li>
+  <li><strong>Scheduled Rest:</strong> Avoid the trap of working in frantic bursts. Pace yourself with deliberate breaks to prevent sudden energetic burnout.</li>
+</ul>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔍 Check Your Day Master's Health Profile →</a>
+</div>
+
+<h2 id="earth-health">3. Earth Day Master (Wu, Ji): Digestive System and Overthinking</h2>
+<p>Earth Day Masters are grounded, accommodating, and designed to store and stabilize energy. The Earth element rules the <strong>spleen, stomach, and overall digestive system</strong>. Their biggest health enemy is rumination. When an Earth Day Master worries or overthinks, their digestive motility slows down, leading to indigestion, acid reflux, or gastritis. For Earth, stopping the mental loop is the key to gut health.</p>
+<h3>Daily Wellness Checklist</h3>
+<ul>
+  <li><strong>Consistent Meals:</strong> Avoid binge eating or late-night snacking. Eating moderate amounts at regular times drastically reduces the burden on the stomach.</li>
+  <li><strong>Clear the Mind:</strong> Mental stagnation equals physical indigestion. A simple, mindless walk can do wonders to reset both your thoughts and your digestion.</li>
+  <li><strong>Keep the Core Warm:</strong> Protect your abdomen from cold temperatures to support healthy gastrointestinal movement.</li>
+</ul>
+
+<h2 id="metal-health">4. Metal Day Master (Geng, Xin): Respiratory System and Accumulated Sensitivity</h2>
+<p>Metal Day Masters are resolute, precise, and have a contracting, organizing energy. The Metal element is responsible for the <strong>lungs, large intestine, and skin</strong>. They are highly sensitive to their external environment, making them susceptible to dry air, pollution, allergies, asthma, and stress-induced bowel issues (like IBS) when they feel out of control.</p>
+<h3>Daily Wellness Checklist</h3>
+<ul>
+  <li><strong>Manage Humidity:</strong> Ensure your living and working spaces are not overly dry. Use a humidifier to protect your delicate respiratory tract.</li>
+  <li><strong>Deep Breathing:</strong> Practice diaphragmatic breathing. Expanding lung capacity helps release the physical tightness that Metal naturally accumulates.</li>
+  <li><strong>Release Perfectionism:</strong> The rigid standards you set for yourself often manifest physically in the gut and skin. Practice letting things go.</li>
+</ul>
+
+<h2 id="water-health">5. Water Day Master (Ren, Gui): Kidneys, Bladder, and Sluggish Circulation</h2>
+<p>Water Day Masters possess a fluid, wise, and deeply condensing energy. The Water element governs the <strong>kidneys, bladder, reproductive organs, and bones</strong>. When a Water Day Master becomes depleted or cold, fluid circulation stagnates. This easily leads to edema (swelling), feeling constantly cold, chronic fatigue, and weakness in the lower back and joints.</p>
+<h3>Daily Wellness Checklist</h3>
+<ul>
+  <li><strong>Keep the Lower Body Warm:</strong> Water constitutions are extremely vulnerable to the cold. Always ensure your lower back, abdomen, and legs are warmly dressed.</li>
+  <li><strong>Hydrate with Warm Water:</strong> Drink plenty of warm water (avoid ice water) to flush out toxins and maintain healthy fluid circulation.</li>
+  <li><strong>Strengthen the Legs:</strong> Because energy tends to sink and stagnate, consistent lower-body exercises like squats or stair climbing are vital for maintaining vitality.</li>
+</ul>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/saju/health-fortune-2026" style="text-decoration: underline; color: #f9d976;">[Next Step] 2026 Health Fortune — Vulnerabilities in the Year of the Fire Horse</a></p>
+  <p><a href="/en/saju/day-pillar" style="text-decoration: underline; color: #f9d976;">[Related] The Day Pillar — Understanding Your Core Identity</a></p>
+</div>
+</section>
+    `,
+    toc: [
+      { id: 'wood-health', title: '1. 목(木) 일간 건강: 간담과 스트레스' },
+      { id: 'fire-health', title: '2. 화(火) 일간 건강: 심혈관과 감정 과열' },
+      { id: 'earth-health', title: '3. 토(土) 일간 건강: 소화기와 생각 정체' },
+      { id: 'metal-health', title: '4. 금(金) 일간 건강: 호흡기와 예민함' },
+      { id: 'water-health', title: '5. 수(水) 일간 건강: 신장과 순환 저하' },
+    ],
+    tocEn: [
+      { id: 'wood-health', title: '1. Wood Master: Liver & Stress' },
+      { id: 'fire-health', title: '2. Fire Master: Heart & Circulation' },
+      { id: 'earth-health', title: '3. Earth Master: Digestion & Worry' },
+      { id: 'metal-health', title: '4. Metal Master: Lungs & Sensitivity' },
+      { id: 'water-health', title: '5. Water Master: Kidneys & Edema' },
+    ],
+    faq: [
+      { q: '해당 오행의 질환이 무조건 발생하나요?', a: '아닙니다. 사주 명리학의 건강 이론은 질병 예측이 아니라 피로가 쌓이기 쉬운 취약 부위를 알려주는 것입니다. 평소 생활 습관을 잘 관리하면 충분히 예방할 수 있습니다.' },
+      { q: '일간과 사주에 많은 오행이 다를 때는 무엇을 기준으로 보나요?', a: '자신의 본질적인 체질은 일간을 기준으로 봅니다. 하지만 특정 오행이 사주 원국에 3개 이상 과다하다면 그 오행에 해당하는 장기 역시 무리가 가기 쉬우므로 함께 관리하는 것이 좋습니다.' },
+    ],
+    faqEn: [
+      { q: 'Does my Day Master guarantee I will get these diseases?', a: 'Not at all. Saju highlights your energetic vulnerabilities, not a medical destiny. Understanding these weaknesses allows you to proactively adjust your lifestyle and prevent illness.' },
+      { q: 'What if I have an overabundance of a different element in my chart?', a: 'While your Day Master is your core constitution, if another element appears three or more times in your chart, its corresponding organs will also be under heavy stress and require equal care.' },
+    ],
+    relatedPosts: [
+      { slug: 'health-saju', title: '사주 건강 분석: 오행으로 보는 체질과 건강 위험 시기', category: 'saju' },
+      { slug: 'health-fortune-2026', title: '2026 건강운 사주: 병오년 건강 위험 시기 분석', category: 'saju' },
+    ],
+  },
+  {
     slug: 'intro',
     title: 'What is Saju-Palja? The Comprehensive Guide to Korean Astrology',
     seoTitle: '사주팔자란 무엇인가? 음양오행 원리와 인생 운명론 완벽 가이드',
