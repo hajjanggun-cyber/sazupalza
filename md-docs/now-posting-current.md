@@ -60,7 +60,7 @@ Updated At: 2026-05-02 KST
 
 ## 현재 작성 대상
 
-[완료] 37. 일간별 건강 관리 체크리스트 — 오행으로 보는 생활 관리 포인트
+[완료] 37. 일간별 약한 장기 체크리스트 — 오행별 건강 약점과 생활 관리
 - slug: `ilgan-health-weakness`
 - 카테고리: `saju`
 - 작성 파일: `lib/blog/saju-posts.ts`
