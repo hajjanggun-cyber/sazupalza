@@ -382,7 +382,7 @@
 
 ### [이름풀이] 신규 시리즈
 
-[ ] 39. 이름 한자 뜻 풀이 — 내 이름이 운명에 미치는 영향
+[완료] 39. 이름 한자 뜻 풀이 — 내 이름이 운명에 미치는 영향
 - slug: `name-hanja-meaning`
 - 카테고리: `seongmyeong`
 - 메인 키워드 KO: 이름 한자 뜻, 이름 한자 풀이
@@ -391,7 +391,7 @@
 - 하위 키워드 EN: hanja name luck, korean name meaning fortune, chinese character name analysis
 - 작성 지침: 자주 쓰이는 이름 한자 25~30개 뜻·운세적 의미 분석. 피해야 할 한자 목록 포함.
 
-[ ] 40. 2026 태명 추천 — 오행과 부르기 쉬운 소리 조합
+[완료] 40. 2026 태명 추천 — 오행과 부르기 쉬운 소리 조합
 - slug: `fetal-name-guide`
 - 카테고리: `seongmyeong`
 - 메인 키워드 KO: 태명 짓는법, 태명 추천

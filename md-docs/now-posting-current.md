@@ -94,8 +94,6 @@ Updated At: 2026-05-02 KST
 
 | 번호 | category | slug | 제목 |
 |---:|---|---|---|
-| 39 | seongmyeong | `name-hanja-meaning` | 이름 한자 뜻 풀이 — 뜻 좋은 한자와 이름 해석 기준 |
-| 40 | seongmyeong | `fetal-name-guide` | 태명 추천 2026 — 오행별 예쁜 태명과 부르기 쉬운 소리 |
 | 41 | seongmyeong | `girl-name-creation` | 여자아이 이름 한자 추천 — 부드러운 뜻과 오행 균형 |
 | 42 | seongmyeong | `boy-name-creation` | 남자아이 이름 한자 추천 — 힘 있는 뜻과 발음오행 조합 |
 | 43 | seongmyeong | `bad-hanja-names` | 이름 금기 한자 — 피해야 할 뜻과 작명 예외 기준 |

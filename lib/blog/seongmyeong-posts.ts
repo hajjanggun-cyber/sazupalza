@@ -1467,4 +1467,458 @@ export const seongmyeongPosts: BlogPost[] = distributePublishedDates([
       { slug: 'career-star', category: 'saju', title: '사주 직업운: 성공하는 커리어 방향 찾기' },
     ],
   },
+  {
+    slug: 'name-hanja-meaning',
+    title: '이름 한자 뜻 풀이: 좋은 한자와 피해야 할 한자 해석 기준',
+    seoTitle: '이름 한자 뜻 풀이: 좋은 한자와 피해야 할 한자 해석 기준',
+    seoTitleEn: 'Korean Name Hanja Meaning: How to Read Chinese Characters in Names',
+    description: '이름 한자 뜻을 볼 때는 예쁜 의미만 고르면 부족합니다. 자원오행, 부수, 획수, 실제 사용감을 함께 보고 좋은 한자와 피해야 할 한자를 구분하는 기준을 정리했습니다.',
+    descriptionEn: 'Learn how Korean name Hanja meanings are interpreted through character meaning, radicals, elemental energy, stroke count, and practical naming judgment.',
+    keywords: ['이름한자뜻', '이름한자풀이', '좋은이름한자', '피해야할이름한자', '한자이름해석'],
+    keywordsEn: ['Korean Name Hanja Meaning', 'Chinese Character Name Meaning Korean', 'Hanja Name Luck', 'Korean Name Meaning Fortune', 'Hanja Name Analysis'],
+    publishedAt: '2026-03-02',
+    category: 'seongmyeong',
+    toc: [
+      { id: 'meaning-standard', title: '1. 이름 한자 뜻 풀이의 기준' },
+      { id: 'good-hanja', title: '2. 좋은 이름 한자 예시' },
+      { id: 'caution-hanja', title: '3. 피해야 할 이름 한자' },
+      { id: 'practical-reading', title: '4. 이름 한자 해석 순서' },
+      { id: 'conclusion', title: '5. 결론: 뜻은 이름의 방향이다' },
+    ],
+    tocEn: [
+      { id: 'meaning-standard', title: '1. How Hanja Meaning Is Judged' },
+      { id: 'good-hanja', title: '2. Good Hanja for Korean Names' },
+      { id: 'caution-hanja', title: '3. Hanja to Use Carefully' },
+      { id: 'practical-reading', title: '4. Practical Reading Order' },
+      { id: 'conclusion', title: '5. Conclusion' },
+    ],
+    contentKo: `
+<section>
+<p>이름 한자 뜻을 검색하는 사람은 보통 두 가지가 궁금합니다. 첫째, 내 이름에 들어간 한자가 좋은 뜻인지 알고 싶습니다. 둘째, 아이 이름이나 개명 이름을 고를 때 어떤 한자를 넣어야 평생 부르기 좋고 해석도 안정적인지 확인하고 싶습니다. 그런데 성명학에서 이름 한자 뜻 풀이는 단순히 "밝을 현", "지혜 지", "클 태"처럼 사전 뜻을 예쁘게 나열하는 작업이 아닙니다. 한자의 의미, 부수, 자원오행, 획수, 이름 전체의 소리까지 함께 보아야 실제 이름 해석이 됩니다.</p>
+
+<p>좋은 한자도 사주와 성씨에 맞지 않으면 부담이 될 수 있고, 강한 뜻의 한자도 사람의 그릇과 방향에 맞으면 큰 추진력이 됩니다. 반대로 겉뜻은 좋아 보여도 외로움, 손실, 과한 경쟁, 병약함을 암시하는 글자는 이름 한자로 신중하게 보아야 합니다. 이 글은 이름 한자 뜻을 볼 때 필요한 기준과, 실제 작명에서 자주 쓰이는 좋은 한자 예시, 피해야 할 이름 한자 유형을 한 번에 정리한 글입니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">함께 보면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/ko/name-reading/stroke-count" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">이름 획수 완전 해설: 한자 획수로 수리 구조 읽기</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/name-reading/name-five-elements" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">이름 오행 분석: 소리오행과 한자 기운의 조화</a></li>
+  </ul>
+</div>
+
+<h2 id="meaning-standard">1. 이름 한자 뜻 풀이는 사전 뜻보다 구조가 먼저다</h2>
+<p>이름 한자 뜻을 제대로 보려면 한 글자를 네 겹으로 나누어 읽어야 합니다. 첫째는 <strong>훈음</strong>입니다. 예를 들어 賢은 "어질 현", 智는 "지혜 지", 俊은 "준걸 준"처럼 가장 겉으로 드러나는 의미입니다. 둘째는 <strong>자원오행</strong>입니다. 한자의 부수와 형상이 목·화·토·금·수 중 어떤 기운을 품고 있는지 보는 기준입니다. 셋째는 <strong>획수</strong>입니다. 같은 뜻의 한자라도 획수 조합이 이름의 원격·형격·이격·정격을 바꾸므로 수리 길흉이 달라집니다. 넷째는 <strong>이름 전체 문맥</strong>입니다. 성씨와 두 이름자가 함께 놓였을 때 뜻이 자연스러운지, 너무 과장되거나 불편한 이미지를 만들지 않는지 확인해야 합니다.</p>
+
+<p>예를 들어 "빛날 빈(彬)"은 문채와 품격을 뜻해 이름 한자로 많이 쓰입니다. 그러나 성씨 획수와 합쳤을 때 핵심 수리가 흉수로 떨어지거나, 사주에 이미 화(火)가 지나치게 강한 사람에게 밝고 드러나는 한자만 반복되면 이름의 좋은 뜻이 과열로 바뀔 수 있습니다. 반대로 물 수(水) 계열 한자는 차분함과 지혜를 주지만, 사주가 지나치게 차고 습한 사람에게는 결단력 부족이나 우유부단함을 키울 수 있습니다. 이름 한자 뜻 풀이는 "좋다/나쁘다"보다 "이 사람에게 맞는가"가 핵심입니다.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">내 이름 한자 기운 확인하기</a>
+</div>
+
+<h2 id="good-hanja">2. 좋은 이름 한자 예시와 해석 포인트</h2>
+<p>아래 한자들은 실제 작명에서 자주 쓰이고, 뜻의 방향이 비교적 안정적인 글자들입니다. 다만 좋은 이름 한자라고 해서 누구에게나 무조건 맞는 것은 아닙니다. 반드시 성씨 획수, 사주 오행, 발음오행과 함께 보아야 합니다.</p>
+
+<h3>품격과 인성을 세우는 한자</h3>
+<ul>
+  <li><strong>賢(어질 현):</strong> 지혜와 덕을 함께 뜻합니다. 공부, 판단력, 신뢰의 이미지를 주며 남녀 이름에 모두 무난합니다.</li>
+  <li><strong>智(지혜 지):</strong> 사고력과 통찰을 상징합니다. 학문, 연구, 기획, 분석 능력을 살리고 싶은 이름에 어울립니다.</li>
+  <li><strong>仁(어질 인):</strong> 사람을 품는 마음과 배려를 뜻합니다. 인간관계와 평판을 중시하는 이름에 좋습니다.</li>
+  <li><strong>禮(예도 례):</strong> 질서, 예의, 품격을 뜻합니다. 다만 획수가 무거운 편이라 전체 수리 조합을 확인해야 합니다.</li>
+  <li><strong>信(믿을 신):</strong> 신뢰와 약속을 뜻합니다. 직업적으로 책임감과 평판이 중요한 사람에게 잘 맞습니다.</li>
+</ul>
+
+<h3>성장과 성취를 돕는 한자</h3>
+<ul>
+  <li><strong>俊(준걸 준):</strong> 뛰어난 재능과 빠른 이해력을 뜻합니다. 영리하고 민첩한 이미지를 줍니다.</li>
+  <li><strong>成(이룰 성):</strong> 완성, 성취, 결과를 뜻합니다. 목표 지향적인 이름에 좋지만 성씨와 붙었을 때 뜻이 딱딱해지지 않는지 봅니다.</li>
+  <li><strong>建(세울 건):</strong> 기초를 세우고 일을 일으키는 힘입니다. 창업, 리더십, 개척 이미지가 강합니다.</li>
+  <li><strong>昇(오를 승):</strong> 상승과 발전을 뜻합니다. 위로 뻗는 기운이 있어 사회적 성장을 바라는 이름에 자주 쓰입니다.</li>
+  <li><strong>泰(클 태):</strong> 넓고 안정된 큰 그릇을 뜻합니다. 다만 과하게 큰 뜻이 부담스럽지 않도록 다른 글자와 균형을 맞춥니다.</li>
+</ul>
+
+<h3>밝음과 귀함을 담는 한자</h3>
+<ul>
+  <li><strong>瑞(상서로울 서):</strong> 좋은 징조와 귀함을 뜻합니다. 축복받은 이미지가 강해 작명에서 선호됩니다.</li>
+  <li><strong>潤(윤택할 윤):</strong> 부드럽게 적시고 풍요롭게 하는 기운입니다. 재물, 인복, 생활 안정의 뜻을 담기 좋습니다.</li>
+  <li><strong>彬(빛날 빈):</strong> 문채와 조화를 뜻합니다. 세련됨, 예술성, 품격을 함께 줍니다.</li>
+  <li><strong>雅(맑을 아):</strong> 단정하고 고상한 이미지를 만듭니다. 이름이 너무 강할 때 부드럽게 잡아주는 역할을 합니다.</li>
+  <li><strong>祐(도울 우):</strong> 하늘의 도움, 보호, 귀인을 뜻합니다. 다만 종교적 이미지가 강하게 느껴질 수 있어 전체 이름감이 중요합니다.</li>
+</ul>
+
+<h2 id="caution-hanja">3. 피해야 할 이름 한자는 뜻보다 그림자가 문제다</h2>
+<p>피해야 할 이름 한자를 판단할 때도 단순히 "흉한 글자 목록"처럼 외우면 안 됩니다. 성명학에서는 한자의 표면 뜻뿐 아니라 오래 축적된 상징, 부수의 이미지, 실제 이름으로 불릴 때의 느낌을 함께 봅니다. 아래 유형은 특히 신중하게 검토해야 합니다.</p>
+
+<h3>상실과 고독을 강하게 암시하는 글자</h3>
+<p>뜻 안에 끊어짐, 외로움, 흩어짐, 죽음, 병약함의 이미지가 강한 글자는 이름 한자로 피하는 편이 좋습니다. 예를 들어 孤(외로울 고), 寂(고요할 적), 哀(슬플 애), 亡(망할 망), 病(병 병)처럼 의미가 직접적으로 무겁거나 불길한 글자는 좋은 수리와 결합해도 이름의 첫인상을 해칩니다. 이름은 평생 반복해서 불리는 말이기 때문에, 불릴 때마다 어두운 상징이 떠오르는 글자는 실전 작명에서 거의 쓰지 않습니다.</p>
+
+<h3>과한 권력과 충돌을 부르는 글자</h3>
+<p>王(임금 왕), 帝(임금 제), 龍(용 룡), 虎(범 호), 將(장수 장)처럼 힘이 강한 한자는 겉으로는 멋있어 보입니다. 그러나 사주가 그 기운을 감당하지 못하면 대인관계에서 강한 경쟁, 고집, 구설을 만들 수 있습니다. 특히 아이 이름에 지나치게 권위적인 한자를 넣으면 이름의 기운이 아이의 실제 성향보다 앞서가 부담이 됩니다. 이런 글자는 절대 금지가 아니라, 사주가 강하고 리더십을 실제로 써야 하는 구조인지 확인한 뒤 제한적으로 써야 합니다.</p>
+
+<h3>너무 차갑거나 너무 뜨거운 오행의 글자</h3>
+<p>氵, 雨, 海, 洙, 洗처럼 물의 이미지가 강한 한자는 수(水) 기운을 보충할 때 좋지만, 수가 이미 많은 사주에는 감정 기복과 지연을 키울 수 있습니다. 日, 炅, 炫, 煥처럼 빛과 불의 이미지가 강한 한자는 화(火)를 살릴 때 좋지만, 화가 과한 사주에는 성급함과 소모를 키울 수 있습니다. 이름 한자 뜻 풀이에서 오행은 "좋은 기운을 많이 넣는 것"이 아니라 "부족한 곳은 보태고 넘치는 곳은 덜어내는 것"입니다.</p>
+
+<h3>읽기 어렵고 설명이 불편한 벽자</h3>
+<p>뜻이 아무리 좋아도 일상에서 읽기 어렵고 입력하기 힘든 한자는 이름으로 불편합니다. 학교, 병원, 금융기관, 해외 서류에서 계속 설명해야 하는 한자는 이름 주인에게 작은 피로를 반복해서 줍니다. 성명학적으로도 이름은 자주 불리고 쉽게 기억될수록 힘이 살아납니다. 벽자는 특별한 가문 뜻이나 분명한 작명 이유가 있을 때만 조심스럽게 선택하는 것이 좋습니다.</p>
+
+<h2 id="practical-reading">4. 내 이름 한자 뜻을 해석하는 실전 순서</h2>
+<p>이름 한자 뜻을 직접 확인할 때는 다음 순서로 보십시오. 첫째, 각 한자의 훈음과 기본 뜻을 확인합니다. 둘째, 두 이름자를 이어 읽었을 때 하나의 자연스러운 문장이 되는지 봅니다. 예를 들어 "지혜롭게 빛난다", "어진 마음으로 크게 이룬다"처럼 방향이 분명하면 좋습니다. 반대로 좋은 글자 두 개를 붙였는데 의미가 서로 따로 놀거나 너무 과장되면 이름의 메시지가 흐려집니다.</p>
+
+<p>셋째, 한자의 부수와 자원오행을 봅니다. 물, 불, 나무, 흙, 쇠의 이미지가 사주에 필요한 기운과 맞는지 확인합니다. 넷째, 획수를 계산해 원격·형격·이격·정격이 지나치게 흉수로 몰리지 않는지 봅니다. 다섯째, 한글 발음의 소리오행이 성씨에서 이름 끝까지 자연스럽게 흐르는지 확인합니다. 한자 뜻이 아무리 좋아도 발음이 거칠거나 수리가 무너지면 이름 전체의 완성도가 낮아집니다.</p>
+
+<p>마지막으로 실제 사용감을 봅니다. 이름을 소리 내어 세 번 불러 보았을 때 부드러운지, 나이가 들어도 어색하지 않은지, 서류에 적었을 때 너무 복잡하지 않은지 확인해야 합니다. 이름은 철학적 상징이면서 동시에 매일 쓰는 생활 도구입니다. 성명학적으로 좋은 이름은 뜻이 고상할 뿐 아니라, 현실에서 부르기 쉽고 설명하기 편해야 합니다.</p>
+
+<h2 id="conclusion">5. 결론: 이름 한자 뜻은 인생의 방향을 정하는 문장이다</h2>
+<p>이름 한자 뜻 풀이는 "이 한자가 좋은 한자인가"에서 끝나지 않습니다. 그 한자가 어떤 방향을 가리키는지, 내 사주와 성씨를 보완하는지, 평생 불릴 이름으로 자연스러운지까지 함께 보아야 합니다. 좋은 이름 한자는 화려한 글자가 아니라, 이름 주인의 삶에 필요한 기운을 조용히 보태는 글자입니다.</p>
+
+<p>아이 이름을 짓거나 개명을 고민한다면 먼저 원하는 이미지를 정하고, 그다음 사주에 필요한 오행, 성씨 획수, 발음 흐름을 순서대로 맞추십시오. 뜻 좋은 한자 하나가 이름을 완성하지는 않지만, 제대로 선택된 한자는 이름의 방향을 분명하게 세워 줍니다. 이름은 매일 불리는 작은 문장이고, 그 문장이 평생의 자기 인식을 조금씩 만들어 갑니다.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/ko/name-reading/name-creation" style="text-decoration: underline; color: #f9d976;">[관련] 작명의 기술: 사주에 부족한 기운을 이름으로 채우는 법</a></p>
+  <p><a href="/ko/name-reading/numerology-81" style="text-decoration: underline; color: #f9d976;">[관련] 성명학 수리 81수: 이름 획수 조합으로 보는 길흉</a></p>
+</div>
+</section>
+    `,
+    contentEn: `
+<section>
+<p>When people search for <strong>Korean name Hanja meaning</strong>, they are usually asking a practical question: "Is the Chinese character in my Korean name good, and what kind of fortune does it imply?" In Korean naming culture, a Hanja character is not judged only by its dictionary meaning. A character such as 賢 (wise), 智 (intelligence), or 瑞 (auspicious) may look beautiful on paper, but professional Seongmyeonghak reads a name through several layers: literal meaning, radical image, elemental resource energy, stroke count, pronunciation flow, and the person's Saju birth chart.</p>
+
+<p>This is why two people can use the same Hanja and receive different interpretations. A bright Fire-related character may help a cold, Water-heavy chart, but it may overstimulate someone whose chart already has excessive Fire. A Water radical can soften a dry chart, yet it can weaken a person who already struggles with hesitation. Korean name Hanja analysis is not about collecting pretty characters. It is about choosing the character that gives the right direction to the right person.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/name-reading/stroke-count" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Korean Name Stroke Count: How Numerology Reads a Name</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/name-reading/name-five-elements" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Name Five Elements: Sound Harmony in Korean Naming</a></li>
+  </ul>
+</div>
+
+<h2 id="meaning-standard">1. How Hanja Meaning Is Judged in Korean Names</h2>
+<p>A proper Hanja name reading uses four lenses. The first lens is the literal meaning: 賢 means wisdom and virtue, 智 means intelligence, and 俊 means outstanding talent. The second lens is <strong>Jawon Ohaeng</strong>, the elemental resource of the character. Radicals connected to water, fire, wood, earth, and metal are interpreted as energetic supplements. The third lens is the stroke count, because each character changes the numerological structure of the name. The fourth lens is context: the surname and given name must form a coherent message rather than a pile of impressive words.</p>
+
+<p>For example, 彬 is a refined character suggesting grace, culture, and balanced beauty. It is often excellent in a name. However, if the surname and the other given-name character create difficult numerological totals, the good meaning alone cannot save the whole name. Likewise, a character with a Water radical can suggest intelligence and flexibility, but it may not be appropriate when the person's Saju is already too cold or fluid. In Korean name interpretation, the real question is not "Is this Hanja lucky?" but "Is this Hanja correct for this person's structure?"</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">Check the Energy Behind Your Korean Name</a>
+</div>
+
+<h2 id="good-hanja">2. Good Hanja for Korean Names</h2>
+<p>The following characters are commonly used in Korean names because their meanings are stable, dignified, and easy to explain. They are not universally perfect, but they are useful examples of how good Hanja meaning works in real naming practice.</p>
+
+<h3>Characters for character, trust, and wisdom</h3>
+<ul>
+  <li><strong>賢 (hyeon):</strong> Virtue and wisdom. It gives an image of reliable judgment and balanced intelligence.</li>
+  <li><strong>智 (ji):</strong> Knowledge and insight. It is suitable for names emphasizing learning, strategy, and analysis.</li>
+  <li><strong>仁 (in):</strong> Benevolence and humanity. It supports warm relationships and social trust.</li>
+  <li><strong>禮 (rye/ye):</strong> Propriety and refinement. Because it is visually and numerologically heavy, stroke balance must be checked.</li>
+  <li><strong>信 (sin):</strong> Trust and integrity. It is useful for names that should project responsibility and credibility.</li>
+</ul>
+
+<h3>Characters for growth and achievement</h3>
+<ul>
+  <li><strong>俊 (jun):</strong> Outstanding talent and sharp ability. It creates a quick, capable image.</li>
+  <li><strong>成 (seong):</strong> Completion and accomplishment. It works well when the name needs a goal-oriented tone.</li>
+  <li><strong>建 (geon):</strong> Building and establishing. It carries a strong leadership and foundation-building image.</li>
+  <li><strong>昇 (seung):</strong> Rising and advancement. It is often used when upward social growth is desired.</li>
+  <li><strong>泰 (tae):</strong> Greatness, stability, and broad capacity. It should be balanced so the name does not feel overly grand.</li>
+</ul>
+
+<h3>Characters for grace, blessing, and abundance</h3>
+<ul>
+  <li><strong>瑞 (seo):</strong> Auspicious sign and blessing. It is favored for its fortunate and elegant feeling.</li>
+  <li><strong>潤 (yun):</strong> Moisture, richness, and smoothness. It suggests abundance and social ease.</li>
+  <li><strong>彬 (bin):</strong> Refined harmony and cultured beauty. It is useful for names that need artistic grace.</li>
+  <li><strong>雅 (a):</strong> Elegance and clarity. It softens overly strong names and gives a clean impression.</li>
+  <li><strong>祐 (u/woo):</strong> Protection and assistance. It implies help from heaven or benefactors, though the spiritual tone should fit the full name.</li>
+</ul>
+
+<h2 id="caution-hanja">3. Hanja to Use Carefully in Names</h2>
+<p>Some Hanja are avoided not because one written character can ruin a life, but because names are repeated constantly. A name should not force the owner to carry an image of loss, loneliness, illness, or excessive conflict. In professional Korean naming, the shadow of a character matters as much as its attractive surface.</p>
+
+<h3>Characters implying loss, loneliness, or illness</h3>
+<p>Characters such as 孤 (lonely), 寂 (silent/lonely), 哀 (sorrow), 亡 (loss/death), and 病 (illness) are rarely appropriate for personal names. Even if the stroke count looks acceptable, the immediate image is too heavy. A name is spoken by family, teachers, colleagues, and partners for decades. If the symbol behind it is dark, the name carries unnecessary psychological and cultural weight.</p>
+
+<h3>Characters with excessive power</h3>
+<p>Characters such as 王 (king), 帝 (emperor), 龍 (dragon), 虎 (tiger), and 將 (general) look impressive, but they are not automatically good. Their energy can become too forceful when the person's Saju cannot support it. In a child's name, overly authoritative characters may create pressure, stubbornness, or unnecessary social friction. These characters are not always forbidden, but they require a strong chart and a clear reason.</p>
+
+<h3>Characters that overheat or overcool the chart</h3>
+<p>Characters with strong Water imagery, such as 氵 radicals, 雨, 海, or 洙, may help a dry chart but can increase hesitation in a cold or Water-heavy chart. Fire and light characters such as 日, 炅, 炫, or 煥 can help a cold chart, but they may intensify impatience in an already hot chart. Hanja meaning must be read as medicine: the right element helps, but too much of the same element can become a burden.</p>
+
+<h3>Rare characters that are hard to read or type</h3>
+<p>Some rare Hanja have beautiful meanings, but they create daily inconvenience. If teachers, banks, hospitals, and foreign documents constantly misread the name, the owner must repeatedly explain it. A powerful name should be easy to recognize, easy to call, and easy to remember. Rare characters should be used only when there is a strong family reason or a very clear naming purpose.</p>
+
+<h2 id="practical-reading">4. Practical Order for Reading a Hanja Name</h2>
+<p>To analyze your own Korean Hanja name, begin with the literal meaning of each character. Then read the two given-name characters together as one phrase. Does the name say something coherent, such as "wise and bright," "virtuous and accomplished," or "graceful and abundant"? If the two characters are both positive but do not speak to each other, the name may feel decorative rather than directional.</p>
+
+<p>Next, check the radical and elemental resource of each Hanja. Ask whether the character adds Wood, Fire, Earth, Metal, or Water energy, and whether that energy is actually needed by the Saju. Then calculate the stroke counts for the name's numerological pillars. Finally, pronounce the full surname and given name aloud. A name with beautiful Hanja can still feel awkward if the sound flow is rough or if the syllables clash.</p>
+
+<p>The final test is practical use. Say the name three times. Write it as it would appear on a school form, a passport, a business card, and a legal document. A good Korean Hanja name should carry symbolic depth while remaining usable in ordinary life. The best names are not only beautiful in a dictionary; they are easy to live with.</p>
+
+<h2 id="conclusion">5. Conclusion: Hanja Meaning Gives a Name Its Direction</h2>
+<p>Korean name Hanja meaning is the sentence hidden inside a name. It tells the owner what kind of energy the name is trying to cultivate: wisdom, trust, growth, grace, abundance, leadership, or protection. But meaning is only one part of the full reading. The same Hanja must also fit the person's Saju, the surname's stroke count, the pronunciation flow, and the practical reality of daily use.</p>
+
+<p>If you are choosing Hanja for a child or considering a name change, begin by defining the life direction you want the name to support. Then match that direction with the needed element, stable numerology, and natural sound. A single beautiful character does not make a perfect name, but the right character can give the entire name a clear and lasting purpose.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/name-reading/name-creation" style="text-decoration: underline; color: #f9d976;">[Related] The Art of Naming: Filling Saju Voids with the Right Name</a></p>
+  <p><a href="/en/name-reading/numerology-81" style="text-decoration: underline; color: #f9d976;">[Related] Numerology 81: Stroke Counts and Name Fortune</a></p>
+</div>
+</section>
+    `,
+    faq: [
+      { q: '이름 한자 뜻만 좋으면 좋은 이름인가요?', a: '아닙니다. 이름 한자 뜻은 중요한 기준이지만 성씨 획수, 수리81수, 소리오행, 사주에 필요한 오행과 함께 맞아야 좋은 이름으로 봅니다.' },
+      { q: '좋은 이름 한자는 누구에게나 똑같이 좋은가요?', a: '같은 한자라도 사람의 사주와 성씨에 따라 작용이 달라집니다. 예를 들어 물 기운 한자는 수가 부족한 사람에게는 도움이 되지만, 수가 과한 사람에게는 부담이 될 수 있습니다.' },
+      { q: '피해야 할 이름 한자는 절대 쓰면 안 되나요?', a: '상실, 병약, 고독처럼 의미가 직접적으로 무거운 글자는 대체로 피하는 것이 좋습니다. 다만 강한 권위나 동물 상징의 한자는 사주가 감당할 수 있는지 확인한 뒤 제한적으로 판단합니다.' },
+    ],
+    faqEn: [
+      { q: 'Is a Korean name good if the Hanja meaning is beautiful?', a: 'Not by itself. Hanja meaning must also match the surname stroke count, name numerology, sound elements, and the elemental needs of the Saju chart.' },
+      { q: 'Are good Hanja characters good for everyone?', a: 'No. The same character can help one person and burden another. A Water-related Hanja may help a dry chart but weaken a chart that already has too much Water.' },
+      { q: 'Should avoided Hanja never be used in names?', a: 'Characters directly implying loss, illness, or loneliness are usually avoided. Strong authority symbols require case-by-case judgment based on the person\'s chart and the full name structure.' },
+    ],
+    relatedPosts: [
+      { slug: 'name-creation', category: 'seongmyeong', title: '작명의 기술: 사주에 부족한 기운을 이름으로 채우기' },
+      { slug: 'stroke-count', category: 'seongmyeong', title: '이름 획수 완전 해설: 내 이름의 수리 파악하기' },
+    ],
+  },
+  {
+    slug: 'fetal-name-guide',
+    title: '2026 태명 추천: 오행별 예쁜 태명과 부르기 쉬운 소리 조합',
+    seoTitle: '2026 태명 추천: 오행별 예쁜 태명과 부르기 쉬운 소리 조합',
+    seoTitleEn: 'Korean Fetal Name Guide 2026: Cute Prenatal Baby Nicknames',
+    description: '태명 짓는법은 한자 작명과 다릅니다. 2026 병오년의 밝은 기운, 부모가 매일 부르기 쉬운 소리, 오행 이미지별 태명 추천 20개를 정리했습니다.',
+    descriptionEn: 'Learn how Korean fetal names are chosen before birth, with 2026-friendly sound rules, emotional meaning, five-element themes, and 20 cute prenatal nickname ideas.',
+    keywords: ['태명짓는법', '태명추천', '2026태명추천', '예쁜태명', '태명오행'],
+    keywordsEn: ['Korean Fetal Name', 'Baby Nickname Before Birth Korea', 'Korean Prenatal Name Meaning', 'Fetal Name Ohaeng', 'Cute Korean Baby Nickname'],
+    publishedAt: '2026-03-02',
+    category: 'seongmyeong',
+    toc: [
+      { id: 'fetal-name-basics', title: '1. 태명 짓는법의 기준' },
+      { id: 'sound-rules', title: '2. 부르기 쉬운 태명 소리' },
+      { id: 'element-examples', title: '3. 오행별 태명 추천 20개' },
+      { id: 'year-2026', title: '4. 2026 병오년 태명 이미지' },
+      { id: 'checklist', title: '5. 태명 결정 전 체크리스트' },
+    ],
+    tocEn: [
+      { id: 'fetal-name-basics', title: '1. What a Korean Fetal Name Is' },
+      { id: 'sound-rules', title: '2. Sound Rules for Prenatal Nicknames' },
+      { id: 'element-examples', title: '3. 20 Five-Element Name Ideas' },
+      { id: 'year-2026', title: '4. 2026 Fire Horse Year Themes' },
+      { id: 'checklist', title: '5. Final Checklist' },
+    ],
+    contentKo: `
+<section>
+<p><strong>태명 짓는법</strong>은 출생신고에 올릴 이름을 정하는 작명과 기준이 다릅니다. 정식 이름은 성씨, 한자, 수리81수, 사주 오행까지 정밀하게 맞추지만, 태명은 임신 기간 동안 부모가 아이를 부르고 마음을 나누는 애칭에 가깝습니다. 그래서 태명 추천에서 가장 중요한 기준은 어렵고 거창한 뜻이 아니라, 매일 불렀을 때 따뜻하고 편안한 소리입니다.</p>
+
+<p>좋은 태명은 부모의 불안한 마음을 부드럽게 붙잡아 주고, 아이에게 전하고 싶은 첫 감정을 짧은 소리 안에 담습니다. "튼튼아", "복동이", "별이"처럼 단순한 이름도 충분히 좋은 태명이 될 수 있습니다. 다만 2026년에 태어날 아이를 기다린다면 병오년의 밝고 활동적인 화(火) 이미지, 부모가 원하는 오행 균형, 계절감까지 함께 고려하면 더 의미 있는 태명을 고를 수 있습니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">함께 보면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/ko/name-reading/baby-naming" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">자녀 작명 완벽 가이드: 출생 후 이름 짓는 기준</a></li>
+    <li style="margin-bottom: 4px;"><a href="/ko/name-reading/name-five-elements" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">이름 오행 분석: 소리와 오행의 기본 원리</a></li>
+  </ul>
+</div>
+
+<h2 id="fetal-name-basics">1. 태명 짓는법은 한자 작명보다 마음의 방향이 먼저다</h2>
+<p>태명은 정식 이름처럼 법적 효력을 갖는 이름이 아닙니다. 가족 안에서 아이를 기다리는 기간 동안 쓰는 임시 이름이자, 부모가 아이에게 처음 건네는 호칭입니다. 그래서 태명 의미는 "큰 사람이 되어라"처럼 결과를 강하게 요구하기보다, "건강하게 와라", "편안히 자라라", "밝게 만나자"처럼 지금의 마음을 담는 쪽이 좋습니다.</p>
+
+<p>성명학적으로도 태명은 획수보다 소리의 정서가 더 중요합니다. 임신 중에는 부모가 하루에도 여러 번 태명을 부릅니다. 그때 발음이 딱딱하거나 설명이 길면 자연스럽게 덜 부르게 됩니다. 반대로 두 음절 또는 세 음절로 짧고, 받침이 너무 거칠지 않고, 웃으면서 부르기 쉬운 태명은 부모와 아이 사이의 정서적 연결을 자주 만들어 줍니다.</p>
+
+<p>태명을 지을 때 피하면 좋은 방향도 있습니다. 아이의 운명을 미리 단정하는 말, 부모의 기대를 과하게 얹은 말, 놀림이 될 수 있는 소리, 가족마다 다르게 불러 혼란스러운 이름은 피하는 편이 낫습니다. 태명은 이름표가 아니라 대화의 시작점입니다. 가볍지만 함부로 정하지 않고, 편하지만 의미가 흐려지지 않게 잡는 것이 핵심입니다.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/ko/name-reading/baby-naming" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">출생 후 이름 기준도 함께 보기</a>
+</div>
+
+<h2 id="sound-rules">2. 예쁜 태명은 부르기 쉬운 소리에서 시작한다</h2>
+<p>예쁜 태명은 글자로 볼 때보다 입으로 불렀을 때 더 자연스러워야 합니다. 가장 안정적인 형태는 두 음절입니다. "라온", "도담", "하루", "별이"처럼 짧은 태명은 부모가 자주 부르기 쉽고, 가족들도 금방 기억합니다. 세 음절 태명은 "튼튼이", "반짝이", "복덩이"처럼 리듬이 분명할 때 좋습니다. 네 음절 이상은 귀엽게 느껴질 수 있지만 실제 대화에서는 줄여 부르게 되는 경우가 많습니다.</p>
+
+<p>받침은 부드러운 쪽이 좋습니다. ㄴ, ㅇ, ㄹ 받침은 안정감과 여운을 주고, ㅁ 받침은 포근한 느낌을 줍니다. 반면 ㅂ, ㄱ, ㄷ 받침이 반복되면 소리가 끊기거나 세게 들릴 수 있습니다. 물론 "복복이"처럼 의도적으로 귀여운 리듬을 만들 수는 있지만, 매일 부를 태명이라면 부모가 편하게 말할 수 있는지를 먼저 보아야 합니다.</p>
+
+<p>태명 오행을 가볍게 적용하고 싶다면 초성의 느낌을 참고할 수 있습니다. ㄱ·ㅋ은 목(木)의 성장감, ㄴ·ㄷ·ㄹ·ㅌ은 화(火)의 밝음, ㅁ·ㅂ·ㅍ은 토(土)의 안정감, ㅅ·ㅈ·ㅊ은 금(金)의 맑고 단정한 느낌, ㅇ·ㅎ은 수(水)의 부드러운 흐름으로 볼 수 있습니다. 태명에서는 이 기준을 엄격한 길흉 판단으로 쓰기보다, 부모가 원하는 이미지와 소리를 고르는 참고 틀로 쓰면 충분합니다.</p>
+
+<h2 id="element-examples">3. 오행별 태명 추천 20개</h2>
+<p>아래 태명 추천은 한자 작명이 아니라 부르기 쉬운 소리와 이미지 중심의 예시입니다. 성별을 미리 정하지 않아도 쓸 수 있는 이름을 우선 배치했고, 부모가 원하는 분위기에 따라 고를 수 있도록 오행별로 나누었습니다.</p>
+
+<h3>목(木): 잘 자라고 뻗어가는 태명</h3>
+<ul>
+  <li><strong>새싹이:</strong> 작은 생명이 건강하게 자라나는 이미지가 분명합니다.</li>
+  <li><strong>초록이:</strong> 싱그럽고 편안한 느낌이 있어 봄·초여름 임신 기간과 잘 맞습니다.</li>
+  <li><strong>나무:</strong> 단단하게 뿌리내리고 오래 자라는 의미를 담기 좋습니다.</li>
+  <li><strong>라온:</strong> 즐겁고 밝은 어감이 있어 부모가 부를 때 기분이 가볍습니다.</li>
+</ul>
+
+<h3>화(火): 밝고 따뜻한 태명</h3>
+<ul>
+  <li><strong>햇살이:</strong> 따뜻하게 비추는 느낌이 강해 2026 병오년 태명으로 잘 어울립니다.</li>
+  <li><strong>반짝이:</strong> 빛나는 존재라는 메시지를 귀엽게 전할 수 있습니다.</li>
+  <li><strong>루미:</strong> 빛을 떠올리게 하는 짧은 소리로, 현대적인 느낌이 있습니다.</li>
+  <li><strong>도담:</strong> 야무지고 건강하게 자라라는 한국어 의미가 안정적입니다.</li>
+</ul>
+
+<h3>토(土): 편안하고 든든한 태명</h3>
+<ul>
+  <li><strong>튼튼이:</strong> 건강을 바라는 마음이 직접적이고 가족 모두가 이해하기 쉽습니다.</li>
+  <li><strong>복덩이:</strong> 아이가 가족에게 복처럼 찾아왔다는 정서를 담습니다.</li>
+  <li><strong>두리:</strong> 둥글고 포근한 어감이 있어 부드러운 태명으로 좋습니다.</li>
+  <li><strong>모아:</strong> 가족의 마음이 아이에게 모인다는 의미로 해석할 수 있습니다.</li>
+</ul>
+
+<h3>금(金): 맑고 단정한 태명</h3>
+<ul>
+  <li><strong>별이:</strong> 맑게 빛나는 이미지가 있어 오래 사랑받는 태명입니다.</li>
+  <li><strong>소미:</strong> 깨끗하고 산뜻한 소리라 부담 없이 부르기 좋습니다.</li>
+  <li><strong>초롱:</strong> 눈빛이 맑고 또렷한 아이를 바라는 의미가 담깁니다.</li>
+  <li><strong>진주:</strong> 귀하고 단정한 이미지를 주지만 정식 이름과 겹치지 않는지 확인하면 좋습니다.</li>
+</ul>
+
+<h3>수(水): 부드럽고 평온한 태명</h3>
+<ul>
+  <li><strong>하루:</strong> 매일을 소중히 기다린다는 의미가 자연스럽습니다.</li>
+  <li><strong>하늘:</strong> 넓고 편안한 이미지를 주며 가족들이 부르기 쉽습니다.</li>
+  <li><strong>윤슬:</strong> 물빛이 반짝이는 순우리말 이미지가 아름답습니다.</li>
+  <li><strong>이든:</strong> 부드럽고 안정적인 소리라 성별 구분 없이 쓰기 좋습니다.</li>
+</ul>
+
+<h2 id="year-2026">4. 2026 병오년 태명은 밝음과 안정의 균형이 좋다</h2>
+<p>2026년은 병오년으로, 병(丙)은 큰 태양의 불, 오(午)는 한낮의 뜨거운 기운과 연결됩니다. 상징적으로 보면 밝음, 활력, 표현력, 앞으로 나아가는 힘이 강한 해입니다. 그래서 2026 태명 추천에서는 햇살, 반짝, 라온, 도담처럼 밝고 살아 있는 소리가 잘 어울립니다. 다만 불의 이미지만 과하게 밀면 태명이 들뜬 느낌으로 흐를 수 있으므로, 포근함과 안정감을 함께 잡는 것이 좋습니다.</p>
+
+<p>예를 들어 "햇살이"는 병오년의 밝은 이미지를 그대로 살립니다. 여기에 부모가 아이에게 차분한 안정감을 더하고 싶다면 "도담", "두리", "하루"처럼 부드러운 태명을 고를 수 있습니다. 반대로 임신 기간 내내 걱정이 많았고 아이에게 건강한 생명력을 자주 말해 주고 싶다면 "새싹이", "튼튼이", "초록이"처럼 성장 이미지가 있는 태명이 좋습니다.</p>
+
+<p>태명 오행은 아이의 정확한 사주가 나오기 전까지 확정적인 판단 도구가 아닙니다. 출생 전에는 연도와 계절, 부모의 마음, 부르기 쉬운 소리를 중심으로 잡고, 출생 후 정식 이름을 지을 때 생년월일시와 성씨를 기준으로 본격적인 작명을 하면 됩니다. 태명과 본명은 역할이 다릅니다. 태명은 기다림을 다정하게 만드는 이름이고, 본명은 평생의 사회적 이름입니다.</p>
+
+<h2 id="checklist">5. 태명 결정 전 체크리스트</h2>
+<p>태명을 정하기 전에는 실제로 며칠 불러 보는 과정이 필요합니다. 마음에 드는 태명 후보를 세 개 정도 적고, 아침에 한 번, 저녁에 한 번 소리 내어 불러 보십시오. 글자로 볼 때 예뻤던 이름도 입에 잘 붙지 않으면 오래 쓰기 어렵고, 처음에는 평범해 보였던 이름이 자주 부를수록 더 따뜻하게 느껴질 수 있습니다.</p>
+
+<ul>
+  <li><strong>부르기 쉬운가:</strong> 부모 둘 다 자연스럽게 말할 수 있어야 합니다.</li>
+  <li><strong>놀림이 되지 않는가:</strong> 가족 외 사람이 들어도 어색하거나 민망하지 않은지 봅니다.</li>
+  <li><strong>정식 이름과 구분되는가:</strong> 나중에 본명으로 이어도 좋지만, 반드시 이어야 한다는 부담은 없어야 합니다.</li>
+  <li><strong>의미가 너무 무겁지 않은가:</strong> 성공, 출세, 특별함을 강요하는 느낌보다 건강과 환영의 메시지가 좋습니다.</li>
+  <li><strong>가족이 같은 이름으로 부르는가:</strong> 여러 별명이 섞이면 태명의 정서적 힘이 약해질 수 있습니다.</li>
+</ul>
+
+<p>가장 좋은 태명은 부모가 자주 부르고 싶어지는 이름입니다. 완벽한 운세를 맞추려 애쓰기보다, 아이가 찾아온 시간을 어떻게 기억하고 싶은지 먼저 생각하십시오. 그 마음이 분명하면 태명은 자연스럽게 좁혀집니다. 태명은 아이에게 주는 첫 선물이면서, 부모가 매일 스스로에게 건네는 안심의 말이기도 합니다.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/ko/name-reading/name-hanja-meaning" style="text-decoration: underline; color: #f9d976;">[관련] 이름 한자 뜻 풀이: 좋은 한자와 피해야 할 한자</a></p>
+  <p><a href="/ko/name-reading/name-creation" style="text-decoration: underline; color: #f9d976;">[관련] 작명의 기술: 사주에 부족한 기운을 이름으로 채우기</a></p>
+</div>
+</section>
+    `,
+    contentEn: `
+<section>
+<p>A <strong>Korean fetal name</strong>, often called a prenatal nickname, is different from the legal name a baby receives after birth. A formal Korean name may involve surname balance, Hanja characters, stroke-count numerology, and the baby's exact Saju birth chart. A fetal name is gentler. It is the name parents use during pregnancy to speak to the baby, reduce anxiety, and create emotional closeness before the child is born.</p>
+
+<p>For that reason, choosing a baby nickname before birth in Korea is not about finding the most powerful or sophisticated name. The best prenatal name is easy to say, warm in tone, and meaningful enough that parents want to repeat it every day. In 2026, the Fire Horse year adds a bright, active, sun-like image, so names connected with light, growth, warmth, and stable joy feel especially natural. Still, the name should not become heavy or demanding. A fetal name should welcome the baby, not place a destiny on the baby.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/name-reading/baby-naming" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Korean Baby Naming: Formal Name Rules After Birth</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/name-reading/name-five-elements" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Name Five Elements: Sound Energy in Korean Naming</a></li>
+  </ul>
+</div>
+
+<h2 id="fetal-name-basics">1. What a Korean Fetal Name Is</h2>
+<p>A Korean prenatal name is not a legal identity. It is a temporary family name used while waiting for the baby. Parents may use it when talking to the baby, writing pregnancy notes, visiting the doctor, or sharing news with close relatives. Because it belongs to the pregnancy period, its main purpose is emotional connection rather than strict fortune calculation.</p>
+
+<p>This distinction matters. A formal Korean name should be checked after birth using the exact date and time, the surname, Hanja meaning, stroke counts, and the sound elements of the full name. A fetal name does not need that level of rigidity. It should express a wish such as "arrive healthy," "grow peacefully," "shine warmly," or "be loved." The softer the intention, the easier the name is to keep using naturally.</p>
+
+<p>It is also wise to avoid names that carry too much pressure. A prenatal nickname that demands success, genius, fame, or exceptional destiny can feel heavy even if the parents mean well. A fetal name works best when it sounds like a welcome, not a command. In that sense, a simple name can be stronger than an elaborate one.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en/name-reading/baby-naming" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">Read Formal Korean Baby Naming Rules</a>
+</div>
+
+<h2 id="sound-rules">2. Sound Rules for a Cute Korean Baby Nickname</h2>
+<p>The most practical rule is simple: choose a name that parents can say often without effort. Two syllables usually work best. Names like Haru, Raon, Duri, or Byeoli are short, memorable, and easy for family members to repeat. Three-syllable names can also work when they have a clear rhythm, such as Tunteuni or Banjjagi. Longer names may look cute on paper but often become shortened in daily speech.</p>
+
+<p>Soft endings tend to feel better for fetal names. Korean final consonants such as n, ng, l, and m often create a warm or lingering feeling. Harder endings can sound lively, but if they repeat too much, the name may feel abrupt. Since the baby will hear the name through the parents' voices, comfort matters more than cleverness.</p>
+
+<p>If you want to use the Five Elements lightly, the initial sound can guide the mood. G/K sounds suggest Wood and growth. N/D/R/T sounds suggest Fire and brightness. M/B/P sounds suggest Earth and stability. S/J/Ch sounds suggest Metal and clarity. Vowel-like or H sounds suggest Water and softness. For prenatal naming, this should be treated as an image system, not a strict prediction.</p>
+
+<h2 id="element-examples">3. 20 Korean Fetal Name Ideas by the Five Elements</h2>
+<p>The following ideas focus on sound, feeling, and imagery rather than legal Hanja or stroke count. Most can be used regardless of the baby's gender.</p>
+
+<h3>Wood: growth and healthy development</h3>
+<ul>
+  <li><strong>Saessagi:</strong> "Little sprout," a direct image of new life growing well.</li>
+  <li><strong>Chorogi:</strong> A fresh green image, suitable for parents who want a calm natural feeling.</li>
+  <li><strong>Namu:</strong> "Tree," suggesting roots, growth, and steady life force.</li>
+  <li><strong>Raon:</strong> A bright Korean-style sound often associated with joy.</li>
+</ul>
+
+<h3>Fire: warmth, light, and cheerful energy</h3>
+<ul>
+  <li><strong>Haessari:</strong> "Sunshine," especially fitting for a 2026 Fire Horse year baby.</li>
+  <li><strong>Banjjagi:</strong> "Sparkle," a cute way to express brightness and delight.</li>
+  <li><strong>Rumi:</strong> A short modern sound connected with light.</li>
+  <li><strong>Dodam:</strong> A warm Korean word used to wish a child strong and healthy growth.</li>
+</ul>
+
+<h3>Earth: stability, comfort, and protection</h3>
+<ul>
+  <li><strong>Tunteuni:</strong> "Strong one," direct and easy for the whole family to understand.</li>
+  <li><strong>Bokdeongi:</strong> "Bundle of blessing," expressing that the baby is a gift to the family.</li>
+  <li><strong>Duri:</strong> A round, soft sound with a cozy feeling.</li>
+  <li><strong>Moa:</strong> Suggesting gathered love and family attention.</li>
+</ul>
+
+<h3>Metal: clarity, purity, and preciousness</h3>
+<ul>
+  <li><strong>Byeoli:</strong> "Little star," one of the most intuitive and loved prenatal images.</li>
+  <li><strong>Somi:</strong> A clean, gentle sound that feels easy to call.</li>
+  <li><strong>Chorong:</strong> A clear-eyed, bright image with a traditional Korean feel.</li>
+  <li><strong>Jinju:</strong> "Pearl," suggesting something precious and refined.</li>
+</ul>
+
+<h3>Water: softness, peace, and flow</h3>
+<ul>
+  <li><strong>Haru:</strong> "One day," a name that makes each day of waiting feel meaningful.</li>
+  <li><strong>Haneul:</strong> "Sky," broad, peaceful, and easy to say.</li>
+  <li><strong>Yunseul:</strong> A Korean word for shimmering light on water.</li>
+  <li><strong>Ideun:</strong> A soft, neutral sound suitable for many families.</li>
+</ul>
+
+<h2 id="year-2026">4. 2026 Fire Horse Year Themes</h2>
+<p>In the traditional cycle, 2026 is Byeong-O, often associated with a strong Fire image: sunlight, movement, expression, confidence, and warmth. For a fetal name, this does not mean parents must choose only fiery names. It simply means that names with a cheerful, bright, life-affirming sound may feel especially aligned with the year.</p>
+
+<p>Names such as Haessari, Banjjagi, Raon, and Dodam echo this bright 2026 feeling. If parents want to soften the Fire image, names like Haru, Duri, Moa, or Haneul add calmness and stability. If the pregnancy has involved worry and the parents want to keep repeating a message of health, Saessagi, Tunteuni, and Chorogi are practical and emotionally clear.</p>
+
+<p>Before birth, the baby's full Saju chart is not yet complete because the exact birth time is unknown. That is why a fetal name should not be treated as a fixed destiny reading. Use the year, season, family feeling, and sound preference as references. After birth, the formal name can be selected with the full birth chart and surname in mind.</p>
+
+<h2 id="checklist">5. Final Checklist Before Choosing a Prenatal Name</h2>
+<p>Before deciding, choose three candidates and use each one aloud for a few days. A name that looks beautiful in a list may feel awkward in daily speech. A simple name that looked ordinary at first may become warmer after repeated use. The real test is not the list; it is the voice of the parents.</p>
+
+<ul>
+  <li><strong>Is it easy to say?</strong> Both parents should be able to call it naturally.</li>
+  <li><strong>Does it avoid teasing?</strong> It should not sound embarrassing outside the family.</li>
+  <li><strong>Is it separate from the legal name?</strong> It may inspire the final name, but it does not have to become the final name.</li>
+  <li><strong>Is the meaning gentle?</strong> Health, welcome, peace, and joy are better than pressure or achievement.</li>
+  <li><strong>Will the family use one version?</strong> Too many variations can weaken the emotional focus of the nickname.</li>
+</ul>
+
+<p>The best Korean fetal name is the one parents want to say again. It does not need to be perfect, rare, or impressive. It should hold the feeling of waiting, the hope for safe arrival, and the warmth of the family preparing to meet the baby. That is the real power of a prenatal nickname.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/name-reading/name-hanja-meaning" style="text-decoration: underline; color: #f9d976;">[Related] Korean Name Hanja Meaning: How Characters Are Read</a></p>
+  <p><a href="/en/name-reading/name-creation" style="text-decoration: underline; color: #f9d976;">[Related] The Art of Naming: Balancing Saju with a Name</a></p>
+</div>
+</section>
+    `,
+    faq: [
+      { q: '태명 짓는법과 아기 이름 작명은 무엇이 다른가요?', a: '태명은 임신 기간 동안 가족이 부르는 애칭이라 부르기 쉬운 소리와 부모의 정서가 중요합니다. 정식 이름 작명은 출생 후 생년월일시, 성씨, 한자, 획수, 오행을 함께 봅니다.' },
+      { q: '2026 태명 추천에서는 어떤 느낌이 좋나요?', a: '2026 병오년은 밝고 따뜻한 화 기운 이미지가 강하므로 햇살이, 반짝이, 라온처럼 밝은 태명이 잘 어울립니다. 다만 도담, 하루, 두리처럼 안정적인 소리로 균형을 잡아도 좋습니다.' },
+      { q: '태명을 나중에 본명으로 써도 되나요?', a: '가능하지만 반드시 그럴 필요는 없습니다. 태명은 기다림의 이름이고 본명은 평생 쓰는 사회적 이름이므로, 본명으로 이어가려면 출생 후 사주와 성씨 기준으로 다시 확인하는 것이 좋습니다.' },
+    ],
+    faqEn: [
+      { q: 'How is a Korean fetal name different from a formal baby name?', a: 'A fetal name is a prenatal nickname used during pregnancy, so sound, warmth, and emotional comfort matter most. A formal name should be chosen after birth with the full Saju chart, surname, Hanja, stroke count, and sound elements.' },
+      { q: 'What kind of prenatal name fits a 2026 baby?', a: 'Because 2026 carries a bright Fire Horse image, warm and lively names such as Haessari, Banjjagi, Raon, or Dodam feel natural. Softer names like Haru, Duri, and Haneul can balance that brightness.' },
+      { q: 'Can the fetal name become the legal name later?', a: 'It can, but it does not have to. A prenatal nickname belongs to the pregnancy period. If parents want to use it as the legal name, it should be checked again after birth with the exact Saju and surname.' },
+    ],
+    relatedPosts: [
+      { slug: 'baby-naming', category: 'seongmyeong', title: '자녀 작명 완벽 가이드: 사주와 성명학 통합' },
+      { slug: 'name-hanja-meaning', category: 'seongmyeong', title: '이름 한자 뜻 풀이: 좋은 한자와 피해야 할 한자' },
+    ],
+  },
 ], '2026-01-11', 4, '2026-02-13', 1);
