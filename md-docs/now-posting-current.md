@@ -1,6 +1,6 @@
 # Sajupalza Current Posting Queue
 
-Updated At: 2026-05-02 KST
+Updated At: 2026-05-31 KST
 
 이 파일은 `md-docs/now-posting.md`의 실행용 압축본이다.
 글 작성 순서 판단은 이 파일을 먼저 보고, 애매하면 원본 `md-docs/now-posting.md`를 확인한다.
@@ -55,38 +55,41 @@ Updated At: 2026-05-02 KST
 | 34 | 대운 전환기 증상 — 10년 운세가 바뀔 때 나타나는 현실 변화 | `daewoon-change` |
 | 35 | 사주 일지 뜻 12지지 해석 — 배우자궁과 일상 반응 보는 법 | `day-branch-reading` |
 | 36 | 일간별 직업 적성표 — 10천간별 맞는 일과 피해야 할 일 | `ilgan-career-table` |
+| 37 | 일간별 약한 장기 체크리스트 — 오행별 건강 약점과 생활 관리 | `ilgan-health-weakness` |
+| 38 | 2026 토정비결 보는법 — 생년월일로 풀이 순서 확인하기 | `tojeong-bigyeol-2026` |
+| 39 | 이름 한자 뜻 풀이 — 내 이름이 운명에 미치는 영향 | `name-hanja-meaning` |
+| 40 | 2026 태명 추천 — 오행과 부르기 쉬운 소리 조합 | `fetal-name-guide` |
+| 41 | 여자아이 이름 한자 추천 — 부드러운 소리와 오행 조합 | `girl-name-creation` |
+| 42 | 남자아이 이름 한자 추천 — 힘 있는 소리와 오행 조합 | `boy-name-creation` |
 
 ---
 
 ## 현재 작성 대상
 
-[완료] 37. 일간별 약한 장기 체크리스트 — 오행별 건강 약점과 생활 관리
-- slug: `ilgan-health-weakness`
-- 카테고리: `saju`
-- 작성 파일: `lib/blog/saju-posts.ts`
-- 메인 키워드 KO: 일간별 약한 장기, 오행별 건강 약점
-- 메인 키워드 EN: day master health weakness, five elements organ weakness
-- 하위 키워드 KO: 목화토금수 건강, 일간 건강관리, 오행 약한 부위, 생활 습관 체크
-- 하위 키워드 EN: five elements health checklist, saju organ weakness, day stem wellness
-- 작성 지침: `health-saju` 질병 시기와 다름. 질병 예측이나 음식 추천이 아니라 일간 오행별 취약 부위와 생활 관리 체크리스트 중심. 의료 단정 표현 금지.
-- 검색 의도: 자신의 일간이나 오행 이미지에 따라 어떤 생활 관리 포인트를 조심하면 좋은지 알고 싶어 한다.
-- 분리할 의도: 질병 진단, 치료법, 2026 건강운, 음식 효능 추천.
-- CTA: `/saju-analysis`
-- 완료 시: 이 항목을 `[완료]`로 바꾸고 원본 `md-docs/now-posting.md`도 같이 갱신한다.
+[완료] 42. 남자아이 이름 한자 추천 — 힘 있는 소리와 오행 조합
+- slug: `boy-name-creation`
+- 카테고리: `seongmyeong`
+- 작성 파일: `lib/blog/seongmyeong-posts.ts`
+- 메인 키워드 KO: 남자아이 이름 한자, 남아 이름 오행
+- 메인 키워드 EN: korean boy baby name guide, korean male name meaning fortune
+- 하위 키워드 KO: 멋진 남자 아기 이름, 아들 이름 한자, 힘 있는 이름 소리, 남아 이름 추천
+- 하위 키워드 EN: korean baby boy name ohaeng, boy name hanja, cool korean boy names 2026
+- 작성 지침: 남아 이름의 한자 의미, 발음의 힘, 오행 균형을 중심으로 예시를 제시한다. 여아 이름 글과 같은 문단 구조 반복 금지.
+- 완료 파일: `lib/blog/seongmyeong-posts.ts`
 
 ---
 
 ## 다음 작성 예정 상세
 
-[완료] 38. 2026 토정비결 보는법 — 생년월일로 풀이 순서 확인하기
-- slug: `tojeong-bigyeol-2026`
-- 카테고리: `saju`
-- 작성 파일: `lib/blog/saju-posts.ts`
-- 메인 키워드 KO: 토정비결 2026, 2026 토정비결
-- 메인 키워드 EN: tojeong bigyeol 2026, korean almanac fortune 2026
-- 하위 키워드 KO: 토정비결 보는법, 토정비결 사주 차이, 병오년 토정비결 원리, 생년월일 운세표
-- 하위 키워드 EN: tojeong bigyeol method, korean almanac reading, tojeong vs saju
-- 작성 지침: 2026 병오년 토정비결 풀이 순서 중심. 신년운세 총정리나 사주 세운 글과 겹치지 않게 생년월일 입력 기준, 토정비결 해석 방식, 사주와의 차이를 우선 설명한다.
+[ ] 43. 이름 금기 한자 — 피해야 할 뜻과 작명 예외 기준
+- slug: `bad-hanja-names`
+- 카테고리: `seongmyeong`
+- 작성 파일: `lib/blog/seongmyeong-posts.ts`
+- 메인 키워드 KO: 이름 금기 한자, 피해야 할 이름 한자
+- 메인 키워드 EN: bad hanja for korean names, unlucky chinese characters korean name
+- 하위 키워드 KO: 이름 금기 한자, 불길한 이름 한자, 이름 피해야 할 글자, 나쁜 의미 이름
+- 하위 키워드 EN: inauspicious hanja names, avoid these hanja, unlucky name characters korea
+- 작성 지침: bad-hanja-name 계열 검색 의도 대응. 실제로 이름에 자주 쓰이지만 성명학에서 주의하는 한자 30개 이상, 피하는 이유와 예외적으로 쓸 수 있는 조건을 함께 설명.
 
 ---
 
@@ -94,8 +97,6 @@ Updated At: 2026-05-02 KST
 
 | 번호 | category | slug | 제목 |
 |---:|---|---|---|
-| 41 | seongmyeong | `girl-name-creation` | 여자아이 이름 한자 추천 — 부드러운 뜻과 오행 균형 |
-| 42 | seongmyeong | `boy-name-creation` | 남자아이 이름 한자 추천 — 힘 있는 뜻과 발음오행 조합 |
 | 43 | seongmyeong | `bad-hanja-names` | 이름 금기 한자 — 피해야 할 뜻과 작명 예외 기준 |
 | 44 | seongmyeong | `pet-name-fortune` | 반려동물 이름 짓는 법 — 부르기 쉬운 소리와 오행 아이디어 |
 | 45 | seongmyeong | `name-change-effect` | 개명 효과와 실제 변화 — 이름 바꾸면 달라지는 것과 한계 |

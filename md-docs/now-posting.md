@@ -400,7 +400,7 @@
 - 하위 키워드 EN: korean prenatal name meaning, fetal name ohaeng, cute korean baby nickname
 - 작성 지침: baby-naming(아기 이름)과 다름. 태명은 한자 작명보다 부르기 쉬운 소리, 부모의 정서, 2026 병오년 오행 이미지를 중심으로 예시 20개 포함.
 
-[ ] 41. 여자아이 이름 한자 추천 — 부드러운 소리와 오행 조합
+[완료] 41. 여자아이 이름 한자 추천 — 부드러운 소리와 오행 조합
 - slug: `girl-name-creation`
 - 카테고리: `seongmyeong`
 - 메인 키워드 KO: 여자아이 이름 한자, 여아 이름 오행
@@ -409,7 +409,7 @@
 - 하위 키워드 EN: korean baby girl name ohaeng, girl name hanja, cute korean girl names 2026
 - 작성 지침: baby-naming(일반)과 다름. 여아 이름의 한자 의미, 소리의 부드러움, 오행 균형을 중심으로 예시를 제시한다. 남아 이름 글과 구조·예시 반복 금지.
 
-[ ] 42. 남자아이 이름 한자 추천 — 힘 있는 소리와 오행 조합
+[완료] 42. 남자아이 이름 한자 추천 — 힘 있는 소리와 오행 조합
 - slug: `boy-name-creation`
 - 카테고리: `seongmyeong`
 - 메인 키워드 KO: 남자아이 이름 한자, 남아 이름 오행

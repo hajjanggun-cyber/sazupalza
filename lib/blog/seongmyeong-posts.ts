@@ -1921,4 +1921,421 @@ export const seongmyeongPosts: BlogPost[] = distributePublishedDates([
       { slug: 'name-hanja-meaning', category: 'seongmyeong', title: '이름 한자 뜻 풀이: 좋은 한자와 피해야 할 한자' },
     ],
   },
+  {
+    slug: 'girl-name-creation',
+    title: '여자아이 이름 한자 추천: 부드러운 소리와 오행 조합',
+    seoTitle: '여자아이 이름 한자 추천: 여아 이름 오행과 부드러운 소리',
+    seoTitleEn: 'Korean Girl Baby Name Guide: Hanja, Sound, and Five Elements',
+    description: '여자아이 이름 한자를 고를 때는 예쁜 뜻만 보지 말고 소리의 부드러움, 자원오행, 성씨와의 흐름을 함께 봐야 합니다. 여아 이름 예시와 판단 기준을 정리했습니다.',
+    descriptionEn: 'Choose Korean girl baby names by reading Hanja meaning, soft sound flow, Five Element balance, surname harmony, and practical naming limits.',
+    keywords: ['여자아이이름한자', '여아이름오행', '예쁜여자아기이름', '딸이름한자', '여아이름추천'],
+    keywordsEn: ['Korean Girl Baby Name Guide', 'Korean Baby Girl Name Ohaeng', 'Girl Name Hanja', 'Korean Female Name Meaning Fortune', 'Cute Korean Girl Names 2026'],
+    publishedAt: '2026-05-30',
+    category: 'seongmyeong',
+    toc: [
+      { id: 'girl-name-standard', title: '여자아이 이름 한자를 고르는 첫 기준' },
+      { id: 'soft-sound-flow', title: '부드러운 소리와 약한 이름의 차이' },
+      { id: 'hanja-examples', title: '딸 이름 한자 후보와 의미 예시' },
+      { id: 'ohaeng-balance', title: '여아 이름 오행을 맞추는 방법' },
+      { id: 'final-checklist', title: '최종 후보를 줄이는 체크리스트' },
+    ],
+    tocEn: [
+      { id: 'girl-name-standard', title: 'The First Standard for a Girl Name' },
+      { id: 'soft-sound-flow', title: 'Soft Sound Flow Without Weakness' },
+      { id: 'hanja-examples', title: 'Girl Name Hanja Examples' },
+      { id: 'ohaeng-balance', title: 'Balancing the Five Elements' },
+      { id: 'final-checklist', title: 'Final Naming Checklist' },
+    ],
+    contentKo: `
+<section>
+<p><strong>여자아이 이름 한자</strong>를 고를 때 가장 먼저 떠오르는 기준은 보통 예쁜 뜻입니다. 맑을 청, 은혜 은, 지혜 지처럼 좋은 의미가 보이면 이름도 좋아 보입니다. 하지만 실제 작명에서는 뜻만으로 충분하지 않습니다. 성씨와 이어 부를 때의 리듬, 이름 두 글자의 초성 흐름, 한자가 가진 자원오행, 사주에서 보완하고 싶은 기운까지 함께 보아야 합니다. 특히 <strong>여아 이름 오행</strong>은 이름을 여성스럽게 만드는 장식이 아니라, 아이가 평생 쓰는 소리와 의미의 균형을 잡는 참고 기준으로 보는 것이 좋습니다.</p>
+
+<p>여자아이 이름은 부드럽게 들리면 좋다는 기대가 강합니다. 그러나 너무 흐릿한 소리만 모이면 이름의 인상이 약해질 수 있고, 반대로 강한 받침과 날카로운 음이 겹치면 뜻은 예뻐도 부르는 느낌이 딱딱해질 수 있습니다. 좋은 이름은 단순히 귀여운 이름이 아니라, 어린 시절에도 어울리고 성인이 된 뒤에도 자연스럽게 불리는 이름입니다. 이 글에서는 딸 이름 한자를 고를 때 살펴볼 기준, 부드러운 이름 소리의 범위, 오행별 한자 후보를 차례로 정리합니다.</p>
+
+<div style="margin: 24px 0; padding: 18px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><strong>읽기 전 기준</strong></p>
+  <p>아래 예시는 후보를 넓히기 위한 참고 자료입니다. 실제 이름은 성씨, 출생 사주, 가족이 선호하는 발음, 한자의 원뜻과 쓰임을 함께 확인한 뒤 좁히는 것이 좋습니다.</p>
+</div>
+
+<h2 id="girl-name-standard">1. 여자아이 이름 한자는 예쁜 뜻보다 오래 불릴 방향이 먼저입니다</h2>
+<p>여자아이 이름 한자를 고를 때 뜻이 좋은 글자를 많이 모아도 바로 좋은 이름이 되지는 않습니다. 이름은 두 글자가 붙고, 성씨가 앞에 붙고, 매일 여러 상황에서 불립니다. 그래서 첫 기준은 개별 한자의 화려함보다 전체 이름이 어떤 인상으로 남는지입니다. 예를 들어 은혜, 지혜, 맑음, 빛, 꽃, 구슬 같은 뜻은 여아 이름에서 자주 쓰이지만, 성씨와 붙였을 때 발음이 뭉개지거나 특정 단어처럼 들리면 후보에서 다시 검토해야 합니다.</p>
+
+<p>첫 번째로 볼 것은 이름의 방향입니다. 가족이 원하는 인상이 온화함인지, 밝음인지, 단정함인지, 지혜로움인지 먼저 정해야 합니다. 방향이 없으면 좋은 한자를 계속 추가하게 되고, 결국 비슷한 이름 후보만 늘어납니다. 예쁜 여자 아기 이름을 찾는 과정에서도 아이에게 어떤 느낌의 이름을 남기고 싶은지 한 문장으로 정리하면 선택이 훨씬 쉬워집니다.</p>
+
+<ul>
+  <li><strong>온화한 방향:</strong> 恩, 惠, 柔, 雅처럼 부드럽고 배려 있는 뜻을 중심으로 봅니다.</li>
+  <li><strong>밝은 방향:</strong> 昭, 智, 炫, 瑞처럼 빛, 지혜, 길한 기운을 떠올리게 하는 글자를 봅니다.</li>
+  <li><strong>단정한 방향:</strong> 允, 安, 貞, 賢처럼 안정감과 바른 태도를 담은 글자를 봅니다.</li>
+  <li><strong>생기 있는 방향:</strong> 芝, 梨, 林, 潤처럼 성장, 자연, 맑은 흐름을 담은 글자를 봅니다.</li>
+</ul>
+
+<p>한 가지 주의할 점은 한자 하나의 뜻이 너무 크거나 부담스러운 경우입니다. 매우 화려한 뜻, 지나치게 성공을 압박하는 뜻, 강한 권위 이미지만 앞세운 한자는 아이가 실제로 이름을 사용할 때 무겁게 느껴질 수 있습니다. 여아 이름은 작고 귀여운 느낌으로만 가도 부족하지만, 반대로 과장된 기대를 이름에 담는 것도 조심해야 합니다.</p>
+
+<h2 id="soft-sound-flow">2. 부드러운 이름 소리는 약한 이름과 다릅니다</h2>
+<p>부드러운 이름 소리는 발음이 흐릿하다는 뜻이 아닙니다. 좋은 부드러움은 첫소리가 자연스럽고, 모음이 편안하게 이어지며, 받침이 과하게 부딪히지 않는 상태입니다. 예를 들어 서아, 유나, 하윤, 지안처럼 많이 선호되는 소리는 입에서 쉽게 나오고, 가족이 반복해서 부르기 편합니다. 다만 유행하는 소리만 따라가면 같은 반, 같은 세대에서 비슷한 이름이 많아질 수 있으므로 한자 의미와 성씨 조합으로 개성을 보완해야 합니다.</p>
+
+<p>소리 흐름을 볼 때는 성씨까지 붙여 세 번 이상 소리 내어 읽어보는 것이 좋습니다. 이름만 보았을 때 예쁜 후보도 성씨의 받침과 이름 첫소리가 강하게 부딪히면 어색해질 수 있습니다. 성씨가 김, 박, 곽처럼 받침이 강하게 닫히는 경우에는 이름 첫 글자를 너무 딱딱하게 시작하기보다 모음이 열린 글자나 부드러운 초성을 함께 검토할 수 있습니다. 반대로 성씨가 이, 오, 유처럼 짧고 열린 소리라면 이름 안에서 어느 정도 중심을 잡아 주는 받침이 있어도 좋습니다.</p>
+
+<ul>
+  <li><strong>부드러운 흐름:</strong> 아, 유, 서, 하, 이, 연, 윤처럼 입 모양이 자연스럽게 이어지는 소리입니다.</li>
+  <li><strong>단정한 마무리:</strong> 안, 은, 윤, 현처럼 받침이 있어도 강하게 튀지 않고 이름을 정리합니다.</li>
+  <li><strong>주의할 조합:</strong> 같은 자음이 과하게 반복되거나, 성씨 끝소리와 이름 첫소리가 겹쳐 발음이 막히는 경우입니다.</li>
+  <li><strong>확인할 부분:</strong> 별명, 초성만 적었을 때의 인상, 영어 표기나 로마자 표기에서 생기는 혼동입니다.</li>
+</ul>
+
+<p>여자아이 이름 한자 선택에서도 발음은 의미만큼 중요합니다. 한자가 아무리 좋아도 매일 부를 때 어색하면 실제 이름의 만족도가 떨어집니다. 이름은 문서보다 목소리에서 먼저 살아나는 말이기 때문입니다.</p>
+
+<h2 id="hanja-examples">3. 딸 이름 한자 후보: 뜻과 느낌을 나누어 보기</h2>
+<p>딸 이름 한자는 한두 글자를 정해 놓고 끼워 맞추기보다 의미군을 나누어 후보를 만드는 편이 좋습니다. 아래 한자는 실제 작명에서 자주 검토되는 방향을 정리한 예시입니다. 같은 음에도 여러 한자가 있으므로, 최종 선택 전에는 대법원 인명용 한자 여부와 정확한 뜻, 획수, 자원오행을 다시 확인해야 합니다.</p>
+
+<h3>온화함과 배려를 담는 한자</h3>
+<ul>
+  <li><strong>恩 은:</strong> 은혜와 따뜻한 마음의 이미지가 있어 부드러운 이름에 잘 어울립니다.</li>
+  <li><strong>惠 혜:</strong> 은혜, 지혜로운 배려의 뜻을 함께 떠올릴 수 있어 단정한 인상을 줍니다.</li>
+  <li><strong>柔 유:</strong> 부드러움과 유연함을 담지만, 성씨와 붙였을 때 너무 약하게 들리지 않는지 봅니다.</li>
+  <li><strong>雅 아:</strong> 고상함과 단아함의 의미가 있어 과하게 귀여운 이름을 피하고 싶을 때 검토할 수 있습니다.</li>
+</ul>
+
+<h3>밝음과 지혜를 담는 한자</h3>
+<ul>
+  <li><strong>智 지:</strong> 지혜의 뜻이 분명해 학업이나 판단력 이미지를 담고 싶을 때 자주 봅니다.</li>
+  <li><strong>昭 소:</strong> 밝고 환한 뜻이 있어 이름 전체를 맑게 만드는 데 도움이 됩니다.</li>
+  <li><strong>瑞 서:</strong> 상서롭고 좋은 징조의 의미로, 부드러운 소리와 길한 뜻을 함께 담을 수 있습니다.</li>
+  <li><strong>炫 현:</strong> 빛남의 이미지가 강하므로 다른 글자를 차분하게 맞추면 균형이 좋습니다.</li>
+</ul>
+
+<h3>맑은 흐름과 성장감을 담는 한자</h3>
+<ul>
+  <li><strong>潤 윤:</strong> 윤택함과 촉촉한 흐름의 뜻이 있어 차분하고 넉넉한 인상을 줍니다.</li>
+  <li><strong>河 하:</strong> 강물의 넓은 흐름을 떠올리게 하며 열린 소리의 이름에 잘 맞습니다.</li>
+  <li><strong>芝 지:</strong> 풀과 향기로운 식물의 이미지를 담아 자연스럽고 맑은 느낌을 줍니다.</li>
+  <li><strong>梨 이:</strong> 배나무의 이미지가 있어 깨끗하고 담백한 느낌의 이름 후보가 됩니다.</li>
+</ul>
+
+<p>예를 들어 서윤, 지안, 하은, 유나, 아린처럼 현대적으로 익숙한 소리를 먼저 떠올렸다면, 각 음에 어떤 한자를 붙일지에 따라 이름의 방향이 완전히 달라집니다. 서윤도 瑞潤처럼 길한 흐름을 강조할 수 있고, 瑞允처럼 단정함을 더할 수 있습니다. 하은도 河恩이면 넓은 물과 은혜의 느낌이 강하고, 夏恩처럼 계절감이 들어갈 수도 있습니다. 같은 발음이라도 한자가 달라지면 이름의 결이 달라진다는 점이 성명학에서 중요합니다.</p>
+
+<h2 id="ohaeng-balance">4. 여아 이름 오행은 부족한 기운을 조용히 보태는 방식입니다</h2>
+<p><strong>여아 이름 오행</strong>을 맞춘다는 말은 이름을 특정 오행으로 단정한다는 뜻이 아닙니다. 작명에서는 보통 사주 원국의 오행 분포, 성씨의 소리, 이름 글자의 발음오행, 한자의 자원오행을 함께 참고합니다. 어떤 기준을 더 중요하게 볼지는 작명 방식마다 차이가 있지만, 공통적으로 중요한 것은 부족한 기운을 보완하되 이름이 억지스럽지 않아야 한다는 점입니다.</p>
+
+<p>예를 들어 사주에서 수 기운의 이미지가 필요하다고 해서 반드시 물 수가 들어간 글자만 골라야 하는 것은 아닙니다. 潤, 河처럼 물의 이미지가 있는 한자를 볼 수도 있고, 이름의 소리 흐름을 차분하게 잡는 방식도 있습니다. 목 기운을 보완하고 싶다면 芝, 林, 梨처럼 성장과 식물의 이미지를 볼 수 있습니다. 화 기운이 필요하면 昭, 炫처럼 밝은 글자를 검토할 수 있지만, 이미 사주가 뜨겁거나 성씨와 이름 소리가 강하다면 과하게 밀어붙이지 않는 편이 좋습니다.</p>
+
+<table style="width: 100%; border-collapse: collapse; margin: 18px 0;">
+  <thead>
+    <tr>
+      <th style="border-bottom: 1px solid rgba(255,255,255,0.2); text-align: left; padding: 8px;">오행 방향</th>
+      <th style="border-bottom: 1px solid rgba(255,255,255,0.2); text-align: left; padding: 8px;">느낌</th>
+      <th style="border-bottom: 1px solid rgba(255,255,255,0.2); text-align: left; padding: 8px;">검토 예시</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 8px;">목</td>
+      <td style="padding: 8px;">성장, 생기, 유연함</td>
+      <td style="padding: 8px;">芝, 林, 梨, 柔</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px;">화</td>
+      <td style="padding: 8px;">밝음, 표현, 따뜻함</td>
+      <td style="padding: 8px;">昭, 炫, 晶, 映</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px;">토</td>
+      <td style="padding: 8px;">안정, 중심, 신뢰</td>
+      <td style="padding: 8px;">安, 允, 恩, 媛</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px;">금</td>
+      <td style="padding: 8px;">맑음, 정리, 단정함</td>
+      <td style="padding: 8px;">瑞, 珠, 玟, 鈴</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px;">수</td>
+      <td style="padding: 8px;">흐름, 지혜, 차분함</td>
+      <td style="padding: 8px;">潤, 河, 洙, 泫</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>오행은 이름을 좁히는 기준이지 모든 것을 대신하는 기준은 아닙니다. 이름이 자연스럽고, 뜻이 과하지 않으며, 성씨와 이어 부르기 편해야 합니다. 여자아이 이름 한자 후보를 만들 때는 먼저 마음에 드는 소리 5개 정도를 정하고, 그 안에서 오행과 한자 의미를 조정하는 방식이 현실적입니다.</p>
+
+<div style="margin: 24px 0; padding: 18px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><strong>이름 후보를 이미 정했다면</strong></p>
+  <p><a href="/ko/seongmyeong-analysis" style="text-decoration: underline; color: #f9d976;">성명학 이름 풀이</a>에서 성씨, 이름 소리, 한자 의미, 오행 흐름을 함께 확인해 보세요. 한 글자만 보는 것보다 전체 조합을 놓고 비교해야 후보가 빨리 줄어듭니다.</p>
+</div>
+
+<h2 id="final-checklist">5. 최종 후보를 줄이는 체크리스트</h2>
+<p>마지막에는 좋은 한자를 더 찾기보다 후보를 줄이는 과정이 필요합니다. 이름 후보가 너무 많으면 어떤 이름도 확신하기 어렵습니다. 성씨까지 붙인 전체 이름을 기준으로 3개 정도만 남기고, 실제로 며칠 동안 불러보면 어색한 후보가 자연스럽게 드러납니다.</p>
+
+<ul>
+  <li><strong>성씨와 붙여 읽기:</strong> 성씨 끝소리와 이름 첫소리가 부딪히지 않는지 확인합니다.</li>
+  <li><strong>한자 뜻 확인:</strong> 대표 뜻만 보지 말고 다른 뜻이나 쓰임이 부담스럽지 않은지 봅니다.</li>
+  <li><strong>오행 균형 확인:</strong> 사주에서 보완하고 싶은 기운과 이름의 자원오행이 크게 어긋나지 않는지 봅니다.</li>
+  <li><strong>나이 변화 확인:</strong> 아기 때만 예쁜 이름이 아니라 학생, 직장인, 어른이 되어도 자연스러운지 생각합니다.</li>
+  <li><strong>표기 확인:</strong> 한글, 한자, 영어 표기에서 읽기 어렵거나 오해될 부분이 없는지 확인합니다.</li>
+</ul>
+
+<p>좋은 여아 이름 추천은 유행 이름을 그대로 고르는 일이 아니라, 아이에게 어울릴 만한 소리와 의미를 차분히 좁히는 과정입니다. 여자아이 이름 한자는 부드러움, 밝음, 지혜, 안정감 중 어떤 방향을 중심으로 둘지 먼저 정하고, 그 다음 한자와 오행을 맞추면 훨씬 자연스럽습니다. 이름은 운명을 단정하는 문장이 아니라 아이를 부르는 가장 오래된 말입니다. 그래서 보기 좋은 이름보다 오래 불러도 편안한 이름을 고르는 것이 중요합니다.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/ko/name-reading/name-hanja-meaning" style="text-decoration: underline; color: #f9d976;">[관련 글] 이름 한자 뜻 풀이: 좋은 한자와 피해야 할 한자</a></p>
+  <p><a href="/ko/name-reading/baby-naming" style="text-decoration: underline; color: #f9d976;">[관련 글] 자녀 작명 기준: 사주와 성명학을 함께 보는 법</a></p>
+</div>
+</section>
+    `,
+    contentEn: `
+<section>
+<p>A <strong>Korean girl baby name guide</strong> should not begin and end with a pretty meaning. Many parents first look for Hanja that suggest grace, wisdom, brightness, blessing, or beauty. Those meanings matter, but a name becomes real only when it is attached to a surname, spoken every day, written in school forms, used in adulthood, and remembered by other people. For a Korean girl's name, the sound flow, Hanja meaning, surname rhythm, and Five Element balance should be read together. This is especially important when parents want a name that feels soft without becoming weak, modern without becoming too trendy, and meaningful without feeling heavy.</p>
+
+<p>In Korean naming, softness is often valued for a daughter, but softness does not mean vagueness. A good soft name has a natural opening sound, comfortable vowels, and a clear finish. It should be easy for family members to say, but it should also carry enough structure to work throughout life. A name that sounds cute for a newborn may feel too light later. A name that looks elegant in Hanja may feel awkward if the spoken rhythm is stiff. The goal is to create a balanced name that can grow with the child.</p>
+
+<h2 id="girl-name-standard">1. The First Standard for a Korean Girl Name</h2>
+<p>The first question is not which Hanja is the most beautiful. The first question is what direction the whole name should carry. Some families want a warm and gentle name. Some prefer a bright and intelligent impression. Others want a calm, refined, or nature-inspired feeling. Once this direction is clear, the Hanja candidates become easier to evaluate. Without a direction, parents often collect too many good characters and end up with names that feel similar but not decisive.</p>
+
+<p>For a gentle direction, characters such as 恩, 惠, 柔, and 雅 may be considered because they suggest grace, care, softness, and refinement. For a brighter direction, 智, 昭, 瑞, and 炫 can suggest wisdom, light, and auspicious energy. For a stable and composed name, 允, 安, 貞, and 賢 may be reviewed. For a natural and fresh feeling, characters such as 芝, 梨, 林, and 潤 can suggest growth, plants, clarity, or flowing life force.</p>
+
+<p>None of these characters should be treated as automatically lucky for every baby. A Hanja character may have a beautiful meaning but still sound awkward with the surname. It may also add an element that is already too strong in the child's Saju chart. The better approach is to make a short list of possible name sounds first, then compare Hanja meanings and elements inside that smaller group.</p>
+
+<h2 id="soft-sound-flow">2. Soft Sound Flow Without Making the Name Weak</h2>
+<p>Soft sound flow is one of the main concerns in choosing a Korean baby girl name. Names like Seoa, Yuna, Hayoon, Jian, Seoyun, Haeun, and Arin are popular because they are easy to say and sound gentle. However, popularity alone is not enough. A widely loved sound can become too common within the same generation, and the name may lose distinction unless the Hanja combination gives it a clearer identity.</p>
+
+<p>To test sound flow, say the surname and full name aloud several times. A name may look beautiful when written alone, but the surname can change the rhythm. If the surname ends with a strong final consonant, the first sound of the given name should not create a harsh stop. If the surname is short and open, the given name may need a slightly clearer center or ending to avoid sounding too loose. This is why Korean naming should always be tested in full, not only by the given name.</p>
+
+<p>A soft name often uses open vowels and gentle consonants, but it still needs shape. Sounds such as a, yu, seo, ha, yeon, yun, and eun can feel natural, but the final combination must be checked for repetition, teasing risk, and initial-only impressions. Parents should also consider romanization. Some names are easy in Korean but confusing in English spelling, and that may matter for families who expect international use.</p>
+
+<h2 id="hanja-examples">3. Girl Name Hanja Examples by Meaning</h2>
+<p>Hanja candidates are best reviewed by meaning groups. For a warm and caring name, 恩 means grace or favor, 惠 suggests kindness and wise care, 柔 means softness and flexibility, and 雅 suggests elegance or refinement. These characters are often suitable when parents want a gentle but not overly childish name. The caution is that very soft characters should be paired with a sound or second character that gives the name enough presence.</p>
+
+<p>For brightness and intelligence, 智 is a direct character for wisdom, 昭 suggests brightness and clarity, 瑞 carries an auspicious image, and 炫 suggests shining or radiance. These characters can make the name feel vivid, but they should not all be combined in a way that becomes too intense. If one character is bright and expressive, the other can be calmer, more stable, or more refined.</p>
+
+<p>For a natural, clear, or flowing impression, 潤 suggests richness and gentle moisture, 河 suggests a broad river, 芝 suggests a fragrant plant, and 梨 gives a clean natural image. These characters are useful when parents want a name that feels fresh and calm rather than glamorous. They can also help when the desired image is growth, flow, or quiet resilience.</p>
+
+<p>Consider the sound Seoyun. With 瑞潤, the name may suggest auspicious flow and richness. With 瑞允, it may feel more upright and balanced. Consider Haeun. With 河恩, the name may suggest a wide river and grace. With 夏恩, it may carry a seasonal warmth. The same Korean sound can become a very different name depending on Hanja. This is why girl name Hanja should not be chosen only by sound or only by meaning. The two must be read together.</p>
+
+<h2 id="ohaeng-balance">4. Balancing Ohaeng in a Korean Baby Girl Name</h2>
+<p><strong>Korean baby girl name Ohaeng</strong>, or Five Element balance, is a reference system rather than a guarantee. In naming, practitioners may consider the child's Saju chart, the surname sound, pronunciation elements, and the elemental nature of the Hanja characters. Different naming schools may weigh these factors differently, but the practical goal is similar: support what needs support without forcing the name to feel artificial.</p>
+
+<p>If the chart needs a Water image, parents do not have to use only the literal character for water. Characters such as 潤, 河, 洙, or 泫 may be considered, and the sound flow can also be made calmer. If a Wood image is useful, 芝, 林, 梨, or 柔 may be reviewed because they suggest growth, plants, or flexibility. If Fire is helpful, 昭, 炫, 晶, or 映 may add brightness. If Earth is needed, 安, 允, 恩, or 媛 may add stability. If Metal is useful, 瑞, 珠, 玟, or 鈴 may suggest clarity, preciousness, or refinement.</p>
+
+<p>The key is moderation. If a girl's chart already has a strong Fire image, a very bright name may feel excessive. If the surname is already sharp and forceful, a hard-sounding given name may make the full name feel too rigid. If the full name is too soft, a clearer ending sound or more stable Hanja may help. Five Elements should narrow the candidates, not replace common sense about sound and usability.</p>
+
+<p>Parents often ask whether a name can change fortune. A name can influence impression, self-identification, and how others remember a person, but it should not be treated as a fixed promise of life outcomes. In traditional Korean name reading, the name is one layer among Saju, family environment, timing, personal choices, and social context. Use it as an interpretive guide, not as a guarantee.</p>
+
+<h2 id="final-checklist">5. Final Checklist Before Choosing a Daughter's Name</h2>
+<p>Before choosing the final name, reduce the list instead of adding more candidates. Keep only three full names, including the surname. Say each one aloud for several days. Write it in Hangul, Hanja, and romanized form. Imagine the name being used for a child, a student, a professional, and an older adult. A good daughter name should not depend only on newborn cuteness. It should remain natural as the person grows.</p>
+
+<ul>
+  <li><strong>Full-name rhythm:</strong> Check whether the surname and given name collide or flow naturally.</li>
+  <li><strong>Hanja meaning:</strong> Review the primary meaning and any secondary meanings that may feel uncomfortable.</li>
+  <li><strong>Element balance:</strong> Compare the desired Five Element direction with the Hanja and sound of the name.</li>
+  <li><strong>Daily usability:</strong> Make sure the name is easy to call, easy to write, and not likely to invite teasing.</li>
+  <li><strong>Long-term fit:</strong> Avoid a name that works only for a baby but feels too cute or too trendy later.</li>
+</ul>
+
+<p>The best Korean female name meaning fortune is not the most decorative name. It is a name whose sound, meaning, and balance can be used comfortably for a long time. Start with the emotional direction, test the sound with the surname, choose Hanja that supports the meaning, and then check the Five Element balance. This slower process usually produces a stronger name than simply selecting a fashionable sound or a beautiful character from a list.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/name-reading/name-hanja-meaning" style="text-decoration: underline; color: #f9d976;">[Related] Korean Name Hanja Meaning: How Characters Are Read</a></p>
+  <p><a href="/en/name-reading/baby-naming" style="text-decoration: underline; color: #f9d976;">[Related] Korean Baby Naming Guide: Saju and Name Balance</a></p>
+</div>
+</section>
+    `,
+    faq: [
+      { q: '여자아이 이름 한자는 뜻이 예쁘면 충분한가요?', a: '뜻은 중요하지만 충분한 기준은 아닙니다. 여자아이 이름 한자는 성씨와의 발음 흐름, 한자의 실제 뜻, 자원오행, 사주에서 보완하고 싶은 기운을 함께 보아야 합니다.' },
+      { q: '여아 이름 오행은 어떻게 맞추나요?', a: '사주 원국에서 부족하거나 조절하고 싶은 기운을 참고한 뒤, 이름의 소리와 한자 자원오행이 지나치게 한쪽으로 치우치지 않게 맞춥니다. 오행은 후보를 좁히는 기준으로 보는 것이 좋습니다.' },
+      { q: '딸 이름 한자를 고를 때 피해야 할 기준이 있나요?', a: '뜻이 지나치게 무겁거나 성공을 압박하는 한자, 성씨와 붙였을 때 발음이 어색한 조합, 다른 뜻이나 별명으로 오해될 수 있는 조합은 다시 검토하는 편이 좋습니다.' },
+    ],
+    faqEn: [
+      { q: 'Is a pretty Hanja meaning enough for a Korean girl name?', a: 'No. The Hanja meaning matters, but the name should also be checked with the surname, spoken rhythm, elemental balance, and long-term usability.' },
+      { q: 'How do I balance Ohaeng in a Korean baby girl name?', a: 'Use the Saju chart as a reference, then compare the Hanja elements and pronunciation flow. The goal is to support the needed element without making the name feel forced.' },
+      { q: 'What should parents avoid when choosing girl name Hanja?', a: 'Avoid meanings that feel too heavy, combinations that sound awkward with the surname, characters with uncomfortable secondary meanings, and names that feel suitable only for a small child.' },
+    ],
+    relatedPosts: [
+      { slug: 'baby-naming', category: 'seongmyeong', title: '자녀 작명 기준: 사주와 성명학을 함께 보는 법' },
+      { slug: 'name-hanja-meaning', category: 'seongmyeong', title: '이름 한자 뜻 풀이: 좋은 한자와 주의할 한자' },
+      { slug: 'name-creation', category: 'seongmyeong', title: '이름 짓기 성명학: 사주와 이름의 균형' },
+    ],
+  },
+  {
+    slug: 'boy-name-creation',
+    title: '남자아이 이름 한자 추천: 힘 있는 소리와 오행 조합',
+    seoTitle: '남자아이 이름 한자 추천: 남아 이름 오행과 발음 조합',
+    seoTitleEn: 'Korean Boy Baby Name Guide: Hanja Meaning and Ohaeng Balance',
+    description: '남자아이 이름 한자는 강한 뜻만 고르면 부담스러울 수 있습니다. 힘 있는 발음, 아들 이름 한자 의미, 남아 이름 오행 균형을 함께 보는 기준을 정리했습니다.',
+    descriptionEn: 'Choose Korean boy baby names by balancing Hanja meaning, strong but usable sound, surname rhythm, and Five Element support.',
+    keywords: ['남자아이이름한자', '남아이름오행', '멋진남자아기이름', '아들이름한자', '남아이름추천'],
+    keywordsEn: ['Korean Boy Baby Name Guide', 'Korean Baby Boy Name Ohaeng', 'Boy Name Hanja', 'Korean Male Name Meaning Fortune', 'Cool Korean Boy Names 2026'],
+    publishedAt: '2026-05-31',
+    category: 'seongmyeong',
+    toc: [
+      { id: 'boy-name-balance', title: '남자아이 이름 한자의 균형 기준' },
+      { id: 'sound-power-check', title: '힘 있는 이름 소리를 만드는 요소' },
+      { id: 'hanja-weight-map', title: '아들 이름 한자 의미별 후보' },
+      { id: 'element-adjustment', title: '남아 이름 오행 조정법' },
+      { id: 'candidate-test', title: '최종 이름 후보 검토 순서' },
+    ],
+    tocEn: [
+      { id: 'boy-name-balance', title: 'Balance Standards for a Boy Name' },
+      { id: 'sound-power-check', title: 'How Strong Name Sounds Work' },
+      { id: 'hanja-weight-map', title: 'Boy Name Hanja by Meaning' },
+      { id: 'element-adjustment', title: 'Adjusting Five Elements' },
+      { id: 'candidate-test', title: 'Final Candidate Test' },
+    ],
+    contentKo: `
+<section>
+<p><strong>남자아이 이름 한자</strong>를 찾을 때 가장 자주 생기는 고민은 "힘 있는 이름"과 "부담스러운 이름"의 경계입니다. 준, 현, 우, 민, 도, 서처럼 익숙하고 멋진 남자 아기 이름 소리는 많지만, 어떤 한자를 붙이느냐에 따라 이름의 인상은 완전히 달라집니다. 여기에 성씨의 받침, 이름의 초성, 한자의 자원오행, 사주에서 보완하고 싶은 기운까지 더하면 단순히 마음에 드는 글자를 고르는 것보다 훨씬 정교한 판단이 필요합니다. <strong>남아 이름 오행</strong>은 이름을 강하게 만들기 위한 장식이 아니라, 소리와 의미가 한쪽으로 치우치지 않도록 조절하는 기준으로 보는 편이 좋습니다.</p>
+
+<p>아들 이름 한자를 고를 때는 크다, 빛난다, 이긴다, 뛰어나다 같은 뜻이 먼저 눈에 들어옵니다. 하지만 강한 의미만 계속 겹치면 이름이 지나치게 무거워질 수 있습니다. 좋은 남아 이름은 기세만 센 이름이 아니라, 부를 때 분명하고, 뜻이 바르며, 성인이 된 뒤에도 자연스럽게 쓰이는 이름입니다. 아래 기준은 특정 한자가 무조건 좋다는 뜻이 아니라, 후보를 만들고 줄이는 실전 순서로 이해하면 됩니다.</p>
+
+<h2 id="boy-name-balance">1. 남자아이 이름 한자는 힘보다 균형을 먼저 봅니다</h2>
+<p>남자아이 이름 한자를 고를 때 "강해야 한다"는 생각이 앞서면 이름이 쉽게 과해집니다. 勝, 雄, 豪, 龍처럼 힘이 강한 이미지를 가진 글자는 분명한 존재감을 주지만, 성씨와 다른 글자까지 함께 강하면 아이가 평생 쓰는 이름으로는 부담스러울 수 있습니다. 반대로 너무 부드러운 소리와 의미만 모이면 이름의 중심이 약해질 수 있습니다. 그래서 남아 이름에서는 힘, 단정함, 지혜, 성장감의 비율을 조절하는 것이 중요합니다.</p>
+
+<p>먼저 이름의 역할을 한 문장으로 정해 보세요. "밝고 반듯한 이름", "차분하지만 단단한 이름", "크게 성장하는 느낌의 이름", "지혜와 실행력을 함께 담은 이름"처럼 방향을 정하면 한자 후보를 거르기 쉬워집니다. 방향이 없으면 좋은 뜻의 한자를 계속 추가하게 되고, 결과적으로 이름이 산만해집니다.</p>
+
+<div style="margin: 22px 0; padding: 18px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><strong>남아 이름의 기본 비율</strong></p>
+  <p>한 글자가 강하면 다른 한 글자는 차분하게, 소리가 강하면 한자 의미는 단정하게 맞추는 식으로 전체 무게를 조절합니다. 이름은 한 글자의 뜻보다 성씨까지 붙인 전체 인상으로 판단해야 합니다.</p>
+</div>
+
+<h2 id="sound-power-check">2. 힘 있는 이름 소리는 초성, 모음, 받침에서 결정됩니다</h2>
+<p>힘 있는 이름 소리는 단순히 센 자음을 쓰는 것이 아닙니다. ㄱ, ㄷ, ㅂ, ㅈ 계열 초성은 이름을 또렷하게 만들 수 있고, ㅁ, ㄴ, ㅇ 계열은 안정감과 부드러움을 줍니다. 받침이 있는 이름은 마무리가 단단해 보이고, 받침이 없는 이름은 열린 느낌과 속도감이 생깁니다. 예를 들어 건우, 도윤, 지훈, 서준, 민재 같은 이름은 각기 다른 방식으로 중심을 잡습니다.</p>
+
+<p>성씨와 붙여 읽을 때도 차이가 큽니다. 김, 박, 최, 정처럼 흔한 성씨라도 끝소리와 이름 첫소리의 충돌이 다릅니다. 성씨가 이미 강한 받침으로 닫히면 이름 첫 글자를 너무 무겁게 시작하지 않는 편이 자연스러울 수 있습니다. 성씨가 열린 소리라면 이름 안에 받침이나 분명한 초성을 넣어 중심을 줄 수도 있습니다.</p>
+
+<ul>
+  <li><strong>초성의 힘:</strong> ㄱ, ㄷ, ㅈ은 또렷함을 주지만 반복되면 딱딱해질 수 있습니다.</li>
+  <li><strong>모음의 폭:</strong> ㅏ, ㅗ는 밝고 열린 느낌, ㅜ, ㅡ는 차분하고 묵직한 느낌을 줍니다.</li>
+  <li><strong>받침의 역할:</strong> ㄴ, ㅇ, ㅁ은 안정적이고, ㄱ, ㄹ, ㅂ은 이름을 더 분명하게 닫습니다.</li>
+  <li><strong>반복 점검:</strong> 같은 자음이나 비슷한 음절이 겹치면 이름이 장난스럽게 들릴 수 있습니다.</li>
+</ul>
+
+<p>멋진 남자 아기 이름을 찾을 때는 후보를 눈으로만 보지 말고 실제로 불러 봐야 합니다. 이름은 문서에 적힌 글자이면서 동시에 매일 반복되는 소리입니다. 발음이 편하지 않으면 좋은 한자를 써도 만족도가 떨어질 수 있습니다.</p>
+
+<h2 id="hanja-weight-map">3. 아들 이름 한자는 의미의 무게를 나누어 봅니다</h2>
+<p>아들 이름 한자를 고를 때는 한자를 성격별로 나누어 보면 선택이 쉽습니다. 아래 한자는 후보를 넓히기 위한 예시이며, 최종 선택 전에는 인명용 한자 여부, 정확한 뜻, 획수, 자원오행을 다시 확인하는 것이 좋습니다.</p>
+
+<div style="display: grid; gap: 14px; margin: 18px 0;">
+  <div style="padding: 16px; background: rgba(255,255,255,0.04); border-radius: 10px;">
+    <h3 style="margin-top: 0;">지혜와 판단력을 담는 한자</h3>
+    <p><strong>智 지</strong>는 지혜의 뜻이 분명하고, <strong>睿 예</strong>는 깊이 보는 총명함의 이미지가 있습니다. <strong>賢 현</strong>은 어질고 뛰어난 사람의 뜻을 담아 단정한 남아 이름에 자주 검토됩니다. 다만 지혜 관련 한자만 겹치면 이름이 머리로만 무거워질 수 있으므로 소리나 다른 글자로 생기를 보완할 수 있습니다.</p>
+  </div>
+  <div style="padding: 16px; background: rgba(255,255,255,0.04); border-radius: 10px;">
+    <h3 style="margin-top: 0;">성장과 큰 그릇을 담는 한자</h3>
+    <p><strong>宇 우</strong>는 집, 공간, 큰 세계의 이미지를 담고, <strong>旻 민</strong>은 하늘의 뜻으로 맑고 넓은 느낌을 줍니다. <strong>俊 준</strong>은 뛰어남과 빼어남의 뜻이 있어 익숙한 남자 이름 소리에 잘 붙습니다. <strong>成 성</strong>은 이룸과 완성의 뜻이 분명하지만, 다른 글자까지 성취 이미지만 강하면 부담이 커질 수 있습니다.</p>
+  </div>
+  <div style="padding: 16px; background: rgba(255,255,255,0.04); border-radius: 10px;">
+    <h3 style="margin-top: 0;">보호와 안정감을 담는 한자</h3>
+    <p><strong>佑 우</strong>는 돕고 보호한다는 뜻으로 따뜻한 인상을 줍니다. <strong>安 안</strong>은 안정과 평안을 담고, <strong>泰 태</strong>는 크고 편안한 상태의 이미지를 줍니다. <strong>奎 규</strong>는 별과 문장, 빛나는 기준의 느낌이 있어 단정하면서도 존재감 있는 후보가 됩니다.</p>
+  </div>
+  <div style="padding: 16px; background: rgba(255,255,255,0.04); border-radius: 10px;">
+    <h3 style="margin-top: 0;">실행력과 활기를 담는 한자</h3>
+    <p><strong>健 건</strong>은 건강하고 굳센 이미지가 있고, <strong>燦 찬</strong>은 빛나고 밝은 인상을 줍니다. <strong>赫 혁</strong>은 뚜렷하고 빛나는 느낌이 강하므로 다른 글자와 성씨의 무게를 함께 봐야 합니다. <strong>律 율</strong>은 질서와 리듬의 뜻이 있어 강함을 차분하게 정리하는 데 도움이 될 수 있습니다.</p>
+  </div>
+</div>
+
+<p>예를 들어 도윤이라는 소리라도 道潤, 度允, 到玧처럼 어떤 글자를 쓰느냐에 따라 이름의 인상은 달라집니다. 서준도 瑞俊이면 길한 기운과 뛰어남이 강조되고, 敍準처럼 차분한 정리감이 들어갈 수도 있습니다. 같은 발음이라도 한자가 바뀌면 이름의 무게와 방향이 달라지므로, 소리와 한자를 따로 보지 말고 한 번에 비교해야 합니다.</p>
+
+<h2 id="element-adjustment">4. 남아 이름 오행은 강한 기운을 더하기보다 필요한 기운을 맞춥니다</h2>
+<p><strong>남아 이름 오행</strong>을 볼 때 흔한 실수는 부족한 오행을 이름에 무조건 많이 넣으려는 것입니다. 오행은 많을수록 좋은 점수가 되는 방식이 아니라, 전체 조합에서 필요한 기운을 어떻게 보완할지 보는 참고 체계입니다. 사주 원국, 성씨의 소리, 이름의 발음오행, 한자의 자원오행을 함께 놓고 봐야 합니다.</p>
+
+<p>목 기운이 필요하다면 성장과 뻗어 나가는 이미지가 있는 東, 林, 柱, 彬 같은 글자를 검토할 수 있습니다. 화 기운이 필요하면 밝음과 표현을 담은 昊, 燦, 炫, 旭 같은 글자가 후보가 될 수 있습니다. 토 기운은 安, 宇, 均, 城처럼 중심과 안정의 이미지를 볼 수 있고, 금 기운은 鉉, 鎭, 錫, 銘처럼 단단함과 정리의 느낌을 봅니다. 수 기운은 泫, 洙, 河, 潤처럼 흐름과 지혜의 이미지를 참고할 수 있습니다.</p>
+
+<p>다만 한자의 자원오행 해석은 작명 방식에 따라 다르게 볼 수 있으므로, 한 글자만 떼어 단정하지 않는 것이 좋습니다. 이름 전체가 너무 뜨겁게 느껴지면 물이나 토의 차분한 글자를 함께 볼 수 있고, 이름이 너무 무겁고 닫혀 있으면 밝은 모음이나 화의 이미지를 검토할 수 있습니다. 중요한 것은 오행표에 이름을 끼워 맞추는 것이 아니라, 실제로 부르기 자연스러운 이름 안에서 균형을 찾는 것입니다.</p>
+
+<div style="margin: 24px 0; padding: 18px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><strong>후보가 두세 개로 좁혀졌다면</strong></p>
+  <p><a href="/ko/seongmyeong-analysis" style="text-decoration: underline; color: #f9d976;">성명학 이름 풀이</a>에서 성씨, 발음오행, 한자 의미, 자원오행 흐름을 함께 비교해 보세요. 강한 뜻만 보는 것보다 전체 조합을 비교할 때 후보 선택이 명확해집니다.</p>
+</div>
+
+<h2 id="candidate-test">5. 최종 이름 후보는 네 단계로 걸러 봅니다</h2>
+<p>남아 이름 추천 목록을 오래 볼수록 후보가 늘어나는 경우가 많습니다. 마지막 단계에서는 더 찾기보다 줄이는 것이 중요합니다. 성씨까지 붙인 전체 이름을 기준으로 3개만 남기고, 아래 순서로 점검해 보세요.</p>
+
+<ol>
+  <li><strong>소리 먼저 확인:</strong> 가족이 자연스럽게 부를 수 있는지, 성씨와 붙였을 때 발음이 막히지 않는지 봅니다.</li>
+  <li><strong>한자 무게 확인:</strong> 성공, 승리, 권위의 의미가 과하게 겹치지 않는지 확인합니다.</li>
+  <li><strong>오행 방향 확인:</strong> 사주에서 보완하고 싶은 기운과 이름의 소리, 자원오행이 크게 어긋나지 않는지 봅니다.</li>
+  <li><strong>생활 표기 확인:</strong> 한글, 한자, 영어 표기에서 읽기 어렵거나 놀림으로 이어질 부분이 없는지 살핍니다.</li>
+</ol>
+
+<p>좋은 남자아이 이름 한자는 아이를 강하게 밀어붙이는 글자가 아니라, 이름을 부를 때마다 분명하고 안정된 인상을 주는 글자입니다. 힘 있는 이름 소리는 필요하지만, 그 힘이 거칠거나 무겁게 느껴지지 않아야 합니다. 남아 이름 오행도 이름의 운명을 단정하는 공식이 아니라, 소리와 한자 의미가 한쪽으로 치우치지 않도록 돕는 판단 기준입니다. 결국 오래 쓰기 좋은 이름은 강한 글자 하나보다 전체 조합이 편안한 이름입니다.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/ko/name-reading/name-five-elements" style="text-decoration: underline; color: #f9d976;">[관련 글] 이름 오행 분석: 소리와 기운의 조화 읽기</a></p>
+  <p><a href="/ko/name-reading/name-hanja-meaning" style="text-decoration: underline; color: #f9d976;">[관련 글] 이름 한자 뜻 풀이: 좋은 한자와 피해야 할 한자</a></p>
+</div>
+</section>
+    `,
+    contentEn: `
+<section>
+<p>A <strong>Korean boy baby name guide</strong> often begins with the idea of strength. Parents may want a son's name to sound clear, confident, and capable. They may look for Hanja that mean wisdom, greatness, brightness, success, protection, or growth. These meanings can be useful, but a boy's name should not become heavy just because every character is powerful. A strong Korean name works best when the sound, Hanja meaning, surname rhythm, and Five Element balance support each other without feeling forced.</p>
+
+<p>When choosing boy name Hanja, the question is not simply which character has the strongest meaning. The better question is how much weight the full name can carry. A name with a sharp surname, strong consonants, and intense Hanja may sound impressive at first, but it can also feel rigid in daily life. A name with only soft sounds may be easy to call, but it may lack a clear center. The practical goal is to create a name that feels firm, usable, and balanced from childhood into adulthood.</p>
+
+<h2 id="boy-name-balance">1. Balance Standards for a Korean Boy Name</h2>
+<p>For a Korean boy name, strength should be balanced with clarity and long-term usability. Characters such as 勝, 雄, 豪, and 龍 carry a strong image, but they are not automatically better than calmer characters. If the surname is already heavy or the second Hanja is also forceful, the full name may sound too intense. In many cases, one strong element is enough. The other part of the name can provide wisdom, steadiness, warmth, or rhythm.</p>
+
+<p>Before collecting Hanja, define the intended direction of the name. A family may want a bright and upright name, a calm and dependable name, a name with growth and ambition, or a name that combines intelligence and action. This direction helps parents filter candidates. Without it, every good character looks tempting, and the candidate list becomes unfocused.</p>
+
+<p>A practical rule is to adjust the weight. If one character is bright and expressive, the other can be more stable. If the sound is hard and closed, the Hanja meaning can be calmer. If the surname is soft and open, the given name can include a clearer consonant or ending. The full name matters more than any single character.</p>
+
+<h2 id="sound-power-check">2. How Strong Name Sounds Work</h2>
+<p>Strong sound in a Korean boy name comes from initials, vowels, and final consonants. Initial sounds such as g, d, b, and j can make a name feel clear and direct. Sounds such as m, n, and ng can add stability or softness. Open vowels can make the name feel bright and quick, while lower or rounder vowels can make it feel deeper. Final consonants can give the name a firm ending, but too many hard stops may make the full name feel stiff.</p>
+
+<p>Names such as Geonu, Doyun, Jihoon, Seojun, Minjae, Hajun, and Yuchan show different kinds of strength. Some are clear because of the initial sound. Some are stable because of the ending. Some feel modern because the vowels move smoothly. None of these sounds is automatically right for every family. The surname changes the rhythm. A name that sounds balanced alone may collide with the last consonant of the surname.</p>
+
+<p>Parents should say the full name aloud many times. They should also test how it sounds when called quickly, written in initials, and romanized for English use. A name is not only a written form. It is a sound that will be repeated by parents, teachers, friends, coworkers, and official systems. If the sound is uncomfortable, even a good Hanja combination may not feel satisfying.</p>
+
+<h2 id="hanja-weight-map">3. Boy Name Hanja by Meaning</h2>
+<p>Boy name Hanja can be sorted by the type of strength they express. For wisdom and judgment, 智 means wisdom, 睿 suggests deep insight, and 賢 means virtuous and capable. These characters are useful when parents want an intelligent and upright impression. The caution is that wisdom characters can feel heavy if the whole name becomes too serious, so the sound or second character may need more warmth.</p>
+
+<p>For growth and a large-minded image, 宇 suggests space, house, or a broad world; 旻 suggests the sky; 俊 means outstanding or talented; and 成 means achievement or completion. These characters are often considered for sons because they suggest potential. However, achievement-related meanings should not become pressure. A name can express growth without demanding success from the child.</p>
+
+<p>For protection and steadiness, 佑 means help or protection, 安 means peace and stability, 泰 suggests a broad and comfortable state, and 奎 has an image connected with stars, writing, and refined standards. These characters can balance a stronger sound. They are especially useful when the spoken name already has a firm or masculine rhythm.</p>
+
+<p>For action and brightness, 健 suggests health and firmness, 燦 means brilliant or shining, 赫 suggests a vivid and bright presence, and 律 means rhythm, order, or principle. These characters can give the name movement, but they should be checked carefully with the surname and other character. A very bright or forceful character may be better paired with a calmer element.</p>
+
+<p>The same Korean sound can change greatly depending on Hanja. Doyun may be read with characters that suggest moral path and rich flow, or with characters that suggest measure and uprightness. Seojun may feel auspicious and outstanding with one combination, or more composed and measured with another. This is why Korean male name meaning fortune should not be read only from pronunciation. Hanja, sound, and surname must be compared together.</p>
+
+<h2 id="element-adjustment">4. Adjusting Ohaeng in a Korean Baby Boy Name</h2>
+<p><strong>Korean baby boy name Ohaeng</strong>, or Five Element balance, is often misunderstood. It does not mean adding as much of one missing element as possible. It means reading the chart, surname, sound, and Hanja to see what kind of support may be useful. Different naming traditions may interpret Hanja elements in slightly different ways, so the element should be treated as a reference rather than a guaranteed formula.</p>
+
+<p>If a Wood image is helpful, characters such as 東, 林, 柱, or 彬 may be considered because they suggest growth, trees, structure, or refinement. If Fire is helpful, 昊, 燦, 炫, or 旭 may add brightness and expression. If Earth is useful, 安, 宇, 均, or 城 may suggest stability and a central foundation. If Metal is needed, 鉉, 鎭, 錫, or 銘 may add firmness, order, or a refined edge. If Water is useful, 泫, 洙, 河, or 潤 may suggest flow, calmness, and wisdom.</p>
+
+<p>The key is to avoid forcing the name. If a boy's Saju already carries a strong Fire image, a very bright and intense name may feel excessive. If the surname and sound are already heavy, adding very hard Metal images may make the full name rigid. If the name feels too soft, a clearer consonant, a stable final sound, or a more grounded Hanja may help. Ohaeng should narrow the choices and improve balance, not replace the natural usability of the name.</p>
+
+<p>It is also important not to treat the name as a promise of destiny. In traditional name reading, a name can influence impression, memory, and symbolic balance, but it is one layer among birth chart, family environment, education, timing, and personal effort. A good name supports the child by being clear, meaningful, and easy to carry. It should not be used to guarantee a certain result.</p>
+
+<h2 id="candidate-test">5. Final Candidate Test</h2>
+<p>When the list becomes too long, stop searching and start removing candidates. Keep three full names including the surname. For each one, test sound, Hanja meaning, element direction, and daily use. Say it as a parent would call it. Write it in Hangul, Hanja, and romanized form. Imagine it in a classroom, on a resume, in a professional introduction, and in family conversation.</p>
+
+<ol>
+  <li><strong>Sound test:</strong> Check whether the surname and given name flow naturally without awkward stops.</li>
+  <li><strong>Meaning weight:</strong> Make sure success, victory, authority, or brilliance are not stacked too heavily.</li>
+  <li><strong>Element direction:</strong> Compare the desired Five Element support with the sound and Hanja of the name.</li>
+  <li><strong>Daily usability:</strong> Check initials, possible teasing, English spelling, and ease of writing.</li>
+</ol>
+
+<p>A good boy name Hanja combination is not the one with the most forceful character. It is the one whose sound, meaning, and balance remain comfortable over time. Strong sound can be helpful, but it should not become harsh. Meaning can be ambitious, but it should not become pressure. Five Element balance can guide the selection, but the final name still has to be natural when spoken. The best Korean boy baby name is usually the name that feels clear, steady, and usable in real life.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/name-reading/name-five-elements" style="text-decoration: underline; color: #f9d976;">[Related] Korean Name Five Elements: Reading Sound and Energy</a></p>
+  <p><a href="/en/name-reading/name-hanja-meaning" style="text-decoration: underline; color: #f9d976;">[Related] Korean Name Hanja Meaning: How Characters Are Read</a></p>
+</div>
+</section>
+    `,
+    faq: [
+      { q: '남자아이 이름 한자는 강한 뜻이 많을수록 좋은가요?', a: '그렇지 않습니다. 남자아이 이름 한자는 힘 있는 뜻과 단정한 뜻의 균형이 중요합니다. 강한 한자만 겹치면 이름이 무겁게 느껴질 수 있으므로 성씨, 발음, 오행을 함께 봐야 합니다.' },
+      { q: '남아 이름 오행은 어떻게 맞추나요?', a: '사주에서 보완하고 싶은 기운을 참고하되, 이름의 발음오행과 한자 자원오행이 전체적으로 자연스럽게 이어지는지 봅니다. 부족한 오행을 무조건 많이 넣기보다 균형을 맞추는 방식이 좋습니다.' },
+      { q: '아들 이름 한자를 고를 때 피해야 할 조합은 무엇인가요?', a: '승리, 권위, 강함의 의미가 과하게 겹치는 조합, 성씨와 붙였을 때 발음이 딱딱한 조합, 영어 표기나 별명으로 오해될 수 있는 이름은 다시 검토하는 편이 좋습니다.' },
+    ],
+    faqEn: [
+      { q: 'Are stronger Hanja meanings always better for a Korean boy name?', a: 'No. A boy name should balance strength with clarity, stability, and usability. Too many forceful meanings can make the name feel heavy.' },
+      { q: 'How do I balance Ohaeng in a Korean baby boy name?', a: 'Use the Saju chart as a reference, then compare pronunciation elements and Hanja elements. The goal is balanced support, not forcing one element into the name.' },
+      { q: 'What should parents avoid when choosing boy name Hanja?', a: 'Avoid stacking too many meanings of victory, authority, or force; avoid awkward surname rhythm; and check initials, teasing risk, and romanized spelling before deciding.' },
+    ],
+    relatedPosts: [
+      { slug: 'name-five-elements', category: 'seongmyeong', title: '이름 오행 분석: 소리와 기운의 조화 읽기' },
+      { slug: 'name-hanja-meaning', category: 'seongmyeong', title: '이름 한자 뜻 풀이: 좋은 한자와 주의할 한자' },
+      { slug: 'baby-naming', category: 'seongmyeong', title: '자녀 작명 기준: 사주와 성명학을 함께 보는 법' },
+    ],
+  },
 ], '2026-01-11', 4, '2026-02-13', 1);
