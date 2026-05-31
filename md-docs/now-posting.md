@@ -418,7 +418,7 @@
 - 하위 키워드 EN: korean baby boy name ohaeng, boy name hanja, cool korean boy names 2026
 - 작성 지침: 남아 이름의 한자 의미, 발음의 힘, 오행 균형을 중심으로 예시를 제시한다. 여아 이름 글과 같은 문단 구조 반복 금지.
 
-[ ] 43. 이름 금기 한자 — 피해야 할 뜻과 작명 예외 기준
+[완료] 43. 이름 금기 한자 — 피해야 할 뜻과 작명 예외 기준
 - slug: `bad-hanja-names`
 - 카테고리: `seongmyeong`
 - 메인 키워드 KO: 이름 금기 한자, 피해야 할 이름 한자
@@ -427,7 +427,7 @@
 - 하위 키워드 EN: inauspicious hanja names, avoid these hanja, unlucky name characters korea
 - 작성 지침: bad-hanja-name 계열 검색 의도 대응. 실제로 이름에 자주 쓰이지만 성명학에서 주의하는 한자 30개 이상, 피하는 이유와 예외적으로 쓸 수 있는 조건을 함께 설명.
 
-[ ] 44. 반려동물 이름 짓는 법 — 오행으로 찾는 행운의 이름
+[완료] 44. 반려동물 이름 짓는 법 — 오행으로 찾는 행운의 이름
 - slug: `pet-name-fortune`
 - 카테고리: `seongmyeong`
 - 메인 키워드 KO: 반려동물 이름 짓기, 강아지 이름 추천
@@ -436,7 +436,7 @@
 - 하위 키워드 EN: dog name korean fortune, cat name ohaeng, pet name meaning korean
 - 작성 지침: 반려동물 이름을 오행·수리로 짓는 방법. 강아지/고양이별 인기 이름 예시 포함.
 
-[ ] 45. 개명 후 실제 변화 — 이름 바꾸면 운이 달라지나?
+[완료] 45. 개명 후 실제 변화 — 이름 바꾸면 운이 달라지나?
 - slug: `name-change-effect`
 - 카테고리: `seongmyeong`
 - 메인 키워드 KO: 개명 효과, 개명 후 변화

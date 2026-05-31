@@ -61,35 +61,38 @@ Updated At: 2026-05-31 KST
 | 40 | 2026 태명 추천 — 오행과 부르기 쉬운 소리 조합 | `fetal-name-guide` |
 | 41 | 여자아이 이름 한자 추천 — 부드러운 소리와 오행 조합 | `girl-name-creation` |
 | 42 | 남자아이 이름 한자 추천 — 힘 있는 소리와 오행 조합 | `boy-name-creation` |
+| 43 | 이름 금기 한자 — 피해야 할 뜻과 작명 예외 기준 | `bad-hanja-names` |
+| 44 | 반려동물 이름 짓는 법 — 오행으로 찾는 행운의 이름 | `pet-name-fortune` |
+| 45 | 개명 후 실제 변화 — 이름 바꾸면 운이 달라지나? | `name-change-effect` |
 
 ---
 
 ## 현재 작성 대상
 
-[완료] 42. 남자아이 이름 한자 추천 — 힘 있는 소리와 오행 조합
-- slug: `boy-name-creation`
+[완료] 45. 개명 후 실제 변화 — 이름 바꾸면 운이 달라지나?
+- slug: `name-change-effect`
 - 카테고리: `seongmyeong`
 - 작성 파일: `lib/blog/seongmyeong-posts.ts`
-- 메인 키워드 KO: 남자아이 이름 한자, 남아 이름 오행
-- 메인 키워드 EN: korean boy baby name guide, korean male name meaning fortune
-- 하위 키워드 KO: 멋진 남자 아기 이름, 아들 이름 한자, 힘 있는 이름 소리, 남아 이름 추천
-- 하위 키워드 EN: korean baby boy name ohaeng, boy name hanja, cool korean boy names 2026
-- 작성 지침: 남아 이름의 한자 의미, 발음의 힘, 오행 균형을 중심으로 예시를 제시한다. 여아 이름 글과 같은 문단 구조 반복 금지.
+- 메인 키워드 KO: 개명 효과, 개명 후 변화
+- 메인 키워드 EN: korean name change effect, does name change affect fortune korea
+- 하위 키워드 KO: 개명 실제 효과, 이름 바꾸면 운 바뀌나, 개명 성공 사례, 개명 주의사항
+- 하위 키워드 EN: name change luck korea, legal name change fortune, name revision effect
+- 작성 지침: name-change(개명 방법)와 다름. 개명 후 실제 변화 사례·심리적 효과·주의사항 중심.
 - 완료 파일: `lib/blog/seongmyeong-posts.ts`
 
 ---
 
 ## 다음 작성 예정 상세
 
-[ ] 43. 이름 금기 한자 — 피해야 할 뜻과 작명 예외 기준
-- slug: `bad-hanja-names`
-- 카테고리: `seongmyeong`
-- 작성 파일: `lib/blog/seongmyeong-posts.ts`
-- 메인 키워드 KO: 이름 금기 한자, 피해야 할 이름 한자
-- 메인 키워드 EN: bad hanja for korean names, unlucky chinese characters korean name
-- 하위 키워드 KO: 이름 금기 한자, 불길한 이름 한자, 이름 피해야 할 글자, 나쁜 의미 이름
-- 하위 키워드 EN: inauspicious hanja names, avoid these hanja, unlucky name characters korea
-- 작성 지침: bad-hanja-name 계열 검색 의도 대응. 실제로 이름에 자주 쓰이지만 성명학에서 주의하는 한자 30개 이상, 피하는 이유와 예외적으로 쓸 수 있는 조건을 함께 설명.
+[ ] 46. 사주 명식 해석 예시 — 천간·지지·오행 단계별 풀이
+- slug: `saju-chart-example-reading`
+- 카테고리: `saju`
+- 작성 파일: `lib/blog/saju-posts.ts`
+- 메인 키워드 KO: 사주 명식 해석 예시, 사주 명식 보는법
+- 메인 키워드 EN: saju chart example reading, four pillars chart interpretation example
+- 하위 키워드 KO: 사주 원국 예시, 천간 지지 해석, 오행 비율 읽기, 십성 배치 예시
+- 하위 키워드 EN: saju birth chart example, heavenly stems earthly branches reading, five elements chart example
+- 작성 지침: 기존 intro(사주팔자 뜻·기초)와 다름. 하나의 실제 예시 명식을 정해 천간·지지·오행·십성 순서로 풀이한다. `사주팔자란`, `무료`, `뜻` 키워드는 메인 의도로 쓰지 않는다.
 
 ---
 
@@ -97,9 +100,6 @@ Updated At: 2026-05-31 KST
 
 | 번호 | category | slug | 제목 |
 |---:|---|---|---|
-| 43 | seongmyeong | `bad-hanja-names` | 이름 금기 한자 — 피해야 할 뜻과 작명 예외 기준 |
-| 44 | seongmyeong | `pet-name-fortune` | 반려동물 이름 짓는 법 — 부르기 쉬운 소리와 오행 아이디어 |
-| 45 | seongmyeong | `name-change-effect` | 개명 효과와 실제 변화 — 이름 바꾸면 달라지는 것과 한계 |
 | 46 | saju | `saju-chart-example-reading` | 사주 명식 해석 예시 — 천간·지지·오행 단계별 풀이 |
 | 47 | seongmyeong | `surname-name-ohaeng-match` | 성씨 초성과 이름 첫소리 오행 — 발음오행 충돌 피하는 법 |
 | 48 | seongmyeong | `brand-name-fortune` | 브랜드명 오행 분석 — 스타트업 이름 짓기와 상호 작명 차이 |
