@@ -183,16 +183,6 @@ export default function BlogPostPage({ post, locale }: Props) {
 
       <div className="max-w-3xl mx-auto px-4 py-8">
 
-        {/* Top CTA */}
-        <Link href={analysisHref} className="block card-glow p-4 mb-8 text-center hover:opacity-90 transition-opacity">
-          <p className="text-yellow-300 font-bold">
-            {isKo ? '무료 사주 종합 분석, 생년월일만 입력하면 즉시 전체 결과 확인' : 'Free Saju Analysis - Instant Results with Birth Date'}
-          </p>
-          <span className="inline-block mt-2 btn-gold text-sm px-6 py-2">
-            {isKo ? '지금 무료 분석 받기' : 'Get Free Analysis Now'}
-          </span>
-        </Link>
-
         {/* Breadcrumb */}
         <nav className="text-sm text-white/50 mb-4 flex gap-2">
           <Link href={homeHref} className="hover:text-yellow-300">{isKo ? '홈' : 'Home'}</Link>
@@ -218,6 +208,9 @@ export default function BlogPostPage({ post, locale }: Props) {
             unoptimized
           />
         </div>
+
+        {/* AdSense 상단 */}
+        <AdSense slot="1234567890" format="horizontal" className="mb-8" />
 
         <div className="card-dark p-4 mb-8">
           <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
@@ -265,9 +258,6 @@ export default function BlogPostPage({ post, locale }: Props) {
             </ul>
           </div>
         )}
-
-        {/* AdSense 상단 */}
-        <AdSense slot="1234567890" format="horizontal" className="mb-8" />
 
         {/* Content */}
         {(() => {

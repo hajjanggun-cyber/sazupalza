@@ -1,0 +1,26 @@
+export const LIVE_AD_SLOT = '3446997082';
+
+const PLACEHOLDER_AD_SLOTS = new Set([
+  '0011223344',
+  '0987654321',
+  '1122334455',
+  '1234567890',
+  '2233445500',
+  '2233445566',
+  '2233445567',
+  '3344556600',
+  '3344556677',
+  '3344556678',
+  '4455667788',
+  '5566778800',
+  '5566778899',
+  '6677889900',
+  '6677889911',
+  '7788990011',
+  '8899001122',
+  '9900112233',
+]);
+
+export function resolveAdSenseSlot(slot: string): string {
+  return PLACEHOLDER_AD_SLOTS.has(slot) ? LIVE_AD_SLOT : slot;
+}

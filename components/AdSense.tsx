@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { useLocale } from 'next-intl';
+import { resolveAdSenseSlot } from '@/lib/adsense';
 
 interface AdSenseProps {
   slot: string;
@@ -9,11 +10,10 @@ interface AdSenseProps {
   className?: string;
 }
 
-const LIVE_AD_SLOT = '3446997082';
-
 export default function AdSense({ slot, format = 'auto', className = '' }: AdSenseProps) {
   const locale = useLocale();
   const label = locale === 'ko' ? '광고' : 'Advertisement';
+  const adSlot = resolveAdSenseSlot(slot);
   const adRef = useRef<HTMLModElement | null>(null);
   const [isHidden, setIsHidden] = useState(false);
   const [isFilled, setIsFilled] = useState(false);
@@ -68,22 +68,11 @@ export default function AdSense({ slot, format = 'auto', className = '' }: AdSen
       setIsHidden(true);
     }
 
-    const fallbackTimer = window.setTimeout(() => {
-      updateVisibility();
-
-      const adStatus = adElement.getAttribute('data-ad-status');
-      const iframe = adElement.querySelector('iframe');
-      if (adStatus !== 'filled' && !iframe) {
-        setIsHidden(true);
-      }
-    }, 2500);
-
     return () => {
       cancelled = true;
       observer.disconnect();
-      window.clearTimeout(fallbackTimer);
     };
-  }, [slot]);
+  }, [adSlot]);
 
   if (process.env.NODE_ENV === 'development') {
     const sizeMap = {
@@ -117,7 +106,7 @@ export default function AdSense({ slot, format = 'auto', className = '' }: AdSen
           className="adsbygoogle"
           style={{ display: 'block' }}
           data-ad-client="ca-pub-2524681039359256"
-          data-ad-slot={LIVE_AD_SLOT}
+          data-ad-slot={adSlot}
           data-ad-format={format}
           data-full-width-responsive="true"
         />
