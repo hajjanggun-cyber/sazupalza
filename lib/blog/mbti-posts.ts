@@ -1209,4 +1209,218 @@ export const mbtiPosts: BlogPost[] = distributePublishedDates([
       { slug: 'compatibility-table', category: 'mbti', title: 'MBTI별 찰떡궁합 사주 일주 매칭' },
     ],
   },
+  {
+    slug: 'mbti-health-saju',
+    title: 'MBTI별 건강 약점: 사주 오행으로 보는 16유형 건강 관리법',
+    seoTitle: 'MBTI별 건강 약점: 사주 오행으로 보는 16유형 건강 관리법',
+    seoTitleEn: 'MBTI Health Weakness by Type: Saju Five Elements Wellness Guide',
+    description: 'MBTI 건강 약점을 사주 오행 관점에서 스트레스 반응, 생활 리듬, 회복 루틴으로 정리합니다. 의학적 진단이 아닌 자기 관리 참고 가이드입니다.',
+    descriptionEn: 'Explore MBTI health weakness patterns through Saju five elements, stress responses, recovery rhythm, and practical self-care. This is a wellness guide, not medical diagnosis.',
+    keywords: ['MBTI 건강', 'MBTI별 건강 약점', 'MBTI 스트레스', 'MBTI 건강 관리', '오행 건강 루틴'],
+    keywordsEn: ['MBTI health weakness', 'personality type health saju', 'MBTI stress health', '16 personality health tips', 'introvert health saju'],
+    publishedAt: '2026-06-01',
+    category: 'mbti',
+    toc: [
+      { id: 'health-map', title: '1. MBTI별 건강 약점은 질병 예언이 아니다' },
+      { id: 'four-groups', title: '2. 4그룹으로 보는 MBTI 스트레스 건강 패턴' },
+      { id: 'sixteen-types', title: '3. 16유형별 건강 관리 체크포인트' },
+      { id: 'introvert-extrovert', title: '4. 내향형 건강과 외향형 건강 관리 차이' },
+      { id: 'five-elements-routine', title: '5. 사주 오행으로 조정하는 생활 루틴' },
+      { id: 'limits', title: '6. 건강 불편감이 계속될 때의 기준' },
+    ],
+    tocEn: [
+      { id: 'health-map', title: '1. MBTI Health Weakness Is Not a Disease Prediction' },
+      { id: 'four-groups', title: '2. MBTI Stress Health Patterns by Four Groups' },
+      { id: 'sixteen-types', title: '3. Health Checkpoints for All 16 Types' },
+      { id: 'introvert-extrovert', title: '4. Introvert and Extrovert Health Routines' },
+      { id: 'five-elements-routine', title: '5. Saju Five Elements Wellness Routine' },
+      { id: 'limits', title: '6. When to Seek Professional Care' },
+    ],
+    contentKo: `
+<section>
+<p><strong>MBTI 건강</strong>을 검색하는 사람은 "내 유형은 어디가 약할까"보다 "내 성격 때문에 반복되는 피로 패턴을 어떻게 관리할까"를 알고 싶어 합니다. 이 글의 <strong>MBTI별 건강 약점</strong>은 질병을 예언하거나 특정 장기를 단정하는 방식이 아닙니다. MBTI의 에너지 사용 방식과 사주 오행의 균형 관점을 빌려 스트레스 반응, 수면 리듬, 움직임 부족, 과몰입 습관을 점검하는 자기 관리 가이드입니다.</p>
+
+<p>건강 정보는 반드시 현실 기준과 함께 봐야 합니다. CDC는 스트레스가 몸과 감정의 반응으로 나타날 수 있으며, 휴식·운동·사회적 연결·전문가 상담이 도움이 될 수 있다고 안내합니다. WHO는 성인의 신체활동과 좌식 시간 관리를 공중보건의 핵심 요소로 봅니다. NIH/NHLBI도 수면이 뇌 기능과 신체 건강 유지에 중요하다고 설명합니다. 사주와 MBTI는 이 원칙을 대신하지 않고, 내 생활 습관을 더 잘 관찰하게 해주는 언어로만 사용해야 합니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">함께 보면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/mbti/saju-five-elements" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">MBTI와 사주 오행 상관관계: 16유형 성격을 오행으로 해석하기</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/health-saju" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 건강 분석: 오행으로 보는 체질과 건강 위험 시기</a></li>
+  </ul>
+</div>
+
+<h2 id="health-map">1. MBTI별 건강 약점은 질병 예언이 아니다</h2>
+<p><strong>MBTI별 건강 약점</strong>이라는 표현은 자극적으로 보일 수 있지만, 이 글에서는 "어떤 유형은 반드시 어디가 아프다"는 뜻으로 쓰지 않습니다. 더 정확한 표현은 <strong>스트레스가 쌓일 때 흔히 무너지는 생활 패턴</strong>입니다. 예를 들어 계획형(J)은 루틴이 깨지면 긴장이 커지고, 인식형(P)은 즉흥성이 길어질수록 수면과 식사 시간이 흐트러지기 쉽습니다. 감정형(F)은 관계 스트레스를 몸으로 끌어안기 쉽고, 사고형(T)은 피로를 늦게 인정하는 경향이 있습니다.</p>
+<p>사주 오행으로 보면 목(木)은 성장과 긴장 방향, 화(火)는 흥분과 속도, 토(土)는 소화와 안정감의 상징, 금(金)은 호흡과 경계, 수(水)는 회복과 수면의 상징으로 읽습니다. 이것은 의학적 장기 진단이 아니라 전통 명리에서 쓰는 상징 언어입니다. 따라서 "화가 많으면 심장이 나쁘다"처럼 단정하지 말고, "흥분과 과속 루틴을 낮추자"처럼 생활 조절의 힌트로 해석하는 것이 안전합니다.</p>
+
+<h2 id="four-groups">2. 4그룹으로 보는 MBTI 스트레스 건강 패턴</h2>
+<p><strong>MBTI 스트레스</strong>는 16유형을 모두 외우기 전에 4그룹으로 보면 훨씬 명확합니다. NF, NT, SJ, SP는 스트레스를 받는 이유와 회복 방식이 다르기 때문입니다.</p>
+<h3>NF형: 감정 피로와 관계 과부하</h3>
+<p>INFJ, INFP, ENFJ, ENFP는 의미와 관계를 크게 느끼는 편입니다. 스트레스가 쌓이면 타인의 감정까지 자신의 책임처럼 받아들이고, 생각이 밤까지 이어지면서 수면 리듬이 흔들릴 수 있습니다. 사주 오행으로는 목과 화가 과열된 상태로 비유할 수 있습니다. 관리 포인트는 감정 대화를 줄이라는 뜻이 아니라, 하루 끝에 연락·상담·생각 정리 시간을 명확히 끊는 것입니다.</p>
+<h3>NT형: 과몰입과 회복 지연</h3>
+<p>INTJ, INTP, ENTJ, ENTP는 문제 해결과 분석에 강하지만 몸의 피로 신호를 늦게 인정하기 쉽습니다. 머리는 깨어 있는데 몸은 이미 지친 상태가 반복될 수 있습니다. 금과 수가 마른 상태로 비유하면, 규칙적인 수면과 가벼운 유산소 활동이 우선입니다. "조금만 더"가 반복된다면 생산성이 아니라 회복 부채가 쌓이는 중일 수 있습니다.</p>
+<h3>SJ형: 책임 누적과 긴장 고정</h3>
+<p>ISTJ, ISFJ, ESTJ, ESFJ는 맡은 일을 끝까지 책임지려는 성향이 강합니다. 장점이지만, 거절하지 못한 업무와 가족 책임이 쌓이면 몸이 굳고 쉬어도 쉰 느낌이 약해질 수 있습니다. 토와 금이 과하게 조여진 상태로 보면, 체크리스트를 더 늘리는 것보다 "오늘 하지 않아도 되는 일"을 지우는 것이 건강 관리입니다.</p>
+<h3>SP형: 리듬 흔들림과 즉흥 과사용</h3>
+<p>ISTP, ISFP, ESTP, ESFP는 감각과 현장 반응이 빠릅니다. 다만 즐거움과 자극이 많을 때 식사, 수면, 음주, 소비 루틴이 함께 흔들릴 수 있습니다. 화와 수의 균형이 흔들리는 모습으로 볼 수 있습니다. 관리 핵심은 자유를 없애는 것이 아니라, 최소 기준을 정하는 것입니다. 예를 들어 "외출해도 귀가 후 20분 정리, 다음 날 첫 끼는 일정하게" 같은 작은 장치가 효과적입니다.</p>
+
+<h2 id="sixteen-types">3. 16유형별 건강 관리 체크포인트</h2>
+<p>아래 표는 <strong>MBTI 건강 관리</strong>를 위한 생활 점검표입니다. 특정 질환 가능성을 말하는 것이 아니라, 유형별로 놓치기 쉬운 습관을 정리한 것입니다.</p>
+<div style="overflow-x: auto; margin: 20px 0;">
+  <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
+    <thead>
+      <tr>
+        <th style="border: 1px solid rgba(255,255,255,0.18); padding: 10px; text-align: left;">유형</th>
+        <th style="border: 1px solid rgba(255,255,255,0.18); padding: 10px; text-align: left;">무너지기 쉬운 패턴</th>
+        <th style="border: 1px solid rgba(255,255,255,0.18); padding: 10px; text-align: left;">오행식 관리 힌트</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">INFJ</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">관계 고민을 혼자 오래 붙잡음</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">수(水): 취침 전 기록 후 생각 종료</td></tr>
+      <tr><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">INFP</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">감정 기복에 따라 식사·수면 변동</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">토(土): 첫 끼와 산책 시간을 고정</td></tr>
+      <tr><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">ENFJ</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">타인 돌봄이 과해져 휴식 부족</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">금(金): 도움 요청과 거절 기준 만들기</td></tr>
+      <tr><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">ENFP</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">흥미가 많아 생활 리듬이 쉽게 분산</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">토(土): 밤 일정 개수 제한</td></tr>
+      <tr><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">INTJ</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">목표 때문에 몸 신호를 무시</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">수(水): 성과표에 수면 시간도 기록</td></tr>
+      <tr><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">INTP</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">몰입 중 식사와 움직임을 잊음</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">목(木): 90분마다 일어나 걷기</td></tr>
+      <tr><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">ENTJ</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">긴장과 경쟁 상태가 오래 지속</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">화(火) 조절: 강한 운동 뒤 이완 루틴</td></tr>
+      <tr><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">ENTP</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">자극을 쫓다 취침 시간이 늦어짐</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">금(金): 밤 토론·화면 시간 제한</td></tr>
+      <tr><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">ISTJ</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">책임을 끝내기 전 쉬지 못함</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">목(木): 업무 사이 가벼운 스트레칭</td></tr>
+      <tr><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">ISFJ</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">돌봄 피로를 참고 넘김</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">금(金): 부탁을 받을 때 즉답하지 않기</td></tr>
+      <tr><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">ESTJ</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">통제해야 편해져 긴장이 누적</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">수(水): 일정 없는 시간을 일정에 넣기</td></tr>
+      <tr><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">ESFJ</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">모임과 관계 유지로 에너지 소진</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">토(土): 식사·휴식 약속을 먼저 확보</td></tr>
+      <tr><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">ISTP</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">몸을 쓰지만 회복 루틴은 생략</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">수(水): 운동 후 수면과 수분 보충</td></tr>
+      <tr><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">ISFP</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">감정이 상하면 생활 관리가 끊김</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">목(木): 짧은 산책으로 기분 전환</td></tr>
+      <tr><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">ESTP</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">즉흥 활동 뒤 피로를 늦게 느낌</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">금(金): 음주·야식·무리한 운동 기준 설정</td></tr>
+      <tr><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">ESFP</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">즐거운 일정이 많아 회복 시간이 부족</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">수(水): 약속 다음 날 오전 비우기</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h2 id="introvert-extrovert">4. 내향형 건강과 외향형 건강 관리 차이</h2>
+<p><strong>내향형 건강</strong>의 핵심은 혼자 있는 시간이 충분한지가 아니라, 혼자 있는 시간이 실제 회복으로 이어지는지입니다. I 유형은 방 안에서 오래 쉬어도 생각과 화면이 계속 켜져 있으면 회복이 되지 않습니다. 수(水)를 보충한다는 관점에서는 조용한 시간, 일정한 수면, 낮은 자극의 걷기, 짧은 기록이 잘 맞습니다.</p>
+<p><strong>외향형 건강</strong>의 핵심은 사람을 많이 만나는 것이 아니라, 만남 뒤 몸의 속도를 낮추는 장치입니다. E 유형은 관계에서 힘을 얻지만, 계속 말하고 움직이면 화(火)가 과열된 것처럼 피로가 뒤늦게 몰릴 수 있습니다. 모임 다음 날 가벼운 식사, 20분 산책, 일정 없는 저녁을 남겨두면 에너지 낙폭을 줄이는 데 도움이 됩니다.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/ko" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">내 MBTI와 사주 오행 균형 확인하기</a>
+</div>
+
+<h2 id="five-elements-routine">5. 사주 오행으로 조정하는 생활 루틴</h2>
+<p>오행 건강 루틴은 거창할 필요가 없습니다. 목·화·토·금·수를 생활의 다섯 버튼처럼 보면 됩니다.</p>
+<ul>
+  <li><strong>목(木):</strong> 굳은 몸과 막힌 생각을 풀기 위한 걷기, 스트레칭, 햇빛 보기입니다. 오래 앉아 있는 NT, ISTJ, INTP에게 특히 필요합니다.</li>
+  <li><strong>화(火):</strong> 활력과 표현입니다. 기분이 가라앉은 I 유형에게는 짧은 대화와 리듬 운동이 도움이 되지만, ENTP·ESTP처럼 밤까지 흥분이 이어지는 유형은 늦은 시간의 강한 자극을 줄여야 합니다.</li>
+  <li><strong>토(土):</strong> 식사, 소화, 안정감의 루틴입니다. ENFP, INFP, ESFP처럼 일정이 감정과 흥미에 따라 흔들리는 유형은 첫 끼 시간과 취침 준비 시간을 고정하는 것이 우선입니다.</li>
+  <li><strong>금(金):</strong> 경계와 정리입니다. ENFJ, ISFJ, ESFJ처럼 타인의 요청을 많이 받는 유형은 "오늘은 어렵다"는 문장을 미리 준비하는 것이 건강 관리가 됩니다.</li>
+  <li><strong>수(水):</strong> 수면, 이완, 회복입니다. 목표 지향형 INTJ·ENTJ·ESTJ는 쉬는 시간을 성과의 반대말로 보지 말고 다음 집중을 만드는 준비 시간으로 봐야 합니다.</li>
+</ul>
+
+<h2 id="limits">6. 건강 불편감이 계속될 때의 기준</h2>
+<p>MBTI와 사주로 생활 패턴을 읽는 것은 흥미롭고 유용할 수 있지만, 실제 증상 판단은 별개의 문제입니다. 통증, 호흡 곤란, 극심한 피로, 수면 장애, 우울감, 불안, 식사 장애, 반복되는 소화 불편처럼 일상 기능을 방해하는 문제가 계속된다면 유형 해석보다 의료 전문가 상담이 먼저입니다. 건강운이나 오행이 나쁘다고 해서 겁먹을 필요도 없고, 반대로 좋은 조합이라고 해서 검진과 치료를 미룰 이유도 없습니다.</p>
+<p>이 글의 실전 사용법은 간단합니다. 내 유형의 문장을 하나 고르고, 오늘 바꿀 수 있는 행동을 하나만 정하십시오. 예를 들어 INFJ는 밤 상담 시간을 줄이고, ENTP는 취침 전 화면 시간을 끊고, ISFJ는 부탁을 바로 수락하지 않고, ESTP는 무리한 활동 다음 날 회복 시간을 확보하는 식입니다. <strong>MBTI 건강</strong>의 목적은 병명을 붙이는 것이 아니라, 매일 반복되는 작은 무리를 빨리 알아차리는 것입니다.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/mbti/saju-five-elements" style="text-decoration: underline; color: #f9d976;">[관련글] MBTI와 사주 오행 상관관계: 16유형 성격을 오행으로 해석하기</a></p>
+  <p><a href="/saju/ilgan-health-weakness" style="text-decoration: underline; color: #f9d976;">[관련글] 일간별 약한 장기 체크리스트: 오행별 건강 약점과 생활 관리</a></p>
+  <p style="font-size: 13px; color: rgba(255,255,255,0.72); margin-top: 14px;">참고: <a href="https://www.cdc.gov/mental-health/living-with/index.html" style="color: #F5D77E; text-decoration: underline;">CDC 스트레스 관리</a>, <a href="https://www.who.int/publications/b/55518" style="color: #F5D77E; text-decoration: underline;">WHO 신체활동 가이드라인</a>, <a href="https://www.nhlbi.nih.gov/health/sleep/why-sleep-important" style="color: #F5D77E; text-decoration: underline;">NIH/NHLBI 수면 정보</a></p>
+</div>
+</section>
+    `,
+    contentEn: `
+<section>
+<p>People searching for <strong>MBTI health weakness</strong> usually want a practical answer: "What stress pattern does my personality type repeat, and how can I manage it before it becomes exhaustion?" This guide does not claim that a personality type predicts a disease or a weak organ. It uses MBTI and Saju five elements as a reflection tool for stress rhythm, sleep habits, movement, emotional overload, and recovery routines.</p>
+
+<p>Health content should stay grounded. The CDC describes stress as a physical and emotional response and recommends practical coping steps such as rest, movement, connection, and professional support when needed. WHO guidelines emphasize physical activity and reducing sedentary behavior as important public health habits. NIH/NHLBI explains that sleep supports brain function and physical health. MBTI and Saju do not replace these principles; they simply give you a language for noticing your own pattern earlier.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">Related Reading</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/mbti/saju-five-elements" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">MBTI and Saju Five Elements: Reading 16 Types Through Energy Balance</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/saju/health-saju" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Saju Health Reading: Five Elements and Lifestyle Risk Timing</a></li>
+  </ul>
+</div>
+
+<h2 id="health-map">1. MBTI Health Weakness Is Not a Disease Prediction</h2>
+<p>The phrase <strong>MBTI health weakness</strong> can sound dramatic, but here it means a repeated lifestyle vulnerability under stress. Judging types may tense up when plans collapse. Perceiving types may lose sleep and meal rhythm when spontaneity goes too far. Feeling types may carry relational stress in the body. Thinking types may keep functioning while ignoring fatigue signals.</p>
+<p>In Saju language, Wood represents growth and tension direction, Fire represents speed and stimulation, Earth represents grounding and digestion as a symbolic theme, Metal represents boundary and breath, and Water represents sleep and recovery. These are traditional metaphors, not medical diagnosis. A safe interpretation is not "too much Fire means heart disease"; it is "my routine may be too stimulated, so I should lower the pace and protect sleep."</p>
+
+<h2 id="four-groups">2. MBTI Stress Health Patterns by Four Groups</h2>
+<p><strong>MBTI stress health</strong> becomes clearer when the 16 types are grouped into NF, NT, SJ, and SP patterns. Each group drains itself in a different way and therefore needs a different recovery trigger.</p>
+<h3>NF Types: Emotional Load and Relationship Fatigue</h3>
+<p>INFJ, INFP, ENFJ, and ENFP tend to process meaning and relationships deeply. Under stress, they may absorb other people's emotions and keep thinking late into the night. In five element language, this resembles Wood and Fire running hot. The practical solution is not to stop caring; it is to create a clear ending ritual for messages, counseling conversations, and emotional processing.</p>
+<h3>NT Types: Overfocus and Delayed Recovery</h3>
+<p>INTJ, INTP, ENTJ, and ENTP are strong at analysis and problem solving, but they may notice body fatigue too late. The mind remains active while the body has already passed its limit. When Metal and Water feel dry, sleep regularity and light aerobic movement matter more than another optimization trick. If "just one more hour" happens every night, productivity may already be borrowing from recovery.</p>
+<h3>SJ Types: Responsibility Load and Fixed Tension</h3>
+<p>ISTJ, ISFJ, ESTJ, and ESFJ often protect order, duty, and family or team stability. That strength can turn into constant muscular and emotional tension when they cannot say no. In five element terms, Earth and Metal become too tight. The answer is not a bigger checklist; it is removing one nonessential duty before the body forces a stop.</p>
+<h3>SP Types: Rhythm Disruption and Sensory Overuse</h3>
+<p>ISTP, ISFP, ESTP, and ESFP respond quickly to the present moment. They may enjoy movement, food, travel, nightlife, or intense hobbies, but sleep, meals, alcohol, spending, and recovery can become inconsistent. Think of Fire and Water moving out of balance. Freedom does not need to disappear. It needs a minimum baseline: a fixed first meal, hydration, and protected recovery after high-stimulation days.</p>
+
+<h2 id="sixteen-types">3. Health Checkpoints for All 16 Types</h2>
+<p>This <strong>16 personality health tips</strong> table is a self-check guide, not a disease list. Pick one line that feels familiar and adjust one small habit this week.</p>
+<ul>
+  <li><strong>INFJ:</strong> You may hold private relational worries for too long. Use a short evening journal, then stop analysis before sleep.</li>
+  <li><strong>INFP:</strong> Mood may disrupt meals and bedtime. Anchor the day with a stable first meal and a gentle walk.</li>
+  <li><strong>ENFJ:</strong> Helping others can consume your recovery time. Make a boundary sentence before people ask.</li>
+  <li><strong>ENFP:</strong> Too many exciting options can scatter your rhythm. Limit late-night plans and protect one fixed sleep window.</li>
+  <li><strong>INTJ:</strong> Goals may override body signals. Track sleep like a performance metric, not a luxury.</li>
+  <li><strong>INTP:</strong> Deep focus may erase movement and meals. Stand up every 90 minutes even when the idea is unfinished.</li>
+  <li><strong>ENTJ:</strong> Competition mode can stay switched on. Pair intense workouts with deliberate cooling-down and quiet time.</li>
+  <li><strong>ENTP:</strong> Debate, screens, and new ideas may delay sleep. Place a hard ending point on nighttime stimulation.</li>
+  <li><strong>ISTJ:</strong> You may refuse rest until every duty is complete. Schedule brief movement between tasks.</li>
+  <li><strong>ISFJ:</strong> Caregiving fatigue may be hidden behind politeness. Do not answer every request immediately.</li>
+  <li><strong>ESTJ:</strong> Control can feel calming until it becomes tension. Put unscheduled time on the calendar.</li>
+  <li><strong>ESFJ:</strong> Social maintenance can crowd out recovery. Reserve meals and rest before accepting more plans.</li>
+  <li><strong>ISTP:</strong> You may use the body intensely but skip recovery. Hydration, sleep, and stretching are part of the activity.</li>
+  <li><strong>ISFP:</strong> Emotional hurt may interrupt self-care. Use short walks and music as a reset before withdrawing fully.</li>
+  <li><strong>ESTP:</strong> Action can outrun fatigue. Define limits for late nights, alcohol, and risky overtraining.</li>
+  <li><strong>ESFP:</strong> Joyful schedules can leave too little quiet. Keep the morning after a major event light.</li>
+</ul>
+
+<h2 id="introvert-extrovert">4. Introvert and Extrovert Health Routines</h2>
+<p><strong>Introvert health saju</strong> starts with a simple question: is alone time actually restoring you? Many introverts stay alone with a bright screen, unfinished thoughts, and no physical decompression. Water energy is supported by low-stimulation rest, consistent sleep, gentle walking, and writing down unfinished thoughts instead of carrying them into bed.</p>
+<p>Extrovert health is different. Extroverts often gain energy from people, but they still need a downshift after talking, moving, and reacting all day. Fire can run high after social events. A lighter meal, a 20-minute walk, and an empty evening after a major gathering can prevent a sharp energy drop the next day.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">Check Your MBTI and Saju Element Balance</a>
+</div>
+
+<h2 id="five-elements-routine">5. Saju Five Elements Wellness Routine</h2>
+<p>A five elements routine does not need to be mystical or complicated. Use the elements as five lifestyle buttons.</p>
+<ul>
+  <li><strong>Wood:</strong> Walking, stretching, sunlight, and growth. Useful for types that sit too long or hold mental pressure.</li>
+  <li><strong>Fire:</strong> Expression, warmth, and activation. Helpful when mood is low, but excessive at night for high-stimulation types.</li>
+  <li><strong>Earth:</strong> Meals, grounding, and stable rhythm. Essential when curiosity, emotion, or social plans disrupt the day.</li>
+  <li><strong>Metal:</strong> Boundaries, breath, and cleanup. Important for helper types who absorb too many requests.</li>
+  <li><strong>Water:</strong> Sleep, recovery, and nervous system cooling. Crucial for high-achieving types who treat rest as wasted time.</li>
+</ul>
+
+<h2 id="limits">6. When to Seek Professional Care</h2>
+<p>MBTI and Saju can help you notice patterns, but symptoms are a separate matter. Ongoing pain, breathing difficulty, severe fatigue, insomnia, depressed mood, anxiety, disordered eating, or repeated digestive discomfort should be discussed with a qualified health professional. A difficult Saju element does not mean you should be afraid, and a favorable chart does not mean you should delay screening or treatment.</p>
+<p>The best use of this guide is small and practical. Pick one type-specific pattern and change one behavior today. INFJ can end late-night emotional analysis, ENTP can stop screens earlier, ISFJ can pause before accepting another request, and ESTP can protect recovery after intense activity. The point of MBTI health is not to label your body; it is to notice repeated strain before it becomes your default lifestyle.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/mbti/saju-five-elements" style="text-decoration: underline; color: #f9d976;">[Read Next] MBTI and Saju Five Elements: Understanding Your Energy Balance</a></p>
+  <p><a href="/en/saju/ilgan-health-weakness" style="text-decoration: underline; color: #f9d976;">[Read Next] Day Master Health Checklist: Five Elements and Lifestyle Care</a></p>
+  <p style="font-size: 13px; color: rgba(255,255,255,0.72); margin-top: 14px;">References: <a href="https://www.cdc.gov/mental-health/living-with/index.html" style="color: #F5D77E; text-decoration: underline;">CDC stress management</a>, <a href="https://www.who.int/publications/b/55518" style="color: #F5D77E; text-decoration: underline;">WHO physical activity guidelines</a>, <a href="https://www.nhlbi.nih.gov/health/sleep/why-sleep-important" style="color: #F5D77E; text-decoration: underline;">NIH/NHLBI sleep information</a></p>
+</div>
+</section>
+    `,
+    faq: [
+      { q: 'MBTI별 건강 약점은 실제 질병을 뜻하나요?', a: '아닙니다. 이 글의 MBTI별 건강 약점은 유형별로 반복되기 쉬운 스트레스 반응과 생활 습관을 설명하는 참고 정보입니다. 통증, 수면 문제, 불안, 피로 등이 지속되면 MBTI나 사주 해석보다 의료 전문가 상담이 우선입니다.' },
+      { q: 'MBTI 건강 관리는 사주 오행과 어떻게 연결되나요?', a: '사주 오행은 목·화·토·금·수를 생활 리듬의 상징으로 보는 방식입니다. 목은 움직임, 화는 활력, 토는 식사와 안정, 금은 경계, 수는 수면과 회복으로 해석하면 MBTI 스트레스 패턴을 생활 루틴으로 바꾸기 쉽습니다.' },
+      { q: '내향형 건강과 외향형 건강은 무엇이 다른가요?', a: '내향형은 혼자 있는 시간이 실제 회복으로 이어지는지가 중요하고, 외향형은 사람을 만난 뒤 에너지를 낮추는 장치가 중요합니다. 두 경우 모두 수면, 움직임, 식사 리듬은 기본 관리 축입니다.' },
+      { q: 'MBTI 스트레스가 심할 때 바로 할 수 있는 방법은 무엇인가요?', a: '먼저 오늘의 부담을 하나 줄이고, 10분 걷기나 스트레칭, 취침 전 화면 줄이기, 식사 시간 고정처럼 작고 측정 가능한 행동을 선택하세요. 감정적으로 압도되거나 일상 기능이 떨어진다면 전문가 도움을 받는 것이 좋습니다.' },
+    ],
+    faqEn: [
+      { q: 'Does MBTI health weakness mean an actual disease?', a: 'No. MBTI health weakness in this guide means repeated stress reactions and lifestyle vulnerabilities, not medical diagnosis. If pain, insomnia, anxiety, fatigue, or other symptoms continue, professional health care comes first.' },
+      { q: 'How does Saju connect with MBTI health care?', a: 'Saju five elements can be used as lifestyle symbols: Wood for movement, Fire for activation, Earth for meals and grounding, Metal for boundaries, and Water for sleep and recovery. This helps translate MBTI stress patterns into practical routines.' },
+      { q: 'What is the difference between introvert health and extrovert health?', a: 'Introverts need alone time that truly restores them, not just screen-filled isolation. Extroverts need a downshift after social stimulation. Both need consistent sleep, movement, and meals.' },
+      { q: 'What should I do when MBTI stress feels intense?', a: 'Reduce one demand, take a short walk or stretch, protect sleep from late screens, and stabilize one meal time. If stress becomes overwhelming or disrupts daily function, seek qualified professional support.' },
+    ],
+    relatedPosts: [
+      { slug: 'saju-five-elements', category: 'mbti', title: 'MBTI와 사주 오행 상관관계' },
+      { slug: 'health-saju', category: 'saju', title: '사주 건강 분석: 오행으로 보는 체질과 건강 위험 시기' },
+      { slug: 'ilgan-health-weakness', category: 'saju', title: '일간별 약한 장기 체크리스트' },
+    ],
+  },
 ], '2026-01-14', 5, '2026-02-16', 1);

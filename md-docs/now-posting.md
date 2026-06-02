@@ -445,7 +445,7 @@
 - 하위 키워드 EN: name change luck korea, legal name change fortune, name revision effect
 - 작성 지침: name-change(개명 방법)와 다름. 개명 후 실제 변화 사례·심리적 효과·주의사항 중심.
 
-[ ] 46. 사주 명식 해석 예시 — 천간·지지·오행 단계별 풀이
+[완료] 46. 사주 명식 해석 예시 — 천간·지지·오행 단계별 풀이
 - slug: `saju-chart-example-reading`
 - 카테고리: `saju`
 - 메인 키워드 KO: 사주 명식 해석 예시, 사주 명식 보는법
@@ -678,7 +678,7 @@
 - 하위 키워드 EN: MBTI financial luck, 16 types wealth saju, introvert extrovert money luck
 - 작성 지침: wealth-luck(사주 재물운 총론)·compatibility-table(MBTI 궁합표)와 다름. MBTI 유형별 소비 습관, 저축 약점, 사주 재성 관점의 재물관리 팁을 연결.
 
-[ ] 71. MBTI별 건강 약점 — 사주로 보는 16유형 건강 관리법
+[완료] 71. MBTI별 건강 약점 — 사주로 보는 16유형 건강 관리법
 - slug: `mbti-health-saju`
 - 카테고리: `mbti`
 - 메인 키워드 KO: MBTI 건강, MBTI별 건강 약점

@@ -9264,5 +9264,300 @@ export const sajuPosts: BlogPost[] = distributePublishedDates([
       { slug: 'career-change-2026', category: 'saju', title: '2026 이직운 사주: 직장 변화·승진 시기 보기' },
     ],
   },
+  {
+    slug: 'saju-chart-example-reading',
+    title: '사주 명식 해석 예시: 천간·지지·오행 단계별 풀이',
+    seoTitle: '사주 명식 해석 예시: 천간 지지 오행 십성 단계별 풀이',
+    seoTitleEn: 'Saju Chart Example Reading: Step-by-Step Four Pillars Interpretation',
+    description: '사주 명식 해석 예시를 하나의 원국으로 정리했습니다. 천간, 지지, 오행 비율, 십성 배치를 어떤 순서로 읽는지 단계별로 보여드립니다.',
+    descriptionEn: 'A practical Saju chart example reading that walks through heavenly stems, earthly branches, five element balance, and Ten Gods step by step.',
+    keywords: ['사주 명식 해석 예시', '사주 명식 보는법', '사주 원국 예시', '천간 지지 해석', '오행 비율 읽기'],
+    keywordsEn: ['saju chart example reading', 'four pillars chart interpretation example', 'saju birth chart example', 'heavenly stems earthly branches reading', 'five elements chart example'],
+    publishedAt: '2026-06-01',
+    category: 'saju',
+    toc: [
+      { id: 'example-chart', title: '1. 사주 명식 해석 예시로 볼 원국' },
+      { id: 'heavenly-stems', title: '2. 천간 해석: 겉으로 드러나는 방향' },
+      { id: 'earthly-branches', title: '3. 지지 해석: 실제 생활 기반 읽기' },
+      { id: 'five-elements-balance', title: '4. 오행 비율 읽기: 강한 기운과 부족한 기운' },
+      { id: 'ten-gods-layout', title: '5. 십성 배치 예시: 재능과 관계 구조' },
+      { id: 'final-reading', title: '6. 사주 명식 보는법 실전 정리' },
+    ],
+    tocEn: [
+      { id: 'example-chart', title: '1. Example Chart for Saju Interpretation' },
+      { id: 'heavenly-stems', title: '2. Heavenly Stems: Visible Direction' },
+      { id: 'earthly-branches', title: '3. Earthly Branches: Practical Life Base' },
+      { id: 'five-elements-balance', title: '4. Five Element Balance in the Chart' },
+      { id: 'ten-gods-layout', title: '5. Ten Gods Layout and Life Themes' },
+      { id: 'final-reading', title: '6. Step-by-Step Saju Chart Reading Summary' },
+    ],
+    contentKo: `
+<section>
+<p><strong>사주 명식 해석 예시</strong>가 필요한 이유는 이론을 알아도 실제 원국 앞에서는 어디서부터 봐야 할지 막히기 때문입니다. 천간, 지지, 오행, 십성은 각각 따로 외우는 지식이 아니라 하나의 명식 안에서 순서대로 연결해야 의미가 살아납니다. 이 글에서는 가상의 예시 명식을 하나 정하고, <strong>사주 명식 보는법</strong>을 실제 풀이 순서처럼 단계별로 따라가겠습니다.</p>
+<p>예시는 교육용 원국입니다. 특정인의 실제 생년월일이 아니며, 같은 글자가 들어간다고 해서 현실 결과가 똑같이 나타나는 것도 아닙니다. 사주는 성향과 흐름을 점검하는 해석 체계이므로 직업, 결혼, 재물, 건강 같은 결정을 단정하는 근거로 쓰기보다 현재 조건과 함께 읽어야 합니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">함께 보면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/saju/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 기초: 천간·지지·오행의 기본 구조</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사주 일주 완전정복: 일간과 일지로 본질 읽기</a></li>
+  </ul>
+</div>
+
+<h2 id="example-chart">1. 사주 명식 해석 예시로 볼 원국</h2>
+<p>이번 글에서 사용할 <strong>사주 원국 예시</strong>는 다음과 같습니다. 실제 풀이에서는 년주보다 월주와 일주를 더 중요하게 보지만, 처음 공부할 때는 네 기둥을 표로 정리한 뒤 일간을 중심에 두는 것이 좋습니다.</p>
+<div style="overflow-x: auto; margin: 20px 0;">
+  <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
+    <thead>
+      <tr>
+        <th style="border: 1px solid rgba(255,255,255,0.18); padding: 10px;">구분</th>
+        <th style="border: 1px solid rgba(255,255,255,0.18); padding: 10px;">년주</th>
+        <th style="border: 1px solid rgba(255,255,255,0.18); padding: 10px;">월주</th>
+        <th style="border: 1px solid rgba(255,255,255,0.18); padding: 10px;">일주</th>
+        <th style="border: 1px solid rgba(255,255,255,0.18); padding: 10px;">시주</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">천간</td>
+        <td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">갑(甲)</td>
+        <td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">병(丙)</td>
+        <td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;"><strong>경(庚)</strong></td>
+        <td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">임(壬)</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">지지</td>
+        <td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">인(寅)</td>
+        <td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">오(午)</td>
+        <td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">신(申)</td>
+        <td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">자(子)</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">오행</td>
+        <td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">목</td>
+        <td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">화</td>
+        <td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">금</td>
+        <td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">수</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<p>이 명식의 일간은 경금(庚金)입니다. 일간은 명식의 주인공이므로 모든 글자는 경금에게 어떤 역할을 하는지로 다시 해석합니다. 같은 갑목도 을목 일간에게는 다른 의미가 되고, 같은 병화도 경금 일간에게는 관성으로 작동합니다. 그래서 사주 명식 해석은 늘 "내 일간이 무엇인가"에서 출발합니다.</p>
+
+<h2 id="heavenly-stems">2. 천간 해석: 겉으로 드러나는 방향</h2>
+<p><strong>천간 지지 해석</strong>에서 천간은 밖으로 드러나는 태도, 말, 목표, 사회적 인상을 먼저 보여줍니다. 예시 명식의 천간은 갑목, 병화, 경금, 임수입니다. 목·화·금·수가 모두 위로 올라와 있어 생각과 표현이 비교적 분명한 구조입니다.</p>
+<ul>
+  <li><strong>년간 갑목:</strong> 경금 일간에게 갑목은 편재입니다. 넓은 시장, 사람, 자원, 현실적 기회를 뜻합니다. 어린 시절 환경이나 대외 이미지에서 활동 범위가 넓고 실리 감각을 배우기 쉬운 배치로 볼 수 있습니다.</li>
+  <li><strong>월간 병화:</strong> 경금에게 병화는 편관입니다. 경쟁, 규칙, 압박, 책임이 사회 자리인 월간에 떠 있습니다. 직업적으로는 기준이 높거나 성과 압박이 있는 환경에서 성장하기 쉽지만, 무리하면 긴장감이 커집니다.</li>
+  <li><strong>일간 경금:</strong> 경금은 큰 쇠, 칼, 원칙, 판단력의 상징입니다. 사물을 분명하게 나누고 문제를 정리하려는 성향이 강합니다. 다만 지나치게 날카로워지면 관계에서 단호함이 차갑게 보일 수 있습니다.</li>
+  <li><strong>시간 임수:</strong> 경금에게 임수는 식신입니다. 말, 표현, 아이디어, 결과물을 밖으로 흘려보내는 힘입니다. 나이가 들수록 분석한 것을 글, 교육, 기획, 콘텐츠로 풀어내는 방향이 살아납니다.</li>
+</ul>
+<p>천간만 보면 이 원국은 "현실 기회를 보고, 압박 속에서 기준을 세우며, 결과물을 만들어내는 경금"으로 요약됩니다. 하지만 천간만으로 결론을 내리면 반쪽 해석입니다. 실제 지속력과 생활 방식은 지지에서 확인해야 합니다.</p>
+
+<h2 id="earthly-branches">3. 지지 해석: 실제 생활 기반 읽기</h2>
+<p>지지는 마음의 바닥, 생활 습관, 몸으로 겪는 환경, 오래 지속되는 관계를 보여줍니다. 예시 명식의 지지는 인목, 오화, 신금, 자수입니다. 계절상 월지가 오화이므로 화 기운의 영향력이 강한 명식입니다. 월지는 직업 환경과 사회 무대를 뜻하기 때문에, 이 사람은 조용한 환경보다 경쟁과 노출이 있는 자리에서 더 자주 시험받습니다.</p>
+<ul>
+  <li><strong>년지 인목:</strong> 성장, 이동, 시작의 기운입니다. 경금에게는 재성의 기반이 되어 현실적 목표와 기회 탐색이 빠릅니다. 다만 인목은 월지 오화와 이어지며 화를 돕기 때문에 책임과 압박도 함께 키웁니다.</li>
+  <li><strong>월지 오화:</strong> 사회 자리의 중심입니다. 경금 입장에서 화는 관성입니다. 조직, 규칙, 시험, 평가, 공적인 역할과 인연이 깊습니다. 실무보다 관리, 기준, 책임이라는 단어가 강하게 따라옵니다.</li>
+  <li><strong>일지 신금:</strong> 배우자궁이자 나의 생활 반응입니다. 일간과 같은 금 기운이 뿌리로 있어 자존감과 독립성이 강합니다. 가까운 관계에서도 쉽게 휘둘리기보다 스스로 판단하려는 성향이 큽니다.</li>
+  <li><strong>시지 자수:</strong> 말년, 결과물, 후속 작업의 자리입니다. 자수는 식상과 연결되어 지식, 기록, 기획, 연구, 콘텐츠 생산을 돕습니다. 신금과 자수가 이어지면 판단한 것을 체계화하는 힘이 생깁니다.</li>
+</ul>
+<p>지지까지 보면 이 명식은 강한 화의 사회 압박과 금수의 분석력이 동시에 보입니다. 겉으로는 책임과 경쟁을 피하기 어렵지만, 안쪽에는 스스로 판단하고 정리해서 결과물로 만드는 힘이 있습니다.</p>
+
+<h2 id="five-elements-balance">4. 오행 비율 읽기: 강한 기운과 부족한 기운</h2>
+<p><strong>오행 비율 읽기</strong>는 단순히 글자 수만 세는 작업이 아닙니다. 계절, 월지의 힘, 천간에 드러난 글자, 지지의 뿌리를 함께 봐야 합니다. 이 예시에서는 목·화·금·수가 모두 보이지만 토(土)가 겉으로 드러나지 않습니다.</p>
+<div style="overflow-x: auto; margin: 20px 0;">
+  <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
+    <thead>
+      <tr>
+        <th style="border: 1px solid rgba(255,255,255,0.18); padding: 10px; text-align: left;">오행</th>
+        <th style="border: 1px solid rgba(255,255,255,0.18); padding: 10px; text-align: left;">명식 속 모습</th>
+        <th style="border: 1px solid rgba(255,255,255,0.18); padding: 10px; text-align: left;">해석 포인트</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">목</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">갑목, 인목</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">재성. 현실 목표, 돈의 흐름, 활동 반경이 살아 있음</td></tr>
+      <tr><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">화</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">병화, 오화</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">관성. 사회적 압박, 책임, 직업 기준이 강함</td></tr>
+      <tr><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">토</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">겉으로 없음</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">인성 보완 필요. 공부, 휴식, 완충 장치가 약해질 수 있음</td></tr>
+      <tr><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">금</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">경금, 신금</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">비겁. 자기 기준과 독립성이 뚜렷함</td></tr>
+      <tr><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">수</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">임수, 자수</td><td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">식상. 표현, 기획, 결과물 생산이 가능함</td></tr>
+    </tbody>
+  </table>
+</div>
+<p>이 명식에서 눈에 띄는 것은 토의 부재입니다. 경금에게 토는 인성, 즉 공부, 보호, 문서, 흡수, 회복의 기운입니다. 토가 약하면 기준은 강한데 완충이 부족해질 수 있습니다. 그래서 이 사람은 빠른 실행과 판단력은 좋지만, 충분히 배우고 쉬며 정리하는 시간을 의식적으로 확보해야 균형이 맞습니다. 용신을 단정하려면 대운과 세운까지 봐야 하지만, 원국만 놓고 보면 화의 압박을 금수의 결과물로 풀고 토의 완충을 생활에서 보완하는 방향이 핵심입니다.</p>
+
+<h2 id="ten-gods-layout">5. 십성 배치 예시: 재능과 관계 구조</h2>
+<p><strong>십성 배치 예시</strong>는 일간인 경금을 기준으로 다른 글자가 어떤 역할을 하는지 보는 단계입니다. 이 과정에서 직업, 관계, 돈, 표현 방식이 더 구체화됩니다.</p>
+<ul>
+  <li><strong>재성(목):</strong> 갑목과 인목이 있어 현실 감각과 자원 관리가 있습니다. 돈 자체보다 기회를 보고 움직이는 감각이 빠릅니다. 다만 재성이 관성을 생하므로 돈이나 목표가 책임과 압박으로 이어질 수 있습니다.</li>
+  <li><strong>관성(화):</strong> 병화와 오화가 강합니다. 직장, 시험, 평가, 법, 조직, 공적 책임과 인연이 깊습니다. 좋은 쪽으로 쓰면 원칙 있는 리더십이지만, 과하면 늘 쫓기는 느낌이 생깁니다.</li>
+  <li><strong>인성(土):</strong> 겉으로 약합니다. 인성이 약하다는 것은 공부를 못한다는 뜻이 아니라, 스스로를 보호하고 소화하는 시간이 부족해지기 쉽다는 뜻입니다. 중요한 선택 전에는 조언, 자료 조사, 휴식 기간을 일부러 넣어야 합니다.</li>
+  <li><strong>비겁(金):</strong> 일간 경금과 일지 신금이 있어 독립성과 경쟁력이 있습니다. 남의 기준에만 맞추기보다 자기 기준으로 판단해야 성과가 납니다.</li>
+  <li><strong>식상(水):</strong> 임수와 자수가 있어 표현과 생산이 가능합니다. 압박을 받기만 하면 지치지만, 그것을 문서, 말, 기획, 제품, 콘텐츠로 바꾸면 명식이 살아납니다.</li>
+</ul>
+<p>이 십성 구조를 한 문장으로 요약하면 "강한 책임과 평가 속에서 현실 기회를 잡고, 자기 기준으로 정리해 결과물을 만드는 사람"입니다. 재성, 관성, 식상이 모두 보이기 때문에 사업, 조직, 기획, 관리가 모두 가능하지만, 인성 보완이 부족하면 오래 버티는 힘이 약해질 수 있습니다.</p>
+
+<h2 id="final-reading">6. 사주 명식 보는법 실전 정리</h2>
+<p>이제 예시 원국을 실제 상담식 문장으로 정리해보겠습니다. 경금 일간이 오월에 태어나 관성의 압박을 강하게 받는 구조입니다. 사회적으로는 평가, 책임, 경쟁이 많은 환경에 놓이기 쉽고, 그 안에서 자기 기준을 세우며 실력을 단련하는 명식입니다. 갑목과 인목 재성이 있어 현실적 목표와 돈의 흐름을 무시하지 않으며, 임수와 자수 식상이 있어 분석한 것을 결과물로 내보내는 힘도 있습니다.</p>
+<p>다만 토 인성이 겉으로 약하므로 무리하게 버티기만 하면 소진이 빠를 수 있습니다. 이 명식의 실전 조언은 "책임을 피하라"가 아니라 "책임을 결과물로 바꾸되, 중간에 학습과 회복의 완충 장치를 반드시 넣으라"입니다. 직업적으로는 기획, 관리, 품질 기준, 문서화, 교육, 전략, 콘텐츠, 데이터 정리처럼 압박을 구조화하는 역할이 잘 맞습니다. 관계에서는 단호함이 장점이지만 상대가 차갑게 느끼지 않도록 설명과 여지를 남기는 것이 좋습니다.</p>
+<p><strong>사주 명식 보는법</strong>은 순서가 중요합니다. 첫째, 일간을 정합니다. 둘째, 월지로 계절과 사회 무대를 봅니다. 셋째, 천간으로 겉의 목표와 역할을 확인합니다. 넷째, 지지로 생활 기반과 뿌리를 봅니다. 다섯째, 오행 비율로 강약을 잡습니다. 여섯째, 십성으로 돈, 일, 관계, 표현의 구조를 해석합니다. 마지막으로 대운과 세운을 붙여 현재 시점의 흐름을 봅니다. 이 순서가 잡히면 명식 앞에서 무엇부터 봐야 할지 흔들리지 않습니다.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">내 사주 원국 구조 확인하기</a>
+</div>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/saju/day-pillar" style="text-decoration: underline; color: #f9d976;">[다음 단계] 사주 일주 완전정복: 일간과 일지로 본질 읽기</a></p>
+  <p><a href="/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[함께 볼 글] 용신 찾기: 내 사주의 균형 포인트</a></p>
+  <p><a href="/saju/annual-fortune" style="text-decoration: underline; color: #f9d976;">[확장 읽기] 세운 보는 법: 현재 운의 흐름 해석</a></p>
+</div>
+</section>
+    `,
+    contentEn: `
+<section>
+<p>A <strong>saju chart example reading</strong> is useful because theory often becomes confusing when you face an actual chart. Heavenly stems, earthly branches, five elements, and Ten Gods are not separate memorized topics. They must be connected in a clear order. In this guide, we will use one sample chart and walk through a practical <strong>four pillars chart interpretation example</strong> step by step.</p>
+<p>The chart below is for educational use. It is not the birth chart of a real person, and the same characters do not guarantee the same life outcome. Saju is best used as a structured interpretation system for tendencies and timing, not as a fixed verdict on career, money, relationships, or health.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">Related Reading</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/saju/intro" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Saju Basics: Heavenly Stems, Earthly Branches, and Five Elements</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/saju/day-pillar" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Day Pillar Guide: Reading the Day Master and Day Branch</a></li>
+  </ul>
+</div>
+
+<h2 id="example-chart">1. Example Chart for Saju Interpretation</h2>
+<p>This <strong>saju birth chart example</strong> uses the following four pillars. In real interpretation, the month pillar and day pillar often carry more weight than the year pillar, but beginners should first organize all four pillars and then place the Day Master at the center.</p>
+<div style="overflow-x: auto; margin: 20px 0;">
+  <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
+    <thead>
+      <tr>
+        <th style="border: 1px solid rgba(255,255,255,0.18); padding: 10px;">Pillar</th>
+        <th style="border: 1px solid rgba(255,255,255,0.18); padding: 10px;">Year</th>
+        <th style="border: 1px solid rgba(255,255,255,0.18); padding: 10px;">Month</th>
+        <th style="border: 1px solid rgba(255,255,255,0.18); padding: 10px;">Day</th>
+        <th style="border: 1px solid rgba(255,255,255,0.18); padding: 10px;">Hour</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">Stem</td>
+        <td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">Jia Wood</td>
+        <td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">Bing Fire</td>
+        <td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;"><strong>Geng Metal</strong></td>
+        <td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">Ren Water</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">Branch</td>
+        <td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">Yin Wood</td>
+        <td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">Wu Fire</td>
+        <td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">Shen Metal</td>
+        <td style="border: 1px solid rgba(255,255,255,0.14); padding: 9px;">Zi Water</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<p>The Day Master is Geng Metal. This is the protagonist of the chart, so every other character must be interpreted by asking how it relates to Geng Metal. The same Jia Wood means something different for a Yi Wood Day Master. The same Bing Fire also changes depending on the Day Master. That is why chart interpretation always starts with the Day Master.</p>
+
+<h2 id="heavenly-stems">2. Heavenly Stems: Visible Direction</h2>
+<p>In <strong>heavenly stems earthly branches reading</strong>, the stems show visible attitude, goals, social expression, and the way the person appears from the outside. This example has Jia Wood, Bing Fire, Geng Metal, and Ren Water in the stems. Wood, Fire, Metal, and Water are all visible, so the person is unlikely to be purely passive or hidden.</p>
+<ul>
+  <li><strong>Jia Wood in the year stem:</strong> For Geng Metal, Jia Wood is Indirect Wealth. It points to markets, resources, people, and practical opportunity.</li>
+  <li><strong>Bing Fire in the month stem:</strong> For Geng Metal, Bing Fire is Seven Killings or Indirect Officer. It shows pressure, competition, authority, and responsibility in the social position.</li>
+  <li><strong>Geng Metal as the Day Master:</strong> Geng Metal represents standards, judgment, structure, and decisive action. It can solve problems clearly, but it may appear too sharp when stressed.</li>
+  <li><strong>Ren Water in the hour stem:</strong> For Geng Metal, Ren Water is Eating God. It supports expression, planning, teaching, writing, and output in later development.</li>
+</ul>
+<p>From the stems alone, the chart looks like a Geng Metal person who sees practical opportunity, grows under pressure, and turns judgment into output. But stems are only half of the reading. The branches show whether this pattern is rooted in daily life.</p>
+
+<h2 id="earthly-branches">3. Earthly Branches: Practical Life Base</h2>
+<p>Earthly branches show the deeper base: habits, body rhythm, living environment, close relationships, and long-term patterns. This example has Yin Wood, Wu Fire, Shen Metal, and Zi Water. The month branch is Wu Fire, so Fire has strong seasonal influence. Since the month branch represents the social stage, this person is repeatedly tested through responsibility, visibility, and performance pressure.</p>
+<ul>
+  <li><strong>Yin Wood in the year branch:</strong> This supports growth, movement, and opportunity. It also feeds Fire, so practical goals can create more responsibility.</li>
+  <li><strong>Wu Fire in the month branch:</strong> Fire is Officer energy for Geng Metal. It connects the chart with organizations, rules, public roles, evaluation, and discipline.</li>
+  <li><strong>Shen Metal in the day branch:</strong> The person has a Metal root. Independence, self-respect, and personal standards are strong in close life patterns.</li>
+  <li><strong>Zi Water in the hour branch:</strong> Water supports output, thought, planning, and future results. It helps turn pressure into analysis and production.</li>
+</ul>
+<p>When the branches are included, the reading becomes more grounded. The chart has public pressure from Fire, but also Metal and Water resources for analysis and output. It is not only a pressure chart; it is a pressure-to-result chart.</p>
+
+<h2 id="five-elements-balance">4. Five Element Balance in the Chart</h2>
+<p>A <strong>five elements chart example</strong> should not count characters mechanically. Season, month branch strength, visible stems, and hidden roots all matter. In this chart, Wood, Fire, Metal, and Water are present, while Earth is not visible.</p>
+<ul>
+  <li><strong>Wood:</strong> Jia and Yin show Wealth energy. Practical goals, resources, money movement, and opportunity awareness are active.</li>
+  <li><strong>Fire:</strong> Bing and Wu show Officer energy. Responsibility, competition, rules, and public evaluation are strong.</li>
+  <li><strong>Earth:</strong> Earth is not visible. Since Earth produces Metal, the chart may need more study, rest, protection, documentation, and buffering.</li>
+  <li><strong>Metal:</strong> Geng and Shen give the Day Master a root. The person has standards, independence, and the ability to define problems.</li>
+  <li><strong>Water:</strong> Ren and Zi support output. Ideas, explanation, writing, planning, and production can become useful strengths.</li>
+</ul>
+<p>The missing visible Earth is important. It does not mean the person cannot study. It means the chart may lack natural buffering. The person can push through responsibility, but should intentionally add learning time, advisory support, documentation, and recovery. A full useful element decision needs luck cycles, but from the natal chart alone, the practical direction is to turn Fire pressure into Metal-Water output while adding Earth-like stabilization.</p>
+
+<h2 id="ten-gods-layout">5. Ten Gods Layout and Life Themes</h2>
+<p>The Ten Gods step translates elements into human themes. For this Geng Metal Day Master, Wood becomes Wealth, Fire becomes Officer, Earth becomes Resource, Metal becomes Peer, and Water becomes Output.</p>
+<ul>
+  <li><strong>Wealth:</strong> Jia Wood and Yin Wood show opportunity, money awareness, practical targets, and resource handling.</li>
+  <li><strong>Officer:</strong> Bing Fire and Wu Fire show authority, work pressure, rules, evaluation, and public responsibility.</li>
+  <li><strong>Resource:</strong> Earth is weak or hidden, so rest, study, advice, and documentation should be consciously protected.</li>
+  <li><strong>Peer:</strong> Geng and Shen give independence, self-standards, competitiveness, and refusal to be easily controlled.</li>
+  <li><strong>Output:</strong> Ren and Zi support writing, teaching, product creation, planning, and intellectual production.</li>
+</ul>
+<p>In one sentence, this chart describes someone who catches practical opportunities, faces strong responsibility, uses personal standards, and turns pressure into structured output. Business, management, planning, quality control, education, strategy, documents, and content can all fit if the work converts pressure into usable results.</p>
+
+<h2 id="final-reading">6. Step-by-Step Saju Chart Reading Summary</h2>
+<p>Here is the final reading in plain language. A Geng Metal Day Master born in a strong Fire month is shaped by evaluation, responsibility, and social pressure. The chart does not look relaxed, but it does have the ability to organize pressure into useful output. Wood Wealth gives practical goals. Fire Officer gives standards and public responsibility. Metal gives independence. Water gives expression and production. Earth needs to be added through study, recovery, advice, and systems.</p>
+<p>The practical advice is not to avoid responsibility. It is to convert responsibility into structure while protecting recovery and learning time. Career-wise, this chart can fit planning, management, quality standards, documentation, education, data organization, strategy, and content work. In relationships, decisiveness is a strength, but the person should explain their standards so that clarity does not feel like coldness.</p>
+<p>A reliable Saju chart reading follows an order. First, identify the Day Master. Second, read the month branch for season and social stage. Third, read the stems for visible direction. Fourth, read the branches for roots and life base. Fifth, check five element balance. Sixth, translate the structure into Ten Gods. Finally, add major luck and annual luck to understand the current timing. Once this order is clear, a chart becomes much less confusing.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en/saju-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">Check Your Saju Chart Structure</a>
+</div>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/saju/day-pillar" style="text-decoration: underline; color: #f9d976;">[Read Next] Day Pillar Guide: Reading the Day Master and Day Branch</a></p>
+  <p><a href="/en/saju/lucky-element" style="text-decoration: underline; color: #f9d976;">[Related] Finding Your Useful Element and Chart Balance</a></p>
+  <p><a href="/en/saju/annual-fortune" style="text-decoration: underline; color: #f9d976;">[Expand] Annual Luck Reading: Understanding Current Timing</a></p>
+</div>
+</section>
+    `,
+    faq: [
+      {
+        q: '사주 명식 해석 예시는 어떤 순서로 봐야 하나요?',
+        a: '일간을 먼저 정하고, 월지로 계절과 사회 무대를 확인한 뒤 천간, 지지, 오행 비율, 십성 배치 순서로 읽는 것이 좋습니다. 마지막에 대운과 세운을 붙이면 현재 시점의 흐름까지 볼 수 있습니다.',
+      },
+      {
+        q: '사주 명식 보는법에서 천간과 지지 중 무엇이 더 중요한가요?',
+        a: '둘 중 하나만 중요하다고 보기 어렵습니다. 천간은 겉으로 드러나는 목표와 역할을 보여주고, 지지는 실제 생활 기반과 뿌리를 보여줍니다. 특히 월지와 일지는 전체 해석의 중심이 됩니다.',
+      },
+      {
+        q: '오행 비율 읽기는 글자 수만 세면 되나요?',
+        a: '아닙니다. 글자 수뿐 아니라 월지의 계절 힘, 천간에 드러난 글자, 지지에 뿌리내린 기운을 함께 봐야 합니다. 같은 두 글자라도 계절과 위치에 따라 영향력이 달라집니다.',
+      },
+      {
+        q: '십성 배치 예시만으로 직업이나 재물운을 단정할 수 있나요?',
+        a: '단정할 수 없습니다. 십성은 재능과 관계 구조를 읽는 중요한 기준이지만 대운, 세운, 현실 경력, 선택 환경까지 함께 봐야 실제 판단에 가까워집니다.',
+      },
+    ],
+    faqEn: [
+      {
+        q: 'What is the best order for a Saju chart example reading?',
+        a: 'Start with the Day Master, then read the month branch, heavenly stems, earthly branches, five element balance, and Ten Gods. After that, add major luck and annual luck for current timing.',
+      },
+      {
+        q: 'Are heavenly stems or earthly branches more important?',
+        a: 'Both matter. Stems show visible goals and roles, while branches show roots, habits, and the practical life base. The month branch and day branch are especially important.',
+      },
+      {
+        q: 'Can I read five element balance by counting characters only?',
+        a: 'No. Character count is only the beginning. Season, month branch strength, visible stems, hidden roots, and position all change the weight of each element.',
+      },
+      {
+        q: 'Can the Ten Gods layout alone decide career or wealth luck?',
+        a: 'No. The Ten Gods show important life themes, but real decisions should also consider luck cycles, skills, work history, environment, and practical conditions.',
+      },
+    ],
+    relatedPosts: [
+      { slug: 'intro', category: 'saju', title: '사주 기초: 천간·지지·오행의 기본 구조' },
+      { slug: 'day-pillar', category: 'saju', title: '사주 일주 완전정복: 일간과 일지 읽기' },
+      { slug: 'lucky-element', category: 'saju', title: '용신 찾기: 내 사주의 균형 포인트' },
+    ],
+  },
 ], '2026-01-05', 3, '2026-02-10', 1);
 
