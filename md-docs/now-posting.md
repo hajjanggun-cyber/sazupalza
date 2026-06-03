@@ -454,7 +454,7 @@
 - 하위 키워드 EN: saju birth chart example, heavenly stems earthly branches reading, five elements chart example
 - 작성 지침: 기존 intro(사주팔자 뜻·기초)와 다름. 하나의 실제 예시 명식을 정해 천간·지지·오행·십성 순서로 풀이한다. `사주팔자란`, `무료`, `뜻` 키워드는 메인 의도로 쓰지 않는다.
 
-[ ] 47. 성씨 초성과 이름 첫소리 궁합 — 발음오행 충돌 피하는 법
+[완료] 47. 성씨 초성과 이름 첫소리 궁합 — 발음오행 충돌 피하는 법
 - slug: `surname-name-ohaeng-match`
 - 카테고리: `seongmyeong`
 - 메인 키워드 KO: 성씨 초성 이름 궁합, 발음오행 이름 궁합
@@ -463,7 +463,7 @@
 - 하위 키워드 EN: korean surname sound element, given name sound element, name harmony korea
 - 작성 지침: name-five-elements(음령오행 이론)와 surname-naming(성씨별 작명)과 다름. 성씨 초성과 이름 첫소리의 발음오행 상생·상극, 피해야 할 충돌 조합만 집중 분석한다.
 
-[ ] 48. 스타트업 브랜드명 오행 — 상호 작명과 다른 네이밍 전략
+[완료] 48. 스타트업 브랜드명 오행 — 상호 작명과 다른 네이밍 전략
 - slug: `brand-name-fortune`
 - 카테고리: `seongmyeong`
 - 메인 키워드 KO: 브랜드명 오행, 스타트업 이름 짓기

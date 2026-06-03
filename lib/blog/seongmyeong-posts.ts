@@ -3079,4 +3079,239 @@ export const seongmyeongPosts: BlogPost[] = distributePublishedDates([
       { slug: 'name-five-elements', category: 'seongmyeong', title: '이름 오행 분석: 소리와 기운의 조화 읽기' },
     ],
   },
+  {
+    slug: 'surname-name-ohaeng-match',
+    title: '성씨 초성과 이름 첫소리 궁합 — 발음오행 충돌 피하는 법',
+    seoTitle: '성씨 초성과 이름 궁합: 발음오행 충돌 피하는 작명 가이드',
+    seoTitleEn: 'Surname and Name Harmony: Avoiding Sound Element Clashes',
+    description: '성씨 초성과 이름 첫소리의 발음오행 상생·상극 원리를 바탕으로 충돌을 피하고 조화로운 이름을 짓는 방법을 안내합니다.',
+    descriptionEn: 'Learn how to avoid sound element clashes between Korean surnames and given names based on pronunciation Ohaeng harmony.',
+    keywords: ['성씨초성이름궁합', '발음오행이름궁합', '성씨초성오행', '이름초성오행', '상생상극'],
+    keywordsEn: ['Surname Compatibility', 'Korean Name Elements', 'Sound Ohaeng', 'Naming Harmony', 'Sangsaeng'],
+    publishedAt: '2026-03-21',
+    category: 'seongmyeong',
+    contentKo: `
+<section>
+<h2 id="why-surname-sound-harmony">성씨 초성과 이름 첫소리 궁합, 왜 중요할까?</h2>
+<p>성명학에서 발음오행(소리오행)은 이름이 불릴 때 발생하는 소리의 기운이 조화를 이루는지를 분석하는 기준입니다. 특히 가장 먼저 불리는 '성씨의 초성'과 '이름의 첫소리'가 만나는 지점은 이름 전체의 흐름을 결정짓는 중요한 관문입니다. 두 소리가 상생(서로 돕는 관계)을 이루면 불리기도 편안하고 기운의 흐름도 자연스럽지만, 상극(서로 부딪히는 관계)을 이루면 어감이 딱딱해지거나 불필요한 마찰음이 생길 수 있습니다.</p>
+
+<h3>발음오행의 기본 체계</h3>
+<p>한글의 초성은 발성 기관의 모양과 소리 나는 위치에 따라 오행(목, 화, 토, 금, 수)으로 분류됩니다.</p>
+<ul>
+  <li><strong>목(木) 오행:</strong> ㄱ, ㅋ (어금니소리)</li>
+  <li><strong>화(火) 오행:</strong> ㄴ, ㄷ, ㄹ, ㅌ (혓소리)</li>
+  <li><strong>토(土) 오행:</strong> ㅇ, ㅎ (목구멍소리)</li>
+  <li><strong>금(金) 오행:</strong> ㅅ, ㅈ, ㅊ (잇소리)</li>
+  <li><strong>수(水) 오행:</strong> ㅁ, ㅂ, ㅍ (입술소리)</li>
+</ul>
+
+<h2 id="surname-element-guide">성씨 오행별 이름 첫소리 상생과 상극</h2>
+<p>대표적인 성씨들이 어느 오행에 속하는지, 그리고 어떤 소리와 만났을 때 좋은지 혹은 피하는 것이 좋은지 정리했습니다.</p>
+
+<h3>'목(木)' 오행 성씨 (김, 고, 구, 권, 강 등)</h3>
+<p>초성에 ㄱ(기역)이 들어가는 성씨는 나무의 기운을 가집니다. <strong>상생하는 오행</strong>은 나무를 태워 불을 만드는 목생화(木生火)의 화(火) 오행(ㄴ, ㄷ, ㄹ, ㅌ), 그리고 나무에 물을 주는 수생목(水生木)의 수(水) 오행(ㅁ, ㅂ, ㅍ)입니다. 반면, <strong>충돌을 피해야 할 오행</strong>은 쇠가 나무를 자르는 금극목(金剋木)의 금(金) 오행(ㅅ, ㅈ, ㅊ), 나무가 흙을 뚫는 목극토(木剋土)의 토(土) 오행(ㅇ, ㅎ)입니다. (단, 김씨의 경우 받침 'ㅁ'이 수(水) 오행이므로 토(土) 오행이나 금(金) 오행 초성의 이름과 결합할 때 상극을 어느 정도 완화하는 역할도 합니다.)</p>
+
+<h3>'화(火)' 오행 성씨 (나, 노, 남, 도 등)</h3>
+<p>불의 기운을 가진 성씨입니다. <strong>상생 조합</strong>은 화생토(火生土)로 이어지는 토(土) 오행(ㅇ, ㅎ)과 목생화(木生火)로 에너지를 받는 목(木) 오행(ㄱ, ㅋ)입니다. <strong>피하면 좋은 조합</strong>은 물이 불을 끄는 수극화(水剋火)의 수(水) 오행(ㅁ, ㅂ, ㅍ)입니다.</p>
+
+<h3>'토(土)' 오행 성씨 (이, 윤, 안, 임, 황, 홍 등)</h3>
+<p>흙의 기운을 가진 성씨입니다. <strong>상생 조합</strong>은 토생금(土生金)인 금(金) 오행(ㅅ, ㅈ, ㅊ)과 화생토(火生土)인 화(火) 오행(ㄴ, ㄷ, ㄹ, ㅌ)입니다. <strong>피하면 좋은 조합</strong>은 나무가 흙의 영양분을 빼앗는 목극토(木剋土)의 목(木) 오행(ㄱ, ㅋ)과 흙이 물의 흐름을 막는 토극수(土剋水)의 수(水) 오행(ㅁ, ㅂ, ㅍ)입니다. '이경', '윤기'처럼 목(木) 오행의 이름 첫 글자가 바로 오면 어감이 다소 굳어지는 경향이 있습니다.</p>
+
+<h3>'금(金)' 오행 성씨 (서, 송, 정, 조, 최 등)</h3>
+<p>쇠나 바위의 기운을 가진 성씨입니다. <strong>상생 조합</strong>은 바위 틈에서 맑은 물이 솟는 금생수(金生水)의 수(水) 오행(ㅁ, ㅂ, ㅍ)과 흙 속에서 광물이 자라나는 토생금(土生金)의 토(土) 오행(ㅇ, ㅎ)입니다. <strong>피하면 좋은 조합</strong>은 불이 쇠를 녹이는 화극금(火剋金)의 화(火) 오행(ㄴ, ㄷ, ㄹ, ㅌ)과 금극목(金剋木)의 목(木) 오행(ㄱ, ㅋ)입니다. '정태', '최나'처럼 화(火) 오행이 바로 오면 억양이 강해질 수 있습니다.</p>
+
+<h3>'수(水)' 오행 성씨 (박, 민, 배, 백 등)</h3>
+<p>물의 기운을 가진 성씨입니다. <strong>상생 조합</strong>은 수생목(水生木)의 목(木) 오행(ㄱ, ㅋ)과 금생수(金生水)의 금(金) 오행(ㅅ, ㅈ, ㅊ)입니다. <strong>피하면 좋은 조합</strong>은 흙이 물길을 가로막는 토극수(土剋水)의 토(土) 오행(ㅇ, ㅎ)과 수극화(水剋火)의 화(火) 오행(ㄴ, ㄷ, ㄹ, ㅌ)입니다. 다만 박씨, 백씨 등은 받침(ㄱ)이 목(木) 오행이라 뒤에 화(火) 오행 이름이 오면 받침이 중간다리 역할을 하기도 합니다.</p>
+
+<h2 id="practical-naming-tips">발음오행 충돌을 피하는 실제 작명 팁</h2>
+<p>성씨 초성과 이름 첫소리가 만약 상극이라면, 무조건 나쁜 이름인 것은 아닙니다. 성씨의 종성(받침)이 중간에서 상극을 상생으로 연결해 줄 수 있기 때문입니다. 예를 들어 성씨의 초성과 이름 첫소리가 금극목(金剋木)으로 상극이더라도, 성씨의 받침이 수(水) 오행이라면 금생수-수생목으로 부드럽게 이어지는 방식입니다.</p>
+<p>그럼에도 불구하고 기본적으로 성씨 초성과 이름 첫소리는 바로 맞닿는 소리이므로 서로 부딪히지 않도록 맞추는 것이 이름의 첫인상을 결정짓는 데 유리합니다.</p>
+
+<div className="content-cta">
+  <h3 id="check-name-harmony-ko">나의 성씨와 이름, 잘 어울릴까요?</h3>
+  <p>사주팔자 허브의 성명학 분석에서 내 이름의 발음오행이 어떻게 흘러가는지 직접 확인해 보세요.</p>
+  <a href="/seongmyeong-analysis">성명학 오행 분석 시작하기</a>
+</div>
+</section>
+    `,
+    contentEn: `
+<section>
+<h2 id="why-surname-sound-harmony">Why Sound Element Harmony Matters</h2>
+<p>In Seongmyeonghak (Korean name study), pronunciation element compatibility (Baleum Ohaeng) analyzes whether the phonetic energy of a name flows smoothly. The transition from the surname's initial sound to the given name's first sound is the most crucial gateway. When these two sounds align harmoniously (Sangsaeng), the name feels natural and gentle to pronounce. Conversely, conflicting elements (Sanggeuk) can create phonetic friction or a harsh tone.</p>
+
+<h3 id="five-elements-korean-sounds">The Five Elements in Korean Sounds</h3>
+<p>Korean consonants are categorized into Five Elements (Wood, Fire, Earth, Metal, Water) based on articulation:</p>
+<ul>
+  <li><strong>Wood (木):</strong> ㄱ, ㅋ (g, k)</li>
+  <li><strong>Fire (火):</strong> ㄴ, ㄷ, ㄹ, ㅌ (n, d, r/l, t)</li>
+  <li><strong>Earth (土):</strong> ㅇ, ㅎ (vowels, h)</li>
+  <li><strong>Metal (金):</strong> ㅅ, ㅈ, ㅊ (s, j, ch)</li>
+  <li><strong>Water (水):</strong> ㅁ, ㅂ, ㅍ (m, b, p)</li>
+</ul>
+
+<h2 id="surname-element-guide">Element Guide by Korean Surname</h2>
+<p>Here is how common Korean surnames pair with given name initials according to elemental principles.</p>
+
+<h3 id="wood-surnames">Wood (木) Surnames (Kim, Go, Gu, Kang)</h3>
+<p>Surnames starting with ㄱ (g/k) hold Wood energy. <strong>Harmonious combinations</strong> include Fire elements (n, d, r, t)—as Wood feeds Fire—and Water elements (m, b, p)—as Water nourishes Wood. <strong>Clashing elements</strong> to be mindful of are Metal (s, j, ch)—which chops Wood—and Earth (vowels, h)—which Wood penetrates. (Note: The surname Kim (김) ends with the Water consonant 'm', which can soften clashes with Earth or Metal initials.)</p>
+
+<h3 id="fire-surnames">Fire (火) Surnames (Na, No, Nam, Do)</h3>
+<p>These carry Fire energy. <strong>Harmonious combinations</strong> are Earth elements (vowels, h) and Wood elements (g, k). <strong>Clashing elements</strong> to generally avoid are Water elements (m, b, p), as Water extinguishes Fire.</p>
+
+<h3 id="earth-surnames">Earth (土) Surnames (Lee, Yoon, Ahn, Hwang)</h3>
+<p>These hold Earth energy. <strong>Harmonious combinations</strong> include Metal elements (s, j, ch) and Fire elements (n, d, r, t). <strong>Clashing elements</strong> are Wood elements (g, k) and Water elements (m, b, p). Surnames like Lee (이) directly preceding a Wood consonant can sound slightly abrupt.</p>
+
+<h3 id="metal-surnames">Metal (金) Surnames (Seo, Song, Jung, Choi)</h3>
+<p>These possess Metal energy. <strong>Harmonious combinations</strong> are Water elements (m, b, p) and Earth elements (vowels, h). <strong>Clashing elements</strong> are Fire elements (n, d, r, t)—as Fire melts Metal—and Wood elements (g, k).</p>
+
+<h3 id="water-surnames">Water (水) Surnames (Park, Min, Bae)</h3>
+<p>These hold Water energy. <strong>Harmonious combinations</strong> are Wood elements (g, k) and Metal elements (s, j, ch). <strong>Clashing elements</strong> are Earth elements (vowels, h)—as Earth blocks Water—and Fire elements (n, d, r, t).</p>
+
+<h2 id="practical-naming-tips">Practical Naming Tips to Avoid Clashes</h2>
+<p>If the surname's initial and the first name's initial clash, it is not always a bad name. The final consonant (Jongseong) of the surname can often bridge the gap. For instance, even if a Metal surname clashes with a Wood given name, if the surname ends in a Water consonant, the flow becomes Metal-Water-Wood, turning a clash into harmony.</p>
+<p>Nevertheless, matching the surname's initial directly with the given name's initial remains the simplest way to ensure a smooth phonetic impression.</p>
+
+<div className="content-cta">
+  <h3 id="check-name-harmony">Ready to Check Name Harmony?</h3>
+  <p>Discover how your surname and given name interact phonetically through our detailed name analysis tool.</p>
+  <a href="/en/name-reading">Start Name Element Analysis</a>
+</div>
+</section>
+    `,
+    toc: [
+      { id: 'why-surname-sound-harmony', title: '발음오행 궁합, 왜 중요할까?' },
+      { id: 'surname-element-guide', title: '성씨 오행별 상생과 상극' },
+      { id: 'practical-naming-tips', title: '충돌 피하는 실제 작명 팁' }
+    ],
+    tocEn: [
+      { id: 'why-surname-sound-harmony', title: 'Why Sound Harmony Matters' },
+      { id: 'surname-element-guide', title: 'Element Guide by Surname' },
+      { id: 'practical-naming-tips', title: 'Practical Naming Tips' }
+    ],
+    faq: [
+      { q: '발음오행이 안 좋으면 무조건 개명해야 하나요?', a: '아닙니다. 발음오행은 이름의 한 요소일 뿐입니다. 사주 보완, 한자의 의미, 수리81수가 좋다면 발음오행의 약간의 상극은 상쇄될 수 있습니다.' },
+      { q: '성씨의 받침은 발음오행에서 어떻게 작용하나요?', a: '성씨의 종성(받침)은 초성 간의 충돌을 완화하는 징검다리 역할을 합니다. 상극인 초성끼리 만났더라도 중간에 위치한 받침이 상생으로 이어준다면 좋은 구조로 봅니다.' },
+      { q: '한글 이름과 한자 이름 중 발음오행은 어디에 적용되나요?', a: '발음오행은 이름이 소리 내어 불릴 때의 기운을 보는 것이므로, 주로 한글 발음에 적용됩니다. 따라서 한글 이름만 있는 경우에도 동일하게 중요합니다.' },
+      { q: '김씨 성에는 어떤 자음이 가장 잘 어울리나요?', a: '초성 ㄱ(목)과 종성 ㅁ(수)을 가진 김씨는 화(火) 오행(ㄴ,ㄷ,ㄹ,ㅌ)이나 수(水) 오행(ㅁ,ㅂ,ㅍ), 혹은 목(木) 오행(ㄱ,ㅋ)의 이름 첫소리와 부드럽게 잘 어울립니다.' },
+    ],
+    faqEn: [
+      { q: 'Should I change my name if the pronunciation elements clash?', a: 'Not necessarily. Sound elements are just one part of Seongmyeonghak. If the Hanja meaning, stroke counts, and Saju support are strong, a minor phonetic clash is often outweighed.' },
+      { q: 'How does the surname\'s final consonant affect the harmony?', a: 'The final consonant (Jongseong) acts as a bridge. If the initial consonants clash but the final consonant creates a harmonious transition between them, the overall flow is still considered favorable.' },
+      { q: 'Does phonetic compatibility apply to native Korean names without Hanja?', a: 'Yes. Sound element theory (Baleum Ohaeng) analyzes the phonetic vibration when a name is spoken, so it is equally important for pure Korean names.' },
+      { q: 'Which initials match best with the surname Kim?', a: 'The surname Kim starts with Wood (k) and ends with Water (m). It generally pairs very smoothly with Fire initials (n, d, r, t), Water initials (m, b, p), or Wood initials (g, k).' },
+    ],
+    relatedPosts: [
+      { slug: 'name-change', category: 'seongmyeong', title: '개명 가이드: 절차와 이름 후보 설계' },
+      { slug: 'name-five-elements', category: 'seongmyeong', title: '이름 오행 분석: 소리와 기운의 조화 읽기' },
+      { slug: 'name-meaning', category: 'seongmyeong', title: '좋은 한자 이름 짓는 법: 대법원 인명용 한자 활용 가이드' },
+    ],
+  }
+
+,
+  {
+    slug: 'brand-name-fortune',
+    title: '스타트업 브랜드명 오행 — 상호 작명과 다른 네이밍 전략',
+    seoTitle: '스타트업 브랜드명 오행: 성공하는 이름 짓기 네이밍 전략',
+    seoTitleEn: 'Startup Brand Name Elements: Naming Strategy for Success',
+    description: '단순한 가게 상호 작명과 다른 스타트업 및 브랜드명 네이밍 전략. 발음오행, 기억성, 확장성을 고려한 회사 이름 짓기 방법을 알아봅니다.',
+    descriptionEn: 'Learn the difference between traditional shop naming and startup brand naming. Discover how to use sound elements (Baleum Ohaeng) for a successful business brand.',
+    keywords: ['브랜드명오행', '스타트업이름짓기', '브랜드이름성명학', '회사명브랜딩', '브랜드명발음오행'],
+    keywordsEn: ['Brand Name Ohaeng', 'Startup Name Fortune', 'Business Naming', 'Sound Elements', 'Brand Identity'],
+    publishedAt: '2026-03-22',
+    category: 'seongmyeong',
+    contentKo: `
+<section>
+<h2 id="difference-in-naming">동네 가게 상호와 스타트업 브랜드명은 무엇이 다를까?</h2>
+<p>전통적인 상호 작명은 주로 사장님의 개인 사주를 보완하거나 특정 업종의 기운을 담는 데 집중해 왔습니다. 예를 들어 물(水)이 필요한 사주를 가진 요식업 사장님에게 물결 기운이 들어간 한자나 발음을 추천하는 식입니다. 하지만 기술을 바탕으로 빠르게 성장해야 하는 스타트업이나, 앱 서비스, 글로벌 확장을 목표로 하는 브랜드명은 네이밍 접근 방식이 완전히 다릅니다.</p>
+<p>스타트업 네이밍은 타겟 고객의 뇌리에 즉각적으로 꽂히는 <strong>'기억성'</strong>과 향후 다양한 사업군으로 뻗어 나갈 수 있는 <strong>'확장성'</strong>이 생명입니다. 이때 성명학의 발음오행(소리오행)은 단순히 길흉을 점치는 도구가 아니라, 소리가 소비자에게 전달하는 직관적인 심상(Image)과 브랜드 아이덴티티를 구축하는 브랜딩 전략으로 활용됩니다.</p>
+
+<h3 id="ohaeng-brand-image">브랜드 네이밍에서 오행이 가지는 심리적 이미지</h3>
+<p>한글의 자음은 발성 구조에 따라 오행으로 나뉘며, 각각이 품고 있는 고유한 느낌과 어울리는 산업군이 존재합니다.</p>
+<ul>
+  <li><strong>목(木) 오행 (ㄱ, ㅋ):</strong> 성장, 시작, 생명력, 교육. 무언가를 새로 키워내는 느낌을 주어 <em>에듀테크, 친환경 브랜드, 유아동 타겟 서비스</em>에 잘 어울립니다.</li>
+  <li><strong>화(火) 오행 (ㄴ, ㄷ, ㄹ, ㅌ):</strong> 확산, 열정, 빛, 속도. 에너지가 사방으로 퍼지는 느낌으로 <em>SNS 플랫폼, 엔터테인먼트, 빠른 배달 앱</em>에 적합합니다.</li>
+  <li><strong>토(土) 오행 (ㅇ, ㅎ):</strong> 신뢰, 포용, 안정, 기반. 둥글고 부드러워 거부감이 적으며 <em>핀테크, 부동산, 헬스케어, 커뮤니티 서비스</em>처럼 믿음이 중요한 곳에 좋습니다.</li>
+  <li><strong>금(金) 오행 (ㅅ, ㅈ, ㅊ):</strong> 정확성, 결단, 전문성, 구조화. 날카롭고 맺고 끊음이 확실하여 <em>보안, 법률, 회계, B2B 솔루션</em> 산업에 제격입니다.</li>
+  <li><strong>수(水) 오행 (ㅁ, ㅂ, ㅍ):</strong> 유연함, 연결, 유통, 정보. 물이 스며들고 순환하듯 <em>물류, 데이터 플랫폼, 이커머스, 유통업</em>에 어울리는 소리입니다.</li>
+</ul>
+
+<h2 id="core-naming-strategy">성공하는 브랜드 이름 짓기 핵심 전략</h2>
+
+<h3>1. 첫소리(초성)가 브랜드의 첫인상을 결정한다</h3>
+<p>고객이 브랜드를 발음할 때 입 밖으로 가장 먼저 나오는 소리가 브랜드의 성격을 규정합니다. 대중의 일상에 자연스럽게 스며들어야 하는 B2C 서비스라면 토(土) 오행의 부드러운 'ㅇ, ㅎ' 소리로 시작하는 것이 유리하고, 강력한 임팩트와 전문성으로 승부해야 한다면 금(金) 오행이나 강한 파열음을 전면에 내세우는 것이 효과적입니다.</p>
+
+<h3>2. 글로벌 발음과 오행의 충돌 피하기</h3>
+<p>국내용 상호라면 한글 발음오행의 상생(예: 수생목, 목생화)만 고려해도 충분하지만, 스타트업은 글로벌 시장을 염두에 두어야 합니다. 한글로는 부드럽게 연결되는 오행이라도, 영어 알파벳으로 표기했을 때 외국인이 발음하기 꼬이거나 전혀 다른 부정적 의미를 연상시키지 않는지 반드시 교차 검증해야 합니다. 모음이 충분히 섞여 있어 세계 어디서나 직관적으로 읽히는 이름이 최고의 이름입니다.</p>
+
+<h3>3. 창업자 사주와의 연결 고리</h3>
+<p>브랜드 자체가 독립적인 생명력을 가지더라도, 사업 초기에는 창업자의 에너지가 회사의 명운을 크게 좌우합니다. 따라서 대표자의 사주에서 가장 필요로 하는 오행(용신이나 희신)을 브랜드명의 첫소리에 배치하면, 창업자가 사업을 이끌고 나가는 과정에서 심리적인 안정감과 긍정적인 추진력을 얻는 데 큰 도움이 됩니다.</p>
+
+<div className="content-cta">
+  <h3 id="naming-consulting-ko">우리 회사에 맞는 기운은 무엇일까?</h3>
+  <p>창업자의 사주와 비즈니스 모델에 딱 맞는 오행을 찾아보세요. 사주팔자 허브에서 내 사주에 필요한 기운을 확인할 수 있습니다.</p>
+  <a href="/saju-analysis">내 사주 용신 확인하기</a>
+</div>
+</section>
+    `,
+    contentEn: `
+<section>
+<h2 id="difference-in-naming">How Startup Brand Names Differ from Traditional Shop Names</h2>
+<p>Traditional business naming in Korea has heavily focused on supplementing the owner's personal Saju (Four Pillars) or capturing the energy of a specific industry through Hanja characters. However, for startups, tech apps, and scalable brands aiming for global reach, the naming approach is fundamentally different.</p>
+<p>Startup naming relies on <strong>'Memorability'</strong>—sticking instantly in the target audience's mind—and <strong>'Scalability'</strong> to expand into various business areas. In this context, Baleum Ohaeng (Sound Elements of Seongmyeonghak) is not used for fortune-telling, but rather as a strategic branding tool to build a corporate identity based on the psychological image that specific sounds convey.</p>
+
+<h3 id="ohaeng-brand-image">The Psychological Image of Five Elements in Naming</h3>
+<p>Korean consonants are categorized into the Five Elements based on articulation, and each carries a distinct phonetic vibe suitable for different industries.</p>
+<ul>
+  <li><strong>Wood (木) - ㄱ, ㅋ:</strong> Growth, beginning, vitality, education. It gives a sense of nurturing, making it perfect for <em>EdTech, eco-friendly brands, and kids' services</em>.</li>
+  <li><strong>Fire (火) - ㄴ, ㄷ, ㄹ, ㅌ:</strong> Expansion, passion, light, speed. Spreading energy rapidly, it fits <em>social media platforms, entertainment, and fast delivery apps</em>.</li>
+  <li><strong>Earth (土) - ㅇ, ㅎ:</strong> Trust, embrace, stability, foundation. Round and soft, reducing friction. Ideal for <em>FinTech, real estate, healthcare, and community services</em> where trust is paramount.</li>
+  <li><strong>Metal (金) - ㅅ, ㅈ, ㅊ:</strong> Accuracy, decision, professionalism, structure. Sharp and clear-cut, suited for <em>security, legal, accounting, and B2B solutions</em>.</li>
+  <li><strong>Water (水) - ㅁ, ㅂ, ㅍ:</strong> Flexibility, connection, circulation, information. Flowing and adapting, matching well with <em>logistics, data platforms, and e-commerce</em>.</li>
+</ul>
+
+<h2 id="core-naming-strategy">Core Strategies for Successful Brand Naming</h2>
+
+<h3>1. The Initial Sound Determines the First Impression</h3>
+<p>The very first sound that comes out of a customer's mouth defines the brand's character. If it's a B2C service that needs to blend naturally into daily life, starting with the soft 'ㅇ, ㅎ' (Earth) sounds is advantageous. If the brand needs a strong impact or authoritative professionalism, leading with Metal (金) sounds or sharp plosives is more effective.</p>
+
+<h3>2. Global Pronunciation and Element Harmony</h3>
+<p>While domestic shop names might only consider Korean sound element harmony (Sangsaeng), startups must think globally. Even if the Korean pronunciation flows perfectly according to Ohaeng, you must cross-check how it is read in English or other languages. The best names have enough vowels to be intuitively readable and pronounceable anywhere in the world without carrying negative connotations.</p>
+
+<h3>3. Connection with the Founder's Saju</h3>
+<p>Although a brand takes on a life of its own, the founder's energy dictates the company's early fate. Placing the element most needed in the founder's Saju (Yongsin) as the brand's initial sound can provide psychological stability and a positive driving force for the entrepreneur.</p>
+
+<div className="content-cta">
+  <h3 id="naming-consulting-en">Which Element Fits Your Business?</h3>
+  <p>Find the element that perfectly aligns with your Saju and business model. Discover your necessary energy at SajuPalza Hub.</p>
+  <a href="/en/saju-analysis">Check My Saju Elements</a>
+</div>
+</section>
+    `,
+    toc: [
+      { id: 'difference-in-naming', title: '상호 작명과 스타트업 네이밍의 차이' },
+      { id: 'ohaeng-brand-image', title: '오행별 브랜드 심리적 이미지' },
+      { id: 'core-naming-strategy', title: '성공하는 브랜드 이름 핵심 전략' }
+    ],
+    tocEn: [
+      { id: 'difference-in-naming', title: 'Shop vs. Startup Naming' },
+      { id: 'ohaeng-brand-image', title: 'Brand Image by Elements' },
+      { id: 'core-naming-strategy', title: 'Core Naming Strategy' }
+    ],
+    faq: [
+      { q: '공동 창업자인 경우 누구의 사주에 맞춰서 이름을 지어야 하나요?', a: '법인의 대표이사 또는 브랜드를 실질적으로 이끌고 책임을 지는 메인 디렉터의 사주를 기준으로 부족한 오행을 보완하는 것이 일반적입니다.' },
+      { q: '브랜드명이 영어 단어인 경우 발음오행을 어떻게 적용하나요?', a: '영어 단어라 하더라도 한국 시장에서 주로 불리는 한글 표기 발음을 기준으로 오행을 분석합니다. 예를 들어 "Apple(애플)"은 토(ㅇ)-수(ㅍ)-화(ㄹ)의 구조로 봅니다.' },
+      { q: '업종의 오행과 대표자 사주의 오행 중 무엇이 더 중요한가요?', a: '스타트업의 경우 타겟 고객에게 전달되는 업종의 오행(브랜드 정체성)을 우선시하는 경향이 있습니다. 대표자의 기운 보완은 법인명(주식회사 OO)에 적용하고, 실제 서비스하는 브랜드명은 업종 이미지에 맞추는 식의 분리 전략도 많이 씁니다.' },
+    ],
+    faqEn: [
+      { q: 'In the case of co-founders, whose Saju should the brand name follow?', a: 'It is standard to base the elemental supplementation on the Saju of the CEO or the main director who practically leads and takes ultimate responsibility for the brand.' },
+      { q: 'How do you apply sound elements if the brand name is an English word?', a: 'Even for English words, the analysis is based on how it is pronounced and written in Korean (Hangul). For example, "Apple" (애플) is analyzed as Earth (ㅇ) - Water (ㅍ) - Fire (ㄹ).' },
+      { q: 'Which is more important: the element of the industry or the founder\'s Saju?', a: 'For startups, the industry\'s element (brand identity) delivered to the customer is often prioritized for the service name. The founder\'s energy can instead be supplemented in the official corporate name (e.g., OO Inc.), separating the corporate identity from the product brand.' },
+    ],
+    relatedPosts: [
+      { slug: 'name-five-elements', category: 'seongmyeong', title: '이름 오행 분석: 소리와 기운의 조화 읽기' },
+      { slug: 'name-change-effect', category: 'seongmyeong', title: '개명 후 실제 변화 — 이름 바꾸면 운이 달라지나?' },
+      { slug: 'surname-name-ohaeng-match', category: 'seongmyeong', title: '성씨 초성과 이름 첫소리 궁합 — 발음오행 충돌 피하는 법' },
+    ],
+  }
+
 ], '2026-01-11', 4, '2026-02-13', 1);
