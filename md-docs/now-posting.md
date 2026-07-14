@@ -494,7 +494,7 @@
 - 하위 키워드 EN: high cheekbone gwansang, cheekbone power fortune, social luck face reading
 - 작성 지침: cheek-reading(볼살)과 다름. 광대뼈 높고/낮고/넓고/좁은 케이스별 리더십, 사회적 압박, 대인관계 긴장도를 분석.
 
-[ ] 51. 인중 길이 관상 — 자녀궁과 중년 체력 신호
+[완료] 51. 인중 길이 관상 — 자녀궁과 중년 체력 신호
 - slug: `philtrum-reading`
 - 카테고리: `face-reading`
 - 메인 키워드 KO: 인중 길이 관상, 인중 자녀운
@@ -503,7 +503,7 @@
 - 하위 키워드 EN: long philtrum gwansang, philtrum children luck, vitality philtrum reading
 - 작성 지침: under-eye-reading(눈 밑 자녀궁)과 다름. 인중 길이·깊이·선명도별 자녀궁, 중년 체력, 생활 리듬 신호를 다루되 수명 단정 금지.
 
-[ ] 52. 관상 이마 주름 — 주름으로 보는 운세와 성격
+[완료] 52. 관상 이마 주름 — 주름으로 보는 운세와 성격
 - slug: `forehead-wrinkles`
 - 카테고리: `face-reading`
 - 메인 키워드 KO: 관상 이마 주름, 이마 주름 운세
@@ -512,7 +512,7 @@
 - 하위 키워드 EN: forehead lines meaning gwansang, wrinkle position fortune, three lines forehead
 - 작성 지침: forehead-reading(이마 전체)과 다름. 이마 주름 개수·위치·모양별 운세·성격 분석.
 
-[ ] 53. 눈 밑 자녀궁 관상 — 와잠으로 보는 체력과 관계 피로
+[완료] 53. 눈 밑 자녀궁 관상 — 와잠으로 보는 체력과 관계 피로
 - slug: `under-eye-reading`
 - 카테고리: `face-reading`
 - 메인 키워드 KO: 눈 밑 자녀궁 관상, 와잠 관상

@@ -65,34 +65,43 @@ Updated At: 2026-05-31 KST
 | 44 | 반려동물 이름 짓는 법 — 오행으로 찾는 행운의 이름 | `pet-name-fortune` |
 | 45 | 개명 후 실제 변화 — 이름 바꾸면 운이 달라지나? | `name-change-effect` |
 
+| 46 | 사주 명식 해석 예시 — 천간·지지·오행 단계별 풀이 | `saju-chart-example-reading` |
+| 47 | 성씨 초성과 이름 첫소리 오행 — 발음오행 충돌 피하는 법 | `surname-name-ohaeng-match` |
+| 48 | 브랜드명 오행 분석 — 스타트업 이름 짓기와 상호 작명 차이 | `brand-name-fortune` |
+| 49 | 턱끝 관상과 턱선 해석 — 말년운과 버티는 힘 | `chin-reading` |
+| 50 | 광대뼈 관상 — 높이와 돌출로 보는 리더십 압박 | `cheekbone-reading` |
+| 51 | 인중 관상 — 길이와 깊이로 보는 관계 책임감 | `philtrum-reading` |
+| 52 | 이마 주름 관상 — 주름 위치로 보는 성격과 일 처리 습관 | `forehead-wrinkles` |
+| 53 | 눈 밑 자녀궁 관상 — 와잠으로 보는 체력과 관계 피로 | `under-eye-reading` |
+
 ---
 
 ## 현재 작성 대상
 
-[완료] 45. 개명 후 실제 변화 — 이름 바꾸면 운이 달라지나?
-- slug: `name-change-effect`
-- 카테고리: `seongmyeong`
-- 작성 파일: `lib/blog/seongmyeong-posts.ts`
-- 메인 키워드 KO: 개명 효과, 개명 후 변화
-- 메인 키워드 EN: korean name change effect, does name change affect fortune korea
-- 하위 키워드 KO: 개명 실제 효과, 이름 바꾸면 운 바뀌나, 개명 성공 사례, 개명 주의사항
-- 하위 키워드 EN: name change luck korea, legal name change fortune, name revision effect
-- 작성 지침: name-change(개명 방법)와 다름. 개명 후 실제 변화 사례·심리적 효과·주의사항 중심.
-- 완료 파일: `lib/blog/seongmyeong-posts.ts`
+[완료] 53. 눈 밑 자녀궁 관상 — 와잠으로 보는 체력과 관계 피로
+- slug: `under-eye-reading`
+- 카테고리: `face-reading`
+- 작성 파일: `lib/blog/gwansang-posts.ts`
+- 메인 키워드 KO: 눈 밑 자녀궁 관상, 와잠 관상
+- 메인 키워드 EN: under eye face reading gwansang, under eye fortune korean
+- 하위 키워드 KO: 눈 밑 다크서클 관상, 눈 밑 자녀운, 눈 밑 애정운, 눈 밑 살 관상
+- 하위 키워드 EN: dark circles gwansang, under eye children luck, eye bags fortune korean
+- 작성 지침: eye-reading(눈 전체)·mouth-lips(입술 애정운)와 다름. 눈 밑 자녀궁, 와잠의 살집·꺼짐·그늘을 중심으로 체력 저하와 관계 피로 신호를 다루되 의학 단정 금지.
+- 완료 파일: `lib/blog/gwansang-posts.ts`
 
 ---
 
 ## 다음 작성 예정 상세
 
-[ ] 46. 사주 명식 해석 예시 — 천간·지지·오행 단계별 풀이
-- slug: `saju-chart-example-reading`
-- 카테고리: `saju`
-- 작성 파일: `lib/blog/saju-posts.ts`
-- 메인 키워드 KO: 사주 명식 해석 예시, 사주 명식 보는법
-- 메인 키워드 EN: saju chart example reading, four pillars chart interpretation example
-- 하위 키워드 KO: 사주 원국 예시, 천간 지지 해석, 오행 비율 읽기, 십성 배치 예시
-- 하위 키워드 EN: saju birth chart example, heavenly stems earthly branches reading, five elements chart example
-- 작성 지침: 기존 intro(사주팔자 뜻·기초)와 다름. 하나의 실제 예시 명식을 정해 천간·지지·오행·십성 순서로 풀이한다. `사주팔자란`, `무료`, `뜻` 키워드는 메인 의도로 쓰지 않는다.
+[ ] 54. 명궁 관상 — 미간 넓이와 주름으로 보는 판단 습관
+- slug: `between-eyebrows`
+- 카테고리: `face-reading`
+- 작성 파일: `lib/blog/gwansang-posts.ts`
+- 메인 키워드 KO: 명궁 관상, 미간 넓이 관상
+- 메인 키워드 EN: between eyebrows gwansang, glabella face reading korean fortune
+- 하위 키워드 KO: 미간 넓으면 관상, 미간 좁으면 관상, 미간 주름, 미간 직업운
+- 하위 키워드 EN: wide glabella fortune gwansang, narrow eyebrows fate, brow gap reading
+- 작성 지침: eyebrow-reading(눈썹)과 다름. 명궁으로 보는 미간 넓이, 주름, 주변색으로 판단 습관과 일 처리 방식 중심으로 분석.
 
 ---
 
@@ -100,15 +109,6 @@ Updated At: 2026-05-31 KST
 
 | 번호 | category | slug | 제목 |
 |---:|---|---|---|
-| 46 | saju | `saju-chart-example-reading` | 사주 명식 해석 예시 — 천간·지지·오행 단계별 풀이 |
-| 47 | seongmyeong | `surname-name-ohaeng-match` | 성씨 초성과 이름 첫소리 오행 — 발음오행 충돌 피하는 법 |
-| 48 | seongmyeong | `brand-name-fortune` | 브랜드명 오행 분석 — 스타트업 이름 짓기와 상호 작명 차이 |
-| 49 | face-reading | `chin-reading` | 턱끝 관상과 턱선 해석 — 말년운과 버티는 힘 |
-| 50 | face-reading | `cheekbone-reading` | 광대뼈 관상 — 높이와 돌출로 보는 리더십 압박 |
-| 51 | face-reading | `philtrum-reading` | 인중 관상 — 길이와 깊이로 보는 관계 책임감 |
-| 52 | face-reading | `forehead-wrinkles` | 이마 주름 관상 — 주름 위치로 보는 성격과 일 처리 습관 |
-| 53 | face-reading | `under-eye-reading` | 눈 밑 자녀궁 관상 — 와잠으로 보는 관계 피로와 생활 리듬 |
-| 54 | face-reading | `between-eyebrows` | 명궁 관상 — 미간 넓이와 주름으로 보는 판단 습관 |
 | 55 | face-reading | `cheek-reading` | 볼살 관상 — 협골 주변 살집으로 보는 친화력과 소비 성향 |
 | 56 | face-reading | `neck-reading` | 목선 관상 — 목 길이와 굵기로 보는 지속력 |
 | 57 | face-reading | `double-eyelid-reading` | 쌍꺼풀 관상 — 속쌍·겉쌍·외꺼풀별 인상 차이 |

@@ -1,4 +1,4 @@
-﻿import { BlogPost } from './types';
+import { BlogPost } from './types';
 import { distributePublishedDates } from './date-utils';
 
 export const gwansangPosts: BlogPost[] = distributePublishedDates([
@@ -1985,6 +1985,268 @@ export const gwansangPosts: BlogPost[] = distributePublishedDates([
     relatedPosts: [
       { slug: 'wealth-face', category: 'face-reading', title: '재물 관상: 코와 입에 숨겨진 부의 비밀' },
       { slug: 'intro', category: 'face-reading', title: '관상학 입문: 얼굴로 보는 성격·재물·건강운 기초 가이드' },
+    ],
+  },
+  {
+    slug: 'forehead-wrinkles',
+    title: '관상 이마 주름: 주름으로 보는 운세와 성격, 그리고 수명',
+    seoTitle: '이마 주름 관상: 세 줄 이마 주름 위치별 뜻과 성격 운세 분석',
+    seoTitleEn: 'Forehead Wrinkles Gwansang: Reading Lines for Fortune and Character',
+    description: '관상에서 이마 주름은 인생의 연륜과 성격을 보여줍니다. 세 줄 주름, 끊긴 주름, 주름 위치별 뜻과 운세, 수명과의 연관성을 상세히 분석합니다.',
+    descriptionEn: 'Discover what your forehead wrinkles say about your personality, lifespan, and fortune in Korean face reading (Gwansang). Learn the meaning of three lines and more.',
+    keywords: ['관상 이마 주름', '이마 주름 운세', '이마 주름 성격', '세 줄 이마 주름', '이마 주름 수명', '주름 위치별 뜻'],
+    keywordsEn: ['Forehead Wrinkles Gwansang', 'Forehead Lines Fortune', 'Wrinkle Position Fortune', 'Three Lines Forehead', 'Korean Face Reading Lines'],
+    publishedAt: '2026-06-03',
+    updatedAt: '2026-06-03',
+    category: 'face-reading',
+    contentKo: `
+<section>
+<p>관상에서 <strong>이마 주름</strong>은 단순한 노화의 흔적이 아닙니다. 이마는 초년운과 부모운, 그리고 개인의 사회적 지위와 명예를 상징하는 부위이며, 그 위에 새겨진 주름은 살면서 겪어온 경험, 성격, 사고방식을 보여주는 중요한 기록입니다. '이마 주름 운세'는 주름의 개수, 모양, 그리고 어느 위치에 있는지를 종합적으로 판단하여 사람의 운명과 성격을 분석합니다.</p>
+<p>특히 '세 줄 이마 주름'은 관상학에서 매우 상징적인 의미를 지니며, 주름이 끊어지거나 어지러운 경우 삶의 굴곡을 나타내기도 합니다. 이번 글에서는 이마 주름 위치별 뜻, 성격적 특징, 그리고 건강 및 수명과의 연관성까지 상세히 알아봅니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/face-reading/forehead-reading" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">이마 관상: 이마 넓이와 모양으로 보는 직업운과 명예</a></li>
+    <li style="margin-bottom: 4px;"><a href="/face-reading/between-eyebrows" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">명궁(미간) 관상: 미간 주름과 넓이로 보는 판단 습관</a></li>
+  </ul>
+</div>
+
+<h2 id="meaning-of-forehead-lines">1. 이마 주름이 상징하는 운세와 성격</h2>
+<p>이마 주름은 하늘, 사람, 땅을 의미하는 천인지(天人地)의 개념으로 주로 해석됩니다. 이마 상단은 윗사람이나 하늘의 덕, 중단은 본인의 노력과 대인관계, 하단은 아랫사람이나 현실적인 기반을 상징합니다. 주름이 선명하고 길게 끊어짐 없이 이어진 것을 '길상(좋은 상)'으로 보며, 이는 일관된 성격과 안정적인 운세를 의미합니다.</p>
+<p>반대로 주름이 짧게 끊어지거나 지그재그로 어지럽게 얽혀 있다면, 삶의 과정에서 여러 번의 직업 변화나 인간관계의 풍파를 겪을 확률이 높다고 봅니다. 하지만 젊은 나이에 주름이 너무 많으면 고생을 일찍 했다는 뜻이 될 수 있으므로, 나이에 맞는 적절한 주름이 자리 잡는 것을 가장 좋게 평가합니다.</p>
+
+<h2 id="three-lines-forehead">2. 세 줄 이마 주름 (천인지 주름)</h2>
+<p>가장 이상적인 이마 주름의 형태는 가로로 반듯하게 그어진 세 줄의 주름입니다. 이를 천문(天文), 인문(人文), 지문(地文)이라고 부릅니다.</p>
+<ul>
+  <li><strong>상단 주름 (천문):</strong> 이마의 제일 위에 있는 주름으로, 부모운, 윗사람의 덕, 국가적 관운을 상징합니다. 이 주름이 선명하면 초년운이 좋고 윗사람의 지원을 잘 받습니다.</li>
+  <li><strong>중간 주름 (인문):</strong> 본인의 능력, 노력, 그리고 형제나 동료와의 관계를 의미합니다. 이 주름이 뚜렷하면 자신의 힘으로 성공을 일구고 대인관계가 원만합니다.</li>
+  <li><strong>하단 주름 (지문):</strong> 눈썹 바로 위쪽의 주름으로, 아랫사람의 덕, 가정운, 재물의 기반을 상징합니다. 이 주름이 굳건하면 부하직원이나 자녀 복이 많고 노년이 안정적입니다.</li>
+</ul>
+<p>이 세 줄이 모두 길고 선명하다면 지혜롭고 명예를 얻으며 장수하는 상으로, 전통적으로 가장 귀한 관상 중 하나로 칩니다.</p>
+
+<h2 id="wrinkle-shapes">3. 이마 주름 모양에 따른 성격과 삶의 태도</h2>
+<p>주름의 개수나 뚜렷함 외에도 모양에 따라 사람의 기질이 다르게 나타납니다.</p>
+<h3>한 줄 주름</h3>
+<p>이마 한가운데에 길고 선명한 가로 주름 하나만 있는 사람은 흔히 '외골수' 성향이 강합니다. 하나의 목표를 향해 무섭게 집중하는 전문가 타입으로, 자신의 분야에서 큰 성취를 이룰 수 있습니다. 그러나 때로는 융통성이 부족해 타인과의 타협에 어려움을 겪을 수 있습니다.</p>
+<h3>두 줄 주름</h3>
+<p>두 줄의 주름은 조화와 타협을 아는 현실주의자의 상입니다. 윗사람과 아랫사람 사이에서 중재자 역할을 잘하며, 극단적인 모험보다는 안정을 추구하는 경향이 강해 평탄한 삶을 살아가는 편입니다.</p>
+<h3>끊긴 주름과 구불구불한 주름</h3>
+<p>주름이 중간에 여러 번 끊겨 있다면, 인생의 방향이 수시로 바뀌었거나 직업 변동이 많았음을 암시합니다. 물결처럼 구불구불한 주름은 성격이 유연하고 예술적 감수성이 풍부하지만, 일의 마무리가 약하거나 감정 기복이 심할 수 있어 안정된 환경을 만드는 노력이 필요합니다.</p>
+
+<h2 id="lifespan-and-health">4. 이마 주름과 수명, 그리고 건강 신호</h2>
+<p>관상에서 이마 주름은 수명과도 연결지어 해석하곤 합니다. 주름이 깊고 뚜렷하며 끊어짐이 없는 사람은 타고난 체력이 좋고 정신력이 강해 장수할 확률이 높다고 봅니다. 반면, 이마 주름이 희미하다가 나이가 들어 갑자기 깊어지는 것은 삶의 피로도나 건강상의 경고 신호일 수 있습니다.</p>
+<p>특히 미간(명궁)으로 이어지는 세로 주름(현침문)이 너무 깊게 패여 있다면, 신경이 예민하고 심혈관계 스트레스가 높다는 신호일 수 있습니다. 관상학에서는 표정 습관이 주름을 만든다고 보며, 자주 찡그리거나 신경질적인 표정은 운세를 탁하게 하므로 평소 부드러운 표정을 짓는 것이 '수명 관상'에 도움이 된다고 조언합니다.</p>
+
+<h2 id="conclusion">5. 결론: 나이테처럼 아름다운 훈장</h2>
+<p>이마 주름은 나무의 나이테와 같습니다. 살아온 세월의 무게와 지혜가 고스란히 담긴 훈장입니다. 미용적인 목적으로 주름을 없애는 시술을 받는 분들도 많지만, 관상학적 관점에서는 40대 이후 자연스럽게 자리 잡는 반듯한 가로 주름은 오히려 신뢰감과 명예운을 높여주는 긍정적인 요소입니다.</p>
+<p>당신의 이마에 어떤 주름이 있든, 그것은 당신이 열심히 살아왔다는 증거입니다. 긍정적인 마음가짐과 온화한 미소로 살아간다면, 이마의 주름은 당신의 운명을 깎아내리는 선이 아니라, 지혜와 덕망을 보여주는 아름다운 선으로 남을 것입니다.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/gwansang-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">📸 AI 관상 분석기로 내 이마 주름 의미 확인하기 →</a>
+</div>
+</section>
+    `,
+    contentEn: `
+<section>
+<p>In Gwansang (Korean face reading), <strong>forehead wrinkles</strong> are not merely signs of aging. The forehead represents early life luck, parental support, and one's social status and honor. The lines etched across it serve as important records of the experiences, personality, and mindset developed over a lifetime. 'Forehead lines fortune' analyzes the number, shape, and position of these wrinkles to predict an individual's destiny and character.</p>
+<p>In particular, the 'three lines on the forehead' hold highly symbolic meaning in physiognomy, while broken or chaotic lines may indicate a life full of twists and turns. In this article, we will detail the meanings of forehead wrinkle positions, personality traits, and their connection to health and lifespan.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/face-reading/forehead-reading" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Forehead Reading: Career Luck and Honor by Shape</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/face-reading/between-eyebrows" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Glabella (Mingung) Reading: Judgment Habits and Eyebrow Gap</a></li>
+  </ul>
+</div>
+
+<h2 id="meaning-of-forehead-lines">1. Fortune and Personality in Forehead Lines</h2>
+<p>Forehead wrinkles are generally interpreted through the concept of Heaven, Human, and Earth (Cheon-In-Ji). The upper part of the forehead symbolizes superiors or heavenly virtue, the middle part represents one's own efforts and interpersonal relationships, and the lower part signifies subordinates or practical foundations. Lines that are clear, long, and unbroken are considered 'auspicious signs', indicating a consistent personality and stable fortune.</p>
+<p>Conversely, if the lines are short, broken, or chaotically zigzagged, it suggests a high probability of experiencing frequent job changes or turbulence in human relationships. However, having too many wrinkles at a young age can mean having endured hardships early on, so developing appropriate lines as one ages is evaluated most favorably.</p>
+
+<h2 id="three-lines-forehead">2. The Three Forehead Lines (Heaven, Human, Earth)</h2>
+<p>The most ideal form of forehead wrinkles consists of three straight horizontal lines. These are referred to as the Heaven Line (Cheon-mun), Human Line (In-mun), and Earth Line (Ji-mun).</p>
+<ul>
+  <li><strong>Top Line (Heaven Line):</strong> The highest line on the forehead symbolizes parental luck, support from superiors, and career honors. A clear line here means good early luck and strong mentorship.</li>
+  <li><strong>Middle Line (Human Line):</strong> This signifies one's own abilities, efforts, and relationships with peers or siblings. A distinct middle line indicates success achieved through one's own power and smooth interpersonal relationships.</li>
+  <li><strong>Bottom Line (Earth Line):</strong> Located just above the eyebrows, this line symbolizes luck with subordinates, family stability, and financial foundations. A strong earth line means good fortune with followers or children and a stable old age.</li>
+</ul>
+<p>If all three lines are long and distinct, it is a sign of a wise, honorable, and long-lived person, traditionally considered one of the most noble face readings.</p>
+
+<h2 id="wrinkle-shapes">3. Personality and Attitude by Wrinkle Shape</h2>
+<p>Beyond the number or clarity, the shape of the lines also reveals different temperaments.</p>
+<h3>Single Line</h3>
+<p>A person with only one long, clear horizontal line in the middle of their forehead often has a strong 'single-minded' tendency. They are the specialist type who focuses fiercely on a single goal, capable of achieving great things in their field. However, they may sometimes lack flexibility and struggle with compromise.</p>
+<h3>Two Lines</h3>
+<p>Two lines represent a pragmatist who understands harmony and compromise. They excel as mediators between superiors and subordinates, and tend to lead a smooth life due to a strong preference for stability over extreme risks.</p>
+<h3>Broken and Wavy Lines</h3>
+<p>If the lines are broken multiple times, it implies that the direction of life has changed frequently or there have been many career shifts. Wavy, undulating lines suggest a flexible personality with rich artistic sensibility, but may also indicate a weakness in finishing tasks or severe mood swings, requiring effort to build a stable environment.</p>
+
+<h2 id="lifespan-and-health">4. Forehead Lines, Lifespan, and Health Signals</h2>
+<p>In Gwansang, forehead lines are often interpreted in connection with lifespan. Those with deep, clear, and unbroken lines are seen as having good innate stamina and strong mental fortitude, indicating a high probability of longevity. On the other hand, lines that are faint but suddenly deepen with age can be a warning sign of life fatigue or health issues.</p>
+<p>In particular, if vertical lines (like the 'hanging needle' line) extending to the glabella (between the eyebrows) are too deeply etched, it may signal high nervous sensitivity and cardiovascular stress. Physiognomy believes that facial habits create wrinkles; frequent frowning or nervous expressions cloud one's fortune, so adopting a gentle expression is advised for 'longevity fortune'.</p>
+
+<h2 id="conclusion">5. Conclusion: Beautiful Badges of Experience Like Tree Rings</h2>
+<p>Forehead wrinkles are like the rings of a tree. They are badges holding the weight and wisdom of the years lived. While many seek cosmetic procedures to remove wrinkles for aesthetic reasons, from a physiognomy perspective, straight horizontal lines that naturally settle in after one's 40s are actually positive elements that enhance trustworthiness and honor luck.</p>
+<p>Whatever lines are on your forehead, they are proof that you have lived diligently. If you live with a positive mindset and a gentle smile, the wrinkles on your forehead will not be lines that carve away your destiny, but beautiful lines demonstrating wisdom and virtue.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en/gwansang-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">📸 Discover the Meaning of Your Lines with AI Face Reading →</a>
+</div>
+</section>
+    `,
+    toc: [
+      { id: 'meaning-of-forehead-lines', title: '1. 이마 주름이 상징하는 운세와 성격' },
+      { id: 'three-lines-forehead', title: '2. 세 줄 이마 주름 (천인지 주름)' },
+      { id: 'wrinkle-shapes', title: '3. 주름 모양에 따른 성격' },
+      { id: 'lifespan-and-health', title: '4. 이마 주름과 건강, 수명' },
+      { id: 'conclusion', title: '5. 결론: 나이테처럼 아름다운 훈장' },
+    ],
+    tocEn: [
+      { id: 'meaning-of-forehead-lines', title: '1. Fortune and Personality in Forehead Lines' },
+      { id: 'three-lines-forehead', title: '2. The Three Forehead Lines' },
+      { id: 'wrinkle-shapes', title: '3. Personality by Wrinkle Shape' },
+      { id: 'lifespan-and-health', title: '4. Forehead Lines, Lifespan, and Health' },
+      { id: 'conclusion', title: '5. Conclusion: Beautiful Badges' },
+    ],
+    faq: [
+      { q: '이마 주름을 보톡스로 없애면 관상(운세)이 나빠지나요?', a: '나이에 맞지 않게 너무 깊게 패인 주름이나, 미간을 찌푸려 생긴 신경질적인 세로 주름은 펴는 것이 관상학적으로도 개운(운을 틔움)에 도움이 됩니다. 다만, 중장년 이후의 자연스럽고 옅은 가로 주름은 연륜과 명예를 상징하므로 무리해서 없앨 필요는 없습니다.' },
+      { q: '세 줄 주름 중 하나만 끊겨 있다면 무슨 뜻인가요?', a: '천(상단), 인(중단), 지(하단) 중 어느 선이 끊겼는지에 따라 다릅니다. 상단이 끊기면 윗사람과의 인연이, 중단이 끊기면 대인관계나 본인의 노력이, 하단이 끊기면 아랫사람이나 재물 기반에 불안정이 있을 수 있다고 해석합니다.' },
+      { q: '20대인데 벌써 이마 주름이 많습니다. 고생할 관상인가요?', a: '젊은 나이에 주름이 많다면 타고난 감수성이 예민하거나, 남들보다 일찍 사회 경험을 하며 고생을 겪었을 확률이 높습니다. 하지만 이를 통해 일찍 성숙해지고 지혜를 얻을 수 있으므로 무조건 흉상이라 단정할 수 없습니다. 피부 관리와 긍정적인 표정 유지가 중요합니다.' },
+    ],
+    faqEn: [
+      { q: 'Does removing forehead wrinkles with Botox worsen my fortune?', a: 'Smoothing out unnaturally deep wrinkles for your age, or nervous vertical frown lines, actually helps open up your luck (gae-un) in physiognomy. However, natural, light horizontal lines in middle age and beyond symbolize experience and honor, so there is no need to forcibly remove them.' },
+      { q: 'What does it mean if only one of the three lines is broken?', a: 'It depends on which line—Heaven (top), Human (middle), or Earth (bottom)—is broken. A broken top line suggests weak ties with superiors; a broken middle line implies instability in peer relationships or personal efforts; a broken bottom line indicates issues with subordinates or financial foundations.' },
+      { q: 'I am in my 20s and already have many forehead wrinkles. Does this mean a hard life?', a: 'Having many wrinkles at a young age often indicates high sensitivity or having experienced early social hardships. However, this also means you may mature early and gain wisdom, so it is not unconditionally a bad sign. Skincare and maintaining a positive expression are key.' },
+    ],
+    relatedPosts: [
+      { slug: 'forehead-reading', category: 'face-reading', title: '이마 관상: 넓이와 모양으로 보는 직업운' },
+      { slug: 'between-eyebrows', category: 'face-reading', title: '명궁(미간) 관상: 주름으로 보는 판단 습관' },
+    ],
+  },
+  {
+    slug: 'under-eye-reading',
+    title: '눈 밑 자녀궁 관상: 와잠으로 보는 체력과 관계 피로',
+    seoTitle: '눈 밑 자녀궁 관상: 와잠 애교살 다크서클로 보는 관계 운세와 체력',
+    seoTitleEn: 'Under Eye Face Reading in Gwansang: Eye Bags, Dark Circles, and Relationship Fortune',
+    description: '눈 밑 와잠(애교살)과 다크서클 관상은 현재의 체력 저하와 대인관계의 피로도를 보여줍니다. 자녀운과 애정운을 의미하는 남녀궁의 상태를 통해 내 운세를 점검하세요.',
+    descriptionEn: 'Discover what your under-eye area (Injung) reveals in Korean face reading. Learn how dark circles, eye bags, and plumpness indicate physical stamina and relationship luck.',
+    keywords: ['눈 밑 자녀궁 관상', '와잠 관상', '눈 밑 다크서클 관상', '눈 밑 자녀운', '눈 밑 애정운', '눈 밑 살 관상'],
+    keywordsEn: ['Under Eye Face Reading Gwansang', 'Under Eye Fortune Korean', 'Dark Circles Gwansang', 'Under Eye Children Luck', 'Eye Bags Fortune Korean'],
+    publishedAt: '2026-06-04',
+    updatedAt: '2026-06-04',
+    category: 'face-reading',
+    contentKo: `
+<section>
+<p>거울을 볼 때 가장 먼저 시선이 가는 곳 중 하나가 바로 <strong>눈 밑</strong>입니다. 관상학에서는 눈 바로 아래 도톰하게 올라온 부위를 <strong>'와잠(臥蠶)'</strong> 또는 남녀궁(男女宮), <strong>'자녀궁(子女宮)'</strong>이라고 부릅니다. 이 부위는 단순히 미용적인 애교살이 아니라, 현재 내 몸의 생명력, 호르몬 상태, 생식 기능, 그리고 타인(특히 이성이나 자녀)과의 관계에서 발생하는 피로도를 가장 즉각적으로 보여주는 운세의 모니터입니다.</p>
+<p>눈빛이 정신력을 상징한다면, 눈 밑 와잠은 그 정신력을 뒷받침하는 <strong>'육체적 체력과 정서적 여유'</strong>를 상징합니다. 눈 밑이 푹 꺼졌는지, 맑은 빛을 띠는지, 아니면 검푸른 다크서클이 내려앉았는지에 따라 현재 나의 대인관계 운과 자녀운이 어떻게 흘러가고 있는지 상세히 풀어보겠습니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/face-reading/eye-reading" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">눈 관상 가이드: 눈매와 눈빛으로 읽는 나의 판단력과 인복</a></li>
+    <li style="margin-bottom: 4px;"><a href="/face-reading/cheek-reading" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">볼살 관상: 협골 주변 살집으로 보는 친화력과 소비 성향</a></li>
+  </ul>
+</div>
+
+<h2 id="meaning-of-wajam">1. 자녀궁과 와잠(애교살)의 관상학적 의미</h2>
+<p>와잠(臥蠶)은 한자 그대로 '누워 있는 누에'라는 뜻입니다. 눈 밑에 마치 누에가 한 마리 누워 있는 것처럼 도톰하고 윤기 있게 살짝 솟아오른 모양을 최고의 길상으로 칩니다. 이 부위는 신장(생명력과 호르몬을 주관하는 장기)의 기운이 외부로 드러나는 곳입니다.</p>
+<p>전통 관상에서 이곳을 자녀궁이라고 부른 이유는, 신장의 기운이 튼튼해야 건강한 2세를 가질 수 있다고 보았기 때문입니다. 현대적으로 해석하면, 자녀뿐만 아니라 <strong>'나의 에너지를 쏟아 돌보아야 하는 모든 관계'</strong>에 대한 애정운과 포용력을 의미합니다. 와잠이 적당히 부풀어 오르고 색이 밝으면, 사람들에게 호감을 주고 연애운이 순탄하며, 타인을 돌볼 수 있는 신체적, 정신적 여유가 충분하다는 뜻입니다.</p>
+
+<h2 id="dark-circles-and-exhaustion">2. 다크서클과 그늘: 체력 고갈과 관계 피로의 경고</h2>
+<p>눈 밑 관상에서 형태보다 더 중요한 것은 <strong>'기색(氣色, 피부의 빛깔)'</strong>입니다. 눈 밑이 어둡고 칙칙해지는 다크서클은 관상학에서 매우 강력한 경고 신호로 해석됩니다.</p>
+<ul>
+  <li><strong>검푸른 다크서클:</strong> 과도한 업무, 수면 부족, 혹은 극심한 스트레스로 인해 하단전의 에너지가 바닥났다는 신호입니다. 이때는 판단력이 흐려지고 짜증이 늘어, 연인이나 가족, 동료와의 관계에서 불필요한 마찰이 생길 확률이 매우 높습니다.</li>
+  <li><strong>붉은빛을 띠는 그늘:</strong> 눈 밑이 붉고 건조하다면 심리적인 열이 위로 뻗치고 있다는 의미로, 화병이나 조급함을 나타냅니다. 성급한 투자나 감정적인 결정으로 손해를 볼 수 있으니 한 템포 쉬어가는 것이 필요합니다.</li>
+</ul>
+<p>이러한 기색의 변화는 질병에 대한 의학적 진단은 아니지만, 삶의 리듬이 깨졌다는 명백한 지표입니다. 다크서클이 심할 때는 새로운 인연을 맺거나 중요한 결정을 내리기보다, 철저한 휴식으로 눈 밑의 밝은 기운을 회복하는 것이 개운(開運)의 첫걸음입니다.</p>
+
+<h2 id="sunken-under-eyes">3. 꺼진 눈 밑과 납작한 와잠: 고독과 독립성</h2>
+<p>나이가 들면서 자연스럽게 와잠이 사라지고 눈 밑이 푹 꺼지는 것은 자연스러운 노화의 과정입니다. 하지만 젊은 나이임에도 눈 밑이 완전히 평평하거나 안쪽으로 꺼져 있다면 어떻게 해석할까요?</p>
+<p>눈 밑 살집이 없는 관상은 본질적으로 <strong>이성적이고 감정에 크게 휘둘리지 않는 독립적인 성향</strong>을 띠는 경우가 많습니다. 남에게 기대지 않고 스스로 문제를 해결하려 하기 때문에 직업적인 성취는 빠를 수 있습니다. 그러나 타인에게 살가운 애정을 표현하는 데 서툴거나, 누군가를 세심하게 챙겨야 하는 육아, 대인 서비스 분야에서는 남들보다 배로 피로감을 느낄 수 있습니다. 고독감을 즐기되, 곁에 있는 사람에게 의도적으로 따뜻한 말을 건네는 연습이 필요합니다.</p>
+
+<h2 id="eye-bags-aging">4. 불룩하게 처진 눈 밑 지방: 쌓인 피로와 심리적 무게</h2>
+<p>도톰한 와잠(애교살)과 구분해야 할 무언가가 눈 밑 전체가 주머니처럼 불룩하게 처져 내려오는 <strong>'눈 밑 지방 돌출'</strong>입니다. 이는 관상학에서 누적된 피로, 만성적인 고민, 그리고 해결되지 않은 심리적 응어리를 의미합니다.</p>
+<p>가족 부양의 책임감이 무겁거나, 오랫동안 마음고생을 한 중장년층에게서 흔히 나타납니다. 자신이 짊어진 책임(자녀, 사업, 부채 등)이 무거워 체력이 이를 버티지 못하고 아래로 처지는 형상으로 봅니다. 이 부위가 심하게 처져 그늘을 만든다면, 미용적 시술을 통해 눈 밑을 평평하게 교정하는 것이 인상을 밝게 하고 대인관계의 자신감을 회복하여 운세를 호전시키는 데 실질적인 도움이 될 수 있습니다.</p>
+
+<h2 id="conclusion">5. 결론: 밝은 눈 밑은 충분한 휴식에서 온다</h2>
+<p>눈 밑 자녀궁(와잠)은 내가 가진 생명력의 저장고이자, 타인에게 베풀 수 있는 사랑의 잔고입니다. 이 잔고가 넉넉하고 맑은 색을 띨 때, 인간관계도 순조롭게 풀리고 매력도 상승합니다.</p>
+<p>만약 지금 거울 속 눈 밑이 어둡게 가라앉아 있다면, 이는 사주팔자나 운명의 저주가 아니라 당신의 몸이 <strong>"이제는 남을 돌보기 전에 나 자신부터 돌보라"</strong>고 보내는 정직한 신호입니다. 질 좋은 수면, 규칙적인 운동, 그리고 충분한 수분 섭취로 몸의 에너지를 채우세요. 눈 밑의 그늘이 걷히고 와잠이 은은한 빛을 낼 때, 막혔던 애정운과 사회운도 자연스럽게 밝아질 것입니다.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/gwansang-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">📸 AI 관상 분석기로 내 눈 밑 애정운 신호 확인하기 →</a>
+</div>
+</section>
+    `,
+    contentEn: `
+<section>
+<p>When you look in the mirror, one of the first areas to catch your attention is directly <strong>under the eyes</strong>. In Korean face reading (Gwansang), the slight, plump bulge just below the lower lash line is called <strong>'Wajam (臥蠶)'</strong> (meaning 'lying silkworm'), or the <strong>'Palace of Children (子女宮)'</strong>. This area is far more than an aesthetic feature. It acts as an immediate monitor of your destiny, reflecting your current physical vitality, hormonal health, and the level of fatigue in your interpersonal relationships, especially regarding romance and children.</p>
+<p>If the eyes themselves represent your mental spirit, the under-eye area represents the <strong>'physical stamina and emotional reserves'</strong> that support that spirit. Depending on whether your under-eyes are hollow, brightly colored, or overshadowed by dark circles, we can detailedly interpret the current flow of your relationship luck and capacity to care for others.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/face-reading/eye-reading" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Eye Reading: Judgment and People Luck in Your Gaze</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/face-reading/cheek-reading" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Cheek Reading: Approachability and Consumption Habits</a></li>
+  </ul>
+</div>
+
+<h2 id="meaning-of-wajam">1. The Physiognomic Meaning of Wajam (Aegyo-sal)</h2>
+<p>The term Wajam literally translates to 'lying silkworm'. An under-eye area that is slightly raised, plump, and lustrous—resembling a silkworm resting under the eye—is considered highly auspicious in Gwansang. This area manifests the energy of the Kidneys, the organ system governing core life force and reproductive energy in Eastern philosophy.</p>
+<p>Traditional face readers called this the Palace of Children because strong kidney energy was deemed necessary for having healthy offspring. Interpreted for modern life, it represents your affection and capacity for <strong>'all relationships that require your nurturing energy'</strong>. If your Wajam is appropriately full and bright, it means you naturally project charm, enjoy smooth romantic luck, and possess ample physical and emotional reserves to embrace others.</p>
+
+<h2 id="dark-circles-and-exhaustion">2. Dark Circles: Warnings of Depletion and Relationship Tension</h2>
+<p>In under-eye reading, <strong>'Gi-saek' (skin color and radiance)</strong> is often more critical than shape. Dark, dull under-eye circles are interpreted as powerful warning signals.</p>
+<ul>
+  <li><strong>Dark Blue/Blackish Circles:</strong> This is a sign that your core energy has bottomed out due to overwork, sleep deprivation, or severe stress. During this time, judgment clouds and irritability spikes, drastically increasing the likelihood of unnecessary friction with lovers, family, or colleagues.</li>
+  <li><strong>Reddish Shadows:</strong> If the under-eye is reddish and dry, it indicates that psychological 'heat' is rising—a sign of suppressed anger or impatience. You may suffer losses from hasty investments or emotional decisions, signaling an urgent need to pause and reset.</li>
+</ul>
+<p>While these color changes are not medical diagnoses, they are clear indicators that your life rhythm is broken. When dark circles are severe, making major decisions or starting new relationships is ill-advised. The first step to opening your luck (gae-un) is restoring the bright energy under your eyes through profound rest.</p>
+
+<h2 id="sunken-under-eyes">3. Sunken Under-Eyes: Independence and Solitude</h2>
+<p>It is natural for the Wajam to flatten and the under-eye to hollow out as we age. But how do we interpret a completely flat or sunken under-eye in a young person?</p>
+<p>A face lacking under-eye flesh fundamentally indicates a highly <strong>independent, rational personality not easily swayed by emotion</strong>. Because they try to solve problems without leaning on others, their professional achievements can be rapid. However, they may be awkward at expressing warm affection, and they tend to feel double the fatigue in roles requiring meticulous care for others, such as parenting or customer service. While they may enjoy solitude, intentionally practicing warm communication with loved ones is necessary for balance.</p>
+
+<h2 id="eye-bags-aging">4. Sagging Eye Bags: Accumulated Fatigue and Psychological Weight</h2>
+<p>We must distinguish the plump 'Wajam' from <strong>sagging eye bags</strong>, where the fat under the eye protrudes and droops like a pouch. In physiognomy, these sagging bags signify accumulated fatigue, chronic worries, and unresolved psychological burdens.</p>
+<p>This is commonly seen in middle-aged individuals who bear heavy responsibilities for their family. It is viewed as the physical manifestation of carrying burdens (children, business, debts) that exhaust the body's strength, causing the flesh to sag. If these bags droop severely and create dark shadows, undergoing a cosmetic procedure to smooth the under-eye can actually help improve one's fortune. By brightening the expression, it restores confidence in interpersonal interactions.</p>
+
+<h2 id="conclusion">5. Conclusion: A Bright Fortune Begins with Deep Rest</h2>
+<p>The under-eye Palace of Children is the reservoir of your life force and the bank balance of love you can offer others. When this balance is abundant and bright, human relationships untangle smoothly, and your personal magnetism peaks.</p>
+<p>If the area under your eyes looks dark and sunken in the mirror today, it is not a curse of destiny. It is an honest signal from your body saying, <strong>"Before you take care of others, take care of yourself."</strong> Replenish your body's energy with quality sleep, regular exercise, and adequate hydration. When the shadows lift and your Wajam emits a soft glow, your blocked romantic and social luck will naturally brighten as well.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en/gwansang-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">📸 Check Your Relationship Signals with AI Face Reading →</a>
+</div>
+</section>
+    `,
+    toc: [
+      { id: 'meaning-of-wajam', title: '1. 와잠(애교살)의 관상학적 의미' },
+      { id: 'dark-circles-and-exhaustion', title: '2. 다크서클과 관계 피로' },
+      { id: 'sunken-under-eyes', title: '3. 꺼진 눈 밑과 독립성' },
+      { id: 'eye-bags-aging', title: '4. 불룩한 눈 밑 지방과 책임감' },
+      { id: 'conclusion', title: '5. 결론: 밝은 운세는 휴식에서' },
+    ],
+    tocEn: [
+      { id: 'meaning-of-wajam', title: '1. The Meaning of Wajam (Aegyo-sal)' },
+      { id: 'dark-circles-and-exhaustion', title: '2. Dark Circles and Tension' },
+      { id: 'sunken-under-eyes', title: '3. Sunken Under-Eyes and Independence' },
+      { id: 'eye-bags-aging', title: '4. Sagging Eye Bags and Burden' },
+      { id: 'conclusion', title: '5. Conclusion: Rest Brings Fortune' },
+    ],
+    faq: [
+      { q: '다크서클이 심하면 연애운이 정말 안 좋아지나요?', a: '관상학에서 다크서클은 체력 고갈과 신경의 예민함을 뜻합니다. 스스로 피로하기 때문에 타인의 감정을 배려할 여유가 없어지고, 사소한 일에도 짜증을 내기 쉬워 연애나 대인관계에서 오해가 발생할 확률이 높아지는 원리입니다.' },
+      { q: '시술로 눈 밑 애교살(와잠)을 만들면 관상이 좋아지나요?', a: '인위적으로 애교살을 채워 인상이 부드럽고 호감형으로 변한다면, 대인관계에서 긍정적인 피드백을 받아 운세가 좋아질 수 있습니다. 다만 너무 과하게 채우면 오히려 가식적이고 신뢰감을 떨어뜨리는 인상을 줄 수 있으니 자연스러움이 가장 중요합니다.' },
+      { q: '자녀궁이 꺼져 있으면 아이를 갖기 힘든가요?', a: '자녀궁은 체력과 호르몬의 간접적인 지표일 뿐, 절대적인 의학적 임신 능력을 의미하지 않습니다. 현대 의학이 발달한 지금은 관상학적 자녀궁보다 병원의 정확한 진단과 스트레스 관리가 훨씬 중요합니다. 관상에서는 이를 육체적 피로도로 해석하는 것이 더 정확합니다.' },
+    ],
+    faqEn: [
+      { q: 'Do severe dark circles really ruin romantic luck?', a: 'In physiognomy, dark circles indicate physical exhaustion and nervous sensitivity. Because you are drained, you lack the emotional bandwidth to accommodate others, making you irritable. This naturally increases the likelihood of misunderstandings in romance and relationships.' },
+      { q: 'Will getting under-eye fillers (Aegyo-sal) improve my fortune?', a: 'If a subtle filler softens your expression and makes you look more approachable, it can lead to positive social feedback, thereby improving your relationship luck. However, over-filling can make you look unnatural and untrustworthy, so moderation is key.' },
+      { q: 'If my Palace of Children is sunken, does it mean I cannot have children?', a: 'No. The Palace of Children is merely an indirect indicator of current stamina and stress, not a medical diagnosis of fertility. In modern times, medical consultation is what matters. Gwansang interprets this area more accurately as a measure of physical and emotional fatigue.' },
+    ],
+    relatedPosts: [
+      { slug: 'eye-reading', category: 'face-reading', title: '눈 관상: 눈빛으로 보는 인복과 판단력' },
+      { slug: 'cheek-reading', category: 'face-reading', title: '볼살 관상: 협골 주변 살집으로 보는 친화력' },
     ],
   },
 ], '2026-01-08', 4, '2026-02-12', 1);
