@@ -476,7 +476,7 @@
 
 ### [관상] 부위별 시리즈
 
-[ ] 49. 턱끝·턱선 관상 — 말년운과 버티는 힘을 읽는 법
+[완료] 49. 턱끝·턱선 관상 — 말년운과 버티는 힘을 읽는 법
 - slug: `chin-reading`
 - 카테고리: `face-reading`
 - 메인 키워드 KO: 턱끝 관상, 턱선 관상
@@ -485,7 +485,7 @@
 - 하위 키워드 EN: jaw shape fortune korea, square jaw gwansang, pointed chin reading
 - 작성 지침: face-shape(얼굴형 전체)와 다름. 턱끝, 턱선, 이중턱, 사각턱·둥근턱 차이를 말년운과 버티는 힘 중심으로 분석. 2000자 이상.
 
-[ ] 50. 광대뼈 높이 관상 — 사회적 압박과 리더십 읽기
+[완료] 50. 광대뼈 높이 관상 — 사회적 압박과 리더십 읽기
 - slug: `cheekbone-reading`
 - 카테고리: `face-reading`
 - 메인 키워드 KO: 광대뼈 높이 관상, 광대 관상

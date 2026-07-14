@@ -1719,4 +1719,272 @@ export const gwansangPosts: BlogPost[] = distributePublishedDates([
       { slug: 'year-pillar', category: 'saju', title: '년주 완전 해설: 조상운과 타고난 뿌리 읽기' },
     ],
   },
+  {
+    slug: 'cheekbone-reading',
+    title: '광대뼈 높이 관상: 사회적 압박과 리더십 읽기',
+    seoTitle: '광대뼈 높이 관상: 광대 관상으로 보는 사회운과 리더십',
+    seoTitleEn: 'Cheekbone Face Reading in Gwansang: Social Power and Pressure',
+    description: '광대뼈 높이 관상은 얼굴형 전체가 아니라 사회운과 압박을 읽는 기준입니다. 높은 광대, 낮은 광대, 넓은 광대, 좁은 광대의 리더십과 대인관계 긴장도를 정리했습니다.',
+    descriptionEn: 'Cheekbone face reading in Korean gwansang explains social power, pressure, leadership, and relationship tension through high, low, wide, and narrow cheekbone shapes.',
+    keywords: ['광대뼈 높이 관상', '광대 관상', '광대뼈 높으면 관상', '광대뼈 없으면 관상', '광대 사회운', '광대 권력운'],
+    keywordsEn: ['Cheekbone Face Reading Gwansang', 'Cheekbone Fortune Korean', 'High Cheekbone Gwansang', 'Cheekbone Power Fortune', 'Social Luck Face Reading'],
+    publishedAt: '2026-06-02',
+    updatedAt: '2026-06-02',
+    category: 'face-reading',
+    contentKo: `
+<section>
+<p><strong>광대뼈 높이 관상</strong>은 얼굴형 전체를 보는 글이 아닙니다. 얼굴형은 이마, 턱, 턱선, 전체 윤곽의 균형을 읽는 영역이고, 광대 관상은 눈 아래에서 귀 앞까지 이어지는 중안부의 뼈대가 사회적 압박을 어떻게 받는지, 그 압박을 어떻게 밀어내는지를 보는 세부 항목입니다. 또 볼살 관상처럼 살집의 탄력이나 처짐을 보는 것도 아닙니다. 광대뼈는 살이 빠져도 남는 골격의 힘, 즉 사람이 사회 속에서 맡는 역할과 책임의 무게를 상징합니다.</p>
+<p>관상에서 광대는 흔히 권력운, 사회운, 활동 반경, 대인관계의 긴장도를 읽는 부위로 해석합니다. 광대가 좋다는 말은 무조건 높은 광대를 뜻하지 않습니다. 얼굴 전체와 어울리면서 눈빛, 코, 입, 턱이 함께 받쳐줄 때 사회적 존재감이 건강하게 쓰입니다. 반대로 광대만 강하고 눈빛이 흔들리거나 입이 굳어 있으면 리더십보다 압박감, 경쟁심, 관계 피로가 먼저 드러날 수 있습니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/face-reading/face-shape" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">얼굴형 관상: 전체 윤곽으로 보는 성격과 인생 흐름</a></li>
+    <li style="margin-bottom: 4px;"><a href="/face-reading/eye-reading" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">눈 관상: 눈빛으로 보는 인복과 판단력</a></li>
+  </ul>
+</div>
+
+<h2 id="cheekbone-role">1. 광대뼈가 상징하는 자리: 사회 속에서 부딪히는 힘</h2>
+<p>광대뼈는 얼굴의 옆면과 앞면을 잇는 구조입니다. 그래서 관상에서는 개인의 내면보다 외부 세계와 부딪히는 힘을 봅니다. 이마가 계획과 명예의 방향을 보여주고, 코가 자존심과 재물의 중심을 보여준다면, 광대는 그 사람이 조직, 시장, 사람들 사이에서 얼마나 존재감을 드러내는지를 말해줍니다. 즉 광대는 혼자 있을 때의 성격보다 사람들 앞에 섰을 때의 압력, 경쟁, 책임, 영향력과 가깝습니다.</p>
+<p>좋은 광대는 단순히 튀어나온 뼈가 아닙니다. 눈 아래가 너무 꺼지지 않고, 광대의 선이 거칠게 끊기지 않으며, 코와 턱이 균형을 이루는 상태가 중요합니다. 광대가 적당히 받쳐주면 말과 행동에 힘이 생기고, 어려운 상황에서도 밀리지 않는 인상이 됩니다. 그러나 광대가 얼굴 전체보다 과하게 강하면 주변 사람에게 지시적이거나 방어적으로 보일 수 있습니다. 광대 관상은 그래서 권력의 크기보다 권력을 다루는 방식까지 함께 봐야 합니다.</p>
+
+<h2 id="high-cheekbones">2. 광대뼈 높으면 관상: 눈에 띄는 역할과 책임의 무게</h2>
+<p><strong>광대뼈가 높은 관상</strong>은 사회적 무대에서 쉽게 눈에 띄는 편입니다. 사람들 사이에서 존재감이 강하고, 회의나 프로젝트에서 본인이 맡은 역할을 분명히 하려는 경향이 있습니다. 전통 관상에서는 이를 권력운, 장악력, 추진력으로 해석했습니다. 현대적으로 보면 높은 광대는 리더, 매니저, 영업, 창업, 협상, 콘텐츠 제작처럼 타인의 시선과 평가를 피할 수 없는 분야에서 장점으로 작동할 수 있습니다.</p>
+<p>다만 높은 광대가 언제나 좋은 리더십으로 이어지는 것은 아닙니다. 눈빛이 맑고 코가 안정되어 있으면 책임을 감당하는 광대가 됩니다. 하지만 눈이 피곤하고 입꼬리가 굳어 있으면 압박을 강한 말투로 풀거나, 협업 상황에서 상대를 밀어붙이는 인상으로 보일 수 있습니다. 특히 광대가 높고 피부 기색이 붉거나 탁하면 경쟁심과 스트레스가 얼굴에 먼저 나타나는 경우가 많습니다. 이때는 권력운을 더 키우기보다 말의 속도, 표정의 여유, 휴식 리듬을 먼저 관리하는 것이 좋습니다.</p>
+<p>높은 광대의 장점은 위기에서 드러납니다. 남들이 부담스러워하는 책임을 피하지 않고, 상황을 장악하려는 힘이 있습니다. 그러나 같은 힘이 가까운 관계에서는 간섭이나 통제로 느껴질 수 있습니다. 그래서 높은 광대 관상은 리더십을 발휘할 자리와 내려놓아야 할 자리를 구분할수록 운이 안정됩니다.</p>
+
+<h2 id="low-cheekbones">3. 광대뼈 없으면 관상: 부드러운 협력성과 낮은 노출도</h2>
+<p><strong>광대뼈가 낮거나 거의 없는 관상</strong>은 사회적 압박을 정면으로 받기보다 부드럽게 피하거나 흡수하는 쪽으로 읽습니다. 첫인상이 강하지 않고, 상대를 밀어붙이기보다 분위기를 맞추는 경향이 있습니다. 조직 안에서는 조율자, 지원자, 실무형 전문가로 안정감을 줄 수 있습니다. 높은 광대가 무대 위의 역할이라면, 낮은 광대는 무대 뒤에서 흐름을 관리하는 힘에 가깝습니다.</p>
+<p>이 관상이 약하다는 뜻은 아닙니다. 낮은 광대라도 눈빛이 또렷하고 턱이 안정되어 있으면 조용하지만 오래 버티는 힘이 있습니다. 다만 사회운의 표현 방식이 직접적인 장악보다 신뢰 축적, 반복 업무, 세밀한 관리로 나타납니다. 반대로 눈 밑이 꺼지고 광대가 지나치게 평평하며 입매까지 약하면 자신의 성과를 드러내지 못해 평가에서 손해를 볼 수 있습니다. 이 경우에는 얼굴을 바꾸기보다 업무 보고, 포트폴리오, 말하기 습관처럼 존재감을 표현하는 방법을 보완하는 것이 현실적입니다.</p>
+<p>광대뼈가 낮은 사람은 갈등을 싫어해 양보를 반복하는 경우가 있습니다. 하지만 계속 물러서면 사회운이 약해지는 것이 아니라, 자기 경계가 흐려집니다. 관상적으로는 광대의 힘을 무리하게 키우기보다 눈빛의 집중도와 말끝의 명확함을 살리는 편이 더 잘 맞습니다.</p>
+
+<h2 id="wide-narrow-cheekbones">4. 넓은 광대와 좁은 광대: 활동 반경과 관계 긴장도</h2>
+<p>광대 관상은 높낮이만으로 끝나지 않습니다. 정면에서 보았을 때 광대가 옆으로 넓게 퍼져 있는지, 얼굴 안쪽에 얌전히 숨어 있는지도 중요합니다. <strong>넓은 광대</strong>는 활동 반경이 넓고, 사람을 많이 만나며, 자신의 영역을 확보하려는 힘으로 읽습니다. 영업, 대외협력, 조직 운영, 정치적 조율처럼 네트워크가 중요한 환경에서 장점이 될 수 있습니다.</p>
+<p>그러나 넓은 광대는 대인관계 긴장도도 함께 높일 수 있습니다. 말하지 않아도 강하게 보이고, 의도가 없어도 상대가 압박을 느낄 수 있기 때문입니다. 넓은 광대에 눈썹이 짙고 눈매가 날카로우면 판단 속도는 빠르지만 직설성이 강해질 수 있습니다. 이런 경우에는 설명을 짧게 끝내기보다 상대가 따라올 시간을 주는 것이 좋습니다. 관상에서 좋은 광대는 이기는 광대가 아니라 사람을 잃지 않고 영향력을 유지하는 광대입니다.</p>
+<p><strong>좁은 광대</strong>는 사회적 활동 반경이 비교적 선택적입니다. 많은 사람을 한꺼번에 상대하기보다 소수의 신뢰 관계, 전문성, 집중 업무에서 실력을 내기 쉽습니다. 겉으로는 존재감이 약해 보여도 눈과 코가 받쳐주면 자기 분야에서 조용히 영향력을 쌓습니다. 다만 좁은 광대가 턱까지 약한 얼굴과 결합하면 압박 상황에서 뒤로 물러나는 인상이 강해질 수 있으므로, 중요한 자리에서는 자세와 목소리의 안정감이 필요합니다.</p>
+
+<h2 id="social-pressure-check">5. 광대 사회운 체크: 좋은 광대와 피곤한 광대의 차이</h2>
+<p>광대의 길흉은 모양 하나로 단정하지 않습니다. 첫째, 눈빛이 광대를 통제하는지 봅니다. 눈빛이 맑으면 강한 광대도 책임감으로 쓰이고, 눈빛이 흐리면 강한 광대가 불안한 방어심으로 보일 수 있습니다. 둘째, 코가 중심을 잡는지 봅니다. 코가 안정되어 있으면 광대의 사회운이 성과로 연결되지만, 코가 약하면 외부 압박에 비해 자기 중심이 흔들릴 수 있습니다. 셋째, 입이 관계를 부드럽게 열어주는지 봅니다. 입꼬리가 굳고 말투가 거칠면 광대의 권력운이 고립운으로 변하기 쉽습니다.</p>
+<p>또 하나 중요한 것은 좌우 균형입니다. 한쪽 광대가 유난히 도드라져 보이거나 표정 습관 때문에 한쪽만 강해 보이면, 대인관계에서 한 방향으로 치우친 태도를 점검해볼 수 있습니다. 이는 의학적 진단이 아니라 관상적 관찰입니다. 수면 부족, 체중 변화, 씹는 습관, 표정 습관에 따라 광대 주변 인상이 달라질 수 있으므로 최근의 컨디션도 함께 봐야 합니다.</p>
+
+<h2 id="balance-cautions">6. 결론: 광대뼈 관상은 강함보다 균형을 읽는다</h2>
+<p>광대뼈가 높으면 강하고, 낮으면 약하다는 식의 단순한 해석은 정확하지 않습니다. 높은 광대는 사회적 책임과 노출을 잘 감당할 때 빛나고, 낮은 광대는 조율과 지속성의 장점으로 안정적인 신뢰를 만들 수 있습니다. 넓은 광대는 활동 반경을 넓히지만 관계 긴장을 관리해야 하고, 좁은 광대는 전문성과 집중력을 살리되 존재감을 표현하는 훈련이 필요합니다.</p>
+<p>결국 광대 관상의 핵심은 사회적 압박을 어떻게 다루느냐입니다. 얼굴의 뼈대는 타고나지만, 표정과 눈빛, 말투, 휴식 습관은 매일 바뀝니다. 광대가 강한 사람은 부드러움을 익힐 때 운이 안정되고, 광대가 약한 사람은 자기 의견을 분명히 표현할 때 사회운이 살아납니다. 관상은 얼굴을 단정하는 도구가 아니라, 지금 내 관계 방식과 리더십 사용법을 점검하는 거울로 활용할 때 가장 실용적입니다.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/gwansang-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">📸 AI 관상 분석기로 내 사회운 확인하기 →</a>
+</div>
+</section>
+    `,
+    contentEn: `
+<section>
+<p><strong>Cheekbone face reading in Korean Gwansang</strong> is not the same as reading the whole face shape. Face-shape reading looks at the full outline: forehead, jaw, chin, width, and balance. Cheekbone reading focuses on the midface structure under the eyes and in front of the ears. It is also different from cheek or cheek-fat reading, which interprets softness, fullness, sagging, and emotional warmth. The cheekbone is a bony structure, so Gwansang reads it as the part of the face that shows how a person handles social pressure, public responsibility, competition, and influence.</p>
+<p>In traditional physiognomy, the cheekbones are associated with power luck, social luck, authority, and the tension created when one person meets the outside world. A good cheekbone is not simply a high cheekbone. It must work with the eyes, nose, mouth, and jaw. When the cheekbones are balanced, they give a person presence and resilience. When they dominate the face, the same feature may look forceful, defensive, or exhausting to others.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/face-reading/face-shape" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Face Shape Reading: Character and Life Flow Through the Whole Outline</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/face-reading/eye-reading" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Eye Reading in Gwansang: People Luck and Judgment</a></li>
+  </ul>
+</div>
+
+<h2 id="cheekbone-role">1. What the Cheekbones Represent in Gwansang</h2>
+<p>The cheekbones connect the front and side of the face. Symbolically, they show how your inner will meets the external world. The forehead shows planning and reputation, the nose shows selfhood and wealth capacity, and the cheekbones show how much social pressure you can carry. This is why cheekbone fortune is closely linked to leadership, visibility, competition, and the ability to hold position among people.</p>
+<p>Balanced cheekbones support the face without cutting it apart. They make speech and action feel steady. But if the cheekbones are too sharp for the rest of the face, the person may appear confrontational even when they are not trying to be. Therefore, cheekbone reading should never be reduced to one rule. The real question is how the cheekbones interact with the eyes, nose, mouth, and jaw.</p>
+
+<h2 id="high-cheekbones">2. High Cheekbones: Leadership, Visibility, and Pressure</h2>
+<p><strong>High cheekbones in Gwansang</strong> often suggest strong social presence. These people are usually noticed in groups, meetings, and competitive environments. They tend to define their role clearly and may naturally step into responsibility. In traditional language, this is read as authority luck or power fortune. In modern life, it can support careers in leadership, management, sales, negotiation, entrepreneurship, media, and any role where being visible is part of the job.</p>
+<p>However, high cheekbones do not automatically mean good leadership. If the eyes are clear and the nose is stable, the feature becomes a sign of responsibility and social endurance. If the eyes look tired and the mouth is tense, the same cheekbones may express stress, impatience, or a tendency to push too hard. High cheekbones with reddish or dull skin tone may also suggest that competition and pressure are showing on the face. In that case, the practical remedy is not to seek more control, but to slow down speech, soften expression, and restore rest.</p>
+<p>The strength of high cheekbones appears in difficult moments. They show the ability to take charge when others hesitate. But in close relationships, this same force may feel like interference or dominance. People with strong cheekbones do best when they know when to lead and when to step back.</p>
+
+<h2 id="low-cheekbones">3. Low or Flat Cheekbones: Cooperation and Subtle Influence</h2>
+<p><strong>Low cheekbones or flat cheekbones</strong> are read as a softer way of handling social pressure. These people may not look immediately forceful. They often prefer cooperation over confrontation and can be excellent supporters, coordinators, analysts, or specialists. If high cheekbones belong to the stage, low cheekbones often belong behind the stage, where systems, details, and trust are maintained.</p>
+<p>This does not mean weak fortune. When low cheekbones are paired with clear eyes and a stable jaw, the person may be quiet but durable. Their social luck grows through reliability, repeated results, and careful relationship management. The risk is being overlooked. If the eyes look sunken and the mouth appears weak, the person may have trouble communicating their achievements. In practical terms, the remedy is to improve reporting, presentation, portfolio structure, and speech clarity rather than trying to become more aggressive.</p>
+<p>People with low cheekbones may dislike conflict and give way too often. That does not damage their social luck by itself, but it can blur personal boundaries. Their best strategy is not force. It is focused eye contact, clear words, and a calm but firm posture.</p>
+
+<h2 id="wide-narrow-cheekbones">4. Wide and Narrow Cheekbones: Territory and Relationship Tension</h2>
+<p>Cheekbone reading also considers width. <strong>Wide cheekbones</strong> suggest a broad field of activity. The person may meet many people, manage networks, and want to secure their own territory. This can be useful in sales, public relations, organizational leadership, politics, business development, or any field that requires social range.</p>
+<p>But wide cheekbones can also raise relationship tension. A person may look intense even when their intention is neutral. If wide cheekbones are combined with strong eyebrows and sharp eyes, judgment may be quick and speech may sound direct. The remedy is to give people time to follow the reasoning. In Gwansang, a good cheekbone does not simply win. It keeps influence without losing people.</p>
+<p><strong>Narrow cheekbones</strong> show a more selective social range. These people may prefer depth over breadth. They can build influence through expertise, craft, and trusted small circles. If the eyes and nose are strong, narrow cheekbones can belong to a quiet specialist with real authority. If the jaw is weak as well, the person may retreat under pressure, so posture, voice stability, and deliberate presence become important.</p>
+
+<h2 id="social-pressure-check">5. How to Check Whether Cheekbone Luck Is Balanced</h2>
+<p>Do not judge cheekbone fortune by shape alone. First, check whether the eyes control the cheekbones. Clear eyes turn strong cheekbones into responsibility. Tired eyes can turn the same feature into defensiveness. Second, check whether the nose anchors the face. A stable nose helps social pressure become real achievement. A weak nose may make external pressure feel larger than the person's inner center. Third, check whether the mouth softens relationships. If the mouth is tight and speech is harsh, authority luck may become isolation luck.</p>
+<p>Symmetry also matters. If one cheekbone looks much stronger than the other, or one side of the face is habitually more tense, Gwansang may read this as an imbalance in relationship style. This is not a medical diagnosis. Sleep, weight changes, chewing habits, posture, and facial expression can all change the cheekbone area visually, so recent condition must be considered.</p>
+
+<h2 id="balance-cautions">6. Conclusion: Cheekbone Reading Is About Balance, Not Harshness</h2>
+<p>The simple idea that high cheekbones are strong and low cheekbones are weak is not accurate. High cheekbones shine when a person can handle visibility and responsibility. Low cheekbones can build trust through coordination and consistency. Wide cheekbones expand social range but require relationship care. Narrow cheekbones support concentration and expertise, but the person may need to express presence more clearly.</p>
+<p>The core of cheekbone fortune is how you handle social pressure. Bone structure is inherited, but expression, gaze, speech, rest, and relationship habits change every day. Strong cheekbones need softness. Subtle cheekbones need clear expression. Used this way, Gwansang becomes a practical mirror for leadership and relationships, not a fixed judgment about destiny.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en/gwansang-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">📸 Check Your Social Luck with AI Face Reading →</a>
+</div>
+</section>
+    `,
+    toc: [
+      { id: 'cheekbone-role', title: '1. 광대뼈가 상징하는 사회적 힘' },
+      { id: 'high-cheekbones', title: '2. 높은 광대뼈와 리더십' },
+      { id: 'low-cheekbones', title: '3. 낮은 광대뼈와 협력성' },
+      { id: 'wide-narrow-cheekbones', title: '4. 넓은 광대와 좁은 광대' },
+      { id: 'social-pressure-check', title: '5. 광대 사회운 체크법' },
+      { id: 'balance-cautions', title: '6. 결론: 강함보다 균형' },
+    ],
+    tocEn: [
+      { id: 'cheekbone-role', title: '1. What Cheekbones Represent' },
+      { id: 'high-cheekbones', title: '2. High Cheekbones and Leadership' },
+      { id: 'low-cheekbones', title: '3. Low Cheekbones and Cooperation' },
+      { id: 'wide-narrow-cheekbones', title: '4. Wide vs. Narrow Cheekbones' },
+      { id: 'social-pressure-check', title: '5. Checking Social Pressure Luck' },
+      { id: 'balance-cautions', title: '6. Conclusion: Balance Over Force' },
+    ],
+    faq: [
+      { q: '광대뼈가 높으면 무조건 기가 센 관상인가요?', a: '무조건 그렇지 않습니다. 광대뼈가 높아도 눈빛이 맑고 입매가 부드러우면 책임감과 리더십으로 읽습니다. 다만 표정이 굳고 기색이 탁하면 강한 인상이나 압박감으로 보일 수 있어 균형을 함께 봐야 합니다.' },
+      { q: '광대뼈가 없으면 사회운이 약한가요?', a: '광대뼈가 낮다고 사회운이 약하다고 단정하지 않습니다. 직접 장악하는 힘보다 조율, 신뢰, 실무 지속성으로 사회운이 나타나는 경우가 많습니다. 눈빛, 턱, 말하기 습관이 받쳐주면 조용한 영향력을 만들 수 있습니다.' },
+      { q: '광대 관상은 볼살 관상과 어떻게 다른가요?', a: '광대 관상은 중안부의 뼈대와 사회적 압박, 리더십, 권력운을 봅니다. 볼살 관상은 살집의 탄력, 꺼짐, 처짐을 중심으로 친화력과 정서 안정감을 봅니다. 두 영역은 가까이 있지만 해석 기준이 다릅니다.' },
+    ],
+    faqEn: [
+      { q: 'Do high cheekbones always mean a dominant personality?', a: 'No. High cheekbones can show leadership and responsibility when the eyes are clear and the mouth is relaxed. If the expression is tense or the skin tone looks dull, the same feature may read as pressure, impatience, or defensiveness.' },
+      { q: 'Do flat cheekbones mean weak social luck?', a: 'Not necessarily. Low or flat cheekbones often show a cooperative and subtle social style. With clear eyes, a stable jaw, and good communication habits, this type can build quiet but reliable influence.' },
+      { q: 'How is cheekbone reading different from cheek reading?', a: 'Cheekbone reading focuses on bony structure, social pressure, leadership, and power luck. Cheek reading focuses more on flesh, softness, fullness, emotional warmth, and social approachability.' },
+    ],
+    relatedPosts: [
+      { slug: 'face-shape', category: 'face-reading', title: '얼굴형 관상: 전체 윤곽으로 보는 성격과 인생 흐름' },
+      { slug: 'eye-reading', category: 'face-reading', title: '눈 관상: 눈빛으로 보는 인복과 판단력' },
+      { slug: 'wealth-face', category: 'face-reading', title: '재물 관상: 코와 입에 숨겨진 부의 비밀' },
+    ],
+  },
+  {
+    slug: 'chin-reading',
+    title: 'Chin & Jaw Face Reading: The Anchor of Late-Life Fortune',
+    seoTitle: '턱끝·턱선 관상 실전: 사각턱 둥근 턱으로 보는 말년운과 버티는 힘',
+    seoTitleEn: 'Chin & Jaw Face Reading: How Jaw Shape Predicts Late-Life Fortune',
+    description: '턱끝 관상과 턱선 모양으로 말년운을 읽는 법. 사각턱, 둥근 턱, 뾰족한 턱, 이중턱이 상징하는 버티는 힘과 재물 축적의 비밀을 해설합니다.',
+    descriptionEn: "Discover what your chin and jaw shape say about your late-life fortune. Learn how a square jaw, round chin, or double chin indicates resilience in Korean face reading.",
+    keywords: ['턱끝 관상', '턱선 관상', '사각턱 관상', '둥근 턱 운세', '뾰족한 턱 관상', '이중턱 관상', '말년운 관상'],
+    keywordsEn: ['chin face reading gwansang', 'jaw fortune korean face reading', 'square jaw gwansang', 'jaw shape fortune korea', 'pointed chin reading'],
+    publishedAt: '2026-06-02',
+    category: 'face-reading',
+    contentKo: `
+<section>
+<p>관상학에서 얼굴을 상중하 세 부분으로 나누었을 때, 코 아래부터 턱끝까지 이어지는 하관(下停)은 인생의 수확기인 50대 이후의 <strong>말년운</strong>과 내가 쌓아올린 결과를 지켜내는 <strong>버티는 힘</strong>을 상징합니다. 많은 분들이 이마의 넓이나 코의 높이에 집중하지만, 아무리 이마(초년운)와 코(중년운)가 좋아도 턱끝 관상과 턱선 관상이 빈약하면 말년에 외롭거나 재물이 흩어지는 경우가 많습니다. 턱은 인생의 집을 지탱하는 단단한 주춧돌이자, 재물을 담아두는 넓은 마당이기 때문입니다.</p>
+<p>이 글에서는 단순히 얼굴형 전체를 분석하는 것을 넘어, 하관의 핵심인 <strong>턱끝 관상</strong>과 <strong>턱선 관상</strong>의 디테일에 집중합니다. 사각턱 관상, 둥근 턱 운세, 뾰족한 턱, 그리고 나이가 들며 생기는 이중턱 관상이 각각 어떤 사회적 생존 방식과 말년의 모습을 예고하는지 실전 관상학적 관점에서 해설해 드립니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/face-reading/cheekbone-reading" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">광대뼈 높이 관상: 사회적 압박과 리더십 읽기</a></li>
+    <li style="margin-bottom: 4px;"><a href="/face-reading/face-shape" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">얼굴형 관상: 전체 윤곽으로 보는 성격과 인생 흐름</a></li>
+  </ul>
+</div>
+
+<h2 id="chin-foundation">1. 턱 관상의 핵심: 왜 하관이 말년운을 결정하는가</h2>
+<p>관상에서 턱은 땅(地)을 의미합니다. 이마가 하늘(부모, 윗사람, 초년)이라면, 턱은 내가 뿌리내릴 땅이자 나를 받쳐주는 아랫사람(자녀, 부하직원, 노후 자산)을 뜻합니다. 턱끝 관상이 둥글고 턱선 관상이 넓게 자리 잡은 사람은 마치 성벽이 두꺼운 요새처럼 외풍에 흔들리지 않는 내구력을 지닙니다.</p>
+<p>턱은 단순히 재물의 양이 아니라 <strong>결과를 지켜내는 힘</strong>을 봅니다. 중년에 큰돈을 벌더라도 턱끝이 뾰족하고 빈약하면 노후에 투자 실패나 자녀 문제로 자산이 빠져나가는 양상을 보이기 쉽습니다. 반대로 중년까지 고생했더라도 하관이 넉넉하면 말년에 자식 덕을 보거나 뒤늦게 안정을 찾는 경우가 많습니다.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/gwansang-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">💡 내 턱 관상은 말년에 어떤 복을 담을까? 무료 확인하기 →</a>
+</div>
+
+<h2 id="square-jaw">2. 사각턱 관상: 압박을 견디는 단단한 닻</h2>
+<p>현대 미용 기준에서는 브이라인을 선호하여 사각턱을 교정하려 하지만, 관상학에서 <strong>사각턱 관상</strong>은 매우 강력한 무기입니다. 귀 아래 턱선이 각지고 넓은 사람은 육체적, 정신적 체력이 압도적으로 강합니다. 남들이 포기할 만한 강한 스트레스나 사회적 압박 속에서도 묵묵히 버티며 끝내 자기 자리를 지켜냅니다.</p>
+<p>사각턱을 가진 사람은 고집이 세고 타협을 모른다는 오해를 받기도 합니다. 하지만 이들의 고집은 원칙을 지키는 책임감에서 나옵니다. 스포츠 선수, 군인, 강한 추진력이 필요한 사업가 중에는 이런 단단한 하관을 가진 이들이 많습니다. 말년에는 자신이 구축한 단단한 영지 안에서 흔들림 없는 권위와 안정을 누리게 됩니다. 다만, 타인의 조언을 수용하는 유연함을 길러야 독단적인 성향으로 인한 갈등을 피할 수 있습니다.</p>
+
+<h2 id="round-chin">3. 둥근 턱 운세: 타인을 수용하는 부드러운 저수지</h2>
+<p>턱끝 관상이 둥글스름하고 턱선에 살집이 적당히 붙은 <strong>둥근 턱 운세</strong>는 전형적인 '복상(福相)'입니다. 사각턱이 바위라면, 둥근 턱은 모든 것을 품어내는 넓은 저수지와 같습니다. 대인관계에서 모난 구석이 없고 성격이 원만하여 적을 만들지 않습니다.</p>
+<p>이들은 타인의 실수를 부드럽게 넘기고 포용할 줄 아는 성품 덕분에 주변에 늘 사람이 따릅니다. 턱이 넓을수록 아랫사람이나 자녀에게 베푸는 것을 좋아하며, 그 덕이 고스란히 말년의 인복으로 돌아옵니다. 노후에 외롭지 않고 자식이나 후배들의 보살핌 속에서 여유롭고 풍요로운 삶을 누릴 가능성이 가장 높은 관상입니다. 재물을 공격적으로 사냥하기보다는, 안정적으로 관리하고 지키는 데 탁월한 능력을 보입니다.</p>
+
+<h2 id="pointed-chin">4. 뾰족한 턱 관상: 빠른 돌파력과 예민함의 양면성</h2>
+<p>턱선 관상이 가파르게 떨어지고 턱끝이 뾰족한 일명 '브이라인'은 <strong>뾰족한 턱 관상</strong>에 해당합니다. 현대 미남 미녀에게 자주 보이며, 감각이 매우 예민하고 미적 감수성이 뛰어납니다. 남들이 보지 못하는 디테일을 캐치하는 눈이 있어 예술, 디자인, 기획 등 창의적인 직업군에서 두각을 나타냅니다. 눈치가 빠르고 행동이 민첩하여 초년과 중년의 성공 속도는 매우 빠를 수 있습니다.</p>
+<p>하지만 턱이 가리키는 50대 이후의 만년운에서는 주의가 필요합니다. 뾰족한 턱 관상은 타인을 무조건적으로 포용하기보다는 호불호가 명확하고 혼자만의 시간을 중요하게 여깁니다. 따라서 말년에 대가족이 모여 북적이기보다는, 본인만의 독립된 공간에서 소수의 지인과 교류하거나 조용히 지내는 것을 선호합니다. 노후 자금이 한 번에 빠져나가지 않도록 중년부터 철저하게 재무 구조를 보수적으로 세팅하는 것이 중요합니다.</p>
+
+<h2 id="double-chin">5. 이중턱 관상: 뜻밖의 재물운과 리더십 신호</h2>
+<p>나이가 들거나 체중이 늘어 턱 아래로 살이 접히는 <strong>이중턱 관상</strong>을 많은 분들이 미관상 이유로 꺼립니다. 그러나 관상학에서 적당히 탄력 있는 이중턱은 재물 창고가 하나 더 늘어난 형상으로 해석하는 대길(大吉)의 징조입니다. 턱끝 관상이 한 층 더 덧대어진 것은 그만큼 내가 수용할 수 있는 재물의 크기와 사람의 수가 넓어졌음을 의미합니다.</p>
+<p>특히 40대 중후반 이후에 생기는 이중턱은 그동안의 노력에 대한 보상이 쌓이기 시작했다는 재물운의 신호입니다. 조직의 리더, 큰 규모의 자산을 굴리는 사업가들에게서 자주 발견되며, 관대함과 넉넉한 인심으로 조직을 안정적으로 이끄는 리더십을 상징합니다. 억지로 이중턱을 제거하기 위해 무리한 시술을 받는 것은 오히려 굴러들어온 복 주머니를 스스로 치워버리는 격일 수 있으니 주의해야 합니다.</p>
+
+<h2 id="conclusion">6. 결론: 하관의 완성은 결국 인심(人心)에 있다</h2>
+<p>사각턱, 둥근 턱, 뾰족한 턱 등 타고난 턱선 관상은 나의 기질과 삶의 방식을 보여주는 밑그림일 뿐입니다. 말년운의 진짜 핵심은 <strong>얼마나 많은 사람을 내 턱(땅) 안에 품었는가</strong>입니다. 타고난 하관이 뾰족하고 빈약하더라도, 젊은 시절부터 남에게 베풀고 아랫사람을 진심으로 챙기다 보면 나이가 들어 턱선이 부드러워지고 기색이 맑아지며 인복이 쌓입니다. 반대로 턱이 제아무리 둥글고 넓어도 마음을 닫고 인색하게 굴면 턱 주변의 근육이 굳고 탁해집니다. 내 턱끝 관상을 최고의 말년운으로 만드는 방법은 결국 일상 속 너그러운 마음 씀씀이에 있습니다.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/face-reading/wealth-face" style="text-decoration: underline; color: #f9d976;">[비교해서 볼 글] 재물 관상: 코와 입에 쏠린 내 돈복의 흐름은?</a></p>
+  <p><a href="/face-reading/intro" style="text-decoration: underline; color: #f9d976;">[관련글] 관상학 입문: 얼굴로 보는 성격·재물·건강운 기초 가이드</a></p>
+</div>
+</section>
+    `,
+    contentEn: `
+<section>
+<p>In Korean face reading (Gwansang), the face is divided into three vertical zones. The lower zone—from the base of the nose to the chin—represents your <strong>late-life fortune</strong> (post-50s) and your structural capacity to withstand pressure. While many focus on the forehead for early brilliance or the nose for mid-life wealth, a weak jawline means that no matter how much success you build, you may struggle to retain it. The chin is the foundation of your life's house; it is the anchor that holds your wealth, authority, and relationships steady as you age.</p>
+<p>This guide dives deep into <strong>chin face reading</strong> and <strong>jaw shape fortune</strong>. We will explore how different lower-face structures—the resilient square jaw, the accommodating round chin, the rapid pointed chin, and even the auspicious double chin—reveal distinct survival strategies and predict your life's concluding chapters.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/face-reading/cheekbone-reading" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Cheekbone Face Reading: Decoding Social Power and Ambition</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/face-reading/face-shape" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Face Shape Reading: Character and Life Flow Through the Whole Outline</a></li>
+  </ul>
+</div>
+
+<h2 id="chin-foundation">1. The Lower Face: Why the Chin Decides Your Late-Life Fortune</h2>
+<p>In Eastern philosophy, the forehead represents Heaven (superiors, parents, early life), while the chin represents Earth (subordinates, children, the foundation of old age). A broad, firmly planted jaw shape acts like a wide plot of land—capable of holding the "rain" (wealth and people) that falls from above.</p>
+<p>The jaw fortune is less about acquiring money and more about <strong>endurance and retention</strong>. A person might earn millions during their peak years, but if their chin reading shows a sharply receding or fragile lower jaw, Gwansang suggests they might face sudden financial drains or loneliness in later years. Conversely, a broad and strong chin implies that even after a turbulent youth, the individual will eventually secure a stable, comfortable, and respected position in their later decades.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en/gwansang-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">💡 Discover the Secrets of Your Jawline: Start Free Analysis →</a>
+</div>
+
+<h2 id="square-jaw">2. The Square Jaw: The Unshakable Anchor</h2>
+<p>Modern aesthetics often favor a V-line shape, prompting many to surgically alter a square jaw. However, in Gwansang, a <strong>square jaw</strong> is a massive strategic advantage. People with pronounced, angular jawlines possess extraordinary physical and mental stamina. When others crumble under immense corporate or social pressure, the square jaw stands firm.</p>
+<p>This shape indicates a person driven by principles, immense willpower, and an uncompromising sense of responsibility. You will find this jawline among elite athletes, military leaders, and CEOs who must weather fierce storms. Their late-life fortune is characterized by unshakable authority and a rock-solid domain. The only caution? Their extreme determination can sometimes manifest as stubbornness, so learning to soften their approach is key to avoiding unnecessary conflicts.</p>
+
+<h2 id="round-chin">3. The Round Chin: The Soft Reservoir of Wealth</h2>
+<p>A fleshy, gently curved <strong>round chin</strong> is considered a highly auspicious "lucky face" feature. If the square jaw is a fortress wall, the round chin is a calm, deep reservoir. It signifies a person with exceptional interpersonal skills, diplomacy, and an accommodating nature.</p>
+<p>Those with a round chin rarely make enemies. They know how to absorb others' mistakes with grace, which naturally draws loyal supporters, loyal employees, and devoted family members. In Gwansang, this width translates directly to "subordinate luck" and "children luck." Their later years are typically filled with warmth, surrounded by a strong support system, and defined by a comfortable, steadily managed accumulation of wealth rather than aggressive, high-risk ventures.</p>
+
+<h2 id="pointed-chin">4. The Pointed Chin: Speed, Precision, and Solitude</h2>
+<p>A sharply tapered lower face, or a <strong>pointed chin</strong>, is common among modern beauty standards. In face reading, this denotes heightened sensitivity, quick wit, and a sharp aesthetic or intellectual edge. These individuals excel in creative fields, design, and strategic planning. They move fast and often achieve brilliant success early or midway through their careers.</p>
+<p>However, the pointed chin reading carries a specific warning for late-life fortune. Because this shape lacks the "earthly" width to anchor heavy burdens, these individuals may prefer solitude over managing large groups of people as they age. They are selective about who they let into their inner circle. To ensure a secure late life, they must proactively establish highly conservative, automated financial plans during their peak earning years, preventing sudden outflows of wealth.</p>
+
+<h2 id="double-chin">5. The Double Chin: A Surprising Sign of Authority</h2>
+<p>While many view a <strong>double chin</strong> simply as a sign of aging or weight gain, Gwansang interprets a naturally developing, fleshy double chin in one's 40s or 50s as a magnificent omen. It is seen as adding a "second vault" to your wealth capacity.</p>
+<p>A double chin signifies expanding tolerance, generosity, and an increase in authoritative luck. It often appears when an individual steps into a broader leadership role where they must manage and provide for many people. It suggests that their hard work is finally cementing into permanent, unshakable prosperity. Erasing a naturally healthy double chin through aggressive cosmetic procedures is sometimes cautioned against by traditional readers, as it symbolically removes a layer of accumulated fortune.</p>
+
+<h2 id="conclusion">6. Conclusion: The Real Anchor is Generosity</h2>
+<p>Whether you have a square jaw, round chin, or pointed chin, your bone structure is merely the blueprint of your natural survival style. The true secret to late-life fortune lies in how you cultivate your "earth." Even a pointed chin can soften and radiate a warm, magnetic energy if the person spends their life practicing generosity and mentoring others. Conversely, a broad jaw can become tense and rigid if driven purely by greed. Ultimately, your jaw fortune is anchored not just by bone, but by the generosity of your spirit as you navigate the world.</p>
+
+<div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <p><a href="/en/face-reading/wealth-face" style="text-decoration: underline; color: #f9d976;">[Compare] The Wealth Face: Decoding the Nose and Mouth</a></p>
+  <p><a href="/en/face-reading/intro" style="text-decoration: underline; color: #f9d976;">[Related] Intro to Korean Face Reading: The Art of Gwansang Explained</a></p>
+</div>
+</section>
+    `,
+    toc: [
+      { id: 'chin-foundation', title: '1. 턱 관상의 핵심: 하관과 말년운' },
+      { id: 'square-jaw', title: '2. 사각턱: 압박을 견디는 단단한 닻' },
+      { id: 'round-chin', title: '3. 둥근 턱: 타인을 수용하는 저수지' },
+      { id: 'pointed-chin', title: '4. 뾰족한 턱: 빠른 돌파와 양면성' },
+      { id: 'double-chin', title: '5. 이중턱: 재물운과 리더십의 신호' },
+      { id: 'conclusion', title: '6. 결론: 하관의 완성은 인심' },
+    ],
+    tocEn: [
+      { id: 'chin-foundation', title: '1. Lower Face: Chin and Fortune' },
+      { id: 'square-jaw', title: '2. Square Jaw: The Unshakable Anchor' },
+      { id: 'round-chin', title: '3. Round Chin: The Reservoir of Wealth' },
+      { id: 'pointed-chin', title: '4. Pointed Chin: Speed and Solitude' },
+      { id: 'double-chin', title: '5. Double Chin: Sign of Authority' },
+      { id: 'conclusion', title: '6. Conclusion: Generosity as Anchor' },
+    ],
+    faq: [
+      { q: '미용 목적으로 사각턱을 브이라인으로 수술하면 운세가 나빠지나요?', a: '형태가 인위적으로 뾰족해지면 사람을 수용하는 그릇의 크기나 끈기가 줄어드는 방향으로 기운이 바뀔 수 있습니다. 하지만 외모 콤플렉스가 심했다면, 교정 후 얻은 강한 자신감이 초중년의 운세를 일시적으로 크게 끌어올리는 긍정적 효과를 주기도 합니다.' },
+      { q: '말년운을 보려면 턱만 보면 되나요?', a: '턱은 결과를 담는 창고이므로 매우 중요하지만, 법령선(코 옆 주름)과 귀의 수주(귓불)를 함께 보아야 합니다. 턱이 빈약해도 귓불이 크고 두툼하면 다른 형태로 안정을 찾습니다.' },
+      { q: '갑자기 이중턱이 생겼는데 다이어트를 해야 할까요?', a: '건강을 해치는 비만이 아니라면, 중년 이후 자연스럽게 붙는 턱밑 살은 관상학에서 매우 좋은 재물운의 신호입니다. 심리적 여유와 인복이 늘어나는 징조이므로 억지로 없애려 스트레스 받을 필요는 없습니다.' },
+    ],
+    faqEn: [
+      { q: 'Does shaving down a square jaw for a V-line ruin my fortune?', a: 'Surgically creating a sharply pointed chin can symbolically reduce your structural endurance and capacity to manage large groups of people. However, if the procedure cures a severe insecurity, the resulting boost in confidence can temporarily skyrocket your mid-life career luck.' },
+      { q: 'Is the chin the only feature that predicts late-life luck?', a: 'While the chin is the foundation, late-life fortune is also heavily dependent on the nasolabial folds (smile lines) and the earlobes. A thin chin can be balanced by thick, fleshy earlobes, indicating support from others.' },
+      { q: 'I developed a double chin. Should I lose weight to fix my fortune?', a: 'Unless it poses a medical health risk, a natural double chin developing in your 40s or 50s is an excellent omen in face reading. It indicates expanding wealth capacity and increasing tolerance, so there is no need to stress over it aesthetically from a fortune perspective.' },
+    ],
+    relatedPosts: [
+      { slug: 'wealth-face', category: 'face-reading', title: '재물 관상: 코와 입에 숨겨진 부의 비밀' },
+      { slug: 'intro', category: 'face-reading', title: '관상학 입문: 얼굴로 보는 성격·재물·건강운 기초 가이드' },
+    ],
+  },
 ], '2026-01-08', 4, '2026-02-12', 1);
