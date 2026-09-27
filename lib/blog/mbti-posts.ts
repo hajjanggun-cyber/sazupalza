@@ -1,4 +1,4 @@
-﻿import { BlogPost } from './types';
+import { BlogPost } from './types';
 import { distributePublishedDates } from './date-utils';
 
 export const mbtiPosts: BlogPost[] = distributePublishedDates([
@@ -1421,6 +1421,512 @@ export const mbtiPosts: BlogPost[] = distributePublishedDates([
       { slug: 'saju-five-elements', category: 'mbti', title: 'MBTI와 사주 오행 상관관계' },
       { slug: 'health-saju', category: 'saju', title: '사주 건강 분석: 오행으로 보는 체질과 건강 위험 시기' },
       { slug: 'ilgan-health-weakness', category: 'saju', title: '일간별 약한 장기 체크리스트' },
+    ],
+  },
+  {
+    slug: 'mbti-fortune-2026',
+    title: '2026 MBTI 운세표: 병오년 16유형별 핵심 키워드와 주의점',
+    seoTitle: '2026 MBTI 운세표: 병오년 16가지 성격 유형별 흐름과 기회·주의점',
+    seoTitleEn: '2026 MBTI Fortune Guide: 16 Types in the Year of the Fire Horse',
+    description: '2026년 병오년(붉은 말의 해)에 16가지 MBTI 성격 유형은 어떤 운의 흐름을 맞이할까요? 유형별 핵심 키워드, 직업·인간관계 기회와 스트레스 주의점을 한눈에 정리합니다.',
+    descriptionEn: 'Discover how the energetic Year of the Fire Horse (2026) influences all 16 MBTI personality types. Explore essential keywords, career opportunities, and burnout alerts.',
+    keywords: ['2026 MBTI 운세', 'MBTI별 운세 2026', 'MBTI 2026 흐름', '병오년 MBTI', 'INFP 2026 운세', 'ENFJ 2026 운세'],
+    keywordsEn: ['MBTI fortune 2026', 'personality type horoscope 2026', 'MBTI 2026 forecast', '16 personality types fortune 2026', 'korean astrology MBTI'],
+    publishedAt: '2026-06-06',
+    updatedAt: '2026-06-06',
+    category: 'mbti',
+    contentKo: `
+<section>
+<p>2026년은 육십간지(六十干支) 중 마흔세 번째에 해당하는 <strong>병오년(丙午年)</strong>, 즉 천간과 지지가 모두 거대한 불꽃으로 타오르는 '붉은 말(적마, 赤馬)의 해'입니다. 사주 명리학에서 병오(丙午)는 순도 높은 화(火) 기운의 극치를 상징하며, 변화의 속도가 극도로 빨라지고 사회 전체의 활동성과 가시적 성과에 대한 갈망이 폭발하는 시기입니다.</p>
+<p>이러한 강력한 불의 파동은 개인의 성격 심리 지표인 <strong>16가지 MBTI 유형</strong>마다 전혀 다른 방식으로 상호작용합니다. 추진력이 뛰어난 외향형(E)에게는 날개를 달아주는 도약의 해가 될 수 있는 반면, 조용한 내면의 안정을 추구하는 내향형(I)에게는 심리적 과열과 번아웃을 경계해야 하는 도전의 해가 되기도 합니다. 2026년 한 해 동안 16개 성격 유형이 마주할 핵심 기회와 주의점을 종합 운세표로 정리해 드립니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/mbti/saju-five-elements" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">MBTI와 사주 오행 상관관계: 16유형 성격을 오행으로 해석하기</a></li>
+    <li style="margin-bottom: 4px;"><a href="/saju/iljoo-fortune-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">2026 일주별 운세: 60갑자 일주로 보는 올해 흐름</a></li>
+  </ul>
+</div>
+
+<h2 id="fire-horse-energy">1. 2026년 병오년(丙午年) 화(火) 기운과 MBTI 역학</h2>
+<p>사주에서 화(火)는 발산, 가시화, 열정, 감정의 표출, 그리고 속도감을 의미합니다. 불의 기운이 지배하는 해에는 오랫동안 물밑에서 준비해 온 프로젝트가 세상 밖으로 드러나고, 솔직하고 직설적인 소통이 힘을 얻습니다.</p>
+<p>심리학적으로 화 기운은 MBTI의 <strong>외향성(E), 직관(N), 감정(F)</strong>의 활성화를 자극합니다. 세상이 빠르게 반응하고 즉각적인 피드백을 요구하므로, 느긋하게 숙고하거나 완벽한 계획을 세운 뒤 움직이려는 유형(SJ, IN 계열)은 심리적 압박감을 크게 느낄 수 있습니다. 반대로 기민하게 기회를 포착하고 아이디어를 거침없이 확장하는 유형(EN, SP 계열)에게는 잠재력을 발휘할 수 있는 절호의 무대가 열립니다.</p>
+
+<h2 id="introvert-vs-extrovert">2. 내향형(I)과 외향형(E)의 2026년 에너지 안배</h2>
+<p>2026년의 가장 큰 환경적 특징은 '높은 자극과 빠른 템포'입니다. 따라서 내향형과 외향형은 서로 상반된 전략으로 에너지를 관리해야 합니다.</p>
+<ul>
+  <li><strong>내향형 (I 유형): 침묵의 방파제 구축</strong><br />주변의 빠른 변화와 끝없는 사회적 요구에 휘말리면 심리적 에너지가 급속도로 고갈됩니다. 하루 중 최소 1시간은 모든 알림을 끄고 혼자만의 사유 공간을 확보하세요. 사주의 수(水) 기운을 보완하는 차분한 산책, 독서, 반신욕이 멘탈 붕괴를 막아줍니다.</li>
+  <li><strong>외향형 (E 유형): 과열 방지와 속도 조절</strong><br />동기부여가 넘치고 사람들과의 교류가 활발해지지만, 지나친 낙관주의로 인해 무리한 약속이나 감당하기 힘든 프로젝트를 벌이기 쉽습니다. 벌여놓은 일의 뒤처리를 하지 못해 신뢰를 잃을 수 있으므로, '한 번에 하나의 프로젝트만 완수한다'는 원칙을 세워야 합니다.</li>
+</ul>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/personality-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 AI 무료 사주·성격 분석기로 내 타고난 오행과 MBTI 확인하기 →</a>
+</div>
+
+<h2 id="all-16-types-table">3. 2026년 MBTI 16유형별 운세 총괄 비교표</h2>
+<p>아래 표는 2026년 병오년 세운이 16가지 성격 유형에 미치는 대표적인 영향, 핵심 기회, 그리고 반드시 피해야 할 주의점을 요약한 허브 차트입니다.</p>
+
+<div style="overflow-x: auto; margin: 25px 0;">
+  <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 13px; border: 1px solid rgba(255,255,255,0.15);">
+    <thead>
+      <tr style="background: rgba(200,134,10,0.18); color: #F5D77E; border-bottom: 2px solid rgba(200,134,10,0.4);">
+        <th style="padding: 10px 12px; width: 14%;">MBTI 유형</th>
+        <th style="padding: 10px 12px; width: 22%;">2026년 핵심 키워드</th>
+        <th style="padding: 10px 12px; width: 32%;">주요 기회와 상승 흐름</th>
+        <th style="padding: 10px 12px; width: 32%;">경계해야 할 주의점</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
+        <td style="padding: 10px 12px; font-weight: bold; color: #f9d976;">INTJ</td>
+        <td style="padding: 10px 12px;">전략의 가시화, 실행 가속</td>
+        <td style="padding: 10px 12px;">오랫동안 설계해 온 장기 플랜의 결실, 리더십 발휘</td>
+        <td style="padding: 10px 12px;">변수 통제 불능에서 오는 극심한 분노, 독단적 태도</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.02);">
+        <td style="padding: 10px 12px; font-weight: bold; color: #f9d976;">INTP</td>
+        <td style="padding: 10px 12px;">지적 결과물 완성, 현실 접목</td>
+        <td style="padding: 10px 12px;">학문·기술 연구의 세상 공개, 독창적인 특허·저작</td>
+        <td style="padding: 10px 12px;">생각만 하다 기회를 놓치는 우유부단, 불규칙한 생활</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
+        <td style="padding: 10px 12px; font-weight: bold; color: #f9d976;">ENTJ</td>
+        <td style="padding: 10px 12px;">사업 확장, 과감한 돌파</td>
+        <td style="padding: 10px 12px;">조직 규모 확대, 투자 유치, 새로운 시장 선점</td>
+        <td style="padding: 10px 12px;">팀원들의 피로도를 무시한 과로, 혈압 및 심혈관 긴장</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.02);">
+        <td style="padding: 10px 12px; font-weight: bold; color: #f9d976;">ENTP</td>
+        <td style="padding: 10px 12px;">아이디어 폭발, 스타트업 기회</td>
+        <td style="padding: 10px 12px;">새로운 비즈니스 모델 구축, 파격적인 대중적 주목</td>
+        <td style="padding: 10px 12px;">말실수로 인한 구설수, 계약서 디테일 미확인 손실</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
+        <td style="padding: 10px 12px; font-weight: bold; color: #f9d976;">INFJ</td>
+        <td style="padding: 10px 12px;">영적 성숙, 인간관계 재편</td>
+        <td style="padding: 10px 12px;">상담·치유·교육 분야 영향력 확대, 진정한 소울메이트 조우</td>
+        <td style="padding: 10px 12px;">타인의 감정 쓰레기통 전락, 과도한 공감 피로와 고립</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.02);">
+        <td style="padding: 10px 12px; font-weight: bold; color: #f9d976;">INFP</td>
+        <td style="padding: 10px 12px;">창작열 분출, 내면의 독립</td>
+        <td style="padding: 10px 12px;">예술·문학·콘텐츠 창작의 도약, 가치관에 부합하는 일 발견</td>
+        <td style="padding: 10px 12px;">외부 비판에 대한 과민 반응, 동굴 속 현실 도피</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
+        <td style="padding: 10px 12px; font-weight: bold; color: #f9d976;">ENFJ</td>
+        <td style="padding: 10px 12px;">공동체 리더십, 인망 확장</td>
+        <td style="padding: 10px 12px;">팀과 조직의 사기 진작, 공공 프로젝트 성공</td>
+        <td style="padding: 10px 12px;">모두를 만족시키려는 강박, 본인의 건강과 재정 소홀</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.02);">
+        <td style="padding: 10px 12px; font-weight: bold; color: #f9d976;">ENFP</td>
+        <td style="padding: 10px 12px;">열정 폭발, 네트워크 확장</td>
+        <td style="padding: 10px 12px;">트렌드 리더로의 부상, 다양한 분야 인맥 형성</td>
+        <td style="padding: 10px 12px;">시작만 많고 마무리가 없는 용두사미, 충동 지출</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
+        <td style="padding: 10px 12px; font-weight: bold; color: #f9d976;">ISTJ</td>
+        <td style="padding: 10px 12px;">내실 다지기, 시스템 정비</td>
+        <td style="padding: 10px 12px;">조직의 혼란 속 독보적 신뢰 확보, 안정적 자산 방어</td>
+        <td style="padding: 10px 12px;">급변하는 환경에 대한 저항, 융통성 부족으로 인한 갈등</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.02);">
+        <td style="padding: 10px 12px; font-weight: bold; color: #f9d976;">ISFJ</td>
+        <td style="padding: 10px 12px;">헌신의 보상, 경계선 확립</td>
+        <td style="padding: 10px 12px;">오랜 조력에 대한 공식적 인정, 가정과 직장의 평화</td>
+        <td style="padding: 10px 12px;">거절하지 못해 짊어지는 과도한 잡무, 소화기 질환</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
+        <td style="padding: 10px 12px; font-weight: bold; color: #f9d976;">ESTJ</td>
+        <td style="padding: 10px 12px;">승진과 명예, 규율 확립</td>
+        <td style="padding: 10px 12px;">명문화된 규정 정착, 공공기관 및 대기업 내 입지 강화</td>
+        <td style="padding: 10px 12px;">지나치게 완고한 훈계, 부하직원과의 세대 갈등</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.02);">
+        <td style="padding: 10px 12px; font-weight: bold; color: #f9d976;">ESFJ</td>
+        <td style="padding: 10px 12px;">인맥 허브, 경조사 축복</td>
+        <td style="padding: 10px 12px;">대인관계 네트워크를 통한 실리 획득, 귀인의 조력</td>
+        <td style="padding: 10px 12px;">남의 평가에 대한 집착, 소문과 파벌 싸움 연루</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
+        <td style="padding: 10px 12px; font-weight: bold; color: #f9d976;">ISTP</td>
+        <td style="padding: 10px 12px;">실전 기술 숙련, 독립 생존</td>
+        <td style="padding: 10px 12px;">전문 기술 분야에서의 독점적 성과, 신속한 위기 해결</td>
+        <td style="padding: 10px 12px;">사회적 의무 방기, 감정적 냉담으로 인한 연인과의 불화</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.02);">
+        <td style="padding: 10px 12px; font-weight: bold; color: #f9d976;">ISFP</td>
+        <td style="padding: 10px 12px;">미적 감각 개화, 라이프스타일</td>
+        <td style="padding: 10px 12px;">디자인·공예·공간 연출 등에서 감각 인정, 힐링 여행</td>
+        <td style="padding: 10px 12px;">경제적 현실 감각 저하, 중요한 결정의 지속적 유예</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
+        <td style="padding: 10px 12px; font-weight: bold; color: #f9d976;">ESTP</td>
+        <td style="padding: 10px 12px;">승부수 적중, 다이내믹한 성취</td>
+        <td style="padding: 10px 12px;">단기 투자와 영업 성과 폭발, 위기 상황에서의 전격 돌파</td>
+        <td style="padding: 10px 12px;">무리한 투기와 레버리지, 안전사고 및 교통사고 주의</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px 12px; font-weight: bold; color: #f9d976;">ESFP</td>
+        <td style="padding: 10px 12px;">무대 장악, 대중적 인기</td>
+        <td style="padding: 10px 12px;">엔터테인먼트, 세일즈, 인플루언서 활동에서의 인기 급상승</td>
+        <td style="padding: 10px 12px;">과소비와 유흥, 미래에 대한 장기적 저축 플랜 부재</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2 id="four-temperaments-strategy">4. 4대 기질별 2026년 생존 및 성공 전략</h2>
+<p>16개 유형은 데이비드 커시(David Keirsey)의 분류에 따라 4가지 기질군으로 묶입니다. 각 기질군이 2026년 화기운에 대처하는 실전 행동 지침은 다음과 같습니다.</p>
+<h3>분석가형 (NT: INTJ, INTP, ENTJ, ENTP): 통찰의 구체화</h3>
+<p>머릿속에만 머물던 이론과 논리를 현실 비즈니스와 문서로 입증해야 하는 해입니다. 화(火)의 추진력을 빌려 결단력을 높이되, 타인을 지나치게 비판적으로 몰아세우지 않도록 유연한 커뮤니케이션 스킬을 장착해야 합니다.</p>
+<h3>외교관형 (NF: INFJ, INFP, ENFJ, ENFP): 진정성의 보호</h3>
+<p>공감 능력이 뛰어난 NF 유형은 세상의 빠른 속도와 세속적 경쟁에 상처받기 쉽습니다. 자신만의 확고한 가치관을 콘텐츠나 창작물로 승화시키고, 부정적인 에너지를 내뿜는 사람과는 단호하게 심리적 거리를 두어야 합니다.</p>
+<h3>관리자형 (SJ: ISTJ, ISFJ, ESTJ, ESFJ): 유연한 적응</h3>
+<p>전통과 안정을 중시하는 SJ 유형에게 2026년의 급변하는 파도는 혼란스러울 수 있습니다. 기존의 규칙만을 고집하기보다는 새로운 도구(AI, 디지털 툴 등)를 수용하여 자신의 성실함을 레버리지하는 지혜가 필요합니다.</p>
+<h3>탐험가형 (SP: ISTP, ISFP, ESTP, ESFP): 브레이크 장착</h3>
+<p>순간의 기회 포착과 감각적 적응력이 최고조에 달합니다. 거침없이 성과를 낼 수 있는 최적의 시기이지만, 가속 페달만 밟다가는 탈선할 수 있습니다. 자산 관리와 건강 관리에서는 보수적인 안전장치를 마련해 두세요.</p>
+
+<h2 id="mbti-gaeun-routine">5. 병오년 과열을 식히는 유형별 개운 루틴</h2>
+<p>2026년의 화기운은 열정을 불어넣지만, 지나치면 심리적 번아웃과 불면증, 조급증을 유발합니다. 내 일상에 냉철한 수(水)기운과 단단한 금(金)기운을 보완하는 세 가지 실천 팁을 제안합니다.</p>
+<ol>
+  <li><strong>수면 위생 철저:</strong> 취침 1시간 전 스마트폰 블루라이트를 차단하고 미지근한 물 한 잔을 마시세요. 화기운이 머리로 쏠리는 상열감을 내려줍니다.</li>
+  <li><strong>계획의 문서화:</strong> 머릿속으로만 생각하지 말고 공책에 할 일을 손글씨로 적어보세요. 금(金)의 정돈된 에너지가 충동적인 결정을 막아줍니다.</li>
+  <li><strong>주 1회 자연 속 묵언 산책:</strong> 물가나 숲길을 걸으며 타인의 말과 평가에서 완전히 벗어나는 시간을 가지세요. 자신의 유형에 맞는 본래의 에너지가 자연스럽게 회복됩니다.</li>
+</ol>
+</section>
+    `,
+    contentEn: `
+<section>
+<p>In the traditional East Asian sexagenary cycle, the year 2026 corresponds to <strong>Bing-Oh (丙午)</strong>, dramatically celebrated as the <strong>'Year of the Red Fire Horse'</strong>. In Saju (Four Pillars of Destiny), both the heavenly stem Bing (Yang Fire) and the earthly branch Oh (Yang Fire) represent blazing, unadulterated flame. It is an era defined by lightning-fast changes, heightened visibility, explosive entrepreneurship, and an insatiable appetite for immediate outcomes.</p>
+<p>How does this blazing cosmic climate interact with the psychological frameworks of the <strong>16 MBTI personality types</strong>? For proactive, energetic extroverts (E), 2026 can serve as a supercharged launchpad for long-awaited ambitions. Conversely, for introspective, delicate introverts (I), it poses serious hazards of sensory overload and emotional burnout. This comprehensive guide details the overarching fortune, golden opportunities, and psychological warning flags for all 16 MBTI types in 2026.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/mbti/saju-five-elements" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">MBTI and Saju Five Elements: Mapping 16 Personalities</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/saju/iljoo-fortune-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">2026 Day Pillar Fortune: 60 Gapja Horoscope Guide</a></li>
+  </ul>
+</div>
+
+<h2 id="fire-horse-energy">1. The Fire Horse Energy and MBTI Dynamics</h2>
+<p>In Five Elements metaphysics, Fire symbolizes radiance, extroverted expression, speed, and emotional transparency. When Fire dominates a year, ideas hidden in the shadows are abruptly thrust onto center stage, and diplomatic ambiguities give way to blunt, unfiltered truth.</p>
+<p>From an analytical psychology perspective, Fire stimulates <strong>Extroversion (E), Intuition (N), and Feeling (F)</strong> functions. Because corporate and social environments demand instantaneous reactions and charismatic communication, systematic types who rely heavily on structured precedents and methodical deliberation (SJ and IN groups) can experience intense friction. Conversely, opportunistic visionaries and spontaneous pragmatists (EN and SP groups) discover vast horizons to display their innate dynamism.</p>
+
+<h2 id="introvert-vs-extrovert">2. Introverts vs Extroverts: Energy Management</h2>
+<p>Navigating 2026 requires an understanding of energy calibration tailored to cognitive orientations.</p>
+<ul>
+  <li><strong>Introverts (I Types): Erecting Psychic Boundaries</strong><br />The ceaseless buzz and rapid expectations of 2026 can rapidly drain introverted cognitive reserves. Set aside at least 60 minutes of zero-notification solitude each day. Rebalance intense Fire energy by leaning into Water-aligned practices: solitary evening walks, reflective journaling, and meditative baths.</li>
+  <li><strong>Extroverts (E Types): Cooling Down Overextension</strong><br />While professional momentum is potent, excessive optimism can tempt extroverts to sign unvetted contracts or overpromise on impossible deliverables. Guard against reputational erosion by imposing a strict operational rule: complete one major milestone before inaugurating the next.</li>
+</ul>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en/personality-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 Discover Your Saju Element and MBTI Compatibility with AI →</a>
+</div>
+
+<h2 id="all-16-types-table">3. 2026 Master Fortune Table for All 16 Types</h2>
+<p>The comparative matrix below outlines the critical keywords, high-yield opportunities, and vital vulnerabilities for every personality type during the 2026 Fire Horse cycle.</p>
+
+<div style="overflow-x: auto; margin: 25px 0;">
+  <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 13px; border: 1px solid rgba(255,255,255,0.15);">
+    <thead>
+      <tr style="background: rgba(200,134,10,0.18); color: #F5D77E; border-bottom: 2px solid rgba(200,134,10,0.4);">
+        <th style="padding: 10px 12px; width: 14%;">MBTI Type</th>
+        <th style="padding: 10px 12px; width: 22%;">2026 Key Theme</th>
+        <th style="padding: 10px 12px; width: 32%;">Prime Opportunities</th>
+        <th style="padding: 10px 12px; width: 32%;">Critical Warning Signals</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
+        <td style="padding: 10px 12px; font-weight: bold; color: #f9d976;">INTJ</td>
+        <td style="padding: 10px 12px;">Strategic Materialization</td>
+        <td style="padding: 10px 12px;">Long-term blueprints yield tangible fruit; elevated executive authority</td>
+        <td style="padding: 10px 12px;">Furious impatience with unpredictable variables; interpersonal friction</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.02);">
+        <td style="padding: 10px 12px; font-weight: bold; color: #f9d976;">INTP</td>
+        <td style="padding: 10px 12px;">Intellectual Commercialization</td>
+        <td style="padding: 10px 12px;">Academic/technical breakthroughs; patents, publications, and niche authority</td>
+        <td style="padding: 10px 12px;">Chronic overthinking causing missed market timing; erratic sleep schedules</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
+        <td style="padding: 10px 12px; font-weight: bold; color: #f9d976;">ENTJ</td>
+        <td style="padding: 10px 12px;">Aggressive Scale-Up</td>
+        <td style="padding: 10px 12px;">Venture expansion, securing key institutional investment, market dominance</td>
+        <td style="padding: 10px 12px;">Subordinate exhaustion, autocracy backlash, cardiovascular tension</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.02);">
+        <td style="padding: 10px 12px; font-weight: bold; color: #f9d976;">ENTP</td>
+        <td style="padding: 10px 12px;">Disruptive Innovation</td>
+        <td style="padding: 10px 12px;">Breakthrough startup models, viral public speaking, media spotlights</td>
+        <td style="padding: 10px 12px;">Careless verbal blunders leading to legal scuffles; sloppy contract audits</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
+        <td style="padding: 10px 12px; font-weight: bold; color: #f9d976;">INFJ</td>
+        <td style="padding: 10px 12px;">Soulful Alignment</td>
+        <td style="padding: 10px 12px;">Expanding influence in counseling/healing; meeting destined karmic allies</td>
+        <td style="padding: 10px 12px;">Becoming an emotional landfill for toxic peers; deep empathic exhaustion</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.02);">
+        <td style="padding: 10px 12px; font-weight: bold; color: #f9d976;">INFP</td>
+        <td style="padding: 10px 12px;">Creative Sovereignty</td>
+        <td style="padding: 10px 12px;">Artistic, literary, and content milestones; uncovering value-aligned missions</td>
+        <td style="padding: 10px 12px;">Hypersensitivity to corporate cynicism; retreating into escapist paralysis</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
+        <td style="padding: 10px 12px; font-weight: bold; color: #f9d976;">ENFJ</td>
+        <td style="padding: 10px 12px;">Community Mobilization</td>
+        <td style="padding: 10px 12px;">Galvanizing team morale; leading celebrated civic and corporate initiatives</td>
+        <td style="padding: 10px 12px;">People-pleasing compulsion; neglecting personal financial boundaries</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.02);">
+        <td style="padding: 10px 12px; font-weight: bold; color: #f9d976;">ENFP</td>
+        <td style="padding: 10px 12px;">Charismatic Expansion</td>
+        <td style="padding: 10px 12px;">Emerging as an industry trendsetter; building vast collaborative ecosystems</td>
+        <td style="padding: 10px 12px;">Abandoning half-finished initiatives; impulsive luxury consumption</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
+        <td style="padding: 10px 12px; font-weight: bold; color: #f9d976;">ISTJ</td>
+        <td style="padding: 10px 12px;">Systematic Consolidation</td>
+        <td style="padding: 10px 12px;">Anchoring organizational stability amid chaos; prudent wealth preservation</td>
+        <td style="padding: 10px 12px;">Dogmatic resistance to novel tools; inflexible generational friction</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.02);">
+        <td style="padding: 10px 12px; font-weight: bold; color: #f9d976;">ISFJ</td>
+        <td style="padding: 10px 12px;">Rewarded Stewardship</td>
+        <td style="padding: 10px 12px;">Public recognition for quiet reliability; harmony restored in domestic life</td>
+        <td style="padding: 10px 12px;">Inability to say 'no' causing overload; gastrointestinal stress symptoms</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
+        <td style="padding: 10px 12px; font-weight: bold; color: #f9d976;">ESTJ</td>
+        <td style="padding: 10px 12px;">Institutional Ascension</td>
+        <td style="padding: 10px 12px;">Promotions, judicial or corporate honors; establishing indisputable protocol</td>
+        <td style="padding: 10px 12px;">Authoritarian micromanagement alienating innovative younger associates</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.02);">
+        <td style="padding: 10px 12px; font-weight: bold; color: #f9d976;">ESFJ</td>
+        <td style="padding: 10px 12px;">Relational Prosperity</td>
+        <td style="padding: 10px 12px;">Leveraging expansive social networks for material and professional gains</td>
+        <td style="padding: 10px 12px;">Fixation on social status; becoming embroiled in toxic office politics</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
+        <td style="padding: 10px 12px; font-weight: bold; color: #f9d976;">ISTP</td>
+        <td style="padding: 10px 12px;">Technical Mastery</td>
+        <td style="padding: 10px 12px;">Unmatched technical problem-solving; autonomous freelance dominance</td>
+        <td style="padding: 10px 12px;">Emotional detachment triggering domestic breakups; neglect of civic duties</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.02);">
+        <td style="padding: 10px 12px; font-weight: bold; color: #f9d976;">ISFP</td>
+        <td style="padding: 10px 12px;">Aesthetic Blossom</td>
+        <td style="padding: 10px 12px;">Acclaim in visual design, culinary arts, or interior decor; serene travel</td>
+        <td style="padding: 10px 12px;">Procrastination regarding financial planning; evasion of career negotiations</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
+        <td style="padding: 10px 12px; font-weight: bold; color: #f9d976;">ESTP</td>
+        <td style="padding: 10px 12px;">Calculated Audacity</td>
+        <td style="padding: 10px 12px;">Explosive sales closures, lucrative tactical trades, thrilling dealmaking</td>
+        <td style="padding: 10px 12px;">Reckless speculation, excessive leverage; physical injury during risky stunts</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px 12px; font-weight: bold; color: #f9d976;">ESFP</td>
+        <td style="padding: 10px 12px;">Limelight Magnetism</td>
+        <td style="padding: 10px 12px;">Ascendance in entertainment, direct sales, hospitality, and creator spaces</td>
+        <td style="padding: 10px 12px;">Runaway hedonistic spending; complete lack of emergency savings reserves</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2 id="four-temperaments-strategy">4. Strategic Survival Guide for 4 Temperaments</h2>
+<p>Viewing the 16 types through David Keirsey's 4 Temperament groups unveils focused strategic blueprints for mastering 2026's rapid fire energy:</p>
+<h3>Rationals (NT: INTJ, INTP, ENTJ, ENTP): Turning Insight into Reality</h3>
+<p>2026 demands that your intricate cognitive frameworks be translated into deployable software, documented revenue, or physical prototypes. Harness the catalytic speed of Fire, but soften your intellectual arrogance to preserve vital corporate alliances.</p>
+<h3>Idealists (NF: INFJ, INFP, ENFJ, ENFP): Safeguarding the Heart</h3>
+<p>As corporate environments become intensely transactional and hyper-accelerated, your supreme task is shielding your soul from ethical disillusionment. Channel your empathy into authentic artistic or educational output while firmly unplugging from parasitic relationships.</p>
+<h3>Guardians (SJ: ISTJ, ISFJ, ESTJ, ESFJ): Adaptive Resilience</h3>
+<p>Instead of bracing stubbornly against technological disruptions, weave modern tooling into your dependable work ethic. Your steadfast consistency will shine brightest when volatile trends inevitably crash, making you the ultimate stabilizing force.</p>
+<h3>Artisans (SP: ISTP, ISFP, ESTP, ESFP): Installing the Brakes</h3>
+<p>Your innate tactical genius and sensory responsiveness will thrive amid 2026's fluid chaos. You will capture opportunities while others are still deliberating. However, remember to institutionalize stop-loss limits in both finance and physical adventures to ensure long-term sustainability.</p>
+
+<h2 id="mbti-gaeun-routine">5. Cooling the Heat: Wellness and Fortune Rituals</h2>
+<p>Uncontrolled Fire generates acute irritability, sleep disturbances, and erratic decision-making. Restore energetic equilibrium through these three practical rituals (Gae-un):</p>
+<ol>
+  <li><strong>Digital Sunset:</strong> Disconnect from luminous screens 60 minutes prior to sleep and sip room-temperature herbal tea to cool ascending neurological heat.</li>
+  <li><strong>Handwritten Prioritization:</strong> Anchor the Metal element by writing your daily top three imperatives in ink. Physical handwriting slows racing thoughts and restrains rash impulses.</li>
+  <li><strong>Weekly Nature Immersion:</strong> Spend at least two uninterrupted hours walking near bodies of water or tranquil forest groves without headphones. Nature dissolves synthetic tension, allowing your authentic personality to recalibrate.</li>
+</ol>
+</section>
+    `,
+    toc: [
+      { id: 'fire-horse-energy', title: '1. 2026년 병오년 화(火) 기운과 MBTI 역학' },
+      { id: 'introvert-vs-extrovert', title: '2. 내향형(I)과 외향형(E)의 에너지 안배' },
+      { id: 'all-16-types-table', title: '3. 2026년 MBTI 16유형별 운세 총괄 비교표' },
+      { id: 'four-temperaments-strategy', title: '4. 4대 기질별 2026년 생존 및 성공 전략' },
+      { id: 'mbti-gaeun-routine', title: '5. 병오년 과열을 식히는 유형별 개운 루틴' },
+    ],
+    tocEn: [
+      { id: 'fire-horse-energy', title: '1. The Fire Horse Energy and MBTI Dynamics' },
+      { id: 'introvert-vs-extrovert', title: '2. Introverts vs Extroverts: Energy Management' },
+      { id: 'all-16-types-table', title: '3. 2026 Master Fortune Table for All 16 Types' },
+      { id: 'four-temperaments-strategy', title: '4. Strategic Survival Guide for 4 Temperaments' },
+      { id: 'mbti-gaeun-routine', title: '5. Cooling the Heat: Wellness and Fortune Rituals' },
+    ],
+    faq: [
+      { q: 'MBTI 유형과 2026년 사주 운세는 어떤 원리로 연결되나요?', a: '사주 세운(병오년)은 사회 전체를 관통하는 거대한 기운의 파동(강렬한 화기운)을 의미하며, MBTI는 개인이 외부 자극을 인식하고 판단하는 심리적 렌즈를 뜻합니다. 외부의 빠른 변화와 열기에 각 성격 유형이 어떻게 적응하고 스트레스를 처리하는지를 명리학 오행과 융의 심리학을 결합하여 분석하는 원리입니다.' },
+      { q: '2026년에 가장 운이 좋은 MBTI 유형은 누구인가요?', a: '화(火) 기운의 빠른 추진력과 가시성을 능동적으로 활용할 수 있는 외향형 직관·감각 유형(ENTP, ENTJ, ESTP, ENFP)이 새로운 시장과 기회를 잡기에 매우 유리합니다. 다만 운의 좋고 나쁨은 상대적이므로, 내향형이라도 자신의 전문성과 차분함을 살린다면 충분히 독보적인 성취를 이룰 수 있습니다.' },
+      { q: '병오년에 번아웃이 오기 쉬운 유형은 어떻게 대처해야 하나요?', a: '감수성이 풍부하고 타인의 감정에 민감한 INFP, INFJ, ISFJ 유형은 과열된 사회 분위기에 휩쓸려 쉽게 소진될 수 있습니다. 거절하는 연습을 하고, 하루에 일정 시간 완전히 혼자만의 휴식을 취하며 수(水) 기운의 생활 습관을 유지하는 것이 핵심입니다.' },
+    ],
+    faqEn: [
+      { q: 'How do Saju year energies correlate with modern MBTI types?', a: 'The year energy (Bing-Oh) represents the overarching environmental climate—extreme Fire, speed, and visibility. MBTI reflects internal cognitive processing. By examining how specific cognitive functions (like Intuition or Introverted Feeling) respond to external energetic stimulation, we can anticipate psychological adaptations and stress triggers.' },
+      { q: 'Which MBTI types enjoy the strongest momentum in 2026?', a: 'Action-oriented extroverts who thrive on fast iteration and bold self-promotion (ENTP, ENTJ, ESTP, ENFP) are uniquely positioned to capitalize on Fire-driven market conditions. However, sustainable success belongs to those who temper speed with systematic execution.' },
+      { q: 'How should sensitive introverted types protect against burnout in 2026?', a: 'Empathic types like INFP, INFJ, and ISFJ must practice unapologetic boundary-setting. Insulating personal sanctuaries, saying no to unnecessary social obligations, and embracing grounding Water-aligned rituals will preserve vitality through high-stimulation cycles.' },
+    ],
+    relatedPosts: [
+      { slug: 'saju-five-elements', category: 'mbti', title: 'MBTI와 사주 오행 상관관계: 16유형 성격을 오행으로 해석하기' },
+      { slug: 'infp-saju', category: 'mbti', title: 'INFP 사주 분석: 감수성과 편인 기운으로 읽는 진로' },
+    ],
+  },
+  {
+    slug: 'infp-saju',
+    title: 'INFP 사주 분석: 감수성과 편인 기운으로 읽는 진로와 2026년 흐름',
+    seoTitle: 'INFP 사주: 편인·수기운의 감수성과 내면 갈등, 2026년 운세 분석',
+    seoTitleEn: 'INFP Saju Guide: Deep Sensitivity, Indirect Resource Star, and 2026 Fortune',
+    description: '열정적인 중재자 INFP는 사주 명리학에서 어떤 십신과 오행을 닮았을까요? 편인과 수(水)기운으로 보는 독창적 감수성, 번아웃 극복법, 2026년 병오년 대처 전략을 제시합니다.',
+    descriptionEn: 'Discover the Saju astrological blueprint of the INFP personality. Learn how the Indirect Resource Star and Water element explain INFP\'s empathy, idealism, and 2026 trajectory.',
+    keywords: ['INFP 사주', 'INFP 운세', 'INFP 2026 운세', 'INFP 편인 기질', 'INFP 사주 특징', 'INFP 연애운'],
+    keywordsEn: ['INFP saju', 'INFP korean astrology fortune', 'INFP four pillars', 'INFP personality saju', 'INFP fortune 2026'],
+    publishedAt: '2026-06-07',
+    updatedAt: '2026-06-07',
+    category: 'mbti',
+    contentKo: `
+<section>
+<p>MBTI 16가지 유형 중 가장 깊은 내면의 바다를 품고 있는 유형을 꼽으라면 단연 <strong>INFP(열정적인 중재자)</strong>입니다. 이상주의와 따뜻한 동정심, 그리고 타협할 수 없는 자신만의 도덕적 잣대를 지닌 INFP는 세상의 소음 속에서도 영혼의 순수함을 지키고자 분투하는 사람들입니다.</p>
+<p>동양의 사주 명리학으로 INFP의 정신 구조를 해체해 보면, 놀랍게도 <strong>'편인(偏印)'의 독창적 사유</strong>와 <strong>'수(水)기운'의 깊은 감수성</strong>, 그리고 <strong>'식상(食傷)'의 은밀한 표현 욕구</strong>가 절묘하게 얽혀 있음을 발견할 수 있습니다. 왜 INFP는 사소한 비판에도 가슴 깊이 상처를 받으며, 번아웃이 오면 왜 현실에서 동굴 속으로 잠적해 버릴까요? INFP의 사주적 기질과 직업 적성, 그리고 강력한 불의 해인 2026년 병오년을 슬기롭게 헤쳐 나가는 비결을 상세히 풀어드립니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/mbti/mbti-fortune-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">2026 MBTI 운세표: 병오년 16유형별 핵심 키워드와 주의점</a></li>
+    <li style="margin-bottom: 4px;"><a href="/mbti/infj-saju" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">INFJ 사주 분석: 통찰력과 직관의 별</a></li>
+  </ul>
+</div>
+
+<h2 id="infp-saju-element">1. INFP의 본질: 편인(偏印)과 수(水)기운이 빚어낸 이상주의자</h2>
+<p>사주 명리학에서 십신 중 '인성(印星)'은 생각과 수용, 학문과 내면세계를 상징합니다. 그중에서도 <strong>편인(偏印)</strong>은 보편적이고 규격화된 정인(正印)과 달리, 비정형적이고 철학적이며 예술적인 독창성을 추구하는 별입니다. 편인은 사물의 이면, 보이지 않는 영혼의 고통, 인생의 허무와 의미를 탐구하는 기질을 부여합니다.</p>
+<p>여기에 오행 중 가장 유연하면서도 깊은 심연을 가진 <strong>수(水) 기운(임수와 계수)</strong>이 결합하면 전형적인 INFP의 심리 구조가 완성됩니다. 겉으로는 조용하고 부드러워 보이지만, 마음속에는 끊임없이 이상과 현실의 간극을 고뇌하는 거대한 호수가 자리 잡고 있습니다. 세상의 통속적인 잣대(돈, 권력, 서열)보다는 "이것이 진정으로 가치 있는 일인가?"를 끊임없이 스스로에게 묻는 순수한 이상주의자의 영혼입니다.</p>
+
+<h2 id="deep-empathy-and-avoidance">2. 풍부한 상상력과 회피 성향: 내면 갈등의 사주적 원인</h2>
+<p>INFP의 가장 눈부신 재능은 타인의 아픔을 자신의 것처럼 느끼는 <strong>극도의 공감 능력</strong>입니다. 하지만 이 재능은 동시에 가장 치명적인 약점이 되기도 합니다.</p>
+<h3>상처받기 쉬운 마음과 '편인도식(偏印倒食)'의 함정</h3>
+<p>사주에서 편인이 지나치게 강해지면 현실적인 실행과 밥줄을 상징하는 식신(食神)을 엎어버리는 '편인도식' 현상이 일어납니다. 생각이 꼬리에 꼬리를 물어 공상 속으로 빠져들고, 현실의 작은 문제조차 거대한 재앙처럼 느껴져 아무것도 실행하지 못하는 마비 상태에 빠지는 것입니다.</p>
+<p>회사에서 상사의 차가운 한마디나 동료의 무심한 눈빛 하나에 온종일 시달리며 '내가 뭘 잘못했나?' 자책하는 경향이 바로 이 때문입니다. 상처를 받으면 싸우거나 반박하기보다 스스로 동굴 속으로 숨어버리는 <strong>'회피형 잠적'</strong>은 INFP가 자신을 보호하기 위해 발동하는 본능적인 방어기제입니다.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/personality-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 AI 무료 사주·성격 분석기로 내 십신과 MBTI 매칭 확인하기 →</a>
+</div>
+
+<h2 id="career-and-strengths">3. INFP에게 맞는 직업 적성과 업무 환경</h2>
+<p>INFP는 엄격한 상명하복의 군대식 기업 문화나 기계처럼 반복되는 수치 중심의 업무에서 심각한 영혼의 질식을 겪습니다. 반면 자율성이 보장되고 인간적인 가치를 실현할 수 있는 분야에서는 대체 불가능한 역량을 발휘합니다.</p>
+<ul>
+  <li><strong>최적의 직무 분야:</strong> 작가, 번역가, 에디터, 시나리오 작가, 심리상담사, 예술 치료사, UI/UX 기획, 비영리단체 활동가, 독립 일러스트레이터</li>
+  <li><strong>생산성이 폭발하는 환경:</strong> 재택근무나 유연근무제, 혼자 몰입할 수 있는 독립된 공간, 결과물의 가치를 따뜻하게 인정해 주는 소수의 신뢰할 수 있는 동료</li>
+  <li><strong>피해야 할 환경:</strong> 지나친 실적 경쟁을 부추기는 세일즈, 감정을 철저히 배제해야 하는 차가운 조직, 마이크로매니지먼트(사소한 일까지 간섭하는 상사)가 만연한 직장</li>
+</ul>
+
+<h2 id="relationships-and-love">4. 연애와 인간관계: 상처받기 쉬운 영혼을 지키는 현실적 방패</h2>
+<p>INFP의 사랑은 낭만적이고 헌신적입니다. 사주에서 배우자궁에 정관(안정된 법도)이나 정재(온화한 결실)가 자리 잡으면 연인에게 지극한 정성을 다합니다. 그러나 상대방을 지나치게 이상화한 나머지, 작은 현실적 결점을 발견했을 때 홀로 깊은 실망에 빠지는 <strong>'환멸의 롤러코스터'</strong>를 조심해야 합니다.</p>
+<p>INFP에게 최고의 궁합은 감정적으로 변덕스럽지 않고, 바위처럼 묵묵하게 자신을 지지해 주는 <strong>토(土) 기운이 튼튼한 사람(ESTJ, ENTJ 계열)</strong>이나, 지적인 대화가 통하며 편견 없이 수용해 주는 사람입니다. 인간관계에서 모든 사람을 구원하려 들지 말고, "나를 소모시키는 관계는 가차 없이 정리한다"는 단호한 심리적 경계선(금기운)을 세워야 평화가 유지됩니다.</p>
+
+<h2 id="infp-2026-strategy">5. 2026년 병오년(화기운 과다)에서 INFP가 번아웃 없이 살아남는 법</h2>
+<p>2026년 병오년은 거대한 불(火)의 해입니다. 사주에서 화는 INFP의 수(水)기운과 정면으로 부딪치거나, 물을 증발시켜 버리는 수화상충(水火相沖)의 환경을 만듭니다. 세상은 "더 빨리 움직여라, 더 적극적으로 결과를 내라"고 강요하지만, INFP가 남들의 속도에 무리하게 맞추다가는 심신이 바짝 메말라버릴 위험이 큽니다.</p>
+
+<div style="background: rgba(255,255,255,0.04); border-left: 4px solid #F5D77E; padding: 16px 20px; margin: 20px 0;">
+  <h4 style="color: #F5D77E; margin: 0 0 8px 0;">🌟 INFP의 2026년 생존 개운 수칙</h4>
+  <p style="margin: 0 0 6px 0;"><strong>1. 창작으로 열기를 식혀라:</strong> 2026년의 폭발적인 화기운을 외부와의 갈등에 쓰지 말고, 글쓰기나 창작, 디자인 등 식상(食傷)의 배출 통로로 승화시키세요. 당신의 내면 감성을 담은 작품이 세상의 폭발적인 반응을 이끌어낼 수 있습니다.</p>
+  <p style="margin: 0 0 6px 0;"><strong>2. 비교의 덫에서 탈출하라:</strong> SNS 속 타인의 성공이나 재테크 자랑에 휘둘리지 마세요. 2026년은 허장성세(겉만 번지르르한 상태)가 넘쳐나는 해이므로, 자신의 내실과 템포를 지키는 사람이 결국 최후의 승자가 됩니다.</p>
+  <p style="margin: 0;"><strong>3. 몸을 움직여 생각을 끊어라:</strong> 머릿속 고민이 늪처럼 깊어질 때는 생각을 멈추고 밖으로 나가 가볍게 조깅을 하거나 스트레칭을 하세요. 신체 활동(목 기운)은 정체된 감정을 순환시키는 가장 빠른 특효약입니다.</p>
+</div>
+</section>
+    `,
+    contentEn: `
+<section>
+<p>Among the 16 MBTI personality archetypes, none explores the uncharted depths of human emotion and philosophical introspection quite like the <strong>INFP (The Mediating Idealist)</strong>. Characterized by profound empathy, imaginative wonder, and an uncompromising inner moral compass, INFPs dedicate their lives to protecting authenticity amidst the cynical noise of the material world.</p>
+<p>When we examine the psychological architecture of the INFP through the ancient lens of Korean Saju (Four Pillars of Destiny), a fascinating metaphysical symmetry emerges. The INFP embodies the essence of the <strong>Indirect Resource Star (Pyeon-in, 偏印)</strong> fused with the unfathomable depths of the <strong>Water Element (Im and Gye Water)</strong> and the subterranean creative drive of the <strong>Output Stars (Sik-sang)</strong>. Why does the INFP suffer so acutely from minor interpersonal friction? Why do they vanish into self-imposed emotional caves when burnout descends? Let us explore the destiny blueprint of the INFP, their career alignment, and strategic survival through the intense Year of the Fire Horse (2026).</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/mbti/mbti-fortune-2026" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">2026 MBTI Fortune Guide: 16 Types in the Fire Horse Year</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/mbti/infj-saju" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">INFJ Saju Analysis: The Star of Insight and Intuition</a></li>
+  </ul>
+</div>
+
+<h2 id="infp-saju-element">1. The Essence of INFP: Indirect Resource and Water Energy</h2>
+<p>In Saju astrology, the Resource Stars (In-seong) govern intellectual reception, philosophical depth, and spiritual sanctuaries. While the Direct Resource Star (Jung-in) mirrors institutional orthodoxy and traditional knowledge, the <strong>Indirect Resource Star (Pyeon-in)</strong> represents unconventional, eccentric, and avant-garde wisdom. It seeks esoteric meaning, questions fundamental existential premises, and embraces poetic sorrow.</p>
+<p>When Pyeon-in intertwines with the flowing, reflective properties of <strong>Water (Shui)</strong>, the quintessential INFP archetype materializes. On the surface, they appear gentle, polite, and adaptable. Beneath that placid exterior, however, lies an ocean of ethical convictions and boundless creative landscapes. Rather than evaluating life by societal metrics such as prestige or financial rank, their guiding compass is relentless: <em>"Does this endeavor preserve my soul's genuine truth?"</em></p>
+
+<h2 id="deep-empathy-and-avoidance">2. Vivid Imagination and Avoidance: Inner Conflict Roots</h2>
+<p>The INFP's greatest spiritual gift—unfiltered empathic resonance with suffering—is simultaneously their most vulnerable Achilles' heel.</p>
+<h3>The Perils of Over-Identification and Pyeon-in Paralysis</h3>
+<p>In classical Saju theory, when Indirect Resource energy surges unchecked without grounding structure, it triggers <em>Pyeon-in Do-sik</em> (over-thinking crushing practical output). The mind becomes trapped in an intricate maze of recursive hypotheticals and anticipated tragedies, entirely paralyzing the capacity for daily executive action.</p>
+<p>A curt comment from an indifferent supervisor or a subtle change in tone from an acquaintance can provoke days of self-flagellating rumination. Unable to confront aggressive hostility in real-time, the INFP activates their instinctive defense mechanism: <strong>prolonged avoidance and disappearance into their psychic fortress</strong>. While this isolation preserves core identity from annihilation, leaving it unattended can severely disrupt real-world responsibilities.</p>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en/personality-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 Discover Your Ten Gods and MBTI Alignment with AI →</a>
+</div>
+
+<h2 id="career-and-strengths">3. Career Aptitude and Optimal Working Environments</h2>
+<p>Placing an INFP inside a regimented, authoritarian corporate bureaucracy is akin to forcing an eagle into a subterranean tunnel. Conversely, when granted intellectual autonomy and purposeful missions, their contribution is revolutionary.</p>
+<ul>
+  <li><strong>Optimal Vocations:</strong> Novelists, screenwriters, investigative journalists, psychotherapists, art therapists, creative brand strategists, UI/UX researchers, non-profit organizers, independent digital artisans.</li>
+  <li><strong>Thriving Conditions:</strong> Asynchronous remote workflows, solitary research zones, empathetic leadership, and projects that demonstrably alleviate human suffering.</li>
+  <li><strong>Toxic Environments:</strong> Hyper-competitive commission-based sales, environments demanding ruthless Machiavellian maneuvering, and rigid micromanagement that inspects every minute of screen time.</li>
+</ul>
+
+<h2 id="relationships-and-love">4. Romance and Relationships: Protecting a Sensitive Soul</h2>
+<p>In romantic partnerships, the INFP is an ardent, devotional lover capable of breathtaking emotional generosity. However, they are prone to projecting idealized archetypes onto fallible human beings. When the inevitable mundane flaws of daily life emerge, they risk experiencing devastating spiritual disillusionment.</p>
+<p>Metaphysically, INFPs flourish best when anchored by partners possessing sturdy, pragmatic <strong>Earth (Tu) energy (such as mature ESTJ or ENTJ archetypes)</strong> who provide dependable real-world scaffolding without mocking their whimsical dreams. The essential life lesson for an INFP is establishing clear boundaries (Metal energy): recognize that you are not divinely obligated to heal every wounded partner who crosses your path.</p>
+
+<h2 id="infp-2026-strategy">5. Navigating 2026 Fire Horse Energy Without Burnout</h2>
+<p>The year 2026 introduces roaring Yang Fire (Bing-Oh), setting up an elemental clash with the INFP's delicate Water essence. The external world will be feverishly obsessed with vanity metrics, rapid scaling, and abrasive self-promotion. Attempting to artificially match this manic pace will inevitably boil away your inner reserves.</p>
+
+<div style="background: rgba(255,255,255,0.04); border-left: 4px solid #F5D77E; padding: 16px 20px; margin: 20px 0;">
+  <h4 style="color: #F5D77E; margin: 0 0 8px 0;">🌟 INFP Resilience Blueprint for 2026</h4>
+  <p style="margin: 0 0 6px 0;"><strong>1. Transmute Heat into Creative Artifacts:</strong> Do not waste 2026's kinetic Fire energy in fruitless ideological arguments. Funnel it into manuscripts, design portfolios, or specialized content. Output (Sik-sang) is your natural pressure valve.</p>
+  <p style="margin: 0 0 6px 0;"><strong>2. Mute Social Media Posturing:</strong> 2026 will be inundated with flamboyant superficial boasts. Protect your mental ecology by muting accounts that trigger feelings of inadequacy. True personal triumph lies in steady internal mastery.</p>
+  <p style="margin: 0;"><strong>3. Embodied Grounding Breaks:</strong> When analytical spirals threaten to drag you into chronic insomnia, physically disrupt the cycle. Engage in brisk outdoor walking, barefoot earthing, or tactile cooking. Physical movement grounds volatile psychic tension back into your body.</p>
+</div>
+</section>
+    `,
+    toc: [
+      { id: 'infp-saju-element', title: '1. INFP의 본질: 편인과 수(水)기운의 이상주의자' },
+      { id: 'deep-empathy-and-avoidance', title: '2. 풍부한 상상력과 회피 성향: 내면 갈등의 원인' },
+      { id: 'career-and-strengths', title: '3. INFP에게 맞는 직업 적성과 업무 환경' },
+      { id: 'relationships-and-love', title: '4. 연애와 인간관계: 상처받기 쉬운 영혼 지키기' },
+      { id: 'infp-2026-strategy', title: '5. 2026년 병오년 번아웃 없는 생존법' },
+    ],
+    tocEn: [
+      { id: 'infp-saju-element', title: '1. The Essence of INFP: Indirect Resource and Water Energy' },
+      { id: 'deep-empathy-and-avoidance', title: '2. Vivid Imagination and Avoidance: Inner Conflict Roots' },
+      { id: 'career-and-strengths', title: '3. Career Aptitude and Optimal Working Environments' },
+      { id: 'relationships-and-love', title: '4. Romance and Relationships: Protecting a Sensitive Soul' },
+      { id: 'infp-2026-strategy', title: '5. Navigating 2026 Fire Horse Energy Without Burnout' },
+    ],
+    faq: [
+      { q: 'INFP 성격은 사주에서 왜 편인(偏印)과 닮았다고 하나요?', a: '편인은 상상력, 철학, 종교, 예술 등 눈에 보이지 않는 세계를 탐구하는 별입니다. 대중적인 유행이나 현실적 실리보다 내면의 진정성과 독창적인 의미를 추구하는 INFP의 주기능(내향 감정 Fi) 및 부기능(외향 직관 Ne)의 특성과 완벽하게 부합하기 때문입니다.' },
+      { q: 'INFP가 직장에서 상처받지 않고 일하려면 어떤 점이 중요한가요?', a: '상사의 피드백이나 동료의 태도를 자신에 대한 전인격적인 거절로 받아들이지 않는 감정 분리 연습이 필요합니다. "일은 일일 뿐, 나의 영혼의 가치와는 무관하다"는 건강한 금(金)기운의 경계선을 세우고, 업무 후에는 온전히 혼자만의 회복 시간을 확보해야 합니다.' },
+      { q: '2026년 병오년에 INFP가 가장 주의해야 할 건강 문제는 무엇인가요?', a: '사주의 강력한 화(火) 기운이 INFP의 내면 수(水) 기운을 말릴 때 가장 먼저 찾아오는 것은 만성 피로와 불면증, 그리고 신경성 위장 질환입니다. 머리로 쏠리는 열을 내리기 위해 충분한 수분 섭취와 규칙적인 수면 리듬을 최우선으로 지켜야 합니다.' },
+    ],
+    faqEn: [
+      { q: 'Why is the INFP personality compared to the Indirect Resource Star (Pyeon-in)?', a: 'The Indirect Resource Star represents unconventional curiosity, artistic imagination, and profound philosophical inquiry. This mirrors the INFP\'s dominant Introverted Feeling (Fi) and auxiliary Extraverted Intuition (Ne), which prioritize personal authenticity and unique meaning over conventional materialism.' },
+      { q: 'How can an INFP cultivate workplace resilience without getting hurt?', a: 'The secret lies in emotional differentiation. Practice perceiving performance feedback not as a moral condemnation of your character, but merely as transactional project revisions. Cultivating firm boundaries prevents external criticism from piercing your inner sanctuary.' },
+      { q: 'What health precautions should INFPs observe during the 2026 Fire Horse year?', a: 'Raging environmental Fire can deplete internal Water reserves, manifesting as insomnia, cognitive exhaustion, and psychosomatic digestive strain. Prioritizing hydration, consistent sleep schedules, and daily periods of sensory silence will preserve constitutional harmony.' },
+    ],
+    relatedPosts: [
+      { slug: 'mbti-fortune-2026', category: 'mbti', title: '2026 MBTI 운세표: 병오년 16유형별 핵심 키워드와 주의점' },
+      { slug: 'infj-saju', category: 'mbti', title: 'INFJ 사주 분석: 통찰력과 직관의 별' },
     ],
   },
 ], '2026-01-14', 5, '2026-02-16', 1);

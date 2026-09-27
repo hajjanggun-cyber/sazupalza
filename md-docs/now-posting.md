@@ -615,7 +615,7 @@
 
 ### [MBTI] 신규 시리즈
 
-[ ] 64. 2026 MBTI 운세표 — 병오년 16유형별 주의 키워드
+[완료] 64. 2026 MBTI 운세표 — 병오년 16유형별 주의 키워드
 - slug: `mbti-fortune-2026`
 - 카테고리: `mbti`
 - 메인 키워드 KO: 2026 MBTI 운세, MBTI별 운세 2026
@@ -624,7 +624,7 @@
 - 하위 키워드 EN: MBTI 2026 forecast, 16 personality types fortune 2026, korean astrology MBTI
 - 작성 지침: infp-saju 등 개별 유형 글과 다름. 16유형별 2026 병오년 핵심 키워드, 주의점, 참고 링크를 표로 요약하는 허브형 글.
 
-[ ] 65. INFP 사주 — 감수성과 편인 기운으로 보는 2026 흐름
+[완료] 65. INFP 사주 — 감수성과 편인 기운으로 보는 2026 흐름
 - slug: `infp-saju`
 - 카테고리: `mbti`
 - 메인 키워드 KO: INFP 사주, INFP 운세

@@ -74,6 +74,8 @@ Updated At: 2026-05-31 KST
 | 52 | 이마 주름 관상 — 주름 위치로 보는 성격과 일 처리 습관 | `forehead-wrinkles` |
 | 53 | 눈 밑 자녀궁 관상 — 와잠으로 보는 체력과 관계 피로 | `under-eye-reading` |
 | 54 | 명궁 관상 — 미간 넓이와 주름으로 보는 판단 습관 | `between-eyebrows` |
+| 64 | 2026 MBTI 운세표 — 병오년 16유형별 주의 키워드 | `mbti-fortune-2026` |
+| 65 | INFP 사주 — 감수성과 편인 기운으로 보는 2026 흐름 | `infp-saju` |
 
 ---
 
@@ -119,8 +121,6 @@ Updated At: 2026-05-31 KST
 | 61 | face-reading | `nasolabial-line-reading` | 법령선 관상 — 코 옆 주름으로 보는 책임감과 말년운 |
 | 62 | face-reading | `finger-reading` | 손가락 관상 — 마디와 길이 비율로 보는 일 처리 방식 |
 | 63 | face-reading | `eye-pupil-reading` | 눈동자 관상 — 눈동자 크기와 흰자 비율로 보는 성격 |
-| 64 | mbti | `mbti-fortune-2026` | MBTI 2026 운세표 — 16유형별 병오년 주의 키워드 |
-| 65 | mbti | `infp-saju` | INFP 사주 2026 — 감수성과 편인 기운으로 보는 흐름 |
 | 66 | mbti | `enfp-saju` | ENFP 사주 — 식상 강한 활동가의 재물·연애 흐름 |
 | 67 | mbti | `intj-saju` | INTJ 사주 — 관성·인성 강한 전략가의 직업운 |
 | 68 | mbti | `entp-saju` | ENTP 사주 — 상관 기질과 논쟁 에너지를 쓰는 법 |
