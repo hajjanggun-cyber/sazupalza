@@ -521,7 +521,7 @@
 - 하위 키워드 EN: dark circles gwansang, under eye children luck, eye bags fortune korean
 - 작성 지침: eye-reading(눈 전체)·mouth-lips(입술 애정운)와 다름. 눈 밑 자녀궁, 와잠의 살집·꺼짐·그늘을 중심으로 체력 저하와 관계 피로 신호를 다루되 의학 단정 금지.
 
-[ ] 54. 명궁 관상 — 미간 넓이와 주름으로 보는 판단 습관
+[완료] 54. 명궁 관상 — 미간 넓이와 주름으로 보는 판단 습관
 - slug: `between-eyebrows`
 - 카테고리: `face-reading`
 - 메인 키워드 KO: 명궁 관상, 미간 넓이 관상

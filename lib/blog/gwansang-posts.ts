@@ -2249,4 +2249,259 @@ export const gwansangPosts: BlogPost[] = distributePublishedDates([
       { slug: 'cheek-reading', category: 'face-reading', title: '볼살 관상: 협골 주변 살집으로 보는 친화력' },
     ],
   },
+  {
+    slug: 'between-eyebrows',
+    title: '명궁 관상: 미간 넓이와 주름으로 보는 일 처리 습관과 판단력',
+    seoTitle: '명궁 관상: 미간 넓이와 주름 형태가 말해주는 판단 습관과 직업운',
+    seoTitleEn: 'Between Eyebrows (Mingung) Gwansang: Glabella Width, Wrinkles, and Career Decisions',
+    description: '미간(명궁)은 생각의 흐름과 판단 습관을 비추는 거울입니다. 미간 넓이, 주름 형태, 기색에 따른 직업운과 의사결정 방식을 관상학 관점에서 꼼꼼히 분석합니다.',
+    descriptionEn: 'Explore Mingung (the area between your eyebrows) in Korean face reading. Discover how glabella width, wrinkle lines, and skin tone reveal decision-making styles and career fortune.',
+    keywords: ['명궁 관상', '미간 넓이 관상', '미간 넓으면 관상', '미간 좁으면 관상', '미간 주름', '미간 직업운'],
+    keywordsEn: ['between eyebrows gwansang', 'glabella face reading korean fortune', 'wide glabella fortune gwansang', 'narrow eyebrows fate', 'brow gap reading'],
+    publishedAt: '2026-06-05',
+    updatedAt: '2026-06-05',
+    category: 'face-reading',
+    contentKo: `
+<section>
+<p>사람의 얼굴을 마주할 때 시선이 가장 먼저 머물며 내면의 심리와 지성을 드러내는 핵심 부위가 바로 양 눈썹 사이, 즉 <strong>미간(眉間)</strong>입니다. 전통 관상학에서는 이곳을 열두 궁(十二宮) 중 으뜸이라 하여 <strong>'명궁(命宮)'</strong> 혹은 도장을 찍는 자리라는 뜻의 <strong>'인당(印堂)'</strong>이라고 부릅니다. 명궁은 한 사람의 타고난 그릇과 학문적 깊이, 그리고 중요한 기로에서 어떤 선택을 내리는지 보여주는 <strong>'판단 습관의 중추'</strong>입니다.</p>
+<p>흔히 "골치 아픈 일이 생기면 미간부터 찌푸려진다"고 말하듯, 미간은 뇌의 사고 활동과 스트레스 반응이 실시간으로 새겨지는 모니터입니다. 미간의 너비가 좁은지 넓은지, 어떤 모양의 주름이 자리 잡았는지, 그리고 현재 피부 기색(빛깔)이 맑은지 탁한지에 따라 직업적 추진력과 인간관계의 성패가 갈립니다. 명궁 관상을 통해 자신의 의사결정 패턴과 숨겨진 직업운을 입체적으로 점검해 보겠습니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/face-reading/forehead-wrinkles" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">이마 주름 관상: 주름 위치로 보는 성격과 일 처리 습관</a></li>
+    <li style="margin-bottom: 4px;"><a href="/face-reading/eyebrow-reading" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">눈썹 관상 가이드: 형태와 숱으로 읽는 리더십과 인복</a></li>
+  </ul>
+</div>
+
+<h2 id="meaning-of-mingung">1. 명궁(인당)의 관상학적 본질: 12궁의 으뜸이자 생각의 통로</h2>
+<p>관상학의 고전 《마의상법》에서는 명궁을 '모든 운이 모여들고 빠져나가는 운명의 관문'으로 정의합니다. 이마(초년운·부모덕)에서 내려온 천명의 기운이 코(중년운·재물복)로 전달되기 위해서는 반드시 이 미간을 거쳐야 하기 때문입니다. 징검다리 역할을 하는 명궁이 막히거나 찌푸려져 있으면 인생 전반의 운맥이 순조롭게 흐르지 못합니다.</p>
+<p>현대 신경과학과 심리학의 관점에서도 미간은 전두엽(판단, 억제, 집중, 장기 계획을 관장)과 안면 표정근(추미근, 비근근)이 만나는 핵심 교차점입니다. 깊은 고민과 갈등, 분노와 번뇌가 잦은 사람은 미간 근육이 지속적으로 긴장해 깊은 골을 남깁니다. 반대로 마음이 안정되고 시야가 넓은 사람은 명궁이 평평하고 맑게 펼쳐집니다. 즉, 명궁은 타고난 골격뿐만 아니라 <strong>'평소 세상을 대하는 마음의 태도와 인지적 습관'</strong>이 축적된 살아있는 지표입니다.</p>
+
+<h2 id="glabella-width">2. 미간 넓이로 보는 의사결정 스타일과 일 처리 방식</h2>
+<p>미간의 넓이는 보통 본인의 손가락 굵기를 기준으로 측정합니다. 양 눈썹 머리 사이에 본인의 검지와 중지 두 손가락을 가볍게 대었을 때 들어가는 간격이 표준입니다.</p>
+
+<h3>표준 미간 (손가락 1.5개 ~ 2개 너비): 균형 잡힌 현실주의자</h3>
+<p>감정과 이성의 밸런스가 뛰어나며, 현실적인 사리분별이 빠릅니다. 대인관계에서 지나치게 계산적이지 않으면서도 공과 사를 명확히 구분합니다. 조직 내에서 관리자, 기획자, 조율자 역할을 맡았을 때 최고의 실력을 발휘하며, 위기 상황에서도 극단적인 판단으로 치닫지 않고 순리대로 문제를 해결하는 안정적인 일 처리 스타일을 보입니다.</p>
+
+<h3>넓은 미간 (손가락 2개 초과): 거시적 시야와 낙천적인 결단력</h3>
+<p>도량이 넓고 개방적이며, 사소한 실수를 마음에 오래 담아두지 않는 대범한 기질을 가집니다. 새로운 트렌드나 이질적인 아이디어를 유연하게 수용하여 기획, 마케팅, 대외 영업, 창업 등 스케일이 큰 영역에서 두각을 나타냅니다.</p>
+<p>그러나 미간이 지나치게 넓으면(손가락 2.5개 이상) 낙천성이 지나쳐 <strong>'계약서의 세부 조항이나 사소한 리스크를 간과하는 허점'</strong>이 생기기 쉽습니다. 사람을 너무 쉽게 믿어 사기 피해를 입거나, 마감이나 금전 관리에 루즈해질 수 있으므로 반드시 꼼꼼한 실무 파트너를 곁에 두어야 합니다.</p>
+
+<h3>좁은 미간 (손가락 1.5개 미만): 날카로운 분석력과 완벽주의</h3>
+<p>눈썹 사이가 바짝 붙어 있는 상은 고도의 집중력과 치밀한 관찰력을 가집니다. 남들이 대충 지나치는 데이터의 오류나 실무상의 맹점을 귀신같이 찾아내며, 회계, 법률, 정밀 공학, 연구 개발 등 고도의 정확성이 요구되는 전문직에서 압도적인 성과를 냅니다.</p>
+<p>하지만 시야가 좁아져 나무만 보고 숲을 보지 못하는 우를 범하기 쉽습니다. 사소한 일에도 의심과 불안이 많고, 자신의 기준에 차지 않으면 타인에게 일을 맡기지 못해 스스로 번아웃에 빠질 위험이 큽니다. 지나친 신중함으로 인해 결정적인 사업 타이밍을 놓치기도 하므로, '80% 수준에서 먼저 실행하는 결단력'을 기르는 훈련이 필요합니다.</p>
+
+<div style="overflow-x: auto; margin: 25px 0;">
+  <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 14px; border: 1px solid rgba(255,255,255,0.15);">
+    <thead>
+      <tr style="background: rgba(200,134,10,0.18); color: #F5D77E; border-bottom: 2px solid rgba(200,134,10,0.4);">
+        <th style="padding: 10px 14px;">미간 유형</th>
+        <th style="padding: 10px 14px;">기준 너비</th>
+        <th style="padding: 10px 14px;">주요 의사결정 스타일</th>
+        <th style="padding: 10px 14px;">추천 직무</th>
+        <th style="padding: 10px 14px;">주의할 점</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
+        <td style="padding: 10px 14px; font-weight: bold; color: #f9d976;">넓은 미간</td>
+        <td style="padding: 10px 14px;">손가락 2개 초과</td>
+        <td style="padding: 10px 14px;">직관적, 거시적, 빠른 포용</td>
+        <td style="padding: 10px 14px;">사업, 영업, 전략기획, 크리에이티브</td>
+        <td style="padding: 10px 14px;">세부 검토 누락, 과도한 낙관</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.02);">
+        <td style="padding: 10px 14px; font-weight: bold; color: #f9d976;">표준 미간</td>
+        <td style="padding: 10px 14px;">손가락 1.5~2개</td>
+        <td style="padding: 10px 14px;">합리적, 균형 감각, 완급 조절</td>
+        <td style="padding: 10px 14px;">프로젝트 총괄, 조직 인사, 컨설팅</td>
+        <td style="padding: 10px 14px;">현상 유지에 안주할 가능성</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px 14px; font-weight: bold; color: #f9d976;">좁은 미간</td>
+        <td style="padding: 10px 14px;">손가락 1.5개 미만</td>
+        <td style="padding: 10px 14px;">분석적, 철저한 검증, 완벽주의</td>
+        <td style="padding: 10px 14px;">회계, 학술 연구, 품질관리, 개발</td>
+        <td style="padding: 10px 14px;">우유부단, 대인관계 피로, 번아웃</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/gwansang-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">📸 AI 관상 분석기로 내 명궁(미간) 기색과 운세 확인하기 →</a>
+</div>
+
+<h2 id="glabella-wrinkles">3. 미간 주름의 형태: 습관적 고민이 새긴 운명의 궤적</h2>
+<p>미간에 패인 주름은 무의식중에 반복된 심리적 저항과 스트레스 처리 방식을 적나라하게 드러냅니다. 관상학에서는 주름의 개수와 배열에 따라 전혀 다른 기질로 분류합니다.</p>
+
+<h3>단일 수직 주름 (현침문, 懸針紋): 강철 같은 의지와 독선의 칼날</h3>
+<p>미간 한가운데에 바늘을 거꾸로 매달아 놓은 것처럼 깊고 곧게 패인 세로 주름 한 줄을 <strong>'현침문(懸針紋)'</strong>이라고 부릅니다. 이 상을 가진 사람은 엄청난 집중력, 불굴의 투지, 강한 독립심을 타고납니다. 남에게 의지하지 않고 맨손으로 일가를 이루는 자수성가형 사업가나 고독한 학자, 외과의사, 법조인 등에서 자주 발견됩니다.</p>
+<p>하지만 현침문은 관상학에서 '자신의 원칙으로 남을 베는 칼'로도 비유됩니다. 타인의 의견을 수용하지 않는 독선적인 면모가 강해 부부 관계나 동업자 관계에서 파탄을 겪기 쉽습니다. 특히 지나친 긴장으로 편두통, 불면증, 심장 화기(火氣) 상승에 취약하므로, 일상에서 의식적으로 힘을 빼고 상대를 인정하는 태도가 필수적입니다.</p>
+
+<h3>두 줄 수직 주름 (쌍수문, 雙竪紋): 철저한 현실주의와 계산력</h3>
+<p>양 눈썹 머리 안쪽에 나란히 평행하게 그어진 두 줄의 세로 주름입니다. 사리분별이 매우 뚜렷하고 현실적인 손익 계산이 빠른 실무형 엘리트의 상입니다. 조직 내에서 리스크를 통제하고 자원을 배분하는 데 탁월한 능력을 발휘합니다.</p>
+<p>다만 매사에 지나치게 방어적인 태도를 취하거나 손해를 보지 않으려는 계산이 겉으로 드러나 '인간미가 부족하다'는 평을 들을 수 있습니다. 신뢰를 얻기 위해서는 가끔은 계산 없는 호의를 베풀 줄 알아야 합니다.</p>
+
+<h3>내 천(川)자 주름 (삼수문): 험난한 풍파를 이겨낸 책임감</h3>
+<p>미간에 세 줄의 주름이 '川' 자 모양으로 깊게 새겨진 형태입니다. 초년과 청년기에 가정이나 사회에서 감당하기 힘든 짐을 짊어지고 분투해 온 사람에게 많습니다. 역경을 극복하는 내공과 끈기는 타의 추종을 불허하지만, 매사를 혼자 짊어지려는 과도한 책임감 때문에 만성 피로와 신경 쇠약에 시달리기 쉽습니다. 이제는 짐을 내려놓고 주변에 권한을 위임할 줄 알아야 명궁의 기운이 펴집니다.</p>
+
+<h3>미간 가로 주름: 삶의 급격한 전환기와 변동수</h3>
+<p>세로 주름과 달리 미간에 수평으로 가로지르는 주름이 있는 경우, 30대 후반에서 40대 초반 사이 직업이나 거주지, 가정환경에서 중대한 변곡점을 맞이할 가능성을 암시합니다. 돌다리도 두드려 건너는 신중함이 요구되는 시기입니다.</p>
+
+<h2 id="glabella-color">4. 미간의 기색(氣色)과 색 변화: 현재 운세의 청신호와 적신호</h2>
+<p>미간의 형태와 주름이 '선천적인 그릇과 오랜 습관'이라면, 미간 피부 표면의 빛깔인 <strong>기색(氣色)</strong>은 <strong>'지금 당장 눈앞에 다가온 운의 실시간 날씨'</strong>입니다.</p>
+<ul>
+  <li><strong>맑고 은은한 황금빛·홍윤색(황윤색):</strong> 최상의 길조입니다. 현재 자신의 판단력이 최고조에 달해 있으며, 시험 합격, 승진, 중요한 계약 체결, 재물 획득의 호기를 맞이했음을 뜻합니다. 추진하던 계획을 과감하게 밀어붙여도 좋은 시기입니다.</li>
+  <li><strong>어둡고 칙칙한 청흑색(그늘진 색):</strong> 심신이 완전히 고갈되었거나 사기, 배신, 송사 등의 먹구름이 끼어 있음을 경고합니다. 이 시기에는 판단력이 극도로 흐려져 무리한 투자를 감행했다가 큰 손실을 보거나 직장에서 치명적인 실수를 저지를 수 있습니다. 중요한 결정은 최대한 유예하고 휴식과 내실 다지기에 집중해야 합니다.</li>
+  <li><strong>붉은 반점이나 화농성 여드름:</strong> 심장에 울화(鬱火)가 치밀어 올라 감정 조절이 불가능한 상태를 나타냅니다. 욱하는 성미로 인해 직장 상사와의 불화나 음주 관련 사고, 관재구설에 휘말릴 위험이 매우 높으니 각별히 언행을 삼가야 합니다.</li>
+</ul>
+
+<h2 id="decision-habits-and-gaeun">5. 판단 습관 교정과 명궁 개운법: 미간을 펴야 운이 열린다</h2>
+<p>"미간을 찌푸리면 복이 달아난다"는 속담은 관상학뿐 아니라 뇌과학적으로도 입증된 사실입니다. 미간을 찌푸리는 순간 뇌의 편도체가 활성화되어 편협하고 방어적인 사고에 갇히게 되며, 이는 잘못된 의사결정으로 직결됩니다. 명궁의 기운을 밝혀 좋은 운을 끌어당기는 실전 개운법 4가지를 실천해 보세요.</p>
+<ol>
+  <li><strong>양 눈썹 사이 잔털(연미, 連眉) 정리:</strong> 눈썹 털이 미간 안쪽까지 침범해 눈썹이 거의 이어져 있는 상은 관상학에서 매우 불리하게 봅니다. 족집게나 면도기로 미간 중심부를 깨끗하게 다듬어 최소 손가락 두 개 너비의 공간을 확보하세요. 잡털을 제거하는 것만으로도 막혔던 인복과 취업운이 열리기 시작합니다.</li>
+  <li><strong>아침 거울 앞 미간 쓸어 넘기기:</strong> 매일 세안 후 거울을 보며 양 검지 손가락으로 미간 중심에서 양 눈썹 끝 방향으로 부드럽게 10회 이상 쓸어 넘겨줍니다. 굳어 있던 미간 표정근이 이완되면서 두통이 가라앉고 안색이 밝아집니다.</li>
+  <li><strong>깊은 주름 완화와 미용적 관리:</strong> 흉터처럼 너무 깊게 패인 현침문이나 험악한 인상을 주는 미간 주름은 보톡스나 필러 같은 현대 의학적 시술의 도움을 받는 것도 훌륭한 개운법입니다. 미간이 펴져 표정이 온화해지면 상대방의 경계심이 허물어져 대인관계와 비즈니스 협상에서 훨씬 유리한 위치를 점하게 됩니다.</li>
+  <li><strong>모니터·스마트폰 볼 때 표정 점검:</strong> 현대인들이 미간을 가장 많이 찌푸리는 순간은 업무 중 화면을 응시할 때입니다. 책상 앞에 작은 손거울을 두고, 자신이 미간을 찌푸리고 있을 때마다 의식적으로 숨을 깊이 들이마시며 미소를 지어보세요. 이 작은 습관 하나가 당신의 10년 뒤 운명을 바꿉니다.</li>
+</ol>
+</section>
+    `,
+    contentEn: `
+<section>
+<p>When you meet someone face-to-face, your eyes naturally gravitate toward the space directly between their eyebrows. In traditional Korean face reading (Gwansang), this crucial anatomical point is known as the <strong>'Mingung (命宮, Palace of Destiny)'</strong> or <strong>'Indang (印堂)'</strong>. Honored as the paramount palace among the Twelve Facial Palaces, the Mingung serves as a direct window into an individual's intellectual capacity, foresight, and underlying <strong>decision-making habits</strong>.</p>
+<p>Just as we instinctively furrow our brows when grappling with complex dilemmas, the glabella is a real-time monitor reflecting psychological stress, focus, and neurological activity. Whether your brow gap is broad or cramped, what kinds of vertical or horizontal lines have taken root there, and whether your skin radiates a clear glow or dull shadow reveals how you approach problems, execute strategies, and handle career crises. Let us explore the profound secrets of the Mingung and examine how your cognitive habits sculpt your personal destiny.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/face-reading/forehead-wrinkles" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Forehead Lines Gwansang: Position, Longevity, and Character</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/face-reading/eyebrow-reading" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Eyebrow Face Reading: Leadership, Temperament, and Social Luck</a></li>
+  </ul>
+</div>
+
+<h2 id="meaning-of-mingung">1. The Essence of Mingung: The Paramount Gateway of Destiny</h2>
+<p>In the classical physiognomic treatise <em>Ma'i Xiangfa</em>, the Mingung is venerated as the cosmic gateway where all fortune gathers, consolidates, and disperses. Energetically, it acts as a critical conduit bridging the upper face (symbolizing inherited blessings, early parental mentorship, and spiritual ideals) and the nose (the central pillar representing midlife career execution and wealth accumulation). If this vital pathway is narrowed, scar-marred, or tightly constricted by habitual frowns, the smooth transmission of vitality throughout one's life is severely impeded.</p>
+<p>From the perspective of modern neuroscience and behavioral psychology, the area between the eyebrows directly corresponds to the prefrontal cortex—the brain region governing executive functions, long-term planning, emotional regulation, and risk assessment. When an individual suffers from chronic anxiety, stubborn obsession, or explosive frustration, the corrugator supercilii and procerus muscles repeatedly tighten, permanently etching deep furrows into the skin. Conversely, those endowed with emotional equilibrium, spacious vision, and cognitive flexibility maintain a smooth, radiant, and open Mingung. Thus, the glabella is not merely an immutable genetic fixture; it is an evolving physical resume of how you process reality.</p>
+
+<h2 id="glabella-width">2. Glabella Width: Decision-Making Styles and Operational Habits</h2>
+<p>To accurately assess the width of the Mingung in Korean face reading, place your own index and middle fingers flat against the space between the heads of your eyebrows. This relative measurement provides the diagnostic baseline for your cognitive architecture.</p>
+
+<h3>Standard Glabella Width (1.5 to 2 Finger Widths): Balanced Pragmatism</h3>
+<p>Individuals possessing a standard eyebrow gap demonstrate exceptional harmony between emotional intuition and cold logic. They assess unfolding circumstances with remarkable objectivity, grasping the overarching strategic vision without sacrificing tactical precision. In institutional hierarchies, they thrive as master planners, mediators, and directors. When crises erupt, they avoid extreme, reactionary panic, preferring step-by-step resolution that earns enduring respect from both superiors and subordinates.</p>
+
+<h3>Wide Glabella (Exceeding 2 Finger Widths): Macro Vision and Optimistic Decisiveness</h3>
+<p>A broad space between the eyebrows indicates an expansive, magnanimous temperament. These individuals harbor little petty resentment, quickly brushing off minor insults and setbacks. Endowed with natural curiosity, they readily embrace avant-garde paradigms, unconventional business models, and multicultural perspectives, making them brilliant entrepreneurs, creative directors, and high-stakes diplomats.</p>
+<p>However, if the gap is excessively wide (approaching three finger widths), optimism may degenerate into dangerous carelessness. Such people often overlook critical clauses in legal agreements, neglect rigorous financial auditing, or place unearned trust in dubious associates. To prevent catastrophic oversights, individuals with broad glabellas must partner with meticulous, detail-oriented operators who enforce institutional discipline.</p>
+
+<h3>Narrow Glabella (Under 1.5 Finger Widths): Micro-Analytical Perfectionism</h3>
+<p>When the eyebrows press closely together, it signifies razor-sharp concentration, forensic skepticism, and an unrelenting obsession with precision. People with narrow glabellas possess an uncanny knack for uncovering subtle discrepancies, software bugs, and budgetary anomalies that elude ordinary observers. They reach pinnacle performance in specialized arenas demanding zero tolerance for error, such as forensic accounting, clinical pathology, computational engineering, and contract law.</p>
+<p>The shadow side of this acute focus is analytical paralysis and pervasive distrust. Fixating intensely on trivial imperfections, they frequently lose sight of macro strategic trajectories and find it nearly impossible to delegate authority. Harboring profound inner tension, they are prone to severe burnout and interpersonal frictions. Cultivating the courage to execute decisions when data is "merely good enough" is their supreme developmental milestone.</p>
+
+<div style="overflow-x: auto; margin: 25px 0;">
+  <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 14px; border: 1px solid rgba(255,255,255,0.15);">
+    <thead>
+      <tr style="background: rgba(200,134,10,0.18); color: #F5D77E; border-bottom: 2px solid rgba(200,134,10,0.4);">
+        <th style="padding: 10px 14px;">Glabella Profile</th>
+        <th style="padding: 10px 14px;">Measured Width</th>
+        <th style="padding: 10px 14px;">Primary Decision Style</th>
+        <th style="padding: 10px 14px;">Ideal Vocations</th>
+        <th style="padding: 10px 14px;">Strategic Blindspots</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
+        <td style="padding: 10px 14px; font-weight: bold; color: #f9d976;">Wide Brow Gap</td>
+        <td style="padding: 10px 14px;">&gt; 2 Fingers</td>
+        <td style="padding: 10px 14px;">Macro, intuitive, rapid adoption</td>
+        <td style="padding: 10px 14px;">Founder, Venture Capital, Marketing, Arts</td>
+        <td style="padding: 10px 14px;">Lacks audit diligence, overly trusting</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.02);">
+        <td style="padding: 10px 14px; font-weight: bold; color: #f9d976;">Standard Gap</td>
+        <td style="padding: 10px 14px;">1.5 - 2 Fingers</td>
+        <td style="padding: 10px 14px;">Balanced, pragmatic, measured pace</td>
+        <td style="padding: 10px 14px;">Operations Director, Strategy, HR</td>
+        <td style="padding: 10px 14px;">Risk aversion, potential complacency</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px 14px; font-weight: bold; color: #f9d976;">Narrow Brow Gap</td>
+        <td style="padding: 10px 14px;">&lt; 1.5 Fingers</td>
+        <td style="padding: 10px 14px;">Micro-analytic, hyper-skeptical, rigorous</td>
+        <td style="padding: 10px 14px;">Audit, Legal, Core R&amp;D, Coding, Surgery</td>
+        <td style="padding: 10px 14px;">Analysis paralysis, isolation, chronic stress</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en/gwansang-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">📸 Check Your Glabella (Mingung) and Career Signals with AI Face Reading →</a>
+</div>
+
+<h2 id="glabella-wrinkles">3. Glabella Wrinkles: The Etched Topography of Mental Struggles</h2>
+<p>The furrows embedded between your brows are physical fossil records of involuntary cognitive tension. In classical Gwansang, the architecture and symmetry of these lines disclose how a person confronts adversity and executes resolutions under pressure.</p>
+
+<h3>The Suspended Needle Line (Hyeonchim-mun, 懸針紋)</h3>
+<p>The Suspended Needle is a solitary, starkly vertical furrow slicing straight down the exact center of the glabella, resembling an inverted hanging needle. This striking feature denotes monumental willpower, single-minded focus, and an indomitable fighting spirit. Self-made entrepreneurs, pioneering scientists, and elite military strategists often bear this mark, having built empires through sheer solitary grit without inheriting ancestral fortune.</p>
+<p>Nonetheless, physiognomic lore cautions that the Suspended Needle acts like a psychic blade, cutting down opponents and allies alike. Possessors of this line frequently display autocratic tendencies, finding it nearly impossible to compromise or offer unconditional forgiveness. Consequently, they risk alienation in marital unions and corporate partnerships. Energetically, it warns of severe autonomic nervous tension, migraine vulnerability, and cardiovascular strain, underscoring the urgent necessity of mental softening.</p>
+
+<h3>Double Vertical Lines (Ssangsu-mun, 雙竪紋)</h3>
+<p>Two parallel vertical creases flanking the inner boundaries of the eyebrows denote the pragmatic corporate operator. These individuals exhibit sharp discernment, distinct boundaries, and swift commercial calculation. They excel at guarding corporate assets, negotiating contracts, and identifying logistical vulnerabilities.</p>
+<p>Yet, when their calculations become overly blatant, they risk being perceived as ruthless opportunists devoid of genuine warmth. Cultivating sincere benevolence without an immediate return on investment is their essential spiritual counterbalance.</p>
+
+<h3>The Triple Furrow / River Character (Chuan-mun, 川字紋)</h3>
+<p>A triplet of deeply inscribed vertical furrows mimicking the Chinese character for 'River (川)' illustrates a biography punctuated by relentless early trials and overwhelming burdens. Bearers of this mark have spent decades bearing family or organizational survival squarely upon their own shoulders. While their perseverance is titanic, their souls are chronically taxed by hyper-vigilance. Learning to distribute authority and surrender control is paramount for their longevity.</p>
+
+<h3>Horizontal Glabella Creases</h3>
+<p>Horizontal wrinkles cutting crosswise through the Mingung are relatively rare and signify turbulent mid-career shifts, particularly around ages 38 to 43. They indicate sudden career pivots, geographic dislocations, or domestic disruptions that demand meticulous foresight and conservative financial maneuvering.</p>
+
+<h2 id="glabella-color">4. Glabella Skin Tone and Complexion: Real-Time Barometers of Luck</h2>
+<p>While structural bone width and established wrinkles delineate your foundational cognitive blueprint, the instantaneous <strong>complexion (Gisaek, 氣色)</strong> radiating from your Mingung serves as a live satellite forecast of your current fortunes.</p>
+<ul>
+  <li><strong>Luminous Golden or Rosy Sheen:</strong> The pinnacle omen of auspicious momentum. It indicates peak cognitive clarity, robust neurological balance, and imminent breakthroughs in promotions, state examinations, and strategic acquisitions. Decisive action should be taken without hesitation.</li>
+  <li><strong>Dull, Shadowy Blue-Black or Ashy Tone:</strong> A grave signal that your spiritual and physical batteries are critically depleted. It warns of clouded discernment, impending legal entanglements, deception by predatory associates, or sudden financial evaporation. Signatures on major contracts and risky investments must be delayed immediately until profound recuperation restores the light.</li>
+  <li><strong>Erythematous Flush or Inflammatory Breakouts:</strong> Intense redness or sudden pustules on the Mingung reveal raging internal heat and simmering fury. You are operating under toxic emotional impulses, creating severe hazards of explosive workplace disputes or vehicular recklessness. Absolute silence and emotional containment are mandated.</li>
+</ul>
+
+<h2 id="decision-habits-and-gaeun">5. Cognitive Recalibration and Gae-un: Opening the Brow to Unlock Fortune</h2>
+<p>The ancient Korean maxim, <em>"Frown with your brow, and fortune flees your doorstep,"</em> aligns seamlessly with modern psychoneuroimmunology. Contracting your glabella triggers the amygdala's threat-detection circuitry, locking your cognition into rigid, defensive survival patterns that guarantee poor strategic choices. Employ these four transformative remedial practices (Gae-un) to brighten your Mingung:</p>
+<ol>
+  <li><strong>Depilate the Unibrow Intrusion (Yeonmi, 連眉):</strong> When unruly eyebrow hairs bridge across the center of your forehead, classical Gwansang warns that the gateway of destiny is suffocated, precipitating chronic frustration and sibling rivalry. Gently pluck or shave the stray hairs to establish an unobstructed gap of at least two fingers. This simple grooming habit immediately clarifies your aura and invites social patronage.</li>
+  <li><strong>Morning Brow Relaxation Massage:</strong> Each morning upon awakening, apply gentle pressure with your index fingers to the midpoint between your brows, sweeping outward toward your temples ten times. This releases chronic hypertonicity in the procerus muscles, alleviates tension headaches, and promotes radiant microcirculation.</li>
+  <li><strong>Judicious Aesthetic Smoothing:</strong> If excessively ferocious frown lines or deep needle furrows cast an intimidating, antagonistic aura that sabotages business meetings, utilizing conservative modern cosmetic interventions (such as targeted neuromodulators or light fillers) is an auspicious tactical move. Softening the facial topography alleviates subconscious hostility from conversation partners, creating warmer interpersonal rapport.</li>
+  <li><strong>Workplace Mirror Feedback:</strong> Modern professionals furrow their brows most intensely when staring into laptop displays and smartphones. Mount a miniature mirror beside your computer screen. Whenever you catch yourself scowling at code or spreadsheets, take a slow abdominal breath, drop your shoulders, and smile faintly. This micro-reset actively repatterns your neural pathways, elevating your long-term life trajectory.</li>
+</ol>
+</section>
+    `,
+    toc: [
+      { id: 'meaning-of-mingung', title: '1. 명궁(인당)의 관상학적 본질' },
+      { id: 'glabella-width', title: '2. 미간 넓이로 보는 의사결정 스타일' },
+      { id: 'glabella-wrinkles', title: '3. 미간 주름의 형태와 운명의 궤적' },
+      { id: 'glabella-color', title: '4. 미간의 기색과 색 변화 신호' },
+      { id: 'decision-habits-and-gaeun', title: '5. 판단 습관 교정과 명궁 개운법' },
+    ],
+    tocEn: [
+      { id: 'meaning-of-mingung', title: '1. The Essence of Mingung in Gwansang' },
+      { id: 'glabella-width', title: '2. Glabella Width and Decision Styles' },
+      { id: 'glabella-wrinkles', title: '3. Glabella Wrinkles and Mental Struggles' },
+      { id: 'glabella-color', title: '4. Glabella Skin Tone and Luck Signals' },
+      { id: 'decision-habits-and-gaeun', title: '5. Remedial Practices to Unlock Fortune' },
+    ],
+    faq: [
+      { q: '미간에 잔털이 많아 눈썹이 거의 이어지는데 제모를 꼭 해야 하나요?', a: '관상학에서는 양 눈썹이 연결되어 명궁을 침범하는 것을 연미(連眉)라 부르며, 생각이 복잡해지고 형제·동료 간의 불화나 진로 정체를 유발하는 대표적 방해 요소로 봅니다. 미간의 잔털을 깨끗이 정리해 손가락 2개 너비의 공간을 확보해주면 시야가 넓어지고 대인관계 운이 한결 부드럽게 풀립니다.' },
+      { q: '미간에 세로 주름(현침문)이 하나 깊게 패여 있으면 성격이 까다롭고 고독한가요?', a: '현침문은 고도의 집중력과 완벽주의, 불굴의 의지력을 지닌 자수성가형 인물에게 자주 나타납니다. 다만 자신의 엄격한 원칙을 타인에게 강요할 때 고립되기 쉬운 것도 사실입니다. 평소 의식적으로 미간을 펴고 포용력을 발휘하면 전문성을 살리면서 원만한 대인관계를 유지할 수 있습니다.' },
+      { q: '미간에 점이나 흉터가 있으면 직업운에 악영향을 주나요?', a: '명궁은 직업적 진로와 시험운, 승진운을 비추는 거울이므로 눈에 띄는 흉터나 어두운 점은 결정적인 순간에 오판이나 장애물을 겪을 수 있음을 암시합니다. 맑고 깨끗할수록 운이 순조롭게 흐르므로, 짙은 점이나 흉터는 피부과 치료나 메이크업으로 가려주는 것이 관상학적으로 권장되는 개운법입니다.' },
+    ],
+    faqEn: [
+      { q: 'Should I pluck or shave hairs between my brows if my eyebrows almost connect?', a: 'Yes. In physiognomy, a unibrow that encroaches upon the Mingung is called Yeonmi (連眉). It symbolizes clouded judgment, interpersonal friction, and stalled career opportunities. Removing these stray hairs to secure a clean gap of approximately two fingers clears mental congestion and invites smoother relational fortune.' },
+      { q: 'Does a deep single vertical furrow (Suspended Needle) mean I am destined for loneliness?', a: 'The Suspended Needle reflects supreme willpower, acute focus, and self-made success. However, its uncompromising rigidity can alienate partners and colleagues if left unchecked. By actively practicing tolerance, delegating tasks, and maintaining an open facial expression, you can enjoy tremendous professional prestige without suffering personal isolation.' },
+      { q: 'Do scars or dark moles on the glabella negatively impact career fortune?', a: 'Because the Mingung reflects promotion prospects, examination luck, and pivotal decision moments, prominent scars or dark blemishes can symbolize unforeseen obstacles or errors in judgment. Keeping the glabella clean, smooth, and unobstructed through dermatological care or light concealer is an effective and highly recommended physiognomic remedy.' },
+    ],
+    relatedPosts: [
+      { slug: 'forehead-wrinkles', category: 'face-reading', title: '이마 주름 관상: 주름 위치로 보는 성격과 일 처리 습관' },
+      { slug: 'eyebrow-reading', category: 'face-reading', title: '눈썹 관상 가이드: 형태와 숱으로 읽는 리더십과 인복' },
+    ],
+  },
 ], '2026-01-08', 4, '2026-02-12', 1);

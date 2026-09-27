@@ -73,27 +73,13 @@ Updated At: 2026-05-31 KST
 | 51 | 인중 관상 — 길이와 깊이로 보는 관계 책임감 | `philtrum-reading` |
 | 52 | 이마 주름 관상 — 주름 위치로 보는 성격과 일 처리 습관 | `forehead-wrinkles` |
 | 53 | 눈 밑 자녀궁 관상 — 와잠으로 보는 체력과 관계 피로 | `under-eye-reading` |
+| 54 | 명궁 관상 — 미간 넓이와 주름으로 보는 판단 습관 | `between-eyebrows` |
 
 ---
 
 ## 현재 작성 대상
 
-[완료] 53. 눈 밑 자녀궁 관상 — 와잠으로 보는 체력과 관계 피로
-- slug: `under-eye-reading`
-- 카테고리: `face-reading`
-- 작성 파일: `lib/blog/gwansang-posts.ts`
-- 메인 키워드 KO: 눈 밑 자녀궁 관상, 와잠 관상
-- 메인 키워드 EN: under eye face reading gwansang, under eye fortune korean
-- 하위 키워드 KO: 눈 밑 다크서클 관상, 눈 밑 자녀운, 눈 밑 애정운, 눈 밑 살 관상
-- 하위 키워드 EN: dark circles gwansang, under eye children luck, eye bags fortune korean
-- 작성 지침: eye-reading(눈 전체)·mouth-lips(입술 애정운)와 다름. 눈 밑 자녀궁, 와잠의 살집·꺼짐·그늘을 중심으로 체력 저하와 관계 피로 신호를 다루되 의학 단정 금지.
-- 완료 파일: `lib/blog/gwansang-posts.ts`
-
----
-
-## 다음 작성 예정 상세
-
-[ ] 54. 명궁 관상 — 미간 넓이와 주름으로 보는 판단 습관
+[완료] 54. 명궁 관상 — 미간 넓이와 주름으로 보는 판단 습관
 - slug: `between-eyebrows`
 - 카테고리: `face-reading`
 - 작성 파일: `lib/blog/gwansang-posts.ts`
@@ -102,6 +88,21 @@ Updated At: 2026-05-31 KST
 - 하위 키워드 KO: 미간 넓으면 관상, 미간 좁으면 관상, 미간 주름, 미간 직업운
 - 하위 키워드 EN: wide glabella fortune gwansang, narrow eyebrows fate, brow gap reading
 - 작성 지침: eyebrow-reading(눈썹)과 다름. 명궁으로 보는 미간 넓이, 주름, 주변색으로 판단 습관과 일 처리 방식 중심으로 분석.
+- 완료 파일: `lib/blog/gwansang-posts.ts`
+
+---
+
+## 다음 작성 예정 상세
+
+[ ] 55. 볼살 관상 — 협골 주변 살집으로 보는 친화력과 소비 성향
+- slug: `cheek-reading`
+- 카테고리: `face-reading`
+- 작성 파일: `lib/blog/gwansang-posts.ts`
+- 메인 키워드 KO: 볼살 관상, 협골 살집 관상
+- 메인 키워드 EN: cheek face reading gwansang, cheek fullness fortune korean
+- 하위 키워드 KO: 볼 살 많으면 관상, 볼 살 없으면 관상, 볼 재물운, 볼 살 성격
+- 하위 키워드 EN: full cheeks gwansang, hollow cheeks fortune, cheek luck korean face reading
+- 작성 지침: cheekbone-reading(광대뼈)·wealth-face(재물 관상 총론)와 다름. 협골 주변 볼살의 탄력·처짐·꺼짐을 중심으로 친화력, 소비 성향, 정서 안정감을 분석.
 
 ---
 
