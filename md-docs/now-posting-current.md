@@ -76,6 +76,7 @@ Updated At: 2026-05-31 KST
 | 54 | 명궁 관상 — 미간 넓이와 주름으로 보는 판단 습관 | `between-eyebrows` |
 | 64 | 2026 MBTI 운세표 — 병오년 16유형별 주의 키워드 | `mbti-fortune-2026` |
 | 65 | INFP 사주 — 감수성과 편인 기운으로 보는 2026 흐름 | `infp-saju` |
+| 77 | 감정선 시작점과 끊김 — 연애 패턴 손금 해석 | `heart-line-palmistry` |
 
 ---
 
@@ -132,7 +133,6 @@ Updated At: 2026-05-31 KST
 | 74 | mbti | `mbti-workplace` | MBTI 직장 궁합 — 상사·부하 조합과 협업 전략 |
 | 75 | mbti | `mbti-stress-fortune` | MBTI 번아웃 회복 루틴 — 오행으로 맞추는 유형별 스트레스 관리 |
 | 76 | bokhap | `gunghap-2026` | 2026 일주 궁합표 — 병오년에 충·합이 강한 커플 조합 |
-| 77 | bokhap | `heart-line-palmistry` | 감정선 손금 해석 — 시작점과 끊김으로 보는 연애 패턴 |
 | 78 | bokhap | `zodiac-gunghap-2026` | 2026 띠별 궁합표 — 병오년에 충·합이 강한 12띠 조합 |
 | 79 | bokhap | `life-line-palmistry` | 생명선 손금 해석 — 길이보다 중요한 활력과 생활 리듬 |
 | 80 | bokhap | `coworker-compatibility` | 직장 동료 사주 궁합 — 협업이 잘 맞는 일주 조합 |

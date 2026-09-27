@@ -1,4 +1,4 @@
-﻿import { BlogPost } from './types';
+import { BlogPost } from './types';
 import { distributePublishedDates } from './date-utils';
 
 export const bokhapPosts: BlogPost[] = distributePublishedDates([
@@ -776,6 +776,271 @@ export const bokhapPosts: BlogPost[] = distributePublishedDates([
     relatedPosts: [
       { slug: 'friendship-compatibility', category: 'compatibility', title: '동성 친구 궁합: 내 인생의 귀인 찾기' },
       { slug: 'compatibility-table', category: 'mbti', title: 'MBTI별 찰떡궁합 사주 일주 매칭' },
+    ],
+  },
+  {
+    slug: 'heart-line-palmistry',
+    title: '감정선 손금 보는 법: 시작점과 끝점, 끊김으로 읽는 연애운과 애정 성향',
+    seoTitle: '손금 감정선 보는 법: 길이, 끊김, 갈라짐으로 해석하는 연애운과 성격',
+    seoTitleEn: 'Heart Line Palmistry: Reading Love Luck, Endpoints, and Emotional Habits',
+    description: '내 손바닥의 감정선은 어떤 사랑의 방식을 말해줄까요? 감정선의 시작점과 끝점 위치, 선의 길이와 깊이, 중간 끊김이나 섬 모양에 따른 연애 반응 패턴과 심리를 분석합니다.',
+    descriptionEn: 'Discover your romantic destiny through heart line palmistry. Learn how line length, endpoints, splits, and breaks reveal emotional temperaments and relationship patterns.',
+    keywords: ['손금 감정선', '감정선 손금', '감정선 보는법', '손금 연애운', '감정선 끊기면', '감정선 길면', '감정선 짧으면'],
+    keywordsEn: ['heart line palmistry', 'love line palm reading korean', 'heart line meaning palmistry', 'broken heart line', 'love line long short'],
+    publishedAt: '2026-06-08',
+    updatedAt: '2026-06-08',
+    category: 'bokhap',
+    contentKo: `
+<section>
+<p>사람의 손바닥에 새겨진 수많은 손금 중에서도 남녀노소를 불문하고 가장 뜨거운 관심을 받는 선은 단연 <strong>'감정선(感情線, Heart Line)'</strong>입니다. 관상학의 고전과 전통 수상학(手相學)에서 감정선은 인간의 감수성, 공감 능력, 심리적 회복 탄력성, 그리고 무엇보다 <strong>'타인과 사랑을 주고받는 애정 패턴'</strong>을 고스란히 담아내는 심장의 파동선으로 여겨집니다.</p>
+<p>흔히 "감정선이 길면 순정파이고, 짧으면 냉혈한이다"라는 식의 단순한 속설이 퍼져 있지만, 실제 손금 해석은 그렇게 단편적이지 않습니다. 감정선이 시작하는 새끼손가락 아래의 높낮이, 손가락 뿌리를 향해 뻗어가는 끝점의 위치, 선의 굵기와 끊어짐, 그리고 가지 친 잔선들의 형상에 따라 한 사람이 연애에서 상처를 처리하는 방식과 무의식적인 집착의 형태가 입체적으로 드러납니다. 내 손금의 감정선이 말해주는 사랑의 지도와 연애운을 상세히 풀어보겠습니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 함께 읽으면 좋은 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/compatibility/palmistry" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">손금 기초 완벽 정리: 관상과 함께 보는 생명선·두뇌선·감정선</a></li>
+    <li style="margin-bottom: 4px;"><a href="/compatibility/love-destiny" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">사랑의 운명: 사주 일주와 MBTI로 보는 나의 천생연분 찾기</a></li>
+  </ul>
+</div>
+
+<h2 id="meaning-of-heart-line">1. 감정선(感情線)의 본질: 심장의 파동과 애정 표현의 지도</h2>
+<p>감정선은 새끼손가락 바로 아래 수성구(水星丘) 부근의 손바닥 가장자리에서 출발하여, 검지와 중지 쪽을 향해 가로지르는 굵은 주름선입니다. 한의학과 동양 철학에서 손은 '장부의 기운이 뻗어 나오는 말초'로 간주되며, 감정선은 오장 중 심장(心臟, 군주지관이자 정신활동의 본산)의 혈맥 흐름과 직접적으로 감응합니다.</p>
+<p>따라서 감정선의 깊이와 맑기는 단순한 로맨틱 취향을 넘어 <strong>'스트레스 상황에서 감정을 조절하는 자생력'</strong>을 대변합니다. 선이 끊어짐 없이 매끄럽고 불그스름한 혈색을 띠면 정서가 안정되어 있고 타인의 감정에 공감하면서도 건강한 자아를 유지합니다. 반면 선이 지나치게 흐릿하거나 어지러운 잔선에 둘러싸여 있다면, 애정 결핍이나 감정 기복으로 인해 인간관계에서 쉽게 소진될 위험이 큽니다.</p>
+
+<h2 id="endpoints-and-length">2. 감정선 끝점의 위치와 길이: 당신의 연애 스타일은?</h2>
+<p>감정선 해석의 80%는 <strong>'선이 어디를 향해 끝나는가'</strong>에 달려 있습니다. 손가락 뿌리에 도달하는 종착점에 따라 사람의 사랑 방식은 완전히 달라집니다.</p>
+
+<h3>검지 아래(목성구)까지 길게 뻗은 감정선: 이상주의적 헌신형</h3>
+<p>감정선이 검지 손가락 뿌리 바로 아래까지 길게 치고 올라간 사람은 사랑에 대한 이상이 매우 높고 로맨틱한 순정파입니다. 한 번 마음을 주면 모든 것을 바쳐 상대방을 돌보며, 정신적인 교감과 도덕적 결백을 최우선으로 칩니다. 그러나 상대방을 지나치게 우상화하다가 사소한 결점에 환멸을 느끼거나, "내가 이만큼 희생했으니 너도 그만큼 줘야 해"라는 보상 심리에 갇히기 쉽습니다.</p>
+
+<h3>검지와 중지 사이로 완만하게 파고드는 감정선: 성숙한 균형형 (최고의 길상)</h3>
+<p>감정선이 중지와 검지 손가락 사이의 계곡으로 부드러운 곡선을 그리며 들어가는 모양은 수상학에서 가장 이상적인 감정선으로 꼽힙니다. 감정과 이성의 밸런스가 뛰어나 상대를 배려하면서도 자신만의 건강한 자존감을 잃지 않습니다. 불필요한 감정 소모나 집착 없이 평화롭고 지속 가능한 결혼 생활을 영위하는 전형적인 현모양처, 자상한 남편의 손금입니다.</p>
+
+<h3>중지 아래(토성구)에서 멈추는 짧은 감정선: 현실주의적 실리파</h3>
+<p>감정선의 길이가 중지 손가락 중심을 넘지 못하고 멈추는 사람은 매우 냉철하고 이성적인 성향을 보입니다. 첫눈에 반하는 불타는 연애보다는 상대방의 경제력, 사회적 위치, 현실적인 궁합을 철저하게 따져본 후 신중하게 관계를 시작합니다. 낭만은 다소 부족할 수 있으나 실속이 있어 경제적인 파탄을 겪을 확률이 낮습니다. 다만 감정 표현에 인색하여 상대방에게 "나를 진짜 사랑하기는 해?"라는 서운함을 살 수 있습니다.</p>
+
+<h3>두뇌선 쪽으로 급격히 처져 내려앉는 감정선: 상처의 트라우마와 비관주의</h3>
+<p>감정선 끝이 위로 솟지 못하고 아래쪽 두뇌선이나 생명선 방향으로 꺾여 내려오는 손금은 과거의 배신이나 이별로 인해 깊은 마음의 상처를 안고 있음을 암시합니다. 연애를 시작하기도 전에 "어차피 끝은 안 좋을 거야"라는 방어기제가 작동하여 스스로 관계를 밀어내기 쉽습니다.</p>
+
+<div style="overflow-x: auto; margin: 25px 0;">
+  <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 14px; border: 1px solid rgba(255,255,255,0.15);">
+    <thead>
+      <tr style="background: rgba(200,134,10,0.18); color: #F5D77E; border-bottom: 2px solid rgba(200,134,10,0.4);">
+        <th style="padding: 10px 14px;">끝점 유형</th>
+        <th style="padding: 10px 14px;">도달 위치</th>
+        <th style="padding: 10px 14px;">대표 애정 성향</th>
+        <th style="padding: 10px 14px;">연애 강점</th>
+        <th style="padding: 10px 14px;">주의해야 할 결핍</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
+        <td style="padding: 10px 14px; font-weight: bold; color: #f9d976;">목성구형 (긴 선)</td>
+        <td style="padding: 10px 14px;">검지 손가락 뿌리</td>
+        <td style="padding: 10px 14px;">이상주의, 헌신적 순정</td>
+        <td style="padding: 10px 14px;">깊은 유대감, 이타적 사랑</td>
+        <td style="padding: 10px 14px;">과도한 기대, 배신감의 늪</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.02);">
+        <td style="padding: 10px 14px; font-weight: bold; color: #f9d976;">간극 안착형 (균형 선)</td>
+        <td style="padding: 10px 14px;">검지와 중지 사이</td>
+        <td style="padding: 10px 14px;">성숙한 조화, 안정된 애착</td>
+        <td style="padding: 10px 14px;">갈등 해결력, 지속력</td>
+        <td style="padding: 10px 14px;">특별한 단점 없음 (길상)</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
+        <td style="padding: 10px 14px; font-weight: bold; color: #f9d976;">토성구형 (짧은 선)</td>
+        <td style="padding: 10px 14px;">중지 손가락 아래</td>
+        <td style="padding: 10px 14px;">현실주의, 자기 통제</td>
+        <td style="padding: 10px 14px;">실리적 선택, 감정 낭비 방지</td>
+        <td style="padding: 10px 14px;">무미건조, 냉담함 오해</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px 14px; font-weight: bold; color: #f9d976;">하향 굴곡형</td>
+        <td style="padding: 10px 14px;">두뇌선 쪽으로 하락</td>
+        <td style="padding: 10px 14px;">방어적 회피, 애착 불안</td>
+        <td style="padding: 10px 14px;">신중한 사람 선별</td>
+        <td style="padding: 10px 14px;">비관적 단정, 기회 차단</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/compatibility" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 AI 무료 궁합·손금 분석기로 나와 연인의 애정선 확인하기 →</a>
+</div>
+
+<h2 id="breaks-and-branches">3. 감정선 중간 끊김과 갈라짐: 이별 위기와 애정의 변곡점</h2>
+<p>감정선은 살아가면서 겪는 심리적 충격과 감정의 변화에 따라 중간에 끊기거나 독특한 특수 문양을 만들어냅니다.</p>
+
+<h3>감정선이 뚝 끊어진 형태: 애정의 단절과 이별수</h3>
+<p>선 중간이 완전히 단절되어 공백이 생겼다면, 인생의 특정 시기에 감당하기 힘든 실연의 고통, 이혼, 혹은 마음의 셔터를 닫아버릴 정도의 극심한 인간관계 배신을 겪을 수 있음을 암시합니다. 하지만 끊어진 뒤 다시 이어지는 선이 굵고 선명하다면, 그 아픔을 통해 한층 성숙한 자아를 확립하고 새로운 진정한 사랑을 찾게 됩니다.</p>
+
+<h3>위아래로 겹치며 끊어진 형태: 재회운과 이중적 감정</h3>
+<p>선이 완전히 끊어지지 않고, 위선과 아래선이 살짝 겹쳐져 있는 모양은 헤어졌던 연인과 다시 재회하거나, 마음을 완전히 정리하지 못한 채 미련을 안고 살아가는 시기가 있음을 뜻합니다. 충분한 대화와 오해 해소가 선행되어야 재결합 후에도 건강한 관계가 유지됩니다.</p>
+
+<h3>끝이 세 갈래(삼지창)로 갈라지는 형태: 만인의 연인, 인기 폭발선</h3>
+<p>감정선의 끝이 목성구 부근에서 마치 나뭇가지나 삼지창처럼 세 갈래로 시원하게 갈라지는 손금은 수상학에서 손꼽히는 <strong>'대인관계 대길상(大吉相)'</strong>입니다. 배려심과 유머 감각, 뛰어난 사회성을 두루 갖추어 이성은 물론 동성에게도 엄청난 인기를 누립니다. 연애운뿐 아니라 비즈니스 네트워크에서도 귀인의 조력을 끌어당기는 복을 누립니다.</p>
+
+<h3>사슬 모양과 섬(타원형) 표식: 우유부단과 삼각관계의 주의보</h3>
+<p>선이 매끄러운 단일 선이 아니라 쇠사슬처럼 얽혀 있거나 중간에 눈알 모양의 타원형(섬)이 나타난다면, 감정의 기복이 심하고 맺고 끊음이 불분명함을 나타냅니다. 거절을 잘하지 못해 원치 않는 어장관리에 휘말리거나, 삼각관계로 인해 속앓이를 할 수 있으니 분명한 자기 의사 표현이 요구됩니다.</p>
+
+<h2 id="left-vs-right-hand">4. 왼손 감정선 vs 오른손 감정선: 선천적 본심과 후천적 태도</h2>
+<p>손금을 볼 때 가장 흔히 묻는 질문이 "어느 손을 봐야 하나요?"입니다. 수상학의 황금률은 <strong>'양손을 대조하여 차이를 읽는 것'</strong>입니다.</p>
+<ul>
+  <li><strong>왼손 감정선 (선천적 무의식):</strong> 타고난 감수성, 부모로부터 물려받은 정서적 기질, 혼자 있을 때 느끼는 진솔한 감정 상태를 대변합니다.</li>
+  <li><strong>오른손 감정선 (후천적 현실):</strong> 사회생활과 다양한 연애 경험을 통해 후천적으로 다듬어진 의사소통 방식과 현재 상대방에게 보여주는 실제 태도입니다. (왼손잡이는 반대로 해석)</li>
+</ul>
+<p>만약 왼손 감정선은 짧고 직선적인데 오른손 감정선이 길고 부드럽게 휘어져 있다면, 본래는 냉철하고 개인주의적인 사람이지만 사회적 경험과 배려를 통해 따뜻하고 세심한 연애 상대로 스스로를 훌륭하게 단련했음을 의미합니다. 양손의 높이가 완벽하게 일치하는 사람은 감정 기복이 적고 신뢰할 수 있는 배우자감으로 평가받습니다.</p>
+
+<h2 id="emotional-gaeun">5. 상처받지 않는 관계를 위한 감정선 개운법</h2>
+<p>손금은 고정된 운명의 굴레가 아니라 뇌의 신경 가소성과 표정 습관, 손의 사용 방식에 따라 평생에 걸쳐 변화합니다. 거칠고 끊어진 감정선을 부드럽게 가꾸고 애정운을 높이는 실전 개운법 3가지를 소개합니다.</p>
+<ol>
+  <li><strong>수성구와 소지 아래 부드러운 마사지:</strong> 매일 밤 핸드크림을 바를 때 새끼손가락 아래쪽 감정선의 시작 부위를 엄지로 둥글게 원을 그리며 지압해 줍니다. 굳어 있던 손바닥 근육이 이완되면서 심장의 긴장이 풀리고 온화한 기운이 손끝까지 순환합니다.</li>
+  <li><strong>손가락 젖히기 스트레칭:</strong> 손바닥을 쫙 펴고 반대편 손으로 손가락들을 뒤로 가볍게 젖혀주면 감정선이 가로지르는 중심 부위가 시원하게 펴집니다. 이는 심리적인 옹졸함과 억압된 분노를 배출하는 데 탁월한 효과가 있습니다.</li>
+  <li><strong>'감정 일기'를 통한 객관화:</strong> 연인과의 갈등이 생겼을 때 즉각적으로 반응하거나 잠적하지 말고, 손으로 일기장에 내 감정을 정직하게 적어보세요. 손을 움직여 글을 쓰는 행위는 손바닥 신경을 자극하여 감정선 끝을 성숙한 검지(이성과 도덕) 방향으로 견인하는 놀라운 심리적 개운 효과를 냅니다.</li>
+</ol>
+</section>
+    `,
+    contentEn: `
+<section>
+<p>Among the intricate network of lines etched across the human palm, none commands more fascination, hope, and anxiety than the <strong>Heart Line (感情線, Love Line)</strong>. In classical palmistry (Sugeumhak), the Heart Line is revered as the neurological and energetic seismograph of human emotion. It charts your capacity for empathy, psychological resilience, and above all, <strong>the subconscious patterns that govern how you give and receive romantic love</strong>.</p>
+<p>While popular myths reduce this line to simplistic formulas—such as "long lines mean pure devotion, short lines mean cold detachment"—authentic palmistry offers a much richer, multi-dimensional diagnostic. By analyzing the elevation where the line originates beneath the pinky finger, the exact trajectory of its termination beneath the fingers, its continuity, and the emergence of microscopic branches, we unlock a profound psychological profile of how a person navigates emotional vulnerability, heartbreak, and intimacy.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📚 Related Articles</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/en/compatibility/palmistry" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Palmistry Basics: Life, Head, and Heart Lines via Gwansang</a></li>
+    <li style="margin-bottom: 4px;"><a href="/en/compatibility/love-destiny" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Love Destiny: Discovering Your Soulmate via Saju and MBTI</a></li>
+  </ul>
+</div>
+
+<h2 id="meaning-of-heart-line">1. The Essence of the Heart Line: Neurological Pulse and Love Mapping</h2>
+<p>The Heart Line begins on the percussion edge of the palm beneath the Mount of Mercury (below the little finger) and sweeps horizontally across the upper palm toward the Mounts of Saturn and Jupiter. In traditional Eastern medicine, the hand is regarded as the peripheral terminal of the internal viscera. Specifically, the Heart Line directly mirrors the cardiovascular and autonomic nervous equilibrium governed by the Heart (心, the sovereign organ governing spirit and emotional consciousness).</p>
+<p>Consequently, the clarity and hue of your Heart Line reflect your <strong>autonomic emotional self-regulation</strong>. A clear, unbroken, gently curved line with a warm, rosy undertone denotes an emotionally integrated individual who empathizes deeply with partners while maintaining healthy psychological boundaries. Conversely, an excessively faint, fragmented, or chaotic web of lines indicates attachment anxiety, chronic emotional exhaustion, and vulnerability to codependency.</p>
+
+<h2 id="endpoints-and-length">2. Endpoints and Length: Decoding Your Intimate Style</h2>
+<p>Approximately eighty percent of a Heart Line reading hinges upon <strong>its ultimate termination point</strong>. Where the line comes to rest reveals your core philosophy of love and emotional expectations.</p>
+
+<h3>Terminating on the Mount of Jupiter (Beneath the Index Finger): The Idealistic Devotee</h3>
+<p>When the Heart Line sweeps high and terminates directly beneath the index finger, it portrays an ardent romantic with towering standards of devotion. These individuals invest their entire soul into romance, cherishing spiritual intimacy, moral purity, and loyalty above all material concerns. However, their peril lies in severe romantic projection. Placing their lovers upon celestial pedestals, they suffer catastrophic disillusionment when mundane human flaws inevitably appear.</p>
+
+<h3>Curving Gracefully into the Fork Between Index and Middle Fingers: The Golden Equilibrium</h3>
+<p>Ending in the gentle valley between the index and middle fingers represents the classical pinnacle of relational fortune. This configuration denotes an emotionally mature pragmatist. They balance passionate affection with grounded self-respect, offering deep generosity without enabling toxic behaviors. Free from obsessive jealousy and emotional volatility, they are the most dependable, enduring marriage partners in the human family.</p>
+
+<h3>Terminating Beneath the Middle Finger (Mount of Saturn): The Pragmatic Realist</h3>
+<p>A shorter Heart Line that halts abruptly beneath the middle finger characterizes an analytical, self-contained disposition. Rather than being swept away by whirlwind infatuations, these individuals rigorously evaluate financial security, social compatibility, and pragmatic lifestyle alignment before entering commitment. While they protect themselves from reckless financial ruin, they frequently appear aloof or emotionally parsimonious, prompting partners to feel uncherished.</p>
+
+<h3>Drooping Steeply Downward Toward the Head Line: The Scarred Skeptic</h3>
+<p>A Heart Line that bends sharply downward to touch or intersect the Head Line reveals unhealed relational trauma. Having endured devastating betrayals or early family neglect, they deploy defensive cynicism as armor, instinctively sabotaging budding romances before intimacy can threaten their psychic safety.</p>
+
+<div style="overflow-x: auto; margin: 25px 0;">
+  <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 14px; border: 1px solid rgba(255,255,255,0.15);">
+    <thead>
+      <tr style="background: rgba(200,134,10,0.18); color: #F5D77E; border-bottom: 2px solid rgba(200,134,10,0.4);">
+        <th style="padding: 10px 14px;">Termination Profile</th>
+        <th style="padding: 10px 14px;">Geographic Endpoint</th>
+        <th style="padding: 10px 14px;">Core Romantic Archetype</th>
+        <th style="padding: 10px 14px;">Relational Strength</th>
+        <th style="padding: 10px 14px;">Vulnerability</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
+        <td style="padding: 10px 14px; font-weight: bold; color: #f9d976;">Jupiterian Reach</td>
+        <td style="padding: 10px 14px;">Base of Index Finger</td>
+        <td style="padding: 10px 14px;">Idealistic, All-In Devotion</td>
+        <td style="padding: 10px 14px;">Profound loyalty, deep romance</td>
+        <td style="padding: 10px 14px;">Idolization, bitter disillusionment</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.02);">
+        <td style="padding: 10px 14px; font-weight: bold; color: #f9d976;">Interdigital Valley</td>
+        <td style="padding: 10px 14px;">Between Index &amp; Middle</td>
+        <td style="padding: 10px 14px;">Balanced, Secure Attachment</td>
+        <td style="padding: 10px 14px;">Conflict resolution, marital peace</td>
+        <td style="padding: 10px 14px;">None (Most auspicious configuration)</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
+        <td style="padding: 10px 14px; font-weight: bold; color: #f9d976;">Saturnian Truncation</td>
+        <td style="padding: 10px 14px;">Beneath Middle Finger</td>
+        <td style="padding: 10px 14px;">Pragmatic, Self-Preserving</td>
+        <td style="padding: 10px 14px;">Financial realism, clear boundaries</td>
+        <td style="padding: 10px 14px;">Emotional frugality, apparent chill</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px 14px; font-weight: bold; color: #f9d976;">Descending Arc</td>
+        <td style="padding: 10px 14px;">Bending Toward Head Line</td>
+        <td style="padding: 10px 14px;">Defensive, Trauma-Guarded</td>
+        <td style="padding: 10px 14px;">Careful partner vetting</td>
+        <td style="padding: 10px 14px;">Premature avoidance, fatalism</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en/compatibility" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">🔮 Check Your Love Compatibility and Palm Signals with AI →</a>
+</div>
+
+<h2 id="breaks-and-branches">3. Breaks, Splits, and Islands: Crises and Metamorphosis</h2>
+<p>As you navigate life, profound emotional shifts sculpt visible markings directly into the bed of your Heart Line.</p>
+
+<h3>A Clean, Stark Break: Shock and Emotional Severance</h3>
+<p>A distinct, empty gap splitting the Heart Line indicates a pivotal epoch of acute heartbreak, sudden divorce, or devastating emotional trauma that forced an involuntary shutdown of your feeling nature. However, if the line resumes strongly after the break, it indicates that this agony catalyzed profound psychological individuation, preparing you for authentic, lasting love.</p>
+
+<h3>Overlapping Fractures: Reunions and Lingering Ties</h3>
+<p>When the severed segments overlap side-by-side, it signifies lingering romantic ties, on-again-off-again relationships, or profound difficulty cleanly detaching from former partners. Resolving unresolved grief is mandatory before a harmonious new union can solidify.</p>
+
+<h3>The Trident Fork (Three Branches): Universal Charm and Social Magnetism</h3>
+<p>A Heart Line that splinters into a lush, tripartite trident beneath the Mount of Jupiter is celebrated across world palmistry traditions. It endows its bearer with charisma, infectious warmth, emotional intelligence, and universal popularity. Such individuals attract romantic suitors and powerful benefactors wherever they step.</p>
+
+<h3>Chained Lines and Island Formations: Indecision and Romantic Entanglements</h3>
+<p>A braided, chain-like texture or oval "islands" embedded along the line point to pervasive hypersensitivity, chronic anxiety, and boundary confusion. Possessors struggle to say "no," frequently drifting into ambiguous situations or painful love triangles due to an inability to tolerate confrontation.</p>
+
+<h2 id="left-vs-right-hand">4. Left Palm vs. Right Palm: Innate Nature vs. Lived Experience</h2>
+<p>Novices often ask which hand dictates fate. In master palmistry, <strong>destiny is decoded through the contrast between both hands</strong>:</p>
+<ul>
+  <li><strong>The Left Palm (Innate Blueprint):</strong> Represents inherited emotional predispositions, maternal lineage influences, and private interior feelings experienced in solitary moments.</li>
+  <li><strong>The Right Palm (Acquired Reality):</strong> Represents conscious behavioral habits, adaptations formed through worldly experience, and how you actually conduct real-world relationships. (Inverted for dominant left-handers.)</li>
+</ul>
+<p>If your left Heart Line is short and defensive, but your right Heart Line is long and gracefully curved, you have consciously transcended childhood insecurities to forge a generous, empathetic relational capacity. When the elevation of both lines matches perfectly upon bringing the palms together, it symbolizes emotional symmetry and exceptional marital stability.</p>
+
+<h2 id="emotional-gaeun">5. Remedial Palmistry: Cultivating a Healthier Heart Line</h2>
+<p>The flexure lines of the palm are living neurological reflections of neuroplasticity. By adopting conscious somatic rituals, you can actively clarify your Heart Line and harmonize romantic fortune:</p>
+<ol>
+  <li><strong>Mercury Mount Massage:</strong> Every evening while applying moisturizing cream, use your thumb to massage the outer edge of your palm just beneath the pinky finger in gentle circles. This dispels somatic tension from the heart meridian and promotes tranquil autonomic circulation.</li>
+  <li><strong>Tendon Release Stretch:</strong> Gently draw your fingers backward with the opposite hand, fully opening the palm. This simple physical action releases chronic constriction across the heart line, releasing suppressed resentment and expanding emotional receptivity.</li>
+  <li><strong>Handwritten Emotional Journaling:</strong> When romantic conflicts trigger overwhelming distress, bypass impulsive text messaging. Write your raw feelings by hand in a notebook. The tactile neuromuscular act of handwriting grounds emotional turbulence, guiding the energetic current of the Heart Line toward the discerning index finger of reason.</li>
+</ol>
+</section>
+    `,
+    toc: [
+      { id: 'meaning-of-heart-line', title: '1. 감정선의 본질과 심장의 파동' },
+      { id: 'endpoints-and-length', title: '2. 감정선 끝점의 위치와 연애 스타일' },
+      { id: 'breaks-and-branches', title: '3. 감정선 끊김과 갈라짐의 의미' },
+      { id: 'left-vs-right-hand', title: '4. 왼손 vs 오른손 감정선 대조 분석' },
+      { id: 'emotional-gaeun', title: '5. 애정운을 높이는 감정선 개운법' },
+    ],
+    tocEn: [
+      { id: 'meaning-of-heart-line', title: '1. The Essence of the Heart Line' },
+      { id: 'endpoints-and-length', title: '2. Endpoints and Length: Intimate Styles' },
+      { id: 'breaks-and-branches', title: '3. Breaks, Splits, and Islands' },
+      { id: 'left-vs-right-hand', title: '4. Left Palm vs. Right Palm Contrast' },
+      { id: 'emotional-gaeun', title: '5. Remedial Palmistry for Love Luck' },
+    ],
+    faq: [
+      { q: '감정선이 중간에 끊어져 있으면 무조건 이혼하거나 이별하나요?', a: '아닙니다. 감정선의 끊김은 인생의 특정 시기에 겪는 심리적 충격이나 연애관의 대전환을 의미할 뿐, 확정된 이혼이나 파국을 뜻하지 않습니다. 오히려 그 아픔을 통해 자신을 돌아보고 성숙한 소통 방식을 배운다면 후반부의 애정운은 훨씬 더 단단해질 수 있습니다.' },
+      { q: '감정선 끝이 두 갈래로 갈라지는 손금은 바람둥이인가요?', a: '오히려 그 반대입니다. 감정선 끝이 Y자나 두 갈래로 갈라지는 것은 이성과 감성을 두루 갖추고 상대방의 입장을 배려하는 공감 능력이 뛰어남을 나타냅니다. 사람들에게 인기가 많아 오해를 살 수는 있지만, 성숙한 인품을 지닌 길상으로 평가합니다.' },
+      { q: '손금을 자주 보면 손금 모양이 실제로 변하나요?', a: '네, 실제로 변합니다. 손금은 뇌 신경과 안면 및 손의 말초 근육이 지속적으로 작용하여 만들어지는 주름입니다. 긍정적인 마음가짐을 갖고 표정과 생활 습관을 바꾸면 수개월에서 수년 사이에 잔주름이 맑아지고 굵은 선의 끝부분이 상향으로 부드럽게 뻗어나가는 변화를 직접 관찰할 수 있습니다.' },
+    ],
+    faqEn: [
+      { q: 'Does a broken heart line guarantee divorce or a permanent breakup?', a: 'No. A break in the heart line signifies a pivotal period of emotional shock or a major re-evaluation of romantic ideals, not an inevitable divorce. Often, navigating this emotional milestone fosters immense maturity, enabling far healthier, resilient partnerships in later chapters.' },
+      { q: 'Does a forked heart line mean someone is unfaithful or fickle?', a: 'Quite the opposite. A heart line that divides into a gentle fork indicates high emotional intelligence, empathy, and the ability to balance passionate devotion with common sense. While such individuals are naturally popular and charming, they make extraordinarily considerate, loyal companions.' },
+      { q: 'Can my hand lines actually change over time as I age?', a: 'Yes. Palm lines are living somatic records linked to neurological habits and emotional states. Cultivating mindful self-awareness, resolving deep-seated stressors, and adopting healthier relationship patterns can visibly soften chaotic stress lines and extend primary line trajectories over months and years.' },
+    ],
+    relatedPosts: [
+      { slug: 'palmistry', category: 'bokhap', title: '손금 기초 완벽 정리: 생명선·두뇌선·감정선' },
+      { slug: 'love-destiny', category: 'bokhap', title: '사랑의 운명: 사주 일주와 MBTI로 찾는 천생연분' },
     ],
   },
 ], '2026-01-18', 6, '2026-02-18', 1);

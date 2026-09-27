@@ -736,7 +736,7 @@
 - 하위 키워드 EN: day branch compatibility 2026, fire horse year couple saju, iljoo match korean
 - 작성 지침: couple-saju(일반 이론), zodiac-gunghap-2026(띠 궁합)과 다름. 2026 병오 세운 기준 일지 충·합·형 중심으로 커플 일주 조합만 분석한다.
 
-[ ] 77. 감정선 시작점과 끊김 — 연애 패턴 손금 해석
+[완료] 77. 감정선 시작점과 끊김 — 연애 패턴 손금 해석
 - slug: `heart-line-palmistry`
 - 카테고리: `bokhap`
 - 메인 키워드 KO: 손금 감정선, 감정선 손금
