@@ -39,7 +39,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
 export default async function HomePage({ params: { locale } }: Props) {
   const totalPosts = sajuPosts.length + gwansangPosts.length + seongmyeongPosts.length + mbtiPosts.length + bokhapPosts.length;
   // Feature flags for A/B testing ad placements (Task 1.4)
-  const SHOW_HERO_TOP_AD = true; 
+  const SHOW_HERO_TOP_AD = false; 
   const SHOW_HERO_BOTTOM_AD = true;
   unstable_setRequestLocale(locale);
   const t = await getTranslations({ locale });
@@ -207,7 +207,7 @@ export default async function HomePage({ params: { locale } }: Props) {
 
       <div className="flex justify-center px-4">
         <div className="w-full max-w-5xl">
-          <AdSense slot="1234567890" format="horizontal" className="max-w-full" />
+          {SHOW_HERO_TOP_AD && <AdSense slot="1234567890" format="horizontal" className="max-w-full" />}
         </div>
       </div>
 
@@ -429,7 +429,7 @@ export default async function HomePage({ params: { locale } }: Props) {
 
         <div className="flex justify-center px-4">
           <div className="w-full max-w-5xl flex justify-center">
-            <AdSense slot="1122334455" format="rectangle" />
+            {SHOW_HERO_BOTTOM_AD && <AdSense slot="1122334455" format="rectangle" />}
           </div>
         </div>
 

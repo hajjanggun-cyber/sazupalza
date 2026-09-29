@@ -100,11 +100,11 @@ export default function AdSense({ slot, format = 'auto', className = '' }: AdSen
   return (
     <div 
       className={`w-full flex flex-col items-center py-4 ${className}`}
-      style={{ minHeight: isFilled ? 'auto' : minHeight }}
+      
     >
-      <div className="flex items-center justify-center gap-2 mb-2 w-full max-w-[200px] opacity-30">
+      <div className="flex items-center justify-center gap-2 mb-2 w-full max-w-[200px] opacity-60">
         <div className="h-px bg-white/20 flex-1"></div>
-        <p className="text-center text-[10px] tracking-wider uppercase text-white">{label}</p>
+        <p className="text-center text-xs tracking-wider uppercase text-white">{label}</p>
         <div className="h-px bg-white/20 flex-1"></div>
       </div>
       <div className="w-full flex justify-center" style={{ maxWidth }}>

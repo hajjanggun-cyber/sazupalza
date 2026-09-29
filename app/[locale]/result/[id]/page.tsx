@@ -279,9 +279,7 @@ export default function ResultIdPage() {
       <Navigation />
 
       {/* Top ad */}
-      <div className="flex justify-center py-3 bg-black/20">
-        <AdSense slot="2233445566" format="horizontal" />
-      </div>
+      
 
       <main className="max-w-2xl mx-auto px-4 py-8">
 
@@ -371,7 +369,7 @@ export default function ResultIdPage() {
         </div>
 
         {/* Ad slot */}
-        <div className="flex justify-center py-4 mb-2">
+        <div className="flex justify-center my-12">
           <AdSense slot="3344556677" format="rectangle" />
         </div>
 
@@ -382,7 +380,7 @@ export default function ResultIdPage() {
         <SectionCard section={result.ilganAnalysis} />
 
         {/* Ad slot */}
-        <div className="flex justify-center py-4 mb-2">
+        <div className="flex justify-center my-12">
           <AdSense slot="5566778800" format="rectangle" />
         </div>
 
@@ -396,7 +394,7 @@ export default function ResultIdPage() {
         <SectionCard section={result.loveSection} />
 
         {/* Ad slot */}
-        <div className="flex justify-center py-4 mb-2">
+        <div className="flex justify-center my-12">
           <AdSense slot="6677889911" format="rectangle" />
         </div>
 
@@ -540,7 +538,7 @@ export default function ResultIdPage() {
         </div>
 
         {/* Bottom ad */}
-        <div className="flex justify-center mt-12 mb-4 w-full border-t border-yellow-900/30 pt-8">
+        <div className="flex justify-center mt-12 mb-16 w-full border-t border-yellow-900/30 pt-8">
           <AdSense slot="4455667788" format="rectangle" />
         </div>
       </main>

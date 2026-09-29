@@ -160,11 +160,7 @@ export default async function CombinedPage({ params: { locale } }: Props) {
       <Navigation />
 
       <div className="flex-1">
-        <div className="flex justify-center px-4">
-          <div className="w-full max-w-5xl">
-            <AdSense slot="1234567890" format="horizontal" className="max-w-full" />
-          </div>
-        </div>
+        
 
         <main className="pt-4">
           <section className="relative py-10 px-4 text-center overflow-hidden">
@@ -219,7 +215,7 @@ export default async function CombinedPage({ params: { locale } }: Props) {
             </div>
           </section>
 
-          <AdSense slot="0987654321" format="rectangle" />
+          <div className="flex justify-center w-full my-12">\n                    <AdSense slot="0987654321" format="rectangle" />\n                </div>
 
           <section className="max-w-4xl mx-auto px-4 pb-12">
             <div className="card-dark p-6 md:p-8">

@@ -103,9 +103,7 @@ export default function PersonalityResultPage() {
     return (
         <div className="min-h-screen">
             <Navigation />
-            <div className="flex justify-center py-3 bg-black/20">
-                <AdSense slot="1122334455" format="horizontal" />
-            </div>
+            
 
             <main className="max-w-2xl mx-auto px-4 py-8">
                 {/* 헤더 */}
@@ -195,8 +193,8 @@ export default function PersonalityResultPage() {
                 <ResultNextSteps locale={locale} current="personality" />
 
                 {/* 광고 컨테이너 (추천 글 하단 배치) */}
-                <div className="flex justify-center mt-12 mb-4 w-full border-t border-yellow-900/30 pt-8">
-                    <div className="flex justify-center py-4 mb-2">
+                <div className="flex justify-center mt-12 mb-16 w-full border-t border-yellow-900/30 pt-8">
+                    <div className="flex justify-center my-12">
                     <AdSense slot="2233445566" format="rectangle" />
                 </div>
                 </div>
