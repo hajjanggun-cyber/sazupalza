@@ -215,7 +215,7 @@ export default async function CombinedPage({ params: { locale } }: Props) {
             </div>
           </section>
 
-          <div className="flex justify-center w-full my-12">\n                    <AdSense slot="0987654321" format="rectangle" />\n                </div>
+          <AdSense slot="0987654321" format="rectangle" />
 
           <section className="max-w-4xl mx-auto px-4 pb-12">
             <div className="card-dark p-6 md:p-8">

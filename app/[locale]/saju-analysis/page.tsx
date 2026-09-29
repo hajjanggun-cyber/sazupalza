@@ -176,7 +176,7 @@ export default async function SajuAnalysisPage({ params: { locale } }: Props) {
                     </div>
                 </section>
 
-                <div className="flex justify-center w-full my-12">\n                    <AdSense slot="0987654321" format="rectangle" />\n                </div>
+                <AdSense slot="0987654321" format="rectangle" />
 
                 {/* 통합 분석 유도 배너 */}
                 <section className="max-w-3xl mx-auto px-4 pb-12">
