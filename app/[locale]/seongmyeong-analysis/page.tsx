@@ -177,7 +177,9 @@ export default async function SeongmyeongAnalysisPage({ params: { locale } }: Pr
                     </div>
                 </section>
 
-                <AdSense slot="0987654321" format="rectangle" />
+                <div className="my-12">
+                  <AdSense slot="0987654321" format="rectangle" />
+                </div>
 
                 {/* 통합 분석 유도 배너 */}
                 <section className="max-w-3xl mx-auto px-4 pb-12">
