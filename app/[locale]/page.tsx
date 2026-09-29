@@ -36,6 +36,10 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
 }
 
 export default async function HomePage({ params: { locale } }: Props) {
+  const totalPosts = sajuPosts.length + gwansangPosts.length + seongmyeongPosts.length + mbtiPosts.length + bokhapPosts.length;
+  // Feature flags for A/B testing ad placements (Task 1.4)
+  const SHOW_HERO_TOP_AD = true; 
+  const SHOW_HERO_BOTTOM_AD = true;
   unstable_setRequestLocale(locale);
   const t = await getTranslations({ locale });
   const isKo = locale === 'ko';
@@ -304,8 +308,8 @@ export default async function HomePage({ params: { locale } }: Props) {
           </h2>
           <p className="text-center text-yellow-200/60 text-sm mb-8">
             {isKo
-              ? '전문 칼럼니스트가 작성한 30개 심층 아티클 — 분석 전에 읽어보세요'
-              : '30 in-depth articles by expert columnists — read before your analysis'}
+              ? `사주·관상·성명학 칼럼 라이브러리 (총 ${totalPosts}편) — 분석 전에 읽어보세요`
+              : `Eastern Astrology & Face Reading Column Library (${totalPosts} Articles) — read before your analysis`}
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4">
