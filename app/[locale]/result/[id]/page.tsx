@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import { useParams, useRouter } from 'next/navigation';
 import { useMemo, useEffect, useState } from 'react';
@@ -540,7 +540,7 @@ export default function ResultIdPage() {
         </div>
 
         {/* Bottom ad */}
-        <div className="flex justify-center py-4">
+        <div className="flex justify-center mt-12 mb-4 w-full border-t border-yellow-900/30 pt-8">
           <AdSense slot="4455667788" format="rectangle" />
         </div>
       </main>

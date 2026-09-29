@@ -1,4 +1,4 @@
-﻿import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
+import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
 import Navigation from '../../components/Navigation';
 import Footer from '../../components/Footer';
@@ -21,6 +21,7 @@ interface Props {
 
 export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
   const isKo = locale === 'ko';
+  const totalPosts = sajuPosts.length + gwansangPosts.length + seongmyeongPosts.length + mbtiPosts.length + bokhapPosts.length;
   return {
     title: isKo
       ? '2026 무료 사주 | 내 사주팔자 종합 분석과 운세 확인'

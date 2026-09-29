@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     default: '사주팔자 무료 종합 분석 - 관상·성명학·MBTI',
     template: '%s | 사주팔자 무료 분석',
   },
-  description: '사주팔자·관상·성명학·MBTI 완전 무료 종합 분석. 회원가입 없음, 개인정보 수집 없음. 생년월일만 입력하면 즉시 결과!',
+  description: '사주팔자·관상·성명학·MBTI 완전 무료 종합 분석. 회원가입 없음, 입력 정보 서버 저장 없음. 생년월일만 입력하면 즉시 결과!',
   keywords: ['사주팔자', '무료사주', '관상', '성명학', 'MBTI', '사주분석', '무료운세', '사주보기'],
   robots: {
     index: true,

@@ -148,7 +148,7 @@ export default async function SeongmyeongAnalysisPage({ params: { locale } }: Pr
                         {/* 신뢰 지표 */}
                         <div className="flex justify-center gap-5 text-sm flex-wrap">
                             <div className="flex items-center gap-1.5 text-yellow-300"><span>🆓</span><span>{isKo ? '완전 무료' : 'Free'}</span></div>
-                            <div className="flex items-center gap-1.5 text-yellow-300"><span>🔒</span><span>{isKo ? '개인정보 저장 없음' : 'No data stored'}</span></div>
+                            <div className="flex items-center gap-1.5 text-yellow-300"><span>🔒</span><span>{isKo ? '입력 정보 서버 저장 없음' : 'No data stored'}</span></div>
                             <div className="flex items-center gap-1.5 text-yellow-300"><span>⚡</span><span>{isKo ? '즉시 결과' : 'Instant result'}</span></div>
                         </div>
                     </div>

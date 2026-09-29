@@ -566,10 +566,6 @@ export default function SeongmyeongResultPage() {
                     </>
                 )}
 
-                <div className="flex justify-center py-4 mb-2">
-                    <AdSense slot="5566778800" format="rectangle" />
-                </div>
-
                 {/* 면책 */}
                 <div className="bg-yellow-900/10 border border-yellow-900/20 rounded-xl p-4 mb-6">
                     <p className="text-yellow-200/40 text-xs leading-relaxed text-center">
@@ -596,6 +592,13 @@ export default function SeongmyeongResultPage() {
                 </div>
 
                 <ResultNextSteps locale={locale} current="seongmyeong" />
+
+                {/* 광고 컨테이너 (추천 글 하단 배치) */}
+                <div className="flex justify-center mt-12 mb-4 w-full border-t border-yellow-900/30 pt-8">
+                    <div className="flex justify-center py-4 mb-2">
+                    <AdSense slot="5566778800" format="rectangle" />
+                </div>
+                </div>
 
             </main>
             <Footer />
