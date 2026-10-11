@@ -75,6 +75,8 @@ Updated At: 2026-05-31 KST
 | 53 | 눈 밑 자녀궁 관상 — 와잠으로 보는 체력과 관계 피로 | `under-eye-reading` |
 | 54 | 명궁 관상 — 미간 넓이와 주름으로 보는 판단 습관 | `between-eyebrows` |
 | 55 | 볼살 관상 — 협골 주변 살집으로 보는 친화력과 소비 성향 | `cheek-reading` |
+| 56 | 목선 관상 — 목 길이·굵기로 보는 지속력과 컨디션 | `neck-reading` |
+| 57 | 쌍꺼풀 관상 세부 해석 — 속쌍·겉쌍·외꺼풀 차이 | `double-eyelid-reading` |
 | 64 | 2026 MBTI 운세표 — 병오년 16유형별 주의 키워드 | `mbti-fortune-2026` |
 | 65 | INFP 사주 — 감수성과 편인 기운으로 보는 2026 흐름 | `infp-saju` |
 | 77 | 감정선 시작점과 끊김 — 연애 패턴 손금 해석 | `heart-line-palmistry` |
@@ -83,30 +85,30 @@ Updated At: 2026-05-31 KST
 
 ## 현재 작성 대상
 
-[완료] 55. 볼살 관상 — 협골 주변 살집으로 보는 친화력과 소비 성향
-- slug: `cheek-reading`
+[완료] 57. 쌍꺼풀 관상 세부 해석 — 속쌍·겉쌍·외꺼풀 차이
+- slug: `double-eyelid-reading`
 - 카테고리: `face-reading`
 - 작성 파일: `lib/blog/gwansang-posts.ts`
-- 메인 키워드 KO: 볼살 관상, 협골 살집 관상
-- 메인 키워드 EN: cheek face reading gwansang, cheek fullness fortune korean
-- 하위 키워드 KO: 볼 살 많으면 관상, 볼 살 없으면 관상, 볼 재물운, 볼 살 성격
-- 하위 키워드 EN: full cheeks gwansang, hollow cheeks fortune, cheek luck korean face reading
-- 작성 지침: cheekbone-reading(광대뼈)·wealth-face(재물 관상 총론)와 다름. 협골 주변 볼살의 탄력·처짐·꺼짐을 중심으로 친화력, 소비 성향, 정서 안정감을 분석.
+- 메인 키워드 KO: 쌍꺼풀 관상, 속쌍 관상
+- 메인 키워드 EN: double eyelid gwansang, eyelid crease fortune korean
+- 하위 키워드 KO: 겉쌍꺼풀 관상, 외꺼풀 관상, 쌍꺼풀 라인 성격, 눈꺼풀 관상 차이
+- 하위 키워드 EN: single eyelid gwansang, double eyelid personality korean, eyelid type fortune
+- 작성 지침: eye-reading(눈 전체)과 다름. 눈 모양·눈빛 전체가 아니라 눈꺼풀 라인, 속쌍/겉쌍/외꺼풀 차이만 집중 분석한다.
 - 완료 파일: `lib/blog/gwansang-posts.ts`
 
 ---
 
 ## 다음 작성 예정 상세
 
-[ ] 56. 목선 관상 — 목 길이·굵기로 보는 지속력과 컨디션
-- slug: `neck-reading`
+[ ] 58. 입술 색 관상 — 붉은색·창백한색·검붉은색 신호
+- slug: `lip-color-reading`
 - 카테고리: `face-reading`
 - 작성 파일: `lib/blog/gwansang-posts.ts`
-- 메인 키워드 KO: 목선 관상, 목 길이 관상
-- 메인 키워드 EN: neck face reading gwansang, neck fortune korean
-- 하위 키워드 KO: 목 길면 관상, 목 짧으면 관상, 목 두꺼우면 관상, 목 건강 관상
-- 하위 키워드 EN: long neck gwansang, short neck fortune, thick neck reading korean
-- 작성 지침: face-reading intro의 건강 총론과 다름. 목 길이, 굵기, 목선, 승모 부위 인상을 지속력과 컨디션 신호 중심으로 분석하되 의학 단정 금지.
+- 메인 키워드 KO: 입술 색 관상, 입술 색 건강
+- 메인 키워드 EN: lip color gwansang, lip color fortune korean face reading
+- 하위 키워드 KO: 붉은 입술 관상, 창백한 입술 관상, 검붉은 입술 관상, 입술 혈색 관상
+- 하위 키워드 EN: red lips gwansang, pale lips fortune, lip color health korean
+- 작성 지침: mouth-lips(입술 모양 전체)과 다름. 입꼬리·입술 두께가 아니라 입술 혈색과 일시적 컨디션 신호만 다룬다. 건강 단정 표현 금지.
 
 ---
 
@@ -114,8 +116,6 @@ Updated At: 2026-05-31 KST
 
 | 번호 | category | slug | 제목 |
 |---:|---|---|---|
-| 56 | face-reading | `neck-reading` | 목선 관상 — 목 길이와 굵기로 보는 지속력 |
-| 57 | face-reading | `double-eyelid-reading` | 쌍꺼풀 관상 — 속쌍·겉쌍·외꺼풀별 인상 차이 |
 | 58 | face-reading | `lip-color-reading` | 입술 색 관상 — 혈색 변화로 보는 컨디션 신호와 주의점 |
 | 59 | face-reading | `palm-shape-reading` | 손바닥 관상 — 손 크기와 두께로 보는 실행력과 돈 관리 |
 | 60 | face-reading | `nose-tip-reading` | 코끝 관상 준두 해석 — 살집으로 보는 돈 관리 습관 |

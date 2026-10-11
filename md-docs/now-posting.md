@@ -539,7 +539,7 @@
 - 하위 키워드 EN: full cheeks gwansang, hollow cheeks fortune, cheek luck korean face reading
 - 작성 지침: cheekbone-reading(광대뼈)·wealth-face(재물 관상 총론)와 다름. 협골 주변 볼살의 탄력·처짐·꺼짐을 중심으로 친화력, 소비 성향, 정서 안정감을 분석.
 
-[ ] 56. 목선 관상 — 목 길이·굵기로 보는 지속력과 컨디션
+[완료] 56. 목선 관상 — 목 길이·굵기로 보는 지속력과 컨디션
 - slug: `neck-reading`
 - 카테고리: `face-reading`
 - 메인 키워드 KO: 목선 관상, 목 길이 관상
@@ -548,7 +548,7 @@
 - 하위 키워드 EN: long neck gwansang, short neck fortune, thick neck reading korean
 - 작성 지침: face-reading intro의 건강 총론과 다름. 목 길이, 굵기, 목선, 승모 부위 인상을 지속력과 컨디션 신호 중심으로 분석하되 의학 단정 금지.
 
-[ ] 57. 쌍꺼풀 관상 세부 해석 — 속쌍·겉쌍·외꺼풀 차이
+[완료] 57. 쌍꺼풀 관상 세부 해석 — 속쌍·겉쌍·외꺼풀 차이
 - slug: `double-eyelid-reading`
 - 카테고리: `face-reading`
 - 메인 키워드 KO: 쌍꺼풀 관상, 속쌍 관상
