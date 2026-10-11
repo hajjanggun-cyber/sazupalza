@@ -530,7 +530,7 @@
 - 하위 키워드 EN: wide glabella fortune gwansang, narrow eyebrows fate, brow gap reading
 - 작성 지침: eyebrow-reading(눈썹)과 다름. 명궁으로 보는 미간 넓이, 주름, 색 변화를 판단 습관과 일 처리 방식 중심으로 분석.
 
-[ ] 55. 볼살 관상 — 협골 주변 살집으로 보는 친화력과 소비 성향
+[완료] 55. 볼살 관상 — 협골 주변 살집으로 보는 친화력과 소비 성향
 - slug: `cheek-reading`
 - 카테고리: `face-reading`
 - 메인 키워드 KO: 볼살 관상, 협골 살집 관상
