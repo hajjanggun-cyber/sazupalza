@@ -102,7 +102,11 @@ export default async function SeongmyeongAnalysisPage({ params: { locale } }: Pr
 
             <Navigation />
 
-            
+            <div className="flex justify-center px-4">
+                <div className="w-full max-w-5xl">
+                    <AdSense slot="1234567890" format="horizontal" className="max-w-full" />
+                </div>
+            </div>
 
             <main>
                 {/* 헤더 */}
@@ -144,7 +148,7 @@ export default async function SeongmyeongAnalysisPage({ params: { locale } }: Pr
                         {/* 신뢰 지표 */}
                         <div className="flex justify-center gap-5 text-sm flex-wrap">
                             <div className="flex items-center gap-1.5 text-yellow-300"><span>🆓</span><span>{isKo ? '완전 무료' : 'Free'}</span></div>
-                            <div className="flex items-center gap-1.5 text-yellow-300"><span>🔒</span><span>{isKo ? '입력 정보 서버 저장 없음' : 'No data stored'}</span></div>
+                            <div className="flex items-center gap-1.5 text-yellow-300"><span>🔒</span><span>{isKo ? '개인정보 저장 없음' : 'No data stored'}</span></div>
                             <div className="flex items-center gap-1.5 text-yellow-300"><span>⚡</span><span>{isKo ? '즉시 결과' : 'Instant result'}</span></div>
                         </div>
                     </div>
@@ -177,9 +181,7 @@ export default async function SeongmyeongAnalysisPage({ params: { locale } }: Pr
                     </div>
                 </section>
 
-                <div className="my-12">
-                  <AdSense slot="0987654321" format="rectangle" />
-                </div>
+                <AdSense slot="0987654321" format="rectangle" />
 
                 {/* 통합 분석 유도 배너 */}
                 <section className="max-w-3xl mx-auto px-4 pb-12">

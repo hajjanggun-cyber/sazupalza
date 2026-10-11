@@ -1,7 +1,7 @@
 ## 문서 역할 분리
 
 - `md-docs/now-posting.md`: 포스팅 순서, 작성 후보, slug/category/키워드/글별 작성 브리프, 완료 상태의 단일 원본.
-- `md-docs/post-codex-command.md`: 글 작성 규칙, SEO 규칙, 검수 규칙, 빌드·sitemap 확인 규칙의 단일 원본.
+- `md-docs/post-codex-command.md`: 글 작성 규칙, AEO, GEO, SEO 규칙, 검수 규칙, 빌드·sitemap 확인 규칙의 단일 원본.
 - 글 작성 완료 시 완료 표시는 `md-docs/now-posting.md`에서만 갱신한다.
 - 이 파일에는 포스팅 목록, 완료 목록, 남은 글 수를 중복 기록하지 않는다.
 - 다음에 쓸 글을 고를 때는 `md-docs/now-posting.md`에서 첫 번째 `[ ]` 항목을 확인한다.

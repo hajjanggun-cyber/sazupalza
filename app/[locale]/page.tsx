@@ -1,4 +1,4 @@
-import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
+﻿import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
 import Navigation from '../../components/Navigation';
 import Footer from '../../components/Footer';
@@ -21,7 +21,6 @@ interface Props {
 
 export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
   const isKo = locale === 'ko';
-  const totalPosts = sajuPosts.length + gwansangPosts.length + seongmyeongPosts.length + mbtiPosts.length + bokhapPosts.length;
   return {
     title: isKo
       ? '2026 무료 사주 | 내 사주팔자 종합 분석과 운세 확인'
@@ -37,10 +36,6 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
 }
 
 export default async function HomePage({ params: { locale } }: Props) {
-  const totalPosts = sajuPosts.length + gwansangPosts.length + seongmyeongPosts.length + mbtiPosts.length + bokhapPosts.length;
-  // Feature flags for A/B testing ad placements (Task 1.4)
-  const SHOW_HERO_TOP_AD = false; 
-  const SHOW_HERO_BOTTOM_AD = true;
   unstable_setRequestLocale(locale);
   const t = await getTranslations({ locale });
   const isKo = locale === 'ko';
@@ -207,7 +202,7 @@ export default async function HomePage({ params: { locale } }: Props) {
 
       <div className="flex justify-center px-4">
         <div className="w-full max-w-5xl">
-          {SHOW_HERO_TOP_AD && <AdSense slot="1234567890" format="horizontal" className="max-w-full" />}
+          <AdSense slot="1234567890" format="horizontal" className="max-w-full" />
         </div>
       </div>
 
@@ -309,8 +304,8 @@ export default async function HomePage({ params: { locale } }: Props) {
           </h2>
           <p className="text-center text-yellow-200/60 text-sm mb-8">
             {isKo
-              ? `사주·관상·성명학 칼럼 라이브러리 (총 ${totalPosts}편) — 분석 전에 읽어보세요`
-              : `Eastern Astrology & Face Reading Column Library (${totalPosts} Articles) — read before your analysis`}
+              ? '전문 칼럼니스트가 작성한 30개 심층 아티클 — 분석 전에 읽어보세요'
+              : '30 in-depth articles by expert columnists — read before your analysis'}
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4">
@@ -429,7 +424,7 @@ export default async function HomePage({ params: { locale } }: Props) {
 
         <div className="flex justify-center px-4">
           <div className="w-full max-w-5xl flex justify-center">
-            {SHOW_HERO_BOTTOM_AD && <AdSense slot="1122334455" format="rectangle" />}
+            <AdSense slot="1122334455" format="rectangle" />
           </div>
         </div>
 
