@@ -557,7 +557,7 @@
 - 하위 키워드 EN: single eyelid gwansang, double eyelid personality korean, eyelid type fortune
 - 작성 지침: eye-reading(눈 전체)과 다름. 눈 모양·눈빛 전체가 아니라 눈꺼풀 라인, 속쌍/겉쌍/외꺼풀 차이만 집중 분석한다.
 
-[ ] 58. 입술 색 관상 — 붉은색·창백한색·검붉은색 신호
+[완료] 58. 입술 색 관상 — 붉은색·창백한색·검붉은색 신호
 - slug: `lip-color-reading`
 - 카테고리: `face-reading`
 - 메인 키워드 KO: 입술 색 관상, 입술 색 건강
@@ -566,7 +566,7 @@
 - 하위 키워드 EN: red lips gwansang, pale lips fortune, lip color health korean
 - 작성 지침: mouth-lips(입술 모양 전체)과 다름. 입꼬리·입술 두께가 아니라 입술 혈색과 일시적 컨디션 신호만 다룬다. 건강 단정 표현 금지.
 
-[ ] 59. 손바닥 관상 — 손 크기·두께로 보는 재물운과 실행력
+[완료] 59. 손바닥 관상 — 손 크기·두께로 보는 재물운과 실행력
 - slug: `palm-shape-reading`
 - 카테고리: `face-reading`
 - 메인 키워드 KO: 손바닥 관상, 손 크기 관상
