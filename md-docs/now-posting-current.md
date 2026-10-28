@@ -84,35 +84,45 @@ Updated At: 2026-05-31 KST
 | 64 | 2026 MBTI 운세표 — 병오년 16유형별 주의 키워드 | `mbti-fortune-2026` |
 | 65 | INFP 사주 — 감수성과 편인 기운으로 보는 2026 흐름 | `infp-saju` |
 | 77 | 감정선 시작점과 끊김 — 연애 패턴 손금 해석 | `heart-line-palmistry` |
+| 101 | 84년·96년생 쥐띠가 2027년에 돈보다 사람을 먼저 걸러야 하는 이유 | `rat-fortune-2027` |
 
 ---
 
 ## 현재 작성 대상
 
-[완료] 61. 법령선 관상 — 코 옆 주름으로 보는 책임감과 말년운
-- slug: `nasolabial-line-reading`
-- 카테고리: `face-reading`
-- 작성 파일: `lib/blog/gwansang-posts.ts`
-- 메인 키워드 KO: 법령선 관상, 팔자주름 관상
-- 메인 키워드 EN: nasolabial line gwansang, smile line face reading korean
-- 하위 키워드 KO: 코 옆 주름 관상, 법령선 깊으면, 팔자주름 말년운, 법령선 직업운
-- 하위 키워드 EN: deep nasolabial folds fortune, smile line gwansang, face line career luck
-- 작성 지침: health-face(얼굴색/기색)와 겹치지 않도록 얼굴색을 다루지 않는다. 법령선 깊이·길이·좌우 차이와 책임감·말년운 해석 중심.
-- 완료 파일: `lib/blog/gwansang-posts.ts`
+[완료] 101. 84년·96년생 쥐띠가 2027년에 돈보다 사람을 먼저 걸러야 하는 이유
+- slug: `rat-fortune-2027`
+- 카테고리: `saju`
+- 작성 파일: `lib/blog/saju-posts.ts`
+- 완료 파일: `lib/blog/saju-posts.ts`
+- 권장 seoTitle: `쥐띠 2027년 운세: 자미원진(子未怨嗔) 대인관계 주의점과 84·96·72년생 재물 흐름`
+- 권장 seoTitleEn: `Year of the Rat 2027 Horoscope: Managing Relationship Friction and Money Luck in Korean Saju`
+- 메인 키워드 KO: 쥐띠 2027년 운세, 2027년 쥐띠 운세
+- 메인 키워드 EN: rat zodiac fortune 2027, year of the rat 2027 horoscope korean saju
+- 하위 키워드 KO: 정미년 쥐띠 운세, 1984년생 2027년 운세, 1996년생 2027년 운세, 1972년생 2027년 운세, 1960년생 운세, 자미원진 뜻
+- 하위 키워드 EN: 1984 rat fortune 2027, 1996 rat horoscope 2027, korean zodiac rat 2027 luck, fire goat year rat forecast
 
 ---
 
-## 다음 작성 예정 상세
+## 다음 작성 예정 상세 (★ 최우선 작성 대상: 102번 소띠 2027년 운세)
 
-[ ] 62. 손가락 마디 관상 — 길이 비율로 보는 일 처리 방식
-- slug: `finger-reading`
-- 카테고리: `face-reading`
-- 작성 파일: `lib/blog/gwansang-posts.ts`
-- 메인 키워드 KO: 손가락 마디 관상, 손가락 길이 관상
-- 메인 키워드 EN: finger reading gwansang, finger shape fortune korean
-- 하위 키워드 KO: 손가락 길면 관상, 손가락 짧으면 관상, 손가락 두꺼우면 직업, 엄지손가락 관상
-- 하위 키워드 EN: long fingers gwansang, short fingers fortune, thumb shape reading korean
-- 작성 지침: hand-reading(손 전체)과 다름. 손가락 길이 비율, 굵기, 마디, 손톱 모양으로 일 처리 방식과 직업 성향을 분석.
+[ ] 102. 축미충(丑未沖) 맞는 2027년 소띠, 이직·이사 전에 꼭 확인할 문서운
+- slug: `ox-fortune-2027`
+- 카테고리: `saju`
+- 작성 파일: `lib/blog/saju-posts.ts`
+- 권장 seoTitle: `2027년 소띠 운세와 축미충 해법: 이직·이사 변동수 대처와 나이별 문서운`
+- 권장 seoTitleEn: `Ox Zodiac Fortune 2027: Navigating the Chuk-Mi Clash for Career Changes and Real Estate`
+- 메인 키워드 KO: 2027년 소띠 운세, 소띠 2027년 운세
+- 메인 키워드 EN: ox zodiac fortune 2027, year of the ox 2027 horoscope korean saju
+- 하위 키워드 KO: 정미년 소띠 운세, 1985년생 2027년 운세, 1997년생 2027년 운세, 1973년생 2027년 운세, 1961년생 운세, 소띠 축미충
+- 하위 키워드 EN: 1985 ox fortune 2027, 1997 ox horoscope 2027, korean zodiac ox 2027 luck, chuk-mi clash 2027
+- 권장 H2 목차 설계:
+  1. `ox-2027-chukmi-clash`: 2027년 정미년이 소띠에게 던지는 화두: 축미충(丑未沖)은 위기인가 판갈이의 신호인가
+  2. `ox-2027-career-and-moving`: 이직·부서 이동·이사처럼 자리가 흔들릴 때 손해 보지 않는 선택 기준
+  3. `ox-2027-birth-year-table`: 나이별 2027년 소띠 흐름 비교 (1997 정축·1985 을축·1973 계축·1961 신축·1949 기축년생)
+  4. `ox-2027-asset-and-document`: 정화(丁火) 인성이 돕는 문서·자격증 운과 묶인 자산을 다루는 법
+  5. `ox-2027-caution-and-limits`: 소화기·관절 피로 다스리기와 생월·일주에 따라 충의 강도가 달라지는 이유
+- 작성 지침: 2027년 정미년과 정면으로 충(丑未沖)을 이루는 소띠 특화 글. 충을 무조건 흉운으로 겁주지 않고, 묵은 환경을 정리하고 부동산·문서·직무 전환을 주도적으로 실행할 때 개운이 된다는 실전 기준을 제시.
 
 ---
 
@@ -120,6 +130,17 @@ Updated At: 2026-05-31 KST
 
 | 번호 | category | slug | 제목 |
 |---:|---|---|---|
+| 102 | saju | `ox-fortune-2027` | 축미충(丑未沖) 맞는 2027년 소띠, 이직·이사 전에 꼭 확인할 문서운 |
+| 103 | saju | `tiger-fortune-2027` | 바쁘기만 했던 호랑이띠, 2027년 정미년에 현금이 모이는 사주 구조 |
+| 104 | saju | `rabbit-fortune-2027` | 해묘미 삼합 들어오는 토끼띠 2027년 운세: 귀인 만날 때 내 지분 지키는 법 |
+| 105 | saju | `dragon-fortune-2027` | 용띠 2027년 재물·직장 흐름: 경쟁자 늘어날 때 자격·문서로 이기는 법 |
+| 106 | saju | `snake-fortune-2027` | 뱀띠가 2027년에 새 판을 벌이기보다 실속부터 회수해야 하는 이유 |
+| 107 | saju | `horse-fortune-2027` | 2026년 흔들렸던 말띠, 2027 오미합(午未合)에 정착과 계약운 잡는 법 |
+| 108 | saju | `goat-fortune-2027` | 양의 해를 맞은 2027 양띠 운세: 본명년·삼재 오해와 나이별 돌파구 |
+| 109 | saju | `monkey-fortune-2027` | 승진·감투운 들어오는 2027년 원숭이띠, 책임 무게를 내 몸값으로 바꾸는 법 |
+| 110 | saju | `rooster-fortune-2027` | 예민해진 2027년 닭띠 사주 흐름: 까다로운 과제가 오히려 기회가 되는 조건 |
+| 111 | saju | `dog-fortune-2027` | 술미형(戌未刑) 지나가는 개띠 2027년 운세: 가족·동업 갈등 피하는 기준 |
+| 112 | saju | `pig-fortune-2027` | 조용히 실속 챙기는 2027년 돼지띠 운세: 정임합·삼합이 만드는 고정 수입 |
 | 62 | face-reading | `finger-reading` | 손가락 관상 — 마디와 길이 비율로 보는 일 처리 방식 |
 | 63 | face-reading | `eye-pupil-reading` | 눈동자 관상 — 눈동자 크기와 흰자 비율로 보는 성격 |
 | 66 | mbti | `enfp-saju` | ENFP 사주 — 식상 강한 활동가의 재물·연애 흐름 |

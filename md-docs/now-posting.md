@@ -1,14 +1,242 @@
-# 신규 포스팅 100개 목록
-# 최종 업데이트: 2026-03-21
+# 신규 포스팅 목록 (100개 + 2027년 12띠별 운세 최우선 시리즈)
+# 최종 업데이트: 2026-03-28
 # 이 파일은 포스팅 순서, 작성 후보, slug/category/키워드/글별 작성 브리프, 완료 상태의 단일 원본이다.
 # [ ] = 미완료 / [완료] = 완료
 # 글 작성 완료 시 해당 항목의 [ ]를 [완료]로 바꾼다.
 # 글 작성 원칙, SEO 규칙, 검수 규칙은 `md-docs/post-codex-command.md`를 따른다.
 # 기존 55개 글과 비중복 확인 완료.
+# ★ 현재 최우선 작성 대상: 아래 [2027년 정미년(丁未年) 12띠별 운세 시리즈 (101~112번)]의 첫 번째 [ ] 항목부터 순서대로 작성한다.
 
 ---
 
-## ★ 오늘 작성 (1~3번)
+## ★ 최우선 작성 — [사주] 2027년 정미년(丁未年) 12띠별 운세 시리즈 (101~112번)
+
+> **시리즈 공통 카니발리제이션 & 반복 방지 규칙 (`post-codex-command.md` 0-AA, 5-1, 14, 15, 16 준수)**
+> 1. 2027년은 **정미년(丁未年, 붉은 양의 해 / 천간 정화 丁火 + 지지 미토 未土)**이다. 각 띠(지지)가 정미년과 맺는 고유한 오행·합충형해원진 관계를 제목, 첫 문단, H2 목차의 중심축으로 삼아 12개 글이 서로 다른 구조와 질문을 갖게 한다.
+> 2. **제목 유사도 방지(최우선)**: `2027년 OO띠 운세 — 정미년 ...` 같은 고정 접두어·접미어 패턴을 12개 글에 반복하지 않는다. 각 띠가 2027년에 겪는 가장 현실적인 고민(사람 걸러내기, 축미충 이동수, 현금 회수, 삼합 협업, 비겁 경쟁 방어, 오미합 정착 등)과 주요 생년을 결합해 문장 구조 자체를 12개 모두 다르게 가져간다.
+> 3. 모든 띠 글을 `총운 -> 재물운 -> 연애운 -> 직장운 -> 결론`처럼 똑같은 H2 4~5개로 복제하는 것을 엄격히 금지한다. 아래 글별로 설계된 고유 H2 목차를 기준으로 작성한다.
+> 4. 각 글에는 반드시 **출생연도별(5개 나이대) 세운 체감 차이 비교표**와 **띠 운세의 한계(연주 1글자 기준이므로 일주·생시에 따라 달라지는 이유)**를 포함한다.
+
+[완료] 101. 84년·96년생 쥐띠가 2027년에 돈보다 사람을 먼저 걸러야 하는 이유
+- slug: `rat-fortune-2027`
+- 카테고리: `saju`
+- 작성 파일: `lib/blog/saju-posts.ts`
+- 완료 파일: `lib/blog/saju-posts.ts`
+- 권장 seoTitle: `쥐띠 2027년 운세: 자미원진(子未怨嗔) 대인관계 주의점과 84·96·72년생 재물 흐름`
+- 권장 seoTitleEn: `Year of the Rat 2027 Horoscope: Managing Relationship Friction and Money Luck in Korean Saju`
+- 메인 키워드 KO: 쥐띠 2027년 운세, 2027년 쥐띠 운세
+- 메인 키워드 EN: rat zodiac fortune 2027, year of the rat 2027 horoscope korean saju
+- 하위 키워드 KO: 정미년 쥐띠 운세, 1984년생 2027년 운세, 1996년생 2027년 운세, 1972년생 2027년 운세, 1960년생 운세, 자미원진 뜻
+- 하위 키워드 EN: 1984 rat fortune 2027, 1996 rat horoscope 2027, korean zodiac rat 2027 luck, fire goat year rat forecast
+- 권장 H2 목차 설계:
+  1. `rat-2027-jami-dynamic`: 자수(子水)가 2027년 정미(丁未)를 만날 때: 편재의 기회와 자미원진의 미묘한 긴장
+  2. `rat-2027-money-and-work`: 문서·계약과 현금 흐름: 재물 기회는 커지는데 왜 사람 문제로 돈이 새기 쉬울까
+  3. `rat-2027-birth-year-table`: 출생연도별 쥐띠 2027년 흐름 (1996 병자·1984 갑자·1972 임자·1960 경자·1948 무자년생 비교표)
+  4. `rat-2027-relationship-health`: 가까운 사이일수록 조심할 감정 소모와 신장·수면 리듬 관리 포인트
+  5. `rat-2027-monthly-strategy`: 상반기·하반기 결단 타이밍과 띠별 운세 해석의 현실적 한계
+- 작성 지침: 쥐띠(子水)에게 정미년 천간 정화(丁火)는 재성(돈·결과)이지만 지지 미토(未土)는 편관이자 자미원진·육해 작용을 일으킨다. "돈 벌 기회는 들어오나 대인관계 오해·계약 세부 조항 점검이 성패를 가른다"는 고유의 해석 축으로 작성.
+
+[ ] 102. 축미충(丑未沖) 맞는 2027년 소띠, 이직·이사 전에 꼭 확인할 문서운
+- slug: `ox-fortune-2027`
+- 카테고리: `saju`
+- 작성 파일: `lib/blog/saju-posts.ts`
+- 권장 seoTitle: `2027년 소띠 운세와 축미충 해법: 이직·이사 변동수 대처와 나이별 문서운`
+- 권장 seoTitleEn: `Ox Zodiac Fortune 2027: Navigating the Chuk-Mi Clash for Career Changes and Real Estate`
+- 메인 키워드 KO: 2027년 소띠 운세, 소띠 2027년 운세
+- 메인 키워드 EN: ox zodiac fortune 2027, year of the ox 2027 horoscope korean saju
+- 하위 키워드 KO: 정미년 소띠 운세, 1985년생 2027년 운세, 1997년생 2027년 운세, 1973년생 2027년 운세, 1961년생 운세, 소띠 축미충
+- 하위 키워드 EN: 1985 ox fortune 2027, 1997 ox horoscope 2027, korean zodiac ox 2027 luck, chuk-mi clash 2027
+- 권장 H2 목차 설계:
+  1. `ox-2027-chukmi-clash`: 2027년 정미년이 소띠에게 던지는 화두: 축미충(丑未沖)은 위기인가 판갈이의 신호인가
+  2. `ox-2027-career-and-moving`: 이직·부서 이동·이사처럼 자리가 흔들릴 때 손해 보지 않는 선택 기준
+  3. `ox-2027-birth-year-table`: 나이별 2027년 소띠 흐름 비교 (1997 정축·1985 을축·1973 계축·1961 신축·1949 기축년생)
+  4. `ox-2027-asset-and-document`: 정화(丁火) 인성이 돕는 문서·자격증 운과 묶인 자산을 다루는 법
+  5. `ox-2027-caution-and-limits`: 소화기·관절 피로 다스리기와 생월·일주에 따라 충의 강도가 달라지는 이유
+- 작성 지침: 2027년 정미년과 정면으로 충(丑未沖)을 이루는 소띠 특화 글. 충을 무조건 흉운으로 겁주지 않고, 묵은 환경을 정리하고 부동산·문서·직무 전환을 주도적으로 실행할 때 개운이 된다는 실전 기준을 제시.
+
+[ ] 103. 바쁘기만 했던 호랑이띠, 2027년 정미년에 현금이 모이는 사주 구조
+- slug: `tiger-fortune-2027`
+- 카테고리: `saju`
+- 작성 파일: `lib/blog/saju-posts.ts`
+- 권장 seoTitle: `범띠·호랑이띠 2027년 운세: 식상생재로 결실 맺는 재물운과 86·98·74년생 흐름`
+- 권장 seoTitleEn: `Tiger Zodiac 2027 Saju Forecast: Turning Hard Work into Financial Rewards in the Fire Goat Year`
+- 메인 키워드 KO: 2027년 호랑이띠 운세, 범띠 2027년 운세
+- 메인 키워드 EN: tiger zodiac fortune 2027, year of the tiger 2027 horoscope korean saju
+- 하위 키워드 KO: 2027년 범띠 운세, 정미년 호랑이띠, 1986년생 2027년 운세, 1998년생 2027년 운세, 1974년생 2027년 운세, 1962년생 운세
+- 하위 키워드 EN: 1986 tiger fortune 2027, 1998 tiger horoscope 2027, korean zodiac tiger 2027 money luck
+- 권장 H2 목차 설계:
+  1. `tiger-2027-output-to-wealth`: 인목(寅木)이 정미년(丁未年)을 만나는 구조: 식상생재(食傷生財)로 열매 맺는 해
+  2. `tiger-2027-business-and-pay`: 벌려 놓은 일에서 현금을 회수하는 타이밍과 과잉 확장을 멈춰야 할 경계선
+  3. `tiger-2027-birth-year-table`: 출생연도별 호랑이띠 2027년 운세 (1998 무인·1986 병인·1974 갑인·1962 임인·1950 경인년생)
+  4. `tiger-2027-love-and-family`: 미토(未土) 정재 기운이 연애·배우자 관계와 가계 재정에 미치는 영향
+  5. `tiger-2027-burnout-and-balance`: 에너지 과소모(설기) 방어법과 사주 원국 화·토 비중에 따른 해석 차이
+- 작성 지침: 2026 병오년에 에너지를 크게 쏟아부었던 호랑이띠(寅木)가 2027 정미년(정화 상관 + 미토 정재)에 실질적인 금전 회수와 안정을 거두는 과정에 집중.
+
+[ ] 104. 해묘미 삼합 들어오는 토끼띠 2027년 운세: 귀인 만날 때 내 지분 지키는 법
+- slug: `rabbit-fortune-2027`
+- 카테고리: `saju`
+- 작성 파일: `lib/blog/saju-posts.ts`
+- 권장 seoTitle: `2027년 토끼띠 운세: 해묘미(亥卯未) 삼합 협업운과 87·99·75년생 재테크 기준`
+- 권장 seoTitleEn: `Rabbit Zodiac Fortune 2027: Leveraging Three-Harmony Alliances and Managing Windfall Luck`
+- 메인 키워드 KO: 2027년 토끼띠 운세, 토끼띠 2027년 운세
+- 메인 키워드 EN: rabbit zodiac fortune 2027, year of the rabbit 2027 horoscope korean saju
+- 하위 키워드 KO: 정미년 토끼띠 운세, 1987년생 2027년 운세, 1999년생 2027년 운세, 1975년생 2027년 운세, 1963년생 운세, 토끼띠 삼합
+- 하위 키워드 EN: 1987 rabbit fortune 2027, 1999 rabbit horoscope 2027, korean zodiac rabbit 2027 compatibility
+- 권장 H2 목차 설계:
+  1. `rabbit-2027-myomi-harmony`: 묘목(卯木)과 미토(未土)의 반합: 혼자 끙끙대던 일에 조력자와 무대가 생기는 원리
+  2. `rabbit-2027-career-partnership`: 이직·동업·팀 프로젝트에서 내 지분과 주도권을 잃지 않는 협상 포인트
+  3. `rabbit-2027-birth-year-table`: 나이별 2027년 토끼띠 상세 흐름 (1999 기묘·1987 정묘·1975 을묘·1963 계묘·1951 신묘년생)
+  4. `rabbit-2027-windfall-vs-leak`: 편재(未土)가 자극하는 투자·부업 욕구와 지키면서 불리는 자산 배분법
+  5. `rabbit-2027-scope-and-limits`: 삼합의 해에도 조심해야 할 구설 신호와 태어난 달·시간에 따른 변수
+- 작성 지침: 묘목(卯木)이 정미년의 미토(未土)와 해묘미 삼합(반합)을 이루어 대인 협력과 편재(재물 확장) 기운이 살아나는 해. 호랑이띠(정재·독자 추진)와 달리 토끼띠는 '파트너십·네트워크·편재 유동성 관리'로 차별화.
+
+[ ] 105. 용띠 2027년 재물·직장 흐름: 경쟁자 늘어날 때 자격·문서로 이기는 법
+- slug: `dragon-fortune-2027`
+- 카테고리: `saju`
+- 작성 파일: `lib/blog/saju-posts.ts`
+- 권장 seoTitle: `용띠 2027년 운세: 비겁 경쟁 속 재산 방어법과 88·00·76년생 문서·시험운`
+- 권장 seoTitleEn: `Year of the Dragon 2027 Horoscope: Protecting Assets and Winning with Credentials in Korean Saju`
+- 메인 키워드 KO: 용띠 2027년 운세, 2027년 용띠 운세
+- 메인 키워드 EN: dragon zodiac fortune 2027, year of the dragon 2027 horoscope korean saju
+- 하위 키워드 KO: 정미년 용띠 운세, 1988년생 2027년 운세, 2000년생 2027년 운세, 1976년생 2027년 운세, 1964년생 운세, 2027 용띠 재물운
+- 하위 키워드 EN: 1988 dragon fortune 2027, 2000 dragon horoscope 2027, korean zodiac dragon 2027 career luck
+- 권장 H2 목차 설계:
+  1. `dragon-2027-damp-dry-earth`: 습토인 진토(辰土)가 조토인 미토(未土)를 만날 때: 경쟁자 등장과 판세의 변화
+  2. `dragon-2027-document-and-study`: 천간 정화(丁火) 정인이 주는 무기: 자격·학위·계약 문서로 승부해야 하는 이유
+  3. `dragon-2027-birth-year-table`: 출생연도별 2027년 용띠 운세 비교 (2000 경진·1988 무진·1976 병진·1964 갑진·1952 임진년생)
+  4. `dragon-2027-money-boundary`: 지인 간 금전 거래·보증·공동 투자를 피하고 내 몫을 잠그는 재무 수칙
+  5. `dragon-2027-timing-and-limits`: 계절별 컨디션 조절법과 용띠 운세를 일간 중심으로 보정해 읽는 법
+- 작성 지침: 진토(辰土)와 미토(未土)가 만나 토(土) 비겁 기운이 중첩되는 해. 막연한 확장보다 정화(丁火) 인성을 활용한 문서·자격·내실 다지기와 비겁으로 인한 금전 분산 방어를 핵심 포인트로 잡는다.
+
+[ ] 106. 뱀띠가 2027년에 새 판을 벌이기보다 실속부터 회수해야 하는 이유
+- slug: `snake-fortune-2027`
+- 카테고리: `saju`
+- 작성 파일: `lib/blog/saju-posts.ts`
+- 권장 seoTitle: `2027년 뱀띠 운세: 사오미 방합 결산기 수익 회수 전략과 89·01·77년생 직장운`
+- 권장 seoTitleEn: `Snake Zodiac 2027 Fortune: Consolidating Gains and Preventing Burnout at the End of the Fire Cycle`
+- 메인 키워드 KO: 2027년 뱀띠 운세, 뱀띠 2027년 운세
+- 메인 키워드 EN: snake zodiac fortune 2027, year of the snake 2027 horoscope korean saju
+- 하위 키워드 KO: 정미년 뱀띠 운세, 1989년생 2027년 운세, 2001년생 2027년 운세, 1977년생 2027년 운세, 1965년생 운세, 2027 뱀띠 직장운
+- 하위 키워드 EN: 1989 snake fortune 2027, 2001 snake horoscope 2027, korean zodiac snake 2027 forecast
+- 권장 H2 목차 설계:
+  1. `snake-2027-saomi-transition`: 2025 을사·2026 병오를 지나 2027 정미년으로: 사오미(巳午未) 여름 불기운의 마무리 단계
+  2. `snake-2027-skill-monetization`: 화생토(火生土) 식상운의 작동: 내 기술·언변·기획력을 실제 수익으로 연결하는 법
+  3. `snake-2027-birth-year-table`: 나이별 2027년 뱀띠 운세 분석 (2001 신사·1989 기사·1977 정사·1965 을사·1953 계사년생)
+  4. `snake-2027-workplace-speech`: 경쟁심(비겁)과 표현력(식상)이 동시에 강해질 때 직장 내 구설을 피하는 대화법
+  5. `snake-2027-heat-balance`: 화·조토 과열로 인한 번아웃 예방 루틴과 뱀띠 세운 해석의 주의점
+- 작성 지침: 2025년(사)·2026년(오)·2027년(미)으로 이어지는 3년 방합 흐름의 결산기라는 뱀띠만의 고유 관점을 제시. 외형 확장보다 실속 회수와 체력·화기 조절에 초점을 맞춘다.
+
+[ ] 107. 2026년 흔들렸던 말띠, 2027 오미합(午未合)에 정착과 계약운 잡는 법
+- slug: `horse-fortune-2027`
+- 카테고리: `saju`
+- 작성 파일: `lib/blog/saju-posts.ts`
+- 권장 seoTitle: `말띠 2027년 운세: 오미합(午未合) 귀인·결혼·계약 안착과 90·02·78년생 흐름`
+- 권장 seoTitleEn: `Horse Zodiac Fortune 2027: Stability, Partnerships, and O-Mi Harmony After the Fire Horse Year`
+- 메인 키워드 KO: 말띠 2027년 운세, 2027년 말띠 운세
+- 메인 키워드 EN: horse zodiac fortune 2027, year of the horse 2027 horoscope korean saju
+- 하위 키워드 KO: 정미년 말띠 운세, 1990년생 2027년 운세, 2002년생 2027년 운세, 1978년생 2027년 운세, 1966년생 운세, 말띠 오미합
+- 하위 키워드 EN: 1990 horse fortune 2027, 2002 horse horoscope 2027, korean zodiac horse 2027 love and career
+- 권장 H2 목차 설계:
+  1. `horse-2027-omihap-meaning`: 질주하던 오화(午火)가 미토(未土)와 손잡는 오미합(午未合): 2026년과의 결정적 차이
+  2. `horse-2027-love-and-contract`: 연애·결혼·장기 계약에서 신뢰할 파트너를 알아보고 관계를 굳히는 법
+  3. `horse-2027-birth-year-table`: 출생연도별 2027년 말띠 운세 (2002 임오·1990 경오·1978 무오·1966 병오·1954 갑오년생 비교)
+  4. `horse-2027-steady-saving`: 들뜨기 쉬운 비겁의 유혹을 잠재우고 식상(미토)으로 목돈을 묻어두는 재테크 습관
+  5. `horse-2027-complacency-check`: 합(合)의 해에 빠지기 쉬운 안주·우유부단함 경계와 명식 전체로 볼 때의 예외
+- 작성 지침: 2026 병오년(자오충·자형·변동)을 겪은 말띠가 2027 정미년에 육합인 오미합(午未合)을 만나 삶과 관계를 안정시키는 대조 구조를 전면에 내세운다.
+
+[ ] 108. 양의 해를 맞은 2027 양띠 운세: 본명년·삼재 오해와 나이별 돌파구
+- slug: `goat-fortune-2027`
+- 카테고리: `saju`
+- 작성 파일: `lib/blog/saju-posts.ts`
+- 권장 seoTitle: `2027년 양띠 운세(정미년): 본명년·삼재 속설 바로잡기와 91·79·67년생 독립운`
+- 권장 seoTitleEn: `Goat (Sheep) Zodiac Fortune 2027: Own-Sign Year Myths, Independence, and Birth-Year Saju Guide`
+- 메인 키워드 KO: 2027년 양띠 운세, 양띠 2027년 운세
+- 메인 키워드 EN: goat zodiac fortune 2027, sheep zodiac 2027 horoscope korean saju
+- 하위 키워드 KO: 정미년 양띠 운세, 1991년생 2027년 운세, 2003년생 2027년 운세, 1979년생 2027년 운세, 1967년생 운세, 2027 양띠 삼재 여부
+- 하위 키워드 EN: 1991 goat fortune 2027, 1979 sheep horoscope 2027, year of the fire goat 2027 luck
+- 권장 H2 목차 설계:
+  1. `goat-2027-own-year-truth`: 2027 정미년, 내 띠의 해(본명년)를 맞은 양띠: 흉년이라는 속설과 실제 사주 원리
+  2. `goat-2027-independence-and-pride`: 미토(未土) 비견과 정화(丁火) 편인이 만날 때: 독립심은 커지고 고집은 조심해야 하는 이유
+  3. `goat-2027-birth-year-table`: 나이별 2027년 양띠 운세 집중 분석 (2003 계미·1991 신미·1979 기미·1967 정미·1955 을미년생)
+  4. `goat-2027-career-specialization`: 남의 판에 휩쓸리지 않고 내 전문 영역과 문서 자산을 굳히는 커리어 전략
+  5. `goat-2027-samjae-and-limits`: 양띠 삼재 오해 바로잡기와 사주 용신에 따라 달라지는 2027년 체감 운세
+- 작성 지침: 2027년의 주인공인 양띠(未土) 특화 글. 본명년(자기 띠의 해)이나 삼재에 대한 막연한 공포를 교정하고, 편인(丁火)+비견(未土) 조합을 자기만의 전문성·문서·독립 기반으로 쓰는 법을 설명.
+
+[ ] 109. 승진·감투운 들어오는 2027년 원숭이띠, 책임 무게를 내 몸값으로 바꾸는 법
+- slug: `monkey-fortune-2027`
+- 카테고리: `saju`
+- 작성 파일: `lib/blog/saju-posts.ts`
+- 권장 seoTitle: `원숭이띠 2027년 운세: 관인상생(官印相生) 승진·합격 흐름과 92·80·68년생 직장운`
+- 권장 seoTitleEn: `Monkey Zodiac 2027 Horoscope: Career Promotion, Exam Luck, and Authority in Korean Saju`
+- 메인 키워드 KO: 2027년 원숭이띠 운세, 원숭이띠 2027년 운세
+- 메인 키워드 EN: monkey zodiac fortune 2027, year of the monkey 2027 horoscope korean saju
+- 하위 키워드 KO: 정미년 원숭이띠 운세, 1992년생 2027년 운세, 1980년생 2027년 운세, 1968년생 2027년 운세, 2004년생 운세, 2027 원숭이띠 직장운
+- 하위 키워드 EN: 1992 monkey fortune 2027, 1980 monkey horoscope 2027, korean zodiac monkey 2027 career
+- 권장 H2 목차 설계:
+  1. `monkey-2027-gwan-in-flow`: 신금(申金)에게 다가온 정화(丁火) 정관과 미토(未土) 정인: 관인상생(官印相生)이 작동하는 해
+  2. `monkey-2027-promotion-and-role`: 직장에서 무거운 감투와 책임이 주어질 때 내 몸값과 권한으로 연결하는 법
+  3. `monkey-2027-birth-year-table`: 출생연도별 2027년 원숭이띠 운세 (2004 갑신·1992 임신·1980 경신·1968 무신·1956 병신년생)
+  4. `monkey-2027-conservative-wealth`: 단기 투기보다 조직 내 보상·자격 취득·안정형 자산이 유리한 구조적 이유
+  5. `monkey-2027-respiratory-and-rest`: 화기(火氣) 압박에 따른 호흡기·수면 관리와 일간별 해석 보정 포인트
+- 작성 지침: 신금(申金) 기준 정미년은 천간 정관(丁火) + 지지 정인(未土)으로 전형적인 관인상생(직장·명예·자격·윗사람 인정) 구도를 이룬다. 단, 미토가 조토(마른 흙)이므로 과로와 완벽주의 압박을 함께 다스리는 법을 제시.
+
+[ ] 110. 예민해진 2027년 닭띠 사주 흐름: 까다로운 과제가 오히려 기회가 되는 조건
+- slug: `rooster-fortune-2027`
+- 카테고리: `saju`
+- 작성 파일: `lib/blog/saju-posts.ts`
+- 권장 seoTitle: `2027년 닭띠 운세: 편관·조토 압박을 커리어 돌파구로 바꾸는 93·81·69년생 전략`
+- 권장 seoTitleEn: `Year of the Rooster 2027 Saju Fortune: Turning High-Pressure Challenges into Professional Mastery`
+- 메인 키워드 KO: 2027년 닭띠 운세, 닭띠 2027년 운세
+- 메인 키워드 EN: rooster zodiac fortune 2027, year of the rooster 2027 horoscope korean saju
+- 하위 키워드 KO: 정미년 닭띠 운세, 1993년생 2027년 운세, 1981년생 2027년 운세, 1969년생 2027년 운세, 2005년생 운세, 2027 닭띠 재물운
+- 하위 키워드 EN: 1993 rooster fortune 2027, 1981 rooster horoscope 2027, korean zodiac rooster 2027 luck
+- 권장 H2 목차 설계:
+  1. `rooster-2027-metal-and-dry-earth`: 보석 같은 유금(酉金)과 뜨거운 정미(丁未)의 만남: 제련의 고통인가 단련의 기회인가
+  2. `rooster-2027-problem-solver-career`: 까다로운 과제와 치열한 평가 속에서 대체 불가능한 실력자로 자리 잡는 법
+  3. `rooster-2027-birth-year-table`: 나이별 2027년 닭띠 운세 상세 비교 (2005 을유·1993 계유·1981 신유·1969 기유·1957 정유년생)
+  4. `rooster-2027-expense-control`: 체면 치레나 스트레스성 소비를 줄이고 편인(未土) 문서운을 실속 있게 쓰는 법
+  5. `rooster-2027-water-remedy`: 메마른 조토(燥土) 기운을 식혀 주는 일상 루틴과 띠 운세의 적용 범위
+- 작성 지침: 같은 금(金) 띠인 원숭이띠(정관·정인)와 달리 닭띠(유금)는 정미년이 편관(丁火)+편인(未土)으로 작용해 예민함과 과제 난이도가 높다. 이를 전문 기술·특수 직무 돌파력으로 전환하는 해법을 다룬다.
+
+[ ] 111. 술미형(戌未刑) 지나가는 개띠 2027년 운세: 가족·동업 갈등 피하는 기준
+- slug: `dog-fortune-2027`
+- 카테고리: `saju`
+- 작성 파일: `lib/blog/saju-posts.ts`
+- 권장 seoTitle: `개띠 2027년 운세: 술미형(戌未刑) 관계 조율과 부동산·계약 문서 점검 포인트`
+- 권장 seoTitleEn: `Dog Zodiac Fortune 2027: Resolving Sul-Mi Friction in Contracts, Family, and Career`
+- 메인 키워드 KO: 개띠 2027년 운세, 2027년 개띠 운세
+- 메인 키워드 EN: dog zodiac fortune 2027, year of the dog 2027 horoscope korean saju
+- 하위 키워드 KO: 정미년 개띠 운세, 1994년생 2027년 운세, 1982년생 2027년 운세, 1970년생 2027년 운세, 2006년생 운세, 개띠 술미형
+- 하위 키워드 EN: 1994 dog fortune 2027, 1982 dog horoscope 2027, korean zodiac dog 2027 fortune
+- 권장 H2 목차 설계:
+  1. `dog-2027-sulmi-friction`: 술토(戌土)와 미토(未土)가 만나는 술미형(戌未刑): 왜 가까운 사이에서 자존심 싸움이 생길까
+  2. `dog-2027-contract-and-realestate`: 문서·부동산·동업 계약에서 말보다 서면 기준을 앞세워야 하는 이유
+  3. `dog-2027-birth-year-table`: 출생연도별 2027년 개띠 운세 (2006 병술·1994 갑술·1982 임술·1970 경술·1958 무술년생)
+  4. `dog-2027-career-adjustment`: 정화(丁火) 정인의 도움으로 직무 재정비·자격 업그레이드를 이루는 전략
+  5. `dog-2027-flexibility-and-limits`: 형살(刑殺)을 성장 동력으로 쓰는 직군 예시와 사주 전체로 볼 때의 예외 기준
+- 작성 지침: 개띠(戌土)와 정미년(未土)이 이루는 술미형(형살)과 비겁 중첩을 다룬다. 형살을 공포스럽게 묘사하지 않고, 조정·법무·계약 검토·리모델링처럼 '다듬고 고치는 일'에 쓰면 오히려 길하다는 실전 해법을 제시.
+
+[ ] 112. 조용히 실속 챙기는 2027년 돼지띠 운세: 정임합·삼합이 만드는 고정 수입
+- slug: `pig-fortune-2027`
+- 카테고리: `saju`
+- 작성 파일: `lib/blog/saju-posts.ts`
+- 권장 seoTitle: `2027년 돼지띠 운세: 해묘미 삼합·정임합으로 보는 95·83·71년생 재물·결혼 흐름`
+- 권장 seoTitleEn: `Year of the Pig 2027 Horoscope: Steady Income, Romance, and Harmony in the Fire Goat Year`
+- 메인 키워드 KO: 2027년 돼지띠 운세, 돼지띠 2027년 운세
+- 메인 키워드 EN: pig zodiac fortune 2027, year of the pig 2027 horoscope korean saju
+- 하위 키워드 KO: 정미년 돼지띠 운세, 1995년생 2027년 운세, 1983년생 2027년 운세, 1971년생 2027년 운세, 2007년생 운세, 2027 돼지띠 재물운
+- 하위 키워드 EN: 1995 pig fortune 2027, 1983 pig horoscope 2027, korean zodiac pig 2027 money and love
+- 권장 H2 목차 설계:
+  1. `pig-2027-harmony-structure`: 해수(亥水) 속 임수(壬水)가 정미(丁未)와 맺는 정임합(丁壬合)과 삼합의 구조
+  2. `pig-2027-steady-income-and-job`: 조직 안착과 고정 수입 강화: 흔들리던 자리를 내 기반으로 굳히는 타이밍
+  3. `pig-2027-birth-year-table`: 나이별 2027년 돼지띠 운세 비교 (2007 정해·1995 을해·1983 계해·1971 신해·1959 기해년생)
+  4. `pig-2027-love-and-marriage`: 정재(丁火)와 정관(未土)이 동시에 들어올 때 연애·결혼·가정운에서 챙길 포인트
+  5. `pig-2027-decision-speed`: 생각이 많아 기회를 놓치는 습관 교정법과 돼지띠 운세 해석의 한계
+- 작성 지침: 돼지띠(亥水, 지장간 무갑임)는 2027 정미년의 정화(丁火)와 암합(정임합)하고 미토(未土)와는 해묘미 삼합의 축을 이루어 재성·관성이 조화롭게 들어오는 해다. 쥐띠(자미원진)와 같은 수(水) 띠라도 왜 돼지띠의 흐름이 훨씬 안정적인지 비교 설명 포함.
+
+---
+
+## ★ 기존 완료 (1~3번)
 
 [완료] 1. 2026 사주 무료 풀이 — 내 사주 직접 보는 법 완전 가이드
 - slug: `free-saju-2026`
