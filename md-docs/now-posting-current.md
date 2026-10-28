@@ -80,6 +80,7 @@ Updated At: 2026-05-31 KST
 | 58 | 입술 색 관상 — 붉은색·창백한색·검붉은색 신호 | `lip-color-reading` |
 | 59 | 손바닥 관상 — 손 크기·두께로 보는 재물운과 실행력 | `palm-shape-reading` |
 | 60 | 준두 관상 — 코끝 살집과 모양으로 보는 돈 관리 습관 | `nose-tip-reading` |
+| 61 | 법령선 관상 — 코 옆 팔자주름 깊이·길이로 보는 책임감과 말년운 | `nasolabial-line-reading` |
 | 64 | 2026 MBTI 운세표 — 병오년 16유형별 주의 키워드 | `mbti-fortune-2026` |
 | 65 | INFP 사주 — 감수성과 편인 기운으로 보는 2026 흐름 | `infp-saju` |
 | 77 | 감정선 시작점과 끊김 — 연애 패턴 손금 해석 | `heart-line-palmistry` |
@@ -88,22 +89,7 @@ Updated At: 2026-05-31 KST
 
 ## 현재 작성 대상
 
-[완료] 60. 준두 관상 — 코끝 살집으로 보는 돈 관리 습관
-- slug: `nose-tip-reading`
-- 카테고리: `face-reading`
-- 작성 파일: `lib/blog/gwansang-posts.ts`
-- 메인 키워드 KO: 준두 관상, 코끝 살집 관상
-- 메인 키워드 EN: nose tip gwansang, nose tip fortune korean face reading
-- 하위 키워드 KO: 코끝 둥글면 관상, 코끝 뾰족하면 관상, 코끝 재물운, 코끝 성격
-- 하위 키워드 EN: round nose tip gwansang, pointed nose tip fortune, nose tip money luck
-- 작성 지침: nose-reading(코 전체)·wealth-face(재물 관상 총론)와 다름. 준두의 살집, 둥근형·뾰족형·들린형 차이를 돈을 모으는 습관과 소비 성향 중심으로 분석.
-- 완료 파일: `lib/blog/gwansang-posts.ts`
-
----
-
-## 다음 작성 예정 상세
-
-[ ] 61. 법령선 관상 — 코 옆 주름으로 보는 책임감과 말년운
+[완료] 61. 법령선 관상 — 코 옆 주름으로 보는 책임감과 말년운
 - slug: `nasolabial-line-reading`
 - 카테고리: `face-reading`
 - 작성 파일: `lib/blog/gwansang-posts.ts`
@@ -112,6 +98,21 @@ Updated At: 2026-05-31 KST
 - 하위 키워드 KO: 코 옆 주름 관상, 법령선 깊으면, 팔자주름 말년운, 법령선 직업운
 - 하위 키워드 EN: deep nasolabial folds fortune, smile line gwansang, face line career luck
 - 작성 지침: health-face(얼굴색/기색)와 겹치지 않도록 얼굴색을 다루지 않는다. 법령선 깊이·길이·좌우 차이와 책임감·말년운 해석 중심.
+- 완료 파일: `lib/blog/gwansang-posts.ts`
+
+---
+
+## 다음 작성 예정 상세
+
+[ ] 62. 손가락 마디 관상 — 길이 비율로 보는 일 처리 방식
+- slug: `finger-reading`
+- 카테고리: `face-reading`
+- 작성 파일: `lib/blog/gwansang-posts.ts`
+- 메인 키워드 KO: 손가락 마디 관상, 손가락 길이 관상
+- 메인 키워드 EN: finger reading gwansang, finger shape fortune korean
+- 하위 키워드 KO: 손가락 길면 관상, 손가락 짧으면 관상, 손가락 두꺼우면 직업, 엄지손가락 관상
+- 하위 키워드 EN: long fingers gwansang, short fingers fortune, thumb shape reading korean
+- 작성 지침: hand-reading(손 전체)과 다름. 손가락 길이 비율, 굵기, 마디, 손톱 모양으로 일 처리 방식과 직업 성향을 분석.
 
 ---
 
@@ -119,7 +120,6 @@ Updated At: 2026-05-31 KST
 
 | 번호 | category | slug | 제목 |
 |---:|---|---|---|
-| 61 | face-reading | `nasolabial-line-reading` | 법령선 관상 — 코 옆 주름으로 보는 책임감과 말년운 |
 | 62 | face-reading | `finger-reading` | 손가락 관상 — 마디와 길이 비율로 보는 일 처리 방식 |
 | 63 | face-reading | `eye-pupil-reading` | 눈동자 관상 — 눈동자 크기와 흰자 비율로 보는 성격 |
 | 66 | mbti | `enfp-saju` | ENFP 사주 — 식상 강한 활동가의 재물·연애 흐름 |

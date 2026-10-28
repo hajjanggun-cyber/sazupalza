@@ -3924,4 +3924,247 @@ export const gwansangPosts: BlogPost[] = distributePublishedDates([
     ],
   },
 
+  {
+    slug: 'nasolabial-line-reading',
+    title: '법령선 관상 — 코 옆 팔자주름 깊이·길이로 보는 책임감과 말년운',
+    seoTitle: '법령선 관상과 팔자주름 뜻: 코 옆 주름 깊이·길이로 보는 직업운과 말년운',
+    seoTitleEn: 'Nasolabial Line Gwansang: Smile Line Face Reading for Career Authority and Late-Life Luck',
+    description: '법령선 관상과 팔자주름 관상을 통해 코 옆 주름의 깊이, 길이, 입가 방향, 좌우 비대칭이 조직 내 책임감과 직업운, 중년 이후 말년운에 어떤 차이를 만드는지 비교합니다.',
+    descriptionEn: 'Discover nasolabial line gwansang and Korean smile line face reading. Learn how deep nasolabial folds, line length, mouth-corner trajectory, and asymmetry reflect career authority, responsibility, and late-life stability.',
+    keywords: ['법령선 관상', '팔자주름 관상', '코 옆 주름 관상', '법령선 깊으면', '팔자주름 말년운', '법령선 직업운'],
+    keywordsEn: ['nasolabial line gwansang', 'smile line face reading korean', 'deep nasolabial folds fortune', 'smile line gwansang', 'face line career luck'],
+    publishedAt: '2026-03-28',
+    category: 'face-reading',
+    contentKo: `
+<section>
+<p>거울을 볼 때 많은 분이 콧망울 양옆에서 입가 아래로 내려오는 주름을 그저 지우고 싶은 노화의 흔적으로만 여깁니다. 하지만 동양 상학에서 바라보는 <strong>법령선 관상</strong>과 <strong>팔자주름 관상</strong>의 시각은 사뭇 다릅니다. 미용적으로는 흔히 팔자(八字) 모양을 닮았다 하여 팔자주름이라 부르지만, 정통 관상학에서는 이 선에 '법 법(法), 명령할 령(令)' 자를 붙여 <strong>법령(法令)</strong>이라는 엄중한 이름을 부여했습니다. 한 사람이 사회 속에서 자기 원칙을 세우고, 타인에게 신뢰를 얻으며, 중년 이후의 삶의 울타리를 얼마나 단단하게 지키는지가 바로 이 <strong>코 옆 주름 관상</strong>에 새겨진다고 보았기 때문입니다.</p>
+
+<p>이 글에서는 얼굴의 혈색이나 피부 톤을 다루는 기색(氣色) 해석은 배제하고, 오직 코 옆에서 입가로 뻗어 내려오는 법령선의 <strong>패인 깊이, 위아래 길이, 입꼬리와의 간격, 그리고 좌우 대칭 여부</strong>에만 집중합니다. 나이에 따라 달라지는 법령선 해석 기준부터 직장에서의 지휘력과 말년 생활 기반을 읽는 방법까지 단계별로 짚어드립니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">🧭 이마 주름·턱선·입 관상과 비교하며 읽을 글</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/face-reading/forehead-wrinkles" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">이마 주름 관상: 초년 사고방식과 일 처리 습관을 보여주는 상단 주름 읽기</a></li>
+    <li style="margin-bottom: 4px;"><a href="/face-reading/mouth-lips" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">입 관상 가이드: 법령선 안쪽에 자리한 입꼬리와 입술 두께 해석법</a></li>
+    <li style="margin-bottom: 4px;"><a href="/face-reading/chin-reading" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">턱끝·턱선 관상: 법령선이 내려와 만나는 하안부의 버티는 힘</a></li>
+  </ul>
+</div>
+
+<h2 id="why-called-beopryeong">왜 코 옆 주름을 법령(法令)이라 부를까: 내 안의 규칙과 사회적 경계선</h2>
+<p>관상학 고전 《마의상법(麻衣相法)》과 《유장상법(柳莊相法)》에서 얼굴 중앙의 코가 '나 자신(自我)'과 재물의 본체를 상징하고, 그 아래 입이 '식록(食祿)과 말의 출입문'을 뜻한다면, 코 양옆에서 입가를 감싸 안으며 내려오는 법령선은 <strong>내 영역과 바깥세상을 구분 짓는 성벽(城壁)이자 울타리</strong>에 해당합니다. 나라에 법령과 규율이 서야 질서가 유지되듯, 얼굴에서도 코와 입 주변을 법령선이 뚜렷하게 호위하고 있어야 자신이 세운 기준과 사회적 권한이 흔들리지 않는다는 원리입니다.</p>
+
+<p>실제로 이 부위는 말을 할 때의 발성 습관, 감정을 절제하며 다문 입매, 그리고 오랜 시간 웃거나 집중할 때 쓰는 중안부 표정 근육의 궤적이 수만 번 반복되며 자리 잡습니다. 따라서 법령선은 하루아침에 우연히 생기는 금이 아니라, 한 사람이 수십 년간 조직과 가정에서 어떤 태도로 책임을 짊어지고 자신의 말을 지켜왔는지를 보여주는 '생활 규율의 나이테'라고 볼 수 있습니다.</p>
+
+<h2 id="deep-nasolabial-age-timing">법령선 깊으면 다 좋을까? 30대 이전과 40대 이후의 해석 차이</h2>
+<p>상담이나 검색에서 가장 많이 나오는 질문 중 하나가 <strong>"법령선 깊으면 관상학적으로 무조건 길한가?"</strong>입니다. 결론부터 말하면 법령선의 깊이는 <strong>그 선이 또렷해지는 연령대</strong>에 따라 해석이 크게 달라집니다. 상학에서는 얼굴 부위마다 운이 작동하는 시기(유년운)를 다르게 배정하는데, 법령선은 대략 40대 중반에서 50대 중반(46~55세 전후)을 기점으로 본격적인 힘을 발휘하는 자리이기 때문입니다.</p>
+
+<h3>1) 20대~30대 초반에 지나치게 깊게 패인 법령선</h3>
+<p>사회 초년기나 30대 이전에 코 옆 주름이 유독 깊고 날카롭게 자리 잡은 경우는, 또래보다 일찍 가장의 무게를 짊어졌거나 스스로에게 지나치게 엄격한 기준을 부과하며 긴장 속에 살아온 흐름으로 읽습니다. 일 처리가 어른스럽고 책임감이 강하다는 장점이 있지만, 내면의 여유가 부족해 쉽게 피로해지거나 윗사람·동료와 원리원칙 문제로 부딪칠 수 있습니다. 이 시기에는 주름이 더 굳어지지 않도록 표정의 긴장을 풀고 완벽주의적 압박을 내려놓는 연습이 중요합니다.</p>
+
+<h3>2) 40대 이후 또렷하고 시원하게 뻗은 법령선</h3>
+<p>반면 중년기에 접어든 40대 이후부터 코 옆에서 입가 바깥쪽으로 선명하고 매끄럽게 자리 잡은 깊은 법령선은 <strong>자신의 전문 분야가 확고해지고 사회적 신망과 통솔력이 무르익었음</strong>을 뜻합니다. 반대로 40대 후반이 넘어서도 법령선 흔적이 거의 보이지 않을 만큼 밋밋하면, 동안(童顔)이라는 미용적 이점은 있을지언정 관상학적으로는 조직을 강하게 장악하거나 공적인 책임을 끝까지 밀어붙이는 결단력이 다소 무른 편으로 해석합니다.</p>
+
+<h2 id="line-length-and-trajectory">코 옆 주름 관상 네 가지 갈래: 입가를 감싸는 선 vs 입으로 들어가는 선</h2>
+<p>법령선은 단순히 깊고 얕음만 보는 것이 아니라, <strong>선이 어디에서 시작해 어느 각도로 끝나는가</strong>를 통해 그 사람의 대인 태도와 말년의 안정도를 세밀하게 나눕니다. 거울을 정면으로 두고 무표정일 때와 살짝 미소 지을 때의 궤적을 아래 네 가지 유형과 비교해 보세요.</p>
+
+<div style="overflow-x: auto; margin: 25px 0;">
+  <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 14px; border: 1px solid rgba(255,255,255,0.15);">
+    <thead>
+      <tr style="background: rgba(200,134,10,0.18); color: #F5D77E; border-bottom: 2px solid rgba(200,134,10,0.4);">
+        <th style="padding: 10px 14px;">법령선 형태 분류</th>
+        <th style="padding: 10px 14px;">선이 뻗어 나가는 모양</th>
+        <th style="padding: 10px 14px;">책임감 및 직업 성향</th>
+        <th style="padding: 10px 14px;">팔자주름 말년운 해석</th>
+        <th style="padding: 10px 14px;">실전 인상·행동 보완점</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
+        <td style="padding: 10px 14px; font-weight: bold; color: #f9d976;">넓은 종(鐘) 모양 확장형</td>
+        <td style="padding: 10px 14px;">콧망울에서 시작해 입꼬리 바깥으로 넓고 길게 뻗음</td>
+        <td style="padding: 10px 14px;">포용력 있는 리더십, 명확한 공사 구분</td>
+        <td style="padding: 10px 14px;">주거·생계 기반이 넓어지고 말년 활동 반경이 큼</td>
+        <td style="padding: 10px 14px;">권위적인 말투만 경계하면 가장 이상적인 흐름</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.02);">
+        <td style="padding: 10px 14px; font-weight: bold; color: #f9d976;">짧고 좁게 멈춘 형</td>
+        <td style="padding: 10px 14px;">입꼬리 높이에 닿기 전에 중간에서 흐려지거나 멈춤</td>
+        <td style="padding: 10px 14px;">실무 적응력은 빠르나 장기 통솔에 부담을 느낌</td>
+        <td style="padding: 10px 14px;">말년에 일을 벌이기보다 단출하고 조용한 생활 선호</td>
+        <td style="padding: 10px 14px;">중장기 계획의 마감 기한과 완주 루틴 세우기</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
+        <td style="padding: 10px 14px; font-weight: bold; color: #f9d976;">입꼬리로 파고드는 형(등사입구)</td>
+        <td style="padding: 10px 14px;">주름 끝이 바깥으로 안 퍼지고 입꼬리 끝과 맞닿음</td>
+        <td style="padding: 10px 14px;">지나친 자기검열, 비관적 걱정, 속앓이형 책임감</td>
+        <td style="padding: 10px 14px;">구설이나 소화기 피로, 대인 고립감을 주의해야 함</td>
+        <td style="padding: 10px 14px;">광대 근육을 옆·위로 당겨 웃는 훈련으로 궤적 완화</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px 14px; font-weight: bold; color: #f9d976;">중간이 끊기거나 잔가지가 많은 형</td>
+        <td style="padding: 10px 14px;">선이 하나로 이어지지 않고 겹선·끊김이 나타남</td>
+        <td style="padding: 10px 14px;">다방면에 관심이 많고 직무·거주지 변화가 잦음</td>
+        <td style="padding: 10px 14px;">중년 전후 커리어 전환기를 거친 뒤 두 번째 기반 형성</td>
+        <td style="padding: 10px 14px;">한 가지 핵심 전문성을 끝까지 남기는 포트폴리오 구축</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<ul>
+  <li><strong>종(鐘) 모양으로 입가를 넉넉히 감싸는 길상:</strong> 법령선이 콧망울 옆에서 출발해 입꼬리에서 손가락 한 마디 정도 바깥쪽으로 여유 있게 벌어지며 턱 쪽으로 시원하게 내려가는 모양은 고전에서 '은종(殷鐘, 큰 종)을 덮어 놓은 형상'이라 하여 으뜸으로 칩니다. 입이라는 식록의 공간이 넓게 확보되어 있어 중년 이후 사회적 입지가 탄탄하고 아랫사람이나 후배들의 지지를 오래 받습니다.</li>
+  <li><strong>법령선이 입으로 들어가는 '등사입구(騰蛇入口)'의 현대적 해석:</strong> 옛 상서에서 가장 경계한 형태는 법령선 끝이 바깥으로 뻗지 않고 안쪽으로 꺾여 입꼬리 끝으로 찔러 들어가는 모양입니다. 과거에는 이를 두고 말년에 먹을 복이 막힌다고 과장해 두려움을 주기도 했으나, 현대 상학과 해부학적 관점에서 보면 이는 <strong>입꼬리를 아래로 끌어내리는 근육(구각하제근)을 습관적으로 강하게 쓰고, 불만이나 긴장으로 입을 앙다무는 표정이 굳어진 결과</strong>입니다. 즉 불길한 저주가 아니라, 대인관계에서의 냉소적인 말버릇이나 만성적인 위장 긴장을 고치라는 생활 경고등으로 읽는 것이 정확합니다.</li>
+</ul>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/ko/gwansang-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">📸 내 법령선 각도와 중·말년 인상 균형 AI 관상으로 확인하기 →</a>
+</div>
+
+<h2 id="career-authority-and-asymmetry">법령선 직업운과 좌우 비대칭이 보여주는 공적 책임·사적 피로</h2>
+<p>직장이나 사업 현장에서 <strong>법령선 직업운</strong>을 볼 때는 이 주름을 '명령의 통로'로 해석합니다. 법령선이 좌우 균형 있게 자리 잡고 끝이 흐트러지지 않은 사람은 감사, 법무, 프로젝트 총괄, 교육, 현장 지휘처럼 명확한 가이드라인을 제시하고 책임을 지는 자리에서 큰 신뢰를 얻습니다. 말에 무게감이 실리기 때문에 본인이 직접 목소리를 높이지 않아도 조직원들이 규율을 따르는 힘이 있습니다.</p>
+
+<p>흥미로운 지점은 <strong>좌우 법령선의 길이와 깊이가 서로 다른 비대칭(짝짝이 팔자주름)</strong>인 경우입니다. 전통 상학에서는 얼굴의 왼쪽과 오른쪽을 공적인 영역과 사적인 영역(또는 대외 활동과 가정 내 역할)으로 나누어 살핍니다.</p>
+
+<ul>
+  <li><strong>한쪽만 유독 깊고 다른 쪽이 얕은 경우:</strong> 밖에서는 철저하고 빈틈없는 리더나 실무자로 행동하지만, 집이나 가까운 관계에서는 감정을 주체하지 못하거나 반대로 한쪽 역할에만 에너지가 과도하게 쏠려 있는 불균형 상태를 시사합니다. 업무적으로는 본업 외에 부업이나 이중 역할을 동시에 수행하며 내적 피로가 쌓여 있을 때도 좌우 편차가 커집니다.</li>
+  <li><strong>생활 습관에서 비롯된 비대칭 점검:</strong> 한쪽 어금니로만 음식을 씹는 편측 저작 습관, 턱을 괴고 모니터를 비스듬히 보는 자세, 혹은 비웃듯 한쪽 입꼬리만 올리는 표정 습관은 수년 내에 좌우 법령선의 높낮이를 틀어지게 만듭니다. 비대칭이 심해지면 초면의 상대방에게 '속내를 알기 어렵다'거나 '예민하고 까다롭다'는 인상을 줄 수 있으므로, 식사 습관과 앉는 자세부터 바로잡는 것이 곧 직업운을 지키는 일입니다.</li>
+</ul>
+
+<h2 id="late-life-fortune-and-habits">팔자주름 말년운의 한계와 표정 근육 습관 점검하기</h2>
+<p><strong>팔자주름 말년운</strong>을 해석할 때 가장 조심해야 할 오류는, 선천적인 골격 구조로 인해 생긴 주름과 후천적 삶의 태도로 만들어진 주름을 구분하지 않고 단정 짓는 것입니다. 예를 들어 상악골(위턱뼈)이 발달했거나 치열 구조상 어릴 때부터 코 옆에 자연스러운 골이 잡히는 체형이 있고, 급격한 체중 감량으로 볼 탄력이 빠져 일시적으로 주름이 깊어 보이는 경우도 있습니다. 이런 구조적·일시적 요인을 두고 "초년 고생상이다" 혹은 "말년운이 어떻다"고 기계적으로 재단하는 것은 상학의 본질을 벗어난 해석입니다.</p>
+
+<p>진짜 좋은 법령선은 주름이 아예 없는 매끈한 상태가 아니라, <strong>웃을 때 볼과 광대 근육이 위쪽과 바깥쪽으로 탄력 있게 당겨지며 입가를 넉넉하게 감싸는 선</strong>입니다. 평소 스마트폰을 보며 고개를 숙인 채 무표정하게 입가를 늘어뜨리고 있으면 법령선이 좁고 날카롭게 입꼬리 쪽으로 처지기 쉽습니다. 하루 세 번 거울 앞에서 어금니의 힘을 빼고, 입꼬리와 뺨의 바깥쪽 근육을 함께 대각선 위로 끌어올리는 표정 스트레칭을 실천해 보세요. 코 옆에서 입가로 흐르는 선의 방향이 부드럽고 넓게 정돈될 때, 타인에게 주는 신뢰감은 물론 중년 이후를 지탱하는 생활의 중심축도 함께 단단해집니다.</p>
+</section>
+    `,
+    contentEn: `
+<section>
+<p>In modern skincare culture, the creases running from the sides of the nostrils down toward the corners of the mouth are almost universally treated as unwelcome signs of aging. Yet in traditional Korean physiognomy (Gwansang, 觀相學), examining <strong>nasolabial line gwansang</strong> and <strong>smile line face reading korean</strong> reveals a vastly different perspective. Rather than calling them mere wrinkles, classical masters named these grooves <strong>Beop-ryeong (法令)—literally "Laws and Decrees."</strong> Far from being a cosmetic flaw, these lines represent an individual's internal code of conduct, professional authority, social accountability, and the structural boundary that protects late-life stability.</p>
+
+<p>To keep our analysis focused and practical, this guide sets aside facial complexion or skin-tone readings and concentrates exclusively on the physical geometry of the nasolabial folds: their <strong>etched depth, vertical length, trajectory relative to the mouth corners, and left-right symmetry</strong>. Below, we explore why age timing transforms the meaning of deep folds, how specific line paths reflect career command, and how everyday facial habits shape your long-term presence.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">🧭 Compare with Forehead Lines, Jawline, and Mouth Contours</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/face-reading/forehead-wrinkles" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Forehead Wrinkles Gwansang: What Upper Facial Lines Reveal About Thinking Habits</a></li>
+    <li style="margin-bottom: 4px;"><a href="/face-reading/mouth-lips" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Korean Mouth &amp; Lip Reading: Interpreting the Gateway Inside Your Smile Lines</a></li>
+    <li style="margin-bottom: 4px;"><a href="/face-reading/chin-reading" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Chin and Jawline Reading: The Lower-Face Foundation Where Smile Lines Meet</a></li>
+  </ul>
+</div>
+
+<h2 id="why-called-beopryeong">Why Nose-to-Mouth Creases Are Called "Laws and Decrees" in Gwansang</h2>
+<p>In foundational physiognomic texts such as the <em>Maui Sangbeop (麻衣相法)</em> and <em>Ryujang Sangbeop (柳莊相法)</em>, the central nose symbolizes the self and one's core treasury, while the mouth represents the gateway of speech, nourishment, and social promises. Flanking both features, the nasolabial lines act as <strong>protective city walls and regulatory boundaries</strong>. Just as a community requires fair laws and clear boundaries to preserve order, the mid-to-lower face relies on well-defined Beop-ryeong lines to channel ambition into disciplined execution.</p>
+
+<p>From an anatomical and behavioral standpoint, this interpretation makes intuitive sense. Nasolabial folds do not appear at random; they are sculpted over decades by how a person speaks, how firmly they set their jaw under pressure, and how genuinely they engage their zygomatic muscles when interacting with others. In Korean face reading, these creases serve as a visible record of self-governance—showing whether someone follows through on commitments and maintains clear personal boundaries.</p>
+
+<h2 id="deep-nasolabial-age-timing">Are Deep Nasolabial Folds Always Lucky? Why Age Timing Changes the Reading</h2>
+<p>One of the most frequent questions in <strong>deep nasolabial folds fortune</strong> is whether deeper lines automatically guarantee stronger authority and wealth. In authentic Gwansang, depth must always be evaluated alongside <strong>chronological timing</strong>, because the nasolabial region primarily governs the transition from mid-life into later adulthood (roughly ages 46 to 55 and beyond).</p>
+
+<h3>1) Deeply Etched Lines Before Age 30: Early Burdens and High Self-Pressure</h3>
+<p>When pronounced, stationary nasolabial grooves appear in a person's twenties or early thirties—even when the face is completely at rest—traditional readers interpret this as a sign of premature responsibility. Individuals with early deep lines often stepped into adult obligations ahead of their peers, carry intense perfectionist standards, or operate under chronic workplace tension. While they are frequently praised for maturity and reliability, they risk early burnout or friction with authority figures if they become overly rigid. Consciously relaxing jaw tension and sharing workloads is essential during this phase.</p>
+
+<h3>2) Clear, Defined Lines After Age 40: Mature Authority and Earned Trust</h3>
+<p>Once a person enters their forties, well-formed nasolabial lines that sweep cleanly downward become a highly favorable hallmark. At this stage of life, distinct Beop-ryeong lines indicate that decades of experience have crystallized into recognizable expertise, organizational command, and stable boundaries. Conversely, if the nasolabial area remains completely flat and indistinct well past middle age, the person may look youthful but often prefers flexible, non-managerial roles over heavy executive accountability.</p>
+
+<h2 id="line-length-and-trajectory">Four Trajectories in Smile Line Gwansang: Wide Bell Lines vs Mouth-Entering Lines</h2>
+<p>Beyond depth, <strong>smile line gwansang</strong> places major emphasis on the <strong>angle, width, and endpoint</strong> of the creases. Observing how the lines curve past the mouth corners reveals how expansively or defensively a person navigates social and late-life environments.</p>
+
+<div style="overflow-x: auto; margin: 25px 0;">
+  <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 14px; border: 1px solid rgba(255,255,255,0.15);">
+    <thead>
+      <tr style="background: rgba(200,134,10,0.18); color: #F5D77E; border-bottom: 2px solid rgba(200,134,10,0.4);">
+        <th style="padding: 10px 14px;">Smile Line Trajectory</th>
+        <th style="padding: 10px 14px;">Visual Contour</th>
+        <th style="padding: 10px 14px;">Responsibility &amp; Work Style</th>
+        <th style="padding: 10px 14px;">Late-Life Fortune Reading</th>
+        <th style="padding: 10px 14px;">Practical Alignment Tip</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
+        <td style="padding: 10px 14px; font-weight: bold; color: #f9d976;">Wide Bell-Shaped Curve</td>
+        <td style="padding: 10px 14px;">Sweeps generously outside mouth corners toward the chin</td>
+        <td style="padding: 10px 14px;">Balanced leadership, clear principles, high trust</td>
+        <td style="padding: 10px 14px;">Broad social support and stable late-life foundation</td>
+        <td style="padding: 10px 14px;">Pair firm standards with open listening</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.02);">
+        <td style="padding: 10px 14px; font-weight: bold; color: #f9d976;">Short &amp; Early-Stopping Line</td>
+        <td style="padding: 10px 14px;">Fades out above the level of the mouth corners</td>
+        <td style="padding: 10px 14px;">Agile hands-on contributor, dislikes heavy bureaucracy</td>
+        <td style="padding: 10px 14px;">Prefers a simplified, independent lifestyle later in life</td>
+        <td style="padding: 10px 14px;">Build structured follow-through systems for long projects</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
+        <td style="padding: 10px 14px; font-weight: bold; color: #f9d976;">Mouth-Entering Line (Deungsa-ipgu)</td>
+        <td style="padding: 10px 14px;">Curves inward and terminates directly at the mouth corners</td>
+        <td style="padding: 10px 14px;">Internalized worry, perfectionist stress, guarded speech</td>
+        <td style="padding: 10px 14px;">Signals risk of social isolation or digestive tension if unchecked</td>
+        <td style="padding: 10px 14px;">Practice outward cheek-lifting smiles to widen the path</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px 14px; font-weight: bold; color: #f9d976;">Broken or Branched Line</td>
+        <td style="padding: 10px 14px;">Interrupted segments or multiple overlapping small creases</td>
+        <td style="padding: 10px 14px;">Versatile interests, frequent shifts in role or environment</td>
+        <td style="padding: 10px 14px;">Mid-life career pivot followed by a second specialized track</td>
+        <td style="padding: 10px 14px;">Consolidate scattered skills into one core discipline</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<ul>
+  <li><strong>The Auspicious Bell Shape (Expanding Enclosure):</strong> When the lines flare outward like a temple bell, leaving comfortable breathing room outside the corners of the mouth before descending toward the lower jaw, classical texts praise the contour as a sign of generous authority. The mouth sits inside a spacious courtyard, symbolizing ample room for social allies, steady income, and respected mentorship in one's fifties and sixties.</li>
+  <li><strong>Demystifying the "Snake Entering the Mouth" (Deungsa-ipgu, 騰蛇入口):</strong> Traditional manuals warn against nasolabial folds that hook inward to touch the exact corners of the lips, historically calling it a sign of restricted nourishment in old age. Rather than treating this as superstitious doom, modern physiognomy views it through functional anatomy: lines cut into the mouth corners when a person habitually pulls their lips downward in skepticism, suppresses frustration, or loses mid-face muscular lift. It serves as a practical cue to soften cynical speech patterns, release chronic jaw clenching, and engage the upper cheek muscles when smiling.</li>
+</ul>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en/gwansang-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">📸 Analyze Your Smile Line Balance and Mid-to-Late Life Features with AI Gwansang →</a>
+</div>
+
+<h2 id="career-authority-and-asymmetry">Face Line Career Luck and What Left-Right Asymmetry Signals About Role Strain</h2>
+<p>When evaluating <strong>face line career luck</strong>, Korean readers examine whether the two nasolabial grooves form a balanced pair. Symmetrical, uninterrupted lines correlate with steadiness in professions built on compliance, standards, and public trust—such as legal practice, quality assurance, medicine, institutional management, and civil service. Because their facial expression projects consistency, people with balanced Beop-ryeong lines naturally command respect without needing to micromanage.</p>
+
+<p>What if one side is noticeably deeper, longer, or angled differently than the other? In Gwansang, left-right asymmetry in the nasolabial folds highlights a tension between <strong>public duty and private emotional life</strong>:</p>
+
+<ul>
+  <li><strong>Divergent Public vs. Private Personas:</strong> A sharp disparity between the left and right folds often appears when an individual maintains ironclad self-control at work while feeling depleted or unsupported at home—or when someone juggles two conflicting career tracks simultaneously.</li>
+  <li><strong>Biomechanical and Habitual Causes:</strong> On a physical level, asymmetric smile lines are frequently reinforced by unilateral chewing (favoring one side of the jaw during meals), resting the chin on one hand at a desk, or a habitual half-smirk. Over time, this muscular imbalance can make a person's neutral expression appear guarded or sarcastic during high-stakes meetings. Restoring bilateral chewing habits and balanced posture directly improves both facial symmetry and first-impression credibility.</li>
+</ul>
+
+<h2 id="late-life-fortune-and-habits">Late-Life Fortune Limits and How Daily Expression Habits Shape Your Lines</h2>
+<p>A critical principle of responsible face reading is recognizing the boundaries of morphological interpretation. Not every deep nasolabial fold is etched by personality or fate. Congenital maxillary bone projection, dental alignment, and rapid weight changes can all create prominent creases around the nose regardless of age or temperament. Judging someone's late-life fortune solely from a single wrinkle without considering their overall bone structure, vocal steadiness, and eye clarity leads to inaccurate conclusions.</p>
+
+<p>Ultimately, the most favorable Beop-ryeong line is not an artificially frozen, line-free face, but a crease shaped by <strong>upward and outward engagement of the cheek muscles</strong>. Looking down at mobile screens for hours with a slack jaw encourages the mid-face tissue to droop inward toward the mouth corners. Taking a moment each day to relax the masseter muscles and practice a warm, cheek-lifting smile gradually trains the nasolabial trajectory outward—projecting the grounded reliability and openness that sustain strong relationships well into later life.</p>
+</section>
+    `,
+    toc: [
+      { id: 'why-called-beopryeong', title: '왜 코 옆 주름을 법령(法令)이라 부를까: 내 안의 규칙과 경계선' },
+      { id: 'deep-nasolabial-age-timing', title: '법령선 깊으면 다 좋을까? 30대 이전과 40대 이후의 해석 차이' },
+      { id: 'line-length-and-trajectory', title: '코 옆 주름 관상 네 가지 갈래: 입가를 감싸는 선 vs 입으로 들어가는 선' },
+      { id: 'career-authority-and-asymmetry', title: '법령선 직업운과 좌우 비대칭이 보여주는 공적 책임·사적 피로' },
+      { id: 'late-life-fortune-and-habits', title: '팔자주름 말년운의 한계와 표정 근육 습관 점검하기' },
+    ],
+    tocEn: [
+      { id: 'why-called-beopryeong', title: 'Why Nose-to-Mouth Creases Are Called Laws and Decrees' },
+      { id: 'deep-nasolabial-age-timing', title: 'Are Deep Nasolabial Folds Always Lucky? Age Timing Differences' },
+      { id: 'line-length-and-trajectory', title: 'Four Trajectories: Wide Bell Lines vs Mouth-Entering Lines' },
+      { id: 'career-authority-and-asymmetry', title: 'Face Line Career Luck and Left-Right Asymmetry Signals' },
+      { id: 'late-life-fortune-and-habits', title: 'Late-Life Fortune Limits and Daily Expression Habits' },
+    ],
+    faq: [
+      { q: '법령선 관상이 모든 사람에게 똑같이 적용되지 않는 이유는 무엇인가요?', a: '치열이나 위턱뼈(상악골)의 선천적인 돌출도, 볼살의 두께, 혹은 최근의 급격한 체중 감량에 따라 나이나 성격과 무관하게 팔자주름이 깊어 보일 수 있기 때문입니다. 따라서 무표정일 때 뼈대 때문에 생기는 그림자인지, 아니면 평소 표정 근육 습관과 중년 이후의 생활 태도가 만든 주름인지를 먼저 구분해 참고해야 합니다.' },
+      { q: '시술이나 마사지로 팔자주름을 옅게 관리하면 법령선 직업운이 약해지나요?', a: '그렇지 않습니다. 관상학에서 중시하는 법령선의 힘은 주름 골이 파인 노화 자국 자체가 아니라, 말하고 웃을 때 입가 바깥을 단단하게 지탱하는 중안부 근육의 탄력과 표정의 일관성에서 나옵니다. 인상을 어둡고 피곤하게 만드는 처진 골을 보습이나 리프팅 관리로 정돈하면 오히려 대인 신뢰도와 첫인상에 긍정적인 도움이 됩니다.' },
+      { q: '법령선이 입꼬리로 들어가는 형태인데 평소 어떤 습관을 고치면 좋을까요?', a: '주름 끝이 입꼬리로 모이는 경우는 무의식중에 입꼬리를 아래로 당기거나 입술에 힘을 주어 다무는 습관과 연결된 경우가 많습니다. 대화를 나눌 때 입술 양끝만 당기지 말고 광대뼈 아래 큰 볼 근육을 바깥쪽 위로 함께 들어 올리는 미소를 연습하면, 입가 주변의 긴장이 풀리면서 주름의 방향도 자연스럽게 바깥쪽으로 완만해집니다.' },
+    ],
+    faqEn: [
+      { q: 'Why does nasolabial line gwansang not apply identically to everyone with deep smile lines?', a: 'Because anatomical factors such as congenital maxillary bone structure, dental alignment, or sudden weight loss can create prominent folds around the nose regardless of a person’s age or work ethic. Accurate face reading distinguishes between structural bone shadows present since youth and expression lines etched over decades of habitual tension or leadership.' },
+      { q: 'Does softening deep nasolabial folds through skincare or massage weaken my career luck?', a: 'No. In Korean physiognomy, the authority of the Beop-ryeong area comes from healthy mid-face muscle tone and composed facial expression, not from sagging skin or deep dehydration creases. Relieving harsh downward droop through proper hydration, posture, or conservative care actually brightens your demeanor and improves professional rapport.' },
+      { q: 'What daily habit helps if my smile lines curve inward toward the corners of my mouth?', a: 'Lines that angle directly into the mouth corners are often reinforced by habitual jaw clenching or pulling the corners of the lips downward when concentrating. Practicing a relaxed bite and engaging the upper cheek muscles (lifting upward and outward rather than pinching the lips) gradually relieves perioral tension and encourages a wider, more open contour.' },
+    ],
+    relatedPosts: [
+      { slug: 'forehead-wrinkles', category: 'face-reading', title: '관상 이마 주름: 주름 위치로 보는 운세와 성격 분석' },
+      { slug: 'mouth-lips', category: 'face-reading', title: '입 관상 가이드: 입꼬리와 입술 두께로 보는 나의 말년운과 애정운' },
+    ],
+  },
+
 ], '2026-01-08', 4, '2026-02-12', 1);

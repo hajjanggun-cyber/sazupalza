@@ -584,7 +584,7 @@
 - 하위 키워드 EN: round nose tip gwansang, pointed nose tip fortune, nose tip money luck
 - 작성 지침: nose-reading(코 전체)·wealth-face(재물 관상 총론)와 다름. 준두의 살집, 둥근형·뾰족형·들린형 차이를 돈을 모으는 습관과 소비 성향 중심으로 분석.
 
-[ ] 61. 법령선 관상 — 코 옆 주름으로 보는 책임감과 말년운
+[완료] 61. 법령선 관상 — 코 옆 주름으로 보는 책임감과 말년운
 - slug: `nasolabial-line-reading`
 - 카테고리: `face-reading`
 - 메인 키워드 KO: 법령선 관상, 팔자주름 관상
