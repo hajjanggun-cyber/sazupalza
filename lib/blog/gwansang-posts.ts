@@ -3677,4 +3677,251 @@ export const gwansangPosts: BlogPost[] = distributePublishedDates([
     ],
   },
 
+  {
+    slug: 'nose-tip-reading',
+    title: '준두 관상 — 코끝 살집과 모양으로 보는 돈 관리 습관',
+    seoTitle: '준두 관상과 코끝 살집 해석: 둥근 코끝·뾰족한 코끝으로 보는 돈 관리 습관',
+    seoTitleEn: 'Nose Tip (Jundu) Gwansang: Round vs Pointed Nose Tip and Money Luck in Korean Face Reading',
+    description: '준두 관상과 코끝 살집 관상을 중심으로 코끝이 둥글 때, 뾰족할 때, 들렸을 때 달라지는 돈 관리 습관과 소비 성향을 비교합니다. 코 전체 관상과 구별되는 준두·콧망울 균형과 일상 관리 포인트를 확인하세요.',
+    descriptionEn: 'Explore nose tip gwansang (Jundu) in Korean face reading. Compare how a round nose tip, pointed nose tip, or upturned tip reflects saving habits, spending triggers, and practical financial discipline.',
+    keywords: ['준두 관상', '코끝 살집 관상', '코끝 둥글면 관상', '코끝 뾰족하면 관상', '코끝 재물운', '코끝 성격'],
+    keywordsEn: ['nose tip gwansang', 'nose tip fortune korean face reading', 'round nose tip gwansang', 'pointed nose tip fortune', 'nose tip money luck'],
+    publishedAt: '2026-03-27',
+    category: 'face-reading',
+    contentKo: `
+<section>
+<p>콧대가 아무리 높고 시원하게 뻗어 있어도 정작 손에 쥐는 현금이 늘 부족하다면, 시선을 콧등이 아니라 코의 가장 끝부분인 <strong>준두(準頭)</strong>로 옮겨야 합니다. 동양 상학에서 콧대(산근·연상·수상)가 사회적 자존심과 돈을 벌어들일 기회를 밀어붙이는 추진력을 뜻한다면, <strong>준두 관상</strong>과 <strong>코끝 살집 관상</strong>은 들어온 수입을 어떤 방식으로 굴리고 통제하며 내 자산으로 남기는지 보여주는 실전 금고 지표에 해당합니다. 소득 규모 자체보다 '돈이 머무는 체류 시간'과 '지출을 결정하는 심리적 브레이크'가 바로 코끝의 두께와 탄력에 응축되어 있기 때문입니다.</p>
+
+<p>이 글은 코의 시작점부터 콧대 전체의 굴곡을 다루는 코 전체 관상이나 코·입·귀를 묶어 설명하는 재물 관상 총론과 분석 범위를 명확히 구분합니다. 오직 코끝인 준두의 살집 밀도, 둥근형·뾰족형·들린형·처진형의 각도 차이, 그리고 준두를 양옆에서 받쳐주는 콧망울(난대·정위)과의 지지 구조에만 초점을 맞춰, 각 형태가 일상적인 소비 습관과 금전 의사결정에서 어떤 차이를 만드는지 구체적으로 짚어봅니다.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📌 코 전체 관상·재물 총론과 먼저 구분해 보기</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/face-reading/nose-reading" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">코 관상 가이드: 산근·콧대·코 모양 전체로 보는 중년운과 자존심</a></li>
+    <li style="margin-bottom: 4px;"><a href="/face-reading/wealth-face" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">재물 관상 정리: 코·입·귀 세 부위가 맞물리는 돈복의 기본 구조</a></li>
+    <li style="margin-bottom: 4px;"><a href="/face-reading/cheek-reading" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">볼살 관상: 협골 주변 살집으로 읽는 대인 친화력과 지출 방어력</a></li>
+  </ul>
+</div>
+
+<h2 id="jundu-flesh-meaning">준두 관상에서 코끝 살집을 재물 금고의 바닥으로 보는 이유</h2>
+<p>전통 상학 고전인 《마의상법(麻衣相法)》과 《신상전편(神相全編)》에서는 코를 오악(五嶽) 가운데 얼굴 한가운데 우뚝 선 중악(中嶽)으로 삼고, 그중에서도 코끝인 준두를 오행상 <strong>토(土) 기운이 응집되는 중심점</strong>으로 해석합니다. 사주와 상학 모두에서 토(土)는 만물을 받아들이고 저장하며 중재하는 땅의 성질을 뜻합니다. 땅에 흙이 두텁고 촉촉해야 작물이 뿌리를 내리듯, 준두에 알맞은 살집과 탄력이 뒷받침되어야 외부에서 흘러들어온 소득이 단기 소비로 증발하지 않고 종잣돈으로 정착할 수 있다는 원리입니다.</p>
+
+<p>여기서 핵심은 단순한 코끝의 가로 폭이 아니라 <strong>살집의 밀도와 복원력</strong>입니다. 거울을 정면과 측면에서 보았을 때 코끝이 연골 윤곽만 날카롭게 드러나지 않고, 손끝으로 가볍게 눌렀을 때 말랑하면서도 단단하게 되돌아오는 탄성(彈性)이 느껴지는 상태가 이상적인 코끝 살집 관상으로 꼽힙니다. 반대로 코끝 피부가 지나치게 팽팽하게 당겨져 뼈와 연골 경계가 그대로 비치거나, 살집은 크지만 힘이 없이 물러 보이면 금전 계획에서 완충 지대가 부족해 예산 초과나 예상치 못한 지출에 흔들리기 쉽습니다.</p>
+
+<h2 id="round-vs-pointed-nose-tip">코끝 둥글면 관상 vs 코끝 뾰족하면 관상: 저축 습관과 소비 성향 비교</h2>
+<p>사람마다 돈을 벌고 쓰는 방식이 다르듯, 코끝의 생김새에 따라 현금 흐름을 다루는 기본 태도도 뚜렷하게 갈립니다. 특히 검색자가 가장 자주 비교하는 <strong>코끝 둥글면 관상</strong>과 <strong>코끝 뾰족하면 관상</strong>은 어느 쪽이 무조건 우월하다기보다, 돈을 모으는 방식과 주의해야 할 지출 함정이 서로 정반대에 가깝습니다.</p>
+
+<h3>1) 코끝이 둥글고 도톰한 형: 생활 밀착형 축적과 안전 마진 확보</h3>
+<p>준두가 방울이나 작은 주머니처럼 둥글고 살집이 고르게 차오른 유형은 금전을 대할 때 '실질적인 안전 마진'을 최우선에 둡니다. 당장 수익률이 높아 보이는 공격적 제안보다 원금 보존과 꾸준한 현금 흐름을 선호하며, 생활비·비상금·저축 통장을 본능적으로 분리해 관리하는 성향이 강합니다. 대인관계에서도 이해득실을 날카롭게 따지기보다 넉넉하게 타협점을 찾는 편이라 거래처나 동료와의 장기적인 신뢰를 통해 안정적인 수입원을 넓혀 갑니다.</p>
+<p>다만 코끝이 둥글더라도 지나치게 뭉툭하고 무거워 보이면 의사결정 속도가 느려져, 꼭 처분해야 할 손실 자산을 제때 정리하지 못하거나 지인의 부탁을 거절하지 못해 정(情)에 끌려다니는 지출이 발생할 수 있습니다. 따라서 인정에 의한 금전 거래 원칙만 명확히 세워두면 가장 안정적으로 자산을 불리는 유형입니다.</p>
+
+<h3>2) 코끝이 뾰족하고 날렵한 형: 심미적 안목과 고감도 가치 소비</h3>
+<p>코끝에 살집이 적고 끝이 샤프하게 모이는 형태는 직관력과 분석력이 예리하며, 자신이 가치를 두는 분야에 자원을 집중 투하하는 스타일입니다. 유행이나 남들의 기준에 휩쓸리기보다 본인의 미적 기준, 전문성, 취향이 확실하여 브랜딩, 디자인, 예술, 기획, 전문 컨설팅처럼 날카로운 판단이 필요한 영역에서 높은 부가가치를 창출합니다.</p>
+<p>그러나 재물 관리 측면에서는 '감정 및 취향에 따른 집중 지출'이 가장 큰 변수로 작용합니다. 평소에는 사소한 지출도 꼼꼼히 따지다가도, 한 번 마음을 빼앗긴 고가 장비, 취미, 혹은 단기 프로젝트에는 예산을 훌쩍 뛰어넘는 금액을 단번에 결제하는 패턴이 나타나기 쉽습니다. 또한 코끝 살집이라는 완충재가 얇다 보니 현금을 손에 쥐고 있으면 계좌 이동이 잦아지므로, 수입이 발생하는 즉시 일정 비율을 중도 인출이 까다로운 계좌로 자동 이체해 두는 구조적 장치가 큰 도움이 됩니다.</p>
+
+<div style="overflow-x: auto; margin: 25px 0;">
+  <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 14px; border: 1px solid rgba(255,255,255,0.15);">
+    <thead>
+      <tr style="background: rgba(200,134,10,0.18); color: #F5D77E; border-bottom: 2px solid rgba(200,134,10,0.4);">
+        <th style="padding: 10px 14px;">준두(코끝) 형태</th>
+        <th style="padding: 10px 14px;">외형 및 살집 특징</th>
+        <th style="padding: 10px 14px;">돈을 모으는 방식</th>
+        <th style="padding: 10px 14px;">자주 나타나는 소비 변수</th>
+        <th style="padding: 10px 14px;">맞춤형 금전 관리 루틴</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
+        <td style="padding: 10px 14px; font-weight: bold; color: #f9d976;">둥글고 도톰한 준두</td>
+        <td style="padding: 10px 14px;">연골을 감싼 풍성하고 탄력 있는 살집</td>
+        <td style="padding: 10px 14px;">꾸준한 적립, 실물·안전자산 선호</td>
+        <td style="padding: 10px 14px;">거절 못 해 나가는 인간관계 비용</td>
+        <td style="padding: 10px 14px;">지인 간 금전 대여 한도·원칙 명문화</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.02);">
+        <td style="padding: 10px 14px; font-weight: bold; color: #f9d976;">뾰족하고 날렵한 준두</td>
+        <td style="padding: 10px 14px;">살집이 얇고 코끝 각도가 샤프함</td>
+        <td style="padding: 10px 14px;">전문성·안목 기반의 고수익 창출</td>
+        <td style="padding: 10px 14px;">취향·장비·완벽주의에 따른 고액 지출</td>
+        <td style="padding: 10px 14px;">소득 입금 당일 선(先)저축 자동화</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
+        <td style="padding: 10px 14px; font-weight: bold; color: #f9d976;">위로 살짝 들린 준두</td>
+        <td style="padding: 10px 14px;">코끝이 들려 정면에서 비공이 노출됨</td>
+        <td style="padding: 10px 14px;">빠른 자금 회전, 활동적 현금 창출</td>
+        <td style="padding: 10px 14px;">기분파 소비, 계획 없는 즉흥 결제</td>
+        <td style="padding: 10px 14px;">체크카드 주력 사용, 24시간 결제 보류제</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px 14px; font-weight: bold; color: #f9d976;">아래로 처진 준두</td>
+        <td style="padding: 10px 14px;">코끝이 인중 쪽으로 숙여져 비공을 가림</td>
+        <td style="padding: 10px 14px;">철저한 계산, 손익 검토 후 보수적 집행</td>
+        <td style="padding: 10px 14px;">지나친 경계심으로 인한 기회비용 손실</td>
+        <td style="padding: 10px 14px;">검증된 범위 내 소액 분산 투자 훈련</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/ko/gwansang-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">📸 내 코끝(준두) 비율과 중년 재물 흐름 AI 관상으로 점검하기 →</a>
+</div>
+
+<h2 id="nose-tip-angle-and-wings">들린 코끝·처진 코끝과 콧망울 조화로 읽는 코끝 재물운</h2>
+<p><strong>코끝 재물운</strong>을 한 단계 더 정밀하게 읽으려면 준두의 정면 모양뿐 아니라 <strong>측면에서 본 코끝의 각도</strong>와 양옆 <strong>콧망울(난대·정위)의 감싸는 힘</strong>을 함께 살펴야 합니다. 준두가 금고의 본체라면, 콧망울은 금고 양옆을 지탱하는 외벽이고 콧구멍(비공)은 현금이 드나드는 출입문이기 때문입니다.</p>
+
+<ul>
+  <li><strong>코끝이 위로 들려 출입문이 열린 구조:</strong> 코끝이 위쪽으로 들려 정면에서 콧구멍이 넓게 보이면 대인관계가 개방적이고 솔직하며 주변에 사람을 모으는 매력이 있습니다. 하지만 금전적으로는 '들어온 돈을 통장에 오래 묶어두기 답답해하는 기질'로 이어지기 쉬워, 모임 비용을 도맡아 내거나 분위기 파악보다 앞선 선심성 지출로 현금이 빠져나가기 쉽습니다.</li>
+  <li><strong>코끝이 아래로 살짝 숙여진 구조:</strong> 준두가 인중 방향을 향해 살짝 내려앉아 정면에서 콧구멍이 거의 보이지 않는 형태는 자금 보안 의식이 매우 강합니다. 내 통장의 잔고나 자산 상태를 타인에게 절대 쉽게 드러내지 않으며, 투자나 계약을 앞두고 돌다리도 여러 번 두드려 보는 신중함을 발휘합니다. 다만 계산이 지나쳐 주변에 인색하다는 인상을 주면 장기적인 사업 파트너십에서 손해를 볼 수 있으므로 적절한 베풂의 예산을 따로 책정해 두는 편이 유리합니다.</li>
+  <li><strong>준두와 콧망울의 주객 관계:</strong> 코끝(준두)은 도톰한데 양옆 콧망울이 너무 얇아 힘을 받지 못하면, 본인은 열심히 버는데 가족이나 주변 환경 문제로 목돈이 새어나가는 현상이 생기기 쉽습니다. 반대로 콧망울만 옆으로 과하게 퍼지고 정작 가운데 준두가 납작하게 꺼져 있으면, 주변에 돈이 도는 판은 크게 벌이면서도 정작 내 몫의 실속을 챙기는 마무리가 약해질 수 있습니다.</li>
+</ul>
+
+<h2 id="nose-tip-personality-work">코끝 성격이 계약·협상·일상 지출에서 드러나는 순간</h2>
+<p>관상학에서 말하는 <strong>코끝 성격</strong>은 막연한 심리 테스트가 아니라, 이해관계가 얽힌 실전 협상과 일상 지출의 마지막 순간에 어떤 선택을 내리는가를 보여줍니다. 코는 얼굴에서 가장 앞으로 돌출된 부위인 만큼, 타인과 마주 앉았을 때 무의식적인 자기주장과 방어 기제를 대변합니다.</p>
+
+<p>예를 들어 중요한 연봉 협상이나 매매 계약 테이블에 앉았을 때, 준두가 둥글고 탄탄한 사람은 당장의 일회성 이익보다 계약 이후의 지속 가능성과 상호 안전장치를 먼저 확인합니다. 상대방을 코너로 몰아붙이기보다 쌍방이 납득할 수 있는 중간 지점을 찾아 계약을 성사시키는 조율 능력이 뛰어납니다. 반면 코끝이 뾰족하거나 각이 선명한 사람은 계약서의 세부 조항, 품질 기준, 납기일 같은 디테일에서 한 치의 오차도 허용하지 않는 명확함을 보입니다. 이처럼 자신의 코끝이 가진 기질적 강점을 알면, 둥근 코끝을 가진 사람은 세부 계약 조건 검토를 보강하고, 뾰족한 코끝을 가진 사람은 협상 막바지의 유연한 태도를 의식적으로 챙김으로써 금전적 손실을 예방할 수 있습니다.</p>
+
+<h2 id="jundu-condition-and-care">피지·붉은기·건조함이 보내는 신호와 준두 인상 관리법</h2>
+<p>타고난 코끝의 연골 모양이나 살집 두께를 하루아침에 바꿀 수는 없지만, 관상학에서 형태 못지않게 중시하는 <strong>준두의 기색(氣色, 피부 빛깔과 윤기)</strong>은 생활 습관과 세심한 관리로 언제든 개선할 수 있습니다. 특히 코끝은 피지선이 밀집해 있고 모세혈관 반응이 빨라, 현재 내 몸의 피로도와 금전적 긴장 상태가 가장 먼저 올라오는 계기판 역할을 합니다.</p>
+
+<ul>
+  <li><strong>코끝의 붉은기(화소중당, 火燒中堂) 진정시키기:</strong> 코끝이 유독 붉게 달아오르거나 큼직한 뾰루지가 반복해서 올라오는 상태를 옛 상서에서는 '금고 한가운데 불이 붙은 형국'이라 하여 충동적인 지출이나 금전 마찰을 경계하라는 신호로 읽었습니다. 현실적으로도 수면 부족, 과음, 소화기 열감, 극심한 스트레스가 겹칠 때 코끝 혈관이 확장되고 염증이 생기며, 이 시기에는 판단력이 흐려져 홧김에 돈을 쓰거나 무리한 베팅을 하기 쉽습니다. 코끝이 붉어졌다면 큰 금전 결정을 며칠 미루고 충분한 수면과 자극적이지 않은 식단으로 컨디션부터 가라앉히는 것이 현명합니다.</li>
+  <li><strong>모공·블랙헤드와 각질 정돈:</strong> 코끝에 거뭇한 피지가 방치되거나 각질이 하얗게 일어나 윤기를 잃으면, 첫인상에서 자기 관리가 소홀하고 피곤해 보이는 느낌을 줍니다. 자극적인 압출로 코끝 피부를 붉게 상하게 하기보다, 따뜻한 스팀 타월과 저자극 클렌징, 충분한 수분 보습을 통해 코끝에 은은하고 맑은 광택이 돌도록 유지해 보세요.</li>
+  <li><strong>형상 단정에 묶이지 않는 관상 활용법:</strong> 코끝 살집이 얇거나 들렸다고 해서 재물운이 막혀 있다고 단정할 필요는 전혀 없습니다. 관상은 고정된 운명 선고가 아니라 내 소비 습관의 취약 지점을 미리 알려주는 재무 점검표에 가깝습니다. 코끝이 보내는 성향 신호를 이해하고 자동 저축, 지출 한도 설정, 계약 전 체크리스트 같은 현실적인 금융 습관을 결합할 때 가장 든든한 재물 그릇이 완성됩니다.</li>
+</ul>
+</section>
+    `,
+    contentEn: `
+<section>
+<p>Have you ever wondered why some high earners perpetually struggle with cash flow despite having a tall, commanding nasal bridge? In traditional Korean physiognomy (Gwansang, 觀相學), while the upper bridge of the nose represents personal drive, social status, and the ambition to generate income, the very apex of the nose—known as the <strong>Jundu (準頭, nose tip)</strong>—governs what actually happens to that money once it enters your hands. Analyzing <strong>nose tip gwansang</strong> and <strong>nose tip fortune korean face reading</strong> shifts the focus from raw earning power to financial retention, spending triggers, and everyday resource management.</p>
+
+<p>This guide intentionally separates the tip of the nose from comprehensive nasal bridge readings or broad wealth-face overviews that combine the eyes, mouth, and ears. Here, we examine only the fleshy cushion of the Jundu, the structural contrast between a rounded tip, a pointed tip, an upturned angle, and a downward-sloping tip, as well as how the surrounding nostril wings support the center. Understanding these specific traits offers a practical mirror for reviewing your own saving habits and financial blind spots.</p>
+
+<div class="related-posts-inline" style="background: rgba(200,134,10,0.08); border: 1px solid rgba(200,134,10,0.25); border-radius: 8px; padding: 14px 18px; margin: 20px 0;">
+  <p style="color: #C8860A; font-size: 13px; font-weight: bold; margin: 0 0 8px 0;">📌 Separate Nose Tip Reading from Full-Nose &amp; General Wealth Guides</p>
+  <ul style="margin: 0; padding-left: 16px;">
+    <li style="margin-bottom: 4px;"><a href="/face-reading/nose-reading" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Korean Nose Reading Guide: Nasal Root, Bridge Proportions, and Mid-Life Ego</a></li>
+    <li style="margin-bottom: 4px;"><a href="/face-reading/wealth-face" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">The Wealth Face Overview: How Nose, Mouth, and Ears Interact</a></li>
+    <li style="margin-bottom: 4px;"><a href="/face-reading/cheek-reading" style="color: #F5D77E; text-decoration: underline; font-size: 13px;">Cheek Face Reading: Sub-Zygomatic Fullness, Social Rapport, and Spending Buffers</a></li>
+  </ul>
+</div>
+
+<h2 id="jundu-flesh-meaning">Why Nose Tip Gwansang Reads Jundu Flesh as Your Financial Buffer</h2>
+<p>In classical texts such as the <em>Maui Sangbeop (麻衣相法)</em> and <em>Shenxiang Quanbian (神相全編)</em>, the nose stands as the Central Mountain (中嶽) of the face, and its tip—the Jundu—is classified under the <strong>Earth Element (土)</strong>. In East Asian metaphysics, Earth is the element of containment, cultivation, and stability. Just as topsoil must be thick, resilient, and well-nourished to hold moisture and anchor deep roots, the flesh at the tip of the nose symbolizes an individual's psychological and material buffer when handling capital.</p>
+
+<p>When practitioners evaluate the Jundu, they look beyond mere width and focus on <strong>subcutaneous cushioning and elastic rebound</strong>. A nose tip that feels firm yet supple—where the underlying cartilage does not poke sharply through thin, taut skin—indicates a temperament that naturally builds safety margins into financial life. Conversely, if the tip appears pinched, bony, or overly flaccid without tone, it often correlates with a thinner emotional buffer around money: either reacting with acute stress during market fluctuations or allowing funds to slip away through unmonitored micro-transactions.</p>
+
+<h2 id="round-vs-pointed-nose-tip">Round Nose Tip Gwansang vs Pointed Nose Tip Fortune: Saving and Spending Habits</h2>
+<p>Just as investors differ in risk tolerance, facial morphology reflects distinct behavioral defaults around cash management. Comparing <strong>round nose tip gwansang</strong> with <strong>pointed nose tip fortune</strong> reveals two contrasting approaches to value, accumulation, and expenditure. Neither shape guarantees riches or poverty on its own; rather, each highlights how a person prefers to circulate resources.</p>
+
+<h3>1) The Rounded, Fleshy Nose Tip: Steady Accumulation and Practical Security</h3>
+<p>When the Jundu is full, smoothly rounded, and generously padded like a small pouch, classical physiognomy associates it with grounded pragmatism and high financial retention. Individuals with this feature typically prioritize capital preservation, tangible assets, and predictable cash flow over high-volatility speculation. In daily life, they derive genuine psychological comfort from watching emergency reserves grow steadily and tend to separate living expenses from long-term savings early on.</p>
+<p>In interpersonal dealings, a well-cushioned round tip signals warmth and a willingness to seek mutually beneficial compromises, which helps attract loyal clients and long-term business partners. The primary blind spot to watch for is excessive softness: if the tip is overly bulbous without firm definition, a person may struggle to refuse financial favors from relatives or delay cutting losses on an underperforming commitment out of sentimental attachment.</p>
+
+<h3>2) The Pointed, Slender Nose Tip: Aesthetic Precision and Selective High-Value Spending</h3>
+<p>A nose tip that tapers into a sharp, slender point with minimal flesh over the cartilage points to acute analytical sensitivity, fast discernment, and strong aesthetic standards. Rather than being broad generalists, people with a pointed Jundu excel where precision, taste, and critical evaluation are rewarded—such as specialized design, auditing, editorial curation, strategic consulting, or niche technical fields.</p>
+<p>From a money-management standpoint, <strong>pointed nose tip fortune</strong> is characterized by selective concentration. These individuals may be remarkably frugal about everyday utilities yet spend boldly and without hesitation on specialized equipment, luxury craftsmanship, or personal passions that meet their exacting standards. Because a lean nasal tip represents a smaller natural storage buffer, keeping large sums of idle cash in a checking account often leads to impulsive high-ticket purchases. Setting up automatic transfers into illiquid or long-term investment accounts on payday is the most effective way to balance their sharp earning talent with lasting retention.</p>
+
+<div style="overflow-x: auto; margin: 25px 0;">
+  <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 14px; border: 1px solid rgba(255,255,255,0.15);">
+    <thead>
+      <tr style="background: rgba(200,134,10,0.18); color: #F5D77E; border-bottom: 2px solid rgba(200,134,10,0.4);">
+        <th style="padding: 10px 14px;">Nose Tip (Jundu) Profile</th>
+        <th style="padding: 10px 14px;">Structural &amp; Flesh Traits</th>
+        <th style="padding: 10px 14px;">Core Money Management Style</th>
+        <th style="padding: 10px 14px;">Common Spending Vulnerability</th>
+        <th style="padding: 10px 14px;">Recommended Financial Habit</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
+        <td style="padding: 10px 14px; font-weight: bold; color: #f9d976;">Round &amp; Fleshy Tip</td>
+        <td style="padding: 10px 14px;">Plump, elastic tissue smoothly covering cartilage</td>
+        <td style="padding: 10px 14px;">Consistent saving, preference for tangible assets</td>
+        <td style="padding: 10px 14px;">Lending money out of sympathy or slow exit from bad deals</td>
+        <td style="padding: 10px 14px;">Written rules for personal loans and clear stop-loss limits</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.02);">
+        <td style="padding: 10px 14px; font-weight: bold; color: #f9d976;">Pointed &amp; Lean Tip</td>
+        <td style="padding: 10px 14px;">Thin skin, defined cartilage angle, narrow apex</td>
+        <td style="padding: 10px 14px;">High value creation through niche expertise and taste</td>
+        <td style="padding: 10px 14px;">Sudden high-ticket splurges driven by perfectionism or mood</td>
+        <td style="padding: 10px 14px;">Automated payday sweeps into locked savings vehicles</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
+        <td style="padding: 10px 14px; font-weight: bold; color: #f9d976;">Upturned Tip</td>
+        <td style="padding: 10px 14px;">Apex tilts upward, nostrils visible from the front</td>
+        <td style="padding: 10px 14px;">Fast cash circulation, generous social networking</td>
+        <td style="padding: 10px 14px;">Social hosting costs, spontaneous impulse buying</td>
+        <td style="padding: 10px 14px;">48-hour cooling-off rule for non-essential purchases</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px 14px; font-weight: bold; color: #f9d976;">Downward-Sloping Tip</td>
+        <td style="padding: 10px 14px;">Apex curves slightly toward philtrum, concealing nostrils</td>
+        <td style="padding: 10px 14px;">Rigorous cost-benefit calculation, strong privacy</td>
+        <td style="padding: 10px 14px;">Over-caution or appearing overly tight-fisted in partnerships</td>
+        <td style="padding: 10px 14px;">Pre-allocated budget for relationship building and team sharing</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="cta-container" style="text-align: center; margin: 40px 0;">
+  <a href="/en/gwansang-analysis" style="display: inline-block; background: linear-gradient(135deg, #d4af37 0%, #f9d976 100%); color: #1a1a1a; font-weight: bold; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">📸 Check Your Nose Tip Proportions and Mid-Life Money Flow with AI Face Reading →</a>
+</div>
+
+<h2 id="nose-tip-angle-and-wings">Tip Angle and Alar Wings: How Nose Tip Money Luck Stays or Leaks</h2>
+<p>To evaluate <strong>nose tip money luck</strong> accurately, a practitioner never looks at the central bulb in isolation. In Korean face reading, the Jundu (the central vault) must be judged alongside its vertical tilt in profile and the two flanking alar wings—known as <em>Nandae (蘭臺, left wing)</em> and <em>Jeongwi (廷尉, right wing)</em>—which act as the supporting walls and locks of the treasury.</p>
+
+<ul>
+  <li><strong>The Upturned Angle (Open Vault Doors):</strong> When the tip tilts upward so that the nostrils are clearly visible at eye level, the person typically radiates candor, optimism, and quick social warmth. Financially, however, classical texts describe this as a vault with its doors left ajar. Money enters easily through active social connections, yet it exits just as quickly through spontaneous generosity, picking up group tabs, or emotional retail therapy.</li>
+  <li><strong>The Downward-Sloping Angle (Guarded Reserves):</strong> When the tip angles slightly downward toward the upper lip and shields the nostrils from frontal view, the individual tends to be highly strategic and private about financial matters. They rarely disclose their true net worth, scrutinize every clause before signing, and excel at long-term resource conservation. Their main challenge is interpersonal: if calculation overshadows generosity, collaborators may feel distanced, so scheduling intentional generosity helps maintain goodwill.</li>
+  <li><strong>Balance Between the Center Tip and Alar Wings:</strong> A plump Jundu flanked by paper-thin, weak nostril wings suggests someone who earns diligently on their own but frequently sees savings drained by family obligations or weak administrative support. Conversely, wide, flared nostril wings paired with a flat, depressed central tip indicate a person who operates in high-volume environments or manages large budgets for others, yet struggles to convert that activity into personal net worth without deliberate profit-first accounting.</li>
+</ul>
+
+<h2 id="nose-tip-personality-work">How Nose Tip Personality Shapes Negotiations, Contracts, and Daily Outflows</h2>
+<p>Because the nose tip is the most forward-projecting point on the human face, physiognomists view it as the physical spearhead of everyday decision-making. Your nose tip personality becomes most visible not when you are relaxed, but at the exact moment you negotiate a salary, close a client contract, or decide whether to commit capital.</p>
+
+<p>People with a well-padded, rounded Jundu naturally negotiate with an eye toward relationship longevity and downside protection. They prefer clear, stable terms where both parties walk away satisfied, making them dependable long-term operators. In contrast, individuals with a sharper, more angular nose tip excel at spotting hidden defects, questioning vague assumptions, and demanding precise deliverables. By recognizing your baseline tendency, you can compensate proactively: those with rounded tips benefit from using a strict numerical checklist before agreeing to favors, while those with pointed tips gain leverage by softening their delivery during final contract discussions.</p>
+
+<h2 id="jundu-condition-and-care">Surface Blemishes, Redness, and Practical Care for a Clear Nose Tip</h2>
+<p>While cartilage structure is largely inherited, traditional Gwansang emphasizes that <strong>Gi-saek (氣色, surface luminosity and skin tone)</strong> carries immediate weight in day-to-day fortune. Because the tip of the nose has dense sebaceous glands and rich capillary networks, it acts as an early indicator of physical fatigue, digestive heat, and financial impulsiveness.</p>
+
+<ul>
+  <li><strong>Calming Chronic Redness and Breakouts (Fire in the Central Hall):</strong> Classical manuals refer to a bright red or inflamed nose tip as <em>Hwa-so-jung-dang (火燒中堂)</em>—"fire burning inside the central hall." In traditional interpretation, a sudden red blemish or persistent flushing on the Jundu signals impending unplanned expenses, disputes over money, or hasty decisions driven by irritation. Physiologically, it often coincides with sleep deprivation, heavy alcohol or spicy food intake, and elevated stress hormones. When your nose tip flares up red, treat it as a practical yellow light: pause non-urgent investments, avoid emotional arguments, and prioritize rest.</li>
+  <li><strong>Keeping Pores Clear and Skin Hydrated:</strong> A nose tip dulled by oxidized sebaceous filaments, flaky dryness, or rough scarring can subtly project exhaustion in face-to-face meetings. Instead of aggressive squeezing that bruises the delicate tissue of the Jundu, gentle warm-towel cleansing and balanced moisturization help maintain the clean, subtle sheen that traditional readers associate with smooth cash flow.</li>
+  <li><strong>Using Physiognomy as a Habit Audit, Not Fatalism:</strong> Having a thin, pointed, or upturned nose tip never sentences anyone to lifelong financial struggle. Face reading is best used as a behavioral mirror. Once you know whether your tendencies lean toward impulse spending, perfectionist splurges, or overly soft boundaries, simple structural tools—such as automated savings, separate budgeting accounts, and a 24-hour waiting period before major purchases—allow you to manage your wealth with confidence.</li>
+</ul>
+</section>
+    `,
+    toc: [
+      { id: 'jundu-flesh-meaning', title: '준두 관상에서 코끝 살집을 재물 금고의 바닥으로 보는 이유' },
+      { id: 'round-vs-pointed-nose-tip', title: '코끝 둥글면 관상 vs 코끝 뾰족하면 관상: 저축과 소비 비교' },
+      { id: 'nose-tip-angle-and-wings', title: '들린 코끝·처진 코끝과 콧망울 조화로 읽는 코끝 재물운' },
+      { id: 'nose-tip-personality-work', title: '코끝 성격이 계약·협상·일상 지출에서 드러나는 순간' },
+      { id: 'jundu-condition-and-care', title: '피지·붉은기·건조함이 보내는 신호와 준두 인상 관리법' },
+    ],
+    tocEn: [
+      { id: 'jundu-flesh-meaning', title: 'Why Nose Tip Gwansang Reads Jundu Flesh as Your Buffer' },
+      { id: 'round-vs-pointed-nose-tip', title: 'Round Nose Tip vs Pointed Nose Tip: Saving and Spending' },
+      { id: 'nose-tip-angle-and-wings', title: 'Tip Angle and Alar Wings in Nose Tip Money Luck' },
+      { id: 'nose-tip-personality-work', title: 'How Nose Tip Personality Shapes Negotiations and Outflows' },
+      { id: 'jundu-condition-and-care', title: 'Surface Blemishes, Redness, and Practical Jundu Care' },
+    ],
+    faq: [
+      { q: '준두 관상에서 코끝 살집이 얇고 뾰족하면 돈을 모으기 어려운가요?', a: '코끝 살집이 얇다고 해서 돈을 못 버는 것은 아닙니다. 오히려 예리한 안목과 전문성으로 높은 소득을 올리는 경우가 많지만, 취향 소비나 일시적 기분에 따른 고액 지출로 현금이 빠르게 이동하는 경향이 있습니다. 월급이나 수입이 들어오는 즉시 강제 저축이나 장기 자산으로 먼저 분리해 두는 습관을 들이면 충분히 단단하게 자산을 모을 수 있습니다.' },
+      { q: '코끝은 둥근데 콧구멍이 정면에서 보이면 코끝 재물운을 어떻게 해석하나요?', a: '준두 자체에 살집이 있어 돈을 벌어들이는 힘과 대인 친화력은 좋지만, 코끝 각도가 들려 콧구멍이 노출되면 들어온 현금을 통장에 오래 묶어두지 못하고 모임 비용이나 즉흥 소비로 쉽게 내보내는 흐름이 생기기 쉽습니다. 현금이나 신용카드 한도를 줄이고, 쉽게 인출할 수 없는 적립식 계좌를 활용하는 것이 좋습니다.' },
+      { q: '코끝에 점이 있거나 갑자기 붉은 뾰루지가 나면 관상학적으로 어떤 의미인가요?', a: '전통 상학에서 코끝(준두)의 붉은 뾰루지나 강한 붉은기는 일시적인 과로, 소화기 열감과 함께 예상치 못한 지출이나 금전적 다툼이 생길 수 있음을 알리는 주의 신호로 봅니다. 이 시기에는 충동구매나 무리한 투자 결정을 잠시 미루고 휴식과 피부 진정에 신경 쓰는 것이 현명합니다. 또한 코끝 정중앙의 어둡고 탁한 점은 지출 변수를 뜻할 수 있어 깔끔하게 관리하는 편을 권장합니다.' },
+    ],
+    faqEn: [
+      { q: 'Does having a thin or pointed nose tip in Gwansang mean I cannot build wealth?', a: 'Not at all. A pointed nose tip often correlates with sharp analytical skills, strong aesthetic judgment, and high earning potential in specialized fields. However, because it indicates a smaller natural buffer against selective high-ticket spending, relying on willpower alone can leave cash flow volatile. Automating transfers into long-term savings or illiquid assets on payday easily compensates for this tendency.' },
+      { q: 'How do you read a nose tip that is fleshy and round, yet slightly upturned?', a: 'A fleshy, rounded Jundu paired with an upturned angle indicates strong earning energy and warm social charm, meaning money and opportunities flow in readily. However, the upward tilt suggests that liquid cash leaves just as quickly through social generosity or spontaneous purchases. Using separate accounts for fixed savings and discretionary social spending keeps this combination balanced.' },
+      { q: 'Why does traditional Korean face reading warn against redness or pimples on the nose tip?', a: 'In classical Gwansang, sudden redness or a painful blemish on the Jundu is called "fire in the central hall," symbolizing temporary stress, digestive heat, and a heightened risk of impulsive spending or financial friction. Rather than viewing it as superstition, treat it as a practical reminder to get enough sleep, calm skin inflammation, and postpone major financial commitments for a few days.' },
+    ],
+    relatedPosts: [
+      { slug: 'nose-reading', category: 'face-reading', title: '코 관상 가이드: 내 얼굴의 기둥, 재물운과 자존심의 상징' },
+      { slug: 'cheek-reading', category: 'face-reading', title: '볼살 관상 — 협골 주변 살집으로 보는 친화력과 소비 성향' },
+    ],
+  },
+
 ], '2026-01-08', 4, '2026-02-12', 1);

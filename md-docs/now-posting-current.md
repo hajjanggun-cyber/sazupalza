@@ -77,6 +77,9 @@ Updated At: 2026-05-31 KST
 | 55 | 볼살 관상 — 협골 주변 살집으로 보는 친화력과 소비 성향 | `cheek-reading` |
 | 56 | 목선 관상 — 목 길이·굵기로 보는 지속력과 컨디션 | `neck-reading` |
 | 57 | 쌍꺼풀 관상 세부 해석 — 속쌍·겉쌍·외꺼풀 차이 | `double-eyelid-reading` |
+| 58 | 입술 색 관상 — 붉은색·창백한색·검붉은색 신호 | `lip-color-reading` |
+| 59 | 손바닥 관상 — 손 크기·두께로 보는 재물운과 실행력 | `palm-shape-reading` |
+| 60 | 준두 관상 — 코끝 살집과 모양으로 보는 돈 관리 습관 | `nose-tip-reading` |
 | 64 | 2026 MBTI 운세표 — 병오년 16유형별 주의 키워드 | `mbti-fortune-2026` |
 | 65 | INFP 사주 — 감수성과 편인 기운으로 보는 2026 흐름 | `infp-saju` |
 | 77 | 감정선 시작점과 끊김 — 연애 패턴 손금 해석 | `heart-line-palmistry` |
@@ -85,30 +88,30 @@ Updated At: 2026-05-31 KST
 
 ## 현재 작성 대상
 
-[완료] 57. 쌍꺼풀 관상 세부 해석 — 속쌍·겉쌍·외꺼풀 차이
-- slug: `double-eyelid-reading`
+[완료] 60. 준두 관상 — 코끝 살집으로 보는 돈 관리 습관
+- slug: `nose-tip-reading`
 - 카테고리: `face-reading`
 - 작성 파일: `lib/blog/gwansang-posts.ts`
-- 메인 키워드 KO: 쌍꺼풀 관상, 속쌍 관상
-- 메인 키워드 EN: double eyelid gwansang, eyelid crease fortune korean
-- 하위 키워드 KO: 겉쌍꺼풀 관상, 외꺼풀 관상, 쌍꺼풀 라인 성격, 눈꺼풀 관상 차이
-- 하위 키워드 EN: single eyelid gwansang, double eyelid personality korean, eyelid type fortune
-- 작성 지침: eye-reading(눈 전체)과 다름. 눈 모양·눈빛 전체가 아니라 눈꺼풀 라인, 속쌍/겉쌍/외꺼풀 차이만 집중 분석한다.
+- 메인 키워드 KO: 준두 관상, 코끝 살집 관상
+- 메인 키워드 EN: nose tip gwansang, nose tip fortune korean face reading
+- 하위 키워드 KO: 코끝 둥글면 관상, 코끝 뾰족하면 관상, 코끝 재물운, 코끝 성격
+- 하위 키워드 EN: round nose tip gwansang, pointed nose tip fortune, nose tip money luck
+- 작성 지침: nose-reading(코 전체)·wealth-face(재물 관상 총론)와 다름. 준두의 살집, 둥근형·뾰족형·들린형 차이를 돈을 모으는 습관과 소비 성향 중심으로 분석.
 - 완료 파일: `lib/blog/gwansang-posts.ts`
 
 ---
 
 ## 다음 작성 예정 상세
 
-[ ] 58. 입술 색 관상 — 붉은색·창백한색·검붉은색 신호
-- slug: `lip-color-reading`
+[ ] 61. 법령선 관상 — 코 옆 주름으로 보는 책임감과 말년운
+- slug: `nasolabial-line-reading`
 - 카테고리: `face-reading`
 - 작성 파일: `lib/blog/gwansang-posts.ts`
-- 메인 키워드 KO: 입술 색 관상, 입술 색 건강
-- 메인 키워드 EN: lip color gwansang, lip color fortune korean face reading
-- 하위 키워드 KO: 붉은 입술 관상, 창백한 입술 관상, 검붉은 입술 관상, 입술 혈색 관상
-- 하위 키워드 EN: red lips gwansang, pale lips fortune, lip color health korean
-- 작성 지침: mouth-lips(입술 모양 전체)과 다름. 입꼬리·입술 두께가 아니라 입술 혈색과 일시적 컨디션 신호만 다룬다. 건강 단정 표현 금지.
+- 메인 키워드 KO: 법령선 관상, 팔자주름 관상
+- 메인 키워드 EN: nasolabial line gwansang, smile line face reading korean
+- 하위 키워드 KO: 코 옆 주름 관상, 법령선 깊으면, 팔자주름 말년운, 법령선 직업운
+- 하위 키워드 EN: deep nasolabial folds fortune, smile line gwansang, face line career luck
+- 작성 지침: health-face(얼굴색/기색)와 겹치지 않도록 얼굴색을 다루지 않는다. 법령선 깊이·길이·좌우 차이와 책임감·말년운 해석 중심.
 
 ---
 
@@ -116,9 +119,6 @@ Updated At: 2026-05-31 KST
 
 | 번호 | category | slug | 제목 |
 |---:|---|---|---|
-| 58 | face-reading | `lip-color-reading` | 입술 색 관상 — 혈색 변화로 보는 컨디션 신호와 주의점 |
-| 59 | face-reading | `palm-shape-reading` | 손바닥 관상 — 손 크기와 두께로 보는 실행력과 돈 관리 |
-| 60 | face-reading | `nose-tip-reading` | 코끝 관상 준두 해석 — 살집으로 보는 돈 관리 습관 |
 | 61 | face-reading | `nasolabial-line-reading` | 법령선 관상 — 코 옆 주름으로 보는 책임감과 말년운 |
 | 62 | face-reading | `finger-reading` | 손가락 관상 — 마디와 길이 비율로 보는 일 처리 방식 |
 | 63 | face-reading | `eye-pupil-reading` | 눈동자 관상 — 눈동자 크기와 흰자 비율로 보는 성격 |

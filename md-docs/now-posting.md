@@ -575,7 +575,7 @@
 - 하위 키워드 EN: thick palm fortune, large hand gwansang, palm shape personality
 - 작성 지침: finger-reading(손가락 특화)과 다름. 손가락 길이는 제외하고 손바닥 크기·두께·탄력·손 전체 비율만 다룬다.
 
-[ ] 60. 준두 관상 — 코끝 살집으로 보는 돈 관리 습관
+[완료] 60. 준두 관상 — 코끝 살집으로 보는 돈 관리 습관
 - slug: `nose-tip-reading`
 - 카테고리: `face-reading`
 - 메인 키워드 KO: 준두 관상, 코끝 살집 관상
